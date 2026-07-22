@@ -174,9 +174,4 @@ benchmark/
 ├── preprocess/    # dataset contract check, clip cutting, effective episodes
 ├── inference/     # prompt assembly + Qwen-Omni / Gemini runners
 └── evaluation/    # formal scorer, OV-MER emotion grouping, LLM judge
-tests/             # offline unittest suite (no network, no API keys)
-```
-
-```bash
-python3 -m unittest discover -s tests
 ```

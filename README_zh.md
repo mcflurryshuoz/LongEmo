@@ -164,9 +164,4 @@ benchmark/
 ├── preprocess/    # 数据契约校验、切片、有效整集
 ├── inference/     # prompt 组装 + Qwen-Omni / Gemini 推理脚本
 └── evaluation/    # 正式评分器、OV-MER 情感分组、LLM 裁判
-tests/             # 离线单测（无网络、无需 API key）
-```
-
-```bash
-python3 -m unittest discover -s tests
 ```
