@@ -13,6 +13,14 @@ _GENERAL_INSTRUCTIONS = (
     "Respond with the final answer only, using the format specified below."
 )
 
+_TEXT_INFERENCE_INSTRUCTIONS = (
+    "Answer the episode-level emotion question using only the complete subtitle transcript "
+    "provided below. You do not have access to video frames, facial expressions, body "
+    "language, or audio. Read the full transcript before answering and rely only on its "
+    "dialogue, speaker identities, timestamps, and temporal context.\n\n"
+    "Respond with the final answer only, using the format specified below."
+)
+
 _ANSWER_FORMATS = {
     "emotion_labels": (
         "- Select one or more emotion labels exclusively from the options listed above.\n"
@@ -80,6 +88,32 @@ def build_prompt(record: dict[str, Any], *, with_transcript: bool = True) -> str
         answer_format = _ANSWER_FORMATS["single_choice_letter"]
     if answer_format:
         parts.append("Answer format:\n" + answer_format)
+    return "\n\n".join(parts).strip()
+
+
+def build_text_inference_prompt(record: dict[str, Any], transcript: str) -> str:
+    """Build a g2 prompt whose only episode evidence is the released subtitle text."""
+    if contract.question_granularity(record) != "2_episode":
+        raise ValueError("text inference supports only 2_episode questions")
+    if record.get("prompt_template") is not None:
+        raise ValueError("2_episode questions must not use prompt_template")
+    transcript = str(transcript or "").strip()
+    if not transcript:
+        raise ValueError("text inference requires a non-empty subtitle transcript")
+
+    parts = [
+        _TEXT_INFERENCE_INSTRUCTIONS,
+        "Subtitle transcript:\n" + transcript,
+        "Question:\n" + str(record.get("question") or "").strip(),
+    ]
+    options = record.get("options") or []
+    if options:
+        parts.append("Options:\n" + "\n".join(str(option) for option in options))
+
+    if record.get("question_type") == "single_choice":
+        parts.append("Answer format:\n" + _ANSWER_FORMATS["single_choice_letter"])
+    elif contract.is_yes_no_question(record):
+        parts.append("Answer format:\nReturn only Yes or No.")
     return "\n\n".join(parts).strip()
 
 

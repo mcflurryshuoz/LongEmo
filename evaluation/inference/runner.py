@@ -71,11 +71,11 @@ def run_benchmark(
     questions: list[dict[str, Any]],
     out_path: Path,
     ask: Callable[[dict[str, Any], list[dict[str, Any]]], str],
-    get_videos: Callable[[str, dict[str, Any]], list[dict[str, Any]]],
+    load_inputs: Callable[[str, dict[str, Any]], list[dict[str, Any]]],
 ) -> None:
     """Answer selected questions and write the merged prediction file."""
     existing: dict[str, dict[str, Any]] = {}
-    if out_path.exists() and not args.force:
+    if out_path.exists():
         for item in io_utils.load_questions(out_path):
             if "pred_answer" in item:
                 existing[io_utils.question_key(item)] = {
@@ -100,10 +100,12 @@ def run_benchmark(
         raw = ""
         error: str | None = None
         try:
-            videos = get_videos(key, q)
+            inputs = load_inputs(key, q)
             for k in range(args.tries):
                 try:
-                    raw = ask(q, videos)
+                    raw = str(ask(q, inputs) or "")
+                    if not raw.strip():
+                        raise RuntimeError("model returned an empty response")
                     error = None
                     break
                 except Exception as e:
@@ -117,6 +119,7 @@ def run_benchmark(
         item["pred_info"] = {
             "model": args.model,
             "granularity": contract.question_granularity(q),
+            "input_mode": getattr(args, "input_mode", "video"),
             "prompt_template": q.get("prompt_template"),
             "thinking": getattr(args, "thinking", "default"),
             "with_transcript": bool(getattr(args, "with_transcript", True)),

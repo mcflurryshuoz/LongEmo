@@ -333,6 +333,7 @@ def _metrics(items: list[dict[str, Any]], result: dict[str, Any]) -> dict[str, A
         "macro_aggregation": hierarchy["aggregation"],
         "granularity_scores": hierarchy["granularity_scores"],
         "series_scores": grouped_question_scores(question_records, "series"),
+        "task_type_scores": grouped_question_scores(question_records, "task_type"),
         "question_scores": question_summary,
         "accuracy": accuracy_metrics(accuracy_records),
         "closed_emotion": micro_prf(emotion_records),
@@ -362,6 +363,25 @@ def write_summary(path: str | Path, metrics: dict[str, Any]) -> None:
         f"- Closed-emotion exact match: {emotion['exact_match']}",
         f"- Prediction format issues: {metrics['prediction_format_issue_count']}",
     ]
+
+    def add_score_table(title: str, groups: dict[str, Any]) -> None:
+        lines.extend(
+            [
+                "",
+                f"## {title}",
+                "",
+                "| Category | Questions | Points | Score | Coverage |",
+                "|---|---:|---:|---:|---:|",
+            ]
+        )
+        for name, values in groups.items():
+            lines.append(
+                f"| {name} | {values['n']} | {values['earned_points']:.2f}/"
+                f"{values['possible_points']} | {values['score']:.2%} | "
+                f"{values['coverage']:.2%} |"
+            )
+
+    add_score_table("Scores by task type", metrics["task_type_scores"])
     Path(path).write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -373,6 +393,7 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--base-url")
     ap.add_argument("--api-key")
     ap.add_argument("--timeout", type=float, default=180)
+    ap.add_argument("--thinking", choices=("on", "off", "default"), default="default")
     return ap.parse_args()
 
 
@@ -393,6 +414,8 @@ def main() -> None:
     io_utils.write_jsonl(out / "scores_questions.jsonl", result["question_score_records"])
     io_utils.write_json(out / "prediction_format_issues.json", result["prediction_format_issues"])
     metrics = _metrics(items, result)
+    if judge is not None:
+        metrics["judge"] = {"model": args.model, "thinking": args.thinking}
     io_utils.write_json(out / "metrics.json", metrics)
     write_summary(out / "summary.md", metrics)
     print(json.dumps({"out": str(out), **metrics}, ensure_ascii=False))

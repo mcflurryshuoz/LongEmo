@@ -204,14 +204,55 @@ Use `qwen_omni.py` instead of `gemini.py`, together with an OpenAI-compatible
 Qwen-Omni endpoint, to evaluate Qwen-Omni. The two backends support both video
 granularities.
 
+### Text-only episode inference
+
+`infer_text.py` evaluates `g2_episode` questions using only the released
+timestamped, speaker-attributed subtitles. It does not read video or audio.
+Any OpenAI-compatible text model endpoint can be used.
+
+Run one episode:
+
+```bash
+PYTHONPATH=. python3 evaluation/inference/infer_text.py \
+  --questions data/friends/g2_episode/s01e01.json \
+  --model <text-model> \
+  --base-url <openai-compatible-base-url> \
+  --api-key <api-key>
+```
+
+Run every episode-level question for one series:
+
+```bash
+PYTHONPATH=. python3 evaluation/inference/infer_text.py \
+  --questions data/friends/g2_episode/all.json \
+  --model <text-model> \
+  --base-url <openai-compatible-base-url> \
+  --api-key <api-key>
+```
+
+Run all available series:
+
+```bash
+bash evaluation/inference/run_all.sh \
+  infer_text all g2_episode \
+  --model <text-model> \
+  --base-url <openai-compatible-base-url> \
+  --api-key <api-key>
+```
+
+Text-only output filenames include `text`, and
+`pred_info.input_mode` is set to `text`, keeping them separate from
+multimodal predictions.
+
 Each granularity directory contains an `all.json` file with every question for
 that series. If `--out` is omitted, inference writes to `output/` using a name
 derived from the series, granularity, question file, and model.
 
-Each inference run processes one granularity. Inference only consumes media
-produced by `preprocess`; it never cuts or modifies videos. The inference output
-preserves every question and adds `pred_answer` plus `pred_info`, including
-granularity, active template, raw response, parse errors, and transport errors.
+Each inference run processes one granularity. Video inference only consumes
+media produced by `preprocess`; it never cuts or modifies videos. The inference
+output preserves every question and adds `pred_answer` plus `pred_info`,
+including granularity, input mode, active template, raw response, parse errors,
+and transport errors.
 
 Subtitles are included by default without character names or speaker labels.
 Use `--no-transcript` only for a video-and-audio-only ablation. Useful runtime
@@ -231,7 +272,7 @@ retried. To retry a parse error without re-running the full file, combine its
 
 ## Scoring
 
-Closed answers are scored locally. A text-only LLM judge is required only when
+Closed answers are scored locally. An LLM judge is required only when
 the prediction file contains answered open-ended questions other than Yes/No.
 For example, score a complete Friends clip-level run with DeepSeek-V4-Flash:
 

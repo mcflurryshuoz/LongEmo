@@ -193,12 +193,50 @@ bash evaluation/inference/run_all.sh \
 如需评估 Qwen-Omni，将 `gemini.py` 换成 `qwen_omni.py`，并提供兼容 OpenAI
 格式的 Qwen-Omni API 地址。两个后端都支持 `g1_clip` 和 `g2_episode`。
 
+### 纯文本 episode 推理
+
+`infer_text.py` 只使用已发布的带时间戳、带角色名字幕回答 `g2_episode` 问题，
+不会读取视频或音频。它支持任意兼容 OpenAI 格式的文本模型接口。
+
+推理一集：
+
+```bash
+PYTHONPATH=. python3 evaluation/inference/infer_text.py \
+  --questions data/friends/g2_episode/s01e01.json \
+  --model <text-model> \
+  --base-url <openai-compatible-base-url> \
+  --api-key <api-key>
+```
+
+推理一个系列的全部 episode 级问题：
+
+```bash
+PYTHONPATH=. python3 evaluation/inference/infer_text.py \
+  --questions data/friends/g2_episode/all.json \
+  --model <text-model> \
+  --base-url <openai-compatible-base-url> \
+  --api-key <api-key>
+```
+
+批量推理全部系列：
+
+```bash
+bash evaluation/inference/run_all.sh \
+  infer_text all g2_episode \
+  --model <text-model> \
+  --base-url <openai-compatible-base-url> \
+  --api-key <api-key>
+```
+
+纯文本推理结果文件名包含 `text`，且 `pred_info.input_mode` 为 `text`，
+不会与多模态推理结果混淆。
+
 每个粒度目录中的 `all.json` 包含该系列的全部问题。不指定 `--out` 时，结果
 会按照系列、粒度、题目文件和模型名称自动写入 `output/`。
 
-每次推理只处理一种粒度。推理代码只读取 `preprocess` 已经生成的视频，不会
-在推理过程中裁剪或修改视频。输出保留原始问题，并为每道题增加
-`pred_answer` 和 `pred_info`；后者记录原始响应、解析错误和请求错误。
+每次推理只处理一种粒度。视频推理代码只读取 `preprocess` 已经生成的视频，
+不会在推理过程中裁剪或修改视频。输出保留原始问题，并为每道题增加
+`pred_answer` 和 `pred_info`；后者记录输入模式、原始响应、解析错误和请求错误。
 
 推理默认加入题目字幕，但字幕不包含角色名或说话人标签。只有进行纯视频与
 音频消融实验时才使用 `--no-transcript`。常用参数包括：

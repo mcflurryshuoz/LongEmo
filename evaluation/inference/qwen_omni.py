@@ -61,7 +61,7 @@ def main() -> None:
 
     questions = io_utils.load_questions(args.questions)
     try:
-        get_videos = video_loader.build_loader(args, questions)
+        load_inputs = video_loader.build_loader(args, questions)
     except ValueError as exc:
         ap.error(str(exc))
     client = _client(args.base_url, args.api_key, args.timeout)
@@ -90,7 +90,7 @@ def main() -> None:
         questions=questions,
         out_path=runner.default_out_path(args, args.questions, questions),
         ask=ask,
-        get_videos=get_videos,
+        load_inputs=load_inputs,
     )
 
 

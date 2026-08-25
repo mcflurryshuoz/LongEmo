@@ -11,6 +11,7 @@ import sys
 import time
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 CODE_ROOT = Path(__file__).resolve().parents[1]
 if str(CODE_ROOT) not in sys.path:
@@ -53,6 +54,7 @@ class OpenAICompatibleJudge:
         base_url: str | None = None,
         api_key: str | None = None,
         timeout: float = 180,
+        thinking: str = "default",
     ) -> None:
         from openai import OpenAI
 
@@ -61,6 +63,10 @@ class OpenAICompatibleJudge:
             kwargs["base_url"] = base_url
         self.client = OpenAI(**kwargs)
         self.model = model
+        self.thinking = thinking
+        host = (urlparse(base_url or "").hostname or "").lower()
+        if thinking != "default" and host != "api.deepseek.com":
+            raise ValueError("--thinking on/off is supported only for the official DeepSeek endpoint")
 
     @classmethod
     def from_args(cls, args: Any) -> "OpenAICompatibleJudge":
@@ -80,6 +86,7 @@ class OpenAICompatibleJudge:
             base_url=args.base_url,
             api_key=args.api_key,
             timeout=float(getattr(args, "timeout", 180)),
+            thinking=str(getattr(args, "thinking", "default")),
         )
 
     def judge(self, q: dict[str, Any], pred_answer: Any, *, tries: int = 3) -> dict[str, Any]:
@@ -87,12 +94,19 @@ class OpenAICompatibleJudge:
         last = None
         for k in range(tries):
             try:
-                resp = self.client.chat.completions.create(
-                    model=self.model,
-                    temperature=0.0,
-                    max_tokens=500,
-                    messages=[{"role": "user", "content": prompt}],
-                )
+                request: dict[str, Any] = {
+                    "model": self.model,
+                    "temperature": 0.0,
+                    "max_tokens": 500,
+                    "messages": [{"role": "user", "content": prompt}],
+                }
+                if self.thinking != "default":
+                    request["extra_body"] = {
+                        "thinking": {
+                            "type": "enabled" if self.thinking == "on" else "disabled"
+                        }
+                    }
+                resp = self.client.chat.completions.create(**request)
                 raw = resp.choices[0].message.content or ""
                 parsed = json.loads(raw)
                 if (
@@ -106,6 +120,8 @@ class OpenAICompatibleJudge:
                     and isinstance(parsed["matched"], str)
                 ):
                     parsed["raw_judge"] = raw
+                    parsed["judge_model"] = self.model
+                    parsed["thinking"] = self.thinking
                     return parsed
                 last = {"raw_judge": raw, "error": "judge returned invalid JSON fields"}
             except Exception as e:
