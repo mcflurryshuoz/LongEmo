@@ -9,6 +9,9 @@ LongEmoBench/
 │   └── <series>/
 │       ├── g1_clip/              # 片段级题目
 │       └── g2_episode/           # 整集级题目
+├── subtitles/                    # 仅含对白的逐集字幕
+│   └── <series>/
+│       └── <episode>.json
 ├── videos/
 │   ├── sources/<series>/         # 原始整集与 valid_ranges.json
 │   └── processed/
@@ -26,6 +29,27 @@ LongEmoBench/
 
 `g2_episode` 是整集级输入。每道题提供去除片头和片尾后的完整一集，用于评估
 模型分析跨场景情绪变化，并整合长时间范围内情感信息的能力。
+
+## 字幕
+
+逐集字幕位于 `subtitles/<series>/<episode>.json`。字幕中已去除嵌入文本的
+说话人标签、舞台动作、音效说明和字幕制作信息，避免非语言描述向模型泄露
+视觉或音频证据。
+
+每条字幕包含 `series`、`ep`、`unit_id`、`t`、`speaker` 和 `text`。
+`t` 是以秒为单位的 `[start, end]` 时间区间；`speaker` 是已标注的角色名，
+源标注无法可靠识别角色时为 `unknown`。
+
+从审核后的 `s1_perception` 文件重新生成全部字幕：
+
+```bash
+PYTHONPATH=. python3 preprocess/prepare_subtitles.py \
+  --inputs-root /path/to/vebench/outputs \
+  --out subtitles
+```
+
+可添加 `--series friends` 或 `--episode S01E01` 限制导出范围，两个参数均可
+重复使用。
 
 ## 视频预处理
 

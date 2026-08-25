@@ -1,0 +1,2268 @@
+[
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0001",
+    "t": [
+      9.322,
+      16.246
+    ],
+    "speaker": "Niles",
+    "text": "Double cappuccino, half-caf, nonfat milk, with just enough foam to be aesthetically pleasing but not so much that it leaves a mustache."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0002",
+    "t": [
+      16.788,
+      19.79
+    ],
+    "speaker": "Eric",
+    "text": "- Cinnamon or chocolate on that? - They make this so complicated."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0003",
+    "t": [
+      19.791,
+      21.543
+    ],
+    "speaker": "Niles",
+    "text": "- Um, cinnamon. - And you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0004",
+    "t": [
+      22.043,
+      26.255
+    ],
+    "speaker": "Frasier",
+    "text": "- Let me see, I think I'll have the-- - Oh! Look! It's Daphne. Daphne! Daphne!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0005",
+    "t": [
+      26.256,
+      33.387
+    ],
+    "speaker": "Daphne",
+    "text": "Oh. Hello. Thought I might run into you here. Oh, please sit, sit. I just stopped in for a bag of beans. - We're running low at home. - Oh, well..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0006",
+    "t": [
+      33.388,
+      36.599
+    ],
+    "speaker": "Eric",
+    "text": "- I'd be happy to help. - Oh, 2 pounds of... The Kenya blend."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0007",
+    "t": [
+      37.225,
+      38.308
+    ],
+    "speaker": "Daphne",
+    "text": "You remembered."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0008",
+    "t": [
+      38.309,
+      39.226
+    ],
+    "speaker": "Eric",
+    "text": "Hard to forget."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0009",
+    "t": [
+      39.227,
+      41.186
+    ],
+    "speaker": "Frasier",
+    "text": "You haven't taken my order yet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0010",
+    "t": [
+      41.187,
+      43.689
+    ],
+    "speaker": "Eric",
+    "text": "- Most people find that blend too intense. - Not me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0011",
+    "t": [
+      43.69,
+      46.067
+    ],
+    "speaker": "Daphne",
+    "text": "I like something that holds its body on my tongue."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0012",
+    "t": [
+      48.945,
+      51.197
+    ],
+    "speaker": "Frasier",
+    "text": "We seem to have spilled something here. If you could just..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0013",
+    "t": [
+      52.448,
+      57.202
+    ],
+    "speaker": "Eric",
+    "text": "I don't suppose you'd be interested in something robust, if it didn't come on too strong."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0014",
+    "t": [
+      57.203,
+      60.706
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, if it was a little bit sweet, I might take a liking to it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0015",
+    "t": [
+      60.707,
+      63.667
+    ],
+    "speaker": "Eric",
+    "text": "Would you like to step over to the counter and try my special blend?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0016",
+    "t": [
+      63.668,
+      64.627
+    ],
+    "speaker": "Daphne",
+    "text": "I'd love to."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0017",
+    "t": [
+      67.463,
+      69.007
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, nothing for me, thanks!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0018",
+    "t": [
+      71.175,
+      74.721
+    ],
+    "speaker": "Niles",
+    "text": "Frasier, that man is hitting on our Daphne. I don't know how she stands it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0019",
+    "t": [
+      75.847,
+      79.642
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, look, apropos of nothing, how are things between you and Maris?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0020",
+    "t": [
+      80.435,
+      84.313
+    ],
+    "speaker": "Niles",
+    "text": "Are you implying that my concern for Daphne's welfare is anything less than pure?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0021",
+    "t": [
+      84.314,
+      85.814
+    ],
+    "speaker": "Frasier",
+    "text": "I don't know, you tell me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0022",
+    "t": [
+      85.815,
+      93.698
+    ],
+    "speaker": "Niles",
+    "text": "That is your great shortcoming. You're always distrustful. You're always suspicious. Sometimes you just have to have faith that people are all right-- What's he doing now?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0023",
+    "t": [
+      94.616,
+      97.327
+    ],
+    "speaker": "Frasier",
+    "text": "- I believe he's bagging her beans. - Oh!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0024",
+    "t": [
+      98.661,
+      119.807
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, I'm so excited. Eric over there is taking me to a club to hear his band tonight. I know it's not my regular night off, but I'll switch it with Saturday if that's okay. Oh, isn't he lovely? I already have a nickname for him. Eric the Red. It favors him, doesn't it? Don't you think he looks like a Viking? - Well, I... - Well, ta-ta. Oh. Look at me. I forgot my beans. Earth to Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0025",
+    "t": [
+      123.102,
+      127.023
+    ],
+    "speaker": "Niles",
+    "text": "How could she like him? The man has \"community college\" written all over him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0026",
+    "t": [
+      128.107,
+      139.786
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, you know, this infatuation with Daphne is really getting out of hand. I didn't really mind when it was just a flirtation, but, you know, I can't help thinking that this is symptomatic of something wrong between you and Maris."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0027",
+    "t": [
+      142.664,
+      143.623
+    ],
+    "speaker": "Frasier",
+    "text": "Well, is it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0028",
+    "t": [
+      144.207,
+      153.382
+    ],
+    "speaker": "Niles",
+    "text": "Oh... Frasier, I can't lie to you. The truth is... Maris and I are in a bit of a rut. We seem to have lapsed into this gray, numbing blandness."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0029",
+    "t": [
+      153.383,
+      159.513
+    ],
+    "speaker": "Frasier",
+    "text": "That's perfectly normal. A relationship of some years... Maybe you should try spicing things up a bit."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0030",
+    "t": [
+      159.514,
+      162.099
+    ],
+    "speaker": "Niles",
+    "text": "You mean... boudoir-wise?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0031",
+    "t": [
+      162.1,
+      163.434
+    ],
+    "speaker": "Frasier",
+    "text": "For starters, yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0032",
+    "t": [
+      164.018,
+      166.229
+    ],
+    "speaker": "Niles",
+    "text": "- Like how? - Well, well..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0033",
+    "t": [
+      167.313,
+      168.731
+    ],
+    "speaker": "Frasier",
+    "text": "The two of you could, uh..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0034",
+    "t": [
+      171.693,
+      172.652
+    ],
+    "speaker": "Frasier",
+    "text": "Well, you could..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0035",
+    "t": [
+      174.153,
+      176.572
+    ],
+    "speaker": "Frasier",
+    "text": "Well, it's you and Maris, so you could..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0036",
+    "t": [
+      178.783,
+      179.784
+    ],
+    "speaker": "Frasier",
+    "text": "I'm stumped."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0037",
+    "t": [
+      186.499,
+      187.709
+    ],
+    "speaker": "Frasier",
+    "text": "Hi, Roz. How are you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0038",
+    "t": [
+      188.376,
+      194.214
+    ],
+    "speaker": "Roz",
+    "text": "Do you really want to know how I am, or are you just making conversation? Because if you really want to know how I am, I'll tell you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0039",
+    "t": [
+      194.215,
+      199.01
+    ],
+    "speaker": "Frasier",
+    "text": "I was just making conversation. Actually, Roz, there's some advice I need."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0040",
+    "t": [
+      199.011,
+      199.928
+    ],
+    "speaker": "Roz",
+    "text": "About what?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0041",
+    "t": [
+      199.929,
+      202.431
+    ],
+    "speaker": "Frasier",
+    "text": "A subject in which you're quite well versed: sex."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0042",
+    "t": [
+      202.432,
+      203.933
+    ],
+    "speaker": "Roz",
+    "text": "How can I help you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0043",
+    "t": [
+      205.601,
+      209.229
+    ],
+    "speaker": "Frasier",
+    "text": "What do you do when... When the romance goes out of a relationship?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0044",
+    "t": [
+      209.23,
+      210.773
+    ],
+    "speaker": "Roz",
+    "text": "I get dressed and go home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0045",
+    "t": [
+      213.86,
+      218.823
+    ],
+    "speaker": "Frasier",
+    "text": "Let's assume for a moment that you are capable of a long-term relationship. What would you do to keep things cooking?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0046",
+    "t": [
+      219.574,
+      228.039
+    ],
+    "speaker": "Roz",
+    "text": "Well, once, I had a boyfriend take me out to a bar, and we pretended we were strangers picking each other up. - Hmm. - Actually, that was kind of hot."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0047",
+    "t": [
+      229.208,
+      231.084
+    ],
+    "speaker": "Frasier",
+    "text": "So you used, like, fantasy role-playing?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0048",
+    "t": [
+      231.085,
+      238.217
+    ],
+    "speaker": "Roz",
+    "text": "Yeah, as a matter of fact, we had so much fun we tried it again. Only the next time, he got so into it he went home with another woman."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0049",
+    "t": [
+      239.802,
+      259.822
+    ],
+    "speaker": "Roz",
+    "text": "- I'm sorry. - Oh, hell, she was gorgeous. One more drink and I'd have gone home with her. My point is that women need to see the men they make love to as exciting, romantic figures. I say, if you want to keep this woman interested, try creating a fantasy for an evening. Personally, I think you'd make a very sexy gladiator."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0050",
+    "t": [
+      260.323,
+      263.116
+    ],
+    "speaker": "Frasier",
+    "text": "Roz, this is not for me. It's for my brother, Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0051",
+    "t": [
+      263.117,
+      265.953
+    ],
+    "speaker": "Roz",
+    "text": "Oh, well, in that case, make it a gladiola."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0052",
+    "t": [
+      277.632,
+      279.8
+    ],
+    "speaker": "Frasier",
+    "text": "Niles. Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0053",
+    "t": [
+      279.801,
+      283.304
+    ],
+    "speaker": "Niles",
+    "text": "I'm sorry, Frasier, but something horrible has happened. Maris kicked me out."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0054",
+    "t": [
+      285.014,
+      286.557
+    ],
+    "speaker": "Frasier",
+    "text": "Dear God. Why? What for?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0055",
+    "t": [
+      298.569,
+      302.489
+    ],
+    "speaker": "Martin",
+    "text": "- Oh, my. - What's going on out there? Niles?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0056",
+    "t": [
+      302.49,
+      303.574
+    ],
+    "speaker": "Niles",
+    "text": "Hello, Dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0057",
+    "t": [
+      307.286,
+      309.037
+    ],
+    "speaker": "Martin",
+    "text": "Never mind. I don't want to know."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0058",
+    "t": [
+      309.038,
+      312.791
+    ],
+    "speaker": "Niles",
+    "text": "Now, Dad, wait, there's a perfectly reasonable explanation for the way I'm dressed."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0059",
+    "t": [
+      312.792,
+      316.128
+    ],
+    "speaker": "Frasier",
+    "text": "Keep in mind that I reserve the right to say \"stop\" at any time."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0060",
+    "t": [
+      316.712,
+      325.972
+    ],
+    "speaker": "Niles",
+    "text": "Well, my plan was to leave a treasure map downstairs for Maris with clues that would lead her to my whereabouts. Then I'd hide in the linen closet and wait for her to find me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0061",
+    "t": [
+      327.306,
+      328.349
+    ],
+    "speaker": "Martin",
+    "text": "Dressed like that?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0062",
+    "t": [
+      329.433,
+      332.52
+    ],
+    "speaker": "Niles",
+    "text": "Actually, no, at the time, I was wearing only my eye patch."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0063",
+    "t": [
+      335.231,
+      338.024
+    ],
+    "speaker": "Niles",
+    "text": "Technically, is it still an eye patch if you're wearing it on your--?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0064",
+    "t": [
+      338.025,
+      338.86
+    ],
+    "speaker": "Frasier",
+    "text": "Stop!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0065",
+    "t": [
+      344.198,
+      360.965
+    ],
+    "speaker": "Niles",
+    "text": "There I was... Ooh....lying in wait, with my little plastic knife clenched between my teeth, when suddenly the closet door was flung open and I found myself face-to-face with the upstairs maid. She began screaming what I gather were some very unflattering things in idiomatic Guatemalan,"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0066",
+    "t": [
+      362.925,
+      372.518
+    ],
+    "speaker": "Niles",
+    "text": "when Maris stumbled upon the scene and completely misconstrued it. Next thing I knew, she ordered me out of the house. I barely had time to grab my pantaloons and buckle my swash."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0067",
+    "t": [
+      375.73,
+      378.691
+    ],
+    "speaker": "Niles",
+    "text": "Dad. Dad, it's not funny."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0068",
+    "t": [
+      380.234,
+      382.527
+    ],
+    "speaker": "Martin",
+    "text": "Where'd you come up with such a stupid idea?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0069",
+    "t": [
+      382.528,
+      383.362
+    ],
+    "speaker": "Niles",
+    "text": "Frasier."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0070",
+    "t": [
+      384.655,
+      389.493
+    ],
+    "speaker": "Frasier",
+    "text": "All I suggested was some sexual role-playing. You're the one that came up with Pirates of the Caribbean."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0071",
+    "t": [
+      392.58,
+      394.205
+    ],
+    "speaker": "Niles",
+    "text": "I've really bungled it this time, haven't I?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0072",
+    "t": [
+      394.206,
+      400.962
+    ],
+    "speaker": "Martin",
+    "text": "Oh, come on, these things happen. Why don't you stay here tonight with us, and then tomorrow morning you and Maris can sort things out?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0073",
+    "t": [
+      400.963,
+      403.006
+    ],
+    "speaker": "Niles",
+    "text": "What if we don't? What will I do then?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0074",
+    "t": [
+      403.007,
+      406.385
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I suppose they could always use an extra busboy at the Jolly Roger."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0075",
+    "t": [
+      407.678,
+      409.805
+    ],
+    "speaker": "Niles",
+    "text": "I'll never be able to face the maid again."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0076",
+    "t": [
+      410.473,
+      412.767
+    ],
+    "speaker": "Martin",
+    "text": "I don't think it's your face she'll remember."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0077",
+    "t": [
+      414.477,
+      422.025
+    ],
+    "speaker": "Martin",
+    "text": "Oh, come on, Niles. Everybody has an embarrassing story to tell. Did I tell you about the time I got locked outside in the backyard in my underwear?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0078",
+    "t": [
+      422.026,
+      423.736
+    ],
+    "speaker": "Niles",
+    "text": "Only every Thanksgiving."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0079",
+    "t": [
+      424.487,
+      427.198
+    ],
+    "speaker": "Martin",
+    "text": "Don't worry. I won't be telling that story this year."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0080",
+    "t": [
+      429.45,
+      437.04
+    ],
+    "speaker": "Frasier",
+    "text": "Here we are. Canadian goose-down pillow, Egyptian cotton sheets and a nice vicuña throw in case you get chilly during the night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0081",
+    "t": [
+      437.041,
+      437.999
+    ],
+    "speaker": "Niles",
+    "text": "How perfect."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0082",
+    "t": [
+      438.0,
+      441.504
+    ],
+    "speaker": "Martin",
+    "text": "I still say a couple of years in the service would have done you boys a world of good."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0083",
+    "t": [
+      442.38,
+      444.34
+    ],
+    "speaker": "unknown",
+    "text": "Good night. Good night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0084",
+    "t": [
+      445.341,
+      456.476
+    ],
+    "speaker": "Niles",
+    "text": "You know... Frasier, Maris and I have had our difficulties before, but never anything this serious. I really feel terrible having her mad at me. It's times like this when I wish I knew how to cry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0085",
+    "t": [
+      456.477,
+      458.396
+    ],
+    "speaker": "Frasier",
+    "text": "Don't be embarrassed on my account."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0086",
+    "t": [
+      458.98,
+      468.364
+    ],
+    "speaker": "Niles",
+    "text": "No, no, it's not that. I'm just not someone who cries. It's not in my nature. When Maris' uncle Lyle died, I had to shut my hand in the car door just to make a decent showing at the funeral."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0087",
+    "t": [
+      470.7,
+      473.035
+    ],
+    "speaker": "Frasier",
+    "text": "You're a complex little pirate, aren't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0088",
+    "t": [
+      475.579,
+      477.748
+    ],
+    "speaker": "Frasier",
+    "text": "- Well, good night, Niles. - Good night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0089",
+    "t": [
+      479.875,
+      480.876
+    ],
+    "speaker": "unknown",
+    "text": "Oh!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0090",
+    "t": [
+      492.346,
+      495.724
+    ],
+    "speaker": "Daphne",
+    "text": "Well, thank you again, Eric. I had a wonderful time."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0091",
+    "t": [
+      495.725,
+      496.684
+    ],
+    "speaker": "Eric",
+    "text": "Me too."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0092",
+    "t": [
+      500.646,
+      502.814
+    ],
+    "speaker": "Daphne",
+    "text": "Well, good night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0093",
+    "t": [
+      502.815,
+      503.733
+    ],
+    "speaker": "unknown",
+    "text": "Good night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0094",
+    "t": [
+      520.374,
+      531.177
+    ],
+    "speaker": "Daphne",
+    "text": "I know we've only had a few dates, but I'm already exhibiting the three signs of a woman in love. I can't stop thinking about him, I can't eat, and I bought myself all new underwear."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0095",
+    "t": [
+      534.263,
+      536.557
+    ],
+    "speaker": "Martin",
+    "text": "We've gotta get her a girlfriend to talk to."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0096",
+    "t": [
+      540.644,
+      544.23
+    ],
+    "speaker": "Niles",
+    "text": "I just got off the phone with Maris. She's in Arizona for the weekend."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0097",
+    "t": [
+      544.231,
+      545.148
+    ],
+    "speaker": "Frasier",
+    "text": "Why?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0098",
+    "t": [
+      545.149,
+      552.447
+    ],
+    "speaker": "Niles",
+    "text": "She said she was so shattered by the experience she had to fly to her favorite spa to contemplate the future of our marriage from a mud bath."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0099",
+    "t": [
+      552.448,
+      557.827
+    ],
+    "speaker": "Daphne",
+    "text": "Well, it'll probably be good for Mrs. Crane. Eric thinks the earth is very grounding."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0100",
+    "t": [
+      557.828,
+      560.581
+    ],
+    "speaker": "Niles",
+    "text": "Eric, Eric, Eric! Must everything always be about Eric?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0101",
+    "t": [
+      566.796,
+      575.012
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, may I suggest that when Maris returns, you both invest some time in some intensive couples therapy? - There's a Reichian group-- - Oh, blah, blah, blah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0102",
+    "t": [
+      576.639,
+      588.025
+    ],
+    "speaker": "Martin",
+    "text": "Look, all Maris needs to know is that you love her. Buy her some flowers. Fix her a nice romantic dinner when she gets home. That's enough to make any woman forgive you. - You really think that will work? - If it didn't, you wouldn't be here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0103",
+    "t": [
+      592.655,
+      597.492
+    ],
+    "speaker": "Niles",
+    "text": "Well, I'd be willing to try, but it's impossible. Our cook walked out in sympathy with Maris."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0104",
+    "t": [
+      597.493,
+      609.671
+    ],
+    "speaker": "Daphne",
+    "text": "Well, I could help you prepare something. I have a late date with Eric...a. An elderly aunt Erica. But I could come over early and have everything ready by the time Mrs. Crane arrives."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0105",
+    "t": [
+      609.672,
+      612.632
+    ],
+    "speaker": "Niles",
+    "text": "Well... thank you, Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0106",
+    "t": [
+      612.633,
+      615.093
+    ],
+    "speaker": "Daphne",
+    "text": "Now, what do you think Mrs. Crane would like for dinner?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0107",
+    "t": [
+      615.094,
+      625.688
+    ],
+    "speaker": "Niles",
+    "text": "Oh, oh, you have free rein. Just bear in mind she can't have shellfish, poultry, red meat, saturated fats, nitrates, wheat, starch, sulfites, MSG or dairy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0108",
+    "t": [
+      628.274,
+      630.734
+    ],
+    "speaker": "Frasier",
+    "text": "- Did I say nuts? - Oh, I think that's implied."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0109",
+    "t": [
+      652.756,
+      658.678
+    ],
+    "speaker": "Niles",
+    "text": "Here, come in, Daphne, and warm yourself by the fire. How did you get so wet?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0110",
+    "t": [
+      658.679,
+      667.937
+    ],
+    "speaker": "Daphne",
+    "text": "One of your trees blew down in your driveway. - I had to walk the last hundred yards. - Oh. - I must say, you have a beautiful home. - Oh, well, thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0111",
+    "t": [
+      667.938,
+      684.37
+    ],
+    "speaker": "Niles",
+    "text": "Actually, it was in Maris' family for four generations. When I was a mere intern, I used to drive through these hills, never dreaming that one day I would live in one of these great mansions. Then one afternoon, there was Maris, looking so helpless, banging on the electric gates with her little fists and a tire iron."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0112",
+    "t": [
+      684.371,
+      685.83
+    ],
+    "speaker": "Daphne",
+    "text": "They'd locked her in?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0113",
+    "t": [
+      685.831,
+      687.333
+    ],
+    "speaker": "Niles",
+    "text": "No, no, that was much later."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0114",
+    "t": [
+      689.084,
+      709.52
+    ],
+    "speaker": "Niles",
+    "text": "No, no, this time she was returning from the antique mart with a rare bell jar once owned by Sylvia Plath, when the gates failed to open. So naturally, I stopped to offer my assistance, and as our hands touched, there was a sudden spark of electricity. Then, as if by magic, the gates parted before us, and we took it as a sign."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0115",
+    "t": [
+      709.521,
+      711.899
+    ],
+    "speaker": "Daphne",
+    "text": "- You knew you were meant to be together. - Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0116",
+    "t": [
+      712.441,
+      714.693
+    ],
+    "speaker": "Niles",
+    "text": "We were married just three short years later."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0117",
+    "t": [
+      716.195,
+      719.782
+    ],
+    "speaker": "Daphne",
+    "text": "- Look at this. It's beautiful. - It's a glockenspiel."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0118",
+    "t": [
+      720.574,
+      729.458
+    ],
+    "speaker": "Niles",
+    "text": "We bought it on our honeymoon in Zurich. I brought it down from the attic to remind Maris of better times. It used to play beautiful music, and now it doesn't. How's that for irony?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0119",
+    "t": [
+      731.21,
+      737.341
+    ],
+    "speaker": "Niles",
+    "text": "Well, let's get you into some dry clothes so you can get started on dinner and we can get you home in time for your date."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0120",
+    "t": [
+      741.387,
+      742.554
+    ],
+    "speaker": "Niles",
+    "text": "Daphne?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0121",
+    "t": [
+      744.848,
+      745.849
+    ],
+    "speaker": "Niles",
+    "text": "What is it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0122",
+    "t": [
+      746.642,
+      747.725
+    ],
+    "speaker": "Daphne",
+    "text": "Nothing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0123",
+    "t": [
+      747.726,
+      751.48
+    ],
+    "speaker": "Niles",
+    "text": "No, no, it's definitely something. I'm a psychiatrist. I can read the signs."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0124",
+    "t": [
+      752.189,
+      757.027
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, I'm sorry. I didn't want to spoil your reunion with Mrs. Crane, but..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0125",
+    "t": [
+      758.529,
+      760.03
+    ],
+    "speaker": "Daphne",
+    "text": "Eric broke up with me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0126",
+    "t": [
+      761.031,
+      762.783
+    ],
+    "speaker": "Niles",
+    "text": "- He did? - Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0127",
+    "t": [
+      763.325,
+      771.667
+    ],
+    "speaker": "Daphne",
+    "text": "He said he couldn't commit to me and his music. He had to stay focused. I know it was an excuse. I've heard his music."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0128",
+    "t": [
+      774.169,
+      776.129
+    ],
+    "speaker": "Daphne",
+    "text": "He must have another girl."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0129",
+    "t": [
+      776.13,
+      777.756
+    ],
+    "speaker": "unknown",
+    "text": "Oh. Oh-oh-oh..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0130",
+    "t": [
+      779.717,
+      784.972
+    ],
+    "speaker": "Niles",
+    "text": "Well, he's a fool, Daphne, and if he can't appreciate you, then you're better off without him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0131",
+    "t": [
+      785.556,
+      789.226
+    ],
+    "speaker": "Daphne",
+    "text": "Right now I'm not so sure, but thank you, Dr. Crane."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0132",
+    "t": [
+      795.899,
+      798.36
+    ],
+    "speaker": "Niles",
+    "text": "Niles Crane. Oh, Maris!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0133",
+    "t": [
+      800.821,
+      807.869
+    ],
+    "speaker": "Niles",
+    "text": "Where are you? What do you mean, you can't come home? Well, it's not that bad a storm."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0134",
+    "t": [
+      811.665,
+      814.126
+    ],
+    "speaker": "Niles",
+    "text": "Oh, Maris, I really think you should come home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0135",
+    "t": [
+      818.505,
+      826.388
+    ],
+    "speaker": "Niles",
+    "text": "No, no, well, of course I don't want you traveling if it's not safe. Yes, yes, I understand. I'll see you tomorrow."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0136",
+    "t": [
+      829.725,
+      833.269
+    ],
+    "speaker": "Niles",
+    "text": "Well... seems like it's just the two of us."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0137",
+    "t": [
+      833.27,
+      835.23
+    ],
+    "speaker": "Daphne",
+    "text": "You mean Mrs. Crane won't be coming?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0138",
+    "t": [
+      840.778,
+      845.407
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, my. There goes the electricity. What do we do now?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0139",
+    "t": [
+      854.708,
+      862.8
+    ],
+    "speaker": "Martin",
+    "text": "No, no, the storm's really bad. You shouldn't be driving in it anyway. No, you just spend the night there. Right. Good night, Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0140",
+    "t": [
+      863.759,
+      869.097
+    ],
+    "speaker": "Frasier",
+    "text": "- You told her to spend the night? - Yeah. What's the problem? You know how Niles feels about her."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0141",
+    "t": [
+      869.098,
+      872.642
+    ],
+    "speaker": "Martin",
+    "text": "Oh, relax. It's just another one of Niles' little crushes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0142",
+    "t": [
+      872.643,
+      877.021
+    ],
+    "speaker": "Frasier",
+    "text": "I suppose you're right. Niles is harmless enough. He'd never try anything with Maris in the house."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0143",
+    "t": [
+      877.022,
+      879.19
+    ],
+    "speaker": "Martin",
+    "text": "Maris never made it back. She's stuck in Arizona."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0144",
+    "t": [
+      879.191,
+      890.952
+    ],
+    "speaker": "Frasier",
+    "text": "- I've gotta get Daphne out of there! - Why? God, it's a recipe for disaster. You've got a vulnerable woman and an unstable man in a Gothic mansion on a rainy night. All that's missing is someone shouting, \"Heathcliff!\" across the moors."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0145",
+    "t": [
+      890.953,
+      892.12
+    ],
+    "speaker": "Martin",
+    "text": "Wait for me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0146",
+    "t": [
+      892.121,
+      894.831
+    ],
+    "speaker": "Frasier",
+    "text": "- No, Dad, Dad, you're not coming. - Yes, I am coming."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0147",
+    "t": [
+      905.801,
+      910.139
+    ],
+    "speaker": "Daphne",
+    "text": "- Oh, Dr. Crane, you play beautifully. - Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0148",
+    "t": [
+      920.566,
+      923.943
+    ],
+    "speaker": "Daphne",
+    "text": "I found this in your upstairs guest room. I hope it's all right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0149",
+    "t": [
+      923.944,
+      929.116
+    ],
+    "speaker": "Niles",
+    "text": "I thought you were going to put on some of Maris' clothes. You know, something bulky from her wool collection."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0150",
+    "t": [
+      929.95,
+      937.248
+    ],
+    "speaker": "Daphne",
+    "text": "Well, I was. But she's quite a bit smaller than me. This was all I could find that fit. Should I go look for something else?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0151",
+    "t": [
+      937.249,
+      941.253
+    ],
+    "speaker": "Niles",
+    "text": "No. Yes. No... Oh-- No-- Ooh. Uh--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0152",
+    "t": [
+      944.214,
+      955.684
+    ],
+    "speaker": "Niles",
+    "text": "No, no, the important thing is that it's big enough and... warm enough and... silky enough... and... I have to make a phone call."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0153",
+    "t": [
+      965.444,
+      970.74
+    ],
+    "speaker": "Frasier",
+    "text": "Hello. This is Dr. Frasier Crane. I'm listening."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0154",
+    "t": [
+      970.741,
+      980.625
+    ],
+    "speaker": "Niles",
+    "text": "Frasier. Frasier. I'm having a little crisis here. Actually, a large crisis. It's no time to screen calls. Damn!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0155",
+    "t": [
+      983.962,
+      988.09
+    ],
+    "speaker": "Martin",
+    "text": "- This is stupid. - It is not. Nothing's gonna happen between them anyway."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0156",
+    "t": [
+      988.091,
+      1002.939
+    ],
+    "speaker": "Frasier",
+    "text": "What if it does? He's my brother, and he loves his wife. Now, now, I know their marriage is not everyone's cup of tea. But on some twisted, bizarre level, it seems to work for them. If Niles did something to hurt his marriage, he'd be the one to suffer. I'm his brother. I won't let him suffer."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0157",
+    "t": [
+      1002.94,
+      1005.066
+    ],
+    "speaker": "Martin",
+    "text": "Slow down. You're gonna miss the turn onto Roosevelt."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0158",
+    "t": [
+      1005.067,
+      1009.111
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, I allowed you to come along strictly on the agreement that you would not give directions."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0159",
+    "t": [
+      1009.112,
+      1014.909
+    ],
+    "speaker": "Martin",
+    "text": "I'm not giving directions. - I'm telling you which way is faster. - Oh! Roosevelt will add ten minutes. In sunshine. In rain, it's faster."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0160",
+    "t": [
+      1014.91,
+      1017.411
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, spatial relationships change when it rains?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0161",
+    "t": [
+      1017.412,
+      1024.794
+    ],
+    "speaker": "Martin",
+    "text": "No, you just get better traction on Roosevelt. You wouldn't have to worry about that if you had all-weather tires on the car, but no, you gotta have the fancy German things."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0162",
+    "t": [
+      1029.216,
+      1032.718
+    ],
+    "speaker": "Niles",
+    "text": "We'd better make this last. This is all that's left of the wood."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0163",
+    "t": [
+      1034.346,
+      1040.352
+    ],
+    "speaker": "Niles",
+    "text": "Oh, no, don't worry. If this runs out, there's an antique sideboard in the drawing room that I think is a reproduction."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0164",
+    "t": [
+      1042.229,
+      1044.022
+    ],
+    "speaker": "Niles",
+    "text": "Oh. It's Eric isn't it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0165",
+    "t": [
+      1045.649,
+      1051.405
+    ],
+    "speaker": "Daphne",
+    "text": "I don't know why I'm being so silly. We weren't together long enough for anything to really happen."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0166",
+    "t": [
+      1052.531,
+      1060.706
+    ],
+    "speaker": "Niles",
+    "text": "Sometimes the most powerful feelings can come from the promise of what might happen. Just the anticipation is enough to make all the little hairs on your neck stand on end."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0167",
+    "t": [
+      1065.586,
+      1069.505
+    ],
+    "speaker": "Daphne",
+    "text": "- Dr. Crane. - Yes, Daphne. - We're losing the fire. - No, we're not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0168",
+    "t": [
+      1069.506,
+      1071.8
+    ],
+    "speaker": "Niles",
+    "text": "It's burning with the heat of a thousand suns."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0169",
+    "t": [
+      1074.094,
+      1076.512
+    ],
+    "speaker": "Daphne",
+    "text": "But it's down to its last embers."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0170",
+    "t": [
+      1076.513,
+      1078.515
+    ],
+    "speaker": "Niles",
+    "text": "Well, then, I'll put some wood on it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0171",
+    "t": [
+      1079.891,
+      1082.852
+    ],
+    "speaker": "Martin",
+    "text": "You had to keep pumping gas, so now you've flooded it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0172",
+    "t": [
+      1082.853,
+      1093.821
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, you cannot flood a fuel-injected engine. Oh, this is so maddening. We're so close to the house I can see the gargoyles. - If we'd taken Roosevelt-- - We'd be stuck on Roosevelt."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0173",
+    "t": [
+      1093.822,
+      1095.448
+    ],
+    "speaker": "Martin",
+    "text": "You never could admit you made a mistake."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0174",
+    "t": [
+      1095.449,
+      1099.036
+    ],
+    "speaker": "Frasier",
+    "text": "That is it. Just call the auto club. I'm gonna make a dash for it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0175",
+    "t": [
+      1100.454,
+      1106.585
+    ],
+    "speaker": "Martin",
+    "text": "You'll make better time if you take the shortcut by the side of the fountain! Well, same to you!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0176",
+    "t": [
+      1109.212,
+      1116.345
+    ],
+    "speaker": "Daphne",
+    "text": "I suppose I just fall in love too fast. The minute I feel that spark, I just give my heart away."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0177",
+    "t": [
+      1116.887,
+      1127.773
+    ],
+    "speaker": "Niles",
+    "text": "Daphne, you must stop being so hard on yourself. What you see as a fault is also your greatest gift. To be so open and warm and loving."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0178",
+    "t": [
+      1128.398,
+      1133.153
+    ],
+    "speaker": "Daphne",
+    "text": "You're so kind, Dr. Crane. I'm glad we ended up like this tonight."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0179",
+    "t": [
+      1133.737,
+      1134.696
+    ],
+    "speaker": "Niles",
+    "text": "So am I."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0180",
+    "t": [
+      1136.823,
+      1144.164
+    ],
+    "speaker": "Daphne",
+    "text": "It's just so nice to be with a man you feel so comfortable with. I feel very close to you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0181",
+    "t": [
+      1145.29,
+      1155.967
+    ],
+    "speaker": "Niles",
+    "text": "I feel very close to you too, Daphne. You know, it's easy being someone you feel close to when you feel close to someone who's so... close."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0182",
+    "t": [
+      1164.935,
+      1168.647
+    ],
+    "speaker": "Daphne",
+    "text": "Dr. Crane! Your glockenspiel has sprung to life!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0183",
+    "t": [
+      1175.904,
+      1177.197
+    ],
+    "speaker": "Niles",
+    "text": "Oh, the clock!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0184",
+    "t": [
+      1180.742,
+      1185.08
+    ],
+    "speaker": "Niles",
+    "text": "My God. It hasn't run like this in years. Maris will be delighted."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0185",
+    "t": [
+      1190.043,
+      1190.961
+    ],
+    "speaker": "Niles",
+    "text": "Maris."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0186",
+    "t": [
+      1193.588,
+      1195.34
+    ],
+    "speaker": "Daphne",
+    "text": "You really love her, don't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0187",
+    "t": [
+      1196.883,
+      1198.176
+    ],
+    "speaker": "Niles",
+    "text": "You know, I do."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0188",
+    "t": [
+      1201.638,
+      1216.945
+    ],
+    "speaker": "Niles",
+    "text": "Love is a funny thing, isn't it? Sometimes it's exciting and passionate, and sometimes it's... something else. Something comfortable and familiar. That newly exfoliated little face staring up at you from across the breakfast table."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0189",
+    "t": [
+      1219.448,
+      1223.285
+    ],
+    "speaker": "Niles",
+    "text": "Sharing a laugh together when you see someone wearing white after Labor Day."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0190",
+    "t": [
+      1225.62,
+      1229.039
+    ],
+    "speaker": "Daphne",
+    "text": "I hope someday some man will feel that way about me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0191",
+    "t": [
+      1229.04,
+      1241.011
+    ],
+    "speaker": "Niles",
+    "text": "Oh... Daphne, don't worry. You are a very... special person, and someday, a man worthy of you will come along. Just as soon as the gods create him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0192",
+    "t": [
+      1242.763,
+      1248.81
+    ],
+    "speaker": "Daphne",
+    "text": "That's the loveliest thing anyone's ever said to me. Thank you, Dr. Crane. You're a good friend."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0193",
+    "t": [
+      1251.563,
+      1253.607
+    ],
+    "speaker": "unknown",
+    "text": "Stop!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0194",
+    "t": [
+      1257.194,
+      1258.278
+    ],
+    "speaker": "Daphne",
+    "text": "Frasier!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0195",
+    "t": [
+      1261.615,
+      1264.7
+    ],
+    "speaker": "Frasier",
+    "text": "Have you two gone mad? You'll regret this for the rest of your lives!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0196",
+    "t": [
+      1264.701,
+      1266.327
+    ],
+    "speaker": "Niles",
+    "text": "What are you talking about?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0197",
+    "t": [
+      1266.328,
+      1269.915
+    ],
+    "speaker": "Frasier",
+    "text": "Well, the two of you here alone, the fire, the candlelight, the nightie!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0198",
+    "t": [
+      1270.457,
+      1292.521
+    ],
+    "speaker": "Daphne",
+    "text": "Dr. Crane. You didn't think that Dr. Crane and I were...? Dr. Crane! You have some nerve to imply that your brother would do anything so deplorable. Why, just moments ago, he made a beautiful speech about how much he loves his wife, how he cherishes her excruciating little face, and how they laugh at white people."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0199",
+    "t": [
+      1295.398,
+      1298.026
+    ],
+    "speaker": "Daphne",
+    "text": "- That didn't sound right. - Close enough."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0200",
+    "t": [
+      1299.569,
+      1302.822
+    ],
+    "speaker": "Frasier",
+    "text": "I'm sorry, Daphne. I didn't mean to suggest-- I wasn't trying to imply that--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0201",
+    "t": [
+      1302.823,
+      1306.034
+    ],
+    "speaker": "Daphne",
+    "text": "Then just exactly what was it you wanted us to stop doing?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0202",
+    "t": [
+      1308.328,
+      1317.379
+    ],
+    "speaker": "Frasier",
+    "text": "I wanted you to stop, uh... standing here in silence. A night like this calls for music. Daphne, please, some wine for all of us. Niles, join me at the piano, please."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0203",
+    "t": [
+      1320.924,
+      1323.05
+    ],
+    "speaker": "Frasier",
+    "text": "Are you sure everything's all right?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0204",
+    "t": [
+      1323.051,
+      1327.138
+    ],
+    "speaker": "Niles",
+    "text": "Absolutely. Frasier, my glockenspiel is working again."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0205",
+    "t": [
+      1331.476,
+      1332.768
+    ],
+    "speaker": "Frasier",
+    "text": "Shall we?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E17",
+    "unit_id": "u0206",
+    "t": [
+      1360.797,
+      1363.925
+    ],
+    "speaker": "unknown",
+    "text": "Frasier has left the building."
+  }
+]

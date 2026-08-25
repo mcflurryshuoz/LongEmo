@@ -10,6 +10,9 @@ LongEmoBench/
 │   └── <series>/
 │       ├── g1_clip/              # clip-level questions
 │       └── g2_episode/           # episode-level questions
+├── subtitles/                    # dialogue-only episode subtitles
+│   └── <series>/
+│       └── <episode>.json
 ├── videos/
 │   ├── sources/<series>/         # source episodes and valid_ranges.json
 │   └── processed/
@@ -33,6 +36,29 @@ reasoning within a local scene.
 episode with its opening and credits removed and evaluates the ability to
 analyze emotional changes across scenes and integrate emotional information
 over a long temporal span.
+
+## Subtitles
+
+Dialogue-only subtitles are provided under `subtitles/<series>`. Speaker labels
+embedded in the subtitle text, stage directions, sound-effect captions, and
+subtitle credits have been removed so that non-verbal descriptions do not leak
+visual or audio evidence to the model.
+
+Each `<series>/<episode>.json` stores `series`, `ep`, `unit_id`, `t`, `speaker`,
+and `text`, where `t` is the `[start, end]` interval in seconds.
+`speaker` identifies the character when available and is `unknown` when the
+source annotation does not identify one reliably.
+
+Regenerate all released subtitles from the reviewed `s1_perception` files:
+
+```bash
+PYTHONPATH=. python3 preprocess/prepare_subtitles.py \
+  --inputs-root /path/to/vebench/outputs \
+  --out subtitles
+```
+
+Use `--series friends` or `--episode S01E01` to restrict an export. Both
+options may be repeated.
 
 ## Preprocessing
 

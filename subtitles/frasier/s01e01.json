@@ -1,0 +1,2543 @@
+[
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0001",
+    "t": [
+      10.84,
+      22.352
+    ],
+    "speaker": "Frasier",
+    "text": "Listen to yourself, Bob. You follow her to work. You eavesdrop on her calls. You open her mail. The minute you started doing these things, the relationship was over. Thank you for your call."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0002",
+    "t": [
+      24.979,
+      26.897
+    ],
+    "speaker": "Frasier",
+    "text": "Roz, I think we have time for one more."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0003",
+    "t": [
+      26.898,
+      30.568
+    ],
+    "speaker": "Roz",
+    "text": "Yes, Dr. Crane. On line four we have Russell from Kirkland."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0004",
+    "t": [
+      31.861,
+      35.405
+    ],
+    "speaker": "Frasier",
+    "text": "Hello, Russell, this is Dr. Frasier Crane. I'm listening."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0005",
+    "t": [
+      35.406,
+      48.627
+    ],
+    "speaker": "Russell",
+    "text": "Well, I've been feeling sort of, you know... depressed lately. My life's not going anywhere. And it's not that bad. It's just... the same old apartment, same old job..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0006",
+    "t": [
+      48.628,
+      66.02
+    ],
+    "speaker": "Frasier",
+    "text": "Uh, Russell, we're just about at end of our hour. Let me see if I can cut to the chase by using myself as an example. Six months ago I was living in Boston. My wife had left me, which was very painful, then she came back to me... which was excruciating."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0007",
+    "t": [
+      71.442,
+      79.992
+    ],
+    "speaker": "Frasier",
+    "text": "On top of that, my practice had grown stagnant and my social life consisted of, well, hanging around a bar night after night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0008",
+    "t": [
+      81.536,
+      104.475
+    ],
+    "speaker": "Frasier",
+    "text": "You see, I was clinging to a life that wasn't working anymore. And I knew I had to do something, anything. So I ended the marriage once and for all, packed up my things and moved back here to my hometown of Seattle. Go Seahawks. I took action, Russell, and you can too. Move, change, do something. If it's a mistake do something else. Will you do that, Russell?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0009",
+    "t": [
+      106.477,
+      111.274
+    ],
+    "speaker": "Frasier",
+    "text": "Will you? Russell? I think we lost him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0010",
+    "t": [
+      111.858,
+      114.277
+    ],
+    "speaker": "Roz",
+    "text": "No, we cut to the news 30 seconds ago."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0011",
+    "t": [
+      117.572,
+      124.704
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, for crying out loud! I finally bare my soul to all of Seattle and they're listening to Chopper Dave's Rush-Hour Roundup!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0012",
+    "t": [
+      127.457,
+      129.0
+    ],
+    "speaker": "Frasier",
+    "text": "The rest of the show was pretty good."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0013",
+    "t": [
+      130.793,
+      132.502
+    ],
+    "speaker": "Frasier",
+    "text": "It was a good show, wasn't it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0014",
+    "t": [
+      132.503,
+      134.713
+    ],
+    "speaker": "Roz",
+    "text": "Here, your brother called."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0015",
+    "t": [
+      134.714,
+      138.967
+    ],
+    "speaker": "Frasier",
+    "text": "Roz, in the trade, we call that avoidance. Don't change the subject. Tell me what you think."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0016",
+    "t": [
+      138.968,
+      141.595
+    ],
+    "speaker": "Roz",
+    "text": "Did I ever tell you what this little button does?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0017",
+    "t": [
+      141.596,
+      147.602
+    ],
+    "speaker": "Frasier",
+    "text": "I am not a piece of Lalique. I can handle criticism. - How was I today? - Let's see."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0018",
+    "t": [
+      148.352,
+      159.53
+    ],
+    "speaker": "Roz",
+    "text": "You dropped two commercials, you left a total of 28 seconds of dead air, you scrambled the station's call letters, you spilled yogurt on the control board, and you kept referring to Jerry with the identity crisis as Jeff."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0019",
+    "t": [
+      165.536,
+      167.288
+    ],
+    "speaker": "Frasier",
+    "text": "- You say my brother called? - Mm-hm."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0020",
+    "t": [
+      173.377,
+      181.928
+    ],
+    "speaker": "Niles",
+    "text": "So I said to the gardener, \"Yoshi, I do not want a Zen garden in my back yard. If I want to rake gravel every ten minutes to maintain my inner harmony, I'll move to Yokohama.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0021",
+    "t": [
+      183.554,
+      186.598
+    ],
+    "speaker": "Niles",
+    "text": "Well, this offends him so he starts pulling up Maris' prized camellias"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0022",
+    "t": [
+      186.599,
+      187.516
+    ],
+    "speaker": "unknown",
+    "text": "by the handful."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0023",
+    "t": [
+      187.517,
+      193.272
+    ],
+    "speaker": "Niles",
+    "text": "Well, I couldn't stand for that, so I marched right into the morning room and locked the door till he cooled down."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0024",
+    "t": [
+      195.566,
+      197.819
+    ],
+    "speaker": "Niles",
+    "text": "Tell me you would have handled it differently."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0025",
+    "t": [
+      199.153,
+      201.781
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, I'm sorry, Niles. I didn't realize you'd stopped talking."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0026",
+    "t": [
+      203.157,
+      204.491
+    ],
+    "speaker": "Niles",
+    "text": "You haven't heard a word I said."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0027",
+    "t": [
+      204.492,
+      209.539
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, you're a psychiatrist. You know what it's like to listen to people prattling on endlessly about their mundane lives."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0028",
+    "t": [
+      210.581,
+      214.126
+    ],
+    "speaker": "Niles",
+    "text": "Touché. And on that subject, I heard your show today."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0029",
+    "t": [
+      219.841,
+      220.757
+    ],
+    "speaker": "Frasier",
+    "text": "And?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0030",
+    "t": [
+      220.758,
+      222.759
+    ],
+    "speaker": "Niles",
+    "text": "You know what I think about pop psychiatry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0031",
+    "t": [
+      222.76,
+      227.806
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, I know what you think about everything. When was the last time you had an unexpressed thought?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0032",
+    "t": [
+      227.807,
+      229.308
+    ],
+    "speaker": "Niles",
+    "text": "I'm having one now."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0033",
+    "t": [
+      231.477,
+      233.98
+    ],
+    "speaker": "Waitress",
+    "text": "- You guys ready? - Two café lattes supremos."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0034",
+    "t": [
+      242.78,
+      243.656
+    ],
+    "speaker": "Frasier",
+    "text": "No, thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0035",
+    "t": [
+      246.2,
+      248.911
+    ],
+    "speaker": "Niles",
+    "text": "So, Frasier, how you doing on your own?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0036",
+    "t": [
+      249.996,
+      263.509
+    ],
+    "speaker": "Frasier",
+    "text": "I'm fine. I love my new life. I love the solitude. I miss Fredrick like the dickens, of course. You know, he's quite a boy. He's playing goalie on the pee-wee soccer team now. A chip off the old block."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0037",
+    "t": [
+      264.302,
+      265.928
+    ],
+    "speaker": "Niles",
+    "text": "- You hated sports. - So does he!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0038",
+    "t": [
+      268.347,
+      270.349
+    ],
+    "speaker": "Frasier",
+    "text": "Yeah, the fresh air's good for him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0039",
+    "t": [
+      271.392,
+      277.148
+    ],
+    "speaker": "Niles",
+    "text": "Oh, well, this has been fun, Frasier, but we have a problem and that's why I thought we should talk."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0040",
+    "t": [
+      277.899,
+      279.774
+    ],
+    "speaker": "Frasier",
+    "text": "- Is it Dad? - Afraid so."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0041",
+    "t": [
+      279.775,
+      287.699
+    ],
+    "speaker": "Niles",
+    "text": "One of his old buddies from the police force called this morning. He went over to see him and found him on the bathroom floor. - Oh, my God. - No, it's okay, he's fine."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0042",
+    "t": [
+      287.7,
+      289.035
+    ],
+    "speaker": "Frasier",
+    "text": "What, his hip again?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0043",
+    "t": [
+      290.202,
+      292.872
+    ],
+    "speaker": "Niles",
+    "text": "Frasier, I don't think he can live alone anymore."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0044",
+    "t": [
+      294.332,
+      295.582
+    ],
+    "speaker": "Frasier",
+    "text": "What can we do?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0045",
+    "t": [
+      295.583,
+      303.548
+    ],
+    "speaker": "Niles",
+    "text": "Well, I know this isn't going to be anyone's favorite solution but... I took the liberty of checking out a few convalescent homes for him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0046",
+    "t": [
+      303.549,
+      306.092
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, a home? He's still a young man."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0047",
+    "t": [
+      306.093,
+      309.888
+    ],
+    "speaker": "Niles",
+    "text": "Well, you certainly can't take care of him. You're just getting your new life together."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0048",
+    "t": [
+      309.889,
+      313.309
+    ],
+    "speaker": "Frasier",
+    "text": "Absolutely. Well, besides, we were never simpatico."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0049",
+    "t": [
+      313.935,
+      315.936
+    ],
+    "speaker": "Niles",
+    "text": "Of course, I can't take care of him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0050",
+    "t": [
+      315.937,
+      318.856
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, yes, yes, of course, of course. Why?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0051",
+    "t": [
+      320.358,
+      325.737
+    ],
+    "speaker": "Niles",
+    "text": "- Because Dad doesn't get along with Maris. - Who does? I thought you liked my Maris."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0052",
+    "t": [
+      325.738,
+      334.121
+    ],
+    "speaker": "Frasier",
+    "text": "I do, I... I like her from a distance. You know, the way you like the sun. Maris is like the sun, except without the warmth."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0053",
+    "t": [
+      339.835,
+      347.051
+    ],
+    "speaker": "Niles",
+    "text": "Well, then we're agreed about what to do with Dad. \"Golden Acres. We care so you don't have to.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0054",
+    "t": [
+      353.015,
+      355.059
+    ],
+    "speaker": "Niles",
+    "text": "- It says that? - Well, it might as well."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0055",
+    "t": [
+      358.104,
+      360.313
+    ],
+    "speaker": "Frasier",
+    "text": "All right, I'll make up the spare bedroom."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0056",
+    "t": [
+      360.314,
+      362.023
+    ],
+    "speaker": "Niles",
+    "text": "Oh, you're a good son, Frasier."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0057",
+    "t": [
+      362.024,
+      363.651
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, God, I am, aren't I?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0058",
+    "t": [
+      364.986,
+      367.446
+    ],
+    "speaker": "Waitress",
+    "text": "Two café supremos. Anything to eat?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0059",
+    "t": [
+      368.197,
+      370.615
+    ],
+    "speaker": "Frasier",
+    "text": "No, I seem to have lost my appetite."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0060",
+    "t": [
+      370.616,
+      372.827
+    ],
+    "speaker": "Niles",
+    "text": "I'll have a large piece of cheesecake."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0061",
+    "t": [
+      407.111,
+      408.112
+    ],
+    "speaker": "Frasier",
+    "text": "Hi!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0062",
+    "t": [
+      409.28,
+      410.364
+    ],
+    "speaker": "Niles",
+    "text": "We finally made it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0063",
+    "t": [
+      410.74,
+      413.409
+    ],
+    "speaker": "Frasier",
+    "text": "Ah, Dad, Dad, welcome to your new home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0064",
+    "t": [
+      415.161,
+      416.578
+    ],
+    "speaker": "Frasier",
+    "text": "Gee, you look great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0065",
+    "t": [
+      416.579,
+      423.627
+    ],
+    "speaker": "Martin",
+    "text": "Don't B.S. me. I do not look great. I spent Monday on the bathroom floor. You can still see the tile marks on my face."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0066",
+    "t": [
+      425.588,
+      428.09
+    ],
+    "speaker": "Niles",
+    "text": "Gives you some idea about the ride over in the car."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0067",
+    "t": [
+      429.091,
+      430.468
+    ],
+    "speaker": "Frasier",
+    "text": "Well, uh, here we are."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0068",
+    "t": [
+      432.053,
+      442.187
+    ],
+    "speaker": "Frasier",
+    "text": "Rest assured the refrigerator is stocked with your favorite beer, Ballantine, and we've got plenty of hot links and coleslaw. I just rented a Charles Bronson movie for later."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0069",
+    "t": [
+      442.188,
+      450.279
+    ],
+    "speaker": "Martin",
+    "text": "Let's cut the \"Welcome to Camp Crane\" speech. We know why I'm here. Your old man can't be left alone for ten minutes without falling on his ass, and Frasier got stuck with me. Isn't that right?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0070",
+    "t": [
+      451.739,
+      452.948
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "No, no!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0071",
+    "t": [
+      454.992,
+      458.078
+    ],
+    "speaker": "Frasier",
+    "text": "I want you here. It'll give us a chance to get reacquainted."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0072",
+    "t": [
+      458.079,
+      460.414
+    ],
+    "speaker": "Martin",
+    "text": "That implies we were acquainted at one point."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0073",
+    "t": [
+      465.711,
+      473.177
+    ],
+    "speaker": "Niles",
+    "text": "Well, ahem. Listen, why don't I take Dad's things into his new bachelor quarters so you two scoundrels can plan some hijinks?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0074",
+    "t": [
+      476.013,
+      478.307
+    ],
+    "speaker": "Martin",
+    "text": "I think that wife of his is driving him Nutso."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0075",
+    "t": [
+      478.933,
+      482.978
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, we Crane boys... sure know how to marry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0076",
+    "t": [
+      487.024,
+      503.957
+    ],
+    "speaker": "Frasier",
+    "text": "Let me get you a beer, Dad. So, what do you think of what I've done with the place, huh? You know, every item here was carefully selected. This lamp by Corbu. The chair by Eames. And this couch is an exact replica of the one Coco Chanel had in her Paris atelier."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0077",
+    "t": [
+      503.958,
+      505.416
+    ],
+    "speaker": "Martin",
+    "text": "Nothing matches."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0078",
+    "t": [
+      505.417,
+      508.17
+    ],
+    "speaker": "Frasier",
+    "text": "Well, it's a style of decorating. It's called eclectic."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0079",
+    "t": [
+      509.839,
+      516.679
+    ],
+    "speaker": "Frasier",
+    "text": "Well, the theory behind it is... if you've got really fine pieces of furniture, it doesn't matter if they match. They will go together."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0080",
+    "t": [
+      517.721,
+      518.597
+    ],
+    "speaker": "Martin",
+    "text": "It's your money."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0081",
+    "t": [
+      522.893,
+      525.812
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, what do you think of that view? Hey, that's the Space Needle there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0082",
+    "t": [
+      525.813,
+      529.316
+    ],
+    "speaker": "Martin",
+    "text": "Oh, thanks of pointing that out. Being born and raised here, I never would've known."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0083",
+    "t": [
+      533.195,
+      534.571
+    ],
+    "speaker": "Man",
+    "text": "Delivery for Martin Crane."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0084",
+    "t": [
+      534.572,
+      536.281
+    ],
+    "speaker": "Martin",
+    "text": "- Oh, in here. - Coming through."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0085",
+    "t": [
+      536.282,
+      538.867
+    ],
+    "speaker": "Frasier",
+    "text": "Excuse me. Excuse me! Wait a minute."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0086",
+    "t": [
+      538.868,
+      541.161
+    ],
+    "speaker": "Man",
+    "text": "- Where do you want it? - Where's the TV?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0087",
+    "t": [
+      541.162,
+      543.705
+    ],
+    "speaker": "Niles",
+    "text": "- It's in that credenza. - Point it at that thing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0088",
+    "t": [
+      543.706,
+      544.956
+    ],
+    "speaker": "Man",
+    "text": "What about this chair?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0089",
+    "t": [
+      544.957,
+      546.749
+    ],
+    "speaker": "Niles",
+    "text": "The chair. Let me get it out of your way."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0090",
+    "t": [
+      546.75,
+      549.044
+    ],
+    "speaker": "Frasier",
+    "text": "Niles be careful with that! That's a Wassily!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0091",
+    "t": [
+      550.588,
+      556.885
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Dad, as dear as I'm sure that this piece is to you, I just don't think it goes with anything here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0092",
+    "t": [
+      556.886,
+      558.762
+    ],
+    "speaker": "Martin",
+    "text": "I know. It's eclectic."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0093",
+    "t": [
+      562.6,
+      565.018
+    ],
+    "speaker": "Frasier",
+    "text": "Niles. Niles, will you help me out here?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0094",
+    "t": [
+      565.019,
+      568.938
+    ],
+    "speaker": "Martin",
+    "text": "You're gonna have to run an extension cord over here so I can plug in the vibrating part."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0095",
+    "t": [
+      568.939,
+      571.525
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, yes, yes, that will be the crowning touch."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0096",
+    "t": [
+      575.988,
+      581.577
+    ],
+    "speaker": "Niles",
+    "text": "Well, now that you two are settled in, I've got to run. I'm late for my dysfunctional family seminar."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0097",
+    "t": [
+      583.329,
+      587.75
+    ],
+    "speaker": "Niles",
+    "text": "Dad, have you mentioned Eddie yet? - Eddie? - Ta, ta."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0098",
+    "t": [
+      588.5,
+      591.628
+    ],
+    "speaker": "Frasier",
+    "text": "- No, Dad, no, no, not Eddie. - But he's my best friend."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0099",
+    "t": [
+      591.629,
+      593.923
+    ],
+    "speaker": "Martin",
+    "text": "- Get me my beer, will you? - But he's weird."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0100",
+    "t": [
+      595.174,
+      598.051
+    ],
+    "speaker": "Frasier",
+    "text": "He gives me the creeps. All he does is stare at me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0101",
+    "t": [
+      598.052,
+      599.719
+    ],
+    "speaker": "Martin",
+    "text": "Ah, it's just your imagination."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0102",
+    "t": [
+      599.72,
+      604.308
+    ],
+    "speaker": "Frasier",
+    "text": "No, Dad, no. No, I'm sorry. But I am putting my foot down. Eddie is not moving in here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0103",
+    "t": [
+      627.748,
+      654.107
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Niles, there you are. I'm sorry I'm late. Just as I was leaving, Dad decided to cook lunch by the glow of a small kitchen fire. Oh, Niles, this last week with Dad, it's been a living hell. When I'm there, I feel like my territory's being violated. When I'm not, I'm worried about what he's up to. Look at me, I'm a nervous wreck! I've gotta do something to calm down. Double espresso, please. Niles, you don't still have the brochures for those... those rest homes, do you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0104",
+    "t": [
+      654.108,
+      657.653
+    ],
+    "speaker": "Niles",
+    "text": "Of course I do. Don't forget, Maris is five years older than I am."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0105",
+    "t": [
+      661.74,
+      663.826
+    ],
+    "speaker": "Niles",
+    "text": "But do you really think that's necessary?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0106",
+    "t": [
+      664.118,
+      671.291
+    ],
+    "speaker": "Frasier",
+    "text": "I'm afraid I do. I don't have my life anymore. Tuesday night, I gave up my tickets to the theater. Wednesday, it was the symphony."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0107",
+    "t": [
+      671.292,
+      673.167
+    ],
+    "speaker": "Niles",
+    "text": "Weren't you going to the opera on Friday?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0108",
+    "t": [
+      673.168,
+      674.586
+    ],
+    "speaker": "Frasier",
+    "text": "- Yes, here. - Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0109",
+    "t": [
+      678.09,
+      683.344
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, you don't suppose there's a chance that you and Maris could..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0110",
+    "t": [
+      683.345,
+      689.35
+    ],
+    "speaker": "Niles",
+    "text": "Funny you should mention that. Maris and I were just discussing this. We feel we should do more to share the responsibility."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0111",
+    "t": [
+      689.351,
+      690.644
+    ],
+    "speaker": "Frasier",
+    "text": "Do you mean you'd take him in?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0112",
+    "t": [
+      691.395,
+      692.313
+    ],
+    "speaker": "Niles",
+    "text": "Dear God, no."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0113",
+    "t": [
+      694.648,
+      697.9
+    ],
+    "speaker": "Niles",
+    "text": "But we would be willing to help you pay for a home-care worker."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0114",
+    "t": [
+      697.901,
+      699.11
+    ],
+    "speaker": "Frasier",
+    "text": "A what?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0115",
+    "t": [
+      699.111,
+      702.113
+    ],
+    "speaker": "Niles",
+    "text": "Someone who cooks and cleans and can help Dad with his physical therapy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0116",
+    "t": [
+      702.114,
+      703.741
+    ],
+    "speaker": "Frasier",
+    "text": "These angels exist?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0117",
+    "t": [
+      704.908,
+      708.537
+    ],
+    "speaker": "Niles",
+    "text": "I know of an agency. Let me arrange for them to send a few people over to meet with you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0118",
+    "t": [
+      709.997,
+      716.252
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, I can't thank you enough. I feel this overwhelming urge to hug you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0119",
+    "t": [
+      716.253,
+      719.798
+    ],
+    "speaker": "Niles",
+    "text": "Remember what Mom always said, \"A handshake is as good as a hug.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0120",
+    "t": [
+      721.759,
+      722.634
+    ],
+    "speaker": "Frasier",
+    "text": "Wise woman."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0121",
+    "t": [
+      724.178,
+      732.519
+    ],
+    "speaker": "Frasier",
+    "text": "I have never been more impressed with a human being in my life. Now what was wrong with that one?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0122",
+    "t": [
+      734.021,
+      737.815
+    ],
+    "speaker": "Martin",
+    "text": "- She was casing the joint. - Casing the joint."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0123",
+    "t": [
+      737.816,
+      739.526
+    ],
+    "speaker": "Frasier",
+    "text": "She spent two years with Mother Teresa."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0124",
+    "t": [
+      741.153,
+      743.697
+    ],
+    "speaker": "Martin",
+    "text": "If I were Mother Teresa, I'd check my jewelry box."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0125",
+    "t": [
+      746.408,
+      751.538
+    ],
+    "speaker": "Frasier",
+    "text": "Now this is the last one. Can you please try to keep an open mind?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0126",
+    "t": [
+      752.581,
+      759.504
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, hello. Caught me with me hand in the biscuit tin. I'm Daphne. Daphne Moon."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0127",
+    "t": [
+      759.505,
+      766.47
+    ],
+    "speaker": "Frasier",
+    "text": "- Frasier Crane. Please come in. - Thank you. This is my father, Martin Crane. - Dad, this is Daphne Moon. - Nice to meet you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0128",
+    "t": [
+      767.179,
+      768.722
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, and who might this be?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0129",
+    "t": [
+      769.932,
+      770.808
+    ],
+    "speaker": "Frasier",
+    "text": "That is Eddie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0130",
+    "t": [
+      775.729,
+      777.48
+    ],
+    "speaker": "Martin",
+    "text": "I call him Eddie Spaghetti."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0131",
+    "t": [
+      777.481,
+      780.025
+    ],
+    "speaker": "Daphne",
+    "text": "- Oh, he likes pasta? - No, he has worms."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0132",
+    "t": [
+      785.072,
+      786.073
+    ],
+    "speaker": "unknown",
+    "text": "Uh..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0133",
+    "t": [
+      786.74,
+      788.324
+    ],
+    "speaker": "Frasier",
+    "text": "Have a seat, Miss Moon."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0134",
+    "t": [
+      788.325,
+      789.66
+    ],
+    "speaker": "Daphne",
+    "text": "Daphne. Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0135",
+    "t": [
+      791.495,
+      801.296
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, will you look at that? What a comfy chair. It's like I always say, start with a good piece and replace the rest when you can afford it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0136",
+    "t": [
+      808.971,
+      813.433
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, well, uh, perhaps you should start by telling us a little bit about yourself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0137",
+    "t": [
+      813.434,
+      816.644
+    ],
+    "speaker": "Daphne",
+    "text": "Well, I'm originally from Manchester, England."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0138",
+    "t": [
+      816.645,
+      817.979
+    ],
+    "speaker": "Frasier",
+    "text": "Did you hear that, Dad?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0139",
+    "t": [
+      817.98,
+      820.566
+    ],
+    "speaker": "Martin",
+    "text": "I'm three feet away. There's nothing wrong with my hearing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0140",
+    "t": [
+      823.402,
+      838.583
+    ],
+    "speaker": "Daphne",
+    "text": "I've only been in the U.S. for a few months. But I have quite an extensive background in home care and physical therapy, as you can see from my résumé. I-- You were a policeman, weren't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0141",
+    "t": [
+      838.584,
+      839.585
+    ],
+    "speaker": "Martin",
+    "text": "Yeah. How'd you know?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0142",
+    "t": [
+      840.377,
+      843.63
+    ],
+    "speaker": "Daphne",
+    "text": "I must confess, I'm a bit psychic."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0143",
+    "t": [
+      846.3,
+      856.143
+    ],
+    "speaker": "Daphne",
+    "text": "It's nothing big. Just little things I sense about people. It's not like I could pick the lottery. If I could, I wouldn't be talking to the likes of you two now, would I?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0144",
+    "t": [
+      858.312,
+      863.357
+    ],
+    "speaker": "Frasier",
+    "text": "Yes. Perhaps I should describe the duties around here. - You would be responsible for-- - Oh, wait a minute."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0145",
+    "t": [
+      863.358,
+      867.279
+    ],
+    "speaker": "Daphne",
+    "text": "I'm getting something on you. You're a florist."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0146",
+    "t": [
+      870.199,
+      872.325
+    ],
+    "speaker": "Frasier",
+    "text": "No, I'm a psychiatrist."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0147",
+    "t": [
+      872.326,
+      874.036
+    ],
+    "speaker": "Daphne",
+    "text": "Well, it comes and goes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0148",
+    "t": [
+      875.662,
+      882.753
+    ],
+    "speaker": "Daphne",
+    "text": "Usually it's strongest during my time of the month. Oh, I guess I let a little secret out there, didn't I?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0149",
+    "t": [
+      884.505,
+      885.797
+    ],
+    "speaker": "Frasier",
+    "text": "It's safe with us."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0150",
+    "t": [
+      887.883,
+      892.513
+    ],
+    "speaker": "Frasier",
+    "text": "Well, Miss Moon, I think we've learned just about all we need to know about you. And a dash extra."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0151",
+    "t": [
+      895.265,
+      896.767
+    ],
+    "speaker": "Daphne",
+    "text": "You're a dog, aren't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0152",
+    "t": [
+      901.647,
+      904.273
+    ],
+    "speaker": "Frasier",
+    "text": "Well, we'll be calling you Miss Moon."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0153",
+    "t": [
+      904.274,
+      907.193
+    ],
+    "speaker": "Martin",
+    "text": "Why wait? - You got the job. - Oh, wonderful!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0154",
+    "t": [
+      907.194,
+      912.823
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, excuse me, excuse me. Aren't you forgetting something? Don't you think we should talk about this in private?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0155",
+    "t": [
+      912.824,
+      922.417
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, of course you should. I completely understand. I'll just pop into the loo. - You do have one, don't you? - Yes. Oh, I love America."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0156",
+    "t": [
+      925.921,
+      927.713
+    ],
+    "speaker": "Frasier",
+    "text": "What do you think you're doing?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0157",
+    "t": [
+      927.714,
+      929.257
+    ],
+    "speaker": "Martin",
+    "text": "You wanted me to pick one, I picked one."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0158",
+    "t": [
+      929.258,
+      930.967
+    ],
+    "speaker": "Frasier",
+    "text": "But she's a kook. I don't like her."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0159",
+    "t": [
+      930.968,
+      934.596
+    ],
+    "speaker": "Martin",
+    "text": "Well, what difference does it make to you? She's only gonna be here when you're not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0160",
+    "t": [
+      935.222,
+      943.521
+    ],
+    "speaker": "Frasier",
+    "text": "Then... what's my problem? Daphne! - You've been retained. - Oh, wonderful."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0161",
+    "t": [
+      943.522,
+      945.147
+    ],
+    "speaker": "Daphne",
+    "text": "I had a premonition."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0162",
+    "t": [
+      945.148,
+      946.024
+    ],
+    "speaker": "Frasier",
+    "text": "Quelle surprise."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0163",
+    "t": [
+      948.527,
+      950.611
+    ],
+    "speaker": "Daphne",
+    "text": "I'll move the things in tomorrow."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0164",
+    "t": [
+      950.612,
+      955.324
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, move in? Oh, I'm sorry. There must be some misunderstanding. This isn't a live-in position."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0165",
+    "t": [
+      955.325,
+      958.828
+    ],
+    "speaker": "Daphne",
+    "text": "- Oh, dear. Well, the lady at the agency-- - The lady at the agency was wrong."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0166",
+    "t": [
+      958.829,
+      962.29
+    ],
+    "speaker": "Frasier",
+    "text": "This is just a part-time position. I'm afraid it just won't work out."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0167",
+    "t": [
+      962.291,
+      964.584
+    ],
+    "speaker": "Martin",
+    "text": "Hold on there, Frasier! Let's talk about this."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0168",
+    "t": [
+      964.585,
+      966.127
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, there's nothing to discuss."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0169",
+    "t": [
+      966.128,
+      971.967
+    ],
+    "speaker": "Daphne",
+    "text": "You two should talk about this. So I'll just pop back in here and enjoy some more of your African erotic art."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0170",
+    "t": [
+      972.926,
+      975.678
+    ],
+    "speaker": "Frasier",
+    "text": "Daphne, Daphne. I think it would be best if you leave."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0171",
+    "t": [
+      975.679,
+      977.139
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, well, all right, then."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0172",
+    "t": [
+      977.931,
+      983.52
+    ],
+    "speaker": "Frasier",
+    "text": "Don't be alarmed. We'll contact you... if not be telephone, then through the toaster."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0173",
+    "t": [
+      990.444,
+      993.029
+    ],
+    "speaker": "Frasier",
+    "text": "I'm not having another person living in this house."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0174",
+    "t": [
+      993.03,
+      994.322
+    ],
+    "speaker": "Martin",
+    "text": "Give me one good reason why not?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0175",
+    "t": [
+      994.323,
+      995.948
+    ],
+    "speaker": "Frasier",
+    "text": "For one thing, there's no room for her."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0176",
+    "t": [
+      995.949,
+      997.575
+    ],
+    "speaker": "Martin",
+    "text": "What about that room across from mine?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0177",
+    "t": [
+      997.576,
+      1002.079
+    ],
+    "speaker": "Frasier",
+    "text": "My study? You expect me to give up my study? The place where I read, where I do my most profound thinking?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0178",
+    "t": [
+      1002.08,
+      1004.541
+    ],
+    "speaker": "Martin",
+    "text": "Ah, use the can like the rest of the world."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0179",
+    "t": [
+      1007.669,
+      1008.836
+    ],
+    "speaker": "Martin",
+    "text": "You'll adjust."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0180",
+    "t": [
+      1008.837,
+      1026.103
+    ],
+    "speaker": "Frasier",
+    "text": "I don't want to adjust. I've done enough adjusting. I'm in a new city, I've got a new job. I'm separated from my little boy which in itself is enough to drive me nuts. And now my father and his dog are living with me. That's enough on my plate, thank you. The whole idea of getting somebody in here was to help ease my burden, not to add to it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0181",
+    "t": [
+      1026.104,
+      1028.731
+    ],
+    "speaker": "Martin",
+    "text": "You hear that, Eddie? - We're a burden. - Oh, Dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0182",
+    "t": [
+      1028.732,
+      1032.694
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, you're twisting my words. I meant burden in its most positive sense."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0183",
+    "t": [
+      1034.905,
+      1037.074
+    ],
+    "speaker": "Martin",
+    "text": "As in \"Gee, what a lovely burden\"?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0184",
+    "t": [
+      1037.658,
+      1039.659
+    ],
+    "speaker": "Frasier",
+    "text": "Something like that. Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0185",
+    "t": [
+      1039.66,
+      1054.924
+    ],
+    "speaker": "Martin",
+    "text": "You're not the only one who got screwed here. Two years ago I'm sailing toward retirement and some punk robbing a convenience store puts a bullet in my hip. Next, I'm trading in my golf clubs for one of these. Well, I had plans too, you know. And this may come as a shock to you, but one of them wasn't living with you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0186",
+    "t": [
+      1054.925,
+      1059.095
+    ],
+    "speaker": "Frasier",
+    "text": "I'm just trying to do the right thing here. - I'm trying to be the good son. - Don't worry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0187",
+    "t": [
+      1059.096,
+      1062.431
+    ],
+    "speaker": "Martin",
+    "text": "After I'm gone, you can live guilt-free knowing you've done right by your papa."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0188",
+    "t": [
+      1062.432,
+      1088.375
+    ],
+    "speaker": "Frasier",
+    "text": "You think this is all about guilt? - Isn't it? - Of course it is. The point is I did it. I took you in and I've got news for you. I wanted to do it because you're my father. And how do you repay me? Ever since you moved in here, it's been a snide comment about this or a smart little put-down about that. I've done my best to make a home here for you. And once, just once would it have killed you to say thank you? One lousy thank you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0189",
+    "t": [
+      1099.386,
+      1101.471
+    ],
+    "speaker": "Martin",
+    "text": "Come on, Eddie, it's past your dinnertime."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0190",
+    "t": [
+      1102.806,
+      1103.932
+    ],
+    "speaker": "Frasier",
+    "text": "I'm going out."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0191",
+    "t": [
+      1118.905,
+      1121.533
+    ],
+    "speaker": "Frasier",
+    "text": "They have got to move the bathroom closer to the studio!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0192",
+    "t": [
+      1123.41,
+      1127.414
+    ],
+    "speaker": "Frasier",
+    "text": "We'll be right back after these messages. Can't I put that on tape?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0193",
+    "t": [
+      1129.499,
+      1130.751
+    ],
+    "speaker": "Roz",
+    "text": "What's eating you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0194",
+    "t": [
+      1131.668,
+      1144.723
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, I'm sorry. It's just this thing with my father. This person he wants to hire. I thought I'd start my life with a clean slate and I had a picture of what it was gonna be like and then... I don't know."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0195",
+    "t": [
+      1145.849,
+      1148.017
+    ],
+    "speaker": "Roz",
+    "text": "Ever heard of Lupe Velez?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0196",
+    "t": [
+      1148.018,
+      1149.018
+    ],
+    "speaker": "Frasier",
+    "text": "Who?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0197",
+    "t": [
+      1149.019,
+      1190.101
+    ],
+    "speaker": "Roz",
+    "text": "Lupe Velez? The movie star in the '30s? Well, her career hit the skids. So she decided she'd make one final stab at immortality. She figured if she couldn't be remembered for her movies, she'd be remembered for the way she died. And all Lupe wanted was to be remembered. So she plans this lavish suicide. Flowers, candles, silk sheets, white satin gown. Full hair and makeup... the works. She takes the overdose of pills, lays on the bed and imagines how beautiful she's going to look on the front page of tomorrow's newspaper. Unfortunately, the pills don't set well with the enchilada combo plate she sadly chose as her last meal."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0198",
+    "t": [
+      1192.312,
+      1197.734
+    ],
+    "speaker": "Roz",
+    "text": "She stumbles to the bathroom, trips and goes head first into the toilet and that's how they found her."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0199",
+    "t": [
+      1200.362,
+      1202.697
+    ],
+    "speaker": "Frasier",
+    "text": "Is there a reason you're telling me this story?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0200",
+    "t": [
+      1203.49,
+      1209.329
+    ],
+    "speaker": "Roz",
+    "text": "Yes. Even though things may not happen like we planned, they can work out anyway."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0201",
+    "t": [
+      1210.914,
+      1216.378
+    ],
+    "speaker": "Frasier",
+    "text": "Remind me again how it worked for Lupe, last seen with her head in the toilet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0202",
+    "t": [
+      1217.838,
+      1222.133
+    ],
+    "speaker": "Roz",
+    "text": "All she wanted was to be remembered. Will you ever forget that story?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0203",
+    "t": [
+      1226.721,
+      1230.058
+    ],
+    "speaker": "Frasier",
+    "text": "We're back. Roz, who's our next caller?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0204",
+    "t": [
+      1230.725,
+      1234.729
+    ],
+    "speaker": "Roz",
+    "text": "We have Martin on line one. He's having a problem with his son."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0205",
+    "t": [
+      1236.857,
+      1239.65
+    ],
+    "speaker": "Frasier",
+    "text": "Hello, Martin, this is Dr. Frasier Crane."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0206",
+    "t": [
+      1239.651,
+      1242.445
+    ],
+    "speaker": "Martin",
+    "text": "- I'm listening. - I'm a first time caller."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0207",
+    "t": [
+      1248.869,
+      1252.872
+    ],
+    "speaker": "Frasier",
+    "text": "Welcome to the show. How can I help you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0208",
+    "t": [
+      1252.873,
+      1261.59
+    ],
+    "speaker": "Martin",
+    "text": "I just moved in with my son and, uh... it ain't working. - There's a lot of tension between us. - I can imagine."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0209",
+    "t": [
+      1262.299,
+      1263.675
+    ],
+    "speaker": "Frasier",
+    "text": "Why do you think that's so?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0210",
+    "t": [
+      1264.801,
+      1271.098
+    ],
+    "speaker": "Martin",
+    "text": "I guess I didn't see he had a whole new life planned for himself, and I kind of got in the way."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0211",
+    "t": [
+      1271.099,
+      1279.481
+    ],
+    "speaker": "Frasier",
+    "text": "Well, these things are a two-way street. Perhaps your son wasn't sensitive enough to see how your life was changing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0212",
+    "t": [
+      1279.482,
+      1282.444
+    ],
+    "speaker": "Martin",
+    "text": "You got that right! I've been telling him that ever since I got there!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0213",
+    "t": [
+      1284.654,
+      1286.74
+    ],
+    "speaker": "Frasier",
+    "text": "I'm sure he appreciated your candor."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0214",
+    "t": [
+      1287.574,
+      1290.409
+    ],
+    "speaker": "Martin",
+    "text": "Maybe sometimes I ought to just learn to keep my trap shut."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0215",
+    "t": [
+      1290.41,
+      1292.037
+    ],
+    "speaker": "Frasier",
+    "text": "That's good advice for us all."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0216",
+    "t": [
+      1295.332,
+      1296.166
+    ],
+    "speaker": "Frasier",
+    "text": "Anything else?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0217",
+    "t": [
+      1297.125,
+      1300.921
+    ],
+    "speaker": "Martin",
+    "text": "I'm worried that my son doesn't know I appreciate what he's done for me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0218",
+    "t": [
+      1302.589,
+      1303.964
+    ],
+    "speaker": "Frasier",
+    "text": "Why don't you tell him?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0219",
+    "t": [
+      1303.965,
+      1308.219
+    ],
+    "speaker": "Martin",
+    "text": "You know how it is with fathers and sons, you have trouble saying that stuff."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0220",
+    "t": [
+      1309.387,
+      1315.018
+    ],
+    "speaker": "Frasier",
+    "text": "Well, if it helps, I suspect your son already knows how you feel."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0221",
+    "t": [
+      1319.189,
+      1322.817
+    ],
+    "speaker": "Martin",
+    "text": "- Is that all? - Yeah, I guess that's it. Thank you, Dr. Crane."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0222",
+    "t": [
+      1323.485,
+      1324.902
+    ],
+    "speaker": "Frasier",
+    "text": "My pleasure, Martin."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0223",
+    "t": [
+      1324.903,
+      1326.779
+    ],
+    "speaker": "Martin",
+    "text": "Did you hear what I said, I said thank you!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0224",
+    "t": [
+      1326.78,
+      1327.822
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, I heard."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0225",
+    "t": [
+      1334.329,
+      1340.335
+    ],
+    "speaker": "Roz",
+    "text": "Uh, Dr. Crane we have Claire on line four. She's having a problem getting over a relationship."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0226",
+    "t": [
+      1342.253,
+      1344.005
+    ],
+    "speaker": "Frasier",
+    "text": "Hello, Claire. I'm listening."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0227",
+    "t": [
+      1344.839,
+      1360.689
+    ],
+    "speaker": "Claire",
+    "text": "I'm a... Well, I'm a mess. Eight months ago, my boyfriend and I broke up, and I just can't get over it. The pain isn't going away. It's almost like I'm in mourning for something."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0228",
+    "t": [
+      1361.272,
+      1372.909
+    ],
+    "speaker": "Frasier",
+    "text": "Claire, you are in mourning. But you're not mourning the loss of your boyfriend. You're mourning the loss of what you thought your life was going to be."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0229",
+    "t": [
+      1374.995,
+      1381.459
+    ],
+    "speaker": "Frasier",
+    "text": "Let it go. Things don't always work out how you planned. That's not necessarily bad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0230",
+    "t": [
+      1382.961,
+      1384.963
+    ],
+    "speaker": "Frasier",
+    "text": "Things have a way of working out anyway."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E01",
+    "unit_id": "u0231",
+    "t": [
+      1386.589,
+      1389.009
+    ],
+    "speaker": "Frasier",
+    "text": "Have you ever heard of Lupe Velez?"
+  }
+]

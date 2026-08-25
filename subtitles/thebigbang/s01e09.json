@@ -1,0 +1,2180 @@
+[
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0001",
+    "t": [
+      2.953,
+      7.457
+    ],
+    "speaker": "Leonard",
+    "text": "Okay. The x tens are online."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0002",
+    "t": [
+      7.624,
+      34.735
+    ],
+    "speaker": "Howard",
+    "text": "Gentlemen, I am now about to send a signal from this laptop through our local isp... Racing down fiber-optic cable at the speed of light to San Francisco... Bouncing off a satellite in geosynchronous orbit to Lisbon, Portugal. Data packets will be handed off to submerged transatlantic cables... Terminating in halifax, Nova Scotia... And transferred across the continent via microwave relays back to our isp... And the external receiver attached to this... Lamp."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0003",
+    "t": [
+      37.195,
+      39.364
+    ],
+    "speaker": "Sheldon",
+    "text": "Look at me, look at me, I've got goose bumps."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0004",
+    "t": [
+      39.531,
+      42.451
+    ],
+    "speaker": "Howard",
+    "text": "- Are we ready on the stereo? - Go for stereo."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0005",
+    "t": [
+      64.014,
+      66.683
+    ],
+    "speaker": "unknown",
+    "text": "- Hey, guys. - Leonard & Hello."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0006",
+    "t": [
+      67.017,
+      68.31
+    ],
+    "speaker": "Penny",
+    "text": "It's a little loud."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0007",
+    "t": [
+      68.477,
+      75.609
+    ],
+    "speaker": "Howard",
+    "text": "No problem. Turning it down. San Francisco, Lisbon, halifax: Voila."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0008",
+    "t": [
+      75.776,
+      76.818
+    ],
+    "speaker": "Penny",
+    "text": "Okay, thanks."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0009",
+    "t": [
+      76.985,
+      79.488
+    ],
+    "speaker": "Leonard",
+    "text": "Hang on, hang on. Do you not realize what we just did?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0010",
+    "t": [
+      79.738,
+      82.073
+    ],
+    "speaker": "Penny",
+    "text": "Yeah, you turned your stereo down with your laptop."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0011",
+    "t": [
+      82.24,
+      87.162
+    ],
+    "speaker": "Sheldon",
+    "text": "No, we turned our stereo down by sending a signal around the world via the Internet."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0012",
+    "t": [
+      87.37,
+      92.25
+    ],
+    "speaker": "Penny",
+    "text": "Oh. Get one of those universal remotes at radioshack. They're really cheap."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0013",
+    "t": [
+      92.417,
+      96.838
+    ],
+    "speaker": "Leonard",
+    "text": "No. You don't get it. Howard, enable public access."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0014",
+    "t": [
+      97.005,
+      98.507
+    ],
+    "speaker": "Howard",
+    "text": "Public access enabled."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0015",
+    "t": [
+      102.219,
+      104.763
+    ],
+    "speaker": "Penny",
+    "text": "- Boy, that's terrific, but I'll see you. - No, hang on."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0016",
+    "t": [
+      112.062,
+      118.276
+    ],
+    "speaker": "Sheldon",
+    "text": "Someone in sichuan province, China... Is using his computer to turn our lights on and off."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0017",
+    "t": [
+      118.819,
+      123.907
+    ],
+    "speaker": "Penny",
+    "text": "Huh. Well, that's handy. Um, here's a question. Why?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0018",
+    "t": [
+      125.492,
+      127.16
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Because we can."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0019",
+    "t": [
+      127.911,
+      130.288
+    ],
+    "speaker": "Sheldon",
+    "text": "Oh! They found the remote-control cars."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0020",
+    "t": [
+      133.542,
+      136.962
+    ],
+    "speaker": "Penny",
+    "text": "- But wait, wait, what's on top of them? - Wireless webcams. Wave hello."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0021",
+    "t": [
+      137.754,
+      144.469
+    ],
+    "speaker": "Howard",
+    "text": "The monster truck is out of Austin, Texas... And the blue viper is being operated from suburban Tel Aviv."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0022",
+    "t": [
+      146.888,
+      148.807
+    ],
+    "speaker": "Sheldon",
+    "text": "You may wanna put on slacks."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0023",
+    "t": [
+      148.974,
+      150.267
+    ],
+    "speaker": "Penny",
+    "text": "What?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0024",
+    "t": [
+      152.143,
+      156.314
+    ],
+    "speaker": "Penny",
+    "text": "Ew! Stop it. No. Leave me alone."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0025",
+    "t": [
+      158.775,
+      161.945
+    ],
+    "speaker": "Leonard",
+    "text": "- Who's running the red corvette? - That would be me."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0026",
+    "t": [
+      186.595,
+      193.602
+    ],
+    "speaker": "Sheldon",
+    "text": "You know, in the future, when we're disembodied brains in jars... We're going to look back on this as eight hours well wasted."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0027",
+    "t": [
+      194.644,
+      201.818
+    ],
+    "speaker": "Raj",
+    "text": "I don't wanna be in a jar. I want my brain in an Android body. Eight feet tall and ripped."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0028",
+    "t": [
+      202.694,
+      207.073
+    ],
+    "speaker": "Howard",
+    "text": "I'm with you. I just have to make sure if I'm a synthetic human, I'd still be Jewish."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0029",
+    "t": [
+      208.95,
+      210.785
+    ],
+    "speaker": "Howard",
+    "text": "I promised my mother."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0030",
+    "t": [
+      212.579,
+      221.338
+    ],
+    "speaker": "Raj",
+    "text": "I suppose you could have your Android penis circumcised. That's something your rabbi would have to discuss with the manufacturer."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0031",
+    "t": [
+      221.796,
+      225.175
+    ],
+    "speaker": "Sheldon",
+    "text": "Not to mention you'd have to power down on Saturdays."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0032",
+    "t": [
+      226.676,
+      228.678
+    ],
+    "speaker": "Leonard",
+    "text": "Sheldon, why is this letter in the trash?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0033",
+    "t": [
+      228.845,
+      237.729
+    ],
+    "speaker": "Sheldon",
+    "text": "Well, there's always the possibility... That a trash can spontaneously formed around the letter... But ockham's razor would suggest that someone threw it out."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0034",
+    "t": [
+      237.896,
+      246.363
+    ],
+    "speaker": "Leonard",
+    "text": "It's from the institute for experimental physics. They want us to present our paper on the properties of supersolids... At the topical conference on bose-Einstein condensates."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0035",
+    "t": [
+      246.529,
+      249.532
+    ],
+    "speaker": "Sheldon",
+    "text": "I know. I read it before I threw it out."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0036",
+    "t": [
+      249.699,
+      253.954
+    ],
+    "speaker": "Leonard",
+    "text": "Okay, if I may drill down to the bedrock of my question... Why did you throw it out?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0037",
+    "t": [
+      254.12,
+      267.3
+    ],
+    "speaker": "Sheldon",
+    "text": "Because I have no interest in standing in the Rose room of the Pasadena marriott... In front of a group ofjudgmental strangers... Who wouldn't recognize genius if it were standing in front of them giving a speech. Which, if I were there, it would be."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0038",
+    "t": [
+      268.009,
+      273.014
+    ],
+    "speaker": "Howard",
+    "text": "I don't know, Sheldon. Those topical conference on bose-Einstein condensates parties are legendary."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0039",
+    "t": [
+      273.181,
+      274.516
+    ],
+    "speaker": "Leonard",
+    "text": "Forget the parties."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0040",
+    "t": [
+      274.683,
+      277.644
+    ],
+    "speaker": "Howard",
+    "text": "Forget the parties? What a nerd."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0041",
+    "t": [
+      278.478,
+      284.192
+    ],
+    "speaker": "Leonard",
+    "text": "Any other honors I've gotten that I don't know about? Did ups drop off a nobel prize with my name on it?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0042",
+    "t": [
+      284.359,
+      292.659
+    ],
+    "speaker": "Sheldon",
+    "text": "Leonard, don't take this the wrong way, but the day you win a nobel prize... Is the day I begin my research on the drag coefficient of tassels on flying carpets."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0043",
+    "t": [
+      293.326,
+      297.247
+    ],
+    "speaker": "Raj",
+    "text": "Ha, ha, ha. The only thing missing from that insult was your mama."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0044",
+    "t": [
+      298.164,
+      301.501
+    ],
+    "speaker": "Howard",
+    "text": "I got one. Hey, Leonard, your mama's research methodology is so flawed..."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0045",
+    "t": [
+      301.668,
+      306.172
+    ],
+    "speaker": "Leonard",
+    "text": "Shut up, Howard. - Sheldon, we have to do this. - No, we don't."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0046",
+    "t": [
+      306.339,
+      313.513
+    ],
+    "speaker": "Sheldon",
+    "text": "We have to take in nourishment, expel waste... And inhale enough oxygen to keep our cells from dying. Everything else is optional."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0047",
+    "t": [
+      313.68,
+      315.765
+    ],
+    "speaker": "Leonard",
+    "text": "Okay, let me put it this way: I'm doing it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0048",
+    "t": [
+      315.932,
+      318.018
+    ],
+    "speaker": "Sheldon",
+    "text": "You can't. I'm the lead author."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0049",
+    "t": [
+      318.184,
+      321.98
+    ],
+    "speaker": "Leonard",
+    "text": "Come on, the only reason you're the lead author is because we went alphabetically."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0050",
+    "t": [
+      322.147,
+      332.449
+    ],
+    "speaker": "Sheldon",
+    "text": "I let you think we went alphabetically... To spare you dealing with the fact that it was my idea. Not to put too fine a point on it, but I was throwing you a bone. You're welcome."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0051",
+    "t": [
+      332.615,
+      336.036
+    ],
+    "speaker": "Leonard",
+    "text": "Excuse me, I designed the experiment that proved the hypothesis."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0052",
+    "t": [
+      336.202,
+      337.62
+    ],
+    "speaker": "Sheldon",
+    "text": "It doesn't need proving."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0053",
+    "t": [
+      337.787,
+      341.541
+    ],
+    "speaker": "Leonard",
+    "text": "So the entire scientific community is just supposed to just take your word?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0054",
+    "t": [
+      341.708,
+      344.461
+    ],
+    "speaker": "Sheldon",
+    "text": "They're not supposed to, but they should."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0055",
+    "t": [
+      344.627,
+      348.465
+    ],
+    "speaker": "Leonard",
+    "text": "I don't care what you say. I'm going to the conference, presenting our findings."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0056",
+    "t": [
+      348.631,
+      349.799
+    ],
+    "speaker": "Sheldon",
+    "text": "And I forbid it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0057",
+    "t": [
+      351.342,
+      352.552
+    ],
+    "speaker": "Leonard",
+    "text": "You forbid it?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0058",
+    "t": [
+      352.719,
+      363.146
+    ],
+    "speaker": "Sheldon",
+    "text": "If I'm not taking credit for our work, then nobody is. - So you admit that it's our work? - No, once again, I'm throwing you a bone. And once again, you are welcome."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0059",
+    "t": [
+      366.107,
+      368.443
+    ],
+    "speaker": "Howard",
+    "text": "Oh, no, he didn't."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0060",
+    "t": [
+      371.362,
+      374.491
+    ],
+    "speaker": "Penny",
+    "text": "So how's it going with Sheldon? Are you guys still not talking?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0061",
+    "t": [
+      374.657,
+      385.627
+    ],
+    "speaker": "Leonard",
+    "text": "Not only is he still not talking to me, but he does this thing... Where he stares at you and tries to get your brain to explode. You know, like in the classic Sci-Fi movie scanners?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0062",
+    "t": [
+      385.794,
+      387.128
+    ],
+    "speaker": "unknown",
+    "text": "Like: Bzz-phew!"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0063",
+    "t": [
+      388.88,
+      395.428
+    ],
+    "speaker": "Leonard",
+    "text": "Never mind. How about this one? It says, \"I know my physics, but I'm still a fun guy.\""
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0064",
+    "t": [
+      396.846,
+      399.724
+    ],
+    "speaker": "Penny",
+    "text": "Oh, I didn't know they still made corduroy suits."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0065",
+    "t": [
+      399.891,
+      402.477
+    ],
+    "speaker": "Leonard",
+    "text": "They don't. That's why I saved this one."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0066",
+    "t": [
+      402.936,
+      411.486
+    ],
+    "speaker": "Penny",
+    "text": "Okay, well, let's just see what else you have. Okay, here. Take this and this and this..."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0067",
+    "t": [
+      411.653,
+      414.114
+    ],
+    "speaker": "Leonard",
+    "text": "- And these. - Is this stuff you want me to try on?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0068",
+    "t": [
+      414.28,
+      423.414
+    ],
+    "speaker": "Penny",
+    "text": "No, this is stuff I want you to throw out. Seriously, don't even give it to charity. You won't be helping anyone. What's this?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0069",
+    "t": [
+      423.581,
+      426.042
+    ],
+    "speaker": "Leonard",
+    "text": "That's the bottle city of Kandor."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0070",
+    "t": [
+      428.878,
+      437.637
+    ],
+    "speaker": "Leonard",
+    "text": "You see, Kandor was the capital city of the planet Krypton. It was miniaturized by brainiac before Krypton exploded... And then rescued by Superman."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0071",
+    "t": [
+      438.805,
+      441.266
+    ],
+    "speaker": "Penny",
+    "text": "Oh, nice."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0072",
+    "t": [
+      441.933,
+      444.561
+    ],
+    "speaker": "Leonard",
+    "text": "It's a lot cooler when girls aren't looking at it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0073",
+    "t": [
+      445.728,
+      457.24
+    ],
+    "speaker": "Penny",
+    "text": "Here, why don't you put these on while I find a shirt and sport coat? - Great, be right back. - Where are you going? Put them on. - Here? - Oh, are you shy? - No, I'm not shy. - Don't worry, I won't look."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0074",
+    "t": [
+      457.407,
+      460.743
+    ],
+    "speaker": "Leonard",
+    "text": "I know you won't. Why would you look? There's nothing to see. Not noth..."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0075",
+    "t": [
+      460.91,
+      469.711
+    ],
+    "speaker": "Penny",
+    "text": "- Sweetie, put the pants on. - I'm gonna put them on. So, you know, isn't there some way you and Sheldon could compromise... On this presentation thing?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0076",
+    "t": [
+      469.878,
+      480.972
+    ],
+    "speaker": "Leonard",
+    "text": "No, no. Scientists do not compromise. Our minds are trained to synthesize facts and come to inarguable conclusions. Not to mention, Sheldon is bat-crap crazy."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0077",
+    "t": [
+      483.141,
+      484.601
+    ],
+    "speaker": "Penny",
+    "text": "What is this?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0078",
+    "t": [
+      484.767,
+      489.939
+    ],
+    "speaker": "Leonard",
+    "text": "Oh, careful. That's my original series Battlestar Galactica flight suit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0079",
+    "t": [
+      491.149,
+      493.276
+    ],
+    "speaker": "Penny",
+    "text": "Oh, why didn't you wear it on Halloween?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0080",
+    "t": [
+      493.443,
+      496.529
+    ],
+    "speaker": "Leonard",
+    "text": "Because it's not a costume. It's a flight suit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0081",
+    "t": [
+      499.073,
+      503.369
+    ],
+    "speaker": "Penny",
+    "text": "Okay, all right. Moving on. Oh, wow, a Paisley shirt."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0082",
+    "t": [
+      503.536,
+      505.371
+    ],
+    "speaker": "Leonard",
+    "text": "Uh-huh, it goes with my corduroy suit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0083",
+    "t": [
+      506.581,
+      513.379
+    ],
+    "speaker": "Penny",
+    "text": "If you mean it should end up in the same place, then I agree. Is this your only tie?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0084",
+    "t": [
+      513.546,
+      520.136
+    ],
+    "speaker": "Leonard",
+    "text": "Ah, technically, yes. But if you'll notice, it's reversible."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0085",
+    "t": [
+      521.721,
+      523.097
+    ],
+    "speaker": "Leonard",
+    "text": "So it works as two."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0086",
+    "t": [
+      523.556,
+      525.892
+    ],
+    "speaker": "Penny",
+    "text": "Oh, sweetie, I don't even think it works as one."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0087",
+    "t": [
+      527.81,
+      533.441
+    ],
+    "speaker": "Penny",
+    "text": "- Is this all your clothes? - Yup, everything since the eighth grade. The eighth grade?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0088",
+    "t": [
+      533.608,
+      535.401
+    ],
+    "speaker": "Leonard",
+    "text": "My last growth spurt."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0089",
+    "t": [
+      537.195,
+      539.822
+    ],
+    "speaker": "Penny",
+    "text": "Okay, well, guess we're back to the corduroy suit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0090",
+    "t": [
+      539.989,
+      542.158
+    ],
+    "speaker": "Leonard",
+    "text": "- Great. - Yup."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0091",
+    "t": [
+      543.701,
+      545.745
+    ],
+    "speaker": "Penny",
+    "text": "I said no. Put it down."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0092",
+    "t": [
+      551.334,
+      553.419
+    ],
+    "speaker": "Penny",
+    "text": "Hey, Sheldon."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0093",
+    "t": [
+      553.836,
+      555.672
+    ],
+    "speaker": "unknown",
+    "text": "Hello, penny."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0094",
+    "t": [
+      556.422,
+      558.508
+    ],
+    "speaker": "Penny",
+    "text": "Get anything good?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0095",
+    "t": [
+      560.009,
+      563.096
+    ],
+    "speaker": "Sheldon",
+    "text": "Just the latest copy of applied particle physics quarterly."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0096",
+    "t": [
+      563.513,
+      567.6
+    ],
+    "speaker": "Penny",
+    "text": "Oh, you know, that is so weird that yours came and mine didn't."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0097",
+    "t": [
+      572.563,
+      573.648
+    ],
+    "speaker": "Penny",
+    "text": "It was a joke."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0098",
+    "t": [
+      578.444,
+      582.49
+    ],
+    "speaker": "Penny",
+    "text": "Yup. Tip your waitresses. I'm here all week."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0099",
+    "t": [
+      583.908,
+      589.706
+    ],
+    "speaker": "Sheldon",
+    "text": "To save you from further awkwardness... Know that I'm comfortable with the two of us climbing the stairs in silence."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0100",
+    "t": [
+      589.872,
+      592.166
+    ],
+    "speaker": "Penny",
+    "text": "Oh, yeah, okay, me too. Zip it, lock it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0101",
+    "t": [
+      595.169,
+      596.963
+    ],
+    "speaker": "Penny",
+    "text": "Put it in your pocket."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0102",
+    "t": [
+      600.883,
+      605.847
+    ],
+    "speaker": "Penny",
+    "text": "- So you and Leonard... - Oh, dear god. Little misunderstanding, huh?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0103",
+    "t": [
+      606.014,
+      611.519
+    ],
+    "speaker": "Sheldon",
+    "text": "A little misunderstand...? Galileo and the pope had a little misunderstanding."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0104",
+    "t": [
+      614.355,
+      618.901
+    ],
+    "speaker": "Penny",
+    "text": "Anyway, I was talking to Leonard this morning... And I think he feels really bad about it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0105",
+    "t": [
+      619.235,
+      620.403
+    ],
+    "speaker": "Sheldon",
+    "text": "Huh."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0106",
+    "t": [
+      620.57,
+      622.739
+    ],
+    "speaker": "Penny",
+    "text": "Well, how do you feel?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0107",
+    "t": [
+      623.239,
+      625.533
+    ],
+    "speaker": "Sheldon",
+    "text": "I don't understand the question."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0108",
+    "t": [
+      626.159,
+      629.954
+    ],
+    "speaker": "Penny",
+    "text": "Well, I'm just asking if it's difficult to be fighting with your best friend."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0109",
+    "t": [
+      630.121,
+      639.63
+    ],
+    "speaker": "Sheldon",
+    "text": "Oh, I hadn't thought about it like that. I wonder if I've been experiencing physiological manifestations... Of some sort of unconscious emotional turmoil."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0110",
+    "t": [
+      640.048,
+      641.09
+    ],
+    "speaker": "Penny",
+    "text": "Wait, what?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0111",
+    "t": [
+      641.257,
+      643.76
+    ],
+    "speaker": "Sheldon",
+    "text": "I couldn't poop this morning."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0112",
+    "t": [
+      647.638,
+      650.683
+    ],
+    "speaker": "Penny",
+    "text": "You should just talk to him. I'm sure you guys can work this out."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0113",
+    "t": [
+      650.85,
+      656.272
+    ],
+    "speaker": "Sheldon",
+    "text": "- It's certainly preferable to my plan. - Which was? A powerful laxative."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0114",
+    "t": [
+      657.648,
+      667.241
+    ],
+    "speaker": "Penny",
+    "text": "Okay, so you absolutely should talk to him. I know Leonard values you as a friend. He told me without your little idea... There was no way he could've come up with this whole experiment thing."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0115",
+    "t": [
+      670.453,
+      672.121
+    ],
+    "speaker": "Sheldon",
+    "text": "Excuse me. Little idea?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0116",
+    "t": [
+      672.288,
+      675.333
+    ],
+    "speaker": "Penny",
+    "text": "Yeah, he tried to explain it to me. I didn't really understand it..."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0117",
+    "t": [
+      675.5,
+      678.461
+    ],
+    "speaker": "Sheldon",
+    "text": "Of course you didn't. He said \"little idea\"?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0118",
+    "t": [
+      678.628,
+      681.672
+    ],
+    "speaker": "Penny",
+    "text": "Oh. Well, no. I mean, not in those words..."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0119",
+    "t": [
+      681.839,
+      683.716
+    ],
+    "speaker": "Sheldon",
+    "text": "In what words, then, exactly?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0120",
+    "t": [
+      683.883,
+      689.389
+    ],
+    "speaker": "Penny",
+    "text": "The exact words aren't really... - It's more the spirit in which... - What did he say? You had a lucky hunch."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0121",
+    "t": [
+      690.807,
+      693.559
+    ],
+    "speaker": "unknown",
+    "text": "I've been thinking. Instead of arguing about this, why...?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0122",
+    "t": [
+      693.726,
+      696.27
+    ],
+    "speaker": "Sheldon",
+    "text": "Don't you ever speak to me again."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0123",
+    "t": [
+      697.98,
+      699.524
+    ],
+    "speaker": "Leonard",
+    "text": "What...?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0124",
+    "t": [
+      701.15,
+      703.277
+    ],
+    "speaker": "Penny",
+    "text": "Oh, he:"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0125",
+    "t": [
+      714.705,
+      721.421
+    ],
+    "speaker": "Leonard",
+    "text": "Okay, I'm leaving for the conference. - Have fun presenting my \"lucky hunch.\" - Sheldon, I didn't mean it like that."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0126",
+    "t": [
+      721.587,
+      726.175
+    ],
+    "speaker": "Sheldon",
+    "text": "- Why did you say it? - I don't know... - Were you trying to impress penny? - No, no, not at all."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0127",
+    "t": [
+      726.342,
+      727.844
+    ],
+    "speaker": "Leonard",
+    "text": "A little bit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0128",
+    "t": [
+      728.344,
+      730.179
+    ],
+    "speaker": "Sheldon",
+    "text": "How did that work out for you?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0129",
+    "t": [
+      730.346,
+      731.597
+    ],
+    "speaker": "unknown",
+    "text": "Leonard, ready to go?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0130",
+    "t": [
+      731.764,
+      735.059
+    ],
+    "speaker": "Sheldon",
+    "text": "Libido, one. Truth, zero."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0131",
+    "t": [
+      736.811,
+      740.982
+    ],
+    "speaker": "Leonard",
+    "text": "I'm gonna ask one more time. We did the work together, let's present the paper together."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0132",
+    "t": [
+      741.149,
+      746.07
+    ],
+    "speaker": "Sheldon",
+    "text": "And I'm telling you for the last time, it's pandering, it's undignified, and bite me."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0133",
+    "t": [
+      747.947,
+      749.198
+    ],
+    "speaker": "Leonard",
+    "text": "Let's go."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0134",
+    "t": [
+      749.365,
+      751.284
+    ],
+    "speaker": "Penny",
+    "text": "- Bye, Sheldon. - Goodbye, penny."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0135",
+    "t": [
+      762.295,
+      764.505
+    ],
+    "speaker": "Sheldon",
+    "text": "One of these days: Phew!"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0136",
+    "t": [
+      767.508,
+      768.551
+    ],
+    "speaker": "Penny",
+    "text": "There you go."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0137",
+    "t": [
+      768.718,
+      770.595
+    ],
+    "speaker": "Leonard",
+    "text": "You're right, this side does look better."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0138",
+    "t": [
+      770.761,
+      774.056
+    ],
+    "speaker": "Penny",
+    "text": "No, no, I didn't say better, I said less stained."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0139",
+    "t": [
+      775.349,
+      778.436
+    ],
+    "speaker": "Howard",
+    "text": "I just checked the house. There's probably 20, 25 people in there."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0140",
+    "t": [
+      778.603,
+      784.233
+    ],
+    "speaker": "Leonard",
+    "text": "- You're kidding. - Is that all? All? In particle physics, 25 is Woodstock."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0141",
+    "t": [
+      785.193,
+      787.82
+    ],
+    "speaker": "Penny",
+    "text": "Oh. Well, then, good."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0142",
+    "t": [
+      787.987,
+      790.156
+    ],
+    "speaker": "Leonard",
+    "text": "I wasn't expecting such a crowd. I'm nervous."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0143",
+    "t": [
+      790.323,
+      794.66
+    ],
+    "speaker": "Howard",
+    "text": "- It's okay. Open with a joke, you'll be fine. - Okay, joke. Okay."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0144",
+    "t": [
+      795.786,
+      816.098
+    ],
+    "speaker": "Leonard",
+    "text": "How about this? Um, okay. There's this farmer, and he has these chickens... But they won't lay any eggs. So he calls a physicist to help. The physicist then does some calculations and he says: \"I have a solution, but it only works for spherical chickens in a vacuum.\""
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0145",
+    "t": [
+      818.893,
+      819.936
+    ],
+    "speaker": "Leonard",
+    "text": "Right?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0146",
+    "t": [
+      824.106,
+      826.609
+    ],
+    "speaker": "Penny",
+    "text": "Oh, sorry, I just... I've heard it before."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0147",
+    "t": [
+      827.527,
+      828.569
+    ],
+    "speaker": "Howard",
+    "text": "- Let's roll. - Okay."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0148",
+    "t": [
+      828.736,
+      831.405
+    ],
+    "speaker": "Leonard",
+    "text": "- Hey, nice suit. - It's a classic, right?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0149",
+    "t": [
+      831.948,
+      835.201
+    ],
+    "speaker": "Penny",
+    "text": "I really should've brought my own car."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0150",
+    "t": [
+      836.953,
+      849.966
+    ],
+    "speaker": "Leonard",
+    "text": "So in conclusion, the data show that at temperatures approaching absolute zero... The moment of inertia changes and the solid becomes a supersolid... Which clearly appears to be a previously unknown state of matter."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0151",
+    "t": [
+      852.176,
+      853.761
+    ],
+    "speaker": "Leonard",
+    "text": "Thank you."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0152",
+    "t": [
+      858.349,
+      860.142
+    ],
+    "speaker": "Leonard",
+    "text": "- Are there any questions? - Yeah."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0153",
+    "t": [
+      860.601,
+      862.853
+    ],
+    "speaker": "Voice",
+    "text": "What the hell was that?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0154",
+    "t": [
+      864.981,
+      866.19
+    ],
+    "speaker": "Leonard",
+    "text": "Any other questions?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0155",
+    "t": [
+      866.732,
+      870.903
+    ],
+    "speaker": "unknown",
+    "text": "Dr. Sheldon Cooper here. I am the lead author of this particular paper."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0156",
+    "t": [
+      872.947,
+      888.963
+    ],
+    "speaker": "unknown",
+    "text": "Thank you. And you, sir, you have completely skipped over the part... Where I was walking through the park... And I saw these children on a merry-go-round... Which started me thinking about the moment of inertia... In gasses like helium at temperatures approaching absolute zero."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0157",
+    "t": [
+      889.13,
+      891.799
+    ],
+    "speaker": "Leonard",
+    "text": "I didn't skip it. It's just an anecdote. It's not science."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0158",
+    "t": [
+      891.966,
+      896.387
+    ],
+    "speaker": "Sheldon",
+    "text": "Oh, I see. It was the apple falling on Newton's head. Was that just an anecdote?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0159",
+    "t": [
+      896.554,
+      898.764
+    ],
+    "speaker": "Leonard",
+    "text": "- You are not Isaac Newton. - No, no, that's true."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0160",
+    "t": [
+      898.931,
+      901.684
+    ],
+    "speaker": "Sheldon",
+    "text": "Gravity would have been apparent to me without the apple."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0161",
+    "t": [
+      901.851,
+      903.436
+    ],
+    "speaker": "Leonard",
+    "text": "You cannot be that arrogant."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0162",
+    "t": [
+      903.603,
+      906.23
+    ],
+    "speaker": "Sheldon",
+    "text": "You continue to underestimate me, my good man."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0163",
+    "t": [
+      906.397,
+      910.359
+    ],
+    "speaker": "Leonard",
+    "text": "If you weren't happy with my presentation, then maybe you should've given it with me."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0164",
+    "t": [
+      910.526,
+      914.739
+    ],
+    "speaker": "Sheldon",
+    "text": "As I've explained repeatedly, unlike you, I don't need validation from lesser minds."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0165",
+    "t": [
+      914.905,
+      917.241
+    ],
+    "speaker": "Leonard",
+    "text": "- No offense. - Really? So why did you come?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0166",
+    "t": [
+      917.408,
+      925.875
+    ],
+    "speaker": "Sheldon",
+    "text": "- Because I knew you'd screw this up. - I didn't screw it up. Oh, please. I admit, that spherical-chicken joke was hilarious. - Thank you. - It was straight downhill from there."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0167",
+    "t": [
+      926.042,
+      947.647
+    ],
+    "speaker": "Leonard",
+    "text": "I've had enough of your condescension. Maybe I didn't go to college when I was 11, like you. Maybe I got my doctorate at 24 instead of 16. But you are not the only person who is smarter than everyone else in this room. No offense. And I am clearly not the only person who is tormented by insecurity... And has an ego in need of constant validation."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0168",
+    "t": [
+      947.813,
+      950.733
+    ],
+    "speaker": "Sheldon",
+    "text": "- So you admit you're an egotist. - Yes."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0169",
+    "t": [
+      951.609,
+      958.491
+    ],
+    "speaker": "Leonard",
+    "text": "My name is Dr. Leonard hofstadter. I could never please my parents... So I need to get my self-esteem from strangers. But he's worse!"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0170",
+    "t": [
+      958.658,
+      962.078
+    ],
+    "speaker": "Sheldon",
+    "text": "Okay, that is it. Stop it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0171",
+    "t": [
+      963.913,
+      966.457
+    ],
+    "speaker": "Leonard",
+    "text": "You cannot blow up my head with your mind."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0172",
+    "t": [
+      966.624,
+      971.921
+    ],
+    "speaker": "Sheldon",
+    "text": "Then I'll settle for an aneurism. - Stop it. - You hit me. You saw that. He hit me."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0173",
+    "t": [
+      972.088,
+      976.676
+    ],
+    "speaker": "Leonard",
+    "text": "- You tried to blow up my head. - So it was working. It wasn't... it was not... You are a nutcase."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0174",
+    "t": [
+      976.842,
+      980.179
+    ],
+    "speaker": "Sheldon",
+    "text": "We'll see. Heads up, you people in the front row. This is a splash zone."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0175",
+    "t": [
+      980.346,
+      984.1
+    ],
+    "speaker": "Leonard",
+    "text": "Stop it. Stop it. Quit it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0176",
+    "t": [
+      989.146,
+      991.774
+    ],
+    "speaker": "Penny",
+    "text": "Is this usually how these physics things go?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0177",
+    "t": [
+      991.941,
+      994.276
+    ],
+    "speaker": "Howard",
+    "text": "More often than you'd think."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0178",
+    "t": [
+      996.779,
+      1000.074
+    ],
+    "speaker": "unknown",
+    "text": "Hit you with a vulcan nerve pinch. - No pinches. No...! - No!"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0179",
+    "t": [
+      1009.792,
+      1012.503
+    ],
+    "speaker": "Sheldon",
+    "text": "You could have offered me a ride home."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0180",
+    "t": [
+      1013.462,
+      1015.965
+    ],
+    "speaker": "Leonard",
+    "text": "You're lucky I didn't run you over."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0181",
+    "t": [
+      1016.298,
+      1022.054
+    ],
+    "speaker": "Sheldon",
+    "text": "I don't understand what you're unhappy about. You begged me to come, I came. There's just no pleasing you."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0182",
+    "t": [
+      1022.221,
+      1024.849
+    ],
+    "speaker": "Leonard",
+    "text": "You're right. I'm the problem, the one that needs help."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0183",
+    "t": [
+      1025.015,
+      1027.977
+    ],
+    "speaker": "Sheldon",
+    "text": "Well, that's not much of an apology, but I'll take it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0184",
+    "t": [
+      1028.31,
+      1033.399
+    ],
+    "speaker": "Leonard",
+    "text": "Excuse me. Is there anything you'd like to apologize for?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0185",
+    "t": [
+      1035.901,
+      1041.991
+    ],
+    "speaker": "Sheldon",
+    "text": "I'm sorry I tried to blow up your head. It was uncalled for."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0186",
+    "t": [
+      1042.575,
+      1043.659
+    ],
+    "speaker": "unknown",
+    "text": "You won't believe this."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0187",
+    "t": [
+      1043.826,
+      1047.079
+    ],
+    "speaker": "Raj",
+    "text": "Somebody got the whole thing on their cell phone and put it on YouTube."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0188",
+    "t": [
+      1047.621,
+      1048.998
+    ],
+    "speaker": "Leonard",
+    "text": "What?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0189",
+    "t": [
+      1049.915,
+      1053.127
+    ],
+    "speaker": "Sheldon",
+    "text": "- Now, who would do that? - That would be me."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0190",
+    "t": [
+      1053.878,
+      1055.671
+    ],
+    "speaker": "Howard",
+    "text": "Check it out. It's a featured video."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0191",
+    "t": [
+      1055.838,
+      1070.603
+    ],
+    "speaker": "unknown",
+    "text": "You hit me. You saw that. He hit me. - You tried to blow up my head. - 80 it was working. - It was not... you are a nutcase. - We'll see about that. You people in the front row, heads up. This is a splash zone. Stop it. Quit it. Quit it."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0192",
+    "t": [
+      1073.022,
+      1079.361
+    ],
+    "speaker": "unknown",
+    "text": "- Hit you with a vulcan nerve pinch. - No pinches. No...! You should clip your fingernails. Those hurt."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0193",
+    "t": [
+      1079.987,
+      1084.158
+    ],
+    "speaker": "Leonard",
+    "text": "Oh, jeez. Does this suit really look that bad?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0194",
+    "t": [
+      1084.325,
+      1088.913
+    ],
+    "speaker": "Sheldon",
+    "text": "Forget your suit. Look at my arms waving. I'm like a flamingo on ritalin."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0195",
+    "t": [
+      1091.081,
+      1099.215
+    ],
+    "speaker": "unknown",
+    "text": "Howard, would you like to explain to me... Why your Facebook page has a picture of me sleeping on your shoulder captioned: \"Me and my girlfriend\"?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0196",
+    "t": [
+      1100.549,
+      1103.761
+    ],
+    "speaker": "Howard",
+    "text": "Uh-oh, here comes the talk."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0197",
+    "t": [
+      1112.895,
+      1117.65
+    ],
+    "speaker": "unknown",
+    "text": "- He hit me. - You tried to blow up my head. - So it was working. - It was not... you are a nutcase."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E09",
+    "unit_id": "u0198",
+    "t": [
+      1117.817,
+      1118.901
+    ],
+    "speaker": "Student One",
+    "text": "We 7! See about that."
+  }
+]

@@ -1,0 +1,2312 @@
+[
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0001",
+    "t": [
+      29.271,
+      31.189
+    ],
+    "speaker": "Sheldon",
+    "text": "- Checkmate. - Aaarggh!"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0002",
+    "t": [
+      31.69,
+      32.774
+    ],
+    "speaker": "Leonard",
+    "text": "Again?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0003",
+    "t": [
+      32.941,
+      39.448
+    ],
+    "speaker": "Sheldon",
+    "text": "Obviously, you're not well suited for three-dimensional chess. Perhaps three-dimensional candy land would be more your speed."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0004",
+    "t": [
+      39.99,
+      41.283
+    ],
+    "speaker": "Leonard",
+    "text": "Just reset the board."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0005",
+    "t": [
+      41.45,
+      45.495
+    ],
+    "speaker": "Sheldon",
+    "text": "It must be humbling to suck on so many different levels."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0006",
+    "t": [
+      51.501,
+      52.544
+    ],
+    "speaker": "Leonard",
+    "text": "- Hey, guys. - Hey."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0007",
+    "t": [
+      52.711,
+      58.633
+    ],
+    "speaker": "Penny",
+    "text": "- Get my mail? - Yeah, right here. - How was Nebraska? - Well, better than north Dakota."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0008",
+    "t": [
+      64.222,
+      67.35
+    ],
+    "speaker": "Penny",
+    "text": "I guess that joke's only funny in Nebraska."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0009",
+    "t": [
+      67.517,
+      73.774
+    ],
+    "speaker": "Sheldon",
+    "text": "From the data at hand, you can't draw that conclusion. All you can say with absolute certainty is that that joke is not funny here."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0010",
+    "t": [
+      80.03,
+      87.037
+    ],
+    "speaker": "Penny",
+    "text": "Boy, it's good to be back. - How's your family? - Oh, it was the worst trip. - Everyone got sick over the weekend. - Sick?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0011",
+    "t": [
+      87.204,
+      88.872
+    ],
+    "speaker": "Leonard",
+    "text": "Here we go."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0012",
+    "t": [
+      91.208,
+      94.127
+    ],
+    "speaker": "Penny",
+    "text": "- What kind of sick? - Oh, the flu, I guess."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0013",
+    "t": [
+      94.294,
+      99.007
+    ],
+    "speaker": "Sheldon",
+    "text": "I don't need you to guess, I need you to know. Now, when did the symptoms first appear?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0014",
+    "t": [
+      99.174,
+      100.425
+    ],
+    "speaker": "Penny",
+    "text": "Maybe Friday."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0015",
+    "t": [
+      100.592,
+      102.719
+    ],
+    "speaker": "Sheldon",
+    "text": "Friday. Was that morning or afternoon?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0016",
+    "t": [
+      103.553,
+      105.263
+    ],
+    "speaker": "Penny",
+    "text": "- I don't... - Think, woman."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0017",
+    "t": [
+      105.43,
+      107.39
+    ],
+    "speaker": "Sheldon",
+    "text": "Who blew their nose and when?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0018",
+    "t": [
+      107.974,
+      111.937
+    ],
+    "speaker": "Leonard",
+    "text": "Sheldon, relax. She doesn't have any symptoms. I'm sure she's not contagious."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0019",
+    "t": [
+      112.103,
+      125.826
+    ],
+    "speaker": "Sheldon",
+    "text": "Oh, please. If influenza was only contagious after symptoms appear... It would've died out years ago. Somewhere between tool using and cave painting... Homo habilis would've figured out to kill the guy with the runny nose."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0020",
+    "t": [
+      126.409,
+      129.412
+    ],
+    "speaker": "Leonard",
+    "text": "Penny, you'll have to excuse Sheldon. He's a bit of a germaphobe."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0021",
+    "t": [
+      129.579,
+      130.789
+    ],
+    "speaker": "Penny",
+    "text": "That's okay. I understand."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0022",
+    "t": [
+      130.956,
+      133.959
+    ],
+    "speaker": "Sheldon",
+    "text": "Thanks for your consideration. Now please leave."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0023",
+    "t": [
+      134.793,
+      138.338
+    ],
+    "speaker": "Leonard",
+    "text": "You'd better go before he starts spraying you with lysol."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0024",
+    "t": [
+      138.505,
+      140.423
+    ],
+    "speaker": "Penny",
+    "text": "Okay, well, thank you for getting my mail."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0025",
+    "t": [
+      140.59,
+      142.926
+    ],
+    "speaker": "Leonard",
+    "text": "No, problem. Welcome home."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0026",
+    "t": [
+      149.599,
+      151.226
+    ],
+    "speaker": "Sheldon",
+    "text": "What?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0027",
+    "t": [
+      182.966,
+      184.718
+    ],
+    "speaker": "Leonard",
+    "text": "What the hell are you doing?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0028",
+    "t": [
+      184.885,
+      188.763
+    ],
+    "speaker": "Sheldon",
+    "text": "I'm making petri dishes to grow throat cultures."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0029",
+    "t": [
+      189.347,
+      190.473
+    ],
+    "speaker": "Leonard",
+    "text": "With lime jell-o?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0030",
+    "t": [
+      190.64,
+      198.69
+    ],
+    "speaker": "Sheldon",
+    "text": "I need a growth medium, and someone polished off the apricot yogurt. Here. Swab my throat."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0031",
+    "t": [
+      200.692,
+      202.444
+    ],
+    "speaker": "Leonard",
+    "text": "- I don't think so. - Leonard."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0032",
+    "t": [
+      202.611,
+      206.781
+    ],
+    "speaker": "Sheldon",
+    "text": "If I'm going to get ahead of this, I need to find out what's growing in my throat."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0033",
+    "t": [
+      208.325,
+      214.164
+    ],
+    "speaker": "Leonard",
+    "text": "Sheldon, you are not sick. This is, but you are not."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0034",
+    "t": [
+      214.623,
+      224.007
+    ],
+    "speaker": "Sheldon",
+    "text": "We have no idea what pathogen... Typhoid penny has introduced into our environment. And having never been to Nebraska, I'm certain I have no corn-husking antibodies."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0035",
+    "t": [
+      226.927,
+      229.346
+    ],
+    "speaker": "Leonard",
+    "text": "Sheldon, don't you think you're overreacting?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0036",
+    "t": [
+      229.512,
+      238.021
+    ],
+    "speaker": "Sheldon",
+    "text": "When I'm lying comatose in a hospital relying on inferior minds to cure me... These cultures and my accompanying notes... Will give them a fighting chance."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0037",
+    "t": [
+      242.108,
+      243.902
+    ],
+    "speaker": "Leonard",
+    "text": "I'm going back to bed."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0038",
+    "t": [
+      244.069,
+      251.785
+    ],
+    "speaker": "Sheldon",
+    "text": "- Wait, put this in the bathroom. - What for? I need to measure my fluid intake and output... To make sure my kidneys aren't shutting down."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0039",
+    "t": [
+      253.536,
+      256.79
+    ],
+    "speaker": "Leonard",
+    "text": "I mix pancake batter in this."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0040",
+    "t": [
+      257.29,
+      260.502
+    ],
+    "speaker": "Sheldon",
+    "text": "No, that measuring cup has always been for urine."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0041",
+    "t": [
+      261.711,
+      269.844
+    ],
+    "speaker": "Leonard",
+    "text": "You had time to make a label for everything in this apartment... Including the label-maker... But you didn't have 10 seconds to make one that said, \"urine cup\"?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0042",
+    "t": [
+      271.388,
+      273.598
+    ],
+    "speaker": "Sheldon",
+    "text": "It's right here on the bottom."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0043",
+    "t": [
+      280.605,
+      284.234
+    ],
+    "speaker": "Leonard",
+    "text": "I guess I owe the Betty Crocker company a letter of apology."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0044",
+    "t": [
+      300.625,
+      308.258
+    ],
+    "speaker": "Sheldon",
+    "text": "Oh, dear god. Leonard. Leonard, I'm sick."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0045",
+    "t": [
+      312.22,
+      313.388
+    ],
+    "speaker": "Sheldon",
+    "text": "Leonard."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0046",
+    "t": [
+      315.14,
+      317.6
+    ],
+    "speaker": "unknown",
+    "text": "Leonard, I'm sick."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0047",
+    "t": [
+      320.645,
+      321.938
+    ],
+    "speaker": "unknown",
+    "text": "Leonard."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0048",
+    "t": [
+      323.565,
+      327.777
+    ],
+    "speaker": "unknown",
+    "text": "Leonard. Leonard."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0049",
+    "t": [
+      329.738,
+      334.951
+    ],
+    "speaker": "unknown",
+    "text": "Leonard, my comforter fell down and my sinuses hurt when I bend over."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0050",
+    "t": [
+      337.287,
+      338.997
+    ],
+    "speaker": "unknown",
+    "text": "Leonard?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0051",
+    "t": [
+      353.845,
+      360.769
+    ],
+    "speaker": "Sheldon",
+    "text": "- Hey. - Leonard, where are you? I'm at work. At 6:30 in the morning?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0052",
+    "t": [
+      363.313,
+      364.397
+    ],
+    "speaker": "Sheldon",
+    "text": "On Sunday?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0053",
+    "t": [
+      367.192,
+      369.277
+    ],
+    "speaker": "Leonard",
+    "text": "- —Why? - They asked me to come in."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0054",
+    "t": [
+      369.652,
+      384.918
+    ],
+    "speaker": "Sheldon",
+    "text": "- Well, I didn't hear the phone ring. - They texted me. Well, as I predicted, I am sick. My fever has been tracking up exponentially since 2 am... And I am producing sputum at an alarming rate."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0055",
+    "t": [
+      387.462,
+      394.344
+    ],
+    "speaker": "Sheldon",
+    "text": "- No kidding. - Nope. Not only that... It has shifted from clear to milky green."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0056",
+    "t": [
+      394.511,
+      397.764
+    ],
+    "speaker": "Leonard",
+    "text": "All right, well, get some rest and drink plenty of fluids."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0057",
+    "t": [
+      397.931,
+      402.769
+    ],
+    "speaker": "Sheldon",
+    "text": "What else would I drink? Gases? Solids? Ionized plasma?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0058",
+    "t": [
+      403.353,
+      404.687
+    ],
+    "speaker": "Leonard",
+    "text": "Drink whatever you want."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0059",
+    "t": [
+      404.854,
+      410.026
+    ],
+    "speaker": "Sheldon",
+    "text": "- I want soup. - Then make soup. - We don't have soup. - I'm at work, Sheldon."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0060",
+    "t": [
+      414.03,
+      419.953
+    ],
+    "speaker": "Sheldon",
+    "text": "- Is that a dog? - Yes. - In the lab? - Yes."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0061",
+    "t": [
+      421.162,
+      431.214
+    ],
+    "speaker": "Leonard",
+    "text": "They're training dogs to operate the centrifuge... For when they need dogs to operate the centrifuge for blind scientists. I have to go."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0062",
+    "t": [
+      434.717,
+      438.346
+    ],
+    "speaker": "unknown",
+    "text": "Howard, it's the phone."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0063",
+    "t": [
+      439.472,
+      448.606
+    ],
+    "speaker": "Howard",
+    "text": "I know it's the phone, ma. I hear the phone. - Well, who's calling at this ungodly hour? - I don't know."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0064",
+    "t": [
+      448.773,
+      452.902
+    ],
+    "speaker": "unknown",
+    "text": "Well, ask them why they're calling at this ungodly hour."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0065",
+    "t": [
+      453.069,
+      456.531
+    ],
+    "speaker": "Howard",
+    "text": "How can I ask them when I'm talking to you?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0066",
+    "t": [
+      460.243,
+      461.786
+    ],
+    "speaker": "Howard",
+    "text": "Hello?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0067",
+    "t": [
+      462.078,
+      464.414
+    ],
+    "speaker": "Leonard",
+    "text": "Howard, it's Leonard. Code milky green."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0068",
+    "t": [
+      464.581,
+      475.758
+    ],
+    "speaker": "Howard",
+    "text": "- Dear lord, not milky green. - Affirmative. With fever. - Who's on the phone? - It's Leonard. - Why is he calling? - Sheldon's sick."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0069",
+    "t": [
+      475.925,
+      478.803
+    ],
+    "speaker": "unknown",
+    "text": "Were you playing with him?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0070",
+    "t": [
+      480.096,
+      482.849
+    ],
+    "speaker": "Howard",
+    "text": "For god's sake, ma, I'm 26 years old."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0071",
+    "t": [
+      483.016,
+      486.06
+    ],
+    "speaker": "unknown",
+    "text": "Excuse me, Mr. Grownup."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0072",
+    "t": [
+      487.145,
+      492.275
+    ],
+    "speaker": "Howard",
+    "text": "- What do you want for breakfast? - Chocolate milk and eggos, please."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0073",
+    "t": [
+      492.692,
+      494.903
+    ],
+    "speaker": "Leonard",
+    "text": "- Howard, listen to me. - Hang on. Call waiting."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0074",
+    "t": [
+      495.069,
+      498.364
+    ],
+    "speaker": "Howard",
+    "text": "- No, don't... don't... - Hello?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0075",
+    "t": [
+      498.531,
+      499.908
+    ],
+    "speaker": "Sheldon",
+    "text": "Howard, I'm sick."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0076",
+    "t": [
+      505.496,
+      515.131
+    ],
+    "speaker": "unknown",
+    "text": "Howard's sleeping. This is his mother. Why are you calling at this ungodly hour?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0077",
+    "t": [
+      515.548,
+      517.217
+    ],
+    "speaker": "Sheldon",
+    "text": "I need soup."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0078",
+    "t": [
+      517.55,
+      519.928
+    ],
+    "speaker": "Howard",
+    "text": "Then call your own mother."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0079",
+    "t": [
+      521.804,
+      523.084
+    ],
+    "speaker": "Howard",
+    "text": "It was Sheldon."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0080",
+    "t": [
+      523.223,
+      525.308
+    ],
+    "speaker": "Leonard",
+    "text": "- I tried to stop you. - It's my own fault."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0081",
+    "t": [
+      525.475,
+      529.979
+    ],
+    "speaker": "Howard",
+    "text": "I forgot the protocol we put in place after the great ear infection of 'o6."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0082",
+    "t": [
+      530.313,
+      535.109
+    ],
+    "speaker": "Leonard",
+    "text": "You call Koothrappali. We need to find a place to lay low for the next 18 to 24 hours."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0083",
+    "t": [
+      535.276,
+      538.321
+    ],
+    "speaker": "Howard",
+    "text": "Stand by. Ma, can my friends come over?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0084",
+    "t": [
+      538.488,
+      542.659
+    ],
+    "speaker": "unknown",
+    "text": "I just had the carpet steamed."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0085",
+    "t": [
+      543.117,
+      548.498
+    ],
+    "speaker": "Howard",
+    "text": "That's a negatory. But there's a planet of the apes marathon at the nuart today."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0086",
+    "t": [
+      548.665,
+      554.254
+    ],
+    "speaker": "Leonard",
+    "text": "Five movies, two hours apiece. It's a start."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0087",
+    "t": [
+      557.048,
+      559.926
+    ],
+    "speaker": "Waitress",
+    "text": "Homeless crazy guy at table 18."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0088",
+    "t": [
+      565.265,
+      566.849
+    ],
+    "speaker": "Penny",
+    "text": "No, just crazy."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0089",
+    "t": [
+      568.685,
+      571.02
+    ],
+    "speaker": "Penny",
+    "text": "Sheldon, what are you doing here?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0090",
+    "t": [
+      571.521,
+      576.317
+    ],
+    "speaker": "Sheldon",
+    "text": "- I'm sick. Thank you very much. - How could you've gotten it from me?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0091",
+    "t": [
+      576.484,
+      578.403
+    ],
+    "speaker": "Penny",
+    "text": "- I'm not sick. - You're a carrier."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0092",
+    "t": [
+      578.569,
+      583.157
+    ],
+    "speaker": "Sheldon",
+    "text": "All these people here are doomed. - You're doomed. - Shh!"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0093",
+    "t": [
+      584.909,
+      586.869
+    ],
+    "speaker": "Penny",
+    "text": "Sheldon, what do you want?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0094",
+    "t": [
+      587.036,
+      588.871
+    ],
+    "speaker": "Sheldon",
+    "text": "I want soup."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0095",
+    "t": [
+      593.167,
+      594.21
+    ],
+    "speaker": "unknown",
+    "text": "Why didn't you just...?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0096",
+    "t": [
+      597.046,
+      598.84
+    ],
+    "speaker": "unknown",
+    "text": "Why didn't you just have soup at home?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0097",
+    "t": [
+      599.34,
+      607.39
+    ],
+    "speaker": "Sheldon",
+    "text": "Penny, I have an IQ of 187. Don't you imagine that if there were a way for me... To have had soup at home, I would have thought of it?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0098",
+    "t": [
+      607.932,
+      609.309
+    ],
+    "speaker": "Penny",
+    "text": "You can have soup delivered."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0099",
+    "t": [
+      613.73,
+      615.064
+    ],
+    "speaker": "Sheldon",
+    "text": "I did not think of that."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0100",
+    "t": [
+      617.233,
+      624.24
+    ],
+    "speaker": "Sheldon",
+    "text": "Clearly, febrile delirium is setting in. Please bring me some soup while I still understand what a spoon is for."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0101",
+    "t": [
+      624.407,
+      626.159
+    ],
+    "speaker": "Penny",
+    "text": "Okay. What kind of soup do you want?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0102",
+    "t": [
+      626.326,
+      633.166
+    ],
+    "speaker": "Sheldon",
+    "text": "Well, my mother used to make me this split-pea... With little frankfurter slices and these homemade croutons."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0103",
+    "t": [
+      633.333,
+      635.835
+    ],
+    "speaker": "Penny",
+    "text": "We have chicken, tortilla and potato leek."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0104",
+    "t": [
+      636.753,
+      640.84
+    ],
+    "speaker": "Sheldon",
+    "text": "Can I get any of those with little frankfurter slices and homemade croutons?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0105",
+    "t": [
+      643.051,
+      644.886
+    ],
+    "speaker": "Sheldon",
+    "text": "Then surprise me."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0106",
+    "t": [
+      654.604,
+      658.066
+    ],
+    "speaker": "Sheldon",
+    "text": "Would you call that moss green or forest green?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0107",
+    "t": [
+      671.746,
+      674.832
+    ],
+    "speaker": "Howard",
+    "text": "Look at this. Everyone went chimp."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0108",
+    "t": [
+      675.541,
+      679.545
+    ],
+    "speaker": "Raj",
+    "text": "I'd like to point out, I voted for orangutan... But you shouted me down."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0109",
+    "t": [
+      684.05,
+      686.344
+    ],
+    "speaker": "Penny",
+    "text": "- Oh, hi, penny. - Hey, where are you?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0110",
+    "t": [
+      686.511,
+      689.806
+    ],
+    "speaker": "Leonard",
+    "text": "I'm at work."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0111",
+    "t": [
+      690.306,
+      691.432
+    ],
+    "speaker": "Penny",
+    "text": "You sound funny."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0112",
+    "t": [
+      691.599,
+      695.478
+    ],
+    "speaker": "Leonard",
+    "text": "Oh, I'm in a radiation suit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0113",
+    "t": [
+      695.645,
+      700.858
+    ],
+    "speaker": "Penny",
+    "text": "- What's up? - Yeah, well, I'm at work too. And you'll never guess who's here infecting my entire station."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0114",
+    "t": [
+      701.025,
+      702.735
+    ],
+    "speaker": "unknown",
+    "text": "Sheldon's at the cheesecake factory."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0115",
+    "t": [
+      703.528,
+      710.41
+    ],
+    "speaker": "Penny",
+    "text": "- Just tell him to go home. - Well, he won't leave. He says he's afraid he'll pass out on the bus and someone will harvest his organs."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0116",
+    "t": [
+      711.077,
+      714.414
+    ],
+    "speaker": "unknown",
+    "text": "He's paranoid and he's established a nest."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0117",
+    "t": [
+      714.914,
+      716.499
+    ],
+    "speaker": "Penny",
+    "text": "Can you please come get him?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0118",
+    "t": [
+      717.166,
+      720.169
+    ],
+    "speaker": "Leonard",
+    "text": "Uh, yeah, I'd be happy to, penny."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0119",
+    "t": [
+      722.213,
+      730.012
+    ],
+    "speaker": "Leonard",
+    "text": "Oh, my god, there's a breach in the radiation unit. The whole city is in jeopardy. Oh, my god. Professor guggenheim is melting. Gotta go. Bye."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0120",
+    "t": [
+      736.31,
+      739.522
+    ],
+    "speaker": "Raj",
+    "text": "- I feel really guilty. - You did what you had to do."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0121",
+    "t": [
+      739.689,
+      745.862
+    ],
+    "speaker": "Howard",
+    "text": "Take your stinking paws off my popcorn... You damn dirty ape."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0122",
+    "t": [
+      750.116,
+      751.993
+    ],
+    "speaker": "Sheldon",
+    "text": "Thanks for bringing me home."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0123",
+    "t": [
+      752.16,
+      757.457
+    ],
+    "speaker": "Penny",
+    "text": "Oh, it's okay. I didn't really need to work today. It's not like I have rent or car payments or anything."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0124",
+    "t": [
+      757.623,
+      759.667
+    ],
+    "speaker": "Sheldon",
+    "text": "Good, good."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0125",
+    "t": [
+      760.918,
+      762.92
+    ],
+    "speaker": "Penny",
+    "text": "Okay, well, you feel better."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0126",
+    "t": [
+      763.087,
+      765.423
+    ],
+    "speaker": "Sheldon",
+    "text": "Wait. Where are you going?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0127",
+    "t": [
+      766.048,
+      770.094
+    ],
+    "speaker": "Penny",
+    "text": "Um, home to write some bad checks."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0128",
+    "t": [
+      771.053,
+      772.346
+    ],
+    "speaker": "Sheldon",
+    "text": "You're going to leave me?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0129",
+    "t": [
+      772.889,
+      776.058
+    ],
+    "speaker": "Penny",
+    "text": "Sheldon, you are a grown man. Haven't you ever been sick before?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0130",
+    "t": [
+      776.225,
+      779.437
+    ],
+    "speaker": "Sheldon",
+    "text": "Of course, but not by myself."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0131",
+    "t": [
+      779.604,
+      781.397
+    ],
+    "speaker": "Penny",
+    "text": "Really? Never?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0132",
+    "t": [
+      781.564,
+      790.781
+    ],
+    "speaker": "Sheldon",
+    "text": "Well, once, when I was 15 and spending the summer... At the Heidelberg institute in Germany. - Studying abroad? - No, visiting professor."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0133",
+    "t": [
+      792.825,
+      803.211
+    ],
+    "speaker": "Sheldon",
+    "text": "Anyway, the local cuisine was a little more sausage-based than I'm used to... And the result was an internal blitzkrieg... With my lower intestine playing the part of czechoslovakia."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0134",
+    "t": [
+      803.794,
+      805.963
+    ],
+    "speaker": "Penny",
+    "text": "And there was no one there to take care of you?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0135",
+    "t": [
+      806.13,
+      830.446
+    ],
+    "speaker": "Sheldon",
+    "text": "No, my mom had to fly back to Texas to help my dad... Because the house had slipped off the cinder blocks again. - Again? - It was tornado season. And it was an aluminum house. Anyway, the housekeeper in the faculty residence didn't speak any English. When I finally managed to convince her I was sick... She said, \"mochtest du eine darmspl'i/ung?\""
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0136",
+    "t": [
+      830.821,
+      832.281
+    ],
+    "speaker": "Penny",
+    "text": "What does that mean?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0137",
+    "t": [
+      832.448,
+      835.993
+    ],
+    "speaker": "Sheldon",
+    "text": "Based on what happened next, I assume it means, \"would you like an enema?\""
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0138",
+    "t": [
+      838.371,
+      842.375
+    ],
+    "speaker": "Penny",
+    "text": "Okay, sweetie. I'll take care of you. What do you need?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0139",
+    "t": [
+      842.542,
+      847.046
+    ],
+    "speaker": "Sheldon",
+    "text": "Well, my mom used to give me sponge baths."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0140",
+    "t": [
+      853.427,
+      858.182
+    ],
+    "speaker": "Penny",
+    "text": "Okay, ground rules: No sponge baths and definitely no enemas."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0141",
+    "t": [
+      858.599,
+      860.351
+    ],
+    "speaker": "Sheldon",
+    "text": "Agreed."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0142",
+    "t": [
+      864.689,
+      868.276
+    ],
+    "speaker": "Raj",
+    "text": "Here we go. Ten and a half hours of apey goodness."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0143",
+    "t": [
+      871.612,
+      877.118
+    ],
+    "speaker": "Leonard",
+    "text": "Damn it, my glasses. Okay, I'm blind here, guys. Can you help me find them?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0144",
+    "t": [
+      877.285,
+      879.12
+    ],
+    "speaker": "Howard",
+    "text": "- Sorry. - Okay."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0145",
+    "t": [
+      882.248,
+      883.457
+    ],
+    "speaker": "Howard",
+    "text": "Found them."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0146",
+    "t": [
+      885.209,
+      888.17
+    ],
+    "speaker": "Howard",
+    "text": "- Oh, great. - I'm sorry. Don't you have a spare?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0147",
+    "t": [
+      888.337,
+      894.302
+    ],
+    "speaker": "Raj",
+    "text": "- Yeah, at home. - If you leave now, you can be back... Before the gorillas whip the crap out of charlton heston."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0148",
+    "t": [
+      894.468,
+      900.391
+    ],
+    "speaker": "Howard",
+    "text": "Unless Sheldon's there. You'll be trapped forever in his whiny, hyper-neurotic snot web."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0149",
+    "t": [
+      908.024,
+      913.362
+    ],
+    "speaker": "unknown",
+    "text": "Hi, penny? I was just wondering, is Sheldon still at the restaurant?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0150",
+    "t": [
+      914.864,
+      923.623
+    ],
+    "speaker": "unknown",
+    "text": "Okay, that was very nice of you. Okay, I gotta go. Got kind of a full-blown chernobyl thing here. Gotta go, bye. He's home. I'm screwed."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0151",
+    "t": [
+      926.375,
+      929.962
+    ],
+    "speaker": "unknown",
+    "text": "Ten and a half hours of apey blurriness."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0152",
+    "t": [
+      930.88,
+      932.673
+    ],
+    "speaker": "Raj",
+    "text": "How about Lasik?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0153",
+    "t": [
+      933.799,
+      936.802
+    ],
+    "speaker": "Leonard",
+    "text": "- You want me to get eye surgery? - Would you rather go back..."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0154",
+    "t": [
+      936.969,
+      941.098
+    ],
+    "speaker": "Raj",
+    "text": "And deal with Sheldon or have a stranger carve out your corneas with a laser beam?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0155",
+    "t": [
+      943.476,
+      945.603
+    ],
+    "speaker": "Leonard",
+    "text": "- Well? - I'm thinking."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0156",
+    "t": [
+      947.104,
+      953.653
+    ],
+    "speaker": "Penny",
+    "text": "Okay, nice and cozy. - Okay, I'll see you later. - Wait."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0157",
+    "t": [
+      954.487,
+      957.698
+    ],
+    "speaker": "Sheldon",
+    "text": "Will you please rub this on my chest?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0158",
+    "t": [
+      958.532,
+      960.701
+    ],
+    "speaker": "Penny",
+    "text": "Oh, Sheldon. Can't you do that yourself?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0159",
+    "t": [
+      960.868,
+      968.209
+    ],
+    "speaker": "Sheldon",
+    "text": "Vaporub makes my hands smell funny. - But, Sheldon... - Please, please, please."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0160",
+    "t": [
+      972.421,
+      974.131
+    ],
+    "speaker": "Penny",
+    "text": "I can't believe I'm doing this."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0161",
+    "t": [
+      980.054,
+      983.641
+    ],
+    "speaker": "Sheldon",
+    "text": "No, no. Counterclockwise, or my chest hair mats."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0162",
+    "t": [
+      986.102,
+      987.478
+    ],
+    "speaker": "Penny",
+    "text": "Sorry."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0163",
+    "t": [
+      992.441,
+      995.152
+    ],
+    "speaker": "Sheldon",
+    "text": "Can you sing \"soft kitty\"?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0164",
+    "t": [
+      996.779,
+      997.822
+    ],
+    "speaker": "Penny",
+    "text": "What?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0165",
+    "t": [
+      997.988,
+      1000.491
+    ],
+    "speaker": "Sheldon",
+    "text": "My mom used to sing it to me when I was sick."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0166",
+    "t": [
+      1000.658,
+      1003.703
+    ],
+    "speaker": "Penny",
+    "text": "- I'm sorry, honey, I don't know it. - I'll teach you."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0167",
+    "t": [
+      1005.287,
+      1020.302
+    ],
+    "speaker": "Sheldon",
+    "text": "Soft kitty, warm kitty little ball of fur happy kitty, sleepy kitty purr, purr, purr"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0168",
+    "t": [
+      1023.097,
+      1024.724
+    ],
+    "speaker": "Sheldon",
+    "text": "now you."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0169",
+    "t": [
+      1030.146,
+      1034.608
+    ],
+    "speaker": "unknown",
+    "text": "Soft kitty, warm kitty"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0170",
+    "t": [
+      1035.943,
+      1041.198
+    ],
+    "speaker": "Sheldon",
+    "text": "little ball of fur keep rubbing."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0171",
+    "t": [
+      1042.992,
+      1045.828
+    ],
+    "speaker": "unknown",
+    "text": "Little ball of fur"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0172",
+    "t": [
+      1060.134,
+      1071.103
+    ],
+    "speaker": "Leonard",
+    "text": "What do you see? What do you see? I can't... - Living room appears to be empty. - Okay, he must be in his bedroom. My spare glasses are in my bedroom, on my dresser, next to my bat signal."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0173",
+    "t": [
+      1072.104,
+      1073.397
+    ],
+    "speaker": "Howard",
+    "text": "I'm not going in there."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0174",
+    "t": [
+      1073.981,
+      1075.608
+    ],
+    "speaker": "Raj",
+    "text": "- Raj? - No way, Jose."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0175",
+    "t": [
+      1076.901,
+      1079.653
+    ],
+    "speaker": "Leonard",
+    "text": "- But I can't do it. I can't see anything. - It's all right."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0176",
+    "t": [
+      1079.82,
+      1105.638
+    ],
+    "speaker": "Howard",
+    "text": "Wireless mini-cam and Bluetooth headset. We'll be your eyes. - Fine. - One more thing. This is a sub-Sonic impact sensor. If Sheldon gets out of bed and starts to walk... This will register it and send a signal to the laptop. At that point, based on the geography of the apartment and the speed of Sheldon... You'll have seven seconds to get out, glasses or no glasses."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0177",
+    "t": [
+      1105.805,
+      1107.515
+    ],
+    "speaker": "Leonard",
+    "text": "Won't my footsteps set it off?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0178",
+    "t": [
+      1107.681,
+      1112.978
+    ],
+    "speaker": "Howard",
+    "text": "No. You'll be on your hands and knees. Now, you'll need to get the sensor close to Sheldon's room."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0179",
+    "t": [
+      1113.145,
+      1115.773
+    ],
+    "speaker": "Leonard",
+    "text": "How do I carry it if I'm on my hands and knees?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0180",
+    "t": [
+      1121.153,
+      1126.784
+    ],
+    "speaker": "Howard",
+    "text": "Stay low. Bear left. - Now keep true. - What?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0181",
+    "t": [
+      1126.951,
+      1130.12
+    ],
+    "speaker": "Leonard",
+    "text": "- It means go straight. - Then just say, \"go straight.\""
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0182",
+    "t": [
+      1130.621,
+      1134.458
+    ],
+    "speaker": "Howard",
+    "text": "You don't say, \"go straight,\" when you're giving bearings. You say, \"keep true.\""
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0183",
+    "t": [
+      1135.167,
+      1136.836
+    ],
+    "speaker": "unknown",
+    "text": "All right."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0184",
+    "t": [
+      1140.339,
+      1142.007
+    ],
+    "speaker": "Leonard",
+    "text": "I just hit my head."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0185",
+    "t": [
+      1142.883,
+      1144.552
+    ],
+    "speaker": "Howard",
+    "text": "Because you didn't keep true."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0186",
+    "t": [
+      1147.304,
+      1149.557
+    ],
+    "speaker": "Howard",
+    "text": "Okay, turn right."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0187",
+    "t": [
+      1150.182,
+      1152.184
+    ],
+    "speaker": "Raj",
+    "text": "The picture's breaking up."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0188",
+    "t": [
+      1152.351,
+      1161.861
+    ],
+    "speaker": "Howard",
+    "text": "Angle your head to the right. Now, a little more. Little more. That's it. Now just keep true."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0189",
+    "t": [
+      1164.697,
+      1171.495
+    ],
+    "speaker": "Howard",
+    "text": "All right, you're close enough to Sheldon's room. Deploy the sensor. Now turn it on."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0190",
+    "t": [
+      1171.662,
+      1176.333
+    ],
+    "speaker": "Leonard",
+    "text": "- It wasn't on? - No. Then why did I have to crawl?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0191",
+    "t": [
+      1177.751,
+      1179.712
+    ],
+    "speaker": "Howard",
+    "text": "Oh, I guess you didn't."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0192",
+    "t": [
+      1182.923,
+      1184.049
+    ],
+    "speaker": "Leonard",
+    "text": "Okay, it's on."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0193",
+    "t": [
+      1184.216,
+      1187.97
+    ],
+    "speaker": "Howard",
+    "text": "Good. From this point fonnard, you will have to crawl."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0194",
+    "t": [
+      1189.221,
+      1191.265
+    ],
+    "speaker": "Leonard",
+    "text": "I know."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0195",
+    "t": [
+      1194.393,
+      1197.98
+    ],
+    "speaker": "Howard",
+    "text": "Hang on, the sensor's picking up something. Turn your head back."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0196",
+    "t": [
+      1203.777,
+      1206.071
+    ],
+    "speaker": "Penny",
+    "text": "You rat bastard."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0197",
+    "t": [
+      1207.656,
+      1209.783
+    ],
+    "speaker": "unknown",
+    "text": "Told you the sensor would work."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0198",
+    "t": [
+      1212.286,
+      1214.33
+    ],
+    "speaker": "Penny",
+    "text": "You deliberately stuck me with Sheldon."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0199",
+    "t": [
+      1214.496,
+      1216.832
+    ],
+    "speaker": "Leonard",
+    "text": "Come on, I had to. You see what he's like."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0200",
+    "t": [
+      1216.999,
+      1219.668
+    ],
+    "speaker": "unknown",
+    "text": "Penny? Penny, I'm hungry."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0201",
+    "t": [
+      1220.377,
+      1223.923
+    ],
+    "speaker": "Penny",
+    "text": "It's okay, sweetie. Good news. - Leonard's home. - No."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0202",
+    "t": [
+      1224.089,
+      1231.597
+    ],
+    "speaker": "Leonard",
+    "text": "- Here you go, good luck, bye. - Oh, wait, wait. - Leonard? I'm hungry. - Wait. Penny, take me with you."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0203",
+    "t": [
+      1235.935,
+      1237.686
+    ],
+    "speaker": "unknown",
+    "text": "Leonard?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0204",
+    "t": [
+      1241.19,
+      1243.067
+    ],
+    "speaker": "Sheldon",
+    "text": "I want grilled cheese."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0205",
+    "t": [
+      1261.543,
+      1265.381
+    ],
+    "speaker": "Sheldon",
+    "text": "Do you think penny will come here and take care of us?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0206",
+    "t": [
+      1266.298,
+      1269.718
+    ],
+    "speaker": "Leonard",
+    "text": "I don't think penny's ever coming here again."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0207",
+    "t": [
+      1272.346,
+      1275.224
+    ],
+    "speaker": "Sheldon",
+    "text": "I'm very congested."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0208",
+    "t": [
+      1278.227,
+      1283.023
+    ],
+    "speaker": "Sheldon",
+    "text": "Can you go to the kitchen and get me the Turkey baster labeled, \"mucus\"?"
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0209",
+    "t": [
+      1286.026,
+      1289.154
+    ],
+    "speaker": "Leonard",
+    "text": "If I stand, I'll vomit."
+  },
+  {
+    "series": "thebigbang",
+    "ep": "S01E11",
+    "unit_id": "u0210",
+    "t": [
+      1289.697,
+      1292.7
+    ],
+    "speaker": "Sheldon",
+    "text": "Under the sink. Yellow tuppennare bowl."
+  }
+]

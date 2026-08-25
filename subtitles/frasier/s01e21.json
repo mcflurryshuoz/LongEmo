@@ -1,0 +1,2532 @@
+[
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0001",
+    "t": [
+      9.856,
+      15.819
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, look, Roz, Roz, my brochures are here. Oh, God, what an exciting vacation."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0002",
+    "t": [
+      15.82,
+      21.324
+    ],
+    "speaker": "Roz",
+    "text": "- Wow, the Golden Door Spa? - Yeah. Look at those accommodations. That is nice."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0003",
+    "t": [
+      21.325,
+      33.253
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, I plan to leave Dad and Eddie to fend for themselves when I go up and spend an obscene amount of money being pampered like a spoiled child. I know it's self-indulgent. What else are vacations for? What are you doing for your week off?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0004",
+    "t": [
+      33.254,
+      37.925
+    ],
+    "speaker": "Roz",
+    "text": "Oh, I'm taking my mom to Ireland to stay in the sod house where her mother was born."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0005",
+    "t": [
+      41.137,
+      44.724
+    ],
+    "speaker": "Frasier",
+    "text": "Why don't you just write the words \"bad son\" on my forehead?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0006",
+    "t": [
+      45.892,
+      52.356
+    ],
+    "speaker": "Roz",
+    "text": "There is nothing wrong with pampering yourself on your vacation. After all, you do work three hours a day."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0007",
+    "t": [
+      55.818,
+      58.07
+    ],
+    "speaker": "Roz",
+    "text": "I'm sorry. That one even surprised me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0008",
+    "t": [
+      59.113,
+      66.745
+    ],
+    "speaker": "Frasier",
+    "text": "It's just that when I think of the relationship I have with my dad, I can't help but envy the relationship you have with your mother."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0009",
+    "t": [
+      66.746,
+      71.082
+    ],
+    "speaker": "Roz",
+    "text": "Well, it didn't just happen. We work at it. We spend time together."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0010",
+    "t": [
+      71.083,
+      75.087
+    ],
+    "speaker": "Frasier",
+    "text": "Do you forget that my father lives with me? How much more time together could we spend?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0011",
+    "t": [
+      75.797,
+      84.763
+    ],
+    "speaker": "Roz",
+    "text": "Day to day living is different. There is nothing better than taking a trip together. You get to have a little fun. You get to relax. You get to see a whole different side of the other person."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0012",
+    "t": [
+      84.764,
+      96.484
+    ],
+    "speaker": "Frasier",
+    "text": "You know, in his entire life, my dad has never been to Europe. It would be a way of connecting with him if I were the one to give him that. So, what would you charge me to take him to Ireland with you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0013",
+    "t": [
+      107.703,
+      112.834
+    ],
+    "speaker": "Niles",
+    "text": "I should have known this would happen. I always throw out my back when I try to lift Maris' luggage."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0014",
+    "t": [
+      113.918,
+      115.836
+    ],
+    "speaker": "Daphne",
+    "text": "Why didn't you hire a skycap?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0015",
+    "t": [
+      115.837,
+      125.847
+    ],
+    "speaker": "Niles",
+    "text": "Oh, we did for most of it. But Maris won't trust strangers with her makeup case ever since a ham-handed porter dropped it and broke three vials of rare Swiss lamb placenta."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0016",
+    "t": [
+      128.349,
+      132.562
+    ],
+    "speaker": "Niles",
+    "text": "On the upside, the calfskin lining of her case was never more soft and supple."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0017",
+    "t": [
+      135.439,
+      137.692
+    ],
+    "speaker": "Daphne",
+    "text": "- Where did Mrs. Crane go, anyway? - Oh."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0018",
+    "t": [
+      142.321,
+      145.782
+    ],
+    "speaker": "Niles",
+    "text": "She's making her annual pilgrimage to the Holy Land."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0019",
+    "t": [
+      145.783,
+      148.326
+    ],
+    "speaker": "Martin",
+    "text": "I thought she was going to Dallas to visit her sister."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0020",
+    "t": [
+      148.327,
+      152.707
+    ],
+    "speaker": "Niles",
+    "text": "That is her holy land. It's the site of the first Neiman Marcus."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0021",
+    "t": [
+      156.586,
+      159.63
+    ],
+    "speaker": "Niles",
+    "text": "- Oh, Dr. Crane. - Oh, call me Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0022",
+    "t": [
+      167.263,
+      168.513
+    ],
+    "speaker": "Niles",
+    "text": "Thank you, Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0023",
+    "t": [
+      168.514,
+      174.437
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, I have an idea, and I hope you're as excited about it as I am. I want to take you on vacation."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0024",
+    "t": [
+      175.813,
+      176.689
+    ],
+    "speaker": "Martin",
+    "text": "Why?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0025",
+    "t": [
+      178.357,
+      184.696
+    ],
+    "speaker": "Frasier",
+    "text": "An adventure might do us some good. Give us a chance to have some fun, maybe get reacquainted, even do a little bonding."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0026",
+    "t": [
+      184.697,
+      186.031
+    ],
+    "speaker": "Martin",
+    "text": "What did you have in mind?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0027",
+    "t": [
+      186.032,
+      194.081
+    ],
+    "speaker": "Frasier",
+    "text": "This is not about where I want to go. This is about where you want to go. Dad, I give you the world."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0028",
+    "t": [
+      197.209,
+      199.754
+    ],
+    "speaker": "Martin",
+    "text": "The Galapagos islands, huh?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0029",
+    "t": [
+      202.673,
+      210.181
+    ],
+    "speaker": "Martin",
+    "text": "\"Where iguanas, sea lions, and giant tortoises live in eternal harmony.\" Is it important they get along?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0030",
+    "t": [
+      211.807,
+      213.642
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, no, I suppose not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0031",
+    "t": [
+      213.643,
+      219.147
+    ],
+    "speaker": "Niles",
+    "text": "Oh! How about this? India and Nepal. \"Trek the foothills of the Himalayas.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0032",
+    "t": [
+      219.148,
+      222.108
+    ],
+    "speaker": "Martin",
+    "text": "- You're forgetting about my old pal here. - No problem."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0033",
+    "t": [
+      222.109,
+      227.865
+    ],
+    "speaker": "Niles",
+    "text": "Frasier can hire a really tough Sherpa to carry you on his back. They don't mind."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0034",
+    "t": [
+      229.2,
+      234.996
+    ],
+    "speaker": "Frasier",
+    "text": "We obviously haven't struck the right chord yet. But we will. We will. Dad, why don't you suggest something?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0035",
+    "t": [
+      234.997,
+      236.957
+    ],
+    "speaker": "Martin",
+    "text": "You really wanna go on a trip with me?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0036",
+    "t": [
+      236.958,
+      239.626
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, I do. I'll go anywhere you want to, anywhere."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0037",
+    "t": [
+      239.627,
+      246.591
+    ],
+    "speaker": "Martin",
+    "text": "Okay. Well, maybe I'm not as sophisticated as you, but I think I should see America first."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0038",
+    "t": [
+      246.592,
+      249.469
+    ],
+    "speaker": "Frasier",
+    "text": "Great! We're Americans. We should see America."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0039",
+    "t": [
+      249.47,
+      252.515
+    ],
+    "speaker": "Martin",
+    "text": "- And I wanna see it in a Winnebago. - A Winnebago!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0040",
+    "t": [
+      253.265,
+      256.476
+    ],
+    "speaker": "Frasier",
+    "text": "- Hot damn, that has a real ring to it! - Yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0041",
+    "t": [
+      256.477,
+      259.521
+    ],
+    "speaker": "Martin",
+    "text": "It's something your mother and I dreamed about doing when I retired."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0042",
+    "t": [
+      259.522,
+      262.691
+    ],
+    "speaker": "Frasier",
+    "text": "Well, then, that is exactly the trip we're going to take."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0043",
+    "t": [
+      262.692,
+      271.909
+    ],
+    "speaker": "Martin",
+    "text": "- You really mean it? - Absolutely. - This calls for a celebration. - Yeah, let's pop open a couple of beers. I think I've got a bag of pork rinds in here too."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0044",
+    "t": [
+      272.451,
+      276.288
+    ],
+    "speaker": "Frasier",
+    "text": "Ah, the final touch. I almost feel like I'm in a trailer park already."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0045",
+    "t": [
+      284.005,
+      285.506
+    ],
+    "speaker": "Niles",
+    "text": "Oh, Winnebago boy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0046",
+    "t": [
+      288.134,
+      292.847
+    ],
+    "speaker": "Niles",
+    "text": "Hang a lot of beach chairs on the back and give it a cute name like The Whooping Cranes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0047",
+    "t": [
+      295.474,
+      303.565
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Niles, when I agreed to see America with Dad, I thought we'd be in five-star resorts. When I said together, I meant adjoining suites!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0048",
+    "t": [
+      303.566,
+      305.859
+    ],
+    "speaker": "Niles",
+    "text": "- Just tell him it's a bad idea. - Oh, I can't do that."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0049",
+    "t": [
+      305.86,
+      311.407
+    ],
+    "speaker": "Frasier",
+    "text": "He's counting on this trip. It was his dream. - He was going on this trip with Mom. - Yes, but she lucked out and died."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0050",
+    "t": [
+      317.121,
+      325.837
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, listen, listen, if Dad and I get into a Winnebago together, one of us will come out alive. - You've got to come with us. - Frasier, you're my brother."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0051",
+    "t": [
+      325.838,
+      329.842
+    ],
+    "speaker": "Niles",
+    "text": "That entitles you to my bone marrow and my kidney, but this is an imposition."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0052",
+    "t": [
+      331.677,
+      340.226
+    ],
+    "speaker": "Martin",
+    "text": "- You've gotta come with us. - Why? Well, Frasier and I don't have anything to talk about. I always feel more comfortable if there's somebody else around or the TV's blaring."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0053",
+    "t": [
+      340.227,
+      341.561
+    ],
+    "speaker": "Daphne",
+    "text": "Then, why did you suggest it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0054",
+    "t": [
+      341.562,
+      352.614
+    ],
+    "speaker": "Martin",
+    "text": "It sounded like a good idea when it came out. But the more I think about it... Can you really see me and Frasier together all day, then, crawling into our bunks at night, lying head-to-head in the dark, bonding?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0055",
+    "t": [
+      354.658,
+      356.577
+    ],
+    "speaker": "Martin",
+    "text": "I'll pay you. I've got pension money."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0056",
+    "t": [
+      357.411,
+      367.046
+    ],
+    "speaker": "Frasier",
+    "text": "I remember a car trip we took when I was 9. We drove from Seattle to Spokane. The only thing he said to me was: \"I think we've got a problem with your brother, Frasier.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0057",
+    "t": [
+      375.262,
+      384.105
+    ],
+    "speaker": "Niles",
+    "text": "Those were awful, those family driving vacations. Dad insisting on covering as many miles as possible in a day. The two of us, tiny hostages in the back seat,"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0058",
+    "t": [
+      385.815,
+      394.115
+    ],
+    "speaker": "Niles",
+    "text": "clutching our car-sickness bags, straining to see something out the window as the landscape whizzed by. I was 13 before I realized cows aren't blurry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0059",
+    "t": [
+      397.91,
+      400.12
+    ],
+    "speaker": "Daphne",
+    "text": "Why don't you tell him you don't wanna go?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0060",
+    "t": [
+      400.121,
+      403.623
+    ],
+    "speaker": "Martin",
+    "text": "Oh, you heard how he wants to go. I don't wanna disappoint him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0061",
+    "t": [
+      403.624,
+      405.209
+    ],
+    "speaker": "Frasier",
+    "text": "I don't want to disappoint him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0062",
+    "t": [
+      406.21,
+      422.476
+    ],
+    "speaker": "Niles",
+    "text": "I'm sorry, Frasier. I'm not a Winnebago person. Whenever I see one on the highway, I look into the driver's eyes hoping to see something that would explain why in God's name he would ever want to do something like this. All I see is a death stare under the brim of a hat made out of Miller Lite cans."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0063",
+    "t": [
+      424.478,
+      430.484
+    ],
+    "speaker": "Niles",
+    "text": "- This is my final word. I'm not going. - Hey, great news. Daphne's coming too. And so am I."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0064",
+    "t": [
+      438.868,
+      446.125
+    ],
+    "speaker": "Martin",
+    "text": "It's everything I'd hoped it would be, only better. It's like sitting in your own living room watching TV. Except it isn't TV. It's America."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0065",
+    "t": [
+      446.917,
+      451.964
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, Dad, it's the ultimate in reality programming, actual reality."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0066",
+    "t": [
+      453.007,
+      456.551
+    ],
+    "speaker": "Martin",
+    "text": "We've got a turnoff coming up in about five miles. Start slowing down."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0067",
+    "t": [
+      456.552,
+      457.51
+    ],
+    "speaker": "Frasier",
+    "text": "Right-o, Dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0068",
+    "t": [
+      457.511,
+      459.805
+    ],
+    "speaker": "Daphne",
+    "text": "How's it feel behind that wheel, Dr. Crane?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0069",
+    "t": [
+      460.556,
+      461.515
+    ],
+    "speaker": "Frasier",
+    "text": "Manly."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0070",
+    "t": [
+      463.642,
+      465.394
+    ],
+    "speaker": "Frasier",
+    "text": "This is mine, and it's big."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0071",
+    "t": [
+      468.397,
+      471.734
+    ],
+    "speaker": "Niles",
+    "text": "Oh, my God. It's like being sealed upright in a Formica coffin."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0072",
+    "t": [
+      473.903,
+      478.741
+    ],
+    "speaker": "Martin",
+    "text": "Remember the old days, Niles? When they were kids, all I had in the back seat was a mayonnaise jar."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0073",
+    "t": [
+      480.618,
+      488.834
+    ],
+    "speaker": "Frasier",
+    "text": "It took quite a bit of skill to use it successfully at 70 miles an hour. Never really been fond of mayonnaise since."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0074",
+    "t": [
+      489.585,
+      490.711
+    ],
+    "speaker": "Niles",
+    "text": "Or speed bumps."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0075",
+    "t": [
+      491.462,
+      497.717
+    ],
+    "speaker": "Martin",
+    "text": "Okay, turnoff's coming up now. We're about four miles away. Get ready. It's coming up. All right, you're okay on the right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0076",
+    "t": [
+      497.718,
+      507.143
+    ],
+    "speaker": "Frasier",
+    "text": "- Never too early to move over. - You know, Dad, I was wondering. What inspired you to choose that uniquely American, man-made wonder, Mount Rushmore?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0077",
+    "t": [
+      507.144,
+      519.99
+    ],
+    "speaker": "Martin",
+    "text": "It's obvious. We've got a week off. That's as far as we can go in three and a half days and make it back. We get there, get out, walk around the Valley of the Presidents, drive back. Boom. Another fine landmark under our belts."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0078",
+    "t": [
+      520.783,
+      529.166
+    ],
+    "speaker": "Daphne",
+    "text": "You've certainly got this trip well-planned, Mr. Crane. Whenever I take a holiday, I just grab a fresh pair of knickers and see where the wind takes me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0079",
+    "t": [
+      531.377,
+      533.462
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0080",
+    "t": [
+      546.141,
+      550.395
+    ],
+    "speaker": "Frasier",
+    "text": "You know what, what Daphne's saying is what we should really be doing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0081",
+    "t": [
+      550.396,
+      551.688
+    ],
+    "speaker": "Martin",
+    "text": "What are you talking about?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0082",
+    "t": [
+      551.689,
+      568.454
+    ],
+    "speaker": "Frasier",
+    "text": "Well, now, why should we be so beholden to maps and schedules? We should roam. America has always been enchanted with the romance of the open highway. Jack Kerouac went \"on the road.\" Buzz and Todd got their kicks on Route 66. The adventure is in the journey. We should just ramble."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0083",
+    "t": [
+      568.455,
+      571.667
+    ],
+    "speaker": "Niles",
+    "text": "Doggone it, I'm inspired. I'm gonna put on a baseball cap."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0084",
+    "t": [
+      572.71,
+      576.379
+    ],
+    "speaker": "Martin",
+    "text": "Frasier, watch it. You're gonna miss the turnoff. - So? - We'll get lost."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0085",
+    "t": [
+      576.38,
+      580.216
+    ],
+    "speaker": "Frasier",
+    "text": "Lost from where? We're in a house on wheels. Wherever we go, we're home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0086",
+    "t": [
+      580.217,
+      587.766
+    ],
+    "speaker": "Martin",
+    "text": "It's coming up! It's coming up! All right, turn here! - This is it! Turn! Turn here! - Dad! We missed it!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0087",
+    "t": [
+      590.602,
+      593.689
+    ],
+    "speaker": "Frasier",
+    "text": "- Dad, we didn't miss anything. - Oh, my God!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0088",
+    "t": [
+      597.985,
+      604.866
+    ],
+    "speaker": "Frasier",
+    "text": "We are now on the road less traveled. From now on, there is a new order. We dance to the rhythm of the road."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0089",
+    "t": [
+      604.867,
+      614.209
+    ],
+    "speaker": "Martin",
+    "text": "All right, don't worry about anything. Now. I-- There's gotta be an access road leading back onto that turnoff. Oh, where is it? Where is it? Oh, it's always in the crack!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0090",
+    "t": [
+      618.672,
+      620.215
+    ],
+    "speaker": "Frasier",
+    "text": "So is life, Dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0091",
+    "t": [
+      625.846,
+      629.6
+    ],
+    "speaker": "Martin",
+    "text": "I've gotta say, I was anxious, but I'm starting to like this free spirit stuff."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0092",
+    "t": [
+      630.642,
+      636.856
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, Dad, look. There's an historical marker up ahead. - Let's stop. Let's go see it, huh? - Just driving wherever you feel like it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0093",
+    "t": [
+      636.857,
+      644.197
+    ],
+    "speaker": "Niles",
+    "text": "It's educational, Dad. There. There. There. - What did it say? - I have no idea."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0094",
+    "t": [
+      644.198,
+      646.408
+    ],
+    "speaker": "Frasier",
+    "text": "The only word I saw was \"legendary.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0095",
+    "t": [
+      648.327,
+      654.958
+    ],
+    "speaker": "Niles",
+    "text": "Oh, look, a roadside stand, fresh fruit, homemade apple cider. - Dad, Dad, Dad. - Dad, Dad, Dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0096",
+    "t": [
+      655.918,
+      656.794
+    ],
+    "speaker": "unknown",
+    "text": "Oh!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0097",
+    "t": [
+      657.669,
+      660.756
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Dad, you seem to be missing the freewheeling concept."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0098",
+    "t": [
+      662.591,
+      665.51
+    ],
+    "speaker": "Frasier",
+    "text": "We're supposed to go where the wind blows us, for God's sake."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0099",
+    "t": [
+      665.511,
+      668.68
+    ],
+    "speaker": "Martin",
+    "text": "It's blowing. We're going. Why are you moaning?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0100",
+    "t": [
+      669.473,
+      672.475
+    ],
+    "speaker": "Frasier",
+    "text": "What is this obsession you have with covering a certain distance?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0101",
+    "t": [
+      672.476,
+      677.022
+    ],
+    "speaker": "Martin",
+    "text": "It's the way I relax. Hey, watch it! I've got my kids in the car!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0102",
+    "t": [
+      677.856,
+      678.774
+    ],
+    "speaker": "unknown",
+    "text": "Whoa!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0103",
+    "t": [
+      683.112,
+      689.535
+    ],
+    "speaker": "Frasier",
+    "text": "What you call relaxing seems like a man with an obsession to me. Don't you think so, Niles? Niles, what are you doing?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0104",
+    "t": [
+      690.244,
+      695.623
+    ],
+    "speaker": "Niles",
+    "text": "Taking a vacation video, something we can look at years from now, - over and over and over again. - Just give me that."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0105",
+    "t": [
+      695.624,
+      700.253
+    ],
+    "speaker": "Martin",
+    "text": "Okay, you guys wanna stop so bad, we'll stop. See that sign over there?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0106",
+    "t": [
+      700.254,
+      704.465
+    ],
+    "speaker": "Niles",
+    "text": "\"Have your picture taken with a live grizzly bear. Marvella's Souvenirs and Gifts. One mile.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0107",
+    "t": [
+      704.466,
+      707.009
+    ],
+    "speaker": "Martin",
+    "text": "I always wanted to have my picture taken with a bear."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0108",
+    "t": [
+      707.01,
+      717.229
+    ],
+    "speaker": "Frasier",
+    "text": "Well, some dreams cannot be denied. Okay, Dad, you're good here. You're good on my side, Dad. Ease her right over. It's never too early to change lanes. Oh, my God, it must be genetic."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0109",
+    "t": [
+      727.614,
+      731.16
+    ],
+    "speaker": "Marvella",
+    "text": "Get your dog away from my bear. I just had him cleaned."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0110",
+    "t": [
+      731.743,
+      732.744
+    ],
+    "speaker": "Daphne",
+    "text": "He's stuffed."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0111",
+    "t": [
+      733.412,
+      735.913
+    ],
+    "speaker": "Frasier",
+    "text": "You know your sign said a live bear."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0112",
+    "t": [
+      735.914,
+      737.833
+    ],
+    "speaker": "Marvella",
+    "text": "It's an old sign."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0113",
+    "t": [
+      739.585,
+      741.836
+    ],
+    "speaker": "Martin",
+    "text": "Look at that view. It's like we're really there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0114",
+    "t": [
+      741.837,
+      746.382
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, if we were actually there, Dad, we'd be whizzing by it at 50 miles an hour."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0115",
+    "t": [
+      746.383,
+      748.926
+    ],
+    "speaker": "Niles",
+    "text": "Oh, Frasier, look, the gourmet food department."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0116",
+    "t": [
+      748.927,
+      751.512
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, homemade deer jerky."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0117",
+    "t": [
+      751.513,
+      753.306
+    ],
+    "speaker": "Niles",
+    "text": "- \"No sampling.\" - No problem."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0118",
+    "t": [
+      753.307,
+      764.108
+    ],
+    "speaker": "Martin",
+    "text": "Okay. Excuse me, would you take our picture please? Niles, Frasier, come on up here. Okay, everybody, all right. Here we go. Everybody ready? Now, what should we do?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0119",
+    "t": [
+      764.109,
+      765.652
+    ],
+    "speaker": "Frasier",
+    "text": "How about this?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0120",
+    "t": [
+      766.236,
+      769.363
+    ],
+    "speaker": "Martin",
+    "text": "That's great. I like that. Okay, everybody! Eddie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0121",
+    "t": [
+      769.364,
+      772.074
+    ],
+    "speaker": "Marvella",
+    "text": "Before I take it, you know it's $10 Canadian."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0122",
+    "t": [
+      772.075,
+      774.118
+    ],
+    "speaker": "Frasier",
+    "text": "For a treasured memory like this, what's money?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0123",
+    "t": [
+      774.119,
+      775.828
+    ],
+    "speaker": "Marvella",
+    "text": "Okay, one."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0124",
+    "t": [
+      775.829,
+      777.455
+    ],
+    "speaker": "Daphne",
+    "text": "Why would she want Canadian dollars?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0125",
+    "t": [
+      777.456,
+      779.04
+    ],
+    "speaker": "Martin",
+    "text": "- Two. - Because we're in Canada."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0126",
+    "t": [
+      779.041,
+      780.501
+    ],
+    "speaker": "Marvella",
+    "text": "Three."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0127",
+    "t": [
+      783.504,
+      784.712
+    ],
+    "speaker": "Daphne",
+    "text": "We're in Canada?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0128",
+    "t": [
+      784.713,
+      787.673
+    ],
+    "speaker": "Martin",
+    "text": "Yeah. We crossed the border a while ago. You were taking a nap."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0129",
+    "t": [
+      787.674,
+      792.261
+    ],
+    "speaker": "Daphne",
+    "text": "But I can't be in Canada. I'm not allowed to leave the United States."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0130",
+    "t": [
+      792.262,
+      793.179
+    ],
+    "speaker": "Frasier",
+    "text": "Why?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0131",
+    "t": [
+      793.18,
+      811.781
+    ],
+    "speaker": "Daphne",
+    "text": "Because I don't have my green card yet! Oh, this is just perfect! Three months till my final interview. The one thing they told me not to do was leave the country, and what do you do? Wait until the first time I fall asleep and drag me across the bleeding border! They're never gonna let me back in!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0132",
+    "t": [
+      811.782,
+      814.2
+    ],
+    "speaker": "Niles",
+    "text": "They have to take you back. It's not your fault."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0133",
+    "t": [
+      814.201,
+      817.578
+    ],
+    "speaker": "Frasier",
+    "text": "This wouldn't have happened if you weren't hell-bent on getting so many miles!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0134",
+    "t": [
+      817.579,
+      819.33
+    ],
+    "speaker": "Martin",
+    "text": "You had to go where the wind blows!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0135",
+    "t": [
+      828.507,
+      832.843
+    ],
+    "speaker": "Daphne",
+    "text": "Never mind whose fault it is. I'm stuck here. What am I gonna do?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0136",
+    "t": [
+      832.844,
+      836.305
+    ],
+    "speaker": "Niles",
+    "text": "We'll explain to the authorities. I'm sure mishaps like this happen all the time."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0137",
+    "t": [
+      836.306,
+      838.808
+    ],
+    "speaker": "Martin",
+    "text": "Oh, get real, Niles. They've got their rules."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0138",
+    "t": [
+      838.809,
+      842.144
+    ],
+    "speaker": "Frasier",
+    "text": "- Oh, then, what's your solution, Dad? - Just sneak her back across the border."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0139",
+    "t": [
+      842.145,
+      843.771
+    ],
+    "speaker": "Niles",
+    "text": "That's called smuggling."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0140",
+    "t": [
+      843.772,
+      849.82
+    ],
+    "speaker": "Martin",
+    "text": "Oh, thanks, Niles. I knew it was something bad guys did. I just didn't know the technical term."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0141",
+    "t": [
+      850.32,
+      854.282
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, I can't believe that you, a former policeman, are suggesting that we commit a felony."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0142",
+    "t": [
+      854.283,
+      867.086
+    ],
+    "speaker": "Martin",
+    "text": "Oh, I've crossed this border plenty. Ninety-nine times out of a hundred, the guards peek in and wave you through. It's no big deal. - Come on, let's get out of here. - What if they pull us over? Well, then, Daphne's just gotta convince them that she's an American."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0143",
+    "t": [
+      867.087,
+      872.55
+    ],
+    "speaker": "Daphne",
+    "text": "Bloody right. Beats having my bum bounced back across the pond. Let's give it a bash."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0144",
+    "t": [
+      872.551,
+      875.012
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, yes. This is foolproof."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0145",
+    "t": [
+      879.725,
+      888.984
+    ],
+    "speaker": "Niles",
+    "text": "I'm about to defraud the United States Immigration Department. Not just me, my father and my older brother, people who are supposed to be role models. It's not my fault. I'm the product of a bad environment."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0146",
+    "t": [
+      890.152,
+      897.409
+    ],
+    "speaker": "Martin",
+    "text": "Now, listen, on the off-chance the guard asks you a question, can you say anything in an American accent? - Sure. - Okay, what?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0147",
+    "t": [
+      897.784,
+      899.201
+    ],
+    "speaker": "Daphne",
+    "text": "You just heard it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0148",
+    "t": [
+      899.202,
+      900.954
+    ],
+    "speaker": "Martin",
+    "text": "- What? - Sure."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0149",
+    "t": [
+      902.831,
+      906.751
+    ],
+    "speaker": "Daphne",
+    "text": "That's it. That's all I can say. Oh, I need a cup of tea."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0150",
+    "t": [
+      906.752,
+      912.257
+    ],
+    "speaker": "Frasier",
+    "text": "Tea? Why not just wave a crumpet in the air and start singing \"God Save the Queen\"?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0151",
+    "t": [
+      914.301,
+      921.557
+    ],
+    "speaker": "Niles",
+    "text": "Don't you snap at her, Frasier. You're a psychiatrist. You should be in control of your emotions. Oh, my God. There's the border. I can see the line of cars!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0152",
+    "t": [
+      921.558,
+      936.072
+    ],
+    "speaker": "Martin",
+    "text": "All right! All right! All right, now, everybody calm down. We're gonna be fine. Just remember, they're gonna be looking for suspicious behavior. Niles, that qualifies. All right, now, if the guard pokes his head in here, what did we say he's gonna see?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0153",
+    "t": [
+      936.073,
+      939.076
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Four carefree Americans."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0154",
+    "t": [
+      939.951,
+      954.091
+    ],
+    "speaker": "Frasier",
+    "text": "- I've never been so nervous. - I don't think there's any need to be. They're waving everybody through. They're not asking questions. - Please. Please. Please. - They're waving us through. They're waving us through. They're pulling us over."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0155",
+    "t": [
+      955.884,
+      957.511
+    ],
+    "speaker": "Frasier",
+    "text": "They're pulling us over."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0156",
+    "t": [
+      961.932,
+      964.1
+    ],
+    "speaker": "Daphne",
+    "text": "- Here comes the guard. - I can't do this."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0157",
+    "t": [
+      964.101,
+      969.981
+    ],
+    "speaker": "Martin",
+    "text": "Now this is gonna be fine. Don't worry. Just remember to keep your answers short. People who have something to hide always talk too much."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0158",
+    "t": [
+      971.274,
+      972.191
+    ],
+    "speaker": "Guard",
+    "text": "Hi, folks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0159",
+    "t": [
+      972.192,
+      973.109
+    ],
+    "speaker": "Martin",
+    "text": "- Hi. - Hi there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0160",
+    "t": [
+      973.11,
+      974.568
+    ],
+    "speaker": "Guard",
+    "text": "- Good time in Canada? - Great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0161",
+    "t": [
+      974.569,
+      975.611
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Canada, wow."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0162",
+    "t": [
+      975.612,
+      977.572
+    ],
+    "speaker": "Guard",
+    "text": "What was the purpose of your trip to Canada?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0163",
+    "t": [
+      980.2,
+      981.034
+    ],
+    "speaker": "Niles",
+    "text": "Fun."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0164",
+    "t": [
+      987.874,
+      990.668
+    ],
+    "speaker": "Guard",
+    "text": "I see. And where were you born, sir?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0165",
+    "t": [
+      990.669,
+      999.802
+    ],
+    "speaker": "Frasier",
+    "text": "Uh, Seattle, Washington. Oh, you want to know what country. America, of course. I'm quite an American. I vote all the time and always for the law-and-order guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0166",
+    "t": [
+      999.803,
+      1003.807
+    ],
+    "speaker": "Guard",
+    "text": "- That's all right. - I don't need any more detail. And you, miss."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0167",
+    "t": [
+      1005.434,
+      1006.976
+    ],
+    "speaker": "Guard",
+    "text": "Did you enjoy Canada?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0168",
+    "t": [
+      1006.977,
+      1008.311
+    ],
+    "speaker": "Daphne",
+    "text": "Sure."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0169",
+    "t": [
+      1010.564,
+      1013.817
+    ],
+    "speaker": "Guard",
+    "text": "- And the weather? - Sure. Sure."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0170",
+    "t": [
+      1016.653,
+      1018.779
+    ],
+    "speaker": "Guard",
+    "text": "- Is this your vehicle sir? - No."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0171",
+    "t": [
+      1018.78,
+      1024.66
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, yes. Well, I rented it. Yes, it's American-made. I always look for that union label."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0172",
+    "t": [
+      1024.661,
+      1026.912
+    ],
+    "speaker": "Guard",
+    "text": "- I need your license and registration. - Oh, right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0173",
+    "t": [
+      1026.913,
+      1033.628
+    ],
+    "speaker": "Frasier",
+    "text": "It's right here in the little side pocket. Here is the registration. Let me get my license out for you. Yeah, here we are."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0174",
+    "t": [
+      1036.131,
+      1036.965
+    ],
+    "speaker": "Guard",
+    "text": "Stay right here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0175",
+    "t": [
+      1039.301,
+      1042.471
+    ],
+    "speaker": "Martin",
+    "text": "Well, I certainly can depend on my gang, can't I?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0176",
+    "t": [
+      1047.267,
+      1048.976
+    ],
+    "speaker": "Niles",
+    "text": "That's it. I'm going to be arrested."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0177",
+    "t": [
+      1048.977,
+      1051.103
+    ],
+    "speaker": "Daphne",
+    "text": "We're all getting arrested."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0178",
+    "t": [
+      1051.104,
+      1053.815
+    ],
+    "speaker": "Niles",
+    "text": "Yes, but I have delicate features. Prison will be hell for me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0179",
+    "t": [
+      1056.318,
+      1057.861
+    ],
+    "speaker": "Martin",
+    "text": "Cool it, Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0180",
+    "t": [
+      1058.987,
+      1063.741
+    ],
+    "speaker": "Daphne",
+    "text": "It's too late to turn back. - I say we make a run for it. - Oh, oh, great idea."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0181",
+    "t": [
+      1063.742,
+      1070.372
+    ],
+    "speaker": "Frasier",
+    "text": "A high-speed chase in an eight-ton motor home. It will make an amusing anecdote for the border guard newsletter."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0182",
+    "t": [
+      1070.373,
+      1076.588
+    ],
+    "speaker": "Martin",
+    "text": "Will everybody just shut up? Now, you keep babbling like this, they're gonna catch us for sure. He's coming back."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0183",
+    "t": [
+      1078.34,
+      1080.592
+    ],
+    "speaker": "Guard",
+    "text": "Well, these check out."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0184",
+    "t": [
+      1084.805,
+      1087.641
+    ],
+    "speaker": "Guard",
+    "text": "Miss, you've been very quiet. ls there something I should know here?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0185",
+    "t": [
+      1090.31,
+      1091.853
+    ],
+    "speaker": "Guard",
+    "text": "You seem awfully nervous."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0186",
+    "t": [
+      1093.563,
+      1095.148
+    ],
+    "speaker": "Guard",
+    "text": "May I have your name?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0187",
+    "t": [
+      1099.611,
+      1104.24
+    ],
+    "speaker": "Martin",
+    "text": "All right. All right. I guess I should have known better than to try this."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0188",
+    "t": [
+      1104.241,
+      1106.075
+    ],
+    "speaker": "Frasier",
+    "text": "- Dad, don't. - It was just a mistake."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0189",
+    "t": [
+      1106.076,
+      1108.912
+    ],
+    "speaker": "Guard",
+    "text": "You men wanna just back off? What is it you want to say, sir?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0190",
+    "t": [
+      1109.704,
+      1113.834
+    ],
+    "speaker": "Martin",
+    "text": "We were trying to put one over on you. Eddie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0191",
+    "t": [
+      1116.211,
+      1118.922
+    ],
+    "speaker": "Martin",
+    "text": "We don't have a rabies certificate for the dog."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0192",
+    "t": [
+      1120.131,
+      1121.715
+    ],
+    "speaker": "Guard",
+    "text": "I knew something was going on here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0193",
+    "t": [
+      1121.716,
+      1126.387
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, well, you see, we weren't planning on coming here, and we got to the border, we just forgot about it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0194",
+    "t": [
+      1126.388,
+      1128.472
+    ],
+    "speaker": "Niles",
+    "text": "Yes, and I didn't even know that you needed one."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0195",
+    "t": [
+      1128.473,
+      1133.77
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, but ignorance of the law is no defense, so take the little dog away, and we'll be off."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0196",
+    "t": [
+      1138.65,
+      1149.327
+    ],
+    "speaker": "Martin",
+    "text": "Look, this is my fault. But if you're worried we picked the dog up here in Canada, well, we didn't. I mean, I've got a picture I can show you. Here's a picture of him taken at the Seattle Space Needle."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0197",
+    "t": [
+      1150.829,
+      1153.748
+    ],
+    "speaker": "Guard",
+    "text": "- I see you've got a badge there. - Oh, yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0198",
+    "t": [
+      1156.042,
+      1157.96
+    ],
+    "speaker": "Guard",
+    "text": "- You a policeman? - Retired."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0199",
+    "t": [
+      1157.961,
+      1162.131
+    ],
+    "speaker": "Martin",
+    "text": "Thirty years on the Seattle Police Force. Me, of all people, should know better, huh?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0200",
+    "t": [
+      1162.132,
+      1164.008
+    ],
+    "speaker": "Frasier",
+    "text": "- Absolutely. - Definitely."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0201",
+    "t": [
+      1164.009,
+      1165.176
+    ],
+    "speaker": "Daphne",
+    "text": "Sure."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0202",
+    "t": [
+      1170.765,
+      1174.685
+    ],
+    "speaker": "Guard",
+    "text": "Next time, remember the rabies certificate. - Have a safe trip home. - Thanks, officer."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0203",
+    "t": [
+      1174.686,
+      1175.52
+    ],
+    "speaker": "Frasier",
+    "text": "Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0204",
+    "t": [
+      1177.647,
+      1178.815
+    ],
+    "speaker": "unknown",
+    "text": "Yeah!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0205",
+    "t": [
+      1179.691,
+      1181.067
+    ],
+    "speaker": "Martin",
+    "text": "Drive!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0206",
+    "t": [
+      1188.366,
+      1190.827
+    ],
+    "speaker": "Frasier",
+    "text": "They would have returned you eventually."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0207",
+    "t": [
+      1195.081,
+      1197.625
+    ],
+    "speaker": "Frasier",
+    "text": "- So Dad, how long till we get home? - Oh, about two hours."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0208",
+    "t": [
+      1197.626,
+      1201.879
+    ],
+    "speaker": "Martin",
+    "text": "This highway goes right into Seattle. Why don't you lean back? Take a nap."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0209",
+    "t": [
+      1201.88,
+      1209.179
+    ],
+    "speaker": "Frasier",
+    "text": "No, I'm okay. - I thought maybe we'd chat a little bit. - Oh, yeah. Great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0210",
+    "t": [
+      1219.94,
+      1228.781
+    ],
+    "speaker": "Martin",
+    "text": "You know, Frasier, I just can't help it. When we're alone together, I just don't know what the hell to say. I'm sure you figured out that's why I asked Daphne to come along."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0211",
+    "t": [
+      1228.782,
+      1232.201
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I had my suspicions, but I'd hoped that wasn't the case wi--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0212",
+    "t": [
+      1232.202,
+      1235.454
+    ],
+    "speaker": "Martin",
+    "text": "Oh, knock it off. That's why you asked Niles to come along too."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0213",
+    "t": [
+      1235.455,
+      1238.333
+    ],
+    "speaker": "Frasier",
+    "text": "Well, that's why I asked him, but that's not why he came."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0214",
+    "t": [
+      1240.835,
+      1245.215
+    ],
+    "speaker": "Martin",
+    "text": "You know, funny thing. We didn't have such a bad time, did we?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0215",
+    "t": [
+      1248.426,
+      1251.096
+    ],
+    "speaker": "Frasier",
+    "text": "\"I see you've got a badge there.\" \"Oh, yeah.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0216",
+    "t": [
+      1254.432,
+      1255.934
+    ],
+    "speaker": "unknown",
+    "text": "- Pretty slick, huh? - Yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0217",
+    "t": [
+      1263.692,
+      1269.656
+    ],
+    "speaker": "Frasier",
+    "text": "You know, Dad, there's no reason to cut our trip short. According to this map, we're not that far from Yellowstone."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0218",
+    "t": [
+      1270.24,
+      1278.415
+    ],
+    "speaker": "Martin",
+    "text": "- Oh, I always wanted to see Old Faithful. - Me too. If you want a real adventure, we could drop these two sleeping beauties off home first."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0219",
+    "t": [
+      1279.457,
+      1286.296
+    ],
+    "speaker": "Frasier",
+    "text": "- You mean it? Just the two of us alone? - Yeah. - Just you and me, father and son? - Yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0220",
+    "t": [
+      1286.297,
+      1289.591
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, you and me camping out in Yellowstone all alone."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0221",
+    "t": [
+      1289.592,
+      1291.219
+    ],
+    "speaker": "Frasier",
+    "text": "All by ourselves."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0222",
+    "t": [
+      1299.978,
+      1305.232
+    ],
+    "speaker": "Martin",
+    "text": "Well, you know, it'd be a shame if Daphne didn't get to see those Indian Paint Pots."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0223",
+    "t": [
+      1305.233,
+      1306.483
+    ],
+    "speaker": "Frasier",
+    "text": "Yes. Of course."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0224",
+    "t": [
+      1306.484,
+      1309.112
+    ],
+    "speaker": "Martin",
+    "text": "- They are a real miracle of nature. - Yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0225",
+    "t": [
+      1309.946,
+      1312.865
+    ],
+    "speaker": "Frasier",
+    "text": "Wouldn't be fair to leave Niles in that old house all by himself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0226",
+    "t": [
+      1312.866,
+      1316.703
+    ],
+    "speaker": "Martin",
+    "text": "- With Maris out of town, that'd be cruel. - Yeah, absolutely."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0227",
+    "t": [
+      1317.203,
+      1319.288
+    ],
+    "speaker": "Frasier",
+    "text": "How long will it take us to get to Yellowstone?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0228",
+    "t": [
+      1319.289,
+      1321.415
+    ],
+    "speaker": "Martin",
+    "text": "If we drive all night, we'll be there tomorrow."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0229",
+    "t": [
+      1321.416,
+      1324.293
+    ],
+    "speaker": "Frasier",
+    "text": "Oh. It'll be a nice surprise for them in the morning."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E21",
+    "unit_id": "u0230",
+    "t": [
+      1324.294,
+      1328.715
+    ],
+    "speaker": "Martin",
+    "text": "Yeah. I've got a better surprise than that. Let's tell Daphne we're in Mexico."
+  }
+]

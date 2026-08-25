@@ -1,0 +1,2763 @@
+[
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0001",
+    "t": [
+      15.048,
+      25.991
+    ],
+    "speaker": "unknown",
+    "text": "Kids, life is a dark road. You never really know what's up ahead. One night you're cruising along enjoying the ride, And then all of a sudden, you're 28."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0002",
+    "t": [
+      25.993,
+      27.96
+    ],
+    "speaker": "Waitress",
+    "text": "And for the birthday boy,"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0003",
+    "t": [
+      27.962,
+      28.994
+    ],
+    "speaker": "Ted",
+    "text": "Lasagna. Thank you."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0004",
+    "t": [
+      28.996,
+      31.463
+    ],
+    "speaker": "Waitress",
+    "text": "Careful. The plate is very hot."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0005",
+    "t": [
+      31.465,
+      35.901
+    ],
+    "speaker": "Ted",
+    "text": "'kay. Oh, go on, touch it."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0006",
+    "t": [
+      35.903,
+      38.737
+    ],
+    "speaker": "Lily",
+    "text": "Ah! Sweet damn, that's a hot plate."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0007",
+    "t": [
+      40.073,
+      41.94
+    ],
+    "speaker": "Ted",
+    "text": "All right, so, barney, are you doing this or what?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0008",
+    "t": [
+      41.942,
+      43.609
+    ],
+    "speaker": "Robin",
+    "text": "Oh, geez, barney, don't do this."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0009",
+    "t": [
+      43.611,
+      45.777
+    ],
+    "speaker": "Barney",
+    "text": "I have to, it's my birthday present to ted."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0010",
+    "t": [
+      45.779,
+      53.152
+    ],
+    "speaker": "Marshall",
+    "text": "You don't have to. Please, it's going to be embarrassing And we're going to have to stop coming here, which will suck... In addition to probably being kind of healthy."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0011",
+    "t": [
+      53.154,
+      59.958
+    ],
+    "speaker": "Ted",
+    "text": "Come on, marshall, It's the greatest pickup line of all time. Barney."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0012",
+    "t": [
+      59.96,
+      61.426
+    ],
+    "speaker": "Marshall",
+    "text": "Oy, gevalt."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0013",
+    "t": [
+      61.428,
+      64.096
+    ],
+    "speaker": "Barney",
+    "text": "Ah... Happy birthday, ted."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0014",
+    "t": [
+      64.098,
+      65.43
+    ],
+    "speaker": "Ted",
+    "text": "Whoo-hoo!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0015",
+    "t": [
+      67.767,
+      70.769
+    ],
+    "speaker": "Barney",
+    "text": "Uh, excuse me, has anyone ever told y... Oh, my god."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0016",
+    "t": [
+      70.771,
+      72.304
+    ],
+    "speaker": "Woman",
+    "text": "What? Oh!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0017",
+    "t": [
+      72.306,
+      73.338
+    ],
+    "speaker": "Barney",
+    "text": "Call an ambulance!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0018",
+    "t": [
+      73.34,
+      74.973
+    ],
+    "speaker": "Woman",
+    "text": "What's going on?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0019",
+    "t": [
+      74.975,
+      80.212
+    ],
+    "speaker": "Barney",
+    "text": "Try not to speak. Here, sit down. Just don't talk, don't talk. Is she okay? I'm serious, call 911."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0020",
+    "t": [
+      80.214,
+      81.947
+    ],
+    "speaker": "Woman",
+    "text": "What's wrong? What's the matter?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0021",
+    "t": [
+      81.949,
+      90.455
+    ],
+    "speaker": "Barney",
+    "text": "Shh! Shh! Just don't move. Don't move. Just try... Here, have some water. Water! Here, drink this. Shh! Shh!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0022",
+    "t": [
+      90.457,
+      95.727
+    ],
+    "speaker": "Robin",
+    "text": "You know, the more I watch this, The less convinced I am That it's the greatest pickup line of all time."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0023",
+    "t": [
+      95.729,
+      97.829
+    ],
+    "speaker": "Ted",
+    "text": "Wait for it."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0024",
+    "t": [
+      97.831,
+      101.3
+    ],
+    "speaker": "Lily",
+    "text": "28. Two more 'til the big one, three-oh."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0025",
+    "t": [
+      101.302,
+      106.905
+    ],
+    "speaker": "unknown",
+    "text": "Actually, my 30th birthday wasn't so bad. Well, except for the goat in my bathroom."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0026",
+    "t": [
+      108.508,
+      110.075
+    ],
+    "speaker": "unknown",
+    "text": "But I'll get to that later."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0027",
+    "t": [
+      110.077,
+      116.715
+    ],
+    "speaker": "Lily",
+    "text": "Still, you know, another year older. Still single. You don't hear your tedological clock ticking?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0028",
+    "t": [
+      116.717,
+      119.051
+    ],
+    "speaker": "Ted",
+    "text": "Nope. I hit the snooze button."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0029",
+    "t": [
+      120.186,
+      121.553
+    ],
+    "speaker": "Robin",
+    "text": "And here come the paramedics."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0030",
+    "t": [
+      121.555,
+      123.322
+    ],
+    "speaker": "Barney",
+    "text": "Oh, thank god, you're here."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0031",
+    "t": [
+      123.324,
+      124.756
+    ],
+    "speaker": "Paramedic",
+    "text": "What is going on?!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0032",
+    "t": [
+      124.758,
+      128.86
+    ],
+    "speaker": "Barney",
+    "text": "I think there might be some internal bleeding. Probably some fractures. We got to get her to the hospital."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0033",
+    "t": [
+      128.862,
+      129.861
+    ],
+    "speaker": "Woman",
+    "text": "What are you talking about?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0034",
+    "t": [
+      129.863,
+      131.263
+    ],
+    "speaker": "Barney",
+    "text": "You've had a terrible fall."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0035",
+    "t": [
+      131.265,
+      132.397
+    ],
+    "speaker": "Woman",
+    "text": "No, I haven't."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0036",
+    "t": [
+      132.399,
+      143.942
+    ],
+    "speaker": "Barney",
+    "text": "Really? 'cause I could swear You fell straight out of heaven. Angel... Bing! Give him your number. What? Give him your number."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0037",
+    "t": [
+      143.944,
+      145.944
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "What? Give him your number."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0038",
+    "t": [
+      145.946,
+      147.512
+    ],
+    "speaker": "Barney",
+    "text": "Come on, you're embarrassing me."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0039",
+    "t": [
+      147.514,
+      149.348
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Give him your number."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0040",
+    "t": [
+      149.35,
+      156.755
+    ],
+    "speaker": "Barney",
+    "text": "What are you...? Come on. Give him your number. They're not going to stop 'til you give me your number. Give him your number. All right! It works!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0041",
+    "t": [
+      158.626,
+      162.628
+    ],
+    "speaker": "Marshall",
+    "text": "I cannot believe that she gave him her number."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0042",
+    "t": [
+      162.63,
+      165.264
+    ],
+    "speaker": "Robin",
+    "text": "Maybe she really does have a brain injury."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0043",
+    "t": [
+      165.932,
+      175.44
+    ],
+    "speaker": "Barney",
+    "text": "Thank you, everyone. Thank you, everyone. It's been fun. It's wendy the waitress. Tip her well. Thanks a lot, guys. Troilus and cressida. Neighborhood playhouse. Check them out, they're good, they're good."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0044",
+    "t": [
+      176.643,
+      182.247
+    ],
+    "speaker": "Ted",
+    "text": "I realize why I'm still single. I'm picky. I'm not going to settle. If I'm going to marry someone, she has to be perfect."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0045",
+    "t": [
+      182.249,
+      183.582
+    ],
+    "speaker": "Lily",
+    "text": "Well, what's perfect?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0046",
+    "t": [
+      183.584,
+      188.887
+    ],
+    "speaker": "Ted",
+    "text": "It's not like I have a list. Oh, yes, you do. Attractive, college-educated, She wants two kids-- a boy and a girl..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0047",
+    "t": [
+      188.889,
+      190.122
+    ],
+    "speaker": "Lily",
+    "text": "That's not hard. I know at least..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0048",
+    "t": [
+      190.124,
+      200.899
+    ],
+    "speaker": "Ted",
+    "text": "I'm not done. She likes dogs, Otis redding, does the crossword. She's into sports, but not so much so That her legs are, like, more muscular than mine. That weirds me out. And she plays bass guitar like kim deal from the pixies."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0049",
+    "t": [
+      200.901,
+      202.434
+    ],
+    "speaker": "Marshall",
+    "text": "Or kim gordon from sonic youth."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0050",
+    "t": [
+      202.436,
+      205.771
+    ],
+    "speaker": "Ted",
+    "text": "Any kim from any cool band, really. Can't be too picky."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0051",
+    "t": [
+      205.773,
+      207.406
+    ],
+    "speaker": "Lily",
+    "text": "You're never going to find this girl."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0052",
+    "t": [
+      207.408,
+      212.778
+    ],
+    "speaker": "Ted",
+    "text": "Exactly. So I'm just going to wait for her to come to me. I am done trying to plan the unplannable."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0053",
+    "t": [
+      212.78,
+      215.18
+    ],
+    "speaker": "Marshall",
+    "text": "So, what, you think fate's just going to take care of it?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0054",
+    "t": [
+      215.182,
+      218.35
+    ],
+    "speaker": "Ted",
+    "text": "That's the plan."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0055",
+    "t": [
+      218.352,
+      228.86
+    ],
+    "speaker": "unknown",
+    "text": "And little did I know, at that very moment, Fate-- in the form of a 600 gigahertz Superprocessing computer-- Was taking care of it."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0056",
+    "t": [
+      233.0,
+      234.666
+    ],
+    "speaker": "Ted",
+    "text": "Whoa, you're up early."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0057",
+    "t": [
+      234.668,
+      236.635
+    ],
+    "speaker": "Lily",
+    "text": "Yeah, thought I'd whip up some pancakes."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0058",
+    "t": [
+      236.637,
+      237.669
+    ],
+    "speaker": "Ted",
+    "text": "Does marshall know?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0059",
+    "t": [
+      237.671,
+      239.004
+    ],
+    "speaker": "Lily",
+    "text": "He's still sound asleep."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0060",
+    "t": [
+      245.712,
+      255.22
+    ],
+    "speaker": "Marshall",
+    "text": "Awesome. So awesome. God! Best girl ever. Screw these pancakes, I should cover you in syrup and gobble you up."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0061",
+    "t": [
+      255.222,
+      260.359
+    ],
+    "speaker": "Ted",
+    "text": "Please don't do that. Hey, is this milk any good?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0062",
+    "t": [
+      263.23,
+      265.897
+    ],
+    "speaker": "Marshall",
+    "text": "Oh, yeah, that totally got me yesterday."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0063",
+    "t": [
+      265.899,
+      268.867
+    ],
+    "speaker": "Ted",
+    "text": "God, why didn't you throw it away?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0064",
+    "t": [
+      268.869,
+      272.07
+    ],
+    "speaker": "Lily",
+    "text": "I'm going shopping after work. I'll pick up some milk."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0065",
+    "t": [
+      272.072,
+      276.441
+    ],
+    "speaker": "Marshall",
+    "text": "Oh...! These pancakes are delightful."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0066",
+    "t": [
+      279.011,
+      281.88
+    ],
+    "speaker": "Lily",
+    "text": "What's wrong, baby?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0067",
+    "t": [
+      281.882,
+      283.849
+    ],
+    "speaker": "Marshall",
+    "text": "This is the high point of my day."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0068",
+    "t": [
+      283.851,
+      294.76
+    ],
+    "speaker": "unknown",
+    "text": "It was true. See, marshall had always dreamed Of using his law degree to protect the environment. But he needed money for the wedding, So he'd been interning for two months at barney's firm... And he hated every minute of it."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0069",
+    "t": [
+      294.762,
+      298.764
+    ],
+    "speaker": "Marshall",
+    "text": "Hey, barney, I had some questions About filling out these requisition forms."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0070",
+    "t": [
+      298.766,
+      301.099
+    ],
+    "speaker": "Barney",
+    "text": "Binoculars. Second pair on my desk."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0071",
+    "t": [
+      301.101,
+      304.569
+    ],
+    "speaker": "Marshall",
+    "text": "I don't have time to be creepy, dude. I have a lot of work to do."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0072",
+    "t": [
+      304.571,
+      305.971
+    ],
+    "speaker": "Barney",
+    "text": "Just take a look, will ya?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0073",
+    "t": [
+      308.374,
+      321.42
+    ],
+    "speaker": "Barney",
+    "text": "Okay, corner office. Top floor. Check out that guy. Name's clark butterfield. He works over at nicholson, hewitt and west And every morning, he orders a sandwich From the deli downstairs."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0074",
+    "t": [
+      321.422,
+      322.554
+    ],
+    "speaker": "Marshall",
+    "text": "So?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0075",
+    "t": [
+      322.556,
+      327.526
+    ],
+    "speaker": "Barney",
+    "text": "So guess what I did to that sandwich? Here, I took a picture."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0076",
+    "t": [
+      330.129,
+      332.764
+    ],
+    "speaker": "Marshall",
+    "text": "Oh! Sweet lord."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0077",
+    "t": [
+      332.766,
+      337.068
+    ],
+    "speaker": "Barney",
+    "text": "And now I'm e-mailing said picture to him."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0078",
+    "t": [
+      347.98,
+      351.149
+    ],
+    "speaker": "Marshall",
+    "text": "Ooh! Duck! That is sick!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0079",
+    "t": [
+      353.753,
+      355.887
+    ],
+    "speaker": "Marshall",
+    "text": "Why would you do that?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0080",
+    "t": [
+      355.889,
+      367.365
+    ],
+    "speaker": "Barney",
+    "text": "Who knows? This feud goes so far back I can't remember who fired the first shot. You? Totally. Well, look, if you would just... Help me fill out these forms, that would be great."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0081",
+    "t": [
+      368.167,
+      369.301
+    ],
+    "speaker": "Marshall",
+    "text": "What?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0082",
+    "t": [
+      369.303,
+      377.809
+    ],
+    "speaker": "Barney",
+    "text": "Butterfield is going to retaliate Within the next four hours. That's been his pattern. This is war, eriksen. I need you to clear your schedule, Call lily, tell her you'll be home late."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0083",
+    "t": [
+      377.811,
+      379.177
+    ],
+    "speaker": "Marshall",
+    "text": "This is stupid."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0084",
+    "t": [
+      379.179,
+      387.652
+    ],
+    "speaker": "Barney",
+    "text": "Stu... Come on, man, I didn't recruit you to work here for your lawyering skills. I recruited you to be my executive mischief consultant."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0085",
+    "t": [
+      387.654,
+      394.86
+    ],
+    "speaker": "Marshall",
+    "text": "This is a job for me, barney. It's a way to make some extra wedding money, and that's it. Now I'm sorry, but I have work to do."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0086",
+    "t": [
+      396.43,
+      399.364
+    ],
+    "speaker": "Barney",
+    "text": "Tracy, could you come in here, please?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0087",
+    "t": [
+      402.034,
+      404.903
+    ],
+    "speaker": "Barney",
+    "text": "Would you please inform mr. Eriksen That I'm no longer speaking to him."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0088",
+    "t": [
+      406.172,
+      408.874
+    ],
+    "speaker": "Tracy",
+    "text": "Mr. Eriksen, mr. Stinson"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0089",
+    "t": [
+      408.876,
+      411.243
+    ],
+    "speaker": "Marshall",
+    "text": "Is no longer... I get it. Thank you, tracy."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0090",
+    "t": [
+      417.049,
+      418.049
+    ],
+    "speaker": "Ted",
+    "text": "Hello?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0091",
+    "t": [
+      418.051,
+      422.187
+    ],
+    "speaker": "Man",
+    "text": "Hello. May I speak with a mr. Ted mosby?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0092",
+    "t": [
+      422.189,
+      422.988
+    ],
+    "speaker": "Ted",
+    "text": "Speaking."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0093",
+    "t": [
+      422.99,
+      429.828
+    ],
+    "speaker": "Man",
+    "text": "Mr. Mosby, how you doing, sir? Bob rorschach over here at love solutions. You signed up for our services about six months ago."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0094",
+    "t": [
+      429.83,
+      432.864
+    ],
+    "speaker": "Ted",
+    "text": "Uh, yeah. You guys never found me a match."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0095",
+    "t": [
+      432.866,
+      440.272
+    ],
+    "speaker": "Bob",
+    "text": "Right. Well... Actually, that's why I'm calling. We found her, sir. We found your soul mate."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0096",
+    "t": [
+      446.245,
+      449.548
+    ],
+    "speaker": "Ted",
+    "text": "I don't understand. What happened to ellen pierce? Doesn't she run this place?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0097",
+    "t": [
+      449.55,
+      460.892
+    ],
+    "speaker": "Bob",
+    "text": "Well, my firm bought out the company. You know, we're a high-end meats and textiles conglomerate, But the geniuses At corporate decided they wanted to diversify, so... Here I am."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0098",
+    "t": [
+      460.894,
+      464.663
+    ],
+    "speaker": "Ted",
+    "text": "So I'm in good hands. You found me a match?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0099",
+    "t": [
+      464.665,
+      468.7
+    ],
+    "speaker": "Bob",
+    "text": "There she is. Your soul mate. That'll be 500 bucks."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0100",
+    "t": [
+      468.702,
+      472.103
+    ],
+    "speaker": "Ted",
+    "text": "No way. The last time I did this, The girl turned out to be engaged."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0101",
+    "t": [
+      472.105,
+      476.608
+    ],
+    "speaker": "Bob",
+    "text": "She's not engaged. She's your soul mate. Just read the file."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0102",
+    "t": [
+      480.346,
+      500.632
+    ],
+    "speaker": "unknown",
+    "text": "So I read the file. And by god, this woman was perfect. She liked dogs, she spent her summers in north carolina, She played bass guitar, she did the times crossword, She played tennis, she liked old movies, Her favorite food was lasagna, her favorite book was Her favorite singer was otis redding And she wanted two kids-- a boy and a girl."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0103",
+    "t": [
+      501.434,
+      504.202
+    ],
+    "speaker": "Ted",
+    "text": "All right, fine. Set it up."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0104",
+    "t": [
+      505.071,
+      507.906
+    ],
+    "speaker": "Marshall",
+    "text": "You wanted to see me, So I guess that means we're talking again?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0105",
+    "t": [
+      507.908,
+      511.176
+    ],
+    "speaker": "Barney",
+    "text": "Will you taste this latte for me? I think they gave me decaf."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0106",
+    "t": [
+      515.881,
+      517.215
+    ],
+    "speaker": "Marshall",
+    "text": "Tastes normal to me."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0107",
+    "t": [
+      517.217,
+      520.385
+    ],
+    "speaker": "Barney",
+    "text": "That's what I thought, too. Then I got this e-mail from butterfield."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0108",
+    "t": [
+      520.387,
+      522.454
+    ],
+    "speaker": "Marshall",
+    "text": "Oh, god!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0109",
+    "t": [
+      522.456,
+      524.889
+    ],
+    "speaker": "Barney",
+    "text": "It got me as well."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0110",
+    "t": [
+      524.891,
+      526.825
+    ],
+    "speaker": "Marshall",
+    "text": "Well, then why did you have me drink it?!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0111",
+    "t": [
+      526.827,
+      530.128
+    ],
+    "speaker": "Barney",
+    "text": "Because now... You're in."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0112",
+    "t": [
+      530.13,
+      545.944
+    ],
+    "speaker": "Marshall",
+    "text": "Okay. Don't think I'm overlooking The obvious fact that I should just be mad at you. But executive mischief consultant marshall eriksen Reporting for duty. Let's make that bastard pay. You think that we should brush our teeth first?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0113",
+    "t": [
+      545.946,
+      547.746
+    ],
+    "speaker": "Barney",
+    "text": "Yeah, it's probably a good idea."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0114",
+    "t": [
+      549.081,
+      556.121
+    ],
+    "speaker": "unknown",
+    "text": "So that night I had a blind date With my perfect match. I was so excited, I got there early. But before it even started..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0115",
+    "t": [
+      558.958,
+      560.125
+    ],
+    "speaker": "Ted",
+    "text": "Lily?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0116",
+    "t": [
+      560.127,
+      562.027
+    ],
+    "speaker": "Lily",
+    "text": "Hey, ted, are you busy?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0117",
+    "t": [
+      562.029,
+      564.362
+    ],
+    "speaker": "Ted",
+    "text": "Um... Yes."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0118",
+    "t": [
+      564.364,
+      572.27
+    ],
+    "speaker": "Lily",
+    "text": "Oh, right. Soul mate. Forgot. Listen, could you take a cab out to duchess county And change a flat on marshall's fiero?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0119",
+    "t": [
+      572.272,
+      575.507
+    ],
+    "speaker": "Ted",
+    "text": "What? No. Can't you just call marshall?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0120",
+    "t": [
+      575.509,
+      586.951
+    ],
+    "speaker": "Lily",
+    "text": "Marshall can't know about this. Look, ted, it's dark, I don't know how to change a tire, And I've stumbled into the beginning Of a very scary campfire story. Can you please hurry?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0121",
+    "t": [
+      586.953,
+      587.952
+    ],
+    "speaker": "Ted",
+    "text": "I can't, I'm waiting..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0122",
+    "t": [
+      587.954,
+      593.525
+    ],
+    "speaker": "Lily",
+    "text": "Oh, my god, is that a drifter With a hook for a hand? No, drifter, no!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0123",
+    "t": [
+      593.527,
+      594.726
+    ],
+    "speaker": "Ted",
+    "text": "Come on, lily."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0124",
+    "t": [
+      594.728,
+      596.961
+    ],
+    "speaker": "Lily",
+    "text": "But you see my point."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0125",
+    "t": [
+      597.964,
+      601.566
+    ],
+    "speaker": "Ted",
+    "text": "All right, stay there. I'm on my way."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0126",
+    "t": [
+      608.908,
+      611.81
+    ],
+    "speaker": "unknown",
+    "text": "And, so, one $90 cab ride later,"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0127",
+    "t": [
+      615.081,
+      623.855
+    ],
+    "speaker": "Lily",
+    "text": "Oh, thank god. I'm so sorry about this. Did you get ahold of your date? Yes. And was she okay About pushing it back? Yes."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0128",
+    "t": [
+      623.857,
+      625.89
+    ],
+    "speaker": "Ted",
+    "text": "Because she's perfect. So what am I doing here?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0129",
+    "t": [
+      625.892,
+      632.53
+    ],
+    "speaker": "Lily",
+    "text": "You can never tell marshall. Swear. Swear on the lives of your unborn boy and girl."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0130",
+    "t": [
+      632.532,
+      635.366
+    ],
+    "speaker": "Ted",
+    "text": "I swear on luke and leia."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0131",
+    "t": [
+      635.368,
+      647.612
+    ],
+    "speaker": "Lily",
+    "text": "About a month ago, I started getting insomnia. Marrying marshall had been all I wanted for a long time. But, now that it was really happening, It seemed kind of huge and scary."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0132",
+    "t": [
+      647.614,
+      649.247
+    ],
+    "speaker": "Ted",
+    "text": "Did you talk to marshall about it?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0133",
+    "t": [
+      649.249,
+      653.585
+    ],
+    "speaker": "Lily",
+    "text": "He wouldn't have understood. He's not exactly nervous about tying the knot."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0134",
+    "t": [
+      657.69,
+      663.294
+    ],
+    "speaker": "Lily",
+    "text": "So I spent my nights reading, painting, Setting the high score on super bomber man..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0135",
+    "t": [
+      663.296,
+      664.863
+    ],
+    "speaker": "Ted",
+    "text": "That was you? Awesome!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0136",
+    "t": [
+      664.865,
+      675.774
+    ],
+    "speaker": "Lily",
+    "text": "I know! I just got in the zone and... Not the point of the story. And then I started thinking about victoria And how she followed her dream to germany, And I found this art fellowship."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0137",
+    "t": [
+      675.776,
+      678.376
+    ],
+    "speaker": "Ted",
+    "text": "Let me guess. It's somewhere far away."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0138",
+    "t": [
+      678.378,
+      698.396
+    ],
+    "speaker": "Lily",
+    "text": "San francisco. But it's not like I'm going to do it. The dates conflict with the wedding. But I love painting, And I've always wondered if I'm any good. This was a way to find out. And the interview is tonight. In new haven."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0139",
+    "t": [
+      702.768,
+      704.302
+    ],
+    "speaker": "Ted",
+    "text": "You don't want to get married."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0140",
+    "t": [
+      704.304,
+      715.079
+    ],
+    "speaker": "Lily",
+    "text": "Of course I want to get married. I... It's not like I was ever going to do it. I just... I just really wanted to see if I could get this."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0141",
+    "t": [
+      715.081,
+      729.027
+    ],
+    "speaker": "Ted",
+    "text": "Lily, we live in the center Of art and culture in america. I'm sure you could find a program here That's just as selective. But you chose one in a city 3,000 miles away, And you didn't tell marshall. I think it's pretty clear what that means."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0142",
+    "t": [
+      730.963,
+      735.2
+    ],
+    "speaker": "Lily",
+    "text": "Okay, I was... I was having second thoughts."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0143",
+    "t": [
+      735.202,
+      736.334
+    ],
+    "speaker": "unknown",
+    "text": "Oh, man!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0144",
+    "t": [
+      736.336,
+      750.048
+    ],
+    "speaker": "Lily",
+    "text": "But I'm not anymore. I... I mean, this flat tire was a sign. I'm not supposed to do this. I'm supposed to go home and-and be with marshall. You must think I'm so stupid."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0145",
+    "t": [
+      750.05,
+      752.116
+    ],
+    "speaker": "Ted",
+    "text": "I don't think you're stupid."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0146",
+    "t": [
+      752.118,
+      753.885
+    ],
+    "speaker": "Lily",
+    "text": "I love marshall."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0147",
+    "t": [
+      753.887,
+      755.353
+    ],
+    "speaker": "Ted",
+    "text": "I know you do. Come here."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0148",
+    "t": [
+      758.324,
+      764.963
+    ],
+    "speaker": "Ted",
+    "text": "It's okay. Look... Marriage is big. You're allowed to freak out."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0149",
+    "t": [
+      764.965,
+      770.001
+    ],
+    "speaker": "Lily",
+    "text": "But why am I the only one? How come marshall isn't doing anything crazy?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0150",
+    "t": [
+      770.003,
+      775.039
+    ],
+    "speaker": "Marshall",
+    "text": "So all we need is one large shipping box and 100 white mice."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0151",
+    "t": [
+      776.976,
+      778.71
+    ],
+    "speaker": "Ted",
+    "text": "All done."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0152",
+    "t": [
+      780.846,
+      783.481
+    ],
+    "speaker": "Lily",
+    "text": "Ted, let's go to new haven."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0153",
+    "t": [
+      783.483,
+      786.017
+    ],
+    "speaker": "Ted",
+    "text": "Lily, don't do this to yourself."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0154",
+    "t": [
+      786.019,
+      796.094
+    ],
+    "speaker": "Lily",
+    "text": "I just need to know if I can get in. If I do this interview, and get into the program, Then I'll know, and I can forget all about it, and get married. Come on! It's an adventure."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0155",
+    "t": [
+      796.096,
+      798.496
+    ],
+    "speaker": "Ted",
+    "text": "No, it's not an adventure. It's a mistake."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0156",
+    "t": [
+      798.498,
+      830.361
+    ],
+    "speaker": "Lily",
+    "text": "Okay, yes, it's a mistake. I know it's a mistake. But there are certain things in life Where you know it's a mistake But you don't really know it's a mistake Because the only way to really know it's a mistake Is to make the mistake, and look back, and say, \"yep. That was a mistake.\" So, really, the bigger mistake Would be to not make the mistake, Because then you go your whole life Not really knowing if something is a mistake or not. And, damn it, I've made no mistakes! I've done all of this-- my life, my relationship, My career-- mistake-free. Does any of this make sense to you?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0157",
+    "t": [
+      830.363,
+      836.367
+    ],
+    "speaker": "Ted",
+    "text": "I don't know. You said \"mistake\" a lot. Lily, don't do this."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0158",
+    "t": [
+      836.369,
+      841.739
+    ],
+    "speaker": "Lily",
+    "text": "Ted, I'm getting married in two months, And I'm freaking out, and you're my best friend, And you just have to forgive me for this."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0159",
+    "t": [
+      841.741,
+      846.01
+    ],
+    "speaker": "Ted",
+    "text": "Forgive you for what? Lily. Lily!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0160",
+    "t": [
+      853.819,
+      869.634
+    ],
+    "speaker": "Ted",
+    "text": "Hey, lily, this is ted, The guy you left stranded by the side of the road. I just wanted to say good luck with the interview, Remember to pick up some milk... Oh, and, when I get home, I'm going to kill you. And, also, I texted you the same thing."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0161",
+    "t": [
+      877.576,
+      878.943
+    ],
+    "speaker": "Ted",
+    "text": "Hey, I need a big favor."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0162",
+    "t": [
+      878.945,
+      880.111
+    ],
+    "speaker": "Barney",
+    "text": "Anything, bro."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0163",
+    "t": [
+      880.113,
+      882.146
+    ],
+    "speaker": "Ted",
+    "text": "I need you to come up to duchess county and pick me up."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0164",
+    "t": [
+      882.148,
+      883.781
+    ],
+    "speaker": "Barney",
+    "text": "No."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0165",
+    "t": [
+      883.783,
+      885.783
+    ],
+    "speaker": "Ted",
+    "text": "It's kind of an emergency."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0166",
+    "t": [
+      885.785,
+      887.418
+    ],
+    "speaker": "Barney",
+    "text": "What are you doing in duchess county?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0167",
+    "t": [
+      887.42,
+      890.621
+    ],
+    "speaker": "Ted",
+    "text": "Apple picking. Can you just get up here?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0168",
+    "t": [
+      890.623,
+      894.625
+    ],
+    "speaker": "Barney",
+    "text": "I wish I could help, buddy, but I'm stuck here at work. We're kind of swamped."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0169",
+    "t": [
+      894.627,
+      895.86
+    ],
+    "speaker": "Marshall",
+    "text": "Is that ted?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0170",
+    "t": [
+      895.862,
+      897.362
+    ],
+    "speaker": "Barney",
+    "text": "Yeah. He's stuck in duchess county."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0171",
+    "t": [
+      897.364,
+      899.43
+    ],
+    "speaker": "Marshall",
+    "text": "Don't you have a big date tonight?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0172",
+    "t": [
+      899.432,
+      902.266
+    ],
+    "speaker": "Ted",
+    "text": "Uh... Marshall. Hi. Yes. Yes, I do."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0173",
+    "t": [
+      902.268,
+      904.302
+    ],
+    "speaker": "Marshall",
+    "text": "So what are you doing in duchess county?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0174",
+    "t": [
+      904.304,
+      909.307
+    ],
+    "speaker": "Ted",
+    "text": "Can't a brother go apple picking Without getting the third degree? Damn!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0175",
+    "t": [
+      909.309,
+      913.845
+    ],
+    "speaker": "Marshall",
+    "text": "Okay, well, hang on. I'm coming to get you. Relax, man. I'll take the fiero."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0176",
+    "t": [
+      913.847,
+      919.117
+    ],
+    "speaker": "Ted",
+    "text": "No, no, no. Just... Forget it. Ha, ha! A little prank. I'm not in duchess county."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0177",
+    "t": [
+      919.119,
+      922.687
+    ],
+    "speaker": "Marshall",
+    "text": "So that's the prank? That you're not in duchess county?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0178",
+    "t": [
+      922.689,
+      927.392
+    ],
+    "speaker": "Ted",
+    "text": "Yep. Gotcha! Classic! Gotta go."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0179",
+    "t": [
+      929.795,
+      934.198
+    ],
+    "speaker": "Barney",
+    "text": "Hey, check out this one. It actually looks like butterfield."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0180",
+    "t": [
+      934.2,
+      947.211
+    ],
+    "speaker": "Marshall",
+    "text": "You know, over at the nrdc, It's a bunch of really committed people Who take their job of saving the earth Very, very seriously. Which is great, and everything, But I can't imagine having this much fun over there."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0181",
+    "t": [
+      947.213,
+      950.081
+    ],
+    "speaker": "Barney",
+    "text": "You thinking about coming to work here full-time?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0182",
+    "t": [
+      950.083,
+      954.085
+    ],
+    "speaker": "Marshall",
+    "text": "Maybe. Don't tell lily, okay?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0183",
+    "t": [
+      954.087,
+      955.486
+    ],
+    "speaker": "Tracy",
+    "text": "Taking off for the night."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0184",
+    "t": [
+      955.488,
+      956.854
+    ],
+    "speaker": "Barney",
+    "text": "Thanks, tracy."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0185",
+    "t": [
+      956.856,
+      961.259
+    ],
+    "speaker": "Tracy",
+    "text": "Are you guys planning on punching some holes in that box?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0186",
+    "t": [
+      961.261,
+      968.733
+    ],
+    "speaker": "Barney",
+    "text": "Of course we are. Were you going to think of that? No. That would have been bad. Horrible. Ooh!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0187",
+    "t": [
+      968.735,
+      973.671
+    ],
+    "speaker": "unknown",
+    "text": "Luckily, there was still one person I could call To get a ride home."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0188",
+    "t": [
+      973.673,
+      975.239
+    ],
+    "speaker": "Robin",
+    "text": "Need a ride, cowboy?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0189",
+    "t": [
+      975.241,
+      977.575
+    ],
+    "speaker": "Ted",
+    "text": "Sorry. I don't get in vans with strangers."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0190",
+    "t": [
+      977.577,
+      979.51
+    ],
+    "speaker": "Robin",
+    "text": "Hmm, too bad. I got candy."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0191",
+    "t": [
+      979.512,
+      981.279
+    ],
+    "speaker": "Ted",
+    "text": "Candy?!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0192",
+    "t": [
+      983.282,
+      987.618
+    ],
+    "speaker": "Robin",
+    "text": "So you're not going to tell me what you were doing By the side of a highway in duchess county?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0193",
+    "t": [
+      987.62,
+      989.12
+    ],
+    "speaker": "Ted",
+    "text": "Nope. Sworn to secrecy."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0194",
+    "t": [
+      989.122,
+      990.455
+    ],
+    "speaker": "Robin",
+    "text": "Oh, come on."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0195",
+    "t": [
+      990.457,
+      991.956
+    ],
+    "speaker": "Ted",
+    "text": "I like your hat."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0196",
+    "t": [
+      991.958,
+      996.127
+    ],
+    "speaker": "Robin",
+    "text": "Right. This is embarrassing. I got highlights."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0197",
+    "t": [
+      996.129,
+      998.93
+    ],
+    "speaker": "Ted",
+    "text": "Oh, for the waiting room of your dental practice?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0198",
+    "t": [
+      1000.432,
+      1001.866
+    ],
+    "speaker": "Ted",
+    "text": "Highlights is a children's magazine."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0199",
+    "t": [
+      1001.868,
+      1011.275
+    ],
+    "speaker": "Robin",
+    "text": "Yeah, I got it. I thought it might look cool. Of course my colorist took \"highlights\" to mean, \"I want to look like a tiger,\" hence the hat."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0200",
+    "t": [
+      1011.277,
+      1012.877
+    ],
+    "speaker": "Ted",
+    "text": "Oh. I gotta see this."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0201",
+    "t": [
+      1012.879,
+      1013.878
+    ],
+    "speaker": "Robin",
+    "text": "No way."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0202",
+    "t": [
+      1013.88,
+      1018.916
+    ],
+    "speaker": "Ted",
+    "text": "Please. I bet it doesn't look that bad. I bet it looks grr-eat!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0203",
+    "t": [
+      1018.918,
+      1027.458
+    ],
+    "speaker": "Robin",
+    "text": "So, she says, changing the subject. Big date tonight. How does she rate on the mosby checklist?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0204",
+    "t": [
+      1027.46,
+      1030.294
+    ],
+    "speaker": "Ted",
+    "text": "Kind of amazingly. Uh, she's 28, like me."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0205",
+    "t": [
+      1030.296,
+      1034.398
+    ],
+    "speaker": "Robin",
+    "text": "Wow, I'm 28. Hmm. Uh..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0206",
+    "t": [
+      1034.4,
+      1039.804
+    ],
+    "speaker": "Ted",
+    "text": "College educated-- check. Plays tennis-- check. Uh, favorite book is love in the time of cholera-- check."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0207",
+    "t": [
+      1039.806,
+      1043.941
+    ],
+    "speaker": "Robin",
+    "text": "I read that. More like \"love in the time of don't bothera.\""
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0208",
+    "t": [
+      1045.512,
+      1048.779
+    ],
+    "speaker": "Ted",
+    "text": "You know, it's very rude to wear a hat indoors. I'm just saying."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0209",
+    "t": [
+      1048.781,
+      1049.981
+    ],
+    "speaker": "Robin",
+    "text": "We're not indoors. We're in a van."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0210",
+    "t": [
+      1049.983,
+      1051.983
+    ],
+    "speaker": "Ted",
+    "text": "Vans have doors-- let me see your hair."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0211",
+    "t": [
+      1051.985,
+      1053.918
+    ],
+    "speaker": "Robin",
+    "text": "Never. What else?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0212",
+    "t": [
+      1053.92,
+      1054.952
+    ],
+    "speaker": "Ted",
+    "text": "She loves lasagna."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0213",
+    "t": [
+      1054.954,
+      1055.953
+    ],
+    "speaker": "Robin",
+    "text": "Barf."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0214",
+    "t": [
+      1055.955,
+      1058.022
+    ],
+    "speaker": "Ted",
+    "text": "You know, I am sensing a pattern here."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0215",
+    "t": [
+      1058.024,
+      1059.957
+    ],
+    "speaker": "Robin",
+    "text": "What else?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0216",
+    "t": [
+      1061.094,
+      1064.095
+    ],
+    "speaker": "Ted",
+    "text": "Let's see what else... Oh, she doesn't look like a tiger-- check."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0217",
+    "t": [
+      1064.097,
+      1065.363
+    ],
+    "speaker": "unknown",
+    "text": "Ah!"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0218",
+    "t": [
+      1065.365,
+      1068.099
+    ],
+    "speaker": "Robin",
+    "text": "And she's looking to get married and have kids?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0219",
+    "t": [
+      1068.101,
+      1070.768
+    ],
+    "speaker": "Ted",
+    "text": "Check and check. She wants two kids-- a boy and a girl."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0220",
+    "t": [
+      1070.77,
+      1077.175
+    ],
+    "speaker": "Robin",
+    "text": "Wow. You know, I've been thinking about this. I think I want to have zero kids."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0221",
+    "t": [
+      1077.177,
+      1078.809
+    ],
+    "speaker": "Ted",
+    "text": "Really? You don't want kids?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0222",
+    "t": [
+      1078.811,
+      1086.617
+    ],
+    "speaker": "Robin",
+    "text": "You know, ted, not everyone is as much of a woman as you. Hey. I'm driving."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0223",
+    "t": [
+      1090.189,
+      1093.524
+    ],
+    "speaker": "Robin",
+    "text": "look at that. 8:56. You're early."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0224",
+    "t": [
+      1093.526,
+      1095.96
+    ],
+    "speaker": "Ted",
+    "text": "Hey, thanks for picking me up."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0225",
+    "t": [
+      1095.962,
+      1099.897
+    ],
+    "speaker": "Robin",
+    "text": "Good luck on your date. I hope she's everything you're looking for."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0226",
+    "t": [
+      1099.899,
+      1102.266
+    ],
+    "speaker": "Ted",
+    "text": "Thanks."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0227",
+    "t": [
+      1105.672,
+      1113.511
+    ],
+    "speaker": "Robin",
+    "text": "All right, you've clearly had a rough night. I want you to go in there With a smile on your face, so, uh, here's what I'm going to do."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0228",
+    "t": [
+      1113.513,
+      1115.012
+    ],
+    "speaker": "Ted",
+    "text": "You're going to show me your hair?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0229",
+    "t": [
+      1115.014,
+      1118.649
+    ],
+    "speaker": "Robin",
+    "text": "Actually, I was going to show you my breasts, But... Sure, we can do hair."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0230",
+    "t": [
+      1128.228,
+      1130.394
+    ],
+    "speaker": "Ted",
+    "text": "You just made my night."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0231",
+    "t": [
+      1132.331,
+      1134.098
+    ],
+    "speaker": "Robin",
+    "text": "Go."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0232",
+    "t": [
+      1193.959,
+      1202.5
+    ],
+    "speaker": "Marshall",
+    "text": "Tomorrow morning, barney's going to send out the package, And butterfield's going to be knee-deep in angry white mice. Oh, hey, dude."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0233",
+    "t": [
+      1202.502,
+      1203.668
+    ],
+    "speaker": "Ted",
+    "text": "Hey, guys."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0234",
+    "t": [
+      1203.67,
+      1205.269
+    ],
+    "speaker": "Lily",
+    "text": "Hi."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0235",
+    "t": [
+      1205.271,
+      1210.808
+    ],
+    "speaker": "Ted",
+    "text": "Hey. So, lil, did you, uh, get the milk?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0236",
+    "t": [
+      1210.81,
+      1215.68
+    ],
+    "speaker": "Lily",
+    "text": "Yeah. Yeah, I-I got it."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0237",
+    "t": [
+      1215.682,
+      1219.417
+    ],
+    "speaker": "Ted",
+    "text": "You think you might want to... Drink the milk?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0238",
+    "t": [
+      1219.419,
+      1227.224
+    ],
+    "speaker": "Lily",
+    "text": "No. Nope, I'm good. I don't need any milk."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0239",
+    "t": [
+      1228.293,
+      1239.036
+    ],
+    "speaker": "Marshall",
+    "text": "Look, guys, I know milk is important-- It's got vitamin a, vitamin d, It's a great way to start the morning-- But ted just had a huge date. How'd it go, dude?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0240",
+    "t": [
+      1239.038,
+      1241.105
+    ],
+    "speaker": "Ted",
+    "text": "I didn't go."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0241",
+    "t": [
+      1241.107,
+      1242.64
+    ],
+    "speaker": "Marshall",
+    "text": "What? Why?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0242",
+    "t": [
+      1242.642,
+      1245.142
+    ],
+    "speaker": "Ted",
+    "text": "I changed my mind. I don't want to meet her."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0243",
+    "t": [
+      1245.144,
+      1247.311
+    ],
+    "speaker": "Marshall",
+    "text": "Why? She sounds perfect."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0244",
+    "t": [
+      1247.313,
+      1251.282
+    ],
+    "speaker": "Ted",
+    "text": "I don't want perfect. I want robin."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0245",
+    "t": [
+      1251.284,
+      1255.986
+    ],
+    "speaker": "Marshall",
+    "text": "Oh, god, not this again. Ted, it's a mistake."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0246",
+    "t": [
+      1255.988,
+      1260.024
+    ],
+    "speaker": "Ted",
+    "text": "Maybe. But it's a mistake I have to make."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0247",
+    "t": [
+      1260.026,
+      1266.33
+    ],
+    "speaker": "Marshall",
+    "text": "Wrong. It's a mistake you don't have to make. Look at the evidence. You and robin have tried this again and again..."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0248",
+    "t": [
+      1266.332,
+      1273.137
+    ],
+    "speaker": "unknown",
+    "text": "Here's the thing about mistakes. Sometimes, even when you know something's a mistake, You gotta make it anyway."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0249",
+    "t": [
+      1273.139,
+      1276.207
+    ],
+    "speaker": "Lily",
+    "text": "Ah, sweet damn that's a hot plate."
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0250",
+    "t": [
+      1276.209,
+      1277.608
+    ],
+    "speaker": "Ted",
+    "text": "Hey, is this milk any good?"
+  },
+  {
+    "series": "howimeetyourmother",
+    "ep": "S01E21",
+    "unit_id": "u0251",
+    "t": [
+      1283.715,
+      1287.318
+    ],
+    "speaker": "unknown",
+    "text": "Even really, really dumb mistakes."
+  }
+]

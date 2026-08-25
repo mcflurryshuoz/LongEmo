@@ -1,0 +1,2785 @@
+[
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0001",
+    "t": [
+      57.413,
+      59.415
+    ],
+    "speaker": "Chandler",
+    "text": "No, no, no, no. We're done. We're done."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0002",
+    "t": [
+      109.632,
+      117.14
+    ],
+    "speaker": "Monica",
+    "text": "Aunt Syl, stop yelling. All I'm saying is, if you had told me vegetarian lasagna I would have made vegetarian lasagna."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0003",
+    "t": [
+      118.766,
+      122.478
+    ],
+    "speaker": "Monica",
+    "text": "Well, the-the meat's only every third layer. May-maybe you could scrape."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0004",
+    "t": [
+      123.896,
+      126.065
+    ],
+    "speaker": "Joey",
+    "text": "Ross, did you really read all these baby books?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0005",
+    "t": [
+      126.107,
+      134.115
+    ],
+    "speaker": "Ross",
+    "text": "Yep, you could plunk me down in the middle of any woman's uterus no compass.....and I could find my way out of there like that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0006",
+    "t": [
+      135.283,
+      140.455
+    ],
+    "speaker": "Phoebe",
+    "text": "Ooh, this is cool. It says, \"In some parts of the world \"people actually eat the placenta.\""
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0007",
+    "t": [
+      142.999,
+      144.5
+    ],
+    "speaker": "Chandler",
+    "text": "And we're done with the yogurt."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0008",
+    "t": [
+      147.17,
+      148.421
+    ],
+    "speaker": "Phoebe",
+    "text": "Sorry."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0009",
+    "t": [
+      148.463,
+      154.594
+    ],
+    "speaker": "Monica",
+    "text": "Aunt Syl, I did this as a favor. I am not a caterer. What do you want me to do with a dozen lasagnas?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0010",
+    "t": [
+      156.304,
+      161.184
+    ],
+    "speaker": "Monica",
+    "text": "Nice talk, Aunt Syl. You kiss Uncle Freddie with that mouth?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0011",
+    "t": [
+      162.81,
+      170.652
+    ],
+    "speaker": "Joey",
+    "text": "Hey, Ross. Listen. Do you know that right now your baby is only this big? This is your baby. Hi, daddy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0012",
+    "t": [
+      170.693,
+      172.195
+    ],
+    "speaker": "Ross",
+    "text": "Hello."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0013",
+    "t": [
+      172.278,
+      173.863
+    ],
+    "speaker": "Joey",
+    "text": "How come you don't live with mommy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0014",
+    "t": [
+      176.324,
+      178.534
+    ],
+    "speaker": "Joey",
+    "text": "How come mommy lives with that other lady?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0015",
+    "t": [
+      184.165,
+      186.084
+    ],
+    "speaker": "Joey",
+    "text": "What's a lesbian?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0016",
+    "t": [
+      191.339,
+      198.554
+    ],
+    "speaker": "Rachel",
+    "text": "Honey, you can say it. You can.. Poconos. Poconos. It's like poke-a-nose."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0017",
+    "t": [
+      198.638,
+      202.767
+    ],
+    "speaker": "Paolo",
+    "text": "Ah, poke-a-nose."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0018",
+    "t": [
+      202.85,
+      204.435
+    ],
+    "speaker": "unknown",
+    "text": "Hmm."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0019",
+    "t": [
+      204.519,
+      207.272
+    ],
+    "speaker": "together",
+    "text": "Blah, blah, blah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0020",
+    "t": [
+      211.401,
+      213.403
+    ],
+    "speaker": "Monica",
+    "text": "So did I hear Poconos?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0021",
+    "t": [
+      213.444,
+      216.656
+    ],
+    "speaker": "Rachel",
+    "text": "Yes, my sister's giving us her place for the weekend."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0022",
+    "t": [
+      216.698,
+      219.409
+    ],
+    "speaker": "Phoebe",
+    "text": "Whoo-hoo. First weekend away together."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0023",
+    "t": [
+      219.45,
+      221.411
+    ],
+    "speaker": "Monica",
+    "text": "- Yeah, that's a big step. - 'I know.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0024",
+    "t": [
+      223.121,
+      224.664
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, it's just a weekend. Big deal."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0025",
+    "t": [
+      224.747,
+      231.212
+    ],
+    "speaker": "Ross",
+    "text": "Wasn't this just supposed to be a fling, huh? Shouldn't it be.....flung by now?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0026",
+    "t": [
+      232.255,
+      241.472
+    ],
+    "speaker": "Rachel",
+    "text": "I mean, we are way past the fling thing. I mean, I am feeling things that I've only read about in Danielle Steel books, you know? I mean, when I'm with him, I'm just totally, totally.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0027",
+    "t": [
+      241.556,
+      243.85
+    ],
+    "speaker": "Ross",
+    "text": "Nauseous. I'm physically nauseous."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0028",
+    "t": [
+      245.393,
+      247.729
+    ],
+    "speaker": "Ross",
+    "text": "What am I supposed to do, huh? Call immigration?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0029",
+    "t": [
+      249.939,
+      251.649
+    ],
+    "speaker": "Ross",
+    "text": "I could call immigration."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0030",
+    "t": [
+      258.197,
+      265.872
+    ],
+    "speaker": "Joey",
+    "text": "I love babies with their little baby shoes and their little baby toes and their little hands and.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0031",
+    "t": [
+      265.955,
+      269.792
+    ],
+    "speaker": "Chandler",
+    "text": "Okay. You're gonna have to stop that. Forever."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0032",
+    "t": [
+      279.928,
+      281.346
+    ],
+    "speaker": "Joey",
+    "text": "Need a new table."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0033",
+    "t": [
+      282.055,
+      283.348
+    ],
+    "speaker": "Chandler",
+    "text": "You think?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0034",
+    "t": [
+      290.563,
+      293.149
+    ],
+    "speaker": "Carol",
+    "text": "- Hey, hey, hey. Come on in. - Hey. Hello."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0035",
+    "t": [
+      293.232,
+      297.57
+    ],
+    "speaker": "Ross",
+    "text": "I, uh, I brought all the books and Monica sends her love along with this lasagna."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0036",
+    "t": [
+      297.654,
+      302.2
+    ],
+    "speaker": "Carol",
+    "text": "Oh, great. Is it vegetarian, 'cause Susan doesn't eat meat."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0037",
+    "t": [
+      304.744,
+      306.871
+    ],
+    "speaker": "Ross",
+    "text": "I'm pretty sure that it is. Yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0038",
+    "t": [
+      309.165,
+      311.793
+    ],
+    "speaker": "Carol",
+    "text": "So I got the results of the amnio today."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0039",
+    "t": [
+      311.834,
+      313.378
+    ],
+    "speaker": "Ross",
+    "text": "Oh, tell me, tell me, is everything, uh.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0040",
+    "t": [
+      313.461,
+      315.088
+    ],
+    "speaker": "Carol",
+    "text": "Totally and completely healthy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0041",
+    "t": [
+      315.171,
+      316.839
+    ],
+    "speaker": "Ross",
+    "text": "Oh, that's great. That is great."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0042",
+    "t": [
+      321.636,
+      325.515
+    ],
+    "speaker": "Ross",
+    "text": "Hey, when did you and Susan meet Huey Lewis?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0043",
+    "t": [
+      325.598,
+      327.6
+    ],
+    "speaker": "Carol",
+    "text": "Uh, that's our friend Tanya."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0044",
+    "t": [
+      337.652,
+      339.696
+    ],
+    "speaker": "Ross",
+    "text": "Of course, it's your friend Tanya."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0045",
+    "t": [
+      342.407,
+      344.701
+    ],
+    "speaker": "Carol",
+    "text": "Don't you wanna know about the sex?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0046",
+    "t": [
+      344.742,
+      345.785
+    ],
+    "speaker": "Ross",
+    "text": "The sex?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0047",
+    "t": [
+      347.37,
+      353.71
+    ],
+    "speaker": "Ross",
+    "text": "Yeah, I'm having enough trouble with the image of you and Susan together. When you throw in Tanya, I'm.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0048",
+    "t": [
+      353.751,
+      355.044
+    ],
+    "speaker": "unknown",
+    "text": "Aah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0049",
+    "t": [
+      357.171,
+      359.048
+    ],
+    "speaker": "Carol",
+    "text": "The sex of the baby, Ross."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0050",
+    "t": [
+      360.925,
+      365.263
+    ],
+    "speaker": "Ross",
+    "text": "Oh, you know the sex of the baby? - Oh. Oh, oh. - So? So?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0051",
+    "t": [
+      365.346,
+      367.307
+    ],
+    "speaker": "Carol",
+    "text": "- Do you wanna know? - No, no, no."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0052",
+    "t": [
+      367.348,
+      376.649
+    ],
+    "speaker": "Ross",
+    "text": "No, I don't wanna know. Absolutely not. No, I think, you know, I think you shouldn't know until you look down there and see oh, there it is.....or isn't."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0053",
+    "t": [
+      378.401,
+      380.82
+    ],
+    "speaker": "Susan",
+    "text": "Oh, hello, Ross."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0054",
+    "t": [
+      380.904,
+      382.071
+    ],
+    "speaker": "Ross",
+    "text": "Susan."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0055",
+    "t": [
+      382.155,
+      385.158
+    ],
+    "speaker": "Susan",
+    "text": "So.. So did you hear?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0056",
+    "t": [
+      385.199,
+      387.41
+    ],
+    "speaker": "Ross",
+    "text": "Yes, we did. Everything's A okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0057",
+    "t": [
+      387.452,
+      389.579
+    ],
+    "speaker": "Susan",
+    "text": "Oh. That's so.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0058",
+    "t": [
+      391.581,
+      394.626
+    ],
+    "speaker": "Susan",
+    "text": "It really is. - Oh, and do we know? - What?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0059",
+    "t": [
+      394.709,
+      396.419
+    ],
+    "speaker": "Carol",
+    "text": "We certainly do. It's going to be..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0060",
+    "t": [
+      396.502,
+      401.925
+    ],
+    "speaker": "Ross",
+    "text": "Ooh! Ah, hey, hey. Ho, ho. Hello. See a guy who doesn't want to know standing right here."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0061",
+    "t": [
+      401.966,
+      407.263
+    ],
+    "speaker": "Susan",
+    "text": "Oh. Oh, well, is it what we thought it would be?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0062",
+    "t": [
+      407.305,
+      408.264
+    ],
+    "speaker": "Carol",
+    "text": "Mm-hmm."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0063",
+    "t": [
+      412.435,
+      423.446
+    ],
+    "speaker": "Ross",
+    "text": "Hey. What? What, uh.. Okay, what-what did we think it was gonna be? - We thought... - No, no, no. I don't want to know. Don't want to know. Okay, you know, I should probably I should probably just go."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0064",
+    "t": [
+      423.488,
+      425.281
+    ],
+    "speaker": "Carol",
+    "text": "- Oh, thanks for the books. - No problem."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0065",
+    "t": [
+      425.365,
+      427.2
+    ],
+    "speaker": "unknown",
+    "text": "Okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0066",
+    "t": [
+      427.283,
+      431.454
+    ],
+    "speaker": "Ross",
+    "text": "Oh. Susan."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0067",
+    "t": [
+      436.751,
+      440.964
+    ],
+    "speaker": "Susan",
+    "text": "Alright, who should we call first? Your folks or Deb and Rona?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0068",
+    "t": [
+      445.093,
+      448.137
+    ],
+    "speaker": "Carol",
+    "text": "- Hello. - 'Uh..'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0069",
+    "t": [
+      448.179,
+      449.973
+    ],
+    "speaker": "Ross",
+    "text": "'Never mind. I don't wanna know.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0070",
+    "t": [
+      451.933,
+      455.436
+    ],
+    "speaker": "Chandler",
+    "text": "Okay so just because it was my table I have to buy a new one?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0071",
+    "t": [
+      455.478,
+      456.813
+    ],
+    "speaker": "Joey",
+    "text": "That's the rule."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0072",
+    "t": [
+      458.231,
+      461.609
+    ],
+    "speaker": "Chandler",
+    "text": "What rule? There's no rule. If anything, you owe me a table."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0073",
+    "t": [
+      461.651,
+      462.986
+    ],
+    "speaker": "Joey",
+    "text": "How'd you get there?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0074",
+    "t": [
+      463.027,
+      468.533
+    ],
+    "speaker": "Chandler",
+    "text": "Well, I believe this piece of furniture was fine until your little breakfast adventure with Angela Delvecchio."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0075",
+    "t": [
+      468.616,
+      469.909
+    ],
+    "speaker": "Joey",
+    "text": "You knew about that?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0076",
+    "t": [
+      469.951,
+      473.496
+    ],
+    "speaker": "Chandler",
+    "text": "Well, let's just say the impressions you made in the butter left little to the imagination."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0077",
+    "t": [
+      475.123,
+      478.001
+    ],
+    "speaker": "Joey",
+    "text": "Okay, okay. How about if we split it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0078",
+    "t": [
+      478.042,
+      480.336
+    ],
+    "speaker": "Chandler",
+    "text": "What do you mean? Like, buy it together?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0079",
+    "t": [
+      480.378,
+      481.671
+    ],
+    "speaker": "Joey",
+    "text": "Yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0080",
+    "t": [
+      481.713,
+      483.506
+    ],
+    "speaker": "Chandler",
+    "text": "You think we're ready for something like that?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0081",
+    "t": [
+      484.924,
+      485.967
+    ],
+    "speaker": "Joey",
+    "text": "Why not?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0082",
+    "t": [
+      486.009,
+      490.013
+    ],
+    "speaker": "Chandler",
+    "text": "Well, just that it's a pretty big commitment. I mean, what if one of us wants to move out?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0083",
+    "t": [
+      490.096,
+      493.975
+    ],
+    "speaker": "Joey",
+    "text": "- Why? Are you moving out? - I'm not moving out. You'd tell me if you were moving out, right?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0084",
+    "t": [
+      494.017,
+      496.269
+    ],
+    "speaker": "Chandler",
+    "text": "Yes, yes. It's just that, look, my last roommate, Kip..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0085",
+    "t": [
+      496.352,
+      499.689
+    ],
+    "speaker": "Joey",
+    "text": "Oh, I know all about Kip."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0086",
+    "t": [
+      499.731,
+      504.694
+    ],
+    "speaker": "Chandler",
+    "text": "We bought a hibachi together and then he ran off and got married and things got pretty ugly."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0087",
+    "t": [
+      504.736,
+      509.032
+    ],
+    "speaker": "Joey",
+    "text": "Let me ask you something. Was Kip a better roommate than me?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0088",
+    "t": [
+      510.116,
+      511.409
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, don't do that?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0089",
+    "t": [
+      517.916,
+      526.799
+    ],
+    "speaker": "Phoebe'S Assistant",
+    "text": "You've got a couple changes in your schedule. Your 4 o'clock herbal massage has been pushed back to 4:30 and Miss Summerfield canceled her 5:30 shiatsu."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0090",
+    "t": [
+      526.841,
+      528.343
+    ],
+    "speaker": "Phoebe",
+    "text": "Okay. Thanks."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0091",
+    "t": [
+      528.384,
+      533.514
+    ],
+    "speaker": "Phoebe'S Assistant",
+    "text": "Oh, here comes your 3 o'clock. I don't mean to sound unprofessional, but yum."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0092",
+    "t": [
+      535.934,
+      538.061
+    ],
+    "speaker": "Paolo",
+    "text": "Buon giorno, bella Peebie."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0093",
+    "t": [
+      538.102,
+      542.065
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh. Paolo. Hi, what are you doing here?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0094",
+    "t": [
+      542.106,
+      548.78
+    ],
+    "speaker": "Paolo",
+    "text": "Uh, Racquela tell me.....you massage, uh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0095",
+    "t": [
+      548.863,
+      552.7
+    ],
+    "speaker": "Phoebe",
+    "text": "Yeah, well, Racquela's right. Yeah, let's.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0096",
+    "t": [
+      555.995,
+      560.959
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh. Okay. I don't know what you just said. So let's just start."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0097",
+    "t": [
+      561.042,
+      566.798
+    ],
+    "speaker": "Paolo",
+    "text": "Uh.. I am, uh.....being naked?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0098",
+    "t": [
+      566.881,
+      574.055
+    ],
+    "speaker": "Phoebe",
+    "text": "Um, that's really your decision. 'I mean, some people prefer, you know' to take off.. Whoo, whoops. Being naked."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0099",
+    "t": [
+      575.223,
+      582.48
+    ],
+    "speaker": "Rachel",
+    "text": "I can't believe you don't wanna know. I mean, I couldn't not know. I mean, if-if the doctor knows and Carol knows and Susan knows.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0100",
+    "t": [
+      582.563,
+      584.315
+    ],
+    "speaker": "Monica",
+    "text": "And Monica knows."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0101",
+    "t": [
+      584.399,
+      586.985
+    ],
+    "speaker": "Ross",
+    "text": "Wha.. How could you know? I don't even know."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0102",
+    "t": [
+      587.068,
+      591.364
+    ],
+    "speaker": "Monica",
+    "text": "Carol called to thank me for the lasagna. I asked. She told me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0103",
+    "t": [
+      591.406,
+      592.991
+    ],
+    "speaker": "Joey",
+    "text": "So what's it gonna be?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0104",
+    "t": [
+      593.074,
+      597.829
+    ],
+    "speaker": "Ross",
+    "text": "Oh. Hush! Huh! Oh, great. Now, he knows and I don't know."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0105",
+    "t": [
+      597.912,
+      600.456
+    ],
+    "speaker": "Monica",
+    "text": "I'm sorry, I'm just excited about being an aunt."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0106",
+    "t": [
+      600.54,
+      601.916
+    ],
+    "speaker": "Joey",
+    "text": "Or an uncle."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0107",
+    "t": [
+      607.547,
+      608.631
+    ],
+    "speaker": "Chandler",
+    "text": "'Hey, Phoebe.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0108",
+    "t": [
+      608.673,
+      609.924
+    ],
+    "speaker": "Ross",
+    "text": "Hi, Pheebs."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0109",
+    "t": [
+      609.966,
+      610.967
+    ],
+    "speaker": "Phoebe",
+    "text": "Fine."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0110",
+    "t": [
+      614.053,
+      616.347
+    ],
+    "speaker": "Monica",
+    "text": "- Phoebe, what's the matter? - Nothing, I'm sorry."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0111",
+    "t": [
+      616.431,
+      617.682
+    ],
+    "speaker": "Phoebe",
+    "text": "I'm just.. I'm out of sorts."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0112",
+    "t": [
+      617.765,
+      620.768
+    ],
+    "speaker": "Customer",
+    "text": "Hey can we get some cappuccino over here?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0113",
+    "t": [
+      622.27,
+      623.73
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, right. That's me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0114",
+    "t": [
+      625.189,
+      628.192
+    ],
+    "speaker": "Joey",
+    "text": "Hey, Chandler, that table place closes at 7:00. Come on."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0115",
+    "t": [
+      628.276,
+      630.32
+    ],
+    "speaker": "Chandler",
+    "text": "Fine."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0116",
+    "t": [
+      630.403,
+      632.322
+    ],
+    "speaker": "Monica",
+    "text": "Phoebe, what is it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0117",
+    "t": [
+      633.907,
+      635.617
+    ],
+    "speaker": "Phoebe",
+    "text": "Alright. You know Paolo?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0118",
+    "t": [
+      635.658,
+      637.66
+    ],
+    "speaker": "Ross",
+    "text": "I'm familiar with his work. Yes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0119",
+    "t": [
+      639.287,
+      640.58
+    ],
+    "speaker": "Phoebe",
+    "text": "Well, he made a move on me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0120",
+    "t": [
+      640.663,
+      642.332
+    ],
+    "speaker": "Joey",
+    "text": "Whoa! Store will be open tomorrow."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0121",
+    "t": [
+      642.415,
+      643.875
+    ],
+    "speaker": "Chandler",
+    "text": "More coffee over here please."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0122",
+    "t": [
+      651.466,
+      652.884
+    ],
+    "speaker": "Monica",
+    "text": "Hey, what happened?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0123",
+    "t": [
+      652.967,
+      657.055
+    ],
+    "speaker": "Phoebe",
+    "text": "Well, he came in for a massage and everything was fine until.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0124",
+    "t": [
+      660.475,
+      662.31
+    ],
+    "speaker": "Ross",
+    "text": "- Whoa! - Oh, my God."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0125",
+    "t": [
+      662.352,
+      664.52
+    ],
+    "speaker": "Monica",
+    "text": "Are you sure?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0126",
+    "t": [
+      664.604,
+      666.064
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, yeah, I'm sure."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0127",
+    "t": [
+      670.818,
+      673.905
+    ],
+    "speaker": "Phoebe",
+    "text": "And all of a sudden his hands weren't the problem anymore."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0128",
+    "t": [
+      678.91,
+      679.994
+    ],
+    "speaker": "Monica",
+    "text": "Was it.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0129",
+    "t": [
+      680.036,
+      682.914
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, Boy Scouts could have camped under there."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0130",
+    "t": [
+      682.997,
+      684.707
+    ],
+    "speaker": "together",
+    "text": "Ooh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0131",
+    "t": [
+      684.791,
+      686.376
+    ],
+    "speaker": "Rachel",
+    "text": "Ooh, what?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0132",
+    "t": [
+      686.459,
+      687.961
+    ],
+    "speaker": "Phoebe",
+    "text": "- Uma Thurman. - Oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0133",
+    "t": [
+      688.044,
+      688.878
+    ],
+    "speaker": "Ross",
+    "text": "The actress."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0134",
+    "t": [
+      691.631,
+      693.716
+    ],
+    "speaker": "Ross",
+    "text": "Thanks, Rach."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0135",
+    "t": [
+      695.343,
+      697.095
+    ],
+    "speaker": "Chandler",
+    "text": "- So what are you gonna do? - You have to tell her."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0136",
+    "t": [
+      697.178,
+      703.726
+    ],
+    "speaker": "Ross",
+    "text": "You have to tell her it's your moral obligation as a friend, as a woman. I think it's a feminist issue. Guys? Guys?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0137",
+    "t": [
+      703.81,
+      705.436
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, yeah, you have to tell her."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0138",
+    "t": [
+      705.52,
+      707.23
+    ],
+    "speaker": "Joey",
+    "text": "Feminist issue that's where I went."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0139",
+    "t": [
+      709.357,
+      710.65
+    ],
+    "speaker": "Phoebe",
+    "text": "She is gonna hate me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0140",
+    "t": [
+      710.733,
+      712.193
+    ],
+    "speaker": "Ross",
+    "text": "Yeah, well.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0141",
+    "t": [
+      719.784,
+      724.289
+    ],
+    "speaker": "Joey",
+    "text": "Will you pick one? Just pick one. Here, how about that one?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0142",
+    "t": [
+      724.372,
+      726.374
+    ],
+    "speaker": "Chandler",
+    "text": "That's patio furniture."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0143",
+    "t": [
+      726.416,
+      731.296
+    ],
+    "speaker": "Joey",
+    "text": "So what, like, people are gonna come in and think, uh-oh, I'm outside again?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0144",
+    "t": [
+      731.379,
+      732.964
+    ],
+    "speaker": "unknown",
+    "text": "Come on."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0145",
+    "t": [
+      733.047,
+      734.34
+    ],
+    "speaker": "Chandler",
+    "text": "What about the birds?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0146",
+    "t": [
+      736.092,
+      740.096
+    ],
+    "speaker": "Joey",
+    "text": "I don't know, birds just don't say hello, sit here eat somethin'."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0147",
+    "t": [
+      741.806,
+      743.6
+    ],
+    "speaker": "Chandler",
+    "text": "- You pick one. - Alright."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0148",
+    "t": [
+      743.683,
+      744.934
+    ],
+    "speaker": "Joey",
+    "text": "How about the ladybugs?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0149",
+    "t": [
+      745.018,
+      749.731
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, so forget about the birds but big, red insects suggest fine dining."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0150",
+    "t": [
+      749.772,
+      751.733
+    ],
+    "speaker": "Joey",
+    "text": "Fine, you wanna get the birds, get the birds."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0151",
+    "t": [
+      751.816,
+      753.151
+    ],
+    "speaker": "Chandler",
+    "text": "Not like that, I won't."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0152",
+    "t": [
+      757.071,
+      758.948
+    ],
+    "speaker": "Chandler",
+    "text": "Kip would have liked the birds."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0153",
+    "t": [
+      769.125,
+      771.544
+    ],
+    "speaker": "Rachel",
+    "text": "- Hey. - Hi, Pheebs."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0154",
+    "t": [
+      771.628,
+      772.754
+    ],
+    "speaker": "Phoebe",
+    "text": "Are you moving out?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0155",
+    "t": [
+      772.837,
+      776.841
+    ],
+    "speaker": "Rachel",
+    "text": "No, these aren't all my suitcases. This one's Paulo's."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0156",
+    "t": [
+      776.925,
+      782.805
+    ],
+    "speaker": "Phoebe",
+    "text": "'Uh..' Um.. Rachel, can we talk for a sec?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0157",
+    "t": [
+      782.889,
+      786.184
+    ],
+    "speaker": "Rachel",
+    "text": "Well, sure, just for a sec though 'cause Paolo's on his way over."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0158",
+    "t": [
+      786.267,
+      793.316
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh! Okay. Um.. Okay. Um.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0159",
+    "t": [
+      794.943,
+      796.986
+    ],
+    "speaker": "Rachel",
+    "text": "- Oh, Pheebs.. - Um, okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0160",
+    "t": [
+      797.028,
+      816.214
+    ],
+    "speaker": "Phoebe",
+    "text": "Um.. We haven't known each other for that long a time and, um, there are three things that you should know about me. One, my friends are the most important thing in my life. Two, I never lie. And three, I make the best oatmeal raisin cookies in the world."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0161",
+    "t": [
+      818.8,
+      820.551
+    ],
+    "speaker": "unknown",
+    "text": "Okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0162",
+    "t": [
+      820.635,
+      822.262
+    ],
+    "speaker": "Rachel",
+    "text": "Thanks, Pheebs."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0163",
+    "t": [
+      826.516,
+      831.688
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, my God. Why have I never tasted these before?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0164",
+    "t": [
+      831.729,
+      836.359
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, I don't make them a lot because I don't think it's fair to the other cookies."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0165",
+    "t": [
+      839.862,
+      846.119
+    ],
+    "speaker": "Rachel",
+    "text": "Alright, well, you're right. These are the best oatmeal raisin cookies I've ever had."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0166",
+    "t": [
+      846.202,
+      848.371
+    ],
+    "speaker": "Phoebe",
+    "text": "Which proves that I never lie."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0167",
+    "t": [
+      848.413,
+      850.373
+    ],
+    "speaker": "Rachel",
+    "text": "I guess you don't."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0168",
+    "t": [
+      850.456,
+      852.208
+    ],
+    "speaker": "Phoebe",
+    "text": "Paolo made a pass at me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0169",
+    "t": [
+      855.128,
+      856.921
+    ],
+    "speaker": "Chandler",
+    "text": "So what do you think?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0170",
+    "t": [
+      857.005,
+      859.299
+    ],
+    "speaker": "Ross",
+    "text": "I think it's the most beautiful table I've ever seen."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0171",
+    "t": [
+      859.34,
+      864.22
+    ],
+    "speaker": "Monica",
+    "text": "- I know. - So how does this work? You're gonna balance the plates on these little guys' heads?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0172",
+    "t": [
+      864.304,
+      866.514
+    ],
+    "speaker": "Joey",
+    "text": "Who cares? We'll eat at the sink. Come on."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0173",
+    "t": [
+      869.058,
+      873.104
+    ],
+    "speaker": "Monica",
+    "text": "Heads up, Ross. Score! You suck."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0174",
+    "t": [
+      876.316,
+      877.942
+    ],
+    "speaker": "Phoebe",
+    "text": "Are you okay?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0175",
+    "t": [
+      880.82,
+      882.28
+    ],
+    "speaker": "Rachel",
+    "text": "I need some milk."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0176",
+    "t": [
+      883.865,
+      885.533
+    ],
+    "speaker": "Phoebe",
+    "text": "Okay. I've got milk."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0177",
+    "t": [
+      891.039,
+      892.874
+    ],
+    "speaker": "Phoebe",
+    "text": "Here you go. Oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0178",
+    "t": [
+      901.132,
+      902.091
+    ],
+    "speaker": "Phoebe",
+    "text": "Better?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0179",
+    "t": [
+      904.135,
+      905.094
+    ],
+    "speaker": "Rachel",
+    "text": "No."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0180",
+    "t": [
+      907.555,
+      923.029
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, I feel so stupid! Oh, I think about the other day with you guys you know and I was all, oh, Paolo, he's so great! He makes me feel so... Oh! God. I'm so embarrassed."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0181",
+    "t": [
+      923.071,
+      926.282
+    ],
+    "speaker": "Phoebe",
+    "text": "I'm so embarrassed. I'm the one he hit on."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0182",
+    "t": [
+      926.366,
+      930.161
+    ],
+    "speaker": "Rachel",
+    "text": "Phoebe, I unleashed him on you, if I had never met him this would have never happened to you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0183",
+    "t": [
+      930.245,
+      937.085
+    ],
+    "speaker": "Phoebe",
+    "text": "I'm so sorry. - No Phoebe, I'm sorry. - No, I'm sorry. - No, I'm sorry! - No, I'm sorry! Oh, wait. Oh.....what are we sorry about?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0184",
+    "t": [
+      937.126,
+      947.553
+    ],
+    "speaker": "Rachel",
+    "text": "I don't know. Right. - He's the pig. - Such a pig. - Oh, God, he's such a pig! - Oh, he's like a... He's like a big, disgusting pig. - Yeah, like a.. - Pig... pig man."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0185",
+    "t": [
+      947.637,
+      949.305
+    ],
+    "speaker": "Phoebe",
+    "text": "Yes, good. Okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0186",
+    "t": [
+      953.601,
+      955.979
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, but he was my pig man."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0187",
+    "t": [
+      957.939,
+      960.191
+    ],
+    "speaker": "Rachel",
+    "text": "How did I not see this?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0188",
+    "t": [
+      961.526,
+      963.403
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, I know!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0189",
+    "t": [
+      965.822,
+      974.956
+    ],
+    "speaker": "Phoebe",
+    "text": "Because he's gorgeous and he's charming.. And when he looks at you... - Okay, okay, Pheebs. - Oh, the end."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0190",
+    "t": [
+      977.584,
+      979.043
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, God."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0191",
+    "t": [
+      981.296,
+      983.047
+    ],
+    "speaker": "Phoebe",
+    "text": "Should I not have told you?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0192",
+    "t": [
+      983.131,
+      987.26
+    ],
+    "speaker": "Rachel",
+    "text": "No. No, trust me. It's-it's-it's much better that I know."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0193",
+    "t": [
+      990.513,
+      994.309
+    ],
+    "speaker": "Rachel",
+    "text": "Uh, I just liked it better before it was better."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0194",
+    "t": [
+      1011.367,
+      1015.997
+    ],
+    "speaker": "Phoebe",
+    "text": "I think she took it pretty well. You know, Paolo's over there right now, so.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0195",
+    "t": [
+      1016.039,
+      1024.13
+    ],
+    "speaker": "Monica",
+    "text": "We should get over there and see if she's okay. - What? Oh. - Just one... second. Score. - Game. Nice. - Yes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0196",
+    "t": [
+      1025.924,
+      1028.718
+    ],
+    "speaker": "Monica",
+    "text": "- Come on, Pheebs. - Ah, ooh!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0197",
+    "t": [
+      1028.76,
+      1031.888
+    ],
+    "speaker": "Ross",
+    "text": "Well, looks like, uh, we kicked your butts."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0198",
+    "t": [
+      1031.93,
+      1035.391
+    ],
+    "speaker": "Joey",
+    "text": "No, no, she kicked our butts. You could be on the Olympic standing-there team."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0199",
+    "t": [
+      1036.517,
+      1037.769
+    ],
+    "speaker": "Ross",
+    "text": "Come on, two on one."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0200",
+    "t": [
+      1037.852,
+      1042.273
+    ],
+    "speaker": "Chandler",
+    "text": "What are you still doing here? She just broke up with the guy. It's time for you to swoop in."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0201",
+    "t": [
+      1043.691,
+      1055.578
+    ],
+    "speaker": "Joey",
+    "text": "- What? Now? - Yes, now is when you swoop. You gotta make sure that when Paolo walks out of there the first guy Rachel sees is you. She's got to know that you're everything he's not. You're like-like the Anti-Paolo."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0202",
+    "t": [
+      1057.413,
+      1067.757
+    ],
+    "speaker": "Chandler",
+    "text": "My Catholic friend is right. She's distraught. You're there for her. You pick up the pieces, and then, you usher in.....the age of Ross."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0203",
+    "t": [
+      1076.099,
+      1077.767
+    ],
+    "speaker": "unknown",
+    "text": "Ascolta, ascolta, ascolta.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0204",
+    "t": [
+      1080.728,
+      1082.647
+    ],
+    "speaker": "Ross",
+    "text": "- How's it going? - Alright, don't stare."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0205",
+    "t": [
+      1082.73,
+      1091.531
+    ],
+    "speaker": "Monica",
+    "text": "Okay, she just finished throwing his clothes off the balcony. 'Now there's just a lot of gesturing and arm waving.' Okay, that is either, how could you? Or enormous breasts."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0206",
+    "t": [
+      1093.95,
+      1095.451
+    ],
+    "speaker": "Monica",
+    "text": "- Here he comes. - Oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0207",
+    "t": [
+      1104.168,
+      1109.757
+    ],
+    "speaker": "Paolo",
+    "text": "Uh, I am, uh.....to say goodbye."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0208",
+    "t": [
+      1109.799,
+      1111.467
+    ],
+    "speaker": "Phoebe",
+    "text": "Okay, buh-bye."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0209",
+    "t": [
+      1114.804,
+      1122.562
+    ],
+    "speaker": "Monica",
+    "text": "Paolo.. I really hate you for what you did to Rachel but I still have five of these so heat it at 375 until the cheese bubbles."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0210",
+    "t": [
+      1124.939,
+      1126.107
+    ],
+    "speaker": "Paolo",
+    "text": "Grazie."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0211",
+    "t": [
+      1128.067,
+      1133.656
+    ],
+    "speaker": "Ross",
+    "text": "Paolo, I-I just want to tell you and I-I think I'd speak for everyone when I say.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0212",
+    "t": [
+      1139.329,
+      1141.414
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, just look at her."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0213",
+    "t": [
+      1141.456,
+      1148.63
+    ],
+    "speaker": "Ross",
+    "text": "Yeah, oh, you guys, I-I really think only one of us should go out there. - So she's not overwhelmed. - Oh, you're right. And I really think it should be me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0214",
+    "t": [
+      1162.685,
+      1164.312
+    ],
+    "speaker": "Ross",
+    "text": "- Hey. - Hey."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0215",
+    "t": [
+      1166.147,
+      1168.024
+    ],
+    "speaker": "Ross",
+    "text": "You alright?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0216",
+    "t": [
+      1168.066,
+      1170.443
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, I've been better."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0217",
+    "t": [
+      1174.989,
+      1176.574
+    ],
+    "speaker": "Ross",
+    "text": "Come here."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0218",
+    "t": [
+      1183.498,
+      1194.342
+    ],
+    "speaker": "Ross",
+    "text": "Listen, you deserve so much better than him. You know, I mean, you, you.. You should be with a guy who knows what he has when he has you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0219",
+    "t": [
+      1195.677,
+      1197.679
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, Ross."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0220",
+    "t": [
+      1198.638,
+      1199.597
+    ],
+    "speaker": "Ross",
+    "text": "What?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0221",
+    "t": [
+      1200.473,
+      1211.109
+    ],
+    "speaker": "Rachel",
+    "text": "I'm so sick of guys. I don't wanna look at another guy. I don't wanna think about another guy. I-I don't even want to be near another guy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0222",
+    "t": [
+      1215.071,
+      1216.531
+    ],
+    "speaker": "Ross",
+    "text": "Huh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0223",
+    "t": [
+      1219.2,
+      1220.577
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, Ross, you're so great."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0224",
+    "t": [
+      1220.618,
+      1222.12
+    ],
+    "speaker": "Monica",
+    "text": "Yeah, ooh.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0225",
+    "t": [
+      1232.922,
+      1234.424
+    ],
+    "speaker": "Monica",
+    "text": "Hey, honey, are you alright?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0226",
+    "t": [
+      1234.465,
+      1235.675
+    ],
+    "speaker": "Rachel",
+    "text": "- Hmm. - Are you okay?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0227",
+    "t": [
+      1235.717,
+      1237.302
+    ],
+    "speaker": "unknown",
+    "text": "Medium."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0228",
+    "t": [
+      1237.385,
+      1239.47
+    ],
+    "speaker": "Rachel",
+    "text": "- Any cookies left? - Yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0229",
+    "t": [
+      1242.515,
+      1253.776
+    ],
+    "speaker": "Ross",
+    "text": "See, Rach, um, see, I don't think that swearing off guys, uh, altogether is the answer. 'I really don't, I think what you need' is to develop a more sophisticated screening process."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0230",
+    "t": [
+      1253.86,
+      1259.574
+    ],
+    "speaker": "Rachel",
+    "text": "No. No, I just need to be by myself for a while, you know? I just got to figure out what I want."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0231",
+    "t": [
+      1259.616,
+      1266.247
+    ],
+    "speaker": "Ross",
+    "text": "Uh, no, no. See-see, because not-not all guys out there are gonna be a-a Paolo."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0232",
+    "t": [
+      1266.289,
+      1271.628
+    ],
+    "speaker": "Rachel",
+    "text": "No, I know, I know, and I'm sure your little boy is not gonna grow up to be one."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0233",
+    "t": [
+      1273.421,
+      1274.923
+    ],
+    "speaker": "Ross",
+    "text": "- What? - What?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0234",
+    "t": [
+      1277.216,
+      1279.761
+    ],
+    "speaker": "Ross",
+    "text": "I'm-I'm, I'm have-I'm havin' a boy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0235",
+    "t": [
+      1279.802,
+      1286.184
+    ],
+    "speaker": "Rachel",
+    "text": "Uh... no. No, no, in fact, you're not having a boy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0236",
+    "t": [
+      1286.267,
+      1288.811
+    ],
+    "speaker": "Ross",
+    "text": "Oh, I'm having, I'm having a boy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0237",
+    "t": [
+      1290.313,
+      1292.023
+    ],
+    "speaker": "Ross",
+    "text": "Huh? Am I having a boy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0238",
+    "t": [
+      1292.106,
+      1294.484
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "You're having a boy!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0239",
+    "t": [
+      1294.525,
+      1297.111
+    ],
+    "speaker": "Ross",
+    "text": "- I'm-I'm having a boy! - Yes. Oh, I'm having a boy!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0240",
+    "t": [
+      1297.153,
+      1298.404
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "What? What? What is it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0241",
+    "t": [
+      1298.446,
+      1300.99
+    ],
+    "speaker": "Ross",
+    "text": "I'm having a boy! I-I'm having a boy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0242",
+    "t": [
+      1301.032,
+      1302.659
+    ],
+    "speaker": "Chandler",
+    "text": "Hey."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0243",
+    "t": [
+      1304.494,
+      1306.663
+    ],
+    "speaker": "Chandler",
+    "text": "We already knew that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0244",
+    "t": [
+      1309.832,
+      1311.542
+    ],
+    "speaker": "Ross",
+    "text": "I'm having a son."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0245",
+    "t": [
+      1314.254,
+      1315.713
+    ],
+    "speaker": "Ross",
+    "text": "Um.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0246",
+    "t": [
+      1319.842,
+      1322.679
+    ],
+    "speaker": "Monica",
+    "text": "Yes! And that would be a shut-down."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0247",
+    "t": [
+      1322.72,
+      1324.222
+    ],
+    "speaker": "Chandler",
+    "text": "Shut-out!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0248",
+    "t": [
+      1327.475,
+      1329.686
+    ],
+    "speaker": "Monica",
+    "text": "Where are you guys goin'? Come on, one more game."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0249",
+    "t": [
+      1329.769,
+      1331.854
+    ],
+    "speaker": "Joey",
+    "text": "Oh, it's 2:30 in the mornin'."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0250",
+    "t": [
+      1331.896,
+      1334.357
+    ],
+    "speaker": "Chandler",
+    "text": "Yeah. Get out."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0251",
+    "t": [
+      1334.399,
+      1342.365
+    ],
+    "speaker": "Monica",
+    "text": "You guys are always hanging out in my apartment. Come on, I'll only use my left hand, huh? Come on, wussies."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0252",
+    "t": [
+      1345.66,
+      1351.749
+    ],
+    "speaker": "Monica",
+    "text": "- Alright, okay, I gotta go. - Mm-hmm. I'm goin'. And I'm gone."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E12",
+    "unit_id": "u0253",
+    "t": [
+      1354.46,
+      1355.92
+    ],
+    "speaker": "Chandler",
+    "text": "- One more game? - Oh, yeah."
+  }
+]

@@ -1,0 +1,2521 @@
+[
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0001",
+    "t": [
+      8.93,
+      20.817
+    ],
+    "speaker": "Frasier",
+    "text": "Okay, Dad, now you've seen the executive offices, the advertising offices and the lunch room. And we've now finally come to the sanctum sanctorum, my studio. Oh, you might recognize that handsome rogue over there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0002",
+    "t": [
+      21.526,
+      23.82
+    ],
+    "speaker": "Martin",
+    "text": "Wow, your head photographs even bigger than it is."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0003",
+    "t": [
+      25.029,
+      35.747
+    ],
+    "speaker": "Frasier",
+    "text": "Very droll. Get in here. This is what, we in the radio game, call \"the booth.\" It's here that I sit day after day and dispense the advice that helps the emotionally distraught through their troubled lives."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0004",
+    "t": [
+      35.748,
+      38.001
+    ],
+    "speaker": "Martin",
+    "text": "Mmm. Suppose this stuff's bulletproof?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0005",
+    "t": [
+      40.086,
+      58.855
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, you know you could have gone home after lunch. - I thought you'd enjoy it. - No, don't touch that! It's a sophisticated piece of electronic equipment. - What is it? - I have no idea! Roz told me never to touch it. - See, Dad, the usual procedure is-- - Testing! Testing! - Testing! - Dad! Dad! Dad! Let's just go into Roz's booth, okay? You can touch anything you want to in there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0006",
+    "t": [
+      59.355,
+      64.193
+    ],
+    "speaker": "Roz",
+    "text": "- Hey, Frasier! - Hello, Roz. - Hi, Mr. Crane. What brings you here? - Hi. I'm just showing Dad around."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0007",
+    "t": [
+      64.194,
+      65.777
+    ],
+    "speaker": "Frasier",
+    "text": "Then he's gonna sit and listen to the show."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0008",
+    "t": [
+      65.778,
+      70.949
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, it's kind of like payback for when Frasier and Niles were kids. I used to show them around the police station where I worked."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0009",
+    "t": [
+      70.95,
+      76.664
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, he used to make a big game of \"locking\" us in one of the cells and then pretending to lose the key."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0010",
+    "t": [
+      77.916,
+      80.25
+    ],
+    "speaker": "Martin",
+    "text": "I was just joking with them. I knew they weren't scared."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0011",
+    "t": [
+      80.251,
+      84.005
+    ],
+    "speaker": "Frasier",
+    "text": "Well, no, we weren't really scared. After a while, we did become quite hungry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0012",
+    "t": [
+      85.757,
+      87.674
+    ],
+    "speaker": "Roz",
+    "text": "Hey, Frasier, could you lend me 10 bucks?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0013",
+    "t": [
+      87.675,
+      89.134
+    ],
+    "speaker": "Frasier",
+    "text": "Did you leave your wallet home?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0014",
+    "t": [
+      89.135,
+      96.099
+    ],
+    "speaker": "Roz",
+    "text": "No, I gave the last of my money to this poor guy down in front of the building. He's an Australian tourist. He lost his wallet and needed 10 dollars."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0015",
+    "t": [
+      96.1,
+      98.268
+    ],
+    "speaker": "Martin",
+    "text": "To take a cab to the Australian Consulate before it closes?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0016",
+    "t": [
+      98.269,
+      99.978
+    ],
+    "speaker": "Roz",
+    "text": "Yeah. How'd you know?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0017",
+    "t": [
+      99.979,
+      102.398
+    ],
+    "speaker": "Martin",
+    "text": "There is no Australian Consulate in Seattle."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0018",
+    "t": [
+      103.399,
+      105.652
+    ],
+    "speaker": "Roz",
+    "text": "Oh, that poor guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0019",
+    "t": [
+      108.154,
+      110.572
+    ],
+    "speaker": "Frasier",
+    "text": "Roz, it's a scam. He scammed you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0020",
+    "t": [
+      110.573,
+      113.325
+    ],
+    "speaker": "Roz",
+    "text": "No. This guy was for real. Honest. He even said--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0021",
+    "t": [
+      113.326,
+      116.62
+    ],
+    "speaker": "Martin",
+    "text": "\"If you give me your address, I'll send you the money back with interest.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0022",
+    "t": [
+      116.621,
+      119.831
+    ],
+    "speaker": "Roz",
+    "text": "God. I'm an idiot!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0023",
+    "t": [
+      119.832,
+      123.377
+    ],
+    "speaker": "Martin",
+    "text": "No. Don't feel bad. These guys are professionals."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0024",
+    "t": [
+      123.378,
+      125.213
+    ],
+    "speaker": "Roz",
+    "text": "Don't touch that!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0025",
+    "t": [
+      127.382,
+      140.227
+    ],
+    "speaker": "Martin",
+    "text": "What is this place? A radio station or a nuclear missile site? No, listen, Roz, don't feel bad. I was a cop for 30 years and they could still fake me out once in a while. These guys are professionals. They know what to do."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0026",
+    "t": [
+      140.228,
+      142.354
+    ],
+    "speaker": "Frasier",
+    "text": "Especially if you're an easy mark like Roz."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0027",
+    "t": [
+      142.355,
+      146.942
+    ],
+    "speaker": "Martin",
+    "text": "Hey, the criminal mind is more complex than you think. - They can fool you. - By all means, Dad,"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0028",
+    "t": [
+      146.943,
+      151.738
+    ],
+    "speaker": "Frasier",
+    "text": "lecture me on the complexities of the human mind. Are you forgetting that I graduated with honors from Harvard"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0029",
+    "t": [
+      151.739,
+      157.954
+    ],
+    "speaker": "Martin",
+    "text": "- in psycho-social behaviorisms? - I know. I was at your graduation. Impressive bunch. A car backfired and half of them wet their gowns."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0030",
+    "t": [
+      159.414,
+      161.457
+    ],
+    "speaker": "Frasier",
+    "text": "Well, it sounded louder on the dais."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0031",
+    "t": [
+      163.209,
+      166.42
+    ],
+    "speaker": "Frasier",
+    "text": "All I'm trying to say is, if it were me on the street, I wouldn't have been fooled."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0032",
+    "t": [
+      166.421,
+      170.09
+    ],
+    "speaker": "Martin",
+    "text": "You think because of your book smarts you can spot a crook just like that, huh?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0033",
+    "t": [
+      170.091,
+      172.093
+    ],
+    "speaker": "Frasier",
+    "text": "Well, if I can't, I'm in the wrong business."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0034",
+    "t": [
+      172.76,
+      174.803
+    ],
+    "speaker": "Martin",
+    "text": "You want to put your money where your mouth is?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0035",
+    "t": [
+      174.804,
+      175.846
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, what do you mean?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0036",
+    "t": [
+      175.847,
+      184.438
+    ],
+    "speaker": "Martin",
+    "text": "I've got three people coming over for poker tonight. Two of them are cops. The third one's done time in jail. I'll bet you 5 bucks, you can't tell which one's the ex-con."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0037",
+    "t": [
+      184.439,
+      188.359
+    ],
+    "speaker": "Roz",
+    "text": "Hey, can I get in on the action? - Of course, you can. - Great, 10 bucks on your dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0038",
+    "t": [
+      189.861,
+      199.579
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, you're just itching to give your money away today, aren't you? All right, you're both on. But I think you're underestimating me! What truffles are to pigs, so are these charlatans and pettifoggers to my mental acuity."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0039",
+    "t": [
+      202.206,
+      205.877
+    ],
+    "speaker": "Martin",
+    "text": "We didn't know better back then. His mother smoked during pregnancy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0040",
+    "t": [
+      213.593,
+      216.47
+    ],
+    "speaker": "Daphne",
+    "text": "So who are these people coming over tonight?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0041",
+    "t": [
+      216.471,
+      218.597
+    ],
+    "speaker": "Frasier",
+    "text": "Just some of Dad's old friends from the precinct."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0042",
+    "t": [
+      218.598,
+      228.899
+    ],
+    "speaker": "Daphne",
+    "text": "Yeah, well, if we're having company, someone should have been cleaned up. Because someone hasn't been smelling so fresh lately. Because someone is long overdue for a tub."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0043",
+    "t": [
+      228.9,
+      230.485
+    ],
+    "speaker": "Martin",
+    "text": "Hey, I took a shower this morning."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0044",
+    "t": [
+      231.819,
+      235.03
+    ],
+    "speaker": "Daphne",
+    "text": "You know I was talking about Eddie. He's long overdue for a--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0045",
+    "t": [
+      235.031,
+      238.66
+    ],
+    "speaker": "Martin",
+    "text": "Don't say that word. - What word? - B-A-T-H."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0046",
+    "t": [
+      243.331,
+      246.876
+    ],
+    "speaker": "Frasier",
+    "text": "When he yawns, it smells like swamp gas, but his spelling is improving."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0047",
+    "t": [
+      250.588,
+      257.135
+    ],
+    "speaker": "Daphne",
+    "text": "I've made meatball sandwiches, pepperoni pizzas and little sausage rolls. Will you need anything else?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0048",
+    "t": [
+      257.136,
+      259.138
+    ],
+    "speaker": "Frasier",
+    "text": "The number of the nearest gastro enter ologist."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0049",
+    "t": [
+      260.64,
+      270.983
+    ],
+    "speaker": "Martin",
+    "text": "Hey, guys! Come on in! Yeah, these are my poker pals. This is Linda, Frank and Jimmy. - This is my son, Frasier. - Linda! Good to see you Frank. Jimmy. - Nice to meet you. - Throw your coats on the couch."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0050",
+    "t": [
+      275.863,
+      279.033
+    ],
+    "speaker": "Martin",
+    "text": "Kind of hard to tell, isn't it? They all look like they did time."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0051",
+    "t": [
+      281.577,
+      292.462
+    ],
+    "speaker": "Frasier",
+    "text": "Well, my Dad tells me he's filled you in on our little bet. The ground rules for tonight are that I'm not allowed to ask you any questions directly about your line of work. But whatever questions I do ask, you must answer truthfully."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0052",
+    "t": [
+      292.463,
+      294.257
+    ],
+    "speaker": "Frank",
+    "text": "All I want to do is play cards."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0053",
+    "t": [
+      295.258,
+      297.217
+    ],
+    "speaker": "Jimmy",
+    "text": "- Great place you've got here, Marty. - Thanks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0054",
+    "t": [
+      297.218,
+      298.219
+    ],
+    "speaker": "Frasier",
+    "text": "Actually, it's mine."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0055",
+    "t": [
+      298.928,
+      303.39
+    ],
+    "speaker": "Jimmy",
+    "text": "Ooh, you must do pretty well on that radio show of yours. What is this place, about 2000 square feet?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0056",
+    "t": [
+      303.391,
+      304.267
+    ],
+    "speaker": "Frasier",
+    "text": "Yeah, about."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0057",
+    "t": [
+      306.561,
+      318.113
+    ],
+    "speaker": "Frasier",
+    "text": "Hmm. That's interesting. You noticed the space. Most people usually mention the view or the high ceilings. But you mentioned the space. It's almost as if you'd spent some time living in a cramped,"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0058",
+    "t": [
+      318.114,
+      321.492
+    ],
+    "speaker": "Frank",
+    "text": "- confining, tight area. - So you've been to Jimmy's apartment, huh?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0059",
+    "t": [
+      323.578,
+      325.036
+    ],
+    "speaker": "Daphne",
+    "text": "- Hello there. - Hi, Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0060",
+    "t": [
+      325.037,
+      328.75
+    ],
+    "speaker": "Martin",
+    "text": "This is Daphne Moon. These are my friends, Linda, Frank, Jimmy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0061",
+    "t": [
+      329.375,
+      333.17
+    ],
+    "speaker": "Frank",
+    "text": "Daphne, that's a very pretty name. Do people call you \"Daffy\" for short?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0062",
+    "t": [
+      333.171,
+      334.672
+    ],
+    "speaker": "Daphne",
+    "text": "Not twice."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0063",
+    "t": [
+      336.883,
+      341.803
+    ],
+    "speaker": "Daphne",
+    "text": "Well, it's nice to meet all of you. Here we go, I've got beers for everyone."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0064",
+    "t": [
+      341.804,
+      343.805
+    ],
+    "speaker": "Frank",
+    "text": "Still drinking the Ballantines, I see."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0065",
+    "t": [
+      343.806,
+      346.767
+    ],
+    "speaker": "Linda",
+    "text": "Yeah, when you kick off, that company's going down the tubes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0066",
+    "t": [
+      346.768,
+      353.648
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, yeah. Many's the time I come home, see cans of them lined up, one after another on the coffee table. Like little, tin soldiers they are."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0067",
+    "t": [
+      353.649,
+      356.235
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, thanks a lot, Daphne. Don't you have a dog to wash?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0068",
+    "t": [
+      357.278,
+      360.615
+    ],
+    "speaker": "Daphne",
+    "text": "I suppose I do. Of course, I have to catch the little bugger first."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0069",
+    "t": [
+      362.366,
+      365.535
+    ],
+    "speaker": "Jimmy",
+    "text": "- Maybe one of these would help. - Hey, beer's not good for dogs."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0070",
+    "t": [
+      365.536,
+      367.205
+    ],
+    "speaker": "Daphne",
+    "text": "No, but it's super for me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0071",
+    "t": [
+      369.54,
+      372.793
+    ],
+    "speaker": "Linda",
+    "text": "- Hey, Marty, she's pretty nice. - Yeah and sexy too, you dirty, old man."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0072",
+    "t": [
+      374.337,
+      375.588
+    ],
+    "speaker": "Frasier",
+    "text": "Interesting."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0073",
+    "t": [
+      378.424,
+      380.927
+    ],
+    "speaker": "Frasier",
+    "text": "You find her attractive, do you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0074",
+    "t": [
+      388.017,
+      389.1
+    ],
+    "speaker": "Linda",
+    "text": "Sure, don't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0075",
+    "t": [
+      389.101,
+      397.443
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, but I mean, attraction to one's own sex is a not uncommon result of long, enforced periods of time spent exclusively in their company."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0076",
+    "t": [
+      400.196,
+      405.243
+    ],
+    "speaker": "Martin",
+    "text": "- Frasier, I may have underestimated you. - Really? Yeah, you're making a bigger jackass of yourself than I thought."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0077",
+    "t": [
+      407.245,
+      408.246
+    ],
+    "speaker": "Jimmy",
+    "text": "High card deals."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0078",
+    "t": [
+      408.83,
+      411.707
+    ],
+    "speaker": "Frasier",
+    "text": "You know, we could really use some music. Anybody play the harmonica?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0079",
+    "t": [
+      416.546,
+      423.385
+    ],
+    "speaker": "Frank",
+    "text": "My deal. Dollar ante to start. Five-card draw. Jacks or better to open. And a three-raise maximum."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0080",
+    "t": [
+      423.386,
+      425.679
+    ],
+    "speaker": "Martin",
+    "text": "- Sure you don't want to play, Fras? - Oh, no, no, no."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0081",
+    "t": [
+      425.68,
+      436.44
+    ],
+    "speaker": "Frasier",
+    "text": "I'll just take this time to observe the triumvirate. I'll use my considerable education, my years of study, and not to mention, well, all right, let's say it, my God-given gift to intuit."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0082",
+    "t": [
+      438.359,
+      441.237
+    ],
+    "speaker": "Frank",
+    "text": "This is the kid that used to get his head flushed in the toilet, right?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0083",
+    "t": [
+      448.244,
+      451.163
+    ],
+    "speaker": "Frank",
+    "text": "All right. I call. What do you got?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0084",
+    "t": [
+      451.956,
+      453.374
+    ],
+    "speaker": "Linda",
+    "text": "Full boat, aces up."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0085",
+    "t": [
+      454.041,
+      456.836
+    ],
+    "speaker": "Frank",
+    "text": "Damn it! That's another one. I'm losing my shirt here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0086",
+    "t": [
+      457.753,
+      460.088
+    ],
+    "speaker": "Daphne",
+    "text": "Would somebody mind giving me a hand with the coffee?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0087",
+    "t": [
+      460.089,
+      465.302
+    ],
+    "speaker": "Jimmy",
+    "text": "- Yeah. I'll give you a hand. - Come along, then. I really like your accent. Where are you from?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0088",
+    "t": [
+      465.303,
+      466.636
+    ],
+    "speaker": "Daphne",
+    "text": "- Manchester. - Manchester?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0089",
+    "t": [
+      466.637,
+      471.516
+    ],
+    "speaker": "Jimmy",
+    "text": "- That's where The Beatles are from, right? - Oh, no, no. - You're thinking Liverpool. - Then who's from Manchester?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0090",
+    "t": [
+      471.517,
+      473.603
+    ],
+    "speaker": "Daphne",
+    "text": "No one. That's why I live here now."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0091",
+    "t": [
+      476.314,
+      479.608
+    ],
+    "speaker": "Frasier",
+    "text": "- You've been awfully quiet there. - I'm sorry, Dad. Just been observing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0092",
+    "t": [
+      479.609,
+      481.819
+    ],
+    "speaker": "Martin",
+    "text": "No, no, don't apologize. It was a compliment."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0093",
+    "t": [
+      484.572,
+      494.748
+    ],
+    "speaker": "Frasier",
+    "text": "You know, Frank's an interesting study, isn't he? Temper, loner, a bit unsocial. Almost a stereotypical portrait of a man who's spent his entire life behind bars."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0094",
+    "t": [
+      494.749,
+      496.459
+    ],
+    "speaker": "Frank",
+    "text": "This dish a Lalique or a Steuben?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0095",
+    "t": [
+      499.587,
+      503.507
+    ],
+    "speaker": "Martin",
+    "text": "They had no spots open in the prison laundry. He worked in fine china and glassware."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0096",
+    "t": [
+      508.888,
+      512.516
+    ],
+    "speaker": "Frank",
+    "text": "Here you go, big winner. Buy yourself something pretty and frilly."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0097",
+    "t": [
+      514.268,
+      518.356
+    ],
+    "speaker": "Linda",
+    "text": "Sorry, Frank, I can't hear you. I've got your money stuck in my ears."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0098",
+    "t": [
+      519.649,
+      524.904
+    ],
+    "speaker": "Martin",
+    "text": "Well, I guess there's only one thing left. How about it, Fras? You figure it out yet?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0099",
+    "t": [
+      525.655,
+      532.16
+    ],
+    "speaker": "Frasier",
+    "text": "Actually, I believe I have. Shall we step into the drawing room? Please have a seat."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0100",
+    "t": [
+      532.161,
+      535.997
+    ],
+    "speaker": "Martin",
+    "text": "Okay, Sherlock. You've got center stage."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0101",
+    "t": [
+      535.998,
+      550.22
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I have sketched an accurate psychological profile of each one of you. And in so doing, I have come to the incontrovertible conclusion that the criminal among us can only be Frank!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0102",
+    "t": [
+      550.221,
+      552.889
+    ],
+    "speaker": "Martin",
+    "text": "Wrong. Frank's a highly decorated undercover cop."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0103",
+    "t": [
+      552.89,
+      554.058
+    ],
+    "speaker": "Frasier",
+    "text": "Exactly!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0104",
+    "t": [
+      557.436,
+      578.999
+    ],
+    "speaker": "Frasier",
+    "text": "Just a little too obvious, you know, the broken vocabulary, the jailhouse pallor, - the under-developed social skills. - Hey. So you tried to use psychology against me, did you? Threw a gender-bender at me, thinking that I would just assume that a felon would naturally be a man. Well, I'm on to your little game, mister. The criminal among us is, indeed, the very wily Linda!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0105",
+    "t": [
+      579.0,
+      580.459
+    ],
+    "speaker": "Linda",
+    "text": "- Nope. - Jimmy!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0106",
+    "t": [
+      583.17,
+      584.171
+    ],
+    "speaker": "Martin",
+    "text": "You're right!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0107",
+    "t": [
+      586.132,
+      587.799
+    ],
+    "speaker": "Frasier",
+    "text": "You seem like such a nice guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0108",
+    "t": [
+      587.8,
+      589.217
+    ],
+    "speaker": "Jimmy",
+    "text": "I am a nice guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0109",
+    "t": [
+      589.218,
+      591.387
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, he was voted most congenial in his cell block."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0110",
+    "t": [
+      592.847,
+      595.598
+    ],
+    "speaker": "Jimmy",
+    "text": "Sorry, doc. I'm afraid you owe your old man 5 bucks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0111",
+    "t": [
+      595.599,
+      597.601
+    ],
+    "speaker": "Frasier",
+    "text": "- I'm afraid I do. - Oh."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0112",
+    "t": [
+      598.894,
+      600.438
+    ],
+    "speaker": "Jimmy",
+    "text": "You'll probably use this."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0113",
+    "t": [
+      602.606,
+      606.943
+    ],
+    "speaker": "Linda",
+    "text": "Well, it's been a lot of laughs, but it's getting late. - We'd better get going. - Yeah, you're right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0114",
+    "t": [
+      606.944,
+      608.945
+    ],
+    "speaker": "Frank",
+    "text": "- Thanks a lot, Marty. - Oh, yeah, great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0115",
+    "t": [
+      608.946,
+      613.034
+    ],
+    "speaker": "Frasier",
+    "text": "Very pleasant, you all come again any time you like, hopefully when we're here, of course."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0116",
+    "t": [
+      616.62,
+      617.912
+    ],
+    "speaker": "Martin",
+    "text": "- Good night, Marty. - See ya."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0117",
+    "t": [
+      617.913,
+      619.582
+    ],
+    "speaker": "Jimmy",
+    "text": "- Next week, Marty. - Yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0118",
+    "t": [
+      622.668,
+      628.465
+    ],
+    "speaker": "Frasier",
+    "text": "Jimmy. Boy. Who would have thought? - How do you even know that guy, Dad? - Oh, he was a jailhouse snitch."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0119",
+    "t": [
+      628.466,
+      634.429
+    ],
+    "speaker": "Martin",
+    "text": "He helped us out a couple of times. He's great company, but I wouldn't trust him for a second if he wasn't surrounded by cops."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0120",
+    "t": [
+      634.43,
+      638.558
+    ],
+    "speaker": "Daphne",
+    "text": "- Who was a jailhouse snitch? - Jimmy. Jimmy's an ex-con?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0121",
+    "t": [
+      638.559,
+      643.063
+    ],
+    "speaker": "Frasier",
+    "text": "Well, you certainly proved your point. I feel stupid as hell."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0122",
+    "t": [
+      643.064,
+      644.606
+    ],
+    "speaker": "Daphne",
+    "text": "I feel rather a fool myself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0123",
+    "t": [
+      644.607,
+      646.316
+    ],
+    "speaker": "Martin",
+    "text": "Why do you care one way or another?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0124",
+    "t": [
+      646.317,
+      650.153
+    ],
+    "speaker": "Daphne",
+    "text": "Because I've agreed to go out with Jimmy tomorrow night."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0125",
+    "t": [
+      650.154,
+      651.571
+    ],
+    "speaker": "Martin",
+    "text": "You did what?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0126",
+    "t": [
+      651.572,
+      658.495
+    ],
+    "speaker": "Daphne",
+    "text": "He asked if I'd like to go out for drinks with him to a place called \"The Topaz Room,\" meet some of his friends. It sounded harmless enough."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0127",
+    "t": [
+      658.496,
+      661.414
+    ],
+    "speaker": "Martin",
+    "text": "Why, it's out of the question. You have to call him and cancel."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0128",
+    "t": [
+      661.415,
+      664.167
+    ],
+    "speaker": "Daphne",
+    "text": "But you said yourself he was fun to spend time with."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0129",
+    "t": [
+      664.168,
+      671.091
+    ],
+    "speaker": "Martin",
+    "text": "I said, do time with. No, no, you just can't go. That's all there is to it. Case closed."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0130",
+    "t": [
+      671.092,
+      677.556
+    ],
+    "speaker": "Frasier",
+    "text": "Excuse me, Dad, if I can interrupt that self-righteous police mentality for a second, - don't you believe in second chances? - I did, then we had Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0131",
+    "t": [
+      681.06,
+      686.606
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I believe that when a man has paid his debt to society, he deserves a fresh start. I see no harm in her going out with him once."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0132",
+    "t": [
+      686.607,
+      689.609
+    ],
+    "speaker": "Martin",
+    "text": "- I do! She's not going! I say she isn't! - I say she is. She is."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0133",
+    "t": [
+      689.61,
+      691.069
+    ],
+    "speaker": "unknown",
+    "text": "- She is not! - Oh, this is--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0134",
+    "t": [
+      691.07,
+      695.949
+    ],
+    "speaker": "Daphne",
+    "text": "- She is not! - Excuse me, gentlemen, but might I interject one tiny, little thought into this conversation?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0135",
+    "t": [
+      695.95,
+      697.2
+    ],
+    "speaker": "Frasier",
+    "text": "Of course, Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0136",
+    "t": [
+      697.201,
+      717.138
+    ],
+    "speaker": "Daphne",
+    "text": "Belt up! Both of you! It may have escaped your notice, but I happen to be a grown woman. And nobody has told me whom I might or might not date since I was a schoolgirl, and I didn't listen then. When I've quite made up my mind what I plan to do about Jimmy, I'll let you know. But right now I'm going to my room. You two hens have wasted enough of my time."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0137",
+    "t": [
+      722.977,
+      726.522
+    ],
+    "speaker": "Frasier",
+    "text": "That would have been a very dramatic exit if only her room was down that hall."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0138",
+    "t": [
+      737.449,
+      739.534
+    ],
+    "speaker": "Martin",
+    "text": "I don't think she should be going out with that guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0139",
+    "t": [
+      739.535,
+      745.79
+    ],
+    "speaker": "Frasier",
+    "text": "- Don't worry, she won't. - How do you know? Because she has too much respect for your opinion. She won't go against your wishes, if I'm any judge of character."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0140",
+    "t": [
+      745.791,
+      747.334
+    ],
+    "speaker": "Martin",
+    "text": "Oh, dear God."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0141",
+    "t": [
+      752.631,
+      753.798
+    ],
+    "speaker": "unknown",
+    "text": "What can I get you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0142",
+    "t": [
+      753.799,
+      757.136
+    ],
+    "speaker": "Niles",
+    "text": "I'll have a decaf latte, and please be sure to use skim milk."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0143",
+    "t": [
+      757.72,
+      760.514
+    ],
+    "speaker": "Frasier",
+    "text": "- I'll have the same. - Got it. Two gutless wonders!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0144",
+    "t": [
+      764.602,
+      768.856
+    ],
+    "speaker": "Niles",
+    "text": "Thank you. Certainly playing fast and loose with his tips for a man who drives a van."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0145",
+    "t": [
+      772.902,
+      786.874
+    ],
+    "speaker": "Niles",
+    "text": "Oh, oh, oh! How was your encounter with Dad's poker buddies last night? I must tell you, the picture of you trying to make conversation with Dad's blue-collar cronies all evening is priceless. When I told Maris about it, it was all she could do to keep her eyes from dancing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0146",
+    "t": [
+      789.21,
+      793.38
+    ],
+    "speaker": "Frasier",
+    "text": "It was really rather interesting. You know one of them actually did time in prison for fraud?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0147",
+    "t": [
+      794.006,
+      795.423
+    ],
+    "speaker": "Niles",
+    "text": "Good Lord. What was he like?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0148",
+    "t": [
+      795.424,
+      798.384
+    ],
+    "speaker": "Frasier",
+    "text": "He was quite personable. You know Dad, he's so judgmental."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0149",
+    "t": [
+      798.385,
+      800.304
+    ],
+    "speaker": "Niles",
+    "text": "He is and I've often condemned him for it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0150",
+    "t": [
+      803.682,
+      807.685
+    ],
+    "speaker": "Frasier",
+    "text": "For some reason, just because the man was in prison, everyone seems to have marked him for life."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0151",
+    "t": [
+      807.686,
+      816.903
+    ],
+    "speaker": "Niles",
+    "text": "- It's ridiculous. - Yeah. Not all criminals are recidivists. I've seen many cases where after they've paid their debt to society, they've gone on to lead productive lives. Dad's just being narrow-minded."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0152",
+    "t": [
+      816.904,
+      820.491
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, I almost had to sedate him when Daphne announced she was gonna go out with him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0153",
+    "t": [
+      828.54,
+      830.834
+    ],
+    "speaker": "Niles",
+    "text": "Frasier, I hope you're just yanking my giggle chain."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0154",
+    "t": [
+      833.295,
+      834.38
+    ],
+    "speaker": "Frasier",
+    "text": "What do you mean?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0155",
+    "t": [
+      835.089,
+      838.759
+    ],
+    "speaker": "Niles",
+    "text": "You're telling me that you're letting this delicate English rose be sullied by some sociopath?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0156",
+    "t": [
+      840.386,
+      842.72
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, he passed bad checks. He's not a sociopath."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0157",
+    "t": [
+      842.721,
+      844.514
+    ],
+    "speaker": "Niles",
+    "text": "He's a degenerate who should be put away!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0158",
+    "t": [
+      844.515,
+      846.14
+    ],
+    "speaker": "Frasier",
+    "text": "- You haven't even met him. - For God's sake!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0159",
+    "t": [
+      846.141,
+      849.185
+    ],
+    "speaker": "Waiter",
+    "text": "- They're all depraved animals! - Here's your coffee. Anything else?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0160",
+    "t": [
+      849.186,
+      858.445
+    ],
+    "speaker": "Niles",
+    "text": "Yes, the check please and quickly. - Frasier, we've got to rescue her. - Niles, just sit down, relax. - You're being irrational. - Don't you dare call me irrational! You know that makes me crazy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0161",
+    "t": [
+      861.365,
+      867.829
+    ],
+    "speaker": "Frasier",
+    "text": "Now, Niles, Niles, listen. I think Jimmy's a perfectly nice guy. Daphne can take care of herself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0162",
+    "t": [
+      867.83,
+      874.503
+    ],
+    "speaker": "Niles",
+    "text": "I don't care. I'm going after her. I'm not without resources. My Tai Kwon Do instructor tells me I'm just two moves away from becoming quite threatening."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0163",
+    "t": [
+      879.675,
+      890.977
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, just listen to me for a second. You know perfectly well she'll resent any interference. Want to make a fool of yourself, go right ahead. - But don't ask me to join you. - Fine. Just tell me where they went. Some place called The Topaz Room."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0164",
+    "t": [
+      890.978,
+      894.731
+    ],
+    "speaker": "Waiter",
+    "text": "The Topaz Room? I thought the cops shut that place down after the last shooting."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0165",
+    "t": [
+      894.732,
+      895.607
+    ],
+    "speaker": "Frasier",
+    "text": "I'll drive."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0166",
+    "t": [
+      911.54,
+      912.541
+    ],
+    "speaker": "Leo",
+    "text": "Your shot, girlie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0167",
+    "t": [
+      917.963,
+      927.347
+    ],
+    "speaker": "Leo",
+    "text": "But before you take that shot, why don't we make this a little more interesting? All you have to do to win is run those last five balls. So, what do you say we double our bet?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0168",
+    "t": [
+      927.348,
+      951.663
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, well, I might as well. I never really have understood this game. Yeah, I never understood it when I started playing with my older brothers at the age of 6. And I never understood it during all my formative years spent mostly in the pool rooms of Manchester, playing in local competitions and club tournaments..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0169",
+    "t": [
+      954.541,
+      962.257
+    ],
+    "speaker": "Daphne",
+    "text": "winning cup after cup after cup. Until our poor dad had to convert the pantry into a trophy room."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0170",
+    "t": [
+      964.259,
+      971.475
+    ],
+    "speaker": "Daphne",
+    "text": "And I can't really claim to understand it-- Eight ball in far corner. - -Even today."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0171",
+    "t": [
+      974.061,
+      976.647
+    ],
+    "speaker": "Daphne",
+    "text": "But I certainly do enjoy it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0172",
+    "t": [
+      979.191,
+      986.824
+    ],
+    "speaker": "Daphne",
+    "text": "Thank you, gentlemen. And now if you'll excuse me, I'm going to attempt to use the ladies' room without touching anything."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0173",
+    "t": [
+      998.71,
+      1002.171
+    ],
+    "speaker": "Frasier",
+    "text": "Gee, look at this place. I never felt so conspicuous in my life."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0174",
+    "t": [
+      1002.172,
+      1003.757
+    ],
+    "speaker": "Niles",
+    "text": "We must simply try to blend in."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0175",
+    "t": [
+      1004.299,
+      1005.3
+    ],
+    "speaker": "unknown",
+    "text": "Fortunately..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0176",
+    "t": [
+      1007.803,
+      1009.888
+    ],
+    "speaker": "Niles",
+    "text": "Fortunately, I haven't shaved in several hours."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0177",
+    "t": [
+      1011.432,
+      1012.765
+    ],
+    "speaker": "Niles",
+    "text": "You should loosen your tie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0178",
+    "t": [
+      1012.766,
+      1015.185
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, and you might try tucking in your watch fob."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0179",
+    "t": [
+      1016.019,
+      1017.812
+    ],
+    "speaker": "Niles",
+    "text": "That happens to be a Phi Beta Kappa key."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0180",
+    "t": [
+      1017.813,
+      1020.816
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, then by all means, let it dangle. Perhaps they have a local chapter."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0181",
+    "t": [
+      1024.862,
+      1030.868
+    ],
+    "speaker": "Niles",
+    "text": "Actually, this is quite stimulating in a \"Lower Depths\" sort of way. And I've always been something of a squalor buff."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0182",
+    "t": [
+      1031.577,
+      1034.413
+    ],
+    "speaker": "Frasier",
+    "text": "The only problem is I don't see-- I don't see Daphne or Jimmy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0183",
+    "t": [
+      1039.501,
+      1040.335
+    ],
+    "speaker": "Niles",
+    "text": "Excuse me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0184",
+    "t": [
+      1046.383,
+      1056.602
+    ],
+    "speaker": "Niles",
+    "text": "Has a young woman been in here this evening, approximately 5'9\" and three-quarters, with skin the color of Devonshire cream and the sort of eyes that gaze directly into one's soul with neither artifice nor evasion?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0185",
+    "t": [
+      1061.106,
+      1063.9
+    ],
+    "speaker": "Frasier",
+    "text": "Well, this would be an Englishwoman named Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0186",
+    "t": [
+      1063.901,
+      1076.746
+    ],
+    "speaker": "Bartender",
+    "text": "- Yeah. The one that came in with Jimmy. - Right. She was over there shooting pool a minute ago. - I think she stepped in the back. - What happened to Jimmy? He tried to get fresh with her. She threw a hammerlock on him and ran him out of here. That dame can take care of herself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0187",
+    "t": [
+      1076.747,
+      1078.748
+    ],
+    "speaker": "Frasier",
+    "text": "- I told you so. - It's good riddance too."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0188",
+    "t": [
+      1078.749,
+      1083.92
+    ],
+    "speaker": "Bartender",
+    "text": "Guy was no good. I knew it the first time I saw him. You can always tell."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0189",
+    "t": [
+      1083.921,
+      1084.922
+    ],
+    "speaker": "Frasier",
+    "text": "Yeah, yeah, yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0190",
+    "t": [
+      1087.09,
+      1094.68
+    ],
+    "speaker": "Frasier",
+    "text": "Come on, Niles. You've had your walk on the wild side. - But what about Daphne? - You heard what she did to Jimmy. Think how mad she'll be if she finds us here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0191",
+    "t": [
+      1094.681,
+      1098.31
+    ],
+    "speaker": "Niles",
+    "text": "You're right. Let's make ourselves scarce. Good Lord! There she is!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0192",
+    "t": [
+      1099.228,
+      1100.978
+    ],
+    "speaker": "Frasier",
+    "text": "- Oh! Oh, God! I'm sorry. - Hey!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0193",
+    "t": [
+      1100.979,
+      1107.569
+    ],
+    "speaker": "Rocco",
+    "text": "- What the hell are you doing? - I'm sorry. - I was just trying to-- I'm sorry. - You made me miss that shot! I had 200 bucks riding on that shot."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0194",
+    "t": [
+      1108.278,
+      1109.279
+    ],
+    "speaker": "Frasier",
+    "text": "Really sorry!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0195",
+    "t": [
+      1110.864,
+      1113.241
+    ],
+    "speaker": "Rocco",
+    "text": "- Where do you think you're going? - I'll be back."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0196",
+    "t": [
+      1113.242,
+      1115.244
+    ],
+    "speaker": "Niles",
+    "text": "I was just going to put another quarter in the meter."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0197",
+    "t": [
+      1115.994,
+      1118.288
+    ],
+    "speaker": "Rocco",
+    "text": "The meters don't run at night. And neither do you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0198",
+    "t": [
+      1118.872,
+      1124.586
+    ],
+    "speaker": "Niles",
+    "text": "Oh! That was a rather amusing play on words. You're a regular George S. Kaufman. We must tell our friends about this place."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0199",
+    "t": [
+      1125.42,
+      1126.671
+    ],
+    "speaker": "Rocco",
+    "text": "You owe me $200."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0200",
+    "t": [
+      1126.672,
+      1130.466
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, well, I'd gladly pay you, but I don't have that kind of cash on me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0201",
+    "t": [
+      1130.467,
+      1134.93
+    ],
+    "speaker": "Niles",
+    "text": "Even if he did, it would be absurd to bring it into a place like this with the kind of element that you run into..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0202",
+    "t": [
+      1135.847,
+      1137.557
+    ],
+    "speaker": "Frasier",
+    "text": "Maybe I could write you a check?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0203",
+    "t": [
+      1137.558,
+      1143.938
+    ],
+    "speaker": "Rocco",
+    "text": "My element don't take checks. I think maybe we should take these guys outside and wise them up."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0204",
+    "t": [
+      1143.939,
+      1147.024
+    ],
+    "speaker": "Frasier",
+    "text": "- I don't really think that's necessary. - Oh, my goodness!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0205",
+    "t": [
+      1147.025,
+      1148.902
+    ],
+    "speaker": "Daphne",
+    "text": "What are you two doing here?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0206",
+    "t": [
+      1149.653,
+      1153.699
+    ],
+    "speaker": "Niles",
+    "text": "We might ask you the same thing. This happens to be one of our favorite haunts."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0207",
+    "t": [
+      1155.2,
+      1157.786
+    ],
+    "speaker": "Niles",
+    "text": "Actually, Maris and I had our rehearsal dinner here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0208",
+    "t": [
+      1160.163,
+      1164.876
+    ],
+    "speaker": "Niles",
+    "text": "The place was different then. It was more of a garden room. - The trellis was over there... - Shut up, Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0209",
+    "t": [
+      1165.836,
+      1167.336
+    ],
+    "speaker": "Daphne",
+    "text": "You followed me, didn't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0210",
+    "t": [
+      1167.337,
+      1169.88
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Daphne, we were worried about you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0211",
+    "t": [
+      1169.881,
+      1179.432
+    ],
+    "speaker": "Rocco",
+    "text": "Excuse me, lady, but it seems like your friends can't seem to come up with the 200 they owe me, so I'm gonna have to, uh, pardon my French, beat the crap out of them."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0212",
+    "t": [
+      1179.433,
+      1184.353
+    ],
+    "speaker": "Frasier",
+    "text": "I'm a psychiatrist. Maybe we could take this out in sessions. - You know? It seems you have some... - Outside!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0213",
+    "t": [
+      1184.354,
+      1189.943
+    ],
+    "speaker": "Daphne",
+    "text": "Wait! I have money. How'd you like to go for double or nothing, sport?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0214",
+    "t": [
+      1190.527,
+      1191.361
+    ],
+    "speaker": "Rocco",
+    "text": "On what?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0215",
+    "t": [
+      1191.945,
+      1204.583
+    ],
+    "speaker": "Daphne",
+    "text": "Well, you look like a betting man. I'll wager I can sink these five balls with a single shot. If I do, these boys are square. If I miss, you double your money."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0216",
+    "t": [
+      1205.167,
+      1210.046
+    ],
+    "speaker": "Rocco",
+    "text": "Hey, I don't mind taking your money, but I was kind of looking forward to pulping this guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0217",
+    "t": [
+      1210.047,
+      1213.8
+    ],
+    "speaker": "Daphne",
+    "text": "Yeah, well, we won't quibble. If I miss, you can pulp him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0218",
+    "t": [
+      1215.01,
+      1215.926
+    ],
+    "speaker": "unknown",
+    "text": "Tell you what."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0219",
+    "t": [
+      1215.927,
+      1219.305
+    ],
+    "speaker": "Daphne",
+    "text": "I'm feeling generous tonight. I'll throw in the little one as well."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0220",
+    "t": [
+      1219.306,
+      1222.976
+    ],
+    "speaker": "Niles",
+    "text": "What'd she mean by that, \"throw in the little one\"? And what in God's name is pulping?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0221",
+    "t": [
+      1224.853,
+      1226.313
+    ],
+    "speaker": "Rocco",
+    "text": "You're on."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0222",
+    "t": [
+      1227.939,
+      1243.205
+    ],
+    "speaker": "Rocco",
+    "text": "Okay, but just to make sure this is on the up and up, let's use six balls. Instead of sinking all five with one shot, how about sinking all six? Do that and I'll, uh, forget the 200 bucks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0223",
+    "t": [
+      1244.79,
+      1245.832
+    ],
+    "speaker": "Daphne",
+    "text": "Fair enough."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0224",
+    "t": [
+      1252.798,
+      1255.092
+    ],
+    "speaker": "Daphne",
+    "text": "Need a bit of chalk for my cue."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0225",
+    "t": [
+      1263.725,
+      1266.143
+    ],
+    "speaker": "Daphne",
+    "text": "Does it matter in what order I make them?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0226",
+    "t": [
+      1266.144,
+      1267.145
+    ],
+    "speaker": "Frasier",
+    "text": "Daphne!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0227",
+    "t": [
+      1268.438,
+      1271.483
+    ],
+    "speaker": "Rocco",
+    "text": "Hey, lady, if you make any of them, it'll be a miracle."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0228",
+    "t": [
+      1272.609,
+      1278.031
+    ],
+    "speaker": "Daphne",
+    "text": "Right. Well, here goes nothing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E15",
+    "unit_id": "u0229",
+    "t": [
+      1312.566,
+      1313.692
+    ],
+    "speaker": "Daphne",
+    "text": "Run for it!"
+  }
+]

@@ -1,0 +1,2939 @@
+[
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0001",
+    "t": [
+      1.493,
+      8.667
+    ],
+    "speaker": "Jerry",
+    "text": "Went out to dinner the other night. Check came at the end of the meal, as it always does. Never liked the \"check at the end of the meal\" system,"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0002",
+    "t": [
+      8.667,
+      58.967
+    ],
+    "speaker": "unknown",
+    "text": "'cause money's a very different thing before and after you eat. Before you eat, money has no value. You don't care about money when you're hungry. You sit down in a restaurant, you're like the ruler of an empire-- More drinks! Appetizers! Quickly, quickly. It will be the greatest meal of our lives. Then after the meal, you know, you got the pants open, you got the napkins destroyed, cigarette butt in the mashed potatoes. Then the check comes at that moment. People are always upset, you know. They're mystified by the check. They're... \"What is this? How could this be?\" They start passing it around the table. \"Does this look right to you? We're not hungry now. Why are we buying all this food?\""
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0003",
+    "t": [
+      62.512,
+      67.475
+    ],
+    "speaker": "unknown",
+    "text": "Well, I think Superman probably has a very good sense of humor."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0004",
+    "t": [
+      67.475,
+      69.811
+    ],
+    "speaker": "George",
+    "text": "I never heard him say anything really funny."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0005",
+    "t": [
+      69.811,
+      75.984
+    ],
+    "speaker": "Jerry",
+    "text": "But it's common sense. He's got super strength, super speed. I'm sure he's got super humor."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0006",
+    "t": [
+      75.984,
+      85.702
+    ],
+    "speaker": "George",
+    "text": "You'd think that, but... either you're born with a sense of humor or you're not. It's not gonna change. Even if you go from the red sun of Krypton all the way to the yellow sun of the Earth..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0007",
+    "t": [
+      85.702,
+      93.21
+    ],
+    "speaker": "Jerry",
+    "text": "Ehh... Why? Why would that one area of his mind not be affected by the yellow sun of the Earth?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0008",
+    "t": [
+      93.21,
+      95.545
+    ],
+    "speaker": "George",
+    "text": "I don't know. But he ain't funny."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0009",
+    "t": [
+      97.214,
+      100.092
+    ],
+    "speaker": "Elaine",
+    "text": "Hi. I know, I know. I'm sorry I'm late."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0010",
+    "t": [
+      100.092,
+      101.426
+    ],
+    "speaker": "Jerry",
+    "text": "No problem."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0011",
+    "t": [
+      101.426,
+      103.137
+    ],
+    "speaker": "unknown",
+    "text": "Whew."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0012",
+    "t": [
+      103.137,
+      120.154
+    ],
+    "speaker": "Elaine",
+    "text": "I dropped a grape. Pardon? I dropped a grape in the kitchen, and it disappeared. I couldn't find it. I was literally on my knees for 10 minutes, looking for this stupid grape. I have no idea where it went."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0013",
+    "t": [
+      120.154,
+      125.284
+    ],
+    "speaker": "Jerry",
+    "text": "Were you crying? I mean, it's just a grape. You'll find it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0014",
+    "t": [
+      125.284,
+      145.846
+    ],
+    "speaker": "Elaine",
+    "text": "No. I'm just getting over an allergy attack. This guy I'm going out with-- Robert. Robert. Yes. Thank you. He has two cats, and I'm allergic to them. You know, I finally meet a normal man... and I can't even go into his apartment, you know?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0015",
+    "t": [
+      145.846,
+      155.063
+    ],
+    "speaker": "unknown",
+    "text": "And of course my apartment is The Actors' Studio, so we can't go there. It's really causing a lot of problems, you know? He won't even go away for the weekend because of these cats."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0016",
+    "t": [
+      155.063,
+      158.566
+    ],
+    "speaker": "George",
+    "text": "Guys with cats... I don't know."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0017",
+    "t": [
+      158.566,
+      161.32
+    ],
+    "speaker": "Jerry",
+    "text": "I've been thinking about asking this girl I'm seeing--"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0018",
+    "t": [
+      161.32,
+      163.404
+    ],
+    "speaker": "Elaine",
+    "text": "Vanessa?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0019",
+    "t": [
+      163.404,
+      168.451
+    ],
+    "speaker": "Jerry",
+    "text": "Vanessa. Thank you. I've been thinking about asking her to go away for a couple days."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0020",
+    "t": [
+      168.451,
+      176.251
+    ],
+    "speaker": "George",
+    "text": "Oh, no. No, no, no, no, no, no. I'd have to advise against that. What do you know this woman, a month? That's-- You're gonna be with her 72 hours."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0021",
+    "t": [
+      176.251,
+      177.669
+    ],
+    "speaker": "unknown",
+    "text": "That's a dating decathlon."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0022",
+    "t": [
+      177.669,
+      187.095
+    ],
+    "speaker": "Elaine",
+    "text": "Hey, why don't you take her to that place in Vermont I was telling you about? You know, that really charming place with the separate faucets for the hot and cold."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0023",
+    "t": [
+      187.095,
+      188.471
+    ],
+    "speaker": "unknown",
+    "text": "She'll love it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0024",
+    "t": [
+      189.472,
+      195.229
+    ],
+    "speaker": "George",
+    "text": "That's exquisite. Listen, if it's not too much trouble, could you pass me that paper over there?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0025",
+    "t": [
+      195.229,
+      197.189
+    ],
+    "speaker": "unknown",
+    "text": "Just the business section is good."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0026",
+    "t": [
+      197.189,
+      207.282
+    ],
+    "speaker": "Jerry",
+    "text": "You'd better find that grape before it mutates into another life form. There was once a mutant grape that terrorized an entire town in the Texas panhandle."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0027",
+    "t": [
+      207.282,
+      213.496
+    ],
+    "speaker": "unknown",
+    "text": "They brought in the Army. Nobody could stop it. Apparently, it had a pit of steel."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0028",
+    "t": [
+      215.249,
+      219.419
+    ],
+    "speaker": "George",
+    "text": "Up again. This is incredible. I'm-- I'm getting it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0029",
+    "t": [
+      219.419,
+      220.42
+    ],
+    "speaker": "Elaine",
+    "text": "You're getting what?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0030",
+    "t": [
+      220.42,
+      224.091
+    ],
+    "speaker": "George",
+    "text": "A stock. What stock? Did you ever meet my friend Simons?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0031",
+    "t": [
+      224.091,
+      225.342
+    ],
+    "speaker": "Jerry",
+    "text": "Maybe."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0032",
+    "t": [
+      225.342,
+      231.848
+    ],
+    "speaker": "Goerge",
+    "text": "He know this guy, Wilkenson. He made a fortune in the stock market. Now he's got some new thing, it's supposed to be a big merger."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0033",
+    "t": [
+      231.848,
+      235.31
+    ],
+    "speaker": "unknown",
+    "text": "I wasn't even supposed to say anything. You guys should think about doing this too."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0034",
+    "t": [
+      235.31,
+      236.895
+    ],
+    "speaker": "Jerry",
+    "text": "How high is it supposed to go?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0035",
+    "t": [
+      236.895,
+      242.65
+    ],
+    "speaker": "George",
+    "text": "I don't know, but Simons said that if I wanted to get involved, that Wilkenson would tell me the exact minute to sell."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0036",
+    "t": [
+      242.65,
+      244.569
+    ],
+    "speaker": "Jerry",
+    "text": "You wanna do it? Boy, I don't know."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0037",
+    "t": [
+      244.569,
+      246.405
+    ],
+    "speaker": "Elaine",
+    "text": "I'd do it, but I don't have any money."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0038",
+    "t": [
+      246.405,
+      247.822
+    ],
+    "speaker": "Jerry",
+    "text": "What kind of company is it?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0039",
+    "t": [
+      247.822,
+      253.245
+    ],
+    "speaker": "George",
+    "text": "It's called Centrax. They've got some new kind of technique for televising opera."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0040",
+    "t": [
+      253.245,
+      254.913
+    ],
+    "speaker": "Elaine",
+    "text": "Televising opera?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0041",
+    "t": [
+      254.913,
+      257.124
+    ],
+    "speaker": "George",
+    "text": "Some sort of electronic thingy."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0042",
+    "t": [
+      257.124,
+      259.5
+    ],
+    "speaker": "Jerry",
+    "text": "How much are you gonna invest? Five thousand."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0043",
+    "t": [
+      259.5,
+      264.798
+    ],
+    "speaker": "George",
+    "text": "Ten. Ten thousand. Five thousand."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0044",
+    "t": [
+      264.798,
+      266.758
+    ],
+    "speaker": "Jerry",
+    "text": "Boy. Come on."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0045",
+    "t": [
+      266.758,
+      271.846
+    ],
+    "speaker": "George",
+    "text": "Wilkenson's got millions invested in this stock. It's gone up three points since I've been watching it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0046",
+    "t": [
+      271.846,
+      274.015
+    ],
+    "speaker": "Jerry",
+    "text": "What if I lose it? Come on."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0047",
+    "t": [
+      274.015,
+      279.229
+    ],
+    "speaker": "George",
+    "text": "Go for 2500. We'll do it together. Come on, come on. We're in it together."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0048",
+    "t": [
+      279.229,
+      281.148
+    ],
+    "speaker": "Jerry",
+    "text": "All right, 2500."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0049",
+    "t": [
+      281.148,
+      282.441
+    ],
+    "speaker": "George",
+    "text": "That's it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0050",
+    "t": [
+      282.441,
+      284.401
+    ],
+    "speaker": "Waitress",
+    "text": "Yeah, can I take your order?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0051",
+    "t": [
+      284.401,
+      286.527
+    ],
+    "speaker": "George",
+    "text": "I will check to the raiser."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0052",
+    "t": [
+      286.527,
+      291.616
+    ],
+    "speaker": "Jerry",
+    "text": "My bet? All right. I'll open with... a tuna sandwich."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0053",
+    "t": [
+      291.616,
+      292.993
+    ],
+    "speaker": "Elaine",
+    "text": "Tuna?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0054",
+    "t": [
+      292.993,
+      295.036
+    ],
+    "speaker": "Jerry",
+    "text": "Oh, the dolphin thing?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0055",
+    "t": [
+      295.036,
+      297.622
+    ],
+    "speaker": "Elaine",
+    "text": "They're dying in the nets."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0056",
+    "t": [
+      297.622,
+      301.584
+    ],
+    "speaker": "Jerry",
+    "text": "You know, the whole concept of lunch is based on tuna. But, Jerry,"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0057",
+    "t": [
+      301.584,
+      303.878
+    ],
+    "speaker": "Elaine",
+    "text": "can't you incorporate one unselfish act"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0058",
+    "t": [
+      303.878,
+      313.138
+    ],
+    "speaker": "Jerry",
+    "text": "in your daily routine? Hey, when I'm driving, I let people in ahead of me all the time. I'm always waving everybody in. Go ahead, go ahead, go ahead."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0059",
+    "t": [
+      314.806,
+      317.6
+    ],
+    "speaker": "Jerry",
+    "text": "All right, all right, I'll have the chicken salad."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0060",
+    "t": [
+      317.6,
+      323.648
+    ],
+    "speaker": "Elaine",
+    "text": "Um, and I'm gonna have an English muffin with margarine on the side and a cup of coffee."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0061",
+    "t": [
+      323.648,
+      324.691
+    ],
+    "speaker": "Waitress",
+    "text": "Okay, what about you?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0062",
+    "t": [
+      324.691,
+      326.401
+    ],
+    "speaker": "George",
+    "text": "I'll have the tuna."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0063",
+    "t": [
+      331.948,
+      337.037
+    ],
+    "speaker": "Jerry",
+    "text": "I have to say, those people talking behind us really ruined that movie for me."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0064",
+    "t": [
+      337.037,
+      339.206
+    ],
+    "speaker": "Vanessa",
+    "text": "Why didn't you do something?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0065",
+    "t": [
+      339.206,
+      343.377
+    ],
+    "speaker": "Jerry",
+    "text": "What do you want me to do? I gave the guy the half turn..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0066",
+    "t": [
+      345.045,
+      347.63
+    ],
+    "speaker": "Jerry",
+    "text": "Then I gave him the full turn with the eye roll..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0067",
+    "t": [
+      349.216,
+      352.093
+    ],
+    "speaker": "Jerry",
+    "text": "I mean, beyond that, I'm risking a punch in the mouth."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0068",
+    "t": [
+      353.761,
+      356.056
+    ],
+    "speaker": "unknown",
+    "text": "Excuse me, do you have these in the puffs?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0069",
+    "t": [
+      356.056,
+      358.141
+    ],
+    "speaker": "Stock Boy",
+    "text": "No puffs, just flakes."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0070",
+    "t": [
+      360.685,
+      362.77
+    ],
+    "speaker": "Jerry",
+    "text": "Have you thought any more about that trip?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0071",
+    "t": [
+      362.77,
+      364.563
+    ],
+    "speaker": "Vanessa",
+    "text": "Yeah, I've been thinking about it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0072",
+    "t": [
+      364.563,
+      366.983
+    ],
+    "speaker": "Jerry",
+    "text": "You know, my friend told me about this great place"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0073",
+    "t": [
+      366.983,
+      371.946
+    ],
+    "speaker": "Vanessa",
+    "text": "in Vermont. I don't know. I just worry about trips like this. It's a lot of pressure."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0074",
+    "t": [
+      371.946,
+      380.997
+    ],
+    "speaker": "Jerry",
+    "text": "It's great. It speeds up the intimacy level. It's like putting the relationship in a time compressor. Where we would be six months from now, we accomplish in three days."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0075",
+    "t": [
+      380.997,
+      385.793
+    ],
+    "speaker": "Vanessa",
+    "text": "Oh...so you want to move our relationship into phase two. Exactly."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0076",
+    "t": [
+      385.793,
+      395.303
+    ],
+    "speaker": "Jerry",
+    "text": "I love phase two. Extra toothbrushes, increased phone call frequency, walking around naked."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0077",
+    "t": [
+      397.431,
+      401.059
+    ],
+    "speaker": "Jerry",
+    "text": "You know, the presents get a lot better in phase two."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0078",
+    "t": [
+      401.059,
+      404.521
+    ],
+    "speaker": "Vanessa",
+    "text": "Really? Can we go fishing up there?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0079",
+    "t": [
+      404.521,
+      408.4
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, we can fish. What, blues, carp...marlin?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0080",
+    "t": [
+      409.526,
+      411.027
+    ],
+    "speaker": "Vanessa",
+    "text": "They have marlin in Vermont?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0081",
+    "t": [
+      411.027,
+      413.447
+    ],
+    "speaker": "Jerry",
+    "text": "Oh, big fighting marlin."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0082",
+    "t": [
+      418.452,
+      425.584
+    ],
+    "speaker": "Vanessa",
+    "text": "Jerry, the stock is the same as when you checked it earlier. There are no changes after the market closes. The stock is still down."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0083",
+    "t": [
+      425.584,
+      430.505
+    ],
+    "speaker": "Jerry",
+    "text": "I know, but this is a different paper. I thought maybe they have different...sources."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0084",
+    "t": [
+      442.976,
+      444.311
+    ],
+    "speaker": "Jerry",
+    "text": "Is that my paper?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0085",
+    "t": [
+      444.311,
+      446.146
+    ],
+    "speaker": "Kramer",
+    "text": "Bad news, my friend."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0086",
+    "t": [
+      446.146,
+      447.397
+    ],
+    "speaker": "Jerry",
+    "text": "What? What news?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0087",
+    "t": [
+      447.397,
+      448.398
+    ],
+    "speaker": "unknown",
+    "text": "Centrax."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0088",
+    "t": [
+      448.398,
+      450.484
+    ],
+    "speaker": "Jerry",
+    "text": "Oh, come on, it's down again?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0089",
+    "t": [
+      450.484,
+      451.901
+    ],
+    "speaker": "Kramer",
+    "text": "Two and a half points."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0090",
+    "t": [
+      451.901,
+      454.279
+    ],
+    "speaker": "Jerry",
+    "text": "Oh, I can't believe it. Let me see that."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0091",
+    "t": [
+      454.279,
+      455.905
+    ],
+    "speaker": "unknown",
+    "text": "Whoo..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0092",
+    "t": [
+      457.657,
+      461.995
+    ],
+    "speaker": "Jerry",
+    "text": "That's four and a half points in three days. That's almost half my money."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0093",
+    "t": [
+      461.995,
+      463.33
+    ],
+    "speaker": "Kramer",
+    "text": "Hey, I told you."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0094",
+    "t": [
+      463.33,
+      464.664
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, you told me."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0095",
+    "t": [
+      464.664,
+      468.042
+    ],
+    "speaker": "Kramer",
+    "text": "It's all manipulated with junk bonds. You can't win."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0096",
+    "t": [
+      469.544,
+      470.795
+    ],
+    "speaker": "unknown",
+    "text": "H..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0097",
+    "t": [
+      470.795,
+      475.758
+    ],
+    "speaker": "Jerry",
+    "text": "There's one thing I don't understand. Why does it please you? George Costanza, please."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0098",
+    "t": [
+      475.758,
+      479.387
+    ],
+    "speaker": "Kramer",
+    "text": "I don't care. I'm just telling you to get rid of that stock now!"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0099",
+    "t": [
+      479.387,
+      481.64
+    ],
+    "speaker": "Jerry",
+    "text": "George, what's going on? Sell it!"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0100",
+    "t": [
+      481.64,
+      483.141
+    ],
+    "speaker": "Kramer",
+    "text": "Just say, \"I'm selling!\""
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0101",
+    "t": [
+      483.141,
+      485.059
+    ],
+    "speaker": "Jerry",
+    "text": "Well, where is the guy?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0102",
+    "t": [
+      486.853,
+      496.404
+    ],
+    "speaker": "Jerry",
+    "text": "Nothing? Almost half my money's gone. Well, call me right back. Nobody can reach Wilkenson. He hasn't been home or in his office"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0103",
+    "t": [
+      496.404,
+      502.702
+    ],
+    "speaker": "Kramer",
+    "text": "in the past three days. I can't believe you put your money in that Centrax. You could have invested in my roll-out tie dispenser."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0104",
+    "t": [
+      502.702,
+      507.207
+    ],
+    "speaker": "Jerry",
+    "text": "The roll-out tie dispenser... What was that one?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0105",
+    "t": [
+      507.207,
+      510.793
+    ],
+    "speaker": "Kramer",
+    "text": "Okay, you're in a restaurant. You've got a very big meeting coming up."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0106",
+    "t": [
+      510.793,
+      515.089
+    ],
+    "speaker": "Jerry",
+    "text": "Okay. Oh, man, you've got mustard on your tie."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0107",
+    "t": [
+      515.089,
+      516.341
+    ],
+    "speaker": "unknown",
+    "text": "Oh, no."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0108",
+    "t": [
+      516.341,
+      523.264
+    ],
+    "speaker": "Kramer",
+    "text": "You just...ksh, tear it off, and...vvvvt, you've got a new one right here, huh? And then... you're gone."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0109",
+    "t": [
+      526.934,
+      529.312
+    ],
+    "speaker": "Jerry",
+    "text": "You're gone, all right."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0110",
+    "t": [
+      530.271,
+      533.65
+    ],
+    "speaker": "Kramer",
+    "text": "Hey, where are you going? You gonna take a trip? The-- With the map..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0111",
+    "t": [
+      533.65,
+      536.695
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, I'm going to Vermont with Vanessa for a few days."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0112",
+    "t": [
+      536.695,
+      540.781
+    ],
+    "speaker": "Kramer",
+    "text": "Hey, can I use your place? I got a bunch of friends coming over this weekend."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0113",
+    "t": [
+      540.781,
+      541.991
+    ],
+    "speaker": "Jerry",
+    "text": "What friends?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0114",
+    "t": [
+      541.991,
+      548.039
+    ],
+    "speaker": "Kramer",
+    "text": "Well, it's just some people I met at a rock concert. Do you mind if they use your bed?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0115",
+    "t": [
+      551.418,
+      555.589
+    ],
+    "speaker": "Kramer",
+    "text": "'Cause they're really good people, Jerry. I'm telling you, you know, they're anarchists."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0116",
+    "t": [
+      555.589,
+      557.674
+    ],
+    "speaker": "unknown",
+    "text": "They're-- They're-- They're huge. Yeah."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0117",
+    "t": [
+      558.966,
+      574.815
+    ],
+    "speaker": "Jerry",
+    "text": "George, what? You're kidding. Well, what's wrong? So, what are we gonna do? Great. All right, I'll speak to you later. Wilkenson, the guy who's supposed to tell us"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0118",
+    "t": [
+      574.815,
+      577.151
+    ],
+    "speaker": "unknown",
+    "text": "when to sell the stock, he's in the hospital."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0119",
+    "t": [
+      584.701,
+      586.994
+    ],
+    "speaker": "Jerry",
+    "text": "You don't know what's wrong with him?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0120",
+    "t": [
+      586.994,
+      590.457
+    ],
+    "speaker": "George",
+    "text": "All Simons was able to find out is that he's in the hospital."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0121",
+    "t": [
+      591.332,
+      594.085
+    ],
+    "speaker": "Jerry",
+    "text": "Okay, fine. Has Simons been in touch with him?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0122",
+    "t": [
+      594.085,
+      600.007
+    ],
+    "speaker": "George",
+    "text": "Of course he's been in touch with him. He left two messages. He...just hasn't heard back yet, that's all."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0123",
+    "t": [
+      600.007,
+      601.509
+    ],
+    "speaker": "Jerry",
+    "text": "Well, this is it. I'm selling."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0124",
+    "t": [
+      601.509,
+      604.095
+    ],
+    "speaker": "George",
+    "text": "All right, just-- Just give it a little more time."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0125",
+    "t": [
+      604.095,
+      608.808
+    ],
+    "speaker": "Jerry",
+    "text": "I never should have gotten involved in this. I'm a nervous wreck. I'm not cut out for investing."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0126",
+    "t": [
+      608.808,
+      613.02
+    ],
+    "speaker": "George",
+    "text": "All right, that's it. I'm gonna go down there. Where? To the hospital."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0127",
+    "t": [
+      613.02,
+      614.439
+    ],
+    "speaker": "Jerry",
+    "text": "The hospital?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0128",
+    "t": [
+      614.439,
+      616.733
+    ],
+    "speaker": "George",
+    "text": "I'm gonna find out what's going on, all right?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0129",
+    "t": [
+      616.733,
+      619.569
+    ],
+    "speaker": "Jerry",
+    "text": "Are you nuts? You don't even know the guy."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0130",
+    "t": [
+      619.569,
+      625.45
+    ],
+    "speaker": "George",
+    "text": "So what? I'll start talking to him, you know, casual. I'll work my way around to it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0131",
+    "t": [
+      625.45,
+      629.287
+    ],
+    "speaker": "Jerry",
+    "text": "What if he's in an iron lung or something? What are you gonna do?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0132",
+    "t": [
+      630.789,
+      633.833
+    ],
+    "speaker": "Jerry",
+    "text": "How you feeling, Mr. Wilkenson?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0133",
+    "t": [
+      636.336,
+      640.006
+    ],
+    "speaker": "Jerry",
+    "text": "By the way, what's happening with Centrax?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0134",
+    "t": [
+      640.006,
+      642.3
+    ],
+    "speaker": "George",
+    "text": "Maybe he's there resting."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0135",
+    "t": [
+      642.3,
+      645.345
+    ],
+    "speaker": "Jerry",
+    "text": "Who goes to a hospital to rest?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0136",
+    "t": [
+      645.345,
+      646.929
+    ],
+    "speaker": "George",
+    "text": "What are you, a doctor?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0137",
+    "t": [
+      646.929,
+      649.849
+    ],
+    "speaker": "Jerry",
+    "text": "Okay, fine, fine. When are you going down there?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0138",
+    "t": [
+      649.849,
+      654.562
+    ],
+    "speaker": "George",
+    "text": "Today, I'm going today. Just don't do anything until you hear from me."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0139",
+    "t": [
+      654.562,
+      655.814
+    ],
+    "speaker": "unknown",
+    "text": "All right."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0140",
+    "t": [
+      656.897,
+      659.651
+    ],
+    "speaker": "George",
+    "text": "Boy, I have to get to a bathroom."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0141",
+    "t": [
+      663.904,
+      665.281
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "May I help you?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0142",
+    "t": [
+      665.281,
+      671.538
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, I picked up this shirt here yesterday. It's completely shrunk. You-- There's absolutely no way I can wear it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0143",
+    "t": [
+      671.538,
+      672.747
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "When did you bring it in?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0144",
+    "t": [
+      672.747,
+      676.543
+    ],
+    "speaker": "Jerry",
+    "text": "What's the difference? Look at it. Do you see the size of this shirt?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0145",
+    "t": [
+      676.543,
+      678.044
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "You got a receipt?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0146",
+    "t": [
+      678.044,
+      679.838
+    ],
+    "speaker": "Jerry",
+    "text": "I can't find the receipt."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0147",
+    "t": [
+      679.838,
+      681.172
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "You should get the receipt."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0148",
+    "t": [
+      681.172,
+      689.096
+    ],
+    "speaker": "Jerry",
+    "text": "Look, forget about the receipt, all right? Even if I had the receipt, look at it, it's a hand puppet. What am I gonna do with this?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0149",
+    "t": [
+      689.096,
+      693.601
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "Yes, but how do I know we did the shirt?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0150",
+    "t": [
+      693.601,
+      704.404
+    ],
+    "speaker": "Jerry",
+    "text": "What do you think? This is a little scam I have? I take this tiny shirt all over the city, conning dry cleaners out of money? In fact, forget the money. I don't even want the money."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0151",
+    "t": [
+      704.404,
+      712.746
+    ],
+    "speaker": "unknown",
+    "text": "I just once would like to hear a dry cleaner admit that something was their fault. That's what I want. I want an admission of guilt."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0152",
+    "t": [
+      712.746,
+      715.373
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "Maybe you asked for it to be washed."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0153",
+    "t": [
+      716.332,
+      719.544
+    ],
+    "speaker": "Jerry",
+    "text": "No, dry-cleaned."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0154",
+    "t": [
+      719.544,
+      727.009
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "Let me explain to you something, okay? With certain types of fabrics, different chemicals can react, causing--"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0155",
+    "t": [
+      727.009,
+      732.139
+    ],
+    "speaker": "Jerry",
+    "text": "You shrunk it. You know you shrunk it. Just tell me you shrunk it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0156",
+    "t": [
+      735.56,
+      736.935
+    ],
+    "speaker": "Dry Cleaner",
+    "text": "I shrunk it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0157",
+    "t": [
+      738.855,
+      745.111
+    ],
+    "speaker": "Jerry",
+    "text": "I think the only reason we go to the dry cleaner is so I can say to the \"Well...it's ruined,\""
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0158",
+    "t": [
+      746.613,
+      751.618
+    ],
+    "speaker": "Jerry",
+    "text": "and of course, the dry cleaner can respond: \"It's not our fault. We're not responsible."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0159",
+    "t": [
+      751.618,
+      791.115
+    ],
+    "speaker": "unknown",
+    "text": "We just ruin the clothes. That ends our legal obligation.\" See, the whole problem with dry cleaning is that we all believe that this is actually possible. Right? They're cleaning our clothes, but they're not getting anything wet. It's all dry. I know there's gotta be some liquids back there, some fluids that they're using. There's no such thing as dry cleaning. When you get something on your shirt-- Ever get something on your shirt and try and get it off like that? That's dry cleaning. I don't think that's what they're doing back there. They don't have 80 guys going, \"Come on, hurry up. There's a lot of shirts today.\""
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0160",
+    "t": [
+      794.494,
+      796.412
+    ],
+    "speaker": "Jerry",
+    "text": "Bless you. Thank you."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0161",
+    "t": [
+      798.122,
+      810.343
+    ],
+    "speaker": "Elaine",
+    "text": "What evidence is there that cats are so smart anyway, huh? What do they do? Because they're clean? I'm sorry. My uncle Pete showers four times a day,"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0162",
+    "t": [
+      810.343,
+      813.805
+    ],
+    "speaker": "unknown",
+    "text": "and he can't count to 10, so don't give me hygiene."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0163",
+    "t": [
+      813.805,
+      815.348
+    ],
+    "speaker": "Jerry",
+    "text": "So, what are you gonna do?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0164",
+    "t": [
+      815.348,
+      818.1
+    ],
+    "speaker": "Elaine",
+    "text": "I don't know. I can't think of any solution..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0165",
+    "t": [
+      822.522,
+      826.86
+    ],
+    "speaker": "Elaine",
+    "text": "Unless, of course, they should meet with some unfortunate accident."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0166",
+    "t": [
+      830.028,
+      835.033
+    ],
+    "speaker": "Elaine",
+    "text": "What do you think a hit man would charge to rub out a couple of cats?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0167",
+    "t": [
+      835.033,
+      841.374
+    ],
+    "speaker": "Jerry",
+    "text": "Well, it couldn't be too expensive. Thirteen, 14 bucks a cat?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0168",
+    "t": [
+      841.374,
+      845.503
+    ],
+    "speaker": "Elaine",
+    "text": "What do you think, Jerry? You wanna make 28 bucks?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0169",
+    "t": [
+      845.503,
+      847.63
+    ],
+    "speaker": "Jerry",
+    "text": "I'm no cat killer."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0170",
+    "t": [
+      849.173,
+      855.179
+    ],
+    "speaker": "Elaine",
+    "text": "How about... we go over there right now, and we shave 'em?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0171",
+    "t": [
+      855.179,
+      865.105
+    ],
+    "speaker": "Jerry",
+    "text": "I'd really like to go, Elaine, but...George is coming back from the hospital, I gotta wait for him. But otherwise, I would definitely go."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0172",
+    "t": [
+      866.399,
+      871.278
+    ],
+    "speaker": "Elaine",
+    "text": "He actually went to the hospital? Yeah. Oh, man, he's nuts."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0173",
+    "t": [
+      871.278,
+      875.074
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, he's nuts. You wanna bump off a couple of cats."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0174",
+    "t": [
+      879.203,
+      882.79
+    ],
+    "speaker": "Jerry",
+    "text": "I know, I know. It's down again."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0175",
+    "t": [
+      882.79,
+      884.876
+    ],
+    "speaker": "Kramer",
+    "text": "How much you down altogether?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0176",
+    "t": [
+      884.876,
+      886.878
+    ],
+    "speaker": "Jerry",
+    "text": "I don't know, $1500."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0177",
+    "t": [
+      886.878,
+      888.755
+    ],
+    "speaker": "Kramer",
+    "text": "Wow."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0178",
+    "t": [
+      888.755,
+      891.841
+    ],
+    "speaker": "Jerry",
+    "text": "You don't have to say \"wow.\" I know it's \"wow.\""
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0179",
+    "t": [
+      893.467,
+      897.346
+    ],
+    "speaker": "Jerry",
+    "text": "And there's that smile again. What is that?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0180",
+    "t": [
+      903.269,
+      904.979
+    ],
+    "speaker": "Jerry",
+    "text": "It's George."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0181",
+    "t": [
+      904.979,
+      906.814
+    ],
+    "speaker": "unknown",
+    "text": "Yeah."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0182",
+    "t": [
+      908.733,
+      913.821
+    ],
+    "speaker": "Kramer",
+    "text": "Oh... Oh, look at this one by the bus stop. Jerry, come here. Take a look at this."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0183",
+    "t": [
+      913.821,
+      916.074
+    ],
+    "speaker": "Jerry",
+    "text": "I really don't need to look."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0184",
+    "t": [
+      916.074,
+      921.287
+    ],
+    "speaker": "Kramer",
+    "text": "What a body. Yeah, that's for me."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0185",
+    "t": [
+      921.287,
+      930.129
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, and you're just what she's looking for too, a stranger leering through a pair of binoculars 10 floors up."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0186",
+    "t": [
+      930.129,
+      932.84
+    ],
+    "speaker": "Kramer",
+    "text": "I'm gonna go down there and try and talk to her, huh?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0187",
+    "t": [
+      946.353,
+      955.029
+    ],
+    "speaker": "Jerry",
+    "text": "What? What? Did you go down there? Did he tell you what's gonna happen? How long were you there?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0188",
+    "t": [
+      956.781,
+      958.491
+    ],
+    "speaker": "George",
+    "text": "Fifteen seconds."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0189",
+    "t": [
+      959.826,
+      961.744
+    ],
+    "speaker": "Jerry",
+    "text": "You told him you knew Simons."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0190",
+    "t": [
+      962.62,
+      975.508
+    ],
+    "speaker": "George",
+    "text": "Yeah, I mentioned Simons. Next thing I know, I'm in the parking lot! Perhaps they had some sort of a falling out. I'll tell you one thing-- I don't know what he's got,"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0191",
+    "t": [
+      975.508,
+      978.26
+    ],
+    "speaker": "unknown",
+    "text": "but for a sick guy, he's very strong."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0192",
+    "t": [
+      979.971,
+      986.185
+    ],
+    "speaker": "Jerry",
+    "text": "Well, that's it. Look, I'm going to Vermont. I don't wanna think about this. I'm selling."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0193",
+    "t": [
+      987.561,
+      988.521
+    ],
+    "speaker": "Elaine",
+    "text": "Didn't work, huh?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0194",
+    "t": [
+      988.521,
+      990.148
+    ],
+    "speaker": "George",
+    "text": "Not quite."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0195",
+    "t": [
+      991.565,
+      994.401
+    ],
+    "speaker": "Elaine",
+    "text": "What are you gonna do about the stock?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0196",
+    "t": [
+      994.401,
+      999.198
+    ],
+    "speaker": "George",
+    "text": "I'm keeping it. I'm going down with the ship."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0197",
+    "t": [
+      1008.374,
+      1012.712
+    ],
+    "speaker": "Jerry",
+    "text": "So I know this guy. I'm getting all my sneakers at a discount now."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0198",
+    "t": [
+      1012.712,
+      1014.172
+    ],
+    "speaker": "Vanessa",
+    "text": "I know. You mentioned it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0199",
+    "t": [
+      1014.172,
+      1027.351
+    ],
+    "speaker": "Jerry",
+    "text": "Oh, yeah, right. Oh, God, get me out of here. What a mistake. What made me think this would work? And I've still got another day. I've got nothing left to say."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0200",
+    "t": [
+      1027.351,
+      1035.609
+    ],
+    "speaker": "unknown",
+    "text": "Wait, wait, I've got one. That's a nice watch. Yeah. Do you wind it?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0201",
+    "t": [
+      1035.609,
+      1037.403
+    ],
+    "speaker": "Vanessa",
+    "text": "No, it's got a little battery."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0202",
+    "t": [
+      1037.403,
+      1045.828
+    ],
+    "speaker": "Jerry",
+    "text": "Well, that's good. Well, the drive home should be a delight. I'm speeding the whole way. Let them throw me in jail. I don't care."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0203",
+    "t": [
+      1045.828,
+      1049.248
+    ],
+    "speaker": "unknown",
+    "text": "That's the manager. Want me to see if we can get another room?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0204",
+    "t": [
+      1049.248,
+      1050.249
+    ],
+    "speaker": "Vanessa",
+    "text": "No, it's okay."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0205",
+    "t": [
+      1050.249,
+      1055.088
+    ],
+    "speaker": "Jerry",
+    "text": "So I guess you don't find the separate faucets for the hot and the cold... charming?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0206",
+    "t": [
+      1055.088,
+      1057.006
+    ],
+    "speaker": "Vanessa",
+    "text": "Not especially."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0207",
+    "t": [
+      1057.006,
+      1059.466
+    ],
+    "speaker": "Jerry",
+    "text": "Well, what do you want to do this afternoon?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0208",
+    "t": [
+      1059.466,
+      1062.178
+    ],
+    "speaker": "Vanessa",
+    "text": "What can we do? It's raining."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0209",
+    "t": [
+      1064.805,
+      1066.473
+    ],
+    "speaker": "Jerry",
+    "text": "We could play Sorry."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0210",
+    "t": [
+      1068.142,
+      1070.31
+    ],
+    "speaker": "Jerry",
+    "text": "We could play Steal the Old Man's Bundle."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0211",
+    "t": [
+      1072.312,
+      1080.071
+    ],
+    "speaker": "Jerry",
+    "text": "Maybe I can get an extension cord and hang myself. What kind of perfume is that you're wearing?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0212",
+    "t": [
+      1080.071,
+      1082.656
+    ],
+    "speaker": "Vanessa",
+    "text": "Oh, you've never heard of it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0213",
+    "t": [
+      1082.656,
+      1084.7
+    ],
+    "speaker": "Jerry",
+    "text": "No, what... What kind is it?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0214",
+    "t": [
+      1085.451,
+      1086.911
+    ],
+    "speaker": "Vanessa",
+    "text": "I can't tell you."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0215",
+    "t": [
+      1086.911,
+      1092.959
+    ],
+    "speaker": "Jerry",
+    "text": "Yeah, that's real normal. Excuse me, sir. Could I have a look at that business section?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0216",
+    "t": [
+      1093.751,
+      1096.879
+    ],
+    "speaker": "Vanessa",
+    "text": "The stock? Thank you. I thought you got out of that."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0217",
+    "t": [
+      1096.879,
+      1101.425
+    ],
+    "speaker": "Jerry",
+    "text": "I did. I'm just curious. It's been almost a week. I want to check it out."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0218",
+    "t": [
+      1103.177,
+      1109.225
+    ],
+    "speaker": "Jerry",
+    "text": "Six points? It's up six points."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0219",
+    "t": [
+      1109.225,
+      1110.559
+    ],
+    "speaker": "Vanessa",
+    "text": "I told you not to sell."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0220",
+    "t": [
+      1110.559,
+      1112.228
+    ],
+    "speaker": "Jerry",
+    "text": "You did not tell me not to sell."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0221",
+    "t": [
+      1112.228,
+      1114.438
+    ],
+    "speaker": "Vanessa",
+    "text": "I said the market fluctuates. Remember?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0222",
+    "t": [
+      1114.438,
+      1122.78
+    ],
+    "speaker": "Jerry",
+    "text": "Look, Vanessa, of course the market fluctuates. Everybody knows that. I just got fluctuated out of $4000."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0223",
+    "t": [
+      1122.78,
+      1127.785
+    ],
+    "speaker": "Vanessa",
+    "text": "That's probably why we're-- What? Forget it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0224",
+    "t": [
+      1127.785,
+      1129.369
+    ],
+    "speaker": "Jerry",
+    "text": "No, that's probably why..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0225",
+    "t": [
+      1129.369,
+      1133.791
+    ],
+    "speaker": "Vanessa",
+    "text": "That's probably why we're staying here, because you lost money on the stock."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0226",
+    "t": [
+      1133.791,
+      1142.8
+    ],
+    "speaker": "Jerry",
+    "text": "So what am I looking at here? Twenty-nine hours to go? Well, at least I've got plenty of time to find out the name of that perfume."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0227",
+    "t": [
+      1148.306,
+      1152.476
+    ],
+    "speaker": "unknown",
+    "text": "James...he kills me, kills me."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0228",
+    "t": [
+      1152.476,
+      1155.146
+    ],
+    "speaker": "George",
+    "text": "Have something else. Come on, have a little dessert."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0229",
+    "t": [
+      1155.146,
+      1156.522
+    ],
+    "speaker": "Jerry",
+    "text": "I'm good, thanks."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0230",
+    "t": [
+      1156.522,
+      1158.858
+    ],
+    "speaker": "George",
+    "text": "Elaine, get something. It's all taken care of."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0231",
+    "t": [
+      1158.858,
+      1159.984
+    ],
+    "speaker": "Elaine",
+    "text": "Mm, I'm kind of full."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0232",
+    "t": [
+      1159.984,
+      1161.861
+    ],
+    "speaker": "George",
+    "text": "So don't finish it!"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0233",
+    "t": [
+      1161.861,
+      1163.362
+    ],
+    "speaker": "Jerry",
+    "text": "She's full."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0234",
+    "t": [
+      1166.866,
+      1173.497
+    ],
+    "speaker": "Jerry",
+    "text": "So, big daddy, I'm just curious. How much did you clear on your little transaction there,"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0235",
+    "t": [
+      1173.497,
+      1174.665
+    ],
+    "speaker": "unknown",
+    "text": "all told?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0236",
+    "t": [
+      1174.665,
+      1176.75
+    ],
+    "speaker": "George",
+    "text": "I don't like to discuss figures."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0237",
+    "t": [
+      1176.75,
+      1178.377
+    ],
+    "speaker": "Jerry",
+    "text": "How much?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0238",
+    "t": [
+      1178.377,
+      1189.429
+    ],
+    "speaker": "George",
+    "text": "I don't know, 8,000. It's a Hyundai. Get out of here. I told you not to sell. Simons made money. Wilkenson cleaned up."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0239",
+    "t": [
+      1189.429,
+      1191.307
+    ],
+    "speaker": "Jerry",
+    "text": "So Wilkenson's out of the hospital now?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0240",
+    "t": [
+      1191.307,
+      1196.478
+    ],
+    "speaker": "George",
+    "text": "No. You'd be surprised. You don't recover that quickly from a nose job."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0241",
+    "t": [
+      1199.106,
+      1200.191
+    ],
+    "speaker": "unknown",
+    "text": "Oh, God."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0242",
+    "t": [
+      1200.191,
+      1201.775
+    ],
+    "speaker": "Jerry",
+    "text": "Is that still from those cats?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0243",
+    "t": [
+      1201.775,
+      1205.154
+    ],
+    "speaker": "Elaine",
+    "text": "No... Ugh, I just got a cold."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0244",
+    "t": [
+      1205.154,
+      1206.864
+    ],
+    "speaker": "Jerry",
+    "text": "So, what ever happened with that?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0245",
+    "t": [
+      1208.074,
+      1209.616
+    ],
+    "speaker": "Elaine",
+    "text": "I gave him an ultimatum."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0246",
+    "t": [
+      1212.245,
+      1214.205
+    ],
+    "speaker": "George",
+    "text": "He chose the cats?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0247",
+    "t": [
+      1214.205,
+      1217.083
+    ],
+    "speaker": "Elaine",
+    "text": "They're very clean animals."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0248",
+    "t": [
+      1217.083,
+      1221.754
+    ],
+    "speaker": "Jerry",
+    "text": "I gotta say, that's pretty bad, losing out to a cat."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0249",
+    "t": [
+      1221.754,
+      1225.007
+    ],
+    "speaker": "Elaine",
+    "text": "Almost as bad as losing out to a perfume."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0250",
+    "t": [
+      1228.386,
+      1240.231
+    ],
+    "speaker": "George",
+    "text": "Told you those trips are relationship-killers. Too bad you can't get your buddy Superman to fly around the Earth at super speed and reverse time."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0251",
+    "t": [
+      1240.231,
+      1244.11
+    ],
+    "speaker": "unknown",
+    "text": "Get all the money back, could have avoided the whole trip to Vermont..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0252",
+    "t": [
+      1244.11,
+      1245.986
+    ],
+    "speaker": "Elaine",
+    "text": "Superman can go back in time?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0253",
+    "t": [
+      1245.986,
+      1248.03
+    ],
+    "speaker": "Jerry",
+    "text": "We went over that."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0254",
+    "t": [
+      1248.03,
+      1249.782
+    ],
+    "speaker": "unknown",
+    "text": "Psst..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0255",
+    "t": [
+      1255.579,
+      1257.873
+    ],
+    "speaker": "George",
+    "text": "Wilkenson's got a bite on a new one..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0256",
+    "t": [
+      1259.541,
+      1261.919
+    ],
+    "speaker": "unknown",
+    "text": "The Tramco Corporation."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0257",
+    "t": [
+      1261.919,
+      1265.214
+    ],
+    "speaker": "George",
+    "text": "Out of, uh... Springfield, I think."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0258",
+    "t": [
+      1266.882,
+      1272.012
+    ],
+    "speaker": "George",
+    "text": "They're about to introduce some sort of a robot butcher."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0259",
+    "t": [
+      1272.012,
+      1274.39
+    ],
+    "speaker": "Jerry",
+    "text": "A robot butcher?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0260",
+    "t": [
+      1274.39,
+      1276.267
+    ],
+    "speaker": "unknown",
+    "text": "Shh..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0261",
+    "t": [
+      1278.436,
+      1282.522
+    ],
+    "speaker": "Goerge",
+    "text": "You wanna get in... very little time."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0262",
+    "t": [
+      1286.444,
+      1287.861
+    ],
+    "speaker": "Goerge",
+    "text": "Sweetheart..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0263",
+    "t": [
+      1292.825,
+      1295.244
+    ],
+    "speaker": "Goerge",
+    "text": "No, no, no, no, no, no, that ought to cover it."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0264",
+    "t": [
+      1297.537,
+      1300.291
+    ],
+    "speaker": "unknown",
+    "text": "Just a second. Just let me...peek."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0265",
+    "t": [
+      1308.632,
+      1313.387
+    ],
+    "speaker": "unknown",
+    "text": "Good. Come on! Come on, come on, come on..."
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0266",
+    "t": [
+      1313.387,
+      1323.356
+    ],
+    "speaker": "Jerry",
+    "text": "I'm not an investor. People always tell me: \"You should have your money working for you.\" I've decided I'll do the work, I'm gonna let the money relax. You know what I mean?"
+  },
+  {
+    "series": "seinfeld",
+    "ep": "S01E05",
+    "unit_id": "u0267",
+    "t": [
+      1323.356,
+      1339.33
+    ],
+    "speaker": "unknown",
+    "text": "'Cause you send your money out there, working for you, a lot of times, it gets fired. You go back there, \"What happened? I had my money, it was here, it was working for me.\" \"Yeah, I remember your money. Showing up late, taking time off... We had to let him go.\""
+  }
+]

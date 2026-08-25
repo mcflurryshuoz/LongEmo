@@ -1,0 +1,2455 @@
+[
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0001",
+    "t": [
+      10.381,
+      28.483
+    ],
+    "speaker": "Frasier",
+    "text": "I'd like to take this opportunity to wish you all the very, very best of holidays. Like many of you, I'll be spending the time in the loving embrace of my family, which should give us all plenty to talk about in the new year. Meantime, this is Dr. Frasier Crane, KACL 780, talk radio."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0002",
+    "t": [
+      29.651,
+      33.445
+    ],
+    "speaker": "Roz",
+    "text": "Come on, Frasier. There's a gin-and-tonic out there with my name on it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0003",
+    "t": [
+      33.446,
+      38.451
+    ],
+    "speaker": "Bulldog",
+    "text": "You can tell Father Mike's had a few. He's trying to get everyone to re-enact the Nativity scene."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0004",
+    "t": [
+      39.911,
+      42.372
+    ],
+    "speaker": "Roz",
+    "text": "Well, we know who he can get to play the ass."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0005",
+    "t": [
+      45.124,
+      53.131
+    ],
+    "speaker": "Bulldog",
+    "text": "I'm wearing her down. - Who's that for? - It's for Roz. \"Amazing trick microphone. Squirts water.\" Nice, yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0006",
+    "t": [
+      53.132,
+      55.759
+    ],
+    "speaker": "Frasier",
+    "text": "It's a gag. We agreed not to exchange gifts."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0007",
+    "t": [
+      55.76,
+      59.596
+    ],
+    "speaker": "Bulldog",
+    "text": "Listen, doc, I'm scheduled to do the noon-to-four slot on Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0008",
+    "t": [
+      59.597,
+      60.473
+    ],
+    "speaker": "Frasier",
+    "text": "No."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0009",
+    "t": [
+      61.808,
+      65.268
+    ],
+    "speaker": "Bulldog",
+    "text": "But, doc, my whole family is getting together in Chicago for the first time in five years."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0010",
+    "t": [
+      65.269,
+      66.979
+    ],
+    "speaker": "Frasier",
+    "text": "I am touched, and I don't care."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0011",
+    "t": [
+      68.022,
+      70.19
+    ],
+    "speaker": "Bulldog",
+    "text": "But my-- My sister and her new baby..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0012",
+    "t": [
+      70.191,
+      79.325
+    ],
+    "speaker": "Frasier",
+    "text": "Listen, Bulldog, my son Frederick is flying in tomorrow afternoon to spend the holidays with me. Now, I've never looked so forward to a Christmas since I was, uh... well, your size."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0013",
+    "t": [
+      81.16,
+      82.703
+    ],
+    "speaker": "Dave",
+    "text": "Did you tell him yet, Bulldog?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0014",
+    "t": [
+      82.704,
+      86.581
+    ],
+    "speaker": "Bulldog",
+    "text": "Dave, you don't have to yell. You're not up in the chopper giving us a traffic report."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0015",
+    "t": [
+      86.582,
+      88.041
+    ],
+    "speaker": "Dave",
+    "text": "I was yelling?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0016",
+    "t": [
+      88.042,
+      90.627
+    ],
+    "speaker": "Bulldog",
+    "text": "Hey, doc, you know, uh, Bonnie Weems, right?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0017",
+    "t": [
+      90.628,
+      93.63
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I don't actually know her, but she does the auto show, right?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0018",
+    "t": [
+      93.631,
+      101.054
+    ],
+    "speaker": "Dave",
+    "text": "Right. Bonnie tends to drink a little more than she should at these parties. So the newest on-air personality always drives her home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0019",
+    "t": [
+      101.055,
+      101.972
+    ],
+    "speaker": "Bulldog",
+    "text": "That's you, rookie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0020",
+    "t": [
+      101.973,
+      105.1
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, that sounds like a good tradition. I'd be delighted to drive her home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0021",
+    "t": [
+      105.101,
+      106.768
+    ],
+    "speaker": "Bulldog",
+    "text": "She'll be delighted to hear that."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0022",
+    "t": [
+      111.357,
+      112.567
+    ],
+    "speaker": "unknown",
+    "text": "Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0023",
+    "t": [
+      115.236,
+      122.325
+    ],
+    "speaker": "Elizabeth",
+    "text": "- Merry Christmas, Dr. Crane. - Oh, Merry Christmas, Elizabeth. - I baked you some sugar cookies. - Oh, well, how sweet of you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0024",
+    "t": [
+      122.326,
+      123.869
+    ],
+    "speaker": "Frasier",
+    "text": "Sweets from the sweet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0025",
+    "t": [
+      123.87,
+      128.081
+    ],
+    "speaker": "Elizabeth",
+    "text": "Would you by any chance happen to know who's driving Bonnie Weems home tonight?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0026",
+    "t": [
+      128.082,
+      129.75
+    ],
+    "speaker": "Frasier",
+    "text": "Yes. I am. And maybe you can tell me why--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0027",
+    "t": [
+      129.751,
+      132.294
+    ],
+    "speaker": "Elizabeth",
+    "text": "Hey, everybody, it's the doc!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0028",
+    "t": [
+      138.718,
+      146.309
+    ],
+    "speaker": "Frasier",
+    "text": "Roz, would you mind telling me why everyone breaks into hysterics whenever I say that I'm driving Bonnie Weems home? Oh, what is that?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0029",
+    "t": [
+      148.227,
+      156.401
+    ],
+    "speaker": "Roz",
+    "text": "Well, Bonnie Weems is kind of an office legend. She gets a couple of drinks under her belt, and she gets a little amorous, and she will not take no for an answer."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0030",
+    "t": [
+      156.402,
+      160.238
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, is that all? I'm a big boy. I can take care of myself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0031",
+    "t": [
+      160.239,
+      161.364
+    ],
+    "speaker": "Roz",
+    "text": "Okay."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0032",
+    "t": [
+      161.365,
+      164.367
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, now listen, Roz, Roz. I know we promised not to, but I couldn't help it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0033",
+    "t": [
+      164.368,
+      168.789
+    ],
+    "speaker": "Roz",
+    "text": "- I was out shopping-- - Oh, no. Don't worry, Frasier. - I couldn't help myself either. - Oh, no."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0034",
+    "t": [
+      168.79,
+      170.248
+    ],
+    "speaker": "Frasier",
+    "text": "- Really? - Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0035",
+    "t": [
+      170.249,
+      171.416
+    ],
+    "speaker": "unknown",
+    "text": "Great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0036",
+    "t": [
+      171.417,
+      173.293
+    ],
+    "speaker": "Roz",
+    "text": "- Merry Christmas. - Oh, Roz."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0037",
+    "t": [
+      173.294,
+      176.214
+    ],
+    "speaker": "Frasier",
+    "text": "- Go on. - You shouldn't have. - Open yours first. - This is just..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0038",
+    "t": [
+      179.217,
+      182.72
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Roz. Roz, you really shouldn't have."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0039",
+    "t": [
+      189.101,
+      191.728
+    ],
+    "speaker": "Roz",
+    "text": "- Now it's my turn. - Oh, no, no, no."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0040",
+    "t": [
+      191.729,
+      194.815
+    ],
+    "speaker": "Frasier",
+    "text": "Maybe you should just think about keeping that under the tree."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0041",
+    "t": [
+      194.816,
+      196.441
+    ],
+    "speaker": "Roz",
+    "text": "Oh, me wait to open a Christmas present?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0042",
+    "t": [
+      196.442,
+      197.36
+    ],
+    "speaker": "Frasier",
+    "text": "Yeah, right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0043",
+    "t": [
+      199.362,
+      203.491
+    ],
+    "speaker": "Roz",
+    "text": "Oh, my God. It's great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0044",
+    "t": [
+      205.535,
+      208.203
+    ],
+    "speaker": "Roz",
+    "text": "It's great because I'm in radio."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0045",
+    "t": [
+      208.204,
+      210.205
+    ],
+    "speaker": "Frasier",
+    "text": "That's what I was going for. Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0046",
+    "t": [
+      210.206,
+      215.585
+    ],
+    "speaker": "Roz",
+    "text": "Well, thanks a million, Frasier. Have a happy holiday, and I'll see you next week."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0047",
+    "t": [
+      215.586,
+      218.256
+    ],
+    "speaker": "Frasier",
+    "text": "Okay. - Merry Christmas. - Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0048",
+    "t": [
+      221.342,
+      224.719
+    ],
+    "speaker": "Bonnie",
+    "text": "Dr. Crane? - Yes. - I'm Bonnie Weems."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0049",
+    "t": [
+      224.72,
+      228.473
+    ],
+    "speaker": "Frasier",
+    "text": "Well, hello. It's a pleasure to meet you. I'll be driving you home tonight."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0050",
+    "t": [
+      228.474,
+      231.268
+    ],
+    "speaker": "Bonnie",
+    "text": "- I'm sorry to put you out. - Oh, it's no problem at all."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0051",
+    "t": [
+      231.269,
+      234.355
+    ],
+    "speaker": "Frasier",
+    "text": "I'll tell you what. Go enjoy the party. Let me know when you're ready to go."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0052",
+    "t": [
+      236.315,
+      237.525
+    ],
+    "speaker": "Bonnie",
+    "text": "I'm ready now, baby."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0053",
+    "t": [
+      265.261,
+      271.224
+    ],
+    "speaker": "Frasier",
+    "text": "- Hello, Frasier. - Oh, hello, Niles. Merry Christmas. To what do I owe this occasion?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0054",
+    "t": [
+      271.225,
+      275.687
+    ],
+    "speaker": "Niles",
+    "text": "Oh, nothing. Just stopped by to get an opinion on a gift I was considering for Maris."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0055",
+    "t": [
+      275.688,
+      281.068
+    ],
+    "speaker": "Daphne",
+    "text": "Well, it pinches a bit under the arms, but you be the judge. Oh, hello, Dr. Crane."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0056",
+    "t": [
+      282.904,
+      284.112
+    ],
+    "speaker": "Frasier",
+    "text": "Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0057",
+    "t": [
+      284.113,
+      286.991
+    ],
+    "speaker": "Daphne",
+    "text": "Shall I put the little red one back on so you can make your choice?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0058",
+    "t": [
+      291.579,
+      293.997
+    ],
+    "speaker": "Frasier",
+    "text": "I think Niles has all the information he needs. Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0059",
+    "t": [
+      293.998,
+      295.499
+    ],
+    "speaker": "Daphne",
+    "text": "Fair enough."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0060",
+    "t": [
+      306.052,
+      309.096
+    ],
+    "speaker": "Niles",
+    "text": "You know, Maris and Daphne are roughly the same size."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0061",
+    "t": [
+      310.056,
+      311.223
+    ],
+    "speaker": "Frasier",
+    "text": "Give or take a foot."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0062",
+    "t": [
+      314.435,
+      316.436
+    ],
+    "speaker": "Martin",
+    "text": "Hey, Frasier, where you been?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0063",
+    "t": [
+      316.437,
+      330.784
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I... After the Christmas party, I poured a colleague into a cab, said a quick prayer for the driver, dislodged the wedgie of a lifetime... then I did a bit of last-minute Christmas shopping. Niles, some sherry?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0064",
+    "t": [
+      330.785,
+      332.035
+    ],
+    "speaker": "Niles",
+    "text": "- Thank you. - You know,"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0065",
+    "t": [
+      332.036,
+      335.163
+    ],
+    "speaker": "Frasier",
+    "text": "Santa Claus is gonna be very, very good to Frederick this year."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0066",
+    "t": [
+      335.164,
+      339.25
+    ],
+    "speaker": "Martin",
+    "text": "By the way, Bulldog called a couple of times. He wanted to know if you'd take his slot on Christmas Day."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0067",
+    "t": [
+      339.251,
+      345.632
+    ],
+    "speaker": "Frasier",
+    "text": "I already told him no. How long will that man nag me? Dad, what are you doing with that?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0068",
+    "t": [
+      345.633,
+      353.683
+    ],
+    "speaker": "Martin",
+    "text": "- I'm gonna hang it on the front door. - Yeah, but it's plastic. Of course it's plastic. You think a real one would have lasted since 1967?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0069",
+    "t": [
+      357.311,
+      365.403
+    ],
+    "speaker": "Daphne",
+    "text": "Here you go. Oh, I'm glad to be out of that black one. I had to take me undies off just to get the zipper up. Oh, dear. Let me get that."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0070",
+    "t": [
+      375.955,
+      380.583
+    ],
+    "speaker": "Martin",
+    "text": "Hello. Oh, hi. Frasier, it's for you. It's the nag."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0071",
+    "t": [
+      380.584,
+      386.465
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Lord. Listen, Bulldog, I already told you-- Oh. Oh, hello, Lilith."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0072",
+    "t": [
+      389.26,
+      392.972
+    ],
+    "speaker": "Frasier",
+    "text": "Yeah, well, maybe I should, uh... I'll take this in the bedroom."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0073",
+    "t": [
+      395.599,
+      398.143
+    ],
+    "speaker": "Martin",
+    "text": "Niles? Uh, everything's all set for tomorrow, right?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0074",
+    "t": [
+      398.144,
+      403.606
+    ],
+    "speaker": "Niles",
+    "text": "Yes, yes. Maris and I are driving up to the cabin tonight. We'll expect you and Frasier and Frederick tomorrow around noon."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0075",
+    "t": [
+      403.607,
+      405.4
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, I wish I was coming with you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0076",
+    "t": [
+      405.401,
+      406.444
+    ],
+    "speaker": "Niles",
+    "text": "So do I."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0077",
+    "t": [
+      410.906,
+      413.242
+    ],
+    "speaker": "Martin",
+    "text": "Oh, shut the hell up, will you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0078",
+    "t": [
+      414.827,
+      429.424
+    ],
+    "speaker": "Niles",
+    "text": "Daphne. Daphne, you should come. We have the most wonderful traditional Christmas. It's an actual log cabin, with actual deer grazing through the snow in our front yard. Of course, Maris fires off her shotgun from time to time to scare them away from our garbage, but still, it's enchanting."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0079",
+    "t": [
+      429.425,
+      431.342
+    ],
+    "speaker": "Martin",
+    "text": "Yeah. You sure you can't come, Daph?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0080",
+    "t": [
+      431.343,
+      435.472
+    ],
+    "speaker": "Daphne",
+    "text": "No, I promised me Uncle Jackie I'd fly down to San Francisco to be with him."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0081",
+    "t": [
+      435.473,
+      439.267
+    ],
+    "speaker": "Martin",
+    "text": "Well, I guess you should be with your family at this time of year. It's more traditional."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0082",
+    "t": [
+      439.268,
+      441.854
+    ],
+    "speaker": "Daphne",
+    "text": "Except that Jackie's a transvestite."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0083",
+    "t": [
+      443.898,
+      451.739
+    ],
+    "speaker": "Daphne",
+    "text": "Getting a bit long in the tooth for it too, if you ask me. Thanksgiving he ate too much turkey and I had to cut him out of his pantyhose."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0084",
+    "t": [
+      453.199,
+      457.744
+    ],
+    "speaker": "Frasier",
+    "text": "Well, Merry Christmas, everybody. Lilith isn't sending Frederick."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0085",
+    "t": [
+      457.745,
+      458.661
+    ],
+    "speaker": "Martin",
+    "text": "What? Why not?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0086",
+    "t": [
+      458.662,
+      466.586
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, apparently he has this once-in-a-lifetime opportunity for an incredible Christmas. A friend of hers has rented a home in Austria."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0087",
+    "t": [
+      466.587,
+      468.171
+    ],
+    "speaker": "Martin",
+    "text": "What's the matter with the good old U.S.A.?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0088",
+    "t": [
+      468.172,
+      489.985
+    ],
+    "speaker": "Frasier",
+    "text": "Well, apparently it's the same house they filmed The Sound of Music in, and that happens to be Freddy's favorite movie. And Julie Andrews is singing with the Salzburg Choral. They're having dinner with her afterwards. And some nonsense about a horse-driven sleigh ride through the snow, and a toboggan. And a balloon trip through the Alps. And apparently, on their way back, they're gonna spend an entire day at Euro Disneyland."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0089",
+    "t": [
+      492.696,
+      497.451
+    ],
+    "speaker": "Niles",
+    "text": "Well, up at the cabin, there's an old stump that the local children seem to enjoy kicking."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0090",
+    "t": [
+      501.789,
+      503.123
+    ],
+    "speaker": "Martin",
+    "text": "You know you have to let him go."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0091",
+    "t": [
+      503.124,
+      507.293
+    ],
+    "speaker": "Frasier",
+    "text": "Of course I have to let him go. Thank you for pointing out that you know what's right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0092",
+    "t": [
+      507.294,
+      508.753
+    ],
+    "speaker": "Martin",
+    "text": "I was just making sure you did."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0093",
+    "t": [
+      508.754,
+      510.296
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, how would I ever live without you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0094",
+    "t": [
+      510.297,
+      515.385
+    ],
+    "speaker": "Daphne",
+    "text": "Now, now, boys, that's enough. Dr. Crane, you're being a good father letting Frederick go."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0095",
+    "t": [
+      515.386,
+      517.846
+    ],
+    "speaker": "Niles",
+    "text": "That's right. It doesn't have to ruin your Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0096",
+    "t": [
+      517.847,
+      522.6
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, come on. Let's finish decorating the Christmas tree. I brought up the good lights from the storage room."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0097",
+    "t": [
+      522.601,
+      526.981
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Dad, I don't wanna use those lights this year. I picked up these just yesterday."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0098",
+    "t": [
+      527.815,
+      528.898
+    ],
+    "speaker": "Martin",
+    "text": "Chili peppers?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0099",
+    "t": [
+      528.899,
+      532.235
+    ],
+    "speaker": "Frasier",
+    "text": "Well, yes, they're very fashionable."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0100",
+    "t": [
+      532.236,
+      534.07
+    ],
+    "speaker": "Martin",
+    "text": "Chili peppers aren't Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0101",
+    "t": [
+      534.071,
+      539.41
+    ],
+    "speaker": "Frasier",
+    "text": "Well, for that matter, neither are Scotch pines or snow ornaments. If you want to be technical, Bethlehem was in the desert."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0102",
+    "t": [
+      540.202,
+      542.579
+    ],
+    "speaker": "Martin",
+    "text": "Fine. Why don't we just decorate a palm tree?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0103",
+    "t": [
+      542.58,
+      544.664
+    ],
+    "speaker": "Frasier",
+    "text": "I don't need your sarcasm."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0104",
+    "t": [
+      544.665,
+      546.749
+    ],
+    "speaker": "Martin",
+    "text": "But I always use those lights."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0105",
+    "t": [
+      546.75,
+      551.629
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, Dad, this is my house. These are my decorations. Just once, can I have one thing the way I want it this Christmas?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0106",
+    "t": [
+      551.63,
+      554.549
+    ],
+    "speaker": "Martin",
+    "text": "Wait a minute. You're upset about Freddy. Don't take it out on me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0107",
+    "t": [
+      554.55,
+      555.842
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, now you're the psychiatrist?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0108",
+    "t": [
+      555.843,
+      561.097
+    ],
+    "speaker": "Martin",
+    "text": "Oh, I give up. Go ahead. Decorate the thing. Use your chili peppers. Oh, I don't want them anymore."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0109",
+    "t": [
+      561.098,
+      562.974
+    ],
+    "speaker": "unknown",
+    "text": "No, go ahead. Use them."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0110",
+    "t": [
+      562.975,
+      566.228
+    ],
+    "speaker": "Martin",
+    "text": "Maybe we could hang a few radishes, put a nice broccoli on top."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0111",
+    "t": [
+      568.48,
+      570.982
+    ],
+    "speaker": "Niles",
+    "text": "I hope you two aren't going to be behaving this way up at the cabin."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0112",
+    "t": [
+      570.983,
+      573.067
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, we won't. 'Cause I'm not going to the cabin."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0113",
+    "t": [
+      573.068,
+      573.985
+    ],
+    "speaker": "Martin",
+    "text": "What do you mean?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0114",
+    "t": [
+      573.986,
+      575.82
+    ],
+    "speaker": "Frasier",
+    "text": "- Where are you going? - I'm staying right here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0115",
+    "t": [
+      575.821,
+      578.448
+    ],
+    "speaker": "Martin",
+    "text": "- You can't stay alone on Christmas. - I decided to fill in for Bulldog."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0116",
+    "t": [
+      578.449,
+      583.954
+    ],
+    "speaker": "Frasier",
+    "text": "- Somebody will have a merry Christmas. - Well, Merry Christmas! - Merry Christmas! - Merry Christmas! Merry Christmas!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0117",
+    "t": [
+      590.961,
+      599.51
+    ],
+    "speaker": "Frasier",
+    "text": "Roz, Roz, I'm sorry. I didn't realize that when I volunteered to work on Christmas, that I would ruin your plans for the day. - Please don't be mad. - Mad? What for?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0118",
+    "t": [
+      599.511,
+      612.816
+    ],
+    "speaker": "Roz",
+    "text": "My mother just flew in from Wisconsin to be here with me today, but instead, I'm back in this stinking hellhole on Christmas Day, when only the loneliest, most depressed people on the planet would ever call in. But look how nice you made yourself look for me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0119",
+    "t": [
+      614.401,
+      634.587
+    ],
+    "speaker": "Frasier",
+    "text": "Well, Roz, try to see this thing from my position. I couldn't see my son, I had a terrible fight with my father, and I was facing a horrible Christmas. And then I thought, you know, well, maybe if by trying to help other people through their troubles, it might get me through mine. I think if we really try hard, we can maybe have the best Christmas we've ever had. What do you say?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0120",
+    "t": [
+      634.588,
+      637.298
+    ],
+    "speaker": "Roz",
+    "text": "Okay, I'm not mad. Get ready."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0121",
+    "t": [
+      637.299,
+      639.092
+    ],
+    "speaker": "Frasier",
+    "text": "I need a hug to prove we're still friends."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0122",
+    "t": [
+      639.093,
+      642.387
+    ],
+    "speaker": "Roz",
+    "text": "- Frasier, I am not hugging you. - Come on. No. You're grungy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0123",
+    "t": [
+      642.388,
+      643.596
+    ],
+    "speaker": "Frasier",
+    "text": "Come to Papa."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0124",
+    "t": [
+      643.597,
+      648.31
+    ],
+    "speaker": "Roz",
+    "text": "- Hug, hug, hug, hug. - All right. Yuck, we're friends. Now get ready. You're on."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0125",
+    "t": [
+      655.317,
+      668.998
+    ],
+    "speaker": "Frasier",
+    "text": "Merry Christmas, Seattle. Yes, this is Dr. Frasier Crane coming to you on Christmas Day. Christmas, that very magical time of the year, when each moment is as unique as a snowflake, never to be recreated."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0126",
+    "t": [
+      669.79,
+      672.209
+    ],
+    "speaker": "Roz",
+    "text": "I'm sorry. The news went over. You're gonna have to do that again."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0127",
+    "t": [
+      674.003,
+      690.018
+    ],
+    "speaker": "Frasier",
+    "text": "Merry Christmas, Seattle. Well, as we head into our second hour, I'd like to lighten things up a bit. Although, Ned, we were certainly glad to hear from you, and how you got mugged on your way home from the soup kitchen. Roz, who's next?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0128",
+    "t": [
+      690.019,
+      695.106
+    ],
+    "speaker": "Roz",
+    "text": "We have Don on line five. He wants to tell us about a time when he was filled with the Christmas spirit."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0129",
+    "t": [
+      695.107,
+      698.026
+    ],
+    "speaker": "Frasier",
+    "text": "It's about time. Hello, Don."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0130",
+    "t": [
+      698.027,
+      704.032
+    ],
+    "speaker": "Don",
+    "text": "Hello, Dr. Crane. Something happened to me yesterday that kind of sums up why we call this the season of giving."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0131",
+    "t": [
+      704.033,
+      707.368
+    ],
+    "speaker": "Frasier",
+    "text": "Well, then swaddle me in Christmas cheer."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0132",
+    "t": [
+      707.369,
+      722.468
+    ],
+    "speaker": "Don",
+    "text": "Okay, well, see, I was driving home from the gym, and I suddenly realized I had left my favorite old pair of sneakers on the roof of the car. So I looked back, and there's this homeless guy. And he'd already picked them up, and he's putting them on. So I just thought, \"What the hell?\" And I kept driving."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0133",
+    "t": [
+      729.391,
+      744.323
+    ],
+    "speaker": "Frasier",
+    "text": "So your experience of the Christmas spirit would be that you didn't slam the car into reverse, speed back there, and rip a pair of smelly old sneakers out of a homeless man's hands? Well, Roz, this is special. I think we've got Santa Claus himself on the line."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0134",
+    "t": [
+      745.616,
+      754.165
+    ],
+    "speaker": "Barry",
+    "text": "I'm sorry. That was the last time. I'm okay now. I'm really okay. No, I'm not. I am not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0135",
+    "t": [
+      754.166,
+      762.256
+    ],
+    "speaker": "Frasier",
+    "text": "Barry, listen. I've got to put you on hold for a bit while you pull yourself together. But, please, please stay on the line. I'd really like to help you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0136",
+    "t": [
+      762.257,
+      764.76
+    ],
+    "speaker": "Barry",
+    "text": "It's all right. I think I've got a hold of myself."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0137",
+    "t": [
+      765.636,
+      768.18
+    ],
+    "speaker": "unknown",
+    "text": "No, I don't."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0138",
+    "t": [
+      769.681,
+      776.814
+    ],
+    "speaker": "Gladys",
+    "text": "So, you see, Dr. Crane, I've fallen in the shower so many times, they can't fit any more pins in my hip."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0139",
+    "t": [
+      780.734,
+      785.864
+    ],
+    "speaker": "Frasier",
+    "text": "Gladys, Gladys, listen, can I put you on hold for a second? There's somebody else I have to check on."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0140",
+    "t": [
+      787.366,
+      788.449
+    ],
+    "speaker": "Frasier",
+    "text": "How's it going there, Barry?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0141",
+    "t": [
+      792.663,
+      794.206
+    ],
+    "speaker": "Frasier",
+    "text": "My sentiments exactly."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0142",
+    "t": [
+      795.541,
+      811.098
+    ],
+    "speaker": "Tom",
+    "text": "It still traumatizes me, Dr. Crane. I wake up nights and I remember that Christmas morning. I walked into my mother's bedroom, tears running down my face, and I said, \"Mommy, Mommy, the puppy Santa gave me won't wake up.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0143",
+    "t": [
+      815.185,
+      823.735
+    ],
+    "speaker": "Frasier",
+    "text": "Okay, Tom. You win the prize for the saddest Christmas story we've heard today. Happy holidays."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0144",
+    "t": [
+      826.864,
+      827.865
+    ],
+    "speaker": "Frasier",
+    "text": "Roz."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0145",
+    "t": [
+      830.409,
+      835.788
+    ],
+    "speaker": "Frasier",
+    "text": "Roz. Roz. Oh, have you been crying, Roz?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0146",
+    "t": [
+      835.789,
+      838.249
+    ],
+    "speaker": "Roz",
+    "text": "Just for the last hour."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0147",
+    "t": [
+      838.25,
+      842.879
+    ],
+    "speaker": "Frasier",
+    "text": "Oh. Oh, listen, why don't you just go home, honey? I can take over for the next two hours."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0148",
+    "t": [
+      842.88,
+      845.256
+    ],
+    "speaker": "Roz",
+    "text": "- But you can't do this on your own. - Oh, sure I can."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0149",
+    "t": [
+      845.257,
+      846.757
+    ],
+    "speaker": "Frasier",
+    "text": "Go home, be with your mom."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0150",
+    "t": [
+      846.758,
+      849.51
+    ],
+    "speaker": "Roz",
+    "text": "Won't it even be sadder with you here all by yourself?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0151",
+    "t": [
+      849.511,
+      851.096
+    ],
+    "speaker": "Frasier",
+    "text": "I don't think that's possible."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0152",
+    "t": [
+      852.431,
+      854.974
+    ],
+    "speaker": "Roz",
+    "text": "Well, if you really mean it, then I'll go."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0153",
+    "t": [
+      854.975,
+      856.101
+    ],
+    "speaker": "Frasier",
+    "text": "I mean it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0154",
+    "t": [
+      858.061,
+      864.735
+    ],
+    "speaker": "Roz",
+    "text": "But, Frasier, promise me one thing. Don't sit here and get more depressed. You'll see your little boy again soon."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0155",
+    "t": [
+      865.319,
+      867.278
+    ],
+    "speaker": "Frasier",
+    "text": "- I know I will. - Okay."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0156",
+    "t": [
+      867.279,
+      868.363
+    ],
+    "speaker": "Roz",
+    "text": "Hug, hug, hug."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0157",
+    "t": [
+      870.991,
+      873.577
+    ],
+    "speaker": "Roz",
+    "text": "Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0158",
+    "t": [
+      874.161,
+      885.13
+    ],
+    "speaker": "Frasier",
+    "text": "Hi, we're back. Well, you know what? I realize it's been a pretty tough day out there for most of you, and, uh... I'd like to hear now from someone who's having a good Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0159",
+    "t": [
+      885.714,
+      886.881
+    ],
+    "speaker": "unknown",
+    "text": "Uh..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0160",
+    "t": [
+      886.882,
+      890.343
+    ],
+    "speaker": "Frasier",
+    "text": "You know, someone who's maybe learned a way to beat the holiday blues."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0161",
+    "t": [
+      890.344,
+      891.178
+    ],
+    "speaker": "unknown",
+    "text": "How about it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0162",
+    "t": [
+      891.678,
+      896.057
+    ],
+    "speaker": "Frasier",
+    "text": "Well, let's take our first call here. Hello, you're on the air."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0163",
+    "t": [
+      896.058,
+      897.475
+    ],
+    "speaker": "unknown",
+    "text": "Hello, Dr. Crane."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0164",
+    "t": [
+      897.476,
+      900.228
+    ],
+    "speaker": "Frasier",
+    "text": "- This is Jeff. - Hello, Jeff. Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0165",
+    "t": [
+      900.229,
+      910.614
+    ],
+    "speaker": "Jeff",
+    "text": "Well, Merry Christmas to you. I used to get depressed on Christmas. And then I found a surefire way to beat it. I pop my favorite movie, The Sound of Music, in the VCR."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0166",
+    "t": [
+      912.199,
+      920.582
+    ],
+    "speaker": "Jeff",
+    "text": "Watching Julie Andrews lead those adorable little tykes through the streets of Salzburg, nobody could be depressed. I mean, nobody."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0167",
+    "t": [
+      923.835,
+      925.462
+    ],
+    "speaker": "Frasier",
+    "text": "Jeff, are you a betting man?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0168",
+    "t": [
+      927.172,
+      951.613
+    ],
+    "speaker": "Frasier",
+    "text": "Well, we're just about out of time. My, my, this day has flown by. I'd like to wish all of you happy revelers out there a Merry Christmas. And for the rest of you, why don't you go out and treat yourself to something special? Personally, I'm gonna go get myself a meal at one of Seattle's fine eateries. I don't know where, but I promise you one thing, it'll have a liquor license."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0169",
+    "t": [
+      954.157,
+      963.208
+    ],
+    "speaker": "Frasier",
+    "text": "Just kidding. Heh. Don't drink and drive. This is Dr. Frasier Crane, KACL 780, talk radio."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0170",
+    "t": [
+      984.605,
+      985.522
+    ],
+    "speaker": "unknown",
+    "text": "Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0171",
+    "t": [
+      998.702,
+      1001.663
+    ],
+    "speaker": "Waitress",
+    "text": "Merry Christmas. Welcome to Lou's."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0172",
+    "t": [
+      1003.457,
+      1009.045
+    ],
+    "speaker": "Frasier",
+    "text": "Thank you. I'm sure glad you're open. All the other places in town are either closed or all booked up."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0173",
+    "t": [
+      1009.046,
+      1011.089
+    ],
+    "speaker": "Waitress",
+    "text": "That's what makes us so special."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0174",
+    "t": [
+      1012.758,
+      1022.351
+    ],
+    "speaker": "Waitress",
+    "text": "I can bring you a menu, but almost everybody's having the Christmas platter. That's a turkey log with mashed potatoes. Then yule log for dessert."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0175",
+    "t": [
+      1023.018,
+      1026.73
+    ],
+    "speaker": "Frasier",
+    "text": "How much more appetizing food always becomes when you add the word \"log.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0176",
+    "t": [
+      1028.732,
+      1031.817
+    ],
+    "speaker": "Frasier",
+    "text": "I'll just have the Christmas platter."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0177",
+    "t": [
+      1031.818,
+      1032.986
+    ],
+    "speaker": "Waitress",
+    "text": "Platter!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0178",
+    "t": [
+      1035.489,
+      1036.365
+    ],
+    "speaker": "Tim",
+    "text": "How you doin'?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0179",
+    "t": [
+      1037.24,
+      1038.075
+    ],
+    "speaker": "Frasier",
+    "text": "Okay."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0180",
+    "t": [
+      1038.992,
+      1040.452
+    ],
+    "speaker": "Tim",
+    "text": "You having a merry Christmas?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0181",
+    "t": [
+      1041.328,
+      1053.715
+    ],
+    "speaker": "Frasier",
+    "text": "Now that you ask, no, I'm not. Can't be with my son. Had a terrible argument over something stupid with my father. - That's why I'm alone. - Oh. How about you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0182",
+    "t": [
+      1054.383,
+      1063.683
+    ],
+    "speaker": "Tim",
+    "text": "Pretty good, actually. Just yesterday, I was crossing the street, and this beautiful pair of sneakers flew off the back of a car and landed on my feet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0183",
+    "t": [
+      1066.061,
+      1067.187
+    ],
+    "speaker": "Frasier",
+    "text": "Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0184",
+    "t": [
+      1069.564,
+      1070.524
+    ],
+    "speaker": "Waitress",
+    "text": "Here you go."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0185",
+    "t": [
+      1071.316,
+      1075.028
+    ],
+    "speaker": "Frasier",
+    "text": "Well, the chef didn't exactly dally over the remoulade, did he?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0186",
+    "t": [
+      1080.909,
+      1083.536
+    ],
+    "speaker": "Bill",
+    "text": "Hey, Tim. Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0187",
+    "t": [
+      1083.537,
+      1086.33
+    ],
+    "speaker": "Tim",
+    "text": "Hey, Bill. Same to you. Glad you could make it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0188",
+    "t": [
+      1086.331,
+      1090.835
+    ],
+    "speaker": "Bill",
+    "text": "Well, I wouldn't miss this. How's that turkey platter? Good as last year's?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0189",
+    "t": [
+      1090.836,
+      1093.004
+    ],
+    "speaker": "Frasier",
+    "text": "I'm not sure this isn't last year's."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0190",
+    "t": [
+      1094.339,
+      1095.589
+    ],
+    "speaker": "unknown",
+    "text": "Huh?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0191",
+    "t": [
+      1095.59,
+      1098.718
+    ],
+    "speaker": "Frasier",
+    "text": "Listen, I'm done here. Go ahead and take this seat."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0192",
+    "t": [
+      1098.719,
+      1100.554
+    ],
+    "speaker": "Bill",
+    "text": "- Oh, geez, thanks, pal. - You bet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0193",
+    "t": [
+      1106.935,
+      1107.852
+    ],
+    "speaker": "unknown",
+    "text": "Oh, no."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0194",
+    "t": [
+      1107.853,
+      1113.357
+    ],
+    "speaker": "Frasier",
+    "text": "Excuse me, miss. Uh, something rather embarrassing has just happened. I seem to have lost my wallet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0195",
+    "t": [
+      1113.358,
+      1114.692
+    ],
+    "speaker": "Waitress",
+    "text": "You mean you can't pay?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0196",
+    "t": [
+      1114.693,
+      1121.407
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, no. I can pay. I can pay. - I must have left it at the office. - Uh-huh. Well, I could just go back there and get it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0197",
+    "t": [
+      1121.408,
+      1124.034
+    ],
+    "speaker": "Tim",
+    "text": "Lou, it's all right. This one's on me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0198",
+    "t": [
+      1124.035,
+      1126.787
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, no, no, no. You don't understand. I... I..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0199",
+    "t": [
+      1126.788,
+      1129.54
+    ],
+    "speaker": "Tim",
+    "text": "It's okay, buddy. We've all been there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0200",
+    "t": [
+      1129.541,
+      1131.792
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, but you see, I really did misplace my wallet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0201",
+    "t": [
+      1131.793,
+      1136.757
+    ],
+    "speaker": "Tim",
+    "text": "I know you did. And Bill here misplaced his Wall Street portfolio."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0202",
+    "t": [
+      1138.925,
+      1148.893
+    ],
+    "speaker": "Tim",
+    "text": "- Here, Bill, help me out. - Oh. - Oh, no, no, no. - Hey, everybody. - People. - No, that's not necessary. Come on, let's help a poor man get a nice Christmas dinner."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0203",
+    "t": [
+      1148.894,
+      1150.102
+    ],
+    "speaker": "unknown",
+    "text": "- Come on. - No, no, please."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0204",
+    "t": [
+      1150.103,
+      1152.021
+    ],
+    "speaker": "Tim",
+    "text": "- Anything. It doesn't matter. - You don't understand."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0205",
+    "t": [
+      1152.022,
+      1153.439
+    ],
+    "speaker": "unknown",
+    "text": "Even pennies."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0206",
+    "t": [
+      1153.44,
+      1169.789
+    ],
+    "speaker": "Frasier",
+    "text": "- I make a very decent living. I really do. - Thank you very much. - Merry Christmas. - This is not necessary. Well, I must say, I've never been so touched in my life. To think that you people would give up your money, which you can ill afford, to help out a fellow human being."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0207",
+    "t": [
+      1169.79,
+      1170.749
+    ],
+    "speaker": "unknown",
+    "text": "There you go, Lou."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0208",
+    "t": [
+      1171.666,
+      1174.71
+    ],
+    "speaker": "Frasier",
+    "text": "Gee, I'm... I'm still so embarrassed."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0209",
+    "t": [
+      1174.711,
+      1184.012
+    ],
+    "speaker": "Tim",
+    "text": "Don't be embarrassed. Look at it this way. The rest of the year belongs to the rich people with their fancy houses and expensive foreign cars."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0210",
+    "t": [
+      1185.68,
+      1190.435
+    ],
+    "speaker": "Tim",
+    "text": "But Christmas... Christmas belongs to guys like us."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0211",
+    "t": [
+      1192.354,
+      1199.194
+    ],
+    "speaker": "Frasier",
+    "text": "Right. Well, I never will forget this Christmas. Thank you. Thank you all. Thanks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0212",
+    "t": [
+      1225.971,
+      1229.766
+    ],
+    "speaker": "Waitress",
+    "text": "Hey. Somebody lose a set of car keys?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0213",
+    "t": [
+      1262.048,
+      1264.134
+    ],
+    "speaker": "Tim",
+    "text": "Hey, we're not buying you dessert."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0214",
+    "t": [
+      1265.635,
+      1268.679
+    ],
+    "speaker": "Frasier",
+    "text": "No, you see, I, uh... I forgot, uh..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0215",
+    "t": [
+      1268.68,
+      1271.016
+    ],
+    "speaker": "unknown",
+    "text": "What? Uh..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0216",
+    "t": [
+      1272.35,
+      1276.353
+    ],
+    "speaker": "Frasier",
+    "text": "To wish you a Merry Christmas. - Merry Christmas. - Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0217",
+    "t": [
+      1276.354,
+      1277.646
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Merry Christmas."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0218",
+    "t": [
+      1277.647,
+      1278.773
+    ],
+    "speaker": "Tim",
+    "text": "Hey, bud."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0219",
+    "t": [
+      1281.443,
+      1282.444
+    ],
+    "speaker": "Tim",
+    "text": "Since you're here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0220",
+    "t": [
+      1284.237,
+      1285.655
+    ],
+    "speaker": "Tim",
+    "text": "Go call your old man."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0221",
+    "t": [
+      1288.45,
+      1291.411
+    ],
+    "speaker": "Frasier",
+    "text": "Thank you. I think I will."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0222",
+    "t": [
+      1313.975,
+      1315.351
+    ],
+    "speaker": "unknown",
+    "text": "Quite stylish."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E12",
+    "unit_id": "u0223",
+    "t": [
+      1331.242,
+      1333.244
+    ],
+    "speaker": "unknown",
+    "text": "Good night, Seattle! We love you!"
+  }
+]

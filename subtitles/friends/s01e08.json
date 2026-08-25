@@ -1,0 +1,2840 @@
+[
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0001",
+    "t": [
+      7.347,
+      9.557
+    ],
+    "speaker": "Shelley",
+    "text": "Hey, gorgeous. How's it going?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0002",
+    "t": [
+      9.599,
+      16.189
+    ],
+    "speaker": "Chandler",
+    "text": "Dehydrated Japanese noodles under fluorescent lights. Does it get better than this?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0003",
+    "t": [
+      16.272,
+      21.569
+    ],
+    "speaker": "Shelley",
+    "text": "Question, you're not dating anybody, are you? Because I met somebody who would be perfect for you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0004",
+    "t": [
+      21.611,
+      27.2
+    ],
+    "speaker": "Chandler",
+    "text": "Ah, you see, perfect might be a problem. Had you said, co-dependent or self-destructive.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0005",
+    "t": [
+      28.451,
+      35.333
+    ],
+    "speaker": "Shelley",
+    "text": "- Do you want a date, Saturday? - Yes, please. Okay. He is cute, he's funny, he's..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0006",
+    "t": [
+      35.416,
+      37.377
+    ],
+    "speaker": "Chandler",
+    "text": "- He's a he? - Well, yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0007",
+    "t": [
+      38.503,
+      49.222
+    ],
+    "speaker": "Shelley",
+    "text": "Oh, God. I just... I thought.....you're not, so. Good, Shelly. Okay. I'm just gonna go flush myself down the toilet now. Okay. Bye-bye."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0008",
+    "t": [
+      99.647,
+      103.943
+    ],
+    "speaker": "Chandler",
+    "text": "I mean, is that ridiculous? Can you believe she actually thought that?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0009",
+    "t": [
+      103.985,
+      107.238
+    ],
+    "speaker": "Rachel",
+    "text": "Um.....yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0010",
+    "t": [
+      109.24,
+      114.579
+    ],
+    "speaker": "Rachel",
+    "text": "Well, I mean, when I first met you, you know I thought maybe.. Possibly you might be."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0011",
+    "t": [
+      116.039,
+      117.373
+    ],
+    "speaker": "Chandler",
+    "text": "- You did? - Yeah, but then."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0012",
+    "t": [
+      117.415,
+      122.003
+    ],
+    "speaker": "Rachel",
+    "text": "But then you spent Phoebe's entire birthday party talking to my breasts so then I figured maybe not."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0013",
+    "t": [
+      123.838,
+      129.093
+    ],
+    "speaker": "Chandler",
+    "text": "Huh, did uh... any of the rest of you guys think that when you first met me?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0014",
+    "t": [
+      129.177,
+      130.97
+    ],
+    "speaker": "Phoebe",
+    "text": "- I did. - Yeah, I think so, yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0015",
+    "t": [
+      133.056,
+      135.6
+    ],
+    "speaker": "Joey",
+    "text": "- Not me. - No, no, me neither."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0016",
+    "t": [
+      135.683,
+      139.395
+    ],
+    "speaker": "Ross",
+    "text": "Although, uh, you know, back in college, Susan Salidor did."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0017",
+    "t": [
+      139.479,
+      143.149
+    ],
+    "speaker": "Chandler",
+    "text": "You're kidding. - Did you tell her I wasn't? - No."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0018",
+    "t": [
+      144.734,
+      155.078
+    ],
+    "speaker": "Ross",
+    "text": "Well, it's just 'cause I kinda wanted to go out with her too. So I told her, actually you were seeing Bernie Spellman who also liked her, so.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0019",
+    "t": [
+      159.833,
+      164.838
+    ],
+    "speaker": "Chandler",
+    "text": "Well, this is fascinating. So, uh, what is it about me?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0020",
+    "t": [
+      164.921,
+      167.966
+    ],
+    "speaker": "Phoebe",
+    "text": "I don't know. 'cause you're smart, you're funny..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0021",
+    "t": [
+      168.049,
+      170.844
+    ],
+    "speaker": "Chandler",
+    "text": "Ross is smart and funny. You ever think that about him?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0022",
+    "t": [
+      170.927,
+      172.679
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Yeah! Right!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0023",
+    "t": [
+      172.762,
+      173.763
+    ],
+    "speaker": "Chandler",
+    "text": "What is it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0024",
+    "t": [
+      175.765,
+      178.977
+    ],
+    "speaker": "Monica",
+    "text": "Okay, I-I don't know. You-you just... you have a quality."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0025",
+    "t": [
+      179.06,
+      182.188
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- Yes, right. - Exactly. Yeah, a quality."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0026",
+    "t": [
+      182.23,
+      186.151
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, oh, a quality, good. Because I was worried you guys were gonna be vague about this."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0027",
+    "t": [
+      188.903,
+      195.952
+    ],
+    "speaker": "Monica",
+    "text": "Hello? Hello? Oh, Rachel. It's Paolo calling from Rome."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0028",
+    "t": [
+      196.035,
+      202.292
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, my God. He's calling from Rome! Buongiorno caro mio."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0029",
+    "t": [
+      204.085,
+      209.34
+    ],
+    "speaker": "Ross",
+    "text": "So he's calling from Rome. I could do that. Just gotta go to Rome."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0030",
+    "t": [
+      212.093,
+      220.143
+    ],
+    "speaker": "Rachel",
+    "text": "Monica, your dad just beeped in but can you make it quick 'cause I'm talking to Rome. I'm talking to Rome."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0031",
+    "t": [
+      220.226,
+      221.644
+    ],
+    "speaker": "Monica",
+    "text": "Hey, dad, what's up?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0032",
+    "t": [
+      223.813,
+      225.106
+    ],
+    "speaker": "Monica",
+    "text": "Oh, God."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0033",
+    "t": [
+      226.691,
+      228.651
+    ],
+    "speaker": "Monica",
+    "text": "Ross, it's nana."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0034",
+    "t": [
+      235.992,
+      241.539
+    ],
+    "speaker": "unknown",
+    "text": "- Hey. - Oh, hi. Oh, Ross. - How you, Lillian? - Hey, dad."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0035",
+    "t": [
+      243.958,
+      247.128
+    ],
+    "speaker": "Ross",
+    "text": "So, uh.....how's she doing?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0036",
+    "t": [
+      247.17,
+      250.089
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "The doctor says, it's a matter of hours."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0037",
+    "t": [
+      250.131,
+      251.174
+    ],
+    "speaker": "Monica",
+    "text": "How-how are you, mom?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0038",
+    "t": [
+      251.257,
+      255.303
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Me? I'm fine, fine. I'm glad you're here."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0039",
+    "t": [
+      256.971,
+      258.056
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "What's with your hair?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0040",
+    "t": [
+      258.139,
+      260.016
+    ],
+    "speaker": "Monica",
+    "text": "What?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0041",
+    "t": [
+      260.099,
+      261.81
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "What's different?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0042",
+    "t": [
+      261.851,
+      262.894
+    ],
+    "speaker": "Monica",
+    "text": "Nothing."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0043",
+    "t": [
+      262.977,
+      265.104
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Oh, maybe that's it."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0044",
+    "t": [
+      265.146,
+      266.689
+    ],
+    "speaker": "Monica",
+    "text": "- Monica. - She's unbelievable!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0045",
+    "t": [
+      266.773,
+      274.864
+    ],
+    "speaker": "Ross",
+    "text": "- Her mother is... - Okay, relax, relax. Okay, we are going to be here for a while, it looks like. Can we still have boyfriends in your career to cover?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0046",
+    "t": [
+      274.948,
+      276.533
+    ],
+    "speaker": "Monica",
+    "text": "Oh, God."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0047",
+    "t": [
+      282.914,
+      285.416
+    ],
+    "speaker": "Monica",
+    "text": "The fuzzy little mints at the bottom of her purse."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0048",
+    "t": [
+      285.5,
+      288.837
+    ],
+    "speaker": "Ross",
+    "text": "Oh! Yeah, they were gross."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0049",
+    "t": [
+      290.338,
+      297.762
+    ],
+    "speaker": "Ross",
+    "text": "Oh! You know what I love? - Her Sweet'n Lows... - Oh. How she was always stealing them from-from restaurants."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0050",
+    "t": [
+      297.846,
+      301.724
+    ],
+    "speaker": "Mr. Geller",
+    "text": "Not just restaurants from our house."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0051",
+    "t": [
+      301.808,
+      303.268
+    ],
+    "speaker": "Nurse",
+    "text": "Mrs. Geller?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0052",
+    "t": [
+      308.189,
+      310.4
+    ],
+    "speaker": "Ross",
+    "text": "'She looks so small.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0053",
+    "t": [
+      310.483,
+      312.277
+    ],
+    "speaker": "Monica",
+    "text": "I know."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0054",
+    "t": [
+      312.36,
+      315.572
+    ],
+    "speaker": "Ross",
+    "text": "At least she's with pop-pop and Aunt Phyllis now."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0055",
+    "t": [
+      319.784,
+      321.202
+    ],
+    "speaker": "Monica",
+    "text": "Good-bye, nana."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0056",
+    "t": [
+      328.334,
+      329.502
+    ],
+    "speaker": "Ross",
+    "text": "Bye, nana."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0057",
+    "t": [
+      333.673,
+      334.632
+    ],
+    "speaker": "Monica",
+    "text": "Ross!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0058",
+    "t": [
+      335.884,
+      336.843
+    ],
+    "speaker": "unknown",
+    "text": "Nurse."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0059",
+    "t": [
+      338.72,
+      340.68
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "What is going on?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0060",
+    "t": [
+      340.722,
+      345.518
+    ],
+    "speaker": "Ross",
+    "text": "You know how the nurse said that-that nana had-had passed? Well, she's not quite."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0061",
+    "t": [
+      347.103,
+      352.15
+    ],
+    "speaker": "Ross",
+    "text": "- What? - She's not passed. She's present. She's back."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0062",
+    "t": [
+      352.233,
+      353.693
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "What's going on?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0063",
+    "t": [
+      353.776,
+      356.112
+    ],
+    "speaker": "Mr. Geller",
+    "text": "She may have died."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0064",
+    "t": [
+      356.196,
+      357.322
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "She may have died?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0065",
+    "t": [
+      357.405,
+      358.948
+    ],
+    "speaker": "Mr. Geller",
+    "text": "We're looking into it."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0066",
+    "t": [
+      360.95,
+      362.66
+    ],
+    "speaker": "Ross",
+    "text": "Uh-uh, I'll go see."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0067",
+    "t": [
+      365.497,
+      367.165
+    ],
+    "speaker": "Nurse",
+    "text": "This almost never happens."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0068",
+    "t": [
+      384.516,
+      386.601
+    ],
+    "speaker": "unknown",
+    "text": "Now she's passed."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0069",
+    "t": [
+      396.736,
+      400.949
+    ],
+    "speaker": "Chandler",
+    "text": "I just have to know, okay? Is it my hair?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0070",
+    "t": [
+      400.99,
+      404.202
+    ],
+    "speaker": "Rachel",
+    "text": "Yes, Chandler, that's exactly what it is. It's your hair."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0071",
+    "t": [
+      404.285,
+      406.496
+    ],
+    "speaker": "Phoebe",
+    "text": "Yeah, you have homosexual hair."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0072",
+    "t": [
+      410.416,
+      413.795
+    ],
+    "speaker": "unknown",
+    "text": "- Hey. - Hey. - Hi. - Hi."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0073",
+    "t": [
+      413.837,
+      415.547
+    ],
+    "speaker": "Rachel",
+    "text": "So, um, did she.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0074",
+    "t": [
+      415.63,
+      416.798
+    ],
+    "speaker": "Ross",
+    "text": "Twice."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0075",
+    "t": [
+      418.049,
+      420.343
+    ],
+    "speaker": "Phoebe",
+    "text": "- Twice? - Oh, that sucks."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0076",
+    "t": [
+      422.804,
+      424.347
+    ],
+    "speaker": "Joey",
+    "text": "You guys, okay?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0077",
+    "t": [
+      424.389,
+      429.894
+    ],
+    "speaker": "Ross",
+    "text": "I don't know. It's weird. I know she's gone but I just don't feel, uh.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0078",
+    "t": [
+      429.978,
+      432.021
+    ],
+    "speaker": "Phoebe",
+    "text": "Maybe that's 'cause she's not really gone."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0079",
+    "t": [
+      432.063,
+      433.439
+    ],
+    "speaker": "Ross",
+    "text": "No, no, she's gone."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0080",
+    "t": [
+      434.774,
+      438.653
+    ],
+    "speaker": "Monica",
+    "text": "We checked. A lot."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0081",
+    "t": [
+      438.695,
+      448.663
+    ],
+    "speaker": "Phoebe",
+    "text": "No, no, I mean, maybe no one ever really goes. You know, ever since my mom died every now and then I get this feeling that she's like right here, you know?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0082",
+    "t": [
+      452.834,
+      457.922
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, and Debbie my best friend from junior high got struck by lightning on a miniature golf course."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0083",
+    "t": [
+      459.757,
+      466.89
+    ],
+    "speaker": "Phoebe",
+    "text": "I always get this really strong Debbie vibe whenever I use one of those little yellow pencils 'you know?'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0084",
+    "t": [
+      470.435,
+      473.73
+    ],
+    "speaker": "Phoebe",
+    "text": "- I miss her. - Oh, here, Pheebs."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0085",
+    "t": [
+      473.771,
+      479.068
+    ],
+    "speaker": "Rachel",
+    "text": "- Want this? - Oh, thanks. Sure, I just sharpened her this morning."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0086",
+    "t": [
+      481.738,
+      487.827
+    ],
+    "speaker": "Joey",
+    "text": "Now, see, I don't believe any of that. I think when you're dead, you're dead. You're gone. You're worm food."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0087",
+    "t": [
+      492.123,
+      493.833
+    ],
+    "speaker": "Joey",
+    "text": "So Chandler looks gay, huh?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0088",
+    "t": [
+      497.879,
+      500.715
+    ],
+    "speaker": "Phoebe",
+    "text": "You know, I don't know who this is but it's not Debbie."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0089",
+    "t": [
+      508.473,
+      510.6
+    ],
+    "speaker": "Ross",
+    "text": "I thought it was gonna be a closed casket."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0090",
+    "t": [
+      510.683,
+      513.436
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Well, that doesn't mean she can't look nice."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0091",
+    "t": [
+      517.023,
+      518.441
+    ],
+    "speaker": "unknown",
+    "text": "Oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0092",
+    "t": [
+      518.483,
+      521.444
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Sweetie, you think you can get in there?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0093",
+    "t": [
+      521.528,
+      523.446
+    ],
+    "speaker": "Ross",
+    "text": "I don't see why not."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0094",
+    "t": [
+      542.34,
+      543.716
+    ],
+    "speaker": "Ross",
+    "text": "'Here's my retainer!'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0095",
+    "t": [
+      553.143,
+      564.612
+    ],
+    "speaker": "Mr. Geller",
+    "text": "I was just thinking when my time comes... - Dad! - Listen to me! When my time comes.....I want to be buried at sea."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0096",
+    "t": [
+      566.906,
+      568.408
+    ],
+    "speaker": "Monica",
+    "text": "You what?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0097",
+    "t": [
+      568.491,
+      571.828
+    ],
+    "speaker": "Mr. Geller",
+    "text": "I want to be buried at sea. It looks like fun."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0098",
+    "t": [
+      573.83,
+      576.166
+    ],
+    "speaker": "Monica",
+    "text": "- Define fun. - Come on!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0099",
+    "t": [
+      576.207,
+      579.836
+    ],
+    "speaker": "Mr. Geller",
+    "text": "You'll make a day of it. You'll get a boat, pack a lunch.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0100",
+    "t": [
+      579.919,
+      584.257
+    ],
+    "speaker": "Monica",
+    "text": "And then we throw your body in the water. Gee, that does sound fun."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0101",
+    "t": [
+      584.299,
+      594.017
+    ],
+    "speaker": "Mr. Geller",
+    "text": "Everyone thinks they know me. Everyone says, Jack Geller, so predictable. Maybe after I'm gone, they'll say Buried at sea, huh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0102",
+    "t": [
+      597.729,
+      600.356
+    ],
+    "speaker": "Monica",
+    "text": "That's probably what they'll say."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0103",
+    "t": [
+      600.398,
+      602.484
+    ],
+    "speaker": "Mr. Geller",
+    "text": "I'd like that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0104",
+    "t": [
+      613.703,
+      616.372
+    ],
+    "speaker": "Chandler",
+    "text": "- Hey, gorgeous. - Hey."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0105",
+    "t": [
+      616.456,
+      618.791
+    ],
+    "speaker": "Shelley",
+    "text": "Look, I'm sorry about yesterday, I, uh..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0106",
+    "t": [
+      618.875,
+      623.796
+    ],
+    "speaker": "Chandler",
+    "text": "No, no, don't worry about it. Believe me, apparently other people have made the same mistake, so.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0107",
+    "t": [
+      623.838,
+      627.467
+    ],
+    "speaker": "Shelley",
+    "text": "Oh! Okay! Phew!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0108",
+    "t": [
+      629.135,
+      633.139
+    ],
+    "speaker": "Chandler",
+    "text": "So, uh, what do you think it is about me?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0109",
+    "t": [
+      633.181,
+      636.059
+    ],
+    "speaker": "Shelley",
+    "text": "I don't know, but you just have a.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0110",
+    "t": [
+      636.1,
+      639.02
+    ],
+    "speaker": "Chandler",
+    "text": "- A quality. - A quality, right, great."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0111",
+    "t": [
+      639.062,
+      643.024
+    ],
+    "speaker": "Shelley",
+    "text": "You know it's a shame because you and Lowell would have made a great couple."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0112",
+    "t": [
+      644.651,
+      649.197
+    ],
+    "speaker": "Chandler",
+    "text": "Lowell? Financial services, Lowell? That's who you saw me with?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0113",
+    "t": [
+      649.239,
+      650.49
+    ],
+    "speaker": "Shelley",
+    "text": "What? He's cute."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0114",
+    "t": [
+      650.573,
+      654.118
+    ],
+    "speaker": "Chandler",
+    "text": "Well, yeah. He's no Brian in payroll."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0115",
+    "t": [
+      657.163,
+      664.754
+    ],
+    "speaker": "Chandler",
+    "text": "- Is Brian.. - No, I don't know. Point is if you were going to set me up with someone I'd like to think you'd set me up with somebody like him."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0116",
+    "t": [
+      664.838,
+      668.007
+    ],
+    "speaker": "Shelley",
+    "text": "Well, I think Brian's a little out of your league."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0117",
+    "t": [
+      673.179,
+      677.517
+    ],
+    "speaker": "Chandler",
+    "text": "Excuse me. You don't think I could get a Brian?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0118",
+    "t": [
+      679.769,
+      682.105
+    ],
+    "speaker": "Chandler",
+    "text": "Because I could get a Brian."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0119",
+    "t": [
+      682.147,
+      683.189
+    ],
+    "speaker": "unknown",
+    "text": "Believe you me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0120",
+    "t": [
+      684.941,
+      686.192
+    ],
+    "speaker": "unknown",
+    "text": "I'm really not."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0121",
+    "t": [
+      687.61,
+      688.82
+    ],
+    "speaker": "Ross",
+    "text": "This one?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0122",
+    "t": [
+      690.446,
+      691.781
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "No."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0123",
+    "t": [
+      693.533,
+      702.625
+    ],
+    "speaker": "Ross",
+    "text": "I have shown you every dress we have. Unless, you want your mother to spend eternity in a lemon yellow pant suit go with the Burgundy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0124",
+    "t": [
+      702.709,
+      706.504
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "You know whatever we've picked she would have told us it's the wrong one."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0125",
+    "t": [
+      706.588,
+      708.381
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "You're right, we'll go with the Burgundy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0126",
+    "t": [
+      708.464,
+      712.051
+    ],
+    "speaker": "Ross",
+    "text": "Huh, a fine choice. I'm coming out."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0127",
+    "t": [
+      712.093,
+      713.928
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "Wait! We need shoes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0128",
+    "t": [
+      718.224,
+      720.143
+    ],
+    "speaker": "Ross",
+    "text": "Okay, um.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0129",
+    "t": [
+      722.228,
+      723.73
+    ],
+    "speaker": "Ross",
+    "text": "How about these?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0130",
+    "t": [
+      723.813,
+      725.773
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Uh, that's really a day shoe."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0131",
+    "t": [
+      725.815,
+      728.234
+    ],
+    "speaker": "Ross",
+    "text": "And where she's going everyone else will be dressier."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0132",
+    "t": [
+      730.195,
+      732.739
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "Could we see something in a slimmer heal?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0133",
+    "t": [
+      736.367,
+      746.211
+    ],
+    "speaker": "Ross",
+    "text": "Okay, I have nothing in an evening shoe in the Burgundy. I can show you something in a silver that may work?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0134",
+    "t": [
+      746.294,
+      748.004
+    ],
+    "speaker": "Aunt Lillian",
+    "text": "No, it really should be Burgundy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0135",
+    "t": [
+      748.087,
+      750.006
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Mm, unless, we go with a different dress..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0136",
+    "t": [
+      750.089,
+      752.133
+    ],
+    "speaker": "Ross",
+    "text": "- Yes, that's perfect. - No, no, no, no, no."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0137",
+    "t": [
+      752.175,
+      753.593
+    ],
+    "speaker": "unknown",
+    "text": "Oh, watch this."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0138",
+    "t": [
+      753.635,
+      756.846
+    ],
+    "speaker": "Ross",
+    "text": "Wait. I may have something in the back."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0139",
+    "t": [
+      769.567,
+      771.528
+    ],
+    "speaker": "Ross",
+    "text": "Oh, my God."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0140",
+    "t": [
+      771.569,
+      772.779
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Is everything alright, dear?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0141",
+    "t": [
+      772.862,
+      778.034
+    ],
+    "speaker": "Ross",
+    "text": "Yeah, yeah, just.....just nana's stuff."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0142",
+    "t": [
+      796.511,
+      798.054
+    ],
+    "speaker": "Ross",
+    "text": "How we doing? You guys ready?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0143",
+    "t": [
+      798.096,
+      803.852
+    ],
+    "speaker": "Monica",
+    "text": "So, mom already called this morning to remind me not to wear my hair up. Did you know my ears were not my best feature?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0144",
+    "t": [
+      803.893,
+      805.645
+    ],
+    "speaker": "Ross",
+    "text": "Some days it's all I can think about."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0145",
+    "t": [
+      806.896,
+      809.941
+    ],
+    "speaker": "Phoebe",
+    "text": "Hi, I'm sorry I'm late. I couldn't find my bearings."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0146",
+    "t": [
+      810.024,
+      812.694
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, you-you mean your earrings."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0147",
+    "t": [
+      812.735,
+      814.612
+    ],
+    "speaker": "Phoebe",
+    "text": "What did I say?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0148",
+    "t": [
+      816.114,
+      817.866
+    ],
+    "speaker": "Monica",
+    "text": "- Are these the shoes? - Yes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0149",
+    "t": [
+      817.907,
+      819.742
+    ],
+    "speaker": "Rachel",
+    "text": "Paolo sent them from Italy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0150",
+    "t": [
+      819.826,
+      822.662
+    ],
+    "speaker": "Ross",
+    "text": "What we.. We don't have shoes here?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0151",
+    "t": [
+      824.831,
+      826.749
+    ],
+    "speaker": "Joey",
+    "text": "Morning, are we ready to go?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0152",
+    "t": [
+      826.791,
+      829.169
+    ],
+    "speaker": "Chandler",
+    "text": "Well, don't we look nice all dressed up."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0153",
+    "t": [
+      830.837,
+      833.464
+    ],
+    "speaker": "Chandler",
+    "text": "It's stuff like that, isn't it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0154",
+    "t": [
+      844.893,
+      846.644
+    ],
+    "speaker": "Monica",
+    "text": "It was really a beautiful service."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0155",
+    "t": [
+      846.728,
+      851.9
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "It really was. Oh, come here, sweetheart."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0156",
+    "t": [
+      855.445,
+      860.408
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "You know I think it might be time for you to start using night cream."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0157",
+    "t": [
+      866.664,
+      868.124
+    ],
+    "speaker": "Joey",
+    "text": "- What? - Nothing, nothing."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0158",
+    "t": [
+      868.166,
+      871.419
+    ],
+    "speaker": "Chandler",
+    "text": "Just your overcoat sounds remarkably like Brent Musburger."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0159",
+    "t": [
+      872.462,
+      875.798
+    ],
+    "speaker": "Joey",
+    "text": "Check it out. Giants, Cowboys."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0160",
+    "t": [
+      875.84,
+      878.259
+    ],
+    "speaker": "Chandler",
+    "text": "You're watching a football game at a funeral."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0161",
+    "t": [
+      878.301,
+      881.471
+    ],
+    "speaker": "Joey",
+    "text": "No, it's the pre-game. I'm gonna watch it at the reception."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0162",
+    "t": [
+      882.806,
+      884.891
+    ],
+    "speaker": "Chandler",
+    "text": "You're a frightening, frightening man."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0163",
+    "t": [
+      886.434,
+      888.978
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, no. My new Paolo shoes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0164",
+    "t": [
+      889.062,
+      891.314
+    ],
+    "speaker": "Ross",
+    "text": "Oh, I hope they're not ruined."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0165",
+    "t": [
+      895.485,
+      900.74
+    ],
+    "speaker": "Phoebe",
+    "text": "God, what a great day. What? Weather wise."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0166",
+    "t": [
+      902.325,
+      911.334
+    ],
+    "speaker": "Ross",
+    "text": "I know, yeah.....the air, the trees. Even though nana's gone there's-there's something almost huh, I don't know, almost like.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0167",
+    "t": [
+      913.294,
+      915.505
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- Ross. - Oh, Ross, are you alright?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0168",
+    "t": [
+      915.588,
+      922.387
+    ],
+    "speaker": "Ross",
+    "text": "- I'm fine, I'm fine. - Oh. I'm just-just having my worst fear realized."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0169",
+    "t": [
+      930.603,
+      934.649
+    ],
+    "speaker": "Phoebe",
+    "text": "Okay, don't worry, I'm just checking to see if the muscles in spasm."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0170",
+    "t": [
+      934.691,
+      936.442
+    ],
+    "speaker": "Ross",
+    "text": "- Huh. - What? What is it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0171",
+    "t": [
+      936.526,
+      942.073
+    ],
+    "speaker": "Phoebe",
+    "text": "You missed a belt loop. - Oh, no, no, no. - Okay, it's in spasm."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0172",
+    "t": [
+      943.533,
+      948.121
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Here, sweetie, here. I took these when I had my golfing accident."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0173",
+    "t": [
+      948.204,
+      950.039
+    ],
+    "speaker": "unknown",
+    "text": "Thanks."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0174",
+    "t": [
+      956.838,
+      959.549
+    ],
+    "speaker": "Chandler",
+    "text": "- Oh, go. - Sorry."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0175",
+    "t": [
+      959.632,
+      962.969
+    ],
+    "speaker": "Andrea",
+    "text": "Hi, I'm Andrea. I'm Dorothy's daughter."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0176",
+    "t": [
+      963.011,
+      967.14
+    ],
+    "speaker": "Chandler",
+    "text": "Hi, I'm Chandler. And I have no idea who Dorothy is."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0177",
+    "t": [
+      970.185,
+      974.105
+    ],
+    "speaker": "Phoebe",
+    "text": "'Well, look who's up.' - Hey. - How do you feel?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0178",
+    "t": [
+      975.565,
+      980.82
+    ],
+    "speaker": "Ross",
+    "text": "I feel great. I feel great, I feel... great."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0179",
+    "t": [
+      982.197,
+      984.532
+    ],
+    "speaker": "Monica",
+    "text": "Wow, those pills really worked, huh?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0180",
+    "t": [
+      984.574,
+      988.495
+    ],
+    "speaker": "Ross",
+    "text": "Yeah, not the first two but the second two, whoo."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0181",
+    "t": [
+      991.247,
+      992.874
+    ],
+    "speaker": "Ross",
+    "text": "I love you guys."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0182",
+    "t": [
+      994.667,
+      1000.59
+    ],
+    "speaker": "Ross",
+    "text": "You guys are the greatest. I love my sister. I love Phoebe."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0183",
+    "t": [
+      1000.632,
+      1001.841
+    ],
+    "speaker": "Phoebe",
+    "text": "- Oh, so nice. - Hey."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0184",
+    "t": [
+      1001.883,
+      1004.761
+    ],
+    "speaker": "Ross",
+    "text": "Hey, Chandler."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0185",
+    "t": [
+      1004.844,
+      1008.097
+    ],
+    "speaker": "Chandler",
+    "text": "- Hey. - I love you, man."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0186",
+    "t": [
+      1008.139,
+      1011.1
+    ],
+    "speaker": "Ross",
+    "text": "And listen man if you wanna be gay, be gay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0187",
+    "t": [
+      1013.853,
+      1016.105
+    ],
+    "speaker": "Ross",
+    "text": "Doesn't matter to me, hmm."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0188",
+    "t": [
+      1017.565,
+      1019.025
+    ],
+    "speaker": "Andrea",
+    "text": "You were right."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0189",
+    "t": [
+      1023.696,
+      1027.2
+    ],
+    "speaker": "Ross",
+    "text": "Rachel, Rachel, Rachel."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0190",
+    "t": [
+      1028.91,
+      1030.703
+    ],
+    "speaker": "unknown",
+    "text": "Oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0191",
+    "t": [
+      1030.745,
+      1034.04
+    ],
+    "speaker": "Ross",
+    "text": "I love you the most."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0192",
+    "t": [
+      1034.082,
+      1039.128
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, well, you know who I love the most?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0193",
+    "t": [
+      1039.212,
+      1040.505
+    ],
+    "speaker": "Ross",
+    "text": "No."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0194",
+    "t": [
+      1040.588,
+      1042.966
+    ],
+    "speaker": "Rachel",
+    "text": "You."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0195",
+    "t": [
+      1043.049,
+      1045.343
+    ],
+    "speaker": "Ross",
+    "text": "Oh, you don't get it."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0196",
+    "t": [
+      1051.182,
+      1053.685
+    ],
+    "speaker": "Mr. Geller",
+    "text": "- Ah! - What do you got there?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0197",
+    "t": [
+      1053.768,
+      1057.897
+    ],
+    "speaker": "Joey",
+    "text": "Huh, just a, huh.....hearing disability."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0198",
+    "t": [
+      1057.981,
+      1059.315
+    ],
+    "speaker": "Mr. Geller",
+    "text": "What's the score?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0199",
+    "t": [
+      1060.567,
+      1063.862
+    ],
+    "speaker": "Joey",
+    "text": "17-14, Giants. Three minutes to go on the third."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0200",
+    "t": [
+      1063.945,
+      1065.363
+    ],
+    "speaker": "Mr. Geller",
+    "text": "Beautiful."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0201",
+    "t": [
+      1073.83,
+      1076.499
+    ],
+    "speaker": "Rachel",
+    "text": "Pheebs.....could you maybe hand me a cracker?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0202",
+    "t": [
+      1076.583,
+      1078.126
+    ],
+    "speaker": "unknown",
+    "text": "Okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0203",
+    "t": [
+      1079.961,
+      1082.797
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Grandmother would have hated this."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0204",
+    "t": [
+      1082.839,
+      1086.342
+    ],
+    "speaker": "Monica",
+    "text": "Well, sure. Well, with it being her funeral and all."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0205",
+    "t": [
+      1087.969,
+      1100.648
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "No, I'd be hearing about Why I didn't get the honey glazed ham or I didn't spend enough on flowers. 'And if I spent more she would be saying' Why you wasting your money, I don't need flowers, I'm dead."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0206",
+    "t": [
+      1101.691,
+      1103.318
+    ],
+    "speaker": "Monica",
+    "text": "That sounds like nana."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0207",
+    "t": [
+      1104.986,
+      1112.994
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Do you know what it's like to grow up with someone who is critical of every single thing you say."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0208",
+    "t": [
+      1115.121,
+      1117.373
+    ],
+    "speaker": "Monica",
+    "text": "I can imagine."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0209",
+    "t": [
+      1117.415,
+      1123.963
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "I'm telling you it's a wonder your mother turned out to be the positive life affirming person she is."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0210",
+    "t": [
+      1125.632,
+      1127.425
+    ],
+    "speaker": "Monica",
+    "text": "That is a wonder."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0211",
+    "t": [
+      1130.094,
+      1131.679
+    ],
+    "speaker": "Monica",
+    "text": "So tell me something, mom."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0212",
+    "t": [
+      1133.264,
+      1140.73
+    ],
+    "speaker": "Monica",
+    "text": "If you had to do it all over again I mean if she was here right now would you tell her?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0213",
+    "t": [
+      1140.814,
+      1142.941
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Tell her what?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0214",
+    "t": [
+      1143.024,
+      1150.406
+    ],
+    "speaker": "Monica",
+    "text": "How she drove you crazy. Picking on every little detail like your hair for example."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0215",
+    "t": [
+      1150.49,
+      1154.41
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "I'm not sure I know what you're getting at."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0216",
+    "t": [
+      1155.662,
+      1159.332
+    ],
+    "speaker": "Monica",
+    "text": "Do you think things would have been better if you just told her the truth?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0217",
+    "t": [
+      1163.253,
+      1164.295
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "No."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0218",
+    "t": [
+      1166.172,
+      1171.678
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "I think something's are better left unsaid. I think it's nice when people just get along."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0219",
+    "t": [
+      1174.556,
+      1175.932
+    ],
+    "speaker": "unknown",
+    "text": "Ha."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0220",
+    "t": [
+      1175.974,
+      1176.933
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "More wine, dear?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0221",
+    "t": [
+      1177.016,
+      1179.06
+    ],
+    "speaker": "Monica",
+    "text": "Oh, I think so."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0222",
+    "t": [
+      1187.068,
+      1190.321
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Those earrings look really lovely on you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0223",
+    "t": [
+      1192.073,
+      1196.161
+    ],
+    "speaker": "Monica",
+    "text": "Thank you. Their yours."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0224",
+    "t": [
+      1196.244,
+      1198.329
+    ],
+    "speaker": "Mrs. Geller",
+    "text": "Actually they were nana's."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0225",
+    "t": [
+      1200.206,
+      1203.084
+    ],
+    "speaker": "together",
+    "text": "'No!' Oh, my God."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0226",
+    "t": [
+      1203.126,
+      1205.128
+    ],
+    "speaker": "Mr. Geller",
+    "text": "Now, I'm depressed."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0227",
+    "t": [
+      1209.257,
+      1211.134
+    ],
+    "speaker": "Mr. Geller",
+    "text": "Even more than I was."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0228",
+    "t": [
+      1219.267,
+      1221.478
+    ],
+    "speaker": "Rachel",
+    "text": "Hey, who's this little naked guy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0229",
+    "t": [
+      1221.519,
+      1224.105
+    ],
+    "speaker": "Ross",
+    "text": "Ah, that little naked guy would be me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0230",
+    "t": [
+      1224.147,
+      1228.067
+    ],
+    "speaker": "Rachel",
+    "text": "- Oh! Look at the little thing. - Yes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0231",
+    "t": [
+      1229.944,
+      1235.825
+    ],
+    "speaker": "Ross",
+    "text": "Yes, fine that is my penis. Can we be grownups now?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0232",
+    "t": [
+      1235.909,
+      1238.286
+    ],
+    "speaker": "Chandler",
+    "text": "- Who are those people? - Got me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0233",
+    "t": [
+      1238.328,
+      1240.955
+    ],
+    "speaker": "Monica",
+    "text": "Oh, that's nana right there in the middle."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0234",
+    "t": [
+      1240.997,
+      1243.5
+    ],
+    "speaker": "unknown",
+    "text": "Wow! Yeah, let's see."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0235",
+    "t": [
+      1243.541,
+      1246.294
+    ],
+    "speaker": "Monica",
+    "text": "\"Me and the gang at Java Joes.\""
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0236",
+    "t": [
+      1246.336,
+      1250.34
+    ],
+    "speaker": "Rachel",
+    "text": "Wow, Monica you look just like your grandmother. How old was she there?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0237",
+    "t": [
+      1250.381,
+      1254.636
+    ],
+    "speaker": "Monica",
+    "text": "- Let's see, \"1939.\" - \"39.\" - Yeah, huh, 24, 25. - Yeah."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0238",
+    "t": [
+      1254.677,
+      1255.804
+    ],
+    "speaker": "unknown",
+    "text": "Huh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0239",
+    "t": [
+      1255.845,
+      1257.639
+    ],
+    "speaker": "Ross",
+    "text": "It's like a fun game."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0240",
+    "t": [
+      1263.52,
+      1267.106
+    ],
+    "speaker": "Joey",
+    "text": "Ou, look, look, look, look, I got Monica naked."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0241",
+    "t": [
+      1267.19,
+      1270.443
+    ],
+    "speaker": "unknown",
+    "text": "- Let me see. - Let me see."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0242",
+    "t": [
+      1270.527,
+      1272.362
+    ],
+    "speaker": "Ross",
+    "text": "No, no, that would be me again."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0243",
+    "t": [
+      1277.492,
+      1279.744
+    ],
+    "speaker": "Ross",
+    "text": "I'm, huh, just trying something."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0244",
+    "t": [
+      1290.797,
+      1292.131
+    ],
+    "speaker": "Chandler",
+    "text": "Hey, Lowell."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0245",
+    "t": [
+      1292.215,
+      1294.217
+    ],
+    "speaker": "Lowell",
+    "text": "Oh, hey, Chandler."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0246",
+    "t": [
+      1295.677,
+      1298.388
+    ],
+    "speaker": "Chandler",
+    "text": "So how's it going down there at financials services?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0247",
+    "t": [
+      1298.429,
+      1303.226
+    ],
+    "speaker": "Lowell",
+    "text": "It's like Mardi Gras with other paper mache heads. How about you?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0248",
+    "t": [
+      1303.268,
+      1309.774
+    ],
+    "speaker": "Chandler",
+    "text": "Good, good, listen, um.....I don't know what Shelly told you about me but.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0249",
+    "t": [
+      1311.526,
+      1313.862
+    ],
+    "speaker": "Chandler",
+    "text": "...I'm not."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0250",
+    "t": [
+      1313.903,
+      1315.488
+    ],
+    "speaker": "Lowell",
+    "text": "I know, that's what I told her."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0251",
+    "t": [
+      1316.531,
+      1320.785
+    ],
+    "speaker": "Chandler",
+    "text": "- Really? - Yup. So, you can tell?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0252",
+    "t": [
+      1322.537,
+      1327.125
+    ],
+    "speaker": "Lowell",
+    "text": "Pretty much. Most of the time. We have a kind of radar."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0253",
+    "t": [
+      1329.043,
+      1332.922
+    ],
+    "speaker": "Chandler",
+    "text": "So you don't think I have a.. A quality?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0254",
+    "t": [
+      1333.006,
+      1336.843
+    ],
+    "speaker": "Lowell",
+    "text": "Speaking from my people I'd have to say, no."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0255",
+    "t": [
+      1339.262,
+      1343.183
+    ],
+    "speaker": "Lowell",
+    "text": "By the way, your friend Brian from payroll he is."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0256",
+    "t": [
+      1343.266,
+      1344.267
+    ],
+    "speaker": "Chandler",
+    "text": "- He is? - Yup."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0257",
+    "t": [
+      1344.35,
+      1346.686
+    ],
+    "speaker": "Lowell",
+    "text": "And way out of your league."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E08",
+    "unit_id": "u0258",
+    "t": [
+      1349.939,
+      1358.156
+    ],
+    "speaker": "Chandler",
+    "text": "Out of my league. I could get a Brian. If I wanted to get a Brian, I could get a Brian. Hey, Brain."
+  }
+]

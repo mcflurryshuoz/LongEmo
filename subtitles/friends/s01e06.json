@@ -1,0 +1,2664 @@
+[
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0001",
+    "t": [
+      6.279,
+      10.241
+    ],
+    "speaker": "Rachel",
+    "text": "Oh, look! Look! Look! There's Joey's picture. This is so exciting."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0002",
+    "t": [
+      10.325,
+      15.997
+    ],
+    "speaker": "Chandler",
+    "text": "You can always spot someone who's never seen one of his plays before. Notice, no fear, no sense of impending doom."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0003",
+    "t": [
+      16.08,
+      21.21
+    ],
+    "speaker": "Phoebe",
+    "text": "The exclamation point in the title scares me. You know, it's not just Freud, it's Freud!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0004",
+    "t": [
+      21.294,
+      24.005
+    ],
+    "speaker": "Ross",
+    "text": "Oh. Shh, shh, shh. The magic is about to happen."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0005",
+    "t": [
+      25.131,
+      37.852
+    ],
+    "speaker": "Joey",
+    "text": "Well, Eva. We've done some excellent work here 'and I would have to say' your problem is quite clear."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0006",
+    "t": [
+      110.675,
+      114.262
+    ],
+    "speaker": "Rachel",
+    "text": "Ugh, I feel violated."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0007",
+    "t": [
+      114.303,
+      118.808
+    ],
+    "speaker": "Monica",
+    "text": "Did anybody else feel like they just wanted to peel the skin off their body to have something else to do?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0008",
+    "t": [
+      118.891,
+      120.059
+    ],
+    "speaker": "unknown",
+    "text": "Yes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0009",
+    "t": [
+      120.101,
+      121.31
+    ],
+    "speaker": "Chandler",
+    "text": "Ross, 10:00."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0010",
+    "t": [
+      121.394,
+      123.354
+    ],
+    "speaker": "Ross",
+    "text": "Is it? Feels like 2:00."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0011",
+    "t": [
+      124.605,
+      126.566
+    ],
+    "speaker": "Chandler",
+    "text": "No, 10:00."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0012",
+    "t": [
+      126.607,
+      128.151
+    ],
+    "speaker": "Ross",
+    "text": "What?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0013",
+    "t": [
+      128.234,
+      131.446
+    ],
+    "speaker": "Chandler",
+    "text": "There's a beautiful woman at 8, 9, 10 o'clock."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0014",
+    "t": [
+      133.156,
+      135.491
+    ],
+    "speaker": "Ross",
+    "text": "'Oh. Hello.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0015",
+    "t": [
+      135.575,
+      140.455
+    ],
+    "speaker": "Chandler",
+    "text": "She's amazing! She makes the women I dream about look like short, fat, bald men."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0016",
+    "t": [
+      141.789,
+      143.499
+    ],
+    "speaker": "Monica",
+    "text": "Well, go over to her. She's not with anyone."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0017",
+    "t": [
+      143.583,
+      146.961
+    ],
+    "speaker": "Chandler",
+    "text": "Oh. Yeah. Right. And what would my opening line be? Excuse me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0018",
+    "t": [
+      148.838,
+      151.799
+    ],
+    "speaker": "Rachel",
+    "text": "Aww. Come on, she's a person. You can do it."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0019",
+    "t": [
+      151.841,
+      155.553
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, please, could she be more out of my league? Ross, back me up here."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0020",
+    "t": [
+      155.636,
+      157.638
+    ],
+    "speaker": "Ross",
+    "text": "He could never get a woman like that in a million years."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0021",
+    "t": [
+      157.68,
+      159.974
+    ],
+    "speaker": "Chandler",
+    "text": "Thank you, buddy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0022",
+    "t": [
+      160.058,
+      166.147
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, oh, but you know, you always see these really beautiful women with these really nothing guys. You could be one of those guys."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0023",
+    "t": [
+      167.648,
+      168.983
+    ],
+    "speaker": "Monica",
+    "text": "- You could do that. - You think?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0024",
+    "t": [
+      169.025,
+      170.61
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- Yeah. - 'Absolutely.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0025",
+    "t": [
+      170.651,
+      175.031
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, God, I can't believe I'm even considering this. I'm very, very aware of my tongue."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0026",
+    "t": [
+      175.114,
+      176.657
+    ],
+    "speaker": "unknown",
+    "text": "Come on, come on."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0027",
+    "t": [
+      176.699,
+      178.201
+    ],
+    "speaker": "Chandler",
+    "text": "Here goes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0028",
+    "t": [
+      183.081,
+      185.124
+    ],
+    "speaker": "Aurora",
+    "text": "- Yes? - Hi."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0029",
+    "t": [
+      185.166,
+      195.843
+    ],
+    "speaker": "Chandler",
+    "text": "Um... Okay next word would be... Uh, Chandler. Chandler is my name. And uh.. Hi."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0030",
+    "t": [
+      197.428,
+      198.679
+    ],
+    "speaker": "Aurora",
+    "text": "Yes, you said that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0031",
+    "t": [
+      198.721,
+      205.812
+    ],
+    "speaker": "Chandler",
+    "text": "Yes! Yes, I did. But what I didn't say was what I was about to say, what I wanted to say was, uh would you like to go out with me some time?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0032",
+    "t": [
+      205.853,
+      207.188
+    ],
+    "speaker": "unknown",
+    "text": "Thank you. Good night."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0033",
+    "t": [
+      208.272,
+      209.774
+    ],
+    "speaker": "Aurora",
+    "text": "Chandler?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0034",
+    "t": [
+      212.068,
+      214.737
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Hey! I didn't know you could dance."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0035",
+    "t": [
+      216.739,
+      220.368
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "What'd you think? I didn't know you could dance."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0036",
+    "t": [
+      222.286,
+      229.502
+    ],
+    "speaker": "Joey",
+    "text": "Come on, you guys. It wasn't that bad, I was the lead. It was better than that thing I did with the trolls. At least you got to see my head."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0037",
+    "t": [
+      229.544,
+      231.921
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- You're right. - Saw your head."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0038",
+    "t": [
+      232.004,
+      233.756
+    ],
+    "speaker": "Chandler",
+    "text": "She said yes! She said yes!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0039",
+    "t": [
+      233.84,
+      234.924
+    ],
+    "speaker": "unknown",
+    "text": "- Wow! - Great!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0040",
+    "t": [
+      235.007,
+      236.425
+    ],
+    "speaker": "Chandler",
+    "text": "Awful play, man."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0041",
+    "t": [
+      236.509,
+      237.635
+    ],
+    "speaker": "unknown",
+    "text": "Whoa!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0042",
+    "t": [
+      239.345,
+      248.896
+    ],
+    "speaker": "Chandler",
+    "text": "Her name's Aurora and she's Italian and she pronounces my name Chand-ler. Chand-ler. I think I like it better that way. Oh, listen, the usher gave me this to give to you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0043",
+    "t": [
+      248.98,
+      249.939
+    ],
+    "speaker": "Rachel",
+    "text": "What is it?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0044",
+    "t": [
+      250.022,
+      255.194
+    ],
+    "speaker": "Joey",
+    "text": "\"Estelle-Leonard Talent Agency.\" Wow, an agency left me its card. Maybe they want to sign me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0045",
+    "t": [
+      255.236,
+      256.654
+    ],
+    "speaker": "Phoebe",
+    "text": "Based on this play?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0046",
+    "t": [
+      259.24,
+      260.867
+    ],
+    "speaker": "Phoebe",
+    "text": "Based on this play!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0047",
+    "t": [
+      270.209,
+      271.335
+    ],
+    "speaker": "Chandler",
+    "text": "Hey, kids."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0048",
+    "t": [
+      271.419,
+      272.42
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- Hi, Chandler. - Hey."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0049",
+    "t": [
+      272.503,
+      276.132
+    ],
+    "speaker": "Phoebe",
+    "text": "No, 'cause this line is passion. And this is just a line."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0050",
+    "t": [
+      276.215,
+      280.386
+    ],
+    "speaker": "Chandler",
+    "text": "Well, I can't believe I've been here almost seven seconds and you haven't asked me how my date went."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0051",
+    "t": [
+      280.428,
+      284.098
+    ],
+    "speaker": "Monica",
+    "text": "How was your date, Chand-ler?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0052",
+    "t": [
+      284.14,
+      290.855
+    ],
+    "speaker": "Chandler",
+    "text": "It was unbelievable. I've-I've never met anyone like her. She's had the most amazing life. She was in the Israeli army..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0053",
+    "t": [
+      290.938,
+      306.12
+    ],
+    "speaker": "Aurora",
+    "text": "Luckily, none of the bullets hit the engine block. So, we made it to the border but just barely, and I... I.. I've been talking about myself all night long. I'm sorry. What about you? Tell me one of your stories."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0054",
+    "t": [
+      306.204,
+      307.455
+    ],
+    "speaker": "unknown",
+    "text": "All right, once.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0055",
+    "t": [
+      307.538,
+      314.462
+    ],
+    "speaker": "Chandler",
+    "text": "Once I got on the subway, right? And it was at night. And I rode it all the way to Brooklyn."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0056",
+    "t": [
+      316.088,
+      323.638
+    ],
+    "speaker": "Chandler",
+    "text": "Just for the hell of it. We talked till, like, 2:00. It was this perfect evening. More or less."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0057",
+    "t": [
+      323.721,
+      326.432
+    ],
+    "speaker": "Aurora",
+    "text": "All of sudden, we realize we're in Yemen."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0058",
+    "t": [
+      326.474,
+      328.893
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, I'm sorry. So we is?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0059",
+    "t": [
+      328.976,
+      330.186
+    ],
+    "speaker": "Aurora",
+    "text": "We would be me and Rick."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0060",
+    "t": [
+      330.269,
+      331.729
+    ],
+    "speaker": "Joey",
+    "text": "Who's Rick?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0061",
+    "t": [
+      331.812,
+      332.98
+    ],
+    "speaker": "Chandler",
+    "text": "Who's Rick?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0062",
+    "t": [
+      334.148,
+      335.149
+    ],
+    "speaker": "Aurora",
+    "text": "My husband."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0063",
+    "t": [
+      335.191,
+      337.443
+    ],
+    "speaker": "together",
+    "text": "Ooh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0064",
+    "t": [
+      337.485,
+      339.07
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, so, so you're divorced?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0065",
+    "t": [
+      339.153,
+      340.78
+    ],
+    "speaker": "Aurora",
+    "text": "No."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0066",
+    "t": [
+      340.821,
+      343.991
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, I'm.. I'm sorry. So, so you're widowed, hopefully?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0067",
+    "t": [
+      345.284,
+      346.786
+    ],
+    "speaker": "Aurora",
+    "text": "No, I'm still married."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0068",
+    "t": [
+      348.496,
+      357.838
+    ],
+    "speaker": "Chandler",
+    "text": "So, uh, tell me, how do-how do you think your husband would feel about you sitting here with me? Sliding your foot so far up my pant leg you can count the change in my pocket?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0069",
+    "t": [
+      359.84,
+      364.47
+    ],
+    "speaker": "Aurora",
+    "text": "Don't worry. I imagine he'd be okay with you because really he's okay with Ethan."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0070",
+    "t": [
+      366.097,
+      369.141
+    ],
+    "speaker": "Chandler",
+    "text": "Ethan? There's.. There's an Ethan?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0071",
+    "t": [
+      369.183,
+      373.271
+    ],
+    "speaker": "Aurora",
+    "text": "Mm. Ethan is my.....boyfriend."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0072",
+    "t": [
+      373.354,
+      374.689
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "What?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0073",
+    "t": [
+      376.482,
+      383.03
+    ],
+    "speaker": "Chandler",
+    "text": "So explain something to me here, um.. What kind of relationship do you imagine us having if you already have a husband and a boyfriend?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0074",
+    "t": [
+      383.072,
+      385.533
+    ],
+    "speaker": "Aurora",
+    "text": "I suppose mainly sexual."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0075",
+    "t": [
+      387.034,
+      389.328
+    ],
+    "speaker": "unknown",
+    "text": "Huh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0076",
+    "t": [
+      389.37,
+      391.038
+    ],
+    "speaker": "Monica",
+    "text": "Aw, I'm sorry it didn't work out."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0077",
+    "t": [
+      391.122,
+      396.794
+    ],
+    "speaker": "Chandler",
+    "text": "What not work out? I'm seeing her on Thursday. Didn't you listen to the story?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0078",
+    "t": [
+      398.629,
+      403.175
+    ],
+    "speaker": "Monica",
+    "text": "Didn't you listen to the story? I mean, this is twisted, how could you get involved with a woman like this?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0079",
+    "t": [
+      403.217,
+      412.643
+    ],
+    "speaker": "Chandler",
+    "text": "Well, you know I had trouble with it at first too but the way I look at it is I get all the good stuff. All the fun, all the talking, all the sex and none of the responsibility."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0080",
+    "t": [
+      413.894,
+      416.063
+    ],
+    "speaker": "unknown",
+    "text": "I mean, this is every guy's fantasy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0081",
+    "t": [
+      416.105,
+      418.899
+    ],
+    "speaker": "Phoebe",
+    "text": "Oh, yeah, that is not true. Ross, is this your fantasy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0082",
+    "t": [
+      418.983,
+      420.693
+    ],
+    "speaker": "Ross",
+    "text": "No, of course not."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0083",
+    "t": [
+      422.987,
+      425.156
+    ],
+    "speaker": "Ross",
+    "text": "Yeah. Yeah, it is."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0084",
+    "t": [
+      425.239,
+      429.452
+    ],
+    "speaker": "Monica",
+    "text": "So you don't mind going out with someone else who's going out with someone else?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0085",
+    "t": [
+      429.535,
+      430.536
+    ],
+    "speaker": "Joey",
+    "text": "I couldn't do it."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0086",
+    "t": [
+      430.578,
+      431.912
+    ],
+    "speaker": "Monica",
+    "text": "Good for you, Joey."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0087",
+    "t": [
+      431.996,
+      436.542
+    ],
+    "speaker": "Joey",
+    "text": "When I'm with a woman I need to know that I'm going out with more people than she is."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0088",
+    "t": [
+      437.96,
+      443.799
+    ],
+    "speaker": "Ross",
+    "text": "Well, you know monogamy can be a, uh, tricky concept. I mean, anthropologically speaking.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0089",
+    "t": [
+      446.594,
+      448.763
+    ],
+    "speaker": "Ross",
+    "text": "Fine, fine. Alright, now you'll never know."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0090",
+    "t": [
+      448.804,
+      450.431
+    ],
+    "speaker": "Monica",
+    "text": "We're kidding. Go. Tell us."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0091",
+    "t": [
+      450.514,
+      452.183
+    ],
+    "speaker": "Joey",
+    "text": "'Come on, Ross.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0092",
+    "t": [
+      452.266,
+      456.062
+    ],
+    "speaker": "Ross",
+    "text": "All right. There's a theory put forth by Richard Leakey..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0093",
+    "t": [
+      465.404,
+      467.448
+    ],
+    "speaker": "unknown",
+    "text": "Ta-da!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0094",
+    "t": [
+      467.531,
+      470.576
+    ],
+    "speaker": "Chandler",
+    "text": "Are we greeting each other this way now because I like that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0095",
+    "t": [
+      472.203,
+      481.545
+    ],
+    "speaker": "Rachel",
+    "text": "Look. I cleaned! I did the windows. I did the floors! I even used all those attachments on the vacuum except for that little round one with the bristles. I don't know what that's for."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0096",
+    "t": [
+      481.629,
+      485.091
+    ],
+    "speaker": "Ross",
+    "text": "Ah, yeah. Nobody knows. And we're not supposed to ask."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0097",
+    "t": [
+      485.132,
+      486.467
+    ],
+    "speaker": "Rachel",
+    "text": "Well, what do you think?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0098",
+    "t": [
+      486.509,
+      490.054
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- Very clean. - It's great! - Really, it looks great. - Very clean."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0099",
+    "t": [
+      492.431,
+      496.435
+    ],
+    "speaker": "Monica",
+    "text": "Oh, I see you moved the green ottoman."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0100",
+    "t": [
+      496.477,
+      498.145
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Uh-oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0101",
+    "t": [
+      500.272,
+      501.732
+    ],
+    "speaker": "Monica",
+    "text": "H-how did that happen?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0102",
+    "t": [
+      503.109,
+      508.906
+    ],
+    "speaker": "Rachel",
+    "text": "I don't know. I-I thought it looked better there. And I.. Also it's an extra seat around the coffee table."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0103",
+    "t": [
+      509.865,
+      527.883
+    ],
+    "speaker": "Monica",
+    "text": "Yeah, it's-it's interesting. But you know what? Just for fun. Let's see what it looked like in the old spot. Just to compare. Let's see. Ha. Well, it looks good there too. Let's just leave it there for a while."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0104",
+    "t": [
+      529.26,
+      532.888
+    ],
+    "speaker": "Phoebe",
+    "text": "Can't believe you tried to move the green ottoman."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0105",
+    "t": [
+      532.972,
+      537.643
+    ],
+    "speaker": "Chandler",
+    "text": "Thank God you didn't try to fan out the magazines. I mean, she'll scratch your eyes right out."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0106",
+    "t": [
+      537.685,
+      539.77
+    ],
+    "speaker": "Monica",
+    "text": "Guys, I am not that bad."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0107",
+    "t": [
+      539.854,
+      545.86
+    ],
+    "speaker": "Phoebe",
+    "text": "Yeah, you are, Monica. Remember when I lived with you? You were like a little, you know.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0108",
+    "t": [
+      550.156,
+      551.49
+    ],
+    "speaker": "Monica",
+    "text": "That is so unfair."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0109",
+    "t": [
+      551.532,
+      556.704
+    ],
+    "speaker": "Ross",
+    "text": "Oh, come on. When we were kids yours was the only Raggedy Ann doll that wasn't raggedy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0110",
+    "t": [
+      558.247,
+      563.169
+    ],
+    "speaker": "Monica",
+    "text": "Okay, so I'm responsible. I'm organized. But, hey, I can be a kook."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0111",
+    "t": [
+      563.21,
+      564.545
+    ],
+    "speaker": "unknown",
+    "text": "Oh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0112",
+    "t": [
+      565.588,
+      567.715
+    ],
+    "speaker": "Ross",
+    "text": "Alright, you madcap gal."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0113",
+    "t": [
+      569.216,
+      574.472
+    ],
+    "speaker": "Ross",
+    "text": "Try to imagine this. The phone bill arrives but you don't pay it right away."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0114",
+    "t": [
+      574.555,
+      575.598
+    ],
+    "speaker": "Monica",
+    "text": "Why not?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0115",
+    "t": [
+      575.681,
+      577.224
+    ],
+    "speaker": "Ross",
+    "text": "Because you're a kook."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0116",
+    "t": [
+      579.059,
+      582.646
+    ],
+    "speaker": "Ross",
+    "text": "Instead, you wait until they send you a notice."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0117",
+    "t": [
+      582.73,
+      584.064
+    ],
+    "speaker": "Monica",
+    "text": "I could do that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0118",
+    "t": [
+      584.148,
+      594.158
+    ],
+    "speaker": "Rachel",
+    "text": "Okay, okay, then you let me go grocery shopping and I buy laundry detergent but it's not the one with the easy-pour spout."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0119",
+    "t": [
+      594.241,
+      595.993
+    ],
+    "speaker": "Monica",
+    "text": "Why would someone do that?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0120",
+    "t": [
+      598.245,
+      600.164
+    ],
+    "speaker": "Monica",
+    "text": "One might wonder."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0121",
+    "t": [
+      600.247,
+      610.466
+    ],
+    "speaker": "Chandler",
+    "text": "Someone's left a glass on the coffee table. There's no coaster. It's a cold drink, it's a hot day. Little beads of condensation are inching their way closer and closer to the surface of the wood."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0122",
+    "t": [
+      610.549,
+      611.884
+    ],
+    "speaker": "Monica",
+    "text": "Stop it!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0123",
+    "t": [
+      615.346,
+      619.308
+    ],
+    "speaker": "Monica",
+    "text": "Oh, my God. It's true. Who am I?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0124",
+    "t": [
+      619.391,
+      621.435
+    ],
+    "speaker": "Ross",
+    "text": "Monica, you're mom."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0125",
+    "t": [
+      626.815,
+      635.115
+    ],
+    "speaker": "Joey",
+    "text": "Uh-huh. Uh-huh. 'Oh, my God!' Okay! Okay, I'll be there."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0126",
+    "t": [
+      637.66,
+      639.119
+    ],
+    "speaker": "Joey",
+    "text": "That was my agent."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0127",
+    "t": [
+      640.955,
+      646.043
+    ],
+    "speaker": "Joey",
+    "text": "My agent has just gotten me a job in the new Al Pacino movie!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0128",
+    "t": [
+      646.126,
+      649.046
+    ],
+    "speaker": "unknown",
+    "text": "- What? - You're kidding!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0129",
+    "t": [
+      649.129,
+      651.131
+    ],
+    "speaker": "Monica",
+    "text": "- What's the part? - Can you believe this?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0130",
+    "t": [
+      651.215,
+      659.64
+    ],
+    "speaker": "Joey",
+    "text": "Al Pacino! This guy's the reason I became an actor. \"I'm out of order? Pha.\" \"You're out of order!\" \"This whole courtroom's out of order!\""
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0131",
+    "t": [
+      661.016,
+      662.726
+    ],
+    "speaker": "Phoebe",
+    "text": "Seriously, what-what's the part?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0132",
+    "t": [
+      662.81,
+      666.981
+    ],
+    "speaker": "Joey",
+    "text": "\"Just when I thought I was out\" \"they pull me back in.\""
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0133",
+    "t": [
+      667.064,
+      669.275
+    ],
+    "speaker": "Ross",
+    "text": "Come on, seriously, Joey, what's the part?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0134",
+    "t": [
+      669.316,
+      670.651
+    ],
+    "speaker": "unknown",
+    "text": "Uh.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0135",
+    "t": [
+      672.361,
+      674.572
+    ],
+    "speaker": "Rachel",
+    "text": "You're.....what?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0136",
+    "t": [
+      676.031,
+      678.742
+    ],
+    "speaker": "Joey",
+    "text": "I'm his butt double, okay?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0137",
+    "t": [
+      682.746,
+      685.291
+    ],
+    "speaker": "Joey",
+    "text": "I play Al Pacino's butt."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0138",
+    "t": [
+      687.585,
+      692.298
+    ],
+    "speaker": "Joey",
+    "text": "Alright? He goes into the shower and then I'm his butt."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0139",
+    "t": [
+      693.716,
+      696.51
+    ],
+    "speaker": "Monica",
+    "text": "- Oh, my God. - Come on, you guys."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0140",
+    "t": [
+      696.552,
+      699.847
+    ],
+    "speaker": "Joey",
+    "text": "This is a real movie and Al Pacino's in it and that's big."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0141",
+    "t": [
+      699.93,
+      706.812
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, no, it's terrific, it's, it's.. You know, you deserve this, after all your years of struggling you've finally been able to crack your way into show business."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0142",
+    "t": [
+      710.232,
+      714.82
+    ],
+    "speaker": "Joey",
+    "text": "Okay, fine, make jokes. I don't care. This is a big break for me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0143",
+    "t": [
+      714.862,
+      719.533
+    ],
+    "speaker": "Ross",
+    "text": "No, you're right, you're right, it is. So, you gonna invite us all to the big opening?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0144",
+    "t": [
+      729.251,
+      730.753
+    ],
+    "speaker": "Monica",
+    "text": "'Alright, alright.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0145",
+    "t": [
+      732.713,
+      734.798
+    ],
+    "speaker": "Joey",
+    "text": "Here. I need to borrow some moisturizer."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0146",
+    "t": [
+      734.882,
+      736.3
+    ],
+    "speaker": "Monica",
+    "text": "- For what? - What do you think?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0147",
+    "t": [
+      736.383,
+      738.093
+    ],
+    "speaker": "Joey",
+    "text": "Today's the big day!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0148",
+    "t": [
+      738.177,
+      744.391
+    ],
+    "speaker": "Monica",
+    "text": "Oh, God. Okay, go into the bathroom. Use whatever you want. Just don't ever tell me what you did in there."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0149",
+    "t": [
+      744.433,
+      745.768
+    ],
+    "speaker": "Joey",
+    "text": "'Thank you!'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0150",
+    "t": [
+      748.228,
+      749.48
+    ],
+    "speaker": "Chandler",
+    "text": "Where's Joey? His mom's at the phone."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0151",
+    "t": [
+      749.563,
+      751.94
+    ],
+    "speaker": "Monica",
+    "text": "- He's in the bathroom. - Right. I don't think you wanna go in there!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0152",
+    "t": [
+      752.024,
+      753.734
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, come on, we're roommates."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0153",
+    "t": [
+      755.903,
+      758.405
+    ],
+    "speaker": "Chandler",
+    "text": "My eyes! My eyes!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0154",
+    "t": [
+      760.908,
+      762.66
+    ],
+    "speaker": "Monica",
+    "text": "'I warned you.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0155",
+    "t": [
+      762.743,
+      764.495
+    ],
+    "speaker": "Rachel",
+    "text": "Who is being loud?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0156",
+    "t": [
+      764.578,
+      770.167
+    ],
+    "speaker": "Chandler",
+    "text": "Oh, that would be Monica. Hey, listen. Can I borrow a couple of things? Aurora spent the night. I really wanna make her breakfast."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0157",
+    "t": [
+      770.25,
+      772.086
+    ],
+    "speaker": "Monica",
+    "text": "Oh! You got the whole night, huh?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0158",
+    "t": [
+      772.127,
+      775.089
+    ],
+    "speaker": "Chandler",
+    "text": "Yeah, well I only have 20 minutes until Ethan, so, you know.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0159",
+    "t": [
+      775.172,
+      777.841
+    ],
+    "speaker": "Rachel",
+    "text": "Ooh! Do I sense a little bit of resentment?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0160",
+    "t": [
+      777.925,
+      797.194
+    ],
+    "speaker": "Chandler",
+    "text": "No, no, no. No resentment. Believe me. It's worth it, okay? You know how in a relationship, you have these key moments that you know you'll remember for the rest of your life? Well, every single second is like that with Aurora. And I've just wasted about 35 of them talking to you people. So, uh.. Monica can you help me with the door?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0161",
+    "t": [
+      797.277,
+      805.077
+    ],
+    "speaker": "Monica",
+    "text": "Sure. Oh. Um. Chandler. You know the-the old Monica w-would remind you to scrub that Teflon pan with a plastic brush."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0162",
+    "t": [
+      807.329,
+      809.289
+    ],
+    "speaker": "Monica",
+    "text": "But I'm not gonna do that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0163",
+    "t": [
+      814.628,
+      816.839
+    ],
+    "speaker": "Director",
+    "text": "Argh, look, damn it! Hire the girl."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0164",
+    "t": [
+      818.424,
+      820.217
+    ],
+    "speaker": "Director",
+    "text": "Okay, everybody ready?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0165",
+    "t": [
+      820.3,
+      825.389
+    ],
+    "speaker": "Joey",
+    "text": "Uh, listen, I just wanna thank you for this great opportunity."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0166",
+    "t": [
+      825.472,
+      826.807
+    ],
+    "speaker": "Director",
+    "text": "Lose the robe."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0167",
+    "t": [
+      827.641,
+      828.767
+    ],
+    "speaker": "Joey",
+    "text": "M-me?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0168",
+    "t": [
+      828.809,
+      830.477
+    ],
+    "speaker": "Director",
+    "text": "That would work."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0169",
+    "t": [
+      830.561,
+      833.105
+    ],
+    "speaker": "Joey",
+    "text": "Right. Okay. Losing the robe."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0170",
+    "t": [
+      834.815,
+      837.443
+    ],
+    "speaker": "Joey",
+    "text": "Okay, and the robe is lost."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0171",
+    "t": [
+      837.484,
+      846.41
+    ],
+    "speaker": "Director",
+    "text": "Okay, everybody, I would like to get this in one take, please. Let's roll it. Water's workin'. 'And..action.'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0172",
+    "t": [
+      848.412,
+      852.082
+    ],
+    "speaker": "Director",
+    "text": "'And cut.' Hey, butt guy, what the hell you doing?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0173",
+    "t": [
+      853.625,
+      855.002
+    ],
+    "speaker": "Joey",
+    "text": "I'm.. I'm showering."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0174",
+    "t": [
+      855.085,
+      857.337
+    ],
+    "speaker": "Director",
+    "text": "No, that was clenching."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0175",
+    "t": [
+      857.421,
+      867.431
+    ],
+    "speaker": "Joey",
+    "text": "Oh, well, the way I see it, the guy's upset here you know? I mean his wife's dead, his brother's missing. I think his butt would be angry here."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0176",
+    "t": [
+      867.514,
+      882.029
+    ],
+    "speaker": "Director",
+    "text": "I think his butt would like to get this shot before lunch. Once again. Rolling. Water working. 'And... action.' 'And... cut.' What was that?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0177",
+    "t": [
+      882.07,
+      888.452
+    ],
+    "speaker": "Joey",
+    "text": "I was going for quiet desperation. But if you have to ask.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0178",
+    "t": [
+      895.667,
+      897.669
+    ],
+    "speaker": "Chandler",
+    "text": "God, I love these fingers."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0179",
+    "t": [
+      897.711,
+      898.879
+    ],
+    "speaker": "Aurora",
+    "text": "Thank you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0180",
+    "t": [
+      898.962,
+      904.885
+    ],
+    "speaker": "Chandler",
+    "text": "No, actually, that.. My fingers. Look at them. Look at how happy they are."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0181",
+    "t": [
+      907.137,
+      910.307
+    ],
+    "speaker": "Aurora",
+    "text": "- Oh, my God, I'm late! - Oh, no, no, no.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0182",
+    "t": [
+      910.39,
+      912.851
+    ],
+    "speaker": "Chandler",
+    "text": "- Don't go, don't go. - Okay, okay."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0183",
+    "t": [
+      914.269,
+      919.566
+    ],
+    "speaker": "Aurora",
+    "text": "- Oh, no, I have to. - Look at that, she's leaving. I'm sorry. He'll be waiting for me."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0184",
+    "t": [
+      919.65,
+      921.568
+    ],
+    "speaker": "Chandler",
+    "text": "Well, I thought, I thought you talked to Rick."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0185",
+    "t": [
+      921.652,
+      923.487
+    ],
+    "speaker": "Aurora",
+    "text": "It's not Rick."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0186",
+    "t": [
+      923.57,
+      926.323
+    ],
+    "speaker": "Chandler",
+    "text": "But Ethan? He gets to spend the whole day with you!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0187",
+    "t": [
+      926.406,
+      928.158
+    ],
+    "speaker": "Aurora",
+    "text": "No, it's, it's Andrew."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0188",
+    "t": [
+      933.288,
+      941.296
+    ],
+    "speaker": "Chandler",
+    "text": "I know there'll be many moments in the years to come when I'll regret asking the following question, but.. And Andrew is?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0189",
+    "t": [
+      941.38,
+      944.466
+    ],
+    "speaker": "Aurora",
+    "text": "He's.....new."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0190",
+    "t": [
+      944.55,
+      949.012
+    ],
+    "speaker": "Chandler",
+    "text": "Uh, so what you're saying is, you're not completely fulfilled by Rick, Ethan and myself?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0191",
+    "t": [
+      949.096,
+      950.764
+    ],
+    "speaker": "Aurora",
+    "text": "No, that's not exactly what I was..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0192",
+    "t": [
+      950.848,
+      955.519
+    ],
+    "speaker": "Chandler",
+    "text": "Well, you know most women would kill for three guys like us."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0193",
+    "t": [
+      957.604,
+      958.939
+    ],
+    "speaker": "Aurora",
+    "text": "So what do you want?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0194",
+    "t": [
+      959.857,
+      960.816
+    ],
+    "speaker": "Chandler",
+    "text": "You."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0195",
+    "t": [
+      960.899,
+      961.859
+    ],
+    "speaker": "Aurora",
+    "text": "You have me!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0196",
+    "t": [
+      961.942,
+      963.944
+    ],
+    "speaker": "Chandler",
+    "text": "No, just you."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0197",
+    "t": [
+      963.986,
+      964.945
+    ],
+    "speaker": "Aurora",
+    "text": "What do you mean?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0198",
+    "t": [
+      965.028,
+      966.613
+    ],
+    "speaker": "Chandler",
+    "text": "Lose the other guys."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0199",
+    "t": [
+      967.948,
+      970.158
+    ],
+    "speaker": "Aurora",
+    "text": "Like, all of them?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0200",
+    "t": [
+      971.451,
+      974.872
+    ],
+    "speaker": "Chandler",
+    "text": "Come on, we're great together. Why not?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0201",
+    "t": [
+      974.955,
+      985.883
+    ],
+    "speaker": "Aurora",
+    "text": "Why can't we just have what we have now? Why can't we just talk, and laugh and make love without feeling obligated to one another? And up until tonight, I thought that's what you wanted too."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0202",
+    "t": [
+      987.467,
+      1008.655
+    ],
+    "speaker": "Chandler",
+    "text": "Well, you know, part of me wants that but.. It's like I'm two guys, you know? I mean, one guy's saying, Shut up! This is great! But there's this other guy. Actually, it's the guy who wells up every time the Grinch's heart grows three sizes and breaks that measuring device. He's saying you know, This is too hard. Get out, get out!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0203",
+    "t": [
+      1010.032,
+      1013.702
+    ],
+    "speaker": "Aurora",
+    "text": "So, which one of the two guys will you listen to?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0204",
+    "t": [
+      1013.785,
+      1017.664
+    ],
+    "speaker": "Chandler",
+    "text": "I don't know. I-I have to listen to both of them. They don't exactly let each other finish."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0205",
+    "t": [
+      1019.666,
+      1021.043
+    ],
+    "speaker": "Aurora",
+    "text": "Which one?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0206",
+    "t": [
+      1024.546,
+      1025.672
+    ],
+    "speaker": "Chandler",
+    "text": "The second guy."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0207",
+    "t": [
+      1027.049,
+      1029.384
+    ],
+    "speaker": "unknown",
+    "text": "I see."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0208",
+    "t": [
+      1029.468,
+      1030.594
+    ],
+    "speaker": "Aurora",
+    "text": "Well.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0209",
+    "t": [
+      1033.055,
+      1035.349
+    ],
+    "speaker": "Aurora",
+    "text": "Call me if you change your mind."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0210",
+    "t": [
+      1043.941,
+      1046.944
+    ],
+    "speaker": "Chandler",
+    "text": "Sorry, the first guy runs the lips."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0211",
+    "t": [
+      1052.824,
+      1054.159
+    ],
+    "speaker": "unknown",
+    "text": "Ugh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0212",
+    "t": [
+      1059.957,
+      1071.635
+    ],
+    "speaker": "Ross",
+    "text": "Look at it this way. You dumped her! Right? I mean, this-this woman was unbelievably sexy and beautiful, intelligent, unattainable.."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0213",
+    "t": [
+      1074.054,
+      1075.639
+    ],
+    "speaker": "Ross",
+    "text": "Tell me why you did this again."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0214",
+    "t": [
+      1077.557,
+      1078.725
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- 'Hey!' - 'Hey!'"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0215",
+    "t": [
+      1078.767,
+      1081.269
+    ],
+    "speaker": "unknown",
+    "text": "Movie star! Hey. Wait, wait."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0216",
+    "t": [
+      1081.353,
+      1084.398
+    ],
+    "speaker": "Monica",
+    "text": "Aren't you the guy who plays the butt in the new Al Pacino movie?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0217",
+    "t": [
+      1086.4,
+      1087.401
+    ],
+    "speaker": "Joey",
+    "text": "Nope."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0218",
+    "t": [
+      1087.442,
+      1090.028
+    ],
+    "speaker": "Ross",
+    "text": "No? What happened, big guy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0219",
+    "t": [
+      1090.07,
+      1091.53
+    ],
+    "speaker": "Chandler",
+    "text": "Big guy?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0220",
+    "t": [
+      1093.573,
+      1095.742
+    ],
+    "speaker": "Ross",
+    "text": "It felt like a big-guy moment."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0221",
+    "t": [
+      1096.91,
+      1101.581
+    ],
+    "speaker": "Joey",
+    "text": "- I got fired! - Oh! Yeah, they said I acted too much with it."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0222",
+    "t": [
+      1103.917,
+      1108.088
+    ],
+    "speaker": "Joey",
+    "text": "I told everybody about this. Now everyone's gonna go to the theatre expecting to see me..."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0223",
+    "t": [
+      1108.13,
+      1111.049
+    ],
+    "speaker": "Rachel",
+    "text": "Joey, you know what? No one is gonna be able to tell."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0224",
+    "t": [
+      1111.091,
+      1112.426
+    ],
+    "speaker": "Joey",
+    "text": "My mom will."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0225",
+    "t": [
+      1114.761,
+      1118.432
+    ],
+    "speaker": "Chandler",
+    "text": "Something so sweet and.....disturbing about that."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0226",
+    "t": [
+      1120.1,
+      1126.481
+    ],
+    "speaker": "Joey",
+    "text": "You know, I've done nothing but crappy plays for six years and I finally get my shot, and I blow it!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0227",
+    "t": [
+      1126.565,
+      1128.442
+    ],
+    "speaker": "Monica",
+    "text": "Wait a minute. Maybe this wasn't your shot."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0228",
+    "t": [
+      1128.525,
+      1135.782
+    ],
+    "speaker": "Ross",
+    "text": "Yeah. I-I think when it's your shot you know, you-you know it's your shot. Did... did it feel like your shot?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0229",
+    "t": [
+      1137.909,
+      1140.537
+    ],
+    "speaker": "Joey",
+    "text": "Hard to tell. I was naked."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0230",
+    "t": [
+      1140.62,
+      1156.511
+    ],
+    "speaker": "Phoebe",
+    "text": "You know, I don't think this was your shot. I mean, I don't even think you just get one shot. I really believe big things are gonna happen for you. I do. And you've gotta just keep thinking about the day that some kid is gonna run up to his friends and go I got the part! I got the part! I'm gonna be Joey Tribbiani's ass!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0231",
+    "t": [
+      1159.806,
+      1161.767
+    ],
+    "speaker": "Joey",
+    "text": "You think? That's so nice."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0232",
+    "t": [
+      1163.56,
+      1165.604
+    ],
+    "speaker": "unknown",
+    "text": "- Aw, come on. - Come here."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0233",
+    "t": [
+      1168.482,
+      1171.151
+    ],
+    "speaker": "Monica",
+    "text": "I'm sorry, Joey. I'm gonna go to bed, guys."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0234",
+    "t": [
+      1171.234,
+      1172.778
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "- Good night. - Good night, Monica."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0235",
+    "t": [
+      1172.819,
+      1175.447
+    ],
+    "speaker": "Rachel",
+    "text": "Uh, Mon, you, you're gonna leave your shoes out here?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0236",
+    "t": [
+      1177.449,
+      1178.617
+    ],
+    "speaker": "Monica",
+    "text": "Uh-huh."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0237",
+    "t": [
+      1180.16,
+      1186.166
+    ],
+    "speaker": "Rachel",
+    "text": "Really? Just-just casually strewn about in that reckless, haphazard manner?"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0238",
+    "t": [
+      1187.834,
+      1191.171
+    ],
+    "speaker": "Monica",
+    "text": "Doesn't matter. I'll get them tomorrow. Or not!"
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0239",
+    "t": [
+      1193.507,
+      1194.674
+    ],
+    "speaker": "Monica",
+    "text": "Whenever."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0240",
+    "t": [
+      1197.26,
+      1199.471
+    ],
+    "speaker": "Ross",
+    "text": "She is a kook."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0241",
+    "t": [
+      1213.86,
+      1217.364
+    ],
+    "speaker": "Monica",
+    "text": "If it bothers you that much just go out and get the shoes."
+  },
+  {
+    "series": "friends",
+    "ep": "S01E06",
+    "unit_id": "u0242",
+    "t": [
+      1219.366,
+      1237.884
+    ],
+    "speaker": "Monica",
+    "text": "No, don't do this! This is stupid! I don't have to prove anything. I'm gonna go get them. But then everyone will know. Unless I get them, and then wake up really early and put them back. Oh, I need help!"
+  }
+]

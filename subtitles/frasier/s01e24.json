@@ -1,0 +1,2840 @@
+[
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0001",
+    "t": [
+      10.173,
+      17.68
+    ],
+    "speaker": "Niles",
+    "text": "Calm down, dear. No. calm down. Listen. Take a left, then the second right. Then a left again."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0002",
+    "t": [
+      18.431,
+      20.516
+    ],
+    "speaker": "unknown",
+    "text": "Okay, okay. Goodbye, sweetheart."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0003",
+    "t": [
+      21.559,
+      22.517
+    ],
+    "speaker": "Frasier",
+    "text": "Maris lost again?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0004",
+    "t": [
+      22.518,
+      26.438
+    ],
+    "speaker": "Niles",
+    "text": "She wandered into the kitchen by mistake. I had to talk her back to the living room."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0005",
+    "t": [
+      26.439,
+      28.274
+    ],
+    "speaker": "unknown",
+    "text": "Ah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0006",
+    "t": [
+      30.401,
+      32.903
+    ],
+    "speaker": "Frasier",
+    "text": "It's kind of busy. Any chance of getting a table?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0007",
+    "t": [
+      32.904,
+      40.994
+    ],
+    "speaker": "Niles",
+    "text": "Uh, not at the moment. The table by the window received their check five minutes ago. But they've been just sitting there yammering away. I've been shooting them dirty looks. They haven't budged."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0008",
+    "t": [
+      40.995,
+      42.705
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, show me the look."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0009",
+    "t": [
+      45.5,
+      46.834
+    ],
+    "speaker": "Frasier",
+    "text": "They're there for a while."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0010",
+    "t": [
+      48.044,
+      49.294
+    ],
+    "speaker": "Niles",
+    "text": "Shall we go ahead and order?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0011",
+    "t": [
+      49.295,
+      51.463
+    ],
+    "speaker": "Frasier",
+    "text": "Why not? Yes. What are your coffees today?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0012",
+    "t": [
+      51.464,
+      53.34
+    ],
+    "speaker": "Waitress",
+    "text": "Zimbabwe and Kenya."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0013",
+    "t": [
+      53.341,
+      55.008
+    ],
+    "speaker": "Frasier",
+    "text": "I'll have a Zimbabwe latte."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0014",
+    "t": [
+      55.009,
+      56.803
+    ],
+    "speaker": "Niles",
+    "text": "And I'll have a Kenya cappuccino."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0015",
+    "t": [
+      57.804,
+      59.93
+    ],
+    "speaker": "Frasier",
+    "text": "- So what's new? - Well..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0016",
+    "t": [
+      59.931,
+      68.271
+    ],
+    "speaker": "Niles",
+    "text": "Yoshi, the gardener, finally won the battle of the wills. He got Maris to dig up her camellias so he could put in that precious Zen garden he's been hocking us about since last fall."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0017",
+    "t": [
+      68.272,
+      70.607
+    ],
+    "speaker": "Frasier",
+    "text": "- How did it turn out? - Oh, it's beautiful."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0018",
+    "t": [
+      70.608,
+      77.072
+    ],
+    "speaker": "Niles",
+    "text": "It's the perfect place for meditation. Yesterday, I found Maris smack dab in the middle sitting in the lotus position."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0019",
+    "t": [
+      77.073,
+      80.367
+    ],
+    "speaker": "Frasier",
+    "text": "Well, good for her. Apparently, it's bringing out her spiritual side."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0020",
+    "t": [
+      80.368,
+      85.206
+    ],
+    "speaker": "Niles",
+    "text": "I'm not so sure. She was reading a Danielle Steele novel and making a nail appointment on her cellular phone."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0021",
+    "t": [
+      87.417,
+      90.836
+    ],
+    "speaker": "Frasier",
+    "text": "Do you realize that today marks a year since I moved here from Boston?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0022",
+    "t": [
+      90.837,
+      95.716
+    ],
+    "speaker": "Niles",
+    "text": "Really? A year? It seems like yesterday Dad moved in with you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0023",
+    "t": [
+      95.717,
+      99.761
+    ],
+    "speaker": "Frasier",
+    "text": "Isn't it funny how two people can have distinct opposite impressions of the same event."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0024",
+    "t": [
+      99.762,
+      102.389
+    ],
+    "speaker": "Niles",
+    "text": "Look at them, just sitting there like they own that table."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0025",
+    "t": [
+      102.39,
+      103.224
+    ],
+    "speaker": "unknown",
+    "text": "Mm."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0026",
+    "t": [
+      103.808,
+      106.686
+    ],
+    "speaker": "Niles",
+    "text": "- Maybe if we both give them the look. - It's worth a try."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0027",
+    "t": [
+      109.313,
+      110.522
+    ],
+    "speaker": "unknown",
+    "text": "it worked."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0028",
+    "t": [
+      110.523,
+      113.443
+    ],
+    "speaker": "Frasier",
+    "text": "- It worked. - Niles, I'll never doubt you again."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0029",
+    "t": [
+      120.324,
+      123.035
+    ],
+    "speaker": "Niles",
+    "text": "Try the look on that table. - I'm going to the men's room. - All right."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0030",
+    "t": [
+      128.499,
+      130.417
+    ],
+    "speaker": "Frasier",
+    "text": "- Maddening. - What is it now?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0031",
+    "t": [
+      130.418,
+      138.675
+    ],
+    "speaker": "Niles",
+    "text": "They have a new moisturizer dispenser in the men's room and the cream is too oily. I had to re-wash my hands, and wouldn't you know it, that's when the hot-air hand dryer chooses to break down."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0032",
+    "t": [
+      138.676,
+      140.678
+    ],
+    "speaker": "Frasier",
+    "text": "How do you get through the day?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0033",
+    "t": [
+      141.888,
+      145.39
+    ],
+    "speaker": "Waitress",
+    "text": "Here you go, Zimbabwe and Kenya."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0034",
+    "t": [
+      145.391,
+      153.274
+    ],
+    "speaker": "Frasier",
+    "text": "- Excuse me, did I say decaf? - No, you didn't. Oh, I'm sorry. If I drink the regular stuff, it'll keep me tossing and turning all through my brother's conversation."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0035",
+    "t": [
+      154.358,
+      155.777
+    ],
+    "speaker": "unknown",
+    "text": "- No problem. - Thank you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0036",
+    "t": [
+      156.736,
+      159.821
+    ],
+    "speaker": "Frasier",
+    "text": "It doesn't look like anybody's leaving. Why don't we take a table outside?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0037",
+    "t": [
+      159.822,
+      162.324
+    ],
+    "speaker": "Niles",
+    "text": "Oh. Why not? I'm feeling alfresco."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0038",
+    "t": [
+      162.325,
+      165.161
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, how does Mrs. Fresco feel about that?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0039",
+    "t": [
+      178.049,
+      180.468
+    ],
+    "speaker": "Frasier",
+    "text": "You must be a riot on camping trips."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0040",
+    "t": [
+      182.22,
+      183.596
+    ],
+    "speaker": "Niles",
+    "text": "- Would you like a...? - No."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0041",
+    "t": [
+      186.849,
+      191.645
+    ],
+    "speaker": "Niles",
+    "text": "So, Frasier. Now that chapter two of your life is in full swing, mind if I asked you something?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0042",
+    "t": [
+      191.646,
+      193.188
+    ],
+    "speaker": "Frasier",
+    "text": "No. Go right ahead."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0043",
+    "t": [
+      193.189,
+      194.106
+    ],
+    "speaker": "Niles",
+    "text": "Are you happy?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0044",
+    "t": [
+      196.859,
+      198.318
+    ],
+    "speaker": "Niles",
+    "text": "Did you hear the question?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0045",
+    "t": [
+      198.319,
+      201.863
+    ],
+    "speaker": "Frasier",
+    "text": "Yes. I'm thinking. It's a deceivingly complex question."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0046",
+    "t": [
+      201.864,
+      203.073
+    ],
+    "speaker": "Niles",
+    "text": "No, it's not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0047",
+    "t": [
+      203.074,
+      204.407
+    ],
+    "speaker": "Frasier",
+    "text": "- Yes, it is. - It's not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0048",
+    "t": [
+      204.408,
+      208.329
+    ],
+    "speaker": "Niles",
+    "text": "- Either you're happy or you're not. - Are you happy? No, but we're not talking about me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0049",
+    "t": [
+      209.539,
+      215.336
+    ],
+    "speaker": "Frasier",
+    "text": "Let's just not gloss over that. You, my only brother, just told me that you're not happy. And it pains me to hear that. Why?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0050",
+    "t": [
+      216.295,
+      254.292
+    ],
+    "speaker": "Niles",
+    "text": "I was watching PBS the other night in my study and they were showing this documentary on the Great Depression. Vintage Steinbeck. Desperately poor people escaping the dust bowl. Their meager possessions strapped to rickety old trucks heading to what they thought was their salvation. Then there was this scene of this scruffy little boy being handed a brand new pair of shoes by the Salvation Army. Frasier, if you could have seen the look on that boy's face. It was a look of pure and utter happiness. I have never experienced that kind of happiness. Not in my whole life. Not even when I bought these $400 Bruno Maglis."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0051",
+    "t": [
+      256.544,
+      259.629
+    ],
+    "speaker": "Niles",
+    "text": "- Do you like them? - They're very nice. What about the tassels?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0052",
+    "t": [
+      259.63,
+      261.631
+    ],
+    "speaker": "Frasier",
+    "text": "I'm not really much of a tassel guy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0053",
+    "t": [
+      261.632,
+      264.385
+    ],
+    "speaker": "Niles",
+    "text": "No. Neither am I. But nevertheless, there they are."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0054",
+    "t": [
+      267.597,
+      275.605
+    ],
+    "speaker": "Niles",
+    "text": "Oh, I have no reason to be unhappy. I have my health. I have a wonderful home, a beautiful wife. Did your eyebrow just move?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0055",
+    "t": [
+      276.314,
+      277.231
+    ],
+    "speaker": "Frasier",
+    "text": "I don't think so."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0056",
+    "t": [
+      278.274,
+      287.867
+    ],
+    "speaker": "Niles",
+    "text": "I have my practice. Although lately, I've lost track of the ideals that led me to psychiatry in the first place. - Hm, yes. - But look who I'm talking to. Psychiatry's answer to the drive-through window."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0057",
+    "t": [
+      290.87,
+      295.123
+    ],
+    "speaker": "Niles",
+    "text": "You know, sometimes I wonder if I'm not just in psychiatry for the money."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0058",
+    "t": [
+      295.124,
+      297.46
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, I wouldn't say that's true. If it were--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0059",
+    "t": [
+      298.252,
+      299.169
+    ],
+    "speaker": "unknown",
+    "text": "Oh."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0060",
+    "t": [
+      299.17,
+      301.046
+    ],
+    "speaker": "Niles",
+    "text": "What? What were you going to say?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0061",
+    "t": [
+      301.047,
+      301.963
+    ],
+    "speaker": "Frasier",
+    "text": "No, no. I'd rather not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0062",
+    "t": [
+      301.964,
+      308.846
+    ],
+    "speaker": "Niles",
+    "text": "There's no need to, actually. I know what you were getting at. You've been wanting to ask me this for years. Did I marry Maris for the money?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0063",
+    "t": [
+      311.098,
+      316.437
+    ],
+    "speaker": "Niles",
+    "text": "I resent that. I did not marry Maris for the money. It's just a delightful bonus."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0064",
+    "t": [
+      318.064,
+      319.482
+    ],
+    "speaker": "Frasier",
+    "text": "So you really do love her?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0065",
+    "t": [
+      320.232,
+      323.36
+    ],
+    "speaker": "Niles",
+    "text": "Of course I love her. But it's a different kind of love."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0066",
+    "t": [
+      323.361,
+      324.779
+    ],
+    "speaker": "Frasier",
+    "text": "You mean it's not human?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0067",
+    "t": [
+      328.24,
+      342.129
+    ],
+    "speaker": "Niles",
+    "text": "No. No. I mean, it doesn't burn with the passion and intensity of a Tristan and Isolde. It's more comfortable, more familiar. Maris and I are old friends. We can spend an afternoon together, me at my jigsaw puzzle, she at her autoharp."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0068",
+    "t": [
+      344.632,
+      348.678
+    ],
+    "speaker": "Niles",
+    "text": "Not a word spoken between us and be perfectly content."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0069",
+    "t": [
+      349.72,
+      353.14
+    ],
+    "speaker": "Frasier",
+    "text": "I'm told it was a lot like that near the end in the Hitler household."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0070",
+    "t": [
+      355.977,
+      363.608
+    ],
+    "speaker": "Niles",
+    "text": "Oh, fine. Well, let's shift the subject back to where it belongs. This whole thing started with me asking whether you were happy. - Don't think about it. Just answer. - Oh. Well..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0071",
+    "t": [
+      363.609,
+      364.567
+    ],
+    "speaker": "Roz",
+    "text": "Hey, guys."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0072",
+    "t": [
+      364.568,
+      366.486
+    ],
+    "speaker": "Frasier",
+    "text": "- Oh, hi, Roz. - Hello, Roz."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0073",
+    "t": [
+      366.487,
+      367.53
+    ],
+    "speaker": "Niles",
+    "text": "What are you doing here?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0074",
+    "t": [
+      368.197,
+      374.996
+    ],
+    "speaker": "Roz",
+    "text": "Well, I always wanted to learn to fly a jet. And today they're offering a special on jet flying lessons. So I thought I'd come by and take advantage of it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0075",
+    "t": [
+      376.58,
+      378.374
+    ],
+    "speaker": "Roz",
+    "text": "I came here to get coffee."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0076",
+    "t": [
+      380.001,
+      382.795
+    ],
+    "speaker": "Niles",
+    "text": "Thanks for stopping by. I'd have been mad if you didn't."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0077",
+    "t": [
+      384.213,
+      386.089
+    ],
+    "speaker": "Roz",
+    "text": "I'm also meeting someone here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0078",
+    "t": [
+      386.09,
+      388.049
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, let me guess, a man?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0079",
+    "t": [
+      388.05,
+      396.85
+    ],
+    "speaker": "Roz",
+    "text": "- Yes. - Yes. The new guy from the news department, Andy Winslow? He's really cute. He caught me checking him out when he was bending over the water fountain."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0080",
+    "t": [
+      396.851,
+      398.519
+    ],
+    "speaker": "Frasier",
+    "text": "Ah, love at first sight."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0081",
+    "t": [
+      399.478,
+      407.444
+    ],
+    "speaker": "Roz",
+    "text": "Anyway, he said, \"Why don't we get some coffee and get to know each other?\" I don't know, I've got a strange feeling that this guy might be the one."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0082",
+    "t": [
+      407.445,
+      413.534
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Roz, honey. You say that about every guy you meet. Let's just see if this one calls back."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0083",
+    "t": [
+      414.785,
+      420.165
+    ],
+    "speaker": "Roz",
+    "text": "Yeah, I guess. You know, I don't think he's here yet. I think I'll go snag a table."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0084",
+    "t": [
+      420.166,
+      421.0
+    ],
+    "speaker": "Frasier",
+    "text": "Good luck."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0085",
+    "t": [
+      421.5,
+      423.377
+    ],
+    "speaker": "Niles",
+    "text": "- Bye, Roz. - Yeah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0086",
+    "t": [
+      425.212,
+      426.671
+    ],
+    "speaker": "Niles",
+    "text": "I don't think she likes me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0087",
+    "t": [
+      426.672,
+      430.801
+    ],
+    "speaker": "Frasier",
+    "text": "Niles, it isn't a question of liking or not liking. She despises you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0088",
+    "t": [
+      432.386,
+      437.265
+    ],
+    "speaker": "Niles",
+    "text": "- Really? - Mm. Why should I warrant such strong emotions? I barely acknowledge her existence."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0089",
+    "t": [
+      437.266,
+      439.351
+    ],
+    "speaker": "Frasier",
+    "text": "You may be onto something there, Sherlock."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0090",
+    "t": [
+      446.484,
+      449.361
+    ],
+    "speaker": "Niles",
+    "text": "She is comely in a back-alley sort of way."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0091",
+    "t": [
+      450.404,
+      452.322
+    ],
+    "speaker": "Frasier",
+    "text": "Roz? Yes, she's very attractive."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0092",
+    "t": [
+      452.323,
+      454.407
+    ],
+    "speaker": "Niles",
+    "text": "Did you ever think about you two...?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0093",
+    "t": [
+      454.408,
+      457.66
+    ],
+    "speaker": "Frasier",
+    "text": "Roz and me? Oh. - Oh, no, no, no. - Oh, come on."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0094",
+    "t": [
+      457.661,
+      461.581
+    ],
+    "speaker": "Niles",
+    "text": "You've never fantasized about stealing away - to some cheap little hotel with her? - Oh, well,"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0095",
+    "t": [
+      461.582,
+      473.718
+    ],
+    "speaker": "Frasier",
+    "text": "I'm a man with normal urges. And she does have a silk blouse that falls open a bit when she leans over the cart rack. But, uh... Oh, mixing work and romance... I don't know. Is it ever worth it?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0096",
+    "t": [
+      473.719,
+      476.222
+    ],
+    "speaker": "Niles",
+    "text": "Don't ask me. You're the one that looked down her blouse."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0097",
+    "t": [
+      477.431,
+      479.558
+    ],
+    "speaker": "Waitress",
+    "text": "Decaf Zimbabwe latte."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0098",
+    "t": [
+      480.184,
+      485.94
+    ],
+    "speaker": "Frasier",
+    "text": "- Is that non-fat milk? - No. Oh, I hate to be a bother. It's just that I'm watching my fat intake..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0099",
+    "t": [
+      488.943,
+      490.068
+    ],
+    "speaker": "Niles",
+    "text": "What is that, rain?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0100",
+    "t": [
+      490.069,
+      495.407
+    ],
+    "speaker": "Frasier",
+    "text": "No. God is crying. - Oh, can't I ask a simple question? - Do you ask any other kind?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0101",
+    "t": [
+      498.16,
+      500.329
+    ],
+    "speaker": "Frasier",
+    "text": "Hey, how the hell did she get a table?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0102",
+    "t": [
+      502.581,
+      504.375
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Frasier. Frasier. There."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0103",
+    "t": [
+      506.627,
+      509.045
+    ],
+    "speaker": "unknown",
+    "text": "Oh. Frasier. Frasier."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0104",
+    "t": [
+      509.046,
+      511.047
+    ],
+    "speaker": "Frasier",
+    "text": "Oh. Yes. Oh, Niles. Niles. Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0105",
+    "t": [
+      511.048,
+      515.844
+    ],
+    "speaker": "unknown",
+    "text": "Oh, good block. Sorry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0106",
+    "t": [
+      515.845,
+      517.304
+    ],
+    "speaker": "Frasier",
+    "text": "Good work there, Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0107",
+    "t": [
+      518.013,
+      519.639
+    ],
+    "speaker": "Niles",
+    "text": "I think I just wanted it more than he did."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0108",
+    "t": [
+      519.64,
+      520.724
+    ],
+    "speaker": "unknown",
+    "text": "Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0109",
+    "t": [
+      523.561,
+      524.687
+    ],
+    "speaker": "Niles",
+    "text": "Boy, it's really coming down."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0110",
+    "t": [
+      530.401,
+      532.361
+    ],
+    "speaker": "Niles",
+    "text": "- What? What? - Oh, it's just..."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0111",
+    "t": [
+      532.862,
+      541.536
+    ],
+    "speaker": "Frasier",
+    "text": "Something that happened the other morning. I asked Dad to pass me a bran muffin. You know what he said to me? He said, \"What's the magic word?\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0112",
+    "t": [
+      541.537,
+      542.871
+    ],
+    "speaker": "Niles",
+    "text": "You're kidding."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0113",
+    "t": [
+      542.872,
+      546.374
+    ],
+    "speaker": "Frasier",
+    "text": "He didn't think it was very amusing when I said \"rest home.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0114",
+    "t": [
+      553.257,
+      557.76
+    ],
+    "speaker": "Niles",
+    "text": "Oh. Oh. Oh. Oh. Look. That must be Roz's coffee companion."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0115",
+    "t": [
+      557.761,
+      558.887
+    ],
+    "speaker": "unknown",
+    "text": "Ah."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0116",
+    "t": [
+      558.888,
+      561.598
+    ],
+    "speaker": "Niles",
+    "text": "Wow. He's really handsome, isn't he?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0117",
+    "t": [
+      561.599,
+      564.268
+    ],
+    "speaker": "Frasier",
+    "text": "\"Wow\"? Did you say \"wow\"?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0118",
+    "t": [
+      565.102,
+      572.692
+    ],
+    "speaker": "Niles",
+    "text": "Good Lord, I did. I don't think I've ever said \"wow\" describing another man before. - I wonder if that means something. - Oh, absolutely."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0119",
+    "t": [
+      572.693,
+      574.069
+    ],
+    "speaker": "Frasier",
+    "text": "It means you're a gay man."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0120",
+    "t": [
+      575.863,
+      581.994
+    ],
+    "speaker": "Frasier",
+    "text": "Your life with Maris is a big charade and you should have come out of the closet years ago. You want to tell Dad or shall I?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0121",
+    "t": [
+      585.039,
+      589.584
+    ],
+    "speaker": "Martin",
+    "text": "This was stupid. This whole idea was stupid, admit it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0122",
+    "t": [
+      589.585,
+      595.423
+    ],
+    "speaker": "Daphne",
+    "text": "It was not stupid. You needed your exercise. What was stupid was that you came out without your bumbershoot."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0123",
+    "t": [
+      595.424,
+      598.051
+    ],
+    "speaker": "Martin",
+    "text": "It's called an umbrella. Speak English, can't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0124",
+    "t": [
+      598.052,
+      602.389
+    ],
+    "speaker": "Waitress",
+    "text": "I'm sorry, sir, no dogs allowed. - What? - Oh, I'm sorry."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0125",
+    "t": [
+      607.102,
+      610.439
+    ],
+    "speaker": "Niles",
+    "text": "It's okay. It's okay. - Oh, Niles? - Hello, Dad."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0126",
+    "t": [
+      612.775,
+      614.943
+    ],
+    "speaker": "Frasier",
+    "text": "So, Dad, what are you two doing here?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0127",
+    "t": [
+      614.944,
+      623.743
+    ],
+    "speaker": "Daphne",
+    "text": "Well, I thought we needed some exercise. And I had to come down here to pick up some beans anyway, so we walked. Well, two of us walked. One of us had to be dragged by his collar."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0128",
+    "t": [
+      623.744,
+      629.749
+    ],
+    "speaker": "Martin",
+    "text": "Hey, I told you I didn't want to come in the first place. - Look at me. I'm gonna die of pneumonia. - Oh, you'll outlive us all."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0129",
+    "t": [
+      629.75,
+      631.042
+    ],
+    "speaker": "Daphne",
+    "text": "The cranky ones always do."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0130",
+    "t": [
+      631.043,
+      636.13
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, let's get you something hot to drink. Um... Want a cappuccino, latte or something?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0131",
+    "t": [
+      636.131,
+      637.048
+    ],
+    "speaker": "Waitress",
+    "text": "Can I help you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0132",
+    "t": [
+      637.049,
+      640.009
+    ],
+    "speaker": "Martin",
+    "text": "Uh, coffee, black, and don't put anything fancy in it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0133",
+    "t": [
+      640.01,
+      643.806
+    ],
+    "speaker": "Waitress",
+    "text": "We have two special coffees today. I'll surprise you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0134",
+    "t": [
+      647.268,
+      653.44
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, joy. There's nothing like the smell of a wet dog to work up the appetite for supper."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0135",
+    "t": [
+      654.65,
+      660.697
+    ],
+    "speaker": "Martin",
+    "text": "- Look at us. We're soaked to the skin. - You're in a fine mood today. Yeah, and by the way, you left a mess in the kitchen."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0136",
+    "t": [
+      660.698,
+      661.781
+    ],
+    "speaker": "Frasier",
+    "text": "I had a piece of toast."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0137",
+    "t": [
+      661.782,
+      667.705
+    ],
+    "speaker": "Martin",
+    "text": "- Yeah, and you didn't use a plate. - Oh. You buttered it on the counter. I know because you left a bunch of crumbs and toast sweat there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0138",
+    "t": [
+      668.497,
+      670.791
+    ],
+    "speaker": "Niles",
+    "text": "- Toast sweat? - Yes. Yes."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0139",
+    "t": [
+      671.542,
+      681.135
+    ],
+    "speaker": "Frasier",
+    "text": "When you put a piece of hot toast on any surface, it tends to leave little droplets of dew behind. Have you heard Dad's lecture on the evils of toast sweat? It's the scourge of our times."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0140",
+    "t": [
+      684.138,
+      685.889
+    ],
+    "speaker": "Waitress",
+    "text": "One coffee, black."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0141",
+    "t": [
+      688.434,
+      691.728
+    ],
+    "speaker": "Waitress",
+    "text": "And a decaf, non-fat Zimbabwe latte."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0142",
+    "t": [
+      691.729,
+      693.731
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, dear, is that cinnamon on that foam?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0143",
+    "t": [
+      697.443,
+      707.66
+    ],
+    "speaker": "Frasier",
+    "text": "You know, as long as we're picking each other's scabs here, I found another one of Eddie's chew toys in my sweater cubby. Hair all over my favorite pullover. I know he sleeps in there when I'm not home."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0144",
+    "t": [
+      707.661,
+      710.58
+    ],
+    "speaker": "Martin",
+    "text": "Serves you right for keeping your sweaters in a place called a \"cubby.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0145",
+    "t": [
+      710.581,
+      714.709
+    ],
+    "speaker": "Frasier",
+    "text": "Oh. Well, that's it. My bedroom is off-limits to this fleabag."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0146",
+    "t": [
+      714.71,
+      717.42
+    ],
+    "speaker": "Niles",
+    "text": "- He's not a fleabag. - Hey, Dad, how about those Mariners?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0147",
+    "t": [
+      717.421,
+      745.49
+    ],
+    "speaker": "Martin",
+    "text": "Shut up, Niles. Who are we kidding here? If my hip's good enough to get me down here, then maybe it's just time I found a place of my own. - Where will you go? - Oh, don't worry about me. I'll find a place. I've got money saved up. I never wanted to move in with you in the first place. And the last thing I wanna do is to be a burden to anybody. That's your brother's smart-ass way of telling me he's heard this before. You won't have to hear it again. Come on, Eddie. Tell Daphne to catch up with us."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0148",
+    "t": [
+      745.491,
+      750.119
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, please, we go through this little melodrama at least once a week. Will you just sit down? It's raining outside."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0149",
+    "t": [
+      750.12,
+      757.127
+    ],
+    "speaker": "Martin",
+    "text": "No. I want to pay for my own coffee too. How much is it? - $1.50. - For coffee? What kind of world are we living in?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0150",
+    "t": [
+      765.969,
+      768.262
+    ],
+    "speaker": "Niles",
+    "text": "Frasier, are you all right? You were in that bathroom forever."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0151",
+    "t": [
+      768.263,
+      782.319
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, I tried that damned hand cream. I was so oily, I couldn't even get a grip on the doorknob. I had to wait to be rescued. Finally, when some guy came in, I said, \"Oh, God, am I glad to see you.\" I can't even begin to describe the look he gave me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0152",
+    "t": [
+      788.2,
+      789.159
+    ],
+    "speaker": "Frasier",
+    "text": "There it is."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0153",
+    "t": [
+      793.038,
+      809.303
+    ],
+    "speaker": "Daphne",
+    "text": "So your brother tells me you and your father are at it again. - Oh, yeah. What's new? - I don't know what's wrong with him. Lately, he's had a face as long as a wet weekend. Yesterday, when I insisted he do his stretching exercises, he told me I could stick me feet behind me head and spin like a top."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0154",
+    "t": [
+      809.304,
+      815.727
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, well, the best thing to do is just ignore him when he gets like that. Isn't that right, Niles? Niles?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0155",
+    "t": [
+      819.982,
+      822.359
+    ],
+    "speaker": "Niles",
+    "text": "I'm sorry, Frasier. For some reason, I'm feeling a little dizzy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0156",
+    "t": [
+      824.903,
+      827.698
+    ],
+    "speaker": "Daphne",
+    "text": "- Well, I guess I'd better go after him. - Oh, here."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0157",
+    "t": [
+      829.7,
+      835.538
+    ],
+    "speaker": "Daphne",
+    "text": "- Take my bumbershoot. - Oh, isn't that nice. Well, at least someone appreciates my mother tongue."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0158",
+    "t": [
+      835.539,
+      837.165
+    ],
+    "speaker": "Niles",
+    "text": "Yes, I've always had an ear for your tongue."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0159",
+    "t": [
+      837.166,
+      838.292
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Niles."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0160",
+    "t": [
+      841.92,
+      842.754
+    ],
+    "speaker": "Niles",
+    "text": "What did I say?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0161",
+    "t": [
+      845.382,
+      848.302
+    ],
+    "speaker": "Frasier",
+    "text": "- Want another coffee? - Not until I've had my first one, thanks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0162",
+    "t": [
+      851.43,
+      853.14
+    ],
+    "speaker": "unknown",
+    "text": "clears throat]"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0163",
+    "t": [
+      854.558,
+      857.101
+    ],
+    "speaker": "Frasier",
+    "text": "Why is it always so difficult between me and Dad?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0164",
+    "t": [
+      857.102,
+      869.363
+    ],
+    "speaker": "Niles",
+    "text": "Oh, well, you might try looking at it from Dad's point of view. As a policeman, he was in a position of authority. That's been taken away from him. Railing against the world is his way of controlling his ever-shrinking sphere of influence."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0165",
+    "t": [
+      869.364,
+      878.874
+    ],
+    "speaker": "Frasier",
+    "text": "Yes, well, I do empathize with him. It's just... I can't help wishing I could just kick that cane out from under him once in a while, and that he would land on Eddie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0166",
+    "t": [
+      881.835,
+      885.214
+    ],
+    "speaker": "Niles",
+    "text": "The simple truth is, it's hard. - I know you're trying. - I am."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0167",
+    "t": [
+      885.923,
+      898.894
+    ],
+    "speaker": "Frasier",
+    "text": "And you know, sometimes, I do see the fruits of my labor. Just the other night, Dad was watching TV and I'd fallen asleep on the couch. And suddenly, I stirred. I felt something on my head and... Dad was standing above me stroking my hair."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0168",
+    "t": [
+      899.52,
+      900.395
+    ],
+    "speaker": "Niles",
+    "text": "Dad?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0169",
+    "t": [
+      902.064,
+      903.147
+    ],
+    "speaker": "Niles",
+    "text": "Did he say anything?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0170",
+    "t": [
+      903.148,
+      906.86
+    ],
+    "speaker": "Frasier",
+    "text": "He said, \"Don't you think it's time to get a haircut? You're starting to look like Bozo.\""
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0171",
+    "t": [
+      909.863,
+      912.241
+    ],
+    "speaker": "Frasier",
+    "text": "Yeah, I know he was only covering, though, but what do you think?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0172",
+    "t": [
+      912.866,
+      914.826
+    ],
+    "speaker": "Niles",
+    "text": "- It probably wouldn't hurt to get a trim. - No."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0173",
+    "t": [
+      917.079,
+      919.58
+    ],
+    "speaker": "Frasier",
+    "text": "- Do you think he was covering? - Well, of course he was covering."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0174",
+    "t": [
+      919.581,
+      925.379
+    ],
+    "speaker": "Niles",
+    "text": "You know Dad. Tough as nails on the outside, but on the inside, one giant spike."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0175",
+    "t": [
+      927.464,
+      928.506
+    ],
+    "speaker": "Niles",
+    "text": "Grazie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0176",
+    "t": [
+      928.507,
+      930.216
+    ],
+    "speaker": "Frasier",
+    "text": "Excuse me, what about mine?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0177",
+    "t": [
+      930.217,
+      932.553
+    ],
+    "speaker": "Waitress",
+    "text": "We've got a team of specialists working on it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0178",
+    "t": [
+      938.433,
+      942.812
+    ],
+    "speaker": "Frasier",
+    "text": "What do you say we just change the subject from Dad? - Talk about something else. - Absolutely."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0179",
+    "t": [
+      942.813,
+      945.022
+    ],
+    "speaker": "Niles",
+    "text": "Pick a new subject. Something light and frothy."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0180",
+    "t": [
+      945.023,
+      946.024
+    ],
+    "speaker": "Frasier",
+    "text": "I agree."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0181",
+    "t": [
+      947.651,
+      949.111
+    ],
+    "speaker": "Frasier",
+    "text": "Are you in love with Daphne?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0182",
+    "t": [
+      953.031,
+      955.242
+    ],
+    "speaker": "Frasier",
+    "text": "That's a little frothier than I had in mind."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0183",
+    "t": [
+      958.161,
+      961.623
+    ],
+    "speaker": "Niles",
+    "text": "That's preposterous. I refuse to dignify that question with an answer."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0184",
+    "t": [
+      968.046,
+      970.173
+    ],
+    "speaker": "Niles",
+    "text": "I don't know. There, I said it. Are you happy?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0185",
+    "t": [
+      971.675,
+      979.182
+    ],
+    "speaker": "Niles",
+    "text": "Why did you have to hire Venus herself? Couldn't you find some beefy, Eastern European scrub woman who reeked of ammonia?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0186",
+    "t": [
+      982.644,
+      986.69
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I asked. But it was an Olympic year. The agency was fresh out."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0187",
+    "t": [
+      992.821,
+      1000.786
+    ],
+    "speaker": "Niles",
+    "text": "Frasier, I can't get her out of my mind. When I look at Daphne, she stirs a passion in me I've never known before."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0188",
+    "t": [
+      1000.787,
+      1003.789
+    ],
+    "speaker": "Frasier",
+    "text": "Niles. You're not considering leaving Maris?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0189",
+    "t": [
+      1003.79,
+      1005.207
+    ],
+    "speaker": "Niles",
+    "text": "Certainly not."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0190",
+    "t": [
+      1005.208,
+      1012.298
+    ],
+    "speaker": "Frasier",
+    "text": "Well, then, I suppose the situation you're in is that you... You'd like to stay with Maris, but you'd like to have an affair with Daphne."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0191",
+    "t": [
+      1012.299,
+      1013.716
+    ],
+    "speaker": "Niles",
+    "text": "Yes. Can I do that?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0192",
+    "t": [
+      1013.717,
+      1014.801
+    ],
+    "speaker": "Frasier",
+    "text": "No, you can't."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0193",
+    "t": [
+      1019.097,
+      1022.225
+    ],
+    "speaker": "Niles",
+    "text": "I thought that I couldn't, but you got my hopes up for a minute."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0194",
+    "t": [
+      1024.227,
+      1035.112
+    ],
+    "speaker": "Niles",
+    "text": "Oh, it's easy for you. You're free, you're happy. Perhaps I'm getting ahead of myself. - You haven't answered that question. - I haven't, have I? No, you haven't. And I'm getting curious. Are you happy?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0195",
+    "t": [
+      1035.113,
+      1039.533
+    ],
+    "speaker": "Frasier",
+    "text": "Well... I guess the best way I could think of saying it--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0196",
+    "t": [
+      1039.534,
+      1040.702
+    ],
+    "speaker": "Roz",
+    "text": "Oh, this sucks."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0197",
+    "t": [
+      1041.912,
+      1043.162
+    ],
+    "speaker": "Frasier",
+    "text": "What's the matter?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0198",
+    "t": [
+      1043.163,
+      1056.885
+    ],
+    "speaker": "Roz",
+    "text": "You think you're gonna sit down with somebody and have a cup of coffee and that they might, just might, lead you to something like, oh, I don't know, a life? Suddenly, the trap door opens and you're right back in Roz's world."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0199",
+    "t": [
+      1057.511,
+      1060.012
+    ],
+    "speaker": "Niles",
+    "text": "- How did it go so wrong so quickly? - Hm."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0200",
+    "t": [
+      1060.013,
+      1070.941
+    ],
+    "speaker": "Roz",
+    "text": "Simple. He didn't want to date me. He wanted to convert me. I don't have anything against religious people. I don't care if they're Jewish or Jehovah's Witness or Buddhist. I'm ecumenical. I embrace men of all faiths."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0201",
+    "t": [
+      1073.735,
+      1075.529
+    ],
+    "speaker": "Frasier",
+    "text": "If only it stopped there."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0202",
+    "t": [
+      1079.491,
+      1083.661
+    ],
+    "speaker": "Roz",
+    "text": "But he pretended he was gonna ask me out. Isn't there a commandment against that?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0203",
+    "t": [
+      1083.662,
+      1086.164
+    ],
+    "speaker": "Niles",
+    "text": "No, they didn't go into dating until the New Testament."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0204",
+    "t": [
+      1088.083,
+      1090.918
+    ],
+    "speaker": "Frasier",
+    "text": "Oh, Roz, I'm sorry. I'm sorry. Why don't you join us?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0205",
+    "t": [
+      1090.919,
+      1099.261
+    ],
+    "speaker": "Roz",
+    "text": "No. No, thank you. There's a cute new handyman in my building. Thought I'd just go home, slip into a negligee and rip out my faucet."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0206",
+    "t": [
+      1102.472,
+      1103.849
+    ],
+    "speaker": "Frasier",
+    "text": "You think she's kidding, don't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0207",
+    "t": [
+      1107.06,
+      1111.231
+    ],
+    "speaker": "Frasier",
+    "text": "You know, I think about Roz's life, and it makes me wonder about my own."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0208",
+    "t": [
+      1113.65,
+      1116.736
+    ],
+    "speaker": "Frasier",
+    "text": "I haven't been exactly burning up the social scene lately."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0209",
+    "t": [
+      1116.737,
+      1117.82
+    ],
+    "speaker": "Niles",
+    "text": "You'll find somebody."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0210",
+    "t": [
+      1117.821,
+      1131.584
+    ],
+    "speaker": "Frasier",
+    "text": "But what if I don't? What if I end up old and alone? I guess I might have to buy a funny little dog and move in with Frederick. I guess I don't have to worry about that for a while."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0211",
+    "t": [
+      1131.585,
+      1133.837
+    ],
+    "speaker": "Niles",
+    "text": "Frederick should start worrying about that."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0212",
+    "t": [
+      1136.089,
+      1141.428
+    ],
+    "speaker": "Niles",
+    "text": "In the meantime, you might try answering my ever more tedious original question. Are you happy?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0213",
+    "t": [
+      1142.345,
+      1143.971
+    ],
+    "speaker": "Frasier",
+    "text": "Well, I guess I have to say--"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0214",
+    "t": [
+      1143.972,
+      1145.766
+    ],
+    "speaker": "Niles",
+    "text": "- Hello, boys. - Oh, for Pete's sake."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0215",
+    "t": [
+      1146.391,
+      1147.768
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, what are you doing back here?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0216",
+    "t": [
+      1148.351,
+      1159.738
+    ],
+    "speaker": "Martin",
+    "text": "Well, I don't know, I... I've been acting like a jerk these last couple of days, and I've been taking it out on you and Daphne. All that stuff I said earlier, just forget about it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0217",
+    "t": [
+      1160.405,
+      1161.448
+    ],
+    "speaker": "Frasier",
+    "text": "I already have."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0218",
+    "t": [
+      1162.24,
+      1163.657
+    ],
+    "speaker": "Martin",
+    "text": "Come on, Eddie."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0219",
+    "t": [
+      1163.658,
+      1165.243
+    ],
+    "speaker": "Frasier",
+    "text": "Dad. Dad, listen."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0220",
+    "t": [
+      1166.787,
+      1169.038
+    ],
+    "speaker": "Frasier",
+    "text": "Has something been bothering you the last few days?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0221",
+    "t": [
+      1169.039,
+      1170.623
+    ],
+    "speaker": "Martin",
+    "text": "No, not really, no."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0222",
+    "t": [
+      1170.624,
+      1172.374
+    ],
+    "speaker": "Frasier",
+    "text": "- Oh, come on, come on. - Really, it's nothing."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0223",
+    "t": [
+      1172.375,
+      1174.585
+    ],
+    "speaker": "unknown",
+    "text": "If something's bothering you, just tell us."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0224",
+    "t": [
+      1174.586,
+      1176.546
+    ],
+    "speaker": "Frasier",
+    "text": "Dad, come on. Just say it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0225",
+    "t": [
+      1177.422,
+      1181.51
+    ],
+    "speaker": "Martin",
+    "text": "Okay. Last Sunday was my birthday."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0226",
+    "t": [
+      1186.056,
+      1187.307
+    ],
+    "speaker": "Niles",
+    "text": "Of course it was."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0227",
+    "t": [
+      1188.934,
+      1196.858
+    ],
+    "speaker": "Niles",
+    "text": "Frasier and I were planning a big surprise party. But if we had thrown it on your birthday, it wouldn't have been a surprise. Thus we waited a week. So... Surprise!"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0228",
+    "t": [
+      1200.362,
+      1202.489
+    ],
+    "speaker": "Niles",
+    "text": "Oh, if you could see the look on your face."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0229",
+    "t": [
+      1203.949,
+      1210.746
+    ],
+    "speaker": "Frasier",
+    "text": "Just give it up, Niles. - Dad, I'm... I'm sorry. - Oh, no, really. No. Listen. Here, come and have a seat."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0230",
+    "t": [
+      1210.747,
+      1220.34
+    ],
+    "speaker": "Martin",
+    "text": "You know, I don't know why I let it bother me. All those years on the force, I missed enough of you boys' birthdays. - You're entitled to miss one of mine. - You know what?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0231",
+    "t": [
+      1220.882,
+      1225.594
+    ],
+    "speaker": "Frasier",
+    "text": "Nothing's stopping us from celebrating anyway. We're gonna take you out to dinner tonight. You can choose any place."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0232",
+    "t": [
+      1225.595,
+      1227.513
+    ],
+    "speaker": "Martin",
+    "text": "- You don't need to do that. - Absolutely. Absolutely."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0233",
+    "t": [
+      1227.514,
+      1228.598
+    ],
+    "speaker": "Niles",
+    "text": "You name the place."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0234",
+    "t": [
+      1229.599,
+      1231.1
+    ],
+    "speaker": "unknown",
+    "text": "Okay."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0235",
+    "t": [
+      1231.101,
+      1233.227
+    ],
+    "speaker": "Martin",
+    "text": "How about Hoppy's Old Heidelberg?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0236",
+    "t": [
+      1233.228,
+      1234.813
+    ],
+    "speaker": "unknown",
+    "text": "- Oh, great. - Great."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0237",
+    "t": [
+      1236.147,
+      1239.149
+    ],
+    "speaker": "Martin",
+    "text": "Hey, they were voted best bratwurst in town for three years in a row."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0238",
+    "t": [
+      1239.15,
+      1240.485
+    ],
+    "speaker": "Frasier",
+    "text": "Ach du Lieber."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0239",
+    "t": [
+      1242.946,
+      1246.031
+    ],
+    "speaker": "Daphne",
+    "text": "There you are. I've been up and down Third Street looking for you."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0240",
+    "t": [
+      1246.032,
+      1251.954
+    ],
+    "speaker": "Martin",
+    "text": "I was on Fourth Street. Eddie had already smelled everything on Third. How'd you know I was coming back here anyway?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0241",
+    "t": [
+      1251.955,
+      1262.006
+    ],
+    "speaker": "Daphne",
+    "text": "I had one of me psychic flashes. Bang. There you were, walking in the front door of Cafe Nervosa. And you were apologizing to me for the way you've treated me this past week."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0242",
+    "t": [
+      1262.007,
+      1265.342
+    ],
+    "speaker": "Martin",
+    "text": "Yeah, I'm sorry about that, Daphne. Just forget about it."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0243",
+    "t": [
+      1265.343,
+      1268.805
+    ],
+    "speaker": "Daphne",
+    "text": "And, uh, something about a raise?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0244",
+    "t": [
+      1270.64,
+      1272.6
+    ],
+    "speaker": "Martin",
+    "text": "You're winging it now, aren't you?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0245",
+    "t": [
+      1272.601,
+      1274.727
+    ],
+    "speaker": "Daphne",
+    "text": "- Am I that transparent? - No."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0246",
+    "t": [
+      1274.728,
+      1281.442
+    ],
+    "speaker": "Martin",
+    "text": "I'm psychic. Come on now. You better hurry up 'cause the boys are taking us out to Hoppy's Old Heidelberg tonight for dinner."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0247",
+    "t": [
+      1281.443,
+      1287.699
+    ],
+    "speaker": "Daphne",
+    "text": "Oh, great. German food. We whipped the Jerries twice this century, and they still have the last laugh."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0248",
+    "t": [
+      1289.2,
+      1291.827
+    ],
+    "speaker": "Frasier",
+    "text": "I'd give you a ride, but I've got to stop by the station first."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0249",
+    "t": [
+      1291.828,
+      1293.621
+    ],
+    "speaker": "Niles",
+    "text": "That's okay, I'll give him a lift."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0250",
+    "t": [
+      1293.622,
+      1295.081
+    ],
+    "speaker": "unknown",
+    "text": "Oh."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0251",
+    "t": [
+      1295.957,
+      1298.835
+    ],
+    "speaker": "Niles",
+    "text": "Frasier, as always, I've enjoyed getting together with you for coffee."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0252",
+    "t": [
+      1299.794,
+      1301.587
+    ],
+    "speaker": "Martin",
+    "text": "What do you guys talk about all the time?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0253",
+    "t": [
+      1301.588,
+      1304.256
+    ],
+    "speaker": "Niles",
+    "text": "Oh, you know, sports, chicks, monster truck rallies."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0254",
+    "t": [
+      1304.257,
+      1306.551
+    ],
+    "speaker": "Martin",
+    "text": "Okay, don't tell me."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0255",
+    "t": [
+      1309.346,
+      1316.937
+    ],
+    "speaker": "Waitress",
+    "text": "Zimbabwe, decaf, non-fat milk, no cinnamon in sight. Now... Are you happy?"
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0256",
+    "t": [
+      1319.356,
+      1324.527
+    ],
+    "speaker": "Frasier",
+    "text": "You know, in the greater scheme of things... Yes, I'd say I am."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0257",
+    "t": [
+      1343.546,
+      1344.964
+    ],
+    "speaker": "unknown",
+    "text": "Quite stylish."
+  },
+  {
+    "series": "frasier",
+    "ep": "S01E24",
+    "unit_id": "u0258",
+    "t": [
+      1361.064,
+      1363.608
+    ],
+    "speaker": "unknown",
+    "text": "See you next year! We love you!"
+  }
+]

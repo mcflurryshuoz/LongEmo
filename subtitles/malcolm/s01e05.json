@@ -1,0 +1,2631 @@
+[
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0001",
+    "t": [
+      0.2,
+      1.2
+    ],
+    "speaker": "Dewey",
+    "text": "That's it, please."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0002",
+    "t": [
+      1.2,
+      2.2
+    ],
+    "speaker": "Reese",
+    "text": "There you go."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0003",
+    "t": [
+      2.2,
+      3.2
+    ],
+    "speaker": "Dewey",
+    "text": "Thank you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0004",
+    "t": [
+      3.2,
+      4.2
+    ],
+    "speaker": "Reese",
+    "text": "You're welcome."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0005",
+    "t": [
+      4.2,
+      7.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Wow. That was a really great move. My head just went flying."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0006",
+    "t": [
+      7.2,
+      8.2
+    ],
+    "speaker": "Reese",
+    "text": "Thank you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0007",
+    "t": [
+      8.2,
+      9.2
+    ],
+    "speaker": "unknown",
+    "text": "You're welcome."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0008",
+    "t": [
+      9.2,
+      14.2
+    ],
+    "speaker": "Lois",
+    "text": "I told you boys these games are too violent. Here. Watch something, hold some."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0009",
+    "t": [
+      14.2,
+      15.2
+    ],
+    "speaker": "Dewey",
+    "text": "Give me more chips."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0010",
+    "t": [
+      15.2,
+      16.2
+    ],
+    "speaker": "Reese",
+    "text": "Give your own toothies."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0011",
+    "t": [
+      16.2,
+      17.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Shut up and watch it."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0012",
+    "t": [
+      17.2,
+      18.2
+    ],
+    "speaker": "Dewey",
+    "text": "You shut up and I want more chips."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0013",
+    "t": [
+      18.2,
+      19.2
+    ],
+    "speaker": "Reese",
+    "text": "Here."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0014",
+    "t": [
+      19.2,
+      72.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no. Oh, no."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0015",
+    "t": [
+      73.2,
+      75.2
+    ],
+    "speaker": "Dewey",
+    "text": "Life is unfair."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0016",
+    "t": [
+      80.2,
+      82.2
+    ],
+    "speaker": "Lois",
+    "text": "$90 for a toy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0017",
+    "t": [
+      82.2,
+      89.2
+    ],
+    "speaker": "Malcolm",
+    "text": "It's not a toy. It's a robotics kit. You build a little mechanical rover. It teaches you about electronics and engineering."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0018",
+    "t": [
+      89.2,
+      92.2
+    ],
+    "speaker": "Lois",
+    "text": "Did the teacher had a pick up your socks? Because that would be interesting."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0019",
+    "t": [
+      92.2,
+      95.2
+    ],
+    "speaker": "Hal",
+    "text": "Besides, son, robots are evil."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0020",
+    "t": [
+      95.2,
+      96.2
+    ],
+    "speaker": "Malcolm",
+    "text": "What?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0021",
+    "t": [
+      96.2,
+      101.2
+    ],
+    "speaker": "Hal",
+    "text": "Westworld Terminator that creepy made from the Jetsons? How much scientific proof do you need?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0022",
+    "t": [
+      101.2,
+      102.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Mom."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0023",
+    "t": [
+      102.2,
+      109.2
+    ],
+    "speaker": "Lois",
+    "text": "Malcolm, no. Look, if you want this thing so badly, you pay for it with your own money. You're going to start babysitting next week. Just save up."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0024",
+    "t": [
+      109.2,
+      110.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I don't even know what they're going to pay."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0025",
+    "t": [
+      110.2,
+      118.2
+    ],
+    "speaker": "Lois",
+    "text": "I'll tell you what they're going to pay you. You're going to pay you what all jobs pay. Less than your worth and just enough to keep your crawling back for more. Now, go on. It's bedtime."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0026",
+    "t": [
+      118.2,
+      126.2
+    ],
+    "speaker": "Malcolm",
+    "text": "That's the way discussions go done in this family. I tell them my needs and they say no. Then Dad reveals another cartoon character. He's afraid of."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0027",
+    "t": [
+      127.2,
+      131.2
+    ],
+    "speaker": "Hal",
+    "text": "Hey, how much time do you think we have?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0028",
+    "t": [
+      131.2,
+      133.2
+    ],
+    "speaker": "Lois",
+    "text": "Not long enough for that, look."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0029",
+    "t": [
+      133.2,
+      136.2
+    ],
+    "speaker": "Malcolm",
+    "text": "You butt-white, that's my toothbrush."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0030",
+    "t": [
+      136.2,
+      137.2
+    ],
+    "speaker": "unknown",
+    "text": "Show you some mind."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0031",
+    "t": [
+      137.2,
+      140.2
+    ],
+    "speaker": "Malcolm",
+    "text": "You can't just take someone's toothbrush. Give me that."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0032",
+    "t": [
+      140.2,
+      143.2
+    ],
+    "speaker": "Reese",
+    "text": "Fine. Oops."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0033",
+    "t": [
+      143.2,
+      144.2
+    ],
+    "speaker": "unknown",
+    "text": "Okay."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0034",
+    "t": [
+      144.2,
+      147.2
+    ],
+    "speaker": "Lois",
+    "text": "That is the third bug I've seen today. You have brought me a new one."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0035",
+    "t": [
+      147.2,
+      154.2
+    ],
+    "speaker": "unknown",
+    "text": "I'm going to give you a new one. I'm going to give you a new one. I'm going to give you a new one. I'm going to give you a new one. I'm going to give you a new one. I'm going to give you a new one."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0036",
+    "t": [
+      154.2,
+      158.2
+    ],
+    "speaker": "Lois",
+    "text": "That is the third bug I've seen today. You have got to call the exterminator."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0037",
+    "t": [
+      158.2,
+      163.2
+    ],
+    "speaker": "Hal",
+    "text": "What? I didn't miss out on watching you hunt. You're like a sexy bug-killing panther."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0038",
+    "t": [
+      163.2,
+      168.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh, my God. Oh, my God."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0039",
+    "t": [
+      168.2,
+      172.2
+    ],
+    "speaker": "Hal",
+    "text": "She's out. That's it."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0040",
+    "t": [
+      172.2,
+      181.2
+    ],
+    "speaker": "Lois",
+    "text": "I've shown bedtime with 20 minutes to go to bed. Go to bed. Go to bed. The bed."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0041",
+    "t": [
+      182.2,
+      183.2
+    ],
+    "speaker": "unknown",
+    "text": "Help!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0042",
+    "t": [
+      183.2,
+      185.2
+    ],
+    "speaker": "Lois",
+    "text": "Bring that spray!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0043",
+    "t": [
+      185.2,
+      187.2
+    ],
+    "speaker": "unknown",
+    "text": "I had a rinse jet."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0044",
+    "t": [
+      187.2,
+      191.2
+    ],
+    "speaker": "Lois",
+    "text": "The only boys who behave themselves get to rinse. Honestly, every night we go through this."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0045",
+    "t": [
+      191.2,
+      193.2
+    ],
+    "speaker": "Dewey",
+    "text": "Mom, can I have a star?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0046",
+    "t": [
+      193.2,
+      198.2
+    ],
+    "speaker": "Lois",
+    "text": "Once upon a time, there was a little boy who made his mother so crazy she decided to sound to the circus."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0047",
+    "t": [
+      198.2,
+      199.2
+    ],
+    "speaker": "Dewey",
+    "text": "Evil circus?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0048",
+    "t": [
+      199.2,
+      201.2
+    ],
+    "speaker": "Lois",
+    "text": "No. A nice one with monkeys."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0049",
+    "t": [
+      201.2,
+      202.2
+    ],
+    "speaker": "Dewey",
+    "text": "Thank you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0050",
+    "t": [
+      202.2,
+      209.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, wait, wait, wait. I think I see where they're coming from. I cannot hide."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0051",
+    "t": [
+      210.2,
+      213.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh. Shit. Ah."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0052",
+    "t": [
+      223.2,
+      225.2
+    ],
+    "speaker": "unknown",
+    "text": "Can't move."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0053",
+    "t": [
+      228.2,
+      233.2
+    ],
+    "speaker": "Hal",
+    "text": "Okay, come on, boys. We're all camping on the day. Here we go."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0054",
+    "t": [
+      233.2,
+      235.2
+    ],
+    "speaker": "Stanley",
+    "text": "Hey, Francis. Aren't you going to open up your mom's care package?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0055",
+    "t": [
+      235.2,
+      245.2
+    ],
+    "speaker": "Francis",
+    "text": "Give me a minute. I'm still savoring this. I swiped Commodon Spangler's Master key. It opens every door in the Academy's family, every door."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0056",
+    "t": [
+      245.2,
+      247.2
+    ],
+    "speaker": "Stanley",
+    "text": "You know, I think it's cookies."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0057",
+    "t": [
+      247.2,
+      253.2
+    ],
+    "speaker": "Francis",
+    "text": "Who cares? I'm about to expose every secret sin this place conceals to the harsh light of day."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0058",
+    "t": [
+      253.2,
+      255.2
+    ],
+    "speaker": "Stanley",
+    "text": "So, can I open it?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0059",
+    "t": [
+      255.2,
+      256.2
+    ],
+    "speaker": "Francis",
+    "text": "Yeah."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0060",
+    "t": [
+      259.2,
+      267.2
+    ],
+    "speaker": "Francis",
+    "text": "What's with my mom's in there? Bug-infested cookies. As usual, a mixed message."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0061",
+    "t": [
+      271.2,
+      274.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "And this is the living room."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0062",
+    "t": [
+      274.2,
+      280.2
+    ],
+    "speaker": "Malcolm",
+    "text": "This is the biggest, nicest house I've ever seen. Wow."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0063",
+    "t": [
+      281.2,
+      284.2
+    ],
+    "speaker": "unknown",
+    "text": "Fomal can't this, Imperator."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0064",
+    "t": [
+      284.2,
+      285.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "We call him Barney."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0065",
+    "t": [
+      285.2,
+      288.2
+    ],
+    "speaker": "Mrs Inkster",
+    "text": "Malco, we saved you some dinner."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0066",
+    "t": [
+      288.2,
+      292.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Dinner, me, saved dinner."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0067",
+    "t": [
+      292.2,
+      297.2
+    ],
+    "speaker": "Mrs Inkster",
+    "text": "I'm not sure which you liked better, turkey or roast beef, so we fixed you a platter."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0068",
+    "t": [
+      297.2,
+      298.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Platter?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0069",
+    "t": [
+      298.2,
+      300.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "OK, kids. What time is it?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0070",
+    "t": [
+      300.2,
+      303.2
+    ],
+    "speaker": "unknown",
+    "text": "Bed time! Yeah, all right."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0071",
+    "t": [
+      303.2,
+      307.2
+    ],
+    "speaker": "Malcolm",
+    "text": "They're going to bed. So you're just paying me to hang out here for three hours."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0072",
+    "t": [
+      307.2,
+      312.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Well, maybe three and a half. We'll round up to four, of course."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0073",
+    "t": [
+      312.2,
+      314.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Come on. There's got to be a catch."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0074",
+    "t": [
+      314.2,
+      321.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Oh, and Malcolm, you can't watch television. Unless you turn on the satellite first, otherwise, all you'll get is pornography."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0075",
+    "t": [
+      323.2,
+      333.2
+    ],
+    "speaker": "Malcolm",
+    "text": "It's weird. I think I'm having a spasm. The muscles of my face keep pulling on my mouth. Oh, I think I'm happy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0076",
+    "t": [
+      333.2,
+      336.2
+    ],
+    "speaker": "Hal",
+    "text": "I just don't understand how it got so bad so fast."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0077",
+    "t": [
+      336.2,
+      348.2
+    ],
+    "speaker": "Pest Guy",
+    "text": "Well, it's been pretty hot this year. That's part of it, but, uh, mostly it's that giant pile of candy wrappers and half-eaten cereal boxes you have in your crawl space. It's like there's some kind of creepy hobo living down there."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0078",
+    "t": [
+      353.2,
+      355.2
+    ],
+    "speaker": "unknown",
+    "text": "Whoa."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0079",
+    "t": [
+      355.2,
+      357.2
+    ],
+    "speaker": "Stanley",
+    "text": "There really is a lost bomb shelter."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0080",
+    "t": [
+      357.2,
+      365.2
+    ],
+    "speaker": "Francis",
+    "text": "Wow. This is almost as exciting as that room full of folding chairs. Let's get out of here."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0081",
+    "t": [
+      365.2,
+      373.2
+    ],
+    "speaker": "Stanley",
+    "text": "Come on, Francis. Let you want to explore? You might find the abandoned furnace room with the old civil war imputant."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0082",
+    "t": [
+      373.2,
+      382.2
+    ],
+    "speaker": "Francis",
+    "text": "I didn't want to say this before, but you've confirmed it. Marlin Academy is the most boring place on Earth. We're not going to find anything interesting."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0083",
+    "t": [
+      386.2,
+      388.2
+    ],
+    "speaker": "Francis",
+    "text": "It takes that back."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0084",
+    "t": [
+      388.2,
+      391.2
+    ],
+    "speaker": "Dewey",
+    "text": "Look, the circus! The circus is at our house!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0085",
+    "t": [
+      393.2,
+      396.2
+    ],
+    "speaker": "Lois",
+    "text": "I'll say goodbye for a few days, boys. We're moving out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0086",
+    "t": [
+      396.2,
+      399.2
+    ],
+    "speaker": "Malcolm",
+    "text": "This is humiliating. Why can't we just stay in a nice hotel?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0087",
+    "t": [
+      399.2,
+      408.2
+    ],
+    "speaker": "Lois",
+    "text": "Because we're giving all our money to the exterminators so they can stay in nice hotels. Craig, thank you so much for lending us your trailer."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0088",
+    "t": [
+      408.2,
+      414.2
+    ],
+    "speaker": "Craig",
+    "text": "I'm just glad. Someone's finally getting some use out of it. I bought it 15 years ago to take on my honeymoon."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0089",
+    "t": [
+      414.2,
+      415.2
+    ],
+    "speaker": "Lois",
+    "text": "You were married?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0090",
+    "t": [
+      415.2,
+      417.2
+    ],
+    "speaker": "Craig",
+    "text": "No, I live on hope."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0091",
+    "t": [
+      417.2,
+      419.2
+    ],
+    "speaker": "Lois",
+    "text": "Well, thanks again."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0092",
+    "t": [
+      419.2,
+      421.2
+    ],
+    "speaker": "Craig",
+    "text": "You're welcome."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0093",
+    "t": [
+      421.2,
+      423.2
+    ],
+    "speaker": "Lois",
+    "text": "Bye."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0094",
+    "t": [
+      428.2,
+      431.2
+    ],
+    "speaker": "Lois",
+    "text": "Goodbye."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0095",
+    "t": [
+      431.2,
+      433.2
+    ],
+    "speaker": "unknown",
+    "text": "Goodbye."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0096",
+    "t": [
+      445.2,
+      446.2
+    ],
+    "speaker": "Lois",
+    "text": "Oh, this is cozy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0097",
+    "t": [
+      446.2,
+      449.2
+    ],
+    "speaker": "Malcolm",
+    "text": "It's 150 degrees in here. My butt is sweating."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0098",
+    "t": [
+      449.2,
+      455.2
+    ],
+    "speaker": "Lois",
+    "text": "It just needs to air out a little. The trailer. Come on, let's take the vows of this."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0099",
+    "t": [
+      455.2,
+      457.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I'm going to go babysit."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0100",
+    "t": [
+      457.2,
+      458.2
+    ],
+    "speaker": "Lois",
+    "text": "It's still early."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0101",
+    "t": [
+      458.2,
+      459.2
+    ],
+    "speaker": "Malcolm",
+    "text": "They don't mind?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0102",
+    "t": [
+      459.2,
+      461.2
+    ],
+    "speaker": "Lois",
+    "text": "They don't mind? They can, you okay?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0103",
+    "t": [
+      461.2,
+      463.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Yeah, it's okay."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0104",
+    "t": [
+      465.2,
+      473.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I can't believe how much these people are paying me. I did the math. I'm actually making more and more than mom does."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0105",
+    "t": [
+      476.2,
+      479.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I gotta stop doing this. It's creepy, right?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0106",
+    "t": [
+      480.2,
+      488.2
+    ],
+    "speaker": "Francis",
+    "text": "Lester. Looks like he was the janitor. How long do you think he's been down here?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0107",
+    "t": [
+      490.2,
+      493.2
+    ],
+    "speaker": "Stanley",
+    "text": "Not to say May of 85."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0108",
+    "t": [
+      493.2,
+      495.2
+    ],
+    "speaker": "Francis",
+    "text": "You can tell that by tasting?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0109",
+    "t": [
+      495.2,
+      497.2
+    ],
+    "speaker": "Stanley",
+    "text": "No, date on the newspaper."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0110",
+    "t": [
+      497.2,
+      499.2
+    ],
+    "speaker": "Francis",
+    "text": "Then why did you lick him?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0111",
+    "t": [
+      499.2,
+      501.2
+    ],
+    "speaker": "Stanley",
+    "text": "Often you get a taste of mommy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0112",
+    "t": [
+      503.2,
+      504.2
+    ],
+    "speaker": "Francis",
+    "text": "Wish you tell someone about him."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0113",
+    "t": [
+      504.2,
+      512.2
+    ],
+    "speaker": "Stanley",
+    "text": "No, you can't do that. Come on, don't know you took the key and he'll punish you. And then he'll punish me. And I'm going to have to punish you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0114",
+    "t": [
+      512.2,
+      520.2
+    ],
+    "speaker": "Francis",
+    "text": "Yeah, but don't you think that's kind of sad? I mean, Lester's family will never know what happened to him. They probably still sit a place for him on holidays."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0115",
+    "t": [
+      520.2,
+      525.2
+    ],
+    "speaker": "Stanley",
+    "text": "Yeah, well judging by the empty Scotch bottles and German dungeon porn, I don't think so."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0116",
+    "t": [
+      526.2,
+      528.2
+    ],
+    "speaker": "Francis",
+    "text": "Damn. Beta."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0117",
+    "t": [
+      535.2,
+      542.2
+    ],
+    "speaker": "Hal",
+    "text": "And you made fun of me when I bought this mission to wear. Who looks like an idiot now?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0118",
+    "t": [
+      542.2,
+      547.2
+    ],
+    "speaker": "Lois",
+    "text": "I stand correct. Close the door, will you raise the bar?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0119",
+    "t": [
+      547.2,
+      549.2
+    ],
+    "speaker": "Reese",
+    "text": "But it's cooler outside."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0120",
+    "t": [
+      549.2,
+      550.2
+    ],
+    "speaker": "Hal",
+    "text": "Are you sure?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0121",
+    "t": [
+      550.2,
+      551.2
+    ],
+    "speaker": "Reese",
+    "text": "Yeah."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0122",
+    "t": [
+      570.2,
+      573.2
+    ],
+    "speaker": "Lois",
+    "text": "Will you please make up your mind?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0123",
+    "t": [
+      574.2,
+      576.2
+    ],
+    "speaker": "Hal",
+    "text": "I don't need for that kind of tone."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0124",
+    "t": [
+      576.2,
+      577.2
+    ],
+    "speaker": "Lois",
+    "text": "That isn't a tone."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0125",
+    "t": [
+      577.2,
+      579.2
+    ],
+    "speaker": "Hal",
+    "text": "There it is again."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0126",
+    "t": [
+      579.2,
+      584.2
+    ],
+    "speaker": "Lois",
+    "text": "Look, health, it's hot. We're all cranky. Will you please just drop it?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0127",
+    "t": [
+      584.2,
+      585.2
+    ],
+    "speaker": "Hal",
+    "text": "Fine."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0128",
+    "t": [
+      587.2,
+      589.2
+    ],
+    "speaker": "Hal",
+    "text": "I think you should apologize."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0129",
+    "t": [
+      589.2,
+      593.2
+    ],
+    "speaker": "Lois",
+    "text": "You know, I didn't hear you apologizing to me when you used it all the liquid in the chemical toilet."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0130",
+    "t": [
+      593.2,
+      597.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, we have your taco casserole. The thank for that, don't we?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0131",
+    "t": [
+      597.2,
+      601.2
+    ],
+    "speaker": "Lois",
+    "text": "Boys, you step outside for a second. You're further than I need low privacy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0132",
+    "t": [
+      605.2,
+      610.2
+    ],
+    "speaker": "Lois",
+    "text": "Look, I don't want to say anything from the boys. But you are behaving like a giant ass."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0133",
+    "t": [
+      610.2,
+      614.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, really? Well, as long as we're on the subject of giant asses."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0134",
+    "t": [
+      615.2,
+      617.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I'm ready to go."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0135",
+    "t": [
+      617.2,
+      618.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Hey, you want to see something?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0136",
+    "t": [
+      618.2,
+      620.2
+    ],
+    "speaker": "Malcolm",
+    "text": "That's okay. I don't want to break it."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0137",
+    "t": [
+      620.2,
+      622.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Ah, don't be silly. Come take a look."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0138",
+    "t": [
+      626.2,
+      627.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Wow."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0139",
+    "t": [
+      627.2,
+      629.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "That's a spiral galaxy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0140",
+    "t": [
+      629.2,
+      639.2
+    ],
+    "speaker": "Malcolm",
+    "text": "These people are amazing. They're rich, they're smart, they're polite. What are they going to do next? Give me a million dollars. Malcolm, do you want a million dollars?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0141",
+    "t": [
+      639.2,
+      640.2
+    ],
+    "speaker": "Malcolm",
+    "text": "What?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0142",
+    "t": [
+      640.2,
+      642.2
+    ],
+    "speaker": "Mrs Inkster",
+    "text": "I said, do you want a sandwich to take home?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0143",
+    "t": [
+      642.2,
+      645.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Oh, close enough."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0144",
+    "t": [
+      645.2,
+      651.2
+    ],
+    "speaker": "Hal",
+    "text": "I only asked out your sister because you said you weren't interested. And I was thinking of you the whole time."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0145",
+    "t": [
+      651.2,
+      654.2
+    ],
+    "speaker": "Lois",
+    "text": "I don't get it fast. I saw the chart right away."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0146",
+    "t": [
+      654.2,
+      660.2
+    ],
+    "speaker": "Hal",
+    "text": "This isn't even mine. What are you insane? You're throwing up stuff that's not even mine."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0147",
+    "t": [
+      664.2,
+      674.2
+    ],
+    "speaker": "Hal",
+    "text": "What are you looking at? Hey, it's a private conversation, putter. Huh? Oh, yeah, like you've never seen this before."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0148",
+    "t": [
+      674.2,
+      676.2
+    ],
+    "speaker": "unknown",
+    "text": "Why did you say that?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0149",
+    "t": [
+      676.2,
+      678.2
+    ],
+    "speaker": "Hal",
+    "text": "I'm on the next floor."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0150",
+    "t": [
+      683.2,
+      690.2
+    ],
+    "speaker": "Francis",
+    "text": "You were right about Lester. I checked him out. No wife, no kids. We forgot it in a friend in the world."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0151",
+    "t": [
+      694.2,
+      696.2
+    ],
+    "speaker": "unknown",
+    "text": "You're the girl that's going to be here."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0152",
+    "t": [
+      696.2,
+      698.2
+    ],
+    "speaker": "Francis",
+    "text": "Did you tell anyone about this place?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0153",
+    "t": [
+      698.2,
+      699.2
+    ],
+    "speaker": "Stanley",
+    "text": "No."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0154",
+    "t": [
+      699.2,
+      701.2
+    ],
+    "speaker": "unknown",
+    "text": "Huh."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0155",
+    "t": [
+      701.2,
+      709.2
+    ],
+    "speaker": "Francis",
+    "text": "What's done in me? All right, that's enough. Parties over. Did you guys have any respect for the dead?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0156",
+    "t": [
+      709.2,
+      710.2
+    ],
+    "speaker": "Drew",
+    "text": "You took his wallet?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0157",
+    "t": [
+      710.2,
+      747.2
+    ],
+    "speaker": "Francis",
+    "text": "Lester would have wanted me to have his ID. But that's not the point. This man was not just an alcoholic pervert janitor. He was one of us. He hated the common on as much as we do. He was filled with impudent rage like we are. This man was a hero. And heroes do not rot alone in basements. They are immortalized in song. They are sent off to Vahala and flaming ships. They are not put in beer hats or used as photo props or given fake moustaches."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0158",
+    "t": [
+      747.2,
+      749.2
+    ],
+    "speaker": "Cadets",
+    "text": "Oh, wait."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0159",
+    "t": [
+      751.2,
+      752.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0160",
+    "t": [
+      752.2,
+      754.2
+    ],
+    "speaker": "Stanley",
+    "text": "That wasn't fake."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0161",
+    "t": [
+      754.2,
+      758.2
+    ],
+    "speaker": "Francis",
+    "text": "My bad. What are we doing now?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0162",
+    "t": [
+      758.2,
+      761.2
+    ],
+    "speaker": "Stanley",
+    "text": "Go for the spare."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0163",
+    "t": [
+      761.2,
+      763.2
+    ],
+    "speaker": "Cut To Clip Sequence",
+    "text": "It's hot."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0164",
+    "t": [
+      780.2,
+      782.2
+    ],
+    "speaker": "unknown",
+    "text": "No!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0165",
+    "t": [
+      800.2,
+      803.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Francis, I'm sorry I'm calling you, Shalate. I had to talk to someone."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0166",
+    "t": [
+      803.2,
+      805.2
+    ],
+    "speaker": "Francis",
+    "text": "Hey, no problem. What's going on?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0167",
+    "t": [
+      805.2,
+      810.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I don't know. Do you ever feel like you don't really belong in the family?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0168",
+    "t": [
+      810.2,
+      814.2
+    ],
+    "speaker": "Francis",
+    "text": "Dude, I'm in military school. I think that question's been answered."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0169",
+    "t": [
+      814.2,
+      819.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Right. This is good. At least someone else in the family is normal."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0170",
+    "t": [
+      819.2,
+      826.2
+    ],
+    "speaker": "Francis",
+    "text": "Hey, listen, while I got you, I'm... You're in school with all those science brains. How would you reattach a head to a dead body?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0171",
+    "t": [
+      834.2,
+      836.2
+    ],
+    "speaker": "Lois",
+    "text": "Keep it down!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0172",
+    "t": [
+      836.2,
+      837.2
+    ],
+    "speaker": "Reese",
+    "text": "Huh?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0173",
+    "t": [
+      837.2,
+      838.2
+    ],
+    "speaker": "Hal",
+    "text": "Don't talk to your mother like that."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0174",
+    "t": [
+      838.2,
+      839.2
+    ],
+    "speaker": "Lois",
+    "text": "Don't you go sit in the corner."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0175",
+    "t": [
+      839.2,
+      841.2
+    ],
+    "speaker": "Reese",
+    "text": "There are no corners."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0176",
+    "t": [
+      843.2,
+      845.2
+    ],
+    "speaker": "Hal",
+    "text": "You ready to make up?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0177",
+    "t": [
+      846.2,
+      848.2
+    ],
+    "speaker": "Lois",
+    "text": "No."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0178",
+    "t": [
+      848.2,
+      850.2
+    ],
+    "speaker": "Hal",
+    "text": "Me neither."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0179",
+    "t": [
+      853.2,
+      860.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, hello, son. You know, I barely see you anymore. My babysitting is turning into a full-time job."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0180",
+    "t": [
+      860.2,
+      870.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Well, sometimes I just go over there to hang out. And watch TV. Live in a house. Dad, does this seem okay to you?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0181",
+    "t": [
+      870.2,
+      872.2
+    ],
+    "speaker": "unknown",
+    "text": "I know."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0182",
+    "t": [
+      872.2,
+      882.2
+    ],
+    "speaker": "Hal",
+    "text": "Your mother and I have never fought for this long before. It's been days, and we still haven't made up. I don't even know what the problem is. Something's missing."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0183",
+    "t": [
+      882.2,
+      884.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh, I..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0184",
+    "t": [
+      884.2,
+      909.2
+    ],
+    "speaker": "Hal",
+    "text": "Look at that sky, Malcolm. Just think. Somewhere out there, with all those stars and planets, there might be at this very moment a space dad who just got kicked out of his space trailer. He was looking down at us. Or would it be up at us? Or maybe sideways?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0185",
+    "t": [
+      909.2,
+      913.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Trust me, Dad. So they're all looking down on us."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0186",
+    "t": [
+      914.2,
+      917.2
+    ],
+    "speaker": "Mrs Inkster",
+    "text": "The matinee gets out at four, so we should be back before dinner."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0187",
+    "t": [
+      917.2,
+      918.2
+    ],
+    "speaker": "unknown",
+    "text": "Okay."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0188",
+    "t": [
+      918.2,
+      920.2
+    ],
+    "speaker": "Malcolm",
+    "text": "What do you want me to feed the kids for lunch?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0189",
+    "t": [
+      920.2,
+      923.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Whatever you want. We trust you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0190",
+    "t": [
+      923.2,
+      938.2
+    ],
+    "speaker": "Malcolm",
+    "text": "They trust me. People eat this, trust me. I honestly have to say something nice back to them. This is why my family sucks. I'm no training in this. This job......need like..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0191",
+    "t": [
+      938.2,
+      946.2
+    ],
+    "speaker": "Mrs Inkster",
+    "text": "Well, we're thrilled to have found you, Malcolm. The kids love you. You're great to have around. You've really become one of the family."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0192",
+    "t": [
+      947.2,
+      952.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I may not have been switched at birth, but I should have been. I love these people."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0193",
+    "t": [
+      956.2,
+      958.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Why is someone need a call, man?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0194",
+    "t": [
+      958.2,
+      960.2
+    ],
+    "speaker": "unknown",
+    "text": "Wait, wait, wait."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0195",
+    "t": [
+      960.2,
+      961.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I need to watch out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0196",
+    "t": [
+      961.2,
+      963.2
+    ],
+    "speaker": "unknown",
+    "text": "I need to have a call."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0197",
+    "t": [
+      976.2,
+      979.2
+    ],
+    "speaker": "unknown",
+    "text": "I need to watch out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0198",
+    "t": [
+      1007.2,
+      1009.2
+    ],
+    "speaker": "Francis",
+    "text": "Okay, come on."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0199",
+    "t": [
+      1012.2,
+      1014.2
+    ],
+    "speaker": "Francis",
+    "text": "Wait a minute."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0200",
+    "t": [
+      1017.2,
+      1019.2
+    ],
+    "speaker": "unknown",
+    "text": "Sorry."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0201",
+    "t": [
+      1020.2,
+      1025.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Well, let's see what our little friend did today."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0202",
+    "t": [
+      1036.2,
+      1064.2
+    ],
+    "speaker": "unknown",
+    "text": "I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry. I'm sorry."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0203",
+    "t": [
+      1065.2,
+      1109.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Oh, hi. Don't worry. I never heard Barney. He's part of the family. Just like I'm part of the family, right? And since a big part of this family is being such a huge phony and launching secret investigations against each other, I thought I'd join in. Personal computers are great. You can file tax returns, medical records, embarrassing private email, little security tip, though. Never use your birthday as your password. And hiding things in a big stall can? That's just silly. I don't know who Melissa is, but she sure wears a lot of lipstick. Anyway, I think I hear you guys pulling up in the driveway. So let's just leave it at this. I quit. Bye."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0204",
+    "t": [
+      1111.2,
+      1114.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Who's Melissa?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0205",
+    "t": [
+      1116.2,
+      1118.2
+    ],
+    "speaker": "Mr Inkster",
+    "text": "Pull nail slip on her to the toilet."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0206",
+    "t": [
+      1118.2,
+      1121.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, hi, sir. I just didn't hear you drive up."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0207",
+    "t": [
+      1121.2,
+      1123.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I decided to walk."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0208",
+    "t": [
+      1123.2,
+      1125.2
+    ],
+    "speaker": "Hal",
+    "text": "So how's the job going?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0209",
+    "t": [
+      1125.2,
+      1127.2
+    ],
+    "speaker": "Malcolm",
+    "text": "They were jerks, so I quit."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0210",
+    "t": [
+      1127.2,
+      1131.2
+    ],
+    "speaker": "Hal",
+    "text": "Yeah, that's pretty much what work is. Welcome to the club."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0211",
+    "t": [
+      1131.2,
+      1133.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Dad?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0212",
+    "t": [
+      1133.2,
+      1134.2
+    ],
+    "speaker": "unknown",
+    "text": "Yeah."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0213",
+    "t": [
+      1134.2,
+      1135.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I'm really sorry."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0214",
+    "t": [
+      1135.2,
+      1150.2
+    ],
+    "speaker": "Hal",
+    "text": "Not quitting? No big deal. Especially for you. Malcolm, you should set your sights as high as you can. If anyone in this family has a shot of greatness at you, just tell me a favor. Look after your brothers."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0215",
+    "t": [
+      1150.2,
+      1154.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Okay, wait, wait. You mean everything you just said, right?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0216",
+    "t": [
+      1154.2,
+      1156.2
+    ],
+    "speaker": "Hal",
+    "text": "Why would I say something I didn't mean?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0217",
+    "t": [
+      1156.2,
+      1169.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Say, that's what I'm talking about. This family may be rude, loud, and gross, and I know shame whatsoever. Anyway, with them, you know where you stand. And when I have a problem, the row is there."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0218",
+    "t": [
+      1169.2,
+      1173.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, my lord. Sex."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0219",
+    "t": [
+      1174.2,
+      1176.2
+    ],
+    "speaker": "unknown",
+    "text": "Hmm?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0220",
+    "t": [
+      1176.2,
+      1193.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Things didn't work out so bad. I made enough money to get my robotics kit. Or maybe I should do something nice for my family. Take them to dinner, treat them to a movie. Nah, then I couldn't do this."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0221",
+    "t": [
+      1193.2,
+      1195.2
+    ],
+    "speaker": "unknown",
+    "text": "You can change your underwear."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0222",
+    "t": [
+      1195.2,
+      1197.2
+    ],
+    "speaker": "Malcolm",
+    "text": "This is exactly what's going to happen."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0223",
+    "t": [
+      1197.2,
+      1205.2
+    ],
+    "speaker": "Francis",
+    "text": "Like the ancient civilizations before us, we send off this noble man with the riches he had in life. So he may enjoy them in the afterlife."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0224",
+    "t": [
+      1210.2,
+      1213.2
+    ],
+    "speaker": "Francis",
+    "text": "Farewell, noble lester."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0225",
+    "t": [
+      1217.2,
+      1221.2
+    ],
+    "speaker": "Francis",
+    "text": "It's burning really fast. How much gas did you use?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0226",
+    "t": [
+      1221.2,
+      1223.2
+    ],
+    "speaker": "Drew",
+    "text": "I have a can."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0227",
+    "t": [
+      1225.2,
+      1227.2
+    ],
+    "speaker": "Francis",
+    "text": "Where'd you put the can?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0228",
+    "t": [
+      1229.2,
+      1231.2
+    ],
+    "speaker": "Francis",
+    "text": "Oh."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0229",
+    "t": [
+      1232.2,
+      1235.2
+    ],
+    "speaker": "Stanley",
+    "text": "Look, it's heading toward the boat house."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0230",
+    "t": [
+      1240.2,
+      1243.2
+    ],
+    "speaker": "Francis",
+    "text": "What do you think? Run?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0231",
+    "t": [
+      1243.2,
+      1246.2
+    ],
+    "speaker": "Stanley",
+    "text": "Yeah, I'd run."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0232",
+    "t": [
+      1256.2,
+      1258.2
+    ],
+    "speaker": "Hal",
+    "text": "I figured it out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0233",
+    "t": [
+      1258.2,
+      1260.2
+    ],
+    "speaker": "Lois",
+    "text": "Are you okay?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0234",
+    "t": [
+      1260.2,
+      1270.2
+    ],
+    "speaker": "Hal",
+    "text": "When ever we'd fight, you yell that I'd yell, but then we would, you know, mostly we had another chance to, because we were in a trailer with kids, and we can't."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0235",
+    "t": [
+      1270.2,
+      1274.2
+    ],
+    "speaker": "Lois",
+    "text": "Oh, my god, hell, you're right. Well, what if we get the kids?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0236",
+    "t": [
+      1274.2,
+      1277.2
+    ],
+    "speaker": "Hal",
+    "text": "No, no, no, no, I got it all figured out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0237",
+    "t": [
+      1291.2,
+      1315.2
+    ],
+    "speaker": "unknown",
+    "text": "I love you. I love you. I love you. I love you. I love you. I love you. I love you. I love you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0238",
+    "t": [
+      1320.2,
+      1347.2
+    ],
+    "speaker": "unknown",
+    "text": "I love you. I love you. I love you. I love you. I love you. I love you. I love you. I love you. I love you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E05",
+    "unit_id": "u0239",
+    "t": [
+      1350.2,
+      1353.2
+    ],
+    "speaker": "unknown",
+    "text": "I love you."
+  }
+]

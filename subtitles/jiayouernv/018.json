@@ -1,0 +1,2477 @@
+[
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0001",
+    "t": [
+      0.5,
+      1.5
+    ],
+    "speaker": "夏雨",
+    "text": "好 回来啦"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0002",
+    "t": [
+      3.5,
+      4.5
+    ],
+    "speaker": "夏雪",
+    "text": "姐 你回啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0003",
+    "t": [
+      6.5,
+      7.5
+    ],
+    "speaker": "夏雪",
+    "text": "这什么东东啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0004",
+    "t": [
+      30.5,
+      41.5
+    ],
+    "speaker": "夏雨",
+    "text": "这就叫 家族特征"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0005",
+    "t": [
+      60.5,
+      70.5
+    ],
+    "speaker": "夏雪",
+    "text": "这就叫 家族特征"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0006",
+    "t": [
+      90.5,
+      95.94
+    ],
+    "speaker": "夏雪",
+    "text": "posters Die"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0007",
+    "t": [
+      97.5,
+      99.8
+    ],
+    "speaker": "夏雪",
+    "text": "play by此"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0008",
+    "t": [
+      110.5,
+      112.5
+    ],
+    "speaker": "夏雪",
+    "text": "发回来了吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0009",
+    "t": [
+      112.5,
+      116.5
+    ],
+    "speaker": "unknown",
+    "text": "呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼 呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼呼嘀肠啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0010",
+    "t": [
+      116.5,
+      119.78
+    ],
+    "speaker": "夏雨",
+    "text": "是爸爸当的礼物"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0011",
+    "t": [
+      119.78,
+      120.98
+    ],
+    "speaker": "夏雪",
+    "text": "给谁的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0012",
+    "t": [
+      121.98,
+      124.18
+    ],
+    "speaker": "夏雨",
+    "text": "给 我的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0013",
+    "t": [
+      124.18,
+      126.1
+    ],
+    "speaker": "刘星",
+    "text": "给 我的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0014",
+    "t": [
+      126.1,
+      133.5
+    ],
+    "speaker": "夏雪",
+    "text": "给 好 咱家老是有心的 好 是给老的声礼物"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0015",
+    "t": [
+      133.5,
+      135.7
+    ],
+    "speaker": "刘星",
+    "text": "是我老了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0016",
+    "t": [
+      136.3,
+      138.5
+    ],
+    "speaker": "夏雨",
+    "text": "现在也是我的老了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0017",
+    "t": [
+      140.1,
+      143.7
+    ],
+    "speaker": "夏雪",
+    "text": "是我和小宇的老了 应该说不是吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0018",
+    "t": [
+      144.5,
+      147.9
+    ],
+    "speaker": "刘星",
+    "text": "我不跟你斗粉 我得先看看"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0019",
+    "t": [
+      147.9,
+      149.9
+    ],
+    "speaker": "夏雪",
+    "text": "我还没看呢 不承认你说"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0020",
+    "t": [
+      149.9,
+      151.9
+    ],
+    "speaker": "刘星",
+    "text": "你得让我"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0021",
+    "t": [
+      151.9,
+      153.9
+    ],
+    "speaker": "夏雪",
+    "text": "听过女生优先的词吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0022",
+    "t": [
+      153.9,
+      154.9
+    ],
+    "speaker": "刘星",
+    "text": "我还真没听过我"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0023",
+    "t": [
+      154.9,
+      156.9
+    ],
+    "speaker": "夏雪",
+    "text": "你不知道 也得知道"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0024",
+    "t": [
+      156.9,
+      157.9
+    ],
+    "speaker": "刘星",
+    "text": "把这给我"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0025",
+    "t": [
+      157.9,
+      158.9
+    ],
+    "speaker": "夏雪",
+    "text": "给不开"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0026",
+    "t": [
+      158.9,
+      159.9
+    ],
+    "speaker": "刘星",
+    "text": "给不开"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0027",
+    "t": [
+      159.9,
+      160.9
+    ],
+    "speaker": "夏雨",
+    "text": "给不开"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0028",
+    "t": [
+      168.9,
+      171.9
+    ],
+    "speaker": "夏雨",
+    "text": "要传祸的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0029",
+    "t": [
+      175.9,
+      176.9
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "一"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0030",
+    "t": [
+      189.9,
+      191.9
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "好 好"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0031",
+    "t": [
+      191.9,
+      193.9
+    ],
+    "speaker": "夏雪",
+    "text": "你还笑"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0032",
+    "t": [
+      193.9,
+      195.9
+    ],
+    "speaker": "夏雨",
+    "text": "我也不笑 就没人笑得出来"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0033",
+    "t": [
+      201.9,
+      202.9
+    ],
+    "speaker": "夏雪",
+    "text": "怎么办呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0034",
+    "t": [
+      202.9,
+      204.9
+    ],
+    "speaker": "刘星",
+    "text": "我要知道就好了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0035",
+    "t": [
+      206.9,
+      231.9
+    ],
+    "speaker": "夏雪",
+    "text": "本来 怎么东西藏起来 是怕大人看见生气 可是 可是他们看不见 还是生气 本来 咱们不让他们看那些东西 还是怕他们生气 可是 可是现在说也晚了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0036",
+    "t": [
+      232.9,
+      237.9
+    ],
+    "speaker": "刘星",
+    "text": "如果 咱们现在去承认错误"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0037",
+    "t": [
+      239.9,
+      248.9
+    ],
+    "speaker": "刘星",
+    "text": "他们就更生气了 没活路 回家新一波吧 等着砍头吧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0038",
+    "t": [
+      252.9,
+      258.9
+    ],
+    "speaker": "夏雨",
+    "text": "你有什么好注意 我给你们讲了一个 在美国优务员听到的故事吧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0039",
+    "t": [
+      258.9,
+      260.9
+    ],
+    "speaker": "刘星",
+    "text": "去你的美国优务员"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0040",
+    "t": [
+      260.9,
+      263.9
+    ],
+    "speaker": "夏雪",
+    "text": "留心 先听他怎么说"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0041",
+    "t": [
+      263.9,
+      273.9
+    ],
+    "speaker": "夏雨",
+    "text": "很久很久以前 华盛顿小的时候 砍了他爸心爱的评我数 咱这事的性差不多"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0042",
+    "t": [
+      273.9,
+      274.9
+    ],
+    "speaker": "夏雪",
+    "text": "继续"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0043",
+    "t": [
+      274.9,
+      277.9
+    ],
+    "speaker": "夏雨",
+    "text": "后来华盛顿向他爸爸承认的错误"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0044",
+    "t": [
+      277.9,
+      280.9
+    ],
+    "speaker": "刘星",
+    "text": "主动的承认的错误"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0045",
+    "t": [
+      280.9,
+      282.9
+    ],
+    "speaker": "夏雨",
+    "text": "勇敢的承认的错误"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0046",
+    "t": [
+      282.9,
+      283.9
+    ],
+    "speaker": "夏雪",
+    "text": "再后来呢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0047",
+    "t": [
+      283.9,
+      285.9
+    ],
+    "speaker": "夏雨",
+    "text": "他就在那走脑"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0048",
+    "t": [
+      286.9,
+      290.9
+    ],
+    "speaker": "刘星",
+    "text": "我们不想当从头"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0049",
+    "t": [
+      304.9,
+      306.9
+    ],
+    "speaker": "夏东海",
+    "text": "找着了没有"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0050",
+    "t": [
+      306.9,
+      312.9
+    ],
+    "speaker": "刘梅",
+    "text": "给你妈的礼物没找着 但是找到了我失踪多年的鞋子"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0051",
+    "t": [
+      312.9,
+      320.9
+    ],
+    "speaker": "夏东海",
+    "text": "还有意思吧 正好跟我这支纯圆了 我别把这网子到处乱这样了 我那不就找不着"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0052",
+    "t": [
+      321.9,
+      323.9
+    ],
+    "speaker": "刘梅",
+    "text": "咱死了你去去去去 前面坐着"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0053",
+    "t": [
+      325.9,
+      326.9
+    ],
+    "speaker": "刘梅",
+    "text": "累死我"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0054",
+    "t": [
+      326.9,
+      330.9
+    ],
+    "speaker": "夏东海",
+    "text": "韩子没找着 把我老公给累弹"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0055",
+    "t": [
+      330.9,
+      338.9
+    ],
+    "speaker": "刘梅",
+    "text": "你说你妈明天就过生日了 是 要不然咱跟你妈打个白条线线啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0056",
+    "t": [
+      340.9,
+      342.9
+    ],
+    "speaker": "夏东海",
+    "text": "你倒真不怕得罪我"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0057",
+    "t": [
+      343.9,
+      347.9
+    ],
+    "speaker": "刘梅",
+    "text": "你是不是根本就没买那弹子"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0058",
+    "t": [
+      350.9,
+      354.9
+    ],
+    "speaker": "夏东海",
+    "text": "你这可有点伤自尊 是啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0059",
+    "t": [
+      354.9,
+      360.9
+    ],
+    "speaker": "刘梅",
+    "text": "我的意思是说你会不会 这首刚交了钱 那首忘拿弹子了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0060",
+    "t": [
+      361.9,
+      369.9
+    ],
+    "speaker": "夏东海",
+    "text": "我怎么没把我忘了那儿 我告诉你啊 我今天非把那弹子找出来 不然我还说不清楚"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0061",
+    "t": [
+      373.9,
+      377.9
+    ],
+    "speaker": "夏东海",
+    "text": "又 找着了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0062",
+    "t": [
+      377.9,
+      379.9
+    ],
+    "speaker": "夏雨",
+    "text": "你怎么找着的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0063",
+    "t": [
+      382.9,
+      384.9
+    ],
+    "speaker": "夏雨",
+    "text": "我说那么奇怪呢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0064",
+    "t": [
+      384.9,
+      396.9
+    ],
+    "speaker": "夏东海",
+    "text": "这东西原来猜了 他猜了 所以找不着 现在找着了 他已经猜了 这个猜了还找不着啊 都不是无缘无故的 明白了吗 老婆"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0065",
+    "t": [
+      397.9,
+      400.9
+    ],
+    "speaker": "刘梅",
+    "text": "流行小义小雪过出了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0066",
+    "t": [
+      402.9,
+      404.9
+    ],
+    "speaker": "夏雨",
+    "text": "爸 妈 有什么事啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0067",
+    "t": [
+      405.9,
+      406.9
+    ],
+    "speaker": "刘梅",
+    "text": "那俩大的呢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0068",
+    "t": [
+      407.9,
+      414.9
+    ],
+    "speaker": "夏东海",
+    "text": "我不知道 没没 别急 我来叫的 流行和下雪啊 来来来 小雪"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0069",
+    "t": [
+      420.9,
+      427.9
+    ],
+    "speaker": "夏东海",
+    "text": "你们谁能告诉我啊 这是怎么回事啊 嗯 哎 哥 说"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0070",
+    "t": [
+      427.9,
+      432.9
+    ],
+    "speaker": "夏雨",
+    "text": "他的物理形状是改变了 可是他的化学方程式还是没变点"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0071",
+    "t": [
+      433.9,
+      436.9
+    ],
+    "speaker": "刘星",
+    "text": "变成两 二分之一了 对"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0072",
+    "t": [
+      438.9,
+      440.9
+    ],
+    "speaker": "夏东海",
+    "text": "那他怎么会突然变成这样的呢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0073",
+    "t": [
+      442.9,
+      443.9
+    ],
+    "speaker": "夏东海",
+    "text": "说"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0074",
+    "t": [
+      444.9,
+      447.9
+    ],
+    "speaker": "夏雨",
+    "text": "不会是好子干的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0075",
+    "t": [
+      448.9,
+      451.9
+    ],
+    "speaker": "夏东海",
+    "text": "一会儿八道 好子哪有这么大劲"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0076",
+    "t": [
+      451.9,
+      455.9
+    ],
+    "speaker": "刘星",
+    "text": "老鼠都能拉铁枪 都能这个 应该也是可以的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0077",
+    "t": [
+      456.9,
+      459.9
+    ],
+    "speaker": "刘梅",
+    "text": "别胡说八道 什么老鼠能拉铁枪"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0078",
+    "t": [
+      460.9,
+      463.9
+    ],
+    "speaker": "刘星",
+    "text": "老鼠脱木鲜 大头在后头 明天限雨"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0079",
+    "t": [
+      464.9,
+      465.9
+    ],
+    "speaker": "夏雨",
+    "text": "就是就是"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0080",
+    "t": [
+      465.9,
+      468.9
+    ],
+    "speaker": "刘梅",
+    "text": "什么就是就是 我今天废问清楚不可"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0081",
+    "t": [
+      469.9,
+      476.9
+    ],
+    "speaker": "夏东海",
+    "text": "妈妈问就是老鼠脱木鲜 没错 妈妈就是大头"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0082",
+    "t": [
+      477.9,
+      479.9
+    ],
+    "speaker": "刘梅",
+    "text": "什么大头 怎么还笑过你"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0083",
+    "t": [
+      479.9,
+      481.9
+    ],
+    "speaker": "夏东海",
+    "text": "你忘了刚才多挫火了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0084",
+    "t": [
+      482.9,
+      484.9
+    ],
+    "speaker": "刘梅",
+    "text": "对对对对 站好 站好"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0085",
+    "t": [
+      487.9,
+      491.9
+    ],
+    "speaker": "刘梅",
+    "text": "你们说 老老实实地说 到底是谁干的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0086",
+    "t": [
+      491.9,
+      494.9
+    ],
+    "speaker": "夏东海",
+    "text": "对 回答妈妈的问题 说清楚"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0087",
+    "t": [
+      494.9,
+      495.9
+    ],
+    "speaker": "姥姥",
+    "text": "有没啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0088",
+    "t": [
+      497.9,
+      498.9
+    ],
+    "speaker": "姥姥",
+    "text": "你干吗呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0089",
+    "t": [
+      500.9,
+      502.9
+    ],
+    "speaker": "姥姥",
+    "text": "你瞧你们二位天下 怎么跟沈泽一似的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0090",
+    "t": [
+      502.9,
+      516.9
+    ],
+    "speaker": "夏东海",
+    "text": "是这么回事 我呀 知道你喜欢紧张正的词线 正好前两条出差 我就顺便给你带了一件回来 本来啊 想给您当生日礼物送给您 结果不成响啊 找不着了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0091",
+    "t": [
+      517.9,
+      522.9
+    ],
+    "speaker": "姥姥",
+    "text": "这不是找着了吗 怎么还来孩子呀 您瞧瞧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0092",
+    "t": [
+      523.9,
+      528.9
+    ],
+    "speaker": "夏东海",
+    "text": "找我是找着了 您再看看 不知道被谁给弄碎了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0093",
+    "t": [
+      529.9,
+      545.9
+    ],
+    "speaker": "姥姥",
+    "text": "这多好看的弹子呀 咱们可以开始猜了 这多可惜 是 有了 碎了就碎了 也就也就了 干吗还得追查是谁打碎的呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0094",
+    "t": [
+      545.9,
+      548.9
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "老老万碎了 老老万碎了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0095",
+    "t": [
+      548.9,
+      559.9
+    ],
+    "speaker": "刘梅",
+    "text": "老老万碎了 老老这样结束啊 这对教育孩子可不利 没错 去去去去 什么老老万碎啊 老老万碎也没用 老老不查 妈妈查"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0096",
+    "t": [
+      561.9,
+      589.9
+    ],
+    "speaker": "unknown",
+    "text": "查什么查呀 这 这说不定啊 还没这是东海路上碰碎 来来来 可不能这么愿望我啊 妈 这儿没年事 您回屋去 这你干吗呀 这怎么还没完了 妈 您想想 这事是小事吗 东西给猜了 猜你们在藏起来不承认 撒谎 再能行吗 不管能行啊 我告诉你们啊 今天我非得查出赵氏哲"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0097",
+    "t": [
+      591.9,
+      592.9
+    ],
+    "speaker": "unknown",
+    "text": "这儿老了也没用"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0098",
+    "t": [
+      592.9,
+      599.9
+    ],
+    "speaker": "夏东海",
+    "text": "对 我们要依查到底 在我们这样的阳光家庭 绝不允许用遗暗的英雄 说 你们到底谁干的 说什么"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0099",
+    "t": [
+      599.9,
+      604.9
+    ],
+    "speaker": "姥姥",
+    "text": "干嘛呀 干嘛呀 你们啊 这事给我的不是 是"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0100",
+    "t": [
+      604.9,
+      605.9
+    ],
+    "speaker": "夏东海",
+    "text": "是啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0101",
+    "t": [
+      607.9,
+      612.9
+    ],
+    "speaker": "姥姥",
+    "text": "看见没有 锅都菜了 你还查盖是谁菜的吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0102",
+    "t": [
+      625.9,
+      628.9
+    ],
+    "speaker": "姥姥",
+    "text": "哎呦 大清前龙年制"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0103",
+    "t": [
+      630.9,
+      633.9
+    ],
+    "speaker": "姥姥",
+    "text": "哎呦 这多好的谈子呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0104",
+    "t": [
+      636.9,
+      643.9
+    ],
+    "speaker": "姥姥",
+    "text": "怎么让我给打碎了 留着成茶鸡蛋 也行啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0105",
+    "t": [
+      647.9,
+      660.9
+    ],
+    "speaker": "夏东海",
+    "text": "我这还就越想越奇怪 喝着我这新鲜苦苦 给你妈买的半天事儿礼物 变成了两双鞋了 上海就听见一双鞋 另外一双什么双鞋呢 咱都不知道"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0106",
+    "t": [
+      661.9,
+      665.9
+    ],
+    "speaker": "刘梅",
+    "text": "老太太正在物理 抱着那谈子的碎片心疼呢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0107",
+    "t": [
+      666.9,
+      668.9
+    ],
+    "speaker": "夏东海",
+    "text": "那可是她自己摔的啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0108",
+    "t": [
+      669.9,
+      675.9
+    ],
+    "speaker": "刘梅",
+    "text": "你什么意思啊 你要不买磁季呢 你要买一不怕摔的 能有这事吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0109",
+    "t": [
+      675.9,
+      680.9
+    ],
+    "speaker": "夏东海",
+    "text": "对 足球不怕摔 我准备给她买一个去"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0110",
+    "t": [
+      681.9,
+      688.9
+    ],
+    "speaker": "刘梅",
+    "text": "老太太正在物理 捧着那个 大清前龙制的那谈了点 正在那儿就信呢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0111",
+    "t": [
+      689.9,
+      691.9
+    ],
+    "speaker": "夏东海",
+    "text": "那你没告诉她那是访的 不是真别呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0112",
+    "t": [
+      692.9,
+      694.9
+    ],
+    "speaker": "刘梅",
+    "text": "我跟她说了 她不信哪"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0113",
+    "t": [
+      696.9,
+      702.9
+    ],
+    "speaker": "刘梅",
+    "text": "哎 干脆我过去 我告诉她 我就说呀 她明年过生日 你打得送她一针了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0114",
+    "t": [
+      703.9,
+      704.9
+    ],
+    "speaker": "夏东海",
+    "text": "你别吓我人啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0115",
+    "t": [
+      704.9,
+      707.9
+    ],
+    "speaker": "刘梅",
+    "text": "我不吓我她 我真的能这么说 她肯定特别高兴"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0116",
+    "t": [
+      707.9,
+      712.9
+    ],
+    "speaker": "夏东海",
+    "text": "是 我说你吓我我 我去到买一针的多少钱"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0117",
+    "t": [
+      722.9,
+      723.9
+    ],
+    "speaker": "刘梅",
+    "text": "你好"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0118",
+    "t": [
+      723.9,
+      725.9
+    ],
+    "speaker": "米兰",
+    "text": "我是刘星的班长米兰"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0119",
+    "t": [
+      725.9,
+      731.9
+    ],
+    "speaker": "刘梅",
+    "text": "你好 我想起来了 上次给刘星告状的 就是"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0120",
+    "t": [
+      731.9,
+      733.9
+    ],
+    "speaker": "米兰",
+    "text": "这次我还是来告状的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0121",
+    "t": [
+      735.9,
+      739.9
+    ],
+    "speaker": "米兰",
+    "text": "刘星砸了学校的一块玻璃 需要培长"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0122",
+    "t": [
+      741.9,
+      746.9
+    ],
+    "speaker": "米兰",
+    "text": "老师这回让我来告诉你们 希望家长大力协助"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0123",
+    "t": [
+      748.9,
+      752.9
+    ],
+    "speaker": "刘梅",
+    "text": "没问题 明天一早啊 我去到学校去交发款"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0124",
+    "t": [
+      752.9,
+      755.9
+    ],
+    "speaker": "夏东海",
+    "text": "对对 明天一早是不是就过去交钱"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0125",
+    "t": [
+      755.9,
+      756.9
+    ],
+    "speaker": "米兰",
+    "text": "谢谢叔叔"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0126",
+    "t": [
+      756.9,
+      758.9
+    ],
+    "speaker": "刘梅",
+    "text": "阿姨不客气 阿姨再见"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0127",
+    "t": [
+      758.9,
+      763.9
+    ],
+    "speaker": "米兰",
+    "text": "再见 走啦 阿姨 您不会打刘星吧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0128",
+    "t": [
+      765.9,
+      767.9
+    ],
+    "speaker": "刘梅",
+    "text": "阿姨从来都不打孩子"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0129",
+    "t": [
+      768.9,
+      769.9
+    ],
+    "speaker": "米兰",
+    "text": "叔叔阿姨再见"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0130",
+    "t": [
+      769.9,
+      770.9
+    ],
+    "speaker": "刘梅",
+    "text": "再见再见"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0131",
+    "t": [
+      770.9,
+      772.9
+    ],
+    "speaker": "夏东海",
+    "text": "谢谢你 阿同学"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0132",
+    "t": [
+      772.9,
+      775.9
+    ],
+    "speaker": "米兰",
+    "text": "不用谢 再见 再见"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0133",
+    "t": [
+      776.9,
+      779.9
+    ],
+    "speaker": "刘梅",
+    "text": "刘星 你光过来 不过的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0134",
+    "t": [
+      781.9,
+      792.9
+    ],
+    "speaker": "刘梅",
+    "text": "你说你怎么那么欠的你 这没欠到我 赔玻璃啊 你从小到大 我跟你赔了多少玻璃钱 你怎么那么讨厌的你 你有那个你赔资格加玻璃啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0135",
+    "t": [
+      792.9,
+      795.9
+    ],
+    "speaker": "夏东海",
+    "text": "不能啊 我 孩子说了她不敢啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0136",
+    "t": [
+      795.9,
+      796.9
+    ],
+    "speaker": "刘梅",
+    "text": "去去去你便宜"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0137",
+    "t": [
+      798.9,
+      801.9
+    ],
+    "speaker": "刘梅",
+    "text": "你说你 你就一点都不残亏嘛你"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0138",
+    "t": [
+      805.9,
+      808.9
+    ],
+    "speaker": "夏东海",
+    "text": "残亏了 她残亏了 什么残亏了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0139",
+    "t": [
+      808.9,
+      822.9
+    ],
+    "speaker": "刘梅",
+    "text": "你那儿就不了解她 她从小到大都这样 她只要心里一步服 她就开始登腿 你说你有什么不服的你 你一切到晚在外面 给妈妈惹护 你说 老老那盘子是不是你给砸的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0140",
+    "t": [
+      824.9,
+      827.9
+    ],
+    "speaker": "姥姥",
+    "text": "你说她这孩子 你买的 什么东西"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0141",
+    "t": [
+      828.9,
+      829.9
+    ],
+    "speaker": "刘梅",
+    "text": "那盘子我不是砸的吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0142",
+    "t": [
+      829.9,
+      831.9
+    ],
+    "speaker": "刘星",
+    "text": "没玩了 哎呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0143",
+    "t": [
+      831.9,
+      832.9
+    ],
+    "speaker": "夏雪",
+    "text": "好不晚"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0144",
+    "t": [
+      834.9,
+      837.9
+    ],
+    "speaker": "夏雪",
+    "text": "你这孩子 你这孩子"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0145",
+    "t": [
+      845.9,
+      846.9
+    ],
+    "speaker": "夏雪",
+    "text": "结婚上平"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0146",
+    "t": [
+      848.9,
+      858.9
+    ],
+    "speaker": "夏雪",
+    "text": "一会儿就滑 你刚才那一两无辜 你刚刚那可真够像的呀 长大准是个超级大骗子"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0147",
+    "t": [
+      858.9,
+      865.9
+    ],
+    "speaker": "刘星",
+    "text": "你知道什么呀 其实砸坏我们学校玻璃的人 不是我 是我们同学临牛"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0148",
+    "t": [
+      866.9,
+      868.9
+    ],
+    "speaker": "夏雪",
+    "text": "就是你那个司党啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0149",
+    "t": [
+      868.9,
+      878.9
+    ],
+    "speaker": "刘星",
+    "text": "对 我告诉你 她爸可特行 要是知道这事 非把她打手了不可 我不能见死不救了 所以啊 就替她抗下来了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0150",
+    "t": [
+      878.9,
+      886.9
+    ],
+    "speaker": "夏雪",
+    "text": "都是哥伯伯伯 对吧 反正我爸也不会打你 顶多就是被你妈臭卖的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0151",
+    "t": [
+      886.9,
+      887.9
+    ],
+    "speaker": "刘星",
+    "text": "对了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0152",
+    "t": [
+      888.9,
+      895.9
+    ],
+    "speaker": "夏雪",
+    "text": "这主意不错 找一个不会受重发的人 把这事给抗下来"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0153",
+    "t": [
+      899.9,
+      902.9
+    ],
+    "speaker": "夏雪",
+    "text": "聪明 我这就找不起"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0154",
+    "t": [
+      904.9,
+      909.9
+    ],
+    "speaker": "夏雪",
+    "text": "小语 小语 抗下来了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0155",
+    "t": [
+      909.9,
+      914.9
+    ],
+    "speaker": "刘星",
+    "text": "抗下来了 抗下来了 抗下来了 别吵了 起来"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0156",
+    "t": [
+      914.9,
+      916.9
+    ],
+    "speaker": "夏雨",
+    "text": "干嘛呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0157",
+    "t": [
+      917.9,
+      920.9
+    ],
+    "speaker": "夏雪",
+    "text": "我们有特别重要的事情 要跟你相量"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0158",
+    "t": [
+      920.9,
+      922.9
+    ],
+    "speaker": "刘星",
+    "text": "对特重要的事 你知道吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0159",
+    "t": [
+      922.9,
+      929.9
+    ],
+    "speaker": "夏雪",
+    "text": "如果是爸爸妈妈 没有查清 是谁们坏了老了的礼物 绝对不会放过我们的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0160",
+    "t": [
+      929.9,
+      933.9
+    ],
+    "speaker": "刘星",
+    "text": "对 要是让爸妈知道了 我们就死定了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0161",
+    "t": [
+      933.9,
+      935.9
+    ],
+    "speaker": "夏雨",
+    "text": "这事各位有什么关系啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0162",
+    "t": [
+      936.9,
+      939.9
+    ],
+    "speaker": "夏雪",
+    "text": "小语 老弟"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0163",
+    "t": [
+      944.9,
+      946.9
+    ],
+    "speaker": "夏雪",
+    "text": "明白了吧 明白了吧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0164",
+    "t": [
+      946.9,
+      949.9
+    ],
+    "speaker": "夏雨",
+    "text": "你们说让我当 满"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0165",
+    "t": [
+      949.9,
+      957.9
+    ],
+    "speaker": "刘星",
+    "text": "替罪啊 ok ok ok ok 你打电话"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0166",
+    "t": [
+      957.9,
+      960.9
+    ],
+    "speaker": "夏雨",
+    "text": "yeah 我们干 对"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0167",
+    "t": [
+      960.9,
+      967.9
+    ],
+    "speaker": "夏雪",
+    "text": "你要老弟 不让你打一个 我们会给你 很多好处的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0168",
+    "t": [
+      969.9,
+      973.9
+    ],
+    "speaker": "夏雨",
+    "text": "那我就考虑一下吧 好考虑 快打"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0169",
+    "t": [
+      985.9,
+      988.9
+    ],
+    "speaker": "夏雨",
+    "text": "小语 我错了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0170",
+    "t": [
+      988.9,
+      989.9
+    ],
+    "speaker": "刘梅",
+    "text": "怎么了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0171",
+    "t": [
+      989.9,
+      994.9
+    ],
+    "speaker": "夏雨",
+    "text": "我一不小心 把送给老了礼物 谁能坏了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0172",
+    "t": [
+      994.9,
+      1015.9
+    ],
+    "speaker": "刘梅",
+    "text": "是你 没事 别哭了宝贝 又行了 没事 过来过来坐着 可怜了 没事的 没关系 没关系的 犯了错误 不要紧的 只要永远承认错误 就是好孩子了 对"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0173",
+    "t": [
+      1015.9,
+      1016.9
+    ],
+    "speaker": "夏东海",
+    "text": "就是我们男子汉"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0174",
+    "t": [
+      1016.9,
+      1027.9
+    ],
+    "speaker": "刘梅",
+    "text": "就是你 也就是你干的 就要是个个姐 得干的 他就死定了 没哭了你 可是"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0175",
+    "t": [
+      1027.9,
+      1029.9
+    ],
+    "speaker": "夏雨",
+    "text": "可是我的心太流了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0176",
+    "t": [
+      1029.9,
+      1039.9
+    ],
+    "speaker": "刘梅",
+    "text": "心不小淘气 行了行了 承认了错误 就是乖孩子 还是妈妈的宝贝 走吧 走吧 你真乖"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0177",
+    "t": [
+      1042.9,
+      1046.9
+    ],
+    "speaker": "夏东海",
+    "text": "怎么了 有话要跟爸爸说 什么"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0178",
+    "t": [
+      1046.9,
+      1048.9
+    ],
+    "speaker": "夏雨",
+    "text": "爸 我是这个"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0179",
+    "t": [
+      1050.9,
+      1051.9
+    ],
+    "speaker": "夏雨",
+    "text": "这个"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0180",
+    "t": [
+      1053.9,
+      1055.9
+    ],
+    "speaker": "夏东海",
+    "text": "什么意思"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0181",
+    "t": [
+      1055.9,
+      1057.9
+    ],
+    "speaker": "夏雪",
+    "text": "你说这事能承吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0182",
+    "t": [
+      1057.9,
+      1059.9
+    ],
+    "speaker": "刘星",
+    "text": "应该承吧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0183",
+    "t": [
+      1061.9,
+      1064.9
+    ],
+    "speaker": "夏雨",
+    "text": "怎么样了 搞定"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0184",
+    "t": [
+      1066.9,
+      1073.9
+    ],
+    "speaker": "夏雨",
+    "text": "就是 我给你们当剃嘴 你们就得给我当 十天的跟班"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0185",
+    "t": [
+      1084.9,
+      1095.9
+    ],
+    "speaker": "夏雨",
+    "text": "来 来 有 谢谢 好慢 走 有心 我倒杯 哭泉嘴"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0186",
+    "t": [
+      1095.9,
+      1097.9
+    ],
+    "speaker": "刘星",
+    "text": "等我 开玩笑"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0187",
+    "t": [
+      1101.9,
+      1109.9
+    ],
+    "speaker": "刘星",
+    "text": "你等我 帮我捏捏 我真的酸的用力 对"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0188",
+    "t": [
+      1109.9,
+      1113.9
+    ],
+    "speaker": "夏雨",
+    "text": "姐姐 给我捏捏不自"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0189",
+    "t": [
+      1118.9,
+      1121.9
+    ],
+    "speaker": "夏雪",
+    "text": "是 小少爷"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0190",
+    "t": [
+      1123.9,
+      1125.9
+    ],
+    "speaker": "刘星",
+    "text": "是 来了少爷"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0191",
+    "t": [
+      1130.9,
+      1133.9
+    ],
+    "speaker": "夏雨",
+    "text": "姐姐 我的房间是不是好了吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0192",
+    "t": [
+      1133.9,
+      1135.9
+    ],
+    "speaker": "夏雪",
+    "text": "小是好了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0193",
+    "t": [
+      1136.9,
+      1139.9
+    ],
+    "speaker": "夏雨",
+    "text": "我要的游戏盘 承认接到了吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0194",
+    "t": [
+      1139.9,
+      1149.9
+    ],
+    "speaker": "夏雪",
+    "text": "你放心吧 绝对全都见到了 明天就给你拿了 来 您的臭话 早一点帮您写了 我先过来了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0195",
+    "t": [
+      1149.9,
+      1151.9
+    ],
+    "speaker": "夏东海",
+    "text": "养养 一丝"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0196",
+    "t": [
+      1153.9,
+      1155.9
+    ],
+    "speaker": "夏东海",
+    "text": "我怎么觉得你们有点奇怪"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0197",
+    "t": [
+      1156.9,
+      1157.9
+    ],
+    "speaker": "夏雪",
+    "text": "不奇怪"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0198",
+    "t": [
+      1157.9,
+      1164.9
+    ],
+    "speaker": "夏东海",
+    "text": "怎么不奇怪 你们要是打他一顿 我倒不觉得奇怪 你们要对他这么好 我可觉得太关了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0199",
+    "t": [
+      1164.9,
+      1171.9
+    ],
+    "speaker": "刘星",
+    "text": "如果小宇要想爱打的话 我们也会承拳他的 对 小宇"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0200",
+    "t": [
+      1171.9,
+      1184.9
+    ],
+    "speaker": "夏东海",
+    "text": "小爱打吗 不像 但我能采访一下 你们为什么突然间对小宇这么好了吗 顿茶告诉我 还给闹养呀 又收拾房间 借敌 还把臭袜子都给洗了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0201",
+    "t": [
+      1184.9,
+      1188.9
+    ],
+    "speaker": "夏雨",
+    "text": "爸 咱倒没有人为您做这些事吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0202",
+    "t": [
+      1188.9,
+      1190.9
+    ],
+    "speaker": "夏东海",
+    "text": "当然有"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0203",
+    "t": [
+      1190.9,
+      1192.9
+    ],
+    "speaker": "夏雨",
+    "text": "那是为了什么呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0204",
+    "t": [
+      1192.9,
+      1193.9
+    ],
+    "speaker": "夏东海",
+    "text": "为了爱呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0205",
+    "t": [
+      1193.9,
+      1201.9
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "对呀 因为爱 那我们也是因为爱呀 对 对 老对不爱你"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0206",
+    "t": [
+      1203.9,
+      1204.9
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "谁呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0207",
+    "t": [
+      1204.9,
+      1206.9
+    ],
+    "speaker": "刘梅",
+    "text": "谁呀 来啦"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0208",
+    "t": [
+      1206.9,
+      1209.9
+    ],
+    "speaker": "林宁",
+    "text": "阿姨 刘星咱们 李宁"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0209",
+    "t": [
+      1209.9,
+      1211.9
+    ],
+    "speaker": "刘星",
+    "text": "李宁你怎么来了"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0210",
+    "t": [
+      1211.9,
+      1212.9
+    ],
+    "speaker": "林宁",
+    "text": "谢谢"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0211",
+    "t": [
+      1212.9,
+      1214.9
+    ],
+    "speaker": "刘星",
+    "text": "没事没事没事 来"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0212",
+    "t": [
+      1214.9,
+      1223.9
+    ],
+    "speaker": "林宁",
+    "text": "怎么回事啊 阿姨 我把学校玻璃给砸破了 辛苦呀 刘星芳我扛了下来"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0213",
+    "t": [
+      1225.9,
+      1234.9
+    ],
+    "speaker": "林宁",
+    "text": "要不然 我又敢爱我爸打了 又 阿姨 那我就先走了 刘星 就想跟你说声谢谢姐"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0214",
+    "t": [
+      1234.9,
+      1241.9
+    ],
+    "speaker": "刘星",
+    "text": "没事 走了 来玩 阿姨再见 再见 再见 再见啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0215",
+    "t": [
+      1241.9,
+      1246.9
+    ],
+    "speaker": "刘梅",
+    "text": "这孩子 这就是家庭报的 他事情吧 是"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0216",
+    "t": [
+      1246.9,
+      1256.9
+    ],
+    "speaker": "刘星",
+    "text": "爸 说实在的 他特陷摸 陷摸有您正比好吧 从来不打我 咱俩就跟亲哥似的对吧 哎哎哎哎"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0217",
+    "t": [
+      1256.9,
+      1258.9
+    ],
+    "speaker": "刘梅",
+    "text": "有跟爸爸弄哥们的吗"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0218",
+    "t": [
+      1258.9,
+      1265.9
+    ],
+    "speaker": "刘星",
+    "text": "老妈 男子汉啊 都弄哥们 我爸 就是真正的男子汉 这回帮他 就是我爸教的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0219",
+    "t": [
+      1265.9,
+      1274.9
+    ],
+    "speaker": "夏东海",
+    "text": "是不是 那你的意思就是 因为我的人哥魅力 严串身教 才让你在观点时刻 挺身而出 为朋友排游节难的"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0220",
+    "t": [
+      1274.9,
+      1275.9
+    ],
+    "speaker": "刘星",
+    "text": "对了吧"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0221",
+    "t": [
+      1275.9,
+      1279.9
+    ],
+    "speaker": "夏东海",
+    "text": "这是我的好儿子 我为你觉得教我啊"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0222",
+    "t": [
+      1285.9,
+      1301.9
+    ],
+    "speaker": "夏东海",
+    "text": "爸爸有一个重要的事 有宣布 我们刚刚得知啊 流星是带人受过 当了一次梯子羊 那次啊 我决定给流星终结 爱是死了 不命"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0223",
+    "t": [
+      1301.9,
+      1306.9
+    ],
+    "speaker": "夏雨",
+    "text": "怎么了你 我给她们俩当梯子羊 怎么能找你我呀"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0224",
+    "t": [
+      1315.9,
+      1317.9
+    ],
+    "speaker": "unknown",
+    "text": "你在做什么"
+  },
+  {
+    "series": "jiayouernv",
+    "ep": "018",
+    "unit_id": "u0225",
+    "t": [
+      1320.9,
+      1468.54
+    ],
+    "speaker": "unknown",
+    "text": "唱歌 One time Yeah yeah sure Ditch it for I got one to the slave boat 地的公园我的同年 好想放一开 小小肩 帮她打鼠包 想要想笑她 心的似乱 心的股脏 心心的模样 快乐实习得知 地每个个字像小 错了说 讲一句 我的那样 唱一首歌 与不如成就会保护传 陪你向你 都慢慢淋淚了车 歇息不放 地妹妹是否可以走 来到头发脱一步 看一步掩 一片自由不在我们的广场 让我们自己重的也许会更好 不接不接只会超过你 看她笑笑 我什么爱啊 也可不可以让我永不很一番 却光不得交落 爸爸放不得交落 也许是所动的花花 我最爱是谁能能耐耳朵 现在 一家持续于外 那是既然狂户 是个便宰 我自己能能耐耳朵 就不在心里说 再见不见不见不见 你的子妹 我的子妹 好笑都一样 像是怎样的 它是上面送世界 心里是二 心里是二 心里是有偏心的猫 я 晚了寫寫 看一看字面 让我们自己 想做了一样 越好笑我 我叫这笔就容易来 放弃紧张 这带好些人 他不小心 让常人一样 自由自在地 我会叫没有我 把揪起穿 还不尽不尽不尽 不能这一样 好学习的自己 埋压 都会有希望 我只能爱你 别结束你 我就是我的心 有道德 在伤不住 说在自己 还不放手 往下 都没有 还出门 还想充满身杀 要不然 还要往你 还要我 还长假 也就是你 我就是我 可惜的道德 在伤不住 说在自己 还不放手 往下 都没有 还出门 还想充满身杀 要不然 还要我 还要我 还长假 也就是你"
+  }
+]

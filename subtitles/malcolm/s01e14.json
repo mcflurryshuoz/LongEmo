@@ -1,0 +1,1817 @@
+[
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0001",
+    "t": [
+      0.2,
+      2.2
+    ],
+    "speaker": "Malcolm",
+    "text": "I got one."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0002",
+    "t": [
+      2.2,
+      4.2
+    ],
+    "speaker": "Reese",
+    "text": "I got one."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0003",
+    "t": [
+      4.2,
+      6.2
+    ],
+    "speaker": "Dabney",
+    "text": "Get out, get out, get out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0004",
+    "t": [
+      6.2,
+      8.2
+    ],
+    "speaker": "unknown",
+    "text": "Get out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0005",
+    "t": [
+      8.2,
+      10.2
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Oh."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0006",
+    "t": [
+      10.2,
+      147.2
+    ],
+    "speaker": "unknown",
+    "text": "I got one. Get out, get out. Get out. Get out. Get out. Get out. Oh. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out. Get out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0007",
+    "t": [
+      147.2,
+      151.2
+    ],
+    "speaker": "Stevie",
+    "text": "Who's here? Daddy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0008",
+    "t": [
+      151.2,
+      157.2
+    ],
+    "speaker": "Hal",
+    "text": "What are the odds? France is having an emergency appendectomy. Two months after using the same excuse to ditch school."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0009",
+    "t": [
+      157.2,
+      163.2
+    ],
+    "speaker": "Lois",
+    "text": "Well, he was never very lucky. Oh, I need you to call work and tell him I won't be coming in."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0010",
+    "t": [
+      163.2,
+      165.2
+    ],
+    "speaker": "Hal",
+    "text": "We'll do."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0011",
+    "t": [
+      165.2,
+      169.2
+    ],
+    "speaker": "Lois",
+    "text": "Well, there's my cab. What's that?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0012",
+    "t": [
+      169.2,
+      171.2
+    ],
+    "speaker": "unknown",
+    "text": "What's that?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0013",
+    "t": [
+      171.2,
+      173.2
+    ],
+    "speaker": "Lois",
+    "text": "What's that all about?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0014",
+    "t": [
+      173.2,
+      175.2
+    ],
+    "speaker": "Hal",
+    "text": "Little something to remember, maybe."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0015",
+    "t": [
+      175.2,
+      181.2
+    ],
+    "speaker": "Lois",
+    "text": "You know, it just occurred to me that we have not been apart for one night in 18 years. You're going to be okay with that?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0016",
+    "t": [
+      181.2,
+      185.2
+    ],
+    "speaker": "Hal",
+    "text": "I think I can manage without my mommy for a few days."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0017",
+    "t": [
+      185.2,
+      187.2
+    ],
+    "speaker": "Lois",
+    "text": "I told you that baby voice creeps me out."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0018",
+    "t": [
+      187.2,
+      189.2
+    ],
+    "speaker": "Hal",
+    "text": "Sorry."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0019",
+    "t": [
+      189.2,
+      191.2
+    ],
+    "speaker": "unknown",
+    "text": "Dad, hut!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0020",
+    "t": [
+      191.2,
+      195.2
+    ],
+    "speaker": "Spangler",
+    "text": "Well, good luck. I see you survived."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0021",
+    "t": [
+      195.2,
+      197.2
+    ],
+    "speaker": "Francis",
+    "text": "Yes, sir."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0022",
+    "t": [
+      197.2,
+      219.2
+    ],
+    "speaker": "Spangler",
+    "text": "I brought you a little something to take your mind off the pain. Good opportunity for you to catch up on your homework. Take it from me. A lengthy hospital stay is the perfect environment to focus your mind and attack weaknesses in your character. If it hadn't been for this, I never would have learned conversational French. Carry on."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0023",
+    "t": [
+      221.2,
+      227.2
+    ],
+    "speaker": "Finley",
+    "text": "Sorry, man. How was this close to going to meet evil on him? You feeling okay?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0024",
+    "t": [
+      227.2,
+      235.2
+    ],
+    "speaker": "Francis",
+    "text": "I have a belly full of broken glass. Every time I breathe in, I almost pass out from the pain. This is the single greatest thing that has ever happened to me."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0025",
+    "t": [
+      235.2,
+      237.2
+    ],
+    "speaker": "Finley",
+    "text": "What?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0026",
+    "t": [
+      237.2,
+      256.2
+    ],
+    "speaker": "Francis",
+    "text": "Well, for as long as I can remember, my mom has been torturing me with guilt. I've never been able to fight back, but this is perfect. Her firstborn child almost dies. A thousand miles from home, and she's the one who sent me here. She can't dismiss it. She can't argue about it. She's still around to make it. My fault is beautiful."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0027",
+    "t": [
+      256.2,
+      258.2
+    ],
+    "speaker": "Finley",
+    "text": "Dude, you almost died."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0028",
+    "t": [
+      258.2,
+      264.2
+    ],
+    "speaker": "Francis",
+    "text": "What'd you say that again when she gets here? Oh, this problem has no idea what she's walking into."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0029",
+    "t": [
+      264.2,
+      272.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Okay, mom's only going to be gone for about four or five days. We have to prioritize. What are you asking that for?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0030",
+    "t": [
+      272.2,
+      274.2
+    ],
+    "speaker": "Dewey",
+    "text": "I want to wear my pajamas to school."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0031",
+    "t": [
+      274.2,
+      276.2
+    ],
+    "speaker": "Reese",
+    "text": "I'm getting a scope for my BB gun."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0032",
+    "t": [
+      276.2,
+      278.2
+    ],
+    "speaker": "Malcolm",
+    "text": "You don't have a BB gun."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0033",
+    "t": [
+      278.2,
+      280.2
+    ],
+    "speaker": "Reese",
+    "text": "Not yet."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0034",
+    "t": [
+      280.2,
+      282.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Okay, but since I'm asking to build a killer robot, I should go first."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0035",
+    "t": [
+      282.2,
+      283.2
+    ],
+    "speaker": "Reese",
+    "text": "Why?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0036",
+    "t": [
+      283.2,
+      287.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Because anything after killer robot is going to sound reasonable."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0037",
+    "t": [
+      289.2,
+      291.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Dad?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0038",
+    "t": [
+      291.2,
+      292.2
+    ],
+    "speaker": "Hal",
+    "text": "Yeah."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0039",
+    "t": [
+      292.2,
+      295.2
+    ],
+    "speaker": "Malcolm",
+    "text": "A couple of friends and I want to explore our engineering and machining skills."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0040",
+    "t": [
+      295.2,
+      297.2
+    ],
+    "speaker": "Hal",
+    "text": "Sounds great."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0041",
+    "t": [
+      297.2,
+      302.2
+    ],
+    "speaker": "Malcolm",
+    "text": "So, um, you think you'd be alright if a bunch of co-boys and I build a robot in the house?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0042",
+    "t": [
+      302.2,
+      304.2
+    ],
+    "speaker": "Hal",
+    "text": "Yeah, fine."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0043",
+    "t": [
+      304.2,
+      307.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Whoa, that was easy, even for him."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0044",
+    "t": [
+      307.2,
+      313.2
+    ],
+    "speaker": "Craig",
+    "text": "He's strong. Lois will get through her operation. She is a fighter."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0045",
+    "t": [
+      313.2,
+      317.2
+    ],
+    "speaker": "Hal",
+    "text": "No, no, no. Craig, it was Francis."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0046",
+    "t": [
+      317.2,
+      327.2
+    ],
+    "speaker": "Craig",
+    "text": "Oh, my God. Did he shoot her? I knew it. I still don't know who to stay away from him. That boy has been nothing but trouble."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0047",
+    "t": [
+      327.2,
+      335.2
+    ],
+    "speaker": "Hal",
+    "text": "Craig, Lois did not have an operation. Our son, Francis, did. She just went down to Alabama to look after him for a while."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0048",
+    "t": [
+      335.2,
+      339.2
+    ],
+    "speaker": "Craig",
+    "text": "Oh. Tell Lois I stop by."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0049",
+    "t": [
+      339.2,
+      347.2
+    ],
+    "speaker": "Francis",
+    "text": "I can't believe my mom is them putting my catheter in. Maybe I should take it out so they can reinsert it when she gets here."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0050",
+    "t": [
+      347.2,
+      355.2
+    ],
+    "speaker": "Patient",
+    "text": "Or maybe you could... I don't know. Shut up about your mom for half a second. I want that bad."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0051",
+    "t": [
+      355.2,
+      357.2
+    ],
+    "speaker": "Francis",
+    "text": "Hey, I've been sugarcoding it for you because you're infeebled."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0052",
+    "t": [
+      357.2,
+      358.2
+    ],
+    "speaker": "Lois",
+    "text": "Francis!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0053",
+    "t": [
+      358.2,
+      360.2
+    ],
+    "speaker": "Francis",
+    "text": "You can just see for yourself."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0054",
+    "t": [
+      360.2,
+      364.2
+    ],
+    "speaker": "Lois",
+    "text": "Hi, honey. You looked terrible."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0055",
+    "t": [
+      364.2,
+      366.2
+    ],
+    "speaker": "Francis",
+    "text": "You think that's going to appease your guilt?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0056",
+    "t": [
+      366.2,
+      372.2
+    ],
+    "speaker": "Lois",
+    "text": "What guilt? It's stuffy in here. I can't be good for you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0057",
+    "t": [
+      372.2,
+      373.2
+    ],
+    "speaker": "unknown",
+    "text": "You look tasty."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0058",
+    "t": [
+      373.2,
+      376.2
+    ],
+    "speaker": "Lois",
+    "text": "Have you had a bowel movement? When is the last time you moved your bowel?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0059",
+    "t": [
+      376.2,
+      377.2
+    ],
+    "speaker": "Francis",
+    "text": "Mom."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0060",
+    "t": [
+      377.2,
+      378.2
+    ],
+    "speaker": "Spangler",
+    "text": "Hello."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0061",
+    "t": [
+      378.2,
+      379.2
+    ],
+    "speaker": "Lois",
+    "text": "Who are you?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0062",
+    "t": [
+      379.2,
+      382.2
+    ],
+    "speaker": "Spangler",
+    "text": "Edwin Spangler. I am Comodant of Marlon Academy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0063",
+    "t": [
+      382.2,
+      386.2
+    ],
+    "speaker": "Lois",
+    "text": "Good for you. Where's your eye?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0064",
+    "t": [
+      386.2,
+      387.2
+    ],
+    "speaker": "Spangler",
+    "text": "Pardon?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0065",
+    "t": [
+      387.2,
+      393.2
+    ],
+    "speaker": "Lois",
+    "text": "Do your ears work? Do you have some business with my son? He needs to rest."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0066",
+    "t": [
+      393.2,
+      395.2
+    ],
+    "speaker": "Spangler",
+    "text": "I stopped by to pick up your boy's homework."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0067",
+    "t": [
+      395.2,
+      403.2
+    ],
+    "speaker": "Lois",
+    "text": "Homework? You're going to give him homework? My son nearly lost his life. Something that never would have happened if you'd taken proper care of him in the first place."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0068",
+    "t": [
+      403.2,
+      408.2
+    ],
+    "speaker": "Spangler",
+    "text": "Sure you. Ma'am had not been for Francis' long history of crying wolf."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0069",
+    "t": [
+      408.2,
+      417.2
+    ],
+    "speaker": "Lois",
+    "text": "Crying wolf? You listen to me, you idiot. My child is sick. He does not need you marching in here puffing up your little chair."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0070",
+    "t": [
+      417.2,
+      421.2
+    ],
+    "speaker": "unknown",
+    "text": "He's gone. He's gone."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0071",
+    "t": [
+      421.2,
+      424.2
+    ],
+    "speaker": "Spangler",
+    "text": "God, she is my magnificent."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0072",
+    "t": [
+      424.2,
+      426.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh, my God."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0073",
+    "t": [
+      426.2,
+      429.2
+    ],
+    "speaker": "Patient",
+    "text": "Dude, your mom rocks."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0074",
+    "t": [
+      430.2,
+      439.2
+    ],
+    "speaker": "unknown",
+    "text": "God, she is my magnificent. Oh, my God. Dude, your mom rocks."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0075",
+    "t": [
+      460.2,
+      470.2
+    ],
+    "speaker": "unknown",
+    "text": "You got a girl, Rizzo? Yes, sir. I miss you so much. Soon as I get home, I'm in a barrier. Stop! We go!"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0076",
+    "t": [
+      470.2,
+      472.2
+    ],
+    "speaker": "Stevie",
+    "text": "We need more torques."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0077",
+    "t": [
+      472.2,
+      475.2
+    ],
+    "speaker": "Malcolm",
+    "text": "No, we need a basket with speed and torques."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0078",
+    "t": [
+      475.2,
+      477.2
+    ],
+    "speaker": "Dabney",
+    "text": "We need more torques."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0079",
+    "t": [
+      477.2,
+      479.2
+    ],
+    "speaker": "Malcolm",
+    "text": "We need more torques."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0080",
+    "t": [
+      479.2,
+      543.2
+    ],
+    "speaker": "unknown",
+    "text": "We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques. We need more torques."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0081",
+    "t": [
+      543.2,
+      552.2
+    ],
+    "speaker": "Lloyd",
+    "text": "Before you continue, I feel I have to mention that our parents strongly disapprove of this. Sorry. My therapist says it's a compulsion."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0082",
+    "t": [
+      552.2,
+      554.2
+    ],
+    "speaker": "Hal",
+    "text": "I guess you shouldn't tell your parents then."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0083",
+    "t": [
+      554.2,
+      566.2
+    ],
+    "speaker": "Dabney",
+    "text": "Wow. Your father's lack of responsibilities, both terrifying and......huddly thrilling."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0084",
+    "t": [
+      567.2,
+      572.2
+    ],
+    "speaker": "Spangler",
+    "text": "I can't apologize enough for these barbaric accommodations. You deserve so much more."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0085",
+    "t": [
+      572.2,
+      576.2
+    ],
+    "speaker": "Lois",
+    "text": "Oh, no. This is fine. Why are all the hotel rooms booked?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0086",
+    "t": [
+      576.2,
+      590.2
+    ],
+    "speaker": "Spangler",
+    "text": "The All-Alevana Gate rodeo is in town again. It's homosexuals, writing horses and such. It does wonders for the local economy, but you have to fight the crowds for everything. If you're interested, I have some passion."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0087",
+    "t": [
+      590.2,
+      596.2
+    ],
+    "speaker": "unknown",
+    "text": "I have some passion. I have some passion. I have some passion. I have some passion. If you're interested, I have some passion."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0088",
+    "t": [
+      596.2,
+      597.2
+    ],
+    "speaker": "Lois",
+    "text": "No, thanks."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0089",
+    "t": [
+      597.2,
+      599.2
+    ],
+    "speaker": "Spangler",
+    "text": "Another time then."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0090",
+    "t": [
+      602.2,
+      603.2
+    ],
+    "speaker": "unknown",
+    "text": "Montsoir."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0091",
+    "t": [
+      608.2,
+      615.2
+    ],
+    "speaker": "Lois",
+    "text": "You know, this room isn't so bad. So, are you wind about it? I thought it was going to be a couple of cuts in a drain in the floor."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0092",
+    "t": [
+      615.2,
+      616.2
+    ],
+    "speaker": "Francis",
+    "text": "What are you doing?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0093",
+    "t": [
+      616.2,
+      618.2
+    ],
+    "speaker": "Lois",
+    "text": "You're stinky. I'm going to give you a sponge bath."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0094",
+    "t": [
+      618.2,
+      620.2
+    ],
+    "speaker": "Francis",
+    "text": "You're not giving me a sponge bath."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0095",
+    "t": [
+      620.2,
+      625.2
+    ],
+    "speaker": "Lois",
+    "text": "Arms up. Just because you had surgeries, no reason to be a pig."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0096",
+    "t": [
+      625.2,
+      627.2
+    ],
+    "speaker": "Francis",
+    "text": "Did you know that I almost died?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0097",
+    "t": [
+      627.2,
+      629.2
+    ],
+    "speaker": "Lois",
+    "text": "Oh, you did not almost die."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0098",
+    "t": [
+      629.2,
+      638.2
+    ],
+    "speaker": "Francis",
+    "text": "My appendix burst. They devacuate the contents of my intestines. You cannot possibly comprehend the pain that I was in. That I am in."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0099",
+    "t": [
+      638.2,
+      645.2
+    ],
+    "speaker": "Lois",
+    "text": "Yeah. I don't know anything about pain. But with four boys totaling 112 hours of labor, you being half of that, I might add."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0100",
+    "t": [
+      645.2,
+      647.2
+    ],
+    "speaker": "Francis",
+    "text": "I'm sorry that I came out feet first, Mom."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0101",
+    "t": [
+      647.2,
+      653.2
+    ],
+    "speaker": "Lois",
+    "text": "That's okay, honey. I forgave you years ago. Oh, God, that tattoo."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0102",
+    "t": [
+      653.2,
+      654.2
+    ],
+    "speaker": "Francis",
+    "text": "I like the tattoo, Mom."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0103",
+    "t": [
+      654.2,
+      664.2
+    ],
+    "speaker": "Lois",
+    "text": "What is it with the men in this family and tattoos? It took me five years to get your father to burn his off. What do you grow potatoes in there?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0104",
+    "t": [
+      664.2,
+      665.2
+    ],
+    "speaker": "Francis",
+    "text": "Dad had a tattoo?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0105",
+    "t": [
+      665.2,
+      682.2
+    ],
+    "speaker": "Lois",
+    "text": "Yeah. He put a great big lowest red cross his rear end. I actually thought I'd be flattered by it. Well, that guy was such a mess when I met him. During the motorcycle and the drinking and the fighting. He was so reckless, he was crazy. What do you think your boys get it from?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0106",
+    "t": [
+      682.2,
+      684.2
+    ],
+    "speaker": "Francis",
+    "text": "She doesn't sound like dad."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0107",
+    "t": [
+      684.2,
+      697.2
+    ],
+    "speaker": "Lois",
+    "text": "Yeah, well, that was a long time ago. Your father has been quite a project. He spent years hounding him and scolding him and constantly watching him. But finally, I got all that rebellion right out of him."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0108",
+    "t": [
+      697.2,
+      700.2
+    ],
+    "speaker": "Francis",
+    "text": "I can't believe dad had a wild side."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0109",
+    "t": [
+      700.2,
+      707.2
+    ],
+    "speaker": "Lois",
+    "text": "Well, someday you're going to meet a nice girl. She's going to do the same thing for you. Do your lowers."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0110",
+    "t": [
+      708.2,
+      730.2
+    ],
+    "speaker": "unknown",
+    "text": "I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you. I'm going to do the same thing for you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0111",
+    "t": [
+      730.2,
+      732.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Dad?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0112",
+    "t": [
+      732.2,
+      734.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, hi, son."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0113",
+    "t": [
+      734.2,
+      736.2
+    ],
+    "speaker": "Malcolm",
+    "text": "What are you doing?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0114",
+    "t": [
+      736.2,
+      748.2
+    ],
+    "speaker": "Hal",
+    "text": "I just started to help you get out of your robot. You know, it's amazing how much you can get accomplished when you don't sleep at all. I think we got a little something up our sleeve for the competition. I think we got a little something up our sleeve for the competition."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0115",
+    "t": [
+      748.2,
+      772.2
+    ],
+    "speaker": "unknown",
+    "text": "I think we got a little something up our sleeve for the competition. I think we got a little something up our sleeve for the competition. I think we got a little something up our sleeve for the competition. I think we got a little something up our sleeve for the competition. Dad? Dad? Dad? I need your heart and thus, I've been to my father. What? What?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0116",
+    "t": [
+      772.2,
+      780.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Well, we just finished the 45th and final video of the Shaolin Dragon series. We are now officially desensitized to violence."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0117",
+    "t": [
+      780.2,
+      790.2
+    ],
+    "speaker": "Dewey",
+    "text": "How many soldiers have you had? I don't know. I don't know. Look, I can ride on my town."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0118",
+    "t": [
+      790.2,
+      794.2
+    ],
+    "speaker": "Reese",
+    "text": "Well, we can start it on monks of death or light things up with the little samurai blood fest."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0119",
+    "t": [
+      794.2,
+      802.2
+    ],
+    "speaker": "Eraserhead",
+    "text": "We've had a vote. We're backing out of the contest."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0120",
+    "t": [
+      802.2,
+      804.2
+    ],
+    "speaker": "Malcolm",
+    "text": "What?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0121",
+    "t": [
+      804.2,
+      808.2
+    ],
+    "speaker": "Lloyd",
+    "text": "Your father has come into your this project and twisted it toward his own mad ends."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0122",
+    "t": [
+      808.2,
+      810.2
+    ],
+    "speaker": "Dabney",
+    "text": "We want our blueprints back."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0123",
+    "t": [
+      810.2,
+      822.2
+    ],
+    "speaker": "Stevie",
+    "text": "We can do this the easy way or we can do this the hard."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0124",
+    "t": [
+      822.2,
+      826.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Come on. My dad's in the backyard."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0125",
+    "t": [
+      826.2,
+      828.2
+    ],
+    "speaker": "Stevie",
+    "text": "Way."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0126",
+    "t": [
+      828.2,
+      834.2
+    ],
+    "speaker": "unknown",
+    "text": "Find your... Find your..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0127",
+    "t": [
+      834.2,
+      836.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Dad?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0128",
+    "t": [
+      836.2,
+      838.2
+    ],
+    "speaker": "Hal",
+    "text": "Hey, boy."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0129",
+    "t": [
+      838.2,
+      840.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Are you smoking?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0130",
+    "t": [
+      840.2,
+      854.2
+    ],
+    "speaker": "Hal",
+    "text": "No, this, not. Just... Listen, don't tell your mom, okay? She killed me. She found out. She works so hard to get me to stop. Oh, God. How are you, Missette Woman?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0131",
+    "t": [
+      854.2,
+      856.2
+    ],
+    "speaker": "Malcolm",
+    "text": "The guys went to their blueprints back."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0132",
+    "t": [
+      856.2,
+      866.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, yeah, they're over there. I have gone way past that. Hey, picture this. A laser-guided bee cannon. Bees shot out with the precision of a laser."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0133",
+    "t": [
+      866.2,
+      868.2
+    ],
+    "speaker": "Malcolm",
+    "text": "How would that sit a robot?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0134",
+    "t": [
+      868.2,
+      882.2
+    ],
+    "speaker": "Hal",
+    "text": "I think it's not for the robot. It's for the guy controlling the robot. Buzz. You're going home with a plaque or ribbon or whatever crappy award they give you for winning."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0135",
+    "t": [
+      882.2,
+      884.2
+    ],
+    "speaker": "Stevie",
+    "text": "This..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0136",
+    "t": [
+      884.2,
+      886.2
+    ],
+    "speaker": "unknown",
+    "text": "Willand..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0137",
+    "t": [
+      886.2,
+      888.2
+    ],
+    "speaker": "Stevie",
+    "text": "Badly."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0138",
+    "t": [
+      888.2,
+      890.2
+    ],
+    "speaker": "Hal",
+    "text": "There we go."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0139",
+    "t": [
+      896.2,
+      898.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0140",
+    "t": [
+      900.2,
+      902.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0141",
+    "t": [
+      902.2,
+      908.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, here you old fella. You're not alone."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0142",
+    "t": [
+      908.2,
+      910.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh..."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0143",
+    "t": [
+      910.2,
+      918.2
+    ],
+    "speaker": "Lois",
+    "text": "Come on, come on, do it from mama. Come on, come on. Oh, come on. You just let me win, aren't you?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0144",
+    "t": [
+      918.2,
+      920.2
+    ],
+    "speaker": "Drew",
+    "text": "I'm really not."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0145",
+    "t": [
+      920.2,
+      922.2
+    ],
+    "speaker": "Lois",
+    "text": "I know. I'm just rubbing it in."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0146",
+    "t": [
+      922.2,
+      926.2
+    ],
+    "speaker": "Finley",
+    "text": "Pio mom is great."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0147",
+    "t": [
+      926.2,
+      938.2
+    ],
+    "speaker": "Francis",
+    "text": "This isn't my mom. It's an act. It's some kind of freaky mind game she's playing with me. Any second now, our face is going to split open. She's going to reveal herself for the evil band she really is."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0148",
+    "t": [
+      938.2,
+      942.2
+    ],
+    "speaker": "Finley",
+    "text": "Man, I don't know why she puts up with you."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0149",
+    "t": [
+      942.2,
+      944.2
+    ],
+    "speaker": "Spangler",
+    "text": "Anyone for doubles?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0150",
+    "t": [
+      944.2,
+      946.2
+    ],
+    "speaker": "Lois",
+    "text": "Nope."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0151",
+    "t": [
+      946.2,
+      948.2
+    ],
+    "speaker": "Spangler",
+    "text": "All right, Ben."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0152",
+    "t": [
+      952.2,
+      954.2
+    ],
+    "speaker": "Lois",
+    "text": "Oh, hi, honey. Where you been?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0153",
+    "t": [
+      954.2,
+      962.2
+    ],
+    "speaker": "Francis",
+    "text": "I want you to leave. What? I want you to leave. You made your phony point. You made me look like you needed. Mission accomplished."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0154",
+    "t": [
+      962.2,
+      968.2
+    ],
+    "speaker": "Lois",
+    "text": "You know what? I have had it with you, mister. You have done nothing but bitch and monson's like, I've got here and I've been nothing but pleasant."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0155",
+    "t": [
+      968.2,
+      970.2
+    ],
+    "speaker": "Francis",
+    "text": "Exactly."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0156",
+    "t": [
+      970.2,
+      978.2
+    ],
+    "speaker": "Lois",
+    "text": "Oh, but you complain when I'm pleasant. You're not pleasant. There's no winning with you. Why don't you just tell me exactly how you want me to behave every second of the day and we'll see if that satisfies you?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0157",
+    "t": [
+      978.2,
+      982.2
+    ],
+    "speaker": "Francis",
+    "text": "This isn't fair. You're winning and you're twisting it into your guilt trip."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0158",
+    "t": [
+      982.2,
+      984.2
+    ],
+    "speaker": "Lois",
+    "text": "Fine. Why don't I just leave then?"
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0159",
+    "t": [
+      984.2,
+      986.2
+    ],
+    "speaker": "Francis",
+    "text": "Fine."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0160",
+    "t": [
+      986.2,
+      994.2
+    ],
+    "speaker": "Lois",
+    "text": "Fine. I just want to celebrate another day I'm living."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0161",
+    "t": [
+      994.2,
+      998.2
+    ],
+    "speaker": "Malcolm",
+    "text": "Mom being gone was fun at first. But this is getting out of control."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0162",
+    "t": [
+      998.2,
+      1000.2
+    ],
+    "speaker": "unknown",
+    "text": "Yeah."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0163",
+    "t": [
+      1000.2,
+      1022.2
+    ],
+    "speaker": "Hal",
+    "text": "Oh, I'm a suject. Well, yes, I do have a very good reason for not going into work today. Well, how about this? I didn't come to work because somehow I felt that eight hours of joyless, mind numbing crap just didn't seem like fun. Well, I guess we're just going to have to agree to disagree. I'm going to have to agree to disagree."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0164",
+    "t": [
+      1022.2,
+      1314.2
+    ],
+    "speaker": "unknown",
+    "text": "Yeah. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh."
+  },
+  {
+    "series": "malcolm",
+    "ep": "S01E14",
+    "unit_id": "u0165",
+    "t": [
+      1336.2,
+      1354.2
+    ],
+    "speaker": "unknown",
+    "text": "Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh. Oh."
+  }
+]
