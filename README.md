@@ -49,17 +49,6 @@ and `text`, where `t` is the `[start, end]` interval in seconds.
 `speaker` identifies the character when available and is `unknown` when the
 source annotation does not identify one reliably.
 
-Regenerate all released subtitles from the reviewed `s1_perception` files:
-
-```bash
-PYTHONPATH=. python3 preprocess/prepare_subtitles.py \
-  --inputs-root /path/to/vebench/outputs \
-  --out subtitles
-```
-
-Use `--series friends` or `--episode S01E01` to restrict an export. Both
-options may be repeated.
-
 ## Preprocessing
 
 Source videos can be downloaded from the Hugging Face

@@ -40,17 +40,6 @@ LongEmoBench/
 `t` 是以秒为单位的 `[start, end]` 时间区间；`speaker` 是已标注的角色名，
 源标注无法可靠识别角色时为 `unknown`。
 
-从审核后的 `s1_perception` 文件重新生成全部字幕：
-
-```bash
-PYTHONPATH=. python3 preprocess/prepare_subtitles.py \
-  --inputs-root /path/to/vebench/outputs \
-  --out subtitles
-```
-
-可添加 `--series friends` 或 `--episode S01E01` 限制导出范围，两个参数均可
-重复使用。
-
 ## 视频预处理
 
 原始视频可从 Hugging Face 的
