@@ -1,0 +1,110 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e06_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which moment does Leonard appear most visibly delighted?",
+    "options": [
+      "A. When Penny invites the group to her Halloween party in the hallway.",
+      "B. While explaining that the party may let Penny see him as a potential close friend or something more.",
+      "C. After Penny kisses him again at the apartment doorway and he realizes that Kurt witnessed it.",
+      "D. When he convinces himself that intelligence makes him an alpha male and walks over to confront Kurt."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e06_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which moment does Leonard appear most visibly dejected?",
+    "options": [
+      "A. At the party, when Penny's ex-boyfriend sets Leonard down after lifting him up in front of her.",
+      "B. When he first sees Penny warmly greet Kurt and silently watches them together.",
+      "C. While sitting among the guests and admitting that he does not know how to talk to Penny's friends.",
+      "D. Back in the apartment, during the quiet moment before Sheldon begins trying to comfort him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e06_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which moment does Howard appear most visibly dejected?",
+    "options": [
+      "A. When he arrives at Leonard's apartment and discovers that all four men independently chose the Flash costume.",
+      "B. As he and his friends enter the apartment-building lobby immediately after returning from their paintball game.",
+      "C. When the woman dressed as a nurse rejects his flirtatious invitation to listen to his heartbeat.",
+      "D. After the party, when he comes to the apartment looking for Raj and learns that Raj is not there."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e06_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From preparing for Penny's party through his confrontation with Kurt and the quiet moment after he returns home, which description best captures Leonard's main emotional trajectory?",
+    "options": [
+      "A. Hopeful anticipation gives way to social discomfort, rises into defensive confidence, and finally collapses into visible dejection.",
+      "B. Hopeful anticipation gives way to social discomfort, rises into defensive confidence, and finally settles into guarded relief.",
+      "C. Hopeful anticipation gives way to social discomfort, rises into open anger, and finally collapses into visible dejection.",
+      "D. Nervous reluctance gives way to social discomfort, rises into defensive confidence, and finally collapses into visible dejection."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e06_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From preparing for Penny's party through his interactions there and the episode's final scene, which description best captures Raj's main emotional trajectory?",
+    "options": [
+      "A. Playful confidence gives way to socially inhibited awkwardness and ends in quiet, unexpressed pleasure.",
+      "B. Playful confidence gives way to socially inhibited awkwardness and ends in quiet, self-satisfied delight.",
+      "C. Playful confidence gives way to frustrated isolation and ends in quiet, self-satisfied delight.",
+      "D. Anxious anticipation gives way to socially inhibited awkwardness and ends in quiet, self-satisfied delight."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e06_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across Leonard's confrontation with Kurt and his later reaction after Kurt sees Penny kiss him, which description best captures Leonard's apparent confidence toward Kurt?",
+    "options": [
+      "A. His intellectual self-assurance develops into genuine fearlessness once Penny shows him affection.",
+      "B. His verbal and intellectual bravado repeatedly masks his physical fear of Kurt.",
+      "C. His initial fear develops into lasting anger after Penny intervenes on his behalf.",
+      "D. His humiliation leaves him unwilling to display any further confidence toward Kurt."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E06"
+    ]
+  }
+]

@@ -1,0 +1,3141 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q001",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the woman in blue's positive account of the dream affect the man in the dark short-sleeved shirt and the man in the dark plaid shirt?",
+    "options": [
+      "A. Both men react with embarrassment, awkwardness, and quiet evasion tactics.",
+      "B. Both men react with friendly rivalry, delight, and smug amusement.",
+      "C. One reacts with delight; the other with jealousy and unease.",
+      "D. Both men react with polite dismissal, indifference, and quiet reassurance."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e22_q001_seg1_33.3_73.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 33.3,
+          "end": 73.5,
+          "mmss": "0:33.3–1:13.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0008",
+        "t": [
+          33.3,
+          36.3
+        ],
+        "speaker": "Man in a dark short-sleeved shirt",
+        "text": "More importantly, was I any good?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0009",
+        "t": [
+          36.3,
+          40.3
+        ],
+        "speaker": "Woman in blue",
+        "text": "You were pretty good."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0010",
+        "t": [
+          40.3,
+          44.3
+        ],
+        "speaker": "Man in a dark short-sleeved shirt",
+        "text": "Interesting. In my dreams I am usually surprisingly inadequate."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0011",
+        "t": [
+          44.3,
+          49.3
+        ],
+        "speaker": "Woman in blue",
+        "text": "Last night, you seemed to know your way around the table."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0012",
+        "t": [
+          49.3,
+          55.3
+        ],
+        "speaker": "Man in a dark plaid shirt",
+        "text": "I love it when we share."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0013",
+        "t": [
+          59.3,
+          61.14
+        ],
+        "speaker": "Man in a dark short-sleeved shirt",
+        "text": "Are you okay?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0014",
+        "t": [
+          61.14,
+          63.58
+        ],
+        "speaker": "Man in a dark plaid shirt",
+        "text": "I cannot believe you two had sex in her dream."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0015",
+        "t": [
+          65.26,
+          70.94
+        ],
+        "speaker": "Man in a dark short-sleeved shirt",
+        "text": "Sorry. It was a one-time thing in someone else's subconscious."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q002",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde woman in the patterned top as the group discusses temporary work?",
+    "options": [
+      "A. She starts disappointed, grows excited, and ends determined.",
+      "B. She starts embarrassed, becomes doubtful, and ends relieved.",
+      "C. She starts curious, becomes amused, and ends annoyed.",
+      "D. She starts frustrated, becomes grateful, and ends nervous."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e22_q002_seg1_121.2_186.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 121.2,
+          "end": 186.9,
+          "mmss": "2:01.2-3:06.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0019",
+        "t": [
+          121.226,
+          123.312
+        ],
+        "speaker": "Chandler",
+        "text": "- Hello, Rachel. - Oh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0020",
+        "t": [
+          123.353,
+          124.688
+        ],
+        "speaker": "Rachel",
+        "text": "Get off."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0021",
+        "t": [
+          126.648,
+          128.358
+        ],
+        "speaker": "unknown",
+        "text": "Ooh, oh, give me."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0022",
+        "t": [
+          128.442,
+          130.569
+        ],
+        "speaker": "Phoebe",
+        "text": "Can you see me operating a drill press?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0023",
+        "t": [
+          131.778,
+          133.405
+        ],
+        "speaker": "Joey",
+        "text": "I don't know. What are you wearing?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0024",
+        "t": [
+          137.576,
+          140.329
+        ],
+        "speaker": "Ross",
+        "text": "Pheebs, why would you want to operate a drill press?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0025",
+        "t": [
+          140.37,
+          144.833
+        ],
+        "speaker": "Phoebe",
+        "text": "Just for some short term work. You know, till I get back some of my massage clients."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0026",
+        "t": [
+          144.917,
+          146.919
+        ],
+        "speaker": "Chandler",
+        "text": "Pirates again?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0027",
+        "t": [
+          147.002,
+          157.679
+        ],
+        "speaker": "Phoebe",
+        "text": "No, nothing like that. I'm just... such a dummy. I taught this \"Massage yourself at home\" workshop. And they are."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0028",
+        "t": [
+          157.721,
+          160.641
+        ],
+        "speaker": "Joey",
+        "text": "Hey, hey, Chan. She could work for you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0029",
+        "t": [
+          160.682,
+          163.602
+        ],
+        "speaker": "Chandler",
+        "text": "Thanks, Joey. That's a good idea."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0030",
+        "t": [
+          163.644,
+          166.563
+        ],
+        "speaker": "Phoebe",
+        "text": "Well.. I could. I could do it! What is it?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0031",
+        "t": [
+          166.647,
+          170.692
+        ],
+        "speaker": "Chandler",
+        "text": "Well, my secretary is gonna be out for a couple of weeks. She's having one of her boobs reduced."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0032",
+        "t": [
+          172.236,
+          174.238
+        ],
+        "speaker": "Chandler",
+        "text": "It's a whole big boob story."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0033",
+        "t": [
+          175.28,
+          176.615
+        ],
+        "speaker": "Phoebe",
+        "text": "I could be a secretary."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0034",
+        "t": [
+          176.698,
+          181.662
+        ],
+        "speaker": "Chandler",
+        "text": "Well you know, Pheebs, I don't know if it's your kind of thing.. Because, uh.. ...it involves a lot of being normal."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0035",
+        "t": [
+          183.205,
+          185.123
+        ],
+        "speaker": "Chandler",
+        "text": "For a large portion of the day."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0036",
+        "t": [
+          185.207,
+          186.875
+        ],
+        "speaker": "Phoebe",
+        "text": "I could do that."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q003",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the dark-haired woman's admission that she told her younger boyfriend she was twenty-two evoke in the friends seated around her?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "disapproval",
+      "happiness"
+    ],
+    "video_name": "friends_g1_2_s01e22_q003_seg1_188.5_248.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 188.5,
+          "end": 248.6,
+          "mmss": "3:08.5-4:08.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0037",
+        "t": [
+          188.502,
+          190.587
+        ],
+        "speaker": "Ross",
+        "text": "- What're you playing with? - Oh, it's my new beeper."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0038",
+        "t": [
+          190.671,
+          193.548
+        ],
+        "speaker": "Joey",
+        "text": "What the hell does a paleontologist need a beeper for?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0039",
+        "t": [
+          193.59,
+          197.719
+        ],
+        "speaker": "Monica",
+        "text": "Is it like for dinosaur emergencies? Help. Come quick. They're still extinct."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0040",
+        "t": [
+          198.887,
+          206.144
+        ],
+        "speaker": "Ross",
+        "text": "No. It's for when Carol goes into labor. She can get me wherever I am. All she has to do is dial, uh, 55 Jimbo."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0041",
+        "t": [
+          207.437,
+          210.649
+        ],
+        "speaker": "Chandler",
+        "text": "A cool phone number and a possible name for the kid."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0042",
+        "t": [
+          210.732,
+          212.067
+        ],
+        "speaker": "Monica",
+        "text": "Alright. See you guys later."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0043",
+        "t": [
+          212.109,
+          214.152
+        ],
+        "speaker": "Rachel",
+        "text": "Off to see young Ethan?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0044",
+        "t": [
+          214.194,
+          216.238
+        ],
+        "speaker": "Monica",
+        "text": "Thank you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0045",
+        "t": [
+          216.321,
+          219.908
+        ],
+        "speaker": "Joey",
+        "text": "How young is young Ethan? Young?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0046",
+        "t": [
+          219.992,
+          222.578
+        ],
+        "speaker": "Monica",
+        "text": "He's our age."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0047",
+        "t": [
+          222.619,
+          224.58
+        ],
+        "speaker": "Chandler",
+        "text": "When we were.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0048",
+        "t": [
+          227.749,
+          229.459
+        ],
+        "speaker": "Monica",
+        "text": "Okay. He's a senior in college."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0049",
+        "t": [
+          229.543,
+          232.546
+        ],
+        "speaker": "Ross",
+        "text": "- College? - Whoa!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0050",
+        "t": [
+          232.588,
+          235.591
+        ],
+        "speaker": "Chandler",
+        "text": "And this man child has no problem with how old you are?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0051",
+        "t": [
+          235.632,
+          240.721
+        ],
+        "speaker": "Monica",
+        "text": "No. Of course not. It's not even an issue. 'Cause I told him I was 22."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0052",
+        "t": [
+          240.804,
+          242.347
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "- What? - What?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0053",
+        "t": [
+          242.389,
+          248.645
+        ],
+        "speaker": "Monica",
+        "text": "- Oh, I can't pass for 22? - Well, maybe 25, 26. - I am 26. - There you go."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde temporary secretary during her first exchange in the office?",
+    "options": [
+      "A. She begins curious about the office equipment, becomes annoyed by the caller's request, and ends relieved when the man takes over the conversation.",
+      "B. She begins nervous about making a mistake, becomes embarrassed when the man corrects her, and ends worried that she will be dismissed.",
+      "C. She begins uncertain about the phone, becomes excited and playful while handling the call, and ends pleased and casual about the work.",
+      "D. She begins confident in her office experience, becomes confused when the caller asks for the man, and ends disappointed that no additional tasks exist."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e22_q004_seg1_262.0_337.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 262,
+          "end": 337.2,
+          "mmss": "4:22.0-5:37.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0054",
+        "t": [
+          261.992,
+          264.453
+        ],
+        "speaker": "Chandler",
+        "text": "Can you hear that?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0055",
+        "t": [
+          264.536,
+          265.746
+        ],
+        "speaker": "Phoebe",
+        "text": "Yeah."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0056",
+        "t": [
+          267.664,
+          270
+        ],
+        "speaker": "Chandler",
+        "text": "You see, that'll stop when you pick up the phone."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0057",
+        "t": [
+          270.083,
+          283.138
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh! - Ooh! I'm on. - Okay. Mr. Bing's office. No, I'm sorry. He's in a meeting right now."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0058",
+        "t": [
+          283.221,
+          284.848
+        ],
+        "speaker": "Chandler",
+        "text": "I'm not in a meeting. I'm right-who..?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0059",
+        "t": [
+          284.932,
+          293.273
+        ],
+        "speaker": "Phoebe",
+        "text": "Will he know what this is in reference to? And he has your number? Alright. I'll see that he gets the message. Bye-bye."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0060",
+        "t": [
+          295.525,
+          296.985
+        ],
+        "speaker": "Phoebe",
+        "text": "- What? - Ross says hi."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0061",
+        "t": [
+          297.069,
+          298.528
+        ],
+        "speaker": "Chandler",
+        "text": "Ah."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0062",
+        "t": [
+          298.612,
+          301.323
+        ],
+        "speaker": "Phoebe",
+        "text": "This is so fun. Alright. What do we do now?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0063",
+        "t": [
+          301.406,
+          304.326
+        ],
+        "speaker": "Chandler",
+        "text": "Well, now I actually have to get to work."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0064",
+        "t": [
+          304.409,
+          306.662
+        ],
+        "speaker": "Phoebe",
+        "text": "Most likely."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0065",
+        "t": [
+          310.165,
+          315.629
+        ],
+        "speaker": "Phoebe",
+        "text": "- Okay, I'm gonna be out there. - Okay. - Alright. Bye bye. - Bye bye."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0066",
+        "t": [
+          322.052,
+          323.845
+        ],
+        "speaker": "Phoebe",
+        "text": "- Yes. - 'Whatcha doin'?'"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0067",
+        "t": [
+          323.929,
+          325.514
+        ],
+        "speaker": "unknown",
+        "text": "Oh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0068",
+        "t": [
+          327.849,
+          337.192
+        ],
+        "speaker": "Monica",
+        "text": "Okay, windows are clean. Candles are lit. Ooh, belt's too tight. Got to change the belt. Did I turn the fish? Nope. 'Cause I made lasagna."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes the emotional trajectory of the dark-haired woman in white as she prepares for her date and her friend recognizes what she may be anticipating?",
+    "options": [
+      "A. She starts relaxed about the date, becomes annoyed by her friend's intrusive questions, and ends firmly denying that she wants the visitor to stay.",
+      "B. She is initially ashamed of the relationship, grows frightened that the visitor will arrive early, and ends relieved after deciding to cancel the evening.",
+      "C. She begins confident that the evening is fully planned, becomes disappointed when her friend disapproves, and ends openly angry about being judged.",
+      "D. She begins tightly wound and overprepared, tries to sound casual, then gives way to shy excitement about the evening."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e22_q005_seg1_337.2_380.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 337.2,
+          "end": 380.9,
+          "mmss": "5:37.2–6:20.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0028",
+        "t": [
+          337.2,
+          341.2
+        ],
+        "speaker": "Dark-haired woman in white",
+        "text": "The windows are clean and the candles are lit. Am I out of control?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0029",
+        "t": [
+          341.2,
+          343.2
+        ],
+        "speaker": "Woman on the couch",
+        "text": "Just a touch."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0030",
+        "t": [
+          343.2,
+          350.2
+        ],
+        "speaker": "Woman on the couch",
+        "text": "You have been dating him for a while. Why are you suddenly so—oh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0031",
+        "t": [
+          356.2,
+          359.2
+        ],
+        "speaker": "Woman on the couch",
+        "text": "Could tonight be the night?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0032",
+        "t": [
+          359.2,
+          369.2
+        ],
+        "speaker": "Dark-haired woman in white",
+        "text": "I do not know. He is a great guy and I love being with him, but things happen. You do not plan these things."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0033",
+        "t": [
+          373.2,
+          377.2
+        ],
+        "speaker": "Woman on the couch",
+        "text": "Did you shave your legs?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0034",
+        "t": [
+          377.2,
+          380.2
+        ],
+        "speaker": "Dark-haired woman in white and woman on the couch",
+        "text": "Yes. Aha."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q006",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the man in the suit change before and after he realizes that the page concerns a wrong number rather than the baby's arrival?",
+    "options": [],
+    "answer": {
+      "before": [
+        "excitement",
+        "disquietment"
+      ],
+      "after": [
+        "embarrassment",
+        "happiness"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e22_q006_seg1_381.1_435.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 381.1,
+          "end": 435.9,
+          "mmss": "6:21.1-7:15.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0077",
+        "t": [
+          381.111,
+          385.157
+        ],
+        "speaker": "Joey",
+        "text": "Would you let it go, Ross? It was just a dream. It doesn't mean.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0078",
+        "t": [
+          386.533,
+          390.412
+        ],
+        "speaker": "Ross",
+        "text": "Oh! Oh! Oh! Oh-oh! Oh, this is it! Oh, my God! It's baby time! Baby time!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0079",
+        "t": [
+          390.454,
+          393.832
+        ],
+        "speaker": "Joey",
+        "text": "Alright, relax. Relax. Just relax. Relax. Be cool. Be cool."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0080",
+        "t": [
+          395.25,
+          396.835
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, hi. I was just beeped."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0081",
+        "t": [
+          398.629,
+          408.847
+        ],
+        "speaker": "Ross",
+        "text": "No. Andre is not here. Third time today. Yes, I'm sure. No, sir, I do not perform those kind of services."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0082",
+        "t": [
+          410.057,
+          413.518
+        ],
+        "speaker": "Joey",
+        "text": "Services. Oh, services."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0083",
+        "t": [
+          413.602,
+          416.521
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, you want 55 Jumbo."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0084",
+        "t": [
+          419.191,
+          433.455
+        ],
+        "speaker": "Ross",
+        "text": "Yeah. That's right. That's right. Jumbo with a \"U\", sir. Hey, no believe me, you don't want me. Judging by his number I'd be a huge disappointment. Yeah. Alrighty, bye-bye."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0085",
+        "t": [
+          434.748,
+          435.874
+        ],
+        "speaker": "unknown",
+        "text": "Just relax."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q007",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired man in the green suit after the temporary secretary returns from work?",
+    "options": [
+      "A. He begins curious about her first day, becomes amused when told the staff dislike him, and ends proud that his friends reproduce his mannerisms.",
+      "B. He begins pleased about arranging the job, becomes confused when told the staff dislike him, and ends embarrassed and annoyed by his friends' imitation.",
+      "C. He begins worried that she revealed their friendship, becomes relieved that she concealed it, and ends grateful that the staff still respect him.",
+      "D. He begins confident that the staff are his friends, becomes disappointed by their criticism, and ends calmly accepting that his promotion changed the relationship."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e22_q007_seg1_437.0_538.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 437,
+          "end": 538.6,
+          "mmss": "7:17.0-8:58.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0086",
+        "t": [
+          437.042,
+          439.086
+        ],
+        "speaker": "Joey",
+        "text": "- Hey. - Hey. - How was the first day? - Hey."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0087",
+        "t": [
+          439.127,
+          443.173
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh! Excellent. Everyone was so, so nice."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0088",
+        "t": [
+          443.257,
+          449.972
+        ],
+        "speaker": "Chandler",
+        "text": "See it pays to know the man who wears my shoes. - Me. - Oh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0089",
+        "t": [
+          450.013,
+          452.14
+        ],
+        "speaker": "Phoebe",
+        "text": "No, I didn't tell anybody that I knew you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0090",
+        "t": [
+          452.224,
+          453.183
+        ],
+        "speaker": "Chandler",
+        "text": "Why not?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0091",
+        "t": [
+          453.267,
+          457.354
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, because you know.. ...they don't like you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0092",
+        "t": [
+          461.149,
+          462.15
+        ],
+        "speaker": "Chandler",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0093",
+        "t": [
+          462.234,
+          463.402
+        ],
+        "speaker": "Phoebe",
+        "text": "I thought you knew that."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0094",
+        "t": [
+          463.485,
+          466.154
+        ],
+        "speaker": "unknown",
+        "text": "No."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0095",
+        "t": [
+          466.196,
+          467.406
+        ],
+        "speaker": "Chandler",
+        "text": "Who doesn't like me?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0096",
+        "t": [
+          467.489,
+          472.411
+        ],
+        "speaker": "Phoebe",
+        "text": "Everyone. Except for um... no, everyone."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0097",
+        "t": [
+          475.539,
+          476.999
+        ],
+        "speaker": "Chandler",
+        "text": "What are you talking about?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0098",
+        "t": [
+          477.04,
+          488.01
+        ],
+        "speaker": "Phoebe",
+        "text": "Don't feel bad. You know, they used to like you a lot. But, then you got promoted, and you know now you're all like Mr. Boss man. You know, Mr. Bing. Mr. Bing. Boss man Bing."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0099",
+        "t": [
+          490.679,
+          492.014
+        ],
+        "speaker": "Chandler",
+        "text": "I can't believe it."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0100",
+        "t": [
+          492.055,
+          493.932
+        ],
+        "speaker": "Phoebe",
+        "text": "Yeah, yeah. They even do you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0101",
+        "t": [
+          495.892,
+          497.686
+        ],
+        "speaker": "Chandler",
+        "text": "They do me?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0102",
+        "t": [
+          497.728,
+          502.232
+        ],
+        "speaker": "Phoebe",
+        "text": "You know like, um, okay, um \"Could that report be any later.\""
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0103",
+        "t": [
+          508.405,
+          509.531
+        ],
+        "speaker": "Chandler",
+        "text": "I don't sound like that."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0104",
+        "t": [
+          509.573,
+          512.701
+        ],
+        "speaker": "Joey",
+        "text": "- Oh. Oh, Chan. - Yeah, you do."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0105",
+        "t": [
+          512.743,
+          517.998
+        ],
+        "speaker": "Ross",
+        "text": "\"The hills are alive with the sound.. ...of music.\""
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0106",
+        "t": [
+          523.587,
+          524.713
+        ],
+        "speaker": "unknown",
+        "text": "Myscone."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0107",
+        "t": [
+          524.796,
+          526.548
+        ],
+        "speaker": "Joey",
+        "text": "- My scone. - My scone."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0108",
+        "t": [
+          528.508,
+          531.219
+        ],
+        "speaker": "Chandler",
+        "text": "Okay. I don't sound like that. That is so not true."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0109",
+        "t": [
+          534.097,
+          538.56
+        ],
+        "speaker": "Chandler",
+        "text": "That is so not ...that is so not... that.. Oh, shut up!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q008",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes the emotional trajectory of the man in the gray suit as he learns how his coworkers view him and hears the group imitate him?",
+    "options": [
+      "A. He starts pleased and self-important, turns shocked and hurt when learning everyone dislikes him, then becomes defensive and frustrated.",
+      "B. He begins nervous that his employee failed, becomes relieved that the coworkers only dislike his clothes, and ends amused by the impression.",
+      "C. He starts indifferent, becomes angry because the blonde woman hid their friendship, and ends reassured when the others deny he speaks that way.",
+      "D. He begins warmly curious, interprets the coworkers' mockery as admiration, and grows proud that his managerial style is memorable."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e22_q007_seg1_437.0_538.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 437,
+          "end": 538.6,
+          "mmss": "7:17.0–8:58.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0035",
+        "t": [
+          437,
+          443.2
+        ],
+        "speaker": "Blonde woman",
+        "text": "The first day was excellent. Everyone was very nice."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0036",
+        "t": [
+          443.2,
+          447.72
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "It pays to know the man who wears my shoes—me."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0037",
+        "t": [
+          447.72,
+          452.12
+        ],
+        "speaker": "Blonde woman",
+        "text": "I did not tell anyone that I knew you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0038",
+        "t": [
+          461,
+          467.28
+        ],
+        "speaker": "Man in a gray suit and blonde woman",
+        "text": "Who does not like me? Everyone. Except—no, everyone."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0039",
+        "t": [
+          475.36,
+          487.6
+        ],
+        "speaker": "Blonde woman",
+        "text": "They used to like you, but after your promotion you became the boss man."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0040",
+        "t": [
+          490.4,
+          495.28
+        ],
+        "speaker": "Man in a gray suit and blonde woman",
+        "text": "I cannot believe it. They even imitate you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0041",
+        "t": [
+          497.28,
+          501.28
+        ],
+        "speaker": "Blonde woman, imitating him",
+        "text": "Could that report be any later?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0042",
+        "t": [
+          507.28,
+          512.28
+        ],
+        "speaker": "Man in a gray suit and seated friends",
+        "text": "I do not sound like that. Yes, you do."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0043",
+        "t": [
+          512.28,
+          526.28
+        ],
+        "speaker": "Two seated men, imitating him",
+        "text": "They continue with exaggerated examples of his voice and mannerisms."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0044",
+        "t": [
+          526.28,
+          538.28
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "That is not true. That is so not—oh, shut up."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the young man in plaid as the evening shifts from joking to his personal disclosure?",
+    "options": [
+      "A. He begins relaxed, becomes hesitant and embarrassed about his inexperience, and ends relieved by the woman's warm response.",
+      "B. He begins eager to leave, becomes nervous about the invitation to stay, and ends disappointed by her misunderstanding of his disclosure.",
+      "C. He begins playful about his past, becomes ashamed when the woman identifies his inexperience, and ends worried about rejection despite her reassurance.",
+      "D. He begins confident about staying over, becomes amused by the woman's guesses about his past, and ends proud that he waited."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e22_q009_seg1_542.4_645.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 542.4,
+          "end": 645.6,
+          "mmss": "9:02.4-10:45.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0110",
+        "t": [
+          542.397,
+          561.041
+        ],
+        "speaker": "Young Ethan",
+        "text": "- Did not. - I am telling you. Up until I was like nine, I thought that gunpoint was an actual place where crimes happen. - How is that possible? - Well think about it. It's always on the news \"A man is being held up at Gunpoint.\" \"Tourists are being terrorized at Gunpoint.\" And I just kept thinking, \"Why do people continue to go there?\""
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0111",
+        "t": [
+          564.628,
+          567.756
+        ],
+        "speaker": "Young Ethan",
+        "text": "Oh. Uh, I should go."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0112",
+        "t": [
+          568.966,
+          570.759
+        ],
+        "speaker": "Monica",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0113",
+        "t": [
+          575.806,
+          577.557
+        ],
+        "speaker": "Young Ethan",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0114",
+        "t": [
+          577.599,
+          584.982
+        ],
+        "speaker": "Monica",
+        "text": "- Unless. - What? Uh-uh... unless you wanna stay over. I mean, I'm going to. So?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0115",
+        "t": [
+          587.609,
+          589.903
+        ],
+        "speaker": "Young Ethan",
+        "text": "Yeah. I'd really like that."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0116",
+        "t": [
+          596.076,
+          597.16
+        ],
+        "speaker": "unknown",
+        "text": "Um, oh... uh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0117",
+        "t": [
+          597.244,
+          603.292
+        ],
+        "speaker": "Young Ethan",
+        "text": "Before we get into any staying over stuff.. There's something you should know."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0118",
+        "t": [
+          603.375,
+          609.256
+        ],
+        "speaker": "Monica",
+        "text": "Okay. Is this like, \"I have an early class tomorrow.\" Or \"I'm secretly married to a goat?\""
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0119",
+        "t": [
+          610.799,
+          622.102
+        ],
+        "speaker": "Young Ethan",
+        "text": "Well, it's somewhere in between. You see, in a strictly technical sense, of course, I'm not a.. Well, I-I mean I haven't ever, um.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0120",
+        "t": [
+          622.144,
+          625.48
+        ],
+        "speaker": "Monica",
+        "text": "- Ethan. - Yeah? Are you a virgin?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0121",
+        "t": [
+          625.522,
+          631.82
+        ],
+        "speaker": "Young Ethan",
+        "text": "Well.. ...if that's what you kids are calling it these days, then.. ...yes, I am."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0122",
+        "t": [
+          633.989,
+          637.534
+        ],
+        "speaker": "Young Ethan",
+        "text": "I, uh, I've kind of been waiting for the right person."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0123",
+        "t": [
+          639.369,
+          640.996
+        ],
+        "speaker": "Monica",
+        "text": "- Really? - Yeah."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0124",
+        "t": [
+          642.915,
+          645.584
+        ],
+        "speaker": "Young Ethan",
+        "text": "You do know I-I was talking about you, right?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired woman after she decides to reveal her age and then learns the young man's actual age?",
+    "options": [
+      "A. She begins confident that age will not matter, becomes annoyed that he is younger than expected, and ends optimistic about his declaration of love.",
+      "B. She begins embarrassed about her age, becomes relieved that the young man also lied, and ends amused by their matching deceptions.",
+      "C. She begins hopeful in confessing, recoils at his high-school revelation, and ends angry and embarrassed as she breaks off the relationship.",
+      "D. She begins nervous about disappointing him, becomes surprised by the high-school disclosure, and ends sad that he no longer wants the relationship."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e22_q010_seg1_654.5_811.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 654.5,
+          "end": 811.4,
+          "mmss": "10:54.5-13:31.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0125",
+        "t": [
+          654.468,
+          656.803
+        ],
+        "speaker": "Young Ethan",
+        "text": "Wow!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0126",
+        "t": [
+          656.845,
+          658.931
+        ],
+        "speaker": "Monica",
+        "text": "You keep saying that."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0127",
+        "t": [
+          659.014,
+          668.857
+        ],
+        "speaker": "Young Ethan",
+        "text": "You know, you read about it. You see it in the movies, even when you practice it at home.. Man, oh, man.. It is nothing like that."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0128",
+        "t": [
+          669.65,
+          670.943
+        ],
+        "speaker": "panting",
+        "text": "Ah.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0129",
+        "t": [
+          672.194,
+          685.04
+        ],
+        "speaker": "Monica",
+        "text": "Listen. Listen. Um, you-you told me something that was.. ...really difficult for you. And, um, well I-I figured, if you can be honest then.. ...I can, too."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0130",
+        "t": [
+          685.123,
+          687.042
+        ],
+        "speaker": "Young Ethan",
+        "text": "Oh, God! Don't tell me, I did it wrong."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0131",
+        "t": [
+          687.084,
+          692.214
+        ],
+        "speaker": "Monica",
+        "text": "No! No, no. - Nothing wrong about that. - Oh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0132",
+        "t": [
+          694.174,
+          696.635
+        ],
+        "speaker": "Monica",
+        "text": "Um, okay. Here goes."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0133",
+        "t": [
+          698.679,
+          702.891
+        ],
+        "speaker": "Monica",
+        "text": "I'm not 22. I'm-I'm 25."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0134",
+        "t": [
+          704.768,
+          706.228
+        ],
+        "speaker": "Monica",
+        "text": "And 13 months."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0135",
+        "t": [
+          708.397,
+          714.778
+        ],
+        "speaker": "Monica",
+        "text": "- Huh. - But I figured.. You know, that shouldn't change anything. I mean, what the hell does it matter how old we are?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0136",
+        "t": [
+          717.739,
+          722.244
+        ],
+        "speaker": "Young Ethan",
+        "text": "Uh, listen, um.. As long as we're telling stuff, uh.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0137",
+        "t": [
+          723.829,
+          729.334
+        ],
+        "speaker": "Young Ethan",
+        "text": "I have another one for you. I'm a little younger than I said."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0138",
+        "t": [
+          731.461,
+          732.838
+        ],
+        "speaker": "Monica",
+        "text": "You're not a senior?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0139",
+        "t": [
+          732.921,
+          735.048
+        ],
+        "speaker": "Young Ethan",
+        "text": "Oh I'm senior."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0140",
+        "t": [
+          738.927,
+          741.096
+        ],
+        "speaker": "Young Ethan",
+        "text": "In high school."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0141",
+        "t": [
+          746.518,
+          748.645
+        ],
+        "speaker": "unknown",
+        "text": "Okay.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0142",
+        "t": [
+          752.482,
+          758.906
+        ],
+        "speaker": "Monica",
+        "text": "What we did was wrong. Oh God. I just had sex with someone who wasn't alive during the Bicentennial."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0143",
+        "t": [
+          760.908,
+          762.91
+        ],
+        "speaker": "Young Ethan",
+        "text": "I just had sex."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0144",
+        "t": [
+          765.495,
+          768.665
+        ],
+        "speaker": "Monica",
+        "text": "Ethan, focus. How could you not tell me?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0145",
+        "t": [
+          768.749,
+          769.958
+        ],
+        "speaker": "Young Ethan",
+        "text": "Well you never told me how old you were?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0146",
+        "t": [
+          770,
+          775.047
+        ],
+        "speaker": "Monica",
+        "text": "Well, that's different! My lie didn't make one of us a felon in 48 states!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0147",
+        "t": [
+          776.548,
+          778.467
+        ],
+        "speaker": "Monica",
+        "text": "- What were you thinking? - I wasn't thinking!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0148",
+        "t": [
+          778.55,
+          782.888
+        ],
+        "speaker": "Young Ethan",
+        "text": "- I was too busy falling... - Don't say it. In love with you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0149",
+        "t": [
+          783.597,
+          785.098
+        ],
+        "speaker": "Monica",
+        "text": "Really?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0150",
+        "t": [
+          785.14,
+          786.266
+        ],
+        "speaker": "Young Ethan",
+        "text": "Sorry."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0151",
+        "t": [
+          787.768,
+          791.939
+        ],
+        "speaker": "Monica",
+        "text": "Well, fall out of it. You know, y-you shouldn't even be here. It's a school night."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0152",
+        "t": [
+          794.9,
+          801.49
+        ],
+        "speaker": "Monica",
+        "text": "Oh, God! Oh, God. I'm like those women that you.. You see with... shiny guys named Chad."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0153",
+        "t": [
+          805.244,
+          806.87
+        ],
+        "speaker": "Monica",
+        "text": "I'm Joan Collins."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0154",
+        "t": [
+          810.29,
+          811.375
+        ],
+        "speaker": "Young Ethan",
+        "text": "Who?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q011",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the woman in blue's reluctant disclosure that the man in brown was also in her dream affect her partner and the man in brown?",
+    "options": [
+      "A. Both men react with boredom, indifference, and emotional detachment.",
+      "B. Both men react with intrigue, playfulness, and slight anxiety.",
+      "C. Both men react with mild offense, relief, and warm gratitude.",
+      "D. Both men react with shared disgust, outrage, and sudden alarm."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e22_q011_seg1_830.5_861.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 830.5,
+          "end": 861,
+          "mmss": "13:50.5–14:21.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0045",
+        "t": [
+          832.4,
+          835.4
+        ],
+        "speaker": "Man seated beside the woman in blue",
+        "text": "Come on. You told me about the last dream."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0046",
+        "t": [
+          835.4,
+          836.4
+        ],
+        "speaker": "Woman in blue",
+        "text": "No, forget it."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0047",
+        "t": [
+          836.4,
+          841.4
+        ],
+        "speaker": "Man beside her",
+        "text": "Why not? Was I doing anything particularly saucy?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0048",
+        "t": [
+          841.4,
+          844.4
+        ],
+        "speaker": "Woman in blue",
+        "text": "All right, fine."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0049",
+        "t": [
+          844.4,
+          851.4
+        ],
+        "speaker": "Woman in blue",
+        "text": "You were not the only one there. The man in brown was there too."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0050",
+        "t": [
+          851.4,
+          854.4
+        ],
+        "speaker": "Man in brown",
+        "text": "All right."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0051",
+        "t": [
+          854.4,
+          860.5
+        ],
+        "speaker": "Man in a blue shirt standing nearby",
+        "text": "Was there anybody else there?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q012",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How do the two men leaning toward the woman in blue react when she reveals that parts of the dream did not include her?",
+    "options": [
+      "A. Their curiosity turns into disappointment because they assume she has forgotten the most important part of the dream.",
+      "B. They remain excited and begin competing over which of them was more important in the dream.",
+      "C. Their amusement becomes anger at the woman for misleading them about who participated.",
+      "D. Their eager amusement abruptly becomes mutual awkwardness and horror at the implication."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e22_q012_seg1_861.1_908.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 861.1,
+          "end": 908.2,
+          "mmss": "14:21.1–15:08.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0052",
+        "t": [
+          861.1,
+          865.1
+        ],
+        "speaker": "Man in a blue shirt and woman in blue",
+        "text": "Was anybody else there? No."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0053",
+        "t": [
+          865.1,
+          869.1
+        ],
+        "speaker": "Man in a blue shirt",
+        "text": "Are you sure? Nobody handing out mints or anything?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0054",
+        "t": [
+          869.1,
+          874.1
+        ],
+        "speaker": "Woman in blue",
+        "text": "No, it was just the three of us."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0055",
+        "t": [
+          876.1,
+          882.14
+        ],
+        "speaker": "Man in brown",
+        "text": "Was it you and the man beside you, then you and me, or you and me and him?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0056",
+        "t": [
+          882.14,
+          886.14
+        ],
+        "speaker": "Woman in blue and man in brown",
+        "text": "You know what? What?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0057",
+        "t": [
+          886.14,
+          890.1
+        ],
+        "speaker": "Woman in blue",
+        "text": "There were times when it was not even me."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0058",
+        "t": [
+          890.1,
+          896
+        ],
+        "speaker": "Two men by the couch",
+        "text": "They laugh at first, then look at one another and recoil."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0059",
+        "t": [
+          898.04,
+          905
+        ],
+        "speaker": "Blonde woman",
+        "text": "That is so sweet, you two."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q013",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the group's repeated teasing about her much younger former boyfriend evoke in the woman wearing the black vest?",
+    "options": [],
+    "answer": [
+      "annoyance",
+      "embarrassment"
+    ],
+    "video_name": "friends_g1_2_s01e22_q013_seg1_908.3_967.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 908.3,
+          "end": 967.6,
+          "mmss": "15:08.3-16:07.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0172",
+        "t": [
+          908.263,
+          910.015
+        ],
+        "speaker": "Phoebe",
+        "text": "- 'Hey, Mon.' - 'Mon. Hey.'"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0173",
+        "t": [
+          910.057,
+          912.225
+        ],
+        "speaker": "Rachel",
+        "text": "Mon, Ethan called again."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0174",
+        "t": [
+          914.728,
+          916.563
+        ],
+        "speaker": "Rachel",
+        "text": "Mon?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0175",
+        "t": [
+          916.605,
+          917.94
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "Mon!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0176",
+        "t": [
+          919.358,
+          921.818
+        ],
+        "speaker": "Rachel",
+        "text": "- What? - Ethan called again."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0177",
+        "t": [
+          921.902,
+          924.78
+        ],
+        "speaker": "Ross",
+        "text": "- Oh. - You're not seeing him anymore?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0178",
+        "t": [
+          924.821,
+          928.909
+        ],
+        "speaker": "Monica",
+        "text": "No. You know, sometimes just things don't work out."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0179",
+        "t": [
+          928.951,
+          932.913
+        ],
+        "speaker": "Chandler",
+        "text": "And this has nothing to do with the fact that he needs a note to get out of gym?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0180",
+        "t": [
+          937.084,
+          941.588
+        ],
+        "speaker": "Rachel",
+        "text": "I didn't say anything. I did not say anything. I swear. He stopped by."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0181",
+        "t": [
+          941.63,
+          945.926
+        ],
+        "speaker": "Joey",
+        "text": "'Uh, listen, next time you talk to him' could you ask him which one the strongest Power Ranger is?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0182",
+        "t": [
+          945.968,
+          947.469
+        ],
+        "speaker": "Ross",
+        "text": "Oh, yeah."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0183",
+        "t": [
+          949.721,
+          953.976
+        ],
+        "speaker": "Monica",
+        "text": "Oh, my life is just so amusing. - Can we drop it now? - Sorry."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0184",
+        "t": [
+          954.059,
+          956.979
+        ],
+        "speaker": "Ross",
+        "text": "- Sorry. - It's Morphin' time!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0185",
+        "t": [
+          957.062,
+          958.814
+        ],
+        "speaker": "Joey",
+        "text": "- Stegosaurus! - Tyrannosaurus!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0186",
+        "t": [
+          963.86,
+          967.573
+        ],
+        "speaker": "Phoebe",
+        "text": "Ooh, oh, I got to go. Whoa. Ooh, head rush."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q014",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired man in the dark polo as he discusses the office party and his relationship with the employees?",
+    "options": [
+      "A. He begins hopeful that the employees like him again, becomes embarrassed that they mocked his friendliness, and ends determined to fire them.",
+      "B. He begins angry that the secretary attended without him, becomes proud of his party performance, and ends relieved that the employees respect him.",
+      "C. He begins indifferent to the employees' opinions, becomes amused by their new imitation, and ends grateful that the secretary explains why they avoid him.",
+      "D. He begins hurt about being excluded, grows hopeful that the party repaired the relationship, and ends sad that the role of boss prevents friendship."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e22_q014_seg1_969.9_1060.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 969.9,
+          "end": 1060.7,
+          "mmss": "16:09.9-17:40.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0187",
+        "t": [
+          969.866,
+          973.996
+        ],
+        "speaker": "Phoebe",
+        "text": "One more and then I have to go. Cool."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0188",
+        "t": [
+          977.583,
+          979.001
+        ],
+        "speaker": "Rachel",
+        "text": "Where are you going?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0189",
+        "t": [
+          979.084,
+          981.878
+        ],
+        "speaker": "Phoebe",
+        "text": "Um, oh, I got a birthday party with some work people."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0190",
+        "t": [
+          981.962,
+          986.675
+        ],
+        "speaker": "Chandler",
+        "text": "Work people? - Nobody told me. - No, I know."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0191",
+        "t": [
+          986.758,
+          990.512
+        ],
+        "speaker": "Phoebe",
+        "text": "That's part of the whole, you know.. Them not liking you extravaganza."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0192",
+        "t": [
+          992.848,
+          999.521
+        ],
+        "speaker": "Chandler",
+        "text": "You know what, I don't get this. A month ago these people were my friends. You know, I mean just because I'm in charge doesn't mean I'm a different person."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0193",
+        "t": [
+          999.563,
+          1004.443
+        ],
+        "speaker": "Phoebe",
+        "text": "Well then you should come tonight, you know.. Just hang out with them. Let them see what a great guy you still are."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0194",
+        "t": [
+          1004.484,
+          1008.864
+        ],
+        "speaker": "Chandler",
+        "text": "- You think I should? - I really do. Yeah. - Okay. - Okay!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0195",
+        "t": [
+          1008.947,
+          1014.912
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, but, um, can we not go together? I don't want to be the geek who invited the boss, you know."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0196",
+        "t": [
+          1019.166,
+          1023.086
+        ],
+        "speaker": "Chandler",
+        "text": "And I think last night was great, you know the karaoke thing. Tracy and I doing Ebony and Ivory."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0197",
+        "t": [
+          1023.17,
+          1024.88
+        ],
+        "speaker": "unknown",
+        "text": "- Mm-hm. - Huh?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0198",
+        "t": [
+          1024.922,
+          1035.057
+        ],
+        "speaker": "Phoebe",
+        "text": "You were great! But they still made fun of you. - What? - You know. Now you're more like, you know, Mr. Caring boss. Mister... you know, I'm one of you boss. Mr. I-Want-To-Be-Your-Buddy Boss-Man Bing."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0199",
+        "t": [
+          1037.017,
+          1039.603
+        ],
+        "speaker": "Chandler",
+        "text": "Then I don't get it."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0200",
+        "t": [
+          1039.686,
+          1051.24
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, you know what, Chandler I think you just got to face it. You're like the guy in the big office. 'You know? You're the one that hires them and fires them.' They still say you're a great boss."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0201",
+        "t": [
+          1051.281,
+          1053.283
+        ],
+        "speaker": "Chandler",
+        "text": "- They do? - Uh-huh."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0202",
+        "t": [
+          1053.367,
+          1054.826
+        ],
+        "speaker": "Phoebe",
+        "text": "But they're not your friends anymore"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0203",
+        "t": [
+          1054.868,
+          1056.828
+        ],
+        "speaker": "Chandler",
+        "text": "But I just want..."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0204",
+        "t": [
+          1056.912,
+          1058.789
+        ],
+        "speaker": "Phoebe",
+        "text": "No but you can't."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0205",
+        "t": [
+          1058.872,
+          1060.666
+        ],
+        "speaker": "Chandler",
+        "text": "- But I just want... - Nuh-uh."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q015",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the young man in the light jacket as he tries to persuade the dark-haired woman to continue their relationship?",
+    "options": [
+      "A. He begins angry that she avoided him, becomes relieved when she admits the relationship was good, and ends confident that she has changed.",
+      "B. He begins playful and hopeful, grows frustrated by her rejection, and ends sad that their acknowledged affection is still refused.",
+      "C. He begins embarrassed about lying, becomes amused by her objections, and ends indifferent after deciding that the age difference makes no sense.",
+      "D. He begins optimistic about reconciliation, becomes disappointed by her refusal, and ends resentful when she denies ever caring for him."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e22_q015_seg1_1093.8_1173.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 1093.8,
+          "end": 1173.2,
+          "mmss": "18:13.8-19:33.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0209",
+        "t": [
+          1093.824,
+          1094.992
+        ],
+        "speaker": "Young Ethan",
+        "text": "Hey."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0210",
+        "t": [
+          1095.867,
+          1097.995
+        ],
+        "speaker": "Monica",
+        "text": "That was going to be my opener."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0211",
+        "t": [
+          1098.912,
+          1102.457
+        ],
+        "speaker": "Rachel",
+        "text": "Hey, did you guys check out those new hand dryers in the bathrooms?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0212",
+        "t": [
+          1102.499,
+          1103.875
+        ],
+        "speaker": "Ross",
+        "text": "I thought that was just a rumor."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0213",
+        "t": [
+          1103.959,
+          1106.086
+        ],
+        "speaker": "Joey",
+        "text": "- True story. - They're here already?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0214",
+        "t": [
+          1109.256,
+          1134.656
+        ],
+        "speaker": "Young Ethan",
+        "text": "Alright look, I gotta tell you something. I'm not 17. I only said that so you'd think I was cute and vulnerable. I'm actually 30. I have a wife, I have a job. I'm your congressman. Monica, this is ridiculous. We are great together. We can talk, we make each other laugh, and the sex! Oh man. Okay. I have no frame of reference. But I thought that was great. - It was. - Then what's the problem?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0215",
+        "t": [
+          1137.159,
+          1139.328
+        ],
+        "speaker": "Monica",
+        "text": "Ethan, it's um.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0216",
+        "t": [
+          1141.163,
+          1142.664
+        ],
+        "speaker": "Monica",
+        "text": "It's icky."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0217",
+        "t": [
+          1143.665,
+          1149.63
+        ],
+        "speaker": "Young Ethan",
+        "text": "\"Icky?\" You're actually gonna throw this away because it's \"icky\"?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0218",
+        "t": [
+          1149.671,
+          1160.599
+        ],
+        "speaker": "Monica",
+        "text": "Look, this isn't easy for me either. I wish things were different. I.. If you were a few years older, or I was few years younger or.. ...we lived in biblical times.."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0219",
+        "t": [
+          1160.641,
+          1163.143
+        ],
+        "speaker": "Young Ethan",
+        "text": "- I could really... - No, don't say it."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0220",
+        "t": [
+          1163.185,
+          1164.686
+        ],
+        "speaker": "Monica",
+        "text": "Love you."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0221",
+        "t": [
+          1169.232,
+          1171.026
+        ],
+        "speaker": "Ross",
+        "text": "- Are your hands still wet? - They're moist."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0222",
+        "t": [
+          1171.068,
+          1173.195
+        ],
+        "speaker": "Rachel",
+        "text": "- Yeah, right? - Let's dry them."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q016",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes the emotional trajectory of the young man in the light jacket as he tries to prevent the woman in blue from ending their relationship?",
+    "options": [
+      "A. He begins ashamed and apologetic, becomes relieved when she calls the relationship uncomfortable, and ends happily accepting a friendship instead.",
+      "B. He remains confident and joking throughout because he never believes that she is serious about ending the relationship.",
+      "C. He starts with playful, hopeful persuasion, turns hurt and incredulous, and ends in tender but resigned sadness.",
+      "D. He begins angrily accusing her of dishonesty, becomes embarrassed by the watching friends, and leaves without expressing affection."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e22_q015_seg1_1093.8_1173.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 1093.8,
+          "end": 1173.2,
+          "mmss": "18:13.8–19:33.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0060",
+        "t": [
+          1109.36,
+          1113.04
+        ],
+        "speaker": "Young man in a light jacket",
+        "text": "I have to tell you something. I am not seventeen."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0061",
+        "t": [
+          1113.04,
+          1121.68
+        ],
+        "speaker": "Young man in a light jacket",
+        "text": "I only said that so you would think I was cute and vulnerable. I am actually thirty, married, employed and your congressman."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0062",
+        "t": [
+          1121.68,
+          1132.84
+        ],
+        "speaker": "Young man in a light jacket",
+        "text": "This is ridiculous. We are great together. We talk, laugh, and I thought the sex was great."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0063",
+        "t": [
+          1132.84,
+          1135.24
+        ],
+        "speaker": "Young man in a light jacket",
+        "text": "Then what is the problem?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0064",
+        "t": [
+          1135.24,
+          1143.24
+        ],
+        "speaker": "Woman in blue",
+        "text": "It is...icky."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0065",
+        "t": [
+          1143.24,
+          1149.04
+        ],
+        "speaker": "Young man in a light jacket",
+        "text": "You are really going to throw this away because it is icky?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0066",
+        "t": [
+          1149.04,
+          1160.8
+        ],
+        "speaker": "Woman in blue",
+        "text": "This is not easy for me. I wish things were different—if you were older, or I were younger."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0067",
+        "t": [
+          1162.28,
+          1164.28
+        ],
+        "speaker": "Young man in a light jacket",
+        "text": "Do not say it."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0068",
+        "t": [
+          1164.28,
+          1166
+        ],
+        "speaker": "Woman in blue",
+        "text": "I love you."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q017",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What best explains why the man in the gray suit decides that some employees will be working over the weekend after they walk away?",
+    "options": [
+      "A. He is impressed by their humor and wants to reward them with an important weekend project.",
+      "B. He has just caught them imitating and ridiculing him, masks the embarrassment with formal authority, then retaliates.",
+      "C. The blonde woman warns him that the employees have missed their weekly deadline and must finish the numbers immediately.",
+      "D. He is confused about which employee has a moustache and schedules the team only to learn their names."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e22_q017_seg1_1173.2_1212.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 1173.2,
+          "end": 1212,
+          "mmss": "19:33.2–20:12.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0069",
+        "t": [
+          1173.2,
+          1180.2
+        ],
+        "speaker": "Employee in the hallway",
+        "text": "He imitates the manager by asking whether the margaritas could be any stronger."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0070",
+        "t": [
+          1180.2,
+          1186.2
+        ],
+        "speaker": "Employees noticing the manager",
+        "text": "Hello, Mr. Boss. We loved your singing last night."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0071",
+        "t": [
+          1186.2,
+          1196.2
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Thanks. I need the weekly numbers on my desk by nine."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0072",
+        "t": [
+          1196.2,
+          1199.2
+        ],
+        "speaker": "Employees",
+        "text": "Sure. No problem."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0073",
+        "t": [
+          1199.2,
+          1204.2
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "You have to give them something."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0074",
+        "t": [
+          1204.2,
+          1209.2
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "That was the first man, the second man, and who was the one with the moustache?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0075",
+        "t": [
+          1209.2,
+          1212
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Some people are going to be working this weekend."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q018",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the gray suit after he hears the sleeping woman call his name?",
+    "options": [
+      "A. He begins pleased that she calls for him, becomes nervous about her question, and ends embarrassed that the dream involved someone else.",
+      "B. He begins amused at her sleep-talking, becomes disappointed when she wakes forgetful, and ends relieved that the page was a wrong number.",
+      "C. He begins concerned that she is ill, becomes confused by what she says upon waking, and ends angry that nobody can find the phone.",
+      "D. He begins surprised and hopeful about her dream, becomes excited at the pager's baby signal, and ends distressed by his own rushing injury."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e22_q018_seg1_1244.8_1299.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 1244.8,
+          "end": 1299.1,
+          "mmss": "20:44.8-21:39.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0229",
+        "t": [
+          1244.808,
+          1246.727
+        ],
+        "speaker": "Rachel",
+        "text": "'Oh, that's nice.'"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0230",
+        "t": [
+          1252.149,
+          1253.483
+        ],
+        "speaker": "Rachel",
+        "text": "Ross!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0231",
+        "t": [
+          1263.035,
+          1265.162
+        ],
+        "speaker": "Ross",
+        "text": "- Ross. - I'm here."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0232",
+        "t": [
+          1267.581,
+          1278.3
+        ],
+        "speaker": "Rachel",
+        "text": "You are? What... um.. We were, we were, uh, just.. - Wow. Um.. - What?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0233",
+        "t": [
+          1280.969,
+          1283.639
+        ],
+        "speaker": "Ross",
+        "text": "Great. Now I'm having a baby."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0234",
+        "t": [
+          1284.973,
+          1286.141
+        ],
+        "speaker": "Rachel",
+        "text": "- What? - Oh!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0235",
+        "t": [
+          1286.224,
+          1291.313
+        ],
+        "speaker": "Ross",
+        "text": "What? No I'm... I'm having.. I'm having a baby! I'm having.. - Where is the phone, the phone! - The phone!"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0236",
+        "t": [
+          1291.355,
+          1292.814
+        ],
+        "speaker": "Rachel",
+        "text": "I don't have the phone."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0237",
+        "t": [
+          1296.068,
+          1297.194
+        ],
+        "speaker": "Rachel",
+        "text": "Ross?"
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0238",
+        "t": [
+          1297.277,
+          1299.112
+        ],
+        "speaker": "Ross",
+        "text": "'I'm hurt.'"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e22_q019",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes the emotional trajectory of the man in the gray suit as he tries to get the group to leave for the hospital?",
+    "options": [
+      "A. He begins urgently focused, grows exasperated with the distractions, then briefly freezes and must be guided out.",
+      "B. He starts calmly organizing the trip, becomes amused by the group's delays, and ends confidently leading everyone downstairs.",
+      "C. He begins frightened of the hospital, grows relieved when the others are unprepared, and deliberately stalls until they persuade him to go.",
+      "D. He remains angry at one particular friend throughout and ends by leaving the rest of the group behind."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e22_q019_seg1_1299.1_1363.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E22"
+      ],
+      "segments": [
+        {
+          "ep": "S01E22",
+          "start": 1299.1,
+          "end": 1363.7,
+          "mmss": "21:39.1–22:43.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E22",
+        "unit_id": "u0076",
+        "t": [
+          1301.1,
+          1303.1
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Come on, people. A woman is in labor."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0077",
+        "t": [
+          1303.1,
+          1306.1
+        ],
+        "speaker": "Man in purple",
+        "text": "Look what I have going here."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0078",
+        "t": [
+          1306.1,
+          1309.1
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Save it for the cab."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0079",
+        "t": [
+          1309.1,
+          1313.1
+        ],
+        "speaker": "Man in a gray suit and woman holding a mirror",
+        "text": "What are you doing? There might be doctors there."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0080",
+        "t": [
+          1313.1,
+          1317.1
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Get out of the refrigerator."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0081",
+        "t": [
+          1317.1,
+          1321.1
+        ],
+        "speaker": "Man carrying a sandwich",
+        "text": "This is for the ride."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0082",
+        "t": [
+          1321.1,
+          1324.1
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Save it."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0083",
+        "t": [
+          1324.1,
+          1329.1
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Come on. The baby is coming."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0084",
+        "t": [
+          1330.1,
+          1336.1
+        ],
+        "speaker": "Dark-haired woman entering in tears",
+        "text": "I cannot believe it. I am going to be an aunt."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0085",
+        "t": [
+          1336.1,
+          1339.1
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "That is nice. Get out. Let us go."
+      },
+      {
+        "ep": "S01E22",
+        "unit_id": "u0086",
+        "t": [
+          1340.1,
+          1356.1
+        ],
+        "speaker": "Group in the hallway",
+        "text": "After everyone starts downstairs, the man stops and stares blankly until the others turn back and guide him along."
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most anxious?",
+    "options": [
+      "A. At work, Mrs. Tedlock says Mr. Kostelick wants to see him, and he denies having anything to do with the prank memos.",
+      "B. During a call from his former boss, he keeps rejecting the escalating offer before abruptly agreeing to return.",
+      "C. At Central Perk, after explaining why he quit, he admits that he does not know what he wants to do.",
+      "D. Before his career-counselor appointment, he compares himself with his friends and says that he has no dream."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which moment does Ross's embarrassment reach its greatest intensity?",
+    "options": [
+      "A. At Central Perk, while telling Joey about his second date with Celia, Ross pauses after boasting about his dirty talk and admits that it had gotten late and they were both exhausted.",
+      "B. When Celia asks Ross to talk dirty and, after hesitating, he blurts out \"vulva.\"",
+      "C. The morning after his first date with Celia, Joey repeats \"vulva\" in disbelief and Ross defensively explains that he panicked and that they ended up cuddling.",
+      "D. When Chandler unexpectedly finds Ross practicing dirty talk with Joey and Ross tries to explain the situation."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Monica's emotional trajectory from learning about the head-chef opportunity through the audition dinner and its aftermath?",
+    "options": [
+      "A. Her excitement gives way to mounting frustration and anger, then disappointment; Phoebe's reassurance fully replaces that disappointment with contentment.",
+      "B. Her excitement gives way to mounting frustration and anger, then disappointment; Phoebe's reassurance briefly lifts her spirits without removing that disappointment.",
+      "C. Her excitement gives way to mounting frustration and anger, then disappointment; she responds politely to Phoebe but remains emotionally unmoved.",
+      "D. Her excitement gives way to mounting frustration and anger, then disappointment; Phoebe's reassurance makes her feel embarrassed rather than comforted."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From showing Phoebe his new office to the moment after ending his late-night phone call, which description best captures Chandler's emotional change?",
+    "options": [
+      "A. Pride and playful excitement dominate during the office tour; after the outburst, his anger gives way to stunned self-recognition.",
+      "B. Pride and playful excitement dominate during the office tour; after the outburst, his anger gives way only to brief surprise at the force of his own reaction.",
+      "C. During the office tour, his pride is tempered by embarrassment about showing off; after the outburst, his anger gives way to stunned self-recognition.",
+      "D. During the office tour, his pride is tempered by embarrassment about showing off; after the outburst, his anger gives way only to brief surprise at the force of his own reaction."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which description best captures Rachel's attitude when Monica asks her to replace the waitress?",
+    "options": [
+      "A. She is not resentful about Monica passing her over earlier, genuinely has other plans, and changes her mind only because of the money.",
+      "B. She remains resentful about Monica passing her over earlier, but her refusal is playful bargaining and she never seriously intends to leave.",
+      "C. She remains resentful about Monica passing her over earlier and is genuinely ready to leave, changing her mind only when Monica offers enough money.",
+      "D. She is not resentful about Monica passing her over earlier and wants to help, but pretends to resist so Monica will increase the pay."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which event shows the contrast between Chandler's restrained outward reaction and his underlying amusement?",
+    "options": [
+      "A. After returning from his lengthy career assessment, he makes a pun about Monica's appetizer.",
+      "B. During another call from his former boss, he jokes that stealing pens from home is less satisfying.",
+      "C. When he enters the living room while Ross and Joey are practicing dirty talk, before they notice him.",
+      "D. While showing Phoebe his new office, he summons Helen merely to demonstrate the intercom."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q007",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From discussing his upcoming date with Celia through her request that he talk dirty, which description best captures Ross's emotional trajectory?",
+    "options": [
+      "A. He starts happy about the upcoming date, panics when Marcel disrupts it, becomes happy again when the date resumes, and ends embarrassed.",
+      "B. He starts happy about the upcoming date, panics when Marcel disrupts it, remains uneasy when the date resumes, and ends embarrassed.",
+      "C. He starts happy about the upcoming date, becomes irritated when Marcel disrupts it, becomes happy again when the date resumes, and ends embarrassed.",
+      "D. He starts happy about the upcoming date, panics when Marcel disrupts it, becomes happy again when the date resumes, and ends frustrated with Celia."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E15"
+    ]
+  }
+]

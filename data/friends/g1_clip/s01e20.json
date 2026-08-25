@@ -1,0 +1,2079 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q001",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the group after the dark-haired woman points toward the window?",
+    "options": [
+      "A. The group remains playfully absorbed in their debate and treats both people outside as irrelevant.",
+      "B. Their playful debate snaps into collective alarm and disgust, then flips into amusement.",
+      "C. They begin angry with one another, become relieved by an apology, and end calmly returning to their snacks.",
+      "D. Their curiosity gradually becomes fear, and they finish united in anger without showing amusement."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e20_q001_seg1_3.651_48.821.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 3.651,
+          "end": 48.821,
+          "mmss": "0:03.7–0:48.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0001",
+        "t": [
+          3.651,
+          10.032
+        ],
+        "speaker": "Man in black entering the room",
+        "text": "I would much rather be Mr. Peanut than Mr. Salty."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0002",
+        "t": [
+          10.116,
+          17.081
+        ],
+        "speaker": "Man in a white cable-knit sweater",
+        "text": "No way. Mr. Salty is a sailor. He has to be the toughest snack there is."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0003",
+        "t": [
+          17.164,
+          25.172
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "You don't want to mess with corn nuts. They're crazy."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0004",
+        "t": [
+          25.214,
+          30.136
+        ],
+        "speaker": "Dark-haired woman by the window",
+        "text": "Come see this. There's some creep out there with a telescope."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0005",
+        "t": [
+          32.721,
+          35.266
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "He's looking right at us."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0006",
+        "t": [
+          35.349,
+          37.643
+        ],
+        "speaker": "Woman in a white top",
+        "text": "That is so sick."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0007",
+        "t": [
+          37.685,
+          41.439
+        ],
+        "speaker": "Man in black",
+        "text": "I feel violated, and not in a good way."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0008",
+        "t": [
+          41.522,
+          43.315
+        ],
+        "speaker": "Blonde woman at the window",
+        "text": "How can people do that?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0009",
+        "t": [
+          45.818,
+          48.821
+        ],
+        "speaker": "Blonde woman at the window",
+        "text": "Look! The naked neighbor got gravity boots!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q002",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman in the white blouse when she returns from lunch and tells the group about seeing her former fiancé?",
+    "options": [
+      "A. She begins pleased and nostalgic, becomes embarrassed, and ends optimistic.",
+      "B. She begins pleased and nostalgic, grows defensive, and ends resolved.",
+      "C. She begins uncertain, becomes annoyed, and ends relieved.",
+      "D. She begins excited, becomes calmly reflective, and ends disappointed."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e20_q002_seg1_166.8_290.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 166.8,
+          "end": 290.6,
+          "mmss": "2:46.8-4:50.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0023",
+        "t": [
+          166.772,
+          170.609
+        ],
+        "speaker": "Monica",
+        "text": "Look, look, look, it's Rachel and Barry. No, no, no, don't, don't everybody look at once."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0024",
+        "t": [
+          170.651,
+          172.403
+        ],
+        "speaker": "Ross",
+        "text": "Okay, okay, what's going on?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0025",
+        "t": [
+          172.486,
+          173.821
+        ],
+        "speaker": "Phoebe",
+        "text": "Okay, they're just talking."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0026",
+        "t": [
+          173.863,
+          179.994
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, well, does he look upset? Does he look like, he was just told to shove anything?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0027",
+        "t": [
+          180.035,
+          185.332
+        ],
+        "speaker": "Phoebe",
+        "text": "No. No, actually, he's smiling, and.. Oh, my God! Don't do that!"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0028",
+        "t": [
+          185.374,
+          186.667
+        ],
+        "speaker": "Ross",
+        "text": "What? What? What?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0029",
+        "t": [
+          186.709,
+          189.795
+        ],
+        "speaker": "Phoebe",
+        "text": "That man across the street just kicked that pigeon."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0030",
+        "t": [
+          191.38,
+          192.506
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0031",
+        "t": [
+          192.548,
+          196.469
+        ],
+        "speaker": "Chandler",
+        "text": "And basically that's how a bill becomes a law."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0032",
+        "t": [
+          196.552,
+          198.679
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "- Oh. - Right."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0033",
+        "t": [
+          200.514,
+          202.641
+        ],
+        "speaker": "Chandler",
+        "text": "- Hey, Rach. - Hi, Rach."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0034",
+        "t": [
+          202.725,
+          204.393
+        ],
+        "speaker": "Monica",
+        "text": "How'd it go?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0035",
+        "t": [
+          204.477,
+          214.32
+        ],
+        "speaker": "Rachel",
+        "text": "You know, it was uh, actually really great. Took me to lunch at the Russian Tea Room. And I had that chicken you know, where you poke it and all the butter squirts out."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0036",
+        "t": [
+          214.403,
+          216.072
+        ],
+        "speaker": "Phoebe",
+        "text": "Not a good day for birds."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0037",
+        "t": [
+          216.113,
+          223.12
+        ],
+        "speaker": "Rachel",
+        "text": "Then we took a walk down to Bendel's. And I told him not to but he got me a little bottle of Chanel."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0038",
+        "t": [
+          223.204,
+          231.754
+        ],
+        "speaker": "Ross",
+        "text": "That's nice. Was that before or after you told him to stop calling stop sending you flowers and to generally leave you alone, hmm?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0039",
+        "t": [
+          231.837,
+          242.932
+        ],
+        "speaker": "Rachel",
+        "text": "Right. Well, we never actually got to that. Oh, it was just so nice to see him again, you know? It was, it was comfortable, and it was familiar."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0040",
+        "t": [
+          243.015,
+          246.143
+        ],
+        "speaker": "Ross",
+        "text": "- It was just nice. - That's-that's nice twice."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0041",
+        "t": [
+          247.895,
+          252.233
+        ],
+        "speaker": "Monica",
+        "text": "Rachel, wh-what's going on? I mean, isn't this the same Barry who you left at the Altar?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0042",
+        "t": [
+          252.274,
+          254.11
+        ],
+        "speaker": "Joey",
+        "text": "Duh, where've you been?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0043",
+        "t": [
+          255.903,
+          265.621
+        ],
+        "speaker": "Rachel",
+        "text": "Yeah, but it was different with him today I mean, and he wasn't like Orthodontist guy, you know? I mean, we had fun. Is there anything wrong with that?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0044",
+        "t": [
+          265.704,
+          270.709
+        ],
+        "speaker": "Chandler",
+        "text": "Yes! - Why? - I have my reasons."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0045",
+        "t": [
+          273.212,
+          278.3
+        ],
+        "speaker": "Monica",
+        "text": "Okay, how about the fact that he's engaged to another woman who just happens to be your ex-best friend?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0046",
+        "t": [
+          278.384,
+          290.646
+        ],
+        "speaker": "Rachel",
+        "text": "Alright, alright, alright, I know it's stupid. I'll go see him this afternoon and I'll just put an end to it. Wow! Wow."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q003",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in black as he leaves and then explains his carefully prepared phone message?",
+    "options": [
+      "A. He begins casually improvising, becomes pleased with the effort, and ends confused that friends think he prepared it.",
+      "B. He begins angry that the call went unanswered, becomes relieved, and ends ashamed.",
+      "C. He starts controlled and rehearsed, immediately grows anxious and self-critical, then turns defensively proud.",
+      "D. He remains calm throughout, and the message and background sounds require no preparation."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e20_q003_seg1_309.248_343.032.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 309.248,
+          "end": 343.032,
+          "mmss": "5:09.2–5:43.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0051",
+        "t": [
+          309.248,
+          312.126
+        ],
+        "speaker": "Man in black",
+        "text": "I wasn't expecting the machine."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0052",
+        "t": [
+          314.17,
+          316.756
+        ],
+        "speaker": "Man in black",
+        "text": "Give me a call when you get a chance."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0053",
+        "t": [
+          320.092,
+          323.512
+        ],
+        "speaker": "Man in black",
+        "text": "Bye-bye. Oh, God."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0054",
+        "t": [
+          325.097,
+          328.184
+        ],
+        "speaker": "Dark-haired woman in gray",
+        "text": "That's what you've been working on for the past two hours?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0055",
+        "t": [
+          329.393,
+          330.853
+        ],
+        "speaker": "Man in black",
+        "text": "I've been honing it."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0056",
+        "t": [
+          331.812,
+          333.063
+        ],
+        "speaker": "Man in a red sweatshirt",
+        "text": "What was with the dishes?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0057",
+        "t": [
+          333.147,
+          343.032
+        ],
+        "speaker": "Man in black",
+        "text": "I wanted her to think I might be in a restaurant—that I have some kind of life instead of sitting here honing for two hours."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q004",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the renewed telescope watching affect the group, especially the man in the white cable-knit sweater?",
+    "options": [
+      "A. They react with flattery, boldness, and confidence.",
+      "B. They react with fear, distrust, and retreat.",
+      "C. They react with suspicion, blame, and irritation.",
+      "D. They react with alarm, irritation, and surprise."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e20_q004_seg1_343.115_387.284.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 343.115,
+          "end": 387.284,
+          "mmss": "5:43.1–6:27.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0058",
+        "t": [
+          343.115,
+          345.701
+        ],
+        "speaker": "Dark-haired woman in gray",
+        "text": "He's doing it again—the guy with the telescope."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0059",
+        "t": [
+          345.785,
+          353.209
+        ],
+        "speaker": "Blonde woman at the window",
+        "text": "Go away! Stop looking in here!"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0060",
+        "t": [
+          353.292,
+          355.419
+        ],
+        "speaker": "Dark-haired woman in gray",
+        "text": "Great. Now he's waving back."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0061",
+        "t": [
+          357.088,
+          365.262
+        ],
+        "speaker": "Man in a white cable-knit sweater",
+        "text": "We have to do something. I caught him looking into our apartment this morning. It creeps me out. I feel like I can't do things."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0062",
+        "t": [
+          365.346,
+          367.264
+        ],
+        "speaker": "Dark-haired woman in gray",
+        "text": "What kind of things?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0063",
+        "t": [
+          369.35,
+          374.897
+        ],
+        "speaker": "Man in a white cable-knit sweater",
+        "text": "Grow up. I'm not talking about sexy things—just when I'm cooking naked."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0064",
+        "t": [
+          376.941,
+          378.275
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "You cook naked?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0065",
+        "t": [
+          378.359,
+          381.237
+        ],
+        "speaker": "Man in a white cable-knit sweater",
+        "text": "Toast, oatmeal—nothing that spatters."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0066",
+        "t": [
+          385.157,
+          387.284
+        ],
+        "speaker": "Man in black",
+        "text": "Why are you looking at me? I didn't know that."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman in the white blouse after the encounter in the dental office?",
+    "options": [
+      "A. She begins remorseful, becomes alarmed, and ends uncomfortable.",
+      "B. She begins pleased, becomes relieved, and grows hopeful.",
+      "C. She begins embarrassed, becomes angry, and ends determined.",
+      "D. She begins remorseful, becomes reassured, and ends amused."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e20_q005_seg1_390.4_464.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 390.4,
+          "end": 464.5,
+          "mmss": "6:30.4-7:44.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0067",
+        "t": [
+          390.371,
+          391.789
+        ],
+        "speaker": "Barry",
+        "text": "What's the matter?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0068",
+        "t": [
+          391.872,
+          395.292
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, I just.. Oh. Barry, this was not good."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0069",
+        "t": [
+          395.376,
+          398.838
+        ],
+        "speaker": "Barry",
+        "text": "No, it was. It was very, very good."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0070",
+        "t": [
+          398.921,
+          400.131
+        ],
+        "speaker": "Rachel",
+        "text": "Well, what about Mindy?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0071",
+        "t": [
+          400.214,
+          402.967
+        ],
+        "speaker": "Barry",
+        "text": "Oh, way better than Mindy."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0072",
+        "t": [
+          403.05,
+          407.43
+        ],
+        "speaker": "Rachel",
+        "text": "No, not that. I mean, what about you and Mindy?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0073",
+        "t": [
+          407.471,
+          410.474
+        ],
+        "speaker": "Barry",
+        "text": "Huh. Look, if you want, I'll just break it off with her."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0074",
+        "t": [
+          410.558,
+          414.77
+        ],
+        "speaker": "Rachel",
+        "text": "No. No, no, no. I mean don't do that. Not, I mean, not for me."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0075",
+        "t": [
+          414.854,
+          417.565
+        ],
+        "speaker": "Bernice",
+        "text": "'Dr. Farber, Bobby Rush' 'is here for his adjustment.'"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0076",
+        "t": [
+          417.606,
+          422.445
+        ],
+        "speaker": "Barry",
+        "text": "Uh.. Thanks, Bernice. - Let's go away this weekend. - Oh."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0077",
+        "t": [
+          422.486,
+          425.364
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, Barry, come on, this is all way too.."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0078",
+        "t": [
+          425.406,
+          435.082
+        ],
+        "speaker": "Barry",
+        "text": "No, no. We-we can go to Aruba. 'When I went there on what' would have been our honeymoon it was uh, it was really nice. You would have liked it."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0079",
+        "t": [
+          436.834,
+          438.461
+        ],
+        "speaker": "Rachel",
+        "text": "I had a bra."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0080",
+        "t": [
+          449.889,
+          451.307
+        ],
+        "speaker": "Bobby",
+        "text": "Hey, Dr. Farber."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0081",
+        "t": [
+          451.348,
+          458.23
+        ],
+        "speaker": "Barry",
+        "text": "Alright, Ms. Green, everything looks fine. Yeah, I think we're starting to see some real progress here."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0082",
+        "t": [
+          461.859,
+          464.487
+        ],
+        "speaker": "Bobby",
+        "text": "- What? - I'm 12. I'm not stupid."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q006",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in black as he anxiously waits for a woman to return his call and is startled when she unexpectedly answers?",
+    "options": [
+      "A. He begins impatient about the silence, becomes calm, and ends relieved.",
+      "B. He begins annoyed, becomes confident, and ends relieved.",
+      "C. He begins certain she has ignored him, becomes amused, and ends indifferent.",
+      "D. He begins nervous about looking needy, becomes startled, and ends frustrated."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e20_q006_seg1_475.1_528.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 475.1,
+          "end": 528.4,
+          "mmss": "7:55.1-8:48.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0083",
+        "t": [
+          475.122,
+          477.124
+        ],
+        "speaker": "Chandler",
+        "text": "- Can I use your phone? - Yeah."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0084",
+        "t": [
+          477.166,
+          482.004
+        ],
+        "speaker": "Monica",
+        "text": "Uh, but for future reference uh, that thing in your hand can also be used as a phone."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0085",
+        "t": [
+          486.175,
+          488.177
+        ],
+        "speaker": "Chandler",
+        "text": "Yes, it's working."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0086",
+        "t": [
+          490.012,
+          491.806
+        ],
+        "speaker": "Chandler",
+        "text": "Why isn't she calling me back?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0087",
+        "t": [
+          491.847,
+          493.599
+        ],
+        "speaker": "Joey",
+        "text": "Maybe she never got your message."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0088",
+        "t": [
+          493.641,
+          500.189
+        ],
+        "speaker": "Phoebe",
+        "text": "You know, if you want you can call her machine and if she has a lot of beeps that means she probably didn't get her messages yet."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0089",
+        "t": [
+          500.272,
+          501.774
+        ],
+        "speaker": "Chandler",
+        "text": "You don't think that makes me seem a little.."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0090",
+        "t": [
+          501.857,
+          504.652
+        ],
+        "speaker": "Ross",
+        "text": "Desperate, needy, pathetic?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0091",
+        "t": [
+          504.693,
+          507.363
+        ],
+        "speaker": "Chandler",
+        "text": "Ah, you obviously saw my personal ad."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0092",
+        "t": [
+          510.491,
+          512.618
+        ],
+        "speaker": "Phoebe",
+        "text": "- How many beeps? - She answered."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0093",
+        "t": [
+          514.662,
+          519.041
+        ],
+        "speaker": "Monica",
+        "text": "You see, this is where you'd use that \"Hello\" word we talked about."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0094",
+        "t": [
+          519.083,
+          525.256
+        ],
+        "speaker": "Chandler",
+        "text": "I'm not gonna talk to her. She obviously got my message and is choosing not to call me. Now, I'm needy and snubbed."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0095",
+        "t": [
+          526.799,
+          528.384
+        ],
+        "speaker": "Chandler",
+        "text": "God, I miss just being needy."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q007",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the white-shirted woman's revelation about what happened in the dental chair evoke in the dark-haired woman wearing gray?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "embarrassment"
+    ],
+    "video_name": "friends_g1_2_s01e20_q007_seg1_530.1_619.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 530.1,
+          "end": 619.1,
+          "mmss": "8:50.1-10:19.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0096",
+        "t": [
+          530.136,
+          531.637
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "'Hey.'"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0097",
+        "t": [
+          531.679,
+          533.556
+        ],
+        "speaker": "Phoebe",
+        "text": "How'd he take it?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0098",
+        "t": [
+          533.597,
+          536.058
+        ],
+        "speaker": "Rachel",
+        "text": "Pretty well, actually."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0099",
+        "t": [
+          537.268,
+          543.065
+        ],
+        "speaker": "Monica",
+        "text": "- Uh, Rach? - What? How come you have dental floss in your hair?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0100",
+        "t": [
+          543.107,
+          545.025
+        ],
+        "speaker": "Rachel",
+        "text": "- Oh, do I? - Uh-huh."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0101",
+        "t": [
+          547.403,
+          550.406
+        ],
+        "speaker": "Rachel",
+        "text": "We ended up having sex in his chair."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0102",
+        "t": [
+          550.489,
+          552.616
+        ],
+        "speaker": "Monica",
+        "text": "You had sex in his chair?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0103",
+        "t": [
+          557.037,
+          559.749
+        ],
+        "speaker": "Monica",
+        "text": "I said that a little too loudly, didn't I?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0104",
+        "t": [
+          560.916,
+          563.836
+        ],
+        "speaker": "Ross",
+        "text": "You, you had what?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0105",
+        "t": [
+          563.919,
+          566.046
+        ],
+        "speaker": "Phoebe",
+        "text": "Sex in his chair."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0106",
+        "t": [
+          568.382,
+          571.469
+        ],
+        "speaker": "Ross",
+        "text": "What, uh, what were you thinking?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0107",
+        "t": [
+          571.552,
+          577.933
+        ],
+        "speaker": "Rachel",
+        "text": "I don't know. I mean, we still care about each other. There's a history there. It's like you and Carol."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0108",
+        "t": [
+          577.975,
+          582.688
+        ],
+        "speaker": "Ross",
+        "text": "No. No, no. It's nothing like me and Carol."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0109",
+        "t": [
+          582.73,
+          589.612
+        ],
+        "speaker": "Rachel",
+        "text": "Please, if she said to you, \"Ross, I want you on this couch, right here, right now,\" what would you say?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0110",
+        "t": [
+          591.614,
+          593.783
+        ],
+        "speaker": "Chandler",
+        "text": "If it helps, I could slide over."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0111",
+        "t": [
+          596.41,
+          619.141
+        ],
+        "speaker": "Ross",
+        "text": "It's, it's-it's uh, a totally different situation. It's-it's apples and oranges. It's-it's orthodontists and lesb.. I got to go. - Wh-where are you going? - I just have to go! Alright. Do I need a reason, huh? I mean, I have things to do with my life. I have a jam-packed schedule and I am late for keeping up with it, okay?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q008",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman in the white blouse during and immediately after the unexpected phone call?",
+    "options": [
+      "A. She begins delighted, becomes curious, and ends amused.",
+      "B. She begins politely cheerful, grows nervous, and ends alarmed and urgent.",
+      "C. She begins guarded and suspicious, becomes angry, and ends calm and private.",
+      "D. She begins embarrassed, becomes relieved, and ends disappointed."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e20_q008_seg1_620.8_714.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 620.8,
+          "end": 714.9,
+          "mmss": "10:20.8-11:54.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0112",
+        "t": [
+          620.81,
+          622.645
+        ],
+        "speaker": "Chandler",
+        "text": "Hello? Hello?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0113",
+        "t": [
+          628.401,
+          629.652
+        ],
+        "speaker": "Rachel",
+        "text": "Hello?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0114",
+        "t": [
+          630.361,
+          631.654
+        ],
+        "speaker": "unknown",
+        "text": "Huh."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0115",
+        "t": [
+          631.695,
+          655.845
+        ],
+        "speaker": "Rachel",
+        "text": "Mindy. Hi. Hi. How are you? Yes, yes, I heard. Congratulations. That is so great. Really? Oh, God.. Okay. Okay, well, I'm working tomorrow. 'But if you want, you can, you can, you can' 'come by if you'd like.' Okay. Great. Great."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0116",
+        "t": [
+          655.886,
+          657.096
+        ],
+        "speaker": "unknown",
+        "text": "Alright."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0117",
+        "t": [
+          657.179,
+          661.517
+        ],
+        "speaker": "Rachel",
+        "text": "So, I'll, uh.. I'll see you tomorrow. Okay. Bye."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0118",
+        "t": [
+          663.436,
+          666.981
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, God. Oh, God. Oh, God. Oh, God."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0119",
+        "t": [
+          667.022,
+          670.943
+        ],
+        "speaker": "Chandler",
+        "text": "- Oh.. - So, how's Mindy?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0120",
+        "t": [
+          670.985,
+          676.365
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, she wants to see me tomorrow. Oh, she sounded really weird. I gotta call Barry."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0121",
+        "t": [
+          679.827,
+          687.585
+        ],
+        "speaker": "Rachel",
+        "text": "Hi. It's me. I just.. Mindy! Mindy, hi! No, I figured that's where you'd be."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0122",
+        "t": [
+          703.768,
+          706.854
+        ],
+        "speaker": "Chandler",
+        "text": "Hell is filled with people like you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0123",
+        "t": [
+          709.94,
+          714.904
+        ],
+        "speaker": "Joey",
+        "text": "He's back. The peeper's back. - Get down! - Get down?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman in dark blue during the coffeehouse conversation with the woman in pink?",
+    "options": [
+      "A. She begins apprehensive, becomes surprised and relieved, and ends confused.",
+      "B. She begins eager to apologize, becomes joyful, and ends confident.",
+      "C. She begins mildly curious, becomes embarrassed, and ends disappointed.",
+      "D. She begins fearful and worried, becomes suspicious, and ends angry."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e20_q009_seg1_819.3_887.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 819.3,
+          "end": 887.1,
+          "mmss": "13:39.3-14:47.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0141",
+        "t": [
+          819.341,
+          822.011
+        ],
+        "speaker": "Mindy",
+        "text": "- Mindy. - Hey, you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0142",
+        "t": [
+          822.052,
+          823.512
+        ],
+        "speaker": "Rachel",
+        "text": "Hey, you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0143",
+        "t": [
+          827.308,
+          829.226
+        ],
+        "speaker": "Rachel",
+        "text": "So, uh, what's up?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0144",
+        "t": [
+          829.31,
+          832.062
+        ],
+        "speaker": "Mindy",
+        "text": "Um, we should really be sitting for this."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0145",
+        "t": [
+          832.146,
+          833.731
+        ],
+        "speaker": "unknown",
+        "text": "Hmm."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0146",
+        "t": [
+          833.814,
+          835.608
+        ],
+        "speaker": "Rachel",
+        "text": "Sure we should."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0147",
+        "t": [
+          844.241,
+          846.077
+        ],
+        "speaker": "Rachel",
+        "text": "- So. - Now."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0148",
+        "t": [
+          846.16,
+          857.421
+        ],
+        "speaker": "Mindy",
+        "text": "I know things have been weird lately but you're like my oldest friend in the world except for maybe Laurie Schaffer who I don't talk to anymore 'cause she's all bitter now she lost the weight and it turns out she doesn't have a pretty face."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0149",
+        "t": [
+          860.049,
+          864.095
+        ],
+        "speaker": "Mindy",
+        "text": "Okay, I'm just gonna ask you this once and I want a straight answer."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0150",
+        "t": [
+          864.178,
+          865.554
+        ],
+        "speaker": "Rachel",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0151",
+        "t": [
+          867.431,
+          869.391
+        ],
+        "speaker": "Mindy",
+        "text": "Will you be my maid of honor?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0152",
+        "t": [
+          872.853,
+          875.314
+        ],
+        "speaker": "Mindy",
+        "text": "- Of course! - Oh, that's so great!"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0153",
+        "t": [
+          878.901,
+          880.236
+        ],
+        "speaker": "Rachel",
+        "text": "Was that all you wanted to ask me?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0154",
+        "t": [
+          880.319,
+          881.404
+        ],
+        "speaker": "Mindy",
+        "text": "That's all!"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0155",
+        "t": [
+          885.032,
+          887.118
+        ],
+        "speaker": "Rachel",
+        "text": "What? What?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the emotional interaction between the woman in the pink suit and the woman in dark blue changes during their coffeehouse conversation?",
+    "options": [
+      "A. They move from cautious awkwardness through shock and hurt into mutual shame and reconciliation.",
+      "B. They begin openly hostile, become competitive over shared romantic history, and end still blaming each other.",
+      "C. Their initial awkwardness disappears, and they remain carefree even after discussing the shared ex.",
+      "D. The woman in pink remains ashamed throughout, while the woman in blue becomes more triumphant."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e20_q010_seg1_819.341_970.91.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 819.341,
+          "end": 970.91,
+          "mmss": "13:39.3–16:10.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0144",
+        "t": [
+          829.31,
+          832.062
+        ],
+        "speaker": "Mindy",
+        "text": "Um, we should really be sitting for this."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0151",
+        "t": [
+          867.431,
+          869.391
+        ],
+        "speaker": "Mindy",
+        "text": "Will you be my maid of honor?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0152",
+        "t": [
+          872.853,
+          875.314
+        ],
+        "speaker": "Mindy",
+        "text": "- Of course! - Oh, that's so great!"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0157",
+        "t": [
+          894.041,
+          896.794
+        ],
+        "speaker": "Mindy",
+        "text": "I think Barry is seeing someone in the city."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0163",
+        "t": [
+          922.945,
+          933.789
+        ],
+        "speaker": "Mindy",
+        "text": "Okay, okay. When Barry was engaged to you he and I kind of, had a little thing on the side."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0165",
+        "t": [
+          946.969,
+          951.64
+        ],
+        "speaker": "Rachel",
+        "text": "Hmm. Oh, Mindy. Oh, you are so stupid."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0166",
+        "t": [
+          953.184,
+          955.519
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, we are both so stupid."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0168",
+        "t": [
+          959.44,
+          962.151
+        ],
+        "speaker": "Rachel",
+        "text": "- Smell familiar? - Oh, no."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0170",
+        "t": [
+          966.447,
+          970.91
+        ],
+        "speaker": "Mindy",
+        "text": "Oh, no, me. I am so sorry. No, I am sorry. I'm sorry."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q011",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How do the unseen woman's responses affect the man in the purple sweatshirt after he calls to confront her?",
+    "options": [
+      "A. He reacts with curiosity, friendliness, and self-satisfaction.",
+      "B. He reacts with anger, hostility, and defiance.",
+      "C. He reacts with fear, embarrassment, and withdrawal.",
+      "D. He reacts with disapproval, reluctance, and sympathy."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e20_q011_seg1_1024.213_1098.621.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 1024.213,
+          "end": 1098.621,
+          "mmss": "17:04.2–18:18.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0182",
+        "t": [
+          1024.213,
+          1025.673
+        ],
+        "speaker": "Joey",
+        "text": "Can I use your phone?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0187",
+        "t": [
+          1044.692,
+          1049.28
+        ],
+        "speaker": "Joey",
+        "text": "Yeah, is Sydney there? Oh, this is?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0189",
+        "t": [
+          1052.825,
+          1071.469
+        ],
+        "speaker": "Joey",
+        "text": "Yeah, yeah. So what? Look, I live across the street, and I know all about you and your little telescope and I don't appreciate it, okay? Yeah, I can see you right now. Hello! Now, look, if I wanna walk around my apartment in my underwear I shouldn't have to feel like.. Thank you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0190",
+        "t": [
+          1073.429,
+          1079.059
+        ],
+        "speaker": "Joey",
+        "text": "That's not really the point. The uh, the point is that.. Uh, mostly free weights, but occasionally.."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0192",
+        "t": [
+          1082.438,
+          1090.446
+        ],
+        "speaker": "Joey",
+        "text": "Yeah, my neighbor. Yeah, the brunette. She said you looked very pretty the other day in the green dress"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0194",
+        "t": [
+          1092.907,
+          1095.242
+        ],
+        "speaker": "Joey",
+        "text": "Yeah, she said you looked like Ingrid Bergman that day."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q012",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the man's excuses and attempts to win back the two women evoke in the woman wearing dark blue?",
+    "options": [],
+    "answer": [
+      "anger",
+      "disapproval"
+    ],
+    "video_name": "friends_g1_2_s01e20_q012_seg1_1103.5_1203.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 1103.5,
+          "end": 1203.9,
+          "mmss": "18:23.5-20:03.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0196",
+        "t": [
+          1103.501,
+          1106.962
+        ],
+        "speaker": "Rachel",
+        "text": "- Hey. - Hey! - Got a second? - Sure, sure."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0197",
+        "t": [
+          1107.046,
+          1109.423
+        ],
+        "speaker": "Barry",
+        "text": "Come on... in."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0198",
+        "t": [
+          1109.465,
+          1110.716
+        ],
+        "speaker": "Mindy",
+        "text": "Hello, sweetheart."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0199",
+        "t": [
+          1110.758,
+          1113.427
+        ],
+        "speaker": "Barry",
+        "text": "Oh, what're you, what're you guys doing here?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0200",
+        "t": [
+          1113.469,
+          1117.681
+        ],
+        "speaker": "Rachel",
+        "text": "Uh, we are here to break up with you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0201",
+        "t": [
+          1117.765,
+          1119.141
+        ],
+        "speaker": "Barry",
+        "text": "Both of you?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0202",
+        "t": [
+          1119.225,
+          1124.146
+        ],
+        "speaker": "Mindy",
+        "text": "Basically, we think you're a horrible human being and bad things should happen to you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0203",
+        "t": [
+          1124.188,
+          1134.323
+        ],
+        "speaker": "Barry",
+        "text": "I.. I'm sorry. Sorry, God, I am so sorry. I'm an idiot. I was weak. I-I couldn't help myself. Well, whatever I did I only did because I love you so much."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0204",
+        "t": [
+          1136.826,
+          1139.245
+        ],
+        "speaker": "Rachel",
+        "text": "Uh, which one of us are you talking to there, Bar?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0205",
+        "t": [
+          1142.373,
+          1146.752
+        ],
+        "speaker": "Barry",
+        "text": "Mindy. Mindy, of course, Mindy. It was always Mindy."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0206",
+        "t": [
+          1146.794,
+          1148.838
+        ],
+        "speaker": "Rachel",
+        "text": "Even when we were having sex in that chair?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0207",
+        "t": [
+          1148.921,
+          1152.758
+        ],
+        "speaker": "Barry",
+        "text": "I swear. Whatever I was doing, I was always thinking of you."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0208",
+        "t": [
+          1152.8,
+          1158.514
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, please, during that second time you couldn't have picked her out of a lineup."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0209",
+        "t": [
+          1158.556,
+          1159.849
+        ],
+        "speaker": "Mindy",
+        "text": "You did it twice?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0210",
+        "t": [
+          1159.89,
+          1163.936
+        ],
+        "speaker": "Rachel",
+        "text": "Well, the first time didn't really count. I mean, you know, it was Barry."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0211",
+        "t": [
+          1164.019,
+          1165.438
+        ],
+        "speaker": "unknown",
+        "text": "Right."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0212",
+        "t": [
+          1165.479,
+          1172.737
+        ],
+        "speaker": "Barry",
+        "text": "Honey, baby, sweetheart, look just gimme-gimme another chance, okay. We'll start all over again, huh? We'll-we'll go back to Aruba."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0213",
+        "t": [
+          1174.28,
+          1175.698
+        ],
+        "speaker": "unknown",
+        "text": "What do you say?"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0214",
+        "t": [
+          1175.74,
+          1181.746
+        ],
+        "speaker": "Bernice",
+        "text": "'Dr. Farber, we've got an emergency here.' 'Jason Costellana is choking on his retainer.'"
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0215",
+        "t": [
+          1181.829,
+          1189.42
+        ],
+        "speaker": "Barry",
+        "text": "Oh, God. Uh, I'll be right there, Bernice. Look, please, please don't go anywhere, okay? I-I'll be right back."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0216",
+        "t": [
+          1189.503,
+          1203.934
+        ],
+        "speaker": "Rachel",
+        "text": "Okay. Okay, and we'll be here, hating you. Did you see how he was sweating when he walked out of there? Well, listen, honey if I'm hogging the ball too much you just jump right in there and take a couple of punches because I'm telling you, this feels great."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e20_q013",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the woman in dark blue change before and after the woman in pink says that she still plans to marry the man?",
+    "options": [],
+    "answer": {
+      "before": [
+        "anger",
+        "disapproval"
+      ],
+      "after": [
+        "surprise",
+        "disapproval",
+        "sympathy"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e20_q013_seg1_1204.0_1247.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E20"
+      ],
+      "segments": [
+        {
+          "ep": "S01E20",
+          "start": 1204,
+          "end": 1247.2,
+          "mmss": "20:04.0-20:47.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E20",
+        "unit_id": "u0217",
+        "t": [
+          1204.018,
+          1207.98
+        ],
+        "speaker": "Mindy",
+        "text": "Yeah. I'm pretty sure I'm still gonna marry him."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0218",
+        "t": [
+          1208.022,
+          1217.073
+        ],
+        "speaker": "Rachel",
+        "text": "What? What are you talking about? Mindy, the guy is the Devil. He is Satan in a smock."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0219",
+        "t": [
+          1217.156,
+          1219.408
+        ],
+        "speaker": "Mindy",
+        "text": "Look, I know he's not perfect."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0220",
+        "t": [
+          1219.45,
+          1221.285
+        ],
+        "speaker": "unknown",
+        "text": "Mm-hmm."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0221",
+        "t": [
+          1221.368,
+          1232.088
+        ],
+        "speaker": "Mindy",
+        "text": "But, the truth is at the end of the day, I.. ...I still really wanna be.. ...Mrs. Dr. Barry Farber."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0222",
+        "t": [
+          1232.171,
+          1234.59
+        ],
+        "speaker": "unknown",
+        "text": "DDS."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0223",
+        "t": [
+          1234.673,
+          1236.675
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, God."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0224",
+        "t": [
+          1236.759,
+          1243.933
+        ],
+        "speaker": "Mindy",
+        "text": "I hope you can find some way to be happy for me and I hope you'll still be my maid of honor."
+      },
+      {
+        "ep": "S01E20",
+        "unit_id": "u0225",
+        "t": [
+          1243.974,
+          1247.228
+        ],
+        "speaker": "Rachel",
+        "text": "And I hope Barry doesn't kill you and eat you in Aruba."
+      }
+    ]
+  }
+]

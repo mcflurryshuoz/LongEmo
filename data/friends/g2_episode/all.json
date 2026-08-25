@@ -1,0 +1,2241 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q001",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Across the episode, aside from the cafe conversation in which Monica complains about Paul, what other moment shows her attitude toward him? Answer with one short event phrase.",
+    "options": [],
+    "answer": "stomping on Paul's watch",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel appear angriest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when she talks to her father on the phone",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures how Monica's feelings toward Paul change?",
+    "options": [
+      "A. She starts interested but plays it down, becomes trusting and happy, then ends shocked and hurt.",
+      "B. She starts interested but plays it down, becomes trusting and happy, then ends angry without feeling hurt.",
+      "C. She starts cautious, becomes trusting and happy, then ends disappointed and indifferent.",
+      "D. She starts interested but uneasy, becomes increasingly suspicious, then ends relieved and trusting."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures how Rachel's emotions change from reuniting with Monica after running away from her wedding to cutting up her credit cards?",
+    "options": [
+      "A. She begins with panic mixed with relief, briefly becomes angry and defiant before turning sad and withdrawn, and finally moves from fear and hesitation to relief.",
+      "B. She begins with panic mixed with relief, becomes sad and withdrawn before turning angry and defiant, and finally moves from fear and hesitation to relief.",
+      "C. She begins with panic mixed with relief, briefly becomes angry and defiant before turning sad and withdrawn, and finally becomes confident and proud.",
+      "D. She begins with panic mixed with relief, gradually becomes calm and determined, and finally moves from fear and hesitation to regret."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q005",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Monica appear most upset? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when she tells the group at the cafe about Paul's lie",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q006",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, which friend appears most emotionally affected by their own romantic situation? Answer with one character name.",
+    "options": [],
+    "answer": "Ross",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q007",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Ross appear happiest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when he shares a cookie with Rachel and asks her out",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q008",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "What earlier action explains why Chandler later asks whether Rachel made the coffee? Answer with one short event phrase.",
+    "options": [],
+    "answer": "the group secretly poured out Rachel's first coffee",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q009",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear happiest?",
+    "options": [
+      "A. When Paul first arrives and Monica excitedly rushes to get ready.",
+      "B. When Paul implies during dinner that there could be a fifth date.",
+      "C. When Monica walks Paul out of her apartment in the morning.",
+      "D. When Monica talks with her coworker at work about Paul."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q010",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear happiest?",
+    "options": [
+      "A. Rachel talks with Monica about Paul in the apartment the next morning.",
+      "B. Rachel sits sharing a cookie with Ross late at night.",
+      "C. Rachel comes into the apartment carrying shopping bags and holds up a pair of new boots.",
+      "D. Rachel makes coffee in the apartment kitchen in the morning."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e01_q011",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear happiest?",
+    "options": [
+      "A. Ross talks with Joey and Chandler while they are assembling furniture.",
+      "B. Ross makes small talk with Rachel and invites her to come over while the guys build furniture.",
+      "C. Ross stands in the apartment as Paul arrives to take Monica out.",
+      "D. Ross shares a cookie with Rachel late at night and asks whether he could take her out sometime."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E01"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e02_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Monica appear angriest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when she talks with her parents",
+    "input_video": [
+      "S01E02"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e02_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most joyful?",
+    "options": [
+      "A. Rachel searches through a pan of lasagna with the others in Monica's kitchen.",
+      "B. Rachel makes a phone call to Mindy while the others sit around her.",
+      "C. Rachel sits with the group at the coffee house during their debate about kissing.",
+      "D. Rachel talks with Barry inside his dental office."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E02"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e02_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear angriest?",
+    "options": [
+      "A. Monica talks with her parents at dinner and pushes Ross to shift attention away from her.",
+      "B. Monica watches the sonogram video of Ross's baby in the apartment.",
+      "C. Monica tidies and vacuums her apartment before her parents arrive.",
+      "D. Monica watches the group dig through her pan of lasagna."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E02"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e02_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear saddest?",
+    "options": [
+      "A. Rachel looks at her hand and notices her ring is gone at Monica's apartment.",
+      "B. Rachel cleans up at the coffee house with Ross.",
+      "C. Rachel makes a phone call to Mindy while the others sit around her.",
+      "D. Rachel listens as Barry tells her about his trip to Aruba with Mindy."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E02"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q001",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "open_ended",
+    "question": "Across the episode, aside from Monica, does the group's attitude toward Alan change? Answer Yes or No.",
+    "options": [],
+    "answer": "No",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe appear the most disgusted? Answer with one short event phrase.",
+    "options": [],
+    "answer": "finding a thumb in her soda",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across Phoebe's repeated experiences of receiving unexpected money, which friend reacts the least? Answer with one character name.",
+    "options": [],
+    "answer": "Chandler",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, whose attempt to get Chandler to stop smoking produces the smallest visible reaction from him? Answer with one character name.",
+    "options": [],
+    "answer": "Phoebe",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Across the episode, which event seems most unexpected to Monica? Answer with one short event phrase.",
+    "options": [],
+    "answer": "Alan says he can't stand her friends",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q006",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most surprised?",
+    "options": [
+      "A. Ross reacting to the thumb Phoebe found in her can of soda at the coffee house.",
+      "B. Ross turning to see Chandler holding a lit cigarette in the apartment.",
+      "C. Ross telling the group that Alan should be the standard for future boyfriends in the apartment.",
+      "D. Ross at the coffee house during the group's conversation about his childhood dog."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q007",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most surprised?",
+    "options": [
+      "A. Monica listening as the group tells her how much they like Alan in the apartment.",
+      "B. Monica opening the door to bring Alan in to meet the group in the apartment.",
+      "C. Monica among the group as they catch Chandler smoking in the apartment.",
+      "D. Monica reacting to the thumb in Phoebe's can of soda at the coffee house."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e04_q001",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across the episode, what seems to help Rachel's sadness soften into acceptance of her new life?",
+    "options": [
+      "A. Seeing that she has a supportive new group of friends around her",
+      "B. Monica and Phoebe help her see her new life as having possibilities",
+      "C. Proving to her old friends that waitressing is a successful career",
+      "D. Getting distracted by watching George Stephanopoulos"
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E04"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e04_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across Rachel's encounter with her old friends and the rest of that night, at which of the following moments does she first show a major visible drop in mood?",
+    "options": [
+      "A. When Rachel gets the phone call from the Visa card company",
+      "B. When the girls receive George Stephanopoulos' pizza by mistake",
+      "C. When Rachel has to describe her waitress job to her old friends",
+      "D. When Rachel worries that all she has are beans"
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E04"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e04_q003",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Across the episode, what event changes the mood of the girls' night? Answer with one short event phrase.",
+    "options": [],
+    "answer": "watching George Stephanopoulos",
+    "input_video": [
+      "S01E04"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e04_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear saddest?",
+    "options": [
+      "A. Rachel sitting on the couch as Phoebe tells a story about a boy who traded a cow for beans.",
+      "B. Rachel talking with her old hometown friends at the coffee house table.",
+      "C. Rachel receiving the first call from the credit-card company, who are checking whether she is okay.",
+      "D. Rachel taking the pizza box from the delivery man at the apartment door."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E04"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e04_q005",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear happiest?",
+    "options": [
+      "A. Phoebe telling Rachel a story about a boy and magic beans.",
+      "B. Phoebe wishing for world peace during the game at the coffee house.",
+      "C. Phoebe bringing out the Operation board game as the sleepover starts.",
+      "D. Phoebe watching a neighbor's apartment through binoculars from the rooftop."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E04"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e04_q006",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear angriest?",
+    "options": [
+      "A. Ross sitting at the hospital reception desk while the clerk fusses over a candy bar.",
+      "B. Ross talking with Joey and Chandler in the waiting room about Carol.",
+      "C. Ross squeezing through the crowd to his seat.",
+      "D. Ross confronting a young boy at the hospital over a hockey puck."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E04"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e05_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel appear happiest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when she wins the cart fight at the laundromat",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e05_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, which character remains the calmest and most composed while breaking up with their partner? Answer with the character's name.",
+    "options": [],
+    "answer": "Phoebe",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e05_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel reach her emotional low point? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when her laundry turns pink",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e05_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Ross appear most surprised? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when Rachel kisses him",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e06_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Joey appear most joyful or excited?",
+    "options": [
+      "A. Joey hangs up the phone after his agent calls and tells the group about a new Al Pacino movie.",
+      "B. Joey sits in the apartment after his friends comfort him about losing the movie role.",
+      "C. Joey reads aloud the talent-agency card an usher left for him after the show.",
+      "D. Joey borrows Monica's moisturizer to get ready in the bathroom on the morning of his shoot."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e06_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most excited or happy?",
+    "options": [
+      "A. Chandler returns to his friends after speaking with Aurora and tells them her answer.",
+      "B. Chandler begins telling the group at the coffee house about his first date with Aurora.",
+      "C. Chandler gathers a few things at Monica's apartment before going to see Aurora again.",
+      "D. Chandler lies beside Aurora during their second date before she says she has to leave."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e06_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most visibly irritated?",
+    "options": [
+      "A. Monica notices that Rachel has moved the green ottoman and puts it back in its old place.",
+      "B. Monica lies awake in bed, unable to stop thinking about the shoes left in the living room.",
+      "C. Monica objects when Chandler says he will continue seeing Aurora despite her other partners.",
+      "D. Monica listens as Chandler describes condensation from a cold drink reaching the coffee table."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e06_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Chandler's emotional trajectory from insisting that he has no resentment about Aurora to the aftermath of ending their arrangement?",
+    "options": [
+      "A. He begins calm and confident, shows controlled jealousy, becomes animated as his conflict surfaces, and ends disappointed and frustrated.",
+      "B. He begins calm and confident, shifts into open anger, becomes animated as his conflict surfaces, and ends disappointed and frustrated.",
+      "C. He begins calm and confident, shows controlled jealousy, becomes quiet and withdrawn as his conflict surfaces, and ends disappointed and frustrated.",
+      "D. He begins calm and confident, shows controlled jealousy, becomes animated as his conflict surfaces, and ends relieved and calm."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E06"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e07_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most nervous?",
+    "options": [
+      "A. Ross telling Rachel during the group conversation that he sees 'big passion' in her future.",
+      "B. Ross beginning to explain to Rachel on the balcony what he has wanted to tell her.",
+      "C. Ross shushing Joey and hurriedly making up an explanation when Rachel suddenly appears while Joey is urging him to tell her how he feels.",
+      "D. Ross trying to explain to Paolo that he and Rachel are 'kind of a thing.'"
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E07"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e07_q002",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Phoebe complains twice about being the last to know what is happening. Is she genuinely irritated both times? Answer Yes or No.",
+    "options": [],
+    "answer": "No",
+    "input_video": [
+      "S01E07"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e07_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Ross appear saddest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when the lights come back on and he sees Rachel kissing Paolo",
+    "input_video": [
+      "S01E07"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e07_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most joyful?",
+    "options": [
+      "A. Monica giving her answer during the group's game.",
+      "B. Monica greeting the man Rachel brings in from the hallway.",
+      "C. Monica in the apartment relaying news from her mother.",
+      "D. Monica singing with Joey and Phoebe in the apartment."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E07"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e07_q005",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Joey appear most excited?",
+    "options": [
+      "A. Joey by the door talking to Monica about a party.",
+      "B. Joey at the window with the others watching the man across the way.",
+      "C. Joey giving his answer during the group's game.",
+      "D. Joey reacting when Phoebe reveals that Monica once had a crush on him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E07"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e07_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Throughout his time trapped in the ATM vestibule with Jill Goodacre, which description best captures Chandler's main emotional state?",
+    "options": [
+      "A. Excitement remains mixed with nervousness and embarrassment.",
+      "B. Excitement gradually replaces his nervousness and embarrassment.",
+      "C. Nervousness develops into frustration as his excitement fades.",
+      "D. Embarrassment fades as his nervousness gradually turns into confidence."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E07"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q001",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Before the funeral, Monica says her mother told her not to wear her hair up because of her ears. At the reception, what does Judy do and say that shows her attitude has softened? Answer with one short event phrase.",
+    "options": [],
+    "answer": "She moves Monica's hair aside to reveal her ear and compliments her earrings.",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear saddest?",
+    "options": [
+      "A. Ross leans over his grandmother and speaks to her at her bedside after the nurse steps out.",
+      "B. Ross sits in the hospital waiting area with his parents and aunt.",
+      "C. Ross learns that something has happened to his grandmother after Monica answers the phone.",
+      "D. Ross tells the group at the coffee house that his grandmother died 'twice.'"
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear saddest?",
+    "options": [
+      "A. Monica reminisces with Ross and her family about Nana in the hospital waiting area.",
+      "B. Monica takes a phone call from her father at the apartment.",
+      "C. Monica talks with her mother at the funeral reception about how Nana treated her.",
+      "D. Monica leans over her grandmother and speaks to her at her hospital bedside."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most frustrated about being perceived as gay?",
+    "options": [
+      "A. When Shelley first reveals that the person she wants to set him up with is a man.",
+      "B. When his friends agree that he has a certain quality.",
+      "C. When he asks Lowell whether Lowell thinks he has that quality.",
+      "D. When he insists that he could attract Brian after being told Brian is out of his league."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e09_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear angriest?",
+    "options": [
+      "A. When Monica discovers that Phoebe has made the potatoes smooth even though Ross wanted them served with lumps.",
+      "B. When Monica waits in the hallway while Joey tries different keys to open the apartment door.",
+      "C. When Monica cuts off the group's argument after everyone begins blaming one another over the ruined dinner.",
+      "D. When Monica sits quietly on the couch while Ross argues that their parents will be home for Thanksgiving."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E09"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e09_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear saddest?",
+    "options": [
+      "A. Rachel argues with Monica about the keys while they are locked outside the apartment and her flight time is approaching.",
+      "B. Rachel tells Monica at the apartment that she did not earn enough money and should forget about Vail and seeing her family.",
+      "C. Rachel works the coffee-house customers for tips and calculates how much money she is still short.",
+      "D. Rachel asks her boss for a $100 salary advance so she can go skiing in Vail with her family and is turned down."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E09"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e09_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most joyful?",
+    "options": [
+      "A. Ross feels the baby move for the first time while he is singing to it.",
+      "B. Ross joins the final toast after Chandler says he is grateful that everyone ended up spending Thanksgiving together.",
+      "C. At Carol's apartment, Ross asks Susan whether she talks about him to the unborn baby.",
+      "D. Ross joins the others at the window after they discover that Ugly Naked Guy is sharing Thanksgiving with someone."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E09"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e09_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures Rachel's overall emotional change from trying to reach Vail to sharing the final Thanksgiving meal with her friends?",
+    "options": [
+      "A. She begins hopeful about Vail, becomes upset after missing her flight, and remains resentful during the final meal.",
+      "B. She begins hopeful about Vail, becomes upset and angry after missing her flight, then softens into genuine acceptance and warmth with her friends.",
+      "C. She begins anxious about Vail, becomes relieved when the trip falls through, and ends cheerful because she no longer needs to travel.",
+      "D. She begins hopeful about Vail, becomes upset after missing her flight, and joins the final meal but remains visibly subdued rather than genuinely accepting the outcome."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E09"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e09_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures Monica's overall emotional change while hosting Thanksgiving?",
+    "options": [
+      "A. She begins eager to host, becomes frustrated by everyone's requests, and remains openly angry after the dinner is ruined.",
+      "B. She begins eager to host, becomes frustrated and overwhelmed, and joins the final meal but remains visibly disappointed.",
+      "C. She begins eager to host, becomes frustrated and devastated when the dinner is ruined, then genuinely softens into warmth during the improvised final meal.",
+      "D. She begins reluctant to host, becomes relieved when the dinner is ruined, and ends cheerful because she no longer has to cook."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E09"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e09_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures Ross's attitude toward Susan?",
+    "options": [
+      "A. His jealousy fades, but he remains distant from Susan.",
+      "B. His jealousy remains, but he briefly puts their rivalry aside when the baby moves.",
+      "C. He gradually becomes comfortable with Susan's role.",
+      "D. He becomes discouraged and distances himself from Susan."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E09"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear saddest?",
+    "options": [
+      "A. Phoebe stands with her friends near the TV after David has left and the midnight countdown is about to begin.",
+      "B. Phoebe acts out her final goodbye with David before he leaves the New Year's party.",
+      "C. Phoebe learns that David has received a three-year grant to work in Minsk.",
+      "D. Phoebe interrupts her song after hearing David and Max talk during her performance."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most upset?",
+    "options": [
+      "A. Rachel says Paolo will be in Rome and jokes that she will be pathetic on New Year's Eve.",
+      "B. Rachel arrives at Monica's party with a cut lip and recounts being attacked over a taxi at the airport.",
+      "C. Rachel says she cannot kiss anyone at midnight because her lip is injured.",
+      "D. Rachel sits beside Ross and realizes that her tooth may have been cracked."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Ross's emotional trajectory during the New Year's Eve party?",
+    "options": [
+      "A. He starts excited, shows mock anger, becomes disappointed, and ends genuinely sad.",
+      "B. He starts excited, shows genuine anger, becomes disappointed, and ends genuinely sad.",
+      "C. He starts excited, shows mock anger, becomes disappointed, and ends frustrated rather than genuinely sad.",
+      "D. He starts excited, shows genuine anger, becomes disappointed, and ends frustrated rather than genuinely sad."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Monica's emotional trajectory from Fun Bobby's arrival at the party to the countdown?",
+    "options": [
+      "A. She begins excited, becomes surprised, and ends dryly amused.",
+      "B. She begins excited, becomes surprised, and ends irritated.",
+      "C. She begins excited, becomes uncomfortable, and ends dryly amused.",
+      "D. She begins excited, becomes uncomfortable, and ends irritated."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which description best captures why Chandler invites Janice and how he actually feels about her at the party?",
+    "options": [
+      "A. He invites her out of anxiety, remains uncomfortable, but is genuinely amused by some of their exchanges.",
+      "B. He invites her out of anxiety, remains uncomfortable, and only pretends to enjoy every interaction with her.",
+      "C. He invites her because he wants to renew their relationship, becomes comfortable with her, but later rejects the reunion out of embarrassment.",
+      "D. He invites her casually, feels indifferent toward her, and interacts only out of politeness."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most visibly hurt and disappointed?",
+    "options": [
+      "A. When the man is taken away after collapsing outside the newsstand.",
+      "B. When Monica and Phoebe question each other about returning to the hospital.",
+      "C. When Monica and Phoebe are about to leave after speaking with the man once he wakes up.",
+      "D. When Monica and Phoebe compare everything each of them did for the man while he was unconscious."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q002",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "After Monica and Phoebe catch each other visiting the comatose man alone, what increasingly drives Monica to continue visiting him in secret?",
+    "options": [
+      "A. Concern that no one else will take proper care of him.",
+      "B. Lingering guilt over helping cause his accident.",
+      "C. Growing rivalry with Phoebe for the man's attention.",
+      "D. Curiosity about whether he matches the personality she imagined."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe's anger reach its greatest intensity? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when the man casually dismisses them after waking up",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Ross's emotional trajectory across his interactions with Nora?",
+    "options": [
+      "A. He moves from admiration to attraction, then embarrassment, and finally relief.",
+      "B. He moves from admiration to attraction, then anger, and finally regret.",
+      "C. He moves from admiration to discomfort, then embarrassment, and finally regret.",
+      "D. He moves from admiration to attraction, then embarrassment, and finally regret."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "How does Chandler's conflict with Ross end?",
+    "options": [
+      "A. Chandler is merely polite and keeps his distance.",
+      "B. They reconcile, but Chandler remains guarded.",
+      "C. Chandler remains resentful and refuses to reconcile.",
+      "D. They reconcile genuinely and comfortably."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Ross appear most joyful?",
+    "options": [
+      "A. When Ross learns from Carol that the baby is healthy.",
+      "B. When Ross hugs Rachel on the balcony.",
+      "C. When Ross plays foosball with Monica, Chandler, and Joey.",
+      "D. When Ross learns that he is having a son."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Rachel appear most deeply saddened?",
+    "options": [
+      "A. When Rachel sits on the couch with Phoebe and drinks a glass of milk.",
+      "B. When Rachel stands with the group as the baby's sex comes up.",
+      "C. When Rachel throws Paolo's clothes off the balcony.",
+      "D. When Rachel talks with Ross on the balcony after Paolo leaves."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe appear most shocked and disgusted? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when Paolo suddenly grabs her during the massage",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Monica appear least joyful?",
+    "options": [
+      "A. When Monica starts a game at the new foosball table in the apartment.",
+      "B. When Monica tells the group at the coffee house that Carol phoned her.",
+      "C. When Monica asks Rachel about the Poconos after Paolo leaves the apartment.",
+      "D. When Monica tries to keep the guys playing foosball at 2:30 in the morning."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures Ross's emotional trajectory regarding his unborn child?",
+    "options": [
+      "A. He remains excited throughout, becomes increasingly anxious and curious about the baby's sex, and ends surprised and overjoyed.",
+      "B. He remains excited, becomes increasingly irritated that everyone else knows the baby's sex, and ends relieved but emotionally restrained.",
+      "C. He remains excited, briefly becomes curious about the baby's sex, then regains confidence in his decision not to know and ends only mildly surprised.",
+      "D. He remains excited, but his uncertainty about the baby's sex gradually turns into frustration, and learning the answer leaves him more upset than joyful."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q006",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures Phoebe's emotional trajectory toward Paolo?",
+    "options": [
+      "A. She initially feels neutral toward him, then becomes shocked and uncomfortable, and ends disgusted and distant.",
+      "B. She begins cautious, becomes increasingly attracted to him, and ends guilty but still affectionate.",
+      "C. She begins pleased and playful, becomes embarrassed by the massage, and ends largely indifferent to him.",
+      "D. She begins uneasy, becomes angry when he arrives for the massage, and ends relieved after speaking with Rachel."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e12_q007",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which description best captures Rachel's emotional trajectory toward Paolo?",
+    "options": [
+      "A. She begins happy and deeply attracted to him, becomes shocked and hurt, turns angry and disgusted, and ends sad.",
+      "B. She begins excited but somewhat uncertain, becomes embarrassed and self-blaming, turns jealous and suspicious, and ends angry and resentful.",
+      "C. She begins affectionate and secure, becomes surprised and disappointed, turns sad and withdrawn, and ends relieved and emotionally detached.",
+      "D. She begins playful and attracted, becomes shocked and angry, turns sad and self-doubting, and ends conflicted and still attached to him."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Joey appear most surprised?",
+    "options": [
+      "A. Joey stands silently beside the phone after learning that the person on the other end of his father's intimate call was another woman, not his mother.",
+      "B. Joey stares at the woman who is having an affair with his father when he meets her in the hallway.",
+      "C. Rachel opens the bathroom door and sees Joey while he is showering.",
+      "D. Joey learns that his mother is content to let his father's affair continue as it is."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most surprised?",
+    "options": [
+      "A. Monica opens her apartment door and meets Ronni for the first time.",
+      "B. Monica listens as Roger criticizes her relationship with Ross.",
+      "C. Monica pulls back the shower curtain and discovers Joey's father inside.",
+      "D. Monica sits with Rachel as Phoebe introduces Roger at the coffee house."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "When Roger psychoanalyzes the whole group in the apartment, which character appears most emotionally affected? Answer with one character name.",
+    "options": [],
+    "answer": "Rachel",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe appear happiest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "introducing Roger to Monica and Rachel at the coffee house",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which moment most clearly reveals a more vulnerable side of Joey's reaction to his father's affair?",
+    "options": [
+      "A. Joey falls silent after realizing that the woman in the hallway is his father's affair partner.",
+      "B. Joey firmly tells his father to break up with Ronni.",
+      "C. Joey lies awake beside Chandler with a subdued, anxious expression.",
+      "D. Joey reacts with disbelief when his mother asks him to accept the affair as it is."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q006",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures how Rachel's attitude toward Roger changes across the episode?",
+    "options": [
+      "A. She begins with a positive impression of him, becomes personally hurt by his analysis, and finally openly admits that she dislikes him.",
+      "B. She begins with mild suspicion of him, becomes impressed by his analysis, and finally feels disappointed in him.",
+      "C. She begins indifferent to him, becomes amused by his observations, and finally feels sympathy for him.",
+      "D. She begins with a positive impression of him, becomes briefly annoyed by his behavior, and finally accepts him for Phoebe's sake."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e14_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear happiest?",
+    "options": [
+      "A. When Chandler and Janice begin using Joey's credit card.",
+      "B. When Chandler hugs Ross at the coffee shop to celebrate his success.",
+      "C. When Chandler kisses Janice in the apartment hallway.",
+      "D. When Monica sees Janice and Chandler together in the hallway."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E14"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e14_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear happiest?",
+    "options": [
+      "A. When Ross listens to Kristin tell her career.",
+      "B. When Ross introduces Kristin and Carol to each other.",
+      "C. When Ross and Carol reminisce about their past together.",
+      "D. When Ross tells Chandler that Kristin agreed to go out with him."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E14"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e14_q003",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which visible pattern best shows that Ross remains emotionally focused on Carol while dating Kristin?",
+    "options": [
+      "A. He stays with Carol after Kristin leaves and admits that his first date in years has failed.",
+      "B. He happily tells Chandler that Kristin agreed to date him and later entertains her with a joke about jet-lagged dogs.",
+      "C. He invites Carol to join them after Susan leaves and introduces Carol to Kristin.",
+      "D. He watches Carol during Kristin's joke, follows Carol's reaction before laughing, and later turns his attention back to Carol."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E14"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most anxious?",
+    "options": [
+      "A. At work, Mrs. Tedlock says Mr. Kostelick wants to see him, and he denies having anything to do with the prank memos.",
+      "B. During a call from his former boss, he keeps rejecting the escalating offer before abruptly agreeing to return.",
+      "C. At Central Perk, after explaining why he quit, he admits that he does not know what he wants to do.",
+      "D. Before his career-counselor appointment, he compares himself with his friends and says that he has no dream."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which moment does Ross's embarrassment reach its greatest intensity?",
+    "options": [
+      "A. At Central Perk, while telling Joey about his second date with Celia, Ross pauses after boasting about his dirty talk and admits that it had gotten late and they were both exhausted.",
+      "B. When Celia asks Ross to talk dirty and, after hesitating, he blurts out \"vulva.\"",
+      "C. The morning after his first date with Celia, Joey repeats \"vulva\" in disbelief and Ross defensively explains that he panicked and that they ended up cuddling.",
+      "D. When Chandler unexpectedly finds Ross practicing dirty talk with Joey and Ross tries to explain the situation."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Monica's emotional trajectory from learning about the head-chef opportunity through the audition dinner and its aftermath?",
+    "options": [
+      "A. Her excitement gives way to mounting frustration and anger, then disappointment; Phoebe's reassurance fully replaces that disappointment with contentment.",
+      "B. Her excitement gives way to mounting frustration and anger, then disappointment; Phoebe's reassurance briefly lifts her spirits without removing that disappointment.",
+      "C. Her excitement gives way to mounting frustration and anger, then disappointment; she responds politely to Phoebe but remains emotionally unmoved.",
+      "D. Her excitement gives way to mounting frustration and anger, then disappointment; Phoebe's reassurance makes her feel embarrassed rather than comforted."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From showing Phoebe his new office to the moment after ending his late-night phone call, which description best captures Chandler's emotional change?",
+    "options": [
+      "A. Pride and playful excitement dominate during the office tour; after the outburst, his anger gives way to stunned self-recognition.",
+      "B. Pride and playful excitement dominate during the office tour; after the outburst, his anger gives way only to brief surprise at the force of his own reaction.",
+      "C. During the office tour, his pride is tempered by embarrassment about showing off; after the outburst, his anger gives way to stunned self-recognition.",
+      "D. During the office tour, his pride is tempered by embarrassment about showing off; after the outburst, his anger gives way only to brief surprise at the force of his own reaction."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which description best captures Rachel's attitude when Monica asks her to replace the waitress?",
+    "options": [
+      "A. She is not resentful about Monica passing her over earlier, genuinely has other plans, and changes her mind only because of the money.",
+      "B. She remains resentful about Monica passing her over earlier, but her refusal is playful bargaining and she never seriously intends to leave.",
+      "C. She remains resentful about Monica passing her over earlier and is genuinely ready to leave, changing her mind only when Monica offers enough money.",
+      "D. She is not resentful about Monica passing her over earlier and wants to help, but pretends to resist so Monica will increase the pay."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which event shows the contrast between Chandler's restrained outward reaction and his underlying amusement?",
+    "options": [
+      "A. After returning from his lengthy career assessment, he makes a pun about Monica's appetizer.",
+      "B. During another call from his former boss, he jokes that stealing pens from home is less satisfying.",
+      "C. When he enters the living room while Ross and Joey are practicing dirty talk, before they notice him.",
+      "D. While showing Phoebe his new office, he summons Helen merely to demonstrate the intercom."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e15_q007",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From discussing his upcoming date with Celia through her request that he talk dirty, which description best captures Ross's emotional trajectory?",
+    "options": [
+      "A. He starts happy about the upcoming date, panics when Marcel disrupts it, becomes happy again when the date resumes, and ends embarrassed.",
+      "B. He starts happy about the upcoming date, panics when Marcel disrupts it, remains uneasy when the date resumes, and ends embarrassed.",
+      "C. He starts happy about the upcoming date, becomes irritated when Marcel disrupts it, becomes happy again when the date resumes, and ends embarrassed.",
+      "D. He starts happy about the upcoming date, panics when Marcel disrupts it, becomes happy again when the date resumes, and ends frustrated with Celia."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E15"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear most visibly dejected about Joey's relationship with Ursula?",
+    "options": [
+      "A. When Phoebe describes her history with Ursula and worries that she may lose Joey.",
+      "B. When Joey walks away after she permits him to ask Ursula out.",
+      "C. When she learns that the sweater Joey brings is for Ursula.",
+      "D. When Ursula appears at Joey's door wearing his shirt."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear most visibly angry while keeping her verbal response restrained?",
+    "options": [
+      "A. When she responds after Chandler says that he and Joey saw Ursula.",
+      "B. When she encounters Ursula coming out of Joey's apartment in the hallway.",
+      "C. When she says that Ursula's sweater fits.",
+      "D. When she tells Ross that she is fine after Joey leaves."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most captivated by Nina?",
+    "options": [
+      "A. When Nina touches his leg during his first attempt to fire her.",
+      "B. When he talks to Monica and Rachel about Nina.",
+      "C. When he kisses Nina in his office.",
+      "D. When he finally tells Nina the truth about the layoffs."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most visibly overwhelmed by becoming a father?",
+    "options": [
+      "A. When he calls himself, Carol, and Susan the whole parenting team.",
+      "B. When he practices the basic breathing exercises with Susan.",
+      "C. When he holds the baby doll in silence after hearing Susan say that they will be parents for the rest of their lives.",
+      "D. When he tells Marcel to give him the remote."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which visible pattern best shows that Ross's anxiety after the birth film concerns his own readiness for fatherhood rather than only Carol's fear?",
+    "options": [
+      "A. He falls silent while holding the doll after Susan mentions lifelong parenthood, then later compares raising a child with controlling Marcel.",
+      "B. He comforts Carol, listens while Susan puts birth in perspective, and remains beside them when the class ends.",
+      "C. He competes with Susan over coaching, lies down as the mother, and cradles the doll during the film.",
+      "D. He introduces Carol as carrying his son, jokes about twins, and later says that he always knew he was having a baby."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most anxious?",
+    "options": [
+      "A. When he tells the story about his football dream about his child at the coffee shop.",
+      "B. When Ross asks his father when he first felt like a dad.",
+      "C. When Ross rushes the choking Marcel to the emergency room and begs for help.",
+      "D. When Ross listens to Chandler present a series of negative hypotheticals."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel appear angriest with Monica? Answer with one short event phrase.",
+    "options": [],
+    "answer": "explaining Billy Dreskin to her father",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Ross's feelings about fatherhood from his football dream, through his conversation with his father, to Marcel eventually waking up in the hospital?",
+    "options": [
+      "A. He begins confident, becomes upset by his father's story, stays detached during Marcel's crisis, and ends uncertain.",
+      "B. He begins anxious, but his anxiety ends immediately after his father's story, and Marcel's crisis does not change his confidence.",
+      "C. He begins anxious, and his anxiety deepens throughout the episode and remains unchanged after Marcel recovers.",
+      "D. He begins anxious, feels moved but still unsure after hearing his father's story, panics over Marcel's illness, and finally gains confidence when Marcel grips his finger"
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q004",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "After Phoebe learns that her sister ended her relationship with Joey without telling him, what motivates Phoebe to visit her sister?",
+    "options": [
+      "A. She is worried that her sister is hurt by the breakup.",
+      "B. She sympathizes with Joey and is curious about how her sister treated her friend.",
+      "C. She is curious whether her sister's personality has changed.",
+      "D. She feels guilty about not giving her sister a birthday present."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "When Phoebe and Joey meet at the coffeehouse, why does she not immediately tell him the truth after he mistakes her for her sister?",
+    "options": [
+      "A. She is annoyed at being mistaken for her sister and wants to use the false identity to tease Joey.",
+      "B. She sympathizes with Joey and wants to use the false identity to give his relationship with Ursula a clear ending.",
+      "C. She is curious about Joey's thoughts and wants to use the false identity to test him.",
+      "D. She feels awkward and does not know how to tell him the truth when faced with his sincerity."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e18_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most embarrassed?",
+    "options": [
+      "A. At Central Perk, when Chandler notices Ross staring at Rachel and teases him about it.",
+      "B. At his apartment, when Joey and Chandler tease him that his tough poker speech was really about his feelings for Rachel.",
+      "C. After Rachel beats him with four sixes and tricks him into looking down by claiming that his fly is still open.",
+      "D. After the final hand, when Chandler and Joey move in to inspect the cards Ross placed face down."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E18"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e18_q002",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From the first poker game with Rachel through the moment Chandler and Joey try to inspect his cards after the final showdown, which description best captures Ross's main emotional trajectory?",
+    "options": [
+      "A. His confident competitiveness grows into frustrated anger; Rachel's bad news softens it into concern, which gives way to quiet happiness at seeing her enjoy the win, before he ends in sudden alarm when Chandler and Joey try to inspect his cards.",
+      "B. His playful amusement grows into frustrated anger; Rachel's bad news softens it into concern, which gives way to quiet happiness at seeing her enjoy the win, before he ends in sudden alarm when Chandler and Joey try to inspect his cards.",
+      "C. His confident competitiveness grows into embarrassed self-consciousness; Rachel's bad news softens it into concern, which gives way to quiet happiness at seeing her enjoy the win, before he ends in sudden alarm when Chandler and Joey try to inspect his cards.",
+      "D. His confident competitiveness grows into frustrated anger; Rachel's bad news softens it into concern, which gives way to quiet happiness at seeing her enjoy the win, and he remains calm when Chandler and Joey try to inspect his cards."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E18"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e18_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From working on her resumes at Central Perk through winning the final poker hand against Ross, which description best captures Rachel's main emotional trajectory?",
+    "options": [
+      "A. Her frustrated determination gives way to hopeful excitement, grows into confident optimism after the interview, collapses into hurt disappointment after the call, then hardens into defiant resolve and ends in surprised joy and relief when she wins the final hand.",
+      "B. Her discouraged resignation gives way to hopeful excitement, grows into confident optimism after the interview, collapses into hurt disappointment after the call, then hardens into defiant resolve and ends in surprised joy and relief when she wins the final hand.",
+      "C. Her frustrated determination gives way to hopeful excitement, turns into anxious uncertainty after the interview, collapses into hurt disappointment after the call, then hardens into defiant resolve and ends in surprised joy and relief when she wins the final hand.",
+      "D. Her frustrated determination gives way to hopeful excitement, grows into confident optimism after the interview, collapses into hurt disappointment after the call, then hardens into defiant resolve and ends in self-assured satisfaction when she wins the final hand."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E18"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e18_q004",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across the episode, which event most clearly reveals what matters more to Ross: his feelings for Rachel or his usual desire to win?",
+    "options": [
+      "A. At Central Perk, Ross becomes flustered and pretends not to know whom Chandler means after being caught staring at Rachel.",
+      "B. After an earlier poker game, Ross singles Rachel out while collecting the fifteen dollars she owes him.",
+      "C. During the final poker game, Ross unintentionally loses to Rachel's full house and calmly accepts the defeat.",
+      "D. During the final poker game, Ross conceals his stronger hand and deliberately lets Rachel win after her bad news."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E18"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e18_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Compared with their earlier refusal to teach the women poker, what do the men's reactions when Rachel shuffles the cards before the rematch reveal about their attitude toward her? Answer with one short attitude phrase.",
+    "options": [],
+    "answer": "dismissiveness gives way to startled recognition of her competence",
+    "input_video": [
+      "S01E18"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most visibly frightened about Marcel being missing?",
+    "options": [
+      "A. When she first notices that Marcel is no longer beside her after becoming absorbed in television.",
+      "B. When the others learn that Marcel is missing and she clutches a cushion, watching them organize the search.",
+      "C. When Ross arrives with wine, she first tries to hide what happened and then admits that Marcel is missing.",
+      "D. When Luisa refuses to help and says she will take Marcel away if she finds him."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most visibly stunned by news about Marcel?",
+    "options": [
+      "A. When Mr. Heckles claims that Marcel belongs to him.",
+      "B. When Rachel admits that Marcel is missing.",
+      "C. When Rachel reveals that she called Animal Control.",
+      "D. When Luisa says she will confiscate Marcel if she finds him."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most visibly anxious while trying to sound cheerful?",
+    "options": [
+      "A. When she insists at dinner that she is happy for Barry and Mindy's engagement.",
+      "B. When Barry arrives just as she and Ross are about to share the wine.",
+      "C. When she jokes about Marcel's doll clothes after he is returned.",
+      "D. When she says her day went \"really great\" and suggests going to Newark."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures how Rachel's visible emotions change from greeting Ross after losing Marcel to recognizing Luisa from high school?",
+    "options": [
+      "A. She begins with forced cheerfulness, shifts into anxious guilt, and finally reacts with startled recognition.",
+      "B. She begins with forced cheerfulness, shifts into startled recognition, and finally reacts with anxious guilt.",
+      "C. She begins with anxious guilt, shifts into defensive anger, and finally reacts with relief.",
+      "D. She begins with calm reassurance, shifts into growing amusement, and finally reacts with surprise."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures how Monica's visible emotions change from realizing who Luisa is to looking through her high-school yearbook later?",
+    "options": [
+      "A. She moves from awkward surprise to embarrassed regret, and finally to gently self-deprecating reflection.",
+      "B. She moves from awkward surprise to defensive anger, and finally to proud nostalgia.",
+      "C. She moves from cheerful recognition to amused indifference, and finally to relief.",
+      "D. She moves from embarrassed regret to resentment, and finally to lasting sadness."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Across the episode, what attitude toward Barry is suggested by Rachel's silent reactions to the engagement notice and his later arrival, together with her playful use of the notice in between? Answer with one short attitude phrase.",
+    "options": [],
+    "answer": "wounded ambivalence toward Barry",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e19_q007",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which description best captures what Rachel's visible behavior around Ross before and after the search suggests about her response to his romantic interest?",
+    "options": [
+      "A. She initially welcomes his interest but becomes guarded after their conflict, despite agreeing to share the wine.",
+      "B. Her early tension reflects discomfort with his interest, and her later friendliness remains entirely platonic.",
+      "C. Her early tension is situational rather than rejection; once the crisis ends, she visibly relaxes and becomes receptive again.",
+      "D. Her warmth after Marcel's return is mainly gratitude, with no clear sign of renewed romantic openness."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E19"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most worried?",
+    "options": [
+      "A. When Bobby walks into the dental office while she and Barry are kissing.",
+      "B. When she waits to meet Mindy at the coffeehouse.",
+      "C. When she hangs up after Mindy's unexpected call and immediately worries about why Mindy wants to meet.",
+      "D. When she discovers that someone across the street is watching the apartment through a telescope."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear happiest?",
+    "options": [
+      "A. When she returns from lunch with Barry and tells the group that seeing him felt comfortable and familiar.",
+      "B. When she agrees to be Mindy's maid of honor at the coffeehouse.",
+      "C. When she and Mindy hug after admitting what happened with Barry.",
+      "D. When she lies back in the dental chair with Barry and affectionately admires the little sink."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel appear angriest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "Mindy defends marrying Barry",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most irritated?",
+    "options": [
+      "A. When he makes sarcastic remarks about Rachel and Barry's relationship at the coffeehouse.",
+      "B. When he plays charades with Phoebe in the apartment.",
+      "C. When he argues with Rachel in the apartment about her continuing contact with Barry.",
+      "D. When he and the others discover the man watching the apartment from across the street."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "When the others urge Rachel to end her relationship with Barry, which of the following best describes her attitude?",
+    "options": [
+      "A. She is hesitant but still feels that the relationship should not continue, and she eventually decides to end it.",
+      "B. She is hesitant; her apparent agreement is playful bargaining, and she ultimately decides to continue the relationship.",
+      "C. She does not hesitate and immediately decides to end the relationship.",
+      "D. She does not hesitate; her apparent agreement is only meant to stop everyone from singling her out."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which moment does Monica display the most intense joy?",
+    "options": [
+      "A. After having lunch with Fake Monica, Monica tells Ross, Chandler, and Joey that the woman is astounding and has an amazing spirit.",
+      "B. After crashing an embassy party, Monica returns home, drinks directly from the kitchen faucet, and tells Rachel how being with Fake Monica changes who she is.",
+      "C. When Monica tells Rachel how she and Fake Monica pretended to be guests on the hotel floor occupied by the Boston Celtics and were eventually thrown out.",
+      "D. During her jail visit, Monica thanks Fake Monica for everything she has given her and recalls getting to sing onstage at the Winter Garden Theatre."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which moment does Ross appear most visibly saddened?",
+    "options": [
+      "A. At Central Perk, Ross sits down after returning from the veterinarian, just before explaining what he has learned.",
+      "B. At Monica and Rachel's apartment, Ross lowers the letter after reading that the Scranton zoo has rejected Marcel.",
+      "C. At Central Perk, Ross watches Dr. Baldhara as his questions about Marcel's ability to fight other animals become increasingly disturbing.",
+      "D. At the airport, Ross watches his friends finish saying goodbye to Marcel, just as he asks for a moment alone with him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From Joey's initial discussion with Chandler about choosing a stage name through his audition, which description best captures his main emotional progression?",
+    "options": [
+      "A. His anxiety gives way to happiness when he finds a name he likes, turns into anger when he learns who Joseph Stalin was, and ends in confidence as he introduces himself at the audition.",
+      "B. His anxiety gives way to happiness when he finds a name he likes, turns into embarrassment when he learns who Joseph Stalin was, and ends in nervousness at the audition.",
+      "C. His anxiety intensifies into frustration while he searches for a name, turns into anger when he discovers his mistake, and leaves him hesitant when he introduces himself at the audition.",
+      "D. His playful curiosity turns into happiness when he chooses a name, develops into amusement when he learns who Joseph Stalin was, and ends in confidence at the audition."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Monica's encounters with Fake Monica, from the tap class through the jail visit, which description best captures Monica's main emotional progression?",
+    "options": [
+      "A. She begins self-conscious and uneasy at the tap class, becomes increasingly excited and uninhibited as she gets to know Fake Monica, reaches peak exhilaration after the embassy party, and shifts from happiness to anxiety during the jail visit.",
+      "B. She begins self-conscious and uneasy at the tap class, becomes increasingly excited and uninhibited as she gets to know Fake Monica, reaches peak exhilaration after the embassy party, and shifts from happiness to sadness and resignation during the jail visit.",
+      "C. She begins self-conscious at the tap class but remains cautious even as the friendship develops, experiences only brief relief after the embassy party, and ends the jail visit with calm gratitude.",
+      "D. She begins curious and confident at the tap class, becomes increasingly anxious during their adventures, briefly grows excited after the embassy party, and reacts with anger during the jail visit."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Does Monica appear embarrassed during both of her visits to the tap class? Answer \"yes\" or \"no\".",
+    "options": [],
+    "answer": "Yes",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e22_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Chandler appear most surprised?",
+    "options": [
+      "A. When Rachel admits that she had a sexual dream about him.",
+      "B. When Monica reveals that she told Ethan she was 22.",
+      "C. When Phoebe tells him that none of his employees like him after his promotion.",
+      "D. When Phoebe tells him that his employees still made fun of him after the karaoke party."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E22"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e22_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Monica appear most surprised? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when Ethan reveals that he is a senior in high school",
+    "input_video": [
+      "S01E22"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e22_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Ross appear most disappointed?",
+    "options": [
+      "A. When Rachel says that Chandler was very good in her first dream.",
+      "B. When Ross receives another mistaken page intended for André.",
+      "C. When Rachel wakes from her final dream and finds Ross sitting beside her.",
+      "D. When Ross asks Rachel whether anyone else appeared in her dream and she says no."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E22"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e22_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "After Chandler learns what his employees think of him, which description best captures how his emotions change?",
+    "options": [
+      "A. He begins surprised and confused, becomes hopeful about changing their impression of him, and ends relieved that they still see him as a friend.",
+      "B. He begins surprised and hurt, becomes increasingly angry with his employees, and ends satisfied after asserting his authority.",
+      "C. He begins surprised and confused, becomes confident that he can change their impression of him, then feels disappointed and finally accepts the distance between them.",
+      "D. He begins embarrassed, becomes uncertain about attending the party, then grows resentful and remains unhappy with his role as their boss."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E22"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e22_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Monica's relationship with Ethan in the episode, which description best captures her main emotional trajectory?",
+    "options": [
+      "A. She begins excited and hopeful, becomes uncertain after learning about his inexperience, then grows angry over his lie and ends relieved to break up.",
+      "B. She begins excited and hopeful, is moved by his honesty, then becomes shocked and deeply uncomfortable, and ends sad but firm about breaking up.",
+      "C. She begins nervous and uncertain, becomes embarrassed by his inexperience, turns guilty about her own lie, and ends hopeful that the relationship can continue.",
+      "D. She begins excited, becomes reassured after they spend the night together, reacts to his age with brief surprise, and ends emotionally detached."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E22"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "At what moment does Ross appear most anxious in the episode? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when he is trapped in the hospital closet",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Ross appear most angry during his conflicts with Susan?",
+    "options": [
+      "A. When he hears that Susan wanted a Chunky at the gift shop.",
+      "B. When Rachel jokes with him while everyone is waiting at the hospital.",
+      "C. When he and Susan argue over the baby's name in Carol's room.",
+      "D. When he waits for Carol and Susan to arrive at the hospital."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Joey appear most relieved?",
+    "options": [
+      "A. When he watches the basketball game with Lydia in the waiting area.",
+      "B. When the nurse takes over after Lydia's water breaks.",
+      "C. When he returns to the waiting area after helping with the delivery.",
+      "D. When he comes back carrying a gift and watches Lydia from the doorway."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Rachel appear most uncomfortable?",
+    "options": [
+      "A. When she first introduces herself to Dr. Franzblau.",
+      "B. When she jokes with Ross and Chandler tells her that she has to pick her moments.",
+      "C. When she is in Carol's delivery room with the others during labor.",
+      "D. When Dr. Franzblau explains why his work makes dating difficult."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Rachel's interactions with Dr. Franzblau, which description best captures her emotional trajectory?",
+    "options": [
+      "A. She begins amused and attracted, becomes self-conscious when others notice her interest, then regains confidence and ends politely reserved.",
+      "B. She begins attracted, grows impatient while waiting for him, becomes encouraged by their mutual flirting, and ends disappointed but still interested.",
+      "C. She begins attracted, grows more excited as they flirt, and finally becomes uncomfortable and loses interest.",
+      "D. She begins casually curious, becomes more attracted during their conversations, then feels sympathy for his dating difficulties and ends warm but uncertain."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Why does Joey quietly leave after returning with a gift?",
+    "options": [
+      "A. He feels replaced after hearing Lydia refer to him only as her helper.",
+      "B. He feels reassured by Lydia's reunion with the baby's father and chooses not to interrupt them.",
+      "C. He is still angry that Lydia asked him to leave and decides not to give her the gift.",
+      "D. He feels uncomfortable around the baby's father and leaves to avoid being drawn into their conversation."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Rachel show the strongest emotional reaction?",
+    "options": [
+      "A. When she opens Ross's birthday gift and realizes that he remembered a pin she had admired months earlier.",
+      "B. During her first trip to the airport, when she fails to reach Ross before his flight leaves for China.",
+      "C. When she explains to Monica why dating Ross might be a bad idea.",
+      "D. During her second trip to the airport, when she waits with flowers and sees Ross return from China with Julie."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Joey appear most nervous?",
+    "options": [
+      "A. When Ross presses him to explain what kind of research he is doing.",
+      "B. When Rachel opens the birthday present Joey gave her.",
+      "C. When he tells Monica at the birthday party that Melanie expects them to sleep together that night.",
+      "D. When Melanie tries to turn her attention toward him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which option best describes how Rachel's feelings toward Ross change?",
+    "options": [
+      "A. She begins amused by his gift, becomes irritated that he hid his feelings, grows calm after deciding against him, and ends relieved when he returns with someone else.",
+      "B. She begins touched by his gift, becomes regretful after learning about his feelings, grows anxious and uncertain, and ends disappointed when she sees him with someone else.",
+      "C. She begins touched by his gift, becomes regretful after learning about his feelings, grows anxious and uncertain, and ends hopeful while waiting for him.",
+      "D. She begins simply grateful for his gift, becomes embarrassed by his feelings, grows hesitant as her friends encourage her, and ends determined to avoid him."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Joey's storyline involving the fertility study and Melanie, which option best describes his emotional trajectory?",
+    "options": [
+      "A. He begins confident and proud, becomes afraid that Melanie will reject him, grows insecure during the night, and ends confused despite her praise.",
+      "B. He begins awkward but amused, becomes increasingly frustrated with Melanie, remains tense and distant during the night, and ends relieved.",
+      "C. He begins embarrassed and resentful, becomes calm about the study's restriction, grows frustrated during the night, and ends pleased and proud.",
+      "D. He begins awkward and defensive, becomes anxious because the study prevents him from having sex, sees that anxiety turn into pleasant surprise during the night, and ends excited and proud."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which option best describes the romantic situation between Rachel and Ross?",
+    "options": [
+      "A. Rachel remains uncertain about Ross, while Ross believes she is waiting for him.",
+      "B. Rachel has decided to pursue Ross, but Ross does not know that her feelings have changed.",
+      "C. Rachel already knows about Julie and plans to hide her disappointment, while Ross has given up on pursuing her because he believes she is dating someone else.",
+      "D. Rachel has decided to remain friends with Ross, while Ross returns expecting to pursue her."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E24"
+    ]
+  }
+]

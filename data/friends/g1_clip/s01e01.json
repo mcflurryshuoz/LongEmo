@@ -1,0 +1,1935 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q001",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the dark-haired woman in the white top evoke in the friends gathered around her when she confirms that the arriving man is her date?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "happiness"
+    ],
+    "video_name": "friends_g1_2_s01e01_q001_seg1_467.1_520.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 467.1,
+          "end": 520.3,
+          "mmss": "7:47.1–8:40.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0068",
+        "t": [
+          467.072,
+          468.407
+        ],
+        "speaker": "Joey",
+        "text": "- Let him in. - Who's Paul?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0069",
+        "t": [
+          468.448,
+          471.368
+        ],
+        "speaker": "Ross",
+        "text": "- Paul, the wine guy, Paul? - Maybe."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0070",
+        "t": [
+          471.451,
+          474.955
+        ],
+        "speaker": "Monica",
+        "text": "Wait a minute, your \"not a real date,\" tonight is with Paul, the wine guy?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0071",
+        "t": [
+          475.038,
+          476.999
+        ],
+        "speaker": "Ross",
+        "text": "- He finally asked you out? - Yes!"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0072",
+        "t": [
+          477.082,
+          479.209
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, this is a \"Dear Diary\" moment."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0073",
+        "t": [
+          480.627,
+          482.004
+        ],
+        "speaker": "Monica",
+        "text": "Rach, wait I-I can cancel."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0074",
+        "t": [
+          482.087,
+          483.964
+        ],
+        "speaker": "Rachel",
+        "text": "Please, no, go. I'll be fine."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0075",
+        "t": [
+          484.047,
+          488.468
+        ],
+        "speaker": "Monica",
+        "text": "I-Ross, are you okay? Do you want me to stay?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0076",
+        "t": [
+          488.552,
+          494.516
+        ],
+        "speaker": "Ross",
+        "text": "- That would be good. - Really? No! Go on, it's Paul the wine guy."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0077",
+        "t": [
+          498.896,
+          504.985
+        ],
+        "speaker": "Monica",
+        "text": "Hi, come in. Paul, this is... everybody. Everybody, this is Paul."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0078",
+        "t": [
+          505.027,
+          507.237
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "Paul the wine guy."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0079",
+        "t": [
+          507.321,
+          510.991
+        ],
+        "speaker": "Chandler",
+        "text": "I'm sorry, I didn't catch your name. Paul, was it?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0080",
+        "t": [
+          511.033,
+          512.91
+        ],
+        "speaker": "Monica",
+        "text": "Sit down, two seconds."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0081",
+        "t": [
+          517.164,
+          520.334
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, I just pulled out four eyelashes. That can't be good."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q002",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full video, what emotions does the man in the red overshirt experience?",
+    "options": [],
+    "answer": [
+      "disquietment",
+      "sympathy",
+      "embarrassment"
+    ],
+    "video_name": "friends_g1_2_s01e01_q002_seg1_523.0_567.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 523,
+          "end": 567,
+          "mmss": "8:43.0–9:27.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0082",
+        "t": [
+          523.045,
+          525.255
+        ],
+        "speaker": "Ross",
+        "text": "So Rachel, what are you, uh, what you up to tonight?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0083",
+        "t": [
+          525.339,
+          531.011
+        ],
+        "speaker": "Rachel",
+        "text": "Well, I was kind of suppose to be headed for Aruba on my honeymoon. So, nothing."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0084",
+        "t": [
+          533.013,
+          543.357
+        ],
+        "speaker": "Ross",
+        "text": "Right, you're not even getting your honeymoon. God, no, no. Although, Aruba. This time of year? Talk about your... big lizards."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0085",
+        "t": [
+          547.861,
+          553.867
+        ],
+        "speaker": "Ross",
+        "text": "Anyway, if you, if you don't feel like being alone tonight Uh, Joey and Chandler are coming over to help me put together my, my new furniture."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0086",
+        "t": [
+          553.951,
+          557.162
+        ],
+        "speaker": "Chandler",
+        "text": "Yes, and we're very excited about it."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0087",
+        "t": [
+          557.204,
+          563.21
+        ],
+        "speaker": "Rachel",
+        "text": "Well, actually, thanks but I think I'm just gonna hang out here tonight. - It's been a long day. - Oh, sure. Okay, sure."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0088",
+        "t": [
+          563.251,
+          564.544
+        ],
+        "speaker": "Joey",
+        "text": "Hey, Pheebs, wanna help?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0089",
+        "t": [
+          564.586,
+          567.047
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, I wish I could, but I don't want to."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q003",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the man in the red overshirt change before and after he recognizes his former wife's favorite beer?",
+    "options": [],
+    "answer": {
+      "before": [
+        "fatigue"
+      ],
+      "after": [
+        "sadness",
+        "sensitivity"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e01_q003_seg1_575.1_622.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 575.1,
+          "end": 622.1,
+          "mmss": "9:35.1–10:22.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0090",
+        "t": [
+          575.055,
+          582.104
+        ],
+        "speaker": "Ross",
+        "text": "I'm suppose to attach a brackety thing to the side things using a bunch of these little worm guys."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0091",
+        "t": [
+          583.855,
+          591.154
+        ],
+        "speaker": "Ross",
+        "text": "I have no brackety thing. I see no worm guys whatsoever. And I cannot feel my legs."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0092",
+        "t": [
+          593.198,
+          596.994
+        ],
+        "speaker": "Chandler",
+        "text": "- What's this? - I have no idea."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0093",
+        "t": [
+          599.287,
+          601.415
+        ],
+        "speaker": "Joey",
+        "text": "- Done with the bookcase. - All finished."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0094",
+        "t": [
+          605.252,
+          607.421
+        ],
+        "speaker": "Ross",
+        "text": "This was Carol's favorite beer."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0095",
+        "t": [
+          609.339,
+          612.092
+        ],
+        "speaker": "Ross",
+        "text": "She always drank it out of the can. I should have known."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0096",
+        "t": [
+          613.427,
+          620.809
+        ],
+        "speaker": "Joey",
+        "text": "Ross, let me ask you a question. She got the furniture, the stereo, the good TV. What did you get?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0097",
+        "t": [
+          620.892,
+          622.144
+        ],
+        "speaker": "Ross",
+        "text": "You guys."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q004",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the emotional state of the man in the red overshirt changes during and after the man in black's ice-cream pep talk?",
+    "options": [
+      "A. He remains fearful and sad throughout; the pep talk has no visible effect on his mood.",
+      "B. His fear and sadness ease into brief, rueful amusement; he seems somewhat more accepting but remains troubled rather than fully reassured.",
+      "C. His fear and sadness give way to clear relief and optimism; he becomes confident that he is ready to move on.",
+      "D. His sadness turns into embarrassment and irritation; he grows more uncomfortable and rejects the man's attempt to reassure him."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e01_q004_seg1_676.4_728.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 676.4,
+          "end": 728.3,
+          "mmss": "11:16.4–12:08.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0105",
+        "t": [
+          676.364,
+          689.503
+        ],
+        "speaker": "Ross",
+        "text": "You know what scariest part is? What if there's only one woman for everybody, you know? I mean, what if you get one woman, and that's it? Unfortunately, in my case, there was only one woman... for her."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0106",
+        "t": [
+          689.544,
+          716.655
+        ],
+        "speaker": "Joey",
+        "text": "What are you talking about? One woman. That's like saying, there's only one flavor of ice cream for you. Let me tell you something, Ross. There's lots of flavors out there. There's Rocky road, and Cookie dough and bing Cherry vanilla. You could get them with jimmies, or nuts, or whipped cream. This is the best thing that ever happened to you. You got married. You were like, what? Eight?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0107",
+        "t": [
+          718.949,
+          722.744
+        ],
+        "speaker": "Joey",
+        "text": "Welcome back to the world. Grab a spoon!"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0108",
+        "t": [
+          722.828,
+          726.081
+        ],
+        "speaker": "Ross",
+        "text": "I honestly don't know if I'm hungry or horny."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0109",
+        "t": [
+          726.164,
+          728.291
+        ],
+        "speaker": "Chandler",
+        "text": "Stay out of my freezer."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired woman in the black jacket over the course of the dinner conversation?",
+    "options": [
+      "A. She begins hopeful and curious, reacts with startled embarrassment and concern to the man's intimate disclosure, and ends warmly and sympathetically receptive to seeing him again.",
+      "B. She begins guardedly curious, reacts with amused disbelief to the disclosure, and ends politely uncertain about whether she wants to see him again.",
+      "C. She begins hopeful and curious, becomes disappointed and suspicious after the disclosure, and ends emotionally distant despite agreeing to see him again.",
+      "D. She begins playfully confident, responds to the disclosure with sympathy but little surprise, and ends embarrassed and reluctant to see him again."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e01_q005_seg1_730.8_799.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 730.8,
+          "end": 799.6,
+          "mmss": "12:10.8–13:19.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0110",
+        "t": [
+          730.836,
+          733.505
+        ],
+        "speaker": "Paul",
+        "text": "Ever since she walked out on me, I.."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0111",
+        "t": [
+          734.965,
+          738.718
+        ],
+        "speaker": "Monica",
+        "text": "What? Wh-what? You wanna spell it out with noodles?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0112",
+        "t": [
+          738.76,
+          743.265
+        ],
+        "speaker": "Paul",
+        "text": "No, it's-it's-it's more of a fifth date kind of revelation."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0113",
+        "t": [
+          743.348,
+          746.476
+        ],
+        "speaker": "Monica",
+        "text": "Oh, so, there's gonna be a fifth date?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0114",
+        "t": [
+          748.019,
+          749.646
+        ],
+        "speaker": "Paul",
+        "text": "Isn't there?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0115",
+        "t": [
+          749.729,
+          751.857
+        ],
+        "speaker": "Monica",
+        "text": "Yeah, yeah. I-I think there is."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0116",
+        "t": [
+          753.4,
+          754.86
+        ],
+        "speaker": "Monica",
+        "text": "What were you gonna say?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0117",
+        "t": [
+          756.736,
+          758.446
+        ],
+        "speaker": "Paul",
+        "text": "Well, er, um.."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0118",
+        "t": [
+          760.407,
+          768.665
+        ],
+        "speaker": "Paul",
+        "text": "Ever since she left me, um.. I-I haven't been able to perform.. ...sexually."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0119",
+        "t": [
+          771.334,
+          782.179
+        ],
+        "speaker": "Monica",
+        "text": "Oh, God! Oh, God! I am so.. - I'm so sorry. - It's okay. I know being spit on is probably not what you need right now. Um.. How long?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0120",
+        "t": [
+          782.262,
+          785.432
+        ],
+        "speaker": "Paul",
+        "text": "- Two years. - Wow."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0121",
+        "t": [
+          785.515,
+          788.643
+        ],
+        "speaker": "Monica",
+        "text": "Uh-uh, I'm glad you smashed her watch."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0122",
+        "t": [
+          790.52,
+          794.191
+        ],
+        "speaker": "Paul",
+        "text": "So you still think you, um... might want that fifth date?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0123",
+        "t": [
+          796.985,
+          799.613
+        ],
+        "speaker": "Monica",
+        "text": "Yeah, yeah I do."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q006",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the man in blue evoke in the friends seated in the kitchen as he says goodbye and leaves?",
+    "options": [],
+    "answer": [
+      "engagement",
+      "happiness"
+    ],
+    "video_name": "friends_g1_2_s01e01_q006_seg1_875.6_904.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 875.6,
+          "end": 904,
+          "mmss": "14:35.6–15:04.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0134",
+        "t": [
+          875.605,
+          879.401
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "- Good morning. - Good morning. - Morning. - Morning."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0135",
+        "t": [
+          879.484,
+          881.736
+        ],
+        "speaker": "Joey",
+        "text": "- Morning. - Morning, Paul."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0136",
+        "t": [
+          881.82,
+          884.281
+        ],
+        "speaker": "Chandler",
+        "text": "- Hello, Paul. - Hi. Paul, is it?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0137",
+        "t": [
+          888.994,
+          891.871
+        ],
+        "speaker": "unknown",
+        "text": "I had really great time last night."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0138",
+        "t": [
+          891.913,
+          894.582
+        ],
+        "speaker": "Paul",
+        "text": "'Thank you. Thank you so much.'"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0139",
+        "t": [
+          894.666,
+          896.793
+        ],
+        "speaker": "Monica",
+        "text": "- We'll talk later. - Yeah."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0140",
+        "t": [
+          902.215,
+          903.967
+        ],
+        "speaker": "Paul",
+        "text": "Thank you."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q007",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the emotions of the dark-haired woman in the chef uniform on the left change as her coworker talks about the wine salesman?",
+    "options": [
+      "A. She begins happy, becomes curious, and ends amused by her coworker's story.",
+      "B. She begins happy, becomes surprised, then quickly relaxes again.",
+      "C. She begins happy, becomes embarrassed, and ends defensive about the wine salesman.",
+      "D. She begins happy, then becomes curious, and finally changes to surprise and concern."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e01_q007_seg1_1018.7_1048.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 1018.7,
+          "end": 1048.2,
+          "mmss": "16:58.7–17:28.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0163",
+        "t": [
+          1018.665,
+          1023.211
+        ],
+        "speaker": "Monica",
+        "text": "- Hey, Monica. - Hey, Frannie, welcome back. How was Florida?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0164",
+        "t": [
+          1023.294,
+          1025.088
+        ],
+        "speaker": "Frannie",
+        "text": "You had sex, didn't you?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0165",
+        "t": [
+          1026.589,
+          1028.675
+        ],
+        "speaker": "Monica",
+        "text": "How do you do that?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0166",
+        "t": [
+          1028.758,
+          1030.885
+        ],
+        "speaker": "Frannie",
+        "text": "So, who?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0167",
+        "t": [
+          1030.969,
+          1032.178
+        ],
+        "speaker": "Monica",
+        "text": "You know Paul?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0168",
+        "t": [
+          1033.138,
+          1036.516
+        ],
+        "speaker": "Frannie",
+        "text": "Paul, the wine guy? Oh-oh-oh, yeah, I know Paul."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0169",
+        "t": [
+          1038.852,
+          1041.354
+        ],
+        "speaker": "Monica",
+        "text": "You mean, you know Paul like I know Paul?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0170",
+        "t": [
+          1041.438,
+          1048.194
+        ],
+        "speaker": "Frannie",
+        "text": "Are you kidding? I take credit for Paul. You know, before me, there was no snap in his turtle for two years."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q008",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman carrying shopping bags throughout the interaction?",
+    "options": [
+      "A. She is excited about her new boots, becomes embarrassed when her dependence on her father is exposed, and grows nervous when asked to cut up her credit cards.",
+      "B. She is excited about her new boots, becomes angry when her spending is criticized, and ends proud to give up her credit cards.",
+      "C. She is worried about her failed interviews, becomes amused when her father is mentioned, and remains unconcerned about her credit cards.",
+      "D. She is proud of her new boots, is barely affected by questions about money, and ends resentful of her friends' pressure."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e01_q008_seg1_1093.3_1180.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 1093.3,
+          "end": 1180.8,
+          "mmss": "18:13.3–19:40.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0179",
+        "t": [
+          1093.323,
+          1094.324
+        ],
+        "speaker": "Rachel",
+        "text": "Guess what?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0180",
+        "t": [
+          1094.407,
+          1095.408
+        ],
+        "speaker": "Ross",
+        "text": "You gotta job?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0181",
+        "t": [
+          1095.492,
+          1098.244
+        ],
+        "speaker": "Rachel",
+        "text": "Are you kidding? I'm trained for nothing."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0182",
+        "t": [
+          1099.996,
+          1101.956
+        ],
+        "speaker": "Rachel",
+        "text": "I was laughed out of 12 interviews today."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0183",
+        "t": [
+          1102.04,
+          1103.75
+        ],
+        "speaker": "Chandler",
+        "text": "And yet you're surprisingly upbeat."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0184",
+        "t": [
+          1103.833,
+          1109.714
+        ],
+        "speaker": "Rachel",
+        "text": "Well, you would be, too if you found Joan and David boots on sale 50 percent off."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0185",
+        "t": [
+          1109.756,
+          1111.633
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, how well you know me."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0186",
+        "t": [
+          1112.634,
+          1118.014
+        ],
+        "speaker": "Rachel",
+        "text": "They're my new.. ...I-don't-need-a-job, I-don't-need-my-parents I've-got-great-boots boots."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0187",
+        "t": [
+          1119.349,
+          1120.725
+        ],
+        "speaker": "Monica",
+        "text": "How did you pay for them?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0188",
+        "t": [
+          1120.767,
+          1121.893
+        ],
+        "speaker": "Rachel",
+        "text": "A credit card."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0189",
+        "t": [
+          1121.935,
+          1124.27
+        ],
+        "speaker": "Monica",
+        "text": "And-and who pays for that?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0190",
+        "t": [
+          1124.354,
+          1126.272
+        ],
+        "speaker": "Rachel",
+        "text": "Um, my father."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0191",
+        "t": [
+          1128.525,
+          1130.902
+        ],
+        "speaker": "Monica",
+        "text": "'Come on, you can't live off your parents your whole life.'"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0192",
+        "t": [
+          1130.944,
+          1133.905
+        ],
+        "speaker": "Rachel",
+        "text": "I know, that, that's why I was getting married."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0193",
+        "t": [
+          1135.24,
+          1160.682
+        ],
+        "speaker": "Phoebe",
+        "text": "Give her a break, it's hard being on your own for the first time. - Thank you. - You're welcome. I remember when I first came into this city, I was 14. My mom had just killed herself and my stepdad was back in prison. 'I got here and didn't know anybody.' And I ended up living with this albino guy who was cleaning windshields outside port authority and then he killed himself.. And then I found aroma therapy. So, believe me, I know exactly how you feel."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0194",
+        "t": [
+          1164.561,
+          1169.816
+        ],
+        "speaker": "Ross",
+        "text": "The word you're looking for is.. \"...anyway..\""
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0195",
+        "t": [
+          1173.278,
+          1174.237
+        ],
+        "speaker": "Monica",
+        "text": "Alright. You ready?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0196",
+        "t": [
+          1174.32,
+          1176.573
+        ],
+        "speaker": "Rachel",
+        "text": "- I don't think so. - Oh, come on."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0197",
+        "t": [
+          1176.656,
+          1177.991
+        ],
+        "speaker": "Ross",
+        "text": "Cut. Cut."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0198",
+        "t": [
+          1178.032,
+          1180.827
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "'Cut. Cut. Cut. Cut. Cut.'"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q009",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full video, what emotions does the woman in black experience?",
+    "options": [],
+    "answer": [
+      "happiness",
+      "peace"
+    ],
+    "video_name": "friends_g1_2_s01e01_q009_seg1_1231.7_1297.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 1231.7,
+          "end": 1297.8,
+          "mmss": "20:31.7–21:37.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0209",
+        "t": [
+          1231.711,
+          1233.63
+        ],
+        "speaker": "unknown",
+        "text": "- Hmm. - 'Hmm.'"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0210",
+        "t": [
+          1233.713,
+          1235.048
+        ],
+        "speaker": "Ross",
+        "text": "- Hmm. Oh, no. - Oh, sorry."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0211",
+        "t": [
+          1235.131,
+          1239.052
+        ],
+        "speaker": "Rachel",
+        "text": "- Oh, no, no. Go. Go-go. - No, have it, really. - I don't want. - Split it? - Okay. - Okay."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0212",
+        "t": [
+          1242.221,
+          1243.389
+        ],
+        "speaker": "unknown",
+        "text": "Thanks."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0213",
+        "t": [
+          1243.473,
+          1249.27
+        ],
+        "speaker": "Ross",
+        "text": "You probably didn't know this but back in high school I had a.. ...major crush on you."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0214",
+        "t": [
+          1250.647,
+          1252.065
+        ],
+        "speaker": "Rachel",
+        "text": "I knew."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0215",
+        "t": [
+          1252.106,
+          1253.358
+        ],
+        "speaker": "Ross",
+        "text": "You did? Oh."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0216",
+        "t": [
+          1255.485,
+          1259.197
+        ],
+        "speaker": "Ross",
+        "text": "I always figured you just thought I was Monica's geeky older brother."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0217",
+        "t": [
+          1259.238,
+          1260.907
+        ],
+        "speaker": "Rachel",
+        "text": "- I did. - Oh."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0218",
+        "t": [
+          1265.745,
+          1271.25
+        ],
+        "speaker": "Ross",
+        "text": "Listen, do you think and try not to let my intense vulnerability become any kind of a factor here"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0219",
+        "t": [
+          1273.086,
+          1276.255
+        ],
+        "speaker": "Ross",
+        "text": "but you think it would be okay if I asked you out sometime maybe?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0220",
+        "t": [
+          1278.424,
+          1282.095
+        ],
+        "speaker": "Rachel",
+        "text": "Yeah. Maybe."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0221",
+        "t": [
+          1283.221,
+          1284.347
+        ],
+        "speaker": "Ross",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0222",
+        "t": [
+          1289.602,
+          1291.688
+        ],
+        "speaker": "Ross",
+        "text": "Okay, maybe I will."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0223",
+        "t": [
+          1295.4,
+          1297.777
+        ],
+        "speaker": "Rachel",
+        "text": "- Alright. Goodnight. - Goodnight."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional changes the woman in the wedding dress goes through during and after her phone call?",
+    "options": [
+      "A. She starts anxious and apologetic, becomes more confident as she explains herself, and ends relieved when her father accepts her decision.",
+      "B. She starts hopeful, becomes embarrassed when her metaphor fails, changes her mind to avoid conflict, and remains discouraged afterward.",
+      "C. She starts anxious and apologetic, becomes frustrated and defiant as she defends her decision, panics after the call ends, and remains upset afterward.",
+      "D. She starts defensive, becomes angry at her friends for interrupting, directs her frustration at them, and withdraws after the call."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e01_q010_seg1_327.9_444.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 327.9,
+          "end": 444.8,
+          "mmss": "5:27.9–7:24.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0045",
+        "t": [
+          328.767,
+          335.399
+        ],
+        "speaker": "Rachel",
+        "text": "Daddy, I just... I can't marry him. I'm sorry, I just don't love him."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0046",
+        "t": [
+          336.984,
+          338.986
+        ],
+        "speaker": "Rachel",
+        "text": "Well, it matters to me."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0047",
+        "t": [
+          341.655,
+          345.868
+        ],
+        "speaker": "Chandler",
+        "text": "'Ooh, she should not be wearing those pants.'"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0048",
+        "t": [
+          345.951,
+          348.162
+        ],
+        "speaker": "Joey",
+        "text": "I say, push her down the stairs."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0049",
+        "t": [
+          348.203,
+          349.788
+        ],
+        "speaker": "all",
+        "text": "'Push her down the stairs.'"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0050",
+        "t": [
+          349.83,
+          351.039
+        ],
+        "speaker": "unknown",
+        "text": "Push her down the stairs."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0051",
+        "t": [
+          355.252,
+          372.478
+        ],
+        "speaker": "Rachel",
+        "text": "Come on, Daddy, listen to me. It's like all my life, everyone's always told me \"You're a shoe! 'You're a shoe! You're a shoe! You're a shoe!\"' And then today, I just stopped and said What if I don't wanna be a shoe? What if I want to be a, a purse? You know, or-or-or a hat?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0052",
+        "t": [
+          374.021,
+          378.358
+        ],
+        "speaker": "Rachel",
+        "text": "No, I don't want you to buy me a hat. I'm saying that I am a ha... It's a metaphor, Daddy!"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0053",
+        "t": [
+          380.527,
+          382.863
+        ],
+        "speaker": "Ross",
+        "text": "You can see where he'd have trouble."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0054",
+        "t": [
+          385.866,
+          387.534
+        ],
+        "speaker": "Rachel",
+        "text": "Look, Daddy, it's my life."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0055",
+        "t": [
+          389.036,
+          391.872
+        ],
+        "speaker": "Rachel",
+        "text": "Well, maybe I'll just stay here with Monica."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0056",
+        "t": [
+          394.625,
+          397.294
+        ],
+        "speaker": "Monica",
+        "text": "Well, I guess we've established she's staying here with Monica."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0057",
+        "t": [
+          398.921,
+          400.881
+        ],
+        "speaker": "Rachel",
+        "text": "Well, maybe that's my decision."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0058",
+        "t": [
+          402.382,
+          407.012
+        ],
+        "speaker": "Rachel",
+        "text": "Well, maybe I don't need your money. Wait! Wait! I said maybe!"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0059",
+        "t": [
+          414.144,
+          419.233
+        ],
+        "speaker": "Monica",
+        "text": "- Okay, just breathe. That's it. - Okay. Just try to think of nice, calm things."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0060",
+        "t": [
+          431.745,
+          433.247
+        ],
+        "speaker": "Rachel",
+        "text": "I'm all better now."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0061",
+        "t": [
+          435.415,
+          436.542
+        ],
+        "speaker": "Phoebe",
+        "text": "I helped."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0062",
+        "t": [
+          439.127,
+          444.174
+        ],
+        "speaker": "Monica",
+        "text": "Okay, look, this is probably for the best, you know? Independence. Taking control of your life."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q011",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full video, what emotions does the woman in the white top experience?",
+    "options": [],
+    "answer": [
+      "anger",
+      "sadness",
+      "suffering"
+    ],
+    "video_name": "friends_g1_2_s01e01_q011_seg1_1051.0_1088.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 1051.0,
+          "end": 1088.3,
+          "mmss": "17:31.0–18:08.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0171",
+        "t": [
+          1051.364,
+          1053.867
+        ],
+        "speaker": "Joey",
+        "text": "Of course, it was a line."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0172",
+        "t": [
+          1053.95,
+          1056.911
+        ],
+        "speaker": "Monica",
+        "text": "Why! Why, why would anybody do something like that?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0173",
+        "t": [
+          1056.995,
+          1062.083
+        ],
+        "speaker": "Ross",
+        "text": "I assume we're looking for an answer more sophisticated than \"to get you into bed.\""
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0174",
+        "t": [
+          1063.626,
+          1071.676
+        ],
+        "speaker": "Monica",
+        "text": "Is it me? Is it like I have some sort of.. ...beacon that only dogs and men with severe emotional problems can hear?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0175",
+        "t": [
+          1071.718,
+          1073.928
+        ],
+        "speaker": "Phoebe",
+        "text": "Alright, come here, give me your feet."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0176",
+        "t": [
+          1081.186,
+          1083.188
+        ],
+        "speaker": "Monica",
+        "text": "I just thought he was nice, you know?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0177",
+        "t": [
+          1085.69,
+          1088.234
+        ],
+        "speaker": "Joey",
+        "text": "I can't believe you didn't know it was a line."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q012",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the group's teasing about her dinner plans affect the dark-haired woman in the cream jacket?",
+    "options": [
+      "A. It reassures her that the dinner is casual, so she becomes more relaxed and willing to discuss it.",
+      "B. It embarrasses her into admitting that she is excited about the date.",
+      "C. It makes her defensive and mildly exasperated, leading her to insist that the dinner is not a date.",
+      "D. It makes her feel hurt and angry, causing her to stop the conversation and withdraw."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e01_q012_seg1_49.4_77.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 49.4,
+          "end": 77.3,
+          "mmss": "0:49.4–1:17.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0001",
+        "t": [
+          49.947,
+          52.867
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "There's nothing to tell. It's just some guy I work with."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0002",
+        "t": [
+          52.908,
+          57.913
+        ],
+        "speaker": "Man in a black leather jacket",
+        "text": "Come on, you're going out with the guy. There's gotta be something wrong with him."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0003",
+        "t": [
+          57.997,
+          60.207
+        ],
+        "speaker": "Man in a black-and-white shirt",
+        "text": "So does he have a hump? A hump and a hairpiece?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0004",
+        "t": [
+          62.46,
+          68.632
+        ],
+        "speaker": "Blonde woman in a denim jacket",
+        "text": "Wait, does he eat chalk? Just 'cause I don't want her to go through what I went through with Carl."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0005",
+        "t": [
+          68.716,
+          74.763
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "Okay, everybody relax. This is not even a date. It's just two people going out to dinner and not having sex."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0006",
+        "t": [
+          74.847,
+          76.849
+        ],
+        "speaker": "Man in a black-and-white shirt",
+        "text": "Sounds like a date to me."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q013",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the navy jacket as he talks with his friends about his breakup?",
+    "options": [
+      "A. He starts sad, becomes embarrassed by what he failed to notice, and ends more willing to accept being single.",
+      "B. He starts angry, gradually calms down, and ends amused and relieved to be single.",
+      "C. He starts sad, becomes irritated by his friends' advice, and ends resigned to moving on alone.",
+      "D. He starts devastated, then becomes angry and defensive, and ends distressed about being single."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e01_q013_seg1_115.5_213.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 115.5,
+          "end": 213,
+          "mmss": "1:55.5–3:33.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0013",
+        "t": [
+          116.096,
+          117.056
+        ],
+        "speaker": "Man in a navy jacket over a red shirt",
+        "text": "Hi."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0014",
+        "t": [
+          118.933,
+          121.769
+        ],
+        "speaker": "Man in a black leather jacket",
+        "text": "This guy says, 'Hello,' I want to kill myself."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0015",
+        "t": [
+          121.81,
+          123.187
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "You okay, sweetie?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0016",
+        "t": [
+          123.27,
+          130.194
+        ],
+        "speaker": "Man in a navy jacket over a red shirt",
+        "text": "I just feel like someone reached down my throat, grabbed my small intestine, pulled it out of my mouth and tied it around my neck."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0018",
+        "t": [
+          133.614,
+          134.782
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "Carol moved her stuff out today."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0022",
+        "t": [
+          142.873,
+          154.802
+        ],
+        "speaker": "Man in a navy jacket over a red shirt",
+        "text": "Stop cleansing my aura. Just leave my aura alone, okay? I'll be fine. Really, everyone, I hope she'll be very happy."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0023",
+        "t": [
+          154.885,
+          155.928
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "No, you don't."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0024",
+        "t": [
+          155.97,
+          157.846
+        ],
+        "speaker": "Man in a navy jacket over a red shirt",
+        "text": "To hell with her, she left me!"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0025",
+        "t": [
+          159.139,
+          161.559
+        ],
+        "speaker": "Man in a black leather jacket",
+        "text": "And you never knew she was a lesbian."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0026",
+        "t": [
+          165.521,
+          174.655
+        ],
+        "speaker": "Man in a navy jacket over a red shirt",
+        "text": "Why does everyone keep fixating on that? She didn't know, how should I know?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0029",
+        "t": [
+          184.999,
+          195.884
+        ],
+        "speaker": "Man in a black leather jacket",
+        "text": "You're feeling a lot of pain right now. You're angry. You're hurting. Can I tell you what the answer is? Strip joints!"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0030",
+        "t": [
+          197.678,
+          200.014
+        ],
+        "speaker": "Man in a black leather jacket",
+        "text": "Come on, you're single. Have some hormones."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0031",
+        "t": [
+          200.097,
+          205.686
+        ],
+        "speaker": "Man in a navy jacket over a red shirt",
+        "text": "But I don't want to be single. I just want to be married again."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0032",
+        "t": [
+          209.815,
+          212.276
+        ],
+        "speaker": "Man in a black-and-white shirt",
+        "text": "And I just won a million dollars."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e01_q014",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman in the wedding dress?",
+    "options": [
+      "A. She starts anxious and hesitant, becomes more animated as she tells her story, and ends embarrassed when the woman mentions not being invited.",
+      "B. She starts ashamed, becomes angry at the man she left, and ends defensive about her decision.",
+      "C. She starts tense, becomes amused by her realization, and ends relieved that she is welcome.",
+      "D. She starts excited about leaving, becomes afraid she made a mistake, and ends determined to return."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e01_q014_seg1_243_310.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E01"
+      ],
+      "segments": [
+        {
+          "ep": "S01E01",
+          "start": 243,
+          "end": 310,
+          "mmss": "4:03.0–5:10.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E01",
+        "unit_id": "u0039",
+        "t": [
+          248.896,
+          252.816
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "So you want to tell us now, or are we waiting for four wet bridesmaids?"
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0040",
+        "t": [
+          254.526,
+          285.265
+        ],
+        "speaker": "Woman in a wedding dress",
+        "text": "It started about a half-hour before the wedding. I was looking at this gorgeous gravy boat when I realized I was more turned on by it than by the man I was going to marry. Then I got really freaked out, and it hit me how much he looks like Mr. Potato Head."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0041",
+        "t": [
+          287.935,
+          303.117
+        ],
+        "speaker": "Woman in a wedding dress",
+        "text": "I had to get out of there. I didn't know where to go, and even though we had drifted apart, you're the only person I knew who lived here in the city."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0042",
+        "t": [
+          303.158,
+          304.993
+        ],
+        "speaker": "Dark-haired woman in a cream jacket",
+        "text": "Who wasn't invited to the wedding."
+      },
+      {
+        "ep": "S01E01",
+        "unit_id": "u0043",
+        "t": [
+          305.077,
+          308.038
+        ],
+        "speaker": "Woman in a wedding dress",
+        "text": "I was kind of hoping that wouldn't be an issue."
+      }
+    ]
+  }
+]

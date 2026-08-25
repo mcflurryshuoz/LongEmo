@@ -1,0 +1,92 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e10_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Leonard appear most irritated?",
+    "options": [
+      "A. Sheldon knocks on Leonard's bedroom door for the first time to discuss the lie he told Penny.",
+      "B. Sheldon knocks on Leonard's bedroom door a second time to continue discussing the lie.",
+      "C. Toby arrives at the apartment to pose as Sheldon's cousin.",
+      "D. Penny invites Leonard to her apartment to watch a recording of her performance."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e10_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Sheldon appear most uneasy?",
+    "options": [
+      "A. Sheldon knocks on Leonard's bedroom door for the first time to discuss their lie.",
+      "B. Sheldon knocks on Leonard's bedroom door a second time to raise another problem with their lie.",
+      "C. Sheldon introduces Toby at the apartment as the person hired to play his cousin Leo.",
+      "D. Penny invites Leonard to her apartment to watch a recording of her performance."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e10_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From Leonard's original excuse through Toby's performance as Leo, which description best captures Sheldon's emotional trajectory while maintaining the lie?",
+    "options": [
+      "A. He begins uneasy, repeatedly shifts between confidence in his plan and anxiety over new flaws, and ends angry and uneasy about Toby's performance.",
+      "B. He begins uneasy, repeatedly shifts between confidence in his plan and anxiety over new flaws, and ends relieved and amused by Toby's performance.",
+      "C. He begins uneasy, becomes increasingly calm and confident as he revises the plan, and ends angry and uneasy about Toby's performance.",
+      "D. He begins uneasy and guilty, becomes embarrassed by his plan, grows angry when he finds another flaw, and ends relieved when Toby takes control."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e10_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Leonard's emotional trajectory as the lie told to Penny develops across the episode?",
+    "options": [
+      "A. He becomes increasingly confused and irritated as Sheldon expands the lie, and ends uneasy and resigned.",
+      "B. He becomes increasingly impressed and amused as Sheldon expands the lie, and ends relieved and content.",
+      "C. He becomes increasingly anxious and guilty as the lie expands, and ends angry and determined to confess.",
+      "D. He remains calm as Sheldon expands the lie, and ends proud and satisfied with how well it works."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e10_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across Penny's reactions to the changing excuse, the intervention story, and meeting \"Leo,\" which description best captures her awareness of the deception?",
+    "options": [
+      "A. She recognizes the lie early and plays along because she finds it amusing.",
+      "B. She notices inconsistencies and becomes suspicious, but avoids confronting Leonard and Sheldon.",
+      "C. She genuinely accepts the story and shows no sign that she realizes it is fabricated.",
+      "D. She initially believes the story but realizes the truth during Toby's performance and continues playing along out of sympathy."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E10"
+    ]
+  }
+]

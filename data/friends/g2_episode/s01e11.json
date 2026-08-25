@@ -1,0 +1,87 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most visibly hurt and disappointed?",
+    "options": [
+      "A. When the man is taken away after collapsing outside the newsstand.",
+      "B. When Monica and Phoebe question each other about returning to the hospital.",
+      "C. When Monica and Phoebe are about to leave after speaking with the man once he wakes up.",
+      "D. When Monica and Phoebe compare everything each of them did for the man while he was unconscious."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q002",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "After Monica and Phoebe catch each other visiting the comatose man alone, what increasingly drives Monica to continue visiting him in secret?",
+    "options": [
+      "A. Concern that no one else will take proper care of him.",
+      "B. Lingering guilt over helping cause his accident.",
+      "C. Growing rivalry with Phoebe for the man's attention.",
+      "D. Curiosity about whether he matches the personality she imagined."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe's anger reach its greatest intensity? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when the man casually dismisses them after waking up",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Ross's emotional trajectory across his interactions with Nora?",
+    "options": [
+      "A. He moves from admiration to attraction, then embarrassment, and finally relief.",
+      "B. He moves from admiration to attraction, then anger, and finally regret.",
+      "C. He moves from admiration to discomfort, then embarrassment, and finally regret.",
+      "D. He moves from admiration to attraction, then embarrassment, and finally regret."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e11_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "How does Chandler's conflict with Ross end?",
+    "options": [
+      "A. Chandler is merely polite and keeps his distance.",
+      "B. They reconcile, but Chandler remains guarded.",
+      "C. Chandler remains resentful and refuses to reconcile.",
+      "D. They reconcile genuinely and comfortably."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E11"
+    ]
+  }
+]

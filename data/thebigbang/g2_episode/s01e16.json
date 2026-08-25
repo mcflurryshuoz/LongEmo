@@ -1,0 +1,141 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Leonard appear most startled and anxious?",
+    "options": [
+      "A. While eating with his friends at the restaurant after Penny mentions his birthday.",
+      "B. While playing a video game against the boy from Copenhagen.",
+      "C. When Howard's peanut allergy reaction suddenly becomes real and the medical staff rush to treat him.",
+      "D. When Penny kisses him after the missed birthday party."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Raj appear happiest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "while enjoying Leonard's birthday party",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Penny appear most frustrated?",
+    "options": [
+      "A. When she asks the group to stop playing their game at the restaurant.",
+      "B. When Sheldon continues objecting to Leonard's surprise party.",
+      "C. When Sheldon keeps helping customers at the electronics store instead of leaving with her.",
+      "D. When Howard tells her that he cannot keep Leonard at the hospital much longer."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Penny's effort to give Leonard his first birthday party, which description best captures her main emotional trajectory?",
+    "options": [
+      "A. She begins excited and determined to throw him a party, grows frustrated by the delays, and ends relieved and proud.",
+      "B. She begins excited and determined to throw him a party, grows anxious and frustrated as the plan falls behind, and ends disappointed but affectionate.",
+      "C. She begins excited about the party, gradually becomes uncertain about the plan, and ends disappointed and resentful.",
+      "D. She begins excited and confident, remains calm as problems arise, and ends surprised and embarrassed."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q005",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Howard appear most frightened and distressed?",
+    "options": [
+      "A. When his attempt to lure Leonard away with the Blade Runner screening fails.",
+      "B. When the nurse refuses to help him fake an allergic reaction.",
+      "C. When Penny insists that he keep Leonard at the hospital longer.",
+      "D. When his peanut allergy actually takes effect and he pleads for medical help."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q006",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From agreeing to keep Leonard away from the apartment until they return for the party, which description best captures Howard's main emotional trajectory?",
+    "options": [
+      "A. He starts relaxed and confident that he can keep Leonard occupied, becomes increasingly anxious as his attempts fail, grows desperate to preserve the plan, and ends exhausted but relieved.",
+      "B. He starts relaxed and confident that he can keep Leonard occupied, becomes irritated with Leonard, grows resentful toward Penny, and ends embarrassed and withdrawn.",
+      "C. He begins worried about the plan, becomes confident after reaching the hospital, grows excited when his reaction becomes real, and ends disappointed with Leonard.",
+      "D. He begins eager to help, becomes briefly anxious, then loses interest in the plan and ends calm but emotionally distant."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q007",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Sheldon's attempt to choose a birthday present for Leonard, which description best captures his main emotional trajectory?",
+    "options": [
+      "A. He begins dismissive, becomes reluctantly cooperative, remains relaxed while choosing the gift, and ends relieved to leave the store.",
+      "B. He begins resistant, becomes anxious about spending money, grows resentful toward Penny, and ends embarrassed by his choice.",
+      "C. He begins dismissive, becomes reluctantly cooperative, grows earnest and anxious about choosing correctly, and ends absorbed and self-assured while helping customers.",
+      "D. He begins enthusiastic, becomes confused by Penny's advice, grows impatient with the other customers, and ends satisfied with the party."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e16_q008",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across the episode, why does Penny kiss Leonard after the birthday party fails?",
+    "options": [
+      "A. She wants to thank Leonard for taking care of Howard at the hospital.",
+      "B. Leonard has never had a birthday party before.",
+      "C. She wants to make it clear that she is ready to begin a romantic relationship with Leonard.",
+      "D. She wants to offer Leonard warm comfort after he misses the party."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E16"
+    ]
+  }
+]

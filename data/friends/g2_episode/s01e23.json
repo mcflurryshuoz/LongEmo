@@ -1,0 +1,105 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "At what moment does Ross appear most anxious in the episode? Answer with one short event phrase.",
+    "options": [],
+    "answer": "when he is trapped in the hospital closet",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Ross appear most angry during his conflicts with Susan?",
+    "options": [
+      "A. When he hears that Susan wanted a Chunky at the gift shop.",
+      "B. When Rachel jokes with him while everyone is waiting at the hospital.",
+      "C. When he and Susan argue over the baby's name in Carol's room.",
+      "D. When he waits for Carol and Susan to arrive at the hospital."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Joey appear most relieved?",
+    "options": [
+      "A. When he watches the basketball game with Lydia in the waiting area.",
+      "B. When the nurse takes over after Lydia's water breaks.",
+      "C. When he returns to the waiting area after helping with the delivery.",
+      "D. When he comes back carrying a gift and watches Lydia from the doorway."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Rachel appear most uncomfortable?",
+    "options": [
+      "A. When she first introduces herself to Dr. Franzblau.",
+      "B. When she jokes with Ross and Chandler tells her that she has to pick her moments.",
+      "C. When she is in Carol's delivery room with the others during labor.",
+      "D. When Dr. Franzblau explains why his work makes dating difficult."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Rachel's interactions with Dr. Franzblau, which description best captures her emotional trajectory?",
+    "options": [
+      "A. She begins amused and attracted, becomes self-conscious when others notice her interest, then regains confidence and ends politely reserved.",
+      "B. She begins attracted, grows impatient while waiting for him, becomes encouraged by their mutual flirting, and ends disappointed but still interested.",
+      "C. She begins attracted, grows more excited as they flirt, and finally becomes uncomfortable and loses interest.",
+      "D. She begins casually curious, becomes more attracted during their conversations, then feels sympathy for his dating difficulties and ends warm but uncertain."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E23"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e23_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Why does Joey quietly leave after returning with a gift?",
+    "options": [
+      "A. He feels replaced after hearing Lydia refer to him only as her helper.",
+      "B. He feels reassured by Lydia's reunion with the baby's father and chooses not to interrupt them.",
+      "C. He is still angry that Lydia asked him to leave and decides not to give her the gift.",
+      "D. He feels uncomfortable around the baby's father and leaves to avoid being drawn into their conversation."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E23"
+    ]
+  }
+]

@@ -1,0 +1,1603 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q001",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the blonde woman in the orange hoodie's sudden entrance and angry outburst evoke in the man with glasses in the gray hoodie holding papers?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "disquietment"
+    ],
+    "video_name": "thebigbang_g1_2_s01e17_q001_seg1_69_102.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 69,
+          "end": 102.2,
+          "mmss": "1:09.0–1:42.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0011",
+        "t": [
+          69.086,
+          72.297
+        ],
+        "speaker": "Leonard",
+        "text": "- I need to use your window. - Oh, hey. Yeah, no, sure, go ahead."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0012",
+        "t": [
+          73.715,
+          76.718
+        ],
+        "speaker": "unknown",
+        "text": "Hey, jerk face. You forgot your iPod."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0013",
+        "t": [
+          78.595,
+          84.685
+        ],
+        "speaker": "Penny",
+        "text": "- What's going on? - I'll tell you what's going on. That stupid, self-centered bastard wrote about our sex life in his blog."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0014",
+        "t": [
+          87.27,
+          90.691
+        ],
+        "speaker": "Penny",
+        "text": "Drop dead, you stupid, self-centered bastard."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0015",
+        "t": [
+          92.275,
+          93.777
+        ],
+        "speaker": "Penny",
+        "text": "Thank you."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0016",
+        "t": [
+          96.863,
+          98.407
+        ],
+        "speaker": "Sheldon",
+        "text": "Okay, where were we?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0017",
+        "t": [
+          98.949,
+          102.16
+        ],
+        "speaker": "Howard",
+        "text": "Not now. I have a blog to find."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q002",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the shorter man in the red-and-blue striped sweater experience?",
+    "options": [],
+    "answer": [
+      "engagement",
+      "pleasure"
+    ],
+    "video_name": "thebigbang_g1_2_s01e17_q002_seg1_5.8_66.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 5.8,
+          "end": 66.0,
+          "mmss": "0:05.8–1:06.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0001",
+        "t": [
+          5.897,
+          6.94
+        ],
+        "speaker": "Howard",
+        "text": "No, it's:"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0002",
+        "t": [
+          14.615,
+          16.366
+        ],
+        "speaker": "Howard",
+        "text": "What's this?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0003",
+        "t": [
+          17.451,
+          31.715
+        ],
+        "speaker": "Sheldon",
+        "text": "That's what you did. I assumed, as in a number of languages, that the gesture was part of the phrase. - Well, it's not. - Why am I supposed to know that? As teacher, it's your obligation to separate your personal idiosyncrasies... From the subject matter."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0004",
+        "t": [
+          32.257,
+          39.139
+        ],
+        "speaker": "Howard",
+        "text": "- I'm glad you decided to learn mandarin. - —why? Once you're fluent, you'll have a billion more people to annoy instead of me."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0005",
+        "t": [
+          40.766,
+          41.808
+        ],
+        "speaker": "unknown",
+        "text": "Hey."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0006",
+        "t": [
+          44.436,
+          47.731
+        ],
+        "speaker": "Howard",
+        "text": "You just called Leonard a syphilitic donkey."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0007",
+        "t": [
+          48.69,
+          52.319
+        ],
+        "speaker": "Sheldon",
+        "text": "My apologies, Leonard. I'm only as good as my teacher."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0008",
+        "t": [
+          53.195,
+          54.529
+        ],
+        "speaker": "Leonard",
+        "text": "Why are you learning Chinese?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0009",
+        "t": [
+          54.821,
+          61.286
+        ],
+        "speaker": "Sheldon",
+        "text": "I believe the szechuan palace has been passing off orange chicken... As tangerine chicken, and I intend to confront them."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0010",
+        "t": [
+          62.245,
+          65.999
+        ],
+        "speaker": "Leonard",
+        "text": "If I were you, I'd be more concerned about what they're passing off as chicken."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q003",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the repeated crude suggestions from the shorter man in the red-and-blue striped sweater evoke in the man with glasses in the gray hoodie?",
+    "options": [],
+    "answer": [
+      "annoyance",
+      "disapproval"
+    ],
+    "video_name": "thebigbang_g1_2_s01e17_q003_seg1_212.4_249.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 212.4,
+          "end": 249.8,
+          "mmss": "3:32.4–4:09.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0031",
+        "t": [
+          212.437,
+          214.022
+        ],
+        "speaker": "Leonard",
+        "text": "I'm not going to do that, Howard."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0032",
+        "t": [
+          214.189,
+          217.984
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm not aware of any social convention that requires you to intervene at all."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0033",
+        "t": [
+          218.151,
+          219.945
+        ],
+        "speaker": "Leonard",
+        "text": "What about damsel in distress?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0034",
+        "t": [
+          220.111,
+          226.868
+        ],
+        "speaker": "Sheldon",
+        "text": "Twelfth-century code of chivalry? Not exactly current. You'd also have to be knighted for that to apply."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0035",
+        "t": [
+          227.702,
+          229.955
+        ],
+        "speaker": "Leonard",
+        "text": "I don't care. She's upset, I'm going over there."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0036",
+        "t": [
+          230.121,
+          233.5
+        ],
+        "speaker": "Howard",
+        "text": "Remember to sit on your hands a bit so they're warm."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0037",
+        "t": [
+          234.584,
+          237.921
+        ],
+        "speaker": "Leonard",
+        "text": "I'm her friend. I'm not going to take advantage of her vulnerability."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0038",
+        "t": [
+          238.922,
+          246.137
+        ],
+        "speaker": "Howard",
+        "text": "So you're saying, if in the depths of despair she throws herself at you... And demands you take her right there, right now, you'll just walk away?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0039",
+        "t": [
+          247.097,
+          249.766
+        ],
+        "speaker": "Leonard",
+        "text": "I said I'm her friend, not her gay friend."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q004",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the blonde woman in the orange hoodie experience?",
+    "options": [],
+    "answer": [
+      "sadness",
+      "embarrassment",
+      "suffering"
+    ],
+    "video_name": "thebigbang_g1_2_s01e17_q004_seg1_254.6_334.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 254.6,
+          "end": 334.7,
+          "mmss": "4:14.6–5:34.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0040",
+        "t": [
+          254.604,
+          256.606
+        ],
+        "speaker": "unknown",
+        "text": "Hey, I know you said you didn't wanna talk..."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0041",
+        "t": [
+          256.773,
+          258.316
+        ],
+        "speaker": "Penny",
+        "text": "- I don't. - Okay, sorry."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0042",
+        "t": [
+          258.942,
+          261.403
+        ],
+        "speaker": "Leonard",
+        "text": "- Wait. - Wait. Did you say wait?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0043",
+        "t": [
+          263.363,
+          268.159
+        ],
+        "speaker": "Penny",
+        "text": "Tell me the truth. Am I just an idiot who picks giant losers?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0044",
+        "t": [
+          268.326,
+          269.786
+        ],
+        "speaker": "Leonard",
+        "text": "No, no."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0045",
+        "t": [
+          269.953,
+          273.498
+        ],
+        "speaker": "Penny",
+        "text": "Okay, so I pick good guys, but turn them into losers?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0046",
+        "t": [
+          273.665,
+          274.708
+        ],
+        "speaker": "Leonard",
+        "text": "Of course not."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0047",
+        "t": [
+          274.875,
+          277.836
+        ],
+        "speaker": "Penny",
+        "text": "Well, it's gotta be one or the other. Which is it?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0048",
+        "t": [
+          283.717,
+          286.094
+        ],
+        "speaker": "Leonard",
+        "text": "I'm sorry. What were the choices again?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0049",
+        "t": [
+          286.261,
+          302.777
+        ],
+        "speaker": "Penny",
+        "text": "I really thought Mike was different. I thought he was sensitive and smart. I mean, not you smart. - Normal non-freaky smart. - Yeah, no, sure. You know, and then he just goes and has to humiliate me... By writing about me on his blog so the entire world can read it."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0050",
+        "t": [
+          302.944,
+          305.03
+        ],
+        "speaker": "Leonard",
+        "text": "Actually, it's not all that easy to find."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0051",
+        "t": [
+          305.196,
+          313.872
+        ],
+        "speaker": "Penny",
+        "text": "Yeah, really? Well, my friends at work found it, my sister found it. Judging by my e-mail, a number of prisoners at the Michigan state penitentiary found it."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0052",
+        "t": [
+          314.039,
+          322.213
+        ],
+        "speaker": "Leonard",
+        "text": "What exactly did this guy write? Not that I need to know the details of your sex life. I just thought... Never mind."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0053",
+        "t": [
+          322.631,
+          334.601
+        ],
+        "speaker": "Penny",
+        "text": "No, you know what? Might as well read it, everybody else has. Go ahead. Oh, god, I just feel so betrayed and embarrassed. I just wanna crawl into a hole and die."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man with glasses in the gray hoodie?",
+    "options": [
+      "A. He starts engaged and confident, becomes surprised and embarrassed, and ends pleased and affectionate.",
+      "B. He starts engaged and confident, becomes surprised and embarrassed, and ends sympathetic and disapproving.",
+      "C. He starts doubtful and embarrassed, becomes confident, and ends sympathetic and disapproving.",
+      "D. He starts engaged and sympathetic, becomes annoyed, and ends disconnected."
+    ],
+    "answer": "B",
+    "video_name": "thebigbang_g1_2_s01e17_q005_seg1_337.7_399.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 337.7,
+          "end": 399,
+          "mmss": "5:37.7–6:39.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0054",
+        "t": [
+          337.771,
+          349.407
+        ],
+        "speaker": "Leonard",
+        "text": "Okay, well, you know, this isn't that bad. It just paints the picture of a very affectionate woman... Who's open to expressing her affection in nontraditional locales."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0055",
+        "t": [
+          349.574,
+          351.409
+        ],
+        "speaker": "Penny",
+        "text": "Oh, god."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0056",
+        "t": [
+          351.576,
+          363.338
+        ],
+        "speaker": "Leonard",
+        "text": "Elevators, parks, movie theaters. Out of curiosity... Is this subway, the transportation system, or subway, the sandwich shop?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0057",
+        "t": [
+          364.464,
+          366.341
+        ],
+        "speaker": "Penny",
+        "text": "Sandwich shop."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0058",
+        "t": [
+          367.509,
+          369.761
+        ],
+        "speaker": "Leonard",
+        "text": "Doesn't that violate the health code or...?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0059",
+        "t": [
+          370.22,
+          372.305
+        ],
+        "speaker": "Penny",
+        "text": "No, at the sub shop, we were only making out."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0060",
+        "t": [
+          372.639,
+          379.02
+        ],
+        "speaker": "Leonard",
+        "text": "Ah, okay. But my point is that you have absolutely no reason to be embarrassed."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0061",
+        "t": [
+          379.938,
+          388.113
+        ],
+        "speaker": "Penny",
+        "text": "Really? Do you think I overreacted? - Maybe a little. - Because I do that, I do overreact. - Maybe I should call Mike and apologize. - No, no."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0062",
+        "t": [
+          388.279,
+          398.957
+        ],
+        "speaker": "Leonard",
+        "text": "No, that would be under-reacting. He did break the implied confidentiality of the bedroom... And in your case, the elevator, parks and fast-food franchise."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q006",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full interaction, how do the emotions of the blonde woman in the orange hoodie change before and after she changes her interpretation of the public blog post?",
+    "options": [],
+    "answer": {
+      "before": [
+        "anger",
+        "disapproval"
+      ],
+      "after": [
+        "affection",
+        "happiness",
+        "anticipation"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e17_q006_seg1_399_438.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 399.0,
+          "end": 438.8,
+          "mmss": "6:39.0–7:18.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0063",
+        "t": [
+          399.124,
+          402.961
+        ],
+        "speaker": "Penny",
+        "text": "Yes, you're right. I should just say I am done with him."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0064",
+        "t": [
+          403.128,
+          404.921
+        ],
+        "speaker": "Leonard",
+        "text": "Yes you should. Go ahead, say it."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0065",
+        "t": [
+          405.547,
+          408.174
+        ],
+        "speaker": "Penny",
+        "text": "But I never gave the man a chance to explain."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0066",
+        "t": [
+          408.883,
+          413.471
+        ],
+        "speaker": "Leonard",
+        "text": "What is there to explain? It's all right here. It's betrayal."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0067",
+        "t": [
+          413.638,
+          422.605
+        ],
+        "speaker": "Penny",
+        "text": "No, you were right the first time. This is a man who loves me... But in his own stupid way was just trying to show people how he feels."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0068",
+        "t": [
+          423.606,
+          426.192
+        ],
+        "speaker": "Leonard",
+        "text": "I'm pretty sure I never said that."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0069",
+        "t": [
+          426.776,
+          429.863
+        ],
+        "speaker": "Penny",
+        "text": "No, you did better than that. You helped me see it on my own."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0070",
+        "t": [
+          430.03,
+          431.406
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, good for me."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0071",
+        "t": [
+          433.45,
+          438.705
+        ],
+        "speaker": "Penny",
+        "text": "- Where are you going? - I'm going over to Mike's. - Leonard, thank you so much. - Oh, sure."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q007",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the tall man in the green shirt experience?",
+    "options": [],
+    "answer": [
+      "annoyance",
+      "disapproval"
+    ],
+    "video_name": "thebigbang_g1_2_s01e17_q007_seg1_454.3_517.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 454.3,
+          "end": 517.0,
+          "mmss": "7:34.3–8:37.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0073",
+        "t": [
+          454.345,
+          460.226
+        ],
+        "speaker": "Sheldon",
+        "text": "Howard, I'm going to need another mandarin lesson. I obviously didn't make my point with those people."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0074",
+        "t": [
+          460.852,
+          465.023
+        ],
+        "speaker": "Howard",
+        "text": "For god's sake, if you don't like tangerine chicken... Don't order tangerine chicken."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0075",
+        "t": [
+          465.19,
+          468.401
+        ],
+        "speaker": "Sheldon",
+        "text": "I like tangerine chicken. I'm just not getting tangerine chicken."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0076",
+        "t": [
+          470.236,
+          472.572
+        ],
+        "speaker": "Leonard",
+        "text": "- Can we please change the subject? - Sure."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0077",
+        "t": [
+          472.989,
+          476.993
+        ],
+        "speaker": "Raj",
+        "text": "Tell us again how you screwed up and got penny back together with her old boyfriend."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0078",
+        "t": [
+          478.036,
+          480.205
+        ],
+        "speaker": "Leonard",
+        "text": "Just roll the dice."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0079",
+        "t": [
+          483.75,
+          487.003
+        ],
+        "speaker": "unknown",
+        "text": "\"Enslaved by warlocks. Stay here till you roll two, four or...\""
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0080",
+        "t": [
+          487.17,
+          495.762
+        ],
+        "speaker": "Leonard",
+        "text": "She was mad at him. She was done with him, the relationship was broken... And I walked over there and I fixed it."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0081",
+        "t": [
+          496.846,
+          499.724
+        ],
+        "speaker": "Howard",
+        "text": "Boy, that story gets better every time you hear it."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0082",
+        "t": [
+          501.101,
+          509.692
+        ],
+        "speaker": "Sheldon",
+        "text": "I thought the first two renditions were far more compelling. Previously, I felt sympathy for the Leonard character. Now I just find him to be whiny and annoying."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0083",
+        "t": [
+          510.86,
+          513.071
+        ],
+        "speaker": "Leonard",
+        "text": "Just eat your tangerine chicken."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0084",
+        "t": [
+          513.238,
+          516.116
+        ],
+        "speaker": "Sheldon",
+        "text": "I'd love to, but I don't have tangerine chicken."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q008",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "What most directly causes the man with glasses in the gray hoodie to become sympathetic? Answer with a brief description of the reason.",
+    "options": [],
+    "answer": "He sees that the blonde woman is crying.",
+    "video_name": "thebigbang_g1_2_s01e17_q008_seg1_537.9_572.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 537.9,
+          "end": 572.5,
+          "mmss": "8:57.9–9:32.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0087",
+        "t": [
+          537.929,
+          539.264
+        ],
+        "speaker": "unknown",
+        "text": "I'm back."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0088",
+        "t": [
+          539.889,
+          543.476
+        ],
+        "speaker": "Penny",
+        "text": "I'm sorry I yelled at you. It's not your fault."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0089",
+        "t": [
+          543.893,
+          544.936
+        ],
+        "speaker": "Leonard",
+        "text": "What happened?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0090",
+        "t": [
+          545.103,
+          548.565
+        ],
+        "speaker": "Penny",
+        "text": "Well, I went over to Mike's to make up with him..."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0091",
+        "t": [
+          548.731,
+          550.733
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, no, I know that part."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0092",
+        "t": [
+          551.234,
+          553.194
+        ],
+        "speaker": "Penny",
+        "text": "But he had already moved on."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0093",
+        "t": [
+          553.57,
+          555.113
+        ],
+        "speaker": "Leonard",
+        "text": "Already? That was quick."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0094",
+        "t": [
+          555.28,
+          560.16
+        ],
+        "speaker": "Penny",
+        "text": "That's what I said to the woman who had her legs wrapped around his neck."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0095",
+        "t": [
+          562.412,
+          564.33
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, penny, I am so sorry."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0096",
+        "t": [
+          564.497,
+          566.749
+        ],
+        "speaker": "Penny",
+        "text": "How could he do that?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0097",
+        "t": [
+          566.916,
+          572.463
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, you know, you did throw an 80-gig iPod... Yeah, no, how could he do that?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde woman in the orange hoodie?",
+    "options": [
+      "A. She starts disquieted and engaged, briefly becomes happy, then grows embarrassed and disconnected, and ends confident.",
+      "B. She starts peaceful and pleased, grows excited, becomes affectionate, and ends peaceful.",
+      "C. She starts confused and embarrassed, becomes confident, grows angry, and ends disconnected.",
+      "D. She starts disquieted and engaged, grows annoyed and sensitive, and ends sad and disapproving."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e17_q009_seg1_650.2_900.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 650.2,
+          "end": 900.2,
+          "mmss": "10:50.2–15:00.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0113",
+        "t": [
+          650.208,
+          652.252
+        ],
+        "speaker": "Sheldon",
+        "text": "Show me your citrus peels."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0114",
+        "t": [
+          657.173,
+          659.092
+        ],
+        "speaker": "Sheldon",
+        "text": "Show me your citrus peels."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0115",
+        "t": [
+          662.804,
+          664.264
+        ],
+        "speaker": "Sheldon",
+        "text": "- Show me... - Sheldon?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0116",
+        "t": [
+          667.308,
+          671.104
+        ],
+        "speaker": "Penny",
+        "text": "I'm sorry. Look, do you have a second?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0117",
+        "t": [
+          671.271,
+          674.023
+        ],
+        "speaker": "Sheldon",
+        "text": "A second what? Pair of undenrvear?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0118",
+        "t": [
+          674.19,
+          677.61
+        ],
+        "speaker": "Penny",
+        "text": "I was just wondering if I could talk to you. It's about Leonard."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0119",
+        "t": [
+          678.111,
+          680.947
+        ],
+        "speaker": "Sheldon",
+        "text": "Why me? Why not Koothrappali or Wolowitz?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0120",
+        "t": [
+          681.114,
+          687.245
+        ],
+        "speaker": "Penny",
+        "text": "Well, raj can't talk to me unless he's drunk. And Wolowitz is, you know, disgusting."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0121",
+        "t": [
+          688.037,
+          690.415
+        ],
+        "speaker": "Sheldon",
+        "text": "Sheldon: Yes, I suppose he is."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0122",
+        "t": [
+          691.541,
+          694.127
+        ],
+        "speaker": "Penny",
+        "text": "All I'm saying is you know Leonard the best."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0123",
+        "t": [
+          694.294,
+          726.868
+        ],
+        "speaker": "Sheldon",
+        "text": "Not necessarily. I'm often surprised by my lack of familiarity with Leonard. Just the other day, I discovered he not only has a loofah, he hides it. Why do you suppose a man would be ashamed of having a loofah? I myself prefer to have my excess epithelial cells slough off naturally... But I don't condemn those who seek to accelerate the process. And until recently, I had no idea that despite his lactose intolerance... He can tolerate small amounts of nonfat ice cream... Without producing a noxious gas... That, I maintain, in the right concentration could be weaponized."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0124",
+        "t": [
+          727.91,
+          730.371
+        ],
+        "speaker": "Penny",
+        "text": "Leonard might come home. Can we talk in my apartment?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0125",
+        "t": [
+          730.913,
+          739.422
+        ],
+        "speaker": "Sheldon",
+        "text": "We're not done? - No. - Eh, why not? We're already through the looking glass anyway."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0126",
+        "t": [
+          743.009,
+          748.514
+        ],
+        "speaker": "Penny",
+        "text": "Okay, so here's the thing. I guess you're aware that Leonard asked me out."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0127",
+        "t": [
+          748.681,
+          756.606
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, he didn't actually say anything. But when he came back to the apartment, he was doing a dance... That brought to mind the happy hippos in fantasia."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0128",
+        "t": [
+          757.273,
+          766.366
+        ],
+        "speaker": "Penny",
+        "text": "Oh, that's nice. Anyhow, the thing I wanted to talk to about is... You know, since Leonard and I have become friends, I was just... Wanna sit down?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0129",
+        "t": [
+          766.908,
+          769.369
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, I wish it were that simple."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0130",
+        "t": [
+          771.037,
+          774.791
+        ],
+        "speaker": "Sheldon",
+        "text": "You see, I don't spend much time here, and so I've never chosen a place to sit."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0131",
+        "t": [
+          775.416,
+          776.876
+        ],
+        "speaker": "Penny",
+        "text": "Vveh, choose."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0132",
+        "t": [
+          777.043,
+          787.22
+        ],
+        "speaker": "Sheldon",
+        "text": "There are a number of options and... I'm really not familiar enough with the cushion densities... Air-flow patterns and dispersion of sunlight to make an informed choice."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0133",
+        "t": [
+          787.387,
+          791.14
+        ],
+        "speaker": "Penny",
+        "text": "Why don't you pick at random, if you don't like it, sit somewhere else next time?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0134",
+        "t": [
+          791.307,
+          798.147
+        ],
+        "speaker": "Sheldon",
+        "text": "No, no, that's crazy. You go ahead and talk while I figure it out."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0135",
+        "t": [
+          799.023,
+          807.073
+        ],
+        "speaker": "Penny",
+        "text": "Okay. Here's the thing. So I've known for a while now that Leonard has had a little crush on me..."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0136",
+        "t": [
+          807.24,
+          814.58
+        ],
+        "speaker": "Sheldon",
+        "text": "A little crush? Well, I suppose so. In the same way menelaus had a little crush on Helen of Troy."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0137",
+        "t": [
+          815.832,
+          817.458
+        ],
+        "speaker": "Penny",
+        "text": "I don't really know who they are..."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0138",
+        "t": [
+          817.625,
+          821.003
+        ],
+        "speaker": "Sheldon",
+        "text": "- Menelaus was the brother of agamemnon... - Yeah, I don't care. Listen."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0139",
+        "t": [
+          821.17,
+          825.758
+        ],
+        "speaker": "Penny",
+        "text": "The point is... Leonard isn't the kind of guy I usually go out with."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0140",
+        "t": [
+          825.925,
+          833.182
+        ],
+        "speaker": "Sheldon",
+        "text": "Leonard isn't the kind of guy anyone usually goes out with. Would you be open to rotating the couch clockwise 30 degrees?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0141",
+        "t": [
+          833.349,
+          841.357
+        ],
+        "speaker": "Penny",
+        "text": "No. What I'm saying is, Leonard might be different in a good way. And obviously, my usual choices have not worked out so well."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0142",
+        "t": [
+          841.524,
+          845.695
+        ],
+        "speaker": "Sheldon",
+        "text": "Your last one worked out well for Koothrappali. He got a free iPod."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0143",
+        "t": [
+          847.238,
+          849.323
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, glare."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0144",
+        "t": [
+          851.033,
+          860.585
+        ],
+        "speaker": "Penny",
+        "text": "If things don't go well with Leonard, I risk losing a really good friend. I mean, he's not looking for a fling. He's the kind that gets into a relationship for, like you would say, light-years."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0145",
+        "t": [
+          860.751,
+          866.674
+        ],
+        "speaker": "Sheldon",
+        "text": "I would not say that. No one would say that. A light-year is a unit of distance, not time."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0146",
+        "t": [
+          866.841,
+          868.885
+        ],
+        "speaker": "Penny",
+        "text": "Thank you for the clarification."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0147",
+        "t": [
+          875.975,
+          885.151
+        ],
+        "speaker": "Sheldon",
+        "text": "Draft. You see, people hear the word \"year\" and they think duration. Foot-pound has the same problem. That's a unit of work, not of weight."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0148",
+        "t": [
+          885.318,
+          890.114
+        ],
+        "speaker": "Penny",
+        "text": "Right. Thanks. - It's a common mistake. - Not the first one I've made today."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0149",
+        "t": [
+          890.573,
+          895.119
+        ],
+        "speaker": "Sheldon",
+        "text": "Okay. I think this will be my seat."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0150",
+        "t": [
+          895.495,
+          900.166
+        ],
+        "speaker": "Penny",
+        "text": "Do you have anything to say that has anything to do... With, you know, what I'm talking about?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e17_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde woman in the orange hoodie?",
+    "options": [
+      "A. She starts happy and anticipating, becomes disquieted and doubtful, and ends sad and disconnected.",
+      "B. She starts doubtful and sad, becomes confident, and ends pleased and happy.",
+      "C. She starts happy and anticipating, becomes disquieted and doubtful, and ends confident and happy.",
+      "D. She starts excited and confident, becomes annoyed and disapproving, and ends disconnected."
+    ],
+    "answer": "C",
+    "video_name": "thebigbang_g1_2_s01e17_q010_seg1_1107.5_1153.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E17"
+      ],
+      "segments": [
+        {
+          "ep": "S01E17",
+          "start": 1107.5,
+          "end": 1153.5,
+          "mmss": "18:27.5–19:13.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E17",
+        "unit_id": "u0182",
+        "t": [
+          1107.54,
+          1109.458
+        ],
+        "speaker": "Leonard",
+        "text": "-Hi."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0183",
+        "t": [
+          1109.625,
+          1112.378
+        ],
+        "speaker": "Penny",
+        "text": "- Come on in. - Thank you."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0184",
+        "t": [
+          1113.838,
+          1114.88
+        ],
+        "speaker": "Leonard",
+        "text": "You look very nice."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0185",
+        "t": [
+          1115.047,
+          1116.549
+        ],
+        "speaker": "Penny",
+        "text": "Thank you. So do you."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0186",
+        "t": [
+          1121.303,
+          1122.888
+        ],
+        "speaker": "Leonard",
+        "text": "I made an 8:00 reservation."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0187",
+        "t": [
+          1123.055,
+          1127.435
+        ],
+        "speaker": "Penny",
+        "text": "Okay, yeah, great. Listen... Maybe we should talk first."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0188",
+        "t": [
+          1129.645,
+          1130.813
+        ],
+        "speaker": "Leonard",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0189",
+        "t": [
+          1132.314,
+          1136.152
+        ],
+        "speaker": "Leonard",
+        "text": "But before you say anything, have you ever heard of schrodinger's cat?"
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0190",
+        "t": [
+          1138.32,
+          1142.241
+        ],
+        "speaker": "Penny",
+        "text": "Actually, I've heard far too much about schrodinger's cat."
+      },
+      {
+        "ep": "S01E17",
+        "unit_id": "u0191",
+        "t": [
+          1150.666,
+          1153.419
+        ],
+        "speaker": "Penny",
+        "text": "All right, the cat's alive. Let's go to dinner."
+      }
+    ]
+  }
+]

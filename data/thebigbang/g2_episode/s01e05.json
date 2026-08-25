@@ -1,0 +1,110 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e05_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Leonard appear happiest?",
+    "options": [
+      "A. At the restaurant, after Penny says that he and Leslie would make a cute couple.",
+      "B. In the apartment, after he and Leslie agree to continue the rehearsal alone.",
+      "C. In the university hallway, after Raj repeats Leslie's description of him.",
+      "D. In the bedroom, when he wakes beside Leslie the next morning."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e05_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Penny appear most triumphant?",
+    "options": [
+      "A. When Leslie introduces herself to Penny at the restaurant.",
+      "B. When Penny meets Leonard at the apartment door and teases him.",
+      "C. When Penny boasts to Sheldon in the apartment that she is often on the other side of the door.",
+      "D. When Penny learns about Leonard and Leslie's relationship during the final meal."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e05_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Leonard appear most anxious?",
+    "options": [
+      "A. When Leonard discusses what Penny might think with Sheldon in the stairwell.",
+      "B. When Leonard defends his actions to Sheldon in the stairwell.",
+      "C. When Leonard runs into Raj and Howard in the university hallway and learns that they know about his private life.",
+      "D. When Leonard listens to Sheldon's story about the Big Boy restaurant."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e05_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Leonard's conversations with Sheldon in the stairwell, which option best describes how Leonard's emotions change?",
+    "options": [
+      "A. From anxiety about Penny's words, to confusion about their meaning, and finally to a false sense of relief from justifying his behavior.",
+      "B. From anger at Penny's words, to confusion about their meaning, and finally to a false sense of relief from justifying his behavior.",
+      "C. From confusion about Penny's words, to anger at their meaning, and finally to a false sense of relief from justifying his behavior.",
+      "D. From anxiety about Penny's words, to confusion about their meaning, and finally to genuine relief after justifying his behavior."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e05_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across Penny's matchmaking comment, her doorway reaction, her hallway congratulations, and her response at the final meal, which underlying attitude is most consistent with her nonverbal behavior?",
+    "options": [
+      "A. Warm platonic approval of Leonard and Leslie as a couple.",
+      "B. As a friend, she supports Leonard, but also slightly hopes that he remains single.",
+      "C. General discomfort with hearing any private relationship details.",
+      "D. Competitive dislike of Leslie as another woman in the group."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E05"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e05_q006",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Penny's conversations with Sheldon and Leonard at the restaurant, which option best describes Penny's emotional changes?",
+    "options": [
+      "A. From anger at being pressured by her boss, to curiosity about Leonard and Leslie's relationship, and finally to happiness when their relationship ends.",
+      "B. From anger at being pressured by her boss, to curiosity and anticipation about Leonard and Leslie's relationship, and finally to happiness when their relationship ends.",
+      "C. From anger at being pressured by her boss, to jealousy about Leonard and Leslie's relationship, and finally to confusion when their relationship ends.",
+      "D. From anger at being pressured by her boss, to happiness about Leonard and Leslie's relationship, and finally to confusion when their relationship ends."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E05"
+    ]
+  }
+]

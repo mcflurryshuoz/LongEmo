@@ -1,0 +1,1977 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q001",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the seated man in the brown shirt change before and after the older woman says that the senior manager wants him to stop by his office?",
+    "options": [],
+    "answer": {
+      "before": [
+        "happiness",
+        "confidence"
+      ],
+      "after": [
+        "surprise",
+        "disquietment"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e15_q001_seg1_84.6_108.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 84.6,
+          "end": 108,
+          "mmss": "1:24.6–1:48.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0007",
+        "t": [
+          84.615,
+          87.285
+        ],
+        "speaker": "Woman",
+        "text": "'Chandler.'"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0008",
+        "t": [
+          87.368,
+          91.539
+        ],
+        "speaker": "Chandler",
+        "text": "Ms. Tedlock, you're looking lovely today. And may I say that is a very flattering"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0009",
+        "t": [
+          91.581,
+          93.958
+        ],
+        "speaker": "unknown",
+        "text": "sleeve length on you."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0010",
+        "t": [
+          94.041,
+          100.047
+        ],
+        "speaker": "Mrs. Tedlock",
+        "text": "Yeah, well, Mr. Kostelic would like you to stop by his office at the end of the day."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0011",
+        "t": [
+          100.089,
+          108.014
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, listen, if this is about those prank memos I had nothing to do with them really, nothing at all, really. Nothing."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q002",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the blonde woman's discussion of the restaurant opening affect the dark-haired woman in black after the opportunity is initially offered to someone else?",
+    "options": [
+      "A. She reacts with resentment, envy, and cold withdrawal.",
+      "B. She reacts with irritation, curiosity, and excitement.",
+      "C. She reacts with embarrassment, denial, and retreat.",
+      "D. She reacts with fear, distrust, and reluctance."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e15_q002_seg1_176.791_231.846.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 176.791,
+          "end": 231.846,
+          "mmss": "2:56.8–3:51.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0028",
+        "t": [
+          176.791,
+          188.719
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "I have something you can do. A massage client is opening a restaurant and looking for a head chef."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0029",
+        "t": [
+          190.68,
+          194.433
+        ],
+        "speaker": "Dark-haired woman in black",
+        "text": "Um... hi there."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0030",
+        "t": [
+          194.517,
+          200.523
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "I know you're a chef, and I thought of you first. But he's the one who needs a job right now."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0031",
+        "t": [
+          203.192,
+          209.365
+        ],
+        "speaker": "Man in a dark gray jacket",
+        "text": "I don't have a lot of cooking experience, unless it's an all-toast restaurant."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0032",
+        "t": [
+          209.407,
+          210.825
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "Yeah."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0033",
+        "t": [
+          210.867,
+          212.577
+        ],
+        "speaker": "Dark-haired woman in black",
+        "text": "What kind of food is he looking for?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0034",
+        "t": [
+          212.66,
+          217.832
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "He wants something eclectic and is looking for someone who can create the entire menu."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0035",
+        "t": [
+          217.874,
+          220.209
+        ],
+        "speaker": "Dark-haired woman in black",
+        "text": "Oh, my God!"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0036",
+        "t": [
+          220.251,
+          221.586
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "What do you think?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0037",
+        "t": [
+          223.17,
+          226.841
+        ],
+        "speaker": "Man in a dark gray jacket",
+        "text": "Thanks. I don't really see myself in a big white hat."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0038",
+        "t": [
+          226.883,
+          228.009
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0039",
+        "t": [
+          229.802,
+          231.846
+        ],
+        "speaker": "Blonde woman by the couch",
+        "text": "Guess what!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q003",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction about goals and careers, what emotions does the man wearing the suit and loosened tie experience?",
+    "options": [],
+    "answer": [
+      "sadness"
+    ],
+    "video_name": "friends_g1_2_s01e15_q003_seg1_241.7_290.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 241.7,
+          "end": 290.1,
+          "mmss": "4:01.7–4:50.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0040",
+        "t": [
+          241.689,
+          243.774
+        ],
+        "speaker": "Chandler",
+        "text": "Can you see my nipples through this shirt?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0041",
+        "t": [
+          246.068,
+          249.614
+        ],
+        "speaker": "Rachel",
+        "text": "N-no. But don't worry, I'm sure they're still there."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0042",
+        "t": [
+          250.865,
+          252.742
+        ],
+        "speaker": "Phoebe",
+        "text": "Where are you going Mr. Suity Man?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0043",
+        "t": [
+          252.825,
+          257.955
+        ],
+        "speaker": "Chandler",
+        "text": "Well, I have an appointment to see Dr. Robert Pillman career counselor a-go-go."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0044",
+        "t": [
+          259.54,
+          261.5
+        ],
+        "speaker": "Chandler",
+        "text": "I added the a-go-go."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0045",
+        "t": [
+          261.542,
+          262.877
+        ],
+        "speaker": "Rachel",
+        "text": "Career counselor?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0046",
+        "t": [
+          262.919,
+          266.13
+        ],
+        "speaker": "Chandler",
+        "text": "Hey, you guys all know what you wanna do."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0047",
+        "t": [
+          266.214,
+          267.798
+        ],
+        "speaker": "Rachel",
+        "text": "I don't."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0048",
+        "t": [
+          267.882,
+          270.009
+        ],
+        "speaker": "Chandler",
+        "text": "Hey, you guys in the living room all know"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0049",
+        "t": [
+          270.092,
+          275.932
+        ],
+        "speaker": "unknown",
+        "text": "what you wanna do. You know, you have goals, you have dreams. I don't have a dream."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0050",
+        "t": [
+          275.973,
+          278.601
+        ],
+        "speaker": "Ross",
+        "text": "Ah, the lesser-known I don't have a dream speech."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0051",
+        "t": [
+          280.895,
+          283.773
+        ],
+        "speaker": "Monica",
+        "text": "Oh, I love my life! I love my life!"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0052",
+        "t": [
+          283.814,
+          285.608
+        ],
+        "speaker": "Phoebe",
+        "text": "Uh, Brian's song!"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0053",
+        "t": [
+          288.11,
+          290.071
+        ],
+        "speaker": "Rachel",
+        "text": "The meeting with that guy went great?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the emotions of the man in a burgundy sweater develop while he discusses his upcoming date with the group?",
+    "options": [
+      "A. He begins hopeful and open to advice, becomes defensive and self-conscious under the teasing, and ends tentatively amused and optimistic.",
+      "B. He begins embarrassed to admit he has a date, becomes angry enough to cancel it, and ends frightened that the monkey will attack her.",
+      "C. He remains fully confident throughout and treats every joke as proof that the date is guaranteed to succeed.",
+      "D. He starts indifferent to the woman, becomes jealous of his friends' advice, and ends disappointed that she refuses to visit his apartment."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e15_q004_seg1_338.411_401.14.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 338.411,
+          "end": 401.14,
+          "mmss": "5:38.4–6:41.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0061",
+        "t": [
+          338.411,
+          342.748
+        ],
+        "speaker": "Man in an olive shirt",
+        "text": "How about the steak place? If you can finish a 32-ounce steak, it's free."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0062",
+        "t": [
+          345.251,
+          346.919
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0063",
+        "t": [
+          346.961,
+          349.881
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "Does anyone know a good place if you're not dating a puma?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0064",
+        "t": [
+          351.591,
+          354.51
+        ],
+        "speaker": "Man in a dark jacket",
+        "text": "Who are you going out with? Is this the bug lady?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0065",
+        "t": [
+          354.594,
+          357.179
+        ],
+        "speaker": "Brunette woman at the table",
+        "text": "I love you."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0066",
+        "t": [
+          359.348,
+          364.687
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "Her name is the museum curator. She's not a bug lady. She's curator of insects."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0067",
+        "t": [
+          365.605,
+          367.148
+        ],
+        "speaker": "Brunette woman at the table",
+        "text": "What are you going to do?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0068",
+        "t": [
+          367.189,
+          372.862
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "I thought we'd go to dinner, then bring her back to my place and introduce her to my monkey."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0069",
+        "t": [
+          375.865,
+          378.075
+        ],
+        "speaker": "Man in a dark jacket",
+        "text": "He's not speaking metaphorically."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0070",
+        "t": [
+          380.87,
+          385.75
+        ],
+        "speaker": "Man in an olive shirt",
+        "text": "Back to your place. You're thinking maybe... uh-huh?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0071",
+        "t": [
+          387.835,
+          392.173
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "I don't know, uh-huh. I'm hoping, uh-huh."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0072",
+        "t": [
+          393.841,
+          401.14
+        ],
+        "speaker": "Man in an olive shirt",
+        "text": "That monkey is a woman magnet. She's going to look at his furry little face and it'll seal the deal."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q005",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the apron-wearing woman's decision to hire a professional waitress instead evoke in the brunette woman wearing brown?",
+    "options": [],
+    "answer": [
+      "sadness",
+      "annoyance"
+    ],
+    "video_name": "friends_g1_2_s01e15_q005_seg1_520.5_598.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 520.5,
+          "end": 598.4,
+          "mmss": "8:40.5–9:58.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0092",
+        "t": [
+          520.509,
+          532.188
+        ],
+        "speaker": "Monica",
+        "text": "Hello? Oh, hi, Wendy. Yeah, 8 o'clock. Yeah, what do we say, ten dollars an hour? 'Okay, great.' Alright, I'll see you then. Bye."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0093",
+        "t": [
+          532.23,
+          533.981
+        ],
+        "speaker": "Phoebe",
+        "text": "Ten dollars an hour for what?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0094",
+        "t": [
+          534.023,
+          537.235
+        ],
+        "speaker": "Monica",
+        "text": "Oh, I asked one of the waitress' at work, if she'd help me out."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0095",
+        "t": [
+          537.318,
+          538.778
+        ],
+        "speaker": "Rachel",
+        "text": "Waitressing?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0096",
+        "t": [
+          538.861,
+          541.197
+        ],
+        "speaker": "Joey",
+        "text": "Uh-oh."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0097",
+        "t": [
+          541.239,
+          547.662
+        ],
+        "speaker": "Monica",
+        "text": "Well, of course I thought of you. But... but.."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0098",
+        "t": [
+          547.703,
+          550.289
+        ],
+        "speaker": "Rachel",
+        "text": "But but?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0099",
+        "t": [
+          550.331,
+          559.84
+        ],
+        "speaker": "Monica",
+        "text": "But, you see this night has to go just perfect, you know. Well, Wendy's more of a... professional waitress."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0100",
+        "t": [
+          559.882,
+          566.889
+        ],
+        "speaker": "Rachel",
+        "text": "Oh. I see. Yes, and I've sort of been maintaining my amateur status so that I can waitress in the Olympics."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0101",
+        "t": [
+          570.059,
+          574.313
+        ],
+        "speaker": "Chandler",
+        "text": "You know, I don't mean to brag but I waited tables at Innsbruck in '76."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0102",
+        "t": [
+          579.36,
+          581.028
+        ],
+        "speaker": "Chandler",
+        "text": "Amuse bouche?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q006",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the woman in the black vest's increasingly explicit requests evoke in the suited man beside her?",
+    "options": [],
+    "answer": [
+      "disquietment",
+      "embarrassment"
+    ],
+    "video_name": "friends_g1_2_s01e15_q006_seg1_598.4_642.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 598.4,
+          "end": 642.1,
+          "mmss": "9:58.4–10:42.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0103",
+        "t": [
+          598.379,
+          599.505
+        ],
+        "speaker": "Celia",
+        "text": "Talk to me."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0104",
+        "t": [
+          601.883,
+          604.26
+        ],
+        "speaker": "unknown",
+        "text": "Okay, uh.."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0105",
+        "t": [
+          604.302,
+          605.845
+        ],
+        "speaker": "Ross",
+        "text": "Weird thing happened to me on the train this morning."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0106",
+        "t": [
+          605.928,
+          609.599
+        ],
+        "speaker": "Celia",
+        "text": "No, no, no. Talk dirty."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0107",
+        "t": [
+          612.977,
+          614.562
+        ],
+        "speaker": "Ross",
+        "text": "Well... here?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0108",
+        "t": [
+          616.647,
+          617.94
+        ],
+        "speaker": "Ross",
+        "text": "- Ah. - Come on."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0109",
+        "t": [
+          617.982,
+          620.526
+        ],
+        "speaker": "Celia",
+        "text": "Say something... hot."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0110",
+        "t": [
+          620.61,
+          623.154
+        ],
+        "speaker": "Ross",
+        "text": "Uh... um.."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0111",
+        "t": [
+          623.237,
+          624.864
+        ],
+        "speaker": "Celia",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0112",
+        "t": [
+          624.947,
+          626.115
+        ],
+        "speaker": "unknown",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0113",
+        "t": [
+          628.451,
+          629.619
+        ],
+        "speaker": "unknown",
+        "text": "Umm.."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0114",
+        "t": [
+          631.662,
+          633.789
+        ],
+        "speaker": "unknown",
+        "text": "Vulva."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0115",
+        "t": [
+          640.713,
+          642.089
+        ],
+        "speaker": "Ross",
+        "text": "Vulva?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q007",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the man in a dark green shirt's reaction and coaching affect the man in a burgundy sweater as he recounts the failed attempt at intimate talk?",
+    "options": [
+      "A. He reacts with relief, eagerness, and gratitude.",
+      "B. He reacts with defensiveness, embarrassment, and disbelief.",
+      "C. He reacts with fury, rejection, and bitterness.",
+      "D. He reacts with confusion, indifference, and detachment."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e15_q007_seg1_643.758_680.49.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 643.758,
+          "end": 680.49,
+          "mmss": "10:43.8–11:20.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0116",
+        "t": [
+          643.758,
+          652.141
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "I panicked. She took me by surprise. But it wasn't a total loss. We ended up cuddling."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0117",
+        "t": [
+          652.183,
+          655.102
+        ],
+        "speaker": "Man in a dark green shirt",
+        "text": "You cuddled? How many times?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0118",
+        "t": [
+          656.812,
+          661.859
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "Shut up. It was nice. I just don't think I'm the dirty-talking kind of guy."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0119",
+        "t": [
+          661.943,
+          673.871
+        ],
+        "speaker": "Man in a dark green shirt",
+        "text": "What's the big deal? Say what you want to do to her, what you want her to do to you, and what other people might be doing. Try something on me."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0120",
+        "t": [
+          676.666,
+          678.292
+        ],
+        "speaker": "Man in a burgundy sweater",
+        "text": "Please be kidding."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q008",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the burgundy sweater while the man in the dark green shirt coaches him to speak more suggestively?",
+    "options": [
+      "A. He remains relaxed and playful throughout because he treats the exercise only as a joke.",
+      "B. He starts confident, becomes angry at the coaching, and throws both men out of the apartment.",
+      "C. He begins reluctant and embarrassed, grows briefly absorbed as the coaching works, then snaps back to mortification.",
+      "D. He is frightened by the coach, refuses to participate, and feels relieved when the third man arrives."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e15_q008_seg1_690.972_824.313.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 690.972,
+          "end": 824.313,
+          "mmss": "11:31.0–13:44.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0122",
+        "t": [
+          690.972,
+          695.017
+        ],
+        "speaker": "Ross",
+        "text": "Okay. I'm in my apartment."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0124",
+        "t": [
+          697.853,
+          700.773
+        ],
+        "speaker": "Ross",
+        "text": "I'm in my apartment. You're not there. We're not having this conversation."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0128",
+        "t": [
+          709.532,
+          713.119
+        ],
+        "speaker": "Joey",
+        "text": "You get me so hot. I want your lips on me now."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0132",
+        "t": [
+          722.086,
+          733.014
+        ],
+        "speaker": "Joey",
+        "text": "If you can't talk dirty to me, how are you going to talk dirty to her? Tell me you want to caress my butt."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0133",
+        "t": [
+          737.852,
+          743.232
+        ],
+        "speaker": "Ross",
+        "text": "Turn around. I just don't want you staring at me when I'm doing this."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0136",
+        "t": [
+          750.865,
+          758.122
+        ],
+        "speaker": "Ross",
+        "text": "I want to feel your hot, soft skin with my lips."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0143",
+        "t": [
+          787.36,
+          789.737
+        ],
+        "speaker": "Ross",
+        "text": "Run it all over your body until you're..."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0145",
+        "t": [
+          814.053,
+          816.013
+        ],
+        "speaker": "Chandler",
+        "text": "With...?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0146",
+        "t": [
+          816.931,
+          818.307
+        ],
+        "speaker": "Ross",
+        "text": "Funny story."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0148",
+        "t": [
+          819.976,
+          824.313
+        ],
+        "speaker": "Chandler",
+        "text": "It's okay. I was always rooting for you two kids to get together."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the white graphic T-shirt during the repeated job offer?",
+    "options": [
+      "A. He begins dismissive and amused, grows tempted as the offer rises, and ends excited after accepting.",
+      "B. He begins nervous about rejection, becomes angry at the low salary, then feels relieved to stay unemployed.",
+      "C. He begins amused, becomes proud the company needs him, then rejects every offer and ends disappointed.",
+      "D. He begins annoyed by the calls, becomes embarrassed his friends hear, then accepts out of guilt."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e15_q009_seg1_826.6_889.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 826.6,
+          "end": 889.4,
+          "mmss": "13:46.6–14:49.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0149",
+        "t": [
+          826.649,
+          829.944
+        ],
+        "speaker": "Joey",
+        "text": "Hey, Chandler, while you were sleeping that guy from your old job called again."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0150",
+        "t": [
+          829.986,
+          831.07
+        ],
+        "speaker": "Chandler",
+        "text": "Again?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0151",
+        "t": [
+          831.112,
+          834.115
+        ],
+        "speaker": "Joey",
+        "text": "And again and again. - And again. - And again."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0152",
+        "t": [
+          838.119,
+          840.663
+        ],
+        "speaker": "Joey",
+        "text": "Hello. And again."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0153",
+        "t": [
+          841.789,
+          844.792
+        ],
+        "speaker": "Chandler",
+        "text": "Hi, Mr. Kostelic. How's life on the 15th floor?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0154",
+        "t": [
+          846.46,
+          851.799
+        ],
+        "speaker": "Chandler",
+        "text": "Yeah. I miss you too. Yeah, It's a lot less satisfying to steal pens from your own home, you know?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0155",
+        "t": [
+          854.802,
+          866.772
+        ],
+        "speaker": "Chandler",
+        "text": "Well, that's very generous. Ah, but, look, this isn't about the money, you know? It's just, I need something more than a job I need something I really care.. And that's on top of the year-end bonus structure you mentioned earlier."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0156",
+        "t": [
+          866.856,
+          868.441
+        ],
+        "speaker": "unknown",
+        "text": "- Dream. - Dream."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0157",
+        "t": [
+          868.482,
+          884.457
+        ],
+        "speaker": "Chandler",
+        "text": "Look, Al, Al.. ...I'm not playing hardball here, okay? This is not a negotiation. This is a rejection. No... no, no, no. Stop saying.. Stop saying numbers. I'm telling you. You've got the wrong guy. You've got the wrong guy! I'll see you Monday!"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0158",
+        "t": [
+          887.877,
+          889.42
+        ],
+        "speaker": "unknown",
+        "text": "Nyah."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the gray suit while showing the blonde woman his upgraded office?",
+    "options": [
+      "A. He moves from proud excitement to playful self-importance, then sheepish self-awareness after needlessly summoning his assistant.",
+      "B. He is disappointed by the office from the start and becomes angrier when the blonde woman admires it.",
+      "C. He remains humble and uncomfortable, refusing to use any sign of authority.",
+      "D. He begins anxious about returning to work, becomes frightened by the view, and asks to leave immediately."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e15_q010_seg1_896.385_947.353.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 896.385,
+          "end": 947.353,
+          "mmss": "14:56.4–15:47.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0159",
+        "t": [
+          896.385,
+          905.561
+        ],
+        "speaker": "Phoebe",
+        "text": "It's huge! This is so much bigger than the cubicle. Oh, this is a cube."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0161",
+        "t": [
+          911.817,
+          913.361
+        ],
+        "speaker": "Phoebe",
+        "text": "You have a window!"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0162",
+        "t": [
+          915.029,
+          917.823
+        ],
+        "speaker": "Chandler",
+        "text": "Yes, indeedy. With a beautiful view of..."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0163",
+        "t": [
+          917.907,
+          919.909
+        ],
+        "speaker": "Phoebe",
+        "text": "Look. That guy's peeing."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0164",
+        "t": [
+          922.036,
+          929.752
+        ],
+        "speaker": "Chandler",
+        "text": "That's enough of the view. Check this out. Sit down here."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0165",
+        "t": [
+          933.422,
+          935.466
+        ],
+        "speaker": "Chandler",
+        "text": "Helen, could you come in here for a moment?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0166",
+        "t": [
+          941.138,
+          942.765
+        ],
+        "speaker": "Chandler",
+        "text": "Thank you, Helen. That'll be all."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0167",
+        "t": [
+          945.226,
+          947.353
+        ],
+        "speaker": "Chandler",
+        "text": "Last time I do that, I promise."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q011",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What most directly causes the dark-haired woman in the white apron to urgently negotiate with the brunette woman wearing a dark coat, repeatedly raising her offered pay?",
+    "options": [
+      "A. The professional waitress she had previously hired cancels their agreement at the last minute.",
+      "B. The bald dinner guest calls ahead to say he is arriving earlier than planned.",
+      "C. Rachel demands more pay on her own and refuses to discuss the job until Monica raises the rate.",
+      "D. Phoebe reminds Monica that none of her previous dinner guests have ever been satisfied with her cooking."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e15_q011_seg1_952.6_998.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 952.6,
+          "end": 998.3,
+          "mmss": "15:52.6–16:38.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0168",
+        "t": [
+          952.567,
+          960.199
+        ],
+        "speaker": "Monica",
+        "text": "Wendy, we had a deal. Yeah. You promised. Wendy... Wendy.. Wendy!"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0169",
+        "t": [
+          964.078,
+          965.413
+        ],
+        "speaker": "Rachel",
+        "text": "Who was that?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0170",
+        "t": [
+          967.29,
+          971.085
+        ],
+        "speaker": "Monica",
+        "text": "Wendy bailed. I.. I have no waitress."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0171",
+        "t": [
+          971.127,
+          978.259
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, that's too bad. - Bye-bye. - $10 an hour."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0172",
+        "t": [
+          978.301,
+          980.136
+        ],
+        "speaker": "Monica",
+        "text": "- No. - $12 an hour."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0173",
+        "t": [
+          980.219,
+          983.848
+        ],
+        "speaker": "Rachel",
+        "text": "Mon, I wish I could, but I've made plans to walk around."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0174",
+        "t": [
+          985.433,
+          994.775
+        ],
+        "speaker": "Monica",
+        "text": "You know, Rachel, when you ran out on your wedding I was there for you. I put a roof over your head and if that means nothing to you.. ...$20 an hour."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0175",
+        "t": [
+          996.819,
+          998.321
+        ],
+        "speaker": "Rachel",
+        "text": "Done."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q012",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the hostess in the white shirt and black tie change before and after she learns that the bald dinner guest smoked marijuana on the way over?",
+    "options": [],
+    "answer": {
+      "before": [
+        "excitement",
+        "anticipation"
+      ],
+      "after": [
+        "surprise",
+        "disquietment"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e15_q012_seg1_1004.5_1067.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 1004.5,
+          "end": 1067,
+          "mmss": "16:44.5–17:47.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0176",
+        "t": [
+          1004.535,
+          1007.914
+        ],
+        "speaker": "Rachel",
+        "text": "Well, hello. Welcome to Monica's. May I take your coat?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0177",
+        "t": [
+          1011.667,
+          1014.003
+        ],
+        "speaker": "Monica",
+        "text": "- Hi, Steve. - Hello, Monica."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0178",
+        "t": [
+          1014.086,
+          1016.672
+        ],
+        "speaker": "Steve",
+        "text": "Hello, greeter-girl."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0179",
+        "t": [
+          1016.756,
+          1018.674
+        ],
+        "speaker": "Monica",
+        "text": "- This is Rachel. - Yeah. Okay."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0180",
+        "t": [
+          1020.009,
+          1021.302
+        ],
+        "speaker": "unknown",
+        "text": "Hmm, hm.."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0181",
+        "t": [
+          1021.344,
+          1029.435
+        ],
+        "speaker": "Phoebe",
+        "text": "...everything smells so delicious. You know, I can't remember a time I smelled such a delicious combination of, of.. ...okay. Smells."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0182",
+        "t": [
+          1031.145,
+          1032.605
+        ],
+        "speaker": "Steve",
+        "text": "Well, it's a lovely apartment."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0183",
+        "t": [
+          1032.688,
+          1035.358
+        ],
+        "speaker": "Monica",
+        "text": "Oh, thank you. Would you like a tour?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0184",
+        "t": [
+          1035.441,
+          1037.693
+        ],
+        "speaker": "Steve",
+        "text": "I was just being polite, but alright."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0185",
+        "t": [
+          1040.905,
+          1041.864
+        ],
+        "speaker": "Rachel",
+        "text": "What? What's up?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0186",
+        "t": [
+          1041.906,
+          1046.452
+        ],
+        "speaker": "Phoebe",
+        "text": "I... in the cab, on the way over Steve blazed up a doobie."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0187",
+        "t": [
+          1048.496,
+          1052.833
+        ],
+        "speaker": "Phoebe",
+        "text": "- What? - He smoked a joint. You know, lit a bone, weed, hemp, ganja..."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0188",
+        "t": [
+          1052.875,
+          1054.001
+        ],
+        "speaker": "unknown",
+        "text": "Okay, okay, okay."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0189",
+        "t": [
+          1055.503,
+          1057.755
+        ],
+        "speaker": "Rachel",
+        "text": "You know, okay, I'm with you, cheech. Okay."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0190",
+        "t": [
+          1059.465,
+          1061.342
+        ],
+        "speaker": "Steve",
+        "text": "Is it dry in here?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0191",
+        "t": [
+          1064.637,
+          1066.973
+        ],
+        "speaker": "Rachel",
+        "text": "Let me... let me get you some wine."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q013",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the bald guest's increasingly unfocused behavior affect the three women hosting the professional dinner?",
+    "options": [
+      "A. Each woman reacts with relaxation, celebration, and growing admiration.",
+      "B. Each woman reacts with fury, blame, and resentment.",
+      "C. Each woman reacts with uncertainty, vigilance, and embarrassment.",
+      "D. Each woman reacts with fear, panic, and retreat."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e15_q013_seg1_1004.535_1132.121.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 1004.535,
+          "end": 1132.121,
+          "mmss": "16:44.5–18:52.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0176",
+        "t": [
+          1004.535,
+          1007.914
+        ],
+        "speaker": "Rachel",
+        "text": "Welcome. May I take your coat?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0181",
+        "t": [
+          1021.344,
+          1029.435
+        ],
+        "speaker": "Phoebe",
+        "text": "Everything smells so delicious. I can't remember a time I smelled such a delicious combination of... smells."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0186",
+        "t": [
+          1041.906,
+          1046.452
+        ],
+        "speaker": "Phoebe",
+        "text": "In the cab on the way over, Steve blazed up a doobie."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0192",
+        "t": [
+          1067.014,
+          1079.485
+        ],
+        "speaker": "Monica",
+        "text": "These are rock shrimp ravioli and cilantro ponzu sauce with just a touch of minced..."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0195",
+        "t": [
+          1093.958,
+          1095.334
+        ],
+        "speaker": "Steve",
+        "text": "These are fantastic."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0198",
+        "t": [
+          1101.549,
+          1110.057
+        ],
+        "speaker": "Monica",
+        "text": "In about eight and a half minutes we'll be serving delicious onion tartlets."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0200",
+        "t": [
+          1118.024,
+          1119.984
+        ],
+        "speaker": "Steve",
+        "text": "The word has lost all meaning."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0201",
+        "t": [
+          1126.407,
+          1129.327
+        ],
+        "speaker": "Rachel",
+        "text": "Excuse me. Can I help you with anything?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0202",
+        "t": [
+          1129.41,
+          1132.121
+        ],
+        "speaker": "Steve",
+        "text": "I don't know what I'm looking for."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q014",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the black-haired woman in the dark top change before and after the bald guest begins repeating 'tartlets' and wandering away from the table?",
+    "options": [],
+    "answer": {
+      "before": [
+        "happiness",
+        "confidence"
+      ],
+      "after": [
+        "surprise",
+        "doubt/confusion"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e15_q014_seg1_1067.0_1132.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 1067,
+          "end": 1132.1,
+          "mmss": "17:47.0–18:52.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0192",
+        "t": [
+          1067.014,
+          1079.485
+        ],
+        "speaker": "Monica",
+        "text": "Yeah, I think we're ready for our first course. Okay, um.. ...these are rock shrimp ravioli and cilantro ponzu sauce with just a touch of minced.."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0193",
+        "t": [
+          1085.741,
+          1087.451
+        ],
+        "speaker": "Monica",
+        "text": "...ginger."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0194",
+        "t": [
+          1087.535,
+          1090.288
+        ],
+        "speaker": "Steve",
+        "text": "Well, smack my ass and call me Judy."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0195",
+        "t": [
+          1093.958,
+          1095.334
+        ],
+        "speaker": "Steve",
+        "text": "These are fantastic."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0196",
+        "t": [
+          1095.376,
+          1098.337
+        ],
+        "speaker": "Monica",
+        "text": "Oh, gosh, I'm so glad you like them."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0197",
+        "t": [
+          1098.421,
+          1101.465
+        ],
+        "speaker": "Steve",
+        "text": "Like them? I could eat a 100 of them."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0198",
+        "t": [
+          1101.549,
+          1110.057
+        ],
+        "speaker": "Monica",
+        "text": "Oh, well, that's all there is of these but in about eight and a half minutes we'll be serving some delicious onion tartlets."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0199",
+        "t": [
+          1110.099,
+          1116.314
+        ],
+        "speaker": "Steve",
+        "text": "Tartlets? Mm, uh-huh. Tartlets? Tartlets?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0200",
+        "t": [
+          1118.024,
+          1119.984
+        ],
+        "speaker": "Steve",
+        "text": "The word has lost all meaning."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0201",
+        "t": [
+          1126.407,
+          1129.327
+        ],
+        "speaker": "Rachel",
+        "text": "Excuse me. Can I help you with anything?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0202",
+        "t": [
+          1129.41,
+          1132.121
+        ],
+        "speaker": "Steve",
+        "text": "You know, I don't know what I'm looking for."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e15_q015",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional change of the man in the gray hoodie as he reports how his evening went to the man in black at the coffeehouse?",
+    "options": [
+      "A. He begins ashamed of the evening, becomes angry when questioned, and refuses to explain what happened.",
+      "B. He remains calmly satisfied throughout because the evening unfolded exactly as planned.",
+      "C. He begins frightened that he failed, then becomes openly triumphant after revealing that the other person proposed marriage.",
+      "D. He starts boastful and proud, then becomes hesitant and sheepish when he admits what actually happened."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e15_q015_seg1_1262.418_1298.287.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E15"
+      ],
+      "segments": [
+        {
+          "ep": "S01E15",
+          "start": 1262.418,
+          "end": 1298.287,
+          "mmss": "21:02.4–21:38.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E15",
+        "unit_id": "u0229",
+        "t": [
+          1262.418,
+          1264.67
+        ],
+        "speaker": "Joey",
+        "text": "So, how did it go with Celia?"
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0230",
+        "t": [
+          1264.712,
+          1268.257
+        ],
+        "speaker": "Ross",
+        "text": "I was unbelievable."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0232",
+        "t": [
+          1270.051,
+          1276.057
+        ],
+        "speaker": "Ross",
+        "text": "I was the James Michener of dirty talk. It was the most elaborate filth you have ever heard."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0233",
+        "t": [
+          1276.098,
+          1283.94
+        ],
+        "speaker": "unknown",
+        "text": "There were characters, plot lines, themes, a motif. At one point there were villagers."
+      },
+      {
+        "ep": "S01E15",
+        "unit_id": "u0235",
+        "t": [
+          1289.028,
+          1298.287
+        ],
+        "speaker": "Ross",
+        "text": "By the time we finished with all the dirty talk it was kind of late and we were both exhausted, so... You cuddled. Yeah, which was nice."
+      }
+    ]
+  }
+]

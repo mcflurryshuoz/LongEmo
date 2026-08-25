@@ -1,0 +1,100 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Joey appear most surprised?",
+    "options": [
+      "A. Joey stands silently beside the phone after learning that the person on the other end of his father's intimate call was another woman, not his mother.",
+      "B. Joey stares at the woman who is having an affair with his father when he meets her in the hallway.",
+      "C. Rachel opens the bathroom door and sees Joey while he is showering.",
+      "D. Joey learns that his mother is content to let his father's affair continue as it is."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most surprised?",
+    "options": [
+      "A. Monica opens her apartment door and meets Ronni for the first time.",
+      "B. Monica listens as Roger criticizes her relationship with Ross.",
+      "C. Monica pulls back the shower curtain and discovers Joey's father inside.",
+      "D. Monica sits with Rachel as Phoebe introduces Roger at the coffee house."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "When Roger psychoanalyzes the whole group in the apartment, which character appears most emotionally affected? Answer with one character name.",
+    "options": [],
+    "answer": "Rachel",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe appear happiest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "introducing Roger to Monica and Rachel at the coffee house",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which moment most clearly reveals a more vulnerable side of Joey's reaction to his father's affair?",
+    "options": [
+      "A. Joey falls silent after realizing that the woman in the hallway is his father's affair partner.",
+      "B. Joey firmly tells his father to break up with Ronni.",
+      "C. Joey lies awake beside Chandler with a subdued, anxious expression.",
+      "D. Joey reacts with disbelief when his mother asks him to accept the affair as it is."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E13"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e13_q006",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures how Rachel's attitude toward Roger changes across the episode?",
+    "options": [
+      "A. She begins with a positive impression of him, becomes personally hurt by his analysis, and finally openly admits that she dislikes him.",
+      "B. She begins with mild suspicion of him, becomes impressed by his analysis, and finally feels disappointed in him.",
+      "C. She begins indifferent to him, becomes amused by his observations, and finally feels sympathy for him.",
+      "D. She begins with a positive impression of him, becomes briefly annoyed by his behavior, and finally accepts him for Phoebe's sake."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E13"
+    ]
+  }
+]

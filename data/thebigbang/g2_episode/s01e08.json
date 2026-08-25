@@ -1,0 +1,105 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e08_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Sheldon appear happiest?",
+    "options": [
+      "A. When Sheldon interacts with the others after Raj's first webcam call.",
+      "B. When Sheldon explains his exact cocktail order during Penny's practice session.",
+      "C. When Sheldon addresses Lalita as Princess Panchali at the restaurant.",
+      "D. When Sheldon plays the keyboard and sings at the restaurant later."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e08_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Leonard appear most amused?",
+    "options": [
+      "A. When Leonard exchanges texts with Howard during Sheldon's phone call to cancel his planetarium membership.",
+      "B. When Leonard questions Sheldon's Justice League membership card.",
+      "C. When Leonard watches Raj talking to Penny.",
+      "D. When Leonard hears Howard's teasing after Lalita leaves with Sheldon."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e08_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Penny appear most exasperated with one of the men?",
+    "options": [
+      "A. When Penny asks about guinea pigs and Sheldon goes on a long, self-absorbed monologue.",
+      "B. When Sheldon requests a tall glass and lime during the apartment drink practice.",
+      "C. When Leonard takes the drink from Penny and unconsciously starts talking about the physics of the drink.",
+      "D. When Sheldon repeats his glass and lime request at Penny's restaurant."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e08_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Raj's video calls with his parents, which option best describes how his emotions change?",
+    "options": [
+      "A. From happiness while introducing his friends, to sadness about being forced into a date, and finally to anger at Sheldon and regret toward his parents.",
+      "B. From happiness while introducing his friends, to anxiety about being forced into a date, and finally to anger at Sheldon, regret toward his parents, and fear of their scolding.",
+      "C. From happiness while introducing his friends, to sadness about being forced into a date, and finally to anger at Sheldon followed by relief at what Sheldon says.",
+      "D. From happiness while introducing his friends, to anxiety about being forced into a date, and finally to anger at Sheldon followed by relief at what Sheldon says."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e08_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "open_ended",
+    "question": "How does Sheldon's demeanor change from his exacting Cuba libre requests to his final keyboard performance? Answer with one short emotion phrase.",
+    "options": [],
+    "answer": "From rigid to lively.",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e08_q006",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "After Sheldon arrives at the restaurant and sees Raj on his date, what drives him to keep complimenting Raj's date?",
+    "options": [
+      "A. Jealousy of his friend's date.",
+      "B. Romantic attraction to Raj's date.",
+      "C. His natural tendency to say exactly what he thinks.",
+      "D. Awkwardness about facing Raj and his date."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E08"
+    ]
+  }
+]

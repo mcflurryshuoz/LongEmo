@@ -1,0 +1,87 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which moment does Monica display the most intense joy?",
+    "options": [
+      "A. After having lunch with Fake Monica, Monica tells Ross, Chandler, and Joey that the woman is astounding and has an amazing spirit.",
+      "B. After crashing an embassy party, Monica returns home, drinks directly from the kitchen faucet, and tells Rachel how being with Fake Monica changes who she is.",
+      "C. When Monica tells Rachel how she and Fake Monica pretended to be guests on the hotel floor occupied by the Boston Celtics and were eventually thrown out.",
+      "D. During her jail visit, Monica thanks Fake Monica for everything she has given her and recalls getting to sing onstage at the Winter Garden Theatre."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which moment does Ross appear most visibly saddened?",
+    "options": [
+      "A. At Central Perk, Ross sits down after returning from the veterinarian, just before explaining what he has learned.",
+      "B. At Monica and Rachel's apartment, Ross lowers the letter after reading that the Scranton zoo has rejected Marcel.",
+      "C. At Central Perk, Ross watches Dr. Baldhara as his questions about Marcel's ability to fight other animals become increasingly disturbing.",
+      "D. At the airport, Ross watches his friends finish saying goodbye to Marcel, just as he asks for a moment alone with him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From Joey's initial discussion with Chandler about choosing a stage name through his audition, which description best captures his main emotional progression?",
+    "options": [
+      "A. His anxiety gives way to happiness when he finds a name he likes, turns into anger when he learns who Joseph Stalin was, and ends in confidence as he introduces himself at the audition.",
+      "B. His anxiety gives way to happiness when he finds a name he likes, turns into embarrassment when he learns who Joseph Stalin was, and ends in nervousness at the audition.",
+      "C. His anxiety intensifies into frustration while he searches for a name, turns into anger when he discovers his mistake, and leaves him hesitant when he introduces himself at the audition.",
+      "D. His playful curiosity turns into happiness when he chooses a name, develops into amusement when he learns who Joseph Stalin was, and ends in confidence at the audition."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Monica's encounters with Fake Monica, from the tap class through the jail visit, which description best captures Monica's main emotional progression?",
+    "options": [
+      "A. She begins self-conscious and uneasy at the tap class, becomes increasingly excited and uninhibited as she gets to know Fake Monica, reaches peak exhilaration after the embassy party, and shifts from happiness to anxiety during the jail visit.",
+      "B. She begins self-conscious and uneasy at the tap class, becomes increasingly excited and uninhibited as she gets to know Fake Monica, reaches peak exhilaration after the embassy party, and shifts from happiness to sadness and resignation during the jail visit.",
+      "C. She begins self-conscious at the tap class but remains cautious even as the friendship develops, experiences only brief relief after the embassy party, and ends the jail visit with calm gratitude.",
+      "D. She begins curious and confident at the tap class, becomes increasingly anxious during their adventures, briefly grows excited after the embassy party, and reacts with anger during the jail visit."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E21"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e21_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Does Monica appear embarrassed during both of her visits to the tap class? Answer \"yes\" or \"no\".",
+    "options": [],
+    "answer": "Yes",
+    "input_video": [
+      "S01E21"
+    ]
+  }
+]

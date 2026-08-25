@@ -1,0 +1,92 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Rachel show the strongest emotional reaction?",
+    "options": [
+      "A. When she opens Ross's birthday gift and realizes that he remembered a pin she had admired months earlier.",
+      "B. During her first trip to the airport, when she fails to reach Ross before his flight leaves for China.",
+      "C. When she explains to Monica why dating Ross might be a bad idea.",
+      "D. During her second trip to the airport, when she waits with flowers and sees Ross return from China with Julie."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "At which of the following moments does Joey appear most nervous?",
+    "options": [
+      "A. When Ross presses him to explain what kind of research he is doing.",
+      "B. When Rachel opens the birthday present Joey gave her.",
+      "C. When he tells Monica at the birthday party that Melanie expects them to sleep together that night.",
+      "D. When Melanie tries to turn her attention toward him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across the episode, which option best describes how Rachel's feelings toward Ross change?",
+    "options": [
+      "A. She begins amused by his gift, becomes irritated that he hid his feelings, grows calm after deciding against him, and ends relieved when he returns with someone else.",
+      "B. She begins touched by his gift, becomes regretful after learning about his feelings, grows anxious and uncertain, and ends disappointed when she sees him with someone else.",
+      "C. She begins touched by his gift, becomes regretful after learning about his feelings, grows anxious and uncertain, and ends hopeful while waiting for him.",
+      "D. She begins simply grateful for his gift, becomes embarrassed by his feelings, grows hesitant as her friends encourage her, and ends determined to avoid him."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Across Joey's storyline involving the fertility study and Melanie, which option best describes his emotional trajectory?",
+    "options": [
+      "A. He begins confident and proud, becomes afraid that Melanie will reject him, grows insecure during the night, and ends confused despite her praise.",
+      "B. He begins awkward but amused, becomes increasingly frustrated with Melanie, remains tense and distant during the night, and ends relieved.",
+      "C. He begins embarrassed and resentful, becomes calm about the study's restriction, grows frustrated during the night, and ends pleased and proud.",
+      "D. He begins awkward and defensive, becomes anxious because the study prevents him from having sex, sees that anxiety turn into pleasant surprise during the night, and ends excited and proud."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E24"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e24_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which option best describes the romantic situation between Rachel and Ross?",
+    "options": [
+      "A. Rachel remains uncertain about Ross, while Ross believes she is waiting for him.",
+      "B. Rachel has decided to pursue Ross, but Ross does not know that her feelings have changed.",
+      "C. Rachel already knows about Julie and plans to hide her disappointment, while Ross has given up on pursuing her because he believes she is dating someone else.",
+      "D. Rachel has decided to remain friends with Ross, while Ross returns expecting to pursue her."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E24"
+    ]
+  }
+]

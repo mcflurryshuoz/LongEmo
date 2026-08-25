@@ -1,0 +1,1731 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q001",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the woman in the brown top and apron change before and after she realizes that the letter contains an invitation to a department-store job interview?",
+    "options": [],
+    "answer": {
+      "before": [
+        "annoyance"
+      ],
+      "after": [
+        "surprise",
+        "excitement"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e18_q001_seg1_515.8_577.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 515.8,
+          "end": 577.7,
+          "mmss": "8:35.8-9:37.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0101",
+        "t": [
+          515.796,
+          518.591
+        ],
+        "speaker": "Rachel",
+        "text": "Do you believe what a jerk Ross was being?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0102",
+        "t": [
+          518.674,
+          521.51
+        ],
+        "speaker": "Monica",
+        "text": "Yeah, I know. He can get really competitive."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0103",
+        "t": [
+          524.764,
+          530.019
+        ],
+        "speaker": "Phoebe",
+        "text": "- What? - Hello, kettle? This is Monica. You're Black."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0104",
+        "t": [
+          530.102,
+          531.395
+        ],
+        "speaker": "Monica",
+        "text": "Please."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0105",
+        "t": [
+          534.69,
+          536.776
+        ],
+        "speaker": "Monica",
+        "text": "I am not as bad as Ross."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0106",
+        "t": [
+          536.859,
+          540.988
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, I beg to differ. The Pictionary incident."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0107",
+        "t": [
+          541.03,
+          542.531
+        ],
+        "speaker": "Monica",
+        "text": "That was not an incident."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0108",
+        "t": [
+          542.615,
+          548.996
+        ],
+        "speaker": "unknown",
+        "text": "I-I was gesturing and the plate slipped out of my hand. Oh."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0109",
+        "t": [
+          550.456,
+          557.755
+        ],
+        "speaker": "Rachel",
+        "text": "Oh! I got an interview! - I got an interview! - You're kidding. Where? Saks Fifth Avenue."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0110",
+        "t": [
+          557.838,
+          559.882
+        ],
+        "speaker": "Monica",
+        "text": "Oh, Rachel."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0111",
+        "t": [
+          559.966,
+          563.219
+        ],
+        "speaker": "Phoebe",
+        "text": "It's like the mother ship is calling you home."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0112",
+        "t": [
+          566.847,
+          570.268
+        ],
+        "speaker": "Monica",
+        "text": "- Well, what's the job? - Assistant buyer."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0113",
+        "t": [
+          570.351,
+          573.479
+        ],
+        "speaker": "Rachel",
+        "text": "Oh! I would be shopping.."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0114",
+        "t": [
+          575.022,
+          577.733
+        ],
+        "speaker": "Rachel",
+        "text": "...for a living!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q002",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the shared emotions of the three younger women change before and after the older woman reveals that her claim about hitting someone with her car was only a bluff?",
+    "options": [],
+    "answer": {
+      "before": [
+        "surprise",
+        "fear"
+      ],
+      "after": [
+        "peace",
+        "happiness"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e18_q002_seg1_579.0_617.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 579.0,
+          "end": 617.7,
+          "mmss": "9:39.0-10:17.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0115",
+        "t": [
+          578.985,
+          585.575
+        ],
+        "speaker": "Monica",
+        "text": "Okay, look, that is Aunt Iris. This woman has been playing poker since she was five. You gotta listen to every word she says."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0116",
+        "t": [
+          585.616,
+          588.452
+        ],
+        "speaker": "Aunt Iris",
+        "text": "Hi. Is Tony Randall dead?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0117",
+        "t": [
+          588.536,
+          590.204
+        ],
+        "speaker": "Monica",
+        "text": "- I don't think so. - Well, he may be now."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0118",
+        "t": [
+          590.246,
+          591.747
+        ],
+        "speaker": "Aunt Iris",
+        "text": "Because, I think I hit him with my car."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0119",
+        "t": [
+          591.789,
+          593.416
+        ],
+        "speaker": "Rachel",
+        "text": "- Oh, my God! - Really?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0120",
+        "t": [
+          593.457,
+          606.596
+        ],
+        "speaker": "Aunt Iris",
+        "text": "No. That's bluffing, lesson number one. Let me tell you something. Everything you hear at a poker game is pure crap. - Nice earrings. - Thank yo.."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0121",
+        "t": [
+          608.764,
+          611.058
+        ],
+        "speaker": "Aunt Iris",
+        "text": "Girls, sit down."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0122",
+        "t": [
+          611.1,
+          612.727
+        ],
+        "speaker": "Monica",
+        "text": "Aunt Iris, this is Phoebe, and that's..."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0123",
+        "t": [
+          612.768,
+          617.69
+        ],
+        "speaker": "Aunt Iris",
+        "text": "Yeah, yeah, yeah, listen, I am parked at a meter. Let's do it, okay?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q003",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the woman in the light blue shirt change before and after she realizes that the job-related caller is rejecting her?",
+    "options": [],
+    "answer": {
+      "before": [
+        "excitement",
+        "anticipation"
+      ],
+      "after": [
+        "sadness"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e18_q003_seg1_1022.8_1056.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 1022.8,
+          "end": 1056.3,
+          "mmss": "17:2.8-17:36.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0187",
+        "t": [
+          1022.845,
+          1026.182
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, you're definitely losing. Hello. Rachel Green."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0188",
+        "t": [
+          1026.265,
+          1028.559
+        ],
+        "speaker": "imitating",
+        "text": "Me-me-me."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0189",
+        "t": [
+          1028.643,
+          1035.358
+        ],
+        "speaker": "Rachel",
+        "text": "Excuse me. It's about the job. Barbara, hi. How are you?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0190",
+        "t": [
+          1037.026,
+          1055.67
+        ],
+        "speaker": "Rachel",
+        "text": "Uh-huh. No, I understand. Yeah, oh, well, come on, no, I'm fine. Don't be silly. Yeah, but, you know, if anything else opens up please... hello? Hello?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What is the emotional trajectory of the woman in the light blue shirt?",
+    "options": [
+      "A. She begins determined, becomes confident, and ends calm and satisfied.",
+      "B. She begins playful, becomes angry, and ends embarrassed.",
+      "C. She begins nervous, becomes relieved, and ends disappointed.",
+      "D. She begins focused, grows nervous, and ends surprised and joyful."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e18_q004_seg1_1159.1_1302.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 1159.1,
+          "end": 1302.2,
+          "mmss": "19:19.1-21:42.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0207",
+        "t": [
+          1159.065,
+          1160.983
+        ],
+        "speaker": "Ross",
+        "text": "I'm in."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0208",
+        "t": [
+          1161.067,
+          1162.151
+        ],
+        "speaker": "Rachel",
+        "text": "How many you want?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0209",
+        "t": [
+          1162.235,
+          1164.487
+        ],
+        "speaker": "Ross",
+        "text": "One."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0210",
+        "t": [
+          1164.57,
+          1169.825
+        ],
+        "speaker": "Rachel",
+        "text": "Dealer takes two. - 'What do you bet?' - I bet $2."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0211",
+        "t": [
+          1171.327,
+          1179.418
+        ],
+        "speaker": "Rachel",
+        "text": "Okay, see your two.. ...and I raise you.. ...twenty."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0212",
+        "t": [
+          1179.502,
+          1180.795
+        ],
+        "speaker": "unknown",
+        "text": "Wha.."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0213",
+        "t": [
+          1185.174,
+          1190.555
+        ],
+        "speaker": "Ross",
+        "text": "I'll see your 20.. ...raise you 25."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0214",
+        "t": [
+          1195.518,
+          1200.69
+        ],
+        "speaker": "Rachel",
+        "text": "See your 25.. ...and, uh, Monica, get my purse."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0215",
+        "t": [
+          1205.486,
+          1207.029
+        ],
+        "speaker": "Monica",
+        "text": "Rachel, there's nothing in it."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0216",
+        "t": [
+          1208.739,
+          1211.617
+        ],
+        "speaker": "Rachel",
+        "text": "Okay, then get me your purse."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0217",
+        "t": [
+          1215.037,
+          1218.374
+        ],
+        "speaker": "Monica",
+        "text": "Okay... here you go. Good luck."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0218",
+        "t": [
+          1218.457,
+          1226.883
+        ],
+        "speaker": "Rachel",
+        "text": "Thank you. I saw your 25, and I raise you.. ...seven."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0219",
+        "t": [
+          1226.924,
+          1228.217
+        ],
+        "speaker": "Phoebe",
+        "text": "Teen."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0220",
+        "t": [
+          1236.225,
+          1238.895
+        ],
+        "speaker": "Ross",
+        "text": "Joey, I'm a little shy."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0221",
+        "t": [
+          1238.978,
+          1242.148
+        ],
+        "speaker": "Joey",
+        "text": "That's okay, Ross. You can ask me."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0222",
+        "t": [
+          1248.362,
+          1250.197
+        ],
+        "speaker": "Chandler",
+        "text": "- What do you need? - Fifteen."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0223",
+        "t": [
+          1250.239,
+          1252.533
+        ],
+        "speaker": "Joey",
+        "text": "- Here's ten. - Here, I got five. I got five."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0224",
+        "t": [
+          1252.575,
+          1261.042
+        ],
+        "speaker": "Ross",
+        "text": "- Thank you. - Good luck. Okay, I am calling your 17. What do you got?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0225",
+        "t": [
+          1271.135,
+          1273.596
+        ],
+        "speaker": "Rachel",
+        "text": "Full house."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0226",
+        "t": [
+          1281.062,
+          1282.104
+        ],
+        "speaker": "Ross",
+        "text": "You got me."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0227",
+        "t": [
+          1282.188,
+          1284.899
+        ],
+        "speaker": "unknown",
+        "text": "- Oh! - Oh!"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0228",
+        "t": [
+          1288.819,
+          1291.781
+        ],
+        "speaker": "unknown",
+        "text": "Oh.. Oh!"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0229",
+        "t": [
+          1293.741,
+          1295.409
+        ],
+        "speaker": "Joey",
+        "text": "That's alright, you know, that's a tough hand to beat."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0230",
+        "t": [
+          1295.451,
+          1296.994
+        ],
+        "speaker": "Chandler",
+        "text": "I thought we had them."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0231",
+        "t": [
+          1297.078,
+          1302.208
+        ],
+        "speaker": "Ross",
+        "text": "When you don't have the cards, you don't have the cards. But, uh, look how happy she is."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What is the emotional trajectory of the woman in the brown top and apron?",
+    "options": [
+      "A. She begins frustrated, grows shocked, then ends embarrassed.",
+      "B. She begins optimistic, stays calm, then ends amused.",
+      "C. She begins resentful, becomes relieved, then ends confident.",
+      "D. She remains bored and detached throughout, showing no interest."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e18_q005_seg1_15.129_57.004.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 15.129,
+          "end": 57.004,
+          "mmss": "0:15.1-0:57.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0001",
+        "t": [
+          15.129,
+          17.673
+        ],
+        "speaker": "Man in a gray shirt at the table",
+        "text": "We're running low on resumes over here."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0002",
+        "t": [
+          17.715,
+          20.426
+        ],
+        "speaker": "Dark-haired woman in a red cardigan",
+        "text": "Do you really want a job with Popular Mechanics?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0003",
+        "t": [
+          20.468,
+          24.764
+        ],
+        "speaker": "Man in a black shirt",
+        "text": "If you're going to work for mechanics, those are the ones to work for."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0004",
+        "t": [
+          24.847,
+          33.689
+        ],
+        "speaker": "Woman in a brown top and apron",
+        "text": "I'm going for anything here. I cannot be a waitress anymore. I'm sick of the lousy tips and of being called 'Excuse me.'"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0005",
+        "t": [
+          34.982,
+          37.735
+        ],
+        "speaker": "Man in a gray shirt at the table",
+        "text": "Did you proofread these?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0006",
+        "t": [
+          37.818,
+          39.695
+        ],
+        "speaker": "Woman in a brown top and apron",
+        "text": "Yeah. Why?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0007",
+        "t": [
+          39.779,
+          44.534
+        ],
+        "speaker": "Man in a gray shirt at the table",
+        "text": "Nothing. I'm sure they'll be impressed with your excellent 'compuper' skills."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0008",
+        "t": [
+          45.701,
+          50.748
+        ],
+        "speaker": "Woman in a brown top and apron",
+        "text": "Oh, my God! Do you think it's on all of them?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0009",
+        "t": [
+          53.834,
+          57.004
+        ],
+        "speaker": "Man in a dark sweater by the couch",
+        "text": "I'm sure the copier caught a few."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q006",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full interaction, what emotions does the man in the red jacket experience?",
+    "options": [
+      "A. Indifference, detachment, and boredom.",
+      "B. Relaxation, confidence, and satisfaction.",
+      "C. Anger, contempt, and hostility.",
+      "D. Wistfulness, denial, and awkwardness."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e18_q006_seg1_142.673_191.806.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 142.673,
+          "end": 191.806,
+          "mmss": "2:22.7-3:11.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0018",
+        "t": [
+          142.673,
+          146.052
+        ],
+        "speaker": "Man in a black jacket",
+        "text": "The woman you dated is so great. Why won't you go out with her again?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0019",
+        "t": [
+          146.135,
+          147.22
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "I don't know."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0020",
+        "t": [
+          147.303,
+          151.974
+        ],
+        "speaker": "Man in a black jacket",
+        "text": "Is this still about her belief that the Flintstones could have happened?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0021",
+        "t": [
+          152.058,
+          156.646
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "No. It's not just that. I want someone who does something for me."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0022",
+        "t": [
+          156.687,
+          161.984
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "Someone who gets my heart pounding, who makes me..."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0023",
+        "t": [
+          163.694,
+          166.489
+        ],
+        "speaker": "Man in a black jacket",
+        "text": "Little playthings with yarn?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0024",
+        "t": [
+          167.949,
+          169.283
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0025",
+        "t": [
+          169.325,
+          172.245
+        ],
+        "speaker": "Man in a black jacket",
+        "text": "Could you want her more?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0026",
+        "t": [
+          172.328,
+          173.871
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "Who?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0027",
+        "t": [
+          173.955,
+          177.375
+        ],
+        "speaker": "Man in a black jacket",
+        "text": "The sarcastic sister from that sitcom."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0028",
+        "t": [
+          181.295,
+          182.922
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "Look, I..."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0029",
+        "t": [
+          184.715,
+          187.593
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "I am totally, totally over her."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0030",
+        "t": [
+          187.635,
+          188.844
+        ],
+        "speaker": "Waitress in a blue top and white apron",
+        "text": "Hi. Can I help you?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0031",
+        "t": [
+          188.886,
+          191.806
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "No. We're fine."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q007",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What is the emotional trajectory of the three men at the table?",
+    "options": [
+      "A. They begin impatient, become angry, and end by canceling the game.",
+      "B. They begin playfully instructive, grow baffled and amused, and finish with coaching.",
+      "C. They begin uncertain, become impressed, and end worried about losing.",
+      "D. They remain solemn and encouraging throughout, treating every mistake as ordinary progress."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e18_q007_seg1_263.252_348.838.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 263.252,
+          "end": 348.838,
+          "mmss": "4:23.3-5:48.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0051",
+        "t": [
+          263.252,
+          266.714
+        ],
+        "speaker": "Man in a black shirt",
+        "text": "Okay, so now we draw cards."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0052",
+        "t": [
+          270.718,
+          273.471
+        ],
+        "speaker": "Dark-haired woman at the table",
+        "text": "I wouldn't need any, right? Because I have a straight."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0053",
+        "t": [
+          273.554,
+          276.39
+        ],
+        "speaker": "Two women at the table",
+        "text": "Good for you! Congratulations!"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0054",
+        "t": [
+          278.684,
+          280.561
+        ],
+        "speaker": "Man in a black shirt",
+        "text": "How many do you want?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0055",
+        "t": [
+          280.603,
+          285.65
+        ],
+        "speaker": "Blonde woman in a patterned blouse",
+        "text": "I just need two: the ten of spades and the six of clubs."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0056",
+        "t": [
+          287.485,
+          289.362
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "No, you can't do that."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0057",
+        "t": [
+          289.445,
+          291.28
+        ],
+        "speaker": "Woman beside the kitchen",
+        "text": "I have the ten of spades. Do you want it?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0058",
+        "t": [
+          291.364,
+          296.494
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "No, no. You can't do that."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0059",
+        "t": [
+          296.577,
+          299.121
+        ],
+        "speaker": "Woman beside the kitchen",
+        "text": "That's okay. I don't need them. I'm going for fours."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0060",
+        "t": [
+          299.205,
+          301.749
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "Oh, you're..."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0061",
+        "t": [
+          306.212,
+          310.299
+        ],
+        "speaker": "Dark-haired woman at the table",
+        "text": "We have salmon roulettes and assorted crudités."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0062",
+        "t": [
+          310.383,
+          320.059
+        ],
+        "speaker": "Man in a gray overshirt",
+        "text": "This is a poker game. You can't serve food with more than one syllable. It has to be chips, dip, or pretz..."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0063",
+        "t": [
+          322.77,
+          324.272
+        ],
+        "speaker": "Man in a black shirt",
+        "text": "At this point, the dealer..."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0064",
+        "t": [
+          324.313,
+          329.068
+        ],
+        "speaker": "Dark-haired woman at the table",
+        "text": "We got it. Let's play for real—high stakes, big bucks."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0065",
+        "t": [
+          329.11,
+          333.155
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "Are you sure? The blonde woman just threw away two jacks because they didn't look happy."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0066",
+        "t": [
+          337.326,
+          339.996
+        ],
+        "speaker": "Blonde woman in a patterned blouse",
+        "text": "I'm ready, so just deal."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0067",
+        "t": [
+          340.037,
+          348.838
+        ],
+        "speaker": "Man in a black shirt",
+        "text": "Last-minute lesson. Three, eight. Eight, three. Very good."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q008",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the man in the red jacket react to the other men's teasing?",
+    "options": [
+      "A. He reacts with confidence, pride, and enthusiasm.",
+      "B. He reacts with anger, hostility, and indignation.",
+      "C. He reacts with defensiveness, embarrassment, and deflection.",
+      "D. He reacts with shame, relief, and indifference."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e18_q008_seg1_464.954_501.49.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 464.954,
+          "end": 501.49,
+          "mmss": "7:45.0-8:21.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0094",
+        "t": [
+          464.954,
+          466.455
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "Alright, boys, let's eat."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0095",
+        "t": [
+          466.539,
+          470.918
+        ],
+        "speaker": "Man in a black shirt carrying pizza",
+        "text": "Did you get that from the 'I love the waitress' pizzeria?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0096",
+        "t": [
+          470.96,
+          472.253
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "You still on that?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0097",
+        "t": [
+          472.295,
+          479.343
+        ],
+        "speaker": "Man in a black shirt carrying pizza",
+        "text": "What was with that whole tough-guy speech: 'When I play poker, I'm not a nice guy'?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0098",
+        "t": [
+          479.427,
+          480.72
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "You are way off."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0099",
+        "t": [
+          480.803,
+          485.099
+        ],
+        "speaker": "Man in a striped sweater",
+        "text": "I don't think so, because I think you love her."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0100",
+        "t": [
+          485.141,
+          501.49
+        ],
+        "speaker": "Man in a red jacket",
+        "text": "No. I might have had feelings for her at one time, but not anymore. I just... Where are you going with that disk? You are not putting that on again. If you press that button, you are in very big trouble."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q009",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How do the men at the table react to the woman in the light blue shirt's win?",
+    "options": [
+      "A. They react with surprise, unease, and deflation.",
+      "B. They react with confidence, warmth, and generosity.",
+      "C. They react with fear, panic, and retreat.",
+      "D. They react with anger, suspicion, and resentment."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e18_q009_seg1_848.212_933.172.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 848.212,
+          "end": 933.172,
+          "mmss": "14:8.2-15:33.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0158",
+        "t": [
+          848.212,
+          853.593
+        ],
+        "speaker": "Monica",
+        "text": "Cincinnati, no blind. Everybody ante."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0160",
+        "t": [
+          858.723,
+          862.018
+        ],
+        "speaker": "Ross",
+        "text": "Your money's mine, Green."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0167",
+        "t": [
+          899.472,
+          902.308
+        ],
+        "speaker": "Rachel",
+        "text": "I'm in."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0168",
+        "t": [
+          902.35,
+          905.102
+        ],
+        "speaker": "Joey",
+        "text": "Me too. What do you got?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0169",
+        "t": [
+          905.186,
+          909.774
+        ],
+        "speaker": "Ross",
+        "text": "You'd better hop out of the shower because I gotta flush."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0170",
+        "t": [
+          912.401,
+          933.172
+        ],
+        "speaker": "Rachel",
+        "text": "Hop back in, because I got four sixes. I won. I actually won. I think I'm going to make a little Ross pile."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What is the emotional trajectory of the man in the blue overshirt?",
+    "options": [
+      "A. He stays playfully relaxed and amused throughout.",
+      "B. He begins controlled, becomes defensive, and ends frustrated and embarrassed.",
+      "C. He starts frightened, becomes relieved, and happily gives up.",
+      "D. He becomes angry at the others, while remaining indifferent to her."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e18_q010_seg1_946.06_1017.548.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 946.06,
+          "end": 1017.548,
+          "mmss": "15:46.1-16:57.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0171",
+        "t": [
+          946.06,
+          947.144
+        ],
+        "speaker": "Rachel",
+        "text": "I'm in."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0177",
+        "t": [
+          976.257,
+          979.76
+        ],
+        "speaker": "Ross",
+        "text": "Oh, I'm very in."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0180",
+        "t": [
+          984.807,
+          992.607
+        ],
+        "speaker": "Rachel",
+        "text": "I will see you, and I'll raise you. Want to waste another buck?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0181",
+        "t": [
+          992.648,
+          998.988
+        ],
+        "speaker": "Ross",
+        "text": "Not this time. What did you have? Show them to me."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0182",
+        "t": [
+          999.03,
+          1000.448
+        ],
+        "speaker": "Rachel",
+        "text": "Get your hands out of there."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0184",
+        "t": [
+          1005.453,
+          1013.92
+        ],
+        "speaker": "Rachel",
+        "text": "You really can't stand to lose. Your whole face is getting red. The little vein is popping out of your temple."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0185",
+        "t": [
+          1013.961,
+          1017.548
+        ],
+        "speaker": "Phoebe",
+        "text": "Plus, that shirt doesn't really match those pants."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q011",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How do the others at the table react to the woman in the light blue shirt's phone call?",
+    "options": [
+      "A. They react with playfulness, optimism, and encouragement.",
+      "B. They react with anger, blame, and defensiveness.",
+      "C. They react with indifference, detachment, and amusement.",
+      "D. They react with concern, apprehension, and unease."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e18_q011_seg1_1022.845_1118.983.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 1022.845,
+          "end": 1118.983,
+          "mmss": "17:2.8-18:39.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0187",
+        "t": [
+          1022.845,
+          1026.182
+        ],
+        "speaker": "Rachel",
+        "text": "You're definitely losing. Hello?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0189",
+        "t": [
+          1028.643,
+          1035.358
+        ],
+        "speaker": "Rachel",
+        "text": "It's about the job. Hi. How are you?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0190",
+        "t": [
+          1037.026,
+          1055.67
+        ],
+        "speaker": "Rachel",
+        "text": "I understand. I'm fine. If anything else opens up, please... hello?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0192",
+        "t": [
+          1071.227,
+          1072.687
+        ],
+        "speaker": "Monica",
+        "text": "Sorry."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0194",
+        "t": [
+          1074.981,
+          1076.941
+        ],
+        "speaker": "Rachel",
+        "text": "Yeah. Okay."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0195",
+        "t": [
+          1078.776,
+          1087.743
+        ],
+        "speaker": "Rachel",
+        "text": "Where were we? Five-card draw. Jacks or better. Nothing wild. Everybody ante."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0196",
+        "t": [
+          1087.785,
+          1090.872
+        ],
+        "speaker": "Joey",
+        "text": "We don't have to do this."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0197",
+        "t": [
+          1090.913,
+          1092.748
+        ],
+        "speaker": "Rachel",
+        "text": "Yes, we do."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0201",
+        "t": [
+          1102.967,
+          1110.099
+        ],
+        "speaker": "Rachel",
+        "text": "I see your 50 cents and raise you five dollars."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0203",
+        "t": [
+          1112.518,
+          1118.983
+        ],
+        "speaker": "Rachel",
+        "text": "I just lost a job and I'd like to raise the bet five bucks. Does anybody have a problem with that?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e18_q012",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "What causes the man in the blue overshirt to hold back his competitiveness? Answer with a brief description of the event.",
+    "options": [],
+    "answer": "He notices how happy she is when she wins and decides to let her take the hand.",
+    "video_name": "friends_g1_2_s01e18_q012_seg1_1125.239_1302.208.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E18"
+      ],
+      "segments": [
+        {
+          "ep": "S01E18",
+          "start": 1125.239,
+          "end": 1302.208,
+          "mmss": "18:45.2-21:42.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E18",
+        "unit_id": "u0204",
+        "t": [
+          1125.239,
+          1126.782
+        ],
+        "speaker": "Rachel",
+        "text": "Loser?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0205",
+        "t": [
+          1134.457,
+          1135.833
+        ],
+        "speaker": "Ross",
+        "text": "No, I fold."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0206",
+        "t": [
+          1135.917,
+          1145.927
+        ],
+        "speaker": "Rachel",
+        "text": "What do you mean you fold? I thought once the cards are dealt, I'm not a nice guy. Were you just full of it?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0207",
+        "t": [
+          1159.065,
+          1160.983
+        ],
+        "speaker": "Ross",
+        "text": "I'm in."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0211",
+        "t": [
+          1171.327,
+          1179.418
+        ],
+        "speaker": "Rachel",
+        "text": "I see your two and raise you twenty."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0213",
+        "t": [
+          1185.174,
+          1190.555
+        ],
+        "speaker": "Ross",
+        "text": "I'll see your twenty and raise you twenty-five."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0224",
+        "t": [
+          1252.575,
+          1261.042
+        ],
+        "speaker": "Ross",
+        "text": "I am calling your seventeen. What do you got?"
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0225",
+        "t": [
+          1271.135,
+          1273.596
+        ],
+        "speaker": "Rachel",
+        "text": "Full house."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0226",
+        "t": [
+          1281.062,
+          1282.104
+        ],
+        "speaker": "Ross",
+        "text": "You got me."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0229",
+        "t": [
+          1293.741,
+          1295.409
+        ],
+        "speaker": "Joey",
+        "text": "That's a tough hand to beat."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0230",
+        "t": [
+          1295.451,
+          1296.994
+        ],
+        "speaker": "Chandler",
+        "text": "I thought we had them."
+      },
+      {
+        "ep": "S01E18",
+        "unit_id": "u0231",
+        "t": [
+          1297.078,
+          1302.208
+        ],
+        "speaker": "Ross",
+        "text": "When you don't have the cards, you don't have the cards. But look how happy she is."
+      }
+    ]
+  }
+]

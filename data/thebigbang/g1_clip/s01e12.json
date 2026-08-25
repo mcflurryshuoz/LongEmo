@@ -1,0 +1,1943 @@
+[
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q001",
+  "task_type": "contextual_emotion",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "Considering the full interaction, what emotions does the man with glasses in the tan jacket and a green hoodie experience?",
+  "options": [],
+  "answer": [
+   "engagement",
+   "happiness"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q001_seg1_7.0_54.2.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 7,
+     "end": 54.2,
+     "mmss": "0:07.0–0:54.2"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0001",
+    "t": [
+     7.082,
+     10.168
+    ],
+    "speaker": "Sheldon",
+    "text": "Here's the problem with teleportation."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0002",
+    "t": [
+     12.921,
+     14.84
+    ],
+    "speaker": "Leonard",
+    "text": "Lay it on me."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0003",
+    "t": [
+     15.006,
+     31.356
+    ],
+    "speaker": "Sheldon",
+    "text": "Assuming a device could be invented... Which would identify the state of matter of an individual in one location... And transmit that to a distant location for reassembly... You wouldn't have transported the individual... You would have destroyed him in one location and re-created him in another."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0004",
+    "t": [
+     32.441,
+     34.568
+    ],
+    "speaker": "Leonard",
+    "text": "How about that."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0005",
+    "t": [
+     35.36,
+     42.743
+    ],
+    "speaker": "Sheldon",
+    "text": "I would never use a transporter. The original Sheldon would have to be disintegrated... In order to create a new Sheldon."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0006",
+    "t": [
+     43.201,
+     47.289
+    ],
+    "speaker": "Leonard",
+    "text": "Would the new Sheldon be in any way an improvement on the old Sheldon?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0007",
+    "t": [
+     48.206,
+     50.5
+    ],
+    "speaker": "Sheldon",
+    "text": "No, he would be exactly the same."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0008",
+    "t": [
+     50.667,
+     52.544
+    ],
+    "speaker": "Leonard",
+    "text": "That is a problem."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0009",
+    "t": [
+     52.711,
+     53.962
+    ],
+    "speaker": "Sheldon",
+    "text": "So you see it too?"
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q002",
+  "task_type": "contextual_emotion",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "Considering the full interaction, what emotions does the older man in a brown blazer and dark turtleneck experience?",
+  "options": [],
+  "answer": [
+   "esteem",
+   "anticipation"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q002_seg1_54.7_147.0.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 54.7,
+     "end": 147,
+     "mmss": "0:54.7–2:27.0"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0010",
+    "t": [
+     54.921,
+     57.048
+    ],
+    "speaker": "ENSEMBLE",
+    "text": "Dr. Hofstadter, Dr. Cooper."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0011",
+    "t": [
+     57.215,
+     58.425
+    ],
+    "speaker": "unknown",
+    "text": "Both: Dr. Gablehauser."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0012",
+    "t": [
+     58.592,
+     69.686
+    ],
+    "speaker": "Gablehouser",
+    "text": "Gentlemen, I'd like you to meet Dennis Kim. Dennis is a highly sought-after doctoral candidate. We're hoping to have him do graduate work here. - Graduate work, very impressive. - And he's only 15 years old."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0013",
+    "t": [
+     69.853,
+     73.732
+    ],
+    "speaker": "Sheldon",
+    "text": "Not bad. I myself started graduate school at 14."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0014",
+    "t": [
+     73.899,
+     77.402
+    ],
+    "speaker": "Dennis",
+    "text": "Well, I lost a year while my family was tunneling out of North Korea."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0015",
+    "t": [
+     79.78,
+     82.574
+    ],
+    "speaker": "Leonard",
+    "text": "Advantage, Kim."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0016",
+    "t": [
+     83.116,
+     88.705
+    ],
+    "speaker": "Gablehouser",
+    "text": "I thought maybe you could show Dennis around. Let him see why we're the best physics research facility in the country."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0017",
+    "t": [
+     88.872,
+     96.171
+    ],
+    "speaker": "Dennis",
+    "text": "I know you're not. You don't have an open science grid computer or a free electron laser. The string theory research being done is a dead end."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0018",
+    "t": [
+     96.338,
+     100.05
+    ],
+    "speaker": "Sheldon",
+    "text": "Excuse me, that is my research, and it is by no means a dead end."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0019",
+    "t": [
+     100.217,
+     103.261
+    ],
+    "speaker": "Dennis",
+    "text": "Well, obviously, you don't see it yet, but trust me, you will."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0020",
+    "t": [
+     106.056,
+     118.777
+    ],
+    "speaker": "Gablehouser",
+    "text": "Dennis, we've discussed this. We're in the process of updating our equipment. We welcome your input on our research goals. We agree to look the other way if you use 20 percent... Of the money you attract to smuggle your grandfather out of Pyongyang."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0021",
+    "t": [
+     120.445,
+     124.241
+    ],
+    "speaker": "Gablehouser",
+    "text": "We want him here, boys. - Make it happen. - Yes, sir."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0022",
+    "t": [
+     124.407,
+     128.703
+    ],
+    "speaker": "Sheldon",
+    "text": "You can count on us. We're on it. What the hell do you mean, \"dead end\"?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0023",
+    "t": [
+     129.12,
+     137.295
+    ],
+    "speaker": "Dennis",
+    "text": "I mean, the whole landscape of false vacuums in string theory... Could be as large as 10 to the 500th power. In addition... Ooh, look, chocolate milk."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0024",
+    "t": [
+     140.298,
+     143.218
+    ],
+    "speaker": "Sheldon",
+    "text": "I sense a disturbance in the force."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0025",
+    "t": [
+     143.385,
+     146.68
+    ],
+    "speaker": "unknown",
+    "text": "A bad feeling I have about this. Mm."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q003",
+  "task_type": "emotion_trajectory",
+  "question_type": "single_choice",
+  "prompt_template": "single_choice_letter",
+  "question": "Which option best describes the emotional trajectory of the tall man in the purple striped shirt?",
+  "options": [
+   "A. He begins guarded but curious, grows steadily impressed, becomes warmly admiring, and ends eager to collaborate.",
+   "B. He begins self-assured and faintly amused, grows increasingly irritated, briefly turns proud, and ends visibly unsettled.",
+   "C. He begins uneasy and defensive, grows openly angry, becomes briefly hopeful, and ends relieved and composed.",
+   "D. He begins confident and relaxed, becomes embarrassed early, recovers into calm focus, and ends lightly amused."
+  ],
+  "answer": "B",
+  "video_name": "thebigbang_g1_2_s01e12_q003_seg1_171.8_267.0.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 171.8,
+     "end": 267,
+     "mmss": "2:51.8–4:27.0"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0026",
+    "t": [
+     171.997,
+     173.79
+    ],
+    "speaker": "Leonard",
+    "text": "So how long have you been in america?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0027",
+    "t": [
+     173.957,
+     175.417
+    ],
+    "speaker": "Dennis",
+    "text": "- A year and a half. - No kidding."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0028",
+    "t": [
+     175.584,
+     178.795
+    ],
+    "speaker": "Leonard",
+    "text": "- You speak English really well. - So do you."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0029",
+    "t": [
+     179.212,
+     183.633
+    ],
+    "speaker": "Dennis",
+    "text": "Except for your tendency to end sentences with prepositions."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0030",
+    "t": [
+     183.925,
+     186.177
+    ],
+    "speaker": "Leonard",
+    "text": "What are you talking about?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0031",
+    "t": [
+     189.598,
+     194.185
+    ],
+    "speaker": "Sheldon",
+    "text": "He's not wrong. All right, and this is my office."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0032",
+    "t": [
+     194.352,
+     196.771
+    ],
+    "speaker": "Dennis",
+    "text": "- Is this part of the tour? - Nope. Goodbye."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0033",
+    "t": [
+     197.856,
+     199.9
+    ],
+    "speaker": "Leonard",
+    "text": "Sheldon, we've hardly shown him anything."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0034",
+    "t": [
+     200.066,
+     206.656
+    ],
+    "speaker": "Sheldon",
+    "text": "All right, this is my desk. These are my books. This is my door. Please close it behind you, goodbye."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0035",
+    "t": [
+     208.825,
+     215.832
+    ],
+    "speaker": "Dennis",
+    "text": "You're doing work in quantum loop corrections. - Keen observation, goodbye. - You see where you went wrong, don't you?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0036",
+    "t": [
+     216.875,
+     221.171
+    ],
+    "speaker": "Sheldon",
+    "text": "- Leonard. - Ha. - Yeah? - Get him out."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0037",
+    "t": [
+     221.922,
+     225.05
+    ],
+    "speaker": "Leonard",
+    "text": "Come, I'll show you the rec center. They've got nautilus equipment."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0038",
+    "t": [
+     225.216,
+     227.01
+    ],
+    "speaker": "Dennis",
+    "text": "Do I look like I lift weights?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0039",
+    "t": [
+     228.219,
+     230.597
+    ],
+    "speaker": "Leonard",
+    "text": "Not heavy ones."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0040",
+    "t": [
+     230.764,
+     234.643
+    ],
+    "speaker": "Dennis",
+    "text": "It's startling you haven't considered a lorentz invariant or field theory approach."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0041",
+    "t": [
+     235.56,
+     240.607
+    ],
+    "speaker": "Sheldon",
+    "text": "You think I haven't considered it? - You really think I haven't considered it? - Have you considered it?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0042",
+    "t": [
+     242.317,
+     244.402
+    ],
+    "speaker": "Sheldon",
+    "text": "- Get him out, Leonard. - Come on, Dennis."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0043",
+    "t": [
+     244.569,
+     247.364
+    ],
+    "speaker": "Leonard",
+    "text": "I'll show you the radiation lab."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0044",
+    "t": [
+     247.697,
+     249.824
+    ],
+    "speaker": "Dennis",
+    "text": "Wow. You won the Stevenson award?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0045",
+    "t": [
+     250.2,
+     254.079
+    ],
+    "speaker": "Sheldon",
+    "text": "Yes. In fact, I am the youngest person ever to win it."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0046",
+    "t": [
+     254.454,
+     256.581
+    ],
+    "speaker": "Dennis",
+    "text": "Really? How old?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0047",
+    "t": [
+     256.748,
+     258.083
+    ],
+    "speaker": "Sheldon",
+    "text": "Fourteen and a half."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0048",
+    "t": [
+     258.249,
+     260.377
+    ],
+    "speaker": "Dennis",
+    "text": "Mm. You were the youngest ever to win it."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0049",
+    "t": [
+     264.214,
+     266.675
+    ],
+    "speaker": "Leonard",
+    "text": "It's like looking into an obnoxious mirror, isn't it?"
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q004",
+  "task_type": "contextual_emotion",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "Considering the full interaction, what emotions does the tall man in the purple striped shirt experience?",
+  "options": [],
+  "answer": [
+   "sadness",
+   "sensitivity"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q004_seg1_299.7_341.7.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 299.7,
+     "end": 341.7,
+     "mmss": "4:59.7–5:41.7"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0054",
+    "t": [
+     299.916,
+     304.838
+    ],
+    "speaker": "Leonard",
+    "text": "Something you'd like to share? A tale of woe perhaps?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0055",
+    "t": [
+     305.338,
+     316.307
+    ],
+    "speaker": "Sheldon",
+    "text": "Fifteen years old. Dennis Kim is 15 years old and he's already correcting my work. Today, I went from being Wolfgang Amadeus Mozart to... You know, that other guy."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0056",
+    "t": [
+     316.474,
+     317.6
+    ],
+    "speaker": "Howard",
+    "text": "Antonio salieri?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0057",
+    "t": [
+     318.435,
+     321.104
+    ],
+    "speaker": "Sheldon",
+    "text": "Oh, god, now even you're smarter than me."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0058",
+    "t": [
+     322.313,
+     326.693
+    ],
+    "speaker": "Howard",
+    "text": "You know, you don't have so many friends that you can afford to start insulting them."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0059",
+    "t": [
+     327.819,
+     329.696
+    ],
+    "speaker": "Leonard",
+    "text": "Just eat, Sheldon. You'll feel better."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0060",
+    "t": [
+     329.863,
+     337.162
+    ],
+    "speaker": "Sheldon",
+    "text": "Why waste food? When a cow goes dry, they don't keep feeding it... They just take her out and shoot her between the eyes."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0061",
+    "t": [
+     337.579,
+     341.374
+    ],
+    "speaker": "Penny",
+    "text": "I'm confused. Did Sheldon stop giving milk?"
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q005",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions does the tall man in the purple striped shirt evoke in the blonde woman in the purple top when he dismisses her abilities?",
+  "options": [],
+  "answer": [
+   "annoyance",
+   "disapproval"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q005_seg1_342.0_369.0.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 342,
+     "end": 369,
+     "mmss": "5:42.0–6:09.0"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0062",
+    "t": [
+     342.125,
+     347.464
+    ],
+    "speaker": "Leonard",
+    "text": "You can't let this kid get to you. You knew that someday, someone would come along who's younger and smarter."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0063",
+    "t": [
+     347.63,
+     354.012
+    ],
+    "speaker": "Sheldon",
+    "text": "Yes, but I assumed I would've been dead hundreds of years. And that there'd be an asterisk by his name because he'd be a cyborg."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0064",
+    "t": [
+     355.305,
+     358.683
+    ],
+    "speaker": "Penny",
+    "text": "So you got a little competition. I really don't see what the big deal is."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0065",
+    "t": [
+     358.85,
+     362.979
+    ],
+    "speaker": "Sheldon",
+    "text": "Of course you don't. You've never excelled at anything."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0066",
+    "t": [
+     363.98,
+     367.692
+    ],
+    "speaker": "Penny",
+    "text": "I don't understand, exactly how did he get any friends in the first place?"
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q006",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions do the two other men in sweaters’ repeated orders to leave evoke in the tall man in the gray striped T-shirt?",
+  "options": [],
+  "answer": [
+   "doubt/confusion",
+   "engagement"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q006_seg1_546.6_615.5.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 546.6,
+     "end": 615.5,
+     "mmss": "9:06.6–10:15.5"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0089",
+    "t": [
+     546.829,
+     549.332
+    ],
+    "speaker": "Sheldon",
+    "text": "So it's a shelf."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0090",
+    "t": [
+     552.335,
+     558.549
+    ],
+    "speaker": "Howard",
+    "text": "No, you don't understand. During acceleration, it needs to stay perfectly level and provide... Yeah, okay, it's a shelf."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0091",
+    "t": [
+     559.3,
+     566.474
+    ],
+    "speaker": "Sheldon",
+    "text": "I notice you're using titanium. Did you give any consideration to carbon nanotubes? They're lighter, cheaper and have twice the tensile strength."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0092",
+    "t": [
+     566.641,
+     572.23
+    ],
+    "speaker": "Howard",
+    "text": "Sheldon, there's a diploma in my office that says I have a master's in engineering."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0093",
+    "t": [
+     572.397,
+     576.234
+    ],
+    "speaker": "Sheldon",
+    "text": "And you also have a note from your mother that says, \"I love you, bubula.\""
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0094",
+    "t": [
+     578.069,
+     581.906
+    ],
+    "speaker": "Sheldon",
+    "text": "But neither of those is a cogent argument for titanium over nanotubes."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0095",
+    "t": [
+     582.657,
+     586.244
+    ],
+    "speaker": "Howard",
+    "text": "- Sheldon. - Yes? Go away."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0096",
+    "t": [
+     586.869,
+     588.413
+    ],
+    "speaker": "Sheldon",
+    "text": "Did Leonard tell you to say that?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0097",
+    "t": [
+     588.997,
+     590.748
+    ],
+    "speaker": "Howard",
+    "text": "No, I thought of it all by myself."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0098",
+    "t": [
+     592.375,
+     599.424
+    ],
+    "speaker": "Sheldon",
+    "text": "Huh? Can't be a coincidence. There must be some causal link I'm missing."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0099",
+    "t": [
+     601.676,
+     604.804
+    ],
+    "speaker": "Raj",
+    "text": "Go away."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0100",
+    "t": [
+     611.978,
+     615.273
+    ],
+    "speaker": "Sheldon",
+    "text": "Sheldon: Curiouser and curiouser."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q007",
+  "task_type": "emotion_trajectory",
+  "question_type": "single_choice",
+  "prompt_template": "single_choice_letter",
+  "question": "Which option best describes the emotional trajectory of the man in the dark green top?",
+  "options": [
+   "A. He begins frustrated, grows focused and confident, turns playfully amused, and ends regretful and subdued.",
+   "B. He begins mildly amused, grows irritated and defensive, becomes uncertain, and ends calm and detached.",
+   "C. He begins worried, grows confident and forceful, becomes openly angry, and ends coolly self-satisfied.",
+   "D. He begins frustrated, grows doubtful and hesitant, becomes alarmed, and ends relieved and upbeat."
+  ],
+  "answer": "A",
+  "video_name": "thebigbang_g1_2_s01e12_q007_seg1_619.0_699.3.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 619,
+     "end": 699.3,
+     "mmss": "10:19.0–11:39.3"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0101",
+    "t": [
+     619.068,
+     622.78
+    ],
+    "speaker": "Leonard",
+    "text": "- Is he here? - If he were, I wouldn't be."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0102",
+    "t": [
+     622.947,
+     629.912
+    ],
+    "speaker": "Raj",
+    "text": "You know what he did? He watched me work... And then started to design a simple piece of software that could replace me."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0103",
+    "t": [
+     630.913,
+     632.332
+    ],
+    "speaker": "Leonard",
+    "text": "Is that even possible?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0104",
+    "t": [
+     632.498,
+     634.375
+    ],
+    "speaker": "Raj",
+    "text": "As it turns out, yes."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0105",
+    "t": [
+     636.085,
+     638.671
+    ],
+    "speaker": "Howard",
+    "text": "- Something's gotta be done about him. - Like what?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0106",
+    "t": [
+     638.838,
+     643.968
+    ],
+    "speaker": "Leonard",
+    "text": "He'll never cope with the fact that some 15-year-old is smarter... And more accomplished than he is."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0107",
+    "t": [
+     644.719,
+     648.765
+    ],
+    "speaker": "Raj",
+    "text": "What if something were to happen to him so he was no longer a threat to Sheldon?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0108",
+    "t": [
+     650.266,
+     652.769
+    ],
+    "speaker": "Howard",
+    "text": "Then our problem would be solved."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0109",
+    "t": [
+     653.436,
+     659.317
+    ],
+    "speaker": "Leonard",
+    "text": "Hang on, are we talking about murdering Dennis Kim? I'm not saying no."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0110",
+    "t": [
+     660.193,
+     662.653
+    ],
+    "speaker": "Howard",
+    "text": "We don't have to go that far. There are other means."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0111",
+    "t": [
+     663.154,
+     667.075
+    ],
+    "speaker": "Raj",
+    "text": "We can't send him back to North Korea. He knows how to get out."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0112",
+    "t": [
+     669.535,
+     672.914
+    ],
+    "speaker": "Howard",
+    "text": "The only thing we need to do is make this Kim kid lose his focus."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0113",
+    "t": [
+     673.081,
+     675.958
+    ],
+    "speaker": "Leonard",
+    "text": "It won't happen. He is not interested in anything but physics."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0114",
+    "t": [
+     676.125,
+     684.092
+    ],
+    "speaker": "Howard",
+    "text": "- What about biology? - What? You know, biology. The one thing that can completely derail a world-class mind."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0115",
+    "t": [
+     684.258,
+     686.302
+    ],
+    "speaker": "Leonard",
+    "text": "- Howard, he's 15. - Yeah, so?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0116",
+    "t": [
+     686.469,
+     692.517
+    ],
+    "speaker": "Howard",
+    "text": "When I was 15, I met Denise palmeri... And my grade point average fell from a 5.0 to a 1.8."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0117",
+    "t": [
+     692.683,
+     693.976
+    ],
+    "speaker": "Raj",
+    "text": "She was sleeping with you?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0118",
+    "t": [
+     694.435,
+     699.065
+    ],
+    "speaker": "Howard",
+    "text": "No, I just wasted a lot of time thinking about what it would be like if she did."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q008",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions do the three men in sweaters’ request for a teenage girl evoke in the blonde woman in the white patterned top?",
+  "options": [],
+  "answer": [
+   "surprise",
+   "disapproval"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q008_seg1_700.2_743.8.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 700.2,
+     "end": 743.8,
+     "mmss": "11:40.2–12:23.8"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0119",
+    "t": [
+     700.358,
+     710.993
+    ],
+    "speaker": "unknown",
+    "text": "Oh, good, you're all here. I've decided that if the three of you drop whatever you're working on and join me... We could lick cold fusion in less than a decade, 12 years tops."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0120",
+    "t": [
+     713.162,
+     714.205
+    ],
+    "speaker": "unknown",
+    "text": "Go away?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0121",
+    "t": [
+     718.418,
+     719.46
+    ],
+    "speaker": "unknown",
+    "text": "Could it be me?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0122",
+    "t": [
+     723.673,
+     724.715
+    ],
+    "speaker": "unknown",
+    "text": "Hey, guys, what's up?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0123",
+    "t": [
+     724.882,
+     728.344
+    ],
+    "speaker": "Howard",
+    "text": "We need a hot 15-year-old Asian girl with a thing for smart guys."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0124",
+    "t": [
+     729.262,
+     734.725
+    ],
+    "speaker": "Leonard",
+    "text": "- What? - Howard, that's racist. Any 15-year-old girl will do the trick."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0125",
+    "t": [
+     740.022,
+     743.526
+    ],
+    "speaker": "Raj",
+    "text": "It's possible she may have misunderstood us."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q009",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions does the tall man in the purple striped shirt’s grand proposal about building a new city evoke in the older man in a dark suit and orange tie?",
+  "options": [],
+  "answer": [
+   "doubt/confusion",
+   "disapproval"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q009_seg1_749.0_820.3.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 749,
+     "end": 820.3,
+     "mmss": "12:29.0–13:40.3"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0126",
+    "t": [
+     749.198,
+     755.037
+    ],
+    "speaker": "Sheldon",
+    "text": "- Dr. Cooper. Oh, are we interrupting? - No, no, please come in. I think you'll appreciate this. This is very exciting."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0127",
+    "t": [
+     755.204,
+     757.373
+    ],
+    "speaker": "Gablehouser",
+    "text": "- What are you working on? - Something remarkable."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0128",
+    "t": [
+     757.54,
+     774.765
+    ],
+    "speaker": "Sheldon",
+    "text": "Since my prospects for the nobel prize in physics have disappeared... thank you. I've decided to refocus my efforts and use my people skills... To win the nobel peace prize. Look, I'm going to solve the middle east crisis... By building an exact replica of Jerusalem in the middle of the Mexican desert."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0129",
+    "t": [
+     776.601,
+     781.022
+    ],
+    "speaker": "Sheldon",
+    "text": "You know, it's like the baseball movie. \"Build it and they will come.\""
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0130",
+    "t": [
+     781.772,
+     782.815
+    ],
+    "speaker": "Gablehouser",
+    "text": "Who will come?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0131",
+    "t": [
+     782.982,
+     784.859
+    ],
+    "speaker": "Sheldon",
+    "text": "The Jewish people."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0132",
+    "t": [
+     785.026,
+     786.277
+    ],
+    "speaker": "Gablehouser",
+    "text": "What if they don't come?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0133",
+    "t": [
+     786.444,
+     788.279
+    ],
+    "speaker": "Sheldon",
+    "text": "We'll make it nice, put out a spread."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0134",
+    "t": [
+     789.78,
+     798.789
+    ],
+    "speaker": "Gablehouser",
+    "text": "Okay, well, speaking of spreads... We're having a welcoming party this afternoon for Mr. Kim... - Who's agreed to join us at the university. - Of course he has."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0135",
+    "t": [
+     798.956,
+     805.838
+    ],
+    "speaker": "Sheldon",
+    "text": "The oracle told us little Neo was the one. You can see the matrix, can't you?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0136",
+    "t": [
+     806.005,
+     811.969
+    ],
+    "speaker": "Gablehouser",
+    "text": "Okay, well, obviously, you're very busy with your, ah, um... Come, Dennis."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0137",
+    "t": [
+     813.93,
+     820.061
+    ],
+    "speaker": "Gablehouser",
+    "text": "You'll have to excuse Dr. Cooper. He's been under a lot of, um... He's nuts."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q010",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions does the tall man in the purple striped shirt’s insensitive question about a religious site evoke in the man wearing a green-and-blue striped sweater?",
+  "options": [],
+  "answer": [
+   "anger",
+   "disapproval"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q010_seg1_870.2_920.3.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 870.2,
+     "end": 920.3,
+     "mmss": "14:30.2–15:20.3"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0149",
+    "t": [
+     870.361,
+     873.322
+    ],
+    "speaker": "Gablehouser",
+    "text": "There's the man of the hour."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0150",
+    "t": [
+     873.906,
+     878.327
+    ],
+    "speaker": "Leonard",
+    "text": "So we have a socially awkward genius in a room of attractive age-appropriate women."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0151",
+    "t": [
+     878.494,
+     880.246
+    ],
+    "speaker": "Howard",
+    "text": "All he has to do is hook up with one."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0152",
+    "t": [
+     889.213,
+     892.55
+    ],
+    "speaker": "Leonard",
+    "text": "Anyone else see the flaw in this plan?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0153",
+    "t": [
+     893.05,
+     894.468
+    ],
+    "speaker": "Raj",
+    "text": "We need a social catalyst."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0154",
+    "t": [
+     894.635,
+     900.641
+    ],
+    "speaker": "Leonard",
+    "text": "Like what? We can't get 15-year-old girls drunk. - Or can we? - No, we can't."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0155",
+    "t": [
+     901.684,
+     904.687
+    ],
+    "speaker": "Howard",
+    "text": "I don't think you mean we can't. I think you mean we shouldn't."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0156",
+    "t": [
+     904.854,
+     915.615
+    ],
+    "speaker": "Sheldon",
+    "text": "Hey, Howard, you're a Jew. If there was another wailing wall exactly like the one in Jerusalem... But close to taco stands and cheap prescription drugs... Would you still wail at it?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0157",
+    "t": [
+     917.742,
+     920.036
+    ],
+    "speaker": "Sheldon",
+    "text": "Okay, it's definitely me."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q011",
+  "task_type": "emotion_cause",
+  "question_type": "open_ended",
+  "prompt_template": "short_answer",
+  "question": "What most directly causes the man in the green-and-blue striped sweater to become tearful and embarrassed? Answer with a brief description of the event.",
+  "options": [],
+  "answer": "The girl reminds him of a humiliating teenage prank.",
+  "video_name": "thebigbang_g1_2_s01e12_q011_seg1_922.0_951.0.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 922,
+     "end": 951,
+     "mmss": "15:22.0–15:51.0"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0158",
+    "t": [
+     922.204,
+     927.084
+    ],
+    "speaker": "Leonard",
+    "text": "We cannot leave this to chance. Let's pick a girl... And figure out how to get her with Dennis."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0159",
+    "t": [
+     928.044,
+     929.086
+    ],
+    "speaker": "Raj",
+    "text": "How about that one?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0160",
+    "t": [
+     930.463,
+     943.267
+    ],
+    "speaker": "Howard",
+    "text": "Uh-uh. I know the type. Cheerleader, student council, goes out with jocks. Won't look at anybody in the gifted program. If she does agree to go out, it turns out to be a setup. You're in your mom's car with your pants off while the whole football team laughs."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0161",
+    "t": [
+     946.812,
+     950.274
+    ],
+    "speaker": "Howard",
+    "text": "- Are you crying? - No, I have allergies."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q012",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions does the man in the purple jacket evoke in the man with glasses in the tan jacket by mocking his romantic longing?",
+  "options": [],
+  "answer": [
+   "annoyance",
+   "sensitivity"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q012_seg1_979.3_1018.9.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 979.3,
+     "end": 1018.9,
+     "mmss": "16:19.3–16:58.9"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0165",
+    "t": [
+     979.47,
+     980.846
+    ],
+    "speaker": "Raj",
+    "text": "How about her?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0166",
+    "t": [
+     981.013,
+     984.892
+    ],
+    "speaker": "Howard",
+    "text": "Interesting, kind of pretty, a little chubby, so probably low self-esteem."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0167",
+    "t": [
+     985.059,
+     987.937
+    ],
+    "speaker": "Leonard",
+    "text": "I think that's our girl. One of us should go talk to her."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0168",
+    "t": [
+     988.104,
+     989.897
+    ],
+    "speaker": "Raj",
+    "text": "I can't talk to her, you do it."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0169",
+    "t": [
+     990.064,
+     993.359
+    ],
+    "speaker": "Leonard",
+    "text": "I can't just go up and talk to her. Howard, you talk to her."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0170",
+    "t": [
+     994.235,
+     997.905
+    ],
+    "speaker": "Howard",
+    "text": "I don't know, she'll never go for the kid once she gets a peek at this."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0171",
+    "t": [
+     1000.074,
+     1005.037
+    ],
+    "speaker": "Raj",
+    "text": "In India, this would be simpler. Five minutes with her dad, 20 goats and a laptop, and we'd be done."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0172",
+    "t": [
+     1005.663,
+     1006.914
+    ],
+    "speaker": "Leonard",
+    "text": "Well, we're not in India."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0173",
+    "t": [
+     1007.081,
+     1014.38
+    ],
+    "speaker": "Raj",
+    "text": "Why don't we do it your way, then? We'll arrange for her to move in across the hall so he can pathetically moon over her."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0174",
+    "t": [
+     1016.257,
+     1018.634
+    ],
+    "speaker": "Leonard",
+    "text": "- Okay, that was uncalled for. - You started it, dude."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q013",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions does the teenage boy’s decision to leave the reception with a girl evoke in the tall man wearing a black striped sweater?",
+  "options": [],
+  "answer": [
+   "happiness",
+   "confidence"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q013_seg1_1020.0_1110.4.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 1020,
+     "end": 1110.4,
+     "mmss": "17:00.0–18:30.4"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0175",
+    "t": [
+     1020.177,
+     1035.443
+    ],
+    "speaker": "Gablehouser",
+    "text": "Could I have everyone's attention, please? What a wonderful occasion this is. And how fortunate that it should fall on take your daughter to work day. We're here to welcome Mr. Dennis Kim to our little family."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0176",
+    "t": [
+     1035.609,
+     1037.862
+    ],
+    "speaker": "unknown",
+    "text": "Welcome, Dennis Kim."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0177",
+    "t": [
+     1038.821,
+     1048.164
+    ],
+    "speaker": "Gablehouser",
+    "text": "Mr. Kim was not only the valedictorian at Stanford university... He is also the youngest recipient of the prestigious Stevenson award."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0178",
+    "t": [
+     1048.33,
+     1050.708
+    ],
+    "speaker": "Sheldon",
+    "text": "Youngest till the cyborgs rise up."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0179",
+    "t": [
+     1051.542,
+     1063.345
+    ],
+    "speaker": "Gablehouser",
+    "text": "And now, without any further ado... Let me introduce the man of the hour, Mr. Dennis Kim. Dennis? Dennis."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0180",
+    "t": [
+     1063.512,
+     1065.681
+    ],
+    "speaker": "Dennis",
+    "text": "What?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0181",
+    "t": [
+     1066.432,
+     1069.143
+    ],
+    "speaker": "Gablehouser",
+    "text": "Would you like to tell us about your upcoming research?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0182",
+    "t": [
+     1069.31,
+     1072.521
+    ],
+    "speaker": "Dennis",
+    "text": "Oh, no, thanks. I'm going to the mall with Emma."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0183",
+    "t": [
+     1077.693,
+     1080.154
+    ],
+    "speaker": "Leonard",
+    "text": "The kid got a girl."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0184",
+    "t": [
+     1080.529,
+     1082.281
+    ],
+    "speaker": "Raj",
+    "text": "Unbelievable."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0185",
+    "t": [
+     1082.448,
+     1085.951
+    ],
+    "speaker": "Howard",
+    "text": "Did anyone see how he did it?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0186",
+    "t": [
+     1086.702,
+     1110.1
+    ],
+    "speaker": "unknown",
+    "text": "Don't worry, I've got this. Ladies and gentlemen, honored daughters... While Mr. Kim, by virtue of his youth and naiveté... Has fallen prey to the inexplicable need for human contact... Let me step in and assure you that my research will go on uninterrupted. And that social relationships will continue to baffle and repulse me. Thank you."
+   }
+  ]
+ },
+ {
+  "series": "thebigbang",
+  "qid": "g1_2_s01e12_q014",
+  "task_type": "emotion_influence",
+  "question_type": "multi_select",
+  "prompt_template": "emotion_labels",
+  "question": "What emotions does the question from the man with glasses in the tan jacket about why they still go home alone evoke in the man wearing a purple jacket?",
+  "options": [],
+  "answer": [
+   "doubt/confusion",
+   "sadness"
+  ],
+  "video_name": "thebigbang_g1_2_s01e12_q014_seg1_1112.8_1135.7.mp4",
+  "input_video": {
+   "scope_kind": "event",
+   "eps": [
+    "S01E12"
+   ],
+   "segments": [
+    {
+     "ep": "S01E12",
+     "start": 1112.8,
+     "end": 1135.7,
+     "mmss": "18:32.8–18:55.7"
+    }
+   ]
+  },
+  "input_transcript": [
+   {
+    "ep": "S01E12",
+    "unit_id": "u0187",
+    "t": [
+     1112.978,
+     1115.105
+    ],
+    "speaker": "Howard",
+    "text": "- He's back. - Yeah, mission accomplished."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0188",
+    "t": [
+     1115.272,
+     1118.526
+    ],
+    "speaker": "Raj",
+    "text": "Forget the mission. How did that little yutz get a girl on his own?"
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0189",
+    "t": [
+     1119.235,
+     1123.739
+    ],
+    "speaker": "Howard",
+    "text": "I guess times have changed since we were young. Smart is the new sexy."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0190",
+    "t": [
+     1124.532,
+     1127.493
+    ],
+    "speaker": "Leonard",
+    "text": "Then why do we go home alone every night? We're still smart."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0191",
+    "t": [
+     1127.952,
+     1131.539
+    ],
+    "speaker": "Raj",
+    "text": "Maybe we're too smart. So smart, it's off-putting."
+   },
+   {
+    "ep": "S01E12",
+    "unit_id": "u0192",
+    "t": [
+     1132.873,
+     1135.376
+    ],
+    "speaker": "Howard",
+    "text": "Yeah, let's go with that."
+   }
+  ]
+ }
+]

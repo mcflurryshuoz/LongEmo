@@ -1,0 +1,2264 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q001",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the dark-haired woman in the white vest change before and after she learns that the missing engagement ring may be in the lasagna?",
+    "options": [],
+    "answer": {
+      "before": [
+        "sympathy"
+      ],
+      "after": [
+        "anger",
+        "disquietment"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e02_q001_seg1_329.1_407.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 329.1,
+          "end": 407.5,
+          "mmss": "5:29.1–6:47.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0049",
+        "t": [
+          329.118,
+          332.288
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, God. Oh, God. Oh, God."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0050",
+        "t": [
+          332.33,
+          334.332
+        ],
+        "speaker": "Phoebe",
+        "text": "No-no, don't touch that."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0051",
+        "t": [
+          336.501,
+          352.642
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, like I wasn't dreading tomorrow enough having to give it back to him.. Hi, Barry! Remember me? I'm the girl in the veil who stomped on your heart in front of your entire family! Oh, God and now I'm gonna have to return the ring without the ring, which makes it so much harder."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0052",
+        "t": [
+          353.726,
+          357.605
+        ],
+        "speaker": "Monica",
+        "text": "Easy, Rach, we'll find it. - Won't we? - Oh, yeah."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0053",
+        "t": [
+          360.4,
+          361.693
+        ],
+        "speaker": "Joey",
+        "text": "Alright, when did you have it on last?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0054",
+        "t": [
+          361.776,
+          364.487
+        ],
+        "speaker": "Phoebe",
+        "text": "Doy! Probably right before she lost it."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0055",
+        "t": [
+          366.614,
+          369.492
+        ],
+        "speaker": "Chandler",
+        "text": "You don't get a lot of doy these days."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0056",
+        "t": [
+          371.202,
+          377.208
+        ],
+        "speaker": "Rachel",
+        "text": "I know, I had it this morning and I know I had it when I was in the kitchen with.."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0057",
+        "t": [
+          377.291,
+          379.002
+        ],
+        "speaker": "Chandler",
+        "text": "Dinah?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0058",
+        "t": [
+          381.462,
+          384.507
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, don't be mad."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0059",
+        "t": [
+          384.549,
+          389.554
+        ],
+        "speaker": "Monica",
+        "text": "- You didn't. - Oh, I'm sorry. I gave you one job!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0060",
+        "t": [
+          390.68,
+          393.933
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, but look how straight those noodles are."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0061",
+        "t": [
+          393.975,
+          399.105
+        ],
+        "speaker": "Chandler",
+        "text": "Now, Monica, you know that's not how you look for an engagement ring in a lasagna."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0062",
+        "t": [
+          401.19,
+          404.027
+        ],
+        "speaker": "Monica",
+        "text": "I just can't do it."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0063",
+        "t": [
+          404.068,
+          407.53
+        ],
+        "speaker": "Chandler",
+        "text": "Boys? We're going in."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q002",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired woman in the white sleeveless top?",
+    "options": [
+      "A. She starts tense, gradually relaxes, and ends warmly amused.",
+      "B. She starts tense, grows increasingly annoyed, and ends hurt and embarrassed.",
+      "C. She starts embarrassed, becomes defensive, and ends reassured and proud.",
+      "D. She starts calm, becomes angry, and ends relieved and confident."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e02_q002_seg1_499.8_608.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 499.8,
+          "end": 608.4,
+          "mmss": "8:19.8–10:08.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0080",
+        "t": [
+          499.831,
+          503.626
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Oh, Martha Ludwin's daughter is gonna call you."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0081",
+        "t": [
+          505.586,
+          508.965
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Mmm! What's that curry taste?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0082",
+        "t": [
+          509.048,
+          510.174
+        ],
+        "speaker": "Monica",
+        "text": "Curry?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0083",
+        "t": [
+          511.384,
+          513.136
+        ],
+        "speaker": "unknown",
+        "text": "Mmm!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0084",
+        "t": [
+          514.595,
+          517.64
+        ],
+        "speaker": "Ross",
+        "text": "I-I think they're great! I, I really do. I..."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0085",
+        "t": [
+          517.682,
+          520.852
+        ],
+        "speaker": "Mr. Geller",
+        "text": "Do you remember the Ludwins? The big one had a thing for you, didn't she?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0086",
+        "t": [
+          520.935,
+          523.604
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "They all had a thing for him."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0087",
+        "t": [
+          523.646,
+          524.981
+        ],
+        "speaker": "Ross",
+        "text": "Oh, mom.."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0088",
+        "t": [
+          525.064,
+          527.025
+        ],
+        "speaker": "Monica",
+        "text": "I'm sorry, why is this girl going to call me?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0089",
+        "t": [
+          527.108,
+          535.491
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Oh, she just graduated, and she wants to be something in cooking, or food, or I don't know. Anyway, I told her you had a restaurant."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0090",
+        "t": [
+          535.575,
+          538.661
+        ],
+        "speaker": "Monica",
+        "text": "No, mom, I don't have a restaurant I work in a restaurant."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0091",
+        "t": [
+          538.703,
+          541.873
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Well, they don't have to know that."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0092",
+        "t": [
+          544.5,
+          547.17
+        ],
+        "speaker": "Monica",
+        "text": "Ross, could you come and help me with the spaghetti, please?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0093",
+        "t": [
+          547.253,
+          548.338
+        ],
+        "speaker": "unknown",
+        "text": "Yes."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0094",
+        "t": [
+          548.379,
+          552.05
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Oh, we're having spaghetti! That's easy."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0095",
+        "t": [
+          554.218,
+          564.854
+        ],
+        "speaker": "Monica",
+        "text": "I know this is going to sound unbelievably selfish on my part but, were you planning on bringing up the whole baby, lesbian thing? Because I think it might take some of the heat off me."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0096",
+        "t": [
+          566.898,
+          573.029
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "What that Rachel did to her life. We ran into her parents at the club they were not playing very well."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0097",
+        "t": [
+          573.071,
+          579.035
+        ],
+        "speaker": "Mr. Geller",
+        "text": "I'm not gonna tell you what they spent on that wedding but forty thousand dollars is a lot of money!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0098",
+        "t": [
+          580.87,
+          584.999
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Well, at least she had the chance to leave a man at the altar."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0099",
+        "t": [
+          587.877,
+          589.295
+        ],
+        "speaker": "Monica",
+        "text": "What's that supposed to mean?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0100",
+        "t": [
+          589.379,
+          593.383
+        ],
+        "speaker": "Mrs. Geller",
+        "text": "Nothing! It's an expression."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0101",
+        "t": [
+          593.424,
+          608.398
+        ],
+        "speaker": "Mr. Geller",
+        "text": "- No it's not. - Don't listen to your mother. You're independent, and you always have been! Even when you were a kid and you were chubby and you had no friends, you were just fine. And you would read alone in your room, and your puzzles.."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q003",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, which emotions remain consistently present in the man in the gray vest throughout the medical appointment?",
+    "options": [],
+    "answer": [
+      "disquietment",
+      "embarrassment"
+    ],
+    "video_name": "friends_g1_2_s01e02_q003_seg1_875.6_939.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 875.6,
+          "end": 939.2,
+          "mmss": "14:35.6–15:39.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0141",
+        "t": [
+          875.581,
+          882.088
+        ],
+        "speaker": "Ross",
+        "text": "Hi. Oh, sorry I'm late, I was stuck at work. There was this big dinosaur thing, anyway."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0142",
+        "t": [
+          882.922,
+          884.841
+        ],
+        "speaker": "Susan",
+        "text": "Hi."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0143",
+        "t": [
+          884.924,
+          887.051
+        ],
+        "speaker": "Carol",
+        "text": "Ross, you remember Susan."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0144",
+        "t": [
+          887.135,
+          892.348
+        ],
+        "speaker": "Ross",
+        "text": "- How could I forget? - Ross. Hello, Susan. Good shake. Good shake."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0145",
+        "t": [
+          894.142,
+          896.894
+        ],
+        "speaker": "Ross",
+        "text": "So, uh, we're just waiting for?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0146",
+        "t": [
+          896.978,
+          898.73
+        ],
+        "speaker": "Carol",
+        "text": "- Dr. Oberman. - Dr. Oberman."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0147",
+        "t": [
+          898.813,
+          907.697
+        ],
+        "speaker": "Ross",
+        "text": "- Okay. And is he... - She. She. Of course she. She, uh, familiar with our special situation?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0148",
+        "t": [
+          907.739,
+          909.323
+        ],
+        "speaker": "Carol",
+        "text": "Yes, and she's very supportive."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0149",
+        "t": [
+          909.365,
+          911.617
+        ],
+        "speaker": "Ross",
+        "text": "Great, okay, that's great."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0150",
+        "t": [
+          913.494,
+          915.788
+        ],
+        "speaker": "Ross",
+        "text": "No, I'm, oh."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0151",
+        "t": [
+          915.872,
+          917.54
+        ],
+        "speaker": "Carol",
+        "text": "Thanks."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0152",
+        "t": [
+          935.85,
+          939.187
+        ],
+        "speaker": "Carol",
+        "text": "Ross, that opens my cervix."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the woman in blue overalls?",
+    "options": [
+      "A. She starts awkward and uneasy, becomes surprised but amused, then grows warm and ends relieved.",
+      "B. She starts uneasy and curious, becomes shocked and hurt, and ends accepting the outcome.",
+      "C. She starts uneasy and curious, becomes angry, then grows embarrassed and ends hopeful.",
+      "D. She starts relaxed and friendly, becomes hurt, then grows approving and ends openly angry."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e02_q004_seg1_1047.7_1165.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 1047.7,
+          "end": 1165.8,
+          "mmss": "17:27.7–19:25.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0171",
+        "t": [
+          1047.712,
+          1050.298
+        ],
+        "speaker": "Barry",
+        "text": "Oh. Sorry about that."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0172",
+        "t": [
+          1053.009,
+          1055.636
+        ],
+        "speaker": "Barry",
+        "text": "So. What have you been up to?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0173",
+        "t": [
+          1055.678,
+          1065.063
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, not much. - I-I got a job. - Oh, that's great. Why are why are you so tanned?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0174",
+        "t": [
+          1065.146,
+          1068.107
+        ],
+        "speaker": "Barry",
+        "text": "Oh, I, uh, I went to Aruba."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0175",
+        "t": [
+          1069.192,
+          1072.362
+        ],
+        "speaker": "Rachel",
+        "text": "Oh no. You went on our honeymoon alone?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0176",
+        "t": [
+          1072.445,
+          1073.696
+        ],
+        "speaker": "Barry",
+        "text": "No."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0177",
+        "t": [
+          1076.991,
+          1081.162
+        ],
+        "speaker": "Barry",
+        "text": "I went with, uh.. Now, this may hurt."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0178",
+        "t": [
+          1081.204,
+          1083.373
+        ],
+        "speaker": "Robbie",
+        "text": "- Me? - No!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0179",
+        "t": [
+          1086.042,
+          1087.877
+        ],
+        "speaker": "Barry",
+        "text": "I went with Mindy."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0180",
+        "t": [
+          1087.96,
+          1091.673
+        ],
+        "speaker": "Rachel",
+        "text": "Mindy? My maid of honor, Mindy?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0181",
+        "t": [
+          1091.714,
+          1094.884
+        ],
+        "speaker": "Barry",
+        "text": "Yeah, well, uh, we're kind of a thing now."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0182",
+        "t": [
+          1094.926,
+          1097.762
+        ],
+        "speaker": "Rachel",
+        "text": "Oh! Well, um.."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0183",
+        "t": [
+          1099.263,
+          1101.474
+        ],
+        "speaker": "Rachel",
+        "text": "- You've got plugs! - Careful!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0184",
+        "t": [
+          1101.516,
+          1104.727
+        ],
+        "speaker": "Barry",
+        "text": "They haven't quite taken yet."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0185",
+        "t": [
+          1104.811,
+          1109.774
+        ],
+        "speaker": "Rachel",
+        "text": "And you've got lenses! But you hate sticking your finger in your eye."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0186",
+        "t": [
+          1110.525,
+          1112.527
+        ],
+        "speaker": "Barry",
+        "text": "Not for her."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0187",
+        "t": [
+          1113.027,
+          1114.654
+        ],
+        "speaker": "unknown",
+        "text": "Oh."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0188",
+        "t": [
+          1115.697,
+          1118.324
+        ],
+        "speaker": "Barry",
+        "text": "Listen, I-I really wanted to thank you."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0189",
+        "t": [
+          1118.908,
+          1120.785
+        ],
+        "speaker": "Rachel",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0190",
+        "t": [
+          1120.868,
+          1143.808
+        ],
+        "speaker": "Barry",
+        "text": "See, about a month ago, I wanted to hurt you. More than I've ever wanted to hurt anyone in my life. - And I'm an orthodontist. - Well.. You know, you were right? I mean, I thought we were happy. We weren't happy. 'But with Mindy..' '...now I'm happy.' - Spit. - What?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0191",
+        "t": [
+          1143.891,
+          1145.268
+        ],
+        "speaker": "Robbie",
+        "text": "Me."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0192",
+        "t": [
+          1147.145,
+          1158.197
+        ],
+        "speaker": "Rachel",
+        "text": "Uh, anyway, um.. I guess, uh, I guess this belongs to you. And thank you for giving it to me."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0193",
+        "t": [
+          1158.281,
+          1160.783
+        ],
+        "speaker": "Barry",
+        "text": "Well, thank you for giving it back."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0194",
+        "t": [
+          1164.454,
+          1165.83
+        ],
+        "speaker": "Robbie",
+        "text": "Hello?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q005",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the man in the gray vest change before and after he sees the sonogram image?",
+    "options": [],
+    "answer": {
+      "before": [
+        "doubt/confusion",
+        "anger",
+        "disapproval"
+      ],
+      "after": [
+        "happiness",
+        "surprise"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e02_q005_seg1_1169.1_1270.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 1169.1,
+          "end": 1270.6,
+          "mmss": "19:29.1–21:10.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0195",
+        "t": [
+          1169.083,
+          1171.252
+        ],
+        "speaker": "Susan",
+        "text": "Oh, please! What's wrong with Helen?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0196",
+        "t": [
+          1171.294,
+          1175.256
+        ],
+        "speaker": "Ross",
+        "text": "Helen Geller? I don't think so."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0197",
+        "t": [
+          1175.298,
+          1177.759
+        ],
+        "speaker": "Carol",
+        "text": "Hello? It's not gonna be Helen Geller."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0198",
+        "t": [
+          1177.8,
+          1178.968
+        ],
+        "speaker": "Ross",
+        "text": "Thank you!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0199",
+        "t": [
+          1179.052,
+          1181.137
+        ],
+        "speaker": "Carol",
+        "text": "No, I mean it's not Geller."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0200",
+        "t": [
+          1181.22,
+          1183.681
+        ],
+        "speaker": "Ross",
+        "text": "What, it's gonna be Helen Willick?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0201",
+        "t": [
+          1183.765,
+          1188.895
+        ],
+        "speaker": "Carol",
+        "text": "No, actually, um we talked about Helen Willick-Bunch."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0202",
+        "t": [
+          1190.229,
+          1193.191
+        ],
+        "speaker": "Ross",
+        "text": "Wait a minute, wha.. Why is she in the title?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0203",
+        "t": [
+          1193.274,
+          1195.318
+        ],
+        "speaker": "Susan",
+        "text": "Because it's my baby too."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0204",
+        "t": [
+          1195.36,
+          1198.196
+        ],
+        "speaker": "Ross",
+        "text": "Really? Um, I don't remember you making any sperm."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0205",
+        "t": [
+          1200.656,
+          1204.118
+        ],
+        "speaker": "Susan",
+        "text": "Yeah, and we all know what a challenge that is!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0206",
+        "t": [
+          1204.16,
+          1205.161
+        ],
+        "speaker": "Carol",
+        "text": "Alright, you two, stop it!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0207",
+        "t": [
+          1205.203,
+          1207.997
+        ],
+        "speaker": "Ross",
+        "text": "No, no, no, she gets a credit. Hey, I'm in there too."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0208",
+        "t": [
+          1208.039,
+          1213.961
+        ],
+        "speaker": "Carol",
+        "text": "Ross. You're not actually suggesting Helen Willick-Bunch-Geller? 'Cause I think that borders on child abuse."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0209",
+        "t": [
+          1214.003,
+          1218.174
+        ],
+        "speaker": "Ross",
+        "text": "Of course not, I'm suggesting Geller-Willick-Bunch."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0210",
+        "t": [
+          1218.216,
+          1225.473
+        ],
+        "speaker": "Susan",
+        "text": "Oh, no, no, no, you see what he's doing? He knows no-one's gonna say all those names He knows they'll wind up calling her Geller then he gets his way."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0211",
+        "t": [
+          1225.515,
+          1236.192
+        ],
+        "speaker": "Ross",
+        "text": "My way? You you think this is my way? Believe me, of all the ways I ever imagined this moment in my life being, this is not my way.. You know what? Uh, um, this is too hard. - I'm not, I can't do... - Knock knock."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0212",
+        "t": [
+          1236.275,
+          1238.194
+        ],
+        "speaker": "Dr. Oberman",
+        "text": "How are we today? Any nausea?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0213",
+        "t": [
+          1238.277,
+          1240.279
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "- A little. - Yeah, actually."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0214",
+        "t": [
+          1241.823,
+          1248.579
+        ],
+        "speaker": "Dr. Oberman",
+        "text": "Well, I was just wondering about the mother-to-be but thanks for sharing. Uh, lie back."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0215",
+        "t": [
+          1248.663,
+          1254.919
+        ],
+        "speaker": "Ross",
+        "text": "You know what? I'm gonna go. I don't I don't think I can be involved in this particular family thing right now."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0216",
+        "t": [
+          1266.18,
+          1267.432
+        ],
+        "speaker": "Ross",
+        "text": "Oh, my God."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0217",
+        "t": [
+          1267.515,
+          1269.058
+        ],
+        "speaker": "Susan",
+        "text": "Look at that."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0218",
+        "t": [
+          1269.1,
+          1270.56
+        ],
+        "speaker": "Carol",
+        "text": "I know."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q006",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Why does the dark-haired woman in the black sleeveless top well up while looking at the sonogram? Answer briefly with the direct cause.",
+    "options": [],
+    "answer": "She realizes she will become an aunt",
+    "video_name": "friends_g1_2_s01e02_q006_seg1_1281.2_1323.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 1281.2,
+          "end": 1323.9,
+          "mmss": "21:21.2–22:03.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0219",
+        "t": [
+          1281.154,
+          1282.989
+        ],
+        "speaker": "Ross",
+        "text": "Well? Isn't that amazing?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0220",
+        "t": [
+          1286.743,
+          1290.038
+        ],
+        "speaker": "Joey",
+        "text": "What are we supposed to be seein' here?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0221",
+        "t": [
+          1290.079,
+          1294.417
+        ],
+        "speaker": "Chandler",
+        "text": "I don't know, but I think it's about to attack the Enterprise."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0222",
+        "t": [
+          1298.212,
+          1303.551
+        ],
+        "speaker": "Phoebe",
+        "text": "You know, if you tilt your head to the left and relax your eyes, it kinda looks like an old potato."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0223",
+        "t": [
+          1304.844,
+          1307.555
+        ],
+        "speaker": "Ross",
+        "text": "- Then don't do that, alright? - Okay!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0224",
+        "t": [
+          1309.223,
+          1310.767
+        ],
+        "speaker": "Ross",
+        "text": "Monica."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0225",
+        "t": [
+          1310.85,
+          1313.811
+        ],
+        "speaker": "Monica",
+        "text": "- What do you think? - Mm-hmm."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0226",
+        "t": [
+          1315.146,
+          1322.195
+        ],
+        "speaker": "Ross",
+        "text": "Are you welling up? - No. - You are, you're welling up. - I am not. - You're gonna be an aunt."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0227",
+        "t": [
+          1322.278,
+          1323.905
+        ],
+        "speaker": "Monica",
+        "text": "Oh, shut up!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q007",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the man in the blue shirt change before and after the woman in the red vest points out his former wife entering the museum?",
+    "options": [],
+    "answer": {
+      "before": [
+        "annoyance"
+      ],
+      "after": [
+        "surprise",
+        "disquietment",
+        "embarrassment"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e02_q007_seg1_125.4_164.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 125.4,
+          "end": 164.7,
+          "mmss": "2:05.4–2:44.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0012",
+        "t": [
+          125.373,
+          131.671
+        ],
+        "speaker": "Ross",
+        "text": "No, it's good, it is good, uh, it's just that mm.. Doesn't she seem a little angry?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0013",
+        "t": [
+          131.754,
+          133.256
+        ],
+        "speaker": "Marsha",
+        "text": "Well, she has issues."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0014",
+        "t": [
+          134.799,
+          136.092
+        ],
+        "speaker": "Ross",
+        "text": "Does she?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0015",
+        "t": [
+          136.175,
+          143.016
+        ],
+        "speaker": "Marsha",
+        "text": "He's out banging other women over the head with a club while she sits at home trying to get the mastodon smell out of the carpet."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0016",
+        "t": [
+          143.099,
+          153.443
+        ],
+        "speaker": "Ross",
+        "text": "Marsha, these are cave people. Okay? They have issues like.. Gee, that glacier's getting kinda close."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0017",
+        "t": [
+          153.484,
+          155.111
+        ],
+        "speaker": "Marsha",
+        "text": "Speaking of issues, isn't that your ex-wife?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0018",
+        "t": [
+          155.194,
+          156.988
+        ],
+        "speaker": "Ross",
+        "text": "My... no. No."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0019",
+        "t": [
+          157.071,
+          161.117
+        ],
+        "speaker": "Marsha",
+        "text": "- Yes, it is. Carol! Hi! - Okay, okay, yes, it is."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0020",
+        "t": [
+          161.2,
+          164.662
+        ],
+        "speaker": "Ross",
+        "text": "How about I'll, uh, catch up with you in the ice age."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q008",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the atmosphere as the group debates how important kissing is?",
+    "options": [
+      "A. The discussion becomes tense and personal, and the group grows annoyed with one another.",
+      "B. The group debates playfully, teasing one another while defending their views.",
+      "C. The group jokes about the topic without seriously defending either side.",
+      "D. The group grows awkward and hesitant as the topic becomes more personal."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e02_q008_seg1_1.5_71.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 1.5,
+          "end": 71.5,
+          "mmss": "0:01.5–1:11.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0001",
+        "t": [
+          3.084,
+          7.672
+        ],
+        "speaker": "Dark-haired woman in a black sleeveless top",
+        "text": "What you guys don't understand is for us kissing is as important as any part of it."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0002",
+        "t": [
+          7.755,
+          9.298
+        ],
+        "speaker": "Man in a black T-shirt",
+        "text": "Yeah, right!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0003",
+        "t": [
+          11.843,
+          13.845
+        ],
+        "speaker": "Man in a black T-shirt",
+        "text": "You serious?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0004",
+        "t": [
+          13.928,
+          14.929
+        ],
+        "speaker": "Blonde woman seated with the group",
+        "text": "Oh, yeah!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0005",
+        "t": [
+          14.971,
+          17.598
+        ],
+        "speaker": "Blonde woman in a blue sleeveless top",
+        "text": "Everything you need to know is in that first kiss."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0006",
+        "t": [
+          17.64,
+          18.641
+        ],
+        "speaker": "Dark-haired woman in a black sleeveless top",
+        "text": "Absolutely."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0007",
+        "t": [
+          18.683,
+          27.734
+        ],
+        "speaker": "Man in a black-and-brown shirt",
+        "text": "Yeah, I think for us kissing is pretty much like an opening act, you know? I mean it's like the stand-up comedian you have to sit through before Pink Floyd comes out."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0008",
+        "t": [
+          29.944,
+          38.202
+        ],
+        "speaker": "Man in a light striped shirt",
+        "text": "Yeah, and-and it's not that we don't like the comedian it's just that-that that's not why we bought the ticket."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0009",
+        "t": [
+          40.538,
+          53.634
+        ],
+        "speaker": "Man in a black-and-brown shirt",
+        "text": "You see, the problem is, though, after the concert's over no matter how great the show was you girls are always lookin' for the comedian again, you know? I mean, we're in the car, we're fighting traffic basically just tryin' to stay awake."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0010",
+        "t": [
+          55.636,
+          63.519
+        ],
+        "speaker": "Blonde woman in a blue sleeveless top",
+        "text": "Yeah, well, word of advice. Bring back the comedian. Otherwise next time you're gonna find yourself sitting at home, listening to that album alone."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0011",
+        "t": [
+          68.232,
+          70.777
+        ],
+        "speaker": "Man in a black T-shirt",
+        "text": "Are we still talking about sex?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q009",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the man in a blue shirt and patterned tie change before and after the curly-haired woman in a dark blue patterned dress tells him she is pregnant?",
+    "options": [],
+    "answer": {
+      "before": [
+        "disquietment",
+        "embarrassment"
+      ],
+      "after": [
+        "surprise"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e02_q009_seg1_177.2_228.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 177.2,
+          "end": 228.5,
+          "mmss": "2:57.2–3:48.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0021",
+        "t": [
+          178.092,
+          180.178
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "- Hi. - Hi."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0022",
+        "t": [
+          183.264,
+          184.64
+        ],
+        "speaker": "Unidentified speaker",
+        "text": "- Oh. - Uh."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0023",
+        "t": [
+          187.226,
+          189.354
+        ],
+        "speaker": "Curly-haired woman in a dark blue patterned dress",
+        "text": "So.."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0024",
+        "t": [
+          189.437,
+          192.815
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "You look great. I, uh, I hate that."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0025",
+        "t": [
+          194.275,
+          197.445
+        ],
+        "speaker": "Curly-haired woman in a dark blue patterned dress",
+        "text": "Sorry. Thanks. You look good too."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0026",
+        "t": [
+          197.487,
+          200.49
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "Ah, well, in here, anyone who.."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0027",
+        "t": [
+          202.2,
+          204.452
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "...stands erect.."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0028",
+        "t": [
+          206.704,
+          215.588
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "- So what's new? Still, uh... - A lesbian? Well.. ...you never know. How's, um.. How's the family?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0029",
+        "t": [
+          215.63,
+          217.924
+        ],
+        "speaker": "Curly-haired woman in a dark blue patterned dress",
+        "text": "Marty's still totally paranoid."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0030",
+        "t": [
+          217.965,
+          221.594
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "- Oh, and, uh... - Why-why are you here, Carol?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0031",
+        "t": [
+          222.637,
+          225.515
+        ],
+        "speaker": "Curly-haired woman in a dark blue patterned dress",
+        "text": "- I'm pregnant. - Pregnant?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q010",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Why is the dark-haired woman in the white sleeveless top so anxious about getting the apartment ready?",
+    "options": [
+      "A. Her friends keep making a mess after she cleans.",
+      "B. She expects her parents to criticize her and compare her with her brother.",
+      "C. She does not want her friends to know how often she cleans.",
+      "D. Her friends' teasing makes her more determined to finish the cleaning."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e02_q010_seg1_247.8_310.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 247.8,
+          "end": 310,
+          "mmss": "4:07.8–5:10.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0035",
+        "t": [
+          248.287,
+          249.997
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "Are you through with that?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0036",
+        "t": [
+          250.039,
+          252.792
+        ],
+        "speaker": "Man in a gray T-shirt",
+        "text": "Yeah, sorry, the swallowing slowed me down."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0037",
+        "t": [
+          254.252,
+          256.087
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "Whose little ball of paper is this?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0038",
+        "t": [
+          256.17,
+          263.594
+        ],
+        "speaker": "Man in a maroon striped shirt",
+        "text": "Oh, uh, that would be mine. See, I wrote a note to myself and then I realized I didn't need the notes so I balled it up and now I wish I was dead."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0039",
+        "t": [
+          265.138,
+          270.393
+        ],
+        "speaker": "Blonde woman in a purple top",
+        "text": "She's already fluffed that pillow. Monica, you know, you've already fluffed.. But, it's fine!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0040",
+        "t": [
+          270.476,
+          273.855
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "Look, I'm sorry, guys, I just don't wanna give them any more ammunition than they already have."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0041",
+        "t": [
+          273.896,
+          278.86
+        ],
+        "speaker": "Man in a maroon striped shirt",
+        "text": "Yes, and we all know how cruel a parent can be about the flatness of a child's pillow."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0042",
+        "t": [
+          280.028,
+          291.831
+        ],
+        "speaker": "Blonde woman in a purple top",
+        "text": "Monica, hi! Um.. Monica, you're scaring me. I mean, you're like, you're all chaotic and twirly, you know. And not-not in a good way."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0043",
+        "t": [
+          293.791,
+          299.589
+        ],
+        "speaker": "Man in a gray T-shirt",
+        "text": "Yeah, calm down. You don't see Ross getting all chaotic and twirly every time they come."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0044",
+        "t": [
+          299.672,
+          309.098
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "That's because as far as my parents are concerned Ross can do no wrong. You see, he's the prince. Apparently they had some big ceremony before I was born."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q011",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the pregnancy news affect the dark-haired woman in the white sleeveless top?",
+    "options": [
+      "A. She is shocked by the news and remains concerned about how the situation affects him.",
+      "B. She becomes excited and reassures him that becoming a father will be easy.",
+      "C. She becomes angry and disapproves of him being involved.",
+      "D. She is briefly surprised but quickly loses interest in his situation."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e02_q011_seg1_415.4_482.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 415.4,
+          "end": 482.2,
+          "mmss": "6:55.4–8:02.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E02",
+        "unit_id": "u0064",
+        "t": [
+          416.205,
+          418.291
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "Hi."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0065",
+        "t": [
+          418.374,
+          420.626
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "Wow. That is not a happy hi."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0066",
+        "t": [
+          420.71,
+          422.378
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "Carol's pregnant."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0067",
+        "t": [
+          422.42,
+          424.547
+        ],
+        "speaker": "Blonde woman in a purple top",
+        "text": "Ooh! I found it!"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0068",
+        "t": [
+          426.424,
+          429.886
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "W-w-what?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0069",
+        "t": [
+          429.927,
+          436.517
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "Yeah. Do that for another two hours you might be where I am right about now."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0070",
+        "t": [
+          437.894,
+          440.98
+        ],
+        "speaker": "Man in a maroon striped shirt",
+        "text": "Kinda puts that whole pillow thing in perspective, huh, Mon?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0071",
+        "t": [
+          443.066,
+          445.068
+        ],
+        "speaker": "Woman in a light green top",
+        "text": "Well now, how how do you fit into this whole thing?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0072",
+        "t": [
+          445.109,
+          455.787
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "Well, Carol says she and Susan want me to be involved but if I'm not comfortable with it, I don't have to be involved. Basically it's totally up to me."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0073",
+        "t": [
+          455.87,
+          458.081
+        ],
+        "speaker": "Blonde woman in a purple top",
+        "text": "She is so great! I miss her."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0074",
+        "t": [
+          462.71,
+          464.42
+        ],
+        "speaker": "Dark-haired woman in a white sleeveless top",
+        "text": "Well, what does she mean by involved?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0075",
+        "t": [
+          464.504,
+          467.715
+        ],
+        "speaker": "Man in a maroon striped shirt",
+        "text": "I mean, presumably the biggest part of your job is done."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0076",
+        "t": [
+          469.592,
+          474.472
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "Anyway, they want me to go down to this sonogram thing with them tomorrow."
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0077",
+        "t": [
+          474.555,
+          476.557
+        ],
+        "speaker": "Woman in a light green top",
+        "text": "- Wow. - So what are you gonna do?"
+      },
+      {
+        "ep": "S01E02",
+        "unit_id": "u0078",
+        "t": [
+          476.599,
+          481.437
+        ],
+        "speaker": "Man in a blue shirt and patterned tie",
+        "text": "I have no idea. No matter what I do, though, I'm still gonna be a father."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q012",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the group's emotional atmosphere as the friends discuss their difficult family relationships?",
+    "options": [
+      "A. The conversation becomes hostile and judgmental.",
+      "B. The group becomes carefree, leaving no discomfort behind.",
+      "C. The group shares wry amusement while their family frustrations remain clear.",
+      "D. The group becomes anxious and stops sharing."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e02_q012_seg1_696.861_746.369.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 696.861,
+          "end": 746.369,
+          "mmss": "11:36.9–12:26.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0109",
+        "t": [
+          696.861,
+          698.571
+        ],
+        "speaker": "Joey",
+        "text": "Your folks are really that bad, huh?",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0110",
+        "t": [
+          698.613,
+          702.325
+        ],
+        "speaker": "Ross",
+        "text": "Well, you know, these people are pros.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0111",
+        "t": [
+          704.494,
+          710.291
+        ],
+        "speaker": "Ross",
+        "text": "They know what they're doing, they take their time they get the job done.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0112",
+        "t": [
+          712.043,
+          718.466
+        ],
+        "speaker": "Monica",
+        "text": "Boy, I know they say you can't change your parents. Boy, if you could, I'd want yours.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0113",
+        "t": [
+          720.76,
+          723.054
+        ],
+        "speaker": "Ross",
+        "text": "Must pee.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0114",
+        "t": [
+          723.137,
+          724.847
+        ],
+        "speaker": "Phoebe",
+        "text": "You know, it's even worse when you're twins.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0115",
+        "t": [
+          724.931,
+          726.432
+        ],
+        "speaker": "Rachel",
+        "text": "- You're twins? - Oh, yeah.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0116",
+        "t": [
+          726.516,
+          730.561
+        ],
+        "speaker": "Phoebe",
+        "text": "We don't speak. She's like this high-powered driven career type.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0117",
+        "t": [
+          730.645,
+          731.604
+        ],
+        "speaker": "Chandler",
+        "text": "What does she do?",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0118",
+        "t": [
+          731.688,
+          733.356
+        ],
+        "speaker": "Phoebe",
+        "text": "She's a waitress.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0119",
+        "t": [
+          734.649,
+          737.86
+        ],
+        "speaker": "Rachel",
+        "text": "Alright, you guys, I kinda gotta clean up now.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0120",
+        "t": [
+          737.944,
+          740.78
+        ],
+        "speaker": "Monica",
+        "text": "Chandler, you're an only child, right? You don't have any of this.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0121",
+        "t": [
+          740.863,
+          746.369
+        ],
+        "speaker": "Chandler",
+        "text": "Well, no, although I did have an imaginary friend who my parents actually preferred.",
+        "ep": "S01E02"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e02_q013",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the man in the gray vest feel when he learns that the two women have already chosen the baby's name?",
+    "options": [],
+    "answer": [
+      "doubt/confusion",
+      "disapproval"
+    ],
+    "video_name": "friends_g1_2_s01e02_q013_seg1_997.704_1045.501.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E02"
+      ],
+      "segments": [
+        {
+          "ep": "S01E02",
+          "start": 997.704,
+          "end": 1045.501,
+          "mmss": "16:37.7–17:25.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0162",
+        "t": [
+          997.704,
+          1007.63
+        ],
+        "speaker": "Ross",
+        "text": "So, um, how's this gonna work with us when important decisions have to be made?",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0163",
+        "t": [
+          1007.714,
+          1009.132
+        ],
+        "speaker": "Carol",
+        "text": "Give me a for instance.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0164",
+        "t": [
+          1009.173,
+          1012.802
+        ],
+        "speaker": "Ross",
+        "text": "How about with the baby's name?",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0165",
+        "t": [
+          1012.844,
+          1017.724
+        ],
+        "speaker": "Carol",
+        "text": "Marlon if it's a boy, Minnie if it's a girl.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0166",
+        "t": [
+          1019.559,
+          1021.144
+        ],
+        "speaker": "Ross",
+        "text": "As in Mouse?",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0167",
+        "t": [
+          1022.353,
+          1024.647
+        ],
+        "speaker": "Carol",
+        "text": "As in my grandmother.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0168",
+        "t": [
+          1024.689,
+          1034.365
+        ],
+        "speaker": "Ross",
+        "text": "Still, you say Minnie, you hear Mouse. How about Julia?",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0169",
+        "t": [
+          1034.449,
+          1037.326
+        ],
+        "speaker": "Susan",
+        "text": "We agreed on Minnie.",
+        "ep": "S01E02"
+      },
+      {
+        "unit_id": "u0170",
+        "t": [
+          1037.368,
+          1045.501
+        ],
+        "speaker": "Ross",
+        "text": "It's funny, we agreed we'd spend the rest of our lives together. Things change, roll with the punches. I believe Julia's on the table?",
+        "ep": "S01E02"
+      }
+    ]
+  }
+]

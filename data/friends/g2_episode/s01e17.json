@@ -1,0 +1,87 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most anxious?",
+    "options": [
+      "A. When he tells the story about his football dream about his child at the coffee shop.",
+      "B. When Ross asks his father when he first felt like a dad.",
+      "C. When Ross rushes the choking Marcel to the emergency room and begs for help.",
+      "D. When Ross listens to Chandler present a series of negative hypotheticals."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel appear angriest with Monica? Answer with one short event phrase.",
+    "options": [],
+    "answer": "explaining Billy Dreskin to her father",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Ross's feelings about fatherhood from his football dream, through his conversation with his father, to Marcel eventually waking up in the hospital?",
+    "options": [
+      "A. He begins confident, becomes upset by his father's story, stays detached during Marcel's crisis, and ends uncertain.",
+      "B. He begins anxious, but his anxiety ends immediately after his father's story, and Marcel's crisis does not change his confidence.",
+      "C. He begins anxious, and his anxiety deepens throughout the episode and remains unchanged after Marcel recovers.",
+      "D. He begins anxious, feels moved but still unsure after hearing his father's story, panics over Marcel's illness, and finally gains confidence when Marcel grips his finger"
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q004",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "After Phoebe learns that her sister ended her relationship with Joey without telling him, what motivates Phoebe to visit her sister?",
+    "options": [
+      "A. She is worried that her sister is hurt by the breakup.",
+      "B. She sympathizes with Joey and is curious about how her sister treated her friend.",
+      "C. She is curious whether her sister's personality has changed.",
+      "D. She feels guilty about not giving her sister a birthday present."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E17"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e17_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "When Phoebe and Joey meet at the coffeehouse, why does she not immediately tell him the truth after he mistakes her for her sister?",
+    "options": [
+      "A. She is annoyed at being mistaken for her sister and wants to use the false identity to tease Joey.",
+      "B. She sympathizes with Joey and wants to use the false identity to give his relationship with Ursula a clear ending.",
+      "C. She is curious about Joey's thoughts and wants to use the false identity to test him.",
+      "D. She feels awkward and does not know how to tell him the truth when faced with his sincerity."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E17"
+    ]
+  }
+]

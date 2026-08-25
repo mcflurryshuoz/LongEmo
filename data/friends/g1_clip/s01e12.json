@@ -1,0 +1,2517 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q001",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the brown-shirted man's playful baby impersonation affect the man in the white shirt as its questions become increasingly personal?",
+    "options": [
+      "A. He reacts with playfulness, unease, and embarrassment.",
+      "B. He reacts with delight, amusement, and eagerness.",
+      "C. He reacts with fear, panic, and avoidance.",
+      "D. He reacts with anger, resentment, and defensiveness."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e12_q001_seg1_162.81_186.084.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 162.81,
+          "end": 186.084,
+          "mmss": "02:42.8–03:06.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0011",
+        "t": [
+          162.81,
+          170.652
+        ],
+        "speaker": "Joey",
+        "text": "Hey, Ross. Do you know that right now your baby is only this big? This is your baby. Hi, daddy."
+      },
+      {
+        "unit_id": "u0012",
+        "t": [
+          170.693,
+          172.195
+        ],
+        "speaker": "Ross",
+        "text": "Hello."
+      },
+      {
+        "unit_id": "u0013",
+        "t": [
+          172.278,
+          173.863
+        ],
+        "speaker": "Joey",
+        "text": "How come you don't live with mommy?"
+      },
+      {
+        "unit_id": "u0014",
+        "t": [
+          176.324,
+          178.534
+        ],
+        "speaker": "Joey",
+        "text": "How come mommy lives with that other lady?"
+      },
+      {
+        "unit_id": "u0015",
+        "t": [
+          184.165,
+          186.084
+        ],
+        "speaker": "Joey",
+        "text": "What's a lesbian?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q002",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, what emotions best describe the friends toward the couple's first weekend away together?",
+    "options": [
+      "A. They tease affectionately and support the trip, though one shows jealousy.",
+      "B. Everyone disapproves and tries to cancel the trip.",
+      "C. Everyone is indifferent except for fear that the destination is dangerous.",
+      "D. The group is solemnly worried that the couple has secretly married."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e12_q002_seg1_198.638_231.212.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 198.638,
+          "end": 231.212,
+          "mmss": "03:18.6–03:51.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0017",
+        "t": [
+          198.638,
+          202.767
+        ],
+        "speaker": "Paolo",
+        "text": "Ah, poke-a-nose."
+      },
+      {
+        "unit_id": "u0018",
+        "t": [
+          202.85,
+          204.435
+        ],
+        "speaker": "unknown",
+        "text": "Hmm."
+      },
+      {
+        "unit_id": "u0019",
+        "t": [
+          204.519,
+          207.272
+        ],
+        "speaker": "together",
+        "text": "Blah, blah, blah."
+      },
+      {
+        "unit_id": "u0020",
+        "t": [
+          211.401,
+          213.403
+        ],
+        "speaker": "Monica",
+        "text": "So did I hear Poconos?"
+      },
+      {
+        "unit_id": "u0021",
+        "t": [
+          213.444,
+          216.656
+        ],
+        "speaker": "Rachel",
+        "text": "Yes, my sister's giving us her place for the weekend."
+      },
+      {
+        "unit_id": "u0022",
+        "t": [
+          216.698,
+          219.409
+        ],
+        "speaker": "Phoebe",
+        "text": "Whoo-hoo. First weekend away together."
+      },
+      {
+        "unit_id": "u0023",
+        "t": [
+          219.45,
+          221.411
+        ],
+        "speaker": "Monica",
+        "text": "Yeah, that's a big step. I know."
+      },
+      {
+        "unit_id": "u0024",
+        "t": [
+          223.121,
+          224.664
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, it's just a weekend. Big deal."
+      },
+      {
+        "unit_id": "u0025",
+        "t": [
+          224.747,
+          231.212
+        ],
+        "speaker": "Ross",
+        "text": "Wasn't this just supposed to be a fling? Shouldn't it be flung by now?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q003",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man carrying books and a lasagna during the conversation about the medical results and the baby's sex?",
+    "options": [
+      "A. He starts anxious, feels relief at the healthy news, grows embarrassed, and ends determined not to ask.",
+      "B. He starts annoyed, grows disappointed at the results, angry at the topic, and ends frustrated.",
+      "C. He starts confident, grows amused by the photo, excited at the topic, and ends relieved by the answer.",
+      "D. He starts worried, grows jealous of the photo, confused by the topic, and ends embarrassed by his slip."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e12_q003_seg1_290.6_376.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 290.6,
+          "end": 376.6,
+          "mmss": "4:50.6–6:16.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0034",
+        "t": [
+          290.563,
+          293.149
+        ],
+        "speaker": "Carol",
+        "text": "- Hey, hey, hey. Come on in. - Hey. Hello."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0035",
+        "t": [
+          293.232,
+          297.57
+        ],
+        "speaker": "Ross",
+        "text": "I, uh, I brought all the books and Monica sends her love along with this lasagna."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0036",
+        "t": [
+          297.654,
+          302.2
+        ],
+        "speaker": "Carol",
+        "text": "Oh, great. Is it vegetarian, 'cause Susan doesn't eat meat."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0037",
+        "t": [
+          304.744,
+          306.871
+        ],
+        "speaker": "Ross",
+        "text": "I'm pretty sure that it is. Yeah."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0038",
+        "t": [
+          309.165,
+          311.793
+        ],
+        "speaker": "Carol",
+        "text": "So I got the results of the amnio today."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0039",
+        "t": [
+          311.834,
+          313.378
+        ],
+        "speaker": "Ross",
+        "text": "Oh, tell me, tell me, is everything, uh.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0040",
+        "t": [
+          313.461,
+          315.088
+        ],
+        "speaker": "Carol",
+        "text": "Totally and completely healthy."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0041",
+        "t": [
+          315.171,
+          316.839
+        ],
+        "speaker": "Ross",
+        "text": "Oh, that's great. That is great."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0042",
+        "t": [
+          321.636,
+          325.515
+        ],
+        "speaker": "Ross",
+        "text": "Hey, when did you and Susan meet Huey Lewis?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0043",
+        "t": [
+          325.598,
+          327.6
+        ],
+        "speaker": "Carol",
+        "text": "Uh, that's our friend Tanya."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0044",
+        "t": [
+          337.652,
+          339.696
+        ],
+        "speaker": "Ross",
+        "text": "Of course, it's your friend Tanya."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0045",
+        "t": [
+          342.407,
+          344.701
+        ],
+        "speaker": "Carol",
+        "text": "Don't you wanna know about the sex?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0046",
+        "t": [
+          344.742,
+          345.785
+        ],
+        "speaker": "Ross",
+        "text": "The sex?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0047",
+        "t": [
+          347.37,
+          353.71
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, I'm having enough trouble with the image of you and Susan together. When you throw in Tanya, I'm.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0048",
+        "t": [
+          353.751,
+          355.044
+        ],
+        "speaker": "unknown",
+        "text": "Aah."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0049",
+        "t": [
+          357.171,
+          359.048
+        ],
+        "speaker": "Carol",
+        "text": "The sex of the baby, Ross."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0050",
+        "t": [
+          360.925,
+          365.263
+        ],
+        "speaker": "Ross",
+        "text": "Oh, you know the sex of the baby? - Oh. Oh, oh. - So? So?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0051",
+        "t": [
+          365.346,
+          367.307
+        ],
+        "speaker": "Carol",
+        "text": "- Do you wanna know? - No, no, no."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0052",
+        "t": [
+          367.348,
+          376.649
+        ],
+        "speaker": "Ross",
+        "text": "No, I don't wanna know. Absolutely not. No, I think, you know, I think you shouldn't know until you look down there and see oh, there it is.. ...or isn't."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the brown jacket as the two women discuss the baby's sex around him?",
+    "options": [
+      "A. He starts indifferent, grows amused at near-reveals, bored with the prediction, ends confident he won't ask.",
+      "B. He starts suspicious, grows angry on a new arrival, certain of the prediction, ends relieved at the reveal.",
+      "C. He starts pleased, grows anxious at near-reveals, becomes curious, and ends frustrated.",
+      "D. He starts eager, grows embarrassed at the topic, becomes impatient, ends disappointed at refusal."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e12_q004_seg1_378.4_450.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 378.4,
+          "end": 450,
+          "mmss": "6:18.4–7:30.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0053",
+        "t": [
+          378.401,
+          380.82
+        ],
+        "speaker": "Susan",
+        "text": "Oh, hello, Ross."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0054",
+        "t": [
+          380.904,
+          382.071
+        ],
+        "speaker": "Ross",
+        "text": "Susan."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0055",
+        "t": [
+          382.155,
+          385.158
+        ],
+        "speaker": "Susan",
+        "text": "So.. So did you hear?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0056",
+        "t": [
+          385.199,
+          387.41
+        ],
+        "speaker": "Ross",
+        "text": "Yes, we did. Everything's A okay."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0057",
+        "t": [
+          387.452,
+          389.579
+        ],
+        "speaker": "Susan",
+        "text": "Oh. That's so.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0058",
+        "t": [
+          391.581,
+          394.626
+        ],
+        "speaker": "Susan",
+        "text": "It really is. - Oh, and do we know? - What?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0059",
+        "t": [
+          394.709,
+          396.419
+        ],
+        "speaker": "Carol",
+        "text": "We certainly do. It's going to be..."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0060",
+        "t": [
+          396.502,
+          401.925
+        ],
+        "speaker": "Ross",
+        "text": "Ooh! Ah, hey, hey. Ho, ho. Hello. See a guy who doesn't want to know standing right here."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0061",
+        "t": [
+          401.966,
+          407.263
+        ],
+        "speaker": "Susan",
+        "text": "Oh. Oh, well, is it what we thought it would be?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0062",
+        "t": [
+          407.305,
+          408.264
+        ],
+        "speaker": "Carol",
+        "text": "Mm-hmm."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0063",
+        "t": [
+          412.435,
+          423.446
+        ],
+        "speaker": "Ross",
+        "text": "Hey. What? What, uh.. Okay, what-what did we think it was gonna be? - We thought... - No, no, no. I don't want to know. Don't want to know. Okay, you know, I should probably I should probably just go."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0064",
+        "t": [
+          423.488,
+          425.281
+        ],
+        "speaker": "Carol",
+        "text": "- Oh, thanks for the books. - No problem."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0065",
+        "t": [
+          425.365,
+          427.2
+        ],
+        "speaker": "unknown",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0066",
+        "t": [
+          427.283,
+          431.454
+        ],
+        "speaker": "Ross",
+        "text": "Oh. Susan."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0067",
+        "t": [
+          436.751,
+          440.964
+        ],
+        "speaker": "Susan",
+        "text": "Alright, who should we call first? Your folks or Deb and Rona?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0068",
+        "t": [
+          445.093,
+          448.137
+        ],
+        "speaker": "Carol",
+        "text": "- Hello. - 'Uh..'"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0069",
+        "t": [
+          448.179,
+          449.973
+        ],
+        "speaker": "Ross",
+        "text": "'Never mind. I don't wanna know.'"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the black shirt and gray vest during the argument about replacing the broken table?",
+    "options": [
+      "A. He starts resentful, shifts into fear of losing the roommate, ends determined to avoid shared homes.",
+      "B. He starts embarrassed, shifts into relief at the offer, ends joyful recalling the former roommate.",
+      "C. He starts amused, shifts into anger at the cost discussion, ends confident in the friendship.",
+      "D. He starts angry, shifts into uneasy negotiation, and ends apprehensive about shared commitments."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e12_q005_seg1_451.9_511.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 451.9,
+          "end": 511.4,
+          "mmss": "7:31.9–8:31.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0070",
+        "t": [
+          451.933,
+          455.436
+        ],
+        "speaker": "Chandler",
+        "text": "Okay so just because it was my table I have to buy a new one?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0071",
+        "t": [
+          455.478,
+          456.813
+        ],
+        "speaker": "Joey",
+        "text": "That's the rule."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0072",
+        "t": [
+          458.231,
+          461.609
+        ],
+        "speaker": "Chandler",
+        "text": "What rule? There's no rule. If anything, you owe me a table."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0073",
+        "t": [
+          461.651,
+          462.986
+        ],
+        "speaker": "Joey",
+        "text": "How'd you get there?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0074",
+        "t": [
+          463.027,
+          468.533
+        ],
+        "speaker": "Chandler",
+        "text": "Well, I believe this piece of furniture was fine until your little breakfast adventure with Angela Delvecchio."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0075",
+        "t": [
+          468.616,
+          469.909
+        ],
+        "speaker": "Joey",
+        "text": "You knew about that?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0076",
+        "t": [
+          469.951,
+          473.496
+        ],
+        "speaker": "Chandler",
+        "text": "Well, let's just say the impressions you made in the butter left little to the imagination."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0077",
+        "t": [
+          475.123,
+          478.001
+        ],
+        "speaker": "Joey",
+        "text": "Okay, okay. How about if we split it?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0078",
+        "t": [
+          478.042,
+          480.336
+        ],
+        "speaker": "Chandler",
+        "text": "What do you mean? Like, buy it together?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0079",
+        "t": [
+          480.378,
+          481.671
+        ],
+        "speaker": "Joey",
+        "text": "Yeah."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0080",
+        "t": [
+          481.713,
+          483.506
+        ],
+        "speaker": "Chandler",
+        "text": "You think we're ready for something like that?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0081",
+        "t": [
+          484.924,
+          485.967
+        ],
+        "speaker": "Joey",
+        "text": "Why not?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0082",
+        "t": [
+          486.009,
+          490.013
+        ],
+        "speaker": "Chandler",
+        "text": "Well, just that it's a pretty big commitment. I mean, what if one of us wants to move out?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0083",
+        "t": [
+          490.096,
+          493.975
+        ],
+        "speaker": "Joey",
+        "text": "- Why? Are you moving out? - I'm not moving out. You'd tell me if you were moving out, right?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0084",
+        "t": [
+          494.017,
+          496.269
+        ],
+        "speaker": "Chandler",
+        "text": "Yes, yes. It's just that, look, my last roommate, Kip..."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0085",
+        "t": [
+          496.352,
+          499.689
+        ],
+        "speaker": "Joey",
+        "text": "Oh, I know all about Kip."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0086",
+        "t": [
+          499.731,
+          504.694
+        ],
+        "speaker": "Chandler",
+        "text": "We bought a hibachi together and then he ran off and got married and things got pretty ugly."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0087",
+        "t": [
+          504.736,
+          509.032
+        ],
+        "speaker": "Joey",
+        "text": "Let me ask you something. Was Kip a better roommate than me?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0088",
+        "t": [
+          510.116,
+          511.409
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, don't do that?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q006",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the emotional state of the blonde massage therapist changes when she recognizes her next client?",
+    "options": [
+      "A. She becomes furious that he is late and refuses the appointment.",
+      "B. She is frightened because she believes he is an intruder.",
+      "C. She starts calm, becomes startled, then grows awkward.",
+      "D. She stays romantically delighted and ignores professional boundaries."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e12_q006_seg1_517.916_548.78.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 517.916,
+          "end": 548.78,
+          "mmss": "08:37.9–09:08.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0089",
+        "t": [
+          517.916,
+          526.799
+        ],
+        "speaker": "Phoebe's Assistant",
+        "text": "You've got changes in your schedule. Your 4 o'clock herbal massage is at 4:30 and Miss Summerfield canceled her 5:30 shiatsu."
+      },
+      {
+        "unit_id": "u0090",
+        "t": [
+          526.841,
+          528.343
+        ],
+        "speaker": "Phoebe",
+        "text": "Okay. Thanks."
+      },
+      {
+        "unit_id": "u0091",
+        "t": [
+          528.384,
+          533.514
+        ],
+        "speaker": "Phoebe's Assistant",
+        "text": "Here comes your 3 o'clock. I don't mean to sound unprofessional, but yum."
+      },
+      {
+        "unit_id": "u0092",
+        "t": [
+          535.934,
+          538.061
+        ],
+        "speaker": "Paolo",
+        "text": "Buon giorno, bella Peebie."
+      },
+      {
+        "unit_id": "u0093",
+        "t": [
+          538.102,
+          542.065
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh. Hi, what are you doing here?"
+      },
+      {
+        "unit_id": "u0094",
+        "t": [
+          542.106,
+          548.78
+        ],
+        "speaker": "Paolo",
+        "text": "Racquela tell me you massage."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q007",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde woman in the patterned jacket as she tells the group what happened during the massage?",
+    "options": [
+      "A. She starts angry, grows proud of the attraction, ends excited to tell her friend.",
+      "B. She starts hesitant, grows amused and embarrassed, and ends fearful and guilty.",
+      "C. She starts sad, grows relieved by doubts, ends indifferent about disclosing.",
+      "D. She starts nervous, grows disgusted by their reactions, ends angry at the blame."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e12_q007_seg1_612.0_712.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 612,
+          "end": 712,
+          "mmss": "10:12.0–11:52.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0110",
+        "t": [
+          614.053,
+          616.347
+        ],
+        "speaker": "Monica",
+        "text": "- Phoebe, what's the matter? - Nothing, I'm sorry."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0111",
+        "t": [
+          616.431,
+          617.682
+        ],
+        "speaker": "Phoebe",
+        "text": "I'm just.. I'm out of sorts."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0112",
+        "t": [
+          617.765,
+          620.768
+        ],
+        "speaker": "Customer",
+        "text": "Hey can we get some cappuccino over here?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0113",
+        "t": [
+          622.27,
+          623.73
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, right. That's me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0114",
+        "t": [
+          625.189,
+          628.192
+        ],
+        "speaker": "Joey",
+        "text": "Hey, Chandler, that table place closes at 7:00. Come on."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0115",
+        "t": [
+          628.276,
+          630.32
+        ],
+        "speaker": "Chandler",
+        "text": "Fine."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0116",
+        "t": [
+          630.403,
+          632.322
+        ],
+        "speaker": "Monica",
+        "text": "Phoebe, what is it?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0117",
+        "t": [
+          633.907,
+          635.617
+        ],
+        "speaker": "Phoebe",
+        "text": "Alright. You know Paolo?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0118",
+        "t": [
+          635.658,
+          637.66
+        ],
+        "speaker": "Ross",
+        "text": "I'm familiar with his work. Yes."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0119",
+        "t": [
+          639.287,
+          640.58
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, he made a move on me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0120",
+        "t": [
+          640.663,
+          642.332
+        ],
+        "speaker": "Joey",
+        "text": "Whoa! Store will be open tomorrow."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0121",
+        "t": [
+          642.415,
+          643.875
+        ],
+        "speaker": "Chandler",
+        "text": "More coffee over here please."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0122",
+        "t": [
+          651.466,
+          652.884
+        ],
+        "speaker": "Monica",
+        "text": "Hey, what happened?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0123",
+        "t": [
+          652.967,
+          657.055
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, he came in for a massage and everything was fine until.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0124",
+        "t": [
+          660.475,
+          662.31
+        ],
+        "speaker": "Ross",
+        "text": "- Whoa! - Oh, my God."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0125",
+        "t": [
+          662.352,
+          664.52
+        ],
+        "speaker": "Monica",
+        "text": "Are you sure?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0126",
+        "t": [
+          664.604,
+          666.064
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, yeah, I'm sure."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0127",
+        "t": [
+          670.818,
+          673.905
+        ],
+        "speaker": "Phoebe",
+        "text": "And all of a sudden his hands weren't the problem anymore."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0128",
+        "t": [
+          678.91,
+          679.994
+        ],
+        "speaker": "Monica",
+        "text": "Was it.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0129",
+        "t": [
+          680.036,
+          682.914
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, Boy Scouts could have camped under there."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0130",
+        "t": [
+          682.997,
+          684.707
+        ],
+        "speaker": "together",
+        "text": "Ooh."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0131",
+        "t": [
+          684.791,
+          686.376
+        ],
+        "speaker": "Rachel",
+        "text": "Ooh, what?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0132",
+        "t": [
+          686.459,
+          687.961
+        ],
+        "speaker": "Phoebe",
+        "text": "- Uma Thurman. - Oh."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0133",
+        "t": [
+          688.044,
+          688.878
+        ],
+        "speaker": "Ross",
+        "text": "The actress."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0134",
+        "t": [
+          691.631,
+          693.716
+        ],
+        "speaker": "Ross",
+        "text": "Thanks, Rach."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0135",
+        "t": [
+          695.343,
+          697.095
+        ],
+        "speaker": "Chandler",
+        "text": "- So what are you gonna do? - You have to tell her."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0136",
+        "t": [
+          697.178,
+          703.726
+        ],
+        "speaker": "Ross",
+        "text": "You have to tell her it's your moral obligation as a friend, as a woman. I think it's a feminist issue. Guys? Guys?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0137",
+        "t": [
+          703.81,
+          705.436
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, yeah, you have to tell her."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0138",
+        "t": [
+          705.52,
+          707.23
+        ],
+        "speaker": "Joey",
+        "text": "Feminist issue that's where I went."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0139",
+        "t": [
+          709.357,
+          710.65
+        ],
+        "speaker": "Phoebe",
+        "text": "She is gonna hate me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0140",
+        "t": [
+          710.733,
+          712.193
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, well.."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q008",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "What causes the blonde woman in the patterned jacket's emotional distress? Answer with a brief description of the event.",
+    "options": [],
+    "answer": "The man she was massaging made a move on her.",
+    "video_name": "friends_g1_2_s01e12_q007_seg1_612.0_712.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 612,
+          "end": 712,
+          "mmss": "10:12.0–11:52.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0110",
+        "t": [
+          614.053,
+          616.347
+        ],
+        "speaker": "Monica",
+        "text": "- Phoebe, what's the matter? - Nothing, I'm sorry."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0111",
+        "t": [
+          616.431,
+          617.682
+        ],
+        "speaker": "Phoebe",
+        "text": "I'm just.. I'm out of sorts."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0112",
+        "t": [
+          617.765,
+          620.768
+        ],
+        "speaker": "Customer",
+        "text": "Hey can we get some cappuccino over here?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0113",
+        "t": [
+          622.27,
+          623.73
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, right. That's me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0114",
+        "t": [
+          625.189,
+          628.192
+        ],
+        "speaker": "Joey",
+        "text": "Hey, Chandler, that table place closes at 7:00. Come on."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0115",
+        "t": [
+          628.276,
+          630.32
+        ],
+        "speaker": "Chandler",
+        "text": "Fine."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0116",
+        "t": [
+          630.403,
+          632.322
+        ],
+        "speaker": "Monica",
+        "text": "Phoebe, what is it?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0117",
+        "t": [
+          633.907,
+          635.617
+        ],
+        "speaker": "Phoebe",
+        "text": "Alright. You know Paolo?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0118",
+        "t": [
+          635.658,
+          637.66
+        ],
+        "speaker": "Ross",
+        "text": "I'm familiar with his work. Yes."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0119",
+        "t": [
+          639.287,
+          640.58
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, he made a move on me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0120",
+        "t": [
+          640.663,
+          642.332
+        ],
+        "speaker": "Joey",
+        "text": "Whoa! Store will be open tomorrow."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0121",
+        "t": [
+          642.415,
+          643.875
+        ],
+        "speaker": "Chandler",
+        "text": "More coffee over here please."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0122",
+        "t": [
+          651.466,
+          652.884
+        ],
+        "speaker": "Monica",
+        "text": "Hey, what happened?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0123",
+        "t": [
+          652.967,
+          657.055
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, he came in for a massage and everything was fine until.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0124",
+        "t": [
+          660.475,
+          662.31
+        ],
+        "speaker": "Ross",
+        "text": "- Whoa! - Oh, my God."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0125",
+        "t": [
+          662.352,
+          664.52
+        ],
+        "speaker": "Monica",
+        "text": "Are you sure?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0126",
+        "t": [
+          664.604,
+          666.064
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, yeah, I'm sure."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0127",
+        "t": [
+          670.818,
+          673.905
+        ],
+        "speaker": "Phoebe",
+        "text": "And all of a sudden his hands weren't the problem anymore."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0128",
+        "t": [
+          678.91,
+          679.994
+        ],
+        "speaker": "Monica",
+        "text": "Was it.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0129",
+        "t": [
+          680.036,
+          682.914
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, Boy Scouts could have camped under there."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0130",
+        "t": [
+          682.997,
+          684.707
+        ],
+        "speaker": "together",
+        "text": "Ooh."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0131",
+        "t": [
+          684.791,
+          686.376
+        ],
+        "speaker": "Rachel",
+        "text": "Ooh, what?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0132",
+        "t": [
+          686.459,
+          687.961
+        ],
+        "speaker": "Phoebe",
+        "text": "- Uma Thurman. - Oh."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0133",
+        "t": [
+          688.044,
+          688.878
+        ],
+        "speaker": "Ross",
+        "text": "The actress."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0134",
+        "t": [
+          691.631,
+          693.716
+        ],
+        "speaker": "Ross",
+        "text": "Thanks, Rach."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0135",
+        "t": [
+          695.343,
+          697.095
+        ],
+        "speaker": "Chandler",
+        "text": "- So what are you gonna do? - You have to tell her."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0136",
+        "t": [
+          697.178,
+          703.726
+        ],
+        "speaker": "Ross",
+        "text": "You have to tell her it's your moral obligation as a friend, as a woman. I think it's a feminist issue. Guys? Guys?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0137",
+        "t": [
+          703.81,
+          705.436
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, yeah, you have to tell her."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0138",
+        "t": [
+          705.52,
+          707.23
+        ],
+        "speaker": "Joey",
+        "text": "Feminist issue that's where I went."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0139",
+        "t": [
+          709.357,
+          710.65
+        ],
+        "speaker": "Phoebe",
+        "text": "She is gonna hate me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0140",
+        "t": [
+          710.733,
+          712.193
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, well.."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the blue plaid shirt as the two men try to choose a replacement table?",
+    "options": [
+      "A. He remains indifferent and lets the other man choose everything.",
+      "B. He starts angry, becomes delighted by the bird design, and ends grateful.",
+      "C. He starts enthusiastic, grows defensive at each rejection, and ends wistful.",
+      "D. He begins embarrassed by shopping, becomes bored, and leaves without choosing."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e12_q009_seg1_724.372_758.948.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 724.372,
+          "end": 758.948,
+          "mmss": "12:04.4–12:38.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0142",
+        "t": [
+          724.372,
+          726.374
+        ],
+        "speaker": "Chandler",
+        "text": "That's patio furniture."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0143",
+        "t": [
+          726.416,
+          731.296
+        ],
+        "speaker": "Joey",
+        "text": "People are gonna think they're outside again?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0145",
+        "t": [
+          733.047,
+          734.34
+        ],
+        "speaker": "Chandler",
+        "text": "What about the birds?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0146",
+        "t": [
+          736.092,
+          740.096
+        ],
+        "speaker": "Joey",
+        "text": "Birds just don't say hello, sit here, eat something."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0147",
+        "t": [
+          741.806,
+          743.6
+        ],
+        "speaker": "Chandler",
+        "text": "You pick one."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0148",
+        "t": [
+          743.683,
+          744.934
+        ],
+        "speaker": "Joey",
+        "text": "How about the ladybugs?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0149",
+        "t": [
+          745.018,
+          749.731
+        ],
+        "speaker": "Chandler",
+        "text": "Big red insects suggest fine dining?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0150",
+        "t": [
+          749.772,
+          751.733
+        ],
+        "speaker": "Joey",
+        "text": "Fine, you wanna get the birds, get the birds."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0152",
+        "t": [
+          757.071,
+          758.948
+        ],
+        "speaker": "Chandler",
+        "text": "Kip would've liked the birds."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q010",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the blonde woman's hesitant disclosure that the absent boyfriend made a pass at her affect the woman packing his suitcase?",
+    "options": [
+      "A. She reacts with amusement, dismissal, and relaxed warmth.",
+      "B. She reacts with disbelief, shock, and hurt.",
+      "C. She reacts with anger, denial, and accusation.",
+      "D. She reacts with relief, satisfaction, and indifference."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e12_q010_seg1_769.125_926.282.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 769.125,
+          "end": 926.282,
+          "mmss": "12:49.1–15:26.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0155",
+        "t": [
+          772.837,
+          776.841
+        ],
+        "speaker": "Rachel",
+        "text": "These are his suitcases."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0156",
+        "t": [
+          776.925,
+          782.805
+        ],
+        "speaker": "Phoebe",
+        "text": "Can we talk for a second?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0160",
+        "t": [
+          797.028,
+          816.214
+        ],
+        "speaker": "Phoebe",
+        "text": "My friends are most important; I never lie."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0168",
+        "t": [
+          850.456,
+          852.208
+        ],
+        "speaker": "Phoebe",
+        "text": "Paolo made a pass at me."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0174",
+        "t": [
+          876.316,
+          877.942
+        ],
+        "speaker": "Phoebe",
+        "text": "Are you okay?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0180",
+        "t": [
+          907.555,
+          923.029
+        ],
+        "speaker": "Rachel",
+        "text": "I feel stupid. I praised him to you guys. I'm so embarrassed."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0181",
+        "t": [
+          923.071,
+          926.282
+        ],
+        "speaker": "Phoebe",
+        "text": "I'm the one he hit on."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q011",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the betrayed woman as she and the blonde woman process the disclosure together?",
+    "options": [
+      "A. She stays furious at the messenger and never discusses the boyfriend.",
+      "B. Apologies shift into contempt, then anger softens into grief and acceptance.",
+      "C. She becomes cheerful once they insult him and forgets the relationship.",
+      "D. She begins calm, becomes frightened of him, and calls the police."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e12_q011_seg1_930.245_994.309.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 930.245,
+          "end": 994.309,
+          "mmss": "15:30.2–16:34.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0183",
+        "t": [
+          930.245,
+          937.085
+        ],
+        "speaker": "Phoebe",
+        "text": "I'm sorry. What are we sorry about?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0184",
+        "t": [
+          937.126,
+          947.553
+        ],
+        "speaker": "Rachel",
+        "text": "He's a pig. A disgusting pig man."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0186",
+        "t": [
+          953.601,
+          955.979
+        ],
+        "speaker": "Rachel",
+        "text": "But he was my pig man."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0187",
+        "t": [
+          957.939,
+          960.191
+        ],
+        "speaker": "Rachel",
+        "text": "How did I not see this?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0189",
+        "t": [
+          965.822,
+          974.956
+        ],
+        "speaker": "Phoebe",
+        "text": "Because he's gorgeous and charming."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0192",
+        "t": [
+          983.131,
+          987.26
+        ],
+        "speaker": "Rachel",
+        "text": "It's much better that I know."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0193",
+        "t": [
+          990.513,
+          994.309
+        ],
+        "speaker": "Rachel",
+        "text": "I just liked it better before."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q012",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the black leather jacket when he returns after the breakup?",
+    "options": [
+      "A. He arrives ashamed, is immediately forgiven, and leaves joyful.",
+      "B. He remains angry and refuses both the breakup and the food.",
+      "C. He enters indifferent, mocks everyone, and stays for the evening.",
+      "D. He enters confident, grows defensive under blame, leaves subdued but accepting."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e12_q012_seg1_1076.0_1149.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 1076,
+          "end": 1149,
+          "mmss": "17:56.0–19:09.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0203",
+        "t": [
+          1076.099,
+          1077.767
+        ],
+        "speaker": "unknown",
+        "text": "Ascolta, ascolta, ascolta.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0204",
+        "t": [
+          1080.728,
+          1082.647
+        ],
+        "speaker": "Ross",
+        "text": "- How's it going? - Alright, don't stare."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0205",
+        "t": [
+          1082.73,
+          1091.531
+        ],
+        "speaker": "Monica",
+        "text": "Okay, she just finished throwing his clothes off the balcony. 'Now there's just a lot of gesturing and arm waving.' Okay, that is either, how could you? Or enormous breasts."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0206",
+        "t": [
+          1093.95,
+          1095.451
+        ],
+        "speaker": "Monica",
+        "text": "- Here he comes. - Oh."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0207",
+        "t": [
+          1104.168,
+          1109.757
+        ],
+        "speaker": "Paolo",
+        "text": "Uh, I am, uh.. ...to say goodbye."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0208",
+        "t": [
+          1109.799,
+          1111.467
+        ],
+        "speaker": "Phoebe",
+        "text": "Okay, buh-bye."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0209",
+        "t": [
+          1114.804,
+          1122.562
+        ],
+        "speaker": "Monica",
+        "text": "Paolo.. I really hate you for what you did to Rachel but I still have five of these so heat it at 375 until the cheese bubbles."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0210",
+        "t": [
+          1124.939,
+          1126.107
+        ],
+        "speaker": "Paolo",
+        "text": "Grazie."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0211",
+        "t": [
+          1128.067,
+          1133.656
+        ],
+        "speaker": "Ross",
+        "text": "Paolo, I-I just want to tell you and I-I think I'd speak for everyone when I say.."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0212",
+        "t": [
+          1139.329,
+          1141.414
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, just look at her."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0213",
+        "t": [
+          1141.456,
+          1148.63
+        ],
+        "speaker": "Ross",
+        "text": "Yeah, oh, you guys, I-I really think only one of us should go out there. - So she's not overwhelmed. - Oh, you're right. And I really think it should be me."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q013",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the man in the black sweater's reassurance affect the recently betrayed woman on the balcony?",
+    "options": [
+      "A. She reacts with infatuation, flirtation, and eagerness.",
+      "B. She reacts with anger, suspicion, and defensiveness.",
+      "C. She reacts with indifference, coldness, and detachment.",
+      "D. She reacts with comfort, gratitude, and affection."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e12_q013_seg1_1162.685_1222.12.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 1162.685,
+          "end": 1222.12,
+          "mmss": "19:22.7–20:22.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0214",
+        "t": [
+          1162.685,
+          1164.312
+        ],
+        "speaker": "Ross",
+        "text": "Hey."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0215",
+        "t": [
+          1166.147,
+          1168.024
+        ],
+        "speaker": "Ross",
+        "text": "You alright?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0217",
+        "t": [
+          1174.989,
+          1176.574
+        ],
+        "speaker": "Ross",
+        "text": "Come here."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0218",
+        "t": [
+          1183.498,
+          1194.342
+        ],
+        "speaker": "Ross",
+        "text": "You deserve better, someone who knows what he has."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0221",
+        "t": [
+          1200.473,
+          1211.109
+        ],
+        "speaker": "Rachel",
+        "text": "I'm sick of guys. I don't want to think about or be near another guy."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0223",
+        "t": [
+          1219.2,
+          1220.577
+        ],
+        "speaker": "Rachel",
+        "text": "You're so great."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q014",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the black sweater as the conversation unexpectedly reveals the sex of his baby?",
+    "options": [
+      "A. He starts worried, grows relieved briefly, calms at group reaction, ends certain he still doesn't know.",
+      "B. He starts hopeful, grows angry at the wording, suspicious at group reaction, ends disappointed at being left out.",
+      "C. He starts amused, grows embarrassed by the moment, resentful at confirmation, ends angry at being left out.",
+      "D. He starts concerned for her, grows shocked, erupts into joy, and ends quietly overwhelmed."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e12_q014_seg1_1233.0_1316.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 1233,
+          "end": 1316,
+          "mmss": "20:33.0–21:56.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0225",
+        "t": [
+          1232.922,
+          1234.424
+        ],
+        "speaker": "Monica",
+        "text": "Hey, honey, are you alright?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0226",
+        "t": [
+          1234.465,
+          1235.675
+        ],
+        "speaker": "Rachel",
+        "text": "- Hmm. - Are you okay?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0227",
+        "t": [
+          1235.717,
+          1237.302
+        ],
+        "speaker": "unknown",
+        "text": "Medium."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0228",
+        "t": [
+          1237.385,
+          1239.47
+        ],
+        "speaker": "Rachel",
+        "text": "- Any cookies left? - Yeah."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0229",
+        "t": [
+          1242.515,
+          1253.776
+        ],
+        "speaker": "Ross",
+        "text": "See, Rach, um, see, I don't think that swearing off guys, uh, altogether is the answer. 'I really don't, I think what you need' is to develop a more sophisticated screening process."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0230",
+        "t": [
+          1253.86,
+          1259.574
+        ],
+        "speaker": "Rachel",
+        "text": "No. No, I just need to be by myself for a while, you know? I just got to figure out what I want."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0231",
+        "t": [
+          1259.616,
+          1266.247
+        ],
+        "speaker": "Ross",
+        "text": "Uh, no, no. See-see, because not-not all guys out there are gonna be a-a Paolo."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0232",
+        "t": [
+          1266.289,
+          1271.628
+        ],
+        "speaker": "Rachel",
+        "text": "No, I know, I know, and I'm sure your little boy is not gonna grow up to be one."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0233",
+        "t": [
+          1273.421,
+          1274.923
+        ],
+        "speaker": "Ross",
+        "text": "- What? - What?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0234",
+        "t": [
+          1277.216,
+          1279.761
+        ],
+        "speaker": "Ross",
+        "text": "I'm-I'm, I'm have-I'm havin' a boy?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0235",
+        "t": [
+          1279.802,
+          1286.184
+        ],
+        "speaker": "Rachel",
+        "text": "Uh... no. No, no, in fact, you're not having a boy."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0236",
+        "t": [
+          1286.267,
+          1288.811
+        ],
+        "speaker": "Ross",
+        "text": "Oh, I'm having, I'm having a boy."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0237",
+        "t": [
+          1290.313,
+          1292.023
+        ],
+        "speaker": "Ross",
+        "text": "Huh? Am I having a boy?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0238",
+        "t": [
+          1292.106,
+          1294.484
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "You're having a boy!"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0239",
+        "t": [
+          1294.525,
+          1297.111
+        ],
+        "speaker": "Ross",
+        "text": "- I'm-I'm having a boy! - Yes. Oh, I'm having a boy!"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0240",
+        "t": [
+          1297.153,
+          1298.404
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "What? What? What is it?"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0241",
+        "t": [
+          1298.446,
+          1300.99
+        ],
+        "speaker": "Ross",
+        "text": "I'm having a boy! I-I'm having a boy."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0242",
+        "t": [
+          1301.032,
+          1302.659
+        ],
+        "speaker": "Chandler",
+        "text": "Hey."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0243",
+        "t": [
+          1304.494,
+          1306.663
+        ],
+        "speaker": "Chandler",
+        "text": "We already knew that."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0244",
+        "t": [
+          1309.832,
+          1311.542
+        ],
+        "speaker": "Ross",
+        "text": "I'm having a son."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0245",
+        "t": [
+          1314.254,
+          1315.713
+        ],
+        "speaker": "Ross",
+        "text": "Um.."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e12_q015",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired woman in gray as the late-night game appears to end?",
+    "options": [
+      "A. She starts joyful, becomes disappointed, then ends resigned.",
+      "B. She starts embarrassed, grows relieved, ends annoyed.",
+      "C. She starts proud, grows angry, ends sad without acknowledgment.",
+      "D. She starts excited, grows tired, remains determined to go to bed."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e12_q015_seg1_1320.0_1355.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E12"
+      ],
+      "segments": [
+        {
+          "ep": "S01E12",
+          "start": 1320,
+          "end": 1355.9,
+          "mmss": "22:00.0–22:35.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E12",
+        "unit_id": "u0246",
+        "t": [
+          1319.842,
+          1322.679
+        ],
+        "speaker": "Monica",
+        "text": "Yes! And that would be a shut-down."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0247",
+        "t": [
+          1322.72,
+          1324.222
+        ],
+        "speaker": "Chandler",
+        "text": "Shut-out!"
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0248",
+        "t": [
+          1327.475,
+          1329.686
+        ],
+        "speaker": "Monica",
+        "text": "Where are you guys goin'? Come on, one more game."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0249",
+        "t": [
+          1329.769,
+          1331.854
+        ],
+        "speaker": "Joey",
+        "text": "Oh, it's 2:30 in the mornin'."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0250",
+        "t": [
+          1331.896,
+          1334.357
+        ],
+        "speaker": "Chandler",
+        "text": "Yeah. Get out."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0251",
+        "t": [
+          1334.399,
+          1342.365
+        ],
+        "speaker": "Monica",
+        "text": "You guys are always hanging out in my apartment. Come on, I'll only use my left hand, huh? Come on, wussies."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0252",
+        "t": [
+          1345.66,
+          1351.749
+        ],
+        "speaker": "Monica",
+        "text": "- Alright, okay, I gotta go. - Mm-hmm. I'm goin'. And I'm gone."
+      },
+      {
+        "ep": "S01E12",
+        "unit_id": "u0253",
+        "t": [
+          1354.46,
+          1355.92
+        ],
+        "speaker": "Chandler",
+        "text": "- One more game? - Oh, yeah."
+      }
+    ]
+  }
+]

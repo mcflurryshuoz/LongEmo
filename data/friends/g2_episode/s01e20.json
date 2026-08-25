@@ -1,0 +1,87 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most worried?",
+    "options": [
+      "A. When Bobby walks into the dental office while she and Barry are kissing.",
+      "B. When she waits to meet Mindy at the coffeehouse.",
+      "C. When she hangs up after Mindy's unexpected call and immediately worries about why Mindy wants to meet.",
+      "D. When she discovers that someone across the street is watching the apartment through a telescope."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear happiest?",
+    "options": [
+      "A. When she returns from lunch with Barry and tells the group that seeing him felt comfortable and familiar.",
+      "B. When she agrees to be Mindy's maid of honor at the coffeehouse.",
+      "C. When she and Mindy hug after admitting what happened with Barry.",
+      "D. When she lies back in the dental chair with Barry and affectionately admires the little sink."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Rachel appear angriest? Answer with one short event phrase.",
+    "options": [],
+    "answer": "Mindy defends marrying Barry",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most irritated?",
+    "options": [
+      "A. When he makes sarcastic remarks about Rachel and Barry's relationship at the coffeehouse.",
+      "B. When he plays charades with Phoebe in the apartment.",
+      "C. When he argues with Rachel in the apartment about her continuing contact with Barry.",
+      "D. When he and the others discover the man watching the apartment from across the street."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E20"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e20_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "When the others urge Rachel to end her relationship with Barry, which of the following best describes her attitude?",
+    "options": [
+      "A. She is hesitant but still feels that the relationship should not continue, and she eventually decides to end it.",
+      "B. She is hesitant; her apparent agreement is playful bargaining, and she ultimately decides to continue the relationship.",
+      "C. She does not hesitate and immediately decides to end the relationship.",
+      "D. She does not hesitate; her apparent agreement is only meant to stop everyone from singling her out."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E20"
+    ]
+  }
+]

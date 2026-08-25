@@ -1,0 +1,2019 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q001",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Why does the dark-haired woman in the light gray sweater become annoyed during the phone conversation? Answer briefly by explaining the reason.",
+    "options": [],
+    "answer": "the caller keeps asking irrelevant questions",
+    "video_name": "friends_g1_2_s01e07_q001_seg1_102.5_136.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 102.5,
+          "end": 136.0,
+          "mmss": "1:42.5–2:16.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0006",
+        "t": [
+          102.458,
+          106.629
+        ],
+        "speaker": "Rachel",
+        "text": "Wow, this is so cool, you guys. The entire city is blacked out."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0007",
+        "t": [
+          106.712,
+          111.258
+        ],
+        "speaker": "Monica",
+        "text": "Mom says, it's all of Manhattan parts of Brooklyn and Queens, and they have no idea when it's coming back on."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0008",
+        "t": [
+          111.3,
+          113.511
+        ],
+        "speaker": "Rachel",
+        "text": "Wow, you guys, this is big."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0009",
+        "t": [
+          113.594,
+          118.057
+        ],
+        "speaker": "Monica",
+        "text": "Pants and a sweater? Why, mom? Who am I gonna meet in a blackout.."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0010",
+        "t": [
+          119.6,
+          126.065
+        ],
+        "speaker": "Monica",
+        "text": "Power company guys? Eligible looters? Can we talk about this later? Okay."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0011",
+        "t": [
+          126.107,
+          132.947
+        ],
+        "speaker": "Phoebe",
+        "text": "Can I borrow the phone? I wanna call my apartment and check on my grandma. Wait. What's my number?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0012",
+        "t": [
+          134.49,
+          136.117
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, I never call me."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q002",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Why does the man in the black coat become increasingly excited during the phone call? Answer briefly by explaining the reason.",
+    "options": [],
+    "answer": "His friend repeatedly fails to understand his whispered message",
+    "video_name": "friends_g1_2_s01e07_q002_seg1_274.0_332.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 274.0,
+          "end": 332.0,
+          "mmss": "4:34.0–5:32.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0033",
+        "t": [
+          273.796,
+          275.548
+        ],
+        "speaker": "Chandler",
+        "text": "- Hello. - Hey, it's me."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0034",
+        "t": [
+          275.631,
+          277.758
+        ],
+        "speaker": "Monica",
+        "text": "It's Chandler! Are you okay?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0035",
+        "t": [
+          277.8,
+          283.097
+        ],
+        "speaker": "Chandler",
+        "text": "Yeah, I'm fine. I'm stuck in an ATM vestibule"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0036",
+        "t": [
+          284.932,
+          287.268
+        ],
+        "speaker": "unknown",
+        "text": "with Jill Goodacre."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0037",
+        "t": [
+          289.103,
+          289.895
+        ],
+        "speaker": "Monica",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0038",
+        "t": [
+          289.937,
+          295.401
+        ],
+        "speaker": "Chandler",
+        "text": "I'm stuck.. ...in an ATM vestibule"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0039",
+        "t": [
+          295.484,
+          297.945
+        ],
+        "speaker": "unknown",
+        "text": "with Jill Goodacre."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0040",
+        "t": [
+          299.029,
+          300.781
+        ],
+        "speaker": "Monica",
+        "text": "I have no idea what you just said."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0041",
+        "t": [
+          300.823,
+          303.159
+        ],
+        "speaker": "Chandler",
+        "text": "Put Joey on the phone!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0042",
+        "t": [
+          306.328,
+          307.121
+        ],
+        "speaker": "Joey",
+        "text": "What's up, man?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0043",
+        "t": [
+          307.163,
+          312.71
+        ],
+        "speaker": "Chandler",
+        "text": "I'm stuck.. ...in an ATM vestibule"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0044",
+        "t": [
+          312.793,
+          315.337
+        ],
+        "speaker": "unknown",
+        "text": "with Jill Goodacre."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0045",
+        "t": [
+          316.672,
+          321.927
+        ],
+        "speaker": "Joey",
+        "text": "Oh, my God! He's trapped in an ATM vestibule with Jill Goodacre!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0046",
+        "t": [
+          323.512,
+          324.722
+        ],
+        "speaker": "Joey",
+        "text": "Chandler, listen, listen!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0047",
+        "t": [
+          328.476,
+          331.562
+        ],
+        "speaker": "Chandler",
+        "text": "Yeah, like that thought never entered my mind."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q003",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the woman in the denim shirt change before and after the man holding the blue cup predicts that she will experience great passion in the future?",
+    "options": [],
+    "answer": {
+      "before": [
+        "sadness"
+      ],
+      "after": [
+        "happiness",
+        "esteem"
+      ]
+    },
+    "video_name": "friends_g1_2_s01e07_q003_seg1_420.0_502.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 420.0,
+          "end": 502.0,
+          "mmss": "7:00.0–8:22.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0068",
+        "t": [
+          419.859,
+          427.825
+        ],
+        "speaker": "Rachel",
+        "text": "I've just never had a relationship with that kinda passion, you know, where-where you have to have somebody right there in the middle of a theme park."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0069",
+        "t": [
+          430.411,
+          433.539
+        ],
+        "speaker": "Ross",
+        "text": "Well, it was the only thing to do there that didn't have a line."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0070",
+        "t": [
+          435.583,
+          439.795
+        ],
+        "speaker": "Rachel",
+        "text": "Alright, well, see, I mean, Barry wouldn't even kiss me on a miniature-golf course."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0071",
+        "t": [
+          439.837,
+          441.255
+        ],
+        "speaker": "Ross",
+        "text": "- Come on. - No."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0072",
+        "t": [
+          441.297,
+          444.467
+        ],
+        "speaker": "Rachel",
+        "text": "He said we were holding up the people behind us."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0073",
+        "t": [
+          444.508,
+          447.261
+        ],
+        "speaker": "Ross",
+        "text": "And you didn't marry him, because?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0074",
+        "t": [
+          448.763,
+          454.977
+        ],
+        "speaker": "Rachel",
+        "text": "I mean, do you think.. ...there are people that go through life never having that kind of?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0075",
+        "t": [
+          455.019,
+          460.649
+        ],
+        "speaker": "Ross",
+        "text": "- Probably. - Really? Well, you know, I'll tell you something. Passion is way overrated."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0076",
+        "t": [
+          460.733,
+          462.026
+        ],
+        "speaker": "Rachel",
+        "text": "- Yeah, right. - It is."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0077",
+        "t": [
+          462.109,
+          472.495
+        ],
+        "speaker": "Ross",
+        "text": "Uh, eventually, it kind of burns out. But hopefully, what you're left with is trust and security and, uh.. ...well, in the case of my ex-wife, lesbianism."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0078",
+        "t": [
+          478.209,
+          483.881
+        ],
+        "speaker": "Ross",
+        "text": "So, you know, for all those people who miss out on that, uh, passion thing.. ...there's all that other good stuff."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0079",
+        "t": [
+          485.049,
+          486.926
+        ],
+        "speaker": "sighs",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0080",
+        "t": [
+          486.967,
+          489.887
+        ],
+        "speaker": "Ross",
+        "text": "But, um, but I don't think that's gonna be you."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0081",
+        "t": [
+          489.97,
+          491.43
+        ],
+        "speaker": "Rachel",
+        "text": "- You don't? - Mm."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0082",
+        "t": [
+          491.514,
+          496.185
+        ],
+        "speaker": "Ross",
+        "text": "See, I see, uh.. ...big passion in your future."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0083",
+        "t": [
+          496.227,
+          502.316
+        ],
+        "speaker": "Rachel",
+        "text": "- Really? - Hmm. - You do? - I do. Oh, Ross, you're so great."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q004",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the seated man's repeated warnings about the 'friend zone' evoke in the tall man wearing the white sweater?",
+    "options": [],
+    "answer": [
+      "annoyance",
+      "disquietment"
+    ],
+    "video_name": "friends_g1_2_s01e07_q004_seg1_513.0_600.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 513.0,
+          "end": 600.0,
+          "mmss": "8:33.0–10:00.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0084",
+        "t": [
+          512.576,
+          514.537
+        ],
+        "speaker": "Joey",
+        "text": "It's never gonna happen."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0085",
+        "t": [
+          521.794,
+          523.879
+        ],
+        "speaker": "Joey",
+        "text": "- What? - You and Rachel."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0086",
+        "t": [
+          532.972,
+          534.598
+        ],
+        "speaker": "Ross",
+        "text": "Why not?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0087",
+        "t": [
+          536.267,
+          541.522
+        ],
+        "speaker": "Joey",
+        "text": "Because you waited too long to make your move and now you're in the friend zone."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0088",
+        "t": [
+          543.065,
+          544.608
+        ],
+        "speaker": "Ross",
+        "text": "No, no, no. I'm not in the zone."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0089",
+        "t": [
+          544.692,
+          547.319
+        ],
+        "speaker": "Joey",
+        "text": "No, Ross. You're mayor of the zone!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0090",
+        "t": [
+          549.196,
+          556.62
+        ],
+        "speaker": "Ross",
+        "text": "Look, I'm taking my time, alright? I'm-I'm-I'm laying the groundwork. Yeah, I mean, every day I get just a little bit closer to, uh..."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0091",
+        "t": [
+          556.704,
+          558.33
+        ],
+        "speaker": "Joey",
+        "text": "Priesthood!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0092",
+        "t": [
+          559.874,
+          568.09
+        ],
+        "speaker": "Joey",
+        "text": "Ross, I'm telling you, she has no idea, what you're thinking. And if you don't ask her out soon.. ...you're gonna end up stuck in the zone forever."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0093",
+        "t": [
+          568.132,
+          572.261
+        ],
+        "speaker": "Ross",
+        "text": "I will, I will. I'm just.. See, I'm waiting for the, uh, the right moment."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0094",
+        "t": [
+          574.972,
+          579.393
+        ],
+        "speaker": "Ross",
+        "text": "What? - What, now? - Yeah."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0095",
+        "t": [
+          580.895,
+          589.487
+        ],
+        "speaker": "Joey",
+        "text": "What's messing you up? The wine? The candles? The moonlight? Huh? You just gotta go up to her and you gotta say - Look, Rachel, I think... - Shh-shh."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0096",
+        "t": [
+          589.57,
+          591.53
+        ],
+        "speaker": "Rachel",
+        "text": "- Shh-shh. - What are we shushing?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0097",
+        "t": [
+          591.572,
+          599.997
+        ],
+        "speaker": "Ross",
+        "text": "We're shushing... because we're trying to-to hear something. - What? What? - Uh, don't you hear that?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q005",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Why does the man in the black coat regret his response to the blonde woman's offer? Answer briefly by explaining the reason.",
+    "options": [],
+    "answer": "he declines the gum",
+    "video_name": "friends_g1_2_s01e07_q005_seg1_612.0_631.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 612.0,
+          "end": 631.0,
+          "mmss": "10:12.0–10:31.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0100",
+        "t": [
+          611.759,
+          614.553
+        ],
+        "speaker": "Jill",
+        "text": "- Would you like some gum? - Oh. Is it sugarless?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0101",
+        "t": [
+          616.18,
+          619.183
+        ],
+        "speaker": "Jill",
+        "text": "- Uh... sorry, it's not. - Oh, then, no, thanks."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0102",
+        "t": [
+          619.266,
+          621.227
+        ],
+        "speaker": "Chandler",
+        "text": "What the hell was that?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0103",
+        "t": [
+          622.853,
+          631.195
+        ],
+        "speaker": "Chandler",
+        "text": "Mental note, if Jill Goodacre offers you gum, you take it. If she offers you mangled animal carcass, you take it."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q006",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the group's emotional transition throughout the interaction?",
+    "options": [
+      "A. They begin playful, become curious, then end amused.",
+      "B. They begin amused, become surprised, then end concerned.",
+      "C. They begin playful, become curious, then end concerned.",
+      "D. They begin amused, become uncomfortable, then end annoyed."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e07_q006_seg1_197.553_233.089.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 197.553,
+          "end": 233.089,
+          "mmss": "03:17.6–03:53.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0020",
+        "t": [
+          197.553,
+          199.722
+        ],
+        "speaker": "Joey",
+        "text": "Hey, everyone."
+      },
+      {
+        "unit_id": "u0021",
+        "t": [
+          205.686,
+          209.19
+        ],
+        "speaker": "Ross",
+        "text": "And officiating at tonight's blackout is Rabbi Tribbiani."
+      },
+      {
+        "unit_id": "u0022",
+        "t": [
+          212.443,
+          218.908
+        ],
+        "speaker": "Joey",
+        "text": "Well, Chandler's old roommate was Jewish and these are the only candles we have.. So... Happy Hanukkah, everyone."
+      },
+      {
+        "unit_id": "u0023",
+        "t": [
+          220.159,
+          223.704
+        ],
+        "speaker": "Phoebe",
+        "text": "Ew, look. Ugly naked guy lit a bunch of candles."
+      },
+      {
+        "unit_id": "u0024",
+        "t": [
+          226.624,
+          228.584
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "Ooh!"
+      },
+      {
+        "unit_id": "u0025",
+        "t": [
+          228.626,
+          231.128
+        ],
+        "speaker": "unknown",
+        "text": "Ooh."
+      },
+      {
+        "unit_id": "u0026",
+        "t": [
+          231.212,
+          233.089
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, that had to hurt!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q007",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How do the group's repeated prompting and final response affect the dark-haired woman whose turn comes next in the game?",
+    "options": [
+      "A. They make her reluctant at first, then amused, and finally proud.",
+      "B. They make her reluctant at first, then resigned, and finally conflicted.",
+      "C. They make her hesitant at first, then annoyed, and finally embarrassed.",
+      "D. They make her nervous at first, then self-conscious, and finally relieved."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e07_q007_seg1_392.039_412.56.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 392.039,
+          "end": 412.56,
+          "mmss": "06:32.0–06:52.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "unit_id": "u0061",
+        "t": [
+          392.039,
+          393.833
+        ],
+        "speaker": "Phoebe",
+        "text": "Ooh, Rachel?"
+      },
+      {
+        "unit_id": "u0062",
+        "t": [
+          393.874,
+          395.0
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, come on, I already went."
+      },
+      {
+        "unit_id": "u0063",
+        "t": [
+          395.042,
+          396.252
+        ],
+        "speaker": "Monica",
+        "text": "No. You did not go!"
+      },
+      {
+        "unit_id": "u0064",
+        "t": [
+          396.293,
+          397.878
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "Yes, I did. Come on, tell us!"
+      },
+      {
+        "unit_id": "u0065",
+        "t": [
+          397.92,
+          398.921
+        ],
+        "speaker": "unknown",
+        "text": "Come on. Come on."
+      },
+      {
+        "unit_id": "u0066",
+        "t": [
+          399.004,
+          407.888
+        ],
+        "speaker": "Rachel",
+        "text": "Alright, uh... the weirdest place would have to be... oh... the foot of the bed."
+      },
+      {
+        "unit_id": "u0067",
+        "t": [
+          410.015,
+          412.56
+        ],
+        "speaker": "Joey",
+        "text": "Step back. We have a winner!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q008",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does discovering that the others knew about the surprise party affect the curly-haired woman in the patterned blouse?",
+    "options": [
+      "A. It makes her feel hurt at being left out, then turn the moment into a dry joke.",
+      "B. It makes her feel embarrassed about missing the secret, then relieved by reassurance.",
+      "C. It makes her feel annoyed at being left out, then briefly pleased by her own reveal.",
+      "D. It makes her feel worried about spoiling the surprise, then defensive about the reaction."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e07_q008_seg1_709.2_740.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 709.2,
+          "end": 740.8,
+          "mmss": "11:49.2–12:20.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_01",
+        "t": [
+          709.2,
+          710.32
+        ],
+        "speaker": "Phoebe",
+        "text": "What surprise party?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_02",
+        "t": [
+          710.32,
+          713.92
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, stop it. Joey already told me."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_03",
+        "t": [
+          713.92,
+          716.04
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, he didn't tell me."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_04",
+        "t": [
+          716.04,
+          719.32
+        ],
+        "speaker": "Joey",
+        "text": "Hey, don't look at me. This is Ross's thing."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_05",
+        "t": [
+          719.32,
+          722.48
+        ],
+        "speaker": "Phoebe",
+        "text": "This is so typical. I'm always the last one to know everything."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_06",
+        "t": [
+          722.48,
+          725.6
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "Oh, you are not. We tell you stuff."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_07",
+        "t": [
+          725.6,
+          734.2
+        ],
+        "speaker": "Phoebe",
+        "text": "Yeah? I was the last one to know when Chandler got bit by the peacock at the zoo. I was the last to know when you had a crush on Joey when he was moving in."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_08",
+        "t": [
+          734.2,
+          736.4
+        ],
+        "speaker": "Joey",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_09",
+        "t": [
+          737.0,
+          738.84
+        ],
+        "speaker": "Phoebe",
+        "text": "Looks like I was second to last."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "asr_q006_10",
+        "t": [
+          738.84,
+          740.8
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "No, no, no."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the light gray sweater during the candlelit conversation on the balcony?",
+    "options": [
+      "A. He begins calm, becomes nervously hopeful, then ends surprised.",
+      "B. He begins calm, becomes awkwardly hopeful, then ends embarrassed.",
+      "C. He begins relaxed, becomes confused, then ends amused.",
+      "D. He begins confident, becomes impatient, then ends jealous."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e07_q009_seg1_744.0_783.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 744.0,
+          "end": 783.5,
+          "mmss": "12:24.0–13:03.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_01",
+        "t": [
+          744.0,
+          747.0
+        ],
+        "speaker": "Rachel",
+        "text": "It's so nice."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_02",
+        "t": [
+          749.0,
+          751.5
+        ],
+        "speaker": "Ross",
+        "text": "Hey, I have a question."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_03",
+        "t": [
+          752.0,
+          758.5
+        ],
+        "speaker": "Ross",
+        "text": "Actually, it's not so much a question. It's more of a general wondering... ment."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_04",
+        "t": [
+          759.0,
+          760.5
+        ],
+        "speaker": "Rachel",
+        "text": "Okay."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_05",
+        "t": [
+          762.0,
+          770.5
+        ],
+        "speaker": "Ross",
+        "text": "Well, for a while now, I've been wanting to, um..."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_06",
+        "t": [
+          771.0,
+          774.5
+        ],
+        "speaker": "Rachel",
+        "text": "Oh. Yes, that's right. Look at that little kitty."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_07",
+        "t": [
+          775.0,
+          776.0
+        ],
+        "speaker": "Ross",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q007_08",
+        "t": [
+          776.0,
+          783.5
+        ],
+        "speaker": "unknown",
+        "text": "A cat falls from above, lands on the man, and the conversation breaks into startled cries."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the dark-haired man in the black coat throughout the interaction?",
+    "options": [
+      "A. He begins self-conscious, becomes amused, then ends relaxed and confident.",
+      "B. He begins self-conscious, becomes disgusted, then ends relieved and embarrassed.",
+      "C. He begins embarrassed, becomes angry, then ends resentful and withdrawn.",
+      "D. He begins anxious, becomes confident, then ends proud and reassured."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e07_q010_seg1_1004.0_1067.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 1004.0,
+          "end": 1067.5,
+          "mmss": "16:44.0–17:47.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_01",
+        "t": [
+          1004.0,
+          1007.0
+        ],
+        "speaker": "Chandler",
+        "text": "All right. Okay. What next?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_02",
+        "t": [
+          1008.0,
+          1013.5
+        ],
+        "speaker": "Chandler",
+        "text": "Blow a bubble. A bubble's good. It's got a boyish charm. It's impish."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_03",
+        "t": [
+          1014.0,
+          1017.0
+        ],
+        "speaker": "Chandler",
+        "text": "Nice going, imp."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_04",
+        "t": [
+          1018.0,
+          1025.5
+        ],
+        "speaker": "Chandler",
+        "text": "Okay, it's okay. All I need to do is reach over and put it back in my mouth."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_05",
+        "t": [
+          1028.0,
+          1034.5
+        ],
+        "speaker": "Chandler",
+        "text": "Good save. We're back on track and I'm chewing someone else's gum."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_06",
+        "t": [
+          1035.0,
+          1038.0
+        ],
+        "speaker": "Chandler",
+        "text": "This is not my gum."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_07",
+        "t": [
+          1040.0,
+          1044.0
+        ],
+        "speaker": "Jill",
+        "text": "Oh, my God. Oh, my God."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_08",
+        "t": [
+          1044.0,
+          1047.0
+        ],
+        "speaker": "Chandler",
+        "text": "And now you're choking."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_09",
+        "t": [
+          1047.0,
+          1056.0
+        ],
+        "speaker": "Jill",
+        "text": "Oh, my God. You're choking. Are you all right?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_10",
+        "t": [
+          1056.0,
+          1061.0
+        ],
+        "speaker": "unknown",
+        "text": "The woman performs abdominal thrusts and dislodges the gum."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q008_11",
+        "t": [
+          1061.0,
+          1067.5
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "Better? Yes. Thank you. That was..."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q011",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the woman in the blue denim shirt changes emotionally throughout the interaction?",
+    "options": [
+      "A. She begins focused and concerned, becomes surprised, then ends guarded and tense.",
+      "B. She begins affectionate and concerned, becomes attracted, then ends amused and relaxed.",
+      "C. She begins focused and concerned, becomes attracted, then ends excited and flirtatious.",
+      "D. She begins focused and tense, becomes surprised, then ends excited and embarrassed."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e07_q011_seg1_900.0_970.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 900.0,
+          "end": 970.0,
+          "mmss": "15:00.0–16:10.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_01",
+        "t": [
+          900.0,
+          906.0
+        ],
+        "speaker": "Rachel",
+        "text": "Kitty, kitty, kitty. Come here, kitty, kitty, kitty..."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_02",
+        "t": [
+          908.0,
+          912.0
+        ],
+        "speaker": "Paolo",
+        "text": "Hi."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_03",
+        "t": [
+          912.0,
+          914.0
+        ],
+        "speaker": "Rachel",
+        "text": "Wow."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_04",
+        "t": [
+          921.0,
+          927.0
+        ],
+        "speaker": "Rachel",
+        "text": "Everybody, this is Paolo. Paolo, I want you to meet my friends."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_05",
+        "t": [
+          927.0,
+          939.0
+        ],
+        "speaker": "Rachel",
+        "text": "This is Monica, and Joey, and Ross."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_06",
+        "t": [
+          939.0,
+          942.0
+        ],
+        "speaker": "Rachel",
+        "text": "He doesn't speak much English."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_07",
+        "t": [
+          944.0,
+          948.0
+        ],
+        "speaker": "Ross",
+        "text": "Where did Paolo come from?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_08",
+        "t": [
+          948.0,
+          952.0
+        ],
+        "speaker": "Rachel",
+        "text": "The cat turned out to be Paolo's cat. Isn't that funny?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_09",
+        "t": [
+          953.0,
+          958.0
+        ],
+        "speaker": "Ross",
+        "text": "No, I mean tonight, in the building. Suddenly into our lives?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_10",
+        "t": [
+          959.0,
+          964.0
+        ],
+        "speaker": "Ross",
+        "text": "That is funny. And Rachel keeps touching him."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "manual_q009_11",
+        "t": [
+          964.0,
+          970.0
+        ],
+        "speaker": "unknown",
+        "text": "The woman stays pressed close to the man, smiling as the introductions continue."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q012",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Why does the blonde woman in red become angry with the older man over his claim about the cat? Answer briefly by explaining the reason.",
+    "options": [],
+    "answer": "the cat reacts aggressively when it sees him",
+    "video_name": "friends_g1_2_s01e07_q012_seg1_848_887.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 848,
+          "end": 887,
+          "mmss": "14:08.0–14:47.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0145",
+        "t": [
+          847.495,
+          849.955
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, no, the Mellons. They hate all living things, right?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0146",
+        "t": [
+          850.039,
+          851.373
+        ],
+        "speaker": "Rachel",
+        "text": "Oh."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0147",
+        "t": [
+          856.462,
+          861.258
+        ],
+        "speaker": "Rachel",
+        "text": "Hi. We just found this cat. And we're looking for the owner."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0148",
+        "t": [
+          861.342,
+          863.594
+        ],
+        "speaker": "Mr. Heckles",
+        "text": "Um, yeah, it's, uh... It's mine."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0149",
+        "t": [
+          864.887,
+          867.556
+        ],
+        "speaker": "Phoebe",
+        "text": "He seems to hate you. Are you sure?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0150",
+        "t": [
+          867.64,
+          870.434
+        ],
+        "speaker": "Mr. Heckles",
+        "text": "Yeah. It's my cat. Give me my cat."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0151",
+        "t": [
+          870.518,
+          872.728
+        ],
+        "speaker": "Phoebe",
+        "text": "No, wait a minute. What's his name?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0152",
+        "t": [
+          872.77,
+          875.606
+        ],
+        "speaker": "Mr. Heckles",
+        "text": "Um, Bob... Buttons."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0153",
+        "t": [
+          875.689,
+          878.401
+        ],
+        "speaker": "Rachel",
+        "text": "- Bob Buttons? - Uh-huh. Bob Buttons."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0154",
+        "t": [
+          878.484,
+          879.735
+        ],
+        "speaker": "Mr. Heckles",
+        "text": "Here, Bob Buttons."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0155",
+        "t": [
+          879.819,
+          881.195
+        ],
+        "speaker": "unknown",
+        "text": "Oh!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0156",
+        "t": [
+          881.237,
+          883.531
+        ],
+        "speaker": "Phoebe",
+        "text": "You are a very bad man!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0157",
+        "t": [
+          885.408,
+          886.992
+        ],
+        "speaker": "Mr. Heckles",
+        "text": "You owe me a cat."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q013",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the man in the pink T-shirt's warning about waiting too long affect the man in the light gray sweater?",
+    "options": [
+      "A. It makes him disagree at first, then become calm and reassured.",
+      "B. It makes him doubtful at first, then become annoyed and withdrawn.",
+      "C. It makes him disagree at first, then become confused and surprised.",
+      "D. It makes him uneasy at first, then become resigned and disappointed."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e07_q004_seg1_513.0_600.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 513,
+          "end": 600,
+          "mmss": "8:33.0-10:00.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0084",
+        "t": [
+          512.576,
+          514.537
+        ],
+        "speaker": "Joey",
+        "text": "It's never gonna happen."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0085",
+        "t": [
+          521.794,
+          523.879
+        ],
+        "speaker": "Joey",
+        "text": "- What? - You and Rachel."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0086",
+        "t": [
+          532.972,
+          534.598
+        ],
+        "speaker": "Ross",
+        "text": "Why not?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0087",
+        "t": [
+          536.267,
+          541.522
+        ],
+        "speaker": "Joey",
+        "text": "Because you waited too long to make your move and now you're in the friend zone."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0088",
+        "t": [
+          543.065,
+          544.608
+        ],
+        "speaker": "Ross",
+        "text": "No, no, no. I'm not in the zone."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0089",
+        "t": [
+          544.692,
+          547.319
+        ],
+        "speaker": "Joey",
+        "text": "No, Ross. You're mayor of the zone!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0090",
+        "t": [
+          549.196,
+          556.62
+        ],
+        "speaker": "Ross",
+        "text": "Look, I'm taking my time, alright? I'm-I'm-I'm laying the groundwork. Yeah, I mean, every day I get just a little bit closer to, uh..."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0091",
+        "t": [
+          556.704,
+          558.33
+        ],
+        "speaker": "Joey",
+        "text": "Priesthood!"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0092",
+        "t": [
+          559.874,
+          568.09
+        ],
+        "speaker": "Joey",
+        "text": "Ross, I'm telling you, she has no idea, what you're thinking. And if you don't ask her out soon.. ...you're gonna end up stuck in the zone forever."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0093",
+        "t": [
+          568.132,
+          572.261
+        ],
+        "speaker": "Ross",
+        "text": "I will, I will. I'm just.. See, I'm waiting for the, uh, the right moment."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0094",
+        "t": [
+          574.972,
+          579.393
+        ],
+        "speaker": "Ross",
+        "text": "What? - What, now? - Yeah."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0095",
+        "t": [
+          580.895,
+          589.487
+        ],
+        "speaker": "Joey",
+        "text": "What's messing you up? The wine? The candles? The moonlight? Huh? You just gotta go up to her and you gotta say - Look, Rachel, I think... - Shh-shh."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0096",
+        "t": [
+          589.57,
+          591.53
+        ],
+        "speaker": "Rachel",
+        "text": "- Shh-shh. - What are we shushing?"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0097",
+        "t": [
+          591.572,
+          599.997
+        ],
+        "speaker": "Ross",
+        "text": "We're shushing... because we're trying to-to hear something. - What? What? - Uh, don't you hear that?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q014",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the shared emotional atmosphere as the last candle goes out?",
+    "options": [
+      "A. The group feels playful and suspenseful, treating the darkness with joking fear.",
+      "B. The group feels playful but uneasy, treating the darkness with nervous laughter.",
+      "C. The group feels tense and frightened, treating the darkness as a real threat.",
+      "D. The group feels tired and restless, treating the darkness with mild irritation."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e07_q014_seg1_1245.184_1294.734.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 1245.184,
+          "end": 1294.734,
+          "mmss": "20:45.2-21:34.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0219",
+        "t": [
+          1245.184,
+          1248.896
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, look, look, look, look. The last candle's about to burn out."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0220",
+        "t": [
+          1248.938,
+          1253.567
+        ],
+        "speaker": "unknown",
+        "text": "Ten, nine, eight, seven.."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0221",
+        "t": [
+          1253.609,
+          1257.613
+        ],
+        "speaker": "Phoebe",
+        "text": "...minus 46, minus 47, minus 48.."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0222",
+        "t": [
+          1259.115,
+          1266.122
+        ],
+        "speaker": "Ross",
+        "text": "- 'Thank you.' - 'Thanks.' 'It kinda spooky without any lights.'"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0223",
+        "t": [
+          1272.711,
+          1278.217
+        ],
+        "speaker": "Ross",
+        "text": "'Okay, guys, I have the definitive one.' 'Bwah-hah-hah!'"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0224",
+        "t": [
+          1287.768,
+          1294.734
+        ],
+        "speaker": "Joey",
+        "text": "Uh, Ross.. ...this probably isn't the best time to bring it up, but.. ...you have to throw a party for Monica."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e07_q015",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional atmosphere between the dark-haired man in the suit and the blonde woman once they settle back into conversation?",
+    "options": [
+      "A. Warm and playful, with easy joking and shared comfort throughout.",
+      "B. Warm but uncertain, with friendly joking and visible hesitation throughout.",
+      "C. Playful but tense, with joking mixed with awkward distance throughout.",
+      "D. Cheerful but detached, with light joking and little emotional engagement throughout."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e07_q015_seg1_1226_1344.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E07"
+      ],
+      "segments": [
+        {
+          "ep": "S01E07",
+          "start": 1226,
+          "end": 1344.4,
+          "mmss": "20:26.0-22:24.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E07",
+        "unit_id": "u0216",
+        "t": [
+          1226.123,
+          1232.046
+        ],
+        "speaker": "Jill",
+        "text": "Chandler, we've been here for an hour doing this. - Now watch. It's easy. - Okay. - Ready? - Mm-hmm."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0217",
+        "t": [
+          1235.132,
+          1237.176
+        ],
+        "speaker": "unknown",
+        "text": "Okay? Now try it."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0218",
+        "t": [
+          1238.01,
+          1240.262
+        ],
+        "speaker": "Jill",
+        "text": "No, you gotta whip it."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0219",
+        "t": [
+          1245.184,
+          1248.896
+        ],
+        "speaker": "Phoebe",
+        "text": "Oh, look, look, look, look. The last candle's about to burn out."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0220",
+        "t": [
+          1248.938,
+          1253.567
+        ],
+        "speaker": "unknown",
+        "text": "Ten, nine, eight, seven.."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0221",
+        "t": [
+          1253.609,
+          1257.613
+        ],
+        "speaker": "Phoebe",
+        "text": "...minus 46, minus 47, minus 48.."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0222",
+        "t": [
+          1259.115,
+          1266.122
+        ],
+        "speaker": "Ross",
+        "text": "- 'Thank you.' - 'Thanks.' 'It kinda spooky without any lights.'"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0223",
+        "t": [
+          1272.711,
+          1278.217
+        ],
+        "speaker": "Ross",
+        "text": "'Okay, guys, I have the definitive one.' 'Bwah-hah-hah!'"
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0224",
+        "t": [
+          1287.768,
+          1294.734
+        ],
+        "speaker": "Joey",
+        "text": "Uh, Ross.. ...this probably isn't the best time to bring it up, but.. ...you have to throw a party for Monica."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0225",
+        "t": [
+          1303.325,
+          1306.078
+        ],
+        "speaker": "Jill",
+        "text": "- This has been fun. - Yes. Yes."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0226",
+        "t": [
+          1306.12,
+          1311.125
+        ],
+        "speaker": "Chandler",
+        "text": "Thanks for uh... letting me use your phone and... for saving my life."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0227",
+        "t": [
+          1312.96,
+          1316.338
+        ],
+        "speaker": "Jill",
+        "text": "Well, goodbye, Chandler. I had a great blackout."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0228",
+        "t": [
+          1317.84,
+          1319.3
+        ],
+        "speaker": "Jill",
+        "text": "See you."
+      },
+      {
+        "ep": "S01E07",
+        "unit_id": "u0229",
+        "t": [
+          1334.315,
+          1344.366
+        ],
+        "speaker": "Chandler",
+        "text": "Hi, um, I'm account number 7-1-4-3-4-5-7. And uh... I don't know if you got any of that.. ...but I would really like a copy of the tape."
+      }
+    ]
+  }
+]

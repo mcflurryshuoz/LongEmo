@@ -1,0 +1,103 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q001",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "open_ended",
+    "question": "Across the episode, aside from Monica, does the group's attitude toward Alan change? Answer Yes or No.",
+    "options": [],
+    "answer": "No",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, at what moment does Phoebe appear the most disgusted? Answer with one short event phrase.",
+    "options": [],
+    "answer": "finding a thumb in her soda",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across Phoebe's repeated experiences of receiving unexpected money, which friend reacts the least? Answer with one character name.",
+    "options": [],
+    "answer": "Chandler",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "open_ended",
+    "question": "Across the episode, whose attempt to get Chandler to stop smoking produces the smallest visible reaction from him? Answer with one character name.",
+    "options": [],
+    "answer": "Phoebe",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Across the episode, which event seems most unexpected to Monica? Answer with one short event phrase.",
+    "options": [],
+    "answer": "Alan says he can't stand her friends",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q006",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most surprised?",
+    "options": [
+      "A. Ross reacting to the thumb Phoebe found in her can of soda at the coffee house.",
+      "B. Ross turning to see Chandler holding a lit cigarette in the apartment.",
+      "C. Ross telling the group that Alan should be the standard for future boyfriends in the apartment.",
+      "D. Ross at the coffee house during the group's conversation about his childhood dog."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E03"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e03_q007",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear most surprised?",
+    "options": [
+      "A. Monica listening as the group tells her how much they like Alan in the apartment.",
+      "B. Monica opening the door to bring Alan in to meet the group in the apartment.",
+      "C. Monica among the group as they catch Chandler smoking in the apartment.",
+      "D. Monica reacting to the thumb in Phoebe's can of soda at the coffee house."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E03"
+    ]
+  }
+]

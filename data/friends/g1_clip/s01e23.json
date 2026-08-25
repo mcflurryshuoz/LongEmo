@@ -1,0 +1,2039 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q001",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the gray suit while he waits for the pregnant woman to arrive at the hospital?",
+    "options": [
+      "A. He begins excited about becoming a father, grows amused by his friends' reassurance, and ends relieved and grateful.",
+      "B. He begins nervous that the birth is happening elsewhere, grows impatient despite reassurance, and ends annoyed by her unnecessary stop.",
+      "C. He begins worried about the hospital arrangements, grows embarrassed by the childbirth discussion, and ends disappointed that she arrives with the wrong support person.",
+      "D. He begins tense about the delay, grows calmer as more friends gather, and ends playfully annoyed by her stop."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e23_q001_seg1_5.8_79.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 5.8,
+          "end": 79.4,
+          "mmss": "0:05.8-1:19.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0001",
+        "t": [
+          5.845,
+          8.347
+        ],
+        "speaker": "woman on PA",
+        "text": "'Johnson, we have a call on line seven.'"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0002",
+        "t": [
+          8.389,
+          11.225
+        ],
+        "speaker": "Ross",
+        "text": "She's not here yet. She's not here. She's having my baby and she's not here."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0003",
+        "t": [
+          11.267,
+          13.561
+        ],
+        "speaker": "Monica",
+        "text": "I'm sure everything's fine. H-has her water broken yet?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0004",
+        "t": [
+          13.602,
+          17.94
+        ],
+        "speaker": "Ross",
+        "text": "I don't know, but when I spoke to her she said she had already passed the mucus plug."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0005",
+        "t": [
+          21.319,
+          23.821
+        ],
+        "speaker": "Joey",
+        "text": "Do we have to know about that?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0006",
+        "t": [
+          23.904,
+          25.74
+        ],
+        "speaker": "Monica",
+        "text": "Joey, what are you gonna do when you have a baby?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0007",
+        "t": [
+          25.781,
+          28.617
+        ],
+        "speaker": "Joey",
+        "text": "I'm gonna be in the waiting room, handin' out cigars."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0008",
+        "t": [
+          30.077,
+          33.998
+        ],
+        "speaker": "Chandler",
+        "text": "Yes, Joey's made arrangements to have his baby in a movie from the '50s."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0009",
+        "t": [
+          35.124,
+          39.211
+        ],
+        "speaker": "Ross",
+        "text": "God! I don't believe this. I mean, she could be giving birth in the cab."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0010",
+        "t": [
+          39.253,
+          49.764
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, Ross, relax, it's probably only like two dollars for the first contraction and then 50 cents each additional contrac.. What, it's okay when Chandler does it?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0011",
+        "t": [
+          50.89,
+          54.226
+        ],
+        "speaker": "Chandler",
+        "text": "You have to pick your moments."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0012",
+        "t": [
+          54.268,
+          55.478
+        ],
+        "speaker": "Phoebe",
+        "text": "Hi. Did I miss it? Did I miss it?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0013",
+        "t": [
+          55.561,
+          56.979
+        ],
+        "speaker": "Ross",
+        "text": "- No, she's not even here yet. - Oh!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0014",
+        "t": [
+          57.063,
+          58.272
+        ],
+        "speaker": "Monica",
+        "text": "What's with the guitar?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0015",
+        "t": [
+          58.314,
+          62.401
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, I just thought we might be here for a while so, you know, things might get musical."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0016",
+        "t": [
+          62.443,
+          63.653
+        ],
+        "speaker": "unknown",
+        "text": "- Oh! - Oh!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0017",
+        "t": [
+          63.736,
+          64.82
+        ],
+        "speaker": "Ross",
+        "text": "Hey! Where the hell have you been?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0018",
+        "t": [
+          64.862,
+          65.905
+        ],
+        "speaker": "Susan",
+        "text": "Oh, we stopped at the gift shop."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0019",
+        "t": [
+          65.946,
+          67.156
+        ],
+        "speaker": "unknown",
+        "text": "The gift.. Wow! Wow! Wha.."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0020",
+        "t": [
+          67.198,
+          69.325
+        ],
+        "speaker": "Carol",
+        "text": "I was looking at stuffed animals and Susan wanted a Chunky."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0021",
+        "t": [
+          69.367,
+          73.663
+        ],
+        "speaker": "Ross",
+        "text": "Oh, Susan wanted a Chunky. You're havin' a baby, okay? A baby. You don't stop for Chunkies!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0022",
+        "t": [
+          73.704,
+          75.456
+        ],
+        "speaker": "Chandler",
+        "text": "I used to have that bumper sticker."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0023",
+        "t": [
+          77.541,
+          79.377
+        ],
+        "speaker": "Chandler",
+        "text": "You see what I mean?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q002",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the man in the gray suit react when the pregnant woman arrives and casually reveals that she stopped to buy a candy bar on the way to the hospital?",
+    "options": [
+      "A. His worry disappears completely, and he becomes amused that she remembered to bring him a snack.",
+      "B. He begins angry that she is late, then becomes ashamed after learning the candy was medically necessary.",
+      "C. He remains calmly detached because the doctor immediately assures him that labor has not begun.",
+      "D. His urgent relief turns into incredulous irritation over her stop for candy."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e23_q002_seg1_126.54_159.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 126.54,
+          "end": 159,
+          "mmss": "2:06.5–2:39.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0001",
+        "t": [
+          126.54,
+          129.94
+        ],
+        "speaker": "Pregnant woman entering",
+        "text": "We stopped for a Chunky candy bar."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0002",
+        "t": [
+          129.94,
+          132.5
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "Let it go. We need to move."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0003",
+        "t": [
+          132.5,
+          135.2
+        ],
+        "speaker": "Pregnant woman",
+        "text": "I bought an extra one. Do you want it?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0004",
+        "t": [
+          135.2,
+          136.4
+        ],
+        "speaker": "Man in a gray suit",
+        "text": "No."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0005",
+        "t": [
+          136,
+          142
+        ],
+        "speaker": "Doctor entering",
+        "text": "How is my favorite parenting team doing?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0006",
+        "t": [
+          142,
+          148
+        ],
+        "speaker": "Doctor",
+        "text": "I understand you are thinking of having a baby. I see you are nine months pregnant; that is a good start."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0007",
+        "t": [
+          148.1,
+          157.8
+        ],
+        "speaker": "Doctor and pregnant woman",
+        "text": "How are the contractions? Each one is like a little party in my uterus."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q003",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in black during his interaction with the pregnant basketball fan?",
+    "options": [
+      "A. He begins amused by their rivalry, becomes embarrassed by her rejection of his help, and ends sad the game is unfinished.",
+      "B. He begins annoyed by her team criticism, becomes frightened that she is injured, grows relieved at her recovery, and ends grateful.",
+      "C. He begins playfully competitive, becomes nervous at her contraction, grows awkward about the missing father, and ends caring and helpful.",
+      "D. He begins hostile about the opposing team, becomes confused by her reaction, grows indifferent about the missing partner, and ends detached."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e23_q003_seg1_218.3_271.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 218.3,
+          "end": 271.1,
+          "mmss": "3:38.3-4:31.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0048",
+        "t": [
+          218.349,
+          223.27
+        ],
+        "speaker": "Joey",
+        "text": "Shoot, shoot, shoot, shoot! Or just fall down, that's good too."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0049",
+        "t": [
+          223.312,
+          226.649
+        ],
+        "speaker": "Lydia",
+        "text": "- Knick fan? - Oh, yeah. Oh, boy, do they suck."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0050",
+        "t": [
+          226.732,
+          228.901
+        ],
+        "speaker": "Joey",
+        "text": "Hey, listen, lady, uh.. Whoa."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0051",
+        "t": [
+          230.778,
+          236.826
+        ],
+        "speaker": "Lydia",
+        "text": "Look. Look at your man, Ewing. Nice shot. You know what? He couldn't hit water if he was standing on a boat."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0052",
+        "t": [
+          236.867,
+          243.958
+        ],
+        "speaker": "Joey",
+        "text": "Oh, yeah? And who do you like? - Celtics. - Celtics? Ha! They couldn't hit a boat if.. Wait."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0053",
+        "t": [
+          245.793,
+          248.212
+        ],
+        "speaker": "Joey",
+        "text": "They suck, alright?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0054",
+        "t": [
+          248.295,
+          250.339
+        ],
+        "speaker": "Lydia",
+        "text": "Oh, shut up. You know, it's a rebuilding year, you.."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0055",
+        "t": [
+          250.381,
+          251.549
+        ],
+        "speaker": "gasps",
+        "text": "Whoa!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0056",
+        "t": [
+          251.632,
+          260.85
+        ],
+        "speaker": "Joey",
+        "text": "Oh! Ah, ah, let me get the father. Hey! We need, we need a father over here! - Uh, we need a father! - There's... no father. Oh! Oh, oh, sorry."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0057",
+        "t": [
+          260.933,
+          264.687
+        ],
+        "speaker": "Lydia",
+        "text": "Oh! That's okay. I'm fine. I'm.. Oh!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0058",
+        "t": [
+          264.77,
+          269.942
+        ],
+        "speaker": "Joey",
+        "text": "- Oh! Uh, okay. - Oh. Alright, uh, right this way. All the other pregnant women seem to be goin' in here."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0059",
+        "t": [
+          270.026,
+          271.11
+        ],
+        "speaker": "unknown",
+        "text": "Okay."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q004",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the man in the purple sweatshirt evoke in the dark-haired woman in the light purple top when he proposes that they have a child together if both remain unmarried at forty?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "annoyance",
+      "disapproval"
+    ],
+    "video_name": "friends_g1_2_s01e23_q004_seg1_298.8_343.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 298.8,
+          "end": 343.9,
+          "mmss": "4:58.8-5:43.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0060",
+        "t": [
+          298.804,
+          301.432
+        ],
+        "speaker": "Ross",
+        "text": "- Thanks, Ross. - Yeah. I'm paying you to stop."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0061",
+        "t": [
+          301.515,
+          302.725
+        ],
+        "speaker": "unknown",
+        "text": "- Okay? - Okay."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0062",
+        "t": [
+          304.56,
+          307.772
+        ],
+        "speaker": "Phoebe",
+        "text": "'Oh, look, twins. Hi, guys. Oh, cute, cute.'"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0063",
+        "t": [
+          309.106,
+          313.986
+        ],
+        "speaker": "Monica",
+        "text": "Ugh. No fair! I don't even have one. How come they get two?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0064",
+        "t": [
+          314.028,
+          323.746
+        ],
+        "speaker": "Chandler",
+        "text": "- You'll get one. - Oh, yeah? When? 'Alright, I'll tell you what.' When we're 40, if neither of us are married what do you say you and I get together and have one?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0065",
+        "t": [
+          323.788,
+          326.874
+        ],
+        "speaker": "Monica",
+        "text": "Why won't I be married when I'm 40?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0066",
+        "t": [
+          326.916,
+          329.418
+        ],
+        "speaker": "Chandler",
+        "text": "Oh, no, no. No. I-I just meant hypothetically."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0067",
+        "t": [
+          329.502,
+          332.63
+        ],
+        "speaker": "Monica",
+        "text": "Okay, hypothetically why won't I be married when I'm 40?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0068",
+        "t": [
+          332.713,
+          334.924
+        ],
+        "speaker": "Chandler",
+        "text": "- No. No, no. - No, no, what is it? Seriously."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0069",
+        "t": [
+          334.965,
+          338.344
+        ],
+        "speaker": "Monica",
+        "text": "Is there something fundamentally unmarriable about me?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0070",
+        "t": [
+          338.386,
+          343.933
+        ],
+        "speaker": "Chandler",
+        "text": "- Uh-uh, uh... - Well? Dear God! This-this parachute is a knapsack."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q005",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes the man in black's emotional trajectory after the woman in labor puts him on the phone with her mother and he later asks about the baby's father?",
+    "options": [
+      "A. He begins delighted by the mother's attention, becomes proud to present himself as the father, and ends eager to take responsibility for the child.",
+      "B. He starts awkward and exposed under the mother's questioning, becomes concerned about the absent father, then withdraws with mild hurt.",
+      "C. He begins angry at being handed the phone, becomes frightened that the father will arrive, and leaves, unwilling to help.",
+      "D. He remains playful and emotionally detached throughout, treating both the mother and the absent father as material for jokes."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e23_q005_seg1_405.1_467.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 405.1,
+          "end": 467.9,
+          "mmss": "6:45.1–7:47.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0022",
+        "t": [
+          409.34,
+          414.14
+        ],
+        "speaker": "Man in black on the phone",
+        "text": "Yes, it is me. We are just friends."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0023",
+        "t": [
+          414.14,
+          422.08
+        ],
+        "speaker": "Man in black on the phone",
+        "text": "Yes, I am single. Twenty-five. An actor. Hello?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0024",
+        "t": [
+          424.08,
+          435.06
+        ],
+        "speaker": "Man in black",
+        "text": "What is the situation with the father? If someone were having my baby, I would want to know."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0025",
+        "t": [
+          439.1,
+          443.54
+        ],
+        "speaker": "Woman in labor",
+        "text": "Sports fan, I am not interested in your views on fatherhood."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0026",
+        "t": [
+          445.74,
+          450.22
+        ],
+        "speaker": "Man in black",
+        "text": "Maybe I should go."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0027",
+        "t": [
+          450.22,
+          453.54
+        ],
+        "speaker": "Woman in labor",
+        "text": "Maybe you should. Good luck."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0028",
+        "t": [
+          461.5,
+          467.58
+        ],
+        "speaker": "Man in black returning",
+        "text": "The basketball team's problem is that they let the players run the team."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q006",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the escalating argument between the two people beside the bed evoke in the pregnant woman during her contraction?",
+    "options": [],
+    "answer": [
+      "anger",
+      "annoyance",
+      "disapproval"
+    ],
+    "video_name": "friends_g1_2_s01e23_q006_seg1_468.0_528.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 468,
+          "end": 528.5,
+          "mmss": "7:48.0-8:48.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0099",
+        "t": [
+          467.974,
+          469.809
+        ],
+        "speaker": "Ross",
+        "text": "- Breathe. Breathe. - Breathe. Breathe."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0100",
+        "t": [
+          469.85,
+          470.851
+        ],
+        "speaker": "Susan",
+        "text": "- Breathe. Breathe. - Breathe."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0101",
+        "t": [
+          470.893,
+          472.895
+        ],
+        "speaker": "Carol",
+        "text": "You're gonna kill me!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0102",
+        "t": [
+          472.979,
+          475.898
+        ],
+        "speaker": "Ross",
+        "text": "Fifteen more seconds, 14, 13, 12..."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0103",
+        "t": [
+          475.982,
+          480.152
+        ],
+        "speaker": "Susan",
+        "text": "- Count faster! - It's gonna be okay! Just remember, we're doin' it for Jordie. Just keep focusing on Jordie."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0104",
+        "t": [
+          480.194,
+          487.243
+        ],
+        "speaker": "Ross",
+        "text": "- Who the hell is Jordie? - Your son. Whoa, whoa, whoa. I don't have a son named Jordie. We all agreed, my son's name is Jamie."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0105",
+        "t": [
+          487.284,
+          493.165
+        ],
+        "speaker": "Carol",
+        "text": "Well, uh, Jamie was the name of Susan's first girlfriend so we went back to Jordie."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0106",
+        "t": [
+          493.207,
+          495.167
+        ],
+        "speaker": "Ross",
+        "text": "Whoa, whoa, whoa! What do you mean, back to Jordie?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0107",
+        "t": [
+          495.251,
+          502.717
+        ],
+        "speaker": "unknown",
+        "text": "We never landed on Jordie. We did, we.. We just passed by it during the whole Jesse, Cody, Dylan fiasco."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0108",
+        "t": [
+          502.758,
+          505.594
+        ],
+        "speaker": "Carol",
+        "text": "- Ow! Ow! Ow! - What? What? What? - Ow, leg cramp, leg cramp! - Okay, I got it."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0109",
+        "t": [
+          505.678,
+          507.179
+        ],
+        "speaker": "Susan",
+        "text": "- I got it! I got it! - I got it. I'm doing it."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0110",
+        "t": [
+          507.221,
+          510.391
+        ],
+        "speaker": "Ross",
+        "text": "Hey! You get to sleep with her! - I get the cramps! - Oh, oh, my God!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0111",
+        "t": [
+          510.433,
+          512.393
+        ],
+        "speaker": "Susan",
+        "text": "- No, you don't! - Alright, that is it."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0112",
+        "t": [
+          512.435,
+          514.186
+        ],
+        "speaker": "Carol",
+        "text": "- I want both of you out! - What?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0113",
+        "t": [
+          514.228,
+          515.604
+        ],
+        "speaker": "Susan",
+        "text": "- She started it. No, you st.. - He started it. You did.."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0114",
+        "t": [
+          515.646,
+          522.445
+        ],
+        "speaker": "Carol",
+        "text": "I don't care! I'm trying to get a person out of my body here and you're not makin' it any easier. - I know... - Now, go!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0115",
+        "t": [
+          525.197,
+          526.824
+        ],
+        "speaker": "Susan",
+        "text": "- Thanks a lot. - See what you did?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0116",
+        "t": [
+          526.907,
+          528.492
+        ],
+        "speaker": "Ross",
+        "text": "- Yeah. Listen... - Out!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q007",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What most directly causes the man in black to panic while standing beside the pregnant woman?",
+    "options": [
+      "A. He accidentally drops the womans bag and breaks something inside.",
+      "B. Her water breaks, which he mistakes for a different fluid.",
+      "C. The nurse announces an emergency C-section is required.",
+      "D. The doctor orders him to leave the delivery room immediately."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e23_q007_seg1_531.7_553.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 531.7,
+          "end": 553.1,
+          "mmss": "8:51.7-9:13.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0117",
+        "t": [
+          531.704,
+          535.458
+        ],
+        "speaker": "Nurse",
+        "text": "Breathe, breathe, breathe."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0118",
+        "t": [
+          536.25,
+          537.877
+        ],
+        "speaker": "Lydia",
+        "text": "Oh, no."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0119",
+        "t": [
+          538.878,
+          544.133
+        ],
+        "speaker": "Joey",
+        "text": "Ugh! What is that? Somethin' exploded!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0120",
+        "t": [
+          544.216,
+          546.469
+        ],
+        "speaker": "Nurse",
+        "text": "It's just her water breaking. Calm down, will ya?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0121",
+        "t": [
+          546.552,
+          550.097
+        ],
+        "speaker": "Joey",
+        "text": "Water breaking? What do you mean? Wha-what's that, water breakin'?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0122",
+        "t": [
+          550.139,
+          553.1
+        ],
+        "speaker": "Nurse",
+        "text": "Breathe, breathe, breathe."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q008",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the emotional atmosphere among the three people in the utility room change after the door closes and they realize it will not reopen?",
+    "options": [
+      "A. Their argument settles into embarrassed silence because each assumes the others intentionally locked the door.",
+      "B. Their irritation becomes relief when the closed door finally gives them privacy to resolve the argument.",
+      "C. Their bickering abruptly turns into shared alarm and urgent cooperation once they discover they are trapped.",
+      "D. Their disagreement grows into personal hostility, and they refuse to work together even after hearing calls for help."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e23_q008_seg1_589.1_623.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 589.1,
+          "end": 623,
+          "mmss": "9:49.1–10:23.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0029",
+        "t": [
+          589.1,
+          598.1
+        ],
+        "speaker": "Blonde woman between two arguing people",
+        "text": "Do not make me do this again. I do not like my voice like this."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0030",
+        "t": [
+          598.1,
+          603.1
+        ],
+        "speaker": "Blonde woman",
+        "text": "Do you want to hear something ironic?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0031",
+        "t": [
+          603.1,
+          612.1
+        ],
+        "speaker": "Group in the utility room",
+        "text": "The argument continues as the door swings shut behind them."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0032",
+        "t": [
+          612.1,
+          614.1
+        ],
+        "speaker": "Group",
+        "text": "Help!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0033",
+        "t": [
+          614.1,
+          616.1
+        ],
+        "speaker": "Man in a striped shirt",
+        "text": "Everyone stand back."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0034",
+        "t": [
+          616.1,
+          623
+        ],
+        "speaker": "Group",
+        "text": "They pull at the handle, push against the door and call for help together."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q009",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What causes the dark-haired woman on the phone to break down just after insisting that she is not thinking about having babies?",
+    "options": [
+      "A. She sees a new mother carrying a newborn past her, making her denied wish suddenly real.",
+      "B. Her mother announces that she will not come to the hospital, leaving her feeling abandoned during the delivery.",
+      "C. The man in purple says the baby's father has left permanently, confirming her fear the family broke apart.",
+      "D. The doctor warns that the labor may last several more hours, causing her to panic about the mother's safety."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e23_q009_seg1_681.912_727.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 681.912,
+          "end": 727.6,
+          "mmss": "11:21.9–12:07.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0035",
+        "t": [
+          681.912,
+          686.912
+        ],
+        "speaker": "Dark-haired woman on the phone",
+        "text": "No, Mom, everything is going fine, really."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0036",
+        "t": [
+          686.912,
+          694.912
+        ],
+        "speaker": "Dark-haired woman on the phone",
+        "text": "The baby's father is great. He is in a whole other place. No, he is gone."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0037",
+        "t": [
+          694.912,
+          702.912
+        ],
+        "speaker": "Dark-haired woman on the phone",
+        "text": "No, you do not have to fly back. What do you mean this might be your only chance? Would you stop?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0038",
+        "t": [
+          702.912,
+          705.912
+        ],
+        "speaker": "Dark-haired woman on the phone",
+        "text": "I am only twenty-six. I am not even thinking about babies yet."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0039",
+        "t": [
+          706,
+          720.8
+        ],
+        "speaker": "Dark-haired woman and passing mother",
+        "text": "A mother carrying a newborn passes; the woman stops speaking, stares at the baby and begins to sob."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0040",
+        "t": [
+          720.912,
+          724.912
+        ],
+        "speaker": "Dark-haired woman and passing mother",
+        "text": "Where have you been? I just had a baby."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0041",
+        "t": [
+          724.912,
+          727.6
+        ],
+        "speaker": "Man in purple beside her",
+        "text": "He moves close and comforts the crying woman."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full interaction, which option best describes the emotional trajectory of the man in black carrying balloons as he approaches the hospital room and observes the new parents together?",
+    "options": [
+      "A. He arrives proudly expecting praise, becomes openly jealous when he sees the father, and angrily takes every gift away.",
+      "B. He approaches reluctantly, feels relieved that the father has returned, and leaves cheerfully because he no longer cares whether his help is remembered.",
+      "C. He begins playful, becomes embarrassed that his balloons look childish, and hides them before leaving without attending to the conversation.",
+      "D. He approaches warmly, pauses at the reunited family, feels appreciated when thanked, and withdraws with wistful warmth."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e23_q010_seg1_797.1_849.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 797.1,
+          "end": 849.8,
+          "mmss": "13:17.1–14:09.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0042",
+        "t": [
+          797.1,
+          803.1
+        ],
+        "speaker": "New mother and returning father",
+        "text": "How did you know I was here? Your mother called me."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0043",
+        "t": [
+          803.1,
+          810.1
+        ],
+        "speaker": "Man in black carrying balloons",
+        "text": "He approaches the doorway with gifts, then stops when he sees the parents together with the baby."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0044",
+        "t": [
+          810.1,
+          817.1
+        ],
+        "speaker": "Returning father",
+        "text": "Is this the baby? I am sorry you had to do this by yourself."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0045",
+        "t": [
+          817.1,
+          823.1
+        ],
+        "speaker": "New mother",
+        "text": "I was not by myself. I had a doctor, a nurse and a helper guy."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0046",
+        "t": [
+          823.1,
+          831.1
+        ],
+        "speaker": "Man in black carrying balloons",
+        "text": "Listening unseen at the doorway, he softens and smiles when she acknowledges the helper."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0047",
+        "t": [
+          831.1,
+          837.1
+        ],
+        "speaker": "New parents",
+        "text": "They settle into familiar talk about the basketball game."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0048",
+        "t": [
+          837.1,
+          849.8
+        ],
+        "speaker": "Man in black carrying balloons",
+        "text": "He quietly leaves the gifts outside the room and walks away holding only a small balloon figure."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q011",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the blonde woman's account of her own childhood affect the man in the striped shirt and the woman in the white blouse during their argument about the unborn baby?",
+    "options": [
+      "A. Both adults react with anger, defensiveness, and resentment.",
+      "B. Both adults react with surprise, embarrassment, and calm.",
+      "C. Both adults react with triumph, dismissal, and resentment.",
+      "D. Both adults react with cheer, relief, and satisfaction."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e23_q011_seg1_850.1_937.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 850.1,
+          "end": 937.9,
+          "mmss": "14:10.1–15:37.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0049",
+        "t": [
+          860.1,
+          872.1
+        ],
+        "speaker": "Man in a striped shirt",
+        "text": "This is all your fault. This is supposed to be the greatest day of my life. My son is being born, and I should be in there instead of stuck in a closet with you."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0050",
+        "t": [
+          872.1,
+          884.3
+        ],
+        "speaker": "Woman in a white blouse",
+        "text": "The woman I love is having a baby. I have waited for this just as much as you have. When this day is over, you get to go home with the baby. What does that leave me?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0051",
+        "t": [
+          884.3,
+          900.1
+        ],
+        "speaker": "Man in a striped shirt and woman in a white blouse",
+        "text": "They continue disputing whose parental role will be recognized and whose relationship with the child will count."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0052",
+        "t": [
+          905.1,
+          913.02
+        ],
+        "speaker": "Blonde woman",
+        "text": "Because when I was growing up, my father left, my mother died and my stepfather went to jail."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0053",
+        "t": [
+          913.02,
+          923.02
+        ],
+        "speaker": "Blonde woman",
+        "text": "I barely had enough pieces of parents to make one whole one."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0054",
+        "t": [
+          923.02,
+          933.58
+        ],
+        "speaker": "Blonde woman",
+        "text": "This baby has three whole parents who care so much that they are already fighting over who gets to love it most. It is the luckiest baby in the world."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0055",
+        "t": [
+          933.58,
+          937.9
+        ],
+        "speaker": "Blonde woman and arguing adults",
+        "text": "The two adults fall quiet; she gently prompts them to resume, but the hostile exchange has stopped."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q012",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What most directly causes the woman in the hospital bed to become afraid during labor?",
+    "options": [
+      "A. Her partner argues with the nurse about pain medication.",
+      "B. The doctor announces she is fully dilated.",
+      "C. Her friend walks in unexpectedly with a surprise gift.",
+      "D. The monitor starts beeping rapidly indicating fetal distress."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e23_q012_seg1_938.0_974.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 938,
+          "end": 974.9,
+          "mmss": "15:38.0-16:14.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0184",
+        "t": [
+          938.027,
+          939.528
+        ],
+        "speaker": "Carol",
+        "text": "Where are they?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0185",
+        "t": [
+          939.612,
+          941.155
+        ],
+        "speaker": "Monica",
+        "text": "I'm sure they'll be here soon."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0186",
+        "t": [
+          941.197,
+          942.782
+        ],
+        "speaker": "Rachel",
+        "text": "Yeah, honey, they wouldn't miss this."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0187",
+        "t": [
+          942.823,
+          947.37
+        ],
+        "speaker": "Joey",
+        "text": "Oh, relax, you're only at nine centimeters and the baby's at zero station."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0188",
+        "t": [
+          950.956,
+          953.167
+        ],
+        "speaker": "Chandler",
+        "text": "Hey, you are really frightening me."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0189",
+        "t": [
+          955.002,
+          957.505
+        ],
+        "speaker": "Chandler",
+        "text": "Somebody wanna help me, tryin' to rip out my heart."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0190",
+        "t": [
+          959.34,
+          961.968
+        ],
+        "speaker": "Chandler",
+        "text": "Uh, oh, that's great. Anybody seen a nipple?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0191",
+        "t": [
+          964.178,
+          967.223
+        ],
+        "speaker": "Dr. Franzblau",
+        "text": "Alright. Ten centimeters. Here we go."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0192",
+        "t": [
+          967.264,
+          969.058
+        ],
+        "speaker": "Nurse",
+        "text": "Alright, honey, time to start pushin'."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0193",
+        "t": [
+          969.1,
+          970.559
+        ],
+        "speaker": "Carol",
+        "text": "But they're not here yet."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0194",
+        "t": [
+          970.643,
+          973.229
+        ],
+        "speaker": "Dr. Franzblau",
+        "text": "I'm sorry, I can't tell the baby to wait for them."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0195",
+        "t": [
+          973.27,
+          974.897
+        ],
+        "speaker": "Carol",
+        "text": "Oh, God!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q013",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full escape attempt, which option best describes the group's emotional trajectory in the utility room?",
+    "options": [
+      "A. Their nervous effort becomes shared relief when the door opens, and all three remain together to make sure the blonde woman climbs down safely.",
+      "B. Their initial confidence gives way to panic when the vent stays closed, and they abandon both escape plans to wait quietly for help.",
+      "C. Tense improvisation becomes hopeful, but the doors opening brings comic frustration when the pair leaves her dangling.",
+      "D. They remain playful throughout, deliberately pretending to be trapped so they can leave the blonde woman hanging as a planned joke."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e23_q013_seg1_974.9_1026.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 974.9,
+          "end": 1026.3,
+          "mmss": "16:14.9–17:06.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0056",
+        "t": [
+          978.9,
+          986.9
+        ],
+        "speaker": "Blonde woman in a green work uniform",
+        "text": "She reports that the vent is open and prepares to climb while the other two position themselves to lift her."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0057",
+        "t": [
+          989.9,
+          997.9
+        ],
+        "speaker": "Group in the utility room",
+        "text": "They count together and strain to raise her toward the opening."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0058",
+        "t": [
+          997.9,
+          1012.9
+        ],
+        "speaker": "Group in the utility room",
+        "text": "The awkward lift continues as she reports what she can see through the vent and the others urge her upward."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0059",
+        "t": [
+          1012.9,
+          1019.9
+        ],
+        "speaker": "Group and hospital worker at the door",
+        "text": "The locked door unexpectedly opens; the two people below her shout with relief."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0060",
+        "t": [
+          1019.9,
+          1026.3
+        ],
+        "speaker": "Blonde woman and departing pair",
+        "text": "The pair hurry out toward the delivery while she remains suspended; the hospital worker points out that they forgot to lower her legs."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q014",
+    "task_type": "emotion_transition",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the emotional atmosphere in the delivery room change as the baby is born?",
+    "options": [
+      "A. Strained urgency and concentrated coaching turn into shared amazement, then joyful relief when the newborn arrives and cries.",
+      "B. The group's anxious concentration becomes panic because the baby appears unresponsive, leaving everyone fearful and silent.",
+      "C. Professional calm turns into disgust and embarrassment when the people watching realize they were unprepared for the sight of birth.",
+      "D. The room remains emotionally detached throughout because the medical team prevents the family from seeing or reacting to the delivery."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e23_q014_seg1_1061.2_1115.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 1061.2,
+          "end": 1115.2,
+          "mmss": "17:41.2–18:35.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0061",
+        "t": [
+          1061.2,
+          1065.2
+        ],
+        "speaker": "Medical staff and adults at the bedside",
+        "text": "The baby is crowning. Here he comes."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0062",
+        "t": [
+          1063.2,
+          1071.2
+        ],
+        "speaker": "Man in a striped shirt",
+        "text": "Let me see. I have got to see."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0063",
+        "t": [
+          1071.2,
+          1079.2
+        ],
+        "speaker": "Adults at the bedside",
+        "text": "One watcher reacts in astonishment while the others continue urgent encouragement during the final push."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0064",
+        "t": [
+          1082.2,
+          1094.2
+        ],
+        "speaker": "Adults watching the delivery",
+        "text": "They excitedly call out the baby's head, shoulders, arms and legs as he emerges."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0065",
+        "t": [
+          1104.2,
+          1108.2
+        ],
+        "speaker": "Newborn and adults",
+        "text": "The newborn cries; the adults' tense faces soften and brighten."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0066",
+        "t": [
+          1108.2,
+          1115.2
+        ],
+        "speaker": "Adults in the delivery room",
+        "text": "He is here. He is a person. He is beautiful."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q015",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the man's suggestion of the name Ben evoke in the two women beside him and the newborn?",
+    "options": [],
+    "answer": [
+      "esteem",
+      "peace"
+    ],
+    "video_name": "friends_g1_2_s01e23_q015_seg1_1129.5_1154.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 1129.5,
+          "end": 1154.7,
+          "mmss": "18:49.5-19:14.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0235",
+        "t": [
+          1129.51,
+          1133.556
+        ],
+        "speaker": "Susan",
+        "text": "No shouting but we-we still need a name for this little guy."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0236",
+        "t": [
+          1135.224,
+          1137.601
+        ],
+        "speaker": "Ross",
+        "text": "How about Ben?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0237",
+        "t": [
+          1137.685,
+          1139.061
+        ],
+        "speaker": "Susan",
+        "text": "I like Ben."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0238",
+        "t": [
+          1139.645,
+          1148.612
+        ],
+        "speaker": "Carol",
+        "text": "Ben. Hmm. Ben. - Ben's good. - Yeah? How come you never mentioned Ben before?"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0239",
+        "t": [
+          1148.696,
+          1151.073
+        ],
+        "speaker": "Ross",
+        "text": "We, uh, we just cooked it up."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0240",
+        "t": [
+          1152.616,
+          1154.702
+        ],
+        "speaker": "Susan",
+        "text": "That's what we were off doing."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e23_q016",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does receiving and holding the newborn evoke in the dark-haired woman wearing the light purple top?",
+    "options": [],
+    "answer": [
+      "happiness",
+      "affection",
+      "sympathy"
+    ],
+    "video_name": "friends_g1_2_s01e23_q016_seg1_1156.3_1223.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E23"
+      ],
+      "segments": [
+        {
+          "ep": "S01E23",
+          "start": 1156.3,
+          "end": 1223.6,
+          "mmss": "19:16.3-20:23.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E23",
+        "unit_id": "u0241",
+        "t": [
+          1156.329,
+          1160.249
+        ],
+        "speaker": "Monica",
+        "text": "- Hi. - Hey. - Can we come in? - Yeah, come in. Come in."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0242",
+        "t": [
+          1167.59,
+          1171.26
+        ],
+        "speaker": "Ross",
+        "text": "- I know, I know. - Oh. Everybody, there's someone I'd like you to meet."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0243",
+        "t": [
+          1173.137,
+          1174.722
+        ],
+        "speaker": "Ross",
+        "text": "Yeah. This is Ben."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0244",
+        "t": [
+          1174.764,
+          1176.098
+        ],
+        "speaker": "unknown",
+        "text": "- Oh, hi, Ben. - Hi, Ben."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0245",
+        "t": [
+          1176.182,
+          1179.435
+        ],
+        "speaker": "Ross",
+        "text": "- Ben, this is everybody. - Hey, Ben."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0246",
+        "t": [
+          1179.477,
+          1181.896
+        ],
+        "speaker": "Phoebe",
+        "text": "Susan, he looks just like you."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0247",
+        "t": [
+          1184.607,
+          1186.317
+        ],
+        "speaker": "Susan",
+        "text": "'Thanks.'"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0248",
+        "t": [
+          1186.4,
+          1189.82
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, God, I can't believe one of us actually has one of these."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0249",
+        "t": [
+          1189.904,
+          1192.198
+        ],
+        "speaker": "Chandler",
+        "text": "I know. I still am one of these."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0250",
+        "t": [
+          1195.284,
+          1198.12
+        ],
+        "speaker": "Monica",
+        "text": "- Ross? - Yeah. - Can I? - Yeah."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0251",
+        "t": [
+          1199.705,
+          1203.042
+        ],
+        "speaker": "Ross",
+        "text": "- Okay, the head, the head. - Okay. You gotta.."
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0252",
+        "t": [
+          1207.088,
+          1215.972
+        ],
+        "speaker": "Monica",
+        "text": "Hi, Ben. Hi. I'm your Aunt Monica. Yes, I am! I'm your Aunt Monica!"
+      },
+      {
+        "ep": "S01E23",
+        "unit_id": "u0253",
+        "t": [
+          1218.474,
+          1223.646
+        ],
+        "speaker": "Monica",
+        "text": "I... I will always have gum."
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear most visibly dejected about Joey's relationship with Ursula?",
+    "options": [
+      "A. When Phoebe describes her history with Ursula and worries that she may lose Joey.",
+      "B. When Joey walks away after she permits him to ask Ursula out.",
+      "C. When she learns that the sweater Joey brings is for Ursula.",
+      "D. When Ursula appears at Joey's door wearing his shirt."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear most visibly angry while keeping her verbal response restrained?",
+    "options": [
+      "A. When she responds after Chandler says that he and Joey saw Ursula.",
+      "B. When she encounters Ursula coming out of Joey's apartment in the hallway.",
+      "C. When she says that Ursula's sweater fits.",
+      "D. When she tells Ross that she is fine after Joey leaves."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most captivated by Nina?",
+    "options": [
+      "A. When Nina touches his leg during his first attempt to fire her.",
+      "B. When he talks to Monica and Rachel about Nina.",
+      "C. When he kisses Nina in his office.",
+      "D. When he finally tells Nina the truth about the layoffs."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear most visibly overwhelmed by becoming a father?",
+    "options": [
+      "A. When he calls himself, Carol, and Susan the whole parenting team.",
+      "B. When he practices the basic breathing exercises with Susan.",
+      "C. When he holds the baby doll in silence after hearing Susan say that they will be parents for the rest of their lives.",
+      "D. When he tells Marcel to give him the remote."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E16"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e16_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which visible pattern best shows that Ross's anxiety after the birth film concerns his own readiness for fatherhood rather than only Carol's fear?",
+    "options": [
+      "A. He falls silent while holding the doll after Susan mentions lifelong parenthood, then later compares raising a child with controlling Marcel.",
+      "B. He comforts Carol, listens while Susan puts birth in perspective, and remains beside them when the class ends.",
+      "C. He competes with Susan over coaching, lies down as the mother, and cradles the doll during the film.",
+      "D. He introduces Carol as carrying his son, jokes about twins, and later says that he always knew he was having a baby."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E16"
+    ]
+  }
+]

@@ -1,0 +1,2502 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q001",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full interaction, how do the emotions of the tall man in the gray striped shirt change before and after the blonde woman in the green top says that her family had the flu?",
+    "options": [],
+    "answer": {
+      "before": [
+        "happiness",
+        "confidence"
+      ],
+      "after": [
+        "fear",
+        "disquietment"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e11_q001_seg1_51.200_143.200.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 51.2,
+          "end": 143.2,
+          "mmss": "0:51.2–2:23.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0006",
+        "t": [
+          51.501,
+          52.544
+        ],
+        "speaker": "Leonard",
+        "text": "- Hey, guys. - Hey."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0007",
+        "t": [
+          52.711,
+          58.633
+        ],
+        "speaker": "Penny",
+        "text": "- Get my mail? - Yeah, right here. - How was Nebraska? - Well, better than north Dakota."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0008",
+        "t": [
+          64.222,
+          67.35
+        ],
+        "speaker": "Penny",
+        "text": "I guess that joke's only funny in Nebraska."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0009",
+        "t": [
+          67.517,
+          73.774
+        ],
+        "speaker": "Sheldon",
+        "text": "From the data at hand, you can't draw that conclusion. All you can say with absolute certainty is that that joke is not funny here."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0010",
+        "t": [
+          80.03,
+          87.037
+        ],
+        "speaker": "Penny",
+        "text": "Boy, it's good to be back. - How's your family? - Oh, it was the worst trip. - Everyone got sick over the weekend. - Sick?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0011",
+        "t": [
+          87.204,
+          88.872
+        ],
+        "speaker": "Leonard",
+        "text": "Here we go."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0012",
+        "t": [
+          91.208,
+          94.127
+        ],
+        "speaker": "Penny",
+        "text": "- What kind of sick? - Oh, the flu, I guess."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0013",
+        "t": [
+          94.294,
+          99.007
+        ],
+        "speaker": "Sheldon",
+        "text": "I don't need you to guess, I need you to know. Now, when did the symptoms first appear?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0014",
+        "t": [
+          99.174,
+          100.425
+        ],
+        "speaker": "Penny",
+        "text": "Maybe Friday."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0015",
+        "t": [
+          100.592,
+          102.719
+        ],
+        "speaker": "Sheldon",
+        "text": "Friday. Was that morning or afternoon?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0016",
+        "t": [
+          103.553,
+          105.263
+        ],
+        "speaker": "Penny",
+        "text": "- I don't... - Think, woman."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0017",
+        "t": [
+          105.43,
+          107.39
+        ],
+        "speaker": "Sheldon",
+        "text": "Who blew their nose and when?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0018",
+        "t": [
+          107.974,
+          111.937
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon, relax. She doesn't have any symptoms. I'm sure she's not contagious."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0019",
+        "t": [
+          112.103,
+          125.826
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, please. If influenza was only contagious after symptoms appear... It would've died out years ago. Somewhere between tool using and cave painting... Homo habilis would've figured out to kill the guy with the runny nose."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0020",
+        "t": [
+          126.409,
+          129.412
+        ],
+        "speaker": "Leonard",
+        "text": "Penny, you'll have to excuse Sheldon. He's a bit of a germaphobe."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0021",
+        "t": [
+          129.579,
+          130.789
+        ],
+        "speaker": "Penny",
+        "text": "That's okay. I understand."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0022",
+        "t": [
+          130.956,
+          133.959
+        ],
+        "speaker": "Sheldon",
+        "text": "Thanks for your consideration. Now please leave."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0023",
+        "t": [
+          134.793,
+          138.338
+        ],
+        "speaker": "Leonard",
+        "text": "You'd better go before he starts spraying you with lysol."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0024",
+        "t": [
+          138.505,
+          140.423
+        ],
+        "speaker": "Penny",
+        "text": "Okay, well, thank you for getting my mail."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0025",
+        "t": [
+          140.59,
+          142.926
+        ],
+        "speaker": "Leonard",
+        "text": "No, problem. Welcome home."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q002",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the tall man in the plaid robe's abrupt interrogation about illness evoke in the blonde woman in the green top?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "disquietment"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q002_seg1_80.000_134.200.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 80.0,
+          "end": 134.2,
+          "mmss": "1:20.0–2:14.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0010",
+        "t": [
+          80.03,
+          87.037
+        ],
+        "speaker": "Penny",
+        "text": "Boy, it's good to be back. - How's your family? - Oh, it was the worst trip. - Everyone got sick over the weekend. - Sick?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0011",
+        "t": [
+          87.204,
+          88.872
+        ],
+        "speaker": "Leonard",
+        "text": "Here we go."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0012",
+        "t": [
+          91.208,
+          94.127
+        ],
+        "speaker": "Penny",
+        "text": "- What kind of sick? - Oh, the flu, I guess."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0013",
+        "t": [
+          94.294,
+          99.007
+        ],
+        "speaker": "Sheldon",
+        "text": "I don't need you to guess, I need you to know. Now, when did the symptoms first appear?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0014",
+        "t": [
+          99.174,
+          100.425
+        ],
+        "speaker": "Penny",
+        "text": "Maybe Friday."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0015",
+        "t": [
+          100.592,
+          102.719
+        ],
+        "speaker": "Sheldon",
+        "text": "Friday. Was that morning or afternoon?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0016",
+        "t": [
+          103.553,
+          105.263
+        ],
+        "speaker": "Penny",
+        "text": "- I don't... - Think, woman."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0017",
+        "t": [
+          105.43,
+          107.39
+        ],
+        "speaker": "Sheldon",
+        "text": "Who blew their nose and when?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0018",
+        "t": [
+          107.974,
+          111.937
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon, relax. She doesn't have any symptoms. I'm sure she's not contagious."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0019",
+        "t": [
+          112.103,
+          125.826
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, please. If influenza was only contagious after symptoms appear... It would've died out years ago. Somewhere between tool using and cave painting... Homo habilis would've figured out to kill the guy with the runny nose."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0020",
+        "t": [
+          126.409,
+          129.412
+        ],
+        "speaker": "Leonard",
+        "text": "Penny, you'll have to excuse Sheldon. He's a bit of a germaphobe."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0021",
+        "t": [
+          129.579,
+          130.789
+        ],
+        "speaker": "Penny",
+        "text": "That's okay. I understand."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0022",
+        "t": [
+          130.956,
+          133.959
+        ],
+        "speaker": "Sheldon",
+        "text": "Thanks for your consideration. Now please leave."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q003",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the tall man in the dark blue plaid robe and white gloves experience?",
+    "options": [],
+    "answer": [
+      "fear",
+      "disquietment",
+      "engagement"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q003_seg1_182.700_238.300.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 182.7,
+          "end": 238.3,
+          "mmss": "3:02.7–3:58.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0027",
+        "t": [
+          182.966,
+          184.718
+        ],
+        "speaker": "Leonard",
+        "text": "What the hell are you doing?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0028",
+        "t": [
+          184.885,
+          188.763
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm making petri dishes to grow throat cultures."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0029",
+        "t": [
+          189.347,
+          190.473
+        ],
+        "speaker": "Leonard",
+        "text": "With lime jell-o?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0030",
+        "t": [
+          190.64,
+          198.69
+        ],
+        "speaker": "Sheldon",
+        "text": "I need a growth medium, and someone polished off the apricot yogurt. Here. Swab my throat."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0031",
+        "t": [
+          200.692,
+          202.444
+        ],
+        "speaker": "Leonard",
+        "text": "- I don't think so. - Leonard."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0032",
+        "t": [
+          202.611,
+          206.781
+        ],
+        "speaker": "Sheldon",
+        "text": "If I'm going to get ahead of this, I need to find out what's growing in my throat."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0033",
+        "t": [
+          208.325,
+          214.164
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon, you are not sick. This is, but you are not."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0034",
+        "t": [
+          214.623,
+          224.007
+        ],
+        "speaker": "Sheldon",
+        "text": "We have no idea what pathogen... Typhoid penny has introduced into our environment. And having never been to Nebraska, I'm certain I have no corn-husking antibodies."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0035",
+        "t": [
+          226.927,
+          229.346
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon, don't you think you're overreacting?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0036",
+        "t": [
+          229.512,
+          238.021
+        ],
+        "speaker": "Sheldon",
+        "text": "When I'm lying comatose in a hospital relying on inferior minds to cure me... These cultures and my accompanying notes... Will give them a fighting chance."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q004",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the tall man in the dark blue plaid robe wrapped in bedding experience?",
+    "options": [],
+    "answer": [
+      "fear",
+      "pain",
+      "sensitivity"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q004_seg1_300.300_339.300.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 300.3,
+          "end": 339.3,
+          "mmss": "5:00.3–5:39.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0044",
+        "t": [
+          300.625,
+          308.258
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, dear god. Leonard. Leonard, I'm sick."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0045",
+        "t": [
+          312.22,
+          313.388
+        ],
+        "speaker": "Sheldon",
+        "text": "Leonard."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0046",
+        "t": [
+          315.14,
+          317.6
+        ],
+        "speaker": "unknown",
+        "text": "Leonard, I'm sick."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0047",
+        "t": [
+          320.645,
+          321.938
+        ],
+        "speaker": "unknown",
+        "text": "Leonard."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0048",
+        "t": [
+          323.565,
+          327.777
+        ],
+        "speaker": "unknown",
+        "text": "Leonard. Leonard."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0049",
+        "t": [
+          329.738,
+          334.951
+        ],
+        "speaker": "unknown",
+        "text": "Leonard, my comforter fell down and my sinuses hurt when I bend over."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0050",
+        "t": [
+          337.287,
+          338.997
+        ],
+        "speaker": "unknown",
+        "text": "Leonard?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q005",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the bespectacled man in the gray hoodie and black vest experience?",
+    "options": [],
+    "answer": [
+      "fear",
+      "disquietment"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q005_seg1_353.600_431.500.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 353.6,
+          "end": 431.5,
+          "mmss": "5:53.6–7:11.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0051",
+        "t": [
+          353.845,
+          360.769
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard: Hey. - Leonard, where are you? I'm at work. At 6:30 in the morning?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0052",
+        "t": [
+          363.313,
+          364.397
+        ],
+        "speaker": "Sheldon",
+        "text": "On Sunday?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0053",
+        "t": [
+          367.192,
+          369.277
+        ],
+        "speaker": "Leonard",
+        "text": "- —Why? - They asked me to come in."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0054",
+        "t": [
+          369.652,
+          384.918
+        ],
+        "speaker": "Sheldon",
+        "text": "- Well, I didn't hear the phone ring. - They texted me. Well, as I predicted, I am sick. My fever has been tracking up exponentially since 2 am... And I am producing sputum at an alarming rate."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0055",
+        "t": [
+          387.462,
+          394.344
+        ],
+        "speaker": "Sheldon",
+        "text": "- No kidding. - Nope. Not only that... It has shifted from clear to milky green."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0056",
+        "t": [
+          394.511,
+          397.764
+        ],
+        "speaker": "Leonard",
+        "text": "All right, well, get some rest and drink plenty of fluids."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0057",
+        "t": [
+          397.931,
+          402.769
+        ],
+        "speaker": "Sheldon",
+        "text": "What else would I drink? Gases? Solids? Ionized plasma?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0058",
+        "t": [
+          403.353,
+          404.687
+        ],
+        "speaker": "Leonard",
+        "text": "Drink whatever you want."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0059",
+        "t": [
+          404.854,
+          410.026
+        ],
+        "speaker": "Sheldon",
+        "text": "- I want soup. - Then make soup. - We don't have soup. - I'm at work, Sheldon."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0060",
+        "t": [
+          414.03,
+          419.953
+        ],
+        "speaker": "Sheldon",
+        "text": "- Is that a dog? - Yes. - In the lab? - Yes."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0061",
+        "t": [
+          421.162,
+          431.214
+        ],
+        "speaker": "Leonard",
+        "text": "They're training dogs to operate the centrifuge... For when they need dogs to operate the centrifuge for blind scientists. I have to go."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q006",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the bespectacled man in the gray hoodie's evasive answers and refusal to bring soup evoke in the tall man in the dark blue plaid robe?",
+    "options": [],
+    "answer": [
+      "doubt/confusion",
+      "annoyance"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q005_seg1_353.600_431.500.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 353.6,
+          "end": 431.5,
+          "mmss": "5:53.6–7:11.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0051",
+        "t": [
+          353.845,
+          360.769
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard: Hey. - Leonard, where are you? I'm at work. At 6:30 in the morning?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0052",
+        "t": [
+          363.313,
+          364.397
+        ],
+        "speaker": "Sheldon",
+        "text": "On Sunday?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0053",
+        "t": [
+          367.192,
+          369.277
+        ],
+        "speaker": "Leonard",
+        "text": "- —Why? - They asked me to come in."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0054",
+        "t": [
+          369.652,
+          384.918
+        ],
+        "speaker": "Sheldon",
+        "text": "- Well, I didn't hear the phone ring. - They texted me. Well, as I predicted, I am sick. My fever has been tracking up exponentially since 2 am... And I am producing sputum at an alarming rate."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0055",
+        "t": [
+          387.462,
+          394.344
+        ],
+        "speaker": "Sheldon",
+        "text": "- No kidding. - Nope. Not only that... It has shifted from clear to milky green."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0056",
+        "t": [
+          394.511,
+          397.764
+        ],
+        "speaker": "Leonard",
+        "text": "All right, well, get some rest and drink plenty of fluids."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0057",
+        "t": [
+          397.931,
+          402.769
+        ],
+        "speaker": "Sheldon",
+        "text": "What else would I drink? Gases? Solids? Ionized plasma?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0058",
+        "t": [
+          403.353,
+          404.687
+        ],
+        "speaker": "Leonard",
+        "text": "Drink whatever you want."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0059",
+        "t": [
+          404.854,
+          410.026
+        ],
+        "speaker": "Sheldon",
+        "text": "- I want soup. - Then make soup. - We don't have soup. - I'm at work, Sheldon."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0060",
+        "t": [
+          414.03,
+          419.953
+        ],
+        "speaker": "Sheldon",
+        "text": "- Is that a dog? - Yes. - In the lab? - Yes."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0061",
+        "t": [
+          421.162,
+          431.214
+        ],
+        "speaker": "Leonard",
+        "text": "They're training dogs to operate the centrifuge... For when they need dogs to operate the centrifuge for blind scientists. I have to go."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q007",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full interaction, how do the emotions of the man in the red satin pajamas change before and after the caller says \"code milky green\"?",
+    "options": [],
+    "answer": {
+      "before": [
+        "annoyance"
+      ],
+      "after": [
+        "surprise",
+        "fear"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e11_q007_seg1_434.500_476.000.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 434.5,
+          "end": 476.0,
+          "mmss": "7:14.5–7:56.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0062",
+        "t": [
+          434.717,
+          438.346
+        ],
+        "speaker": "unknown",
+        "text": "Mrs. Wolowitz: Howard, it's the phone."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0063",
+        "t": [
+          439.472,
+          448.606
+        ],
+        "speaker": "Howard",
+        "text": "I know it's the phone, ma. I hear the phone. - Well, who's calling at this ungodly hour? - I don't know."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0064",
+        "t": [
+          448.773,
+          452.902
+        ],
+        "speaker": "unknown",
+        "text": "Well, ask them why they're calling at this ungodly hour."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0065",
+        "t": [
+          453.069,
+          456.531
+        ],
+        "speaker": "Howard",
+        "text": "How can I ask them when I'm talking to you?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0066",
+        "t": [
+          460.243,
+          461.786
+        ],
+        "speaker": "Howard",
+        "text": "Hello?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0067",
+        "t": [
+          462.078,
+          464.414
+        ],
+        "speaker": "Leonard",
+        "text": "Howard, it's Leonard. Code milky green."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0068",
+        "t": [
+          464.581,
+          475.758
+        ],
+        "speaker": "Howard",
+        "text": "- Dear lord, not milky green. - Affirmative. With fever. - Who's on the phone? - It's Leonard. - Why is he calling? - Sheldon's sick."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q008",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the man in the red hat's repeated demands about his soup evoke in the blonde waitress in yellow?",
+    "options": [],
+    "answer": [
+      "annoyance"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q008_seg1_557.000_658.400.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 557.0,
+          "end": 658.4,
+          "mmss": "9:17.0–10:58.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0087",
+        "t": [
+          557.048,
+          559.926
+        ],
+        "speaker": "Waitress",
+        "text": "Homeless crazy guy at table 18."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0088",
+        "t": [
+          565.265,
+          566.849
+        ],
+        "speaker": "Penny",
+        "text": "No, just crazy."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0089",
+        "t": [
+          568.685,
+          571.02
+        ],
+        "speaker": "Penny",
+        "text": "Sheldon, what are you doing here?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0090",
+        "t": [
+          571.521,
+          576.317
+        ],
+        "speaker": "Sheldon",
+        "text": "- I'm sick. Thank you very much. - How could you've gotten it from me?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0091",
+        "t": [
+          576.484,
+          578.403
+        ],
+        "speaker": "Penny",
+        "text": "- I'm not sick. - You're a carrier."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0092",
+        "t": [
+          578.569,
+          583.157
+        ],
+        "speaker": "Sheldon",
+        "text": "All these people here are doomed. - You're doomed. - Shh!"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0093",
+        "t": [
+          584.909,
+          586.869
+        ],
+        "speaker": "Penny",
+        "text": "Sheldon, what do you want?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0094",
+        "t": [
+          587.036,
+          588.871
+        ],
+        "speaker": "Sheldon",
+        "text": "I want soup."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0095",
+        "t": [
+          593.167,
+          594.21
+        ],
+        "speaker": "unknown",
+        "text": "Why didn't you just...?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0096",
+        "t": [
+          597.046,
+          598.84
+        ],
+        "speaker": "unknown",
+        "text": "Why didn't you just have soup at home?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0097",
+        "t": [
+          599.34,
+          607.39
+        ],
+        "speaker": "Sheldon",
+        "text": "Penny, I have an IQ of 187. Don't you imagine that if there were a way for me... To have had soup at home, I would have thought of it?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0098",
+        "t": [
+          607.932,
+          609.309
+        ],
+        "speaker": "Penny",
+        "text": "You can have soup delivered."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0099",
+        "t": [
+          613.73,
+          615.064
+        ],
+        "speaker": "Sheldon",
+        "text": "I did not think of that."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0100",
+        "t": [
+          617.233,
+          624.24
+        ],
+        "speaker": "Sheldon",
+        "text": "Clearly, febrile delirium is setting in. Please bring me some soup while I still understand what a spoon is for."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0101",
+        "t": [
+          624.407,
+          626.159
+        ],
+        "speaker": "Penny",
+        "text": "Okay. What kind of soup do you want?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0102",
+        "t": [
+          626.326,
+          633.166
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, my mother used to make me this split-pea... With little frankfurter slices and these homemade croutons."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0103",
+        "t": [
+          633.333,
+          635.835
+        ],
+        "speaker": "Penny",
+        "text": "We have chicken, tortilla and potato leek."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0104",
+        "t": [
+          636.753,
+          640.84
+        ],
+        "speaker": "Sheldon",
+        "text": "Can I get any of those with little frankfurter slices and homemade croutons?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0105",
+        "t": [
+          643.051,
+          644.886
+        ],
+        "speaker": "Sheldon",
+        "text": "Then surprise me."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0106",
+        "t": [
+          654.604,
+          658.066
+        ],
+        "speaker": "Sheldon",
+        "text": "Would you call that moss green or forest green?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the three men in sweaters wearing ape masks in the theater?",
+    "options": [
+      "A. They begin playful and excited, grow tense, and end in unease and amusement.",
+      "B. They begin playful and excited, stay carefree, and end uniformly amused.",
+      "C. They begin uneasy and cautious, become openly angry, and end united in sadness.",
+      "D. They begin playful and excited, grow concerned, and end relieved and supportive."
+    ],
+    "answer": "A",
+    "video_name": "thebigbang_g1_2_s01e11_q009_seg1_671.400_746.200.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 671.4,
+          "end": 746.2,
+          "mmss": "11:11.4–12:26.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0107",
+        "t": [
+          671.746,
+          674.832
+        ],
+        "speaker": "Howard",
+        "text": "Howard: Look at this. Everyone went chimp."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0108",
+        "t": [
+          675.541,
+          679.545
+        ],
+        "speaker": "Raj",
+        "text": "Rajesh: I'd like to point out, I voted for orangutan... But you shouted me down."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0109",
+        "t": [
+          684.05,
+          686.344
+        ],
+        "speaker": "Penny",
+        "text": "- Leonard: Oh, hi, penny. - Hey, where are you?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0110",
+        "t": [
+          686.511,
+          689.806
+        ],
+        "speaker": "Leonard",
+        "text": "I'm at work."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0111",
+        "t": [
+          690.306,
+          691.432
+        ],
+        "speaker": "Penny",
+        "text": "You sound funny."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0112",
+        "t": [
+          691.599,
+          695.478
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, I'm in a radiation suit."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0113",
+        "t": [
+          695.645,
+          700.858
+        ],
+        "speaker": "Penny",
+        "text": "- What's up? - Yeah, well, I'm at work too. And you'll never guess who's here infecting my entire station."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0114",
+        "t": [
+          701.025,
+          702.735
+        ],
+        "speaker": "unknown",
+        "text": "Sheldon's at the cheesecake factory."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0115",
+        "t": [
+          703.528,
+          710.41
+        ],
+        "speaker": "Penny",
+        "text": "- Just tell him to go home. - Well, he won't leave. He says he's afraid he'll pass out on the bus and someone will harvest his organs."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0116",
+        "t": [
+          711.077,
+          714.414
+        ],
+        "speaker": "unknown",
+        "text": "He's paranoid and he's established a nest."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0117",
+        "t": [
+          714.914,
+          716.499
+        ],
+        "speaker": "Penny",
+        "text": "Can you please come get him?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0118",
+        "t": [
+          717.166,
+          720.169
+        ],
+        "speaker": "Leonard",
+        "text": "Uh, yeah, I'd be happy to, penny."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0119",
+        "t": [
+          722.213,
+          730.012
+        ],
+        "speaker": "Leonard",
+        "text": "Leonard: Oh, my god, there's a breach in the radiation unit. The whole city is in jeopardy. Oh, my god. Professor guggenheim is melting. Gotta go. Bye."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0120",
+        "t": [
+          736.31,
+          739.522
+        ],
+        "speaker": "Raj",
+        "text": "- I feel really guilty. - Rajesh: You did what you had to do."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0121",
+        "t": [
+          739.689,
+          745.862
+        ],
+        "speaker": "Howard",
+        "text": "Howard: Take your stinking paws off my popcorn... You damn dirty ape."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q010",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full interaction, how do the emotions of the man in the red hat change before and after the blonde woman in the pastel cardigan starts to leave him alone?",
+    "options": [],
+    "answer": {
+      "before": [
+        "peace"
+      ],
+      "after": [
+        "fear",
+        "sensitivity"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e11_q010_seg1_749.800_779.700.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 749.8,
+          "end": 779.7,
+          "mmss": "12:29.8–12:59.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0122",
+        "t": [
+          750.116,
+          751.993
+        ],
+        "speaker": "Sheldon",
+        "text": "Thanks for bringing me home."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0123",
+        "t": [
+          752.16,
+          757.457
+        ],
+        "speaker": "Penny",
+        "text": "Oh, it's okay. I didn't really need to work today. It's not like I have rent or car payments or anything."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0124",
+        "t": [
+          757.623,
+          759.667
+        ],
+        "speaker": "Sheldon",
+        "text": "Good, good."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0125",
+        "t": [
+          760.918,
+          762.92
+        ],
+        "speaker": "Penny",
+        "text": "Okay, well, you feel better."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0126",
+        "t": [
+          763.087,
+          765.423
+        ],
+        "speaker": "Sheldon",
+        "text": "Wait. Where are you going?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0127",
+        "t": [
+          766.048,
+          770.094
+        ],
+        "speaker": "Penny",
+        "text": "Um, home to write some bad checks."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0128",
+        "t": [
+          771.053,
+          772.346
+        ],
+        "speaker": "Sheldon",
+        "text": "You're going to leave me?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0129",
+        "t": [
+          772.889,
+          776.058
+        ],
+        "speaker": "Penny",
+        "text": "Sheldon, you are a grown man. Haven't you ever been sick before?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0130",
+        "t": [
+          776.225,
+          779.437
+        ],
+        "speaker": "Sheldon",
+        "text": "Of course, but not by myself."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q011",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the tall man in the plaid robe's account of being sick alone as a teenager evoke in the blonde woman in the pastel cardigan?",
+    "options": [],
+    "answer": [
+      "sympathy",
+      "affection"
+    ],
+    "video_name": "thebigbang_g1_2_s01e11_q011_seg1_750.000_860.700.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 750.0,
+          "end": 860.7,
+          "mmss": "12:30.0–14:20.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0122",
+        "t": [
+          750.116,
+          751.993
+        ],
+        "speaker": "Sheldon",
+        "text": "Thanks for bringing me home."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0123",
+        "t": [
+          752.16,
+          757.457
+        ],
+        "speaker": "Penny",
+        "text": "Oh, it's okay. I didn't really need to work today. It's not like I have rent or car payments or anything."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0124",
+        "t": [
+          757.623,
+          759.667
+        ],
+        "speaker": "Sheldon",
+        "text": "Good, good."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0125",
+        "t": [
+          760.918,
+          762.92
+        ],
+        "speaker": "Penny",
+        "text": "Okay, well, you feel better."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0126",
+        "t": [
+          763.087,
+          765.423
+        ],
+        "speaker": "Sheldon",
+        "text": "Wait. Where are you going?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0127",
+        "t": [
+          766.048,
+          770.094
+        ],
+        "speaker": "Penny",
+        "text": "Um, home to write some bad checks."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0128",
+        "t": [
+          771.053,
+          772.346
+        ],
+        "speaker": "Sheldon",
+        "text": "You're going to leave me?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0129",
+        "t": [
+          772.889,
+          776.058
+        ],
+        "speaker": "Penny",
+        "text": "Sheldon, you are a grown man. Haven't you ever been sick before?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0130",
+        "t": [
+          776.225,
+          779.437
+        ],
+        "speaker": "Sheldon",
+        "text": "Of course, but not by myself."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0131",
+        "t": [
+          779.604,
+          781.397
+        ],
+        "speaker": "Penny",
+        "text": "Really? Never?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0132",
+        "t": [
+          781.564,
+          790.781
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, once, when I was 15 and spending the summer... At the Heidelberg institute in Germany. - Studying abroad? - No, visiting professor."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0133",
+        "t": [
+          792.825,
+          803.211
+        ],
+        "speaker": "Sheldon",
+        "text": "Anyway, the local cuisine was a little more sausage-based than I'm used to... And the result was an internal blitzkrieg... With my lower intestine playing the part of czechoslovakia."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0134",
+        "t": [
+          803.794,
+          805.963
+        ],
+        "speaker": "Penny",
+        "text": "And there was no one there to take care of you?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0135",
+        "t": [
+          806.13,
+          830.446
+        ],
+        "speaker": "Sheldon",
+        "text": "No, my mom had to fly back to Texas to help my dad... Because the house had slipped off the cinder blocks again. - Again? - It was tornado season. And it was an aluminum house. Anyway, the housekeeper in the faculty residence didn't speak any English. When I finally managed to convince her I was sick... She said, \"mochtest du eine darmspl'i/ung?\""
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0136",
+        "t": [
+          830.821,
+          832.281
+        ],
+        "speaker": "Penny",
+        "text": "What does that mean?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0137",
+        "t": [
+          832.448,
+          835.993
+        ],
+        "speaker": "Sheldon",
+        "text": "Based on what happened next, I assume it means, \"would you like an enema?\""
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0138",
+        "t": [
+          838.371,
+          842.375
+        ],
+        "speaker": "Penny",
+        "text": "Okay, sweetie. I'll take care of you. What do you need?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0139",
+        "t": [
+          842.542,
+          847.046
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, my mom used to give me sponge baths."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0140",
+        "t": [
+          853.427,
+          858.182
+        ],
+        "speaker": "Penny",
+        "text": "Okay, ground rules: No sponge baths and definitely no enemas."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0141",
+        "t": [
+          858.599,
+          860.351
+        ],
+        "speaker": "Sheldon",
+        "text": "Agreed."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q012",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the shared emotional atmosphere between the blonde woman in the pastel cardigan and the sick man in bed?",
+    "options": [
+      "A. The interaction is playful and flirtatious, with both people becoming increasingly excited.",
+      "B. The interaction is gentle and reassuring, with little reluctance or awkwardness.",
+      "C. The interaction is caring and tender, but repeatedly interrupted by reluctance and awkwardness.",
+      "D. The interaction is tense and resentful, with assistance turning into a serious argument."
+    ],
+    "answer": "C",
+    "video_name": "thebigbang_g1_2_s01e11_q012_seg1_946.800_1046.200.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 946.8,
+          "end": 1046.2,
+          "mmss": "15:46.8–17:26.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0156",
+        "t": [
+          947.104,
+          953.653
+        ],
+        "speaker": "Penny",
+        "text": "Okay, nice and cozy. - Okay, I'll see you later. - Wait."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0157",
+        "t": [
+          954.487,
+          957.698
+        ],
+        "speaker": "Sheldon",
+        "text": "Will you please rub this on my chest?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0158",
+        "t": [
+          958.532,
+          960.701
+        ],
+        "speaker": "Penny",
+        "text": "Oh, Sheldon. Can't you do that yourself?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0159",
+        "t": [
+          960.868,
+          968.209
+        ],
+        "speaker": "Sheldon",
+        "text": "Vaporub makes my hands smell funny. - But, Sheldon... - Please, please, please."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0160",
+        "t": [
+          972.421,
+          974.131
+        ],
+        "speaker": "Penny",
+        "text": "I can't believe I'm doing this."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0161",
+        "t": [
+          980.054,
+          983.641
+        ],
+        "speaker": "Sheldon",
+        "text": "No, no. Counterclockwise, or my chest hair mats."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0162",
+        "t": [
+          986.102,
+          987.478
+        ],
+        "speaker": "Penny",
+        "text": "Sorry."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0163",
+        "t": [
+          992.441,
+          995.152
+        ],
+        "speaker": "Sheldon",
+        "text": "Can you sing \"soft kitty\"?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0164",
+        "t": [
+          996.779,
+          997.822
+        ],
+        "speaker": "Penny",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0165",
+        "t": [
+          997.988,
+          1000.491
+        ],
+        "speaker": "Sheldon",
+        "text": "My mom used to sing it to me when I was sick."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0166",
+        "t": [
+          1000.658,
+          1003.703
+        ],
+        "speaker": "Penny",
+        "text": "- I'm sorry, honey, I don't know it. - I'll teach you."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0167",
+        "t": [
+          1005.287,
+          1020.302
+        ],
+        "speaker": "Sheldon",
+        "text": "Soft kitty, warm kitty little ball of fur happy kitty, sleepy kitty purr, purr, purr"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0168",
+        "t": [
+          1023.097,
+          1024.724
+        ],
+        "speaker": "Sheldon",
+        "text": "now you."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0169",
+        "t": [
+          1030.146,
+          1034.608
+        ],
+        "speaker": "unknown",
+        "text": "Soft kitty, warm kitty"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0170",
+        "t": [
+          1035.943,
+          1041.198
+        ],
+        "speaker": "Sheldon",
+        "text": "little ball of fur keep rubbing."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0171",
+        "t": [
+          1042.992,
+          1045.828
+        ],
+        "speaker": "unknown",
+        "text": "Little ball of fur"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q013",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "What most directly causes the man in the gray hoodie to become afraid? Answer with a brief description of the reason.",
+    "options": [],
+    "answer": "He learns by phone that the sick man in the plaid robe is home alone.",
+    "video_name": "thebigbang_g1_2_s01e11_q013_seg1_864.400_946.000.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 864.4,
+          "end": 946.0,
+          "mmss": "14:24.4–15:46.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0142",
+        "t": [
+          864.689,
+          868.276
+        ],
+        "speaker": "Raj",
+        "text": "Here we go. Ten and a half hours of apey goodness."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0143",
+        "t": [
+          871.612,
+          877.118
+        ],
+        "speaker": "Leonard",
+        "text": "Damn it, my glasses. Okay, I'm blind here, guys. Can you help me find them?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0144",
+        "t": [
+          877.285,
+          879.12
+        ],
+        "speaker": "Howard",
+        "text": "- Sorry. - Okay."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0145",
+        "t": [
+          882.248,
+          883.457
+        ],
+        "speaker": "Howard",
+        "text": "Found them."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0146",
+        "t": [
+          885.209,
+          888.17
+        ],
+        "speaker": "Howard",
+        "text": "- Oh, great. - I'm sorry. Don't you have a spare?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0147",
+        "t": [
+          888.337,
+          894.302
+        ],
+        "speaker": "Raj",
+        "text": "- Yeah, at home. - If you leave now, you can be back... Before the gorillas whip the crap out of charlton heston."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0148",
+        "t": [
+          894.468,
+          900.391
+        ],
+        "speaker": "Howard",
+        "text": "Unless Sheldon's there. You'll be trapped forever in his whiny, hyper-neurotic snot web."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0149",
+        "t": [
+          908.024,
+          913.362
+        ],
+        "speaker": "unknown",
+        "text": "Hi, penny? I was just wondering, is Sheldon still at the restaurant?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0150",
+        "t": [
+          914.864,
+          923.623
+        ],
+        "speaker": "unknown",
+        "text": "Okay, that was very nice of you. Okay, I gotta go. Got kind of a full-blown chernobyl thing here. Gotta go, bye. He's home. I'm screwed."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0151",
+        "t": [
+          926.375,
+          929.962
+        ],
+        "speaker": "unknown",
+        "text": "Ten and a half hours of apey blurriness."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0152",
+        "t": [
+          930.88,
+          932.673
+        ],
+        "speaker": "Raj",
+        "text": "How about Lasik?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0153",
+        "t": [
+          933.799,
+          936.802
+        ],
+        "speaker": "Leonard",
+        "text": "- You want me to get eye surgery? - Would you rather go back..."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0154",
+        "t": [
+          936.969,
+          941.098
+        ],
+        "speaker": "Raj",
+        "text": "And deal with Sheldon or have a stranger carve out your corneas with a laser beam?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0155",
+        "t": [
+          943.476,
+          945.603
+        ],
+        "speaker": "Leonard",
+        "text": "- Well? - I'm thinking."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e11_q014",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the gray hoodie throughout the video?",
+    "options": [
+      "A. He begins focused and confident, stays composed through setbacks, and ends relieved.",
+      "B. He begins anxious, becomes briefly confident, and ends angry and confrontational.",
+      "C. He begins amused, becomes embarrassed, and settles into calm acceptance.",
+      "D. He begins uneasy and fearful, grows frustrated, and ends alarmed and desperate."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e11_q014_seg1_1059.800_1243.500.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E11"
+      ],
+      "segments": [
+        {
+          "ep": "S01E11",
+          "start": 1059.8,
+          "end": 1243.5,
+          "mmss": "17:39.8–20:43.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E11",
+        "unit_id": "u0172",
+        "t": [
+          1060.134,
+          1071.103
+        ],
+        "speaker": "Leonard",
+        "text": "What do you see? What do you see? I can't... - Living room appears to be empty. - Okay, he must be in his bedroom. My spare glasses are in my bedroom, on my dresser, next to my bat signal."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0173",
+        "t": [
+          1072.104,
+          1073.397
+        ],
+        "speaker": "Howard",
+        "text": "I'm not going in there."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0174",
+        "t": [
+          1073.981,
+          1075.608
+        ],
+        "speaker": "Raj",
+        "text": "- Raj? - No way, Jose."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0175",
+        "t": [
+          1076.901,
+          1079.653
+        ],
+        "speaker": "Leonard",
+        "text": "- But I can't do it. I can't see anything. - It's all right."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0176",
+        "t": [
+          1079.82,
+          1105.638
+        ],
+        "speaker": "Howard",
+        "text": "Wireless mini-cam and Bluetooth headset. We'll be your eyes. - Fine. - One more thing. This is a sub-Sonic impact sensor. If Sheldon gets out of bed and starts to walk... This will register it and send a signal to the laptop. At that point, based on the geography of the apartment and the speed of Sheldon... You'll have seven seconds to get out, glasses or no glasses."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0177",
+        "t": [
+          1105.805,
+          1107.515
+        ],
+        "speaker": "Leonard",
+        "text": "Won't my footsteps set it off?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0178",
+        "t": [
+          1107.681,
+          1112.978
+        ],
+        "speaker": "Howard",
+        "text": "No. You'll be on your hands and knees. Now, you'll need to get the sensor close to Sheldon's room."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0179",
+        "t": [
+          1113.145,
+          1115.773
+        ],
+        "speaker": "Leonard",
+        "text": "How do I carry it if I'm on my hands and knees?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0180",
+        "t": [
+          1121.153,
+          1126.784
+        ],
+        "speaker": "Howard",
+        "text": "Howard: Stay low. Bear left. - Now keep true. - What?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0181",
+        "t": [
+          1126.951,
+          1130.12
+        ],
+        "speaker": "Leonard",
+        "text": "- It means go straight. - Then just say, \"go straight.\""
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0182",
+        "t": [
+          1130.621,
+          1134.458
+        ],
+        "speaker": "Howard",
+        "text": "You don't say, \"go straight,\" when you're giving bearings. You say, \"keep true.\""
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0183",
+        "t": [
+          1135.167,
+          1136.836
+        ],
+        "speaker": "unknown",
+        "text": "All right."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0184",
+        "t": [
+          1140.339,
+          1142.007
+        ],
+        "speaker": "Leonard",
+        "text": "I just hit my head."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0185",
+        "t": [
+          1142.883,
+          1144.552
+        ],
+        "speaker": "Howard",
+        "text": "Because you didn't keep true."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0186",
+        "t": [
+          1147.304,
+          1149.557
+        ],
+        "speaker": "Howard",
+        "text": "Okay, turn right."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0187",
+        "t": [
+          1150.182,
+          1152.184
+        ],
+        "speaker": "Raj",
+        "text": "The picture's breaking up."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0188",
+        "t": [
+          1152.351,
+          1161.861
+        ],
+        "speaker": "Howard",
+        "text": "Angle your head to the right. Now, a little more. Little more. That's it. Now just keep true."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0189",
+        "t": [
+          1164.697,
+          1171.495
+        ],
+        "speaker": "Howard",
+        "text": "All right, you're close enough to Sheldon's room. Deploy the sensor. Now turn it on."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0190",
+        "t": [
+          1171.662,
+          1176.333
+        ],
+        "speaker": "Leonard",
+        "text": "- It wasn't on? - No. Then why did I have to crawl?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0191",
+        "t": [
+          1177.751,
+          1179.712
+        ],
+        "speaker": "Howard",
+        "text": "Oh, I guess you didn't."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0192",
+        "t": [
+          1182.923,
+          1184.049
+        ],
+        "speaker": "Leonard",
+        "text": "Okay, it's on."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0193",
+        "t": [
+          1184.216,
+          1187.97
+        ],
+        "speaker": "Howard",
+        "text": "Good. From this point fonnard, you will have to crawl."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0194",
+        "t": [
+          1189.221,
+          1191.265
+        ],
+        "speaker": "Leonard",
+        "text": "I know."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0195",
+        "t": [
+          1194.393,
+          1197.98
+        ],
+        "speaker": "Howard",
+        "text": "Hang on, the sensor's picking up something. Turn your head back."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0196",
+        "t": [
+          1203.777,
+          1206.071
+        ],
+        "speaker": "Penny",
+        "text": "You rat bastard."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0197",
+        "t": [
+          1207.656,
+          1209.783
+        ],
+        "speaker": "unknown",
+        "text": "Howard: Told you the sensor would work."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0198",
+        "t": [
+          1212.286,
+          1214.33
+        ],
+        "speaker": "Penny",
+        "text": "You deliberately stuck me with Sheldon."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0199",
+        "t": [
+          1214.496,
+          1216.832
+        ],
+        "speaker": "Leonard",
+        "text": "Come on, I had to. You see what he's like."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0200",
+        "t": [
+          1216.999,
+          1219.668
+        ],
+        "speaker": "unknown",
+        "text": "Sheldon: Penny? Penny, I'm hungry."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0201",
+        "t": [
+          1220.377,
+          1223.923
+        ],
+        "speaker": "Penny",
+        "text": "It's okay, sweetie. Good news. - Leonard's home. - No."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0202",
+        "t": [
+          1224.089,
+          1231.597
+        ],
+        "speaker": "Leonard",
+        "text": "- Here you go, good luck, bye. - Oh, wait, wait. - Sheldon: Leonard? I'm hungry. - Wait. Penny, take me with you."
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0203",
+        "t": [
+          1235.935,
+          1237.686
+        ],
+        "speaker": "unknown",
+        "text": "Sheldon: Leonard?"
+      },
+      {
+        "ep": "S01E11",
+        "unit_id": "u0204",
+        "t": [
+          1241.19,
+          1243.067
+        ],
+        "speaker": "Sheldon",
+        "text": "I want grilled cheese."
+      }
+    ]
+  }
+]

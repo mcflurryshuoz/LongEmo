@@ -1,0 +1,2627 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q001",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the shared emotional atmosphere among the four men playing the tabletop strategy game?",
+    "options": [
+      "A. They are absorbed in the game, sharing playful excitement.",
+      "B. Their competitiveness steadily replaces the fun with tension and annoyance.",
+      "C. They are cheerful but only casually interested, paying more attention to the waitress.",
+      "D. They seem confused and detached, struggling to follow the game."
+    ],
+    "answer": "A",
+    "video_name": "thebigbang_g1_2_s01e05_q001_seg1_2.8_50.6.mp4",
+    "input_video": {
+      "scope_kind": "scene",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 2.8,
+          "end": 50.6,
+          "mmss": "0:02.8–0:50.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0001",
+        "t": [
+          2.803,
+          14.231
+        ],
+        "speaker": "Sheldon",
+        "text": "All right, I'm moving my infantry division... Augmented by a battalion of orcs from lord of the rings. We flank the Tennessee volunteers... And the north once again wins the battle of gettysburg."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0002",
+        "t": [
+          14.397,
+          19.945
+        ],
+        "speaker": "Howard",
+        "text": "Not so fast. Remember, the south still has two infantry divisions. Plus Superman and Godzilla."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0003",
+        "t": [
+          20.32,
+          28.328
+        ],
+        "speaker": "Leonard",
+        "text": "No, no, no. Orcs are magic. Superman is vulnerable to magic. Not to mention, you already lost Godzilla... To the Illinois cavalry and hulk."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0004",
+        "t": [
+          28.745,
+          32.707
+        ],
+        "speaker": "Raj",
+        "text": "Why don't you just have Robert e. Lee charge the line with Shiva and Ganesh?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0005",
+        "t": [
+          32.874,
+          34.459
+        ],
+        "speaker": "Penny",
+        "text": "- You guys ready to order? - Hang on."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0006",
+        "t": [
+          36.378,
+          38.88
+        ],
+        "speaker": "Howard",
+        "text": "The hindu gods against the entire union army?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0007",
+        "t": [
+          39.047,
+          40.757
+        ],
+        "speaker": "Leonard",
+        "text": "And orcs."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0008",
+        "t": [
+          42.592,
+          50.6
+        ],
+        "speaker": "Raj",
+        "text": "Excuse me. Ganesh is the remover of obstacles and Shiva's the destroyer. When the smoke clears, Lincoln will be speaking hindi... And drinking mintjuleps."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q002",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the blonde waitress's order-or-leave ultimatum evoke in the tall man in the black graphic T-shirt?",
+    "options": [],
+    "answer": [
+      "annoyance",
+      "disapproval"
+    ],
+    "video_name": "thebigbang_g1_2_s01e05_q002_seg1_51.1_108.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 51.1,
+          "end": 108.7,
+          "mmss": "0:51.1–1:48.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0009",
+        "t": [
+          51.142,
+          54.563
+        ],
+        "speaker": "Penny",
+        "text": "My boss says you have to either order or leave and never come back."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0010",
+        "t": [
+          55.23,
+          60.735
+        ],
+        "speaker": "Howard",
+        "text": "What do you recommend for someone with a man-sized appetite... From a morning of weight-training and cardio-funk?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0011",
+        "t": [
+          60.902,
+          61.987
+        ],
+        "speaker": "Penny",
+        "text": "A shower."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0012",
+        "t": [
+          62.863,
+          65.365
+        ],
+        "speaker": "Howard",
+        "text": "I'll take the heart-smart platter."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0013",
+        "t": [
+          65.782,
+          67.617
+        ],
+        "speaker": "Penny",
+        "text": "All right, thank you. And Sheldon?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0014",
+        "t": [
+          67.784,
+          70.036
+        ],
+        "speaker": "Sheldon",
+        "text": "We don't eat here. I don't know what's good."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0015",
+        "t": [
+          70.203,
+          72.747
+        ],
+        "speaker": "Penny",
+        "text": "- Well, it's all good. - Statistically unlikely."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0016",
+        "t": [
+          73.498,
+          75.625
+        ],
+        "speaker": "Leonard",
+        "text": "Just get a hamburger. You like hamburgers."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0017",
+        "t": [
+          75.792,
+          81.006
+        ],
+        "speaker": "Sheldon",
+        "text": "I like the hamburgers where we usually eat. You can't make the assumption that I'll like the hamburgers here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0018",
+        "t": [
+          81.172,
+          83.8
+        ],
+        "speaker": "Leonard",
+        "text": "I'm sorry. Give him a hamburger."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0019",
+        "t": [
+          83.967,
+          88.221
+        ],
+        "speaker": "Penny",
+        "text": "Which one, the classic, the ranch house... The barbeque burger or the Kobe burger?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0020",
+        "t": [
+          88.388,
+          100.15
+        ],
+        "speaker": "Sheldon",
+        "text": "Can't we just go to big boy? - They only have one burger, the big boy. - The barbeque burger's like the big boy. In a world that already includes a big boy... Why would I settle for something like a big boy?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0021",
+        "t": [
+          100.317,
+          102.444
+        ],
+        "speaker": "Penny",
+        "text": "Because you are not at big boy."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0022",
+        "t": [
+          103.445,
+          108.617
+        ],
+        "speaker": "Sheldon",
+        "text": "- Fine. I'll have the barbeque burger. - Make it two. Waitresses don't yell at you at big boy."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q003",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the curly-haired man in the white jacket throughout the video?",
+    "options": [
+      "A. He starts confident and playful, becomes pleased by the response, and grows even more flirtatious.",
+      "B. He starts uncertain, becomes angry and hurt, and ends withdrawn from the exchange.",
+      "C. He remains relaxed and self-assured throughout, with no meaningful change.",
+      "D. He starts confident and playful, becomes startled and embarrassed, then recovers with subdued playfulness."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e05_q003_seg1_51.1_108.7.mp4",
+    "input_video": {
+      "scope_kind": "scene",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 51.1,
+          "end": 108.7,
+          "mmss": "0:51.1–1:48.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0009",
+        "t": [
+          51.142,
+          54.563
+        ],
+        "speaker": "Penny",
+        "text": "My boss says you have to either order or leave and never come back."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0010",
+        "t": [
+          55.23,
+          60.735
+        ],
+        "speaker": "Howard",
+        "text": "What do you recommend for someone with a man-sized appetite... From a morning of weight-training and cardio-funk?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0011",
+        "t": [
+          60.902,
+          61.987
+        ],
+        "speaker": "Penny",
+        "text": "A shower."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0012",
+        "t": [
+          62.863,
+          65.365
+        ],
+        "speaker": "Howard",
+        "text": "I'll take the heart-smart platter."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0013",
+        "t": [
+          65.782,
+          67.617
+        ],
+        "speaker": "Penny",
+        "text": "All right, thank you. And Sheldon?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0014",
+        "t": [
+          67.784,
+          70.036
+        ],
+        "speaker": "Sheldon",
+        "text": "We don't eat here. I don't know what's good."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0015",
+        "t": [
+          70.203,
+          72.747
+        ],
+        "speaker": "Penny",
+        "text": "- Well, it's all good. - Statistically unlikely."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0016",
+        "t": [
+          73.498,
+          75.625
+        ],
+        "speaker": "Leonard",
+        "text": "Just get a hamburger. You like hamburgers."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0017",
+        "t": [
+          75.792,
+          81.006
+        ],
+        "speaker": "Sheldon",
+        "text": "I like the hamburgers where we usually eat. You can't make the assumption that I'll like the hamburgers here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0018",
+        "t": [
+          81.172,
+          83.8
+        ],
+        "speaker": "Leonard",
+        "text": "I'm sorry. Give him a hamburger."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0019",
+        "t": [
+          83.967,
+          88.221
+        ],
+        "speaker": "Penny",
+        "text": "Which one, the classic, the ranch house... The barbeque burger or the Kobe burger?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0020",
+        "t": [
+          88.388,
+          100.15
+        ],
+        "speaker": "Sheldon",
+        "text": "Can't we just go to big boy? - They only have one burger, the big boy. - The barbeque burger's like the big boy. In a world that already includes a big boy... Why would I settle for something like a big boy?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0021",
+        "t": [
+          100.317,
+          102.444
+        ],
+        "speaker": "Penny",
+        "text": "Because you are not at big boy."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0022",
+        "t": [
+          103.445,
+          108.617
+        ],
+        "speaker": "Sheldon",
+        "text": "- Fine. I'll have the barbeque burger. - Make it two. Waitresses don't yell at you at big boy."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde waitress throughout the video?",
+    "options": [
+      "A. She begins politely attentive, becomes amused and curious, but ends guarded and disappointed.",
+      "B. She begins dismissive, grows embarrassed, and ends irritated and withdrawn.",
+      "C. She begins politely attentive, becomes amused and curious, and ends warmly encouraging.",
+      "D. She remains detached and professionally focused throughout."
+    ],
+    "answer": "C",
+    "video_name": "thebigbang_g1_2_s01e05_q004_seg1_109.8_200.5.mp4",
+    "input_video": {
+      "scope_kind": "scene",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 109.8,
+          "end": 200.5,
+          "mmss": "1:49.8–3:20.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0023",
+        "t": [
+          109.826,
+          111.202
+        ],
+        "speaker": "Leonard",
+        "text": "Hey, Leonard. Hi, guys."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0024",
+        "t": [
+          111.369,
+          112.537
+        ],
+        "speaker": "unknown",
+        "text": "- Hey. - Hey, Leslie."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0025",
+        "t": [
+          112.704,
+          116.416
+        ],
+        "speaker": "Sheldon",
+        "text": "- I didn't know you ate here. - We don't. This is a disturbing aberration."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0026",
+        "t": [
+          116.583,
+          119.794
+        ],
+        "speaker": "Leonard",
+        "text": "Leslie, this is penny, she lives across the hall from Sheldon and me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0027",
+        "t": [
+          119.961,
+          122.714
+        ],
+        "speaker": "Howard",
+        "text": "And walks in quiet beauty like the night."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0028",
+        "t": [
+          123.34,
+          125.383
+        ],
+        "speaker": "Penny",
+        "text": "Howard, I've asked you not to do that."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0029",
+        "t": [
+          126.426,
+          128.929
+        ],
+        "speaker": "Leonard",
+        "text": "Leslie and I do research together at the university."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0030",
+        "t": [
+          129.137,
+          131.306
+        ],
+        "speaker": "Penny",
+        "text": "Oh, wow. A girl scientist."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0031",
+        "t": [
+          131.473,
+          138.813
+        ],
+        "speaker": "Leslie",
+        "text": "Yep. Come for the breasts, stay for the brains. So I'm glad I ran into you. The physics department string quartet needs a new cellist."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0032",
+        "t": [
+          138.98,
+          140.357
+        ],
+        "speaker": "Leonard",
+        "text": "What happened to Elliott wong?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0033",
+        "t": [
+          140.523,
+          158.708
+        ],
+        "speaker": "Leslie",
+        "text": "Switched over to high-energy radiation research, had a mishap. And now the other guys are uncomfortable sitting next to him. - So are you in? - Yeah, sure. Why not? - We rehearse on Tuesdays at your place. - Why at my place? Yeah, department of energy said our regular space is kind of a hot zone. - Nice meeting you. - Yeah, you too."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0034",
+        "t": [
+          158.875,
+          161.086
+        ],
+        "speaker": "Penny",
+        "text": "Leonard, I didn't know you played the cello."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0035",
+        "t": [
+          161.252,
+          167.968
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, my parents felt that naming me Leonard... And putting me in advanced-placement classes... Wasn't getting me beaten up enough."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0036",
+        "t": [
+          168.718,
+          170.887
+        ],
+        "speaker": "Howard",
+        "text": "If you're into music, I happen to be a human beatbox..."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0037",
+        "t": [
+          171.054,
+          172.639
+        ],
+        "speaker": "Penny",
+        "text": "-Really?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0038",
+        "t": [
+          179.479,
+          185.443
+        ],
+        "speaker": "Penny",
+        "text": "I'm actually not that into music. Your friend's really cute. Anything going on with you two?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0039",
+        "t": [
+          185.986,
+          187.112
+        ],
+        "speaker": "unknown",
+        "text": "Leshe?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0040",
+        "t": [
+          187.278,
+          189.572
+        ],
+        "speaker": "Leonard",
+        "text": "No, no. What, are you kidding?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0041",
+        "t": [
+          189.739,
+          192.742
+        ],
+        "speaker": "Sheldon",
+        "text": "He asked her out once. It was an embarrassing failure."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0042",
+        "t": [
+          193.076,
+          194.119
+        ],
+        "speaker": "Leonard",
+        "text": "Thank you, Sheldon."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0043",
+        "t": [
+          194.285,
+          196.454
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm sorry. Was that supposed to be a secret?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0044",
+        "t": [
+          197.664,
+          200.417
+        ],
+        "speaker": "Penny",
+        "text": "That's too bad. You guys would make a cute couple."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q005",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full video, what emotions does the curly-haired woman with glasses holding the violin experience?",
+    "options": [],
+    "answer": [
+      "pleasure",
+      "engagement"
+    ],
+    "video_name": "thebigbang_g1_2_s01e05_q005_seg1_310.0_458.1.mp4",
+    "input_video": {
+      "scope_kind": "scene",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 310,
+          "end": 458.1,
+          "mmss": "5:10.0–7:38.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0058",
+        "t": [
+          310.026,
+          312.612
+        ],
+        "speaker": "Leslie",
+        "text": "I admire your fingering."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0059",
+        "t": [
+          313.029,
+          314.739
+        ],
+        "speaker": "Leonard",
+        "text": "Thank you."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0060",
+        "t": [
+          315.573,
+          318.701
+        ],
+        "speaker": "Leslie",
+        "text": "Maybe sometime you can try that on my instrument."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0061",
+        "t": [
+          327.502,
+          329.342
+        ],
+        "speaker": "Leslie",
+        "text": "- Leslie: Good night, guys. Good job. - Thanks."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0062",
+        "t": [
+          329.379,
+          330.88
+        ],
+        "speaker": "Female String Quartettist",
+        "text": "See you next week."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0063",
+        "t": [
+          331.214,
+          333.883
+        ],
+        "speaker": "Leonard",
+        "text": "- That was fun. Thanks for including me. - You're welcome."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0064",
+        "t": [
+          334.05,
+          337.262
+        ],
+        "speaker": "Leslie",
+        "text": "If you're up for it, we could practice that middle section again."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0065",
+        "t": [
+          337.428,
+          339.347
+        ],
+        "speaker": "Leonard",
+        "text": "Sure. Why not?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0066",
+        "t": [
+          345.228,
+          351.359
+        ],
+        "speaker": "Leslie",
+        "text": "Just so we're clear, you understand me hanging back to practice with you... Is a pretext for letting you know that I'm sexually available."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0067",
+        "t": [
+          358.783,
+          360.076
+        ],
+        "speaker": "Leonard",
+        "text": "Really?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0068",
+        "t": [
+          360.243,
+          361.619
+        ],
+        "speaker": "Leslie",
+        "text": "Yeah, I'm good to go."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0069",
+        "t": [
+          362.287,
+          364.289
+        ],
+        "speaker": "Leonard",
+        "text": "I thought you weren't interested in me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0070",
+        "t": [
+          364.455,
+          368.918
+        ],
+        "speaker": "Leslie",
+        "text": "That was before I saw you handling that beautiful piece of wood between your legs."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0071",
+        "t": [
+          370.795,
+          372.338
+        ],
+        "speaker": "Leonard",
+        "text": "You mean my cello."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0072",
+        "t": [
+          372.505,
+          377.177
+        ],
+        "speaker": "Leslie",
+        "text": "No, I mean the obvious, crude double entendre. I'm seducing you."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0073",
+        "t": [
+          378.386,
+          380.305
+        ],
+        "speaker": "Leonard",
+        "text": "No kidding."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0074",
+        "t": [
+          380.597,
+          385.894
+        ],
+        "speaker": "Leslie",
+        "text": "What can I say? I'm a passionate and impulsive woman. So how about it?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0075",
+        "t": [
+          389.022,
+          398.489
+        ],
+        "speaker": "Leslie",
+        "text": "- Is it the waitress? - Penny? What about her? I saw your pupils dilate when you looked at her... Which, unless you're a heroin addict, points to sexual attraction."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0076",
+        "t": [
+          399.908,
+          410.043
+        ],
+        "speaker": "Leonard",
+        "text": "I did have a poppy-seed bagel for breakfast... Which could give a positive urine test for opiates... But certainly not dilate my pupils... So I guess there was no point in bringing it up."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0077",
+        "t": [
+          411.002,
+          413.963
+        ],
+        "speaker": "Leslie",
+        "text": "- You and the waitress, then. - No, no."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0078",
+        "t": [
+          414.13,
+          416.799
+        ],
+        "speaker": "Leonard",
+        "text": "There's nothing going on between penny and me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0079",
+        "t": [
+          417.008,
+          419.427
+        ],
+        "speaker": "Leslie",
+        "text": "So you're open to a sexual relationship?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0080",
+        "t": [
+          420.72,
+          422.597
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah. Yeah, I guess I am."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0081",
+        "t": [
+          422.764,
+          424.349
+        ],
+        "speaker": "Leslie",
+        "text": "- Good. - Yeah, it is."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0082",
+        "t": [
+          424.515,
+          429.479
+        ],
+        "speaker": "Leonard",
+        "text": "It is good. Did you wanna start now?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0083",
+        "t": [
+          429.646,
+          432.774
+        ],
+        "speaker": "Leslie",
+        "text": "- Why don't we finish this section first? - Oh, okay."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0084",
+        "t": [
+          432.941,
+          435.068
+        ],
+        "speaker": "Leonard",
+        "text": "A little musical foreplay. Terrific."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0085",
+        "t": [
+          456.464,
+          458.091
+        ],
+        "speaker": "Leonard",
+        "text": "- I'm... good to go. - Me too."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q006",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde woman in the red sleeveless top throughout the video?",
+    "options": [
+      "A. She starts friendly and curious, becomes mildly surprised, and ends warmly approving without visible discomfort.",
+      "B. She starts friendly and teasing, becomes startled and embarrassed, then ends playful again.",
+      "C. She starts impatient, grows increasingly uncomfortable, and ends irritated and withdrawn.",
+      "D. She remains amused and self-assured throughout, with no meaningful awkwardness."
+    ],
+    "answer": "B",
+    "video_name": "thebigbang_g1_2_s01e05_q006_seg1_470.6_602.4.mp4",
+    "input_video": {
+      "scope_kind": "scene",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 470.6,
+          "end": 602.4,
+          "mmss": "7:50.6–10:02.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0086",
+        "t": [
+          470.603,
+          472.021
+        ],
+        "speaker": "unknown",
+        "text": "Oh. Hey, Sheldon. What's going on?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0087",
+        "t": [
+          472.438,
+          481.823
+        ],
+        "speaker": "Sheldon",
+        "text": "I need your opinion on a matter of semiotics. - I'm sorry? - Semiotics, the study of signs and symbols. It's a branch of philosophy related to linguistics."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0088",
+        "t": [
+          483.324,
+          489.414
+        ],
+        "speaker": "Penny",
+        "text": "Okay, sweetie, I know you think you're explaining yourself... But you're really not."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0089",
+        "t": [
+          491.457,
+          492.792
+        ],
+        "speaker": "Sheldon",
+        "text": "Just come with me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0090",
+        "t": [
+          493.001,
+          497.338
+        ],
+        "speaker": "unknown",
+        "text": "Tell me have you ever really really, really ever loved a woman?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0091",
+        "t": [
+          497.505,
+          501.759
+        ],
+        "speaker": "Sheldon",
+        "text": "Well? - Well, what? - What does it mean?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0092",
+        "t": [
+          502.093,
+          503.928
+        ],
+        "speaker": "Penny",
+        "text": "Come on, you went to college."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0093",
+        "t": [
+          504.095,
+          506.389
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but I was 11."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0094",
+        "t": [
+          508.474,
+          516.482
+        ],
+        "speaker": "Penny",
+        "text": "A tie on the doorknob usually means someone doesn't wanna be disturbed... Because they're, you know, getting busy."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0095",
+        "t": [
+          517.483,
+          519.569
+        ],
+        "speaker": "Sheldon",
+        "text": "So you're saying Leonard has a girl in there?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0096",
+        "t": [
+          519.736,
+          524.532
+        ],
+        "speaker": "Penny",
+        "text": "Well, either that or he's lost his tie rack and gotten really into Bryan Adams."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0097",
+        "t": [
+          525.575,
+          527.618
+        ],
+        "speaker": "unknown",
+        "text": "Leslie: Oh, Leonard, you magnificent beast."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0098",
+        "t": [
+          531.122,
+          533.75
+        ],
+        "speaker": "Penny",
+        "text": "We really shouldn't be standing here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0099",
+        "t": [
+          535.752,
+          537.67
+        ],
+        "speaker": "unknown",
+        "text": "This is very awkward."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0100",
+        "t": [
+          537.92,
+          541.174
+        ],
+        "speaker": "Penny",
+        "text": "Oh, come on. You know, Leonard's had girls over before, right?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0101",
+        "t": [
+          541.341,
+          550.975
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, yes. But there's usually planning, courtship, advance notice. You know, last time, I was able to book a cruise to the arctic to see a solar eclipse."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0102",
+        "t": [
+          551.893,
+          555.396
+        ],
+        "speaker": "Penny",
+        "text": "Wait, wait. You had to leave the state because your roommate was having sex?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0103",
+        "t": [
+          555.563,
+          558.608
+        ],
+        "speaker": "Sheldon",
+        "text": "I didn't have to. The dates just happened to coincide."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0104",
+        "t": [
+          561.444,
+          563.488
+        ],
+        "speaker": "Penny",
+        "text": "So do you know who's in there?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0105",
+        "t": [
+          564.447,
+          566.574
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, there's Leonard."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0106",
+        "t": [
+          569.619,
+          574.082
+        ],
+        "speaker": "Sheldon",
+        "text": "And he's either with Leslie winkle or a 1930s gangster."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0107",
+        "t": [
+          576.125,
+          583.925
+        ],
+        "speaker": "Penny",
+        "text": "Hmm. Good for him. Good for Leonard. Okay. Night."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0108",
+        "t": [
+          584.092,
+          589.222
+        ],
+        "speaker": "Sheldon",
+        "text": "No, don't. Wait, hold on. - What's the matter? - I don't know what the protocol is here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0109",
+        "t": [
+          591.14,
+          596.02
+        ],
+        "speaker": "Sheldon",
+        "text": "Do I stay? Do I leave? Do I wait to greet them with a refreshing beverage?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0110",
+        "t": [
+          598.106,
+          602.36
+        ],
+        "speaker": "Penny",
+        "text": "Gee, Sheldon, you're asking the wrong girl. I'm usually on the other side of the tie."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q007",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Why does the tall man in the green graphic T-shirt become uneasy? Answer with a brief description of the situation.",
+    "options": [],
+    "answer": "His roommate has a guest without warning him.",
+    "video_name": "thebigbang_g1_2_s01e05_q007_seg1_470.6_602.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 470.6,
+          "end": 602.4,
+          "mmss": "7:50.6–10:02.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0086",
+        "t": [
+          470.603,
+          472.021
+        ],
+        "speaker": "unknown",
+        "text": "Oh. Hey, Sheldon. What's going on?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0087",
+        "t": [
+          472.438,
+          481.823
+        ],
+        "speaker": "Sheldon",
+        "text": "I need your opinion on a matter of semiotics. - I'm sorry? - Semiotics, the study of signs and symbols. It's a branch of philosophy related to linguistics."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0088",
+        "t": [
+          483.324,
+          489.414
+        ],
+        "speaker": "Penny",
+        "text": "Okay, sweetie, I know you think you're explaining yourself... But you're really not."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0089",
+        "t": [
+          491.457,
+          492.792
+        ],
+        "speaker": "Sheldon",
+        "text": "Just come with me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0090",
+        "t": [
+          493.001,
+          497.338
+        ],
+        "speaker": "unknown",
+        "text": "Tell me have you ever really really, really ever loved a woman?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0091",
+        "t": [
+          497.505,
+          501.759
+        ],
+        "speaker": "Sheldon",
+        "text": "Well? - Well, what? - What does it mean?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0092",
+        "t": [
+          502.093,
+          503.928
+        ],
+        "speaker": "Penny",
+        "text": "Come on, you went to college."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0093",
+        "t": [
+          504.095,
+          506.389
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but I was 11."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0094",
+        "t": [
+          508.474,
+          516.482
+        ],
+        "speaker": "Penny",
+        "text": "A tie on the doorknob usually means someone doesn't wanna be disturbed... Because they're, you know, getting busy."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0095",
+        "t": [
+          517.483,
+          519.569
+        ],
+        "speaker": "Sheldon",
+        "text": "So you're saying Leonard has a girl in there?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0096",
+        "t": [
+          519.736,
+          524.532
+        ],
+        "speaker": "Penny",
+        "text": "Well, either that or he's lost his tie rack and gotten really into Bryan Adams."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0097",
+        "t": [
+          525.575,
+          527.618
+        ],
+        "speaker": "unknown",
+        "text": "Leslie: Oh, Leonard, you magnificent beast."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0098",
+        "t": [
+          531.122,
+          533.75
+        ],
+        "speaker": "Penny",
+        "text": "We really shouldn't be standing here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0099",
+        "t": [
+          535.752,
+          537.67
+        ],
+        "speaker": "unknown",
+        "text": "This is very awkward."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0100",
+        "t": [
+          537.92,
+          541.174
+        ],
+        "speaker": "Penny",
+        "text": "Oh, come on. You know, Leonard's had girls over before, right?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0101",
+        "t": [
+          541.341,
+          550.975
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, yes. But there's usually planning, courtship, advance notice. You know, last time, I was able to book a cruise to the arctic to see a solar eclipse."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0102",
+        "t": [
+          551.893,
+          555.396
+        ],
+        "speaker": "Penny",
+        "text": "Wait, wait. You had to leave the state because your roommate was having sex?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0103",
+        "t": [
+          555.563,
+          558.608
+        ],
+        "speaker": "Sheldon",
+        "text": "I didn't have to. The dates just happened to coincide."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0104",
+        "t": [
+          561.444,
+          563.488
+        ],
+        "speaker": "Penny",
+        "text": "So do you know who's in there?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0105",
+        "t": [
+          564.447,
+          566.574
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, there's Leonard."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0106",
+        "t": [
+          569.619,
+          574.082
+        ],
+        "speaker": "Sheldon",
+        "text": "And he's either with Leslie winkle or a 1930s gangster."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0107",
+        "t": [
+          576.125,
+          583.925
+        ],
+        "speaker": "Penny",
+        "text": "Hmm. Good for him. Good for Leonard. Okay. Night."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0108",
+        "t": [
+          584.092,
+          589.222
+        ],
+        "speaker": "Sheldon",
+        "text": "No, don't. Wait, hold on. - What's the matter? - I don't know what the protocol is here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0109",
+        "t": [
+          591.14,
+          596.02
+        ],
+        "speaker": "Sheldon",
+        "text": "Do I stay? Do I leave? Do I wait to greet them with a refreshing beverage?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0110",
+        "t": [
+          598.106,
+          602.36
+        ],
+        "speaker": "Penny",
+        "text": "Gee, Sheldon, you're asking the wrong girl. I'm usually on the other side of the tie."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q008",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Considering the full video, what most directly causes the blonde woman in the red sleeveless top to become embarrassed ? Answer with a brief description of the sound she hears.",
+    "options": [],
+    "answer": "She overhears the woman inside loudly praising the man with glasses.",
+    "video_name": "thebigbang_g1_2_s01e05_q008_seg1_470.6_541.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 470.6,
+          "end": 541.2,
+          "mmss": "7:50.6–9:01.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0086",
+        "t": [
+          470.603,
+          472.021
+        ],
+        "speaker": "unknown",
+        "text": "Oh. Hey, Sheldon. What's going on?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0087",
+        "t": [
+          472.438,
+          481.823
+        ],
+        "speaker": "Sheldon",
+        "text": "I need your opinion on a matter of semiotics. - I'm sorry? - Semiotics, the study of signs and symbols. It's a branch of philosophy related to linguistics."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0088",
+        "t": [
+          483.324,
+          489.414
+        ],
+        "speaker": "Penny",
+        "text": "Okay, sweetie, I know you think you're explaining yourself... But you're really not."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0089",
+        "t": [
+          491.457,
+          492.792
+        ],
+        "speaker": "Sheldon",
+        "text": "Just come with me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0090",
+        "t": [
+          493.001,
+          497.338
+        ],
+        "speaker": "unknown",
+        "text": "Tell me have you ever really really, really ever loved a woman?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0091",
+        "t": [
+          497.505,
+          501.759
+        ],
+        "speaker": "Sheldon",
+        "text": "Well? - Well, what? - What does it mean?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0092",
+        "t": [
+          502.093,
+          503.928
+        ],
+        "speaker": "Penny",
+        "text": "Come on, you went to college."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0093",
+        "t": [
+          504.095,
+          506.389
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but I was 11."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0094",
+        "t": [
+          508.474,
+          516.482
+        ],
+        "speaker": "Penny",
+        "text": "A tie on the doorknob usually means someone doesn't wanna be disturbed... Because they're, you know, getting busy."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0095",
+        "t": [
+          517.483,
+          519.569
+        ],
+        "speaker": "Sheldon",
+        "text": "So you're saying Leonard has a girl in there?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0096",
+        "t": [
+          519.736,
+          524.532
+        ],
+        "speaker": "Penny",
+        "text": "Well, either that or he's lost his tie rack and gotten really into Bryan Adams."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0097",
+        "t": [
+          525.575,
+          527.618
+        ],
+        "speaker": "unknown",
+        "text": "Leslie: Oh, Leonard, you magnificent beast."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0098",
+        "t": [
+          531.122,
+          533.75
+        ],
+        "speaker": "Penny",
+        "text": "We really shouldn't be standing here."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0099",
+        "t": [
+          535.752,
+          537.67
+        ],
+        "speaker": "unknown",
+        "text": "This is very awkward."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0100",
+        "t": [
+          537.92,
+          541.174
+        ],
+        "speaker": "Penny",
+        "text": "Oh, come on. You know, Leonard's had girls over before, right?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the tall man in the green graphic T-shirt throughout the video?",
+    "options": [
+      "A. He starts alarmed and angry, shifts into surprised confusion, and ends resentful and disapproving.",
+      "B. He starts alarmed and angry, becomes relieved and impressed, and ends calm and appreciative.",
+      "C. He starts confused, grows afraid of being wrong, and ends embarrassed and withdrawn.",
+      "D. He starts mildly annoyed, becomes amused by the correction, and ends playfully competitive."
+    ],
+    "answer": "A",
+    "video_name": "thebigbang_g1_2_s01e05_q009_seg1_712.6_808.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 712.6,
+          "end": 808.9,
+          "mmss": "11:52.6–13:28.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0115",
+        "t": [
+          712.637,
+          715.097
+        ],
+        "speaker": "Sheldon",
+        "text": "Someone touched my board."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0116",
+        "t": [
+          718.1,
+          720.144
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, god, my board."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0117",
+        "t": [
+          722.104,
+          725.775
+        ],
+        "speaker": "Sheldon",
+        "text": "Leonard. Leonard!"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0118",
+        "t": [
+          725.942,
+          727.652
+        ],
+        "speaker": "unknown",
+        "text": "Hey, what's the matter?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0119",
+        "t": [
+          727.818,
+          730.029
+        ],
+        "speaker": "Sheldon",
+        "text": "Equations. Someone's tampered with my equations."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0120",
+        "t": [
+          730.196,
+          731.447
+        ],
+        "speaker": "Leonard",
+        "text": "- Are you sure? - Of course."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0121",
+        "t": [
+          731.614,
+          736.285
+        ],
+        "speaker": "Sheldon",
+        "text": "Look at the beta function of quantum chromodynamics. The sign's been changed."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0122",
+        "t": [
+          736.452,
+          740.331
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, yeah. But doesn't that fix the problem you've been having?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0123",
+        "t": [
+          740.498,
+          752.635
+        ],
+        "speaker": "Sheldon",
+        "text": "Are you insane? Are you out of your mind? Are you...? Hey, look, that fixes the problem I've been having. You're welcome. You did this?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0124",
+        "t": [
+          752.802,
+          760.685
+        ],
+        "speaker": "Leslie",
+        "text": "Yeah. I noticed it when I got up to get water, so I fixed it. Now you can show quarks are asymptotically free at high energies. Pretty cool, huh?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0125",
+        "t": [
+          762.436,
+          764.146
+        ],
+        "speaker": "Sheldon",
+        "text": "\"Cool\"?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0126",
+        "t": [
+          764.689,
+          768.317
+        ],
+        "speaker": "Leslie",
+        "text": "Listen, I gotta get to the lab. Thanks for a great night."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0127",
+        "t": [
+          769.36,
+          770.945
+        ],
+        "speaker": "Leonard",
+        "text": "Thank you. I'll see you at work."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0128",
+        "t": [
+          771.862,
+          780.371
+        ],
+        "speaker": "Sheldon",
+        "text": "- Hold on. Hold on. - What? - Who told you you could touch my board? - No one. I don't come into your house and touch your board."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0129",
+        "t": [
+          780.538,
+          782.873
+        ],
+        "speaker": "Leslie",
+        "text": "There are no incorrect equations on my board."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0130",
+        "t": [
+          786.085,
+          789.714
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, that is so, so..."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0131",
+        "t": [
+          791.173,
+          795.052
+        ],
+        "speaker": "Leslie",
+        "text": "I'm sorry, I gotta run. If you come up with an adjective, text me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0132",
+        "t": [
+          798.681,
+          802.351
+        ],
+        "speaker": "Sheldon",
+        "text": "Inconsiderate. That is the adjective. Inconsiderate."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0133",
+        "t": [
+          804.02,
+          808.858
+        ],
+        "speaker": "unknown",
+        "text": "You can stare at your board all day, she's still going to be right. Sheldon: I'm not staring, I'm mulling."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q010",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the blonde woman's warm statement that she is happy for him evoke in the man with glasses and a dark hoodie?",
+    "options": [],
+    "answer": [
+      "doubt/confusion",
+      "sadness"
+    ],
+    "video_name": "thebigbang_g1_2_s01e05_q010_seg1_809.0_887.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 809,
+          "end": 887.2,
+          "mmss": "13:29.0–14:47.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0134",
+        "t": [
+          809.025,
+          815.364
+        ],
+        "speaker": "Penny",
+        "text": "- Oh, hey, Leonard. - Hi. So how's it going?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0135",
+        "t": [
+          817.617,
+          819.744
+        ],
+        "speaker": "Leonard",
+        "text": "Pretty good."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0136",
+        "t": [
+          820.119,
+          823.998
+        ],
+        "speaker": "Penny",
+        "text": "Just pretty good? I'd think you were doing very good."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0137",
+        "t": [
+          825.207,
+          831.422
+        ],
+        "speaker": "Leonard",
+        "text": "\"Pretty, very.\" There's really no objective scale for delineating variations of good. Why do you ask?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0138",
+        "t": [
+          831.589,
+          835.426
+        ],
+        "speaker": "Penny",
+        "text": "Well, a little bird told me that you and Leslie hooked up last night."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0139",
+        "t": [
+          837.261,
+          840.097
+        ],
+        "speaker": "Sheldon",
+        "text": "Sheldon! Sheldon: I'm coming."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0140",
+        "t": [
+          840.264,
+          842.85
+        ],
+        "speaker": "Penny",
+        "text": "So is it serious? Do you like her?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0141",
+        "t": [
+          845.519,
+          851.901
+        ],
+        "speaker": "Leonard",
+        "text": "That's really two different questions. I'm not... Sheldon, we have to go."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0142",
+        "t": [
+          852.068,
+          856.405
+        ],
+        "speaker": "Sheldon",
+        "text": "Boy, you're wound awfully tight for a man who just had sexual intercourse."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0143",
+        "t": [
+          857.823,
+          861.869
+        ],
+        "speaker": "Penny",
+        "text": "All right, well, I'll talk to you later. But I am so happy for you, Leonard."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0144",
+        "t": [
+          863.037,
+          864.747
+        ],
+        "speaker": "Leonard",
+        "text": "Thank you."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0145",
+        "t": [
+          867.291,
+          887.186
+        ],
+        "speaker": "Leonard",
+        "text": "What did she mean, she's happy for me? Is she happy because I'm seeing someone or because she thinks I'm happy? Because anyone who cared for someone would want them to be happy... Even if the reason for their happiness made the first person unhappy. You know, because the second person, though happy... Is now romantically unavailable to the first person."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q011",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the man with glasses and a dark hoodie change before and after the curly-haired woman makes clear that she does not want a relationship?",
+    "options": [],
+    "answer": {
+      "before": [
+        "anticipation",
+        "confidence"
+      ],
+      "after": [
+        "surprise",
+        "sadness",
+        "embarrassment"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e05_q011_seg1_940.1_1042.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 940.1,
+          "end": 1042.8,
+          "mmss": "15:40.1–17:22.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0153",
+        "t": [
+          940.156,
+          941.49
+        ],
+        "speaker": "Leonard",
+        "text": "Hey, Leslie."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0154",
+        "t": [
+          941.657,
+          945.119
+        ],
+        "speaker": "Leslie",
+        "text": "Careful, Leonard. Liquid nitrogen, 320 degrees below zero."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0155",
+        "t": [
+          953.753,
+          956.297
+        ],
+        "speaker": "Leonard",
+        "text": "Why are you smashing a flash-frozen banana?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0156",
+        "t": [
+          956.464,
+          959.508
+        ],
+        "speaker": "Leslie",
+        "text": "Because I got a bowl of cheerios and I couldn't find a knife."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0157",
+        "t": [
+          961.51,
+          965.723
+        ],
+        "speaker": "Leonard",
+        "text": "So anyway, hello."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0158",
+        "t": [
+          968.017,
+          969.518
+        ],
+        "speaker": "Leslie",
+        "text": "What are you doing?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0159",
+        "t": [
+          969.685,
+          977.443
+        ],
+        "speaker": "Leonard",
+        "text": "Just extending the intimacy. Hey, do you wanna slip over to the radiation lab... And share a decontamination shower?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0160",
+        "t": [
+          980.279,
+          984.575
+        ],
+        "speaker": "Leslie",
+        "text": "Okay, what exactly do you think's going on between us?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0161",
+        "t": [
+          985.367,
+          989.705
+        ],
+        "speaker": "Leonard",
+        "text": "I'm not sure, but I think I'm about to discover how the banana felt."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0162",
+        "t": [
+          993.417,
+          1007.264
+        ],
+        "speaker": "Leslie",
+        "text": "Neither of us are neuroscientists, but we both understand the biochemistry of sex. Dopamine in our brains is released across synapses, causing pleasure. Stick electrodes in a rat's brain, give him an orgasm button. He'll push that thing until he starves to death."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0163",
+        "t": [
+          1007.431,
+          1009.308
+        ],
+        "speaker": "Leonard",
+        "text": "Well, who wouldn't? Heh."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0164",
+        "t": [
+          1009.475,
+          1015.731
+        ],
+        "speaker": "Leslie",
+        "text": "The difference between us and the rat... Is you can't stick an electrode in our hypothalamus. That's where you come in."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0165",
+        "t": [
+          1017.733,
+          1023.113
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, well, I'm just glad to be a part of it. Heh. So, what happens now?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0166",
+        "t": [
+          1023.28,
+          1027.034
+        ],
+        "speaker": "Leslie",
+        "text": "Well, I don't know about your sex drive, but I'm probably good till new year's."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0167",
+        "t": [
+          1030.246,
+          1034.708
+        ],
+        "speaker": "Leonard",
+        "text": "Okay. - Thank you. - Thank you."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0168",
+        "t": [
+          1037.545,
+          1040.673
+        ],
+        "speaker": "Leonard",
+        "text": "- You wanna make plans for new year's? - Please, you're smothering me."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0169",
+        "t": [
+          1040.84,
+          1042.716
+        ],
+        "speaker": "unknown",
+        "text": "I'm sorry. I'm sorry."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q012",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the two men's public teasing affects the man with glasses and a dark hoodie?",
+    "options": [
+      "A. He is pleased by the attention and becomes openly excited.",
+      "B. He is startled that the encounter became public, then responds with dry self-assurance.",
+      "C. He is embarrassed and angrily demands that the gossip be removed.",
+      "D. He is confused by the nickname but remains detached once it is explained."
+    ],
+    "answer": "B",
+    "video_name": "thebigbang_g1_2_s01e05_q012_seg1_1043.5_1072.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 1043.5,
+          "end": 1072.2,
+          "mmss": "17:23.5–17:52.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0170",
+        "t": [
+          1043.551,
+          1046.303
+        ],
+        "speaker": "Howard",
+        "text": "Hey, look. It's Dr. Stud."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0171",
+        "t": [
+          1047.555,
+          1048.597
+        ],
+        "speaker": "Leonard",
+        "text": "Doctor what?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0172",
+        "t": [
+          1048.764,
+          1054.728
+        ],
+        "speaker": "Howard",
+        "text": "The blogosphere is abuzzing with news of you and Leslie... Making the bang, bang music."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0173",
+        "t": [
+          1055.271,
+          1061.318
+        ],
+        "speaker": "Leonard",
+        "text": "- Well, how did it get on the Internet? - I put it there. Well, how did you know about it?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0174",
+        "t": [
+          1061.485,
+          1067.116
+        ],
+        "speaker": "Raj",
+        "text": "A little bird told us. Apparently, you are a magnificent beast."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0175",
+        "t": [
+          1069.577,
+          1072.121
+        ],
+        "speaker": "Leonard",
+        "text": "Well, that part's true."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e05_q013",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the tall man in the blue T-shirt throughout the video?",
+    "options": [
+      "A. He starts pleased, becomes irritated, then ends detached from the conversation.",
+      "B. He starts uneasy, becomes embarrassed, then ends disappointed and withdrawn.",
+      "C. He starts amused, becomes confident, then ends annoyed by the interruption.",
+      "D. He starts pleased, becomes briefly embarrassed, then returns to focused engagement."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e05_q013_seg1_1076.8_1179.1.mp4",
+    "input_video": {
+      "scope_kind": "scene",
+      "eps": [
+        "S01E05"
+      ],
+      "segments": [
+        {
+          "ep": "S01E05",
+          "start": 1076.8,
+          "end": 1179.1,
+          "mmss": "17:56.8–19:39.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E05",
+        "unit_id": "u0176",
+        "t": [
+          1076.834,
+          1084.675
+        ],
+        "speaker": "Sheldon",
+        "text": "I think I may have misjudged this restaurant. - No kidding. - I don't wanna go out on a limb... But I think we may be looking at my new Tuesday hamburger."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0177",
+        "t": [
+          1085.801,
+          1089.138
+        ],
+        "speaker": "Leonard",
+        "text": "Your old Tuesday hamburger will be so brokenhearted."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0178",
+        "t": [
+          1089.972,
+          1095.728
+        ],
+        "speaker": "Sheldon",
+        "text": "Way ahead of you. I was thinking of moving big boy to Thursdays and just dropping souplantation."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0179",
+        "t": [
+          1097.897,
+          1103.152
+        ],
+        "speaker": "Sheldon",
+        "text": "The name always confused me, anyway. Souplantation. You can't grow soup."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0180",
+        "t": [
+          1106.071,
+          1109.074
+        ],
+        "speaker": "Penny",
+        "text": "- So how's everything? - Terrific."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0181",
+        "t": [
+          1109.533,
+          1113.245
+        ],
+        "speaker": "Sheldon",
+        "text": "You'll be happy to know I plan to come every Tuesday for the foreseeable future."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0182",
+        "t": [
+          1113.412,
+          1116.332
+        ],
+        "speaker": "Penny",
+        "text": "Really? Oh, yay. Heh."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0183",
+        "t": [
+          1117.124,
+          1120.002
+        ],
+        "speaker": "Sheldon",
+        "text": "Who do I speak to about permanently reserving this table?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0184",
+        "t": [
+          1120.753,
+          1129.887
+        ],
+        "speaker": "Penny",
+        "text": "I don't know, a psychiatrist? Penny: So, hey. - How are things with you and Leslie? - Oh."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0185",
+        "t": [
+          1130.054,
+          1132.765
+        ],
+        "speaker": "Leonard",
+        "text": "To be honest, I don't think it's going to work out."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0186",
+        "t": [
+          1134.058,
+          1140.439
+        ],
+        "speaker": "Penny",
+        "text": "Oh, that's too bad. Well, hey, don't worry. I'm sure there's someone out there who's just right for you."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0187",
+        "t": [
+          1143.525,
+          1150.532
+        ],
+        "speaker": "Leonard",
+        "text": "Well, what did she mean by that? Was that just a generic platitude or was that a subtle bid for attention?"
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0188",
+        "t": [
+          1152.534,
+          1163.545
+        ],
+        "speaker": "Sheldon",
+        "text": "You know why this hamburger surpasses the big boy? This is a single-Decker, whereas the big boy is a double-Decker. This has a much more satisfying meat-to-bun-to-condiment ratio."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0189",
+        "t": [
+          1164.296,
+          1166.882
+        ],
+        "speaker": "Leonard",
+        "text": "- Are you even listening to me? - Of course I'm listening."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0190",
+        "t": [
+          1167.049,
+          1170.719
+        ],
+        "speaker": "Sheldon",
+        "text": "Blah, blah, hopeless penny delusion, blah, blah, blah."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0191",
+        "t": [
+          1172.554,
+          1174.348
+        ],
+        "speaker": "Leonard",
+        "text": "Okay, then."
+      },
+      {
+        "ep": "S01E05",
+        "unit_id": "u0192",
+        "t": [
+          1175.933,
+          1179.061
+        ],
+        "speaker": "Leonard",
+        "text": "You know, you can grow the ingredients for soup."
+      }
+    ]
+  }
+]

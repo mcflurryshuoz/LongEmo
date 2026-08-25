@@ -1,0 +1,1865 @@
+[
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q001",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the blonde woman in gray as the group discusses the woman they met?",
+    "options": [
+      "A. She starts playful, turns embarrassed that the group preferred her twin, then ends relieved.",
+      "B. She starts confused, becomes excited about her twin, then ends proud of the unequal treatment.",
+      "C. She starts playful, grows uneasy realizing they met her twin, then ends sad and resentful.",
+      "D. She starts annoyed, becomes amused by the mix-up, then ends affectionate and nostalgic."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e16_q001_seg1_139.5_201.6.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 139.5,
+          "end": 201.6,
+          "mmss": "2:19.5–3:21.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0021",
+        "t": [
+          139.529,
+          142.365
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "- Okay. - Hey, guys. Hey."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0022",
+        "t": [
+          142.448,
+          144.951
+        ],
+        "speaker": "Joey",
+        "text": "Hey, Pheebs, guess who we saw today."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0023",
+        "t": [
+          145.034,
+          151.707
+        ],
+        "speaker": "Phoebe",
+        "text": "Ooh! Oh, fun! Okay. - Um, Liam Neeson? - No. - Morley Safer? - No. - The woman who cuts my hair? - No."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0024",
+        "t": [
+          151.791,
+          154.252
+        ],
+        "speaker": "Monica",
+        "text": "Okay. Look, this could be a really long game."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0025",
+        "t": [
+          154.335,
+          159.34
+        ],
+        "speaker": "Chandler",
+        "text": "- Your sister, Ursula. - Oh. Really? Yeah, yeah. She works over at that place, uh..."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0026",
+        "t": [
+          159.382,
+          161.3
+        ],
+        "speaker": "Phoebe",
+        "text": "- Riff's. Yeah, I know. - 'Oh, you do?'"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0027",
+        "t": [
+          161.342,
+          163.803
+        ],
+        "speaker": "Chandler",
+        "text": "Because she said you guys haven't talked in like years."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0028",
+        "t": [
+          163.886,
+          165.555
+        ],
+        "speaker": "Phoebe",
+        "text": "Mm-hmm. Yeah."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0029",
+        "t": [
+          167.807,
+          169.976
+        ],
+        "speaker": "Phoebe",
+        "text": "So, um, is she fat?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0030",
+        "t": [
+          172.186,
+          174.939
+        ],
+        "speaker": "Joey",
+        "text": "Not from where I was standing."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0031",
+        "t": [
+          175.022,
+          176.566
+        ],
+        "speaker": "Phoebe",
+        "text": "Where were you standing?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0032",
+        "t": [
+          178.901,
+          182.155
+        ],
+        "speaker": "Rachel",
+        "text": "Uh, Pheebs, so you-you guys just don't get along?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0033",
+        "t": [
+          182.196,
+          201.632
+        ],
+        "speaker": "Phoebe",
+        "text": "It's mostly just dumb sister stuff. You know.. I mean, like everyone always thought of her as the pretty one, you know, and.. Oh! Oh! She was the first one to start walking even though I did it later that same day. But to my parents by then it was like \"Yeah, right. W-what else is new?\""
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q002",
+    "task_type": "contextual_emotion",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes the emotional state of the man in the plaid jacket as he prepares to attend the parenting class with the two women?",
+    "options": [
+      "A. He is genuinely relaxed about the arrangement and treats the others' questions as unnecessary concern.",
+      "B. He is mainly irritated that the women will attend and openly challenges their right to be there.",
+      "C. He tries to project ease, but his hesitation and unnoticed jacket mix-up reveal anxiety and self-consciousness.",
+      "D. He is embarrassed only because he forgot the class time, while remaining confident about the parenting arrangement itself."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e16_q002_seg1_201.716_231.037.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 201.716,
+          "end": 231.037,
+          "mmss": "3:21.7–3:51.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0034",
+        "t": [
+          201.716,
+          205.678
+        ],
+        "speaker": "Man in a plaid jacket",
+        "text": "I'm sorry, I've got to go. I've got parenting class."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0035",
+        "t": [
+          205.72,
+          208.806
+        ],
+        "speaker": "Man in a dark shirt",
+        "text": "I've got earth science, but I'll catch you in gym."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0036",
+        "t": [
+          211.392,
+          214.437
+        ],
+        "speaker": "Woman in a denim vest",
+        "text": "So, is this just going to be you and the baby's mother?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0037",
+        "t": [
+          214.52,
+          220.359
+        ],
+        "speaker": "Man in a plaid jacket",
+        "text": "No. Her partner is going to be there too. We've got dads, we've got lesbians—the whole parenting team."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0038",
+        "t": [
+          221.444,
+          223.321
+        ],
+        "speaker": "Woman in a denim vest",
+        "text": "Well, isn't that going to be weird?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0039",
+        "t": [
+          223.404,
+          228.451
+        ],
+        "speaker": "Man in a plaid jacket",
+        "text": "No, no. It might have been at first, but by now I think I'm pretty comfortable with the whole situation."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0040",
+        "t": [
+          228.493,
+          231.037
+        ],
+        "speaker": "Woman in a red top",
+        "text": "That's my jacket."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0041",
+        "t": [
+          230.2,
+          231.037
+        ],
+        "speaker": "Man in a plaid jacket",
+        "text": "I know."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q003",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering his full introduction at the childbirth class, what emotions does the man wearing the gray plaid shirt experience?",
+    "options": [],
+    "answer": [
+      "disquietment",
+      "embarrassment"
+    ],
+    "video_name": "friends_g1_2_s01e16_q003_seg1_238.8_303.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 238.8,
+          "end": 303.4,
+          "mmss": "3:58.8–5:03.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0041",
+        "t": [
+          238.753,
+          247.553
+        ],
+        "speaker": "Woman",
+        "text": "Hi. We're the Rostins. I'm J.C. And he's Michael. And we're having a boy and a girl."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0042",
+        "t": [
+          247.595,
+          251.808
+        ],
+        "speaker": "Teacher",
+        "text": "Good for you. Alrighty. Next?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0043",
+        "t": [
+          252.475,
+          263.402
+        ],
+        "speaker": "Ross",
+        "text": "Hi, um, I'm, uh.. I'm Ross Geller and, uh that's, that's my boy in there. And this is Carol Willick and this... is Susan Bunch."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0044",
+        "t": [
+          264.946,
+          267.115
+        ],
+        "speaker": "Ross",
+        "text": "Susan is, um, Carol's.."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0045",
+        "t": [
+          272.745,
+          274.831
+        ],
+        "speaker": "Ross",
+        "text": "- Um... - Who's next?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0046",
+        "t": [
+          276.541,
+          277.834
+        ],
+        "speaker": "Teacher",
+        "text": "I'm sorry. I didn't get... Susan is.."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0047",
+        "t": [
+          277.917,
+          279.752
+        ],
+        "speaker": "Ross",
+        "text": "Susan's Carol's, Carol's, Carol's friend."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0048",
+        "t": [
+          279.836,
+          281.546
+        ],
+        "speaker": "Carol",
+        "text": "- Life partner. - Like buddies."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0049",
+        "t": [
+          282.964,
+          284.34
+        ],
+        "speaker": "Susan",
+        "text": "Like lovers."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0050",
+        "t": [
+          284.423,
+          286.551
+        ],
+        "speaker": "Ross",
+        "text": "You know how close women can get."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0051",
+        "t": [
+          287.677,
+          288.928
+        ],
+        "speaker": "Carol",
+        "text": "Susan and I live together."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0052",
+        "t": [
+          288.97,
+          290.513
+        ],
+        "speaker": "Ross",
+        "text": "Although I was married to her."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0053",
+        "t": [
+          290.596,
+          291.973
+        ],
+        "speaker": "Susan",
+        "text": "- Carol, not me. - Uh, right."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0054",
+        "t": [
+          292.056,
+          293.391
+        ],
+        "speaker": "Carol",
+        "text": "- It's a little complicated. - A little."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0055",
+        "t": [
+          293.474,
+          295.852
+        ],
+        "speaker": "Susan",
+        "text": "- But we're fine. - Absolutely."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0056",
+        "t": [
+          296.978,
+          300.481
+        ],
+        "speaker": "Ross",
+        "text": "So twins? That's, like, two births."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q004",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the woman in the blue blazer's suggestive response about the report affect the man in the brown shirt and blue tie?",
+    "options": [
+      "A. He reacts with suspicion, sternness, and cold authority.",
+      "B. He reacts with indifference, calm, and detachment.",
+      "C. He reacts with relief, ease, and professional distance.",
+      "D. He reacts with fluster, attraction, and strained composure."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e16_q004_seg1_310.283_350.74.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 310.283,
+          "end": 350.74,
+          "mmss": "5:10.3–5:50.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0058",
+        "t": [
+          310.283,
+          312.577
+        ],
+        "speaker": "Man in a brown shirt and blue tie",
+        "text": "And the same to you."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0059",
+        "t": [
+          313.578,
+          316.289
+        ],
+        "speaker": "Assistant over intercom",
+        "text": "The woman from accounting is here to see you."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0060",
+        "t": [
+          316.33,
+          318.499
+        ],
+        "speaker": "Man in a brown shirt and blue tie",
+        "text": "Okay. Send her in."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0061",
+        "t": [
+          322.753,
+          325.381
+        ],
+        "speaker": "Man in a brown shirt and blue tie",
+        "text": "Hi. Come on in."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0062",
+        "t": [
+          325.465,
+          327.717
+        ],
+        "speaker": "Woman in a blue blazer",
+        "text": "You wanted to see me?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0063",
+        "t": [
+          327.8,
+          332.013
+        ],
+        "speaker": "Man in a brown shirt and blue tie",
+        "text": "I was going over your data. You've been postdating your Friday numbers."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0064",
+        "t": [
+          332.054,
+          334.015
+        ],
+        "speaker": "Woman in a blue blazer",
+        "text": "Which is bad because...?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0065",
+        "t": [
+          334.056,
+          336.684
+        ],
+        "speaker": "Man in a brown shirt and blue tie",
+        "text": "It throws my WENUS out of whack."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0066",
+        "t": [
+          337.602,
+          339.896
+        ],
+        "speaker": "Woman in a blue blazer",
+        "text": "Excuse me? WENUS?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0067",
+        "t": [
+          339.979,
+          341.397
+        ],
+        "speaker": "Man in a brown shirt and blue tie",
+        "text": "Weekly Estimated Net Usage Statistics."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0068",
+        "t": [
+          341.481,
+          350.74
+        ],
+        "speaker": "Woman in a blue blazer",
+        "text": "Right. It won't happen again. I wouldn't want to do anything to hurt your WENUS."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q005",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the complete interaction, what emotions does the blonde woman in the cream cardigan experience after she gives the man in black permission to date her twin and then sits beside the man in red?",
+    "options": [],
+    "answer": [
+      "sadness"
+    ],
+    "video_name": "friends_g1_2_s01e16_q005_seg1_433.6_508.1.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 433.6,
+          "end": 508.1,
+          "mmss": "7:13.6–8:28.1"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0086",
+        "t": [
+          433.573,
+          434.824
+        ],
+        "speaker": "Chandler",
+        "text": "Hey, where you been?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0087",
+        "t": [
+          434.866,
+          442.081
+        ],
+        "speaker": "Joey",
+        "text": "I went back to Riff's. I think Ursula likes me. All I ordered was coffee. She brought me a tuna melt and four plates of curly fries."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0088",
+        "t": [
+          444.5,
+          446.169
+        ],
+        "speaker": "Chandler",
+        "text": "Score."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0089",
+        "t": [
+          447.295,
+          450.798
+        ],
+        "speaker": "Joey",
+        "text": "- She is so hot. - Yeah, listen. Okay."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0090",
+        "t": [
+          450.84,
+          455.261
+        ],
+        "speaker": "Chandler",
+        "text": "Before you do anything Joey-like you might wanna run it by, uh.."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0091",
+        "t": [
+          456.637,
+          457.597
+        ],
+        "speaker": "unknown",
+        "text": "- Yeah? - Yeah."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0092",
+        "t": [
+          457.68,
+          458.973
+        ],
+        "speaker": "Joey",
+        "text": "Yeah. Pheebs?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0093",
+        "t": [
+          459.015,
+          460.391
+        ],
+        "speaker": "Phoebe",
+        "text": "Yeah."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0094",
+        "t": [
+          460.475,
+          462.894
+        ],
+        "speaker": "Joey",
+        "text": "Do you think it would be okay if I asked out your sister?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0095",
+        "t": [
+          462.977,
+          467.523
+        ],
+        "speaker": "Phoebe",
+        "text": "Why? Why would you want to do that? Why?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0096",
+        "t": [
+          467.565,
+          471.027
+        ],
+        "speaker": "Joey",
+        "text": "Well, so that if we went out on a date she'd be there."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0097",
+        "t": [
+          475.99,
+          491.047
+        ],
+        "speaker": "Phoebe",
+        "text": "Well, I mean, I'm not my sister's you know, whatever and, uh.. I mean... it's true we were one egg once but, uh.. You know, we've grown apart so, um.. I don't know. Why not? Okay."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0098",
+        "t": [
+          491.088,
+          492.465
+        ],
+        "speaker": "Joey",
+        "text": "Cool. Thanks."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0099",
+        "t": [
+          496.385,
+          497.512
+        ],
+        "speaker": "Ross",
+        "text": "You okay?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0100",
+        "t": [
+          497.553,
+          499.722
+        ],
+        "speaker": "Phoebe",
+        "text": "Yeah. I'm fine."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0101",
+        "t": [
+          499.764,
+          501.557
+        ],
+        "speaker": "Ross",
+        "text": "You wanna watch \"Laverne y Shirley?\""
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0102",
+        "t": [
+          501.641,
+          504.811
+        ],
+        "speaker": "unknown",
+        "text": "Cinco, seis, siete, ocho!"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0103",
+        "t": [
+          504.852,
+          506.562
+        ],
+        "speaker": "women on TV",
+        "text": "'Schlemiel! Schlamazel!'"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0104",
+        "t": [
+          506.604,
+          508.064
+        ],
+        "speaker": "unknown",
+        "text": "'Hasenpfeffer Incorporado!'"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q006",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Considering the full video, which option best describes how the emotions of the man in the blue shirt and dark vest develop during the parenting exercise?",
+    "options": [
+      "A. He begins uneasy, grows defensive over role choice, and ends embarrassed after losing the coin toss.",
+      "B. He begins eager to play the mother, becomes amused by his partner, and ends proud after the exercise.",
+      "C. He starts annoyed at her absence, becomes relieved when it ends, then ends warmly reconciled.",
+      "D. He stays focused on learning, treats the role dispute as a joke, and ends confused by the instructor's language."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e16_q006_seg1_517.698_594.317.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 517.698,
+          "end": 594.317,
+          "mmss": "8:37.7–9:54.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0105",
+        "t": [
+          517.698,
+          522.745
+        ],
+        "speaker": "Man in a blue shirt and dark vest",
+        "text": "Hi. Sorry I'm late. Where's the baby's mother?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0106",
+        "t": [
+          522.787,
+          528.584
+        ],
+        "speaker": "Curly-haired woman in a black blazer",
+        "text": "She's stuck at school. You can go if you want; I'll get the information."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0107",
+        "t": [
+          528.626,
+          534.674
+        ],
+        "speaker": "Man in a blue shirt and dark vest",
+        "text": "No, I think I should stay. We should both know what's going on."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0108",
+        "t": [
+          534.757,
+          538.719
+        ],
+        "speaker": "Curly-haired woman in a black blazer",
+        "text": "Oh, good. This will be fun."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0109",
+        "t": [
+          538.761,
+          548.438
+        ],
+        "speaker": "Instructor in blue",
+        "text": "We're going to start with basic third-stage breathing exercises. Mommies lie back, and coaches support the head."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0110",
+        "t": [
+          554.777,
+          556.946
+        ],
+        "speaker": "Class participants",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0111",
+        "t": [
+          556.988,
+          558.531
+        ],
+        "speaker": "Curly-haired woman in a black blazer",
+        "text": "I'm supposed to be the mommy?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0112",
+        "t": [
+          558.614,
+          561.951
+        ],
+        "speaker": "Man in a blue shirt and dark vest",
+        "text": "I'm going to play my sperm card one more time."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0113",
+        "t": [
+          563.87,
+          567.832
+        ],
+        "speaker": "Curly-haired woman in a black blazer",
+        "text": "Why should I miss out on the coaching just because I'm a woman?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0114",
+        "t": [
+          567.915,
+          569.959
+        ],
+        "speaker": "Man in a blue shirt and dark vest",
+        "text": "What do you propose?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0115",
+        "t": [
+          570.001,
+          571.919
+        ],
+        "speaker": "Curly-haired woman in a black blazer",
+        "text": "We'll flip for it."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0116",
+        "t": [
+          571.961,
+          574.13
+        ],
+        "speaker": "Man in a blue shirt and dark vest",
+        "text": "No. Heads."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0117",
+        "t": [
+          574.172,
+          576.799
+        ],
+        "speaker": "Curly-haired woman in a black blazer",
+        "text": "On your back, Mom."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0118",
+        "t": [
+          580.511,
+          583.931
+        ],
+        "speaker": "Instructor in blue",
+        "text": "Take a nice cleansing breath."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0119",
+        "t": [
+          588.436,
+          594.317
+        ],
+        "speaker": "Instructor in blue",
+        "text": "Imagine the birth canal opening like a flower."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q007",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the seated man as his supervisor explains the layoffs?",
+    "options": [
+      "A. He starts curious, becomes proud when told he is safe, then grows excited about new authority.",
+      "B. He starts fearing for his job, feels brief relief, then turns worried about dismissing the waiting woman.",
+      "C. He starts angry about the layoffs, feels disappointed to remain, then becomes amused by the dismissal target.",
+      "D. He starts worried, stays frightened even after being safe, then ends relieved the supervisor handles it."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e16_q007_seg1_605.5_637.0.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 605.5,
+          "end": 637,
+          "mmss": "10:05.5–10:37.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0120",
+        "t": [
+          605.536,
+          607.413
+        ],
+        "speaker": "Chandler",
+        "text": "Mr. D., how's it going, sir?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0121",
+        "t": [
+          607.455,
+          618.007
+        ],
+        "speaker": "Mr. Douglas",
+        "text": "Uh, it's been better. The Annual Net Usage Statistics are in. - And? - It's pretty ugly. We haven't seen an ANUS this bad since the '70s."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0122",
+        "t": [
+          619.634,
+          621.01
+        ],
+        "speaker": "Chandler",
+        "text": "So, what does this mean?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0123",
+        "t": [
+          621.093,
+          623.846
+        ],
+        "speaker": "Mr. Douglas",
+        "text": "We'll be gonna be laying off people in every department."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0124",
+        "t": [
+          623.93,
+          627.6
+        ],
+        "speaker": "Chandler",
+        "text": "Hey, listen, I know I came in late last week but I slept funny and my hair was very very..."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0125",
+        "t": [
+          627.683,
+          630.52
+        ],
+        "speaker": "Mr. Douglas",
+        "text": "Not you. Relax."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0126",
+        "t": [
+          632.897,
+          635.399
+        ],
+        "speaker": "Mr. Douglas",
+        "text": "Ever have to fire anyone?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0127",
+        "t": [
+          636.275,
+          637.026
+        ],
+        "speaker": "Chandler",
+        "text": "'Nina?'"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q008",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes how the emotions of the man in the gray suit and red tie develop as he tries to speak to the woman in the red blazer?",
+    "options": [
+      "A. He begins stern and prepared to criticize, becomes angry at being interrupted, and ends satisfied.",
+      "B. He begins tense and rehearsing, grows anxious when noticed, then awkwardly changes the subject.",
+      "C. He begins romantically confident, feigns nervousness for sympathy, and ends disappointed by rejection.",
+      "D. He begins guilty over an insult, becomes relieved by forgiveness, and ends calm."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e16_q008_seg1_639.57_668.391.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 639.57,
+          "end": 668.391,
+          "mmss": "10:39.6–11:08.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0128",
+        "t": [
+          639.57,
+          640.863
+        ],
+        "speaker": "Man in a gray suit and red tie",
+        "text": "Hi."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0129",
+        "t": [
+          642.532,
+          646.953
+        ],
+        "speaker": "Man in a gray suit and red tie",
+        "text": "I need to tell you something."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0130",
+        "t": [
+          647.662,
+          648.996
+        ],
+        "speaker": "Woman in a red blazer",
+        "text": "Are you okay?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0131",
+        "t": [
+          650.414,
+          656.712
+        ],
+        "speaker": "Man in a gray suit and red tie",
+        "text": "Yes. Listen, the reason I called you in here today was..."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0132",
+        "t": [
+          658.631,
+          660.299
+        ],
+        "speaker": "Man in a gray suit and red tie",
+        "text": "Please don't hate me."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0133",
+        "t": [
+          661.134,
+          662.26
+        ],
+        "speaker": "Woman in a red blazer",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0134",
+        "t": [
+          663.97,
+          666.347
+        ],
+        "speaker": "Man in a gray suit and red tie",
+        "text": "Would you like to have dinner sometime?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0135",
+        "t": [
+          667.39,
+          668.391
+        ],
+        "speaker": "Woman in a red blazer",
+        "text": "Oh!"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q009",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the dark-haired man's request that the blonde woman try on a sweater affect her once she realizes the gift is actually for her twin?",
+    "options": [
+      "A. She reacts with disappointment, envy, and irritation.",
+      "B. She reacts with warmth, inclusion, and delight.",
+      "C. She reacts with amusement, encouragement, and generosity.",
+      "D. She reacts with fear, refusal, and avoidance."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e16_q009_seg1_842.356_899.647.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 842.356,
+          "end": 899.647,
+          "mmss": "14:02.4–14:59.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0183",
+        "t": [
+          842.356,
+          847.236
+        ],
+        "speaker": "Joey",
+        "text": "Could you do me a favor? Would you try this on? I just want to make sure it fits."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0184",
+        "t": [
+          847.32,
+          851.449
+        ],
+        "speaker": "Phoebe",
+        "text": "My first birthday present! This is really..."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0185",
+        "t": [
+          851.532,
+          855.578
+        ],
+        "speaker": "Joey",
+        "text": "No. It's for Ursula. I just figured, size-wise..."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0186",
+        "t": [
+          856.746,
+          860.75
+        ],
+        "speaker": "Phoebe",
+        "text": "Sure. Yeah. Okay. Fits."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0189",
+        "t": [
+          874.013,
+          878.351
+        ],
+        "speaker": "Joey",
+        "text": "I like her. She's different. There's something about her..."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0190",
+        "t": [
+          878.392,
+          882.105
+        ],
+        "speaker": "Phoebe",
+        "text": "That you like. We get it. You like her. Great."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0192",
+        "t": [
+          886.4,
+          888.611
+        ],
+        "speaker": "Phoebe",
+        "text": "Maybe now it's not okay."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0193",
+        "t": [
+          888.694,
+          893.491
+        ],
+        "speaker": "Joey",
+        "text": "Maybe now I'm not okay with it not being okay."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the man in the tan suit when his supervisor notices that the brunette employee is still working there?",
+    "options": [
+      "A. He calmly admits that he avoided dismissing her and accepts the supervisor's criticism.",
+      "B. He begins proud of keeping her, becomes angry when challenged, and openly refuses the supervisor's order.",
+      "C. He panics, improvises a story, then relaxes once the supervisor accepts it.",
+      "D. He is amused throughout because the supervisor already knows the truth and is helping."
+    ],
+    "answer": "C",
+    "video_name": "friends_g1_2_s01e16_q010_seg1_915.054_978.701.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 915.054,
+          "end": 978.701,
+          "mmss": "15:15.1–16:18.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0196",
+        "t": [
+          915.054,
+          916.764
+        ],
+        "speaker": "Chandler",
+        "text": "That's the Chrysler building right there."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0199",
+        "t": [
+          926.149,
+          927.817
+        ],
+        "speaker": "Mr. Douglas",
+        "text": "She's still here."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0200",
+        "t": [
+          927.859,
+          947.253
+        ],
+        "speaker": "Chandler",
+        "text": "Didn't I memo you? After I let her go, I got a call from her psychiatrist. She took the news rather badly. He mentioned the word frenzy."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0202",
+        "t": [
+          948.629,
+          960.141
+        ],
+        "speaker": "Chandler",
+        "text": "She is whoo-whoo-whoo! If you asked her right now she would have no recollection of being fired at all."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0204",
+        "t": [
+          963.978,
+          969.484
+        ],
+        "speaker": "Chandler",
+        "text": "I've decided not to fire her again until I can be assured she will be no threat to herself or others."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0205",
+        "t": [
+          970.651,
+          975.156
+        ],
+        "speaker": "Mr. Douglas",
+        "text": "You never really know what's going on inside a person's head."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0206",
+        "t": [
+          975.198,
+          978.701
+        ],
+        "speaker": "Chandler",
+        "text": "I guess that's why they call it psychology, sir."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q011",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the childbirth film affect the pregnant woman in overalls, and what happens when the two people beside her try to reassure her?",
+    "options": [
+      "A. She reacts with joy, calm, and growing eagerness for labor.",
+      "B. She reacts with boredom, detachment, and indifference.",
+      "C. She reacts with anger, blame, and selective calm.",
+      "D. She reacts with fear, distress, and only partial reassurance."
+    ],
+    "answer": "D",
+    "video_name": "friends_g1_2_s01e16_q011_seg1_981.537_1050.69.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 981.537,
+          "end": 1050.69,
+          "mmss": "16:21.5–17:30.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0207",
+        "t": [
+          981.537,
+          987.877
+        ],
+        "speaker": "Soothing Male Voice",
+        "text": "The sound mom and dad never forget. This is the miracle of birth."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0208",
+        "t": [
+          987.96,
+          993.633
+        ],
+        "speaker": "Teacher",
+        "text": "And that's having a baby."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0210",
+        "t": [
+          1001.808,
+          1004.519
+        ],
+        "speaker": "Carol",
+        "text": "It's impossible. It's just impossible."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0213",
+        "t": [
+          1010.108,
+          1012.693
+        ],
+        "speaker": "Carol",
+        "text": "I am not doing that."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0215",
+        "t": [
+          1016.364,
+          1020.993
+        ],
+        "speaker": "Ross",
+        "text": "It'll just stay in. Everything's going to be alright."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0216",
+        "t": [
+          1021.035,
+          1028.251
+        ],
+        "speaker": "Carol",
+        "text": "What do you know? No one's pushing a pot roast through your nostril."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0217",
+        "t": [
+          1029.293,
+          1032.046
+        ],
+        "speaker": "Susan",
+        "text": "Cleansing breath."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0218",
+        "t": [
+          1033.965,
+          1050.69
+        ],
+        "speaker": "Susan",
+        "text": "I know it's frightening, but the birth part is just one day. When it's over we're all going to be parents for the rest of our lives."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q012",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What realization makes the man in the light shirt and dark vest anxious about becoming a father?",
+    "options": [
+      "A. He realizes the baby will depend on him and be waiting, making the responsibility immediate.",
+      "B. He remembers that Carol has left him and he has lost his marriage and home.",
+      "C. He is told by his friends that fathers always mess up their children.",
+      "D. He notices his pet monkey acting like a baby and worries he cannot tell them apart."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e16_q012_seg1_1051.6_1076.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 1051.6,
+          "end": 1076.8,
+          "mmss": "17:31.6–17:56.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0219",
+        "t": [
+          1051.566,
+          1053.609
+        ],
+        "speaker": "Ross",
+        "text": "I'm going to be a father."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0220",
+        "t": [
+          1054.694,
+          1056.154
+        ],
+        "speaker": "Rachel",
+        "text": "This is just occurring to you?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0221",
+        "t": [
+          1056.237,
+          1060.616
+        ],
+        "speaker": "Ross",
+        "text": "I always knew I was having a baby. I just never realized the baby was having me."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0222",
+        "t": [
+          1061.409,
+          1063.202
+        ],
+        "speaker": "Rachel",
+        "text": "Oh, you're gonna be great."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0223",
+        "t": [
+          1063.244,
+          1071.294
+        ],
+        "speaker": "Ross",
+        "text": "How can you say that? I can't even get Marcel to stop eating the bath mat. How am I gonna raise a kid?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0224",
+        "t": [
+          1071.335,
+          1076.799
+        ],
+        "speaker": "Chandler",
+        "text": "You know, Ross, some scientists are now saying that-that monkeys and babies are actually different."
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q013",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How do the brunette employee's suspicions and the assistant's accidental revelation affect the man in the gray suit during their office conversation?",
+    "options": [
+      "A. He reacts with calm, relief, and openness.",
+      "B. He reacts with evasion, panic, and desperation.",
+      "C. He reacts with anger, dismissal, and coldness.",
+      "D. He reacts with amusement, confidence, and satisfaction."
+    ],
+    "answer": "B",
+    "video_name": "friends_g1_2_s01e16_q013_seg1_1117.34_1165.721.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 1117.34,
+          "end": 1165.721,
+          "mmss": "18:37.3–19:25.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0230",
+        "t": [
+          1117.34,
+          1123.846
+        ],
+        "speaker": "Nina",
+        "text": "For the past couple of days people have been avoiding me."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0231",
+        "t": [
+          1123.888,
+          1126.349
+        ],
+        "speaker": "unknown",
+        "text": "And giving me really strange looks."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0232",
+        "t": [
+          1127.058,
+          1132.939
+        ],
+        "speaker": "Chandler",
+        "text": "Maybe that's because they're jealous of us."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0233",
+        "t": [
+          1133.022,
+          1137.276
+        ],
+        "speaker": "Nina",
+        "text": "That doesn't explain why they keep taking my scissors."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0234",
+        "t": [
+          1138.569,
+          1146.16
+        ],
+        "speaker": "Chandler",
+        "text": "Maybe that's because you're getting a big raise."
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0235",
+        "t": [
+          1146.202,
+          1149.163
+        ],
+        "speaker": "Nina",
+        "text": "You're amazing!"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0237",
+        "t": [
+          1152.5,
+          1156.337
+        ],
+        "speaker": "Chandler",
+        "text": "Can we make sure we put through the paperwork on Miss Bookbinder's raise?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0238",
+        "t": [
+          1156.379,
+          1160.55
+        ],
+        "speaker": "Helen",
+        "text": "So, you still want me to send her psychological profile to personnel?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0239",
+        "t": [
+          1160.633,
+          1161.801
+        ],
+        "speaker": "Nina",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0240",
+        "t": [
+          1161.884,
+          1165.721
+        ],
+        "speaker": "Chandler",
+        "text": "Helen drinks. Will you marry me?"
+      }
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g1_2_s01e16_q014",
+    "task_type": "emotion_cause",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "What event causes the brunette woman outside the window to become frightened and call to the older man below?",
+    "options": [
+      "A. She loses her footing taking down the lights and is left clinging outside the window.",
+      "B. She is startled by a pigeon landing on the ledge and steps backward.",
+      "C. She slips on ice on the fire escape while climbing back inside.",
+      "D. She is pushed by her friend who wants her to come back into the apartment."
+    ],
+    "answer": "A",
+    "video_name": "friends_g1_2_s01e16_q014_seg1_1328.4_1356.5.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E16"
+      ],
+      "segments": [
+        {
+          "ep": "S01E16",
+          "start": 1328.4,
+          "end": 1356.5,
+          "mmss": "22:08.4–22:36.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E16",
+        "unit_id": "u0267",
+        "t": [
+          1328.384,
+          1331.721
+        ],
+        "speaker": "Monica",
+        "text": "Rachel, what are you doing? It's freezing out here. Would you come back inside?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0268",
+        "t": [
+          1331.762,
+          1340.646
+        ],
+        "speaker": "Rachel",
+        "text": "No, no, no, no, no. You wanted me to take 'em down so... I'm taking them down, okay? Whoa. Whoa!"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0269",
+        "t": [
+          1340.73,
+          1342.857
+        ],
+        "speaker": "Monica",
+        "text": "Oh, my God. Rachel!"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0270",
+        "t": [
+          1342.899,
+          1351.991
+        ],
+        "speaker": "Rachel",
+        "text": "- Rachel! - I'm okay! I'm okay! Mr. Heckles? Mr. Heckles, could you, could you help me, please?"
+      },
+      {
+        "ep": "S01E16",
+        "unit_id": "u0271",
+        "t": [
+          1353.534,
+          1356.454
+        ],
+        "speaker": "Mr.Heckles",
+        "text": "See, this is just the kind of thing I was talking about."
+      }
+    ]
+  }
+]

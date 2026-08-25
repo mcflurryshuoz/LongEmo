@@ -1,177 +1,281 @@
 # LongEmoBench
 
-> 中文文档见 [README_zh.md](README_zh.md)。
+LongEmoBench is a benchmark for emotion understanding in long videos. This
+directory provides question data, conventions for source and processed videos,
+video preprocessing scripts, and code for model inference and scoring.
 
-LongEmoBench is a long-video emotion understanding benchmark built on TV sitcoms.
-The current release covers clip/event-level questions: **1,476 questions across 7
-series** (Frasier, Friends, How I Met Your Mother, Malcolm in the Middle, Modern
-Family, The Big Bang Theory, Will & Grace), each grounded in a specific video
-segment with time-aligned subtitles.
-
-This repository contains the full evaluation toolkit: dataset validation, video
-preprocessing, inference runners, and the formal scorer.
-
-- **Dataset**: https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench
-
-## 1. Data
-
-```
-LongEmoBench (Hugging Face)
-├── questions/<series>/grade_1/<episode>.json   # 1,476 questions (149 files)
-├── g1_clips/                                   # 1,476 pre-cut question clips (source quality)
-└── original_videos/<series>/<episode>.mp4      # original episodes
+```text
+LongEmoBench/
+├── data/                         # benchmark questions
+│   └── <series>/
+│       ├── g1_clip/              # clip-level questions
+│       └── g2_episode/           # episode-level questions
+├── videos/
+│   ├── sources/<series>/         # source episodes and valid_ranges.json
+│   └── processed/
+│       ├── clips/                # media used by g1_clip questions
+│       └── episodes/             # episodes with opening/credits removed
+├── preprocess/                   # video preprocessing
+└── evaluation/                   # inference and scoring
+    └── inference/
 ```
 
-Download:
+## Video Granularities
+
+Questions live under `LongEmoBench/data/<series>/g1_clip` and
+`LongEmoBench/data/<series>/g2_episode`.
+
+`g1_clip` is the clip-level setting. Each question provides one short video
+clip relevant to the question and evaluates emotion recognition and emotional
+reasoning within a local scene.
+
+`g2_episode` is the episode-level setting. Each question provides a complete
+episode with its opening and credits removed and evaluates the ability to
+analyze emotional changes across scenes and integrate emotional information
+over a long temporal span.
+
+## Preprocessing
+
+Source videos can be downloaded from the Hugging Face
+[`videos/sources`](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main/videos/sources)
+directory. Replace `/path/to/source/videos` in the commands below with the
+local download location.
+
+Hugging Face also provides ready-to-use `clips` and `episodes` under
+[`videos/processed`](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main/videos/processed).
+Download these files directly for inference. Run the preprocessing commands
+below only when the inputs need to be regenerated from the source videos.
+
+The expected source layout is:
+
+```text
+/path/to/source/videos/<series>/
+├── S01E01.mp4
+├── S01E02.mp4
+└── valid_ranges.json
+```
+
+`valid_ranges.json` is used by episode preprocessing and is discovered beside
+the source videos automatically. Existing processed videos are skipped.
+
+### Prepare clips
+
+Prepare clips for every series represented under `data/*/g1_clip`:
 
 ```bash
-pip install -U huggingface_hub
-hf download mcflurryshuoz/LongEmoBench --repo-type dataset --local-dir data
+bash preprocess/get_all_clips.sh \
+  all data videos/processed/clips /path/to/source/videos
 ```
 
-You normally only need `questions/` + `g1_clips/`: every question's input video is
-already cut and named deterministically, so inference finds each question's clip by
-name. `original_videos/` is only needed if you want to re-cut clips yourself.
-
-### Question schema
-
-```json
-{
-  "series": "friends",
-  "qid": "g1_2_S01E02_q001",
-  "question_type": "single_choice | multi_select | ranking | open_ended",
-  "question": "... ends with the canonical answer-format instruction ...",
-  "options": ["A. happy", "B. sad", "C. angry"],
-  "answer": "A",
-  "emotion_answer": true,
-  "input_video": {"scope_kind": "event", "eps": ["S01E02"], "segments": [{"ep": "S01E02", "start": 54.9, "end": 82.6}]},
-  "input_transcript": [{"ep": "S01E02", "t": [55.0, 57.2], "text": "..."}]
-}
-```
-
-Gold answers by type: `single_choice` one option letter; `multi_select` a list of
-letters; `ranking` an ordered list of letters (an option may repeat); `open_ended`
-with `emotion_answer: true` an open-vocabulary emotion object — `{"emotion": [...]}`
-or `{"from_emotion": [...], "to_emotion": [...]}` for emotion transitions; other
-`open_ended` a short free-text string.
-
-**Question identity is `series/qid`** — bare qids repeat across series, so every
-index (clip lookup, prediction cache) uses the combined key.
-
-Validate any question file (or the whole `questions/` tree) against the format
-contract:
+Prepare clips for one series:
 
 ```bash
-python3 benchmark/preprocess/check_question_contract.py --questions data/questions
+bash preprocess/get_all_clips.sh \
+  friends data videos/processed/clips /path/to/source/videos
 ```
 
-## 2. Setup
+Prepare every clip referenced by one question file:
 
 ```bash
-pip install -r requirements.txt     # openai + huggingface_hub
+PYTHONPATH=. python3 preprocess/prepare_clips.py \
+  --questions data/friends/g1_clip/s01e01.json \
+  --video-root /path/to/source/videos \
+  --out videos/processed/clips
 ```
 
-Python 3.10+. `ffmpeg` is required only if you re-cut clips or use streaming mode.
-
-## 3. Inference
-
-Two reference runners are included; both talk to any OpenAI-compatible endpoint and
-support resume (re-running skips answered questions).
+Prepare only one question from that file by adding its qid:
 
 ```bash
-# Qwen-Omni (or any OpenAI-compatible video model)
-python3 benchmark/inference/qwen_omni.py \
-  --questions data/questions/friends/grade_1/S01E01.json \
-  --clips-dir data/g1_clips \
-  --base-url "$BASE_URL" --api-key "$API_KEY" \
-  --model qwen3-omni-30b-a3b-instruct \
-  --with-transcript
+PYTHONPATH=. python3 preprocess/prepare_clips.py \
+  --questions data/friends/g1_clip/s01e01.json \
+  --video-root /path/to/source/videos \
+  --out videos/processed/clips \
+  --qid friends/g1_2_s01e01_q001
+```
 
-# Gemini
-export GEMINI_API_KEY=...
-python3 benchmark/inference/gemini.py \
-  --questions data/questions/friends/grade_1/S01E01.json \
-  --clips-dir data/g1_clips \
+Clip filenames come from each question's exact `video_name`. Questions that
+share one canonical interval reuse the same file.
+
+### Prepare episodes
+
+Prepare effective episodes for every series represented under
+`data/*/g2_episode`:
+
+```bash
+bash preprocess/get_all_episodes.sh \
+  all data /path/to/source/videos videos/processed/episodes
+```
+
+Prepare every effective episode for one series:
+
+```bash
+bash preprocess/get_all_episodes.sh \
+  friends data /path/to/source/videos videos/processed/episodes
+```
+
+Prepare one episode only:
+
+```bash
+PYTHONPATH=. python3 preprocess/prepare_episodes.py \
+  --series friends \
+  --video-root /path/to/source/videos \
+  --out videos/processed/episodes \
+  --eps S01E01
+```
+
+Outputs use flat `<out>/<series>_<episode>.mp4` names, such as
+`friends_s01e01.mp4`.
+
+For a local layout where videos and range metadata have different roots, pass
+the ranges root as the fifth argument to `get_all_episodes.sh`:
+
+```bash
+bash preprocess/get_all_episodes.sh \
+  friends data /path/to/source/videos videos/processed/episodes /path/to/ranges/root
+```
+
+## Inference
+
+### Gemini
+
+Run one clip-level question:
+
+```bash
+PYTHONPATH=. python3 evaluation/inference/gemini.py \
+  --questions data/friends/g1_clip/s01e01.json \
+  --clips-dir videos/processed/clips \
   --model gemini-2.5-flash \
-  --with-transcript
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key> \
+  --qid g1_2_s01e01_q001 \
+  --out output/friends_s01e01_q001_pred_gemini-2.5-flash.json
 ```
 
-The prompt contains a fixed response contract plus the question itself (options
-included; `--with-transcript` adds the time-aligned subtitles without speaker
-labels). The model must reply with JSON `{reason, answer}`; the answer format is
-specified by each question's own final instruction.
-
-Output goes to `output/<series>_<episode>_pred_<model>.json`: the question items
-plus, per answered item, `pred_answer` and a `pred_info: {model, reason, raw,
-error}` block.
-
-### Evaluating your own model
-
-You don't have to use the provided runners. Produce a prediction file that mirrors
-the question list and adds `pred_answer` per item (a `pred_info` block is optional),
-then run the scorer on it:
-
-- single-choice: `"B"` &nbsp;·&nbsp; multi-select: `"B D"` &nbsp;·&nbsp; ranking: `"A B C"`
-- open emotion: `{"emotion": ["hurt"]}` or `{"from_emotion": ["anxious"], "to_emotion": ["hurt"]}`
-- other open questions: a short phrase string
-
-## 4. Scoring
+Run every clip-level question in one series:
 
 ```bash
-python3 benchmark/evaluation/run_scoring.py \
-  --pred output/friends_S01E01_pred_<model>.json \
-  --out output/scoring_<model> \
-  --judge-api-key "$JUDGE_API_KEY"
+PYTHONPATH=. python3 evaluation/inference/gemini.py \
+  --questions data/friends/g1_clip/all.json \
+  --clips-dir videos/processed/clips \
+  --model gemini-2.5-flash \
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key>
 ```
 
-Metrics (three tracks):
-
-| Track | Questions | Metric |
-|---|---|---|
-| Accuracy | single_choice, ranking, Yes/No, judged open QA | accuracy (ranking requires the exact gold sequence; Yes/No is deterministic; remaining open QA gets a binary LLM-judge verdict) |
-| Multi-select | multi_select | option-set precision / recall / F1 |
-| Open emotion | `emotion_answer: true` | OV-MER-style GPT grouping, then emotion-cluster P/R/F1; a transition counts as two slots (from / to) |
-
-The judge (grouping + open-answer verdicts) is any OpenAI-compatible model —
-default `deepseek-v4-flash` @ `https://api.deepseek.com`; override with
-`--judge-model/--judge-base-url/--judge-api-key` or `JUDGE_MODEL/JUDGE_BASE_URL/
-JUDGE_API_KEY` env vars. Reference: [OV-MER](https://arxiv.org/abs/2410.01495).
-
-Outputs in `--out`: `summary.md` (human-readable), `metrics.json` (overall + by
-question type / series / emotion slot), `scores.jsonl` (per-question records),
-`gpt_grouping.json` (emotion clusters), plus gold/prediction format issue reports.
-The pred file itself is never modified. Unanswered or errored questions are
-reported as unscored — they never count against accuracy.
-
-**Reproducibility protocol**: LLM-based emotion grouping is not deterministic, so
-generate the grouping once, review `gpt_grouping.json`, then pin it for every model
-with `--reuse-grouping path/to/gpt_grouping.json`. Re-runs against the same `--out`
-directory reuse its grouping automatically, so repeated scoring is bit-identical.
-
-## 5. Re-cutting clips (optional)
-
-Pre-cut clips ship with the dataset. To re-cut from the original episodes
-(time-exact re-encode, source resolution/fps/audio kept):
+Run one episode-level question file by replacing `--clips-dir` with
+`--episodes-dir`:
 
 ```bash
-python3 benchmark/preprocess/prepare_clips.py \
-  --questions data/questions/friends/grade_1/S01E01.json \
-  --video-root data/original_videos \
-  --out data/g1_clips
-
-# every series in one go
-benchmark/get_all_clips.sh all data/questions data/g1_clips data/original_videos
+PYTHONPATH=. python3 evaluation/inference/gemini.py \
+  --questions data/friends/g2_episode/s01e01.json \
+  --episodes-dir videos/processed/episodes \
+  --model gemini-2.5-flash \
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key>
 ```
 
-`benchmark/preprocess/prepare_episodes.py` additionally builds effective full
-episodes (opening/credits removed) for the upcoming episode-level granularities.
+Run every available series for one granularity:
 
-## Repository layout
+```bash
+bash evaluation/inference/run_all.sh \
+  gemini all g1_clip \
+  --clips-dir videos/processed/clips \
+  --model gemini-2.5-flash \
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key>
+```
 
+Use `qwen_omni.py` instead of `gemini.py`, together with an OpenAI-compatible
+Qwen-Omni endpoint, to evaluate Qwen-Omni. The two backends support both video
+granularities.
+
+Each granularity directory contains an `all.json` file with every question for
+that series. If `--out` is omitted, inference writes to `output/` using a name
+derived from the series, granularity, question file, and model.
+
+Each inference run processes one granularity. Inference only consumes media
+produced by `preprocess`; it never cuts or modifies videos. The inference output
+preserves every question and adds `pred_answer` plus `pred_info`, including
+granularity, active template, raw response, parse errors, and transport errors.
+
+Subtitles are included by default without character names or speaker labels.
+Use `--no-transcript` only for a video-and-audio-only ablation. Useful runtime
+options are:
+
+- `--qid`: run only the specified qid; repeat it to select multiple questions.
+- `--out`: choose the prediction JSON path.
+- `--tries`: maximum request attempts per question; default `3`.
+- `--timeout`: timeout in seconds for each API request; default `180`.
+- `--thinking on|off|default`: control provider-side reasoning when supported.
+- `--force`: re-run selected questions even when a cached prediction exists.
+
+The output is rewritten after each question. Re-running the same command resumes
+from that file: successful predictions are reused and transport errors are
+retried. To retry a parse error without re-running the full file, combine its
+`--qid` with `--force` and keep the same `--out`.
+
+## Scoring
+
+Closed answers are scored locally. A text-only LLM judge is required only when
+the prediction file contains answered open-ended questions other than Yes/No.
+For example, score a complete Friends clip-level run with DeepSeek-V4-Flash:
+
+```bash
+PYTHONPATH=. python3 evaluation/run_scoring.py \
+  --pred output/friends_g1_clip_all_pred_gemini-2.5-flash.json \
+  --out runs/friends_g1_clip_all_gemini-2.5-flash_judged_by_deepseek-v4-flash \
+  --model deepseek-v4-flash \
+  --base-url https://api.deepseek.com \
+  --api-key <deepseek-api-key> \
+  --timeout 180
 ```
-benchmark/
-├── common/        # shared: I/O + question keys, format contract, ffmpeg helpers
-├── preprocess/    # dataset contract check, clip cutting, effective episodes
-├── inference/     # prompt assembly + Qwen-Omni / Gemini runners
-└── evaluation/    # formal scorer, OV-MER emotion grouping, LLM judge
+
+If no semantic judge is needed, omit `--model`, `--base-url`, and `--api-key`.
+The judge receives only the question, gold answer, and model answer, and returns
+a binary semantic-equivalence verdict. Closed emotion labels, before/after
+labels, single choice, ranking, and Yes/No are always scored deterministically.
+
+Every original question receives one normalized score. Single-choice, ranking,
+Yes/No, and judged open answers receive 0 or 1. Multi-label emotion answers use
+set F1, `2TP / (2TP + FP + FN)`. Before/after questions average the two
+directional set-F1 scores. Missing predictions and inference errors receive 0.
+
+The cumulative benchmark score is:
+
+```text
+earned_points   = sum(question_score)
+possible_points = number of questions
+overall_score   = earned_points / possible_points
 ```
+
+Combine series by adding their points, not by averaging their percentages:
+
+```text
+all_series_score = sum(series earned_points) / sum(series possible_points)
+```
+
+The same calculation can be applied directly to completed run metrics:
+
+```bash
+jq -s '
+  (map(.earned_points) | add) as $earned |
+  (map(.possible_points) | add) as $possible |
+  {earned_points: $earned, possible_points: $possible,
+   overall_score: ($earned / $possible)}
+' runs/friends/metrics.json runs/thebigbang/metrics.json
+```
+
+`macro_score` is also reported as a task-balanced diagnostic and is not used in
+the cumulative score.
+
+Outputs include `scores.jsonl`, `scores_closed_emotion.jsonl`,
+`scores_questions.jsonl`, `metrics.json`, `prediction_format_issues.json`, and
+`summary.md`:
+
+- `summary.md`: headline cumulative score, coverage, accuracy, and emotion F1.
+- `metrics.json`: all aggregates, including `earned_points`, `possible_points`,
+  `overall_score`, `series_scores`, task scores, and `macro_score`.
+- `scores_questions.jsonl`: one normalized score per original question.
+- `scores.jsonl`: deterministic or judge verdicts for non-emotion questions.
+- `scores_closed_emotion.jsonl`: per-slot label precision, recall, and F1.
+- `prediction_format_issues.json`: outputs that violate the required format.

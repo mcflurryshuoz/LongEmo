@@ -1,0 +1,92 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e12_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which moment does Dennis appear most visibly happy?",
+    "options": [
+      "A. At his first meeting with the group, when he explains why he began graduate school later than Sheldon.",
+      "B. In Sheldon's office, after identifying an error in Sheldon's work and revealing that he surpassed Sheldon's Stephenson Award record.",
+      "C. At his welcome party, when he declines to discuss his research and leaves with Emma to go to the mall.",
+      "D. In the park, when the group later sees him sitting with Emma among the other teenagers."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e12_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which moment does Howard appear most visibly excited and pleased with himself?",
+    "options": [
+      "A. At dinner, when he asks Penny to include him in a hug.",
+      "B. In the apartment, when he proposes using 'biology' to distract Dennis.",
+      "C. Outside Penny's apartment, when he describes the kind of teenage girl they need to find.",
+      "D. At Dennis's welcome party, when he says Dennis only needs to connect with one of the girls present."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e12_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From Sheldon describing his distress at dinner through the men's later request at her doorway, which description best captures Penny's outward emotional trajectory?",
+    "options": [
+      "A. Concern for Sheldon gives way to visible irritation; later, easy friendliness toward the men ends in startled disapproval.",
+      "B. Amused puzzlement remains mixed with concern for Sheldon; later, wary curiosity toward the men ends in startled disapproval.",
+      "C. Amused puzzlement remains mixed with concern for Sheldon; later, easy friendliness toward the men ends in startled disapproval.",
+      "D. Amused puzzlement remains mixed with concern for Sheldon; later, easy friendliness toward the men ends in confused hesitation."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e12_q004",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Considering the group's earlier plan to distract Dennis with romance and what Leonard and Raj later observe in the park, which interpretation best captures their attitude when they say they feel bad and have 'really ruined his life'?",
+    "options": [
+      "A. They sincerely regret the plan because Dennis appears isolated and unhappy after abandoning his academic work.",
+      "B. They show genuine regret, but it is tinged with irony.",
+      "C. They are disappointed because Dennis has resisted their plan and remains completely focused on his research.",
+      "D. Their guilt is replaced by resentment because Dennis resumes competing with Sheldon while maintaining his relationship with Emma."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E12"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e12_q005",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "From being introduced to the group through the welcome party and the later park scene, which description best captures Dennis's main emotional trajectory?",
+    "options": [
+      "A. Cool self-assurance gives way to eager romantic interest and ends in carefree, uninhibited happiness.",
+      "B. Guarded insecurity gives way to eager romantic interest and ends in carefree, uninhibited happiness.",
+      "C. Cool self-assurance gives way to reluctant social compliance and ends in carefree, uninhibited happiness.",
+      "D. Cool self-assurance gives way to eager romantic interest and ends in quiet, restrained contentment."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E12"
+    ]
+  }
+]

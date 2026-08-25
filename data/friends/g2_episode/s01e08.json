@@ -1,0 +1,69 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q001",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "open_ended",
+    "question": "Before the funeral, Monica says her mother told her not to wear her hair up because of her ears. At the reception, what does Judy do and say that shows her attitude has softened? Answer with one short event phrase.",
+    "options": [],
+    "answer": "She moves Monica's hair aside to reveal her ear and compliments her earrings.",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Ross appear saddest?",
+    "options": [
+      "A. Ross leans over his grandmother and speaks to her at her bedside after the nurse steps out.",
+      "B. Ross sits in the hospital waiting area with his parents and aunt.",
+      "C. Ross learns that something has happened to his grandmother after Monica answers the phone.",
+      "D. Ross tells the group at the coffee house that his grandmother died 'twice.'"
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q003",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Monica appear saddest?",
+    "options": [
+      "A. Monica reminisces with Ross and her family about Nana in the hospital waiting area.",
+      "B. Monica takes a phone call from her father at the apartment.",
+      "C. Monica talks with her mother at the funeral reception about how Nana treated her.",
+      "D. Monica leans over her grandmother and speaks to her at her hospital bedside."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E08"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e08_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Chandler appear most frustrated about being perceived as gay?",
+    "options": [
+      "A. When Shelley first reveals that the person she wants to set him up with is a man.",
+      "B. When his friends agree that he has a certain quality.",
+      "C. When he asks Lowell whether Lowell thinks he has that quality.",
+      "D. When he insists that he could attract Brian after being told Brian is out of his league."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E08"
+    ]
+  }
+]

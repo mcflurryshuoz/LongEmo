@@ -1,167 +1,266 @@
 # LongEmoBench
 
-> English version: [README.md](README.md)。
+LongEmoBench 是一个长视频情感理解基准。本目录提供题目数据、源视频与处理后
+视频的目录规范、视频预处理脚本，以及模型推理和评分代码。
 
-LongEmoBench 是一个基于电视情景剧的长视频情感理解基准。当前发布覆盖
-clip/event 粒度：**7 部剧共 1,476 道题**（Frasier、Friends、How I Met Your
-Mother、Malcolm in the Middle、Modern Family、The Big Bang Theory、Will &
-Grace），每道题都锚定在具体的视频片段上，并配有时间对齐的字幕。
-
-本仓库是完整的评测工具链：数据校验、视频预处理、推理脚本、正式评分器。
-
-- **数据集**：https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench
-
-## 1. 数据
-
+```text
+LongEmoBench/
+├── data/                         # 题目数据
+│   └── <series>/
+│       ├── g1_clip/              # 片段级题目
+│       └── g2_episode/           # 整集级题目
+├── videos/
+│   ├── sources/<series>/         # 原始整集与 valid_ranges.json
+│   └── processed/
+│       ├── clips/                # g1_clip 使用的视频
+│       └── episodes/             # 去除片头片尾后的整集
+├── preprocess/                   # 视频预处理脚本
+└── evaluation/                   # 推理和评分代码
+    └── inference/
 ```
-LongEmoBench（Hugging Face）
-├── questions/<剧名>/grade_1/<集号>.json   # 1,476 道题（149 个文件）
-├── g1_clips/                              # 1,476 个预切好的题目片段（原画质）
-└── original_videos/<剧名>/<集号>.mp4       # 原始整集视频
+
+## 视频粒度
+
+`g1_clip` 是片段级输入。每道题提供一个与问题相关的短视频片段，用于评估
+模型对局部场景中的情绪识别和情感推理能力。
+
+`g2_episode` 是整集级输入。每道题提供去除片头和片尾后的完整一集，用于评估
+模型分析跨场景情绪变化，并整合长时间范围内情感信息的能力。
+
+## 视频预处理
+
+原始视频可从 Hugging Face 的
+[`videos/sources`](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main/videos/sources)
+目录下载。下载后将以下命令中的 `/path/to/source/videos` 替换为本地视频目录。
+
+Hugging Face 也会在
+[`videos/processed`](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main/videos/processed)
+目录提供已经处理好的 `clips` 和 `episodes`，可直接下载用于推理。只有需要从
+原始视频重新生成输入视频时，才需要运行下面的预处理命令。
+
+源视频按以下结构存放：
+
+```text
+/path/to/source/videos/<series>/
+├── S01E01.mp4
+├── S01E02.mp4
+└── valid_ranges.json
 ```
 
-下载：
+episode 预处理会自动读取源视频旁边的 `valid_ranges.json`。已经生成的视频
+默认跳过，可以安全地重新运行批处理命令。
+
+### 处理 clip
+
+处理 `data/*/g1_clip` 中涉及的全部剧：
 
 ```bash
-pip install -U huggingface_hub
-hf download mcflurryshuoz/LongEmoBench --repo-type dataset --local-dir data
+bash preprocess/get_all_clips.sh \
+  all data videos/processed/clips /path/to/source/videos
 ```
 
-通常只需要 `questions/` + `g1_clips/`：每道题的输入视频都已切好，文件名是确定性
-的，推理按名字直接找到对应片段。`original_videos/` 仅在你想自己重切片段时需要。
-
-### 题目 schema
-
-```json
-{
-  "series": "friends",
-  "qid": "g1_2_S01E02_q001",
-  "question_type": "single_choice | multi_select | ranking | open_ended",
-  "question": "...（以规范的答案格式指令收尾）...",
-  "options": ["A. happy", "B. sad", "C. angry"],
-  "answer": "A",
-  "emotion_answer": true,
-  "input_video": {"scope_kind": "event", "eps": ["S01E02"], "segments": [{"ep": "S01E02", "start": 54.9, "end": 82.6}]},
-  "input_transcript": [{"ep": "S01E02", "t": [55.0, 57.2], "text": "..."}]
-}
-```
-
-各题型金标：`single_choice` 单个选项字母；`multi_select` 字母列表；`ranking`
-有序字母列表（选项可重复出现）；`open_ended` 且 `emotion_answer: true` 为开放
-词表情感对象——`{"emotion": [...]}` 或转折题的
-`{"from_emotion": [...], "to_emotion": [...]}`；其余 `open_ended` 为短文本。
-
-**题目唯一标识是 `series/qid`**——裸 qid 会跨剧重复，所有索引（找片、预测缓存）
-都用复合键。
-
-校验任意题目文件（或整个 `questions/` 目录）是否符合格式契约：
+只处理一个系列，例如 `friends`：
 
 ```bash
-python3 benchmark/preprocess/check_question_contract.py --questions data/questions
+bash preprocess/get_all_clips.sh \
+  friends data videos/processed/clips /path/to/source/videos
 ```
 
-## 2. 环境
+只处理一个题目文件中引用的 clip：
 
 ```bash
-pip install -r requirements.txt     # openai + huggingface_hub
+PYTHONPATH=. python3 preprocess/prepare_clips.py \
+  --questions data/friends/g1_clip/s01e01.json \
+  --video-root /path/to/source/videos \
+  --out videos/processed/clips
 ```
 
-Python 3.10+。`ffmpeg` 仅在重切片段或使用流式模式时需要。
-
-## 3. 推理
-
-内置两个参考推理脚本，均对接任意 OpenAI 兼容端点，支持断点续跑（重跑自动跳过
-已答的题）。
+只处理该文件中的一道题：
 
 ```bash
-# Qwen-Omni（或任何 OpenAI 兼容的视频模型）
-python3 benchmark/inference/qwen_omni.py \
-  --questions data/questions/friends/grade_1/S01E01.json \
-  --clips-dir data/g1_clips \
-  --base-url "$BASE_URL" --api-key "$API_KEY" \
-  --model qwen3-omni-30b-a3b-instruct \
-  --with-transcript
+PYTHONPATH=. python3 preprocess/prepare_clips.py \
+  --questions data/friends/g1_clip/s01e01.json \
+  --video-root /path/to/source/videos \
+  --out videos/processed/clips \
+  --qid friends/g1_2_s01e01_q001
+```
 
-# Gemini
-export GEMINI_API_KEY=...
-python3 benchmark/inference/gemini.py \
-  --questions data/questions/friends/grade_1/S01E01.json \
-  --clips-dir data/g1_clips \
+clip 文件名严格使用题目中的 `video_name`；引用同一规范时间段的题目会复用
+同一个视频文件。
+
+### 处理 episode
+
+处理 `data/*/g2_episode` 中涉及的全部剧：
+
+```bash
+bash preprocess/get_all_episodes.sh \
+  all data /path/to/source/videos videos/processed/episodes
+```
+
+只处理一个系列，例如 `friends`：
+
+```bash
+bash preprocess/get_all_episodes.sh \
+  friends data /path/to/source/videos videos/processed/episodes
+```
+
+只处理一集：
+
+```bash
+PYTHONPATH=. python3 preprocess/prepare_episodes.py \
+  --series friends \
+  --video-root /path/to/source/videos \
+  --out videos/processed/episodes \
+  --eps S01E01
+```
+
+episode 采用平铺命名，例如：
+
+```text
+videos/processed/episodes/friends_s01e01.mp4
+```
+
+本地视频与 ranges 分开存放时，用第五个参数指定 ranges 根目录：
+
+```bash
+bash preprocess/get_all_episodes.sh \
+  friends data /path/to/source/videos videos/processed/episodes /path/to/ranges/root
+```
+
+## 推理
+
+### Gemini
+
+只推理一道 clip 级问题：
+
+```bash
+PYTHONPATH=. python3 evaluation/inference/gemini.py \
+  --questions data/friends/g1_clip/s01e01.json \
+  --clips-dir videos/processed/clips \
   --model gemini-2.5-flash \
-  --with-transcript
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key> \
+  --qid g1_2_s01e01_q001 \
+  --out output/friends_s01e01_q001_pred_gemini-2.5-flash.json
 ```
 
-Prompt 由固定的响应契约加题目本身组成（选项随题发送；`--with-transcript` 附带
-时间对齐字幕，不含说话人标签）。模型须回复 JSON `{reason, answer}`，答案格式由
-每道题自己的收尾指令规定。
-
-输出写到 `output/<剧名>_<集号>_pred_<模型>.json`：题目列表原样复制，每道已答的
-题追加 `pred_answer` 和 `pred_info: {model, reason, raw, error}` 块。
-
-### 评测你自己的模型
-
-不必使用内置推理脚本。只要产出一个"题目列表 + 每题 `pred_answer`"的预测文件
-（`pred_info` 可选），即可直接交给评分器：
-
-- 单选：`"B"` ；多选：`"B D"` ；排序：`"A B C"`
-- 情感开放题：`{"emotion": ["hurt"]}` 或 `{"from_emotion": ["anxious"], "to_emotion": ["hurt"]}`
-- 其他开放题：一个短语字符串
-
-## 4. 评分
+推理一个系列的全部 clip 级问题：
 
 ```bash
-python3 benchmark/evaluation/run_scoring.py \
-  --pred output/friends_S01E01_pred_<模型>.json \
-  --out output/scoring_<模型> \
-  --judge-api-key "$JUDGE_API_KEY"
+PYTHONPATH=. python3 evaluation/inference/gemini.py \
+  --questions data/friends/g1_clip/all.json \
+  --clips-dir videos/processed/clips \
+  --model gemini-2.5-flash \
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key>
 ```
 
-指标（三条轨道）：
-
-| 轨道 | 题目 | 指标 |
-|---|---|---|
-| Accuracy | 单选、排序、Yes/No、裁判判定的开放题 | 准确率（排序须与金标序列完全一致；Yes/No 确定性判分；其余开放题由 LLM 裁判给二值判定） |
-| Multi-select | 多选 | 选项集合的 precision / recall / F1 |
-| Open emotion | `emotion_answer: true` | OV-MER 式 GPT 语义分组后按情感簇算 P/R/F1；转折题拆 from/to 两个槽位分别计分 |
-
-裁判（分组 + 开放题判定）可用任意 OpenAI 兼容模型——默认
-`deepseek-v4-flash` @ `https://api.deepseek.com`；用
-`--judge-model/--judge-base-url/--judge-api-key` 或
-`JUDGE_MODEL/JUDGE_BASE_URL/JUDGE_API_KEY` 环境变量覆盖。参考：
-[OV-MER](https://arxiv.org/abs/2410.01495)。
-
-`--out` 产物：`summary.md`（人读摘要）、`metrics.json`（总体 + 按题型/剧/情感
-槽位细分）、`scores.jsonl`（逐题明细）、`gpt_grouping.json`（情感簇），以及金标
-/预测格式问题报告。pred 文件本身不会被修改。未作答或出错的题记为"未评"，不计入
-准确率分母。
-
-**可复现规程**：LLM 情感分组有随机性——第一次评分生成分组后，人工检查
-`gpt_grouping.json`，之后所有模型统一用 `--reuse-grouping` 指向这份文件。同一
-`--out` 目录重跑会自动复用自己的分组，评分结果逐位一致。
-
-## 5. 重切片段（可选）
-
-数据集已附带预切片段。如需从原片重切（时间精确重编码，保持原分辨率/帧率/声道）：
+推理一个 episode 级问题文件时，使用 `--episodes-dir`：
 
 ```bash
-python3 benchmark/preprocess/prepare_clips.py \
-  --questions data/questions/friends/grade_1/S01E01.json \
-  --video-root data/original_videos \
-  --out data/g1_clips
-
-# 全部剧一把跑
-benchmark/get_all_clips.sh all data/questions data/g1_clips data/original_videos
+PYTHONPATH=. python3 evaluation/inference/gemini.py \
+  --questions data/friends/g2_episode/s01e01.json \
+  --episodes-dir videos/processed/episodes \
+  --model gemini-2.5-flash \
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key>
 ```
 
-`benchmark/preprocess/prepare_episodes.py` 另可生成去掉片头/片尾的有效整集视频，
-供后续整集级粒度使用。
+批量推理某个粒度下的全部系列：
 
-## 仓库结构
+```bash
+bash evaluation/inference/run_all.sh \
+  gemini all g1_clip \
+  --clips-dir videos/processed/clips \
+  --model gemini-2.5-flash \
+  --base-url https://generativelanguage.googleapis.com/v1beta/openai/ \
+  --api-key <gemini-api-key>
+```
 
+如需评估 Qwen-Omni，将 `gemini.py` 换成 `qwen_omni.py`，并提供兼容 OpenAI
+格式的 Qwen-Omni API 地址。两个后端都支持 `g1_clip` 和 `g2_episode`。
+
+每个粒度目录中的 `all.json` 包含该系列的全部问题。不指定 `--out` 时，结果
+会按照系列、粒度、题目文件和模型名称自动写入 `output/`。
+
+每次推理只处理一种粒度。推理代码只读取 `preprocess` 已经生成的视频，不会
+在推理过程中裁剪或修改视频。输出保留原始问题，并为每道题增加
+`pred_answer` 和 `pred_info`；后者记录原始响应、解析错误和请求错误。
+
+推理默认加入题目字幕，但字幕不包含角色名或说话人标签。只有进行纯视频与
+音频消融实验时才使用 `--no-transcript`。常用参数包括：
+
+- `--qid`：只运行指定 qid，可重复传入以选择多道题。
+- `--out`：指定预测 JSON 的保存路径。
+- `--tries`：每道题的最大请求次数，默认 `3`。
+- `--timeout`：单次 API 请求超时秒数，默认 `180`。
+- `--thinking on|off|default`：控制模型端推理模式。
+- `--force`：即使已有缓存，也重新运行选中的题目。
+
+脚本每完成一道题都会更新输出文件。使用相同命令和输出路径重新运行时，成功
+结果会被复用，请求错误会重新尝试。只重跑某个解析错误时，同时传入该题的
+`--qid`、`--force` 和原来的 `--out`。
+
+## 评分
+
+闭集答案均在本地确定性评分。只有预测文件中存在已经回答的非 Yes/No 开放题
+时，才需要文本 LLM judge。下面使用 DeepSeek-V4-Flash 评估一个完整的
+Friends clip 级预测文件：
+
+```bash
+PYTHONPATH=. python3 evaluation/run_scoring.py \
+  --pred output/friends_g1_clip_all_pred_gemini-2.5-flash.json \
+  --out runs/friends_g1_clip_all_gemini-2.5-flash_judged_by_deepseek-v4-flash \
+  --model deepseek-v4-flash \
+  --base-url https://api.deepseek.com \
+  --api-key <deepseek-api-key> \
+  --timeout 180
 ```
-benchmark/
-├── common/        # 共享：I/O 与题目键、格式契约、ffmpeg 工具
-├── preprocess/    # 数据契约校验、切片、有效整集
-├── inference/     # prompt 组装 + Qwen-Omni / Gemini 推理脚本
-└── evaluation/    # 正式评分器、OV-MER 情感分组、LLM 裁判
+
+如果不需要语义 judge，可省略 `--model`、`--base-url` 和 `--api-key`。judge
+只接收问题、金标答案和模型答案，并返回语义等价与否的二值判断。闭集情绪、
+前后情绪、单选、排序和 Yes/No 始终使用确定性评分。
+
+每道原始问题只产生一个归一化分数。单选、排序、Yes/No 和经 judge 评估的
+开放题记为 0 或 1；情绪多选题采用集合 F1，即
+`2TP / (2TP + FP + FN)`；前后情绪题先分别计算两个方向的集合 F1，再在题内
+取平均。缺失预测和推理错误贡献 0 分。
+
+累计总分计算方式：
+
+```text
+earned_points   = 所有 question_score 之和
+possible_points = 问题总数
+overall_score   = earned_points / possible_points
 ```
+
+汇总多个系列时，应分别累加分子和分母，不能直接平均各系列百分比：
+
+```text
+all_series_score = sum(series earned_points) / sum(series possible_points)
+```
+
+也可以直接合并多个已完成运行的 `metrics.json`：
+
+```bash
+jq -s '
+  (map(.earned_points) | add) as $earned |
+  (map(.possible_points) | add) as $possible |
+  {earned_points: $earned, possible_points: $possible,
+   overall_score: ($earned / $possible)}
+' runs/friends/metrics.json runs/thebigbang/metrics.json
+```
+
+评估结果还会提供按任务等权的 `macro_score`，它只用于分析，不参与累计总分。
+
+输出包括 `scores.jsonl`、`scores_closed_emotion.jsonl`、
+`scores_questions.jsonl`、`metrics.json`、`prediction_format_issues.json`
+和 `summary.md`：
+
+- `summary.md`：累计总分、覆盖率、Accuracy 和情绪 F1 摘要。
+- `metrics.json`：完整指标，包括 `earned_points`、`possible_points`、
+  `overall_score`、`series_scores`、各任务得分和 `macro_score`。
+- `scores_questions.jsonl`：每道原始问题最终进入累计总分的归一化分数。
+- `scores.jsonl`：非情绪题的确定性结果或 judge 判断。
+- `scores_closed_emotion.jsonl`：情绪标签各 slot 的 precision、recall 和 F1。
+- `prediction_format_issues.json`：不符合规定输出格式的预测。

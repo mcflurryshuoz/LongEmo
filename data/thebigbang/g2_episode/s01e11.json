@@ -1,0 +1,92 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e11_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across Howard's efforts to keep away from sick Sheldon, which moment shows his alarm at its greatest visible and audible intensity?",
+    "options": [
+      "A. When Leonard is caught by Penny while looking for his glasses, and Howard and Raj flee in panic.",
+      "B. When Sheldon reaches his line, Howard stiffens, changes his voice, and claims to be his own mother.",
+      "C. When Howard jokes at the theater that Leonard will get trapped in Sheldon's web of mucus if he goes home.",
+      "D. When Howard keeps his distance while calmly fitting Leonard with camera gear outside the apartment."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e11_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "After Sheldon begins depending on Penny for care, at which of the following moments does Penny appear most resigned?",
+    "options": [
+      "A. When Penny asks Sheldon at the restaurant why he does not make soup at home.",
+      "B. When Penny calls Leonard and asks him to come take Sheldon home.",
+      "C. When Sheldon asks Penny at the apartment door to continue taking care of him.",
+      "D. When Sheldon firmly demands that Penny rub VapoRub on his chest and sing to him."
+    ],
+    "answer": "D",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e11_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "As Sheldon's requests become increasingly unusual, from asking for soup at the restaurant, to asking Penny at the apartment door to sponge-bathe him, and finally to asking her to rub VapoRub on his chest and sing to him, which option best describes how Penny's emotions change?",
+    "options": [
+      "A. From anger at Sheldon's unreasonable behavior, to resignation about being forced to care for him, and finally to reluctant compliance followed by renewed anger.",
+      "B. From anger at Sheldon's unreasonable behavior, to resignation about being forced to care for him, and finally to genuine concern and relief.",
+      "C. From concern when Sheldon first asks for help, to resignation about being forced to care for him, and finally to reluctant compliance followed by renewed anger.",
+      "D. From concern about Sheldon's unreasonable behavior, to resignation about being forced to care for him, and finally to reluctant compliance and relief."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e11_q004",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Leonard appear most panicked?",
+    "options": [
+      "A. When Leonard hastily flees after discovering early in the morning that Sheldon is sick.",
+      "B. When Leonard receives Penny's phone call at the theater.",
+      "C. When Leonard's glasses are stepped on at the theater and he has to return to the apartment.",
+      "D. When Penny catches Leonard searching for his glasses in the apartment."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E11"
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g3_s01e11_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Across the episode, what drives Sheldon to keep making unreasonable demands of Penny?",
+    "options": [
+      "A. The rudeness toward others that grew from being treated as a genius since childhood.",
+      "B. An unconscious dependence on others caused by his childlike inability to care for himself.",
+      "C. His genuine affection for Penny.",
+      "D. His fear and worry about being ill."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E11"
+    ]
+  }
+]

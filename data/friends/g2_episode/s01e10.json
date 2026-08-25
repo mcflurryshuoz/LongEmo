@@ -1,0 +1,92 @@
+[
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q001",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Phoebe appear saddest?",
+    "options": [
+      "A. Phoebe stands with her friends near the TV after David has left and the midnight countdown is about to begin.",
+      "B. Phoebe acts out her final goodbye with David before he leaves the New Year's party.",
+      "C. Phoebe learns that David has received a three-year grant to work in Minsk.",
+      "D. Phoebe interrupts her song after hearing David and Max talk during her performance."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q002",
+    "scope": "episode",
+    "task_type": "Emotional Intensity Comparison",
+    "question_type": "single_choice",
+    "question": "Across the episode, at which of the following moments does Rachel appear most upset?",
+    "options": [
+      "A. Rachel says Paolo will be in Rome and jokes that she will be pathetic on New Year's Eve.",
+      "B. Rachel arrives at Monica's party with a cut lip and recounts being attacked over a taxi at the airport.",
+      "C. Rachel says she cannot kiss anyone at midnight because her lip is injured.",
+      "D. Rachel sits beside Ross and realizes that her tooth may have been cracked."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q003",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Ross's emotional trajectory during the New Year's Eve party?",
+    "options": [
+      "A. He starts excited, shows mock anger, becomes disappointed, and ends genuinely sad.",
+      "B. He starts excited, shows genuine anger, becomes disappointed, and ends genuinely sad.",
+      "C. He starts excited, shows mock anger, becomes disappointed, and ends frustrated rather than genuinely sad.",
+      "D. He starts excited, shows genuine anger, becomes disappointed, and ends frustrated rather than genuinely sad."
+    ],
+    "answer": "C",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q004",
+    "scope": "episode",
+    "task_type": "Emotional Trajectory",
+    "question_type": "single_choice",
+    "question": "Which description best captures Monica's emotional trajectory from Fun Bobby's arrival at the party to the countdown?",
+    "options": [
+      "A. She begins excited, becomes surprised, and ends dryly amused.",
+      "B. She begins excited, becomes surprised, and ends irritated.",
+      "C. She begins excited, becomes uncomfortable, and ends dryly amused.",
+      "D. She begins excited, becomes uncomfortable, and ends irritated."
+    ],
+    "answer": "A",
+    "input_video": [
+      "S01E10"
+    ]
+  },
+  {
+    "series": "friends",
+    "qid": "g3_s01e10_q005",
+    "scope": "episode",
+    "task_type": "Emotional Reasoning",
+    "question_type": "single_choice",
+    "question": "Which description best captures why Chandler invites Janice and how he actually feels about her at the party?",
+    "options": [
+      "A. He invites her out of anxiety, remains uncomfortable, but is genuinely amused by some of their exchanges.",
+      "B. He invites her out of anxiety, remains uncomfortable, and only pretends to enjoy every interaction with her.",
+      "C. He invites her because he wants to renew their relationship, becomes comfortable with her, but later rejects the reunion out of embarrassment.",
+      "D. He invites her casually, feels indifferent toward her, and interacts only out of politeness."
+    ],
+    "answer": "B",
+    "input_video": [
+      "S01E10"
+    ]
+  }
+]

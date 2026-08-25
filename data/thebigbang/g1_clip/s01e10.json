@@ -1,0 +1,3070 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q001",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the shorter man with glasses in the green hoodie?",
+    "options": [
+      "A. He begins confident and playful, grows annoyed, and ends openly angry and confrontational.",
+      "B. He begins lively and engaged, grows amused and curious, and ends relaxed and candid.",
+      "C. He begins skeptical and detached, grows irritated, and ends embarrassed but relieved.",
+      "D. He begins lively and engaged, grows startled and uneasy, and ends awkward and evasive."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e10_q001_seg1_3.0_86.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 3,
+          "end": 86.4,
+          "mmss": "0:03.0–1:26.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0001",
+        "t": [
+          3.286,
+          13.547
+        ],
+        "speaker": "Leonard",
+        "text": "No, see, the liquid-metal terminators were created in the future by skynet... And skynet was developed by miles Dyson... But that future no longer exists due to Dyson's death in Terminator 2."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0002",
+        "t": [
+          13.714,
+          30.605
+        ],
+        "speaker": "Sheldon",
+        "text": "Okay, then riddle me this. Assuming all the good terminators... Were originally evil terminators created by skynet... Then reprogrammed by the future John Connor, why would skynet... An artificial computer intelligence... Bother to create a petite, hot, 17-year-old killer robot?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0003",
+        "t": [
+          32.482,
+          34.568
+        ],
+        "speaker": "Leonard",
+        "text": "Skynet is kinky? I don't know."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0004",
+        "t": [
+          35.569,
+          39.114
+        ],
+        "speaker": "Sheldon",
+        "text": "Artificial intelligences do not have teen fetishes."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0005",
+        "t": [
+          39.281,
+          42.325
+        ],
+        "speaker": "Leonard",
+        "text": "- All right, wait. They use it to lure... - Eh! Too late, I win."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0006",
+        "t": [
+          45.704,
+          49.166
+        ],
+        "speaker": "unknown",
+        "text": "Let's go out tonight"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0007",
+        "t": [
+          51.835,
+          57.132
+        ],
+        "speaker": "unknown",
+        "text": "I have to go out tonight"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0008",
+        "t": [
+          58.008,
+          59.968
+        ],
+        "speaker": "Leonard",
+        "text": "what the hell is that?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0009",
+        "t": [
+          60.844,
+          65.932
+        ],
+        "speaker": "Sheldon",
+        "text": "I don't know. But if cats could sing... They'd hate it too."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0010",
+        "t": [
+          71.313,
+          76.902
+        ],
+        "speaker": "unknown",
+        "text": "Penny: You wanna prowl be my night owl? Well, take my... Hey, guys."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0011",
+        "t": [
+          77.068,
+          86.203
+        ],
+        "speaker": "Leonard",
+        "text": "- Hi, where are you going? - What? We just had to mail some letters. And throw away some chicken."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q002",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full interaction, how do the emotions of the blonde woman in the light blue top change before and after the two men in sweaters decline her invitation?",
+    "options": [],
+    "answer": {
+      "before": [
+        "happiness",
+        "excitement",
+        "anticipation"
+      ],
+      "after": [
+        "surprise",
+        "embarrassment",
+        "sadness"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e10_q002_seg1_103.0_168.2.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 103,
+          "end": 168.2,
+          "mmss": "1:43.0–2:48.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0012",
+        "t": [
+          103.553,
+          105.472
+        ],
+        "speaker": "Penny",
+        "text": "You'll never guess what just happened."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0013",
+        "t": [
+          105.639,
+          117.4
+        ],
+        "speaker": "Sheldon",
+        "text": "- I give up. - I don't guess. As a scientist, I reach conclusions based on observation and experimentation. Although it occurs to me, you may have been employing a rhetorical device... Rendering my response moot."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0014",
+        "t": [
+          118.401,
+          122.823
+        ],
+        "speaker": "Leonard",
+        "text": "- What was that? - Believe it or not, personal growth. What happened?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0015",
+        "t": [
+          122.989,
+          127.118
+        ],
+        "speaker": "Penny",
+        "text": "Remember when I auditioned for rent but I didn't get it and I couldn't figure out why?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0016",
+        "t": [
+          127.285,
+          129.287
+        ],
+        "speaker": "Sheldon",
+        "text": "I have a conclusion based on an observation."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0017",
+        "t": [
+          129.454,
+          131.957
+        ],
+        "speaker": "Leonard",
+        "text": "No, you don't. No, he doesn't."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0018",
+        "t": [
+          132.415,
+          136.044
+        ],
+        "speaker": "Penny",
+        "text": "The girl picked to play Mimi, she dropped out and they asked me to replace her."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0019",
+        "t": [
+          136.211,
+          139.005
+        ],
+        "speaker": "Leonard",
+        "text": "- Oh! Congratulations, what a lucky break. - It's not a big deal."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0020",
+        "t": [
+          139.172,
+          143.134
+        ],
+        "speaker": "Penny",
+        "text": "Just one night, but they invite casting people and agents. So you never know."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0021",
+        "t": [
+          143.301,
+          145.762
+        ],
+        "speaker": "Sheldon",
+        "text": "- I think I know. - No, you don't."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0022",
+        "t": [
+          146.304,
+          149.391
+        ],
+        "speaker": "Penny",
+        "text": "- He doesn't. - It's this Friday at 8, you guys wanna come?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0023",
+        "t": [
+          149.558,
+          150.725
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "-No."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0024",
+        "t": [
+          152.394,
+          159.025
+        ],
+        "speaker": "Leonard",
+        "text": "Because Friday, we are attending a symposium... On molecular positronium."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0025",
+        "t": [
+          159.192,
+          162.32
+        ],
+        "speaker": "Sheldon",
+        "text": "- I think that's a week from Tuesday at 6. - No, it's this Friday."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0026",
+        "t": [
+          162.904,
+          168.076
+        ],
+        "speaker": "Penny",
+        "text": "- At 8. - Oh, too bad. - I gotta get to rehearsal. See you guys. - See you."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q003",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "What most directly causes the tall man in the plaid robe to become troubled? Answer with a brief description of the reason.",
+    "options": [],
+    "answer": "He learns that the shorter man with glasses lied to the blonde woman.",
+    "video_name": "thebigbang_g1_2_s01e10_q003_seg1_243.0_393.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 243,
+          "end": 393.4,
+          "mmss": "4:03.0–6:33.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0032",
+        "t": [
+          243.026,
+          247.906
+        ],
+        "speaker": "Sheldon",
+        "text": "Leonard? Leonard? Leonard? Leonard: What?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0033",
+        "t": [
+          249.783,
+          251.618
+        ],
+        "speaker": "Sheldon",
+        "text": "I need to speak to you."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0034",
+        "t": [
+          251.785,
+          259.042
+        ],
+        "speaker": "Leonard",
+        "text": "- It's 2:00 in the morning. - It's important. | highly doubt that. Go away."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0035",
+        "t": [
+          262.837,
+          265.006
+        ],
+        "speaker": "Leonard",
+        "text": "Are you still out there?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0036",
+        "t": [
+          269.01,
+          270.637
+        ],
+        "speaker": "unknown",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0037",
+        "t": [
+          271.513,
+          274.015
+        ],
+        "speaker": "Sheldon",
+        "text": "You're right, it can wait until morning."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0038",
+        "t": [
+          276.059,
+          284.526
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard: What, what, what? - Never mind. I clearly woke you up in the middle of a rem cycle. - You're in no state of mind to talk. - Sheldon, what is it?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0039",
+        "t": [
+          286.069,
+          292.993
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm uncomfortable having been included in your lie to penny. - What was I supposed to say? - You could have told her the truth."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0040",
+        "t": [
+          293.159,
+          294.786
+        ],
+        "speaker": "Leonard",
+        "text": "That would have hurt her feelings."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0041",
+        "t": [
+          295.578,
+          297.872
+        ],
+        "speaker": "Sheldon",
+        "text": "Is that a relevant factor?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0042",
+        "t": [
+          299.416,
+          301.459
+        ],
+        "speaker": "Sheldon",
+        "text": "Then I suppose you could have agreed to go."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0043",
+        "t": [
+          301.626,
+          304.129
+        ],
+        "speaker": "Leonard",
+        "text": "And what would I have said aftennards?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0044",
+        "t": [
+          304.295,
+          317.017
+        ],
+        "speaker": "Sheldon",
+        "text": "I would suggest something to the effect of: \"Singing is neither an appropriate vocation nor avocation for you... And if you disagree, I recommend a cat scan to look for a tumor... Pressing on the cognitive processing centers of your brain.\""
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0045",
+        "t": [
+          318.309,
+          323.898
+        ],
+        "speaker": "Leonard",
+        "text": "I couldn't say that. I would have to say, \"you were terrific and I can't wait to hear you sing again.\""
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0046",
+        "t": [
+          324.524,
+          326.234
+        ],
+        "speaker": "Sheldon",
+        "text": "Why?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0047",
+        "t": [
+          326.401,
+          332.949
+        ],
+        "speaker": "Leonard",
+        "text": "It's the social protocol. It's what you do... When you have a friend who's proud of something they really suck at."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0048",
+        "t": [
+          333.95,
+          335.41
+        ],
+        "speaker": "Sheldon",
+        "text": "I was not aware of that."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0049",
+        "t": [
+          335.577,
+          338.163
+        ],
+        "speaker": "Leonard",
+        "text": "- Well, now you are. - Oh, all right."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0050",
+        "t": [
+          338.329,
+          343.877
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard? - Yes? When we played chess earlier, you were terrific, and I can't wait to play you again."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0051",
+        "t": [
+          344.044,
+          345.587
+        ],
+        "speaker": "unknown",
+        "text": "Good night."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0052",
+        "t": [
+          350.05,
+          354.179
+        ],
+        "speaker": "Sheldon",
+        "text": "Sheldon: Leonard? Leonard? Leonard? Leonard?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0053",
+        "t": [
+          354.345,
+          357.557
+        ],
+        "speaker": "Leonard",
+        "text": "This would be so much easier if I were a violent sociopath."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0054",
+        "t": [
+          357.724,
+          360.143
+        ],
+        "speaker": "unknown",
+        "text": "Leonard? Leonard?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0055",
+        "t": [
+          361.352,
+          366.941
+        ],
+        "speaker": "Sheldon",
+        "text": "- What? - I was analyzing our lie... And I believe we're in danger of penny seeing through the ruse."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0056",
+        "t": [
+          367.358,
+          369.319
+        ],
+        "speaker": "Leonard",
+        "text": "- How? - Simple."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0057",
+        "t": [
+          369.486,
+          385.21
+        ],
+        "speaker": "Sheldon",
+        "text": "If she were to log on to www. Socalphysicsgroup.org/activities/other... Click on upcoming events, scroll to seminars, download the pdf schedule... And look for the seminar on molecular positronium, then... Bippity boppity boo, our pants are metaphorically on fire."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0058",
+        "t": [
+          389.881,
+          393.259
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, sir, my trousers will not be igniting today."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q004",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the shorter man in the white T-shirt?",
+    "options": [
+      "A. He begins confused but attentive, becomes openly angry, and ends anxious and apologetic.",
+      "B. He begins mildly amused, becomes concerned and defensive, and ends increasingly upset and confrontational.",
+      "C. He begins tired and irritated, becomes ashamed and withdrawn, and ends calm and fully reassured.",
+      "D. He begins tired and irritated, becomes concerned and explanatory, and ends amused but still impatient."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e10_q003_seg1_243.0_393.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 243,
+          "end": 393.4,
+          "mmss": "4:03.0–6:33.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0032",
+        "t": [
+          243.026,
+          247.906
+        ],
+        "speaker": "Sheldon",
+        "text": "Leonard? Leonard? Leonard? Leonard: What?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0033",
+        "t": [
+          249.783,
+          251.618
+        ],
+        "speaker": "Sheldon",
+        "text": "I need to speak to you."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0034",
+        "t": [
+          251.785,
+          259.042
+        ],
+        "speaker": "Leonard",
+        "text": "- It's 2:00 in the morning. - It's important. | highly doubt that. Go away."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0035",
+        "t": [
+          262.837,
+          265.006
+        ],
+        "speaker": "Leonard",
+        "text": "Are you still out there?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0036",
+        "t": [
+          269.01,
+          270.637
+        ],
+        "speaker": "unknown",
+        "text": "What?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0037",
+        "t": [
+          271.513,
+          274.015
+        ],
+        "speaker": "Sheldon",
+        "text": "You're right, it can wait until morning."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0038",
+        "t": [
+          276.059,
+          284.526
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard: What, what, what? - Never mind. I clearly woke you up in the middle of a rem cycle. - You're in no state of mind to talk. - Sheldon, what is it?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0039",
+        "t": [
+          286.069,
+          292.993
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm uncomfortable having been included in your lie to penny. - What was I supposed to say? - You could have told her the truth."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0040",
+        "t": [
+          293.159,
+          294.786
+        ],
+        "speaker": "Leonard",
+        "text": "That would have hurt her feelings."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0041",
+        "t": [
+          295.578,
+          297.872
+        ],
+        "speaker": "Sheldon",
+        "text": "Is that a relevant factor?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0042",
+        "t": [
+          299.416,
+          301.459
+        ],
+        "speaker": "Sheldon",
+        "text": "Then I suppose you could have agreed to go."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0043",
+        "t": [
+          301.626,
+          304.129
+        ],
+        "speaker": "Leonard",
+        "text": "And what would I have said aftennards?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0044",
+        "t": [
+          304.295,
+          317.017
+        ],
+        "speaker": "Sheldon",
+        "text": "I would suggest something to the effect of: \"Singing is neither an appropriate vocation nor avocation for you... And if you disagree, I recommend a cat scan to look for a tumor... Pressing on the cognitive processing centers of your brain.\""
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0045",
+        "t": [
+          318.309,
+          323.898
+        ],
+        "speaker": "Leonard",
+        "text": "I couldn't say that. I would have to say, \"you were terrific and I can't wait to hear you sing again.\""
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0046",
+        "t": [
+          324.524,
+          326.234
+        ],
+        "speaker": "Sheldon",
+        "text": "Why?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0047",
+        "t": [
+          326.401,
+          332.949
+        ],
+        "speaker": "Leonard",
+        "text": "It's the social protocol. It's what you do... When you have a friend who's proud of something they really suck at."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0048",
+        "t": [
+          333.95,
+          335.41
+        ],
+        "speaker": "Sheldon",
+        "text": "I was not aware of that."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0049",
+        "t": [
+          335.577,
+          338.163
+        ],
+        "speaker": "Leonard",
+        "text": "- Well, now you are. - Oh, all right."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0050",
+        "t": [
+          338.329,
+          343.877
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard? - Yes? When we played chess earlier, you were terrific, and I can't wait to play you again."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0051",
+        "t": [
+          344.044,
+          345.587
+        ],
+        "speaker": "unknown",
+        "text": "Good night."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0052",
+        "t": [
+          350.05,
+          354.179
+        ],
+        "speaker": "Sheldon",
+        "text": "Sheldon: Leonard? Leonard? Leonard? Leonard?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0053",
+        "t": [
+          354.345,
+          357.557
+        ],
+        "speaker": "Leonard",
+        "text": "This would be so much easier if I were a violent sociopath."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0054",
+        "t": [
+          357.724,
+          360.143
+        ],
+        "speaker": "unknown",
+        "text": "Leonard? Leonard?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0055",
+        "t": [
+          361.352,
+          366.941
+        ],
+        "speaker": "Sheldon",
+        "text": "- What? - I was analyzing our lie... And I believe we're in danger of penny seeing through the ruse."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0056",
+        "t": [
+          367.358,
+          369.319
+        ],
+        "speaker": "Leonard",
+        "text": "- How? - Simple."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0057",
+        "t": [
+          369.486,
+          385.21
+        ],
+        "speaker": "Sheldon",
+        "text": "If she were to log on to www. Socalphysicsgroup.org/activities/other... Click on upcoming events, scroll to seminars, download the pdf schedule... And look for the seminar on molecular positronium, then... Bippity boppity boo, our pants are metaphorically on fire."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0058",
+        "t": [
+          389.881,
+          393.259
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, sir, my trousers will not be igniting today."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q005",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the man in the white T-shirt's explanation of polite praise evoke in the tall man wearing the plaid robe?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "engagement"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q005_seg1_286.0_345.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 286,
+          "end": 345.8,
+          "mmss": "4:46.0–5:45.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0039",
+        "t": [
+          286.069,
+          292.993
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm uncomfortable having been included in your lie to penny. - What was I supposed to say? - You could have told her the truth."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0040",
+        "t": [
+          293.159,
+          294.786
+        ],
+        "speaker": "Leonard",
+        "text": "That would have hurt her feelings."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0041",
+        "t": [
+          295.578,
+          297.872
+        ],
+        "speaker": "Sheldon",
+        "text": "Is that a relevant factor?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0042",
+        "t": [
+          299.416,
+          301.459
+        ],
+        "speaker": "Sheldon",
+        "text": "Then I suppose you could have agreed to go."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0043",
+        "t": [
+          301.626,
+          304.129
+        ],
+        "speaker": "Leonard",
+        "text": "And what would I have said aftennards?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0044",
+        "t": [
+          304.295,
+          317.017
+        ],
+        "speaker": "Sheldon",
+        "text": "I would suggest something to the effect of: \"Singing is neither an appropriate vocation nor avocation for you... And if you disagree, I recommend a cat scan to look for a tumor... Pressing on the cognitive processing centers of your brain.\""
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0045",
+        "t": [
+          318.309,
+          323.898
+        ],
+        "speaker": "Leonard",
+        "text": "I couldn't say that. I would have to say, \"you were terrific and I can't wait to hear you sing again.\""
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0046",
+        "t": [
+          324.524,
+          326.234
+        ],
+        "speaker": "Sheldon",
+        "text": "Why?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0047",
+        "t": [
+          326.401,
+          332.949
+        ],
+        "speaker": "Leonard",
+        "text": "It's the social protocol. It's what you do... When you have a friend who's proud of something they really suck at."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0048",
+        "t": [
+          333.95,
+          335.41
+        ],
+        "speaker": "Sheldon",
+        "text": "I was not aware of that."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0049",
+        "t": [
+          335.577,
+          338.163
+        ],
+        "speaker": "Leonard",
+        "text": "- Well, now you are. - Oh, all right."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0050",
+        "t": [
+          338.329,
+          343.877
+        ],
+        "speaker": "Sheldon",
+        "text": "- Leonard? - Yes? When we played chess earlier, you were terrific, and I can't wait to play you again."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0051",
+        "t": [
+          344.044,
+          345.587
+        ],
+        "speaker": "unknown",
+        "text": "Good night."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q006",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the tall man in the dark green striped sweater experience?",
+    "options": [],
+    "answer": [
+      "engagement",
+      "confidence",
+      "happiness"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q006_seg1_449.0_600.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 449,
+          "end": 600.8,
+          "mmss": "7:29.0–10:00.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0071",
+        "t": [
+          449.19,
+          452.569
+        ],
+        "speaker": "Leonard",
+        "text": "You told her I lied? Why would you tell her I lied?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0072",
+        "t": [
+          453.153,
+          455.071
+        ],
+        "speaker": "Sheldon",
+        "text": "To help you."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0073",
+        "t": [
+          455.905,
+          457.574
+        ],
+        "speaker": "Leonard",
+        "text": "I'm sorry, I'm not seeing the help."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0074",
+        "t": [
+          457.74,
+          462.704
+        ],
+        "speaker": "Sheldon",
+        "text": "She was going to see through your lie eventually... So I told her that you were lying to protect me."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0075",
+        "t": [
+          464.122,
+          466.708
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, I'm getting a bad feeling."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0076",
+        "t": [
+          466.875,
+          480.68
+        ],
+        "speaker": "Sheldon",
+        "text": "Hunger? Indigestion? I'm sorry, I'm really not very good at this. Anyway, penny now believes that on Friday night... We're going to participate in my cousin Leopold's drug intervention."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0077",
+        "t": [
+          481.639,
+          482.849
+        ],
+        "speaker": "Leonard",
+        "text": "Your cousin Leopold."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0078",
+        "t": [
+          483.016,
+          487.145
+        ],
+        "speaker": "Sheldon",
+        "text": "Whom most people call Leo, but he also answers to Lee. Remember that, it's important."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0079",
+        "t": [
+          487.604,
+          489.689
+        ],
+        "speaker": "Leonard",
+        "text": "- What's important? - Details, Leonard."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0080",
+        "t": [
+          489.856,
+          494.027
+        ],
+        "speaker": "Sheldon",
+        "text": "The success or failure of our deceitful enterprise turns on details."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0081",
+        "t": [
+          494.194,
+          497.739
+        ],
+        "speaker": "Leonard",
+        "text": "- Do you have a cousin Leopold? - No, I made him up."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0082",
+        "t": [
+          498.448,
+          500.909
+        ],
+        "speaker": "Sheldon",
+        "text": "I think you'd call him Lee."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0083",
+        "t": [
+          501.951,
+          505.747
+        ],
+        "speaker": "Leonard",
+        "text": "I don't get it. I already told her a lie, why replace it with a different lie?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0084",
+        "t": [
+          505.914,
+          517.008
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, first of all, your lie was laughably transparent... Where mine is exquisitely convoluted. While you were sleeping, I was weaving an UN-unravelable web."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0085",
+        "t": [
+          517.175,
+          519.594
+        ],
+        "speaker": "Leonard",
+        "text": "- UN-unravelable? - Yes."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0086",
+        "t": [
+          519.761,
+          529.312
+        ],
+        "speaker": "Sheldon",
+        "text": "If she googles Leopold Houston, she'll find a Facebook page... An online blog depicting his descent into drug use... And a desperate yet hopeful listing on eharmony.Com."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0087",
+        "t": [
+          530.146,
+          533.983
+        ],
+        "speaker": "Leonard",
+        "text": "Okay, why would I go to a drug intervention for your cousin?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0088",
+        "t": [
+          534.15,
+          537.362
+        ],
+        "speaker": "Sheldon",
+        "text": "Ah! Because it's in long beach and I don't drive."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0089",
+        "t": [
+          538.78,
+          539.989
+        ],
+        "speaker": "Leonard",
+        "text": "We're going to long beach?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0090",
+        "t": [
+          540.156,
+          542.992
+        ],
+        "speaker": "Sheldon",
+        "text": "Of course not, there's no cousin Leo, there's no intervention."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0091",
+        "t": [
+          543.159,
+          545.787
+        ],
+        "speaker": "Leonard",
+        "text": "- Focus, Leonard. - Oh, come on."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0092",
+        "t": [
+          546.663,
+          553.878
+        ],
+        "speaker": "Sheldon",
+        "text": "We just leave the house on Friday night and return in the wee hours... Emotionally wrung out from the work of convincing Leo to go back into rehab."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0093",
+        "t": [
+          554.045,
+          555.546
+        ],
+        "speaker": "Leonard",
+        "text": "So he goes back into rehab?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0094",
+        "t": [
+          555.713,
+          560.969
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but he can relapse if penny ever invites us to hear her sing again."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0095",
+        "t": [
+          564.18,
+          572.313
+        ],
+        "speaker": "Sheldon",
+        "text": "Yeah, for a noble purpose. To spare me the social embarrassment of having a drug-addled first cousin. - Which I'm assuming is embarrassing, yes? - I don't know."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0096",
+        "t": [
+          573.856,
+          585.868
+        ],
+        "speaker": "Sheldon",
+        "text": "- How am I supposed to remember all this? - That's the best part, you don't have to. I told penny that you would be embarrassed if you knew she found out you had lied... So she's agreed to operate as if the original lie is still in force."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0097",
+        "t": [
+          588.538,
+          598.673
+        ],
+        "speaker": "Leonard",
+        "text": "So she's expecting me to lie about going to a symposium in Pasadena... When in actuality, we're pretending to go to a drug intervention in long beach."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0098",
+        "t": [
+          599.173,
+          600.675
+        ],
+        "speaker": "Sheldon",
+        "text": "UN-unravelable."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q007",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the shorter man with glasses in the green hoodie and a tan jacket?",
+    "options": [
+      "A. He begins confused, becomes enthusiastic and engaged, and ends openly hostile.",
+      "B. He begins concerned, becomes embarrassed and uncertain, and ends confidently amused.",
+      "C. He begins angry, becomes apprehensive and confused, and ends exhaustedly exasperated.",
+      "D. He begins angry, becomes surprised and amused, and ends calm and satisfied."
+    ],
+    "answer": "C",
+    "video_name": "thebigbang_g1_2_s01e10_q006_seg1_449.0_600.8.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 449,
+          "end": 600.8,
+          "mmss": "7:29.0–10:00.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0071",
+        "t": [
+          449.19,
+          452.569
+        ],
+        "speaker": "Leonard",
+        "text": "You told her I lied? Why would you tell her I lied?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0072",
+        "t": [
+          453.153,
+          455.071
+        ],
+        "speaker": "Sheldon",
+        "text": "To help you."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0073",
+        "t": [
+          455.905,
+          457.574
+        ],
+        "speaker": "Leonard",
+        "text": "I'm sorry, I'm not seeing the help."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0074",
+        "t": [
+          457.74,
+          462.704
+        ],
+        "speaker": "Sheldon",
+        "text": "She was going to see through your lie eventually... So I told her that you were lying to protect me."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0075",
+        "t": [
+          464.122,
+          466.708
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, I'm getting a bad feeling."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0076",
+        "t": [
+          466.875,
+          480.68
+        ],
+        "speaker": "Sheldon",
+        "text": "Hunger? Indigestion? I'm sorry, I'm really not very good at this. Anyway, penny now believes that on Friday night... We're going to participate in my cousin Leopold's drug intervention."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0077",
+        "t": [
+          481.639,
+          482.849
+        ],
+        "speaker": "Leonard",
+        "text": "Your cousin Leopold."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0078",
+        "t": [
+          483.016,
+          487.145
+        ],
+        "speaker": "Sheldon",
+        "text": "Whom most people call Leo, but he also answers to Lee. Remember that, it's important."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0079",
+        "t": [
+          487.604,
+          489.689
+        ],
+        "speaker": "Leonard",
+        "text": "- What's important? - Details, Leonard."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0080",
+        "t": [
+          489.856,
+          494.027
+        ],
+        "speaker": "Sheldon",
+        "text": "The success or failure of our deceitful enterprise turns on details."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0081",
+        "t": [
+          494.194,
+          497.739
+        ],
+        "speaker": "Leonard",
+        "text": "- Do you have a cousin Leopold? - No, I made him up."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0082",
+        "t": [
+          498.448,
+          500.909
+        ],
+        "speaker": "Sheldon",
+        "text": "I think you'd call him Lee."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0083",
+        "t": [
+          501.951,
+          505.747
+        ],
+        "speaker": "Leonard",
+        "text": "I don't get it. I already told her a lie, why replace it with a different lie?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0084",
+        "t": [
+          505.914,
+          517.008
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, first of all, your lie was laughably transparent... Where mine is exquisitely convoluted. While you were sleeping, I was weaving an UN-unravelable web."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0085",
+        "t": [
+          517.175,
+          519.594
+        ],
+        "speaker": "Leonard",
+        "text": "- UN-unravelable? - Yes."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0086",
+        "t": [
+          519.761,
+          529.312
+        ],
+        "speaker": "Sheldon",
+        "text": "If she googles Leopold Houston, she'll find a Facebook page... An online blog depicting his descent into drug use... And a desperate yet hopeful listing on eharmony.Com."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0087",
+        "t": [
+          530.146,
+          533.983
+        ],
+        "speaker": "Leonard",
+        "text": "Okay, why would I go to a drug intervention for your cousin?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0088",
+        "t": [
+          534.15,
+          537.362
+        ],
+        "speaker": "Sheldon",
+        "text": "Ah! Because it's in long beach and I don't drive."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0089",
+        "t": [
+          538.78,
+          539.989
+        ],
+        "speaker": "Leonard",
+        "text": "We're going to long beach?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0090",
+        "t": [
+          540.156,
+          542.992
+        ],
+        "speaker": "Sheldon",
+        "text": "Of course not, there's no cousin Leo, there's no intervention."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0091",
+        "t": [
+          543.159,
+          545.787
+        ],
+        "speaker": "Leonard",
+        "text": "- Focus, Leonard. - Oh, come on."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0092",
+        "t": [
+          546.663,
+          553.878
+        ],
+        "speaker": "Sheldon",
+        "text": "We just leave the house on Friday night and return in the wee hours... Emotionally wrung out from the work of convincing Leo to go back into rehab."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0093",
+        "t": [
+          554.045,
+          555.546
+        ],
+        "speaker": "Leonard",
+        "text": "So he goes back into rehab?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0094",
+        "t": [
+          555.713,
+          560.969
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but he can relapse if penny ever invites us to hear her sing again."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0095",
+        "t": [
+          564.18,
+          572.313
+        ],
+        "speaker": "Sheldon",
+        "text": "Yeah, for a noble purpose. To spare me the social embarrassment of having a drug-addled first cousin. - Which I'm assuming is embarrassing, yes? - I don't know."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0096",
+        "t": [
+          573.856,
+          585.868
+        ],
+        "speaker": "Sheldon",
+        "text": "- How am I supposed to remember all this? - That's the best part, you don't have to. I told penny that you would be embarrassed if you knew she found out you had lied... So she's agreed to operate as if the original lie is still in force."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0097",
+        "t": [
+          588.538,
+          598.673
+        ],
+        "speaker": "Leonard",
+        "text": "So she's expecting me to lie about going to a symposium in Pasadena... When in actuality, we're pretending to go to a drug intervention in long beach."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0098",
+        "t": [
+          599.173,
+          600.675
+        ],
+        "speaker": "Sheldon",
+        "text": "UN-unravelable."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q008",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the blonde woman in the leopard-print coat experience?",
+    "options": [],
+    "answer": [
+      "happiness",
+      "affection",
+      "esteem"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q008_seg1_605.5_746.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 605.5,
+          "end": 746.9,
+          "mmss": "10:05.5–12:26.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0099",
+        "t": [
+          605.722,
+          608.516
+        ],
+        "speaker": "unknown",
+        "text": "Oh, hey, penny. Wow, look at you, all ready for your showcase."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0100",
+        "t": [
+          608.683,
+          614.522
+        ],
+        "speaker": "Penny",
+        "text": "You look great. Penny: Thanks. I just wanted to come by and wish you guys luck with your symposium."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0101",
+        "t": [
+          615.273,
+          616.566
+        ],
+        "speaker": "Leonard",
+        "text": "Leonard: Oh."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0102",
+        "t": [
+          616.733,
+          629.537
+        ],
+        "speaker": "Penny",
+        "text": "- Well, thank you. - You know, I gotta tell you. A lot of friends would let their friend go alone, but that's not you. You are the kind of guy who stands by a friend when... When he has a symposium to go to."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0103",
+        "t": [
+          632.665,
+          634.917
+        ],
+        "speaker": "Leonard",
+        "text": "I don't know what to say."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0104",
+        "t": [
+          635.626,
+          641.341
+        ],
+        "speaker": "Penny",
+        "text": "- It's okay, Leonard. - Oh, okay, all right, good. -Oh, boy, group hug. —uh-uh."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0105",
+        "t": [
+          641.507,
+          645.47
+        ],
+        "speaker": "Howard",
+        "text": "- Uh-uh? - Okay. So, what's up?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0106",
+        "t": [
+          645.636,
+          657.774
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, penny is on her way to perform in a one-night showcase production of rent... Which we are unable to attend, because we're going to a symposium... On molecular positronium given by Dr. Emil farmanfarmian."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0107",
+        "t": [
+          657.94,
+          666.115
+        ],
+        "speaker": "Howard",
+        "text": "Wait a minute, farmanfarmian is speaking and you're bogarting the symposium? - Howard, I'm sorry, we would've... - No, no, you're quark-blocking us."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0108",
+        "t": [
+          668.409,
+          670.62
+        ],
+        "speaker": "Leonard",
+        "text": "I don't know what to say."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0109",
+        "t": [
+          672.33,
+          682.131
+        ],
+        "speaker": "Howard",
+        "text": "- Howard... - It's your millennium falcon... You and Chewbacca do whatever you wanna do. Me and Princess Leia here will find some other way to spend the evening."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0110",
+        "t": [
+          682.298,
+          687.178
+        ],
+        "speaker": "Penny",
+        "text": "Howard, wait. Sheldon, I think we should tell them."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0111",
+        "t": [
+          688.346,
+          691.432
+        ],
+        "speaker": "Sheldon",
+        "text": "Okay, sure. I don't see a problem with that."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0112",
+        "t": [
+          692.767,
+          697.021
+        ],
+        "speaker": "Penny",
+        "text": "There's no symposium. Leonard lied to me. Isn't that right, Leonard?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0113",
+        "t": [
+          697.188,
+          702.86
+        ],
+        "speaker": "Leonard",
+        "text": "Well... - I don't know what to say. - It's okay, I do."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0114",
+        "t": [
+          703.027,
+          710.493
+        ],
+        "speaker": "Penny",
+        "text": "Look, Leonard is helping Sheldon through a family crisis. He made up the whole story about the symposium with Dr. Farmanfarmian..."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0115",
+        "t": [
+          710.66,
+          711.702
+        ],
+        "speaker": "Sheldon",
+        "text": "- Good for you. - Ha! Yeah."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0116",
+        "t": [
+          713.413,
+          744.777
+        ],
+        "speaker": "Penny",
+        "text": "He didn't want Sheldon to be embarrassed. There's nothing to be embarrassed about. Every family in america has a relative... Holed up in a garage somewhere huffing paint thinner. No, I'm lost too. I think she skipped a step. Now, look, Sheldon's cousin Leo escaped rehab and he's in a motel 8 in long beach. The whole family's going out for an intervention. Leonard is driving Sheldon down to help him through this... - Because he's such a good man. - Oh, another hug? Thank you. - All right, you guys. Good luck. - Thanks, penny."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0117",
+        "t": [
+          744.944,
+          746.696
+        ],
+        "speaker": "Howard",
+        "text": "- Break a leg. - Yeah, break a leg."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q009",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the short man in the gray striped sweater and green turtleneck?",
+    "options": [
+      "A. He begins surprised but amused, becomes openly angry, and ends resigned and detached.",
+      "B. He begins indignant, becomes confused and sympathetic, and ends excited and expectant.",
+      "C. He begins indignant, becomes embarrassed and defensive, and ends worried and reluctant.",
+      "D. He begins mildly annoyed, becomes concerned and uncertain, and ends calm but disappointed."
+    ],
+    "answer": "B",
+    "video_name": "thebigbang_g1_2_s01e10_q009_seg1_641.3_783.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 641.3,
+          "end": 783.9,
+          "mmss": "10:41.3–13:03.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0105",
+        "t": [
+          641.507,
+          645.47
+        ],
+        "speaker": "Howard",
+        "text": "- Uh-uh? - Okay. So, what's up?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0106",
+        "t": [
+          645.636,
+          657.774
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, penny is on her way to perform in a one-night showcase production of rent... Which we are unable to attend, because we're going to a symposium... On molecular positronium given by Dr. Emil farmanfarmian."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0107",
+        "t": [
+          657.94,
+          666.115
+        ],
+        "speaker": "Howard",
+        "text": "Wait a minute, farmanfarmian is speaking and you're bogarting the symposium? - Howard, I'm sorry, we would've... - No, no, you're quark-blocking us."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0108",
+        "t": [
+          668.409,
+          670.62
+        ],
+        "speaker": "Leonard",
+        "text": "I don't know what to say."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0109",
+        "t": [
+          672.33,
+          682.131
+        ],
+        "speaker": "Howard",
+        "text": "- Howard... - It's your millennium falcon... You and Chewbacca do whatever you wanna do. Me and Princess Leia here will find some other way to spend the evening."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0110",
+        "t": [
+          682.298,
+          687.178
+        ],
+        "speaker": "Penny",
+        "text": "Howard, wait. Sheldon, I think we should tell them."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0111",
+        "t": [
+          688.346,
+          691.432
+        ],
+        "speaker": "Sheldon",
+        "text": "Okay, sure. I don't see a problem with that."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0112",
+        "t": [
+          692.767,
+          697.021
+        ],
+        "speaker": "Penny",
+        "text": "There's no symposium. Leonard lied to me. Isn't that right, Leonard?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0113",
+        "t": [
+          697.188,
+          702.86
+        ],
+        "speaker": "Leonard",
+        "text": "Well... - I don't know what to say. - It's okay, I do."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0114",
+        "t": [
+          703.027,
+          710.493
+        ],
+        "speaker": "Penny",
+        "text": "Look, Leonard is helping Sheldon through a family crisis. He made up the whole story about the symposium with Dr. Farmanfarmian..."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0115",
+        "t": [
+          710.66,
+          711.702
+        ],
+        "speaker": "Sheldon",
+        "text": "- Good for you. - Ha! Yeah."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0116",
+        "t": [
+          713.413,
+          744.777
+        ],
+        "speaker": "Penny",
+        "text": "He didn't want Sheldon to be embarrassed. There's nothing to be embarrassed about. Every family in america has a relative... Holed up in a garage somewhere huffing paint thinner. No, I'm lost too. I think she skipped a step. Now, look, Sheldon's cousin Leo escaped rehab and he's in a motel 8 in long beach. The whole family's going out for an intervention. Leonard is driving Sheldon down to help him through this... - Because he's such a good man. - Oh, another hug? Thank you. - All right, you guys. Good luck. - Thanks, penny."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0117",
+        "t": [
+          744.944,
+          746.696
+        ],
+        "speaker": "Howard",
+        "text": "- Break a leg. - Yeah, break a leg."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0118",
+        "t": [
+          748.239,
+          749.657
+        ],
+        "speaker": "Howard",
+        "text": "So road trip to long beach."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0119",
+        "t": [
+          749.824,
+          755.413
+        ],
+        "speaker": "Leonard",
+        "text": "- We're not going to long beach. - Why not? Because Sheldon doesn't have a drug-addicted cousin Leopold."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0120",
+        "t": [
+          755.58,
+          760.376
+        ],
+        "speaker": "Raj",
+        "text": "Oh, too bad. I've always wanted to go to long beach."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0121",
+        "t": [
+          760.543,
+          770.052
+        ],
+        "speaker": "Sheldon",
+        "text": "It's a very nice community. The queen Mary is docked there. Once the largest liner in the world, it's now a hotel and restaurant... Where they host a surprisingly gripping murder-mystery dinner."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0122",
+        "t": [
+          770.97,
+          772.013
+        ],
+        "speaker": "Howard",
+        "text": "- Sounds fun. - I'm game."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0123",
+        "t": [
+          772.18,
+          778.519
+        ],
+        "speaker": "Sheldon",
+        "text": "- Shotgun. - No, no, no. Leonard gets nauseous unless he sits in front, and even then it's iffy."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0124",
+        "t": [
+          780.229,
+          783.733
+        ],
+        "speaker": "Leonard",
+        "text": "Wait, are we really going to long beach?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q010",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the tall man in the plaid robe's enthusiastic description of Long Beach evoke in the two men in sweaters standing by the doorway?",
+    "options": [],
+    "answer": [
+      "excitement",
+      "anticipation"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q010_seg1_748.0_783.9.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 748,
+          "end": 783.9,
+          "mmss": "12:28.0–13:03.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0118",
+        "t": [
+          748.239,
+          749.657
+        ],
+        "speaker": "Howard",
+        "text": "So road trip to long beach."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0119",
+        "t": [
+          749.824,
+          755.413
+        ],
+        "speaker": "Leonard",
+        "text": "- We're not going to long beach. - Why not? Because Sheldon doesn't have a drug-addicted cousin Leopold."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0120",
+        "t": [
+          755.58,
+          760.376
+        ],
+        "speaker": "Raj",
+        "text": "Oh, too bad. I've always wanted to go to long beach."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0121",
+        "t": [
+          760.543,
+          770.052
+        ],
+        "speaker": "Sheldon",
+        "text": "It's a very nice community. The queen Mary is docked there. Once the largest liner in the world, it's now a hotel and restaurant... Where they host a surprisingly gripping murder-mystery dinner."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0122",
+        "t": [
+          770.97,
+          772.013
+        ],
+        "speaker": "Howard",
+        "text": "- Sounds fun. - I'm game."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0123",
+        "t": [
+          772.18,
+          778.519
+        ],
+        "speaker": "Sheldon",
+        "text": "- Shotgun. - No, no, no. Leonard gets nauseous unless he sits in front, and even then it's iffy."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0124",
+        "t": [
+          780.229,
+          783.733
+        ],
+        "speaker": "Leonard",
+        "text": "Wait, are we really going to long beach?"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q011",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the red-haired man in the denim vest's improvised backstory evoke in the tall man wearing the green T-shirt?",
+    "options": [],
+    "answer": [
+      "annoyance",
+      "disapproval"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q011_seg1_892.0_950.4.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 892,
+          "end": 950.4,
+          "mmss": "14:52.0–15:50.4"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0136",
+        "t": [
+          892.216,
+          893.884
+        ],
+        "speaker": "Strange Man",
+        "text": "Morning."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0137",
+        "t": [
+          894.468,
+          895.845
+        ],
+        "speaker": "Leonard",
+        "text": "Who are you?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0138",
+        "t": [
+          896.637,
+          898.222
+        ],
+        "speaker": "Man",
+        "text": "I am Sheldon's cousin Leo."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0139",
+        "t": [
+          898.389,
+          900.808
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, god."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0140",
+        "t": [
+          903.352,
+          905.855
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon does not have a cousin Leo."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0141",
+        "t": [
+          906.022,
+          924.081
+        ],
+        "speaker": "Man",
+        "text": "Au contraire. I'm 26 years old... I'm originally from \"denton, Texas,\" but I was a Navy brat. I was brought up on a variety of military bases around the world. As a result, I've often felt like an outsider, never really fitting in... Probably the reason for my substance-abuse problem."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0142",
+        "t": [
+          924.248,
+          931.839
+        ],
+        "speaker": "Sheldon",
+        "text": "Excuse me, we just went over this. As the middle child, your addiction is rooted in your unmet need for attention."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0143",
+        "t": [
+          932.006,
+          934.759
+        ],
+        "speaker": "Man",
+        "text": "Oh, Sheldon, are we really gonna go with pop psychology?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0144",
+        "t": [
+          934.925,
+          950.232
+        ],
+        "speaker": "Sheldon",
+        "text": "For your information, this is all based on solid research. Just stick with the character profile I wrote for you. - Sheldon? - I'm sorry. Leonard, this is Toby loobenfeld. He's a research assistant in the particle-physics lab... But he also minored in theater at mit."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q012",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the red-haired man in the denim vest experience?",
+    "options": [],
+    "answer": [
+      "engagement",
+      "confidence",
+      "happiness"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q012_seg1_892.0_996.7.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 892,
+          "end": 996.7,
+          "mmss": "14:52.0–16:36.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0136",
+        "t": [
+          892.216,
+          893.884
+        ],
+        "speaker": "Strange Man",
+        "text": "Morning."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0137",
+        "t": [
+          894.468,
+          895.845
+        ],
+        "speaker": "Leonard",
+        "text": "Who are you?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0138",
+        "t": [
+          896.637,
+          898.222
+        ],
+        "speaker": "Man",
+        "text": "I am Sheldon's cousin Leo."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0139",
+        "t": [
+          898.389,
+          900.808
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, god."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0140",
+        "t": [
+          903.352,
+          905.855
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon does not have a cousin Leo."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0141",
+        "t": [
+          906.022,
+          924.081
+        ],
+        "speaker": "Man",
+        "text": "Au contraire. I'm 26 years old... I'm originally from \"denton, Texas,\" but I was a Navy brat. I was brought up on a variety of military bases around the world. As a result, I've often felt like an outsider, never really fitting in... Probably the reason for my substance-abuse problem."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0142",
+        "t": [
+          924.248,
+          931.839
+        ],
+        "speaker": "Sheldon",
+        "text": "Excuse me, we just went over this. As the middle child, your addiction is rooted in your unmet need for attention."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0143",
+        "t": [
+          932.006,
+          934.759
+        ],
+        "speaker": "Man",
+        "text": "Oh, Sheldon, are we really gonna go with pop psychology?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0144",
+        "t": [
+          934.925,
+          950.232
+        ],
+        "speaker": "Sheldon",
+        "text": "For your information, this is all based on solid research. Just stick with the character profile I wrote for you. - Sheldon? - I'm sorry. Leonard, this is Toby loobenfeld. He's a research assistant in the particle-physics lab... But he also minored in theater at mit."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0145",
+        "t": [
+          950.399,
+          956.739
+        ],
+        "speaker": "Toby",
+        "text": "It was more of a double major, actually. Theater and physics. You can guess which one my bourgeois parents pushed me towards."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0146",
+        "t": [
+          956.906,
+          960.201
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, I got it. Sheldon, why?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0147",
+        "t": [
+          960.368,
+          969.418
+        ],
+        "speaker": "Sheldon",
+        "text": "You see, while Leo would not have gone into rehab... It is completely plausible that we would have talked him into leaving the motel... - And coming home with us. - Oh..."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0148",
+        "t": [
+          969.71,
+          977.301
+        ],
+        "speaker": "Toby",
+        "text": "Sheldon, how about this as my motivation? When I was 14 years old... I was abused in the Philippines by a clubfooted Navy chaplain."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0149",
+        "t": [
+          978.886,
+          984.934
+        ],
+        "speaker": "Sheldon",
+        "text": "No, we're going with middle child and a genetic predisposition... To inadequate serotonin production."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0150",
+        "t": [
+          985.101,
+          987.895
+        ],
+        "speaker": "Toby",
+        "text": "Swell, well, how do I play genetic predisposition?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0151",
+        "t": [
+          989.063,
+          991.232
+        ],
+        "speaker": "Sheldon",
+        "text": "Subtextually, of course."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0152",
+        "t": [
+          994.276,
+          996.445
+        ],
+        "speaker": "Sheldon",
+        "text": "Just have fun with it."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q013",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the red-haired man in the denim vest?",
+    "options": [
+      "A. He begins guarded and uncertain, becomes embarrassed, and ends calm but subdued.",
+      "B. He begins grim, grows reassured, and ends playful but emotionally distant.",
+      "C. He begins irritable, becomes amused, and ends tense and distrustful.",
+      "D. He begins confrontational, grows frustrated, and ends relaxed and affectionate."
+    ],
+    "answer": "A",
+    "video_name": "thebigbang_g1_2_s01e10_q013_seg1_1001.0_1198.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 1001,
+          "end": 1198.3,
+          "mmss": "16:41.0–19:58.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0153",
+        "t": [
+          1001.283,
+          1003.828
+        ],
+        "speaker": "Penny",
+        "text": "- Morning, penny. - Hi. How did the intervention go?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0154",
+        "t": [
+          1003.994,
+          1006.914
+        ],
+        "speaker": "Sheldon",
+        "text": "Unfortunately, we weren't able to convince him to go to rehab."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0155",
+        "t": [
+          1007.081,
+          1010.292
+        ],
+        "speaker": "Penny",
+        "text": "Well, based on what you told me, I'm not surprised."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0156",
+        "t": [
+          1012.753,
+          1016.465
+        ],
+        "speaker": "Sheldon",
+        "text": "But we did convince him to leave the motel. Come say hello."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0157",
+        "t": [
+          1018.217,
+          1022.596
+        ],
+        "speaker": "Sheldon",
+        "text": "Leo, this is penny, our friend and neighbor."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0158",
+        "t": [
+          1022.763,
+          1025.975
+        ],
+        "speaker": "Penny",
+        "text": "Hi, Leo, how are you feeling?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0159",
+        "t": [
+          1031.272,
+          1040.448
+        ],
+        "speaker": "Toby",
+        "text": "Let me ask you something, penny. Have you ever woken up in a fleabag motel covered in your own vomit... Next to a transsexual prostitute?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0160",
+        "t": [
+          1043.367,
+          1047.496
+        ],
+        "speaker": "Toby",
+        "text": "- No. - Then don't ask me how I'm feeling."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0161",
+        "t": [
+          1049.999,
+          1055.504
+        ],
+        "speaker": "Leonard",
+        "text": "Well, that's Leo. Hey, why don't you tell me about your showcase last night?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0162",
+        "t": [
+          1055.671,
+          1059.55
+        ],
+        "speaker": "Penny",
+        "text": "Oh, it was okay, I guess. Wasn't a big turnout, but they both seemed to like it."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0163",
+        "t": [
+          1060.217,
+          1064.513
+        ],
+        "speaker": "Leonard",
+        "text": "- There were only two people there? - By the end, yeah."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0164",
+        "t": [
+          1064.722,
+          1067.516
+        ],
+        "speaker": "Toby",
+        "text": "Damn you, chaplain horrigan."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0165",
+        "t": [
+          1069.477,
+          1070.895
+        ],
+        "speaker": "Penny",
+        "text": "I'm sorry?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0166",
+        "t": [
+          1071.061,
+          1073.022
+        ],
+        "speaker": "Toby",
+        "text": "The Philippines."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0167",
+        "t": [
+          1077.109,
+          1103.886
+        ],
+        "speaker": "Toby",
+        "text": "The subic bay naval station. A young boy on the cusp of manhood. His only companions, mongrel dogs and malarial mosquitoes. Desperate and alone, he reached out to a man... Who promised to introduce him to a merciful, loving god... But who instead introduced him to a gin-pickled tongue... Shoved down his adolescent throat."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0168",
+        "t": [
+          1106.555,
+          1112.394
+        ],
+        "speaker": "Toby",
+        "text": "But to drink, shoot and snort his pain away?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0169",
+        "t": [
+          1112.561,
+          1115.022
+        ],
+        "speaker": "Sheldon",
+        "text": "Don't forget genetic predisposition towards addiction."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0170",
+        "t": [
+          1115.189,
+          1116.232
+        ],
+        "speaker": "Toby",
+        "text": "Never been proven."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0171",
+        "t": [
+          1116.398,
+          1121.403
+        ],
+        "speaker": "Sheldon",
+        "text": "- There have been studies. - Not double-blind studies. How could there be? Who would be the control group?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0172",
+        "t": [
+          1121.57,
+          1125.908
+        ],
+        "speaker": "Leonard",
+        "text": "As you can see, detoxing can get pretty ugly. - Let's give them some privacy. - Yeah."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0173",
+        "t": [
+          1126.075,
+          1133.082
+        ],
+        "speaker": "Penny",
+        "text": "Do you wanna come over, have coffee? - Sounds good. - I have a video of me singing last night. Do you wanna see it?"
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0174",
+        "t": [
+          1133.29,
+          1135.876
+        ],
+        "speaker": "Leonard",
+        "text": "- Gee, why wouldn't I? - This is even better..."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0175",
+        "t": [
+          1136.043,
+          1139.213
+        ],
+        "speaker": "Penny",
+        "text": "Than you coming to the showcase, now I get to watch you watch me."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0176",
+        "t": [
+          1141.757,
+          1144.51
+        ],
+        "speaker": "Leonard",
+        "text": "Funny how things work out."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0177",
+        "t": [
+          1145.094,
+          1149.932
+        ],
+        "speaker": "Toby",
+        "text": "But he loved the companionship and the wisdom... That his own father failed to provide."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0178",
+        "t": [
+          1150.975,
+          1152.81
+        ],
+        "speaker": "Sheldon",
+        "text": "Your parents made the right decision."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0179",
+        "t": [
+          1158.691,
+          1161.36
+        ],
+        "speaker": "Toby",
+        "text": "I cannot work like this."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0180",
+        "t": [
+          1170.87,
+          1182.089
+        ],
+        "speaker": "Toby",
+        "text": "This is amazing, just sitting on a couch watching TV with a woman. Not being drunk or high or wondering if you're a dude down there."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0181",
+        "t": [
+          1183.883,
+          1189.722
+        ],
+        "speaker": "Penny",
+        "text": "Leo, you are a very sweet, really funny guy. You're gonna do okay."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0182",
+        "t": [
+          1190.18,
+          1192.224
+        ],
+        "speaker": "Toby",
+        "text": "One day at a time, penny."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0183",
+        "t": [
+          1195.853,
+          1198.063
+        ],
+        "speaker": "Toby",
+        "text": "One day at a time."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q014",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full interaction, what emotions does the blonde woman in the floral top experience?",
+    "options": [],
+    "answer": [
+      "affection",
+      "sympathy"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q014_seg1_1170.5_1198.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 1170.5,
+          "end": 1198.3,
+          "mmss": "19:30.5–19:58.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0180",
+        "t": [
+          1170.87,
+          1182.089
+        ],
+        "speaker": "Toby",
+        "text": "This is amazing, just sitting on a couch watching TV with a woman. Not being drunk or high or wondering if you're a dude down there."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0181",
+        "t": [
+          1183.883,
+          1189.722
+        ],
+        "speaker": "Penny",
+        "text": "Leo, you are a very sweet, really funny guy. You're gonna do okay."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0182",
+        "t": [
+          1190.18,
+          1192.224
+        ],
+        "speaker": "Toby",
+        "text": "One day at a time, penny."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0183",
+        "t": [
+          1195.853,
+          1198.063
+        ],
+        "speaker": "Toby",
+        "text": "One day at a time."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e10_q015",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions does the blonde woman in the floral top's encouragement evoke in the red-haired man beside her?",
+    "options": [],
+    "answer": [
+      "happiness",
+      "affection"
+    ],
+    "video_name": "thebigbang_g1_2_s01e10_q014_seg1_1170.5_1198.3.mp4",
+    "input_video": {
+      "scope_kind": "event",
+      "eps": [
+        "S01E10"
+      ],
+      "segments": [
+        {
+          "ep": "S01E10",
+          "start": 1170.5,
+          "end": 1198.3,
+          "mmss": "19:30.5–19:58.3"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E10",
+        "unit_id": "u0180",
+        "t": [
+          1170.87,
+          1182.089
+        ],
+        "speaker": "Toby",
+        "text": "This is amazing, just sitting on a couch watching TV with a woman. Not being drunk or high or wondering if you're a dude down there."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0181",
+        "t": [
+          1183.883,
+          1189.722
+        ],
+        "speaker": "Penny",
+        "text": "Leo, you are a very sweet, really funny guy. You're gonna do okay."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0182",
+        "t": [
+          1190.18,
+          1192.224
+        ],
+        "speaker": "Toby",
+        "text": "One day at a time, penny."
+      },
+      {
+        "ep": "S01E10",
+        "unit_id": "u0183",
+        "t": [
+          1195.853,
+          1198.063
+        ],
+        "speaker": "Toby",
+        "text": "One day at a time."
+      }
+    ]
+  }
+]

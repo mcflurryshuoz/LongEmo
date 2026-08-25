@@ -1,0 +1,2716 @@
+[
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q001",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the tallest man in paint-splattered gear change before and after the blonde woman says it is a Halloween party?",
+    "options": [],
+    "answer": {
+      "before": [
+        "annoyance",
+        "disapproval"
+      ],
+      "after": [
+        "surprise",
+        "engagement"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e06_q001_seg1_9.0_145.8.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 9,
+          "end": 145.8,
+          "mmss": "0:09.0–2:25.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0001",
+        "t": [
+          9.334,
+          13.922
+        ],
+        "speaker": "Raj",
+        "text": "Okay, if no one else will say it, I will. We really suck at paintball."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0002",
+        "t": [
+          15.298,
+          17.008
+        ],
+        "speaker": "Howard",
+        "text": "Howard: That was absolutely humiliating."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0003",
+        "t": [
+          17.175,
+          20.178
+        ],
+        "speaker": "Leonard",
+        "text": "Leonard: Oh, come on. Some battles you win, some battles you lose."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0004",
+        "t": [
+          20.345,
+          25.726
+        ],
+        "speaker": "Howard",
+        "text": "Howard: Yes, but you don't have to lose to Kyle Bernstein's bar mitzvah party."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0005",
+        "t": [
+          26.435,
+          31.606
+        ],
+        "speaker": "Leonard",
+        "text": "I think we have to acknowledge, those were some fairly savage preadolescent Jews."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0006",
+        "t": [
+          33.734,
+          39.322
+        ],
+        "speaker": "Sheldon",
+        "text": "No, we were annihilated by our own incompetence... And the inability of some people to follow the chain of command."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0007",
+        "t": [
+          39.489,
+          40.824
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon, let it go."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0008",
+        "t": [
+          40.991,
+          45.245
+        ],
+        "speaker": "Sheldon",
+        "text": "No, I wanna talk about the fact that Wolowitz shot me in the back."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0009",
+        "t": [
+          45.829,
+          50.041
+        ],
+        "speaker": "Howard",
+        "text": "I shot you for a good reason. You were leading us into disaster."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0010",
+        "t": [
+          50.459,
+          52.627
+        ],
+        "speaker": "Sheldon",
+        "text": "I was giving clear, concise orders."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0011",
+        "t": [
+          52.794,
+          58.842
+        ],
+        "speaker": "Leonard",
+        "text": "You hid behind a tree yelling: \"Get the kid in the yarmulke! Get the kid in the yarmulke!\" - Oh, hey, guys. - Oh, hey, penny."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0012",
+        "t": [
+          59.009,
+          60.719
+        ],
+        "speaker": "Howard",
+        "text": "- Hello. - Morning, ma'am."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0013",
+        "t": [
+          61.678,
+          63.764
+        ],
+        "speaker": "Penny",
+        "text": "So how was paintball? Did you have fun?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0014",
+        "t": [
+          63.93,
+          71.855
+        ],
+        "speaker": "Sheldon",
+        "text": "Sure, if you consider being fragged by your own troops fun. You clear a space on your calendar. There will be an inquiry."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0015",
+        "t": [
+          72.439,
+          76.61
+        ],
+        "speaker": "Penny",
+        "text": "Okay. Um... I'm having a party on Saturday, so if you're around, come by."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0016",
+        "t": [
+          78.111,
+          81.031
+        ],
+        "speaker": "Howard",
+        "text": "A boy-girl party?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0017",
+        "t": [
+          82.365,
+          89.331
+        ],
+        "speaker": "Penny",
+        "text": "There will be boys and there will be girls... And it is a party, so... Just a bunch of my friends, have some beer, do a little dancing."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0018",
+        "t": [
+          90.791,
+          94.753
+        ],
+        "speaker": "Leonard",
+        "text": "- I don't know, penny... - Thing is, we're not... - We're really more of a... - No."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0019",
+        "t": [
+          96.254,
+          98.34
+        ],
+        "speaker": "Leonard",
+        "text": "But thanks. Thanks for thinking of us."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0020",
+        "t": [
+          98.507,
+          100.133
+        ],
+        "speaker": "Penny",
+        "text": "Are you sure? It's Halloween."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0021",
+        "t": [
+          100.3,
+          101.676
+        ],
+        "speaker": "Sheldon",
+        "text": "A Halloween party?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0022",
+        "t": [
+          101.843,
+          103.261
+        ],
+        "speaker": "Howard",
+        "text": "As in costumes?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0023",
+        "t": [
+          103.428,
+          104.805
+        ],
+        "speaker": "Penny",
+        "text": "Well, yeah."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0024",
+        "t": [
+          113.605,
+          115.065
+        ],
+        "speaker": "Leonard",
+        "text": "Is there a theme?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0025",
+        "t": [
+          115.232,
+          116.775
+        ],
+        "speaker": "Penny",
+        "text": "Um, yeah, Halloween."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0026",
+        "t": [
+          117.567,
+          120.445
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but are the costumes random or genre-specific?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0027",
+        "t": [
+          121.112,
+          123.74
+        ],
+        "speaker": "Penny",
+        "text": "As usual, I'm not following."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0028",
+        "t": [
+          123.907,
+          128.328
+        ],
+        "speaker": "Leonard",
+        "text": "He's asking if we can come as anyone from science fiction... - Fantasy... - Sure."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0029",
+        "t": [
+          128.495,
+          129.788
+        ],
+        "speaker": "Sheldon",
+        "text": "- Comic books? - Fine."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0030",
+        "t": [
+          129.955,
+          131.414
+        ],
+        "speaker": "Penny",
+        "text": "- Anime? - Of course."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0031",
+        "t": [
+          131.581,
+          134
+        ],
+        "speaker": "Sheldon",
+        "text": "TV, film, d&d, manga. Greek, Roman, norse gods..."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0032",
+        "t": [
+          134.167,
+          138.296
+        ],
+        "speaker": "Penny",
+        "text": "Anything you want. Okay? Any costume you want."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0033",
+        "t": [
+          142.551,
+          145.345
+        ],
+        "speaker": "Howard",
+        "text": "Gentlemen, to the sewing machines."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q002",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the four men as they prepare for the party?",
+    "options": [
+      "A. They begin playful and excited, become briefly surprised, then settle into warm cooperation and satisfaction.",
+      "B. They begin uncertain and guarded, grow increasingly competitive, then end embarrassed and discouraged.",
+      "C. They begin playful and excited, dip into shared dismay and irritation, then return to amused teasing.",
+      "D. They begin amused but detached, shift into irritation, then end anxious and divided."
+    ],
+    "answer": "C",
+    "video_name": "thebigbang_g1_2_s01e06_q002_seg1_171.0_285.8.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 171,
+          "end": 285.8,
+          "mmss": "2:51.0–4:45.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0034",
+        "t": [
+          171.913,
+          173.707
+        ],
+        "speaker": "unknown",
+        "text": "Leonard: I'll get it."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0035",
+        "t": [
+          184.009,
+          185.093
+        ],
+        "speaker": "unknown",
+        "text": "Psshoo."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0036",
+        "t": [
+          188.43,
+          189.931
+        ],
+        "speaker": "Leonard",
+        "text": "Oh, no."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0037",
+        "t": [
+          191.308,
+          192.35
+        ],
+        "speaker": "Sheldon",
+        "text": "Sheldon: Oh, no."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0038",
+        "t": [
+          193.643,
+          198.523
+        ],
+        "speaker": "Raj",
+        "text": "Make way for the fastest man alive. Oh, no."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0039",
+        "t": [
+          198.69,
+          201.484
+        ],
+        "speaker": "Sheldon",
+        "text": "See, this is why I wanted to have a costume meeting."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0040",
+        "t": [
+          201.651,
+          203.987
+        ],
+        "speaker": "Leonard",
+        "text": "We all have other costumes. We can change."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0041",
+        "t": [
+          204.571,
+          209.951
+        ],
+        "speaker": "Raj",
+        "text": "Or we could walk right behind each other all night. It'll look like one person going really fast."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0042",
+        "t": [
+          217.208,
+          222.631
+        ],
+        "speaker": "Howard",
+        "text": "No, no, no. It's a boy-girl party, this flash runs solo."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0043",
+        "t": [
+          223.381,
+          227.01
+        ],
+        "speaker": "Leonard",
+        "text": "Okay, how about this? Nobody gets to be the flash. We all change. Agreed?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0044",
+        "t": [
+          228.47,
+          230.388
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "All: Agreed."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0045",
+        "t": [
+          231.681,
+          232.933
+        ],
+        "speaker": "Leonard",
+        "text": "I call Frodo!"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0046",
+        "t": [
+          233.099,
+          234.351
+        ],
+        "speaker": "ENSEMBLE",
+        "text": "All: Damn."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0047",
+        "t": [
+          241.274,
+          242.817
+        ],
+        "speaker": "unknown",
+        "text": "Hey."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0048",
+        "t": [
+          244.819,
+          248.74
+        ],
+        "speaker": "unknown",
+        "text": "Sorry I'm late, but my hammer got stuck in the door on the bus."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0049",
+        "t": [
+          249.366,
+          251.034
+        ],
+        "speaker": "Leonard",
+        "text": "- You went with Thor? - What?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0050",
+        "t": [
+          251.201,
+          262.42
+        ],
+        "speaker": "Raj",
+        "text": "Just because I'm Indian, I can't be a norse god? No, no, no, raj has to be an Indian god. That's racism. I mean, look at Wolowitz. He's not English, but he's dressed like Peter Pan."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0051",
+        "t": [
+          264.089,
+          267.759
+        ],
+        "speaker": "Raj",
+        "text": "Sheldon is neither sound nor light, but he's obviously the doppler effect."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0052",
+        "t": [
+          272.43,
+          275.934
+        ],
+        "speaker": "Howard",
+        "text": "- I'm not Peter Pan, I'm Robin hood. - Really?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0053",
+        "t": [
+          276.393,
+          279.688
+        ],
+        "speaker": "Raj",
+        "text": "Because I saw Peter Pan and you're dressed exactly like Cathy rigby."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0054",
+        "t": [
+          281.231,
+          285.068
+        ],
+        "speaker": "Raj",
+        "text": "She was a little bigger than you, but it's basically the same look, man."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q003",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full video, what emotions does the bespectacled man in the green cloak experience?",
+    "options": [],
+    "answer": [
+      "yearning",
+      "disquietment"
+    ],
+    "video_name": "thebigbang_g1_2_s01e06_q003_seg1_286.0_345.8.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 286,
+          "end": 345.8,
+          "mmss": "4:46.0–5:45.8"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0055",
+        "t": [
+          286.027,
+          289.072
+        ],
+        "speaker": "Leonard",
+        "text": "Sheldon, there's something I wanna talk to you about before we go."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0056",
+        "t": [
+          289.239,
+          298.206
+        ],
+        "speaker": "Sheldon",
+        "text": "I don't care if anybody gets it, I'm going as the doppler effect. - No, it's not that... - If I have to, I can demonstrate: Vroom."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0057",
+        "t": [
+          301.084,
+          312.554
+        ],
+        "speaker": "Leonard",
+        "text": "Terrific. Um... This party is my first chance for penny... To see me in the context of her social group... And I need you not to embarrass me tonight."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0058",
+        "t": [
+          313.722,
+          315.724
+        ],
+        "speaker": "Sheldon",
+        "text": "What exactly do you mean by embarrass you?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0059",
+        "t": [
+          316.599,
+          321.896
+        ],
+        "speaker": "Leonard",
+        "text": "For example, tonight, no one needs to know that my middle name is leakey."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0060",
+        "t": [
+          322.063,
+          330.155
+        ],
+        "speaker": "Sheldon",
+        "text": "But there's nothing embarrassing about that. Your father worked with Louis leakey, a great anthropologist. It had nothing to do with your bed-wetting."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0061",
+        "t": [
+          331.698,
+          345.462
+        ],
+        "speaker": "Leonard",
+        "text": "All I'm saying is that this party is the perfect opportunity... For penny to see me as a member of her peer group... A potential close friend and perhaps more. I don't wanna look like a dork."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q004",
+    "task_type": "contextual_emotion",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "Considering the full video, what emotions does the short man in the green costume experience?",
+    "options": [],
+    "answer": [
+      "confidence",
+      "excitement",
+      "engagement"
+    ],
+    "video_name": "thebigbang_g1_2_s01e06_q004_seg1_521.0_584.6.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 521,
+          "end": 584.6,
+          "mmss": "8:41.0–9:44.6"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0094",
+        "t": [
+          521.179,
+          539.864
+        ],
+        "speaker": "Howard",
+        "text": "Hey, guys, check out the sexy nurse. I believe it's time for me to turn my head and cough. - What is your move? - I'm going to use the mirror technique. She brushes her hair back, I brush mine. She shrugs, I shrug. Subconsciously, she's thinking, \"we're in sync. We belong together.\""
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0095",
+        "t": [
+          540.031,
+          542.2
+        ],
+        "speaker": "Leonard",
+        "text": "Where do you get this stuff?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0096",
+        "t": [
+          542.367,
+          549.332
+        ],
+        "speaker": "Howard",
+        "text": "You know, psychology journals, Internet research. And there's this great show on vh1 about how to pick up girls."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0097",
+        "t": [
+          551.834,
+          560.677
+        ],
+        "speaker": "Raj",
+        "text": "Oh, if only I had his confidence. I have such difficulty speaking to women... Or around women, or at times even effeminate men."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0098",
+        "t": [
+          562.22,
+          566.683
+        ],
+        "speaker": "Howard",
+        "text": "If that's a working stethoscope... Maybe you'd like to hear my heart skip a beat."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0099",
+        "t": [
+          567.517,
+          568.81
+        ],
+        "speaker": "Nurse Costume Girl",
+        "text": "No, thanks."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0100",
+        "t": [
+          568.977,
+          572.146
+        ],
+        "speaker": "Howard",
+        "text": "No, seriously, you can. I have transient idiopathic arrhythmia."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0101",
+        "t": [
+          574.524,
+          578.987
+        ],
+        "speaker": "unknown",
+        "text": "So take my money take my money"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0102",
+        "t": [
+          579.153,
+          584.534
+        ],
+        "speaker": "Leonard",
+        "text": "I wanna get to know penny's friends. I just... I don't know how to talk to these people."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q005",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the bespectacled man in the green cloak change before and after he says he is jumping in?",
+    "options": [],
+    "answer": {
+      "before": [
+        "doubt/confusion",
+        "disquietment"
+      ],
+      "after": [
+        "engagement",
+        "confidence"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e06_q005_seg1_579.0_670.9.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 579,
+          "end": 670.9,
+          "mmss": "9:39.0–11:10.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0102",
+        "t": [
+          579.153,
+          584.534
+        ],
+        "speaker": "Leonard",
+        "text": "I wanna get to know penny's friends. I just... I don't know how to talk to these people."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0103",
+        "t": [
+          584.701,
+          600.008
+        ],
+        "speaker": "Sheldon",
+        "text": "- Well, I actually might be able to help. - How so? Like Jane goodall observing the apes... I initially saw their interactions as confusing and unstructured. But patterns emerge. They have their own language, if you will."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0104",
+        "t": [
+          600.925,
+          602.343
+        ],
+        "speaker": "Leonard",
+        "text": "Go on."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0105",
+        "t": [
+          602.51,
+          612.52
+        ],
+        "speaker": "Sheldon",
+        "text": "Well, it seems that the newcomer approaches the existing group... With the greeting, \"how wasted am I?\" Which is met with an approving chorus of \"dude.\""
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0106",
+        "t": [
+          613.229,
+          614.397
+        ],
+        "speaker": "Leonard",
+        "text": "Then what happens?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0107",
+        "t": [
+          614.564,
+          616.232
+        ],
+        "speaker": "Sheldon",
+        "text": "That's as far as I've gotten."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0108",
+        "t": [
+          617.692,
+          622.739
+        ],
+        "speaker": "Leonard",
+        "text": "This is ridiculous. - I'm jumping in. - Good luck. No, you're coming with me."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0109",
+        "t": [
+          622.905,
+          624.907
+        ],
+        "speaker": "Sheldon",
+        "text": "Oh, I hardly think so."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0110",
+        "t": [
+          625.074,
+          626.117
+        ],
+        "speaker": "Leonard",
+        "text": "Come on."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0111",
+        "t": [
+          626.743,
+          638.713
+        ],
+        "speaker": "Sheldon",
+        "text": "- Aren't you afraid I'll embarrass you? - Yes, but I need a wingman. All right, but if we're going to use flight metaphors... I'm much more suited to being the guy from the faa analyzing wreckage."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0112",
+        "t": [
+          640.84,
+          642.133
+        ],
+        "speaker": "Girl In Hippie Costume",
+        "text": "Oh, hi."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0113",
+        "t": [
+          644.01,
+          645.72
+        ],
+        "speaker": "Girl",
+        "text": "So, what are you supposed to be?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0114",
+        "t": [
+          647.597,
+          649.682
+        ],
+        "speaker": "Sheldon",
+        "text": "I'll give you a hint."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0115",
+        "t": [
+          649.849,
+          651.434
+        ],
+        "speaker": "unknown",
+        "text": "Vroom."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0116",
+        "t": [
+          652.56,
+          653.811
+        ],
+        "speaker": "Girl",
+        "text": "A choo-choo train?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0117",
+        "t": [
+          654.228,
+          656.105
+        ],
+        "speaker": "Sheldon",
+        "text": "Close."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0118",
+        "t": [
+          656.272,
+          658.066
+        ],
+        "speaker": "unknown",
+        "text": "Vroom."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0119",
+        "t": [
+          658.232,
+          660.318
+        ],
+        "speaker": "Girl",
+        "text": "A brain-damaged choo-choo train?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0120",
+        "t": [
+          662.612,
+          670.787
+        ],
+        "speaker": "unknown",
+        "text": "How wasted am I? Dancing all by myself cannot control the beat when you make me weak"
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q006",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the bespectacled man in the green cloak during his encounter with the shirtless man?",
+    "options": [
+      "A. He begins uneasy and threatened, becomes cautiously confident, backs away calmly, and ends relieved.",
+      "B. He begins uneasy and threatened, works himself into confidence, turns defiant, and ends embarrassed and hurt.",
+      "C. He begins jealous and angry, grows increasingly fearful, and ends in amused resignation.",
+      "D. He begins curious but calm, becomes protective, turns openly furious, and ends confident and triumphant."
+    ],
+    "answer": "B",
+    "video_name": "thebigbang_g1_2_s01e06_q006_seg1_692.6_968.9.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 692.6,
+          "end": 968.9,
+          "mmss": "11:32.6–16:08.9"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0127",
+        "t": [
+          692.683,
+          693.81
+        ],
+        "speaker": "Leonard",
+        "text": "Because I'm Frodo."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0128",
+        "t": [
+          693.976,
+          696.896
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, well, I'm the doppler effect."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0129",
+        "t": [
+          697.855,
+          702.026
+        ],
+        "speaker": "Leonard",
+        "text": "- Oh, no. - What? That's penny's ex-boyfriend."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0130",
+        "t": [
+          702.193,
+          707.281
+        ],
+        "speaker": "Sheldon",
+        "text": "What do you suppose he's doing here? Besides disrupting the local gravity field."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0131",
+        "t": [
+          708.282,
+          711.077
+        ],
+        "speaker": "Leonard",
+        "text": "If he were any bigger, he'd have moons orbiting him."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0132",
+        "t": [
+          714.163,
+          716.249
+        ],
+        "speaker": "Sheldon",
+        "text": "So I guess we'll be leaving now."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0133",
+        "t": [
+          716.416,
+          721.963
+        ],
+        "speaker": "Leonard",
+        "text": "Why should we leave? For all we know, he crashed the party and penny doesn't even want him here."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0134",
+        "t": [
+          723.631,
+          726.05
+        ],
+        "speaker": "Sheldon",
+        "text": "You have a backup hypothesis?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0135",
+        "t": [
+          726.217,
+          728.136
+        ],
+        "speaker": "Leonard",
+        "text": "Maybe they just wanna be friends."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0136",
+        "t": [
+          728.678,
+          732.64
+        ],
+        "speaker": "Sheldon",
+        "text": "Or maybe she wants to be friends and he wants something more."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0137",
+        "t": [
+          732.807,
+          734.559
+        ],
+        "speaker": "Leonard",
+        "text": "Then he and I are on equal ground."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0138",
+        "t": [
+          734.725,
+          738.02
+        ],
+        "speaker": "Sheldon",
+        "text": "Yes, but you're much closer to it than he is."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0139",
+        "t": [
+          739.272,
+          746.362
+        ],
+        "speaker": "Leonard",
+        "text": "Look, if this was 15,000 years ago, by virtue of his size and strength... Kurt would be entitled to his choice of female partners."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0140",
+        "t": [
+          746.529,
+          752.201
+        ],
+        "speaker": "Sheldon",
+        "text": "And male partners, animal partners, large primordial eggplants... Pretty much whatever tickled his fancy."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0141",
+        "t": [
+          752.785,
+          762.545
+        ],
+        "speaker": "Leonard",
+        "text": "Yes, but our society has undergone a paradigm shift. In the information age, Sheldon, you and I are the Alpha males. - And we shouldn't have to back down. - True."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0142",
+        "t": [
+          762.712,
+          765.882
+        ],
+        "speaker": "Sheldon",
+        "text": "Why don't you text him that and see if he backs down?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0143",
+        "t": [
+          769.218,
+          772.305
+        ],
+        "speaker": "Leonard",
+        "text": "I'm going to assert my dominance face to face."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0144",
+        "t": [
+          772.472,
+          777.393
+        ],
+        "speaker": "Sheldon",
+        "text": "Face to face? Are you gonna wait for him to sit down or you gonna stand on the coffee table?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0145",
+        "t": [
+          778.895,
+          780.646
+        ],
+        "speaker": "Leonard",
+        "text": "Hello, penny. Hello, Kurt."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0146",
+        "t": [
+          780.813,
+          782.607
+        ],
+        "speaker": "Penny",
+        "text": "Oh, hey, guys. You having a good time?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0147",
+        "t": [
+          782.773,
+          788.404
+        ],
+        "speaker": "Sheldon",
+        "text": "Given the reaction to my costume... This party is a scathing indictment of the American education system."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0148",
+        "t": [
+          788.905,
+          790.49
+        ],
+        "speaker": "Kurt",
+        "text": "What? You're a zebra, right?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0149",
+        "t": [
+          791.574,
+          794.076
+        ],
+        "speaker": "Sheldon",
+        "text": "Yet another child left behind."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0150",
+        "t": [
+          794.744,
+          796.913
+        ],
+        "speaker": "Kurt",
+        "text": "And what are you supposed to be, an elf?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0151",
+        "t": [
+          797.079,
+          798.289
+        ],
+        "speaker": "Leonard",
+        "text": "No, I'm a hobbit."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0152",
+        "t": [
+          798.456,
+          799.749
+        ],
+        "speaker": "Kurt",
+        "text": "What's the difference?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0153",
+        "t": [
+          799.916,
+          806.214
+        ],
+        "speaker": "Leonard",
+        "text": "A hobbit is a mortal, halfling inhabitant of middle-earth... Whereas an elf is an immortal, tall warrior."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0154",
+        "t": [
+          806.38,
+          809.258
+        ],
+        "speaker": "Kurt",
+        "text": "So why the hell would you wanna be a hobbit?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0155",
+        "t": [
+          809.634,
+          813.721
+        ],
+        "speaker": "Sheldon",
+        "text": "Because he's neither tall nor immortal, and none of us could be the flash."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0156",
+        "t": [
+          814.889,
+          818.976
+        ],
+        "speaker": "Kurt",
+        "text": "Well, whatever. Why don't you go hop off on a quest? I'm talking to penny here."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0157",
+        "t": [
+          819.143,
+          821.103
+        ],
+        "speaker": "Leonard",
+        "text": "I think we're all talking to penny here."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0158",
+        "t": [
+          821.27,
+          822.647
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm not. No offense."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0159",
+        "t": [
+          823.94,
+          825.399
+        ],
+        "speaker": "Kurt",
+        "text": "Okay, maybe you didn't hear me."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0160",
+        "t": [
+          825.566,
+          827.61
+        ],
+        "speaker": "Penny",
+        "text": "- Go away. - All right, Kurt, be nice."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0161",
+        "t": [
+          827.777,
+          832.323
+        ],
+        "speaker": "Kurt",
+        "text": "Oh, I am being nice. Right, little buddy?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0162",
+        "t": [
+          832.49,
+          844.21
+        ],
+        "speaker": "Leonard",
+        "text": "- Kun. - Okay. I understand your impulse to try to physically intimidate me. You can't compete with me on an intellectual level... And so you're driven to animalistic puffery."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0163",
+        "t": [
+          844.377,
+          846.629
+        ],
+        "speaker": "Kurt",
+        "text": "You calling me a puffy animal?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0164",
+        "t": [
+          846.796,
+          850.424
+        ],
+        "speaker": "Penny",
+        "text": "Oh, of course not. No, he's not. You're not, right, Leonard?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0165",
+        "t": [
+          851.092,
+          858.766
+        ],
+        "speaker": "Leonard",
+        "text": "No, I said animalistic. Of course, we're all animals... But some of us have climbed a little higher on the evolutionary tree."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0166",
+        "t": [
+          858.933,
+          861.102
+        ],
+        "speaker": "Sheldon",
+        "text": "If he understands that, you're in trouble."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0167",
+        "t": [
+          861.269,
+          863.145
+        ],
+        "speaker": "Kurt",
+        "text": "So what? I'm unevolved?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0168",
+        "t": [
+          863.312,
+          864.564
+        ],
+        "speaker": "Sheldon",
+        "text": "You're in trouble."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0169",
+        "t": [
+          865.439,
+          868.818
+        ],
+        "speaker": "Kurt",
+        "text": "You know, you use a lot of big words for such a little dwarf."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0170",
+        "t": [
+          868.985,
+          870.027
+        ],
+        "speaker": "Penny",
+        "text": "Okay, Kurt, please."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0171",
+        "t": [
+          870.194,
+          883.457
+        ],
+        "speaker": "Leonard",
+        "text": "Look, penny, it's okay. I can handle this. I am not a dwarf, I'm a hobbit. A hobbit. Are misfiring neurons in your hippocampus preventing the conversion... From short-term to long-term memory?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0172",
+        "t": [
+          886.043,
+          888.087
+        ],
+        "speaker": "Kurt",
+        "text": "Okay, now you're starting to make me mad."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0173",
+        "t": [
+          889.338,
+          893.092
+        ],
+        "speaker": "Leonard",
+        "text": "A homo habilis discovering his opposable thumbs says, \"what?\""
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0174",
+        "t": [
+          899.974,
+          901.392
+        ],
+        "speaker": "Leonard",
+        "text": "I think I've made my point."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0175",
+        "t": [
+          901.559,
+          904.562
+        ],
+        "speaker": "Kurt",
+        "text": "Yeah? How about I make a point out of your pointy little head?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0176",
+        "t": [
+          904.729,
+          910.526
+        ],
+        "speaker": "Sheldon",
+        "text": "Let me remind you, while my moral support is absolute, in a physical confrontation... I will be less than useless."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0177",
+        "t": [
+          910.693,
+          916.741
+        ],
+        "speaker": "Leonard",
+        "text": "There's not going to be a confrontation. In fact, I doubt if he can even spell confrontation."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0178",
+        "t": [
+          918.618,
+          923.748
+        ],
+        "speaker": "unknown",
+        "text": "C-o-n... Frontation."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0179",
+        "t": [
+          924.123,
+          930.296
+        ],
+        "speaker": "Penny",
+        "text": "- Kurt, put him down this instant. - He started it. I don't care, I'm finishing it. Put him down."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0180",
+        "t": [
+          930.463,
+          936.135
+        ],
+        "speaker": "Kurt",
+        "text": "Fine. You're one lucky little leprechaun."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0181",
+        "t": [
+          939.388,
+          941.223
+        ],
+        "speaker": "Sheldon",
+        "text": "I got your back."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0182",
+        "t": [
+          942.058,
+          943.267
+        ],
+        "speaker": "Penny",
+        "text": "Leonard, are you okay?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0183",
+        "t": [
+          943.434,
+          945.269
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, no, I'm fine."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0184",
+        "t": [
+          945.478,
+          947.647
+        ],
+        "speaker": "unknown",
+        "text": "I can't afford you"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0185",
+        "t": [
+          947.897,
+          951.651
+        ],
+        "speaker": "Leonard",
+        "text": "it's a good party. Thanks for having... It's just getting a little late, so..."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0186",
+        "t": [
+          952.026,
+          955.321
+        ],
+        "speaker": "Penny",
+        "text": "Oh. Okay. All right. Well, thank you for coming."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0187",
+        "t": [
+          955.488,
+          958.449
+        ],
+        "speaker": "unknown",
+        "text": "I had nothing to do with"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0188",
+        "t": [
+          958.616,
+          959.825
+        ],
+        "speaker": "Sheldon",
+        "text": "happy Halloween."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0189",
+        "t": [
+          963.704,
+          968.709
+        ],
+        "speaker": "Sheldon",
+        "text": "If it's any consolation... I thought that homo habilis line really put him in his place."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q007",
+    "task_type": "emotion_cause",
+    "question_type": "open_ended",
+    "prompt_template": "short_answer",
+    "question": "Considering the full video, what most directly causes the blonde woman in the black cat costume to become angry? Answer with a brief description of the action.",
+    "options": [],
+    "answer": "The shirtless man lifts the bespectacled man off the floor.",
+    "video_name": "thebigbang_g1_2_s01e06_q007_seg1_814.0_941.5.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 814,
+          "end": 941.5,
+          "mmss": "13:34.0–15:41.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0156",
+        "t": [
+          814.889,
+          818.976
+        ],
+        "speaker": "Kurt",
+        "text": "Well, whatever. Why don't you go hop off on a quest? I'm talking to penny here."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0157",
+        "t": [
+          819.143,
+          821.103
+        ],
+        "speaker": "Leonard",
+        "text": "I think we're all talking to penny here."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0158",
+        "t": [
+          821.27,
+          822.647
+        ],
+        "speaker": "Sheldon",
+        "text": "I'm not. No offense."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0159",
+        "t": [
+          823.94,
+          825.399
+        ],
+        "speaker": "Kurt",
+        "text": "Okay, maybe you didn't hear me."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0160",
+        "t": [
+          825.566,
+          827.61
+        ],
+        "speaker": "Penny",
+        "text": "- Go away. - All right, Kurt, be nice."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0161",
+        "t": [
+          827.777,
+          832.323
+        ],
+        "speaker": "Kurt",
+        "text": "Oh, I am being nice. Right, little buddy?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0162",
+        "t": [
+          832.49,
+          844.21
+        ],
+        "speaker": "Leonard",
+        "text": "- Kun. - Okay. I understand your impulse to try to physically intimidate me. You can't compete with me on an intellectual level... And so you're driven to animalistic puffery."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0163",
+        "t": [
+          844.377,
+          846.629
+        ],
+        "speaker": "Kurt",
+        "text": "You calling me a puffy animal?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0164",
+        "t": [
+          846.796,
+          850.424
+        ],
+        "speaker": "Penny",
+        "text": "Oh, of course not. No, he's not. You're not, right, Leonard?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0165",
+        "t": [
+          851.092,
+          858.766
+        ],
+        "speaker": "Leonard",
+        "text": "No, I said animalistic. Of course, we're all animals... But some of us have climbed a little higher on the evolutionary tree."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0166",
+        "t": [
+          858.933,
+          861.102
+        ],
+        "speaker": "Sheldon",
+        "text": "If he understands that, you're in trouble."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0167",
+        "t": [
+          861.269,
+          863.145
+        ],
+        "speaker": "Kurt",
+        "text": "So what? I'm unevolved?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0168",
+        "t": [
+          863.312,
+          864.564
+        ],
+        "speaker": "Sheldon",
+        "text": "You're in trouble."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0169",
+        "t": [
+          865.439,
+          868.818
+        ],
+        "speaker": "Kurt",
+        "text": "You know, you use a lot of big words for such a little dwarf."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0170",
+        "t": [
+          868.985,
+          870.027
+        ],
+        "speaker": "Penny",
+        "text": "Okay, Kurt, please."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0171",
+        "t": [
+          870.194,
+          883.457
+        ],
+        "speaker": "Leonard",
+        "text": "Look, penny, it's okay. I can handle this. I am not a dwarf, I'm a hobbit. A hobbit. Are misfiring neurons in your hippocampus preventing the conversion... From short-term to long-term memory?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0172",
+        "t": [
+          886.043,
+          888.087
+        ],
+        "speaker": "Kurt",
+        "text": "Okay, now you're starting to make me mad."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0173",
+        "t": [
+          889.338,
+          893.092
+        ],
+        "speaker": "Leonard",
+        "text": "A homo habilis discovering his opposable thumbs says, \"what?\""
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0174",
+        "t": [
+          899.974,
+          901.392
+        ],
+        "speaker": "Leonard",
+        "text": "I think I've made my point."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0175",
+        "t": [
+          901.559,
+          904.562
+        ],
+        "speaker": "Kurt",
+        "text": "Yeah? How about I make a point out of your pointy little head?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0176",
+        "t": [
+          904.729,
+          910.526
+        ],
+        "speaker": "Sheldon",
+        "text": "Let me remind you, while my moral support is absolute, in a physical confrontation... I will be less than useless."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0177",
+        "t": [
+          910.693,
+          916.741
+        ],
+        "speaker": "Leonard",
+        "text": "There's not going to be a confrontation. In fact, I doubt if he can even spell confrontation."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0178",
+        "t": [
+          918.618,
+          923.748
+        ],
+        "speaker": "unknown",
+        "text": "C-o-n... Frontation."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0179",
+        "t": [
+          924.123,
+          930.296
+        ],
+        "speaker": "Penny",
+        "text": "- Kurt, put him down this instant. - He started it. I don't care, I'm finishing it. Put him down."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0180",
+        "t": [
+          930.463,
+          936.135
+        ],
+        "speaker": "Kurt",
+        "text": "Fine. You're one lucky little leprechaun."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0181",
+        "t": [
+          939.388,
+          941.223
+        ],
+        "speaker": "Sheldon",
+        "text": "I got your back."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q008",
+    "task_type": "emotion_influence",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "How does the tall man in the black-and-white striped costume's attempt to comfort him affect the bespectacled man in the green cloak?",
+    "options": [
+      "A. It quickly cheers him up and restores his confidence.",
+      "B. It makes him irritated enough to reject both the drink and the company.",
+      "C. It leaves him frightened and confused about the other man's intentions.",
+      "D. It gives him a small sense of support, although his sadness remains."
+    ],
+    "answer": "D",
+    "video_name": "thebigbang_g1_2_s01e06_q008_seg1_942.0_1007.7.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 942,
+          "end": 1007.7,
+          "mmss": "15:42.0–16:47.7"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0182",
+        "t": [
+          942.058,
+          943.267
+        ],
+        "speaker": "Penny",
+        "text": "Leonard, are you okay?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0183",
+        "t": [
+          943.434,
+          945.269
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, no, I'm fine."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0184",
+        "t": [
+          945.478,
+          947.647
+        ],
+        "speaker": "unknown",
+        "text": "I can't afford you"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0185",
+        "t": [
+          947.897,
+          951.651
+        ],
+        "speaker": "Leonard",
+        "text": "it's a good party. Thanks for having... It's just getting a little late, so..."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0186",
+        "t": [
+          952.026,
+          955.321
+        ],
+        "speaker": "Penny",
+        "text": "Oh. Okay. All right. Well, thank you for coming."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0187",
+        "t": [
+          955.488,
+          958.449
+        ],
+        "speaker": "unknown",
+        "text": "I had nothing to do with"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0188",
+        "t": [
+          958.616,
+          959.825
+        ],
+        "speaker": "Sheldon",
+        "text": "happy Halloween."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0189",
+        "t": [
+          963.704,
+          968.709
+        ],
+        "speaker": "Sheldon",
+        "text": "If it's any consolation... I thought that homo habilis line really put him in his place."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0190",
+        "t": [
+          977.51,
+          980.221
+        ],
+        "speaker": "Leonard",
+        "text": "- What's that? - Tea."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0191",
+        "t": [
+          980.93,
+          985.518
+        ],
+        "speaker": "Sheldon",
+        "text": "When people are upset... The cultural convention is to bring them hot beverages."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0192",
+        "t": [
+          991.857,
+          993.567
+        ],
+        "speaker": "Sheldon",
+        "text": "There, there."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0193",
+        "t": [
+          996.362,
+          997.53
+        ],
+        "speaker": "Sheldon",
+        "text": "You wanna talk about it?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0194",
+        "t": [
+          1000.533,
+          1002.827
+        ],
+        "speaker": "Sheldon",
+        "text": "\"There, there\" was really all I had."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0195",
+        "t": [
+          1004.286,
+          1007.289
+        ],
+        "speaker": "Leonard",
+        "text": "- Good night, Sheldon. - Good night, Leonard."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q009",
+    "task_type": "emotion_transition",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_before_after",
+    "question": "Considering the full video, how do the emotions of the bespectacled man in the green cloak change before and after the blonde woman explains why she invited the shirtless man and becomes distressed?",
+    "options": [],
+    "answer": {
+      "before": [
+        "sadness",
+        "sensitivity"
+      ],
+      "after": [
+        "sympathy",
+        "affection"
+      ]
+    },
+    "video_name": "thebigbang_g1_2_s01e06_q009_seg1_1013.0_1068.0.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 1013,
+          "end": 1068,
+          "mmss": "16:53.0–17:48.0"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0196",
+        "t": [
+          1013.629,
+          1015.589
+        ],
+        "speaker": "Leonard",
+        "text": "- Hey, Leonard? - Hi, penny."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0197",
+        "t": [
+          1015.756,
+          1018.008
+        ],
+        "speaker": "Penny",
+        "text": "Hey, I just wanted to make sure you were okay."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0198",
+        "t": [
+          1018.175,
+          1020.302
+        ],
+        "speaker": "Leonard",
+        "text": "I'm fine."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0199",
+        "t": [
+          1021.429,
+          1023.764
+        ],
+        "speaker": "Penny",
+        "text": "I am so sorry about what happened."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0200",
+        "t": [
+          1023.931,
+          1025.558
+        ],
+        "speaker": "Leonard",
+        "text": "It's not your fault."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0201",
+        "t": [
+          1025.725,
+          1030.896
+        ],
+        "speaker": "Penny",
+        "text": "Yes, it is. That's why I broke up with him. He always does stuff like that."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0202",
+        "t": [
+          1031.731,
+          1034.15
+        ],
+        "speaker": "Leonard",
+        "text": "So why was he at your party?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0203",
+        "t": [
+          1035.526,
+          1056.422
+        ],
+        "speaker": "Penny",
+        "text": "Well, I ran into him last week... And he was just all apologetic about how he's changed. He was just going on and on, and I believed him. And I'm an idiot, because I always believe guys like that. And I can't go back to my party because he's there. And I know you don't wanna hear this. I'm upset and really drunk and I just wanna..."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0204",
+        "t": [
+          1065.598,
+          1067.475
+        ],
+        "speaker": "Leonard",
+        "text": "There, there."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q010",
+    "task_type": "emotion_trajectory",
+    "question_type": "single_choice",
+    "prompt_template": "single_choice_letter",
+    "question": "Which option best describes the emotional trajectory of the bespectacled man in the green cloak during the conversation?",
+    "options": [
+      "A. He begins quietly sympathetic, grows affectionate and hopeful, becomes embarrassed and withdrawn, and ends sad and discouraged.",
+      "B. He begins guarded and uneasy, becomes annoyed and detached, then softens into relief and calm.",
+      "C. He begins quietly sympathetic, grows affectionate and hopeful, becomes cautious and uncertain, and ends pleased and self-assured.",
+      "D. He begins excited and confident, turns possessive and angry, then ends anxious and ashamed."
+    ],
+    "answer": "C",
+    "video_name": "thebigbang_g1_2_s01e06_q010_seg1_1013.0_1175.2.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 1013,
+          "end": 1175.2,
+          "mmss": "16:53.0–19:35.2"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0196",
+        "t": [
+          1013.629,
+          1015.589
+        ],
+        "speaker": "Leonard",
+        "text": "- Hey, Leonard? - Hi, penny."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0197",
+        "t": [
+          1015.756,
+          1018.008
+        ],
+        "speaker": "Penny",
+        "text": "Hey, I just wanted to make sure you were okay."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0198",
+        "t": [
+          1018.175,
+          1020.302
+        ],
+        "speaker": "Leonard",
+        "text": "I'm fine."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0199",
+        "t": [
+          1021.429,
+          1023.764
+        ],
+        "speaker": "Penny",
+        "text": "I am so sorry about what happened."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0200",
+        "t": [
+          1023.931,
+          1025.558
+        ],
+        "speaker": "Leonard",
+        "text": "It's not your fault."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0201",
+        "t": [
+          1025.725,
+          1030.896
+        ],
+        "speaker": "Penny",
+        "text": "Yes, it is. That's why I broke up with him. He always does stuff like that."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0202",
+        "t": [
+          1031.731,
+          1034.15
+        ],
+        "speaker": "Leonard",
+        "text": "So why was he at your party?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0203",
+        "t": [
+          1035.526,
+          1056.422
+        ],
+        "speaker": "Penny",
+        "text": "Well, I ran into him last week... And he was just all apologetic about how he's changed. He was just going on and on, and I believed him. And I'm an idiot, because I always believe guys like that. And I can't go back to my party because he's there. And I know you don't wanna hear this. I'm upset and really drunk and I just wanna..."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0204",
+        "t": [
+          1065.598,
+          1067.475
+        ],
+        "speaker": "Leonard",
+        "text": "There, there."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0205",
+        "t": [
+          1070.895,
+          1072.521
+        ],
+        "speaker": "Penny",
+        "text": "God, what is wrong with me?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0206",
+        "t": [
+          1072.688,
+          1074.106
+        ],
+        "speaker": "Leonard",
+        "text": "Nothing, you're perfect."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0207",
+        "t": [
+          1074.273,
+          1075.649
+        ],
+        "speaker": "Penny",
+        "text": "Ecch. I'm not perfect."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0208",
+        "t": [
+          1075.816,
+          1077.109
+        ],
+        "speaker": "Leonard",
+        "text": "Yes, you are."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0209",
+        "t": [
+          1079.945,
+          1082.114
+        ],
+        "speaker": "Penny",
+        "text": "You really think so, don't you?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0210",
+        "t": [
+          1096.212,
+          1102.343
+        ],
+        "speaker": "Leonard",
+        "text": "- Penny? - Yeah? How much have you had to drink tonight?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0211",
+        "t": [
+          1104.303,
+          1107.473
+        ],
+        "speaker": "Penny",
+        "text": "Just... a lot."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0212",
+        "t": [
+          1108.39,
+          1115.105
+        ],
+        "speaker": "Leonard",
+        "text": "Are you sure that your being drunk and your being angry with Kurt... Doesn't have something to do with what's going on here?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0213",
+        "t": [
+          1116.69,
+          1118.4
+        ],
+        "speaker": "Penny",
+        "text": "It might."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0214",
+        "t": [
+          1121.153,
+          1122.78
+        ],
+        "speaker": "Penny",
+        "text": "Boy, you're really smart."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0215",
+        "t": [
+          1122.947,
+          1125.741
+        ],
+        "speaker": "Leonard",
+        "text": "Yeah, I'm a freaking genius."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0216",
+        "t": [
+          1130.204,
+          1134.291
+        ],
+        "speaker": "Penny",
+        "text": "Leonard, you are so great. Why can't all guys be like you?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0217",
+        "t": [
+          1135.251,
+          1139.672
+        ],
+        "speaker": "Leonard",
+        "text": "Because if all guys were like me, the human race couldn't survive."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0218",
+        "t": [
+          1143.592,
+          1144.885
+        ],
+        "speaker": "Penny",
+        "text": "I should probably go."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0219",
+        "t": [
+          1145.261,
+          1146.303
+        ],
+        "speaker": "Leonard",
+        "text": "Probably."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0220",
+        "t": [
+          1155.729,
+          1157.523
+        ],
+        "speaker": "unknown",
+        "text": "Thank you."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0221",
+        "t": [
+          1167.658,
+          1170.202
+        ],
+        "speaker": "Leonard",
+        "text": "That's right, you saw what you saw."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0222",
+        "t": [
+          1172.162,
+          1174.874
+        ],
+        "speaker": "Leonard",
+        "text": "That's how we roll in the shire."
+      }
+    ]
+  },
+  {
+    "series": "thebigbang",
+    "qid": "g1_2_s01e06_q011",
+    "task_type": "emotion_influence",
+    "question_type": "multi_select",
+    "prompt_template": "emotion_labels",
+    "question": "What emotions do the curly-haired woman's warm compliments evoke in the man lying beside her?",
+    "options": [],
+    "answer": [
+      "surprise",
+      "disquietment"
+    ],
+    "video_name": "thebigbang_g1_2_s01e06_q011_seg1_1183.0_1228.5.mp4",
+    "input_video": {
+      "scope_kind": "scene_event",
+      "eps": [
+        "S01E06"
+      ],
+      "segments": [
+        {
+          "ep": "S01E06",
+          "start": 1183,
+          "end": 1228.5,
+          "mmss": "19:43.0–20:28.5"
+        }
+      ]
+    },
+    "input_transcript": [
+      {
+        "ep": "S01E06",
+        "unit_id": "u0223",
+        "t": [
+          1183.299,
+          1184.8
+        ],
+        "speaker": "Sheldon",
+        "text": "Sheldon: Coming."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0224",
+        "t": [
+          1189.388,
+          1191.307
+        ],
+        "speaker": "Howard",
+        "text": "Hey, have you seen Koothrappali?"
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0225",
+        "t": [
+          1192.016,
+          1196.52
+        ],
+        "speaker": "Sheldon",
+        "text": "He's not here. Maybe the avengers summoned him."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0226",
+        "t": [
+          1197.479,
+          1200.316
+        ],
+        "speaker": "Howard",
+        "text": "He's not the marvel comics Thor, he's the original norse god."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0227",
+        "t": [
+          1200.482,
+          1202.651
+        ],
+        "speaker": "Sheldon",
+        "text": "Thank you for the clarification."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0228",
+        "t": [
+          1202.818,
+          1205.821
+        ],
+        "speaker": "Howard",
+        "text": "- I'm supposed to give him a ride home. - I'm sure he'll be fine."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0229",
+        "t": [
+          1205.988,
+          1207.99
+        ],
+        "speaker": "Sheldon",
+        "text": "He has his hammer."
+      },
+      {
+        "ep": "S01E06",
+        "unit_id": "u0230",
+        "t": [
+          1215.497,
+          1228.177
+        ],
+        "speaker": "Butterfly Girl",
+        "text": "I have to say, you are an amazing man. You're gentle and passionate. And, my god, you are such a good listener."
+      }
+    ]
+  }
+]
