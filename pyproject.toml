@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "longemobench"
+version = "1.0.0"
+description = "Video and subtitle inference with rubric-based emotion evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+longemobench-infer = "evaluation.inference.run:main"
+longemobench-infer-transformers = "evaluation.inference.transformers:main"
+longemobench-score = "evaluation.eval:main"
+
+[tool.setuptools.packages.find]
+include = ["evaluation*", "methods*"]
+exclude = ["evaluation.inference.emollm*"]
+
+[tool.setuptools.package-data]
+"evaluation.inference" = ["emollm/sources.json"]
+
+[tool.ruff]
+extend-exclude = ["evaluation/inference/emollm"]

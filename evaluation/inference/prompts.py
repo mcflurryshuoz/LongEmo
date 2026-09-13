@@ -1,179 +1,185 @@
-"""Granularity-aware model prompts and output parsing."""
+"""Shared open-QA inference templates; no model calls or artifact generation."""
+
 from __future__ import annotations
-
+import copy
 import re
-from typing import Any
+import json
+from ..io_utils import EMOTIC_26_LABELS, norm_label
 
-from evaluation import contract
+labels = EMOTIC_26_LABELS
+vocab = ", ".join(labels)
+multimodal_prompt = f"""You are an expert in multimodal emotion understanding.
 
+### Task
+Answer the question using the available visual, audio, and textual evidence.
 
-_GENERAL_INSTRUCTIONS = (
-    "Watch the entire video before answering. Use the visual, audio, dialogue,\n"
-    "and temporal context provided by the video.\n\n"
-    "Respond with the final answer only, using the format specified below."
-)
+### Response Requirements
+1. When emotion labels are requested, select one or more labels from the emotion vocabulary below. Use the label names exactly as written.
+2. For all other questions, provide the information requested by the question. These answers are not restricted to the emotion vocabulary.
+3. Follow the response format specified with the question and do not add unrelated content.
 
-_TEXT_INFERENCE_INSTRUCTIONS = (
-    "Answer the episode-level emotion question using only the complete subtitle transcript "
-    "provided below. You do not have access to video frames, facial expressions, body "
-    "language, or audio. Read the full transcript before answering and rely only on its "
-    "dialogue, speaker identities, timestamps, and temporal context.\n\n"
-    "Respond with the final answer only, using the format specified below."
-)
+### Emotion Vocabulary
+{vocab}"""
 
-_ANSWER_FORMATS = {
-    "emotion_labels": (
-        "- Select one or more emotion labels exclusively from the options listed above.\n"
-        "- Copy every selected label exactly as written.\n"
-        "- Do not introduce synonyms, paraphrases, explanations, or labels outside the list.\n"
-        "- Output only the selected labels, separated by commas."
-    ),
-    "emotion_before_after": (
-        "- For both stages, select one or more emotion labels exclusively from the options "
-        "listed above.\n"
-        "- Copy every selected label exactly as written.\n"
-        "- Do not introduce synonyms, paraphrases, explanations, or labels outside the list.\n"
-        "- Return exactly two lines in the following format:\n"
-        "Before: <label>[, <label> ...]\n"
-        "After: <label>[, <label> ...]"
-    ),
-    "ranking_letters": (
-        "Return only the selected option letters in chronological order, separated by spaces."
-    ),
-    "single_choice_letter": "Return one option letter only.",
+g1_layout = "{{subtitle_block}}\n\n### Question\n{{question}}\n\n### Answer Format\n{{answer_format}}"
+formats = {
+    "emotion_labels": "Your answer should consist of one or more labels from the provided emotion vocabulary. Separate multiple labels with commas.",
+    "emotion_before_after": "Your answer should consist of two lines in the format below. Each line should contain one or more labels from the provided emotion vocabulary, separated by commas:\nBefore: <emotion labels>\nAfter: <emotion labels>",
+    "free_text": "Your answer should be expressed in natural language.",
+}
+g1_tasks = {
+    "contextual emotion": ("g1_contextual", "Contextual emotion", "emotion_labels"),
+    "emotion transition": ("g1_transition", "Transition", "emotion_before_after"),
+    "emotion trajectory": ("g1_trajectory", "Trajectory", "free_text"),
+    "emotion cause": ("g1_cause", "Cause", "free_text"),
+    "emotion influence": ("g1_influence", "Influence", "emotion_labels"),
+}
+g1_system_templates = {
+    task: g1_layout.replace("{{answer_format}}", formats[format_key])
+    for task, (_, _, format_key) in g1_tasks.items()
 }
 
 
-def _subtitle_block(record: dict[str, Any], with_transcript: bool) -> str | None:
-    if not with_transcript or not record.get("input_transcript"):
-        return None
-    rows = [str(row.get("text") or "").strip() for row in record["input_transcript"]]
-    rows = [row for row in rows if row]
-    if not rows:
-        return None
-    return (
-        "The subtitles below are listed in chronological order and contain no speaker labels:\n"
-        + "\n".join(rows)
+def fill_template(template, values):
+    return re.sub(r"\{\{([a-z_]+)\}\}", lambda m: values[m.group(1)], template)
+
+
+def build_messages(
+    q,
+    *,
+    subtitle_text=None,
+    multimodal=True,
+    answer_requirements=None,
+    prompt_mode="system",
+    media_content=None,
+):
+    """Assemble the prompt text, optional subtitles, and media parts.
+
+    The question record already follows the benchmark schema. This helper only
+    arranges the provided values; it does not validate or reinterpret them.
+    The caller provides subtitle text only when subtitles are enabled.
+    """
+    subtitle_text = (subtitle_text or "").strip()
+    subtitle_block = "### Subtitles\n" + subtitle_text if subtitle_text else ""
+    if q["granularity"] == "clip":
+        if q["type"] not in g1_system_templates:
+            raise ValueError("Unsupported G1 task.")
+        user = fill_template(
+            g1_system_templates[q["type"]],
+            {"question": q["question"], "subtitle_block": subtitle_block},
+        ).strip()
+    else:
+        # G2 requirements come with the question; never derive them from gold fields.
+        parts = [subtitle_block] if subtitle_block else []
+        parts.append(q["question"].strip())
+        if answer_requirements and answer_requirements.strip():
+            parts.append("Answer requirements:\n" + answer_requirements.strip())
+        user = "\n\n".join(parts)
+    system_text = multimodal_prompt if multimodal else subtitle_prompt
+    if prompt_mode == "system":
+        messages = [{"role": "system", "content": system_text}]
+        prefix = ""
+    else:
+        messages = []
+        prefix = system_text
+    if media_content:
+        content = (
+            ([{"type": "text", "text": prefix}] if prefix else [])
+            + copy.deepcopy(media_content)
+            + [{"type": "text", "text": user}]
+        )
+    else:
+        content = prefix + "\n\n" + user if prefix else user
+    return messages + [{"role": "user", "content": content}]
+
+
+subtitle_prompt = multimodal_prompt.replace(
+    "You are an expert in multimodal emotion understanding.",
+    "You are an expert in emotion understanding.",
+).replace(
+    "Answer the question using the available visual, audio, and textual evidence.",
+    "Answer the question using only the provided subtitles. No video or audio is provided.",
+)
+
+
+def text_messages(question, transcript, *, prompt_mode="system"):
+    """Build text-only messages without reading answers or reference annotations."""
+    transcript = transcript.strip()
+    if not transcript:
+        raise ValueError("Text inference requires non-empty subtitles.")
+    return build_messages(
+        question,
+        subtitle_text=transcript,
+        multimodal=False,
+        prompt_mode=prompt_mode,
     )
 
 
-def build_prompt(record: dict[str, Any], *, with_transcript: bool = True) -> str:
-    """Build the exact user-message text for either released granularity."""
-    granularity = contract.question_granularity(record)
-
-    template = record.get("prompt_template")
-    if granularity == "1_clip" and template not in contract.PROMPT_TEMPLATES:
-        raise ValueError(f"1_clip question has invalid prompt_template: {template!r}")
-    if granularity == "2_episode" and template is not None:
-        raise ValueError("2_episode questions must not use prompt_template")
-
-    parts = [_GENERAL_INSTRUCTIONS]
-    if template in contract.EMOTION_TEMPLATES:
-        parts.append(
-            "Emotion label options (closed set; choose only from this list):\n"
-            + ", ".join(contract.EMOTIC_26_LABELS)
-            + "."
-        )
-    subtitles = _subtitle_block(record, with_transcript)
-    if subtitles:
-        parts.append(subtitles)
-    parts.append("Question:\n" + str(record.get("question") or "").strip())
-
-    options = record.get("options") or []
-    if options:
-        parts.append("Options:\n" + "\n".join(str(option) for option in options))
-
-    answer_format = _ANSWER_FORMATS.get(template)
-    if granularity == "2_episode" and record.get("question_type") == "single_choice":
-        answer_format = _ANSWER_FORMATS["single_choice_letter"]
-    if answer_format:
-        parts.append("Answer format:\n" + answer_format)
-    return "\n\n".join(parts).strip()
+def final_text(text: str) -> str:
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+    match = re.fullmatch(r"<answer>(.*?)</answer>", text, flags=re.S)
+    return (match.group(1) if match else text).strip()
 
 
-def build_text_inference_prompt(record: dict[str, Any], transcript: str) -> str:
-    """Build a g2 prompt whose only episode evidence is the released subtitle text."""
-    if contract.question_granularity(record) != "2_episode":
-        raise ValueError("text inference supports only 2_episode questions")
-    if record.get("prompt_template") is not None:
-        raise ValueError("2_episode questions must not use prompt_template")
-    transcript = str(transcript or "").strip()
-    if not transcript:
-        raise ValueError("text inference requires a non-empty subtitle transcript")
-
-    parts = [
-        _TEXT_INFERENCE_INSTRUCTIONS,
-        "Subtitle transcript:\n" + transcript,
-        "Question:\n" + str(record.get("question") or "").strip(),
-    ]
-    options = record.get("options") or []
-    if options:
-        parts.append("Options:\n" + "\n".join(str(option) for option in options))
-
-    if record.get("question_type") == "single_choice":
-        parts.append("Answer format:\n" + _ANSWER_FORMATS["single_choice_letter"])
-    elif contract.is_yes_no_question(record):
-        parts.append("Answer format:\nReturn only Yes or No.")
-    return "\n\n".join(parts).strip()
+def json_object(text):
+    text = text.strip()
+    if text.startswith("```"):
+        match = re.fullmatch(r"```(?:json)?\s*([\s\S]*?)\s*```", text)
+        if match:
+            text = match.group(1)
+    return json.loads(text)
 
 
-def _parse_emotions(text: str) -> tuple[list[str] | None, str | None]:
-    values = [contract.norm_label(value) for value in text.split(",") if value.strip()]
-    values = list(dict.fromkeys(values))
-    if not values:
-        return None, "no emotion label was returned"
-    invalid = sorted(set(values) - contract.EMOTIC_26_SET)
-    if invalid:
-        return values, f"emotion labels outside the allowed set: {invalid}"
-    return values, None
+def label_terms(value):
+    if isinstance(value, str):
+        value = [s for s in re.split(r"[,，;；\n]", value) if s.strip()]
+    if not isinstance(value, list):
+        return ["__invalid_label_format__"]
+    result = []
+    for term in value:
+        if isinstance(term, str):
+            term = norm_label(term.strip(" \t\r\n\"'`.,;:，；。"))
+            if term:
+                result.append(term)
+        else:
+            result.append("__invalid_label_value__")
+    return list(dict.fromkeys(result))
 
 
-def parse_answer(record: dict[str, Any], raw_answer: str) -> tuple[Any, str | None]:
-    """Parse final-only model text according to the active prompt contract."""
-    text = str(raw_answer or "").strip()
-    template = record.get("prompt_template")
-    granularity = contract.question_granularity(record)
-
-    if template == "emotion_labels":
-        parsed, error = _parse_emotions(text)
-        return (parsed if parsed is not None else text), error
-
-    if template == "emotion_before_after":
-        before = re.findall(r"^\s*Before\s*:\s*(.+?)\s*$", text, flags=re.I | re.M)
-        after = re.findall(r"^\s*After\s*:\s*(.+?)\s*$", text, flags=re.I | re.M)
-        if len(before) != 1 or len(after) != 1:
-            return text, "expected exactly one Before line and one After line"
-        before_values, before_error = _parse_emotions(before[0])
-        after_values, after_error = _parse_emotions(after[0])
-        if before_error or after_error:
-            return text, "; ".join(error for error in (before_error, after_error) if error)
-        return {"before": before_values, "after": after_values}, None
-
-    if template == "ranking_letters":
-        tokens = text.upper().split()
-        allowed = contract.option_label_set(record)
-        if not tokens or any(not re.fullmatch(r"[A-Z]", token) for token in tokens):
-            return text, "expected option letters separated by spaces"
-        if not set(tokens).issubset(allowed):
-            return text, "ranking contains a letter outside the options"
-        return tokens, None
-
-    if template == "single_choice_letter" or (
-        granularity == "2_episode" and record.get("question_type") == "single_choice"
-    ):
-        value = text.upper()
-        if not re.fullmatch(r"[A-Z]", value):
-            return text, "expected one option letter"
-        if value not in contract.option_label_set(record):
-            return text, "option letter is outside the options"
-        return value, None
-
-    if contract.is_yes_no_question(record):
-        value = text.lower()
-        if value not in {"yes", "no"}:
-            return text, 'expected exactly "Yes" or "No"'
-        return value.title(), None
-
-    if not text:
-        return text, "empty answer"
-    return text, None
+def parse_prediction(q, value):
+    if q.get("rubric") is not None:
+        if not isinstance(value, str):
+            raise ValueError("open-ended predictions must be text")
+        return final_text(value), None
+    if isinstance(value, str):
+        value = final_text(value)
+        try:
+            value = json_object(value)
+        except (ValueError, TypeError):
+            pass
+    if q["type"] != "emotion transition":
+        parsed = label_terms(value)
+        invalid = [x for x in parsed if x not in EMOTIC_26_LABELS]
+        return parsed, "unrecognized labels: " + ", ".join(invalid) if invalid else None
+    extra = False
+    if isinstance(value, str):
+        matches = list(re.finditer(r"(?im)^\s*(before|after)\s*:\s*([^\n]*)", value))
+        parts = {m.group(1).lower(): m.group(2) for m in matches}
+        extra = bool(
+            re.sub(r"(?im)^\s*(before|after)\s*:\s*[^\n]*", "", value).strip()
+        ) or len(matches) != len(parts)
+    elif isinstance(value, dict):
+        parts = value
+        extra = bool(set(parts) - {"before", "after"})
+    else:
+        parts, extra = {}, True
+    result = {slot: label_terms(parts.get(slot, [])) for slot in ("before", "after")}
+    if extra:
+        for values in result.values():
+            values.append("__unassigned_transition_content__")
+    invalid = (
+        extra
+        or set(parts) != {"before", "after"}
+        or any(x not in EMOTIC_26_LABELS for values in result.values() for x in values)
+    )
+    return result, "invalid or incomplete before/after format" if invalid else None

@@ -1,0 +1,17 @@
+{
+  "affectgpt": {
+    "repository": "https://github.com/zeroQiaoba/AffectGPT",
+    "revision": "fffca794c6792023234565370e3f69f0488aede9",
+    "directory": "AffectGPT"
+  },
+  "emotion_llama": {
+    "repository": "https://github.com/ZebangCheng/Emotion-LLaMA",
+    "revision": "e69faadfd3824b94dd334f463cc5bbdb27229c6d",
+    "directory": "Emotion-LLaMA"
+  },
+  "r1_omni": {
+    "repository": "https://github.com/HumanMLLM/R1-Omni",
+    "revision": "17cafcae0b0a1c454896f4eb7a1c006bf13e1f4d",
+    "directory": "R1-Omni"
+  }
+}

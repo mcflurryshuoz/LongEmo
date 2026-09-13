@@ -1,138 +1,197 @@
-#!/usr/bin/env python3
-"""Shared runner for model-specific benchmark inference scripts.
+"""Shared CLI configuration, checkpointing and bounded request retries."""
 
-The runner reads benchmark question items and writes a NEW merged file
-(LongEmoBench/output/..._pred_<model>.json by default) that mirrors the input list, with
-`pred_answer` plus a `pred_info` audit block added per
-answered item. The original questions file is never modified.
-"""
 from __future__ import annotations
-
 import json
+import os
 import time
+import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Any, Callable
-
-from evaluation import contract, io_utils
-from evaluation.inference import prompts
-
-
-build_prompt = prompts.build_prompt
+from urllib.parse import urlparse
+from ..clients import Client
+from ..io_utils import write_records, load_records
+from .adapters import prepare_request
 
 
-def add_thinking_arg(ap: Any) -> None:
-    """Shared --thinking switch; each model script maps it to its provider's native parameter."""
-    ap.add_argument(
-        "--thinking",
-        choices=("on", "off", "default"),
-        default="default",
-        help=(
-            "Model-side reasoning switch: on/off maps to the provider's native thinking "
-            "parameter; default leaves the model's own behavior untouched. Recorded in "
-            "each prediction for run traceability."
-        ),
+OFFICIAL_API_URLS = {
+    "gpt": "https://api.openai.com/v1",
+    "claude": "https://api.anthropic.com/v1",
+    "gemini": "https://generativelanguage.googleapis.com/v1beta",
+    "qwen": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "minimax": "https://api.minimax.io/v1",
+    "kimi": "https://api.moonshot.ai/v1",
+    "glm": "https://open.bigmodel.cn/api/paas/v4",
+    "seed": "https://ark.cn-beijing.volces.com/api/v3",
+    "deepseek": "https://api.deepseek.com/v1",
+    "openrouter": "https://openrouter.ai/api/v1",
+}
+API_KEY_ENVS = {
+    "gpt": "OPENAI_API_KEY",
+    "claude": "ANTHROPIC_API_KEY",
+    "gemini": "GEMINI_API_KEY",
+    "qwen": "DASHSCOPE_API_KEY",
+    "minimax": "MINIMAX_API_KEY",
+    "kimi": "MOONSHOT_API_KEY",
+    "glm": "ZHIPUAI_API_KEY",
+    "seed": "ARK_API_KEY",
+    "deepseek": "DEEPSEEK_API_KEY",
+    "openrouter": "OPENROUTER_API_KEY",
+}
+
+
+def model_args(parser):
+    parser.add_argument("--model")
+    parser.add_argument(
+        "--base-url",
+        default=os.getenv("MODEL_BASE_URL"),
+        help="Service URL or full endpoint; model and URL determine the API automatically",
+    )
+    parser.add_argument(
+        "--api-key",
+        default=None,
+        help="Credential; otherwise use the service's API key environment variable or MODEL_API_KEY; never written to results",
+    )
+    parser.add_argument("--max-tokens", type=int, default=16384)
+    parser.add_argument("--temperature", type=float, default=0.0)
+    parser.add_argument("--timeout", type=float, default=1800)
+    parser.add_argument(
+        "--thinking", choices=("default", "on", "off"), default="default"
+    )
+    parser.add_argument(
+        "--config",
+        help="Optional JSON file overriding model request settings",
     )
 
 
-def select_questions(questions: list[dict[str, Any]], args: Any) -> list[tuple[str, dict[str, Any]]]:
-    """Select (key, question) pairs; --qid accepts a bare qid or a series/qid key."""
-    selected: list[tuple[str, dict[str, Any]]] = []
-    wanted = set(getattr(args, "qid", None) or [])
-    for q in questions:
-        key = io_utils.question_key(q)
-        if wanted and not wanted & {key, q["qid"]}:
-            continue
-        selected.append((key, q))
-    return selected
+def setup_api(args, config):
+    """Configure the model service, request settings and API key together."""
+    args.model_family = detect_model_family(args.model)
+    args.base_url = args.base_url or OFFICIAL_API_URLS.get(args.model_family)
+    if not args.base_url:
+        raise ValueError(
+            "this model has no default service address; provide --base-url "
+            "or MODEL_BASE_URL, for example http://localhost:8000/v1"
+        )
+
+    prepare_request(args, config)
+
+    if args.api_key is None:
+        if urlparse(args.base_url).hostname == "openrouter.ai":
+            args.api_key = os.getenv(API_KEY_ENVS["openrouter"]) or os.getenv(
+                "MODEL_API_KEY", ""
+            )
+            return
+        provider = "qwen" if args.model_family.startswith("qwen") else args.model_family
+        fallback = {"gemini": "gemini", "anthropic": "claude"}.get(
+            args.api_format, "gpt"
+        )
+        key_env = API_KEY_ENVS.get(provider, API_KEY_ENVS[fallback])
+        args.api_key = os.getenv("MODEL_API_KEY") or os.getenv(key_env, "")
 
 
-def parse_prediction(record: dict[str, Any], raw: str) -> tuple[Any, str | None]:
-    """Parse the model's final answer using the question's canonical format."""
-    return prompts.parse_answer(record, raw)
+def detect_model_family(model):
+    """Identify the model series from its name, independently of the service URL."""
+    model = (model or "").lower().rsplit("/", 1)[-1]
+    if "qwen" in model and "audio" in model:
+        return "qwen_audio"
+    if "qwen" in model and "omni" in model:
+        return "qwen_omni"
+    if "qwen" in model and "vl" in model:
+        return "qwen_vl"
+    if "gemini" in model:
+        return "gemini"
+    if "claude" in model:
+        return "claude"
+    if model.startswith("gpt-") or re.match(r"^o[134](?:-|$)", model):
+        return "gpt"
+    if model.startswith("minimax"):
+        return "minimax"
+    if model.startswith(("kimi", "moonshot")):
+        return "kimi"
+    if model.startswith(("glm", "chatglm")):
+        return "glm"
+    if model.startswith(("doubao-", "seed")):
+        return "seed"
+    if model.startswith("internvl"):
+        return "internvl"
+    if model.startswith("deepseek"):
+        return "deepseek"
+    return "other"
 
 
-def default_out_path(args: Any, questions_path: str | Path, questions: list[dict[str, Any]]) -> Path:
-    """Default: LongEmoBench/output/<series>_<stem>_pred_<model>.json."""
-    if getattr(args, "out", None):
-        return Path(args.out)
-    out_dir = Path(__file__).resolve().parents[2] / "output"
-    question_path = Path(questions_path)
-    stem = question_path.stem
-    if stem == "all" and question_path.parent.name in {"g1_clip", "g2_episode"}:
-        stem = f"{question_path.parent.name}_{stem}"
-    series = {str(q.get("series")) for q in questions if q.get("series")}
-    prefix = f"{series.pop()}_" if len(series) == 1 else ""
-    return out_dir / f"{prefix}{stem}_pred_{args.model}.json"
+def init_client(args):
+    """Initialize the model API client from CLI arguments and optional JSON settings."""
+    if args.tries < 1 or args.workers < 1:
+        raise ValueError("tries and workers must be positive")
+    config = {}
+    if args.config:
+        config = json.loads(Path(args.config).read_text(encoding="utf-8"))
+    if not isinstance(config, dict):
+        raise ValueError("--config must contain a JSON object")
+    setup_api(args, config)
+    return Client(
+        args.model or "MODEL_NAME",
+        args.base_url,
+        args.api_format,
+        args.api_key,
+        args.timeout,
+        args.max_tokens,
+        args.temperature,
+        config,
+    )
 
 
-def run_benchmark(
-    *,
-    args: Any,
-    questions: list[dict[str, Any]],
-    out_path: Path,
-    ask: Callable[[dict[str, Any], list[dict[str, Any]]], str],
-    load_inputs: Callable[[str, dict[str, Any]], list[dict[str, Any]]],
-) -> None:
-    """Answer selected questions and write the merged prediction file."""
-    existing: dict[str, dict[str, Any]] = {}
-    if out_path.exists():
-        for item in io_utils.load_questions(out_path):
-            if "pred_answer" in item:
-                existing[io_utils.question_key(item)] = {
-                    "pred_answer": item.get("pred_answer"),
-                    "pred_info": item.get("pred_info"),
-                }
-
-    items = [dict(q) for q in questions]
-    by_key = {io_utils.question_key(q): item for q, item in zip(questions, items)}
-    for key, fields in existing.items():
-        if key in by_key:
-            by_key[key].update(fields)
-
-    selected = select_questions(questions, args)
-    answered = 0
-    for i, (key, q) in enumerate(selected, 1):
-        item = by_key[key]
-        if "pred_answer" in item and not (item.get("pred_info") or {}).get("error") and not args.force:
-            print(f"[{i}/{len(selected)}] {key}: cached", flush=True)
-            continue
-        print(f"[{i}/{len(selected)}] {key}: ask", flush=True)
-        raw = ""
-        error: str | None = None
+def retry(request_fn, tries):
+    for attempt in range(tries):
         try:
-            inputs = load_inputs(key, q)
-            for k in range(args.tries):
-                try:
-                    raw = str(ask(q, inputs) or "")
-                    if not raw.strip():
-                        raise RuntimeError("model returned an empty response")
-                    error = None
-                    break
-                except Exception as e:
-                    error = f"{type(e).__name__}: {e}"
-                    if k + 1 < args.tries:
-                        time.sleep(2 * (k + 1))
-        except Exception as e:
-            error = f"{type(e).__name__}: {e}"
-        pred_answer, parse_error = parse_prediction(q, raw) if raw else (None, None)
-        item["pred_answer"] = pred_answer
-        item["pred_info"] = {
-            "model": args.model,
-            "granularity": contract.question_granularity(q),
-            "input_mode": getattr(args, "input_mode", "video"),
-            "prompt_template": q.get("prompt_template"),
-            "thinking": getattr(args, "thinking", "default"),
-            "with_transcript": bool(getattr(args, "with_transcript", True)),
-            "raw": raw,
-            "parse_error": parse_error,
-            "error": error,
-        }
-        if error:
-            print(f"[{i}/{len(selected)}] {key}: ERROR {error}", flush=True)
-        else:
-            answered += 1
-        io_utils.write_json(out_path, items)
+            return request_fn()
+        except Exception as exc:
+            if attempt + 1 == tries:
+                raise
+            print(
+                f"Request failed ({type(exc).__name__}); retrying {attempt + 2}/{tries}",
+                flush=True,
+            )
+            time.sleep(min(attempt + 1, 3))
 
-    io_utils.write_json(out_path, items)
-    errors = sum(1 for it in items if (it.get("pred_info") or {}).get("error"))
-    print(json.dumps({"questions": len(items), "answered": answered, "errors": errors, "out": str(out_path)}, ensure_ascii=False))
+
+def execute_tasks(tasks, task_runner, output_path, *, workers=1, force=False):
+    """Run tasks and reuse successful records already present in the output file."""
+    old = (
+        {}
+        if force or not Path(output_path).exists()
+        else {x["key"]: x for x in load_records(output_path)}
+    )
+    records = {}
+    pending = []
+    for task in tasks:
+        key = task[0]
+        previous = old.get(key)
+        if previous and previous.get("status") == "ok" and not force:
+            records[key] = previous
+        else:
+            pending.append(task)
+
+    def finish_task(task):
+        key, base = task[0], task[-1]
+        print(f"[{key}] started", flush=True)
+        try:
+            result = task_runner(task)
+        except Exception as exc:
+            result = {"status": "error", "error": f"{type(exc).__name__}: {exc}"}
+        return key, {**base, **result, "key": key}
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(finish_task, task): task for task in pending}
+        for future in as_completed(futures):
+            key, record = future.result()
+            records[key] = record
+            write_records(
+                output_path, [records[t[0]] for t in tasks if t[0] in records]
+            )
+            print(
+                f"[{len(records)}/{len(tasks)}] {key}: {record['status']}", flush=True
+            )
+    ordered = [records[t[0]] for t in tasks]
+    write_records(output_path, ordered)
+    return ordered

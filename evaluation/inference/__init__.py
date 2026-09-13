@@ -1,1 +1,1 @@
-"""Granularity-aware model inference scripts and prompt contracts."""
+"""Video and subtitle inference adapters."""

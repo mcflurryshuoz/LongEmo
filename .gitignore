@@ -1,0 +1,16 @@
+__pycache__/
+.ruff_cache/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+!.env.example
+build/
+dist/
+output/
+runs/
+data/
+videos/
+subtitles/
+.DS_Store
