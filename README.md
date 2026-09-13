@@ -1,370 +1,237 @@
 # LongEmoBench
 
-[中文说明](README_zh.md)
+[中文](README_zh.md) · [Dataset on Hugging Face](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main)
 
-Inference and evaluation for the unified open-question format. Video, subtitle-only and audio-only inference support both `clip` and `episode` with compatible model services. Episode video input uses frames sampled across the complete video. Evaluation supports predictions from these baselines and external methods, including agents.
+LongEmoBench evaluates emotion understanding at two video granularities: **clip** and **episode**. Questions cover emotion recognition, transitions, trajectories, causes, intensity comparisons, and reasoning across a longer video. All tasks use open-ended questions; the expected answer may be emotion labels, a short result, or a natural-language explanation.
 
-This directory contains code, prompts and synthetic tests. Questions, videos, subtitles, annotation tools and historical experiment outputs are not included.
+This repository provides prediction generation and a shared evaluator. Predictions from your own model or agent can be evaluated directly. **Evaluation requires question annotations and predictions; it does not load videos or subtitles.**
 
-## Layout
+Use Python 3.10 or later. Clone the repository and run the following commands from its root directory:
+
+```bash
+git clone https://github.com/mcflurryshuoz/LongEmo.git
+cd LongEmo
+python -m pip install -e .
+```
+
+## 1. Get the data
+
+Questions and media are distributed through the [Hugging Face dataset](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main). Access requires approval on the dataset page and authentication with an approved account.
+
+```bash
+python -m pip install -U huggingface_hub
+hf auth login
+hf download mcflurryshuoz/LongEmoBench \
+  --repo-type dataset \
+  --local-dir data/LongEmoBench
+```
+
+The published episode directory is organized as follows. Refer to the dataset page for the available files in each release.
 
 ```text
-evaluation/
-  io_utils.py           # Load and select questions, save results
-  clients.py            # Shared HTTP sending and request validation
-  judge_prompts.py      # Judge system/user prompts and four inline examples
-  metrics.py            # Label metrics and score aggregation
-  eval.py               # Evaluation entry point
-  inference/
-    run.py              # Video/text/audio inference entry point
-    runner.py           # Runtime options, checkpoints and retries
-    prompts.py          # Inference prompts and answer parsing
-    video_loader.py     # Read videos or sample timestamped frames
-    adapters/
-      __init__.py       # Protocol selection and request configuration
-      openai.py         # Chat Completions and Responses encoding/parsing
-      anthropic.py      # Messages encoding/parsing
-      gemini.py         # generateContent encoding/parsing
-      model_settings.py # Model-specific generation settings
-      message_content.py # Shared text, image and audio content checks
-      qwen_audio.py     # Ordered Qwen2-Audio chunks
-      affectgpt.py      # Independent AffectGPT entry
-      emotion_llama.py  # Independent Emotion-LLaMA entry
-      r1_omni.py        # Independent R1-Omni entry
-      emollm_runner.py  # Batch utilities for specialist models
-    emollm/
-      AffectGPT/        # Official AffectGPT repository
-      Emotion-LLaMA/    # Official Emotion-LLaMA repository
-      R1-Omni/          # Official R1-Omni repository
-      sources.json      # Upstream versions and notices
-      README.md         # Emotion-model setup guide
-subtitles/              # Episode subtitles: <video_id>.json
-docs/
-  data_format.md        # Question and prediction formats
-  model_input_limits.md # Model inputs, capacity and adapter support
-tests/                  # Synthetic local HTTP integration tests
+data/LongEmoBench/
+  episode/
+    G2_Q000001.json
+    G2_Q000002.json
+    ...
+    videos/
+      G2_V000001.mp4
+      ...
+    subtitles/
+      G2_V000001.srt
+      ...
 ```
 
-Data loading reads prepared questions and selects them by granularity, question ID and count. The four judge examples are included directly in the evaluation System Prompt in `judge_prompts.py`.
+Use `--data-path data/LongEmoBench/episode` with `-g episode`. For prepared clip data, select its question directory with `-g clip`. The two granularities have independent question and video IDs. Multiple questions can share one `video_id`.
 
-Read the inference code in this order:
+`--data-path` accepts a single JSON object, a JSON array, a JSONL file, or a flat directory of JSON/JSONL files. It does not recursively load subdirectories. Video inference looks for `<video_id>.mp4` in the data directory's `videos/` folder unless `--videos-dir` is provided.
 
-1. [run.py](evaluation/inference/run.py): CLI options, data selection and the inference loop.
-2. [runner.py](evaluation/inference/runner.py) and [adapters/__init__.py](evaluation/inference/adapters/__init__.py): service setup and protocol selection; `model_settings.py` holds model-specific parameters.
-3. [prompts.py](evaluation/inference/prompts.py) and [video_loader.py](evaluation/inference/video_loader.py): question messages and media preparation.
-4. [clients.py](evaluation/clients.py): shared request validation and HTTP sending; `openai.py`, `anthropic.py` and `gemini.py` build protocol payloads and parse responses.
+### Tasks
 
-
-## Requirements and data
-
-Python 3.10 or later; Python runtime code uses the standard library. A separately running model service is required for inference and LLM evaluation. The scripts do not load model weights. Frame sampling and audio extraction require `ffmpeg` and `ffprobe` on `PATH`. Subtitle-only input does not use them; forwarding an unchanged native video does not decode media.
-
-Run the commands below from this directory. Optional installation with `python -m pip install .` provides `longemobench-infer`, `longemobench-infer-transformers`, and `longemobench-score` commands.
-
-Each run selects one granularity with `-g` / `--granularity`. Keep its questions, media and results separate from the other granularity. Set `--data-path` to a JSON file containing an object or array, a JSONL file, or a flat directory of JSON/JSONL files. Prepared videos are named `<video_id>.mp4`. If `--videos-dir` is omitted, videos are read from the `videos/` subdirectory of `--data-path` when it is a directory, or of its parent when it is a file; an explicit `--videos-dir` overrides this default.
-
-The loader requires the unified format documented in [data_format.md](docs/data_format.md), including the `answer_details` field. Reference answers and scoring rubrics stay outside the tested model's input.
-
-## Inference
-
-Set `--model` to the service's actual model name; the model family and input representation are selected automatically. Qwen, Gemini, GPT, Claude, GLM, Doubao-Seed, InternVL and DeepSeek use the same inference entry point, subject to the selected model's supported modalities.
-
-| Family | API and service | Default clip video input | Audio |
+| Granularity | `type` | What the question asks | Answer and evaluation |
 |---|---|---|---|
-| Qwen-VL | Chat Completions; explicit service URL required | Native MP4 via `video_url` | The embedded audio track is sent with the video; use depends on endpoint support. |
-| Qwen-Omni | Chat Completions; explicit service URL required | Native MP4 via `video_url` | The embedded audio track is sent with the video. |
-| Gemini | Native Gemini, `https://generativelanguage.googleapis.com/v1beta` | Inline MP4 | Embedded audio travels with the video. |
-| GPT | Responses, `https://api.openai.com/v1` | Uniform timestamped frames | No audio is sent. |
-| Claude | Anthropic Messages, `https://api.anthropic.com/v1` | Uniform timestamped frames | No audio is sent. |
-| GLM vision models | Chat Completions; see service URLs below | Timestamped frames | No audio is sent. |
-| Doubao-Seed vision models | Chat Completions; see service URLs below | Native video by default; timestamped frames with `--sample-frames` | Native video includes its embedded audio track. |
-| InternVL3.5 | OpenAI-compatible service; explicit URL required | Timestamped frames | No audio is sent. |
-| DeepSeek Flash with vision | Chat Completions; see service URLs below | Timestamped frames | No audio is sent. |
-| Qwen2-Audio-7B-Instruct | OpenAI-compatible service; explicit URL required | Use `--modality audio`; images are not supported | Ordered audio chunks extracted from the source video. |
+| clip | `contextual emotion` | Sustained individual emotions, shared emotions, or a group's overall emotional atmosphere. | EMOTIC labels; Precision, Recall, F1, EM. |
+| clip | `emotion transition` | Emotions before and after a specified event, action, statement, or interaction. | Before/after label sets; score each set separately, then average. |
+| clip | `emotion influence` | The emotional response to a specified event or interaction. | EMOTIC labels; Precision, Recall, F1, EM. |
+| clip | `emotion trajectory` | A person's emotional development, including intensity changes or recurring patterns. | Natural language; holistic 0–4 rubric. |
+| clip | `emotion cause` | The cause of an emotion, or an emotion-related motive or intention. | Natural language; holistic 0–3 rubric. |
+| episode | `emotional intensity comparison` | An intensity comparison or extreme supported by the video. | A definite result, or one of the accepted alternatives; 0/1 rubric. |
+| episode | `emotion trajectory` | Emotional development within the specified storyline, experience, scene, or relationship. | Natural language; holistic 0–4 rubric. |
+| episode | `emotional reasoning` | Emotion-dependent inference integrating information across the video. | Definite results: 0/1; explanations: 0–3. |
 
-See [model input capabilities and limits](docs/model_input_limits.md) for supported media combinations, API and context limits, and differences between published model capabilities and the current adapters.
+For episode trajectories, the question identifies the relevant scope. The complete video can be the scope when it follows one coherent storyline. The evaluator always uses the score bands stored in each question's `rubric`.
 
-Use `--base-url` or `MODEL_BASE_URL` to select a local or hosted service. Models with a configured official address can omit the URL. Qwen checkpoints, InternVL and unknown model names require an explicit service URL; there is no implicit local-server address.
+### Question format
 
-In [runner.py](evaluation/inference/runner.py), `setup_api()` configures the model family, service address and API key, and calls `prepare_request()` in `adapters/__init__.py`. The protocol adapters are `openai.py` for Chat Completions and Responses, `anthropic.py` for Messages, and `gemini.py` for generateContent. `model_settings.py` holds GPT, Qwen, GLM, Seed, DeepSeek and Gemini parameter differences; `qwen_audio.py` only handles audio splitting.
-
-The inference entry builds common `messages`. [clients.py](evaluation/clients.py) delegates payload encoding and response parsing to the selected adapter, and handles shared HTTP sending and validation. Complete endpoints are preserved; protocol selection does not require a separate transport for each model family. Official addresses are centralized in `OFFICIAL_API_URLS`. Additional configured Chat Completions services are:
-
-| Service | Official base URL | Selection |
-|---|---|---|
-| Qwen hosted API | `https://dashscope.aliyuncs.com/compatible-mode/v1` | Set `--base-url` explicitly; Qwen checkpoint names have no default service URL. |
-| MiniMax | `https://api.minimax.io/v1` | Default for MiniMax model names; China endpoint: `https://api.minimaxi.com/v1`. |
-| Kimi | `https://api.moonshot.ai/v1` | Default for Kimi/Moonshot model names; China endpoint: `https://api.moonshot.cn/v1`. |
-| GLM | `https://open.bigmodel.cn/api/paas/v4` | Default for GLM model names. |
-| Doubao-Seed | `https://ark.cn-beijing.volces.com/api/v3` | Default for Seed/Doubao names; native video is used by default and `--sample-frames` selects sampled images. |
-| DeepSeek | `https://api.deepseek.com/v1` | Default for DeepSeek model names. |
-| OpenRouter | `https://openrouter.ai/api/v1` | Set `--base-url` explicitly and use the full `provider/model` ID. |
-
-An explicit `--base-url` takes precedence. MiniMax and Kimi address/protocol routing does not establish support for every model's media inputs or generation settings. MiniMax's official text API requires `--temperature 1` with the current runner, whose default `0` is outside that API's allowed range. Kimi parameters depend on the model. [Qwen endpoints](https://docs.modelstudio.console.alibabacloud.com/en/model-studio/base-url), [MiniMax API](https://platform.minimax.io/docs/api-reference/text-openai-api), [MiniMax regional endpoints](https://platform.minimax.io/docs/token-plan/cursor), [Kimi international API](https://platform.kimi.ai/docs/overview), [Kimi China API](https://platform.kimi.com/docs/get-api-key).
-
-Pass the key with `--api-key API_KEY`. For services other than OpenRouter, omitting it selects `MODEL_API_KEY` first, then a standard key variable for the model family, falling back to the API format when the family is unknown. Supported variables include `GEMINI_API_KEY`, `ANTHROPIC_API_KEY`, `DASHSCOPE_API_KEY`, `OPENAI_API_KEY`, `MINIMAX_API_KEY`, `MOONSHOT_API_KEY`, `ZHIPUAI_API_KEY`, `ARK_API_KEY` and `DEEPSEEK_API_KEY`. Credentials are not saved in run configuration.
-
-OpenRouter uses the same `evaluation.inference.run` entry and Chat Completions adapter. Provide its own key through `OPENROUTER_API_KEY`; it takes precedence over the generic `MODEL_API_KEY` fallback. Vendor keys and keys from other relay services are not reused. An explicit `--api-key` still takes precedence. [OpenRouter API setup](https://openrouter.ai/docs/quickstart).
-
-The GLM, Kimi and MiniMax OpenRouter debug configurations use these image-capable models and explicitly select `--sample-frames`:
-
-| Debug model | Full model ID | Catalog input modalities |
-|---|---|---|
-| [GLM 5.3 Flash](https://openrouter.ai/z-ai/glm-5.3-flash) | `z-ai/glm-5.3-flash` | Text, images, video |
-| [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3) | `moonshotai/kimi-k3` | Text, images, video |
-| [MiniMax M3](https://openrouter.ai/minimax/minimax-m3) | `minimax/minimax-m3` | Text, images, video |
-
-All three routes returned HTTP 200 through the standard urllib client. The debug configurations use the largest successful sample settings from this run:
-
-| OpenRouter debug model | FPS | Maximum frames | Per-frame pixel cap | Total pixel cap | Tested dimensions |
-|---|---:|---:|---:|---:|---|
-| GLM | 2 | 64 | 100,352 | 6,422,528 | 420×224 |
-| Kimi | 2 | 32 | 100,352 | 3,211,264 | 420×224 |
-| MiniMax | 2 | 32 | 100,352 | 3,211,264 | 420×224 |
-
-These overrides apply to the OpenRouter debug entries, not global vendor limits. Larger requests encountered transport failures; maximum capacity and repeatability remain unverified. GLM's 64-frame retry succeeded after an earlier TLS failure at the same settings. Kimi and MiniMax subsequently passed 32-frame requests; their 40-, 48- and 64-frame attempts failed during connection, upload or response handling, without a model rejection. In these tests, `direct` disables the explicit HTTP proxy only; it does not prove that VPN/TUN routing was bypassed. The debug entries contain the supplied OpenRouter key; CLI runs can use `OPENROUTER_API_KEY`. [Probe results](docs/model_input_limits.md#45-openrouter-实测).
-
-```bash
-export OPENROUTER_API_KEY="YOUR_OPENROUTER_API_KEY"
-python -m evaluation.inference.run --data-path /dataset/clip \
-  --model z-ai/glm-5.3-flash --base-url https://openrouter.ai/api/v1 \
-  --sample-frames --max-frames 64 --frame-max-pixels 100352 --total-pixels 6422528
-```
-
-### Clip video
-
-```bash
-common=(--data-path /dataset/clip/questions -g clip
-        --modality video --videos-dir /dataset/clip/videos)
-
-python evaluation/inference/run.py "${common[@]}" \
-  --model Qwen/Qwen3-VL-8B-Instruct \
-  --base-url http://localhost:8000/v1 \
-  --output-dir output/clip/video/qwen3-vl
-
-python evaluation/inference/run.py "${common[@]}" \
-  --model Qwen/Qwen3-Omni-30B-A3B-Instruct \
-  --base-url http://localhost:8000/v1 \
-  --output-dir output/clip/video/qwen3-omni
-
-python evaluation/inference/run.py "${common[@]}" \
-  --model gemini-3-flash-preview --api-key API_KEY \
-  --output-dir output/clip/video/gemini3-flash
-
-python evaluation/inference/run.py "${common[@]}" \
-  --model GPT_MODEL_NAME --base-url https://api.openai.com/v1 --api-key API_KEY \
-  --output-dir output/clip/video/gpt
-
-python evaluation/inference/run.py "${common[@]}" \
-  --model CLAUDE_MODEL_NAME --base-url https://api.anthropic.com/v1 --api-key API_KEY \
-  --output-dir output/clip/video/claude
-```
-
-Replace `GPT_MODEL_NAME` and `CLAUDE_MODEL_NAME` with image-capable model names available to your account, and `API_KEY` with the service key. The Qwen examples require the named weights to be served at the specified URL; replace it with your deployed service address.
-
-Video input has **no appended subtitles by default**. Add `--with-subtitle` to include them after the media and before the question. Clip subtitles are read from the question’s `subtitles` field. Episode subtitles are read from `subtitles/<video_id>.json`, in the directory beside `evaluation/`; each file contains the subtitle list. Paths are resolved relative to this code layout, independently of the terminal working directory. No subtitle-directory argument is required. Text mode requires non-empty subtitles; missing optional clip subtitles add no subtitle block.
-
-For `clip`, the model and API select native video or sampled frames as above. Seed uses native video by default. For `episode`, video mode always sends sampled frames. Add `--sample-frames` to use frames for clip input as well. Timestamped JPEG images are sampled across the complete video using these defaults:
-
-| Model family | FPS | Maximum frames | Pixels per frame | Total sampled pixels |
-|---|---:|---:|---:|---:|
-| GPT | 1 | 128 | 262,144 | 33,554,432 |
-| Claude | 2 | 80 | 262,144 | 8,028,160 |
-| DeepSeek | 2 | 600 | 602,112 | 361,267,200 |
-| Other models | 2 | 768 | 602,112 | Qwen budget formula below |
-
-Explicit CLI values override the defaults. The effective frame cap also respects the configured model policy: GPT 1500, Claude and DeepSeek 600, and Seed 1280. Defaults are not universal service limits. Frame count starts from `round(duration × fps)`, then respects the frame cap, available source frames and pixel budget; the selected frames span the complete video. Native video uses the serving endpoint's own decoding rules. See [model input limits](docs/model_input_limits.md) for sources and API probes.
-
-For 10-, 120-, and 600-second videos, GPT defaults yield about 10, 120 and 128 frames; Claude yields about 20, 80 and 80; DeepSeek yields about 20, 240 and 600. Other models yield about 20, 240 and 768 before a service-specific cap. `media` records the requested, source and effective FPS, frame counts and actual timestamps.
-
-DeepSeek's official API accepted 600 frames at 1008×560 in a 46.583 MiB request and returned HTTP 200. The requested model was `deepseek-v4-flash`; the response reported `deepseek-flash`. Claude `claude-sonnet-4-6` succeeded through the configured relay with 80 frames at 420×224: 1.915 MiB, HTTP 200, 90.81 seconds. Repeating that request disconnected, while larger probes failed during transport or returned HTTP 524. The 80-frame default reflects the largest successful sample in this run, not a stable capacity guarantee or a replacement for the published 600-image limit. These tests do not establish answer accuracy. [Test details](docs/model_input_limits.md).
-
-Adaptive sampling follows [Qwen-Omni’s FPS-plus-frame-cap approach](https://github.com/QwenLM/Qwen2.5-Omni/blob/d8a31ca56c0456b6edfcbcbf4bdbb6ae2200ef42/qwen-omni-utils/src/qwen_omni_utils/v2_5/vision_process.py#L149), while retaining the existing FFmpeg decoder. Generic HTTP input permits a single frame and does not impose Qwen’s model-specific minimum or even-frame alignment. Temporary frames leave the source MP4 unchanged. Native video is sent with its original audio track; sampled-frame input has no audio unless `--with-audio` is provided. Reducing the image count does not shorten the source audio.
-
-Frame resolution uses pixel area rather than a fixed longest edge or square size. The tested widescreen video produces 672×364 frames with GPT defaults, 420×224 when Claude reaches 80 frames, and 1008×560 with DeepSeek defaults. Shorter Claude inputs with fewer frames can use a larger per-frame allocation, up to 262,144 pixels. The decoder preserves aspect ratio approximately while aligning dimensions to multiples of 28; that alignment is a local preprocessing choice. GPT, Claude and DeepSeek use a strict budget for the sum of sampled image pixels. More frames share that budget, reducing the per-frame allocation; when the allocation reaches the 100,352-pixel minimum, the sampler reduces the frame count. `--total-pixels` overrides this budget. Pixel limits do not guarantee a JPEG size, request size, or recognition accuracy.
-
-Other models retain the Qwen-Omni utility defaults: at least 100,352 and at most 602,112 pixels per frame, with a video-budget parameter of 90,316,800. Unless `--total-pixels` is supplied, the Qwen formula multiplies that parameter by 2 before dividing by frame count; after reaching the minimum size, more frames can increase total pixels. Small inputs may be enlarged, and minimum-size or grid rounding can overshoot a tight per-frame target in this default mode. Lowering `--frame-max-pixels` alone does not increase the frame count. Metadata records requested/effective budgets, resized dimensions and actual total pixels.
-
-Native video is always sent as the original file, including its embedded audio track. Sampled-frame input contains no audio by default; use `--with-audio` to attach a separate audio track.
-
-Add `--with-audio` when sampled frames need a separate audio track. Native video is sent unchanged, including its embedded audio. This flag is independent of subtitles and text output settings.
-
-Extracted audio uses 16 kHz mono PCM16 WAV and the same zero point and duration as the video frames. Delayed audio retains its delay. Media precedes subtitles and the question. Files are temporary; original videos stay unchanged. `media.audio` and `media.audio_details` record the transmitted representation and extraction settings. 
-
-```bash
-# Add to an existing native Gemini or supported Qwen inference command:
---sample-frames
-# Sampled frames with a separate audio track:
---sample-frames --with-audio
-```
-
-Native-video mode always forwards the original video, including its embedded audio track. Sampled-frame mode sends images only unless `--with-audio` is provided, in which case the extracted audio is attached separately; the selected endpoint must support that combination. [Qwen serving examples](https://github.com/QwenLM/Qwen3-Omni#vllm-serve-usage), [DashScope modality combinations](https://help.aliyun.com/en/model-studio/qwen-omni), [Gemini multimodal content](https://ai.google.dev/api/generate-content#Content).
-
-Native input sends the prepared MP4 as Base64. DashScope requires the encoded video string to be below 10 MB; hosted `qwen3-omni-flash` also limits each video to 150 seconds. Gemini inline input is intended for modest clips; this implementation does not upload videos through Gemini Files API. Use frame input when appropriate and keep native requests within the serving endpoint's limits. [Qwen limits](https://www.alibabacloud.com/help/en/model-studio/qwen-omni), [Gemini video input](https://ai.google.dev/gemini-api/docs/video-understanding).
-
-### Episode video
-
-```bash
-python evaluation/inference/run.py \
-  --data-path /dataset/episode/questions -g episode --modality video \
-  --videos-dir /dataset/episode/videos \
-  --model gemini-3-flash-preview \
-  --output-dir output/episode/video/gemini3-flash
-```
-
-Episode video uses the same entry point and automatically selects timestamped frames; `--sample-frames` is not required. The question specifies the answer requirements, without a separate G2 category template. Add `--with-audio` when the selected frame-based route should receive a separate audio track. Optional subtitles use `--with-subtitle` and the episode subtitle files described above.
-
-The model defaults above also apply to episodes. For 20- and 40-minute videos, GPT's 128 frames yield about 0.107 and 0.053 FPS; Claude's 80 frames yield about 0.067 and 0.033 FPS; DeepSeek's 600 frames yield about 0.5 and 0.25 FPS. Other models' 768-frame default yields about 0.64 and 0.32 FPS before a service-specific cap. Frames span the complete video. Sampling can miss brief expressions or reactions. The full image request, and audio when included, must still fit the service's input size, duration and context limits. Adjust the sampling and pixel budgets to the experiment; an accepted request does not establish recognition accuracy.
-
-Before sending to the official Ark or DeepSeek endpoint, the client checks the actual encoded JSON size, including inline media: Ark is limited to 64,000,000 bytes (a conservative decimal interpretation of 64 MB), and DeepSeek to 48 × 1024 × 1024 bytes (48 MiB). An oversized request fails locally with guidance to reduce `--max-frames` or `--frame-max-pixels`; it is not sent and the video tail is not discarded. Context and other service limits still apply.
-
-### Subtitle-only text
-
-```bash
-python evaluation/inference/run.py \
-  --data-path /dataset/episode/questions \
-  --granularity episode --modality text \
-  --model TEXT_MODEL_NAME \
-  --base-url http://localhost:8000/v1 \
-  --output-dir output/episode/text/model
-```
-
-Use `--granularity clip` for clip questions. Text mode always uses subtitles and requires no `--with-subtitle`. It sends subtitle text in stored order, followed by the question; it sends no video, speaker annotations, subtitle IDs or timestamps. Missing or empty subtitles are input errors. The client does not truncate subtitles; input capacity is determined by the selected model service.
-
-Text mode builds messages directly with `prompts.text_messages()` and uses the same four API transports as video and audio. Episode video baselines use sampled frames; external long-video methods can also submit their predictions directly for evaluation.
-
-### InternVL and audio-only input
-
-`OpenGVLab/InternVL3_5-241B-A28B` is served separately with vLLM or LMDeploy and called through this entry point; no separate `emollm` wrapper is required. Use the model name exposed by the deployed service:
-
-```bash
-python evaluation/inference/run.py \
-  --data-path /dataset/clip/questions -g clip --modality video \
-  --model OpenGVLab/InternVL3_5-241B-A28B \
-  --base-url http://localhost:8000/v1 \
-  --output-dir output/clip/video/internvl3.5
-
-python evaluation/inference/run.py \
-  --data-path /dataset/clip/questions -g clip --modality audio \
-  --model Qwen/Qwen2-Audio-7B-Instruct \
-  --base-url http://localhost:8000/v1 \
-  --output-dir output/clip/audio/qwen2-audio
-```
-
-Audio mode reads the corresponding video using the usual `--videos-dir` rule, extracts its audio and sends no images. Qwen2-Audio input is split into chunks of at most 30 seconds; all chunks and their time positions are sent in one request for one answer. The vLLM service's `--limit-mm-per-prompt '{"audio": N}'` must permit at least the largest chunk count. Context or service limits can still reject long recordings; the client does not discard later chunks. The original `Qwen-Audio-Chat` custom-code model is not covered by this adapter. Native Gemini and supported local Qwen-Omni services can also use audio mode. [Qwen2-Audio](https://github.com/QwenLM/Qwen2-Audio), [InternVL deployment](https://huggingface.co/OpenGVLab/InternVL3_5-241B-A28B#deployment).
-
-Select a vision-capable GLM or Seed model for video. DeepSeek's current `deepseek-flash` supports images and has passed the official API probe described above; `deepseek-v4-pro` is listed as text-only at the verification date. Other newly added routes have local request tests but no authenticated inference result unless explicitly recorded. No weights were downloaded or GPU inference performed. InternVL services must also allow the configured number of image items. [Detailed capabilities and validation scope](docs/model_input_limits.md).
-
-### Prompt and runtime options
-
-Common instructions and answer-format templates use English. Question content is passed through unchanged.
-
-| Option | Behavior |
+| Field | Meaning |
 |---|---|
-| `--modality video\|text\|audio` | Video input, subtitle-only input, or audio extracted from the video; default `video`. |
-| `--api-key KEY` | API key for the selected model service. |
-| `--prompt-mode system` | Send the common prompt as a separate system instruction. Default for video, text and audio. |
-| `--prompt-mode user` | Place the same instructions in the user message. |
-| `--qid ID` | Select a question; repeat for multiple IDs. |
-| `--limit N` | Run the first N questions after granularity and question-ID filtering; omit to run all selected questions. |
-| `--output-dir DIR` | Directory for inference results. |
-| `--force` | Rerun all selected inference records, including previous successful predictions. |
-| `--workers N` | Concurrent requests; default 1. |
-| `--tries N` | Maximum attempts per request; default 3. |
-| `--max-tokens N` | Output token limit; default 16384 (16K). |
-| `--temperature N` | Sampling temperature (default: `0`; the official Seed 2.0 Pro/Lite 260215 endpoints use their fixed value `1`). |
-| `--timeout N` | Request timeout in seconds; default 180. |
-| `--sample-frames` | Force sampled frames for clip video; episode video always uses frames. |
-| `--with-audio` | Attach a separate audio track when sampled frames are used. |
-| `--fps N` | Target sampling rate, a finite positive number; model defaults are listed above. |
-| `--max-frames N` | Requested positive frame-count cap, subject to model and pixel-budget limits; model defaults are listed above. |
-| `--frame-max-pixels N` | Per-frame pixel-area cap; minimum 100,352, further bounded by the total pixel budget. |
-| `--total-pixels N` | Strict total sampled-pixel cap. GPT, Claude and DeepSeek defaults are listed above; other models retain the Qwen budget formula when omitted. |
+| `question_id` | Question ID, unique within its granularity. |
+| `video_id` | ID of the corresponding prepared video. |
+| `source` | Original source in `from`; source-video intervals in `segments`, or `null` when no interval list is needed. |
+| `granularity` | `clip` or `episode`. |
+| `type` | Task name from the table above. |
+| `question` | Question text and any required answer format. |
+| `answer` | Reference label list, before/after label sets, or natural-language answer. |
+| `answer_details` | Additional reference information, or `null`. |
+| `rubric` | Scoring criterion and score-band descriptions; `null` for locally scored label questions. |
+| `subtitles` | Embedded subtitle rows for clip questions, or `null`. |
 
-For a quick test, add `--limit 10 --output-dir output/debug/test` to an inference command above. Directory inputs follow filename order; JSON arrays and JSONL files preserve record order.
+`answer_details` contains `description` and `items`. The description explains how to use the items: chronological stages, necessary causal factors, or alternative complete answers. Necessary components are considered together; when alternatives are provided and the question requests one answer, any one valid alternative suffices. **These items provide reference content; they do not assign separate points.**
 
-No extra configuration file is required for normal runs. Use `--config FILE` to supply optional service-specific parameters in a JSON file.
-
-`--thinking default` leaves provider thinking settings unchanged. Qwen3-VL Plus/Flash and Qwen3-Omni Flash support `on`/`off`; Instruct and Thinking checkpoints use separate weights, so incompatible toggles are rejected. Qwen-Omni defaults to text output. The generic entry uses non-streaming requests with one complete JSON response and has no streaming switch. Services that require streaming are not supported by this entry. Gemini 3 maps `on` to high thinking and rejects `off`; Flash's `minimal` level can be specified in `--config` and does not guarantee zero thinking. Custom GPT/Claude reasoning settings can also be supplied through `--config` with `--thinking default`.
-
-`predictions.jsonl` contains IDs, parsed predictions, raw model responses, input references and status. Video records include the selected representation and audio status; frame records also include sampling settings and timestamps. Inference reuses successful records with the same question ID; add `--force` to rerun all selected records. `--qid` and `--limit` control the selected questions.
-
-## Evaluation
-
-The three specialist models keep their official source trees in `evaluation/inference/emollm/`; their entry points and the general-purpose model adapters live in `evaluation/inference/adapters/`. Each specialist model uses its own dependency environment. See the [official-model setup guide](evaluation/inference/emollm/README.md) for weights, configuration and commands. The public `run.py` entry remains dedicated to general-purpose model services. Official source trees are kept unchanged; local wrappers adapt benchmark inputs and predictions. The upstream trees and weights are not bundled into the wheel; installed wrappers require `repo_dir` pointing to a prepared checkout.
-
-```bash
-python evaluation/eval.py \
-  --data-path /dataset/clip/questions --granularity clip \
-  --predictions output/clip/video/model/predictions.jsonl \
-  --model JUDGE_MODEL_NAME --api-key API_KEY \
-  --base-url http://localhost:8000/v1 \
-  --output-dir output/clip/scores/model
-```
-
-Each evaluation invocation scores every question of the chosen granularity in `--data-path` again; evaluation has no question-ID filter.
-
-The presence of `rubric` determines the scoring route:
-
-- **`rubric: null`:** code computes label Precision, Recall, F1 and EM. Transition scores the before/after sets separately and averages each metric. Duplicate labels are removed; unknown labels remain incorrect predictions.
-- **A provided rubric:** an LLM evaluates the question, reference answer, `answer_details` and prediction using that rubric. The allowed scores come directly from the question's rubric.
-
-During annotation, store a rubric for every LLM-scored question, including G2 explanation and result questions. Only label questions use `null`.
-
-`answer_details` explains required content or alternative valid answers. It does not itself assign points. Its description and items are included with the reference answer. The judge System Prompt includes all four examples and requires only `score` and `reason` in its JSON output.
-
-Label-only evaluation does not initialize an API client and requires no `--model`, `--base-url` or API key. The judge client is configured only when LLM scoring is needed. The independent AffectGPT, Emotion-LLaMA and R1-Omni entries already save predictions in this evaluator's format. Other external methods and agents can submit at least the following fields for each answer:
+This synthetic example demonstrates the format, not a released question or its gold answer:
 
 ```json
-{"question_id": "Q000001", "prediction": "3"}
+{
+  "question_id": "G2_Q_EXAMPLE",
+  "video_id": "G2_V_EXAMPLE",
+  "source": {"from": "Example video", "segments": null},
+  "granularity": "episode",
+  "type": "emotional intensity comparison",
+  "question": "During which match does A appear most nervous?",
+  "answer": "The final match.",
+  "answer_details": null,
+  "rubric": {
+    "criterion": "Evaluate whether the answer identifies the correct match.",
+    "scores": {
+      "0": "The answer is incorrect, incomplete, or contradictory.",
+      "1": "The answer correctly identifies the final match. Equivalent wording is accepted."
+    }
+  },
+  "subtitles": null
+}
 ```
 
-Predictions are matched only by `question_id` to questions selected by `--granularity`; prediction fields `granularity`, `video_id`, `status` and `error` are ignored. The evaluator uses `prediction` when non-null and non-blank, otherwise `pred_answer`. Every open answer is submitted as text. Label predictions may be label lists; transition predictions may use `before` and `after` lists. See [data_format.md](docs/data_format.md) for details.
+Label questions use the following vocabulary. Labels are case-insensitive during scoring.
 
-### Scores and saved outputs
+```text
+peace, affection, esteem, anticipation, engagement, confidence,
+happiness, pleasure, excitement, surprise, sympathy, doubt/confusion,
+disconnection, fatigue, embarrassment, yearning, disapproval, aversion,
+annoyance, anger, sensitivity, sadness, disquietment, fear, pain, suffering
+```
 
-Each evaluation run creates a new timestamp-named subdirectory under `--output-dir`, containing the files below. The actual directory is printed at runtime, and previous evaluation runs are preserved. Evaluation always processes the complete question set for the chosen granularity and does not use `--force`.
+Reference answers, answer details, and rubrics are used for evaluation and must not be included in the tested model's input.
 
-| Output | Contents |
+## 2. Evaluate predictions
+
+The API inference runner and evaluator use the Python standard library. LLM-scored questions require access to a judge model API; label-only evaluation does not.
+
+### Prepare a prediction file
+
+Save one record per question in JSONL, or use a JSON array. Match the released `question_id` exactly and keep clip and episode predictions in separate files.
+
+Examples below illustrate serialization only:
+
+```jsonl
+{"question_id":"G1_LABEL_EXAMPLE","prediction":["sadness","yearning"]}
+{"question_id":"G1_TRANSITION_EXAMPLE","prediction":{"before":["fear"],"after":["peace"]}}
+{"question_id":"G1_TRAJECTORY_EXAMPLE","prediction":"A is initially hopeful, becomes anxious after the setback, and regains confidence."}
+```
+
+For every LLM-scored answer, `prediction` must be text, including numbers and Yes/No answers:
+
+```jsonl
+{"question_id":"G2_RESULT_EXAMPLE","prediction":"3"}
+{"question_id":"G2_EXPLANATION_EXAMPLE","prediction":"A is worried about disappointing the team."}
+```
+
+The evaluator also accepts `pred_answer` when `prediction` is absent or blank. Label predictions can alternatively be comma-separated text; transition text can use `Before: ...` and `After: ...` on two lines. The repository's inference entry points produce `predictions.jsonl` directly.
+
+### Run evaluation
+
+Configure your judge service. The placeholders below must be replaced with the service's model name, base URL, and key.
+
+```bash
+export MODEL_API_KEY="YOUR_API_KEY"
+export MODEL_BASE_URL="https://your-service.example/v1"
+export JUDGE_MODEL="YOUR_JUDGE_MODEL"
+
+python -m evaluation.eval \
+  --data-path data/LongEmoBench/episode \
+  --predictions output/episode/predictions.jsonl \
+  -g episode \
+  --model "$JUDGE_MODEL" \
+  --output-dir output/episode/scores
+```
+
+For clip evaluation, use the clip question and prediction paths with `-g clip`. If the selected data contains only label questions, omit the model and API settings. `longemobench-score` is equivalent to `python -m evaluation.eval` after installation.
+
+Each invocation evaluates all questions of the selected granularity under `--data-path`. To evaluate a subset, provide a question file or directory containing that subset. A smaller prediction file alone does not reduce the evaluation scope. Optional `--workers` controls concurrency and `--tries` sets the maximum request attempts, including the first attempt.
+
+### How scores are computed
+
+**Label questions (`rubric: null`).** Compare predicted and reference label sets. Labels are normalized and deduplicated; extra incorrect labels reduce precision, and omissions reduce recall.
+
+| Metric | Definition |
 |---|---|
-| `scores.jsonl` | Per-question scores, evaluation inputs, raw judge responses and errors. |
-| `metrics.json` | Metrics by task `type`, raw/normalized/percentage scores, coverage and status counts. |
-| `summary.md` | Readable results by task `type`. |
+| Precision | Correct predicted labels / predicted labels. |
+| Recall | Correct predicted labels / reference labels. |
+| F1 | `2 × Precision × Recall / (Precision + Recall)`. |
+| EM | 1 when the two sets match exactly; otherwise 0. |
 
-Label metrics are averaged per question. Trajectory reports the raw mean out of 4, normalized mean divided by 4, and percentage score multiplied by 25. Cause explanations report the raw mean out of 3 and its normalized/percentage equivalents. Result questions report ACC.
+For transition questions, compute each metric separately for `before` and `after`, then average the two values. Task metrics average questions equally. F1 is the label question's contribution to the overall normalized score.
 
-Within G2 emotional reasoning, the 0/1 results and graded explanations retain their separate scores and the agreed weighting: `0.6 × result ACC + 0.4 × normalized explanation mean`. Each LLM score is normalized by the maximum in its rubric. The unweighted mean includes every scored question equally. If only one part has scored answers, use that part's normalized mean; absent scores are `null`, not zero. The overall unweighted aggregate uses label F1 and normalized LLM scores.
+**Questions with a rubric.** The LLM judge receives the question, reference answer, optional `answer_details`, model prediction, and the complete rubric. It returns one allowed integer `score` and a `reason`. This route also handles short results such as names, counts, and Yes/No answers. The judge does not receive the video. Prompts and the four embedded examples are in [judge_prompts.py](evaluation/judge_prompts.py).
 
-Reports group questions directly by `type`, without additional answer-type groups or mapping files. Score ranges do not change a question's task type.
+Each score is normalized as `score / maximum allowed score`. Trajectories therefore report both their raw 0–4 mean and a percentage equal to `raw mean × 25`; 0–3 explanations use `raw mean / 3 × 100`. Binary-result averages are ACC. The rubric specifies an overall judgment, not a sum over reference items.
 
-If neither answer field contains a response, the prediction is missing and unscored; null, empty and whitespace-only strings count as missing. Missing predictions and evaluation failures lower reported coverage. Invalid judge JSON or an out-of-range score is retried, then reported as an evaluation error rather than a wrong model answer. Exit status is nonzero when any selected question remains unscored because of missing input or execution failure.
+**Aggregation.** Reports include each task's results and the unweighted mean of normalized question scores within the selected granularity. Clip and episode scores are reported separately.
 
-## Verification
+Episode emotional reasoning additionally reports:
 
-```bash
-python -m unittest discover -s tests -v
+- Result-question ACC and explanation-question raw/normalized means separately.
+- An unweighted mean over all scored reasoning questions.
+- A weighted score: `0.6 × result ACC + 0.4 × normalized explanation mean`, with a 0–100 version.
+
+When only one reasoning group has scored answers, the weighted result uses that group's normalized mean. **Missing or blank predictions and failed evaluations are excluded from score means and reported in coverage/status counts.** Compare scores together with `n_scored / n_total`; an incomplete run is not a full benchmark result.
+
+### Read the outputs
+
+Every evaluation creates a new directory, including repeated runs on the same predictions:
+
+```text
+output/episode/scores/run_YYYYMMDD_HHMM/
+  scores.jsonl    # Per-question score, reason, prediction, and judge details
+  metrics.json    # Task metrics, overall mean, coverage, and reasoning aggregates
+  summary.md     # Readable score tables
 ```
 
-Tests use synthetic questions and a local HTTP service to verify request assembly, response parsing, label/LLM routing, score aggregation, failures and repeated runs. They do not call live model providers or evaluate the actual dataset; endpoint-specific model/media support must be checked when running that service.
+A numeric suffix distinguishes runs started in the same minute. `metrics.json` contains `tasks`, `overall_unweighted`, and, for episode runs, `emotional_reasoning`. The evaluator exits with a nonzero code if any selected question is unscored or fails.
 
-### Direct Transformers inference
+## 3. Generate predictions with the API baseline
 
-For a locally loaded Qwen checkpoint, use the separate Transformers entry point
-instead of the HTTP deployment entry point:
+Use the shared API entry point when you also need model predictions. Video processing requires `ffmpeg` and `ffprobe` on `PATH`.
 
 ```bash
-python -m evaluation.inference.transformers \
-  --data-path /path/to/questions \
-  --model /path/to/Qwen3-Omni-30B-A3B-Instruct \
-  --videos-dir /path/to/videos \
-  --output-dir output/transformers
+export MODEL_API_KEY="YOUR_INFERENCE_API_KEY"
+export MODEL_BASE_URL="https://your-inference-service.example/v1"
+export INFERENCE_MODEL="YOUR_VIDEO_MODEL"
+
+python -m evaluation.inference.run \
+  --data-path data/LongEmoBench/episode \
+  --videos-dir data/LongEmoBench/episode/videos \
+  -g episode \
+  --modality video \
+  --model "$INFERENCE_MODEL" \
+  --output-dir output/episode
 ```
 
-The model name selects the native family automatically: Qwen2.5/Qwen3 Omni uses
-`qwen_omni_utils` and `use_audio_in_video=True`, Qwen2/Qwen2.5/Qwen3 VL uses
-`qwen_vl_utils` with native video, and Qwen2-Audio extracts a temporary WAV for the
-official audio processor. InternVL checkpoints use the official frame-based
-`model.chat` path. This entry point is separate from
-`evaluation.inference.run` (the HTTP/API runner). Install the packages and versions
-required by the selected checkpoint; audio/video processor utilities are loaded only
-when that family is selected.
+Set `MODEL_BASE_URL` and `MODEL_API_KEY` for the inference service, which may differ from the judge service. Use `-g clip` for clip questions. Episode video input uses frames sampled across the video; frame count and resolution can be controlled with `--fps`, `--max-frames`, and `--frame-max-pixels`.
+
+Subtitles are not appended by default. `--with-subtitle` appends them, while `--modality text` runs a subtitle-only baseline. Clip subtitles are read from each question. The current episode subtitle reader expects `subtitles/<video_id>.json` at the repository root, containing rows with `id`, `t`, `speaker`, and `text`; convert the released SRT files to this format before running a subtitle baseline. This conversion is not needed for evaluation or video inference without subtitles.
+
+Sampled frames do not include audio by default; `--with-audio` adds a separate track where the model/API supports it. Native video requests carry the source file. Record the actual media settings when comparing results. Inference reuses successful predictions by question ID in the same output directory. Use a new `--output-dir` or `--force` when changing the model or input settings.
+
+## Code entry points
+
+| File | Purpose |
+|---|---|
+| [evaluation/eval.py](evaluation/eval.py) | Evaluate local or externally generated predictions. |
+| [evaluation/metrics.py](evaluation/metrics.py) | Label metrics, normalization, and score aggregation. |
+| [evaluation/judge_prompts.py](evaluation/judge_prompts.py) | Shared judge prompts and output validation. |
+| [evaluation/io_utils.py](evaluation/io_utils.py) | Question loading and subtitle format. |
+| [evaluation/inference/run.py](evaluation/inference/run.py) | API prediction generation. |
+| [evaluation/inference/transformers.py](evaluation/inference/transformers.py) | Local Transformers prediction generation. |
+| [methods/agentic/runner.py](methods/agentic/runner.py) | Agentic frame-inspection method. |
+
+Specialist emotion-model code is under `evaluation/inference/emollm/` and retains its upstream license files. The previous repository version is preserved on the [`v0` branch](https://github.com/mcflurryshuoz/LongEmo/tree/v0).
