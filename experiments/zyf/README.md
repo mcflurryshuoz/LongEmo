@@ -79,3 +79,13 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 - The trajectory judge noted weaker expression of the focused evaluation of the story's logic. This identifies a follow-up diagnostic, not proof of whether perception, retrieval or answer composition caused the omission.
 - Direct 128-frame baseline did not produce valid predictions. A one-attempt diagnostic confirmed HTTP 402 with a credit-dependent prompt-token allowance below the requested 195,055 tokens. This is provider credit preflight metadata, not measured billed tokens. No baseline score, score gain or full-benchmark claim is supported.
 - Detailed scored smoke and separate reused/incremental cost accounting: [results JSON](results/gpt6_smoke_v16/results.json), [readable report](results/gpt6_smoke_v16/results.md).
+
+## E05: full episode pass — prepared, inference blocked by credits
+
+- User requested all 558 episode questions after pipeline validation. Downloading the full 141-video release (68.38 GB) on `/mnt/data1/zyf`; the 558 questions were already available.
+- Added [full evaluation protocol](full_benchmark.md), `full_benchmark.py`, `analyze_full.py`, and an empirical cost forecast. The method/evaluator source hash is unchanged, preserving compatible E03 checkpoints; copies leave the original pilot untouched.
+- Seven new regression tests passed, including a simulated scorer interruption that resumes only failed judgments and retains a valid zero score. No synthetic test result is counted as benchmark performance.
+- Full-run directory: `/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_full_episode_v1`. Full inference remains unstarted because the authorized OpenRouter account had about USD 1.63 available. Download and offline preparation can proceed independently. The earlier USD 30–50 estimate applies only to completing the nine-question pilot.
+- Preliminary full-pass allowance: about USD 2000–3000, extrapolated from partial data inventory and very small model-call samples; recalibrate after all durations are known. No payment or cheaper-model substitution is made.
+- A development trace audit found stored event E65 (focused scrutiny at 274.64–281.68 seconds) absent from the Q42 context. Its prefix-truncated lightweight timeline ended at 121.1/366 seconds, while only 9/83 full events fit within 47454 characters. This supports testing full-span target-person timelines and evidence compression; it does not establish a score gain or independently verify perception truth.
+- Full coverage, per-task and reasoning-subtype metrics, development overlap, duration groups, actual-context citation checks, and costs will be exported by the offline analyzer. No full result or improvement claim is available yet.

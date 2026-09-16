@@ -17,3 +17,5 @@ subtitles/
 /test/
 /tests/
 /docs/
+
+.cache/longemo-embeddings/
