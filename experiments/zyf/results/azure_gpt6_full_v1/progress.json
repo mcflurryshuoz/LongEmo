@@ -1,0 +1,376 @@
+{
+  "run": "azure_gpt6_full_v1",
+  "snapshot_unix": 1789579688.306157,
+  "status": {
+    "status": "running",
+    "updated_unix": 1789579683.9496686,
+    "question_count": 558,
+    "video_count": 141,
+    "available_videos": 141,
+    "initial_available_credits": 31.45377587,
+    "videos": {
+      "G2_V000015": {
+        "video_id": "G2_V000015",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/azure_gpt6_full_v1/memory/G2_V000015/calls.jsonl",
+          "purpose": "perception:G2_V000015:W00001",
+          "service_error_code": "content_policy_violation"
+        }
+      },
+      "G2_V000067": {
+        "video_id": "G2_V000067",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/azure_gpt6_full_v1/memory/G2_V000067/calls.jsonl",
+          "purpose": "perception:G2_V000067:W00001",
+          "service_error_code": "content_policy_violation"
+        }
+      },
+      "G2_V000001": {
+        "video_id": "G2_V000001",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/azure_gpt6_full_v1/memory/G2_V000001/calls.jsonl",
+          "purpose": "perception:G2_V000001:W00004",
+          "service_error_code": "content_policy_violation"
+        },
+        "video_attempt": 1
+      },
+      "G2_V000026": {
+        "video_id": "G2_V000026",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/azure_gpt6_full_v1/memory/G2_V000026/calls.jsonl",
+          "purpose": "perception:G2_V000026:W00006",
+          "service_error_code": "content_policy_violation"
+        },
+        "video_attempt": 1
+      }
+    },
+    "active_videos": [
+      "G2_V000004",
+      "G2_V000005",
+      "G2_V000007",
+      "G2_V000009",
+      "G2_V000010",
+      "G2_V000013",
+      "G2_V000014",
+      "G2_V000016",
+      "G2_V000017",
+      "G2_V000019",
+      "G2_V000021",
+      "G2_V000027",
+      "G2_V000069",
+      "G2_V000141"
+    ],
+    "queued_videos": 123,
+    "scheduling_paused": false,
+    "n_scored": 0
+  },
+  "completed_windows": 108,
+  "complete_video_memories": 0,
+  "memory_progress": {
+    "G2_V000016": {
+      "windows": 8,
+      "complete": false
+    },
+    "G2_V000001": {
+      "windows": 3,
+      "complete": false
+    },
+    "G2_V000004": {
+      "windows": 7,
+      "complete": false
+    },
+    "G2_V000069": {
+      "windows": 8,
+      "complete": false
+    },
+    "G2_V000010": {
+      "windows": 9,
+      "complete": false
+    },
+    "G2_V000017": {
+      "windows": 7,
+      "complete": false
+    },
+    "G2_V000014": {
+      "windows": 7,
+      "complete": false
+    },
+    "G2_V000021": {
+      "windows": 7,
+      "complete": false
+    },
+    "G2_V000007": {
+      "windows": 9,
+      "complete": false
+    },
+    "G2_V000141": {
+      "windows": 8,
+      "complete": false
+    },
+    "G2_V000009": {
+      "windows": 7,
+      "complete": false
+    },
+    "G2_V000019": {
+      "windows": 8,
+      "complete": false
+    },
+    "G2_V000013": {
+      "windows": 8,
+      "complete": false
+    },
+    "G2_V000026": {
+      "windows": 5,
+      "complete": false
+    },
+    "G2_V000027": {
+      "windows": 3,
+      "complete": false
+    },
+    "G2_V000005": {
+      "windows": 4,
+      "complete": false
+    }
+  },
+  "azure": {
+    "attempts": 116,
+    "http_statuses": {
+      "400": 4,
+      "200": 108,
+      "429": 4
+    },
+    "actual_models": {
+      "gpt-6-astra-2026-09-03": 108
+    },
+    "returned_prompt_tokens": 883714,
+    "returned_completion_tokens": 257499,
+    "returned_total_tokens": 1141213,
+    "billing_usd": null,
+    "billing_note": "Azure usage is recorded; no Azure billing export is available.",
+    "recent_5min_attempts": 56,
+    "recent_5min_429": 4
+  },
+  "audio": {
+    "attempts": 158,
+    "success": 116,
+    "error_types": {
+      "voice must be nonempty text": 37,
+      "Expecting value: line 1 column 1 (char 0)": 5
+    },
+    "provider_reported_cost_usd": 0.30675150000000007
+  },
+  "perception": {
+    "attempts": 112,
+    "success": 108,
+    "error_types": {
+      "AzureError": 4
+    }
+  },
+  "initial_configuration": {
+    "fingerprint": "03703b577f8bc1f61113e3b41bfe91f1ab970d973bdda0e185c1bbf134f0aa08",
+    "configuration": {
+      "protocol": "azure-full-episode-graph-v1",
+      "base_url": "https://yifanyang-foundry-eastus2.cognitiveservices.azure.com/",
+      "azure_transport": {
+        "provider": "azure",
+        "api_version": "2025-01-01-preview",
+        "authentication": "azure_cli",
+        "credential_context": "/home/azureuser/.azure"
+      },
+      "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+      "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+      "question_count": 558,
+      "video_count": 141,
+      "code_hash": "64183cb9e878459c0606a6e81e2ec07644f8452c08c6c76c3da176a1d3ea2dc4",
+      "orchestrator_sha256": "f399426578dc9ff22c7d861b388b65d8419c2d00e6145cd1714267fd084f28d5",
+      "git_revision": "c90ed18b8ce3b7842fbd8cd1f47e1f99598b6a99",
+      "model": "gpt-6-astra",
+      "judge_model": "gpt-6-astra",
+      "audio_model": "google/gemini-3.8-flash",
+      "embedding_model": "google/gemini-embedding-2",
+      "reasoning_effort": "medium",
+      "window_seconds": 20.0,
+      "padding": 2.0,
+      "fps": 1.0,
+      "max_frames": 24,
+      "max_pixels": 200704,
+      "max_tokens": 8192,
+      "retrieval": "graph",
+      "top_k": 12,
+      "evidence_chars": 48000,
+      "inspections": 0,
+      "scoring": "unchanged official episode scorer; earliest successful judgment retained",
+      "pilot_question_ids": [
+        "G2_Q000041",
+        "G2_Q000042",
+        "G2_Q000271",
+        "G2_Q000272",
+        "G2_Q000465",
+        "G2_Q000466",
+        "G2_Q000467",
+        "G2_Q000468",
+        "G2_Q000469"
+      ],
+      "development_overlap_explicit": true
+    }
+  },
+  "execution_revisions": [
+    {
+      "fingerprint": "b56ffc97cd7fd49b200347b62f1c9226cb847b896170fb4ae79543b5afb45111",
+      "configuration": {
+        "protocol": "azure-full-episode-graph-v1",
+        "base_url": "https://yifanyang-foundry-eastus2.cognitiveservices.azure.com/",
+        "azure_transport": {
+          "provider": "azure",
+          "api_version": "2025-01-01-preview",
+          "authentication": "azure_cli",
+          "credential_context": "/home/azureuser/.azure"
+        },
+        "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+        "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+        "question_count": 558,
+        "video_count": 141,
+        "code_hash": "64183cb9e878459c0606a6e81e2ec07644f8452c08c6c76c3da176a1d3ea2dc4",
+        "orchestrator_sha256": "fa7b7f57456bcbc20b55572f3a613831893bb7707441f881dc90017e7ac2d4f1",
+        "git_revision": "eee9d3a5357e508752d3f3af760083b9543045fc",
+        "model": "gpt-6-astra",
+        "judge_model": "gpt-6-astra",
+        "audio_model": "google/gemini-3.8-flash",
+        "embedding_model": "google/gemini-embedding-2",
+        "reasoning_effort": "medium",
+        "window_seconds": 20.0,
+        "padding": 2.0,
+        "fps": 1.0,
+        "max_frames": 24,
+        "max_pixels": 200704,
+        "max_tokens": 8192,
+        "retrieval": "graph",
+        "top_k": 12,
+        "evidence_chars": 48000,
+        "inspections": 0,
+        "scoring": "unchanged official episode scorer; earliest successful judgment retained",
+        "pilot_question_ids": [
+          "G2_Q000041",
+          "G2_Q000042",
+          "G2_Q000271",
+          "G2_Q000272",
+          "G2_Q000465",
+          "G2_Q000466",
+          "G2_Q000467",
+          "G2_Q000468",
+          "G2_Q000469"
+        ],
+        "development_overlap_explicit": true
+      }
+    }
+  ],
+  "operational_changes": [
+    {
+      "time_unix": 1789579449.2710986,
+      "action": "scheduler_policy_classification_and_throughput_increase",
+      "previous_pid": 2736904,
+      "active_azure_requests_at_stop": 0,
+      "checkpointed_windows": 58,
+      "previous_tokens_per_minute": 250000,
+      "tokens_per_minute": 500000,
+      "video_workers": 16,
+      "max_concurrent_azure": 24,
+      "reason": "Known content_policy_violation inputs must not retry; normal requests had zero 429 and >900k remaining tokens in service headers.",
+      "group_stopped_unix": 1789579449.3243525
+    }
+  ],
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 0,
+      "coverage": 0.0,
+      "statuses": {
+        "pending": 558
+      },
+      "normalized_mean": null,
+      "percent_score": null
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 235
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 194
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 129
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 41
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 88
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": null,
+      "unweighted_percent": null,
+      "weighted": null,
+      "weighted_percent": null
+    }
+  },
+  "full_score_complete": false,
+  "resources": {
+    "time_unix": 1789579525.7385762,
+    "supervisor_pid": 2800818,
+    "process_count": 15,
+    "summed_rss_mib": 524.54296875,
+    "names": {
+      "python": 15
+    },
+    "sampling_note": "Single RSS snapshot, not a peak or minimum memory requirement"
+  },
+  "imported_question_free_audio_caches": 39,
+  "video_outcome_counts": {
+    "blocked_input_policy": 4
+  }
+}
