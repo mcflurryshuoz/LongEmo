@@ -1,0 +1,246 @@
+{
+  "run": "gpt6_hybrid_v1",
+  "generated_unix": 1789569344.4834387,
+  "methods": {
+    "graph": {
+      "predictions": 0,
+      "successful_predictions": 0,
+      "trace_summary": []
+    },
+    "graph_inspect": {
+      "predictions": 0,
+      "successful_predictions": 0,
+      "trace_summary": []
+    },
+    "direct": {
+      "predictions": 0,
+      "successful_predictions": 0,
+      "trace_summary": []
+    }
+  },
+  "memories": {
+    "G2_V000016": {
+      "complete": true,
+      "duration_seconds": 366.0,
+      "windows": 19,
+      "entities": 9,
+      "events": 83,
+      "states": 246,
+      "observations": 255,
+      "relations": 73,
+      "bytes": 316371
+    },
+    "G2_V000076": {
+      "complete": false,
+      "duration_seconds": 1311.019353,
+      "windows": 11,
+      "entities": 10,
+      "events": 60,
+      "states": 108,
+      "observations": 125,
+      "relations": 48,
+      "bytes": 171675
+    },
+    "G2_V000119": {
+      "complete": false,
+      "duration_seconds": 1274.52325,
+      "windows": 7,
+      "entities": 9,
+      "events": 33,
+      "states": 59,
+      "observations": 77,
+      "relations": 23,
+      "bytes": 101238
+    }
+  },
+  "costs": {
+    "perception": {
+      "attempts": 54,
+      "successful_calls": 37,
+      "missing_usage_attempts": 17,
+      "reported_total_tokens": 427155,
+      "provider_reported_cost_usd": 8.956634999999999,
+      "missing_cost_attempts": 17,
+      "elapsed_api_seconds": 2136.585776751861,
+      "errors": {
+        "RuntimeError": 17
+      }
+    },
+    "audio_observation": {
+      "attempts": 46,
+      "successful_calls": 39,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 63883,
+      "provider_reported_cost_usd": 0.12889725,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 323.76912790723145,
+      "errors": {
+        "voice must be nonempty text": 4,
+        "span must contain two finite absolute video seconds": 1,
+        "Expecting value: line 1 column 1 (char 0)": 2
+      }
+    },
+    "shared_planning": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "embedding_shared": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "graph_answer": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "graph_inspection_audio": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "graph_inspect_answer": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "graph_inspect_inspection_audio": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "direct_answer": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "direct_inspection_audio": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    }
+  },
+  "paired_scores": [],
+  "launch": {
+    "pid": 862218,
+    "command": [
+      "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+      "-u",
+      "-m",
+      "methods.longemo.experiment",
+      "--data-root",
+      "/mnt/data1/zyf/LongEmo-runtime/data",
+      "--output-dir",
+      "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1",
+      "--credential-file",
+      "/mnt/data1/zyf/LongEmo-runtime/api_config.json",
+      "--model",
+      "openai/gpt-6-astra",
+      "--judge-model",
+      "openai/gpt-6-astra",
+      "--audio-model",
+      "google/gemini-3.8-flash",
+      "--embedding-model",
+      "google/gemini-embedding-2",
+      "--embedding-cache-dir",
+      "/mnt/data1/zyf/LongEmo-runtime/cache/gemini-embedding-2",
+      "--direct-baseline",
+      "--with-inspection"
+    ],
+    "git_revision": "813663449fb6b102c9d10ce09979dbbc352c5c5e",
+    "started_unix": 1789566135.6216455
+  },
+  "experiment_manifest": {
+    "fingerprint": "ca9d42a11202d8c5f8a201bcec12012b08bcf14b9736a7e549e713d259146c58",
+    "configuration": {
+      "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+      "questions_sha256": "7c31eb6447b0848dc64c1b6ed8ff745d2033a1565bafcae3f7fc7f8ba9158af2",
+      "code_hash": "b7dee478e8dac8ee1de4de862ef37eaf1180401a7089d5d41b5b3a50dfdeb058",
+      "model": "openai/gpt-6-astra",
+      "judge_model": "openai/gpt-6-astra",
+      "window_seconds": 20,
+      "audio_model": "google/gemini-3.8-flash",
+      "embedding_model": "google/gemini-embedding-2",
+      "memory_dir": null,
+      "reasoning_effort": "medium",
+      "direct_baseline": true,
+      "with_inspection": true,
+      "input_modalities": [
+        "video",
+        "audio",
+        "subtitle"
+      ]
+    }
+  },
+  "status": {
+    "started_unix": 1789566135.6725793,
+    "stages": [
+      {
+        "stage": "build",
+        "status": "error",
+        "started_unix": 1789566135.6725888,
+        "exit_code": 1,
+        "ended_unix": 1789567399.5324771
+      }
+    ],
+    "status": "blocked_api_credits",
+    "blocked_unix": 1789567512.170332,
+    "reason": "OpenRouter HTTP 402: available credits insufficient after in-flight reservation. Partial memories retained; no partial scoring."
+  },
+  "resources": {
+    "root_pid": 862218,
+    "observed_from_unix": 1789566207.7804754,
+    "last_sample_unix": 1789567401.4473152,
+    "processes": 1,
+    "peak_processes": 4,
+    "current_summed_rss_kib": 0,
+    "peak_summed_rss_kib": 220156,
+    "disk_free_bytes": 607039668224,
+    "status": "finished",
+    "note": "RSS summed over owned process subtree, shared pages may count multiple times; 5-second sampling may miss short peaks. No local GPU model in this configuration."
+  },
+  "question_count": 9,
+  "video_count": 3,
+  "memory_source": "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1/memory"
+}

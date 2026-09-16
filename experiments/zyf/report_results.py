@@ -27,19 +27,35 @@ def summarize(run, embedding_cache):
     for name in ('launch','experiment_manifest','status','resources'):
         p=run/(name+'.json')
         if p.exists():result[name]=json.loads(p.read_text())
-    for p in sorted((run/'memory').glob('*/memory.json')):
+    launch=result.get('launch',{}).get('command',[])
+    questions=[]
+    if '--data-root' in launch:
+        path=Path(launch[launch.index('--data-root')+1])/'pilot_questions.json'
+        if path.exists(): questions=json.loads(path.read_text())
+    result['question_count']=len(questions) or 9
+    video_ids={q['video_id'] for q in questions}
+    result['video_count']=len(video_ids) or 3
+    configured_memory=result.get('experiment_manifest',{}).get('configuration',{}).get('memory_dir')
+    memory_dir=Path(configured_memory) if configured_memory else run/'memory'
+    result['memory_source']=str(memory_dir)
+    def memory_files(pattern):
+        return [p for p in memory_dir.glob(pattern) if not video_ids or p.relative_to(memory_dir).parts[0] in video_ids]
+    for p in sorted(memory_files('*/memory.json')):
         m=json.loads(p.read_text())
         result['memories'][m['video_id']]={'complete':bool(m.get('complete')),'duration_seconds':m['duration'],
             'windows':len(m['completed_windows']),'entities':len(m['entities']),'events':len(m['events']),
             'states':sum(len(e['states']) for e in m['events']),'observations':len(m['observations']),
             'relations':len(m['relations']),'bytes':p.stat().st_size}
-    groups={'perception':list((run/'memory').glob('*/calls.jsonl')),
-            'audio_observation':list((run/'memory').glob('*/audio/calls.jsonl')),
+    prefix='reused_memory_' if configured_memory else ''
+    groups={prefix+'perception':memory_files('*/calls.jsonl'),
+            prefix+'audio_observation':memory_files('*/audio/calls.jsonl'),
             'shared_planning':list((run/'shared_plans/calls').glob('*.jsonl'))}
     if embedding_cache:
         groups['embedding_shared']=list((embedding_cache/'api').glob('calls.jsonl'))
     score_rows={}
-    for method in ('graph','graph_inspect','direct'):
+    config=result.get('experiment_manifest',{}).get('configuration',{})
+    methods=['graph']+(['graph_inspect'] if config.get('with_inspection') else [])+(['direct'] if config.get('direct_baseline') else [])
+    for method in methods:
         folder=run/method
         groups[method+'_answer']=list((folder/'calls').glob('*.jsonl'))
         groups[method+'_inspection_audio']=list((folder/'inspection_audio').glob('calls.jsonl'))
@@ -80,20 +96,20 @@ def summarize(run, embedding_cache):
 
 
 def markdown(result):
-    lines=['# GPT-6 hybrid graph pilot','','This development pilot contains 3 videos and 9 questions. It is not a full benchmark result.','',
+    lines=['# GPT-6 hybrid graph pilot','',f"This run contains {result['video_count']} video(s) and {result['question_count']} questions. It is not a full benchmark result.",'',
            '| Method | Successful predictions | Scored / total | Overall (%) |','|---|---:|---:|---:|']
     for method,data in result['methods'].items():
         m=data.get('metrics',{}).get('overall_unweighted',{})
         pct=f"{m['percent_score']:.2f}" if 'percent_score' in m else 'pending'
-        lines.append(f"| {method} | {data['successful_predictions']}/9 | {m.get('n_scored','–')}/{m.get('n_total',9)} | {pct} |")
+        lines.append(f"| {method} | {data['successful_predictions']}/{result['question_count']} | {m.get('n_scored','–')}/{m.get('n_total',result['question_count'])} | {pct} |")
     lines+=['','| Video | Complete | Windows | Events | States |','|---|---|---:|---:|---:|']
     for video,m in result['memories'].items():lines.append(f"| {video} | {m['complete']} | {m['windows']} | {m['events']} | {m['states']} |")
     lines+=['','| Stage | Attempts | Returned tokens | Provider-reported USD | Attempts without cost |','|---|---:|---:|---:|---:|']
     for name,c in result['costs'].items():
         lines.append(f"| {name} | {c['attempts']} | {c['reported_total_tokens']} | {c['provider_reported_cost_usd']:.6f} | {c['missing_cost_attempts']} |")
-    lines+=['','Shared costs must be amortized equally. Cached query embeddings/plans are not a zero-cost ability of the second condition. Judge costs are recorded separately in the JSON. Provider-reported cost can exclude failed requests without returned usage.','',
-        'The three conditions use GPT-6 Astra; graph retrieval uses Gemini Embedding 2. Direct uses 128 sampled frames and the same subtitles/audio-only frontend but no graph states. Graph perception uses 20-second windows, so visual budgets differ.','',
-        'Score formulas and judge prompts are unchanged. Both pilot reasoning questions are explanation questions; result questions are absent. GPT-6 judging GPT-6 outputs introduces possible judge bias. No statistical superiority claim is supported by nine development questions.']
+    lines+=['','Reused-memory costs were incurred in the parent run and are not new charges in this run. Shared costs must be amortized equally. Cached query embeddings/plans are not a zero-cost ability of the second condition. Judge costs are recorded separately in the JSON. Provider-reported cost can exclude failed requests without returned usage.','',
+        'The evaluated conditions use GPT-6 Astra; graph retrieval uses Gemini Embedding 2. Direct uses 128 sampled frames and the same subtitles/audio-only frontend but no graph states. Graph perception uses 20-second windows, so visual budgets differ.','',
+        'Score formulas and judge prompts are unchanged. The parent three-video pilot has two reasoning explanation questions and no result questions; this smoke subset may have no reasoning questions. GPT-6 judging GPT-6 outputs introduces possible judge bias. No statistical superiority claim is supported by nine development questions.']
     return '\n'.join(lines)+'\n'
 
 

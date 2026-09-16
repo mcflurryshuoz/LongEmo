@@ -56,3 +56,26 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 - E03 uses a new graph from scratch, distinct from the retired Flash graph. Main graph and direct baseline share GPT-6 and the frozen input videos/questions. Optional one-inspection graph variant is recorded separately. All scores use the unchanged official evaluator and the same explicit GPT-6 judge.
 - Eighteen targeted tests passed on g450, including real codecs, dual-route fusion, embedding cache invalidation, no fallback, GPT-6 payload constraints and audio bridge isolation. A broad compileall over vendored emollm encounters upstream Python 2 code; vendored code is not modified and is outside this method's runtime.
 - E03 runtime directory: `/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1`. Status/results to be appended after the run; no improvement claim yet.
+
+### E03 checkpoint: paused for provider credits
+
+- Implementation `8136634` and documentation/report tooling `a5f64db` were pushed to `origin/zyf`.
+- The real GPT-6 image + Gemini audio-observation path passed a 12-second no-subtitle smoke check. The actual V119 full-clip regression also returned all 128 frames successfully after the final-PTS fix.
+- Completed windows: V16 **19/19** (83 events, 246 states); V76 **11/66**; V119 **7/64**. Total **37/149**. Only V16 is a complete memory. No full-pilot predictions or scores are claimed.
+- Returned usage records report **USD 8.956630** for GPT-6 perception and **USD 0.128900** for the audio observer (USD 9.085530 combined). HTTP failures without returned usage/cost remain explicitly unaccounted for; this is not a complete billing reconciliation.
+- Root cause of later API failures was independently confirmed: OpenRouter HTTP **402**, insufficient available credits after reserving in-flight requests. The original job and a diagnostic recovery attempt have exited; no background inference loop is left spending credits. Partial memories and successful audio observations remain resumable under the same source/model/data configuration.
+- A diagnostic resume initially used default integer-valued sampling arguments instead of the experiment's explicit float-valued CLI, producing an audio input-hash mismatch. Repeating the exact original arguments matched the cache. Use the saved launch command for reproducible resume; do not hand-reconstruct defaults.
+- Sampled summed RSS of the original process subtree peaked at approximately **215 MiB**, sampled every five seconds. This can miss short-lived peaks and excludes the separately launched failed diagnostic process. No local GPU model was allocated. It is not a measured upper bound for full concurrent baseline inference.
+- Complete episode videos total **68.38 GB** of disk, not a RAM requirement. For this streaming API implementation, budget **16–32 GB RAM**, **zero local model VRAM**, and roughly **100 GB+ free disk** for the full video set plus caches/temp files. These are operational recommendations, not demonstrated minimum requirements.
+- Estimated additional allowance to finish the remaining graph construction, 9-question conditions and judge: **USD 30–50**, based on observed window costs and allowing headroom. User was asked to refill the already-authorized OpenRouter account. No alternative model was silently substituted.
+- Sanitized checkpoint report: [results JSON](results/gpt6_hybrid_v1/results.json), [readable snapshot](results/gpt6_hybrid_v1/results.md). No gold annotations or raw media are committed.
+
+## E04: two-question engineering smoke — scored, no baseline comparison
+
+- Reused the only complete E03 graph, V16, and retained both of that video's questions (`G2_Q000041`, `G2_Q000042`). Selection was based on checkpoint availability before scoring, not answer quality. This is an additional engineering smoke, not the full 9-question pilot.
+- New run `/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_smoke_v16`; separate plans and Gemini embedding cache; single worker. Graph inference and the unchanged official evaluator both completed **2/2**.
+- Intensity comparison: **1/1**. Emotion trajectory: **3/4**. Official normalized mean: **87.5%** on these **two questions only**. No emotional reasoning questions are present. GPT-6 generated and judged these answers, with possible self-judge bias.
+- The two retrieval contexts contained 8 and 9 full events, using 47,697 and 47,454 characters respectively; both had no invalid cited event/observation IDs. Dense and semantic route traces are retained.
+- The trajectory judge noted weaker expression of the focused evaluation of the story's logic. This identifies a follow-up diagnostic, not proof of whether perception, retrieval or answer composition caused the omission.
+- Direct 128-frame baseline did not produce valid predictions. A one-attempt diagnostic confirmed HTTP 402 with a credit-dependent prompt-token allowance below the requested 195,055 tokens. This is provider credit preflight metadata, not measured billed tokens. No baseline score, score gain or full-benchmark claim is supported.
+- Detailed scored smoke and separate reused/incremental cost accounting: [results JSON](results/gpt6_smoke_v16/results.json), [readable report](results/gpt6_smoke_v16/results.md).

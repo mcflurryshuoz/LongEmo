@@ -1,0 +1,327 @@
+{
+  "run": "gpt6_smoke_v16",
+  "generated_unix": 1789569344.5282133,
+  "methods": {
+    "graph": {
+      "predictions": 2,
+      "successful_predictions": 2,
+      "metrics": {
+        "granularity": "episode",
+        "overall_unweighted": {
+          "n_total": 2,
+          "n_scored": 2,
+          "coverage": 1.0,
+          "statuses": {
+            "ok": 2
+          },
+          "normalized_mean": 0.875,
+          "percent_score": 87.5
+        },
+        "tasks": {
+          "emotion trajectory": {
+            "n_total": 1,
+            "n_scored": 1,
+            "coverage": 1.0,
+            "statuses": {
+              "ok": 1
+            },
+            "normalized_mean": 0.75,
+            "percent_score": 75.0,
+            "raw_mean": 3.0,
+            "max_score": 4
+          },
+          "emotional intensity comparison": {
+            "n_total": 1,
+            "n_scored": 1,
+            "coverage": 1.0,
+            "statuses": {
+              "ok": 1
+            },
+            "normalized_mean": 1.0,
+            "percent_score": 100.0,
+            "raw_mean": 1.0,
+            "max_score": 1,
+            "acc": 1.0
+          }
+        },
+        "emotional_reasoning": {
+          "result": {
+            "n_total": 0,
+            "n_scored": 0,
+            "coverage": null,
+            "statuses": {},
+            "normalized_mean": null,
+            "percent_score": null
+          },
+          "explanation": {
+            "n_total": 0,
+            "n_scored": 0,
+            "coverage": null,
+            "statuses": {},
+            "normalized_mean": null,
+            "percent_score": null
+          },
+          "weights": {
+            "result": 0.6,
+            "explanation": 0.4
+          },
+          "unweighted": null,
+          "unweighted_percent": null,
+          "weighted": null,
+          "weighted_percent": null
+        }
+      },
+      "scores_source": "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_smoke_v16/graph/scores/run_20260916_1430/metrics.json",
+      "judge_returned_attempts": 2,
+      "judge_provider_reported_cost_usd": 0.055636500000000005,
+      "judge_missing_cost_attempts": 0,
+      "trace_summary": [
+        {
+          "question_id": "G2_Q000041",
+          "evidence_characters": 47697,
+          "selected_events": 8,
+          "invalid_evidence_ids": [],
+          "inspection_count": 0
+        },
+        {
+          "question_id": "G2_Q000042",
+          "evidence_characters": 47454,
+          "selected_events": 9,
+          "invalid_evidence_ids": [],
+          "inspection_count": 0
+        }
+      ],
+      "embedding_indexes": {
+        "G2_V000016": {
+          "signature": "8a903aaaf6d3bfa69d609c3eaf4b79869fac1b1ae172bfe629c41e5b3d0c02f0",
+          "video_id": "G2_V000016",
+          "events": 83,
+          "chunks": 83,
+          "encoder": {
+            "model": "google/gemini-embedding-2",
+            "base_url": "https://openrouter.ai/api/v1",
+            "dimension": 3072,
+            "normalized": true,
+            "dtype": "float32",
+            "chunk_characters": 6000,
+            "chunk_stride": 5400,
+            "query_task": "search result",
+            "document_title": "Emotional event",
+            "revision": "provider-stable-alias; snapshot not exposed"
+          },
+          "cache_reused": false,
+          "elapsed_seconds": 5.458250068128109,
+          "vector_bytes": 1019904
+        }
+      }
+    },
+    "direct": {
+      "predictions": 2,
+      "successful_predictions": 0,
+      "trace_summary": []
+    }
+  },
+  "memories": {
+    "G2_V000016": {
+      "complete": true,
+      "duration_seconds": 366.0,
+      "windows": 19,
+      "entities": 9,
+      "events": 83,
+      "states": 246,
+      "observations": 255,
+      "relations": 73,
+      "bytes": 316371
+    }
+  },
+  "costs": {
+    "reused_memory_perception": {
+      "attempts": 21,
+      "successful_calls": 19,
+      "missing_usage_attempts": 2,
+      "reported_total_tokens": 224245,
+      "provider_reported_cost_usd": 4.666369999999999,
+      "missing_cost_attempts": 2,
+      "elapsed_api_seconds": 1085.3848174139857,
+      "errors": {
+        "RuntimeError": 2
+      }
+    },
+    "reused_memory_audio_observation": {
+      "attempts": 21,
+      "successful_calls": 19,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 28321,
+      "provider_reported_cost_usd": 0.058032749999999994,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 144.73219778947532,
+      "errors": {
+        "voice must be nonempty text": 1,
+        "Expecting value: line 1 column 1 (char 0)": 1
+      }
+    },
+    "shared_planning": {
+      "attempts": 2,
+      "successful_calls": 2,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 2928,
+      "provider_reported_cost_usd": 0.05271,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 13.888527788221836,
+      "errors": {}
+    },
+    "embedding_shared": {
+      "attempts": 8,
+      "successful_calls": 8,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 32182,
+      "provider_reported_cost_usd": 0.006437780000000001,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 7.408961594104767,
+      "errors": {}
+    },
+    "graph_answer": {
+      "attempts": 2,
+      "successful_calls": 2,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 31313,
+      "provider_reported_cost_usd": 0.413335,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 17.966012129560113,
+      "errors": {}
+    },
+    "graph_inspection_audio": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    },
+    "direct_answer": {
+      "attempts": 10,
+      "successful_calls": 0,
+      "missing_usage_attempts": 10,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 10,
+      "elapsed_api_seconds": 3.031740454956889,
+      "errors": {
+        "RuntimeError": 10
+      }
+    },
+    "direct_inspection_audio": {
+      "attempts": 0,
+      "successful_calls": 0,
+      "missing_usage_attempts": 0,
+      "reported_total_tokens": 0,
+      "provider_reported_cost_usd": 0,
+      "missing_cost_attempts": 0,
+      "elapsed_api_seconds": 0,
+      "errors": {}
+    }
+  },
+  "paired_scores": [
+    {
+      "question_id": "G2_Q000041",
+      "graph": {
+        "status": "ok",
+        "score": 1,
+        "max_score": 1,
+        "normalized_score": 1.0
+      },
+      "type": "emotional intensity comparison",
+      "video_id": "G2_V000016"
+    },
+    {
+      "question_id": "G2_Q000042",
+      "graph": {
+        "status": "ok",
+        "score": 3,
+        "max_score": 4,
+        "normalized_score": 0.75
+      },
+      "type": "emotion trajectory",
+      "video_id": "G2_V000016"
+    }
+  ],
+  "launch": {
+    "pid": 1066313,
+    "command": [
+      "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+      "-u",
+      "-m",
+      "methods.longemo.experiment",
+      "--data-root",
+      "/mnt/data1/zyf/LongEmo-runtime/data_smoke_v16",
+      "--output-dir",
+      "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_smoke_v16",
+      "--credential-file",
+      "/mnt/data1/zyf/LongEmo-runtime/api_config.json",
+      "--model",
+      "openai/gpt-6-astra",
+      "--judge-model",
+      "openai/gpt-6-astra",
+      "--audio-model",
+      "google/gemini-3.8-flash",
+      "--embedding-cache-dir",
+      "/mnt/data1/zyf/LongEmo-runtime/cache/gemini-embedding-2-smoke",
+      "--memory-dir",
+      "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1/memory",
+      "--workers",
+      "1",
+      "--direct-baseline"
+    ],
+    "started_unix": 1789567655.7071898,
+    "purpose": "Two-question engineering smoke on the only fully built video; not full pilot or benchmark score."
+  },
+  "experiment_manifest": {
+    "fingerprint": "53f38c50103b2ee1fc7404df03a83429ec7012cf5663303364dc335f6d5b24c7",
+    "configuration": {
+      "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+      "questions_sha256": "78c890c05d09a32679026b511a72098e285c3f9eeb00fec2bb072e2499d66208",
+      "code_hash": "b7dee478e8dac8ee1de4de862ef37eaf1180401a7089d5d41b5b3a50dfdeb058",
+      "model": "openai/gpt-6-astra",
+      "judge_model": "openai/gpt-6-astra",
+      "window_seconds": 20,
+      "audio_model": "google/gemini-3.8-flash",
+      "embedding_model": "google/gemini-embedding-2",
+      "memory_dir": "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1/memory",
+      "reasoning_effort": "medium",
+      "direct_baseline": true,
+      "with_inspection": false,
+      "input_modalities": [
+        "video",
+        "audio",
+        "subtitle"
+      ]
+    }
+  },
+  "status": {
+    "started_unix": 1789567655.760428,
+    "stages": [
+      {
+        "stage": "graph",
+        "status": "ok",
+        "started_unix": 1789567655.7605047,
+        "exit_code": 0,
+        "ended_unix": 1789567695.43825
+      },
+      {
+        "stage": "direct",
+        "status": "error",
+        "started_unix": 1789567695.4388185,
+        "exit_code": 1,
+        "ended_unix": 1789567732.0541987
+      }
+    ],
+    "status": "partial_smoke_scored_baseline_blocked",
+    "updated_unix": 1789569122.257507,
+    "reason": "Graph predictions and original evaluator completed on the two questions of V16. Direct baseline failed before producing predictions during credit shortage; no system comparison or full-pilot score."
+  },
+  "question_count": 2,
+  "video_count": 1,
+  "memory_source": "/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1/memory"
+}
