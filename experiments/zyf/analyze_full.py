@@ -85,7 +85,8 @@ def summarize(run, embedding_cache):
         if duration is not None:
             buckets['under_10_min' if duration < 600 else '10_to_30_min' if duration < 1800 else 'over_30_min'].append(row)
     result['duration_groups'] = {k:aggregate(v) for k,v in buckets.items()}
-    complete = len(valid) == config['question_count'] and len(rows) == config['question_count']
+    complete = (len(valid) == config['question_count'] and len(rows) == config['question_count']
+                and result['status']['status'] == 'complete')
     result['full_score_complete'] = complete
     result['video_bootstrap_95_percent_ci'] = bootstrap_video_ci(valid) if complete else None
     for path in sorted((run/'videos').glob('*/graph/traces/*.json')):

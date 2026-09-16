@@ -1,0 +1,74 @@
+{
+  "question_id": "G2_Q000042",
+  "video_id": "G2_V000016",
+  "type": "emotion trajectory",
+  "evidence_characters": 47454,
+  "candidate_events": 83,
+  "full_events": 9,
+  "timeline_events": 30,
+  "timeline_last_second": 121.1,
+  "timeline_end_fraction": 0.3308743169398907,
+  "full_event_spans": [
+    [
+      6.01,
+      9.14
+    ],
+    [
+      14.59,
+      17.51
+    ],
+    [
+      21.7,
+      24.2
+    ],
+    [
+      72.4,
+      79.9
+    ],
+    [
+      119.2,
+      121.1
+    ],
+    [
+      261.8,
+      263.3
+    ],
+    [
+      304.56,
+      310.32
+    ],
+    [
+      345.7,
+      350.8
+    ],
+    [
+      357.8,
+      363.5
+    ]
+  ],
+  "semantic_dense_overlap": 5,
+  "dense_only_full_events": 1,
+  "semantic_only_full_events": 0,
+  "graph_neighbor_full_events": 9,
+  "citations_absent_from_supplied_context": [],
+  "invalid_memory_citations": [],
+  "trace_sha256": "8ad7d89d24aba0e0f96e62cb6a0628abda233ef4ad9a33d90cd963cfd7dc3391",
+  "memory_sha256": "a5fd4f8ab1e9787beb38689970ac12baf60907d1a5d188b2db4772bf0122d519",
+  "missing_stored_stage": {
+    "event_id": "E65",
+    "spans": [
+      [
+        274.64,
+        280.0
+      ],
+      [
+        280.0,
+        281.68
+      ]
+    ],
+    "present_in_memory": true,
+    "present_in_full_evidence": false,
+    "present_in_timeline": false,
+    "interpretation": "Stored scrutiny of the tape-transfer sequence; must independently verify perception before claiming the retrieval fix causes higher accuracy."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "data_complete": true,
+  "inventoried_videos": 141,
+  "total_videos": 141,
+  "duration_hours": 45.92039363833331,
+  "total_windows": 8342,
+  "question_count": 558,
+  "calibration_completed_windows": 37,
+  "calibration_answered_questions": 2,
+  "observed_returned_cost_per_window_usd": 0.24555492567567563,
+  "observed_incremental_plan_embedding_answer_judge_per_question_usd": 0.26405964,
+  "estimated_remaining_linear_cost_usd": 2186.678936856486,
+  "suggested_allowance_25_to_50_percent_headroom_usd": [
+    2800,
+    3300
+  ],
+  "scope": "One graph-only full episode pass, with GPT-6 judging; imports reused; no full direct/inspection/independent-judge run.",
+  "limitations": [
+    "Empirical extrapolation from only 37 perception windows and two questions, not a price quote or confidence interval.",
+    "Failed calls without returned usage may be missing from accounting.",
+    "Longer-video contexts, cast size, repairs, provider routing and price changes can raise costs."
+  ]
+}

@@ -82,10 +82,17 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 
 ## E05: full episode pass — prepared, inference blocked by credits
 
-- User requested all 558 episode questions after pipeline validation. Downloading the full 141-video release (68.38 GB) on `/mnt/data1/zyf`; the 558 questions were already available.
+- User requested all 558 episode questions after pipeline validation. Downloaded and verified the full 141-video release (68.38 GB), all subtitles and all 558 questions on `/mnt/data1/zyf`. Total duration is 45.9204 hours and the frozen sampler requires 8342 windows. All 141 media/subtitle audits passed.
 - Added [full evaluation protocol](full_benchmark.md), `full_benchmark.py`, `analyze_full.py`, and an empirical cost forecast. The method/evaluator source hash is unchanged, preserving compatible E03 checkpoints; copies leave the original pilot untouched.
-- Seven new regression tests passed, including a simulated scorer interruption that resumes only failed judgments and retains a valid zero score. No synthetic test result is counted as benchmark performance.
+- Seven full-run regression tests and three checkpoint-refresh tests passed, alongside all 18 original method/media tests. Full-run tests include a simulated scorer interruption that resumes only failed judgments and retains a valid zero score. No synthetic test result is counted as benchmark performance.
 - Full-run directory: `/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_full_episode_v1`. Full inference remains unstarted because the authorized OpenRouter account had about USD 1.63 available. Download and offline preparation can proceed independently. The earlier USD 30–50 estimate applies only to completing the nine-question pilot.
-- Preliminary full-pass allowance: about USD 2000–3000, extrapolated from partial data inventory and very small model-call samples; recalibrate after all durations are known. No payment or cheaper-model substitution is made.
+- Full-duration calibration: estimated remaining linear cost USD 2186.68; suggested allowance USD 2800–3300 with headroom. This extrapolates from 37 perception windows and two questions, is not a quote, and excludes a full direct/inspection/independent-judge comparison. It supersedes the preliminary USD 2000–3000 estimate. Current credit remains USD 1.6328; the real execution preflight stops before any full-run model stage. No payment or cheaper-model substitution is made.
 - A development trace audit found stored event E65 (focused scrutiny at 274.64–281.68 seconds) absent from the Q42 context. Its prefix-truncated lightweight timeline ended at 121.1/366 seconds, while only 9/83 full events fit within 47454 characters. This supports testing full-span target-person timelines and evidence compression; it does not establish a score gain or independently verify perception truth.
 - Full coverage, per-task and reasoning-subtype metrics, development overlap, duration groups, actual-context citation checks, and costs will be exported by the offline analyzer. No full result or improvement claim is available yet.
+
+### E05 prepared-data audit and artifacts
+
+- All 141 videos have audio streams; converted subtitles validate, with no start-order issues or overruns above the two-second audit tolerance. All public question strings are nonempty.
+- Full inference/scoring coverage remains **0/558**. The earlier E04 2-question score is not imported or misrepresented as a full result.
+- The alternate authorized resource listed ten models but no GPT-6 or embedding endpoint; no silent provider/model substitution was attempted.
+- Full-run preparation/report: [results JSON](results/gpt6_full_episode_v1/results.json), [readable report](results/gpt6_full_episode_v1/results.md), [cost forecast](results/gpt6_full_episode_v1/cost_forecast.json), [media audit](results/gpt6_full_episode_v1/media_audit.json). The exact executable protocol is in [full_benchmark.md](full_benchmark.md).
