@@ -96,6 +96,28 @@ class AzureTest(unittest.TestCase):
         records=[json.loads(line) for p in (self.root/'ledger').glob('*.jsonl') for line in p.read_text().splitlines()]
         self.assertEqual([r['http_status'] for r in records],[429,200])
 
+    def test_scheduler_revision_preserves_semantics_and_original_manifest(self):
+        p=self.root/'experiment_manifest.json'
+        first={'code_hash':'fixed','model':'same','orchestrator_sha256':'old','git_revision':'a'}
+        full.execution_manifest(p,first)
+        original=p.read_bytes()
+        second={**first,'orchestrator_sha256':'new','git_revision':'b'}
+        full.execution_manifest(p,second)
+        self.assertEqual(p.read_bytes(),original)
+        self.assertTrue((self.root/'execution_revisions/new/manifest.json').exists())
+        with self.assertRaisesRegex(ValueError,'semantic'):
+            full.execution_manifest(p,{**second,'code_hash':'changed'})
+        with self.assertRaisesRegex(ValueError,'semantic'):
+            full.execution_manifest(p,{**second,'model':'different'})
+
+    def test_policy_block_is_not_a_retryable_video(self):
+        memory=self.root/'memory/V1';folder=self.root/'videos/V1'
+        write_records(memory/'calls.jsonl',[{'status':'error','http_status':400,
+            'service_error_code':'content_policy_violation','purpose':'perception:V1:W1'}])
+        blocked=full.policy_rejection(folder,memory)
+        self.assertEqual(blocked['purpose'],'perception:V1:W1')
+        self.assertIsNone(full.policy_rejection(self.root/'videos/V2',self.root/'memory/V2'))
+
     def test_full_graph_and_official_judge_both_use_azure(self):
         data=self.root/'data'
         write_json(data/'questions.json',[question('Q1'),question('Q2')])

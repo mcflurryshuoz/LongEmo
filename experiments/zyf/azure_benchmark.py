@@ -147,6 +147,41 @@ def aggregate(out, questions):
     return metrics
 
 
+def execution_manifest(path, config):
+    """Permit scheduler-only revisions while retaining immutable provenance.
+
+    All method/evaluator source, prompts, providers, data and semantic settings
+    must still match. Original manifests are never overwritten. Each actual
+    orchestration source has its own immutable execution-revision manifest.
+    """
+    if path.exists():
+        original = read(path)['configuration']
+        compare = lambda d: {k:v for k,v in d.items() if k not in ('git_revision','orchestrator_sha256')}
+        if compare(original) != compare(config):
+            raise ValueError('semantic experiment configuration changed; use a new run')
+    else:
+        manifest(path,config)
+    revision = path.parent/'execution_revisions'/config['orchestrator_sha256']/'manifest.json'
+    manifest(revision,config)
+
+
+def policy_rejection(folder, memory):
+    """A known service rejection is a recorded missing result, never a retry target."""
+    paths = [memory/'calls.jsonl']
+    paths += list((folder/'plans/calls').glob('*.jsonl'))
+    paths += list((folder/'graph/calls').glob('*.jsonl'))
+    for p in paths:
+        if not p.exists():continue
+        for r in load_records(p):
+            if r.get('service_error_code') in ('content_policy_violation','content_filter'):
+                return {'source':str(p),'purpose':r.get('purpose'),'service_error_code':r['service_error_code']}
+    for p in (folder/'scores').glob('run_*/scores.jsonl'):
+        for r in load_records(p):
+            if r.get('status') != 'ok' and any(code in str(r.get('error','')) for code in ('content_policy_violation','content_filter')):
+                return {'source':str(p),'question_id':r.get('question_id'),'service_error_code':'content_policy_violation'}
+    return None
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--data-root', type=Path, required=True)
@@ -187,7 +222,7 @@ def main(argv=None):
                   'top_k': 12, 'evidence_chars': 48000, 'inspections': 0,
                   'scoring': 'unchanged official episode scorer; earliest successful judgment retained',
                   'pilot_question_ids': data['pilot_question_ids'], 'development_overlap_explicit': True}
-        manifest(out/'experiment_manifest.json', config)
+        execution_manifest(out/'experiment_manifest.json', config)
         memory = out/'memory'
         memory.mkdir(exist_ok=True)
         imports = copy_audio(args.import_audio, memory, vids)
@@ -245,6 +280,9 @@ def main(argv=None):
             qpath = folder/'questions.json'
             write_json(qpath, subset)
             try:
+                rejection = policy_rejection(folder, memory/vid)
+                if rejection:
+                    return {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
                 # Isolate build_results.json per subprocess; actual video checkpoints
                 # live in the common memory directory via a validated directory link.
                 build_root = folder/'build_memory'
@@ -283,7 +321,7 @@ def main(argv=None):
                     try:
                         run(folder, 'score', 'evaluation.eval', ['--data-path', pending_path,
                             '--predictions', prediction_path, '-g', 'episode', '--model', MODEL, '--base-url', BASE_URL,
-                            '--output-dir', scores_dir, '--workers', args.workers, '--tries', '3',
+                            '--output-dir', scores_dir, '--workers', args.workers, '--tries', '1',
                             '--timeout', '180', '--max-tokens', '8192'])
                     finally:
                         scored = successful_scores(scores_dir, subset, predictions)
@@ -295,6 +333,9 @@ def main(argv=None):
             except Blocked as exc:
                 return {'video_id': vid, 'status': 'blocked_api_credits', 'reason': str(exc)}
             except Exception as exc:
+                rejection = policy_rejection(folder, memory/vid)
+                if rejection:
+                    return {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
                 return {'video_id': vid, 'status': 'error', 'reason': str(exc)[:400]}
 
         try:
@@ -318,6 +359,10 @@ def main(argv=None):
             def schedule():
                 while todo and len(active) < args.video_workers:
                     vid = todo.pop(0)
+                    rejection = policy_rejection(out/'videos'/vid, memory/vid)
+                    if rejection:
+                        status['videos'][vid] = {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
+                        continue
                     attempts[vid] += 1
                     active[pool.submit(video_run, vid)] = vid
             schedule()
@@ -333,7 +378,7 @@ def main(argv=None):
                         passed_full_pipeline = True
                     if outcome['status'] == 'blocked_api_credits':
                         stopped = True
-                    elif outcome['status'] != 'complete':
+                    elif outcome['status'] not in ('complete','blocked_input_policy'):
                         if attempts[vid] < args.video_attempts:
                             todo.append(vid)
                         else:
@@ -352,7 +397,8 @@ def main(argv=None):
         complete = metrics['overall_unweighted']['coverage'] == 1
         failures = [r['status'] for r in status['videos'].values() if r['status'] != 'complete']
         status.update(status='complete' if complete and not failures else
-                      ('blocked_api_credits' if 'blocked_api_credits' in failures else 'error'),
+                      ('blocked_api_credits' if 'blocked_api_credits' in failures else
+                       'partial_input_policy' if failures and all(f == 'blocked_input_policy' for f in failures) and not todo else 'error'),
                       n_scored=metrics['overall_unweighted']['n_scored'], updated_unix=time.time())
         write_json(out/'status.json', status)
         return 0 if status['status'] == 'complete' else 3
