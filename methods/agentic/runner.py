@@ -7,6 +7,9 @@ intervals and cannot change those inputs.
 from __future__ import annotations
 
 import argparse
+import hashlib
+import json
+import time
 from pathlib import Path
 
 from evaluation.inference.runner import init_client, model_args, retry
@@ -45,6 +48,8 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--qid", action="append")
     p.add_argument("--limit", type=int)
     p.add_argument("--force", action="store_true")
+    p.add_argument("--tries", type=int, default=3)
+    p.add_argument("--workers", type=int, choices=(1,), default=1, help="This controller currently executes sequentially")
     model_args(p)
     return p
 
@@ -105,9 +110,22 @@ def _run_one(
         {"role": "user", "content": _user_content(question_text, frames, audio)},
     ]
     trace = [{"round": 0, "action": "initial", "sampling": meta}]
+    calls = []
 
     for round_index in range(1, max_rounds + 1):
-        response = retry(lambda: client.generate(messages), tries)
+        def generate():
+            start = time.monotonic()
+            try:
+                response = client.generate(messages)
+            except Exception as exc:
+                calls.append({"round": round_index, "status": "error", "error_type": type(exc).__name__,
+                              "elapsed_seconds": time.monotonic() - start, "usage": None})
+                raise
+            calls.append({"round": round_index, "status": "ok", "elapsed_seconds": time.monotonic() - start,
+                          "usage": response.get("usage")})
+            return response
+
+        response = retry(generate, tries)
         raw = response["content"]
         action = decode_action(raw)
         if action["action"] == "answer":
@@ -117,6 +135,10 @@ def _run_one(
                 "raw_answer": raw,
                 "trace": trace,
                 "usage": response.get("usage"),
+                "calls": calls,
+                "total_tokens_all_calls": sum((c.get("usage") or {}).get("total_tokens",
+                    (c.get("usage") or {}).get("totalTokenCount", 0)) or 0 for c in calls),
+                "missing_usage_calls": sum(c.get("usage") is None for c in calls),
                 "raw_response": response.get("raw_response"),
             }
         if round_index == max_rounds:
@@ -159,6 +181,10 @@ def run(args) -> int:
             "audio input requires a chat-compatible endpoint for this method"
         )
     questions = load_questions(args.data_path, args.granularity, args.qid, limit=args.limit)
+    configuration = {"model": client.configuration(), "with_audio": args.with_audio,
+                     "with_subtitle": args.with_subtitle, "initial_fps": args.initial_fps,
+                     "initial_max_frames": args.initial_max_frames, "initial_max_pixels": args.initial_max_pixels,
+                     "max_rounds": args.max_rounds}
     output = Path(args.output_dir)
     output.mkdir(parents=True, exist_ok=True)
     destination = output / "predictions.jsonl"
@@ -170,26 +196,24 @@ def run(args) -> int:
     results = []
     for q in questions:
         key = question_key(q)
-        if key in old:
-            results.append(old[key])
-            continue
         base = {
             "question_id": q["question_id"],
             "video_id": q["video_id"],
             "granularity": args.granularity,
             "type": q.get("type"),
             "method": "agentic",
-            "configuration": {
-                "with_audio": args.with_audio,
-                "with_subtitle": args.with_subtitle,
-                "initial_fps": args.initial_fps,
-                "initial_max_frames": args.initial_max_frames,
-                "initial_max_pixels": args.initial_max_pixels,
-                "max_rounds": args.max_rounds,
-            },
+            "configuration": configuration,
         }
         try:
             video = _video_for(q, args.videos_dir, args.data_path)
+            signature = {"configuration": configuration, "video_sha256": video["sha256"],
+                         "question": {k: q.get(k) for k in ("question_id", "question", "type", "granularity")},
+                         "subtitle": subtitle_text(q, required=False) if args.with_subtitle else None}
+            base["input_fingerprint"] = hashlib.sha256(json.dumps(signature, sort_keys=True).encode()).hexdigest()
+            previous = old.get(key)
+            if previous and previous.get("status") == "ok" and previous.get("input_fingerprint") == base["input_fingerprint"]:
+                results.append(previous)
+                continue
             result = _run_one(
                 client,
                 q,

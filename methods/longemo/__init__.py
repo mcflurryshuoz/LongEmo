@@ -1,1 +1,1 @@
-"""Long-video method namespace reserved for the LongEmo method."""
+"""Question-independent emotional memory and grounded long-video retrieval."""

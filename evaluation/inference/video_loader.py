@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 import base64
+import hashlib
 import io
 import json
 import math
@@ -24,6 +25,15 @@ VIDEO_TOTAL_PIXELS = 90316800
 _SEEK_BATCH_SIZE = 4
 _EXTRACTION_TIMEOUT = 300
 _AUDIO_SAMPLE_RATE = 16000
+
+
+def file_hash(path):
+    """Stream a stable source checksum without loading the whole video."""
+    digest = hashlib.sha256()
+    with open(path, "rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def _require_tool(name, purpose):
@@ -522,10 +532,15 @@ def sample_video_frames(
                 resized_width -= IMAGE_FACTOR
             else:
                 resized_height -= IMAGE_FACTOR
+    # Leave one nominal frame interval before an arbitrary end so an accurate
+    # seek can still land on an in-window PTS. VFR overshoot is filtered below.
+    final_target = interval_end
+    if end_seconds is not None and interval_end < last:
+        final_target = max(interval_start, interval_end - 1.0 / source_fps)
     targets = (
         [
             interval_start
-            + (interval_end - interval_start) * i / (count - 1)
+            + (final_target - interval_start) * i / (count - 1)
             for i in range(count)
         ]
         if count > 1
@@ -607,10 +622,12 @@ def sample_video_frames(
                     raise ValueError(
                         "ffmpeg produced a frame without a usable timestamp"
                     ) from exc
-                if (
-                    timestamp < interval_start - 0.000001
-                    or timestamp > interval_end + 0.000001
-                ):
+                if timestamp > interval_end + 0.000001:
+                    # An accurate seek returns the first frame at/after the
+                    # target. An arbitrary window end need not be an actual
+                    # frame PTS; do not include or relabel that later frame.
+                    continue
+                if timestamp < interval_start - 0.000001:
                     raise ValueError(
                         "ffmpeg produced a frame outside the requested interval"
                     )
@@ -632,6 +649,8 @@ def sample_video_frames(
                         },
                     },
                 ]
+    if not timestamps:
+        raise ValueError("requested interval contains no sampled video frames")
     # Preserve the legacy full-clip duration/effective-FPS fields for a
     # default call.  Windowed callers get the interval duration while the
     # complete video duration is always available separately.

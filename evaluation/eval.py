@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 import argparse
+import hashlib
 from datetime import datetime
 from pathlib import Path
 
@@ -67,6 +68,8 @@ def run(args):
     questions = load_questions(args.data_path, args.granularity)
     predictions = {}
     for record in load_records(args.predictions):
+        if record["question_id"] in predictions:
+            raise ValueError(f"duplicate prediction: {record['question_id']}")
         value = record.get("prediction")
         if value is None or (isinstance(value, str) and not value.strip()):
             value = record.get("pred_answer")
@@ -97,6 +100,14 @@ def run(args):
         tasks.append((key, base))
 
     out = make_dir(args.output_dir or f"output/{args.granularity}/scores")
+    write_json(out / "evaluation_config.json", {
+        "judge": client.configuration() if client is not None else None,
+        "granularity": args.granularity,
+        "tries": args.tries,
+        "workers": args.workers,
+        "source_hashes": {name: hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest()
+                          for name in ("eval.py", "judge_prompts.py", "metrics.py")},
+    })
     print(f"Evaluation results: {out.resolve()}", flush=True)
 
     def score_answer(task):
