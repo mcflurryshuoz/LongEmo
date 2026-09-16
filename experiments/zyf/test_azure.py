@@ -119,6 +119,12 @@ class AzureTest(unittest.TestCase):
         self.assertIsNone(full.policy_rejection(self.root/'videos/V2',self.root/'memory/V2'))
 
     def test_full_graph_and_official_judge_both_use_azure(self):
+        self._full_run(full.MODEL)
+
+    def test_gemini_changes_only_perception_and_requires_new_run(self):
+        self._full_run(full.GEMINI_PERCEPTION)
+
+    def _full_run(self, perception):
         data=self.root/'data'
         write_json(data/'questions.json',[question('Q1'),question('Q2')])
         write_json(data/'manifest.json',{'question_count':2,'video_count':1,'revision':'fixed','pilot_question_ids':[]})
@@ -127,9 +133,13 @@ class AzureTest(unittest.TestCase):
         commands=[]
         def run(cmd, **kwargs):
             commands.append(cmd)
-            self.assertEqual(cmd[cmd.index('--model')+1],full.MODEL)
-            self.assertEqual(cmd[cmd.index('--base-url')+1],full.BASE_URL)
+            gemini = perception == full.GEMINI_PERCEPTION and cmd[3:5] == ['methods.longemo','build']
+            self.assertEqual(cmd[cmd.index('--model')+1],perception if gemini else full.MODEL)
+            self.assertEqual(cmd[cmd.index('--base-url')+1],full.OPENROUTER_URL if gemini else full.BASE_URL)
             self.assertNotIn('MODEL_API_KEY',kwargs['env'])
+            if gemini:
+                self.assertEqual(full.read(cmd[cmd.index('--config')+1]),{'reasoning':{'effort':'medium'}})
+                self.assertEqual(cmd[cmd.index('--temperature')+1],'1')
             output=Path(cmd[cmd.index('--output-dir')+1])
             if cmd[3]=='methods.longemo' and cmd[4]=='answer':
                 write_records(output/'predictions.jsonl',[{'question_id':q,'video_id':'V1','status':'ok','prediction':'answer'} for q in ('Q1','Q2')])
@@ -139,7 +149,8 @@ class AzureTest(unittest.TestCase):
         def balance(*args, **kwargs):
             return io.BytesIO(b'{"data":{"total_credits":10,"total_usage":0}}')
         args=['--data-root',str(data),'--output-dir',str(self.root/'out'),'--credential-file',str(key),
-            '--embedding-cache-dir',str(self.root/'cache'),'--execute']
+            '--embedding-cache-dir',str(self.root/'cache'),'--perception-model',perception,
+            '--startup-videos','1','--execute']
         with patch.object(full,'code_hash',return_value=full.SOURCE_HASH), patch.object(full,'git_revision',return_value='test'), \
              patch.object(full,'inventory',return_value={'complete':True,'video_count':1,'videos':{'V1':{'duration_seconds':20}}}), \
              patch.object(full,'urlopen',side_effect=balance), patch.object(full.subprocess,'run',side_effect=run), \
@@ -147,6 +158,18 @@ class AzureTest(unittest.TestCase):
             self.assertEqual(full.main(args),0)
         self.assertEqual(len(commands),3)
         self.assertEqual(full.read(self.root/'out'/'metrics.json')['overall_unweighted']['coverage'],1)
+        config=full.read(self.root/'out'/'experiment_manifest.json')['configuration']
+        self.assertEqual(config['model'],full.MODEL)
+        self.assertEqual(config['judge_model'],full.MODEL)
+        self.assertEqual(config['audio_model'],full.AUDIO)
+        if perception == full.GEMINI_PERCEPTION:
+            self.assertEqual(config['perception_model'],perception)
+            incompatible={**config,'perception_model':full.MODEL}
+            with self.assertRaisesRegex(ValueError,'semantic'):
+                full.execution_manifest(self.root/'out'/'experiment_manifest.json',incompatible)
+        else:
+            self.assertNotIn('perception_model',config)
+            self.assertEqual(config['protocol'],'azure-full-episode-graph-v1')
 
 
 if __name__=='__main__':

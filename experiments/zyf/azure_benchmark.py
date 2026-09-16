@@ -26,6 +26,8 @@ MODEL = "gpt-6-astra"
 BASE_URL = "https://yifanyang-foundry-eastus2.cognitiveservices.azure.com/"
 AUDIO = "google/gemini-3.8-flash"
 EMBEDDING = "google/gemini-embedding-2"
+GEMINI_PERCEPTION = "google/gemini-3.8-flash"
+OPENROUTER_URL = "https://openrouter.ai/api/v1"
 SOURCE_HASH = "64183cb9e878459c0606a6e81e2ec07644f8452c08c6c76c3da176a1d3ea2dc4"
 
 
@@ -102,7 +104,7 @@ def inventory(root, questions, output):
 
 
 def copy_audio(source, destination, video_ids):
-    """Reuse only question-free audio caches; perception is rebuilt on Azure.
+    """Reuse only question-free audio caches; perception is rebuilt separately.
 
     Every imported observation is checked against its source audio and model
     fingerprint by bridge_audio before use. Parent experiment files stay intact.
@@ -189,7 +191,11 @@ def main(argv=None):
     p.add_argument('--credential-file', type=Path, required=True)
     p.add_argument('--embedding-cache-dir', type=Path, required=True)
     p.add_argument('--import-audio', type=Path)
+    p.add_argument('--perception-model', choices=(MODEL, GEMINI_PERCEPTION), default=MODEL,
+                   help='Change only video perception; planning, answers and official scoring stay on Azure GPT-6')
     p.add_argument('--video-workers', type=int, default=16)
+    p.add_argument('--startup-videos', type=int,
+                   help='Initial admission count; expand to --video-workers after one video is fully scored')
     p.add_argument('--video-attempts', type=int, default=2)
     p.add_argument('--workers', type=int, default=2)
     p.add_argument('--minimum-credits', type=float, default=0.25,
@@ -198,6 +204,8 @@ def main(argv=None):
     args = p.parse_args(argv)
     if args.video_workers < 1 or args.video_attempts < 1 or args.workers < 1 or args.minimum_credits < 0:
         p.error('workers must be positive and credit floor nonnegative')
+    if args.startup_videos is not None and not 1 <= args.startup_videos <= args.video_workers:
+        p.error('startup-videos must be between 1 and video-workers')
     if code_hash() != SOURCE_HASH:
         raise ValueError('method source changed; create a separately versioned experiment')
     root, out = args.data_root.resolve(), args.output_dir.resolve()
@@ -222,6 +230,10 @@ def main(argv=None):
                   'top_k': 12, 'evidence_chars': 48000, 'inspections': 0,
                   'scoring': 'unchanged official episode scorer; earliest successful judgment retained',
                   'pilot_question_ids': data['pilot_question_ids'], 'development_overlap_explicit': True}
+        if args.perception_model == GEMINI_PERCEPTION:
+            config.update(protocol='gemini-perception-azure-full-episode-graph-v1',
+                perception_model=GEMINI_PERCEPTION, perception_base_url=OPENROUTER_URL,
+                perception_reasoning_effort='medium', perception_temperature=1.0)
         execution_manifest(out/'experiment_manifest.json', config)
         memory = out/'memory'
         memory.mkdir(exist_ok=True)
@@ -245,6 +257,7 @@ def main(argv=None):
         limiter.limits()  # Validate operational settings before starting workers.
         access_token()  # Verify the existing CLI login without printing tokens.
         write_json(out/'launch_settings.json', {'video_workers': args.video_workers,
+            'startup_videos': args.startup_videos or args.video_workers,
             'workers_per_video': args.workers, 'video_attempts': args.video_attempts,
             'azure_limits': limiter.limits(), 'started_unix': time.time(),
             'audio_and_embedding_credit_floor_usd': args.minimum_credits})
@@ -272,6 +285,13 @@ def main(argv=None):
 
         inference = ['--model', MODEL, '--base-url', BASE_URL, '--thinking', 'default', '--timeout', '240', '--tries', '5',
                      '--credential-file', args.credential_file, '--audio-model', AUDIO, '--max-tokens', '8192']
+        perception_inference = list(inference)
+        if args.perception_model == GEMINI_PERCEPTION:
+            perception_inference[perception_inference.index('--model')+1] = GEMINI_PERCEPTION
+            perception_inference[perception_inference.index('--base-url')+1] = OPENROUTER_URL
+            perception_config = out/'perception_request_settings.json'
+            write_json(perception_config, {'reasoning': {'effort': 'medium'}})
+            perception_inference += ['--temperature', '1', '--config', perception_config]
 
         def video_run(vid):
             folder = out/'videos'/vid
@@ -298,7 +318,7 @@ def main(argv=None):
                 run(folder, 'build', 'methods.longemo', ['build', '--data-path', qpath,
                     '--videos-dir', root/'episode/videos', '--subtitles-dir', root/'prepared_subtitles',
                     '--output-dir', build_root, '--window-seconds', '20', '--padding', '2', '--fps', '1',
-                    '--max-frames', '24', '--max-pixels', '200704', '--with-audio', '--workers', '1']+inference)
+                    '--max-frames', '24', '--max-pixels', '200704', '--with-audio', '--workers', '1']+perception_inference)
                 run(folder, 'graph', 'methods.longemo', ['answer', '--data-path', qpath, '--memory-dir', memory,
                     '--output-dir', folder/'graph', '--plans-dir', folder/'plans', '--retrieval', 'graph',
                     '--embedding-model', EMBEDDING, '--embedding-cache-dir', args.embedding_cache_dir,
@@ -356,8 +376,8 @@ def main(argv=None):
         passed_full_pipeline = False
         with ThreadPoolExecutor(max_workers=args.video_workers) as pool:
             active = {}
-            def schedule():
-                while todo and len(active) < args.video_workers:
+            def schedule(limit=None):
+                while todo and len(active) < (limit or args.video_workers):
                     vid = todo.pop(0)
                     rejection = policy_rejection(out/'videos'/vid, memory/vid)
                     if rejection:
@@ -365,7 +385,7 @@ def main(argv=None):
                         continue
                     attempts[vid] += 1
                     active[pool.submit(video_run, vid)] = vid
-            schedule()
+            schedule(args.startup_videos)
             while active:
                 done, _ = wait(active, timeout=20, return_when=FIRST_COMPLETED)
                 for future in done:
