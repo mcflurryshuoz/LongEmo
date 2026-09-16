@@ -6,6 +6,8 @@ LongEmoBench evaluates emotion understanding at two video granularities: **clip*
 
 This repository provides prediction generation and a shared evaluator. Predictions from your own model or agent can be evaluated directly. **Evaluation requires question annotations and predictions; it does not load videos or subtitles.**
 
+The `zyf` branch also implements [LongEmo event memory and hybrid graph retrieval](methods/longemo/README.md), using GPT-6 and Gemini Embedding 2. See the [experiment log](experiments/zyf/README.md) for configurations, validation and current results. Install its lightweight retrieval dependency with `pip install -e '.[longemo]'`.
+
 Use Python 3.10 or later. Clone the repository and run the following commands from its root directory:
 
 ```bash
