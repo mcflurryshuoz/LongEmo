@@ -100,10 +100,13 @@ class LoggedClient:
                 return value
             except Exception as exc:
                 record.update(status="error", error_type=type(exc).__name__, elapsed_seconds=time.monotonic() - started)
+                if getattr(exc, "status_code", None) is not None:
+                    record["http_status"] = exc.status_code
+                    record["service_error_code"] = getattr(exc, "code", None)
                 if isinstance(exc, ValueError):
                     record["validation_error"] = str(exc)[:1000]
                 append_json(self.ledger, record)
-                if attempt == self.tries:
+                if attempt == self.tries or getattr(exc, "retryable", True) is False:
                     raise RuntimeError(f"{purpose}: {type(exc).__name__} after {attempt} attempts") from None
                 if validate and isinstance(exc, ValueError) and response is not None:
                     messages += [{"role": "assistant", "content": response["content"]},

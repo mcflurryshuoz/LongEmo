@@ -19,6 +19,12 @@ from .retrieval import retrieve, validate_plan
 
 
 def client_for(args):
+    from evaluation.azure_transport import is_azure
+    if args.base_url and is_azure(args.base_url):
+        # This route refreshes the existing Azure CLI credential; do not pick
+        # an unrelated Gemini/OpenRouter secret from the shared resource file.
+        args.api_key = ""
+        return init_client(args)
     if args.credential_file:
         config = json.loads(Path(args.credential_file).read_text())
         if (args.model or "").startswith(("openai/", "google/")):

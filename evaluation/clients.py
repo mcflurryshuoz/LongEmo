@@ -57,7 +57,7 @@ class Client:
             )
 
     def configuration(self):
-        return {
+        value = {
             name: getattr(self, name)
             for name in (
                 "model",
@@ -69,6 +69,10 @@ class Client:
                 "timeout",
             )
         }
+        from . import azure_transport
+        if azure_transport.is_azure(self.base_url):
+            value['transport'] = azure_transport.configuration()
+        return value
 
     def payload(self, messages):
         return API_ADAPTERS[self.api_format].build_payload(self, messages)
@@ -78,6 +82,10 @@ class Client:
 
     def generate(self, messages):
         payload = self.payload(messages)
+        from . import azure_transport
+        if azure_transport.is_azure(self.base_url):
+            raw = azure_transport.generate(self, payload)
+            return API_ADAPTERS[self.api_format].parse_response(self, raw)
         data = json.dumps(payload, allow_nan=False).encode()
         body_limit = REQUEST_BODY_LIMITS.get(parse.urlparse(self.base_url).hostname)
         if body_limit is not None and len(data) > body_limit:
