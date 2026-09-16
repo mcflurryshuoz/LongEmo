@@ -1,0 +1,198 @@
+{
+  "snapshot_unix": 1789601280.9099941,
+  "run": "gemini38_perception_gpt6_full_v1",
+  "configuration": {
+    "protocol": "gemini-perception-azure-full-episode-graph-v1",
+    "base_url": "https://yifanyang-foundry-eastus2.cognitiveservices.azure.com/",
+    "azure_transport": {
+      "provider": "azure",
+      "api_version": "2025-01-01-preview",
+      "authentication": "azure_cli",
+      "credential_context": "/home/azureuser/.azure"
+    },
+    "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+    "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+    "question_count": 558,
+    "video_count": 141,
+    "code_hash": "64183cb9e878459c0606a6e81e2ec07644f8452c08c6c76c3da176a1d3ea2dc4",
+    "orchestrator_sha256": "8fca27d11dbc3e9ac71800d6e9b0182682157e3fea1d29bcd06aca766fbd7c2d",
+    "git_revision": "5f6268bda9ad25425166b1eda371cc99edcf49d8",
+    "model": "gpt-6-astra",
+    "judge_model": "gpt-6-astra",
+    "audio_model": "google/gemini-3.8-flash",
+    "embedding_model": "google/gemini-embedding-2",
+    "reasoning_effort": "medium",
+    "window_seconds": 20.0,
+    "padding": 2.0,
+    "fps": 1.0,
+    "max_frames": 24,
+    "max_pixels": 200704,
+    "max_tokens": 8192,
+    "retrieval": "graph",
+    "top_k": 12,
+    "evidence_chars": 48000,
+    "inspections": 0,
+    "scoring": "unchanged official episode scorer; earliest successful judgment retained",
+    "pilot_question_ids": [
+      "G2_Q000041",
+      "G2_Q000042",
+      "G2_Q000271",
+      "G2_Q000272",
+      "G2_Q000465",
+      "G2_Q000466",
+      "G2_Q000467",
+      "G2_Q000468",
+      "G2_Q000469"
+    ],
+    "development_overlap_explicit": true,
+    "perception_model": "google/gemini-3.8-flash",
+    "perception_base_url": "https://openrouter.ai/api/v1",
+    "perception_reasoning_effort": "medium",
+    "perception_temperature": 1.0
+  },
+  "execution_revision": "5f6268bda9ad25425166b1eda371cc99edcf49d8",
+  "supervisor_pid": 1980515,
+  "status": {
+    "status": "running",
+    "updated_unix": 1789601266.1406815,
+    "question_count": 558,
+    "video_count": 141,
+    "available_videos": 141,
+    "initial_available_credits": 15.50430248,
+    "videos": {},
+    "active_videos": [
+      "G2_V000016"
+    ],
+    "queued_videos": 140,
+    "scheduling_paused": false,
+    "n_scored": 0
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 0,
+      "coverage": 0.0,
+      "statuses": {
+        "pending": 558
+      },
+      "normalized_mean": null,
+      "percent_score": null
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 235
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 194
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 129
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 41
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 88
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": null,
+      "unweighted_percent": null,
+      "weighted": null,
+      "weighted_percent": null
+    }
+  },
+  "model_probe": {
+    "requested_model": "google/gemini-3.8-flash",
+    "response_model": "google/gemini-3.8-flash",
+    "provider": "Google",
+    "usage": {
+      "prompt_tokens": 4,
+      "completion_tokens": 55,
+      "total_tokens": 59,
+      "cost": 0.00020925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00020925,
+        "upstream_inference_prompt_cost": 3e-06,
+        "upstream_inference_completions_cost": 0.00020625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 53,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "answer_ok": false,
+    "elapsed_seconds": 1.789416790008545,
+    "source_hash": "64183cb9e878459c0606a6e81e2ec07644f8452c08c6c76c3da176a1d3ea2dc4",
+    "time_unix": 1789600718.0350158
+  },
+  "imported_question_free_audio": 4994,
+  "memory_progress": {
+    "G2_V000016": {
+      "completed_windows": 5,
+      "complete": false,
+      "events": 6
+    }
+  },
+  "perception": {
+    "attempts": 5,
+    "outcomes": {
+      "ok": 5
+    },
+    "response_models": {
+      "google/gemini-3.8-flash": 5
+    },
+    "provider_reported_cost_usd": 0.163383,
+    "returned_total_tokens": 158184
+  },
+  "interpretation": "Early progress only. Initial end-to-end validation has not yet completed. No full score or model-improvement claim."
+}
