@@ -45,6 +45,14 @@ class MediaTests(unittest.TestCase):
 
         self.assertEqual(pcm(part), pcm(full)[12000*2:20000*2])
 
+    def test_last_frame_with_rounded_up_pts(self):
+        video = Path(self.directory.name)/"roundup.mp4"
+        subprocess.run(["ffmpeg","-nostdin","-loglevel","error","-f","lavfi","-i",
+            "color=blue:size=160x120:rate=30000/1001","-frames:v","3","-c:v","libx264",
+            "-threads","1","-pix_fmt","yuv420p",str(video)],check=True,timeout=30)
+        _, meta = sample_video_frames({"path": str(video)},fps=30,max_frames=3,max_pixels=200704)
+        self.assertAlmostEqual(meta["timestamps_seconds"][-1],2*1001/30000,places=6)
+
 
 if __name__ == "__main__":
     unittest.main()

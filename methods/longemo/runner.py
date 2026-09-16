@@ -14,14 +14,19 @@ from .common import LoggedClient, code_hash, file_hash, fingerprint, git_revisio
 from .media import probe, subtitles, window_input
 from .memory import apply_window, empty_memory
 from .prompts import ANSWER, PERCEPTION, PLANNER
+from .audio import audio_client_for, bridge_audio
 from .retrieval import retrieve, validate_plan
 
 
 def client_for(args):
     if args.credential_file:
         config = json.loads(Path(args.credential_file).read_text())
-        args.api_key = args.api_key or config.get("MODEL_API_KEY") or config.get("GEMINI_API_KEY")
-        args.base_url = args.base_url or config.get("MODEL_BASE_URL") or (config["GOOGLE_GEMINI_BASE_URL"].rstrip("/") + "/v1beta")
+        if (args.model or "").startswith(("openai/", "google/")):
+            args.api_key = args.api_key or config.get("OPENROUTER_API_KEY")
+            args.base_url = args.base_url or "https://openrouter.ai/api/v1"
+        else:
+            args.api_key = args.api_key or config.get("MODEL_API_KEY") or config.get("GEMINI_API_KEY")
+            args.base_url = args.base_url or config.get("MODEL_BASE_URL") or (config["GOOGLE_GEMINI_BASE_URL"].rstrip("/") + "/v1beta")
     if not args.model:
         raise ValueError("--model must be explicit")
     return init_client(args)
@@ -40,7 +45,8 @@ def _build_video(video_id, args, client):
     info = probe(video)
     subtitle_path = Path(args.subtitles_dir) / (video_id + ".json") if args.subtitles_dir else None
     rows = subtitles(subtitle_path) if subtitle_path else []
-    config = {"method": "longemo-joint-perception-v1", "video_sha256": video_sha,
+    audio_client = audio_client_for(args)
+    config = {"audio_observer": audio_client.configuration() if audio_client else None, "method": "longemo-joint-perception-v1", "video_sha256": video_sha,
               "subtitles_sha256": file_hash(subtitle_path) if subtitle_path else None,
               "model": client.configuration(), "window_seconds": args.window_seconds, "padding": args.padding,
               "media": _media_options(args), "allow_revisions": args.allow_revisions,
@@ -58,6 +64,10 @@ def _build_video(video_id, args, client):
         core = [i * args.window_seconds, min((i+1) * args.window_seconds, info["duration"])]
         interval = [max(0, core[0]-args.padding), min(info["duration"], core[1]+args.padding)]
         media, metadata = window_input(video, *interval, subtitle_rows=rows, **_media_options(args))
+        if audio_client:
+            media, audio_trace = bridge_audio(media, interval, audio_client, folder/"audio"/(window_id+".json"), args.tries)
+            metadata["audio_representation"] = "derived_timestamped_cues"
+            metadata["audio_observer"] = audio_trace
         context = {"video_id": video_id, "window_id": window_id, "core_interval": core,
                    "media_interval": interval, "corrections_enabled": args.allow_revisions,
                    "cast": memory["entities"], "preceding_events": memory["events"][-3:]}
@@ -121,7 +131,46 @@ def validate_answer(value):
             raise ValueError("invalid inspection interval or question")
 
 
-def _answer_one(q, memory, args, client, output):
+def _direct_one(q, memory, args, client, output):
+    """Direct sampled frames + subtitles + the same audio-only observations.
+
+    Graph events, emotions, planner and retrieved evidence are never read here.
+    """
+    qid = q["question_id"]
+    video = Path(args.videos_dir)/(q["video_id"]+".mp4")
+    rows = subtitles(Path(args.subtitles_dir)/(q["video_id"]+".json")) if args.subtitles_dir else []
+    content, sampling = window_input(video, 0, memory["duration"], subtitle_rows=rows,
+        fps=args.fps, max_frames=args.direct_frames, max_pixels=args.max_pixels, with_audio=False)
+    audio_refs = {}
+    if args.with_audio:
+        observer = audio_client_for(args)
+        if observer is None:
+            raise ValueError("direct shared-audio baseline requires --audio-model")
+        observations = []
+        for window in memory["completed_windows"]:
+            path = Path(args.memory_dir)/q["video_id"]/"audio"/(window+".json")
+            record = json.loads(path.read_text())
+            if record["model"] != observer.configuration():
+                raise ValueError("direct baseline audio observer differs from memory frontend")
+            observations.extend(record["result"]["observations"])
+            audio_refs[window] = file_hash(path)
+        content.append({"type": "text", "text": "Audio-only observations from an independent model; "
+            "overlapping windows may repeat cues. They may contain errors; ground voice identities in frames/dialogue. "
+            + json.dumps(observations, ensure_ascii=False)})
+    from evaluation.inference.prompts import build_messages
+    # The official ordinary inference prompt is reused with question-only fields.
+    public = {k:q[k] for k in ("question_id","video_id","question","granularity","type")}
+    messages = build_messages(public, media_content=content)
+    api = LoggedClient(client, output/"calls"/(qid+".jsonl"), args.tries)
+    prediction = api.call(messages, purpose="direct:"+qid)
+    write_json(output/"traces"/(qid+".json"), {"sampling": sampling,"audio_sources": audio_refs,"usage": usage_summary(api.ledger)})
+    return {"question_id": qid,"video_id":q["video_id"],"status":"ok","prediction":prediction,
+            "method":"direct_shared_audio_frontend","usage":usage_summary(api.ledger)}
+
+
+def _answer_one(q, memory, args, client, output, dense_index=None):
+    if args.retrieval == "direct":
+        return _direct_one(q, memory, args, client, output)
     qid = q["question_id"]
     api = LoggedClient(client, output / "calls" / (qid + ".jsonl"), args.tries)
     # Explicit allowlist: gold and question-specific rubric are never serialized.
@@ -143,7 +192,10 @@ def _answer_one(q, memory, args, client, output):
             write_json(plan_path, {"input_fingerprint": plan_signature, "plan": plan})
     else:
         plan = api.call(planner_messages, purpose=f"plan:{qid}", validate=validate_plan)
-    evidence = retrieve(memory, public["question"], plan, mode=args.retrieval, budget_chars=args.evidence_chars, top_k=args.top_k)
+    retrieval_trace = {}
+    dense_scores = dense_index.rank(public["question"]) if dense_index is not None else None
+    evidence = retrieve(memory, public["question"], plan, mode=args.retrieval, budget_chars=args.evidence_chars,
+                        top_k=args.top_k, dense_scores=dense_scores, trace=retrieval_trace)
     payload = {"question": public["question"], "evidence": evidence,
                "inspection_budget": {"requests_remaining": args.max_inspections, "seconds_remaining": args.inspection_seconds}}
     messages = [{"role": "system", "content": ANSWER}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
@@ -164,6 +216,12 @@ def _answer_one(q, memory, args, client, output):
         video = Path(args.videos_dir) / (q["video_id"] + ".mp4")
         rows = subtitles(Path(args.subtitles_dir) / (q["video_id"] + ".json")) if args.subtitles_dir else []
         content, metadata = window_input(video, start, end, subtitle_rows=rows, **_media_options(args))
+        audio_client = audio_client_for(args)
+        if audio_client:
+            content, audio_trace = bridge_audio(content, [start,end], audio_client,
+                output/"inspection_audio"/(qid+f"-{round_index}.json"), args.tries)
+            metadata["audio_representation"] = "derived_timestamped_cues"
+            metadata["audio_observer"] = audio_trace
         seconds_used += end-start
         inspections.append({"request": item, "media": metadata})
         messages.append({"role": "assistant", "content": json.dumps(result, ensure_ascii=False)})
@@ -172,7 +230,7 @@ def _answer_one(q, memory, args, client, output):
                         "instruction": "Reassess only with evidence; the supplied source is read-only and does not alter the shared memory."}
         messages.append({"role": "user", "content": content + [{"type": "text", "text": json.dumps(instructions)}]})
     valid_ids = {e["id"] for e in memory["events"]} | {o["id"] for o in memory["observations"]}
-    trace = {"question": public, "plan": plan, "retrieval": evidence, "inspection_trace": inspections,
+    trace = {"question": public, "plan": plan, "retrieval": evidence, "recall_trace": retrieval_trace, "inspection_trace": inspections,
              "answer": result, "invalid_evidence_ids": [i for i in result["evidence_ids"] if i not in valid_ids],
              "evidence_characters": len(json.dumps(evidence, ensure_ascii=False)), "usage": usage_summary(api.ledger)}
     write_json(output / "traces" / (qid + ".json"), trace)
@@ -193,14 +251,29 @@ def answer(args):
         memory = json.loads(path.read_text())
         if not memory.get("complete"):
             raise ValueError(f"incomplete memory for {video_id}; complete perception before answering")
-        if args.max_inspections:
+        if args.max_inspections or args.retrieval == "direct":
             if not args.videos_dir or file_hash(Path(args.videos_dir)/(video_id+".mp4")) != memory["video_sha256"]:
                 raise ValueError("inspection video does not match memory source")
         memories[video_id], hashes[video_id] = memory, file_hash(path)
-    configuration = {"model": client.configuration(), "question_inputs": [
+    indexes = {}
+    encoder = None
+    if args.retrieval == "graph":
+        from .embeddings import Encoder, APIEncoder, EventIndex
+        if args.embedding_backend == "gemini":
+            import os
+            credentials = json.loads(Path(args.credential_file).read_text()) if args.credential_file else {}
+            encoder = APIEncoder(credentials.get("OPENROUTER_API_KEY") or os.getenv("OPENROUTER_API_KEY"),
+                                 Path(args.embedding_cache_dir)/"api", model=args.embedding_model)
+        else:
+            encoder = Encoder(model=args.embedding_model, revision=args.embedding_revision)
+        for video_id, memory in memories.items():
+            indexes[video_id] = EventIndex(memory, encoder, args.embedding_cache_dir)
+        write_json(output/"embedding_indexes.json", {v:i.metadata for v,i in indexes.items()})
+    configuration = {"embedding": encoder.config if encoder else None, "model": client.configuration(), "question_inputs": [
         {k: q[k] for k in ("question_id", "video_id", "question", "type")} for q in questions],
         "memories": hashes, "retrieval": args.retrieval, "evidence_chars": args.evidence_chars,
         "top_k": args.top_k, "max_inspections": args.max_inspections, "inspection_seconds": args.inspection_seconds,
+        "direct_frames": args.direct_frames, "audio_model": args.audio_model,
         "inspection_media": _media_options(args), "inspection_subtitle_hashes": {
             v: file_hash(Path(args.subtitles_dir)/(v+".json")) for v in memories} if args.subtitles_dir else {},
         "code_hash": code_hash(), "git_revision": git_revision()}
@@ -212,7 +285,7 @@ def answer(args):
         raise ValueError("duplicate IDs in existing prediction file")
     records = {r["question_id"]: r for r in old if r.get("status") == "ok"}
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(_answer_one, q, memories[q["video_id"]], args, client, output): q
+        futures = {pool.submit(_answer_one, q, memories[q["video_id"]], args, client, output, indexes.get(q["video_id"])): q
                    for q in questions if q["question_id"] not in records}
         for future in as_completed(futures):
             q = futures[future]
@@ -242,6 +315,7 @@ def parser():
         command.add_argument("--output-dir", required=True)
         command.add_argument("--credential-file", help="Private JSON outside the repository; never included in manifests")
         command.add_argument("--with-audio", action="store_true")
+        command.add_argument("--audio-model", help="Audio observer required when GPT-6 receives audio")
         command.add_argument("--fps", type=float, default=1)
         command.add_argument("--max-frames", type=int, default=24)
         command.add_argument("--max-pixels", type=int, default=200704)
@@ -256,7 +330,12 @@ def parser():
         else:
             command.add_argument("--memory-dir", required=True)
             command.add_argument("--plans-dir", help="Optional shared frozen plans for fair retrieval comparisons")
-            command.add_argument("--retrieval", choices=("graph", "flat"), default="graph")
+            command.add_argument("--retrieval", choices=("graph", "flat", "direct"), default="graph")
+            command.add_argument("--direct-frames", type=int, default=128)
+            command.add_argument("--embedding-backend", choices=("gemini", "local"), default="gemini")
+            command.add_argument("--embedding-model", default="google/gemini-embedding-2")
+            command.add_argument("--embedding-revision", default="d128750597153bb5987e10b1c3493a34e5a4502a")
+            command.add_argument("--embedding-cache-dir", default=".cache/longemo-embeddings")
             command.add_argument("--evidence-chars", type=int, default=48000)
             command.add_argument("--top-k", type=int, default=12)
             command.add_argument("--max-inspections", type=int, default=0)

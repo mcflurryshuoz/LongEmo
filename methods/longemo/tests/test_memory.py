@@ -99,7 +99,7 @@ class MemoryTests(unittest.TestCase):
         before = copy.deepcopy(memory)
         plan = {"mode": "trajectory", "entity_terms": ["woman"], "target_terms": ["news"], "query_terms": [], "time_range": None}
         for mode in ("flat", "graph"):
-            result = retrieve(memory, "How does she feel?", plan, mode=mode, budget_chars=2000)
+            result = retrieve(memory, "How does she feel?", plan, mode=mode, budget_chars=2000, dense_scores={"E1": .9})
             self.assertLessEqual(len(json.dumps(result, ensure_ascii=False)), 2000)
             self.assertEqual(result["coverage"]["candidate_events"], 1)
         self.assertEqual(memory, before)
@@ -128,7 +128,8 @@ class IntegrationTests(unittest.TestCase):
         args = type("Args", (), {"tries": 1, "retrieval": "graph", "evidence_chars": 48000, "top_k": 12,
                                "max_inspections": 0, "inspection_seconds": 120})()
         with tempfile.TemporaryDirectory() as directory:
-            result = _answer_one(q, memory, args, Client(), Path(directory))
+            index = type("Index", (), {"rank": lambda self,q: {"E1": .9}})()
+            result = _answer_one(q, memory, args, Client(), Path(directory), index)
         self.assertEqual(result["status"], "ok")
         self.assertEqual(result["usage"]["total_tokens"], 20)
         self.assertEqual(memory, previous)

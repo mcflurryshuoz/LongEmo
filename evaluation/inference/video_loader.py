@@ -563,7 +563,7 @@ def sample_video_frames(
                 # Seek inside declared duration even if reordered final PTS
                 # extends beyond it; select then advances to the real target.
                 safe_target = target
-                if target > max(0.0, stream_duration - 1.0 / source_fps):
+                if target >= last - 1.0 / source_fps or target > max(0.0, stream_duration - 1.0 / source_fps):
                     safe_target = min(
                         target,
                         max(0.0, stream_duration - max(3.0, 8.0 / source_fps)),
@@ -572,8 +572,11 @@ def sample_video_frames(
                 command += ["-threads", "1", "-ss", f"{seek:.6f}", "-i", str(path)]
             for index in range(len(batch)):
                 target_pts = (
-                    start + math.floor(batch[index] * 1_000_000) / 1_000_000
+                    start + math.floor(batch[index] * 1_000_000) / 1_000_000 - 0.000001
                 )
+                # ffprobe rounds PTS to six decimal places. Its last timestamp
+                # can be up to half a microsecond beyond the real final PTS;
+                # include that frame instead of filtering past EOF.
                 command += [
                     "-map",
                     f"{index}:v:0",

@@ -1,4 +1,4 @@
-"""Reproducible pilot: shared memory, flat/graph retrieval, and official scoring."""
+"""Reproducible pilot: shared memory, hybrid event-graph retrieval, and official scoring."""
 from __future__ import annotations
 
 import argparse
@@ -21,6 +21,10 @@ def main():
     p.add_argument("--credential-file", required=True)
     p.add_argument("--model", required=True)
     p.add_argument("--judge-model", required=True)
+    p.add_argument("--audio-model", default="google/gemini-3.8-flash")
+    p.add_argument("--embedding-model", default="google/gemini-embedding-2")
+    p.add_argument("--embedding-cache-dir", required=True)
+    p.add_argument("--memory-dir", help="Reuse complete, frozen memory; no perception calls")
     p.add_argument("--window-seconds", type=float, default=20)
     p.add_argument("--build-workers", type=int, default=3)
     p.add_argument("--workers", type=int, default=2)
@@ -35,11 +39,13 @@ def main():
     subtitle_dir = root / "prepared_subtitles"
     credentials = json.loads(Path(args.credential_file).read_text())
     env = os.environ.copy()
-    env.update(MODEL_API_KEY=credentials["GEMINI_API_KEY"],
-               MODEL_BASE_URL=credentials["GOOGLE_GEMINI_BASE_URL"].rstrip("/") + "/v1beta")
+    env.update(MODEL_API_KEY=credentials["OPENROUTER_API_KEY"],
+               OPENROUTER_API_KEY=credentials["OPENROUTER_API_KEY"], MODEL_BASE_URL="https://openrouter.ai/api/v1")
     manifest(out / "experiment_manifest.json", {"data_revision": json.loads((root/"manifest.json").read_text())["revision"],
         "questions_sha256": file_hash(questions), "code_hash": code_hash(), "model": args.model,
         "judge_model": args.judge_model, "window_seconds": args.window_seconds,
+        "audio_model": args.audio_model, "embedding_model": args.embedding_model,
+        "memory_dir": args.memory_dir, "reasoning_effort": "medium",
         "direct_baseline": args.direct_baseline, "with_inspection": args.with_inspection,
         "input_modalities": ["video", "audio", "subtitle"]})
     status = {"started_unix": time.time(), "stages": []}
@@ -57,33 +63,27 @@ def main():
         if result.returncode:
             raise RuntimeError(f"{name} failed; inspect {out / (name+'.log')}; rerun safely after resolving errors")
 
-    inference = ["--model", args.model, "--thinking", "off", "--timeout", "180", "--tries", "3"]
-    memory_dir = out / "memory"
-    run("build", "methods.longemo", ["build", "--data-path", questions, "--videos-dir", videos,
-        "--subtitles-dir", subtitle_dir, "--output-dir", memory_dir, "--with-audio",
-        "--window-seconds", args.window_seconds, "--padding", "2", "--fps", "1", "--max-frames", "24",
-        "--max-pixels", "200704", "--max-tokens", "8192", "--workers", args.build_workers] + inference)
-    methods = ["flat", "graph"]
+    inference = ["--model", args.model, "--thinking", "default", "--timeout", "240", "--tries", "5",
+                 "--credential-file", args.credential_file, "--audio-model", args.audio_model]
+    memory_dir = Path(args.memory_dir).resolve() if args.memory_dir else out / "memory"
+    if not args.memory_dir:
+        run("build", "methods.longemo", ["build", "--data-path", questions, "--videos-dir", videos,
+            "--subtitles-dir", subtitle_dir, "--output-dir", memory_dir, "--with-audio",
+            "--window-seconds", args.window_seconds, "--padding", "2", "--fps", "1", "--max-frames", "24",
+            "--max-pixels", "200704", "--max-tokens", "8192", "--workers", args.build_workers] + inference)
+    methods = ["graph"]
     if args.with_inspection:
         methods.append("graph_inspect")
+    if args.direct_baseline:
+        methods.append("direct")
     for method in methods:
         run(method, "methods.longemo", ["answer", "--data-path", questions, "--memory-dir", memory_dir,
-            "--plans-dir", out/"shared_plans",
-            "--output-dir", out/method, "--retrieval", "flat" if method == "flat" else "graph",
+            "--plans-dir", out/"shared_plans", "--output-dir", out/method,
+            "--retrieval", "direct" if method == "direct" else "graph",
+            "--embedding-model", args.embedding_model, "--embedding-cache-dir", args.embedding_cache_dir,
             "--videos-dir", videos, "--subtitles-dir", subtitle_dir, "--with-audio",
             "--max-inspections", 1 if method == "graph_inspect" else 0, "--inspection-seconds", "60",
-            "--workers", args.workers, "--max-tokens", "4096"] + inference)
-    if args.direct_baseline:
-        # Compatibility adapter for the existing CLI's fixed subtitle location.
-        destination = Path(__file__).resolve().parents[2] / "subtitles"
-        if not destination.exists():
-            destination.symlink_to(subtitle_dir, target_is_directory=True)
-        elif destination.resolve() != subtitle_dir:
-            raise ValueError("existing root subtitles directory differs from this frozen input")
-        run("direct", "evaluation.inference.run", ["--data-path", questions, "-g", "episode", "--videos-dir", videos,
-            "--output-dir", out/"direct", "--with-audio", "--with-subtitle", "--max-frames", "128",
-            "--frame-max-pixels", "200704", "--fps", "1", "--workers", args.workers, "--max-tokens", "4096"] + inference)
-        methods.append("direct")
+            "--workers", args.workers, "--max-tokens", "8192"] + inference)
     scores = {}
     for method in methods:
         predictions = out/method/"predictions.jsonl"
@@ -100,7 +100,7 @@ def main():
         if not complete:
             run("score_" + method, "evaluation.eval", ["--data-path", questions, "--predictions", predictions,
                 "-g", "episode", "--model", args.judge_model, "--output-dir", score_dir,
-                "--workers", args.workers, "--tries", "3", "--timeout", "180", "--max-tokens", "4096"])
+                "--workers", args.workers, "--tries", "3", "--timeout", "180", "--max-tokens", "8192"])
             complete = sorted(score_dir.glob("run_*/metrics.json"))
         metrics_path = complete[-1]
         scores[method] = json.loads(metrics_path.read_text())
@@ -111,8 +111,8 @@ def main():
     for method, result in scores.items():
         overall = result["overall_unweighted"]
         lines.append(f"| {method} | {overall['n_scored']}/{overall['n_total']} | {overall['percent_score']:.2f} |")
-    lines += ["", "Flat and graph share the same audiovisual perception outputs. Their evidence character cap is the same; actual context sizes differ.",
-              "Direct uses 128 uniformly sampled frames per question plus the original audio and subtitles; this is a system baseline, not a matched-media-budget ablation.",
+    lines += ["", "The main method fuses structured semantic and Gemini Embedding 2 event recall, expands the event graph and preserves temporal coverage.",
+              "Direct uses 128 uniformly sampled frames plus subtitles and the identical independent audio-only observations. It never receives graph events/states. This is a system baseline, not a matched visual sampling ablation.",
               "The judge and score formulas are shared. Per-video construction costs and per-question call ledgers are retained."]
     (out/"comparison.md").write_text("\n".join(lines)+"\n")
     status.update(status="complete", ended_unix=time.time())

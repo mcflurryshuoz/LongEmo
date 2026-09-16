@@ -10,6 +10,21 @@ def configure_model(args, config):
     """Apply supported model presets after the service format is selected."""
     family = args.model_family
     model = (args.model or "").lower().rsplit("/", 1)[-1]
+    if model.startswith("gpt-6"):
+        args.temperature = None
+        for key in ("temperature", "top_p", "top_logprobs", "logprobs"):
+            if key in config:
+                raise ValueError(f"GPT-6 does not support {key}")
+        if args.thinking == "off":
+            raise ValueError("GPT-6 requires reasoning; use --thinking default")
+        effort = "high" if args.thinking == "on" else "medium"
+        if args.api_format == "responses":
+            config.setdefault("reasoning", {"effort": effort})
+        elif urlparse(args.base_url).hostname == "openrouter.ai":
+            config.setdefault("reasoning", {"effort": effort})
+        else:
+            config.setdefault("reasoning_effort", effort)
+        args.thinking = "default"
     if family == "gemini":
         _gemini(args, config, model)
     elif family in {"qwen_vl", "qwen_omni"}:

@@ -38,3 +38,21 @@ Date: 2026-09-16. Host: `g450` (`t2vg-a100-G4-50`). Original repository base: `b
 Record code commit and source hashes, exact HF revision and question IDs, provider/model configurations, actual media budgets, all attempt/token ledgers, inference/score coverage and the unchanged official rubric-based metrics. Judge failures must be repaired before complete comparisons. Construction, indexing, question planning and answering costs are reported separately, with consistent amortization.
 
 Every run directory retains its own manifests and logs. Changes to model, prompts, retrieval or graph content require a new run or explicitly versioned stage; no mixing cached predictions from different configurations. Nine development questions cannot establish statistical superiority or a full LongEmoBench result.
+
+## E02 outcome and model upgrade
+
+- First implementation commit `1c87407` was pushed to `origin/zyf`. Frozen source hash `01f6d4c952008d7109688cd66b1a5f6fa230676b1b758f80d614af27aedf619d` matches that code. Jobs started with uncommitted implementation on base `b29b70a`; their original manifests truthfully retain that base revision.
+- E02 perception completed V16 (19/19 windows, 44 events), stopped V76 at 41/66 and V119 at 15/64 after exhausted JSON validation repairs. Original evidence/cost ledgers remain preserved; no incomplete memory is used for scoring.
+- Original direct inference completed 4/9 predictions. V119 failed at the final frame. Cause: ffprobe's six-decimal PTS rounding could place the final select threshold just past the actual last frame. Fixed using a one-microsecond selection tolerance and a safe tail seek, with a real fractional-FPS regression test.
+- E02 is retired following the user's explicit upgrade to GPT-6 and an API embedding model. It is not presented as a GPT-6 run or a scored comparison.
+
+## E03: GPT-6 + Gemini Embedding 2
+
+- User requested GPT-6 inference and Gemini 3.5 or a stronger embedding model. Official Google documentation identifies the dedicated embedding model as `gemini-embedding-2`; Gemini 3.5 Flash is a generative model, not an embedding endpoint.
+- Existing authorized OpenRouter resource successfully tested: `openai/gpt-6-astra` returned OK (17 tokens, provider-reported USD 0.00037); `google/gemini-embedding-2` returned two 3072-dimensional vectors (27 tokens, USD 0.0000054). Successful connectivity is not an accuracy evaluation.
+- Primary retrieval is structured semantic + dense event recall, RRF fusion, event-graph expansion and temporal coverage. No flat-retrieval experiment is queued. Per-route traces, cached vectors and all returned usage/cost records are retained.
+- GPT-6 uses medium reasoning, no temperature/top-p. Since it has no audio input, independent question-free Gemini 3.8 Flash audio observations feed GPT-6 alongside frames and subtitles. Graph and direct baseline share the same audio observations. Raw audio is never silently dropped.
+- E5 CPU smoke test succeeded but is retained only as an explicit optional diagnostic; it is not the primary embedding model.
+- E03 uses a new graph from scratch, distinct from the retired Flash graph. Main graph and direct baseline share GPT-6 and the frozen input videos/questions. Optional one-inspection graph variant is recorded separately. All scores use the unchanged official evaluator and the same explicit GPT-6 judge.
+- Eighteen targeted tests passed on g450, including real codecs, dual-route fusion, embedding cache invalidation, no fallback, GPT-6 payload constraints and audio bridge isolation. A broad compileall over vendored emollm encounters upstream Python 2 code; vendored code is not modified and is outside this method's runtime.
+- E03 runtime directory: `/mnt/data1/zyf/LongEmo-runtime/runs/gpt6_hybrid_v1`. Status/results to be appended after the run; no improvement claim yet.

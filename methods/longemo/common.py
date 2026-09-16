@@ -51,8 +51,14 @@ def manifest(path, configuration):
     """Refuse stale cache reuse instead of silently mixing configurations."""
     path = Path(path)
     value = {"fingerprint": fingerprint(configuration), "configuration": configuration}
-    if path.exists() and json.loads(path.read_text())["fingerprint"] != value["fingerprint"]:
-        raise ValueError(f"configuration changed; use a new output directory: {path.parent}")
+    if path.exists():
+        old = json.loads(path.read_text())
+        # A documentation-only commit changes HEAD but not the hashed source.
+        # Preserve the original manifest and provenance for an identical run.
+        comparable = lambda c: {k:v for k,v in c.items() if k != "git_revision"}
+        if comparable(old["configuration"]) != comparable(configuration):
+            raise ValueError(f"configuration changed; use a new output directory: {path.parent}")
+        return old["fingerprint"]
     write_json(path, value)
     return value["fingerprint"]
 
@@ -74,13 +80,15 @@ class LoggedClient:
         messages = list(messages)
         request_id = fingerprint(messages)
         for attempt in range(1, self.tries + 1):
+            response = None
             started = time.monotonic()
             record = {"purpose": purpose, "request_hash": request_id, "attempt": attempt,
                       "model": self.client.model, "time_unix": time.time()}
             try:
                 response = self.client.generate(messages)
                 record["usage"] = token_usage(response.get("usage"))
-                record["response_model"] = (response.get("raw_response") or {}).get("modelVersion")
+                raw = response.get("raw_response") or {}
+                record["response_model"] = raw.get("modelVersion", raw.get("model"))
                 text = response["content"]
                 value = json_object(text) if validate else text.strip()
                 if validate:
@@ -92,10 +100,12 @@ class LoggedClient:
                 return value
             except Exception as exc:
                 record.update(status="error", error_type=type(exc).__name__, elapsed_seconds=time.monotonic() - started)
+                if isinstance(exc, ValueError):
+                    record["validation_error"] = str(exc)[:1000]
                 append_json(self.ledger, record)
                 if attempt == self.tries:
                     raise RuntimeError(f"{purpose}: {type(exc).__name__} after {attempt} attempts") from None
-                if validate and isinstance(exc, ValueError) and 'response' in locals():
+                if validate and isinstance(exc, ValueError) and response is not None:
                     messages += [{"role": "assistant", "content": response["content"]},
                                  {"role": "user", "content": "Repair the JSON to satisfy the schema. Validation error: " + str(exc)}]
                 time.sleep(min(2 ** (attempt - 1), 4))
@@ -108,4 +118,7 @@ def usage_summary(path):
               "elapsed_api_seconds": sum(r["elapsed_seconds"] for r in rows)}
     for key in ("prompt_tokens", "completion_tokens", "total_tokens", "thought_tokens"):
         result[key] = sum(r.get("usage", {}).get(key) or 0 for r in rows)
+    costs = [r.get("usage", {}).get("raw", {}).get("cost") for r in rows]
+    result["provider_reported_cost_usd"] = sum(x for x in costs if isinstance(x, (int, float)))
+    result["missing_cost_attempts"] = sum(x is None for x in costs)
     return result
