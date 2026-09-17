@@ -10,8 +10,6 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 本分支在原有 benchmark 和评测器上实现了**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法分两步：先对视频构建与问题无关、可复用的事件图谱，再针对每道题检索相关事件及其关系，交给 GPT-6 作答。图谱使用带校验的 JSON 检查点和派生向量索引，无需部署图数据库或训练本地模型。
 
-**当前状态（2026-09-17）：实验已按用户要求暂停。** 最新 E09 v2 配置使用原生 Gemini 感知、Gemini Embedding 2 检索、Azure GPT-6 答题和评分；原生 Embedding 服务尚未成功返回向量，因此该轮只完成了部分构图，尚无答题成绩。以下区分方法实现、当前配置和已有实验结果。
-
 ```mermaid
 flowchart TD
     V[视频、音轨、带时间戳字幕] --> W[20 秒窗口 + 两侧 2 秒上下文]
