@@ -124,45 +124,96 @@ class AzureTest(unittest.TestCase):
     def test_gemini_changes_only_perception_and_requires_new_run(self):
         self._full_run(full.GEMINI_PERCEPTION)
 
-    def _full_run(self, perception):
+    def test_native_frontend_and_embeddings_never_use_openrouter(self):
+        self._full_run(full.NATIVE_GEMINI)
+
+    def test_native_memory_continues_when_embedding_is_not_enabled(self):
+        self._full_run(full.NATIVE_GEMINI, defer=True)
+
+    def test_native_deferred_queue_retries_startup_then_builds_remaining_videos(self):
+        data=self.root/'data'
+        questions=[{**question('Q'+str(i)), 'video_id':'V'+str(i)} for i in range(1,4)]
+        write_json(data/'questions.json',questions)
+        write_json(data/'manifest.json',{'question_count':3,'video_count':3,'revision':'fixed','pilot_question_ids':[]})
+        key=self.root/'private.json'
+        # Native execution must not even require an OpenRouter credential.
+        write_json(key,{'GEMINI_API_KEY':'native-test-placeholder'})
+        attempts=[]
+        def run(cmd, **kwargs):
+            self.assertEqual(cmd[3:5],['methods.longemo','build'])
+            self.assertNotIn('OPENROUTER_API_KEY',kwargs['env'])
+            vid=full.read(cmd[cmd.index('--data-path')+1])[0]['video_id']
+            attempts.append(vid)
+            return SimpleNamespace(returncode=1 if len(attempts)==1 else 0)
+        inv={'complete':True,'video_count':3,'videos':{'V'+str(i):{'duration_seconds':20*i} for i in range(1,4)}}
+        args=['--data-root',str(data),'--output-dir',str(self.root/'out'),'--credential-file',str(key),
+            '--embedding-cache-dir',str(self.root/'cache'),'--perception-model',full.NATIVE_GEMINI,
+            '--startup-videos','1','--video-workers','2','--defer-answers','--execute']
+        with patch.object(full,'code_hash',return_value=full.SOURCE_HASH), patch.object(full,'git_revision',return_value='test'), \
+             patch.object(full,'inventory',return_value=inv), patch.object(full.subprocess,'run',side_effect=run), \
+             patch.object(full,'urlopen',side_effect=AssertionError('unexpected OpenRouter call')), \
+             patch.object(az,'access_token',return_value='secret'), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(full.main(args),3)
+        self.assertEqual(attempts[:2],['V1','V1'])
+        self.assertCountEqual(attempts[2:],['V2','V3'])
+        status=full.read(self.root/'out/status.json')
+        self.assertEqual(status['status'],'partial_embedding_service')
+        self.assertEqual(status['queued_videos'],0)
+        self.assertEqual(len(status['videos']),3)
+        self.assertEqual(status['n_scored'],0)
+
+    def _full_run(self, perception, defer=False):
         data=self.root/'data'
         write_json(data/'questions.json',[question('Q1'),question('Q2')])
         write_json(data/'manifest.json',{'question_count':2,'video_count':1,'revision':'fixed','pilot_question_ids':[]})
         key=self.root/'private.json'
-        write_json(key,{'OPENROUTER_API_KEY':'unit-test-placeholder'})
+        write_json(key,{'OPENROUTER_API_KEY':'unit-test-placeholder','GEMINI_API_KEY':'native-test-placeholder'})
         commands=[]
         def run(cmd, **kwargs):
             commands.append(cmd)
-            gemini = perception == full.GEMINI_PERCEPTION and cmd[3:5] == ['methods.longemo','build']
+            native = perception == full.NATIVE_GEMINI
+            gemini = perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI) and cmd[3:5] == ['methods.longemo','build']
             self.assertEqual(cmd[cmd.index('--model')+1],perception if gemini else full.MODEL)
-            self.assertEqual(cmd[cmd.index('--base-url')+1],full.OPENROUTER_URL if gemini else full.BASE_URL)
+            self.assertEqual(cmd[cmd.index('--base-url')+1],(full.BLACKAI_URL if native else full.OPENROUTER_URL) if gemini else full.BASE_URL)
             self.assertNotIn('MODEL_API_KEY',kwargs['env'])
             if gemini:
-                self.assertEqual(full.read(cmd[cmd.index('--config')+1]),{'reasoning':{'effort':'medium'}})
+                settings = {'generationConfig':{'thinkingConfig':{'thinkingLevel':'medium'}}} if native else {'reasoning':{'effort':'medium'}}
+                self.assertEqual(full.read(cmd[cmd.index('--config')+1]),settings)
                 self.assertEqual(cmd[cmd.index('--temperature')+1],'1')
             output=Path(cmd[cmd.index('--output-dir')+1])
             if cmd[3]=='methods.longemo' and cmd[4]=='answer':
+                if native:
+                    self.assertEqual(cmd[cmd.index('--embedding-backend')+1],'gemini-native')
+                    self.assertEqual(cmd[cmd.index('--embedding-model')+1],full.NATIVE_EMBEDDING)
+                    self.assertEqual(cmd[cmd.index('--embedding-base-url')+1],full.BLACKAI_URL)
+                    self.assertEqual(cmd[cmd.index('--audio-base-url')+1],full.BLACKAI_URL)
                 write_records(output/'predictions.jsonl',[{'question_id':q,'video_id':'V1','status':'ok','prediction':'answer'} for q in ('Q1','Q2')])
             if cmd[3]=='evaluation.eval':
                 write_records(output/'run_1'/'scores.jsonl',[score('Q1',0),score('Q2',4)])
             return SimpleNamespace(returncode=0)
         def balance(*args, **kwargs):
+            if perception == full.NATIVE_GEMINI:
+                raise AssertionError('native Gemini experiment must not call OpenRouter')
             return io.BytesIO(b'{"data":{"total_credits":10,"total_usage":0}}')
         args=['--data-root',str(data),'--output-dir',str(self.root/'out'),'--credential-file',str(key),
             '--embedding-cache-dir',str(self.root/'cache'),'--perception-model',perception,
             '--startup-videos','1','--execute']
+        if defer:
+            args += ['--defer-answers']
         with patch.object(full,'code_hash',return_value=full.SOURCE_HASH), patch.object(full,'git_revision',return_value='test'), \
              patch.object(full,'inventory',return_value={'complete':True,'video_count':1,'videos':{'V1':{'duration_seconds':20}}}), \
              patch.object(full,'urlopen',side_effect=balance), patch.object(full.subprocess,'run',side_effect=run), \
              patch.object(az,'access_token',return_value='secret'), contextlib.redirect_stdout(io.StringIO()):
-            self.assertEqual(full.main(args),0)
-        self.assertEqual(len(commands),3)
-        self.assertEqual(full.read(self.root/'out'/'metrics.json')['overall_unweighted']['coverage'],1)
+            self.assertEqual(full.main(args),3 if defer else 0)
+        self.assertEqual(len(commands),1 if defer else 3)
+        self.assertEqual(full.read(self.root/'out'/'metrics.json')['overall_unweighted']['coverage'],0 if defer else 1)
+        if defer:
+            self.assertEqual(full.read(self.root/'out/status.json')['status'],'partial_embedding_service')
         config=full.read(self.root/'out'/'experiment_manifest.json')['configuration']
         self.assertEqual(config['model'],full.MODEL)
         self.assertEqual(config['judge_model'],full.MODEL)
-        self.assertEqual(config['audio_model'],full.AUDIO)
-        if perception == full.GEMINI_PERCEPTION:
+        self.assertEqual(config['audio_model'],full.NATIVE_GEMINI if perception == full.NATIVE_GEMINI else full.AUDIO)
+        if perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI):
             self.assertEqual(config['perception_model'],perception)
             incompatible={**config,'perception_model':full.MODEL}
             with self.assertRaisesRegex(ValueError,'semantic'):

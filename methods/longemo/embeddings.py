@@ -62,24 +62,30 @@ class Encoder:
 
 
 class APIEncoder:
-    """Gemini Embedding 2 through the OpenRouter embedding endpoint."""
+    """Gemini Embedding 2 with separate caches for native and compatible APIs."""
     def __init__(self, api_key, directory, *, model="google/gemini-embedding-2",
-                 base_url="https://openrouter.ai/api/v1", dimension=3072, tries=3):
+                 base_url="https://openrouter.ai/api/v1", dimension=3072, tries=3, api_format="openai"):
         from urllib.parse import urlparse
         parsed = urlparse(base_url)
         if parsed.scheme != "https" or not parsed.hostname or parsed.query or parsed.username:
             raise ValueError("embedding endpoint must be HTTPS without inline credentials")
-        if model != "google/gemini-embedding-2":
+        if api_format not in ('openai','gemini'):
+            raise ValueError('unsupported embedding API format')
+        if model != ('gemini-embedding-2' if api_format == 'gemini' else 'google/gemini-embedding-2'):
             raise ValueError("API task prefixes are implemented for Gemini Embedding 2 only")
+        if api_format == 'gemini' and not base_url.rstrip('/').endswith('/v1beta'):
+            raise ValueError('native embeddings require a /v1beta base URL')
         if not api_key:
             raise ValueError("embedding API key is missing")
-        self.key, self.tries = api_key, tries
+        self.key, self.tries, self.api_format = api_key, tries, api_format
         self.directory = Path(directory)
         self.directory.mkdir(parents=True, exist_ok=True)
         self.config = {"model": model, "base_url": base_url.rstrip("/"), "dimension": dimension,
             "normalized": True, "dtype": "float32", "chunk_characters": 6000, "chunk_stride": 5400,
             "query_task": "search result", "document_title": "Emotional event",
             "revision": "provider-stable-alias; snapshot not exposed"}
+        if api_format == 'gemini':
+            self.config['api_format'] = 'gemini-batchEmbedContents'
 
     def chunks(self, text):
         return [text[i:i+6000] for i in range(0, len(text), 5400)] or [""]
@@ -100,23 +106,33 @@ class APIEncoder:
             if path.exists():
                 values = json.loads(path.read_text())["vectors"]
             else:
-                payload = {"model":self.config["model"],"input":inputs,"dimensions":self.config["dimension"],"encoding_format":"float"}
+                if self.api_format == 'gemini':
+                    payload = {'requests':[{'model':'models/'+self.config['model'],
+                        'content':{'parts':[{'text':text}]},'outputDimensionality':self.config['dimension']} for text in inputs]}
+                    url = self.config['base_url']+'/models/'+self.config['model']+':batchEmbedContents'
+                    headers = {'Content-Type':'application/json','x-goog-api-key':self.key}
+                else:
+                    payload = {"model":self.config["model"],"input":inputs,"dimensions":self.config["dimension"],"encoding_format":"float"}
+                    url = self.config['base_url']+'/embeddings'
+                    headers = {'Content-Type':'application/json','Authorization':'Bearer '+self.key}
                 for attempt in range(1,self.tries+1):
                     started=time.monotonic()
                     record={"purpose":"embedding_query" if query else "embedding_documents", "request_hash":signature,
                             "attempt":attempt,"time_unix":time.time(),"model":self.config["model"]}
                     try:
-                        req=request.Request(self.config["base_url"]+"/embeddings",data=json.dumps(payload).encode(),
-                            headers={"Content-Type":"application/json","Authorization":"Bearer "+self.key},method="POST")
+                        req=request.Request(url,data=json.dumps(payload).encode(),headers=headers,method="POST")
                         with request.urlopen(req,timeout=120) as response:
                             data=json.load(response)
-                        record["usage"]=token_usage(data.get("usage"))
-                        rows=sorted(data["data"],key=lambda row:row["index"])
-                        if [r["index"] for r in rows] != list(range(len(batch))):
-                            raise ValueError("embedding response indices differ from batch")
-                        values=[r["embedding"] for r in rows]
+                        record["usage"]=token_usage(data.get("usage",data.get('usageMetadata')))
+                        if self.api_format == 'gemini':
+                            values=[r['values'] for r in data['embeddings']]
+                        else:
+                            rows=sorted(data["data"],key=lambda row:row["index"])
+                            if [r["index"] for r in rows] != list(range(len(batch))):
+                                raise ValueError("embedding response indices differ from batch")
+                            values=[r["embedding"] for r in rows]
                         self._validate(values,len(batch))
-                        write_json(path,{"vectors":values,"model_returned":data.get("model"),"signature":signature})
+                        write_json(path,{"vectors":values,"model_returned":data.get("model",data.get('modelVersion')),"signature":signature})
                         record.update(status="ok",elapsed_seconds=time.monotonic()-started)
                         append_json(self.directory/"calls.jsonl",record)
                         break
@@ -124,6 +140,9 @@ class APIEncoder:
                         record.update(status="error",error_type=type(exc).__name__,elapsed_seconds=time.monotonic()-started)
                         if isinstance(exc,error.HTTPError): record["http_status"]=exc.code
                         append_json(self.directory/"calls.jsonl",record)
+                        if isinstance(exc,error.HTTPError) and exc.code in (400,401,402,403,404):
+                            from evaluation.clients import ServiceError
+                            raise ServiceError(exc.code) from None
                         if attempt==self.tries: raise RuntimeError("embedding API failed; inspect its call ledger") from None
                         time.sleep(min(2**attempt,8))
             array=self._validate(values,len(batch))

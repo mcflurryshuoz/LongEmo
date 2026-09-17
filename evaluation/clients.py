@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 import json
+import re
 from dataclasses import dataclass, field
 from urllib import request, error, parse
 
@@ -14,6 +15,16 @@ REQUEST_BODY_LIMITS = {
     "ark.cn-beijing.volces.com": 64_000_000,
     "api.deepseek.com": 48 * 1024 * 1024,
 }
+
+
+class ServiceError(RuntimeError):
+    """Safe service metadata for bounded retries; never retain provider error text."""
+    def __init__(self, status_code, code=None):
+        self.status_code = status_code
+        value = str(code) if code is not None else ""
+        self.code = value if re.fullmatch(r"[A-Za-z0-9_.-]{1,80}", value) else None
+        self.retryable = status_code in (429, 500, 502, 503, 504) and self.code != 'content_filter'
+        super().__init__(f"model service returned HTTP {status_code}" + (f" ({self.code})" if self.code else ""))
 
 
 @dataclass
@@ -110,6 +121,19 @@ class Client:
             with request.urlopen(req, timeout=self.timeout) as response:
                 raw = json.load(response)
         except error.HTTPError as exc:
-            # Response bodies can echo prompts or credentials. Persist the status only.
-            raise RuntimeError(f"model service returned HTTP {exc.code}") from None
+            # Error messages can echo prompts or credentials; retain only a safe code.
+            try:
+                detail = json.load(exc).get('error', {})
+                code = detail.get('code', detail.get('status')) if isinstance(detail, dict) else None
+            except (ValueError, AttributeError):
+                code = None
+            raise ServiceError(exc.code, code) from None
+        if self.api_format == 'gemini':
+            blocked = (raw.get('promptFeedback') or {}).get('blockReason')
+            finish = (raw.get('candidates') or [{}])[0].get('finishReason')
+            if blocked or finish in {'SAFETY', 'RECITATION', 'BLOCKLIST', 'PROHIBITED_CONTENT', 'IMAGE_SAFETY'}:
+                raise ServiceError(200, 'content_filter')
+        elif self.api_format == 'chat':
+            if any(c.get('finish_reason') == 'content_filter' for c in (raw.get('choices') or [])):
+                raise ServiceError(200, 'content_filter')
         return adapter.parse_response(self, raw)

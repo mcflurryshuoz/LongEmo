@@ -29,8 +29,19 @@ def audio_client_for(args):
     if not model:
         return None
     credentials = json.loads(Path(args.credential_file).read_text()) if args.credential_file else {}
+    base_url = getattr(args, "audio_base_url", None)
+    if model.startswith("gemini-"):
+        if not base_url or not base_url.rstrip("/").endswith("/v1beta"):
+            raise ValueError("native Gemini audio requires an explicit --audio-base-url ending in /v1beta")
+        key = credentials.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
+        if not key:
+            raise ValueError("native Gemini audio credential missing")
+        return Client(model, base_url, "gemini", key, 180, 4096, None,
+                      {"generationConfig": {"thinkingConfig": {"thinkingLevel": "low"}}})
     if not model.startswith("google/"):
-        raise ValueError("audio observer expects an explicit OpenRouter google/ model ID")
+        raise ValueError("audio observer expects an explicit Gemini model ID")
+    if base_url and base_url.rstrip("/") != "https://openrouter.ai/api/v1":
+        raise ValueError("OpenRouter audio models cannot use a different provider URL")
     key = credentials.get("OPENROUTER_API_KEY") or os.getenv("OPENROUTER_API_KEY")
     if not key:
         raise ValueError("audio observer credential missing")

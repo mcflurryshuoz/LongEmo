@@ -202,9 +202,66 @@
   },
   "conclusion": {
     "gemini_38_text_and_image_audio_verified": true,
-    "embedding_endpoint_supported": false,
     "benchmark_run_started_by_this_validation": false,
     "billing_usd": null,
-    "billing_note": "The gateway returned token usage, but no billed cost or account balance was available."
-  }
+    "billing_note": "The gateway returned token usage, but no billed cost or account balance was available.",
+    "compatible_embedding_endpoint_supported": false,
+    "native_embedding_available_for_current_account": false,
+    "native_embedding_failure": "HTTP 404: embedding models are not configured for the current account group",
+    "native_embedding_success_validated": false
+  },
+  "native_embedding_probes": [
+    {
+      "method": "embedContent",
+      "url": "https://www.blackaicoding.com/v1beta/models/gemini-embedding-2:embedContent",
+      "time_unix": 1789617206.3218708,
+      "requested_model": "gemini-embedding-2",
+      "http_status": 404,
+      "error": {
+        "code": "404",
+        "status": "NOT_FOUND",
+        "message": "Model \"gemini-embedding-2\" is not supported by any configured account in this group"
+      },
+      "elapsed_seconds": 1.389448642730713
+    },
+    {
+      "method": "batchEmbedContents",
+      "url": "https://www.blackaicoding.com/v1beta/models/gemini-embedding-2:batchEmbedContents",
+      "time_unix": 1789617206.3231435,
+      "requested_model": "gemini-embedding-2",
+      "http_status": 404,
+      "error": {
+        "code": "404",
+        "status": "NOT_FOUND",
+        "message": "Model \"gemini-embedding-2\" is not supported by any configured account in this group"
+      },
+      "elapsed_seconds": 1.384751319885254
+    }
+  ],
+  "native_embedding_alternatives": [
+    {
+      "model": "gemini-embedding-001",
+      "time_unix": 1789617826.0970638,
+      "method": "embedContent",
+      "http_status": 404,
+      "error": {
+        "code": "404",
+        "status": "NOT_FOUND",
+        "message": "Model \"gemini-embedding-001\" is not supported by any configured account in this group"
+      },
+      "elapsed_seconds": 2.1065726280212402
+    },
+    {
+      "model": "gemini-embedding-2-preview",
+      "time_unix": 1789617826.0988624,
+      "method": "embedContent",
+      "http_status": 404,
+      "error": {
+        "code": "404",
+        "status": "NOT_FOUND",
+        "message": "Model \"gemini-embedding-2-preview\" is not supported by any configured account in this group"
+      },
+      "elapsed_seconds": 2.111276388168335
+    }
+  ]
 }

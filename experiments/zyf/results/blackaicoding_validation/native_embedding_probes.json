@@ -1,0 +1,28 @@
+[
+  {
+    "method": "embedContent",
+    "url": "https://www.blackaicoding.com/v1beta/models/gemini-embedding-2:embedContent",
+    "time_unix": 1789617206.3218708,
+    "requested_model": "gemini-embedding-2",
+    "http_status": 404,
+    "error": {
+      "code": "404",
+      "status": "NOT_FOUND",
+      "message": "Model \"gemini-embedding-2\" is not supported by any configured account in this group"
+    },
+    "elapsed_seconds": 1.389448642730713
+  },
+  {
+    "method": "batchEmbedContents",
+    "url": "https://www.blackaicoding.com/v1beta/models/gemini-embedding-2:batchEmbedContents",
+    "time_unix": 1789617206.3231435,
+    "requested_model": "gemini-embedding-2",
+    "http_status": 404,
+    "error": {
+      "code": "404",
+      "status": "NOT_FOUND",
+      "message": "Model \"gemini-embedding-2\" is not supported by any configured account in this group"
+    },
+    "elapsed_seconds": 1.384751319885254
+  }
+]

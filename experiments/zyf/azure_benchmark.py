@@ -28,10 +28,17 @@ AUDIO = "google/gemini-3.8-flash"
 EMBEDDING = "google/gemini-embedding-2"
 GEMINI_PERCEPTION = "google/gemini-3.8-flash"
 OPENROUTER_URL = "https://openrouter.ai/api/v1"
-SOURCE_HASH = "64183cb9e878459c0606a6e81e2ec07644f8452c08c6c76c3da176a1d3ea2dc4"
+NATIVE_GEMINI = "gemini-3.8-flash"
+NATIVE_EMBEDDING = "gemini-embedding-2"
+BLACKAI_URL = "https://www.blackaicoding.com/v1beta"
+SOURCE_HASH = "250f434224e257325c3ab512a5cf91d2c0662cbbe91a6a2ef72e923020dfeff9"
 
 
 class Blocked(Exception):
+    pass
+
+
+class EmbeddingUnavailable(Exception):
     pass
 
 
@@ -169,7 +176,7 @@ def execution_manifest(path, config):
 
 def policy_rejection(folder, memory):
     """A known service rejection is a recorded missing result, never a retry target."""
-    paths = [memory/'calls.jsonl']
+    paths = [memory/'calls.jsonl', memory/'audio/calls.jsonl']
     paths += list((folder/'plans/calls').glob('*.jsonl'))
     paths += list((folder/'graph/calls').glob('*.jsonl'))
     for p in paths:
@@ -184,6 +191,17 @@ def policy_rejection(folder, memory):
     return None
 
 
+def provider_rejection(memory):
+    """Authentication/credit errors on the perception provider stop admission."""
+    for p in (memory/'calls.jsonl', memory/'audio/calls.jsonl'):
+        if not p.exists():
+            continue
+        rows = load_records(p)
+        if rows and rows[-1].get('http_status') in (401, 402, 403):
+            return {'source': str(p), 'http_status': rows[-1]['http_status']}
+    return None
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--data-root', type=Path, required=True)
@@ -191,17 +209,25 @@ def main(argv=None):
     p.add_argument('--credential-file', type=Path, required=True)
     p.add_argument('--embedding-cache-dir', type=Path, required=True)
     p.add_argument('--import-audio', type=Path)
-    p.add_argument('--perception-model', choices=(MODEL, GEMINI_PERCEPTION), default=MODEL,
+    p.add_argument('--perception-model', choices=(MODEL, GEMINI_PERCEPTION, NATIVE_GEMINI), default=MODEL,
                    help='Change only video perception; planning, answers and official scoring stay on Azure GPT-6')
     p.add_argument('--video-workers', type=int, default=16)
     p.add_argument('--startup-videos', type=int,
-                   help='Initial admission count; expand to --video-workers after one video is fully scored')
+                   help='Initial admission count; expand after one video is scored (or its memory completes with deferred embedding)')
     p.add_argument('--video-attempts', type=int, default=2)
     p.add_argument('--workers', type=int, default=2)
     p.add_argument('--minimum-credits', type=float, default=0.25,
                    help='Pause before another video stage when available account credit is below this floor; not a spend cap')
     p.add_argument('--execute', action='store_true')
+    p.add_argument('--defer-answers', action='store_true',
+                   help='Build native Gemini memories while its embedding model is unavailable; resume without this flag to score')
     args = p.parse_args(argv)
+    native = args.perception_model == NATIVE_GEMINI
+    audio_model = NATIVE_GEMINI if native else AUDIO
+    if native and args.import_audio:
+        p.error('native Gemini requires a fresh audio frontend; do not import another provider\'s audio cache')
+    if args.defer_answers and not native:
+        p.error('defer-answers is only supported for the independent native Gemini frontend')
     if args.video_workers < 1 or args.video_attempts < 1 or args.workers < 1 or args.minimum_credits < 0:
         p.error('workers must be positive and credit floor nonnegative')
     if args.startup_videos is not None and not 1 <= args.startup_videos <= args.video_workers:
@@ -234,6 +260,14 @@ def main(argv=None):
             config.update(protocol='gemini-perception-azure-full-episode-graph-v1',
                 perception_model=GEMINI_PERCEPTION, perception_base_url=OPENROUTER_URL,
                 perception_reasoning_effort='medium', perception_temperature=1.0)
+        elif native:
+            config.update(protocol='blackai-gemini-azure-full-episode-graph-v1',
+                perception_model=NATIVE_GEMINI, perception_base_url=BLACKAI_URL,
+                perception_reasoning_effort='medium', perception_temperature=1.0,
+                audio_model=audio_model, audio_base_url=BLACKAI_URL,
+                audio_reasoning_effort='low', embedding_model=NATIVE_EMBEDDING,
+                embedding_base_url=BLACKAI_URL, embedding_backend='gemini-native',
+                memory_continues_without_embedding_service=True)
         execution_manifest(out/'experiment_manifest.json', config)
         memory = out/'memory'
         memory.mkdir(exist_ok=True)
@@ -250,7 +284,11 @@ def main(argv=None):
             return 0 if inv['complete'] else 2
         credentials = read(args.credential_file)
         env = os.environ.copy()
-        env.update(OPENROUTER_API_KEY=credentials['OPENROUTER_API_KEY'], MODEL_BASE_URL=BASE_URL)
+        env['MODEL_BASE_URL'] = BASE_URL
+        if native:
+            env.pop('OPENROUTER_API_KEY', None)
+        else:
+            env['OPENROUTER_API_KEY'] = credentials['OPENROUTER_API_KEY']
         env.pop('MODEL_API_KEY', None)
         from evaluation.azure_transport import RateLimiter, access_token
         limiter = RateLimiter()
@@ -260,37 +298,58 @@ def main(argv=None):
             'startup_videos': args.startup_videos or args.video_workers,
             'workers_per_video': args.workers, 'video_attempts': args.video_attempts,
             'azure_limits': limiter.limits(), 'started_unix': time.time(),
-            'audio_and_embedding_credit_floor_usd': args.minimum_credits})
+            'openrouter_credit_floor_usd': args.minimum_credits,
+            'defer_answers':args.defer_answers,
+            'openrouter_stages': [] if native else ['build','graph_embeddings']})
 
-        def credits():
+        def credits(enforce=True):
             req = Request('https://openrouter.ai/api/v1/credits',
                           headers={'Authorization': 'Bearer '+credentials['OPENROUTER_API_KEY']})
-            with urlopen(req, timeout=30) as response:
-                account = json.load(response)['data']
-            remaining = float(account['total_credits']) - float(account['total_usage'])
-            if remaining < args.minimum_credits:
+            try:
+                with urlopen(req, timeout=30) as response:
+                    account = json.load(response)['data']
+                remaining = float(account['total_credits']) - float(account['total_usage'])
+            except Exception as exc:
+                if native:
+                    raise Blocked(f'OpenRouter credit preflight unavailable ({type(exc).__name__})') from None
+                raise
+            if enforce and remaining < args.minimum_credits:
                 raise Blocked(f'available credits USD {remaining:.4f} below stage floor {args.minimum_credits:.2f}')
             return remaining
 
         def run(folder, name, module, arguments):
-            if name != 'score':
+            uses_openrouter = not native and name != 'score'
+            if uses_openrouter:
                 credits()
             command = [sys.executable, '-u', '-m', module] + list(map(str, arguments))
             write_json(folder/(name+'_command.json'), {'command': command, 'time_unix': time.time()})
             with (folder/(name+'.log')).open('a') as log:
                 rc = subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT).returncode
             if rc:
-                credits()  # Classify credit exhaustion without logging provider credentials/payloads.
+                if uses_openrouter:
+                    credits()  # Classify credit exhaustion without logging payloads.
+                if native and name == 'graph':
+                    import re
+                    match = re.search(r'ServiceError: model service returned HTTP (401|402|403|404)', (folder/'graph.log').read_text()[-8000:])
+                    if match:
+                        raise EmbeddingUnavailable('native Gemini embedding service returned HTTP '+match.group(1))
                 raise RuntimeError(f'{name} failed; checkpoints retained at {folder}')
 
         inference = ['--model', MODEL, '--base-url', BASE_URL, '--thinking', 'default', '--timeout', '240', '--tries', '5',
-                     '--credential-file', args.credential_file, '--audio-model', AUDIO, '--max-tokens', '8192']
+                     '--credential-file', args.credential_file, '--audio-model', audio_model, '--max-tokens', '8192']
+        if native:
+            inference += ['--audio-base-url', BLACKAI_URL]
+        embedding_arguments = ['--embedding-model', NATIVE_EMBEDDING if native else EMBEDDING,
+                               '--embedding-cache-dir', args.embedding_cache_dir]
+        if native:
+            embedding_arguments += ['--embedding-backend','gemini-native','--embedding-base-url',BLACKAI_URL]
         perception_inference = list(inference)
-        if args.perception_model == GEMINI_PERCEPTION:
-            perception_inference[perception_inference.index('--model')+1] = GEMINI_PERCEPTION
-            perception_inference[perception_inference.index('--base-url')+1] = OPENROUTER_URL
+        if args.perception_model in (GEMINI_PERCEPTION, NATIVE_GEMINI):
+            perception_inference[perception_inference.index('--model')+1] = args.perception_model
+            perception_inference[perception_inference.index('--base-url')+1] = BLACKAI_URL if native else OPENROUTER_URL
             perception_config = out/'perception_request_settings.json'
-            write_json(perception_config, {'reasoning': {'effort': 'medium'}})
+            settings = {'generationConfig': {'thinkingConfig': {'thinkingLevel': 'medium'}}} if native else {'reasoning': {'effort': 'medium'}}
+            write_json(perception_config, settings)
             perception_inference += ['--temperature', '1', '--config', perception_config]
 
         def video_run(vid):
@@ -299,6 +358,7 @@ def main(argv=None):
             subset = [q for q in questions if q['video_id'] == vid]
             qpath = folder/'questions.json'
             write_json(qpath, subset)
+            stage = 'build'
             try:
                 rejection = policy_rejection(folder, memory/vid)
                 if rejection:
@@ -319,13 +379,17 @@ def main(argv=None):
                     '--videos-dir', root/'episode/videos', '--subtitles-dir', root/'prepared_subtitles',
                     '--output-dir', build_root, '--window-seconds', '20', '--padding', '2', '--fps', '1',
                     '--max-frames', '24', '--max-pixels', '200704', '--with-audio', '--workers', '1']+perception_inference)
-                run(folder, 'graph', 'methods.longemo', ['answer', '--data-path', qpath, '--memory-dir', memory,
+                stage = 'graph'
+                prediction_path = folder/'graph'/'predictions.jsonl'
+                if not successful_predictions(prediction_path, subset):
+                    if args.defer_answers:
+                        raise EmbeddingUnavailable('answering deferred until native Gemini embedding access is available')
+                    run(folder, 'graph', 'methods.longemo', ['answer', '--data-path', qpath, '--memory-dir', memory,
                     '--output-dir', folder/'graph', '--plans-dir', folder/'plans', '--retrieval', 'graph',
-                    '--embedding-model', EMBEDDING, '--embedding-cache-dir', args.embedding_cache_dir,
                     '--videos-dir', root/'episode/videos', '--subtitles-dir', root/'prepared_subtitles',
                     '--with-audio', '--max-inspections', '0', '--inspection-seconds', '60',
-                    '--workers', args.workers, '--top-k', '12', '--evidence-chars', '48000']+inference)
-                prediction_path = folder/'graph'/'predictions.jsonl'
+                    '--workers', args.workers, '--top-k', '12', '--evidence-chars', '48000']+embedding_arguments+inference)
+                stage = 'score'
                 if not successful_predictions(prediction_path, subset):
                     raise ValueError('incomplete predictions cannot enter the scorer')
                 scores_dir = folder/'scores'
@@ -350,21 +414,30 @@ def main(argv=None):
                     raise RuntimeError('official judgments incomplete')
                 write_records(folder/'accepted_scores.jsonl', [scored[q['question_id']] for q in subset])
                 return {'video_id': vid, 'status': 'complete', 'n_scored': len(scored)}
+            except EmbeddingUnavailable as exc:
+                return {'video_id':vid, 'status':'memory_complete_pending_embedding_service', 'reason':str(exc)}
             except Blocked as exc:
                 return {'video_id': vid, 'status': 'blocked_api_credits', 'reason': str(exc)}
             except Exception as exc:
                 rejection = policy_rejection(folder, memory/vid)
                 if rejection:
                     return {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
+                rejection = provider_rejection(memory/vid) if native and stage == 'build' else None
+                if rejection:
+                    return {'video_id':vid, 'status':'blocked_perception_provider', 'rejection':rejection}
                 return {'video_id': vid, 'status': 'error', 'reason': str(exc)[:400]}
 
         try:
-            remaining = credits()
+            remaining = None if native else credits()
         except Blocked as exc:
-            status.update(status='blocked_api_credits', reason=str(exc))
-            write_json(out/'status.json', status)
-            print(json.dumps(status), flush=True)
-            return 3
+            if native:
+                remaining = None
+                status['embedding_credit_preflight'] = str(exc)
+            else:
+                status.update(status='blocked_api_credits', reason=str(exc))
+                write_json(out/'status.json', status)
+                print(json.dumps(status), flush=True)
+                return 3
         status.update(status='running', initial_available_credits=remaining, videos={})
         write_json(out/'status.json', status)
         # V16 is the existing development video. Other initial videos are
@@ -373,7 +446,7 @@ def main(argv=None):
         attempts = {v: 0 for v in vids}
         stopped = False
         permanent_failures = 0
-        passed_full_pipeline = False
+        passed_startup = False
         with ThreadPoolExecutor(max_workers=args.video_workers) as pool:
             active = {}
             def schedule(limit=None):
@@ -394,13 +467,13 @@ def main(argv=None):
                     status['videos'][vid] = outcome
                     from methods.longemo.common import append_json
                     append_json(out/'video_attempts.jsonl', outcome)
-                    if outcome['status'] == 'complete':
-                        passed_full_pipeline = True
-                    if outcome['status'] == 'blocked_api_credits':
+                    if outcome['status'] in ('complete','memory_complete_pending_embedding_service'):
+                        passed_startup = True
+                    if outcome['status'] in ('blocked_api_credits','blocked_perception_provider'):
                         stopped = True
-                    elif outcome['status'] not in ('complete','blocked_input_policy'):
+                    elif outcome['status'] not in ('complete','blocked_input_policy','memory_complete_pending_embedding_service'):
                         if attempts[vid] < args.video_attempts:
-                            todo.append(vid)
+                            todo.insert(0,vid)
                         else:
                             permanent_failures += 1
                             if permanent_failures >= 3:
@@ -411,13 +484,15 @@ def main(argv=None):
                 metrics = aggregate(out, questions)
                 status['n_scored'] = metrics['overall_unweighted']['n_scored']
                 write_json(out/'status.json', status)
-                if not stopped and passed_full_pipeline:
-                    schedule()
+                if not stopped:
+                    schedule(None if passed_startup else args.startup_videos)
         metrics = aggregate(out, questions)
         complete = metrics['overall_unweighted']['coverage'] == 1
         failures = [r['status'] for r in status['videos'].values() if r['status'] != 'complete']
         status.update(status='complete' if complete and not failures else
                       ('blocked_api_credits' if 'blocked_api_credits' in failures else
+                       'blocked_perception_provider' if 'blocked_perception_provider' in failures else
+                       'partial_embedding_service' if 'memory_complete_pending_embedding_service' in failures and not todo else
                        'partial_input_policy' if failures and all(f == 'blocked_input_policy' for f in failures) and not todo else 'error'),
                       n_scored=metrics['overall_unweighted']['n_scored'], updated_unix=time.time())
         write_json(out/'status.json', status)

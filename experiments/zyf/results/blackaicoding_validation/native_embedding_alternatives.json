@@ -1,0 +1,26 @@
+[
+  {
+    "model": "gemini-embedding-001",
+    "time_unix": 1789617826.0970638,
+    "method": "embedContent",
+    "http_status": 404,
+    "error": {
+      "code": "404",
+      "status": "NOT_FOUND",
+      "message": "Model \"gemini-embedding-001\" is not supported by any configured account in this group"
+    },
+    "elapsed_seconds": 2.1065726280212402
+  },
+  {
+    "model": "gemini-embedding-2-preview",
+    "time_unix": 1789617826.0988624,
+    "method": "embedContent",
+    "http_status": 404,
+    "error": {
+      "code": "404",
+      "status": "NOT_FOUND",
+      "message": "Model \"gemini-embedding-2-preview\" is not supported by any configured account in this group"
+    },
+    "elapsed_seconds": 2.111276388168335
+  }
+]

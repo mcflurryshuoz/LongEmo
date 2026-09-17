@@ -265,11 +265,17 @@ def answer(args):
     encoder = None
     if args.retrieval == "graph":
         from .embeddings import Encoder, APIEncoder, EventIndex
-        if args.embedding_backend == "gemini":
+        if args.embedding_backend in ("gemini", "gemini-native"):
             import os
             credentials = json.loads(Path(args.credential_file).read_text()) if args.credential_file else {}
-            encoder = APIEncoder(credentials.get("OPENROUTER_API_KEY") or os.getenv("OPENROUTER_API_KEY"),
-                                 Path(args.embedding_cache_dir)/"api", model=args.embedding_model)
+            native_embedding = args.embedding_backend == 'gemini-native'
+            if native_embedding and not args.embedding_base_url:
+                raise ValueError('native Gemini embeddings require an explicit --embedding-base-url for the configured credential')
+            key_name = 'GEMINI_API_KEY' if native_embedding else 'OPENROUTER_API_KEY'
+            encoder = APIEncoder(credentials.get(key_name) or os.getenv(key_name),
+                Path(args.embedding_cache_dir)/"api", model=args.embedding_model,
+                base_url=args.embedding_base_url or 'https://openrouter.ai/api/v1',
+                api_format='gemini' if native_embedding else 'openai')
         else:
             encoder = Encoder(model=args.embedding_model, revision=args.embedding_revision)
         for video_id, memory in memories.items():
@@ -322,6 +328,7 @@ def parser():
         command.add_argument("--credential-file", help="Private JSON outside the repository; never included in manifests")
         command.add_argument("--with-audio", action="store_true")
         command.add_argument("--audio-model", help="Audio observer required when GPT-6 receives audio")
+        command.add_argument("--audio-base-url", help="Explicit native Gemini audio endpoint; credentials stay in the private resource file")
         command.add_argument("--fps", type=float, default=1)
         command.add_argument("--max-frames", type=int, default=24)
         command.add_argument("--max-pixels", type=int, default=200704)
@@ -338,7 +345,8 @@ def parser():
             command.add_argument("--plans-dir", help="Optional shared frozen plans for fair retrieval comparisons")
             command.add_argument("--retrieval", choices=("graph", "flat", "direct"), default="graph")
             command.add_argument("--direct-frames", type=int, default=128)
-            command.add_argument("--embedding-backend", choices=("gemini", "local"), default="gemini")
+            command.add_argument("--embedding-backend", choices=("gemini", "gemini-native", "local"), default="gemini")
+            command.add_argument("--embedding-base-url", help="Explicit embedding service URL; native Gemini uses /v1beta")
             command.add_argument("--embedding-model", default="google/gemini-embedding-2")
             command.add_argument("--embedding-revision", default="d128750597153bb5987e10b1c3493a34e5a4502a")
             command.add_argument("--embedding-cache-dir", default=".cache/longemo-embeddings")
