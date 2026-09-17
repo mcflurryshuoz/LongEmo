@@ -6,7 +6,112 @@ LongEmoBench evaluates emotion understanding at two video granularities: **clip*
 
 This repository provides prediction generation and a shared evaluator. Predictions from your own model or agent can be evaluated directly. **Evaluation requires question annotations and predictions; it does not load videos or subtitles.**
 
-The `zyf` branch also implements [LongEmo event memory and hybrid graph retrieval](methods/longemo/README.md), using GPT-6 and Gemini Embedding 2. See the [experiment log](experiments/zyf/README.md) for configurations, validation and current results. Install its lightweight retrieval dependency with `pip install -e '.[longemo]'`.
+## zyf 分支：当前方法整体流程
+
+本分支在原有 benchmark 和评测器上实现了**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法分两步：先对视频构建与问题无关、可复用的事件图谱，再针对每道题检索相关事件及其关系，交给 GPT-6 作答。图谱使用带校验的 JSON 检查点和派生向量索引，无需部署图数据库或训练本地模型。
+
+**当前状态（2026-09-17）：实验已按用户要求暂停。** 最新 E09 v2 配置使用原生 Gemini 感知、Gemini Embedding 2 检索、Azure GPT-6 答题和评分；原生 Embedding 服务尚未成功返回向量，因此该轮只完成了部分构图，尚无答题成绩。以下区分方法实现、当前配置和已有实验结果。
+
+```mermaid
+flowchart TD
+    V[视频、音轨、带时间戳字幕] --> W[20 秒窗口 + 两侧 2 秒上下文]
+    W --> A[Gemini 音频观察：台词、语气、停顿等]
+    W --> P[Gemini 视觉感知：采样帧 + 字幕]
+    A --> P
+    P --> M[校验并写入情感事件图谱]
+    M --> D[完整事件证据分块、Embedding 索引]
+    Q[问题] --> L[GPT-6 检索规划]
+    L --> S[结构化语义检索：BM25 + 人物／情感对象匹配]
+    M --> S
+    Q --> E[问题 Embedding 检索]
+    D --> E
+    S --> R[双路各 Top-12 → RRF 融合]
+    E --> R
+    R --> G[图关系与同人物相邻事件扩展]
+    M --> G
+    G --> C[时间覆盖候选 + 轻量时间线 + 完整事件证据]
+    C --> B[GPT-6 基于证据作答]
+    Q --> B
+    B --> J[GPT-6 按官方 rubric 评分]
+    T[问题、参考答案、answer_details、rubric] --> J
+```
+
+参考答案、`answer_details` 和 `rubric` 只供评测器使用；构图不接收问题，检索和答题不接收参考标注。音频观察是模型提取的证据，保留不确定性。
+
+### 第一步：感知并构建情感事件记忆
+
+1. **按时间切窗。** 每个核心窗口 20 秒，两侧各补 2 秒上下文；按 1 fps 抽帧，每窗最多 24 帧、每帧最多 200704 像素，保留实际帧时间戳、字幕和源音频的对应关系。
+2. **融合视觉与音频线索。** 独立 Gemini 音频观察器先提取带时间戳的言语、语气、笑声、停顿等；视觉感知模型读取采样帧、字幕、音频观察、已知人物信息及最近 3 个事件，输出人物、可观察线索、事件、情感状态和事件关系。
+3. **以事件组织图谱。** 事件关联观察证据，并拥有自己的情感状态。状态区分主体、情感指向对象、情绪、可观察的强度表现、认知解释与不确定性；情感对象与诱因分别表达。关系包括时间关系、因果、状态变化和共存，均保留证据引用。
+4. **校验后增量保存。** 新事件归属核心窗口，补充时间段只作上下文；仅在明确为同一持续事件时合并。每个窗口校验时间范围、ID、引用和模态来源，完整通过后原子提交；失败不会写入半个窗口，可以从已验证检查点续跑。
+
+| 记忆内容 | 表达的信息 |
+|---|---|
+| 人物 `P…` | 名称／外观描述、身份线索与来源 |
+| 观察 `O…` | 时间范围、主体、可观察线索、视觉／音频／字幕来源 |
+| 事件 `E…` | 时间范围、摘要、观察引用、源窗口、事件内情感状态 |
+| 状态 `S…` | 主体、情感对象、情绪、强度表现、解释、不确定性、证据及版本 |
+| 关系与溯源 | 事件关系及证据、媒体来源、已完成窗口和修订历史 |
+
+代码支持历史状态修订和问题内局部回看；**当前全量配置关闭修订，`--max-inspections 0`，答题期间不修改共享图谱**。本轮研究的是从固定事件记忆检索和推理的效果。
+
+### 第二步：双路检索、图扩展与回答
+
+1. **检索规划。** GPT-6 根据问题、视频时长和人物信息，生成任务模式（轨迹／比较／计数／因果／局部）、人物词、情感对象词、扩展查询词及可选时间范围。
+2. **结构化语义路。** 对包含人物、状态、观察和关系的事件记录做 BM25，并加入人物匹配与情感对象／情绪匹配：`semantic = BM25 + 3 × entity_match + 2 × target_match`。这里的语义路是规划后的结构化匹配，没有另外调用一个语义重排模型。
+3. **Embedding 路。** 将完整事件证据（人物、状态、观察与有效摘要）分为重叠文本块，使用 Gemini Embedding 2 的文档／查询前缀编码为 3072 维归一化向量；问题与文本块计算余弦相似度，每个事件取最高块分数。索引缓存绑定文本内容、模型、服务端点和编码配置。
+4. **融合与图扩展。** 两路各取 Top-12，用 RRF（常数 60）融合，再沿显式事件关系及同人物的前后相邻事件扩展。时间邻接用于寻找上下文，不作为因果证据。轨迹、比较、计数和因果题额外从 12 个时间分桶选择覆盖候选。
+5. **组织证据并作答。** 在 48000 字符预算内提供轻量时间线与选中的完整事件，由 GPT-6 生成答案并引用证据 ID；保存两路分数、融合排名、图邻居、实际入选／遗漏事件和回答轨迹。当前时间线仍可能按预算截断，不能保证覆盖所有关键时段。
+
+`--retrieval graph` 必须取得有效向量；Embedding 不可用时显式失败或由实验调度器延后答题，不会悄悄退化为纯关键词检索。`flat` 是语义检索诊断模式，`direct` 是直接视频输入基线，均与主图方法分开记录。
+
+### 当前模型分工与评测口径
+
+下表对应最新 **E09 v2**，历史 E06／E08 的服务和配置另见实验记录。
+
+| 环节 | 当前配置 | 验证状态 |
+|---|---|---|
+| 音频观察 | BlackAI 原生 Gemini 3.8 Flash；low thinking，输出上限 4096 tokens | 已有真实音频调用 |
+| 视频感知／构图 | BlackAI 原生 Gemini 3.8 Flash；medium thinking，输出上限 32768 tokens | 已保存部分图谱 |
+| 事件／问题向量 | BlackAI 原生 `gemini-embedding-2`；3072 维 | 适配器已实现；账户服务返回 404，尚未完成真实向量调用 |
+| 检索规划／答题 | Azure GPT-6 Astra；medium reasoning，输出上限 8192 tokens | 旧实验已运行；E09 延后执行 |
+| 官方评分 | Azure GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 旧实验已有分数；E09 未评分 |
+
+评测目标为固定版本的 **episode 全量 141 个视频、558 道题、8342 个窗口**。评分器只读取预测与标注，不读取视频；每题按 `得分 / 该题最高分` 归一化，再等权平均。失败或缺失题不进入均分，但必须报告 `n_scored / 558`；不能用部分样本均分代表全量结果。保留首次成功评分，失败项才重试。
+
+暂停时 E09 v2 已保存 **995/8342 个窗口、21/141 个完整视频记忆，评分覆盖 0/558**；这里的 0 表示尚未评分。现有结果尚不能证明图方法优于直接视频输入：
+
+| 已有同题比较 | 样本 | 归一化均分 | 解释范围 |
+|---|---|---|---|
+| E06 GPT-6 感知图方法 vs E08 Gemini 感知图方法 | 共同 4 题、2 个视频 | 75.00% vs 75.00% | 比较感知配置；两者都使用图检索 |
+| Direct Gemini 2.5 Flash vs GPT-6 图方法 | Friends S01E08，Q271／Q272 | 58.33% vs 58.33% | 生成模型和媒体预算不同，只有两题，不是严格的图检索消融 |
+
+初步核验发现 Q42 的结尾情绪已被 E06 图谱存下，却未进入答题上下文，提示需要优先验证全时段覆盖和证据压缩；这些改进尚未实现。详细证据见[初步结果核验](experiments/zyf/results/preliminary_review_20260917/review.md)与[直接视频对照](experiments/zyf/results/legacy_direct_friends_s01e08_v1/comparison.md)。
+
+### 代码入口与实验记录
+
+| 入口 | 用途 |
+|---|---|
+| [runner.py](methods/longemo/runner.py)、[prompts.py](methods/longemo/prompts.py) | 构图、检索规划、回答与模型提示词 |
+| [audio.py](methods/longemo/audio.py)、[media.py](methods/longemo/media.py) | 音频观察、窗口媒体与时间对齐 |
+| [memory.py](methods/longemo/memory.py) | 事件图结构、校验、合并与修订 |
+| [embeddings.py](methods/longemo/embeddings.py)、[retrieval.py](methods/longemo/retrieval.py) | 向量编码／缓存、双路召回、RRF 与图扩展 |
+| [launch_blackai.py](experiments/zyf/launch_blackai.py)、[azure_benchmark.py](experiments/zyf/azure_benchmark.py) | 当前原生 Gemini + Azure 全量配置与调度 |
+| [evaluation/eval.py](evaluation/eval.py) | 共享官方评测器 |
+
+安装 `python -m pip install -e '.[longemo]'`，准备 FFmpeg／ffprobe，单独配置仓库外的服务凭证。API 主流程不加载本地 GPU 模型。以下命令只查看参数：
+
+```bash
+python -m methods.longemo build --help
+python -m methods.longemo answer --help
+python -m experiments.zyf.launch_blackai --help
+```
+
+实际 E09 参数、服务限制和启动方式以[当前实验协议](experiments/zyf/blackai_benchmark.md)为准；通用 CLI 默认值及旧版实验示例不等于 E09 配置。每次运行记录数据／代码／模型配置、逐窗图谱和音频观察、向量缓存、逐题检索证据与预测、官方评分及 API 尝试和用量。改变感知模型或语义配置时使用新实验目录，避免混用旧缓存。
+
+更多说明：[方法文档](methods/longemo/README.md) · [实验记录](experiments/zyf/README.md) · [研究计划](experiments/zyf/plan.md)。下文保留原 benchmark 的数据、预测与评测使用说明。
+
+## Benchmark setup
 
 Use Python 3.10 or later. Clone the repository and run the following commands from its root directory:
 

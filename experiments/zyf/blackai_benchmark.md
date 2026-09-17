@@ -1,5 +1,7 @@
 # E09: native Gemini frontend and embedding, Azure GPT-6 answer and judge
 
+**Paused by user request, 2026-09-17.** The captured v2 state has 995/8342 saved windows, 21/141 complete memories and 0/558 scored questions. No automatic resume is scheduled. Commands below document the configuration; embedding service recovery alone does not override this pause. See the [preliminary review](results/preliminary_review_20260917/review.md).
+
 The user selected the supplied BlackAI Gemini API for embedding as well as the Gemini video frontend. E09 uses a new run and cache because provider changes are semantic experiment changes. E06 and E08 remain preserved.
 
 | Stage | Provider and model |

@@ -1,0 +1,111 @@
+{
+  "probes": [
+    {
+      "mode": "models",
+      "url": "https://matrixllm.alipay.com/v1/models",
+      "time_unix": 1789622216.8772101,
+      "requested_model": null,
+      "http_status": 200,
+      "json": true,
+      "elapsed_seconds": 0.1402395002078265,
+      "location": "local",
+      "model_count": 263,
+      "relevant_models": [
+        "gpt-6-astra",
+        "gemini-3.8-flash",
+        "gemini-embedding-2-preview",
+        "text-embedding-3-large",
+        "text-embedding-v4"
+      ]
+    },
+    {
+      "mode": "embedding",
+      "url": "https://matrixllm.alipay.com/v1/embeddings",
+      "time_unix": 1789622228.198068,
+      "requested_model": "gemini-embedding-2-preview",
+      "http_status": 404,
+      "json": true,
+      "error": {
+        "code": "404",
+        "type": "unsupported_operation",
+        "message": "unsupported operation"
+      },
+      "elapsed_seconds": 0.08702304097823799,
+      "location": "local"
+    },
+    {
+      "mode": "chat",
+      "url": "https://matrixllm.alipay.com/v1/chat/completions",
+      "time_unix": 1789622228.437662,
+      "requested_model": "gpt-6-astra",
+      "http_status": 200,
+      "json": true,
+      "response_model": "gpt-6-astra",
+      "usage": {
+        "completion_tokens": 4,
+        "prompt_tokens": 11,
+        "total_tokens": 15,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 16,
+          "engine_ttft_ms": 359,
+          "engine_ttlt_ms": 438,
+          "pre_inference_ms": 178,
+          "service_tbt_ms": 6,
+          "service_ttft_ms": 860,
+          "service_ttlt_ms": 884,
+          "user_visible_ttft_ms": 682
+        }
+      },
+      "finish_reasons": [
+        "stop"
+      ],
+      "text_characters": 2,
+      "exact_ok": true,
+      "elapsed_seconds": 2.184507166966796,
+      "location": "local"
+    },
+    {
+      "mode": "native_embedding",
+      "url": "https://matrixllm.alipay.com/v1beta/models/gemini-embedding-2-preview:embedContent",
+      "time_unix": 1789622317.7609332,
+      "requested_model": "gemini-embedding-2-preview",
+      "http_status": 404,
+      "json": true,
+      "elapsed_seconds": 0.11855145799927413,
+      "location": "local"
+    },
+    {
+      "mode": "native_embedding",
+      "url": "https://matrixllm.alipay.com/v1/models/gemini-embedding-2-preview:embedContent",
+      "time_unix": 1789622318.0960052,
+      "requested_model": "gemini-embedding-2-preview",
+      "http_status": 404,
+      "json": true,
+      "elapsed_seconds": 0.12751891696825624,
+      "location": "local"
+    }
+  ],
+  "g450_direct_connectivity": {
+    "status": "connect_timeout",
+    "dns_resolves": true,
+    "curl_connect_timeout_seconds": 8,
+    "authenticated_models_probe": "interrupted after prolonged TCP connection; no HTTP response observed"
+  },
+  "conclusions": {
+    "key_valid_for_gpt6_chat_from_local_proxy": true,
+    "gemini_embedding_vector_success_verified": false,
+    "g450_direct_api_verified": false,
+    "experiment_provider_changed": false
+  }
+}

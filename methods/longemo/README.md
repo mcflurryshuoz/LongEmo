@@ -1,6 +1,8 @@
 # LongEmo event memory and hybrid graph retrieval
 
-Build question-independent event memories once per video, then answer from a fixed graph snapshot. The primary configuration uses GPT-6 Astra for event perception, retrieval planning and answering, Gemini Embedding 2 for dense recall, and a separate Gemini 3.8 Flash audio observer. No local GPU or training is needed; NumPy, Python 3.10+, FFmpeg 5+ and ffprobe are required. E5 remains an explicit optional local diagnostic backend, never a silent fallback.
+Build question-independent event memories once per video, then answer from a fixed graph snapshot. The [root README](../../README.md#zyf-分支当前方法整体流程) summarizes the current method and results. Latest E09 v2 uses native Gemini 3.8 Flash for audio and visual perception, native Gemini Embedding 2 for dense recall, and Azure GPT-6 Astra for retrieval planning, answering and judgment; see its [frozen protocol](../../experiments/zyf/blackai_benchmark.md). As of 2026-09-17 it is paused by user request; native embedding access remains unavailable and this run has no scores.
+
+The GPT-6 perception/OpenRouter commands below document the earlier pilot configuration, not E09. No local GPU or training is needed for the API pipeline; NumPy, Python 3.10+, FFmpeg 5+ and ffprobe are required. E5 remains an explicit optional local diagnostic backend, never a silent fallback.
 
 ## Evidence and retrieval
 
@@ -12,7 +14,7 @@ GPT-6 does not accept raw audio. The independent audio observer records timestam
 
 Neither perception nor retrieval/answering receives gold answers or rubric fields. Inspection, when enabled, is question-local and cannot modify the shared memory. Every window validates atomically. Failed requests and schema repairs remain in attempt/cost ledgers.
 
-## Prepare and run
+## Prepare and run (earlier GPT-6/OpenRouter pilot)
 
 Use a private credential JSON outside the repository containing the already-provisioned `OPENROUTER_API_KEY`; the key is never placed in commands or result manifests. Dataset access uses a separate authorized HF token file.
 

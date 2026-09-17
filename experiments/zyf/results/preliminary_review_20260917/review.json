@@ -1,0 +1,149 @@
+{
+  "captured_pause_unix": 1789622518.3661478,
+  "validation_mode": "offline inspection of preserved predictions, first successful official judgments and retrieval traces; no new API calls or rescoring after user pause",
+  "paused_run": {
+    "name": "blackai_gemini38_gpt6_full_v2",
+    "status": "paused_by_user",
+    "completed_windows": 995,
+    "expected_windows": 8342,
+    "complete_video_memories": 21,
+    "expected_videos": 141,
+    "n_scored": 0,
+    "n_questions": 558,
+    "active_model_workers": 0
+  },
+  "existing_scores": [
+    {
+      "run": "azure_gpt6_full_v1",
+      "perception": "Azure GPT-6 Astra",
+      "n_scored": 185,
+      "n_questions": 558,
+      "percent_score": 48.55855855855856
+    },
+    {
+      "run": "gemini38_perception_gpt6_full_v1",
+      "perception": "OpenRouter Gemini 3.8 Flash",
+      "n_scored": 6,
+      "n_questions": 558,
+      "percent_score": 75.0
+    }
+  ],
+  "paired_comparison": {
+    "n_questions": 4,
+    "n_videos": 2,
+    "azure_percent": 75.0,
+    "gemini_percent": 75.0,
+    "rows": [
+      {
+        "question_id": "G2_Q000008",
+        "video_id": "G2_V000004",
+        "type": "intensity",
+        "azure_score": 1,
+        "gemini_score": 0,
+        "max_score": 1
+      },
+      {
+        "question_id": "G2_Q000009",
+        "video_id": "G2_V000004",
+        "type": "trajectory",
+        "azure_score": 2,
+        "gemini_score": 4,
+        "max_score": 4
+      },
+      {
+        "question_id": "G2_Q000041",
+        "video_id": "G2_V000016",
+        "type": "intensity",
+        "azure_score": 1,
+        "gemini_score": 1,
+        "max_score": 1
+      },
+      {
+        "question_id": "G2_Q000042",
+        "video_id": "G2_V000016",
+        "type": "trajectory",
+        "azure_score": 2,
+        "gemini_score": 4,
+        "max_score": 4
+      }
+    ]
+  },
+  "q42_trace_audit": {
+    "azure": {
+      "memory_events": 83,
+      "retrieved_full_events": 10,
+      "timeline_events": 23,
+      "timeline_last_second": 117.0,
+      "retrieved_last_second": 345.7,
+      "evidence_characters": 47747,
+      "end_reaction_event": "E83",
+      "end_reaction_spans": [
+        [
+          359.4,
+          360.0
+        ],
+        [
+          360.0,
+          360.8
+        ]
+      ],
+      "end_event_in_memory": true,
+      "end_event_in_full_context": false,
+      "end_event_in_timeline": false,
+      "score": 2,
+      "max_score": 4
+    },
+    "gemini": {
+      "memory_events": 42,
+      "retrieved_full_events": 17,
+      "timeline_events": 42,
+      "timeline_last_second": 361.1,
+      "retrieved_last_second": 361.1,
+      "evidence_characters": 46980,
+      "end_reaction_event": "E42",
+      "end_reaction_spans": [
+        [
+          360.0,
+          361.1
+        ]
+      ],
+      "end_event_in_memory": true,
+      "end_event_in_full_context": true,
+      "end_event_in_timeline": true,
+      "score": 4,
+      "max_score": 4
+    }
+  },
+  "q8_audit": {
+    "azure_score": 1,
+    "gemini_score": 0,
+    "max_score": 1,
+    "judge_identified_gemini_error": "Selected the outburst after sharing half of the last cookie, rather than the earlier standing/yelling reaction when the young man reaches under the newspaper.",
+    "upstream_failure_stage": "Not established; requires aligned memory/retrieval/video audit."
+  },
+  "legacy_direct_comparison": {
+    "episode": "Friends S01E08",
+    "question_ids": [
+      "G2_Q000271",
+      "G2_Q000272"
+    ],
+    "direct_model": "Gemini 2.5 Flash",
+    "graph_perception_answer_model": "GPT-6 Astra",
+    "judge": "Azure GPT-6 Astra",
+    "direct_percent": 58.33333333333333,
+    "graph_percent": 58.33333333333333,
+    "limitations": "Two questions; different generation models and media budgets. Not a controlled graph ablation."
+  },
+  "matrix_api_validation": {
+    "local_proxy_gpt6_chat": "HTTP 200, exact OK, 15 tokens",
+    "embedding": "No successful vector; standard compatible and native paths return HTTP 404",
+    "g450_direct": "TCP connect timeout",
+    "testing": "stopped_by_user"
+  },
+  "conclusion": "No overall improvement established. Paired existing results tie; Q42 supports retrieval omission as a loss mechanism. Current native Gemini run has no scores.",
+  "proposed_next_validation": [
+    "Inspect the video tail, memory event, selected context and final answer together for Q42.",
+    "Compare competing anger peaks with their source evidence for Q8.",
+    "Validate full-span timeline coverage and evidence compression on the fixed development cases before a new full run."
+  ]
+}
