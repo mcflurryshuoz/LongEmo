@@ -144,3 +144,12 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 - First confirmed status: running, active G2_V000016, 140 videos queued, 0/558 scored. The first real Gemini visual perception request was in flight. This is a launch confirmation, not a passed end-to-end validation or a benchmark score. Initial-pipeline completion gates automatic expansion.
 
 - First real visual validation: 5/19 windows of G2_V000016 completed successfully, all returned `google/gemini-3.8-flash` and passed the existing memory-schema/reference checks. Those five perception calls reported USD 0.163383; the text connectivity probe cost is separate. The initial video is still in progress and no E08 official score exists at this snapshot. [Sanitized initial progress](results/gemini38_perception_gpt6_full_v1/initial_progress.json) records the capture time, actual model IDs, coverage and usage.
+
+
+### Resource validation: BlackAI Gemini 3.8
+
+- The user supplied a Gemini gateway key on 2026-09-17. It exactly matches the existing private Gemini credential on g450; no secret was exported. Both model catalogs return HTTP 200 and advertise Gemini 3.8, although the native and compatible catalogs differ.
+- Native `gemini-3.8-flash` text generation succeeded (HTTP 200, modelVersion gemini-3.8-flash, STOP, OK). A real four-second V16 image-plus-audio request without subtitles also returned valid JSON; usage explicitly includes IMAGE and AUDIO tokens. These checks validate a possible perception/audio provider, not benchmark quality or sustained capacity.
+- The gateway /v1/embeddings endpoint explicitly returns HTTP 404, saying Embeddings API is not supported for this platform. The existing OpenRouter balance was approximately USD 0.2410 at this check. The gateway returned tokens but neither billed costs nor a balance.
+- These diagnostics did not launch or mutate a benchmark run. E06 remains partial_input_policy with 185/558 scored; E08 is blocked_api_credits with 6/558 scored. A future provider change requires a separate configuration and validated audio/embedding routing; simply changing the example environment variables cannot resume the currently pinned OpenRouter experiment.
+- [Validation report](results/blackaicoding_validation/validation.md), [sanitized response metadata](results/blackaicoding_validation/validation.json).

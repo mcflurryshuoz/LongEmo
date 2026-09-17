@@ -1,0 +1,210 @@
+{
+  "checked_unix": 1789612415.8226914,
+  "inventory": {
+    "base_url": "https://www.blackaicoding.com",
+    "mode": "inventory",
+    "time_unix": 1789612122.2978215,
+    "matches_existing_gemini_key": true,
+    "endpoints": {
+      "/v1beta/models": {
+        "http_status": 200,
+        "json": true,
+        "elapsed_seconds": 2.256070137023926,
+        "models": [
+          {
+            "name": "gemini-2.5-flash",
+            "displayName": "gemini-2.5-flash",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.1-flash-image-preview",
+            "displayName": "gemini-3.1-flash-image-preview",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.1-pro-preview",
+            "displayName": "gemini-3.1-pro-preview",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.1-pro-low-c",
+            "displayName": "gemini-3.1-pro-low-c",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.1-pro-high-c",
+            "displayName": "gemini-3.1-pro-high-c",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3-flash",
+            "displayName": "gemini-3-flash",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.8-flash-high",
+            "displayName": "gemini-3.8-flash-high",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.8-flash",
+            "displayName": "gemini-3.8-flash",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3-pro-preview",
+            "displayName": "gemini-3-pro-preview",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3-pro-image-preview",
+            "displayName": "gemini-3-pro-image-preview",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.1-pro-high",
+            "displayName": "gemini-3.1-pro-high",
+            "supportedGenerationMethods": null
+          },
+          {
+            "name": "gemini-3.8-flash-low",
+            "displayName": "gemini-3.8-flash-low",
+            "supportedGenerationMethods": null
+          }
+        ]
+      },
+      "/v1/models": {
+        "http_status": 200,
+        "json": true,
+        "elapsed_seconds": 2.0889978408813477,
+        "models": [
+          {
+            "id": "gemini-2.0-flash"
+          },
+          {
+            "id": "gemini-2.5-flash"
+          },
+          {
+            "id": "gemini-2.5-flash-image"
+          },
+          {
+            "id": "gemini-2.5-pro"
+          },
+          {
+            "id": "gemini-3-flash-preview"
+          },
+          {
+            "id": "gemini-3-pro-preview"
+          },
+          {
+            "id": "gemini-3.1-flash-image"
+          },
+          {
+            "id": "gemini-3.5-flash"
+          },
+          {
+            "id": "gemini-3.7-flash"
+          },
+          {
+            "id": "gemini-3.8-flash"
+          }
+        ]
+      }
+    }
+  },
+  "text_probe": {
+    "base_url": "https://www.blackaicoding.com",
+    "mode": "text",
+    "time_unix": 1789612184.978706,
+    "requested_model": "gemini-3.8-flash",
+    "http_status": 200,
+    "json": true,
+    "elapsed_seconds": 2.335052728652954,
+    "response_model": "gemini-3.8-flash",
+    "finish_reason": "STOP",
+    "prompt_feedback": null,
+    "usage": {
+      "candidatesTokenCount": 1,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1
+        }
+      ],
+      "promptTokenCount": 260,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 260
+        }
+      ],
+      "serviceTier": "standard",
+      "thoughtsTokenCount": 54,
+      "totalTokenCount": 315
+    },
+    "content": "OK"
+  },
+  "multimodal_probe": {
+    "time_unix": 1789612271.9762053,
+    "base_url": "https://www.blackaicoding.com/v1beta",
+    "requested_model": "gemini-3.8-flash",
+    "response_model": "gemini-3.8-flash",
+    "elapsed_seconds": 4.6845293045043945,
+    "finish_reason": "STOP",
+    "usage": {
+      "candidatesTokenCount": 72,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 65
+        }
+      ],
+      "promptTokenCount": 2921,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 287
+        },
+        {
+          "modality": "IMAGE",
+          "tokenCount": 2240
+        },
+        {
+          "modality": "AUDIO",
+          "tokenCount": 128
+        }
+      ],
+      "serviceTier": "standard",
+      "totalTokenCount": 2992
+    },
+    "schema_valid": true,
+    "video_id": "G2_V000016",
+    "interval": [
+      0,
+      4
+    ],
+    "input_block_types": [
+      "text",
+      "image_url",
+      "text",
+      "image_url",
+      "text",
+      "input_audio"
+    ]
+  },
+  "embedding_probe": {
+    "endpoint": "https://www.blackaicoding.com/v1/embeddings",
+    "http_status": 404,
+    "error": {
+      "type": "not_found_error",
+      "message": "Embeddings API is not supported for this platform"
+    }
+  },
+  "conclusion": {
+    "gemini_38_text_and_image_audio_verified": true,
+    "embedding_endpoint_supported": false,
+    "benchmark_run_started_by_this_validation": false,
+    "billing_usd": null,
+    "billing_note": "The gateway returned token usage, but no billed cost or account balance was available."
+  }
+}
