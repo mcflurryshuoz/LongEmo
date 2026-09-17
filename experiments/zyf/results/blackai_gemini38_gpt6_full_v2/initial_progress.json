@@ -1,0 +1,227 @@
+{
+  "run": "blackai_gemini38_gpt6_full_v2",
+  "snapshot_unix": 1789619749.6773422,
+  "status": {
+    "status": "running",
+    "updated_unix": 1789619747.4643738,
+    "question_count": 558,
+    "video_count": 141,
+    "available_videos": 141,
+    "initial_available_credits": null,
+    "videos": {},
+    "active_videos": [
+      "G2_V000016"
+    ],
+    "queued_videos": 140,
+    "scheduling_paused": false,
+    "n_scored": 0
+  },
+  "completed_windows": 5,
+  "complete_video_memories": 0,
+  "memory_progress": {
+    "G2_V000016": {
+      "windows": 5,
+      "complete": false
+    }
+  },
+  "azure": {
+    "attempts": 0,
+    "http_statuses": {},
+    "actual_models": {},
+    "returned_prompt_tokens": 0,
+    "returned_completion_tokens": 0,
+    "returned_total_tokens": 0,
+    "billing_usd": null,
+    "billing_note": "Azure usage is recorded; no Azure billing export is available.",
+    "recent_5min_attempts": 0,
+    "recent_5min_429": 0
+  },
+  "audio": {
+    "attempts": 7,
+    "success": 6,
+    "response_models": {
+      "gemini-3.8-flash": 7
+    },
+    "http_errors": {},
+    "error_types": {
+      "ValueError": 1
+    },
+    "returned_total_tokens": 12530,
+    "attempts_without_usage": 0,
+    "provider_reported_cost_usd": null,
+    "attempts_without_cost": 7
+  },
+  "perception": {
+    "attempts": 5,
+    "success": 5,
+    "response_models": {
+      "gemini-3.8-flash": 5
+    },
+    "http_errors": {},
+    "error_types": {},
+    "returned_total_tokens": 196480,
+    "attempts_without_usage": 0,
+    "provider_reported_cost_usd": null,
+    "attempts_without_cost": 5
+  },
+  "configuration": {
+    "protocol": "blackai-gemini-azure-full-episode-graph-v2",
+    "base_url": "https://yifanyang-foundry-eastus2.cognitiveservices.azure.com/",
+    "azure_transport": {
+      "provider": "azure",
+      "api_version": "2025-01-01-preview",
+      "authentication": "azure_cli",
+      "credential_context": "/home/azureuser/.azure"
+    },
+    "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+    "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+    "question_count": 558,
+    "video_count": 141,
+    "code_hash": "250f434224e257325c3ab512a5cf91d2c0662cbbe91a6a2ef72e923020dfeff9",
+    "orchestrator_sha256": "30f86ed62ce9fab3ec726b534c65847b0fc8c1eabde8ea3fbd7a43714a64f6c7",
+    "git_revision": "3c0d8fb0ab4185810820c5cfed8c76360bc5734c",
+    "model": "gpt-6-astra",
+    "judge_model": "gpt-6-astra",
+    "audio_model": "gemini-3.8-flash",
+    "embedding_model": "gemini-embedding-2",
+    "reasoning_effort": "medium",
+    "window_seconds": 20.0,
+    "padding": 2.0,
+    "fps": 1.0,
+    "max_frames": 24,
+    "max_pixels": 200704,
+    "max_tokens": 8192,
+    "retrieval": "graph",
+    "top_k": 12,
+    "evidence_chars": 48000,
+    "inspections": 0,
+    "scoring": "unchanged official episode scorer; earliest successful judgment retained",
+    "pilot_question_ids": [
+      "G2_Q000041",
+      "G2_Q000042",
+      "G2_Q000271",
+      "G2_Q000272",
+      "G2_Q000465",
+      "G2_Q000466",
+      "G2_Q000467",
+      "G2_Q000468",
+      "G2_Q000469"
+    ],
+    "development_overlap_explicit": true,
+    "perception_model": "gemini-3.8-flash",
+    "perception_base_url": "https://www.blackaicoding.com/v1beta",
+    "perception_reasoning_effort": "medium",
+    "perception_temperature": 1.0,
+    "perception_max_tokens": 32768,
+    "audio_base_url": "https://www.blackaicoding.com/v1beta",
+    "audio_reasoning_effort": "low",
+    "embedding_base_url": "https://www.blackaicoding.com/v1beta",
+    "embedding_backend": "gemini-native",
+    "memory_continues_without_embedding_service": true
+  },
+  "launch": {
+    "pid": 3497634,
+    "cwd": "/mnt/data1/zyf/LongEmo-blackai-e09-v2",
+    "started_unix": 1789619576.3566263,
+    "git_revision": "3c0d8fb0ab4185810820c5cfed8c76360bc5734c",
+    "defer_answers": true
+  },
+  "expected_windows": 8342,
+  "expected_videos": 141,
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 0,
+      "coverage": 0.0,
+      "statuses": {
+        "pending": 558
+      },
+      "normalized_mean": null,
+      "percent_score": null
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 235
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 194
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 129
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 41
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 88
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": null,
+      "unweighted_percent": null,
+      "weighted": null,
+      "weighted_percent": null
+    }
+  },
+  "embedding": {
+    "attempts": 0,
+    "success": 0,
+    "response_models": {},
+    "http_errors": {},
+    "error_types": {},
+    "returned_total_tokens": 0,
+    "attempts_without_usage": 0,
+    "provider_reported_cost_usd": null,
+    "attempts_without_cost": 0
+  },
+  "video_outcomes": {},
+  "response_diagnostics": {
+    "responses": 12,
+    "finish_reasons": {
+      "STOP": 12
+    },
+    "returned_total_tokens": 209010,
+    "note": "Observability added during resume; overlaps call-ledger tokens, never add these totals together."
+  },
+  "full_score_complete": false
+}
