@@ -175,6 +175,9 @@ class AzureTest(unittest.TestCase):
             gemini = perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI) and cmd[4] == 'build'
             if native and gemini:
                 self.assertEqual(cmd[3],'experiments.zyf.native_worker')
+                self.assertEqual(cmd[cmd.index('--max-tokens')+1],'32768')
+            else:
+                self.assertEqual(cmd[cmd.index('--max-tokens')+1],'8192')
             self.assertEqual(cmd[cmd.index('--model')+1],perception if gemini else full.MODEL)
             self.assertEqual(cmd[cmd.index('--base-url')+1],(full.BLACKAI_URL if native else full.OPENROUTER_URL) if gemini else full.BASE_URL)
             self.assertNotIn('MODEL_API_KEY',kwargs['env'])

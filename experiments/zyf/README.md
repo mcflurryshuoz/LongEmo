@@ -172,3 +172,13 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 - A single diagnostic request reproduced the exact failed W4 input fingerprint and model settings, returning STOP, no prompt block, 6830 output characters and 41703 total tokens. Its output was not inserted into the memory or scored. Successful diagnostic output does not prove the cause of earlier failures. [Sanitized diagnostic metadata](results/blackai_gemini38_gpt6_full_v1/native_response_stop.json).
 - Added a native worker wrapper that records candidate count, stop reasons and usage before calling the unchanged parser. It preserves return values and exceptions, excludes response text/keys, and changes no model requests or evidence. This scheduler/observability revision keeps the same method/evaluator hash and is safe to resume through the existing immutable-manifest checks. The original execution manifest remains intact.
 - Applicable checks now total 46, including the new metadata/exception-preservation regression; the updated 18-test native/Azure subset passed. The read-only `native_status.py` exporter reports unknown billing as null and keeps metadata-token totals separate to prevent double counting.
+
+- Observability revision c0dab97a11f4c5f34a7eb670fae34df54c55a2f5 was pushed to zyf. Resumed E09 from `/mnt/data1/zyf/LongEmo-blackai-e09-ops2` with PID 3480015 at Unix time 1789619257.7963574, retaining the original model/source/data manifest and launch history. Embedding remains explicitly deferred pending account model access.
+
+
+### E09 v2: correct the native perception output budget
+
+- The added metadata captured a real W4 MAX_TOKENS response: 8654 thought tokens, 319 reported candidate tokens and only 977 output characters, with maxOutputTokens 8192. The JSON truncation is an output-limit failure, not an established content refusal. Earlier parser failures with missing raw metadata remain unclassified.
+- Retired v1, stopped its own supervisor group and retained the three saved windows, both execution revisions and all ledgers. No old perception/prediction/score is imported into v2.
+- V2 uses maxOutputTokens 32768 for native Gemini perception only. Audio remains 4096; Azure planning, answering and official judgment remain 8192. Thinking effort, temperature, sampler, prompts and retrieval settings are unchanged. The new protocol/run/cache version freezes the larger generation budget explicitly. Method/evaluator source hash remains unchanged.
+- New run and cache: `blackai_gemini38_gpt6_full_v2`. It still defers answers until native Gemini Embedding 2 is enabled for the account, and retains the complete 141-video/558-question denominator.

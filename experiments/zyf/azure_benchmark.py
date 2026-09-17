@@ -261,9 +261,10 @@ def main(argv=None):
                 perception_model=GEMINI_PERCEPTION, perception_base_url=OPENROUTER_URL,
                 perception_reasoning_effort='medium', perception_temperature=1.0)
         elif native:
-            config.update(protocol='blackai-gemini-azure-full-episode-graph-v1',
+            config.update(protocol='blackai-gemini-azure-full-episode-graph-v2',
                 perception_model=NATIVE_GEMINI, perception_base_url=BLACKAI_URL,
                 perception_reasoning_effort='medium', perception_temperature=1.0,
+                perception_max_tokens=32768,
                 audio_model=audio_model, audio_base_url=BLACKAI_URL,
                 audio_reasoning_effort='low', embedding_model=NATIVE_EMBEDDING,
                 embedding_base_url=BLACKAI_URL, embedding_backend='gemini-native',
@@ -349,6 +350,8 @@ def main(argv=None):
         if args.perception_model in (GEMINI_PERCEPTION, NATIVE_GEMINI):
             perception_inference[perception_inference.index('--model')+1] = args.perception_model
             perception_inference[perception_inference.index('--base-url')+1] = BLACKAI_URL if native else OPENROUTER_URL
+            if native:
+                perception_inference[perception_inference.index('--max-tokens')+1] = '32768'
             perception_config = out/'perception_request_settings.json'
             settings = {'generationConfig': {'thinkingConfig': {'thinkingLevel': 'medium'}}} if native else {'reasoning': {'effort': 'medium'}}
             write_json(perception_config, settings)

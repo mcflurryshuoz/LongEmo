@@ -15,7 +15,7 @@ def main():
     p.add_argument('--execute',action='store_true')
     args=p.parse_args()
     runtime=args.runtime.resolve();repo=Path(__file__).resolve().parents[2]
-    run=runtime/'runs/blackai_gemini38_gpt6_full_v1';run.mkdir(parents=True,exist_ok=True)
+    run=runtime/'runs/blackai_gemini38_gpt6_full_v2';run.mkdir(parents=True,exist_ok=True)
     launch=run/'launch.json'
     if launch.exists():
         previous=json.loads(launch.read_text())
@@ -32,7 +32,7 @@ def main():
     command=[str(runtime/'embedding-venv/bin/python'),'-u','-m','experiments.zyf.azure_benchmark',
         '--data-root',str(runtime/'data'),'--output-dir',str(run),
         '--credential-file',str(runtime/'api_config.json'),
-        '--embedding-cache-dir',str(runtime/'cache/blackai_gemini38_gpt6_full_v1'),
+        '--embedding-cache-dir',str(runtime/'cache/blackai_gemini38_gpt6_full_v2'),
         '--perception-model','gemini-3.8-flash','--video-workers',str(args.video_workers),
         '--startup-videos','1','--workers','2','--video-attempts','2']
     if args.defer_answers:command.append('--defer-answers')
