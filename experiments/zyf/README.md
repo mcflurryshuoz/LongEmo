@@ -1,5 +1,7 @@
 # zyf experiment log
 
+[Research plan](plan.md) · [Progress summary](progress.md) · [Method overview](../../README.md#zyf-分支当前方法整体流程)
+
 Date: 2026-09-16. Host: `g450` (`t2vg-a100-G4-50`). Original repository base: `b29b70a361bf6d7b08d4907167720f288fdbc2fe`.
 
 ## Data and environment
@@ -197,3 +199,5 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 - Q42 audit: E06 memory contains the final smile in E83 (359.4–360.8 s), but the retrieval output excludes it; its lightweight timeline stops at 117 s and its selected events at 345.7 s. E08 includes its matching ending event E42 and scores 4/4 versus 2/4. This supports investigating evidence coverage/compression before scaling. Q8 drops from 1/1 to 0/1 because the Gemini answer chooses a different anger peak; its upstream cause remains unclassified.
 - [Preliminary review](results/preliminary_review_20260917/review.md), [sanitized JSON](results/preliminary_review_20260917/review.json). No new API calls, answer generation or rescoring occurred after the user pause; the preliminary review does not claim frame-by-frame manual verification.
 - Matrix resource checks before the pause verified GPT-6 chat from the local proxy, but not embeddings; standard compatible/native embedding paths returned 404 and g450 direct TCP connection timed out. The new key was never saved to source or credential files. All further API probes were stopped.
+
+- Exported the [paused E09 v2 checkpoint](results/blackai_gemini38_gpt6_full_v2/paused/progress.md) and [machine-readable snapshot](results/blackai_gemini38_gpt6_full_v2/paused/progress.json) from preserved run files. Counts remain 995/8342 windows, 21/141 complete memories and 0/558 scored. The earlier 450-window snapshot remains a historical checkpoint. [Progress summary](progress.md) now links the current checkpoint, paired scores and pending validation; no new model calls or resume occurred.
