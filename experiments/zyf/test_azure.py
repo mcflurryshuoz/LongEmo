@@ -140,7 +140,7 @@ class AzureTest(unittest.TestCase):
         write_json(key,{'GEMINI_API_KEY':'native-test-placeholder'})
         attempts=[]
         def run(cmd, **kwargs):
-            self.assertEqual(cmd[3:5],['methods.longemo','build'])
+            self.assertEqual(cmd[3:5],['experiments.zyf.native_worker','build'])
             self.assertNotIn('OPENROUTER_API_KEY',kwargs['env'])
             vid=full.read(cmd[cmd.index('--data-path')+1])[0]['video_id']
             attempts.append(vid)
@@ -172,7 +172,9 @@ class AzureTest(unittest.TestCase):
         def run(cmd, **kwargs):
             commands.append(cmd)
             native = perception == full.NATIVE_GEMINI
-            gemini = perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI) and cmd[3:5] == ['methods.longemo','build']
+            gemini = perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI) and cmd[4] == 'build'
+            if native and gemini:
+                self.assertEqual(cmd[3],'experiments.zyf.native_worker')
             self.assertEqual(cmd[cmd.index('--model')+1],perception if gemini else full.MODEL)
             self.assertEqual(cmd[cmd.index('--base-url')+1],(full.BLACKAI_URL if native else full.OPENROUTER_URL) if gemini else full.BASE_URL)
             self.assertNotIn('MODEL_API_KEY',kwargs['env'])

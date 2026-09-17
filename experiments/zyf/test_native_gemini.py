@@ -88,5 +88,24 @@ class NativeGeminiTest(unittest.TestCase):
             self.assertEqual(record['http_status'],200)
             self.assertEqual(record['service_error_code'],'content_filter')
 
+    def test_response_observer_preserves_parser_behavior_and_excludes_content(self):
+        from experiments.zyf.native_worker import observed_parser
+        from evaluation.inference.adapters.gemini import parse_response
+        with tempfile.TemporaryDirectory() as tmp:
+            ledger=Path(tmp)/'responses.jsonl'
+            client=Client('gemini-3.8-flash','https://www.blackaicoding.com/v1beta','gemini','secret-key')
+            raw={'modelVersion':'gemini-3.8-flash','candidates':[{'finishReason':'MAX_TOKENS',
+                'content':{'parts':[{'text':'private-response-text'}]}}], 'usageMetadata':{'totalTokenCount':123}}
+            parser=observed_parser(parse_response,ledger)
+            with self.assertRaisesRegex(RuntimeError,'MAX_TOKENS'):parser(client,raw)
+            raw['candidates'][0]['finishReason']='STOP'
+            self.assertEqual(parser(client,raw),parse_response(client,raw))
+            content=ledger.read_text()
+            self.assertNotIn('private-response-text',content)
+            self.assertNotIn('secret-key',content)
+            rows=[json.loads(line) for line in content.splitlines()]
+            self.assertEqual(rows[0]['finish_reasons'],['MAX_TOKENS'])
+            self.assertEqual(rows[0]['usage']['totalTokenCount'],123)
+
 
 if __name__=='__main__':unittest.main()

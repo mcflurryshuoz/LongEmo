@@ -321,6 +321,8 @@ def main(argv=None):
             uses_openrouter = not native and name != 'score'
             if uses_openrouter:
                 credits()
+            if native and name == 'build':
+                module = 'experiments.zyf.native_worker'
             command = [sys.executable, '-u', '-m', module] + list(map(str, arguments))
             write_json(folder/(name+'_command.json'), {'command': command, 'time_unix': time.time()})
             with (folder/(name+'.log')).open('a') as log:

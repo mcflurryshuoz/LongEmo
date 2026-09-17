@@ -1,0 +1,49 @@
+{
+  "time_unix": 1789619031.0076573,
+  "video_id": "G2_V000016",
+  "window_id": "W00004",
+  "request_hash": "7e556814d433cd34effec1f10d94e4066ba32a8fe87bb8779d5f0af65f9d9e7b",
+  "generation_config": {
+    "maxOutputTokens": 8192,
+    "temperature": 1.0,
+    "thinkingConfig": {
+      "thinkingLevel": "medium"
+    }
+  },
+  "purpose": "one-attempt response stop/usage diagnostic",
+  "request_body_sha256": "6835b95229f37ffc2df013ed100cd64436253eb4f96af5d68ec3c6077c09d995",
+  "elapsed_seconds": 27.82942366041243,
+  "response_model": "gemini-3.8-flash",
+  "candidate_count": 1,
+  "finish_reasons": [
+    "STOP"
+  ],
+  "output_text_characters": [
+    6830
+  ],
+  "usage": {
+    "cachedContentTokenCount": 26957,
+    "candidatesTokenCount": 2098,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1907
+      }
+    ],
+    "promptTokenCount": 33202,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 3304
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 26880
+      }
+    ],
+    "serviceTier": "standard",
+    "thoughtsTokenCount": 6403,
+    "totalTokenCount": 41703
+  },
+  "prompt_block_reason": null
+}

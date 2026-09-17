@@ -37,3 +37,14 @@ Cache: `/mnt/data1/zyf/LongEmo-runtime/cache/blackai_gemini38_gpt6_full_v1`.
 The launcher retains its exact command, commit, working directory and PID. An OS lock prevents duplicate supervisors. Failed startup attempts remain bounded; three exhausted non-policy video failures stop further admission. Known policy refusals are terminal and recorded without automatic retries. Native perception authentication/credit failures stop admission. Azure uses the existing shared 500000-token/minute, 120-request/minute, 24-in-flight limiter. No local GPU model is allocated.
 
 Report actual model IDs and token usage from ledgers. BlackAI has not exposed billed cost/balance in these responses, so token counts must not be presented as confirmed dollar costs. Full benchmark completion requires 558/558 successful official judgments; construction progress and test results are not accuracy scores.
+
+Read-only progress export from the `zyf` checkout:
+
+```sh
+/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python -m experiments.zyf.native_status --run /mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini38_gpt6_full_v1 --output /mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini38_gpt6_full_v1/reports/progress
+```
+
+This exporter reads the pinned run while its execution checkout stays unchanged. It reports model IDs, successful/failed calls, token totals, complete memories, saved windows and the full question denominator; unavailable billing is represented as null.
+
+
+Native build subprocesses now enter through `experiments.zyf.native_worker`, which wraps only the response parser for metadata logging. Inputs, returned values and raised exceptions are unchanged. Stop metadata is stored under each video's `build_memory/native_responses.jsonl`; its usage overlaps the main call ledgers and must not be added to them. The initial W4 parser failures lacked this metadata. A separate exact-input diagnostic returned STOP, so their cause remains unclassified.
