@@ -1,0 +1,218 @@
+{
+  "now": 1789747925.036337,
+  "status": "waiting_data",
+  "updated_unix": 1789747911.1331692,
+  "n_scored": 213,
+  "active_videos": [],
+  "scheduling_paused": false,
+  "queued_videos": 47,
+  "video_status_counts": {
+    "complete": 59,
+    "blocked_request_precondition": 8,
+    "blocked_input_policy": 27
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 213,
+      "coverage": 0.3817204301075269,
+      "statuses": {
+        "ok": 213,
+        "pending": 345
+      },
+      "normalized_mean": 0.6068075117370894,
+      "percent_score": 60.680751173708934
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 88,
+        "coverage": 0.37446808510638296,
+        "statuses": {
+          "ok": 88,
+          "pending": 147
+        },
+        "normalized_mean": 0.5596590909090909,
+        "percent_score": 55.96590909090909,
+        "raw_mean": 2.2386363636363638,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 69,
+        "coverage": 0.3556701030927835,
+        "statuses": {
+          "ok": 69,
+          "pending": 125
+        },
+        "normalized_mean": 0.5942028985507246,
+        "percent_score": 59.42028985507246,
+        "raw_mean": 0.5942028985507246,
+        "max_score": 1,
+        "acc": 0.5942028985507246
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 56,
+        "coverage": 0.43410852713178294,
+        "statuses": {
+          "ok": 56,
+          "pending": 73
+        },
+        "normalized_mean": 0.6964285714285715,
+        "percent_score": 69.64285714285715
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 22,
+        "coverage": 0.5365853658536586,
+        "statuses": {
+          "ok": 22,
+          "pending": 19
+        },
+        "normalized_mean": 0.5,
+        "percent_score": 50,
+        "raw_mean": 0.5,
+        "max_score": 1,
+        "acc": 0.5
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 34,
+        "coverage": 0.38636363636363635,
+        "statuses": {
+          "ok": 34,
+          "pending": 54
+        },
+        "normalized_mean": 0.823529411764706,
+        "percent_score": 82.3529411764706,
+        "raw_mean": 2.4705882352941178,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.6964285714285715,
+      "unweighted_percent": 69.64285714285715,
+      "weighted": 0.6294117647058823,
+      "weighted_percent": 62.94117647058823
+    }
+  },
+  "transfer": {
+    "verified": 94,
+    "expected": 141,
+    "verified_bytes": 35027071096,
+    "complete": false,
+    "updated_unix": 1789747921.197722,
+    "accepted": [
+      "G2_V000001.mp4",
+      "G2_V000002.mp4",
+      "G2_V000003.mp4",
+      "G2_V000004.mp4",
+      "G2_V000005.mp4",
+      "G2_V000006.mp4",
+      "G2_V000007.mp4",
+      "G2_V000008.mp4",
+      "G2_V000009.mp4",
+      "G2_V000010.mp4",
+      "G2_V000011.mp4",
+      "G2_V000012.mp4",
+      "G2_V000013.mp4",
+      "G2_V000014.mp4",
+      "G2_V000015.mp4",
+      "G2_V000016.mp4",
+      "G2_V000017.mp4",
+      "G2_V000018.mp4",
+      "G2_V000019.mp4",
+      "G2_V000020.mp4",
+      "G2_V000021.mp4",
+      "G2_V000022.mp4",
+      "G2_V000023.mp4",
+      "G2_V000024.mp4",
+      "G2_V000025.mp4",
+      "G2_V000026.mp4",
+      "G2_V000027.mp4",
+      "G2_V000028.mp4",
+      "G2_V000029.mp4",
+      "G2_V000030.mp4",
+      "G2_V000031.mp4",
+      "G2_V000032.mp4",
+      "G2_V000033.mp4",
+      "G2_V000034.mp4",
+      "G2_V000035.mp4",
+      "G2_V000036.mp4",
+      "G2_V000037.mp4",
+      "G2_V000038.mp4",
+      "G2_V000039.mp4",
+      "G2_V000040.mp4",
+      "G2_V000041.mp4",
+      "G2_V000042.mp4",
+      "G2_V000043.mp4",
+      "G2_V000044.mp4",
+      "G2_V000045.mp4",
+      "G2_V000046.mp4",
+      "G2_V000047.mp4",
+      "G2_V000048.mp4",
+      "G2_V000049.mp4",
+      "G2_V000050.mp4",
+      "G2_V000051.mp4",
+      "G2_V000052.mp4",
+      "G2_V000053.mp4",
+      "G2_V000054.mp4",
+      "G2_V000055.mp4",
+      "G2_V000056.mp4",
+      "G2_V000057.mp4",
+      "G2_V000058.mp4",
+      "G2_V000059.mp4",
+      "G2_V000060.mp4",
+      "G2_V000061.mp4",
+      "G2_V000062.mp4",
+      "G2_V000063.mp4",
+      "G2_V000064.mp4",
+      "G2_V000065.mp4",
+      "G2_V000066.mp4",
+      "G2_V000067.mp4",
+      "G2_V000068.mp4",
+      "G2_V000069.mp4",
+      "G2_V000070.mp4",
+      "G2_V000071.mp4",
+      "G2_V000072.mp4",
+      "G2_V000073.mp4",
+      "G2_V000074.mp4",
+      "G2_V000075.mp4",
+      "G2_V000076.mp4",
+      "G2_V000078.mp4",
+      "G2_V000081.mp4",
+      "G2_V000082.mp4",
+      "G2_V000084.mp4",
+      "G2_V000086.mp4",
+      "G2_V000087.mp4",
+      "G2_V000088.mp4",
+      "G2_V000089.mp4",
+      "G2_V000095.mp4",
+      "G2_V000096.mp4",
+      "G2_V000097.mp4",
+      "G2_V000099.mp4",
+      "G2_V000100.mp4",
+      "G2_V000102.mp4",
+      "G2_V000106.mp4",
+      "G2_V000107.mp4",
+      "G2_V000109.mp4",
+      "G2_V000112.mp4"
+    ]
+  },
+  "completed_windows": 4042,
+  "process": "   PID     ELAPSED COMMAND\n244497    06:31:45 python3\n",
+  "driver_tail": [
+    "{\"video_id\": \"G2_V000097\", \"status\": \"complete\", \"n_scored\": 4, \"video_attempt\": 1}",
+    "{\"video_id\": \"G2_V000044\", \"status\": \"complete\", \"n_scored\": 4, \"video_attempt\": 1}",
+    "{\"video_id\": \"G2_V000041\", \"status\": \"complete\", \"n_scored\": 5, \"video_attempt\": 1}",
+    "{\"video_id\": \"G2_V000043\", \"status\": \"blocked_input_policy\", \"rejection\": {\"source\": \"/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000043/plans/calls/G2_Q000135.jsonl\", \"purpose\": \"plan:G2_Q000135\", \"service_error_code\": \"content_filter\"}, \"video_attempt\": 1}",
+    "{\"video_id\": \"G2_V000040\", \"status\": \"complete\", \"n_scored\": 2, \"video_attempt\": 1}",
+    "{\"video_id\": \"G2_V000045\", \"status\": \"complete\", \"n_scored\": 3, \"video_attempt\": 1}"
+  ]
+}
