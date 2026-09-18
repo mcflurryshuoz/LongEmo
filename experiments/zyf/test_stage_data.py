@@ -2,9 +2,23 @@ import hashlib,json,tempfile,unittest,sys
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
-from experiments.zyf.stage_data import receiver,scp_once
+from experiments.zyf.stage_data import receiver,scp_once,sender
 
 class DataAdmissionTest(unittest.TestCase):
+    def test_failed_marker_retries_with_unique_names_and_atomic_state(self):
+        args,name=self.run_case()
+        (args.videos/name).write_bytes(b'valid video')
+        args.already_staged=[];args.port=12345;args.known_hosts=args.videos/'known_hosts'
+        args.remote_uploads='/task/uploads'
+        with patch('experiments.zyf.stage_data.scp_once',side_effect=[0,1,0,0]) as send, \
+             patch('experiments.zyf.stage_data.time.sleep'):
+            sender(args)
+        calls=[c.args[0] for c in send.call_args_list]
+        self.assertNotEqual(calls[0][-1],calls[2][-1])
+        self.assertNotEqual(calls[1][-1],calls[3][-1])
+        self.assertIn(name,json.loads(args.status.read_text())['sent'])
+        self.assertFalse(args.status.with_suffix('.tmp').exists())
+
     def test_interactive_transport_submits_only_one_empty_password(self):
         with tempfile.TemporaryDirectory() as d:
             command=[sys.executable,'-c',"import sys; print('password:',end='',flush=True); assert sys.stdin.readline()=='\\n'"]

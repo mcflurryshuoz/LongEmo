@@ -134,10 +134,19 @@ def sender(args):
                 time.sleep(10);continue
             marker=args.status.parent/(tag+'.ready.json');marker.write_text(json.dumps({'video':name,'upload':tag+'.part'}))
             rc=scp_once(scp+[str(marker),target+marker.name],log,90)
-            if rc:raise RuntimeError('SCP commit marker failed; uploaded media not admitted')
+            if rc:
+                failures+=1
+                print(json.dumps({'video':name,'stage':'commit_marker','transport_returncode':rc,
+                                  'retry_with_new_upload':failures<3}),flush=True)
+                if failures>=3:raise RuntimeError('three SCP failures; tunnel availability must be checked')
+                # Never re-upload to a possibly partial remote filename. The
+                # next attempt gets new media/marker names; receiver deduplicates.
+                time.sleep(10)
+                continue
             marker.unlink();failures=0
             state['sent'][name]={'bytes':files[name]['bytes'],'time_unix':time.time()}
-            args.status.write_text(json.dumps(state,indent=2))
+            temporary=args.status.with_suffix('.tmp')
+            temporary.write_text(json.dumps(state,indent=2));os.replace(temporary,args.status)
             print(json.dumps({'sent':name,'count':len(state['sent']),'expected':len(files)}),flush=True)
         if not ready:time.sleep(10)
 
