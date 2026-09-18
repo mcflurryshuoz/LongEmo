@@ -46,6 +46,13 @@ class DataAdmissionTest(unittest.TestCase):
             command=[sys.executable,'-c',"import sys; print('password:',end='',flush=True); assert sys.stdin.readline()=='\\n'"]
             self.assertEqual(scp_once(command,Path(d)/'log',5),0)
 
+    def test_transport_preserves_exit_and_signal_failures(self):
+        with tempfile.TemporaryDirectory() as d:
+            for code,expected in [('import sys; sys.exit(7)',7),
+                                  ('import os,signal; os.kill(os.getpid(),signal.SIGTERM)',-15)]:
+                with self.subTest(expected=expected):
+                    self.assertEqual(scp_once([sys.executable,'-c',code],Path(d)/'log',5),expected)
+
     def test_transport_authentication_rejection_is_not_retried(self):
         with tempfile.TemporaryDirectory() as d:
             command=[sys.executable,'-c',"import sys,time; print('password:',end='',flush=True); sys.stdin.readline(); print('Permission denied. password:',flush=True); time.sleep(10)"]

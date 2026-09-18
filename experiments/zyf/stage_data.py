@@ -56,7 +56,10 @@ def scp_once(command, log_path, timeout):
                         _,status=os.waitpid(pid,0)
                         if b'permission denied' in tail.lower():
                             raise RuntimeError('SSH authentication rejected; user interaction required')
-                        return os.waitstatus_to_exitcode(status)
+                        # g450's system Python predates os.waitstatus_to_exitcode.
+                        if os.WIFEXITED(status):return os.WEXITSTATUS(status)
+                        if os.WIFSIGNALED(status):return -os.WTERMSIG(status)
+                        raise RuntimeError('unexpected SCP child wait status')
                     log.write(data);log.flush();tail=(tail+data)[-2048:]
                     if sent and (b'permission denied' in tail.lower() or b'password:' in tail.lower()):
                         os.killpg(pid,signal.SIGTERM)
