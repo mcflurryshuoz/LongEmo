@@ -1,0 +1,508 @@
+{
+  "captured_unix": 1789724489.6098135,
+  "resume": {
+    "pid": 244497,
+    "git_revision": "f367aabf641924b23a75d0703af67a48a71a4bea",
+    "method_hash": "15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88",
+    "orchestrator_sha256": "6d29259d8dd60795f5ad063ca2799f0a7144407c3a51f25e0530c3d81b27d3b1",
+    "started_unix": 1789724419.7841208,
+    "archive": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/resume_1789724419",
+    "command": [
+      "python3",
+      "-u",
+      "-m",
+      "experiments.zyf.azure_benchmark",
+      "--data-root",
+      "/root/longemo/runtime/data",
+      "--output-dir",
+      "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1",
+      "--credential-file",
+      "/root/longemo/runtime/private/answer.json",
+      "--embedding-cache-dir",
+      "/root/longemo/runtime/embedding_cache_e10",
+      "--perception-model",
+      "gemini-3.8-flash",
+      "--matrix-perception",
+      "--answer-base-url",
+      "https://matrixllm.alipay.com/v1",
+      "--embedding-backend",
+      "gemini",
+      "--wait-for-data",
+      "--startup-videos",
+      "1",
+      "--video-workers",
+      "16",
+      "--workers",
+      "2",
+      "--video-attempts",
+      "2",
+      "--execute"
+    ],
+    "before_n_scored": 66,
+    "previous_scored_videos": 23,
+    "reason": "user requested continuation; quarantine HTTP 428 videos and continue unrelated videos"
+  },
+  "status": {
+    "status": "running",
+    "updated_unix": 1789724479.600822,
+    "question_count": 558,
+    "video_count": 141,
+    "available_videos": 58,
+    "initial_available_credits": 20.124802664999997,
+    "videos": {
+      "G2_V000016": {
+        "video_id": "G2_V000016",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000007": {
+        "video_id": "G2_V000007",
+        "status": "blocked_request_precondition",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000007/audio/calls.jsonl",
+          "purpose": "audio_observer:W00003",
+          "http_status": 428,
+          "service_error_code": "428",
+          "cause": "unknown; request retained without resubmission"
+        }
+      },
+      "G2_V000014": {
+        "video_id": "G2_V000014",
+        "status": "blocked_request_precondition",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000014/audio/calls.jsonl",
+          "purpose": "audio_observer:W00005",
+          "http_status": 428,
+          "service_error_code": "428",
+          "cause": "unknown; request retained without resubmission"
+        }
+      },
+      "G2_V000009": {
+        "video_id": "G2_V000009",
+        "status": "blocked_request_precondition",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000009/calls.jsonl",
+          "purpose": "perception:G2_V000009:W00018",
+          "http_status": 428,
+          "service_error_code": "428",
+          "cause": "unknown; request retained without resubmission"
+        }
+      },
+      "G2_V000011": {
+        "video_id": "G2_V000011",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000011/audio/calls.jsonl",
+          "purpose": "audio_observer:W00022",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000001": {
+        "video_id": "G2_V000001",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000022": {
+        "video_id": "G2_V000022",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000022/audio/calls.jsonl",
+          "purpose": "audio_observer:W00013",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000004": {
+        "video_id": "G2_V000004",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000019": {
+        "video_id": "G2_V000019",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000013": {
+        "video_id": "G2_V000013",
+        "status": "complete",
+        "n_scored": 4,
+        "video_attempt": 1
+      },
+      "G2_V000010": {
+        "video_id": "G2_V000010",
+        "status": "complete",
+        "n_scored": 3,
+        "video_attempt": 1
+      },
+      "G2_V000021": {
+        "video_id": "G2_V000021",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000015": {
+        "video_id": "G2_V000015",
+        "status": "complete",
+        "n_scored": 5,
+        "video_attempt": 1
+      },
+      "G2_V000008": {
+        "video_id": "G2_V000008",
+        "status": "complete",
+        "n_scored": 1,
+        "video_attempt": 1
+      },
+      "G2_V000027": {
+        "video_id": "G2_V000027",
+        "status": "complete",
+        "n_scored": 3,
+        "video_attempt": 1
+      },
+      "G2_V000005": {
+        "video_id": "G2_V000005",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000026": {
+        "video_id": "G2_V000026",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000030": {
+        "video_id": "G2_V000030",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000003": {
+        "video_id": "G2_V000003",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000003/calls.jsonl",
+          "purpose": "perception:G2_V000003:W00034",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000017": {
+        "video_id": "G2_V000017",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000018": {
+        "video_id": "G2_V000018",
+        "status": "complete",
+        "n_scored": 1,
+        "video_attempt": 1
+      },
+      "G2_V000038": {
+        "video_id": "G2_V000038",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000038/audio/calls.jsonl",
+          "purpose": "audio_observer:W00022",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000023": {
+        "video_id": "G2_V000023",
+        "status": "complete",
+        "n_scored": 5,
+        "video_attempt": 1
+      },
+      "G2_V000006": {
+        "video_id": "G2_V000006",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000024": {
+        "video_id": "G2_V000024",
+        "status": "complete",
+        "n_scored": 5,
+        "video_attempt": 1
+      },
+      "G2_V000031": {
+        "video_id": "G2_V000031",
+        "status": "complete",
+        "n_scored": 3,
+        "video_attempt": 1
+      },
+      "G2_V000029": {
+        "video_id": "G2_V000029",
+        "status": "complete",
+        "n_scored": 4,
+        "video_attempt": 1
+      },
+      "G2_V000049": {
+        "video_id": "G2_V000049",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000049/audio/calls.jsonl",
+          "purpose": "audio_observer:W00001",
+          "service_error_code": "content_filter"
+        },
+        "video_attempt": 1
+      },
+      "G2_V000087": {
+        "video_id": "G2_V000087",
+        "status": "blocked_request_precondition",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000087/audio/calls.jsonl",
+          "purpose": "audio_observer:W00002",
+          "http_status": 428,
+          "service_error_code": "428",
+          "cause": "unknown; request retained without resubmission"
+        },
+        "video_attempt": 1
+      },
+      "G2_V000074": {
+        "video_id": "G2_V000074",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000074/audio/calls.jsonl",
+          "purpose": "audio_observer:W00003",
+          "service_error_code": "content_filter"
+        },
+        "video_attempt": 1
+      }
+    },
+    "active_videos": [
+      "G2_V000033",
+      "G2_V000034",
+      "G2_V000035",
+      "G2_V000037",
+      "G2_V000042",
+      "G2_V000046",
+      "G2_V000052",
+      "G2_V000054",
+      "G2_V000060",
+      "G2_V000067",
+      "G2_V000069",
+      "G2_V000073",
+      "G2_V000081",
+      "G2_V000086",
+      "G2_V000089"
+    ],
+    "queued_videos": 96,
+    "scheduling_paused": false,
+    "n_scored": 66
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 66,
+      "coverage": 0.11827956989247312,
+      "statuses": {
+        "ok": 66,
+        "pending": 492
+      },
+      "normalized_mean": 0.5454545454545454,
+      "percent_score": 54.54545454545454
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 23,
+        "coverage": 0.09787234042553192,
+        "statuses": {
+          "ok": 23,
+          "pending": 212
+        },
+        "normalized_mean": 0.5652173913043478,
+        "percent_score": 56.52173913043478,
+        "raw_mean": 2.260869565217391,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 21,
+        "coverage": 0.10824742268041238,
+        "statuses": {
+          "ok": 21,
+          "pending": 173
+        },
+        "normalized_mean": 0.5714285714285714,
+        "percent_score": 57.14285714285714,
+        "raw_mean": 0.5714285714285714,
+        "max_score": 1,
+        "acc": 0.5714285714285714
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 22,
+        "coverage": 0.17054263565891473,
+        "statuses": {
+          "ok": 22,
+          "pending": 107
+        },
+        "normalized_mean": 0.49999999999999994,
+        "percent_score": 49.99999999999999
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 15,
+        "coverage": 0.36585365853658536,
+        "statuses": {
+          "ok": 15,
+          "pending": 26
+        },
+        "normalized_mean": 0.4,
+        "percent_score": 40,
+        "raw_mean": 0.4,
+        "max_score": 1,
+        "acc": 0.4
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 7,
+        "coverage": 0.07954545454545454,
+        "statuses": {
+          "ok": 7,
+          "pending": 81
+        },
+        "normalized_mean": 0.7142857142857143,
+        "percent_score": 71.42857142857143,
+        "raw_mean": 2.142857142857143,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.49999999999999994,
+      "unweighted_percent": 49.99999999999999,
+      "weighted": 0.5257142857142858,
+      "weighted_percent": 52.571428571428584
+    }
+  },
+  "transfer": {
+    "verified": 59,
+    "expected": 141,
+    "verified_bytes": 15797961474,
+    "complete": false,
+    "updated_unix": 1789724486.289204,
+    "accepted": [
+      "G2_V000001.mp4",
+      "G2_V000002.mp4",
+      "G2_V000003.mp4",
+      "G2_V000004.mp4",
+      "G2_V000005.mp4",
+      "G2_V000006.mp4",
+      "G2_V000007.mp4",
+      "G2_V000008.mp4",
+      "G2_V000009.mp4",
+      "G2_V000010.mp4",
+      "G2_V000011.mp4",
+      "G2_V000012.mp4",
+      "G2_V000013.mp4",
+      "G2_V000014.mp4",
+      "G2_V000015.mp4",
+      "G2_V000016.mp4",
+      "G2_V000017.mp4",
+      "G2_V000018.mp4",
+      "G2_V000019.mp4",
+      "G2_V000020.mp4",
+      "G2_V000021.mp4",
+      "G2_V000022.mp4",
+      "G2_V000023.mp4",
+      "G2_V000024.mp4",
+      "G2_V000025.mp4",
+      "G2_V000026.mp4",
+      "G2_V000027.mp4",
+      "G2_V000028.mp4",
+      "G2_V000029.mp4",
+      "G2_V000030.mp4",
+      "G2_V000031.mp4",
+      "G2_V000032.mp4",
+      "G2_V000033.mp4",
+      "G2_V000034.mp4",
+      "G2_V000035.mp4",
+      "G2_V000036.mp4",
+      "G2_V000037.mp4",
+      "G2_V000038.mp4",
+      "G2_V000039.mp4",
+      "G2_V000042.mp4",
+      "G2_V000046.mp4",
+      "G2_V000049.mp4",
+      "G2_V000050.mp4",
+      "G2_V000052.mp4",
+      "G2_V000054.mp4",
+      "G2_V000058.mp4",
+      "G2_V000060.mp4",
+      "G2_V000064.mp4",
+      "G2_V000067.mp4",
+      "G2_V000069.mp4",
+      "G2_V000073.mp4",
+      "G2_V000074.mp4",
+      "G2_V000081.mp4",
+      "G2_V000082.mp4",
+      "G2_V000084.mp4",
+      "G2_V000086.mp4",
+      "G2_V000087.mp4",
+      "G2_V000088.mp4",
+      "G2_V000089.mp4"
+    ]
+  },
+  "completed_windows": 1063,
+  "video_windows": {
+    "G2_V000024": 47,
+    "G2_V000010": 25,
+    "G2_V000009": 17,
+    "G2_V000011": 21,
+    "G2_V000004": 15,
+    "G2_V000081": 2,
+    "G2_V000074": 2,
+    "G2_V000006": 57,
+    "G2_V000018": 46,
+    "G2_V000005": 34,
+    "G2_V000087": 1,
+    "G2_V000069": 2,
+    "G2_V000073": 1,
+    "G2_V000003": 33,
+    "G2_V000015": 23,
+    "G2_V000038": 21,
+    "G2_V000028": 78,
+    "G2_V000020": 13,
+    "G2_V000019": 32,
+    "G2_V000001": 13,
+    "G2_V000086": 2,
+    "G2_V000026": 34,
+    "G2_V000012": 67,
+    "G2_V000060": 1,
+    "G2_V000067": 2,
+    "G2_V000014": 4,
+    "G2_V000022": 12,
+    "G2_V000033": 2,
+    "G2_V000046": 1,
+    "G2_V000034": 1,
+    "G2_V000052": 1,
+    "G2_V000037": 2,
+    "G2_V000002": 68,
+    "G2_V000031": 60,
+    "G2_V000008": 36,
+    "G2_V000023": 56,
+    "G2_V000089": 2,
+    "G2_V000021": 27,
+    "G2_V000054": 1,
+    "G2_V000029": 48,
+    "G2_V000007": 2,
+    "G2_V000016": 19,
+    "G2_V000042": 2,
+    "G2_V000013": 33,
+    "G2_V000030": 37,
+    "G2_V000027": 34,
+    "G2_V000017": 26
+  },
+  "previous_score_files_checked": 23,
+  "previous_score_files_changed": [],
+  "validation_tests_passed": 32
+}
