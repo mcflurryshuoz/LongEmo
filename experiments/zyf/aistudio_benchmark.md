@@ -38,6 +38,16 @@ python3 -u -m experiments.zyf.azure_benchmark \
 
 [API 预检](results/aistudio_62910175/)与[进度记录](progress.md)。尚未完成的评测不报告为全量成绩。
 
+## 续跑与单视频服务拒绝
+
+首次运行在完成 66/558 题、1038 个窗口后触发三次构建失败阈值，于 2026-09-18 16:29 暂停。V7/V9/V14/V20 返回 HTTP 428，具体服务原因未知；V3/V11/V22/V38 返回明确的 content_filter。已完成 23 个视频，部分样本归一化均分 54.55%。
+
+用户要求继续后，仅修订调度器：每个请求最近一次记录若为 HTTP 428，将所属视频记作 `blocked_request_precondition`，保留缺失结果，不再提交该请求，也不阻止其他视频调度。明确的内容拒绝继续单独记作 `blocked_input_policy`。两类视频都保留在完整 558 题分母内。认证／额度错误与其他连续构建失败仍会停止调度。
+
+感知、检索、回答、官方 judge 的代码和配置不变，方法哈希仍为 `15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88`。原实验 manifest 保留；调度器修订另记 execution revision。完成的窗口通过原校验后复用，答案和首次成功评分保留，不重新抽取低分结果。
+
+续传先按接收端 SHA-256 校验记录对齐 53 个已到视频，再发送其余文件；g450 下载重开四路并启用 SSH keepalive。隧道仍需保持在线。
+
 ## 用户请求的独立 GPU 负载
 
 按用户追加要求启动了独立 GPU 活动作业，使用原本空闲的 0 号 L20X，约 1.1 GiB 显存，目标 50% 计算占空比，最长 12 小时（截至 2026-09-19 03:10 CST）。实际利用率随采样窗口变化。PID 65954，脚本 `/root/longemo/runtime/ops/gpu_load.py`，状态 `/root/longemo/runtime/ops/gpu_load_status.json`。超过 82°C 或可用显存不足 8 GiB 时停止。

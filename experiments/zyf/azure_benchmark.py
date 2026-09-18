@@ -203,6 +203,34 @@ def provider_rejection(memory):
     return None
 
 
+def recorded_video_block(folder, memory):
+    """Quarantine rejected requests without treating unrelated videos as failures.
+
+    HTTP 428's provider-specific cause is unknown. Preserve it as a missing
+    result; do not alter inputs or resubmit the request. Explicit policy errors
+    remain separately identified. A later successful call supersedes a 428.
+    """
+    rejection = policy_rejection(folder, memory)
+    if rejection:
+        return {'status': 'blocked_input_policy', 'rejection': rejection}
+    paths = [memory/'calls.jsonl', memory/'audio/calls.jsonl']
+    paths += list((folder/'plans/calls').glob('*.jsonl'))
+    paths += list((folder/'graph/calls').glob('*.jsonl'))
+    for path in paths:
+        if not path.exists():continue
+        seen = set()
+        for row in reversed(load_records(path)):
+            purpose = row.get('purpose')
+            if not purpose or purpose in seen:continue
+            seen.add(purpose)
+            if row.get('status') == 'error' and row.get('http_status') == 428:
+                return {'status': 'blocked_request_precondition', 'rejection': {
+                    'source': str(path), 'purpose': purpose, 'http_status': 428,
+                    'service_error_code': row.get('service_error_code'),
+                    'cause': 'unknown; request retained without resubmission'}}
+    return None
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--data-root', type=Path, required=True)
@@ -412,9 +440,9 @@ def main(argv=None):
             write_json(qpath, subset)
             stage = 'build'
             try:
-                rejection = policy_rejection(folder, memory/vid)
-                if rejection:
-                    return {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
+                block = recorded_video_block(folder, memory/vid)
+                if block:
+                    return {'video_id':vid, **block}
                 # Isolate build_results.json per subprocess; actual video checkpoints
                 # live in the common memory directory via a validated directory link.
                 build_root = folder/'build_memory'
@@ -471,9 +499,9 @@ def main(argv=None):
             except Blocked as exc:
                 return {'video_id': vid, 'status': 'blocked_api_credits', 'reason': str(exc)}
             except Exception as exc:
-                rejection = policy_rejection(folder, memory/vid)
-                if rejection:
-                    return {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
+                block = recorded_video_block(folder, memory/vid)
+                if block:
+                    return {'video_id':vid, **block}
                 rejection = provider_rejection(memory/vid) if (native or matrix_perception) and stage == 'build' else None
                 if rejection:
                     return {'video_id':vid, 'status':'blocked_perception_provider', 'rejection':rejection}
@@ -509,9 +537,9 @@ def main(argv=None):
                         break
                     vid = available
                     todo.remove(vid)
-                    rejection = policy_rejection(out/'videos'/vid, memory/vid)
-                    if rejection:
-                        status['videos'][vid] = {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
+                    block = recorded_video_block(out/'videos'/vid, memory/vid)
+                    if block:
+                        status['videos'][vid] = {'video_id':vid, **block}
                         continue
                     attempts[vid] += 1
                     active[pool.submit(video_run, vid)] = vid
@@ -535,7 +563,7 @@ def main(argv=None):
                         passed_startup = True
                     if outcome['status'] in ('blocked_api_credits','blocked_perception_provider'):
                         stopped = True
-                    elif outcome['status'] not in ('complete','blocked_input_policy','memory_complete_pending_embedding_service'):
+                    elif outcome['status'] not in ('complete','blocked_input_policy','blocked_request_precondition','memory_complete_pending_embedding_service'):
                         if attempts[vid] < args.video_attempts:
                             todo.insert(0,vid)
                         else:

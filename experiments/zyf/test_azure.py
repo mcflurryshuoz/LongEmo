@@ -121,6 +121,62 @@ class AzureTest(unittest.TestCase):
     def test_full_graph_and_official_judge_both_use_azure(self):
         self._full_run(full.MODEL)
 
+    def test_428_uses_latest_attempt_and_keeps_other_error_classes(self):
+        folder=self.root/'videos/V1';memory=self.root/'memory/V1'
+        path=memory/'audio/calls.jsonl'
+        failure={'purpose':'audio_observer:W1','status':'error','http_status':428,'service_error_code':'428'}
+        write_records(path,[failure])
+        self.assertEqual(full.recorded_video_block(folder,memory)['status'],'blocked_request_precondition')
+        write_records(path,[failure,{'purpose':'audio_observer:W1','status':'ok'}])
+        self.assertIsNone(full.recorded_video_block(folder,memory))
+        for code in (401,402,403,429,500):
+            write_records(path,[{**failure,'http_status':code,'service_error_code':str(code)}])
+            self.assertIsNone(full.recorded_video_block(folder,memory))
+        write_records(path,[failure,{**failure,'purpose':'audio_observer:W2','service_error_code':'content_filter'}])
+        self.assertEqual(full.recorded_video_block(folder,memory)['status'],'blocked_input_policy')
+
+    def test_three_428_videos_do_not_stop_others_or_shrink_denominator(self):
+        data=self.root/'data';out=self.root/'out';key=self.root/'private.json'
+        questions=[{**question('Q'+str(i)),'video_id':'V'+str(i)} for i in range(1,7)]
+        write_json(data/'questions.json',questions)
+        write_json(data/'manifest.json',{'question_count':6,'video_count':6,'revision':'fixed','pilot_question_ids':[]})
+        write_json(key,{'OPENROUTER_API_KEY':'embedding-placeholder','MODEL_API_KEY':'matrix-placeholder'})
+        failure={'purpose':'audio_observer:W1','status':'error','http_status':428,'service_error_code':'428'}
+        write_records(out/'memory/V5/audio/calls.jsonl',[failure])
+        write_records(out/'memory/V6/audio/calls.jsonl',[{**failure,'service_error_code':'content_filter'}])
+        builds=[]
+        def run(cmd,**kwargs):
+            subset=full.read(cmd[cmd.index('--data-path')+1]);q=subset[0];vid=q['video_id']
+            destination=Path(cmd[cmd.index('--output-dir')+1])
+            if cmd[4]=='build':
+                builds.append(vid)
+                if vid in ('V1','V2','V3'):
+                    write_records(out/'memory'/vid/'audio/calls.jsonl',[failure])
+                    return SimpleNamespace(returncode=1)
+            elif cmd[4]=='answer':
+                write_records(destination/'predictions.jsonl',[{'question_id':q['question_id'],'video_id':vid,'status':'ok','prediction':'answer'}])
+            elif cmd[3]=='evaluation.eval':
+                write_records(destination/'run_1/scores.jsonl',[{**score(q['question_id'],4),'video_id':vid}])
+            return SimpleNamespace(returncode=0)
+        inv={'complete':True,'video_count':6,'videos':{'V'+str(i):{'duration_seconds':20*i} for i in range(1,7)}}
+        args=['--data-root',str(data),'--output-dir',str(out),'--credential-file',str(key),
+              '--embedding-cache-dir',str(self.root/'cache'),'--perception-model',full.NATIVE_GEMINI,
+              '--matrix-perception','--answer-base-url',full.MATRIX_URL,'--embedding-backend','gemini',
+              '--video-workers','1','--video-attempts','2','--execute']
+        with patch.object(full,'code_hash',return_value=full.SOURCE_HASH),patch.object(full,'git_revision',return_value='test'), \
+             patch.object(full,'inventory',return_value=inv),patch.object(full.subprocess,'run',side_effect=run), \
+             patch.object(full,'urlopen',side_effect=lambda *a,**k:io.BytesIO(b'{"data":{"total_credits":10,"total_usage":0}}')), \
+             contextlib.redirect_stdout(io.StringIO()):
+            self.assertNotEqual(full.main(args),0)
+        self.assertEqual(builds,['V1','V2','V3','V4'])
+        state=full.read(out/'status.json')
+        self.assertFalse(state['scheduling_paused'])
+        self.assertEqual(state['videos']['V4']['status'],'complete')
+        self.assertEqual(state['videos']['V5']['status'],'blocked_request_precondition')
+        self.assertEqual(state['videos']['V6']['status'],'blocked_input_policy')
+        metrics=full.read(out/'metrics.json')['overall_unweighted']
+        self.assertEqual((metrics['n_scored'],metrics['n_total']),(1,6))
+
     def test_gemini_changes_only_perception_and_requires_new_run(self):
         self._full_run(full.GEMINI_PERCEPTION)
 
