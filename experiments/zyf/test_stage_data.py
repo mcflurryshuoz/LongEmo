@@ -1,10 +1,21 @@
-import hashlib,json,tempfile,unittest
+import hashlib,json,tempfile,unittest,sys
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
-from experiments.zyf.stage_data import receiver
+from experiments.zyf.stage_data import receiver,scp_once
 
 class DataAdmissionTest(unittest.TestCase):
+    def test_interactive_transport_submits_only_one_empty_password(self):
+        with tempfile.TemporaryDirectory() as d:
+            command=[sys.executable,'-c',"import sys; print('password:',end='',flush=True); assert sys.stdin.readline()=='\\n'"]
+            self.assertEqual(scp_once(command,Path(d)/'log',5),0)
+
+    def test_transport_authentication_rejection_is_not_retried(self):
+        with tempfile.TemporaryDirectory() as d:
+            command=[sys.executable,'-c',"import sys,time; print('password:',end='',flush=True); sys.stdin.readline(); print('Permission denied. password:',flush=True); time.sleep(10)"]
+            with self.assertRaisesRegex(RuntimeError,'authentication rejected'):
+                scp_once(command,Path(d)/'log',5)
+
     def run_case(self,payload=b'valid video',existing=None):
         temp=tempfile.TemporaryDirectory();self.addCleanup(temp.cleanup);root=Path(temp.name)
         uploads=root/'uploads';uploads.mkdir();videos=root/'videos';videos.mkdir()
