@@ -2,9 +2,31 @@ import hashlib,json,tempfile,unittest,sys
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
-from experiments.zyf.stage_data import receiver,scp_once,sender
+from experiments.zyf.stage_data import receiver,scp_once,sender,sender_batched
 
 class DataAdmissionTest(unittest.TestCase):
+    def test_batch_sends_media_before_marker_on_one_connection(self):
+        args,name=self.run_case();(args.videos/name).write_bytes(b'valid video')
+        second='G2_V000017.mp4';(args.videos/second).write_bytes(b'another valid video')
+        manifest=json.loads(args.manifest.read_text())
+        manifest['files'].append({'path':'episode/videos/'+second,'bytes':19,
+                                 'sha256':hashlib.sha256(b'another valid video').hexdigest()})
+        args.manifest.write_text(json.dumps(manifest))
+        args.already_staged=[];args.port=12345;args.known_hosts=args.videos/'known_hosts'
+        args.remote_uploads='/task/uploads';args.batch_size=32
+        def transfer(command,*_):
+            for position,video,payload in [(-5,name,b'valid video'),(-3,second,b'another valid video')]:
+                media=Path(command[position]);marker=Path(command[position+1])
+                self.assertEqual(media.read_bytes(),payload)
+                self.assertEqual(json.loads(marker.read_text()),{'video':video,'upload':media.name})
+            return 0
+        with patch('experiments.zyf.stage_data.scp_once',side_effect=transfer) as send:
+            sender_batched(args)
+        self.assertEqual(send.call_count,1)
+        self.assertIn(name,json.loads(args.status.read_text())['sent'])
+        self.assertIn(second,json.loads(args.status.read_text())['sent'])
+        self.assertEqual(list(args.status.parent.glob('upload_batch_*')),[])
+
     def test_failed_marker_retries_with_unique_names_and_atomic_state(self):
         args,name=self.run_case()
         (args.videos/name).write_bytes(b'valid video')

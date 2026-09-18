@@ -1,0 +1,518 @@
+{
+  "captured_unix": 1789716287.4882035,
+  "experiment": "E10",
+  "run_dir": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1",
+  "frozen_commit": "82b3b205fdf3d0522baf686e7bb901962ac4e58f",
+  "transfer": {
+    "verified": 20,
+    "expected": 141,
+    "verified_bytes": 1313387429,
+    "complete": false,
+    "updated_unix": 1789716285.3635569,
+    "accepted": [
+      "G2_V000001.mp4",
+      "G2_V000003.mp4",
+      "G2_V000004.mp4",
+      "G2_V000005.mp4",
+      "G2_V000007.mp4",
+      "G2_V000008.mp4",
+      "G2_V000010.mp4",
+      "G2_V000011.mp4",
+      "G2_V000012.mp4",
+      "G2_V000013.mp4",
+      "G2_V000014.mp4",
+      "G2_V000015.mp4",
+      "G2_V000016.mp4",
+      "G2_V000018.mp4",
+      "G2_V000019.mp4",
+      "G2_V000021.mp4",
+      "G2_V000023.mp4",
+      "G2_V000026.mp4",
+      "G2_V000027.mp4",
+      "G2_V000030.mp4"
+    ]
+  },
+  "status": {
+    "status": "running",
+    "updated_unix": 1789716273.985042,
+    "question_count": 558,
+    "video_count": 141,
+    "available_videos": 19,
+    "initial_available_credits": 20.217924375000003,
+    "videos": {
+      "G2_V000016": {
+        "video_id": "G2_V000016",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000007": {
+        "video_id": "G2_V000007",
+        "status": "error",
+        "reason": "build failed; checkpoints retained at /root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000007",
+        "video_attempt": 2
+      },
+      "G2_V000014": {
+        "video_id": "G2_V000014",
+        "status": "error",
+        "reason": "build failed; checkpoints retained at /root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000014",
+        "video_attempt": 2
+      },
+      "G2_V000001": {
+        "video_id": "G2_V000001",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000004": {
+        "video_id": "G2_V000004",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000011": {
+        "video_id": "G2_V000011",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000011/audio/calls.jsonl",
+          "purpose": "audio_observer:W00022",
+          "service_error_code": "content_filter"
+        },
+        "video_attempt": 1
+      },
+      "G2_V000015": {
+        "video_id": "G2_V000015",
+        "status": "complete",
+        "n_scored": 5,
+        "video_attempt": 1
+      },
+      "G2_V000019": {
+        "video_id": "G2_V000019",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000021": {
+        "video_id": "G2_V000021",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000005": {
+        "video_id": "G2_V000005",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000027": {
+        "video_id": "G2_V000027",
+        "status": "complete",
+        "n_scored": 3,
+        "video_attempt": 1
+      },
+      "G2_V000010": {
+        "video_id": "G2_V000010",
+        "status": "complete",
+        "n_scored": 3,
+        "video_attempt": 1
+      },
+      "G2_V000003": {
+        "video_id": "G2_V000003",
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/memory/G2_V000003/calls.jsonl",
+          "purpose": "perception:G2_V000003:W00034",
+          "service_error_code": "content_filter"
+        },
+        "video_attempt": 1
+      }
+    },
+    "active_videos": [
+      "G2_V000008",
+      "G2_V000013",
+      "G2_V000018",
+      "G2_V000023",
+      "G2_V000026"
+    ],
+    "queued_videos": 123,
+    "scheduling_paused": false,
+    "n_scored": 23
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 23,
+      "coverage": 0.04121863799283154,
+      "statuses": {
+        "ok": 23,
+        "pending": 535
+      },
+      "normalized_mean": 0.5797101449275363,
+      "percent_score": 57.971014492753625
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 9,
+        "coverage": 0.03829787234042553,
+        "statuses": {
+          "ok": 9,
+          "pending": 226
+        },
+        "normalized_mean": 0.6666666666666666,
+        "percent_score": 66.66666666666666,
+        "raw_mean": 2.6666666666666665,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 8,
+        "coverage": 0.041237113402061855,
+        "statuses": {
+          "ok": 8,
+          "pending": 186
+        },
+        "normalized_mean": 0.625,
+        "percent_score": 62.5,
+        "raw_mean": 0.625,
+        "max_score": 1,
+        "acc": 0.625
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 6,
+        "coverage": 0.046511627906976744,
+        "statuses": {
+          "pending": 123,
+          "ok": 6
+        },
+        "normalized_mean": 0.38888888888888884,
+        "percent_score": 38.888888888888886
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 4,
+        "coverage": 0.0975609756097561,
+        "statuses": {
+          "pending": 37,
+          "ok": 4
+        },
+        "normalized_mean": 0.25,
+        "percent_score": 25,
+        "raw_mean": 0.25,
+        "max_score": 1,
+        "acc": 0.25
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 2,
+        "coverage": 0.022727272727272728,
+        "statuses": {
+          "pending": 86,
+          "ok": 2
+        },
+        "normalized_mean": 0.6666666666666666,
+        "percent_score": 66.66666666666666,
+        "raw_mean": 2,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.38888888888888884,
+      "unweighted_percent": 38.888888888888886,
+      "weighted": 0.41666666666666663,
+      "weighted_percent": 41.666666666666664
+    }
+  },
+  "gpu_activity": {
+    "pid": 65954,
+    "purpose": "user-requested GPU activity; not model inference or benchmark cost",
+    "gpu_visible_id": "GPU-316e1a21-db92-9848-6e93-2f3619a1811c",
+    "hours": 12,
+    "duty_target": 0.5,
+    "started_unix": 1789715400.881713,
+    "deadline_unix": 1789758600.881713,
+    "device": "NVIDIA L20X",
+    "allocated_MiB": 416,
+    "status": "running",
+    "updated_unix": 1789716280.554505,
+    "observed_gpu": "42, 0, 1098"
+  },
+  "completed_windows": 380,
+  "score_rows": [
+    {
+      "question_id": "G2_Q000001",
+      "video_id": "G2_V000001",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 1,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000001/scores/run_20260918_1511/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000002",
+      "video_id": "G2_V000001",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.5,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000001/scores/run_20260918_1511/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000008",
+      "video_id": "G2_V000004",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 1,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000004/scores/run_20260918_1512/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000009",
+      "video_id": "G2_V000004",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.5,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000004/scores/run_20260918_1512/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000010",
+      "video_id": "G2_V000005",
+      "type": "emotional reasoning",
+      "max_score": 1,
+      "status": "ok",
+      "score": 0,
+      "normalized_score": 0,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000005/scores/run_20260918_1522/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000011",
+      "video_id": "G2_V000005",
+      "type": "emotional reasoning",
+      "max_score": 1,
+      "status": "ok",
+      "score": 0,
+      "normalized_score": 0,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000005/scores/run_20260918_1522/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000020",
+      "video_id": "G2_V000010",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 4,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000010/scores/run_20260918_1523/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000021",
+      "video_id": "G2_V000010",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.5,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000010/scores/run_20260918_1523/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000022",
+      "video_id": "G2_V000010",
+      "type": "emotional reasoning",
+      "max_score": 3,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000010/scores/run_20260918_1523/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000036",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "max_score": 3,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000015/scores/run_20260918_1519/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000037",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "max_score": 1,
+      "status": "ok",
+      "score": 0,
+      "normalized_score": 0,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000015/scores/run_20260918_1519/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000038",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 0,
+      "normalized_score": 0,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000015/scores/run_20260918_1519/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000039",
+      "video_id": "G2_V000015",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.5,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000015/scores/run_20260918_1519/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000040",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 0,
+      "normalized_score": 0,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000015/scores/run_20260918_1519/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000041",
+      "video_id": "G2_V000016",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 1,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000016/scores/run_20260918_1501/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000042",
+      "video_id": "G2_V000016",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 4,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000016/scores/run_20260918_1501/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000046",
+      "video_id": "G2_V000019",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 1,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000019/scores/run_20260918_1520/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000047",
+      "video_id": "G2_V000019",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 0,
+      "normalized_score": 0,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000019/scores/run_20260918_1520/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000049",
+      "video_id": "G2_V000021",
+      "type": "emotional intensity comparison",
+      "max_score": 1,
+      "status": "ok",
+      "score": 1,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000021/scores/run_20260918_1522/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000050",
+      "video_id": "G2_V000021",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 2,
+      "normalized_score": 0.5,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000021/scores/run_20260918_1522/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000073",
+      "video_id": "G2_V000027",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 3,
+      "normalized_score": 0.75,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000027/scores/run_20260918_1523/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000074",
+      "video_id": "G2_V000027",
+      "type": "emotion trajectory",
+      "max_score": 4,
+      "status": "ok",
+      "score": 3,
+      "normalized_score": 0.75,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000027/scores/run_20260918_1523/scores.jsonl"
+    },
+    {
+      "question_id": "G2_Q000075",
+      "video_id": "G2_V000027",
+      "type": "emotional reasoning",
+      "max_score": 1,
+      "status": "ok",
+      "score": 1,
+      "normalized_score": 1,
+      "score_source": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000027/scores/run_20260918_1523/scores.jsonl"
+    }
+  ],
+  "local_transfer_snapshot": {
+    "captured_unix": 1789716417.307641,
+    "complete_download_files": 45,
+    "complete_download_bytes": 14078948345,
+    "batch": {
+      "status": "uploading",
+      "videos": [
+        "G2_V000018.mp4",
+        "G2_V000026.mp4",
+        "G2_V000012.mp4",
+        "G2_V000030.mp4",
+        "G2_V000009.mp4",
+        "G2_V000006.mp4",
+        "G2_V000031.mp4",
+        "G2_V000022.mp4",
+        "G2_V000020.mp4",
+        "G2_V000017.mp4",
+        "G2_V000028.mp4",
+        "G2_V000024.mp4",
+        "G2_V000029.mp4",
+        "G2_V000038.mp4",
+        "G2_V000002.mp4",
+        "G2_V000049.mp4",
+        "G2_V000058.mp4",
+        "G2_V000025.mp4",
+        "G2_V000033.mp4",
+        "G2_V000034.mp4",
+        "G2_V000035.mp4",
+        "G2_V000032.mp4",
+        "G2_V000039.mp4",
+        "G2_V000037.mp4",
+        "G2_V000036.mp4"
+      ],
+      "bytes": 11372671373,
+      "started_unix": 1789716141.311546,
+      "attempt": 1
+    },
+    "note": "Local cached files are not counted as remote verified data."
+  }
+}

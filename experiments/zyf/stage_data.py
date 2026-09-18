@@ -13,6 +13,7 @@ import subprocess
 import pty
 import select
 import signal
+import shutil
 import time
 import uuid
 
@@ -151,6 +152,50 @@ def sender(args):
         if not ready:time.sleep(10)
 
 
+def sender_batched(args):
+    """Copy media + completion markers in order over one SCP connection per batch."""
+    files=pinned(args.manifest)
+    state=json.loads(args.status.read_text()) if args.status.exists() else {'sent':{}}
+    for name in args.already_staged:
+        if name not in files:raise ValueError('unknown bootstrap video')
+        state['sent'].setdefault(name,'bootstrap_receiver_verifies')
+    command=['scp','-q','-P',str(args.port),'-o','ConnectTimeout=20','-o','ControlMaster=no','-o','ControlPath=none',
+             '-o','StrictHostKeyChecking=yes','-o','UserKnownHostsFile='+str(args.known_hosts)]
+    failures=0
+    while len(state['sent'])<len(files):
+        ready=[n for n,e in files.items() if n not in state['sent'] and (args.videos/n).is_file()
+               and (args.videos/n).stat().st_size==e['bytes']]
+        ready=sorted(ready,key=lambda n:(files[n]['bytes'],n))[:args.batch_size]
+        if not ready:time.sleep(10);continue
+        folder=args.status.parent/('upload_batch_'+uuid.uuid4().hex);folder.mkdir(mode=0o700)
+        paths=[]
+        try:
+            for name in ready:
+                source=args.videos/name
+                if digest(source)!=files[name]['sha256']:raise ValueError('local pinned file integrity mismatch')
+                tag=uuid.uuid4().hex;part=folder/(tag+'.part');marker=folder/(tag+'.ready.json')
+                os.link(source,part)
+                marker.write_text(json.dumps({'video':name,'upload':part.name}))
+                paths.extend([str(part),str(marker)])
+            batch={'status':'uploading','videos':ready,'bytes':sum(files[n]['bytes'] for n in ready),
+                   'started_unix':time.time(),'attempt':failures+1}
+            args.status.with_suffix('.batch.json').write_text(json.dumps(batch,indent=2))
+            print(json.dumps(batch),flush=True)
+            rc=scp_once(command+paths+[f'root@127.0.0.1:{args.remote_uploads}/'],args.status.with_suffix('.scp.log'),12*3600)
+            if rc:
+                failures+=1
+                batch.update(status='transport_failed',returncode=rc)
+                args.status.with_suffix('.batch.json').write_text(json.dumps(batch,indent=2))
+                if failures>=3:raise RuntimeError('three batch SCP failures; check tunnel and reconcile receiver before retry')
+                time.sleep(10);continue
+            for name in ready:state['sent'][name]={'bytes':files[name]['bytes'],'time_unix':time.time()}
+            temporary=args.status.with_suffix('.tmp');temporary.write_text(json.dumps(state,indent=2));os.replace(temporary,args.status)
+            failures=0;batch.update(status='uploaded',finished_unix=time.time())
+            args.status.with_suffix('.batch.json').write_text(json.dumps(batch,indent=2));print(json.dumps(batch),flush=True)
+        finally:
+            shutil.rmtree(folder)  # Task-owned hard links and markers, never original media.
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('mode',choices=('send','receive'))
@@ -158,8 +203,10 @@ def main():
     p.add_argument('--status',type=Path,required=True);p.add_argument('--uploads',type=Path)
     p.add_argument('--port',type=int);p.add_argument('--known-hosts',type=Path)
     p.add_argument('--remote-uploads');p.add_argument('--already-staged',nargs='*',default=[])
+    p.add_argument('--batch-size',type=int,default=1,choices=range(1,142))
     args=p.parse_args()
     if args.mode=='receive':receiver(args)
+    elif args.batch_size>1:sender_batched(args)
     else:sender(args)
 
 if __name__=='__main__':main()

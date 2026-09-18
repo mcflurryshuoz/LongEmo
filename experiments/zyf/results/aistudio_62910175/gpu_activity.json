@@ -1,0 +1,23 @@
+{
+  "purpose": "User explicitly requested GPU activity while transferring data and evaluating. Separate from the API method.",
+  "pid": 65954,
+  "gpu_index": 0,
+  "gpu_uuid": "GPU-316e1a21-db92-9848-6e93-2f3619a1811c",
+  "model": "NVIDIA L20X",
+  "matrix_size": 8192,
+  "dtype": "float16",
+  "duty_target": 0.5,
+  "max_hours": 12,
+  "torch_allocated_MiB": 416,
+  "observed_total_device_memory_MiB": 1098,
+  "runtime_script": "/root/longemo/runtime/ops/gpu_load.py",
+  "status_file": "/root/longemo/runtime/ops/gpu_load_status.json",
+  "stop_command": "kill -TERM 65954",
+  "automatic_stops": [
+    "12 hours",
+    "temperature >= 82 C",
+    "less than 8 GiB free memory"
+  ],
+  "started_unix": 1789715400.881713,
+  "deadline_unix": 1789758600.881713
+}

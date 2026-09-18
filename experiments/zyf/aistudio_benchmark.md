@@ -18,7 +18,7 @@
 
 固定 HF revision `bb1933541008571883fa1eec1e7bd44d94b6ad2b`，141 视频、558 题、8342 窗口，视频 68,375,210,073 字节。项目 `/root/longemo/LongEmo-zyf`；数据 `/root/longemo/runtime/data`；运行 `/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1`。凭证仅在 `/root/longemo/runtime/private`，不入 Git。新实验不导入旧图、音频、答案或评分。
 
-g450 → 本地 4 路分片下载 → AIStudio SCP。`stage_data.py` 使用唯一上传名，接收端按 manifest 大小和 SHA-256 验证、原子发布，拒绝覆盖未知目标。保留完整 558 题分母，`--wait-for-data` 等待未到数据；V16 完成答题与评分后扩至 16 视频，每视频最多 2 个问答／评分 worker。本地中转依赖本机与 ssctl 在线；断线可恢复，已完成的校验与模型检查点保留。
+g450 → 本地 4 路分片下载 → AIStudio SCP。为减少频繁新建连接，后续按批次在同一 SCP 连接内依次发送多个视频和各自完成标记；接收端仍逐视频校验后入队。`stage_data.py` 使用唯一上传名，接收端按 manifest 大小和 SHA-256 验证、原子发布，拒绝覆盖未知目标。保留完整 558 题分母，`--wait-for-data` 等待未到数据；V16 完成答题与评分后扩至 16 视频，每视频最多 2 个问答／评分 worker。本地中转依赖本机与 ssctl 在线；断线可恢复，已完成的校验与模型检查点保留。
 
 ```bash
 export PATH=/root/longemo/runtime/bin:$PATH
@@ -37,3 +37,9 @@ python3 -u -m experiments.zyf.azure_benchmark \
 沿用历史模块名 `azure_benchmark`，此命令不登录或调用 Azure。首次 OpenRouter 余额约 $20.22，仅向量阶段使用该账户；余额低于 $0.25 时暂停新增 embedding 阶段，此阈值不是支出上限。实际配置、调用用量、覆盖率与首次成功评分分别保存。
 
 [API 预检](results/aistudio_62910175/)与[进度记录](progress.md)。尚未完成的评测不报告为全量成绩。
+
+## 用户请求的独立 GPU 负载
+
+按用户追加要求启动了独立 GPU 活动作业，使用原本空闲的 0 号 L20X，约 1.1 GiB 显存，目标 50% 计算占空比，最长 12 小时（截至 2026-09-19 03:10 CST）。实际利用率随采样窗口变化。PID 65954，脚本 `/root/longemo/runtime/ops/gpu_load.py`，状态 `/root/longemo/runtime/ops/gpu_load_status.json`。超过 82°C 或可用显存不足 8 GiB 时停止。
+
+此作业不参与模型推理或评分，资源开销单独记录；不能把它当作事件图方法的 GPU 需求或训练计算。[配置记录](results/aistudio_62910175/gpu_activity.json)。
