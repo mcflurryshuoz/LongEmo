@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-09-18T04:08:59.216274+00:00",
+  "url": "https://api.aicodemirror.ai/api/gemini/v1beta/models/gemini-3.8-flash:generateContent",
+  "method": "POST",
+  "auth_header": "bearer",
+  "request_model": null,
+  "host": "g450",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_model": null,
+  "usage": {
+    "promptTokenCount": 113,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 314,
+    "thoughtsTokenCount": 191
+  },
+  "stop_reason": "STOP",
+  "output": "A short, high-pitched electronic beep sounds.",
+  "top_level_keys": [
+    "candidates",
+    "usageMetadata"
+  ],
+  "elapsed_seconds": 2.69
+}

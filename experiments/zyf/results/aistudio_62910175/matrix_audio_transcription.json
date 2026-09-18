@@ -1,0 +1,19 @@
+{
+  "http_status": 200,
+  "expected": "The secret word is pineapple. The number is seven.",
+  "content": "The secret word is pineapple, the number is seven.",
+  "model": "gemini-3.8-flash",
+  "usage": {
+    "completion_tokens": 11,
+    "prompt_tokens": 90,
+    "total_tokens": 101,
+    "prompt_tokens_details": {
+      "audio_tokens": 72
+    },
+    "extra_properties": {
+      "google": {
+        "traffic_type": "ON_DEMAND"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-09-18T04:04:25.698634+00:00",
+  "url": "https://api.aicodemirror.ai/api/claudecode/v1/models",
+  "method": "GET",
+  "auth_header": "bearer",
+  "request_model": null,
+  "host": "g450",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "response_model": null,
+  "usage": null,
+  "stop_reason": null,
+  "output": "",
+  "models": [
+    {
+      "id": "claude-haiku-4-5-20251001"
+    },
+    {
+      "id": "claude-opus-4-7"
+    },
+    {
+      "id": "claude-sonnet-4-6"
+    },
+    {
+      "id": "claude-opus-4-5-20251101"
+    },
+    {
+      "id": "claude-sonnet-4-5-20250929"
+    },
+    {
+      "id": "claude-opus-5"
+    },
+    {
+      "id": "claude-opus-4-6"
+    },
+    {
+      "id": "claude-sonnet-5"
+    },
+    {
+      "id": "claude-opus-4-8"
+    },
+    {
+      "id": "claude-sonnet-4-6-thinking"
+    }
+  ],
+  "top_level_keys": [
+    "data",
+    "object",
+    "success"
+  ],
+  "elapsed_seconds": 0.59
+}

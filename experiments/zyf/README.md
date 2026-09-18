@@ -201,3 +201,10 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 - Matrix resource checks before the pause verified GPT-6 chat from the local proxy, but not embeddings; standard compatible/native embedding paths returned 404 and g450 direct TCP connection timed out. The new key was never saved to source or credential files. All further API probes were stopped.
 
 - Exported the [paused E09 v2 checkpoint](results/blackai_gemini38_gpt6_full_v2/paused/progress.md) and [machine-readable snapshot](results/blackai_gemini38_gpt6_full_v2/paused/progress.json) from preserved run files. Counts remain 995/8342 windows, 21/141 complete memories and 0/558 scored. The earlier 450-window snapshot remains a historical checkpoint. [Progress summary](progress.md) now links the current checkpoint, paired scores and pending validation; no new model calls or resume occurred.
+
+
+## E10: AIStudio 62910175 / Matrix Gemini + GPT-6
+
+User authorized a new host and run on 2026-09-18. Matrix GPT-6 and Gemini 3.8 image/audio calls succeeded from the container; a synthetic speech test was transcribed correctly. A one-second silence probe produced a false sound description, retained in the diagnostic record; API reachability is not a quality guarantee. BlackAI and HF CDN TLS requests timed out. OpenRouter Gemini Embedding 2 returned finite 3072-D vectors.
+
+The new run keeps question-free perception, graph + semantic/embedding retrieval and the original official scorer. No old predictions or judgments are imported. Data staging verifies the fixed manifest before each video is admitted. See [E10 protocol](aistudio_benchmark.md) and [preflight records](results/aistudio_62910175/).

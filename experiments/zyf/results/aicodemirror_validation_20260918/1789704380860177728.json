@@ -1,0 +1,24 @@
+{
+  "checked_at_utc": "2026-09-18T04:06:15.479997+00:00",
+  "url": "https://api.aicodemirror.ai/api/gemini/v1beta/models/gemini-3.8-flash:generateContent",
+  "method": "POST",
+  "auth_header": "bearer",
+  "request_model": null,
+  "host": "g450",
+  "http_status": 200,
+  "content_type": "application/json",
+  "response_model": null,
+  "usage": {
+    "promptTokenCount": 1177,
+    "candidatesTokenCount": 1,
+    "totalTokenCount": 1220,
+    "thoughtsTokenCount": 42
+  },
+  "stop_reason": "STOP",
+  "output": "Red",
+  "top_level_keys": [
+    "candidates",
+    "usageMetadata"
+  ],
+  "elapsed_seconds": 5.38
+}

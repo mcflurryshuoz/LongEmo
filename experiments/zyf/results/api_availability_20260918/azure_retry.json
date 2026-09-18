@@ -1,0 +1,24 @@
+{
+  "service": "azure_gpt6_retry",
+  "checked_at_utc": "2026-09-18T03:45:47.274945+00:00",
+  "model_requested": "gpt-6-astra",
+  "http_status": 429,
+  "usable": false,
+  "error_code": "rate_limit_exceeded",
+  "error_message": "Your requests to gpt-6-astra for gpt-6-astra in eastus2 have exceeded rate limit.",
+  "retry_headers": {
+    "retry-after": "30",
+    "retry-after-ms": "3793",
+    "x-ratelimit-abusepenalty-active": "False",
+    "x-ratelimit-key": "gpt-6-astra",
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "1000000",
+    "x-ratelimit-remaining-requests": "999",
+    "x-ratelimit-remaining-tokens": "-63218",
+    "x-ratelimit-renewalperiod-requests": "60",
+    "x-ratelimit-renewalperiod-tokens": "60",
+    "x-ratelimit-reset-requests": "0",
+    "x-ratelimit-reset-tokens": "63"
+  },
+  "elapsed_seconds": 1.46
+}

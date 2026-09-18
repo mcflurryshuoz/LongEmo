@@ -31,7 +31,8 @@ OPENROUTER_URL = "https://openrouter.ai/api/v1"
 NATIVE_GEMINI = "gemini-3.8-flash"
 NATIVE_EMBEDDING = "gemini-embedding-2"
 BLACKAI_URL = "https://www.blackaicoding.com/v1beta"
-SOURCE_HASH = "250f434224e257325c3ab512a5cf91d2c0662cbbe91a6a2ef72e923020dfeff9"
+MATRIX_URL = "https://matrixllm.alipay.com/v1"
+SOURCE_HASH = "15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88"
 
 
 class Blocked(Exception):
@@ -208,9 +209,19 @@ def main(argv=None):
     p.add_argument('--output-dir', type=Path, required=True)
     p.add_argument('--credential-file', type=Path, required=True)
     p.add_argument('--embedding-cache-dir', type=Path, required=True)
+    p.add_argument('--matrix-perception', action='store_true',
+                   help='Use Matrix Gemini 3.8 chat for both audio and visual perception; separate experiment')
+    p.add_argument('--wait-for-data', action='store_true',
+                   help='Keep full question denominator, admit only verified available videos while data migrates')
+    p.add_argument('--answer-base-url', default=BASE_URL,
+                   help='Explicit GPT-6 chat endpoint for planning, answering and judging')
+    p.add_argument('--perception-credential-file', type=Path,
+                   help='Separate native Gemini credentials when answer provider uses MODEL_API_KEY')
+    p.add_argument('--embedding-backend', choices=('gemini', 'gemini-native'),
+                   help='Explicit Gemini embedding provider; defaults preserve previous experiments')
     p.add_argument('--import-audio', type=Path)
     p.add_argument('--perception-model', choices=(MODEL, GEMINI_PERCEPTION, NATIVE_GEMINI), default=MODEL,
-                   help='Change only video perception; planning, answers and official scoring stay on Azure GPT-6')
+                   help='Change only video perception; planning, answers and official scoring stay on GPT-6')
     p.add_argument('--video-workers', type=int, default=16)
     p.add_argument('--startup-videos', type=int,
                    help='Initial admission count; expand after one video is scored (or its memory completes with deferred embedding)')
@@ -222,9 +233,20 @@ def main(argv=None):
     p.add_argument('--defer-answers', action='store_true',
                    help='Build native Gemini memories while its embedding model is unavailable; resume without this flag to score')
     args = p.parse_args(argv)
-    native = args.perception_model == NATIVE_GEMINI
-    audio_model = NATIVE_GEMINI if native else AUDIO
-    if native and args.import_audio:
+    matrix_perception = args.matrix_perception
+    if matrix_perception and args.perception_model != NATIVE_GEMINI:
+        p.error('matrix-perception requires gemini-3.8-flash')
+    native = args.perception_model == NATIVE_GEMINI and not matrix_perception
+    from evaluation.azure_transport import is_azure
+    answer_base_url = args.answer_base_url
+    azure_answer = is_azure(answer_base_url)
+    embedding_native = (args.embedding_backend or ('gemini-native' if native else 'gemini')) == 'gemini-native'
+    openrouter_perception = not native and not matrix_perception
+    uses_openrouter = openrouter_perception or not embedding_native
+    audio_model = NATIVE_GEMINI if native or matrix_perception else AUDIO
+    if not azure_answer and native and args.perception_credential_file is None:
+        p.error('a separate perception-credential-file is required for native Gemini with a non-Azure answer provider')
+    if (native or matrix_perception) and args.import_audio:
         p.error('native Gemini requires a fresh audio frontend; do not import another provider\'s audio cache')
     if args.defer_answers and not native:
         p.error('defer-answers is only supported for the independent native Gemini frontend')
@@ -269,6 +291,21 @@ def main(argv=None):
                 audio_reasoning_effort='low', embedding_model=NATIVE_EMBEDDING,
                 embedding_base_url=BLACKAI_URL, embedding_backend='gemini-native',
                 memory_continues_without_embedding_service=True)
+        if matrix_perception:
+            config.update(protocol='matrix-gemini-gpt6-full-episode-graph-v1',
+                perception_model=NATIVE_GEMINI, perception_base_url=MATRIX_URL,
+                perception_api_format='chat', perception_reasoning_effort='medium',
+                perception_temperature=1.0, perception_max_tokens=32768,
+                audio_model=NATIVE_GEMINI, audio_base_url=MATRIX_URL, audio_reasoning_effort='low',
+                embedding_backend='gemini', embedding_base_url=OPENROUTER_URL)
+        if not azure_answer:
+            config.pop('azure_transport', None)
+            config.update(protocol='matrix-gemini-gpt6-full-episode-graph-v1' if matrix_perception else 'native-gemini-custom-gpt6-full-episode-graph-v1',
+                          base_url=answer_base_url, answer_transport='openai-compatible-chat')
+        if embedding_native != native:
+            config.update(embedding_backend='gemini-native' if embedding_native else 'gemini',
+                          embedding_model=NATIVE_EMBEDDING if embedding_native else EMBEDDING,
+                          embedding_base_url=BLACKAI_URL if embedding_native else OPENROUTER_URL)
         execution_manifest(out/'experiment_manifest.json', config)
         memory = out/'memory'
         memory.mkdir(exist_ok=True)
@@ -280,28 +317,34 @@ def main(argv=None):
                   'question_count': len(questions), 'video_count': len(vids), 'available_videos': inv['video_count']}
         write_json(out/'status.json', status)
         metrics = aggregate(out, questions)
-        if not args.execute or not inv['complete']:
+        if not args.execute or (not inv['complete'] and not args.wait_for_data):
             print(json.dumps(status), flush=True)
             return 0 if inv['complete'] else 2
         credentials = read(args.credential_file)
         env = os.environ.copy()
-        env['MODEL_BASE_URL'] = BASE_URL
-        if native:
+        env['MODEL_BASE_URL'] = answer_base_url
+        if not uses_openrouter:
             env.pop('OPENROUTER_API_KEY', None)
         else:
             env['OPENROUTER_API_KEY'] = credentials['OPENROUTER_API_KEY']
-        env.pop('MODEL_API_KEY', None)
-        from evaluation.azure_transport import RateLimiter, access_token
-        limiter = RateLimiter()
-        limiter.limits()  # Validate operational settings before starting workers.
-        access_token()  # Verify the existing CLI login without printing tokens.
+        limits = None
+        if azure_answer:
+            env.pop('MODEL_API_KEY', None)
+            from evaluation.azure_transport import RateLimiter, access_token
+            limiter = RateLimiter()
+            limits = limiter.limits()
+            access_token()
+        else:
+            env['MODEL_API_KEY'] = credentials['MODEL_API_KEY']
+        if args.perception_credential_file and 'MODEL_API_KEY' in read(args.perception_credential_file):
+            raise ValueError('perception credentials must not contain the answer provider MODEL_API_KEY')
         write_json(out/'launch_settings.json', {'video_workers': args.video_workers,
             'startup_videos': args.startup_videos or args.video_workers,
             'workers_per_video': args.workers, 'video_attempts': args.video_attempts,
-            'azure_limits': limiter.limits(), 'started_unix': time.time(),
+            'azure_limits': limits, 'started_unix': time.time(),
             'openrouter_credit_floor_usd': args.minimum_credits,
-            'defer_answers':args.defer_answers,
-            'openrouter_stages': [] if native else ['build','graph_embeddings']})
+            'defer_answers':args.defer_answers, 'wait_for_data':args.wait_for_data,
+            'openrouter_stages': (['build'] if openrouter_perception else []) + ([] if embedding_native else ['graph_embeddings'])})
 
         def credits(enforce=True):
             req = Request('https://openrouter.ai/api/v1/credits',
@@ -319,8 +362,8 @@ def main(argv=None):
             return remaining
 
         def run(folder, name, module, arguments):
-            uses_openrouter = not native and name != 'score'
-            if uses_openrouter:
+            stage_uses_openrouter = (name == 'build' and openrouter_perception) or (name == 'graph' and not embedding_native)
+            if stage_uses_openrouter:
                 credits()
             if native and name == 'build':
                 module = 'experiments.zyf.native_worker'
@@ -329,31 +372,35 @@ def main(argv=None):
             with (folder/(name+'.log')).open('a') as log:
                 rc = subprocess.run(command, env=env, stdout=log, stderr=subprocess.STDOUT).returncode
             if rc:
-                if uses_openrouter:
+                if stage_uses_openrouter:
                     credits()  # Classify credit exhaustion without logging payloads.
-                if native and name == 'graph':
+                if embedding_native and name == 'graph':
                     import re
                     match = re.search(r'ServiceError: model service returned HTTP (401|402|403|404)', (folder/'graph.log').read_text()[-8000:])
                     if match:
                         raise EmbeddingUnavailable('native Gemini embedding service returned HTTP '+match.group(1))
                 raise RuntimeError(f'{name} failed; checkpoints retained at {folder}')
 
-        inference = ['--model', MODEL, '--base-url', BASE_URL, '--thinking', 'default', '--timeout', '240', '--tries', '5',
+        inference = ['--model', MODEL, '--base-url', answer_base_url, '--thinking', 'default', '--timeout', '240', '--tries', '5',
                      '--credential-file', args.credential_file, '--audio-model', audio_model, '--max-tokens', '8192']
-        if native:
-            inference += ['--audio-base-url', BLACKAI_URL]
-        embedding_arguments = ['--embedding-model', NATIVE_EMBEDDING if native else EMBEDDING,
+        if native or matrix_perception:
+            inference += ['--audio-base-url', MATRIX_URL if matrix_perception else BLACKAI_URL]
+        embedding_arguments = ['--embedding-model', NATIVE_EMBEDDING if embedding_native else EMBEDDING,
                                '--embedding-cache-dir', args.embedding_cache_dir]
-        if native:
+        if embedding_native:
             embedding_arguments += ['--embedding-backend','gemini-native','--embedding-base-url',BLACKAI_URL]
+        if args.embedding_backend == 'gemini':
+            embedding_arguments += ['--embedding-backend','gemini','--embedding-base-url',OPENROUTER_URL]
         perception_inference = list(inference)
+        if args.perception_credential_file:
+            perception_inference[perception_inference.index('--credential-file')+1] = args.perception_credential_file
         if args.perception_model in (GEMINI_PERCEPTION, NATIVE_GEMINI):
             perception_inference[perception_inference.index('--model')+1] = args.perception_model
-            perception_inference[perception_inference.index('--base-url')+1] = BLACKAI_URL if native else OPENROUTER_URL
-            if native:
+            perception_inference[perception_inference.index('--base-url')+1] = MATRIX_URL if matrix_perception else BLACKAI_URL if native else OPENROUTER_URL
+            if native or matrix_perception:
                 perception_inference[perception_inference.index('--max-tokens')+1] = '32768'
             perception_config = out/'perception_request_settings.json'
-            settings = {'generationConfig': {'thinkingConfig': {'thinkingLevel': 'medium'}}} if native else {'reasoning': {'effort': 'medium'}}
+            settings = {'generationConfig': {'thinkingConfig': {'thinkingLevel': 'medium'}}} if native else {'reasoning_effort': 'medium'} if matrix_perception else {'reasoning': {'effort': 'medium'}}
             write_json(perception_config, settings)
             perception_inference += ['--temperature', '1', '--config', perception_config]
 
@@ -399,7 +446,7 @@ def main(argv=None):
                     raise ValueError('incomplete predictions cannot enter the scorer')
                 scores_dir = folder/'scores'
                 manifest(scores_dir/'input_manifest.json', {'questions_sha256': file_hash(qpath),
-                    'predictions_sha256': file_hash(prediction_path), 'model': MODEL, 'base_url': BASE_URL, 'source_hash': SOURCE_HASH})
+                    'predictions_sha256': file_hash(prediction_path), 'model': MODEL, 'base_url': answer_base_url, 'source_hash': SOURCE_HASH})
                 predictions = {r['question_id']: r['prediction'] for r in load_records(prediction_path)}
                 scored = successful_scores(scores_dir, subset, predictions)
                 pending = [q for q in subset if q['question_id'] not in scored]
@@ -409,7 +456,7 @@ def main(argv=None):
                     # Even an interrupted/failed scorer may have completed valid rows.
                     try:
                         run(folder, 'score', 'evaluation.eval', ['--data-path', pending_path,
-                            '--predictions', prediction_path, '-g', 'episode', '--model', MODEL, '--base-url', BASE_URL,
+                            '--predictions', prediction_path, '-g', 'episode', '--model', MODEL, '--base-url', answer_base_url,
                             '--output-dir', scores_dir, '--workers', args.workers, '--tries', '1',
                             '--timeout', '180', '--max-tokens', '8192'])
                     finally:
@@ -427,15 +474,15 @@ def main(argv=None):
                 rejection = policy_rejection(folder, memory/vid)
                 if rejection:
                     return {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
-                rejection = provider_rejection(memory/vid) if native and stage == 'build' else None
+                rejection = provider_rejection(memory/vid) if (native or matrix_perception) and stage == 'build' else None
                 if rejection:
                     return {'video_id':vid, 'status':'blocked_perception_provider', 'rejection':rejection}
                 return {'video_id': vid, 'status': 'error', 'reason': str(exc)[:400]}
 
         try:
-            remaining = None if native else credits()
+            remaining = credits() if uses_openrouter else None
         except Blocked as exc:
-            if native:
+            if native and args.defer_answers:
                 remaining = None
                 status['embedding_credit_preflight'] = str(exc)
             else:
@@ -447,16 +494,21 @@ def main(argv=None):
         write_json(out/'status.json', status)
         # V16 is the existing development video. Other initial videos are
         # ordered by duration only, so a complete end-to-end result arrives early.
-        todo = sorted(vids, key=lambda v: (v != 'G2_V000016', inv['videos'][v]['duration_seconds'], v))
+        todo = sorted(vids, key=lambda v: (v != 'G2_V000016', inv['videos'].get(v, {}).get('duration_seconds', float('inf')), v))
         attempts = {v: 0 for v in vids}
         stopped = False
         permanent_failures = 0
         passed_startup = False
         with ThreadPoolExecutor(max_workers=args.video_workers) as pool:
             active = {}
+            inventory_checked = time.monotonic()
             def schedule(limit=None):
                 while todo and len(active) < (limit or args.video_workers):
-                    vid = todo.pop(0)
+                    available = next((v for v in todo if v in inv['videos'] and v not in inv.get('missing_subtitles', [])), None)
+                    if available is None:
+                        break
+                    vid = available
+                    todo.remove(vid)
                     rejection = policy_rejection(out/'videos'/vid, memory/vid)
                     if rejection:
                         status['videos'][vid] = {'video_id':vid,'status':'blocked_input_policy','rejection':rejection}
@@ -464,8 +516,15 @@ def main(argv=None):
                     attempts[vid] += 1
                     active[pool.submit(video_run, vid)] = vid
             schedule(args.startup_videos)
-            while active:
-                done, _ = wait(active, timeout=20, return_when=FIRST_COMPLETED)
+            while active or (todo and args.wait_for_data and not stopped):
+                if active:
+                    done, _ = wait(active, timeout=20, return_when=FIRST_COMPLETED)
+                else:
+                    time.sleep(20)
+                    done = set()
+                if args.wait_for_data and not inv['complete'] and time.monotonic() - inventory_checked >= 30:
+                    inv = inventory(root, questions, out/'inventory.json')
+                    inventory_checked = time.monotonic()
                 for future in done:
                     vid = active.pop(future)
                     outcome = {**future.result(), 'video_attempt': attempts[vid]}
@@ -484,7 +543,9 @@ def main(argv=None):
                             if permanent_failures >= 3:
                                 stopped = True
                     print(json.dumps(outcome), flush=True)
-                status.update(updated_unix=time.time(), active_videos=sorted(active.values()),
+                status.update(status='running' if active or not todo else 'waiting_data',
+                    available_videos=inv['video_count'],
+                    updated_unix=time.time(), active_videos=sorted(active.values()),
                     queued_videos=len(todo), scheduling_paused=stopped)
                 metrics = aggregate(out, questions)
                 status['n_scored'] = metrics['overall_unweighted']['n_scored']

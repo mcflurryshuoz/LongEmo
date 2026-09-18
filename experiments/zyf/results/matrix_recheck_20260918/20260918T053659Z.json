@@ -1,0 +1,55 @@
+{
+  "scope": "minimal GPT-6 chat availability check; no benchmark resume or provider change",
+  "checks": [
+    {
+      "host": "g450",
+      "error_type": "TimeoutExpired",
+      "usable": false
+    },
+    {
+      "host": "local",
+      "checked_at_utc": "2026-09-18T05:36:57.201782+00:00",
+      "url": "https://matrixllm.alipay.com/v1/chat/completions",
+      "requested_model": "gpt-6-astra",
+      "https_proxy_configured": true,
+      "http_status": 200,
+      "returned_model": "gpt-6-astra",
+      "output": "OK",
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 4,
+        "prompt_tokens": 11,
+        "total_tokens": 15,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0
+        },
+        "latency_checkpoint": {
+          "engine_tbt_ms": 18,
+          "engine_ttft_ms": 333,
+          "engine_ttlt_ms": 423,
+          "pre_inference_ms": 107,
+          "service_tbt_ms": 21,
+          "service_ttft_ms": 589,
+          "service_ttlt_ms": 674,
+          "user_visible_ttft_ms": 481
+        }
+      },
+      "usable": true,
+      "elapsed_seconds": 1.92
+    }
+  ],
+  "g450_direct_tcp_probe": {
+    "dns_resolves": true,
+    "resolved_address_count": 8,
+    "tcp443": "all_connection_attempts_timed_out",
+    "elapsed_seconds": 64.38
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "checked_at_utc": "2026-09-18T04:05:24.776889+00:00",
+  "url": "https://api.aicodemirror.ai/api/gemini/v1beta/models",
+  "method": "GET",
+  "auth_header": "bearer",
+  "request_model": null,
+  "host": "g450",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "response_model": null,
+  "usage": null,
+  "stop_reason": null,
+  "output": "",
+  "models": [
+    {
+      "name": "gemini-2.5-flash-lite",
+      "displayName": "gemini-2.5-flash-lite"
+    },
+    {
+      "name": "gemini-3.1-flash-lite",
+      "displayName": "gemini-3.1-flash-lite"
+    },
+    {
+      "name": "gemini-2.5-flash",
+      "displayName": "gemini-2.5-flash"
+    },
+    {
+      "name": "gemini-3.6-flash",
+      "displayName": "gemini-3.6-flash"
+    },
+    {
+      "name": "gemini-3.1-pro-preview",
+      "displayName": "gemini-3.1-pro-preview"
+    },
+    {
+      "name": "gemini-3.1-pro",
+      "displayName": "gemini-3.1-pro"
+    },
+    {
+      "name": "gemini-3.1-pro-preview-customtools",
+      "displayName": "gemini-3.1-pro-preview-customtools"
+    },
+    {
+      "name": "gemini-3-flash-preview",
+      "displayName": "gemini-3-flash-preview"
+    },
+    {
+      "name": "gemini-3-flash",
+      "displayName": "gemini-3-flash"
+    },
+    {
+      "name": "gemini-3.8-flash",
+      "displayName": "gemini-3.8-flash"
+    },
+    {
+      "name": "gemini-3.7-flash",
+      "displayName": "gemini-3.7-flash"
+    },
+    {
+      "name": "gemini-3-pro-preview",
+      "displayName": "gemini-3-pro-preview"
+    },
+    {
+      "name": "gemini-2.5-pro",
+      "displayName": "gemini-2.5-pro"
+    }
+  ],
+  "top_level_keys": [
+    "models",
+    "nextPageToken"
+  ],
+  "elapsed_seconds": 0.26
+}

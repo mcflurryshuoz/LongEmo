@@ -31,6 +31,12 @@ def audio_client_for(args):
     credentials = json.loads(Path(args.credential_file).read_text()) if args.credential_file else {}
     base_url = getattr(args, "audio_base_url", None)
     if model.startswith("gemini-"):
+        if base_url and base_url.rstrip("/") == "https://matrixllm.alipay.com/v1":
+            key = credentials.get("MODEL_API_KEY") or os.getenv("MODEL_API_KEY")
+            if not key:
+                raise ValueError("Matrix audio credential missing")
+            return Client(model, base_url, "chat", key, 180, 4096, None,
+                          {"reasoning_effort": "low"})
         if not base_url or not base_url.rstrip("/").endswith("/v1beta"):
             raise ValueError("native Gemini audio requires an explicit --audio-base-url ending in /v1beta")
         key = credentials.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")

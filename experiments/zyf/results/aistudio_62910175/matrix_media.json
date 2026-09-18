@@ -1,0 +1,44 @@
+[
+  {
+    "adapter": "native",
+    "endpoint": "https://matrixllm.alipay.com/v1beta/models/gemini-3.8-flash:generateContent",
+    "requested_model": "gemini-3.8-flash",
+    "status": 404,
+    "seconds": 0.1196744441986084
+  },
+  {
+    "adapter": "chat",
+    "endpoint": "https://matrixllm.alipay.com/v1/chat/completions",
+    "requested_model": "gemini-3.8-flash",
+    "status": 200,
+    "model": "gemini-3.8-flash",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "* **Image color:** Solid white.\n* **Audio:** No, the audio is not silent; it features a sharp metallic tap or chime sound.",
+          "role": "assistant"
+        }
+      }
+    ],
+    "usage": {
+      "completion_tokens": 31,
+      "prompt_tokens": 1125,
+      "total_tokens": 1298,
+      "completion_tokens_details": {
+        "reasoning_tokens": 142
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 25
+      },
+      "extra_properties": {
+        "google": {
+          "traffic_type": "ON_DEMAND"
+        }
+      }
+    },
+    "seconds": 4.269152879714966
+  }
+]

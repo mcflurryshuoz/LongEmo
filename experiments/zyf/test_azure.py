@@ -162,32 +162,67 @@ class AzureTest(unittest.TestCase):
         self.assertEqual(len(status['videos']),3)
         self.assertEqual(status['n_scored'],0)
 
-    def _full_run(self, perception, defer=False):
+    def test_matrix_judge_and_blackai_perception_use_separate_credentials(self):
+        self._full_run(full.NATIVE_GEMINI, matrix=True)
+
+    def test_matrix_audio_uses_chat_and_explicit_matrix_credential(self):
+        from methods.longemo.audio import audio_client_for
+        credentials=self.root/'audio.json'
+        write_json(credentials,{'MODEL_API_KEY':'matrix-placeholder','GEMINI_API_KEY':'wrong-provider'})
+        client=audio_client_for(SimpleNamespace(model=full.NATIVE_GEMINI, audio_model=full.NATIVE_GEMINI,
+            audio_base_url=full.MATRIX_URL, credential_file=credentials, with_audio=True))
+        self.assertEqual(client.api_format,'chat')
+        self.assertEqual(client.api_key,'matrix-placeholder')
+        self.assertEqual(client.options,{'reasoning_effort':'low'})
+
+    def test_matrix_multimodal_frontend_waits_for_data_before_admission(self):
+        self._full_run(full.NATIVE_GEMINI, matrix=True, matrix_frontend=True, wait_data=True)
+
+    def _full_run(self, perception, defer=False, matrix=False, matrix_frontend=False, wait_data=False):
         data=self.root/'data'
         write_json(data/'questions.json',[question('Q1'),question('Q2')])
         write_json(data/'manifest.json',{'question_count':2,'video_count':1,'revision':'fixed','pilot_question_ids':[]})
         key=self.root/'private.json'
         write_json(key,{'OPENROUTER_API_KEY':'unit-test-placeholder','GEMINI_API_KEY':'native-test-placeholder'})
+        perception_key=self.root/'perception.json'
+        write_json(perception_key, {'GEMINI_API_KEY':'native-test-placeholder'})
+        if matrix:
+            write_json(key, {**full.read(key),'MODEL_API_KEY':'matrix-test-placeholder'})
+        answer_base='https://matrixllm.alipay.com/v1' if matrix else full.BASE_URL
         commands=[]
         def run(cmd, **kwargs):
             commands.append(cmd)
-            native = perception == full.NATIVE_GEMINI
+            native = perception == full.NATIVE_GEMINI and not matrix_frontend
             gemini = perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI) and cmd[4] == 'build'
             if native and gemini:
                 self.assertEqual(cmd[3],'experiments.zyf.native_worker')
                 self.assertEqual(cmd[cmd.index('--max-tokens')+1],'32768')
+            elif matrix_frontend and gemini:
+                self.assertEqual(cmd[3],'methods.longemo')
+                self.assertEqual(cmd[cmd.index('--max-tokens')+1],'32768')
             else:
                 self.assertEqual(cmd[cmd.index('--max-tokens')+1],'8192')
             self.assertEqual(cmd[cmd.index('--model')+1],perception if gemini else full.MODEL)
-            self.assertEqual(cmd[cmd.index('--base-url')+1],(full.BLACKAI_URL if native else full.OPENROUTER_URL) if gemini else full.BASE_URL)
-            self.assertNotIn('MODEL_API_KEY',kwargs['env'])
+            self.assertEqual(cmd[cmd.index('--base-url')+1],(full.MATRIX_URL if matrix_frontend else full.BLACKAI_URL if native else full.OPENROUTER_URL) if gemini else answer_base)
+            if matrix:
+                self.assertEqual(kwargs['env']['MODEL_API_KEY'],'matrix-test-placeholder')
+                if gemini:
+                    self.assertEqual(cmd[cmd.index('--credential-file')+1],str(key if matrix_frontend else perception_key))
+                elif cmd[3] != 'evaluation.eval':
+                    self.assertEqual(cmd[cmd.index('--credential-file')+1],str(key))
+            else:
+                self.assertNotIn('MODEL_API_KEY',kwargs['env'])
             if gemini:
-                settings = {'generationConfig':{'thinkingConfig':{'thinkingLevel':'medium'}}} if native else {'reasoning':{'effort':'medium'}}
+                settings = {'generationConfig':{'thinkingConfig':{'thinkingLevel':'medium'}}} if native else {'reasoning_effort':'medium'} if matrix_frontend else {'reasoning':{'effort':'medium'}}
                 self.assertEqual(full.read(cmd[cmd.index('--config')+1]),settings)
                 self.assertEqual(cmd[cmd.index('--temperature')+1],'1')
             output=Path(cmd[cmd.index('--output-dir')+1])
             if cmd[3]=='methods.longemo' and cmd[4]=='answer':
-                if native:
+                if matrix:
+                    self.assertEqual(cmd[cmd.index('--embedding-backend')+1],'gemini')
+                    self.assertEqual(cmd[cmd.index('--embedding-model')+1],full.EMBEDDING)
+                    self.assertEqual(cmd[cmd.index('--embedding-base-url')+1],full.OPENROUTER_URL)
+                elif native:
                     self.assertEqual(cmd[cmd.index('--embedding-backend')+1],'gemini-native')
                     self.assertEqual(cmd[cmd.index('--embedding-model')+1],full.NATIVE_EMBEDDING)
                     self.assertEqual(cmd[cmd.index('--embedding-base-url')+1],full.BLACKAI_URL)
@@ -197,7 +232,7 @@ class AzureTest(unittest.TestCase):
                 write_records(output/'run_1'/'scores.jsonl',[score('Q1',0),score('Q2',4)])
             return SimpleNamespace(returncode=0)
         def balance(*args, **kwargs):
-            if perception == full.NATIVE_GEMINI:
+            if perception == full.NATIVE_GEMINI and not matrix:
                 raise AssertionError('native Gemini experiment must not call OpenRouter')
             return io.BytesIO(b'{"data":{"total_credits":10,"total_usage":0}}')
         args=['--data-root',str(data),'--output-dir',str(self.root/'out'),'--credential-file',str(key),
@@ -205,10 +240,19 @@ class AzureTest(unittest.TestCase):
             '--startup-videos','1','--execute']
         if defer:
             args += ['--defer-answers']
+        if matrix:
+            args += ['--answer-base-url',answer_base,'--embedding-backend','gemini']
+            args += ['--matrix-perception'] if matrix_frontend else ['--perception-credential-file',str(perception_key)]
+        complete_inventory={'complete':True,'video_count':1,'videos':{'V1':{'duration_seconds':20}}}
+        inventories=[complete_inventory]
+        if wait_data:
+            args += ['--wait-for-data']
+            inventories.insert(0,{'complete':False,'video_count':0,'videos':{},'missing_subtitles':[]})
         with patch.object(full,'code_hash',return_value=full.SOURCE_HASH), patch.object(full,'git_revision',return_value='test'), \
-             patch.object(full,'inventory',return_value={'complete':True,'video_count':1,'videos':{'V1':{'duration_seconds':20}}}), \
+             patch.object(full,'inventory',side_effect=inventories), \
+             patch.object(full.time,'sleep'), patch.object(full.time,'monotonic',side_effect=__import__('itertools').count(0,31)), \
              patch.object(full,'urlopen',side_effect=balance), patch.object(full.subprocess,'run',side_effect=run), \
-             patch.object(az,'access_token',return_value='secret'), contextlib.redirect_stdout(io.StringIO()):
+             patch.object(az,'access_token',side_effect=AssertionError('unexpected Azure login') if matrix else None,return_value='secret'), contextlib.redirect_stdout(io.StringIO()):
             self.assertEqual(full.main(args),3 if defer else 0)
         self.assertEqual(len(commands),1 if defer else 3)
         self.assertEqual(full.read(self.root/'out'/'metrics.json')['overall_unweighted']['coverage'],0 if defer else 1)
@@ -217,6 +261,11 @@ class AzureTest(unittest.TestCase):
         config=full.read(self.root/'out'/'experiment_manifest.json')['configuration']
         self.assertEqual(config['model'],full.MODEL)
         self.assertEqual(config['judge_model'],full.MODEL)
+        self.assertEqual(config['base_url'],answer_base)
+        if matrix:
+            self.assertNotIn('azure_transport',config)
+            self.assertEqual(config['embedding_model'],full.EMBEDDING)
+            self.assertEqual(config['embedding_base_url'],full.OPENROUTER_URL)
         self.assertEqual(config['audio_model'],full.NATIVE_GEMINI if perception == full.NATIVE_GEMINI else full.AUDIO)
         if perception in (full.GEMINI_PERCEPTION,full.NATIVE_GEMINI):
             self.assertEqual(config['perception_model'],perception)

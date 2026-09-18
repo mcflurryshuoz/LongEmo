@@ -1,0 +1,122 @@
+{
+  "checked_at_utc": "2026-09-18T04:09:13.698047+00:00",
+  "url": "https://api.aicodemirror.ai/api/codex/backend-api/codex/responses",
+  "method": "POST",
+  "auth_header": "bearer",
+  "request_model": "gpt-6-astra",
+  "host": "g450",
+  "http_status": 200,
+  "content_type": "text/event-stream",
+  "event_types": [
+    "response.created",
+    "response.in_progress",
+    "response.output_item.added",
+    "response.content_part.added",
+    "response.output_text.delta",
+    "response.output_text.done",
+    "response.content_part.done",
+    "response.output_item.done",
+    "response.completed"
+  ],
+  "response_status": "completed",
+  "output": "OK",
+  "stream_errors": [],
+  "response_model": "gpt-6-astra",
+  "usage": {
+    "attribution": {
+      "items": {
+        "msg_011f3aae5c251b59016aacb96a388087d099820b77cd1069e4": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 9,
+              "output_tokens": 0
+            }
+          ],
+          "input_tokens": 9,
+          "output_tokens": 0
+        },
+        "msg_011f3aae5c251b59016aacb96b22b087d096b7b9f3a95a75fc": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "content": [
+            {
+              "cache_write_tokens": 0,
+              "cached_tokens": 0,
+              "input_tokens": 2,
+              "output_tokens": 5
+            }
+          ],
+          "input_tokens": 2,
+          "output_tokens": 5
+        }
+      },
+      "request_fields": {
+        "tools": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 296,
+          "output_tokens": 0
+        },
+        "instructions": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "input_tokens": 7,
+          "output_tokens": 0
+        }
+      }
+    },
+    "input_tokens": 314,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 5,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 319
+  },
+  "stop_reason": null,
+  "top_level_keys": [
+    "id",
+    "object",
+    "created_at",
+    "status",
+    "background",
+    "completed_at",
+    "error",
+    "frequency_penalty",
+    "incomplete_details",
+    "instructions",
+    "max_output_tokens",
+    "max_tool_calls",
+    "model",
+    "moderation",
+    "output",
+    "parallel_tool_calls",
+    "presence_penalty",
+    "previous_response_id",
+    "prompt_cache_key",
+    "prompt_cache_retention",
+    "reasoning",
+    "safety_identifier",
+    "service_tier",
+    "store",
+    "temperature",
+    "text",
+    "tool_choice",
+    "tool_usage",
+    "tools",
+    "top_logprobs",
+    "top_p",
+    "truncation",
+    "usage",
+    "user",
+    "metadata"
+  ],
+  "elapsed_seconds": 2.38
+}

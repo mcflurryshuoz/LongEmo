@@ -1,0 +1,73 @@
+{
+  "host": "g450",
+  "scope": "BlackAI availability recheck after user-reported quota update; synthetic inputs only, no benchmark resume",
+  "checks": [
+    {
+      "stage": "embedding",
+      "requested_model": "gemini-embedding-2",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-embedding-2:batchEmbedContents",
+      "checked_at_utc": "2026-09-18T05:20:32.455732+00:00",
+      "http_status": 404,
+      "retry_after": null,
+      "error": {
+        "code": "404",
+        "status": "NOT_FOUND",
+        "message": "Model \"gemini-embedding-2\" is not supported by any configured account in this group"
+      },
+      "elapsed_seconds": 1.74,
+      "returned_model": null,
+      "vector_dimensions": [],
+      "usage": null,
+      "usable": false
+    },
+    {
+      "stage": "gemini_image_audio",
+      "requested_model": "gemini-3.8-flash",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.8-flash:generateContent",
+      "checked_at_utc": "2026-09-18T05:20:32.458847+00:00",
+      "http_status": 200,
+      "elapsed_seconds": 5.87,
+      "returned_model": null,
+      "finish_reason": "STOP",
+      "answer": "The solid, vibrant red image is accompanied by a sharp, suspenseful metallic drone.",
+      "usage": {
+        "promptTokenCount": 1127,
+        "toolUsePromptTokenCount": 0,
+        "candidatesTokenCount": 103,
+        "totalTokenCount": 1230,
+        "thoughtsTokenCount": 0,
+        "cachedContentTokenCount": 0,
+        "promptTokensDetails": null,
+        "toolUsePromptTokensDetails": null,
+        "candidatesTokensDetails": null,
+        "billing_usage": {
+          "source": "oai_chat",
+          "semantic": "openai",
+          "openai_usage": {
+            "prompt_tokens": 1127,
+            "completion_tokens": 103,
+            "total_tokens": 1230,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "text_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0
+            },
+            "completion_tokens_details": {
+              "text_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "reasoning_tokens": 86
+            },
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "input_tokens_details": null,
+            "claude_cache_creation_5_m_tokens": 0,
+            "claude_cache_creation_1_h_tokens": 0
+          }
+        }
+      },
+      "usable": true
+    }
+  ]
+}

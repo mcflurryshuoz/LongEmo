@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-09-18T04:07:02.586554+00:00",
+  "url": "https://api.aicodemirror.ai/api/gemini/v1beta/models/gemini-embedding-2:batchEmbedContents",
+  "method": "POST",
+  "auth_header": "bearer",
+  "request_model": null,
+  "host": "g450",
+  "http_status": 503,
+  "content_type": "application/json; charset=utf-8",
+  "error": "{\"error\":{\"code\":\"model_not_found\",\"message\":\"No available channel for model gemini-embedding-2 under group gemini_官方订阅渠道 (distributor) (request id: 202609180407027875151598268d9d6WxeusJ9s)\",\"type\":\"new_api_error\"}}",
+  "retry_after": null,
+  "elapsed_seconds": 0.36
+}

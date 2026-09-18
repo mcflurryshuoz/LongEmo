@@ -1,0 +1,68 @@
+{
+  "checked_at_utc": "2026-09-18T03:45:15.440613+00:00",
+  "checks": [
+    {
+      "service": "openrouter_key",
+      "http_status": 200,
+      "key_limits": {
+        "limit": null,
+        "limit_remaining": null,
+        "limit_reset": null,
+        "usage": 49.779445405,
+        "is_free_tier": false,
+        "expires_at": null
+      },
+      "elapsed_seconds": 0.29
+    },
+    {
+      "service": "openrouter_credits",
+      "http_status": 200,
+      "credits": {
+        "total_credits": 70,
+        "total_usage": 49.779445405
+      },
+      "remaining_credits_usd": 20.220554595000003,
+      "elapsed_seconds": 0.31
+    },
+    {
+      "service": "blackai_models",
+      "http_status": 200,
+      "relevant_models": [
+        {
+          "name": "gemini-3.6-flash",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3.1-pro-preview",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3.1-pro",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3-flash-preview",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3.7-flash",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3.8-flash",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3.5-flash",
+          "supportedGenerationMethods": null
+        },
+        {
+          "name": "gemini-3.1-flash-lite",
+          "supportedGenerationMethods": null
+        }
+      ],
+      "note": "Model listing does not establish successful inference access.",
+      "elapsed_seconds": 0.96
+    }
+  ]
+}
