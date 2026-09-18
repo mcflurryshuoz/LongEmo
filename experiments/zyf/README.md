@@ -208,3 +208,5 @@ Every run directory retains its own manifests and logs. Changes to model, prompt
 User authorized a new host and run on 2026-09-18. Matrix GPT-6 and Gemini 3.8 image/audio calls succeeded from the container; a synthetic speech test was transcribed correctly. A one-second silence probe produced a false sound description, retained in the diagnostic record; API reachability is not a quality guarantee. BlackAI and HF CDN TLS requests timed out. OpenRouter Gemini Embedding 2 returned finite 3072-D vectors.
 
 The new run keeps question-free perception, graph + semantic/embedding retrieval and the original official scorer. No old predictions or judgments are imported. Data staging verifies the fixed manifest before each video is admitted. See [E10 protocol](aistudio_benchmark.md) and [preflight records](results/aistudio_62910175/).
+
+E10 launched at frozen commit `82b3b205fdf3d0522baf686e7bb901962ac4e58f` on AIStudio (PID 30719). Initial snapshot at 2026-09-18 14:50:45 CST: 15/141 videos verified, V16 2/19 windows committed, 0/558 judgments. All 33 relevant tests passed on the target container. [Launch snapshot](results/aistudio_62910175/initial_progress.json).

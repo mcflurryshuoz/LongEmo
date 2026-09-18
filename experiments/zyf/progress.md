@@ -2,7 +2,15 @@
 
 [研究方案](plan.md) · [方法整体流程](../../README.md#zyf-分支当前方法整体流程) · [完整实验记录](README.md) · [初步结果核验](results/preliminary_review_20260917/review.md)
 
-E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62910175 配置环境并启动新实验 E10；正在迁移数据，服务检查与独立实验配置见 [E10 协议](aistudio_benchmark.md)。下表的旧成绩保持原样，新实验不复用旧预测或评分。
+E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62910175 配置环境并启动新实验 E10；已启动并继续迁移数据，服务检查与独立实验配置见 [E10 协议](aistudio_benchmark.md)。下表的旧成绩保持原样，新实验不复用旧预测或评分。
+
+## 当前全量实验：E10
+
+已在 AIStudio `62910175` 启动，冻结代码 `82b3b205fdf3d0522baf686e7bb901962ac4e58f`。Matrix Gemini 3.8 做音频／视频感知，OpenRouter Gemini Embedding 2 做向量，Matrix GPT-6 做规划／回答／官方评分。33 项检查通过；首个真实音频和感知窗口均成功。
+
+启动快照（2026-09-18 14:50:45 CST）：数据已校验 **15/141** 视频；V16 已保存 **2/19** 窗口；评分 **0/558**，尚无本轮得分。V16 答题和评分完成后自动扩到 16 视频并发，每视频 2 个问答／评分 worker；其余数据边传边校验、边入队。旧结果不混入。
+
+运行目录：`/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1`，启动 PID `30719`。本机中转和 SSH 隧道需保持在线，后续准确进度读取运行目录。见 [启动快照](results/aistudio_62910175/initial_progress.json)、[接入检查](results/aistudio_62910175/validation.md)及[协议](aistudio_benchmark.md)。
 
 ## 保留的全量实验：E09 v2
 

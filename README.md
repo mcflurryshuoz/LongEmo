@@ -65,19 +65,21 @@ flowchart TD
 
 ### 当前模型分工与评测口径
 
-下表对应最新 **E09 v2**，历史 E06／E08 的服务和配置另见实验记录。
+下表对应在 AIStudio 62910175 运行的独立实验 **E10**。历史 E06／E08／E09 的服务和配置另见实验记录。
 
 | 环节 | 当前配置 | 验证状态 |
 |---|---|---|
-| 音频观察 | BlackAI 原生 Gemini 3.8 Flash；low thinking，输出上限 4096 tokens | 已有真实音频调用 |
-| 视频感知／构图 | BlackAI 原生 Gemini 3.8 Flash；medium thinking，输出上限 32768 tokens | 已保存部分图谱 |
-| 事件／问题向量 | BlackAI 原生 `gemini-embedding-2`；3072 维 | 适配器已实现；账户服务返回 404，尚未完成真实向量调用 |
-| 检索规划／答题 | Azure GPT-6 Astra；medium reasoning，输出上限 8192 tokens | 旧实验已运行；E09 延后执行 |
-| 官方评分 | Azure GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 旧实验已有分数；E09 未评分 |
+| 音频观察 | Matrix Gemini 3.8 Flash；low reasoning，输出上限 4096 tokens | 真实视频音频调用成功 |
+| 视频感知／构图 | Matrix Gemini 3.8 Flash；medium reasoning，输出上限 32768 tokens | 正在逐窗构图，已保存有效检查点 |
+| 事件／问题向量 | OpenRouter `google/gemini-embedding-2`；3072 维 | 真实向量预检成功 |
+| 检索规划／答题 | Matrix GPT-6 Astra；medium reasoning，输出上限 8192 tokens | API 预检成功，等待首个图谱完成 |
+| 官方评分 | Matrix GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 首个启动快照尚无评分 |
 
 评测目标为固定版本的 **episode 全量 141 个视频、558 道题、8342 个窗口**。评分器只读取预测与标注，不读取视频；每题按 `得分 / 该题最高分` 归一化，再等权平均。失败或缺失题不进入均分，但必须报告 `n_scored / 558`；不能用部分样本均分代表全量结果。保留首次成功评分，失败项才重试。
 
-暂停时 E09 v2 已保存 **995/8342 个窗口、21/141 个完整视频记忆，评分覆盖 0/558**；这里的 0 表示尚未评分。现有结果尚不能证明图方法优于直接视频输入：
+E10 边迁移边处理：每个视频通过固定 manifest 的大小与 SHA-256 校验才入队；先验证 V16，再扩至 16 视频并发。详见[运行协议](experiments/zyf/aistudio_benchmark.md)和[启动快照](experiments/zyf/results/aistudio_62910175/initial_progress.json)。
+
+旧实验暂停时 E09 v2 已保存 **995/8342 个窗口、21/141 个完整视频记忆，评分覆盖 0/558**；这里的 0 表示尚未评分。现有结果尚不能证明图方法优于直接视频输入：
 
 | 已有同题比较 | 样本 | 归一化均分 | 解释范围 |
 |---|---|---|---|
@@ -94,7 +96,7 @@ flowchart TD
 | [audio.py](methods/longemo/audio.py)、[media.py](methods/longemo/media.py) | 音频观察、窗口媒体与时间对齐 |
 | [memory.py](methods/longemo/memory.py) | 事件图结构、校验、合并与修订 |
 | [embeddings.py](methods/longemo/embeddings.py)、[retrieval.py](methods/longemo/retrieval.py) | 向量编码／缓存、双路召回、RRF 与图扩展 |
-| [launch_blackai.py](experiments/zyf/launch_blackai.py)、[azure_benchmark.py](experiments/zyf/azure_benchmark.py) | 当前原生 Gemini + Azure 全量配置与调度 |
+| [launch_blackai.py](experiments/zyf/launch_blackai.py)、[azure_benchmark.py](experiments/zyf/azure_benchmark.py) | 按显式配置选择 BlackAI／Azure 或 Matrix 的全量调度 |
 | [evaluation/eval.py](evaluation/eval.py) | 共享官方评测器 |
 
 安装 `python -m pip install -e '.[longemo]'`，准备 FFmpeg／ffprobe，单独配置仓库外的服务凭证。API 主流程不加载本地 GPU 模型。以下命令只查看参数：
@@ -105,7 +107,7 @@ python -m methods.longemo answer --help
 python -m experiments.zyf.launch_blackai --help
 ```
 
-实际 E09 参数、服务限制和启动方式以[当前实验协议](experiments/zyf/blackai_benchmark.md)为准；通用 CLI 默认值及旧版实验示例不等于 E09 配置。每次运行记录数据／代码／模型配置、逐窗图谱和音频观察、向量缓存、逐题检索证据与预测、官方评分及 API 尝试和用量。改变感知模型或语义配置时使用新实验目录，避免混用旧缓存。
+实际 E10 参数和启动方式以[当前实验协议](experiments/zyf/aistudio_benchmark.md)为准，旧 E09 见[原生 Gemini 协议](experiments/zyf/blackai_benchmark.md)；通用 CLI 默认值及旧例不等于本轮配置。每次运行记录数据／代码／模型配置、逐窗图谱和音频观察、向量缓存、逐题检索证据与预测、官方评分及 API 尝试和用量。改变感知模型或语义配置时使用新实验目录，避免混用旧缓存。
 
 更多说明：[方法文档](methods/longemo/README.md) · [实验记录](experiments/zyf/README.md) · [研究计划](experiments/zyf/plan.md)。下文保留原 benchmark 的数据、预测与评测使用说明。
 
