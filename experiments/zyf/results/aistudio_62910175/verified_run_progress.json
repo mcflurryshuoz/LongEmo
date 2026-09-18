@@ -1,0 +1,259 @@
+{
+  "snapshot_unix": 1789714966.2820199,
+  "host_experiment": "62910175",
+  "frozen_commit": "82b3b205fdf3d0522baf686e7bb901962ac4e58f",
+  "run": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1",
+  "status": {
+    "status": "running",
+    "updated_unix": 1789714949.9449918,
+    "question_count": 558,
+    "video_count": 141,
+    "available_videos": 16,
+    "initial_available_credits": 20.217924375000003,
+    "videos": {
+      "G2_V000016": {
+        "video_id": "G2_V000016",
+        "status": "complete",
+        "n_scored": 2,
+        "video_attempt": 1
+      },
+      "G2_V000007": {
+        "video_id": "G2_V000007",
+        "status": "error",
+        "reason": "build failed; checkpoints retained at /root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1/videos/G2_V000007",
+        "video_attempt": 2
+      }
+    },
+    "active_videos": [
+      "G2_V000001",
+      "G2_V000003",
+      "G2_V000004",
+      "G2_V000005",
+      "G2_V000008",
+      "G2_V000010",
+      "G2_V000011",
+      "G2_V000013",
+      "G2_V000014",
+      "G2_V000015",
+      "G2_V000019",
+      "G2_V000021",
+      "G2_V000023",
+      "G2_V000027"
+    ],
+    "queued_videos": 125,
+    "scheduling_paused": false,
+    "n_scored": 2
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 2,
+      "coverage": 0.0035842293906810036,
+      "statuses": {
+        "pending": 556,
+        "ok": 2
+      },
+      "normalized_mean": 1,
+      "percent_score": 100
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 1,
+        "coverage": 0.00425531914893617,
+        "statuses": {
+          "pending": 234,
+          "ok": 1
+        },
+        "normalized_mean": 1,
+        "percent_score": 100,
+        "raw_mean": 4,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 1,
+        "coverage": 0.005154639175257732,
+        "statuses": {
+          "pending": 193,
+          "ok": 1
+        },
+        "normalized_mean": 1,
+        "percent_score": 100,
+        "raw_mean": 1,
+        "max_score": 1,
+        "acc": 1
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 0,
+        "coverage": 0,
+        "statuses": {
+          "pending": 129
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 0,
+        "coverage": 0,
+        "statuses": {
+          "pending": 41
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 0,
+        "coverage": 0,
+        "statuses": {
+          "pending": 88
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": null,
+      "unweighted_percent": null,
+      "weighted": null,
+      "weighted_percent": null
+    }
+  },
+  "memory_progress": [
+    {
+      "video_id": "G2_V000001",
+      "completed_windows": 2,
+      "events": 4
+    },
+    {
+      "video_id": "G2_V000003",
+      "completed_windows": 1,
+      "events": 3
+    },
+    {
+      "video_id": "G2_V000004",
+      "completed_windows": 1,
+      "events": 1
+    },
+    {
+      "video_id": "G2_V000005",
+      "completed_windows": 2,
+      "events": 4
+    },
+    {
+      "video_id": "G2_V000007",
+      "completed_windows": 2,
+      "events": 2
+    },
+    {
+      "video_id": "G2_V000008",
+      "completed_windows": 2,
+      "events": 4
+    },
+    {
+      "video_id": "G2_V000010",
+      "completed_windows": 1,
+      "events": 3
+    },
+    {
+      "video_id": "G2_V000011",
+      "completed_windows": 1,
+      "events": 3
+    },
+    {
+      "video_id": "G2_V000013",
+      "completed_windows": 2,
+      "events": 4
+    },
+    {
+      "video_id": "G2_V000014",
+      "completed_windows": 2,
+      "events": 4
+    },
+    {
+      "video_id": "G2_V000015",
+      "completed_windows": 2,
+      "events": 4
+    },
+    {
+      "video_id": "G2_V000016",
+      "completed_windows": 19,
+      "events": 5
+    },
+    {
+      "video_id": "G2_V000019",
+      "completed_windows": 1,
+      "events": 3
+    },
+    {
+      "video_id": "G2_V000021",
+      "completed_windows": 1,
+      "events": 2
+    },
+    {
+      "video_id": "G2_V000023",
+      "completed_windows": 1,
+      "events": 2
+    },
+    {
+      "video_id": "G2_V000027",
+      "completed_windows": 2,
+      "events": 3
+    }
+  ],
+  "scores": [
+    {
+      "question_id": "G2_Q000041",
+      "video_id": "G2_V000016",
+      "type": "emotional intensity comparison",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000042",
+      "video_id": "G2_V000016",
+      "type": "emotion trajectory",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1,
+      "status": "ok"
+    }
+  ],
+  "data_transfer": {
+    "verified": 16,
+    "expected": 141,
+    "verified_bytes": 886939539,
+    "complete": false,
+    "updated_unix": 1789714963.7157536,
+    "accepted": [
+      "G2_V000001.mp4",
+      "G2_V000003.mp4",
+      "G2_V000004.mp4",
+      "G2_V000005.mp4",
+      "G2_V000007.mp4",
+      "G2_V000008.mp4",
+      "G2_V000010.mp4",
+      "G2_V000011.mp4",
+      "G2_V000013.mp4",
+      "G2_V000014.mp4",
+      "G2_V000015.mp4",
+      "G2_V000016.mp4",
+      "G2_V000019.mp4",
+      "G2_V000021.mp4",
+      "G2_V000023.mp4",
+      "G2_V000027.mp4"
+    ]
+  },
+  "upload_status": "blocked after three SCP Connection closed failures; local download continues",
+  "tests_passed_on_frozen_code": 33
+}

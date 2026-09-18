@@ -72,12 +72,12 @@ flowchart TD
 | 音频观察 | Matrix Gemini 3.8 Flash；low reasoning，输出上限 4096 tokens | 真实视频音频调用成功 |
 | 视频感知／构图 | Matrix Gemini 3.8 Flash；medium reasoning，输出上限 32768 tokens | 正在逐窗构图，已保存有效检查点 |
 | 事件／问题向量 | OpenRouter `google/gemini-embedding-2`；3072 维 | 真实向量预检成功 |
-| 检索规划／答题 | Matrix GPT-6 Astra；medium reasoning，输出上限 8192 tokens | API 预检成功，等待首个图谱完成 |
-| 官方评分 | Matrix GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 首个启动快照尚无评分 |
+| 检索规划／答题 | Matrix GPT-6 Astra；medium reasoning，输出上限 8192 tokens | V16 两题已实际完成回答 |
+| 官方评分 | Matrix GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | V16 为 1/1、4/4；覆盖仅 2/558 |
 
 评测目标为固定版本的 **episode 全量 141 个视频、558 道题、8342 个窗口**。评分器只读取预测与标注，不读取视频；每题按 `得分 / 该题最高分` 归一化，再等权平均。失败或缺失题不进入均分，但必须报告 `n_scored / 558`；不能用部分样本均分代表全量结果。保留首次成功评分，失败项才重试。
 
-E10 边迁移边处理：每个视频通过固定 manifest 的大小与 SHA-256 校验才入队；先验证 V16，再扩至 16 视频并发。详见[运行协议](experiments/zyf/aistudio_benchmark.md)和[启动快照](experiments/zyf/results/aistudio_62910175/initial_progress.json)。
+E10 边迁移边处理：每个视频通过固定 manifest 的大小与 SHA-256 校验才入队；V16 已完成，调度上限扩至 16 视频；剩余数据上传遇到连接中断，等待恢复。详见[运行协议](experiments/zyf/aistudio_benchmark.md)和[启动快照](experiments/zyf/results/aistudio_62910175/initial_progress.json)。
 
 旧实验暂停时 E09 v2 已保存 **995/8342 个窗口、21/141 个完整视频记忆，评分覆盖 0/558**；这里的 0 表示尚未评分。现有结果尚不能证明图方法优于直接视频输入：
 

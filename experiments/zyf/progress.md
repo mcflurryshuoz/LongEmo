@@ -12,6 +12,14 @@ E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62
 
 运行目录：`/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1`，启动 PID `30719`。本机中转和 SSH 隧道需保持在线，后续准确进度读取运行目录。见 [启动快照](results/aistudio_62910175/initial_progress.json)、[接入检查](results/aistudio_62910175/validation.md)及[协议](aistudio_benchmark.md)。
 
+### E10 首个完整结果与传输限制
+
+2026-09-18 15:02:46 CST：V16 已完成 19/19 窗口及两题官方评分：Q41 **1/1**，Q42 **4/4**，两题归一化均分 100%；覆盖率仅 **2/558**。V16 是既有开发视频，不能据此判断全量提升。启动门槛已通过，调度上限 16 视频；快照有 14 个视频活跃；V7 在第三窗音频观察两次返回 Matrix HTTP 428 后保留失败，原因尚未确认，不继续重抽该输入。
+
+数据已校验 16/141 视频，g450 → 本地下载继续，但本地 → AIStudio 的新 SCP 连接反复返回 Connection closed，三次有限重试后上传暂停；已校验的数据继续实验，缺失数据保留 pending。早先 5–8 小时估计以网络稳定为前提，当前不能保证全量迁移完成时间。
+
+[运行与逐题得分快照](results/aistudio_62910175/verified_run_progress.json) · [传输状态](results/aistudio_62910175/transfer_update.json)。
+
 ## 保留的全量实验：E09 v2
 
 固定范围为 episode 的 141 个视频、558 道题、8342 个窗口。Gemini 3.8 Flash 负责音频观察和视频感知，原生 Gemini Embedding 2 用于事件／问题向量，Azure GPT-6 负责检索规划、答题和官方评分。详见[配置协议](blackai_benchmark.md)。

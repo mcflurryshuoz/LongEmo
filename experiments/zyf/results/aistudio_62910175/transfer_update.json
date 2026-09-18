@@ -1,0 +1,12 @@
+{
+  "recorded_unix": 1789714937.318432,
+  "status": "local_download_running_upload_blocked",
+  "local_staged_bytes": 10287546199,
+  "remote_verified_videos": 16,
+  "remote_verified_bytes": 886939539,
+  "expected_videos": 141,
+  "expected_video_bytes": 68375210073,
+  "upload_failure": "SCP Connection closed; stopped after three bounded retries; existing interactive SSH session remains usable",
+  "experiment_status": "running on verified videos; scheduler waits for missing data",
+  "new_tunnel_recovery_attempts": 1
+}
