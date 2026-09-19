@@ -73,11 +73,11 @@ flowchart TD
 | 视频感知／构图 | Matrix Gemini 3.8 Flash；medium reasoning，输出上限 32768 tokens | 正在逐窗构图，已保存有效检查点 |
 | 事件／问题向量 | OpenRouter `google/gemini-embedding-2`；3072 维 | 真实向量预检成功 |
 | 检索规划／答题 | Matrix GPT-6 Astra；medium reasoning，输出上限 8192 tokens | V16 两题已实际完成回答 |
-| 官方评分 | Matrix GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 已评分 265/558，部分样本归一化均分 58.93% |
+| 官方评分 | Matrix GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 已评分 366/558，部分样本归一化均分 58.38% |
 
 评测目标为固定版本的 **episode 全量 141 个视频、558 道题、8342 个窗口**。评分器只读取预测与标注，不读取视频；每题按 `得分 / 该题最高分` 归一化，再等权平均。失败或缺失题不进入均分，但必须报告 `n_scored / 558`；不能用部分样本均分代表全量结果。保留首次成功评分，失败项才重试。
 
-E10 边迁移边处理：每个视频通过固定 manifest 的大小与 SHA-256 校验才入队，调度上限 16 视频。服务拒绝按视频记录缺失，保留完整分母并继续其他视频。2026-09-19 01:22:17 CST 的快照为 129/141 个视频已校验、5329 个窗口完成、71 个视频完成评分、15 个视频活跃。部分样本分数不能代表全量成绩。详见[运行协议](experiments/zyf/aistudio_benchmark.md)、[进度与续传说明](experiments/zyf/progress.md)和[按剧／逐集分数](experiments/zyf/results/aistudio_62910175/series_20260919_0122/series_scores.md)。
+E10 已校验全部 141 个视频并完成首轮可执行任务，感知保存 6641/8342 个窗口。366/558 题取得首次官方评分；其余 192 题保留明确阻断状态（157 题受内容过滤影响，35 题受 HTTP 428 影响）。某题失败不再遗漏同视频其他成功答案的首次评分；本次补评 8 题，原有 358 条成绩与预测均保持不变。当前没有活跃评测任务，尚不能称为全量 benchmark 完成。详见[运行协议](experiments/zyf/aistudio_benchmark.md)、[首轮结果与阻断清单](experiments/zyf/results/aistudio_62910175/first_sweep_20260919/summary.md)和[按剧／逐集分数](experiments/zyf/results/aistudio_62910175/first_sweep_20260919/series_scores.md)。
 
 旧实验暂停时 E09 v2 已保存 **995/8342 个窗口、21/141 个完整视频记忆，评分覆盖 0/558**；这里的 0 表示尚未评分。现有结果尚不能证明图方法优于直接视频输入：
 

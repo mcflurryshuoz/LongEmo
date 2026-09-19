@@ -30,7 +30,10 @@ def scoring_inventory(run, questions):
     result = {}
     for vid, subset in groups.items():
         folder = run/'videos'/vid
-        predictions = {r['question_id']: r for r in records(folder/'graph/predictions.jsonl')}
+        prediction_rows = records(folder/'graph/predictions.jsonl')
+        predictions = {r['question_id']: r for r in prediction_rows}
+        if len(predictions) != len(prediction_rows):
+            raise ValueError('duplicate prediction IDs')
         valid = {key: r['prediction'] for key, r in predictions.items()
                  if r.get('status') == 'ok' and isinstance(r.get('prediction'), str)
                  and r['prediction'].strip()}
@@ -159,6 +162,17 @@ def main(argv=None):
                   'questions': rows,
                   'note': 'Upstream blocks were attempted at video level; their question answering/judging was not completed. Missing scores are not zero.'}
         write_json(run/'task_completion.json', report)
+        if args.execute:
+            state = json.loads((run/'status.json').read_text())
+            terminal = all(r['status'] == 'scored' or r['status'].startswith('blocked_') for r in rows)
+            if terminal:
+                state.setdefault('first_sweep_finished_unix', state['updated_unix'])
+                state.update(status='complete' if all(r['status'] == 'scored' for r in rows)
+                             else 'partial_service_rejections', updated_unix=time.time(),
+                             n_scored=metrics['overall_unweighted']['n_scored'],
+                             all_runnable_questions_finished=True,
+                             task_completion_report='task_completion.json')
+                write_json(run/'status.json', state)
         print(json.dumps({k: v for k, v in report.items() if k not in ('questions', 'metrics')}, ensure_ascii=False), flush=True)
         return 0
 

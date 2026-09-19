@@ -8,6 +8,14 @@ from experiments.zyf.test_full_benchmark import question, score
 
 
 class FinishScoringTest(unittest.TestCase):
+    def test_duplicate_predictions_are_rejected_before_selection(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp); q = question('Q1')
+            row = {'question_id': 'Q1', 'status': 'ok', 'prediction': 'answer'}
+            write_records(run/'videos'/q['video_id']/'graph/predictions.jsonl', [row, row])
+            with self.assertRaisesRegex(ValueError, 'duplicate'):
+                scoring_inventory(run, [q])
+
     def test_valid_sibling_is_scored_once_and_rejected_siblings_remain_blocked(self):
         with tempfile.TemporaryDirectory() as tmp:
             run = Path(tmp)

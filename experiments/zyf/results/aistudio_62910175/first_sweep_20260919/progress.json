@@ -1,0 +1,133 @@
+{
+  "as_of": "2026-09-19T09:30:43+08:00",
+  "status": "partial_service_rejections",
+  "source_run": "/root/longemo/runtime/runs/matrix_gemini38_gpt6_full_v1",
+  "data": {
+    "verified": 141,
+    "expected": 141,
+    "verified_bytes": 68375210073,
+    "complete": true
+  },
+  "windows": {
+    "complete": 6641,
+    "expected": 8342
+  },
+  "video_status_counts": {
+    "complete": 94,
+    "blocked_request_precondition": 9,
+    "blocked_input_policy": 38
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 366,
+      "coverage": 0.6559139784946236,
+      "statuses": {
+        "ok": 366,
+        "pending": 192
+      },
+      "normalized_mean": 0.5837887067395264,
+      "percent_score": 58.37887067395264
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 157,
+        "coverage": 0.6680851063829787,
+        "statuses": {
+          "ok": 157,
+          "pending": 78
+        },
+        "normalized_mean": 0.5414012738853503,
+        "percent_score": 54.14012738853503,
+        "raw_mean": 2.1656050955414012,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 120,
+        "coverage": 0.6185567010309279,
+        "statuses": {
+          "ok": 120,
+          "pending": 74
+        },
+        "normalized_mean": 0.5416666666666666,
+        "percent_score": 54.166666666666664,
+        "raw_mean": 0.5416666666666666,
+        "max_score": 1,
+        "acc": 0.5416666666666666
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 89,
+        "coverage": 0.689922480620155,
+        "statuses": {
+          "ok": 89,
+          "pending": 40
+        },
+        "normalized_mean": 0.7153558052434456,
+        "percent_score": 71.53558052434455
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 33,
+        "coverage": 0.8048780487804879,
+        "statuses": {
+          "ok": 33,
+          "pending": 8
+        },
+        "normalized_mean": 0.5757575757575758,
+        "percent_score": 57.57575757575758,
+        "raw_mean": 0.5757575757575758,
+        "max_score": 1,
+        "acc": 0.5757575757575758
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 56,
+        "coverage": 0.6363636363636364,
+        "statuses": {
+          "ok": 56,
+          "pending": 32
+        },
+        "normalized_mean": 0.7976190476190476,
+        "percent_score": 79.76190476190476,
+        "raw_mean": 2.392857142857143,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.7153558052434456,
+      "unweighted_percent": 71.53558052434455,
+      "weighted": 0.6645021645021645,
+      "weighted_percent": 66.45021645021644
+    }
+  },
+  "question_status_counts": {
+    "scored": 366,
+    "blocked_upstream_policy": 150,
+    "blocked_upstream_request_precondition": 35,
+    "blocked_question_policy": 4,
+    "blocked_judge_policy": 3
+  },
+  "method_hash": "15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88",
+  "prior_successful_scores_preserved": 358,
+  "new_first_judgments": [
+    "G2_Q000133",
+    "G2_Q000134",
+    "G2_Q000136",
+    "G2_Q000196",
+    "G2_Q000197",
+    "G2_Q000198",
+    "G2_Q000204",
+    "G2_Q000205"
+  ],
+  "predictions_unchanged": true,
+  "remaining_runnable_questions": 0,
+  "validation": "27 focused tests passed locally and on AIStudio; data SHA attested by receiver; old 358 score records identical; frozen prediction file hashes verified."
+}
