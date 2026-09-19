@@ -1,0 +1,28 @@
+{
+  "host_experiment": "62910175",
+  "selection": "Independent synthetic inputs; no rejected benchmark requests resubmitted.",
+  "probes": [
+    {
+      "probe": "synthetic_image",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.8-flash:generateContent",
+      "requested_model": "gemini-3.8-flash",
+      "time_unix": 1789782515.6014981,
+      "timeout_seconds": 30,
+      "attempts": 1,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 110] Connection timed out>",
+      "elapsed_seconds": 22.917
+    },
+    {
+      "probe": "synthetic_speech",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.8-flash:generateContent",
+      "requested_model": "gemini-3.8-flash",
+      "time_unix": 1789782515.6023288,
+      "timeout_seconds": 30,
+      "attempts": 1,
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 110] Connection timed out>",
+      "elapsed_seconds": 19.845
+    }
+  ]
+}

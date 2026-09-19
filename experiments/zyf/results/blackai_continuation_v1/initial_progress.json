@@ -1,0 +1,164 @@
+{
+  "time_unix": 1789783987.7815132,
+  "frontend": {
+    "videos": {
+      "G2_V000058": {
+        "video_id": "G2_V000058",
+        "status": "frontend_failed",
+        "returncode": 1
+      }
+    },
+    "status": "running",
+    "active_videos": [
+      "G2_V000003",
+      "G2_V000007",
+      "G2_V000009",
+      "G2_V000011",
+      "G2_V000014",
+      "G2_V000020",
+      "G2_V000022",
+      "G2_V000025",
+      "G2_V000035",
+      "G2_V000038",
+      "G2_V000043",
+      "G2_V000048",
+      "G2_V000049",
+      "G2_V000056",
+      "G2_V000060",
+      "G2_V000061"
+    ],
+    "queued_videos": [
+      "G2_V000062",
+      "G2_V000063",
+      "G2_V000067",
+      "G2_V000071",
+      "G2_V000072",
+      "G2_V000074",
+      "G2_V000082",
+      "G2_V000084",
+      "G2_V000086",
+      "G2_V000087",
+      "G2_V000095",
+      "G2_V000096",
+      "G2_V000100",
+      "G2_V000102",
+      "G2_V000104",
+      "G2_V000105",
+      "G2_V000106",
+      "G2_V000107",
+      "G2_V000108",
+      "G2_V000109",
+      "G2_V000110",
+      "G2_V000112",
+      "G2_V000113",
+      "G2_V000115",
+      "G2_V000116",
+      "G2_V000117",
+      "G2_V000122",
+      "G2_V000129",
+      "G2_V000131",
+      "G2_V000137"
+    ],
+    "updated_unix": 1789783976.2939434,
+    "question_count": 192
+  },
+  "completed_windows": 117,
+  "complete_memories": 0,
+  "frontend_process": {
+    "pid": 2264872,
+    "command": [
+      "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+      "-u",
+      "-m",
+      "experiments.zyf.blackai_continuation",
+      "frontend",
+      "--runtime",
+      "/mnt/data1/zyf/LongEmo-runtime",
+      "--selection",
+      "/mnt/data1/zyf/LongEmo-runtime/e11_selection.json",
+      "--credential-file",
+      "/mnt/data1/zyf/LongEmo-runtime/api_config.json",
+      "--workers",
+      "16",
+      "--execute"
+    ],
+    "started_unix": 1789783671.0140214,
+    "git_revision": "574316aae12473e351ecd718c84c914468c6fffc"
+  },
+  "experiment": {
+    "fingerprint": "ce578a84d551de91f02f4e4dd52c35b29f543ced206446697bd49ea449ec3939",
+    "configuration": {
+      "protocol": "blackai_gemini38_matrix_gpt6_remaining_v1",
+      "source_hash": "15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88",
+      "selection_sha256": "1a052921ff391bdc13944030749b411880cd90acd4bed9b6191db2553b45d34d",
+      "full_question_count": 558,
+      "target_question_count": 192,
+      "questions_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+      "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+      "perception": {
+        "model": "gemini-3.8-flash",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "audio_thinking": "low",
+        "visual_thinking": "medium",
+        "visual_max_tokens": 32768,
+        "temperature": 1
+      },
+      "answer": {
+        "model": "gpt-6-astra",
+        "base_url": "https://matrixllm.alipay.com/v1",
+        "max_tokens": 8192
+      },
+      "embedding": {
+        "model": "google/gemini-embedding-2",
+        "base_url": "https://openrouter.ai/api/v1"
+      },
+      "media": {
+        "window_seconds": 20,
+        "padding": 2,
+        "fps": 1,
+        "max_frames": 24,
+        "max_pixels": 200704
+      },
+      "retrieval": {
+        "top_k": 12,
+        "evidence_chars": 48000,
+        "max_inspections": 0
+      },
+      "scoring": "unchanged official scorer, earliest valid score retained",
+      "scope": "E10 missing questions only; independent provider run, not a homogeneous full-benchmark score"
+    }
+  },
+  "first_diagnostic": {
+    "host": "g450",
+    "time_unix": 1789782755.0194454,
+    "video_id": "G2_V000016",
+    "core_interval": [
+      0,
+      20
+    ],
+    "media_interval": [
+      0,
+      22
+    ],
+    "model": "gemini-3.8-flash",
+    "base_url": "https://www.blackaicoding.com/v1beta",
+    "method_hash": "15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88",
+    "selection": "First window of existing development video V16; no selection by rejected content.",
+    "scope": "Independent frontend diagnostic, not a benchmark score or complete memory.",
+    "media": {
+      "fps": 1,
+      "max_frames": 24,
+      "max_pixels": 200704
+    },
+    "attempts_per_stage": 1,
+    "video_sha256": "6480d2896cbce4773e6f3be125e03268d0d994a251ede24941d9b28a9045ab88",
+    "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+    "status": "ok",
+    "validated_windows": 1,
+    "entities": 3,
+    "events": 2,
+    "audio_observations": 10,
+    "elapsed_seconds": 27.979,
+    "diagnostic_dir": "/mnt/data1/zyf/LongEmo-runtime/diagnostics/blackai_recheck_20260919/1789782755019462863"
+  }
+}

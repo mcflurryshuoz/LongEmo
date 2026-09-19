@@ -65,6 +65,8 @@ flowchart TD
 
 ### 当前模型分工与评测口径
 
+**E11 已启动 BlackAI 续评**：针对尚未评分的 192 题、47 个视频，g450 负责 BlackAI Gemini 3.8 音视频感知，AIStudio 负责 GPT-6 问答和评分。已有 366 条成绩保留；E11 独立记录，见[续评协议与进度](experiments/zyf/results/blackai_continuation_v1/startup.md)。
+
 下表对应在 AIStudio 62910175 运行的独立实验 **E10**。历史 E06／E08／E09 的服务和配置另见实验记录。
 
 | 环节 | 当前配置 | 验证状态 |

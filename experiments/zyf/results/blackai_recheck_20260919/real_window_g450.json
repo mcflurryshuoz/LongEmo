@@ -1,0 +1,33 @@
+{
+  "host": "g450",
+  "time_unix": 1789782755.0194454,
+  "video_id": "G2_V000016",
+  "core_interval": [
+    0,
+    20
+  ],
+  "media_interval": [
+    0,
+    22
+  ],
+  "model": "gemini-3.8-flash",
+  "base_url": "https://www.blackaicoding.com/v1beta",
+  "method_hash": "15f2bb63a975c33657bf354293c20a412ff7cc8fb447bf26050196158a288a88",
+  "selection": "First window of existing development video V16; no selection by rejected content.",
+  "scope": "Independent frontend diagnostic, not a benchmark score or complete memory.",
+  "media": {
+    "fps": 1,
+    "max_frames": 24,
+    "max_pixels": 200704
+  },
+  "attempts_per_stage": 1,
+  "video_sha256": "6480d2896cbce4773e6f3be125e03268d0d994a251ede24941d9b28a9045ab88",
+  "data_revision": "bb1933541008571883fa1eec1e7bd44d94b6ad2b",
+  "status": "ok",
+  "validated_windows": 1,
+  "entities": 3,
+  "events": 2,
+  "audio_observations": 10,
+  "elapsed_seconds": 27.979,
+  "diagnostic_dir": "/mnt/data1/zyf/LongEmo-runtime/diagnostics/blackai_recheck_20260919/1789782755019462863"
+}

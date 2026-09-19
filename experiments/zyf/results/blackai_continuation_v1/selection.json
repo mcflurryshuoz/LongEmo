@@ -1,0 +1,1781 @@
+{
+  "source_run": "matrix_gemini38_gpt6_full_v1",
+  "source_task_audit_sha256": "9ecdefa72dfb433a39f0c138c67c433d63ee799a5bbfc2c78df6581bd1cc42f3",
+  "selection_rule": "All and only unscored questions after E10 first sweep and first-judgment completion; independent of grade.",
+  "full_question_count": 558,
+  "previously_scored": 366,
+  "question_ids": [
+    "G2_Q000005",
+    "G2_Q000006",
+    "G2_Q000007",
+    "G2_Q000014",
+    "G2_Q000015",
+    "G2_Q000017",
+    "G2_Q000018",
+    "G2_Q000019",
+    "G2_Q000023",
+    "G2_Q000032",
+    "G2_Q000033",
+    "G2_Q000034",
+    "G2_Q000035",
+    "G2_Q000048",
+    "G2_Q000051",
+    "G2_Q000052",
+    "G2_Q000053",
+    "G2_Q000054",
+    "G2_Q000055",
+    "G2_Q000066",
+    "G2_Q000067",
+    "G2_Q000068",
+    "G2_Q000069",
+    "G2_Q000070",
+    "G2_Q000102",
+    "G2_Q000103",
+    "G2_Q000104",
+    "G2_Q000105",
+    "G2_Q000106",
+    "G2_Q000112",
+    "G2_Q000113",
+    "G2_Q000114",
+    "G2_Q000115",
+    "G2_Q000116",
+    "G2_Q000132",
+    "G2_Q000135",
+    "G2_Q000151",
+    "G2_Q000152",
+    "G2_Q000153",
+    "G2_Q000154",
+    "G2_Q000155",
+    "G2_Q000156",
+    "G2_Q000157",
+    "G2_Q000158",
+    "G2_Q000181",
+    "G2_Q000182",
+    "G2_Q000183",
+    "G2_Q000188",
+    "G2_Q000189",
+    "G2_Q000190",
+    "G2_Q000195",
+    "G2_Q000199",
+    "G2_Q000200",
+    "G2_Q000201",
+    "G2_Q000202",
+    "G2_Q000203",
+    "G2_Q000206",
+    "G2_Q000207",
+    "G2_Q000208",
+    "G2_Q000226",
+    "G2_Q000227",
+    "G2_Q000228",
+    "G2_Q000229",
+    "G2_Q000230",
+    "G2_Q000231",
+    "G2_Q000248",
+    "G2_Q000249",
+    "G2_Q000250",
+    "G2_Q000251",
+    "G2_Q000252",
+    "G2_Q000253",
+    "G2_Q000259",
+    "G2_Q000260",
+    "G2_Q000265",
+    "G2_Q000266",
+    "G2_Q000267",
+    "G2_Q000289",
+    "G2_Q000290",
+    "G2_Q000291",
+    "G2_Q000292",
+    "G2_Q000298",
+    "G2_Q000299",
+    "G2_Q000300",
+    "G2_Q000301",
+    "G2_Q000302",
+    "G2_Q000303",
+    "G2_Q000308",
+    "G2_Q000309",
+    "G2_Q000310",
+    "G2_Q000311",
+    "G2_Q000312",
+    "G2_Q000313",
+    "G2_Q000314",
+    "G2_Q000315",
+    "G2_Q000316",
+    "G2_Q000317",
+    "G2_Q000318",
+    "G2_Q000350",
+    "G2_Q000354",
+    "G2_Q000355",
+    "G2_Q000366",
+    "G2_Q000367",
+    "G2_Q000371",
+    "G2_Q000372",
+    "G2_Q000373",
+    "G2_Q000374",
+    "G2_Q000375",
+    "G2_Q000382",
+    "G2_Q000383",
+    "G2_Q000384",
+    "G2_Q000385",
+    "G2_Q000386",
+    "G2_Q000387",
+    "G2_Q000388",
+    "G2_Q000389",
+    "G2_Q000390",
+    "G2_Q000391",
+    "G2_Q000392",
+    "G2_Q000393",
+    "G2_Q000394",
+    "G2_Q000395",
+    "G2_Q000396",
+    "G2_Q000397",
+    "G2_Q000398",
+    "G2_Q000399",
+    "G2_Q000400",
+    "G2_Q000401",
+    "G2_Q000402",
+    "G2_Q000403",
+    "G2_Q000404",
+    "G2_Q000405",
+    "G2_Q000406",
+    "G2_Q000407",
+    "G2_Q000408",
+    "G2_Q000409",
+    "G2_Q000410",
+    "G2_Q000411",
+    "G2_Q000412",
+    "G2_Q000413",
+    "G2_Q000414",
+    "G2_Q000415",
+    "G2_Q000416",
+    "G2_Q000417",
+    "G2_Q000418",
+    "G2_Q000419",
+    "G2_Q000420",
+    "G2_Q000421",
+    "G2_Q000427",
+    "G2_Q000428",
+    "G2_Q000429",
+    "G2_Q000430",
+    "G2_Q000431",
+    "G2_Q000432",
+    "G2_Q000433",
+    "G2_Q000434",
+    "G2_Q000435",
+    "G2_Q000436",
+    "G2_Q000437",
+    "G2_Q000445",
+    "G2_Q000446",
+    "G2_Q000447",
+    "G2_Q000448",
+    "G2_Q000449",
+    "G2_Q000450",
+    "G2_Q000451",
+    "G2_Q000452",
+    "G2_Q000453",
+    "G2_Q000454",
+    "G2_Q000455",
+    "G2_Q000456",
+    "G2_Q000457",
+    "G2_Q000458",
+    "G2_Q000459",
+    "G2_Q000460",
+    "G2_Q000478",
+    "G2_Q000479",
+    "G2_Q000480",
+    "G2_Q000481",
+    "G2_Q000482",
+    "G2_Q000510",
+    "G2_Q000511",
+    "G2_Q000512",
+    "G2_Q000513",
+    "G2_Q000518",
+    "G2_Q000519",
+    "G2_Q000520",
+    "G2_Q000539",
+    "G2_Q000540",
+    "G2_Q000541",
+    "G2_Q000542",
+    "G2_Q000543",
+    "G2_Q000544"
+  ],
+  "video_ids": [
+    "G2_V000003",
+    "G2_V000007",
+    "G2_V000009",
+    "G2_V000011",
+    "G2_V000014",
+    "G2_V000020",
+    "G2_V000022",
+    "G2_V000025",
+    "G2_V000035",
+    "G2_V000038",
+    "G2_V000043",
+    "G2_V000048",
+    "G2_V000049",
+    "G2_V000056",
+    "G2_V000058",
+    "G2_V000060",
+    "G2_V000061",
+    "G2_V000062",
+    "G2_V000063",
+    "G2_V000067",
+    "G2_V000071",
+    "G2_V000072",
+    "G2_V000074",
+    "G2_V000082",
+    "G2_V000084",
+    "G2_V000086",
+    "G2_V000087",
+    "G2_V000095",
+    "G2_V000096",
+    "G2_V000100",
+    "G2_V000102",
+    "G2_V000104",
+    "G2_V000105",
+    "G2_V000106",
+    "G2_V000107",
+    "G2_V000108",
+    "G2_V000109",
+    "G2_V000110",
+    "G2_V000112",
+    "G2_V000113",
+    "G2_V000115",
+    "G2_V000116",
+    "G2_V000117",
+    "G2_V000122",
+    "G2_V000129",
+    "G2_V000131",
+    "G2_V000137"
+  ],
+  "source_dispositions": [
+    {
+      "question_id": "G2_Q000005",
+      "video_id": "G2_V000003",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000003:W00034"
+    },
+    {
+      "question_id": "G2_Q000006",
+      "video_id": "G2_V000003",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000003:W00034"
+    },
+    {
+      "question_id": "G2_Q000007",
+      "video_id": "G2_V000003",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000003:W00034"
+    },
+    {
+      "question_id": "G2_Q000014",
+      "video_id": "G2_V000007",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00003"
+    },
+    {
+      "question_id": "G2_Q000015",
+      "video_id": "G2_V000007",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00003"
+    },
+    {
+      "question_id": "G2_Q000017",
+      "video_id": "G2_V000009",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "perception",
+      "purpose": "perception:G2_V000009:W00018"
+    },
+    {
+      "question_id": "G2_Q000018",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "perception",
+      "purpose": "perception:G2_V000009:W00018"
+    },
+    {
+      "question_id": "G2_Q000019",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "perception",
+      "purpose": "perception:G2_V000009:W00018"
+    },
+    {
+      "question_id": "G2_Q000023",
+      "video_id": "G2_V000011",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00022"
+    },
+    {
+      "question_id": "G2_Q000032",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00005"
+    },
+    {
+      "question_id": "G2_Q000033",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00005"
+    },
+    {
+      "question_id": "G2_Q000034",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00005"
+    },
+    {
+      "question_id": "G2_Q000035",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00005"
+    },
+    {
+      "question_id": "G2_Q000048",
+      "video_id": "G2_V000020",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00014"
+    },
+    {
+      "question_id": "G2_Q000051",
+      "video_id": "G2_V000022",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00013"
+    },
+    {
+      "question_id": "G2_Q000052",
+      "video_id": "G2_V000022",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00013"
+    },
+    {
+      "question_id": "G2_Q000053",
+      "video_id": "G2_V000022",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00013"
+    },
+    {
+      "question_id": "G2_Q000054",
+      "video_id": "G2_V000022",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00013"
+    },
+    {
+      "question_id": "G2_Q000055",
+      "video_id": "G2_V000022",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00013"
+    },
+    {
+      "question_id": "G2_Q000066",
+      "video_id": "G2_V000025",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000067",
+      "video_id": "G2_V000025",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000068",
+      "video_id": "G2_V000025",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000069",
+      "video_id": "G2_V000025",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000070",
+      "video_id": "G2_V000025",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000102",
+      "video_id": "G2_V000035",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00029"
+    },
+    {
+      "question_id": "G2_Q000103",
+      "video_id": "G2_V000035",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00029"
+    },
+    {
+      "question_id": "G2_Q000104",
+      "video_id": "G2_V000035",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00029"
+    },
+    {
+      "question_id": "G2_Q000105",
+      "video_id": "G2_V000035",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00029"
+    },
+    {
+      "question_id": "G2_Q000106",
+      "video_id": "G2_V000035",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00029"
+    },
+    {
+      "question_id": "G2_Q000112",
+      "video_id": "G2_V000038",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00022"
+    },
+    {
+      "question_id": "G2_Q000113",
+      "video_id": "G2_V000038",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00022"
+    },
+    {
+      "question_id": "G2_Q000114",
+      "video_id": "G2_V000038",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00022"
+    },
+    {
+      "question_id": "G2_Q000115",
+      "video_id": "G2_V000038",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00022"
+    },
+    {
+      "question_id": "G2_Q000116",
+      "video_id": "G2_V000038",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00022"
+    },
+    {
+      "question_id": "G2_Q000132",
+      "video_id": "G2_V000043",
+      "type": "emotional intensity comparison",
+      "status": "blocked_question_policy",
+      "stage": "answer"
+    },
+    {
+      "question_id": "G2_Q000135",
+      "video_id": "G2_V000043",
+      "type": "emotion trajectory",
+      "status": "blocked_question_policy",
+      "stage": "planning"
+    },
+    {
+      "question_id": "G2_Q000151",
+      "video_id": "G2_V000048",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00012"
+    },
+    {
+      "question_id": "G2_Q000152",
+      "video_id": "G2_V000048",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00012"
+    },
+    {
+      "question_id": "G2_Q000153",
+      "video_id": "G2_V000048",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00012"
+    },
+    {
+      "question_id": "G2_Q000154",
+      "video_id": "G2_V000048",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00012"
+    },
+    {
+      "question_id": "G2_Q000155",
+      "video_id": "G2_V000049",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000156",
+      "video_id": "G2_V000049",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000157",
+      "video_id": "G2_V000049",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000158",
+      "video_id": "G2_V000049",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000181",
+      "video_id": "G2_V000056",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000182",
+      "video_id": "G2_V000056",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000183",
+      "video_id": "G2_V000056",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00001"
+    },
+    {
+      "question_id": "G2_Q000188",
+      "video_id": "G2_V000058",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00044"
+    },
+    {
+      "question_id": "G2_Q000189",
+      "video_id": "G2_V000058",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00044"
+    },
+    {
+      "question_id": "G2_Q000190",
+      "video_id": "G2_V000058",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00044"
+    },
+    {
+      "question_id": "G2_Q000195",
+      "video_id": "G2_V000060",
+      "type": "emotional intensity comparison",
+      "status": "blocked_question_policy",
+      "stage": "answer"
+    },
+    {
+      "question_id": "G2_Q000199",
+      "video_id": "G2_V000061",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000200",
+      "video_id": "G2_V000061",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000201",
+      "video_id": "G2_V000061",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000202",
+      "video_id": "G2_V000061",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000203",
+      "video_id": "G2_V000062",
+      "type": "emotional intensity comparison",
+      "status": "blocked_question_policy",
+      "stage": "answer"
+    },
+    {
+      "question_id": "G2_Q000206",
+      "video_id": "G2_V000063",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00021"
+    },
+    {
+      "question_id": "G2_Q000207",
+      "video_id": "G2_V000063",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00021"
+    },
+    {
+      "question_id": "G2_Q000208",
+      "video_id": "G2_V000063",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00021"
+    },
+    {
+      "question_id": "G2_Q000226",
+      "video_id": "G2_V000067",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000067:W00003"
+    },
+    {
+      "question_id": "G2_Q000227",
+      "video_id": "G2_V000067",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000067:W00003"
+    },
+    {
+      "question_id": "G2_Q000228",
+      "video_id": "G2_V000067",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000067:W00003"
+    },
+    {
+      "question_id": "G2_Q000229",
+      "video_id": "G2_V000067",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000067:W00003"
+    },
+    {
+      "question_id": "G2_Q000230",
+      "video_id": "G2_V000067",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000067:W00003"
+    },
+    {
+      "question_id": "G2_Q000231",
+      "video_id": "G2_V000067",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000067:W00003"
+    },
+    {
+      "question_id": "G2_Q000248",
+      "video_id": "G2_V000071",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000071:W00004"
+    },
+    {
+      "question_id": "G2_Q000249",
+      "video_id": "G2_V000071",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000071:W00004"
+    },
+    {
+      "question_id": "G2_Q000250",
+      "video_id": "G2_V000071",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000071:W00004"
+    },
+    {
+      "question_id": "G2_Q000251",
+      "video_id": "G2_V000071",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000071:W00004"
+    },
+    {
+      "question_id": "G2_Q000252",
+      "video_id": "G2_V000071",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000071:W00004"
+    },
+    {
+      "question_id": "G2_Q000253",
+      "video_id": "G2_V000071",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000071:W00004"
+    },
+    {
+      "question_id": "G2_Q000259",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "status": "blocked_judge_policy",
+      "stage": "judge"
+    },
+    {
+      "question_id": "G2_Q000260",
+      "video_id": "G2_V000072",
+      "type": "emotional reasoning",
+      "status": "blocked_judge_policy",
+      "stage": "judge"
+    },
+    {
+      "question_id": "G2_Q000265",
+      "video_id": "G2_V000074",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00003"
+    },
+    {
+      "question_id": "G2_Q000266",
+      "video_id": "G2_V000074",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00003"
+    },
+    {
+      "question_id": "G2_Q000267",
+      "video_id": "G2_V000074",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00003"
+    },
+    {
+      "question_id": "G2_Q000289",
+      "video_id": "G2_V000082",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00010"
+    },
+    {
+      "question_id": "G2_Q000290",
+      "video_id": "G2_V000082",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00010"
+    },
+    {
+      "question_id": "G2_Q000291",
+      "video_id": "G2_V000082",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00010"
+    },
+    {
+      "question_id": "G2_Q000292",
+      "video_id": "G2_V000082",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00010"
+    },
+    {
+      "question_id": "G2_Q000298",
+      "video_id": "G2_V000084",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00055"
+    },
+    {
+      "question_id": "G2_Q000299",
+      "video_id": "G2_V000084",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00055"
+    },
+    {
+      "question_id": "G2_Q000300",
+      "video_id": "G2_V000084",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00055"
+    },
+    {
+      "question_id": "G2_Q000301",
+      "video_id": "G2_V000084",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00055"
+    },
+    {
+      "question_id": "G2_Q000302",
+      "video_id": "G2_V000084",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00055"
+    },
+    {
+      "question_id": "G2_Q000303",
+      "video_id": "G2_V000084",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00055"
+    },
+    {
+      "question_id": "G2_Q000308",
+      "video_id": "G2_V000086",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00064"
+    },
+    {
+      "question_id": "G2_Q000309",
+      "video_id": "G2_V000086",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00064"
+    },
+    {
+      "question_id": "G2_Q000310",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00064"
+    },
+    {
+      "question_id": "G2_Q000311",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00064"
+    },
+    {
+      "question_id": "G2_Q000312",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00064"
+    },
+    {
+      "question_id": "G2_Q000313",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00064"
+    },
+    {
+      "question_id": "G2_Q000314",
+      "video_id": "G2_V000087",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000315",
+      "video_id": "G2_V000087",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000316",
+      "video_id": "G2_V000087",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000317",
+      "video_id": "G2_V000087",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000318",
+      "video_id": "G2_V000087",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00002"
+    },
+    {
+      "question_id": "G2_Q000350",
+      "video_id": "G2_V000095",
+      "type": "emotional reasoning",
+      "status": "blocked_judge_policy",
+      "stage": "judge"
+    },
+    {
+      "question_id": "G2_Q000354",
+      "video_id": "G2_V000096",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00030"
+    },
+    {
+      "question_id": "G2_Q000355",
+      "video_id": "G2_V000096",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00030"
+    },
+    {
+      "question_id": "G2_Q000366",
+      "video_id": "G2_V000100",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000100:W00050"
+    },
+    {
+      "question_id": "G2_Q000367",
+      "video_id": "G2_V000100",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000100:W00050"
+    },
+    {
+      "question_id": "G2_Q000371",
+      "video_id": "G2_V000102",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00008"
+    },
+    {
+      "question_id": "G2_Q000372",
+      "video_id": "G2_V000102",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00008"
+    },
+    {
+      "question_id": "G2_Q000373",
+      "video_id": "G2_V000102",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00008"
+    },
+    {
+      "question_id": "G2_Q000374",
+      "video_id": "G2_V000102",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00008"
+    },
+    {
+      "question_id": "G2_Q000375",
+      "video_id": "G2_V000102",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00008"
+    },
+    {
+      "question_id": "G2_Q000382",
+      "video_id": "G2_V000104",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000104:W00055"
+    },
+    {
+      "question_id": "G2_Q000383",
+      "video_id": "G2_V000104",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000104:W00055"
+    },
+    {
+      "question_id": "G2_Q000384",
+      "video_id": "G2_V000104",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000104:W00055"
+    },
+    {
+      "question_id": "G2_Q000385",
+      "video_id": "G2_V000104",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000104:W00055"
+    },
+    {
+      "question_id": "G2_Q000386",
+      "video_id": "G2_V000104",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000104:W00055"
+    },
+    {
+      "question_id": "G2_Q000387",
+      "video_id": "G2_V000104",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000104:W00055"
+    },
+    {
+      "question_id": "G2_Q000388",
+      "video_id": "G2_V000105",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000105:W00001"
+    },
+    {
+      "question_id": "G2_Q000389",
+      "video_id": "G2_V000105",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000105:W00001"
+    },
+    {
+      "question_id": "G2_Q000390",
+      "video_id": "G2_V000105",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000105:W00001"
+    },
+    {
+      "question_id": "G2_Q000391",
+      "video_id": "G2_V000105",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000105:W00001"
+    },
+    {
+      "question_id": "G2_Q000392",
+      "video_id": "G2_V000105",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000105:W00001"
+    },
+    {
+      "question_id": "G2_Q000393",
+      "video_id": "G2_V000105",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000105:W00001"
+    },
+    {
+      "question_id": "G2_Q000394",
+      "video_id": "G2_V000106",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000106:W00010"
+    },
+    {
+      "question_id": "G2_Q000395",
+      "video_id": "G2_V000106",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000106:W00010"
+    },
+    {
+      "question_id": "G2_Q000396",
+      "video_id": "G2_V000106",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000106:W00010"
+    },
+    {
+      "question_id": "G2_Q000397",
+      "video_id": "G2_V000106",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000106:W00010"
+    },
+    {
+      "question_id": "G2_Q000398",
+      "video_id": "G2_V000106",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000106:W00010"
+    },
+    {
+      "question_id": "G2_Q000399",
+      "video_id": "G2_V000106",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000106:W00010"
+    },
+    {
+      "question_id": "G2_Q000400",
+      "video_id": "G2_V000107",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00052"
+    },
+    {
+      "question_id": "G2_Q000401",
+      "video_id": "G2_V000107",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00052"
+    },
+    {
+      "question_id": "G2_Q000402",
+      "video_id": "G2_V000107",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00052"
+    },
+    {
+      "question_id": "G2_Q000403",
+      "video_id": "G2_V000107",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00052"
+    },
+    {
+      "question_id": "G2_Q000404",
+      "video_id": "G2_V000107",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00052"
+    },
+    {
+      "question_id": "G2_Q000405",
+      "video_id": "G2_V000107",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00052"
+    },
+    {
+      "question_id": "G2_Q000406",
+      "video_id": "G2_V000108",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000108:W00046"
+    },
+    {
+      "question_id": "G2_Q000407",
+      "video_id": "G2_V000108",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000108:W00046"
+    },
+    {
+      "question_id": "G2_Q000408",
+      "video_id": "G2_V000108",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000108:W00046"
+    },
+    {
+      "question_id": "G2_Q000409",
+      "video_id": "G2_V000108",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000108:W00046"
+    },
+    {
+      "question_id": "G2_Q000410",
+      "video_id": "G2_V000108",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000108:W00046"
+    },
+    {
+      "question_id": "G2_Q000411",
+      "video_id": "G2_V000109",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00027"
+    },
+    {
+      "question_id": "G2_Q000412",
+      "video_id": "G2_V000109",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00027"
+    },
+    {
+      "question_id": "G2_Q000413",
+      "video_id": "G2_V000109",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00027"
+    },
+    {
+      "question_id": "G2_Q000414",
+      "video_id": "G2_V000109",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00027"
+    },
+    {
+      "question_id": "G2_Q000415",
+      "video_id": "G2_V000109",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00027"
+    },
+    {
+      "question_id": "G2_Q000416",
+      "video_id": "G2_V000110",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000110:W00047"
+    },
+    {
+      "question_id": "G2_Q000417",
+      "video_id": "G2_V000110",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000110:W00047"
+    },
+    {
+      "question_id": "G2_Q000418",
+      "video_id": "G2_V000110",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000110:W00047"
+    },
+    {
+      "question_id": "G2_Q000419",
+      "video_id": "G2_V000110",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000110:W00047"
+    },
+    {
+      "question_id": "G2_Q000420",
+      "video_id": "G2_V000110",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000110:W00047"
+    },
+    {
+      "question_id": "G2_Q000421",
+      "video_id": "G2_V000110",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000110:W00047"
+    },
+    {
+      "question_id": "G2_Q000427",
+      "video_id": "G2_V000112",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000112:W00010"
+    },
+    {
+      "question_id": "G2_Q000428",
+      "video_id": "G2_V000112",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000112:W00010"
+    },
+    {
+      "question_id": "G2_Q000429",
+      "video_id": "G2_V000112",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000112:W00010"
+    },
+    {
+      "question_id": "G2_Q000430",
+      "video_id": "G2_V000112",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000112:W00010"
+    },
+    {
+      "question_id": "G2_Q000431",
+      "video_id": "G2_V000112",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000112:W00010"
+    },
+    {
+      "question_id": "G2_Q000432",
+      "video_id": "G2_V000113",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00031"
+    },
+    {
+      "question_id": "G2_Q000433",
+      "video_id": "G2_V000113",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00031"
+    },
+    {
+      "question_id": "G2_Q000434",
+      "video_id": "G2_V000113",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00031"
+    },
+    {
+      "question_id": "G2_Q000435",
+      "video_id": "G2_V000113",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00031"
+    },
+    {
+      "question_id": "G2_Q000436",
+      "video_id": "G2_V000113",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00031"
+    },
+    {
+      "question_id": "G2_Q000437",
+      "video_id": "G2_V000113",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00031"
+    },
+    {
+      "question_id": "G2_Q000445",
+      "video_id": "G2_V000115",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000115:W00012"
+    },
+    {
+      "question_id": "G2_Q000446",
+      "video_id": "G2_V000115",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000115:W00012"
+    },
+    {
+      "question_id": "G2_Q000447",
+      "video_id": "G2_V000115",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000115:W00012"
+    },
+    {
+      "question_id": "G2_Q000448",
+      "video_id": "G2_V000115",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000115:W00012"
+    },
+    {
+      "question_id": "G2_Q000449",
+      "video_id": "G2_V000115",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000115:W00012"
+    },
+    {
+      "question_id": "G2_Q000450",
+      "video_id": "G2_V000116",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000116:W00026"
+    },
+    {
+      "question_id": "G2_Q000451",
+      "video_id": "G2_V000116",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000116:W00026"
+    },
+    {
+      "question_id": "G2_Q000452",
+      "video_id": "G2_V000116",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000116:W00026"
+    },
+    {
+      "question_id": "G2_Q000453",
+      "video_id": "G2_V000116",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000116:W00026"
+    },
+    {
+      "question_id": "G2_Q000454",
+      "video_id": "G2_V000116",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000116:W00026"
+    },
+    {
+      "question_id": "G2_Q000455",
+      "video_id": "G2_V000117",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000117:W00025"
+    },
+    {
+      "question_id": "G2_Q000456",
+      "video_id": "G2_V000117",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000117:W00025"
+    },
+    {
+      "question_id": "G2_Q000457",
+      "video_id": "G2_V000117",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000117:W00025"
+    },
+    {
+      "question_id": "G2_Q000458",
+      "video_id": "G2_V000117",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000117:W00025"
+    },
+    {
+      "question_id": "G2_Q000459",
+      "video_id": "G2_V000117",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000117:W00025"
+    },
+    {
+      "question_id": "G2_Q000460",
+      "video_id": "G2_V000117",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000117:W00025"
+    },
+    {
+      "question_id": "G2_Q000478",
+      "video_id": "G2_V000122",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00059"
+    },
+    {
+      "question_id": "G2_Q000479",
+      "video_id": "G2_V000122",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00059"
+    },
+    {
+      "question_id": "G2_Q000480",
+      "video_id": "G2_V000122",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00059"
+    },
+    {
+      "question_id": "G2_Q000481",
+      "video_id": "G2_V000122",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00059"
+    },
+    {
+      "question_id": "G2_Q000482",
+      "video_id": "G2_V000122",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_request_precondition",
+      "stage": "audio",
+      "purpose": "audio_observer:W00059"
+    },
+    {
+      "question_id": "G2_Q000510",
+      "video_id": "G2_V000129",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00014"
+    },
+    {
+      "question_id": "G2_Q000511",
+      "video_id": "G2_V000129",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00014"
+    },
+    {
+      "question_id": "G2_Q000512",
+      "video_id": "G2_V000129",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00014"
+    },
+    {
+      "question_id": "G2_Q000513",
+      "video_id": "G2_V000129",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00014"
+    },
+    {
+      "question_id": "G2_Q000518",
+      "video_id": "G2_V000131",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000131:W00048"
+    },
+    {
+      "question_id": "G2_Q000519",
+      "video_id": "G2_V000131",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000131:W00048"
+    },
+    {
+      "question_id": "G2_Q000520",
+      "video_id": "G2_V000131",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "perception",
+      "purpose": "perception:G2_V000131:W00048"
+    },
+    {
+      "question_id": "G2_Q000539",
+      "video_id": "G2_V000137",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00019"
+    },
+    {
+      "question_id": "G2_Q000540",
+      "video_id": "G2_V000137",
+      "type": "emotional intensity comparison",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00019"
+    },
+    {
+      "question_id": "G2_Q000541",
+      "video_id": "G2_V000137",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00019"
+    },
+    {
+      "question_id": "G2_Q000542",
+      "video_id": "G2_V000137",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00019"
+    },
+    {
+      "question_id": "G2_Q000543",
+      "video_id": "G2_V000137",
+      "type": "emotional reasoning",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00019"
+    },
+    {
+      "question_id": "G2_Q000544",
+      "video_id": "G2_V000137",
+      "type": "emotion trajectory",
+      "status": "blocked_upstream_policy",
+      "stage": "audio",
+      "purpose": "audio_observer:W00019"
+    }
+  ]
+}

@@ -4,7 +4,14 @@
 
 E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62910175 配置环境并启动新实验 E10；已启动并继续迁移数据，服务检查与独立实验配置见 [E10 协议](aistudio_benchmark.md)。下表的旧成绩保持原样，新实验不复用旧预测或评分。
 
-## 当前全量实验：E10
+## BlackAI 续评：E11
+
+用户要求改用 BlackAI 继续完成后，已针对 E10 缺失的 **192 题、47 个视频**启动独立续评。BlackAI 在 g450 的真实音视频窗口验证通过；AIStudio 到 BlackAI 连接超时，因此感知在 g450 以 16 视频并发进行，完整图谱经 SHA-256 校验后传给 AIStudio 的 GPT-6 问答与官方评分。向量仍用 OpenRouter Gemini Embedding 2，原 366 条评分保持不变。
+
+启动快照已有 **117** 个有效窗口、16 个视频活跃；V58 的一次 HTTP 524 保留检查点，等待按临时错误补跑；新评分仍待完整图谱。已设置每 20 分钟自动跟进。[续评协议与状态](results/blackai_continuation_v1/startup.md) · [选择名单](results/blackai_continuation_v1/selection.json) · [BlackAI 实测](results/blackai_recheck_20260919/validation.md)。E11 与 E10 分开统计，合并覆盖率必须标注混合提供方。
+
+## E10 首轮结果
+
 
 已在 AIStudio `62910175` 启动，初始冻结代码 `82b3b205fdf3d0522baf686e7bb901962ac4e58f`。调度器随后按下文修订，感知／检索／评分源码与配置不变。Matrix Gemini 3.8 做音频／视频感知，OpenRouter Gemini Embedding 2 做向量，Matrix GPT-6 做规划／回答／官方评分。
 

@@ -1,0 +1,52 @@
+{
+  "host": "g450",
+  "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.8-flash:generateContent",
+  "requested_model": "gemini-3.8-flash",
+  "time_unix": 1789782646.7741487,
+  "selection": "Independent synthetic red image and one-second 440Hz tone.",
+  "timeout_seconds": 60,
+  "attempts": 1,
+  "http_status": 200,
+  "response_model": null,
+  "finish_reason": "STOP",
+  "prompt_feedback": null,
+  "content": "- **Image Color:** Red  \n- **Audible Sound:** A short, high-pitched metallic chime or bell ding.",
+  "usage": {
+    "promptTokenCount": 1131,
+    "toolUsePromptTokenCount": 0,
+    "candidatesTokenCount": 107,
+    "totalTokenCount": 1238,
+    "thoughtsTokenCount": 0,
+    "cachedContentTokenCount": 0,
+    "promptTokensDetails": null,
+    "toolUsePromptTokensDetails": null,
+    "candidatesTokensDetails": null,
+    "billing_usage": {
+      "source": "oai_chat",
+      "semantic": "openai",
+      "openai_usage": {
+        "prompt_tokens": 1131,
+        "completion_tokens": 107,
+        "total_tokens": 1238,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 81
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      }
+    }
+  },
+  "elapsed_seconds": 6.559
+}
