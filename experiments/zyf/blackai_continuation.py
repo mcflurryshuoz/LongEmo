@@ -180,6 +180,36 @@ def import_video(archive, marker, out, expected_videos):
     return receipt
 
 
+def evaluate_video(args, out, questions, vid, env):
+    folder = out/'videos'/vid
+    graph = folder/'graph'
+    command = ['answer', '--data-path', folder/'questions.json', '--memory-dir', out/'memory',
+        '--output-dir', graph, '--plans-dir', folder/'plans', '--retrieval', 'graph',
+        '--videos-dir', args.runtime/'data/episode/videos', '--subtitles-dir', args.runtime/'data/prepared_subtitles',
+        '--with-audio', '--max-inspections', 0, '--inspection-seconds', 60, '--workers', 2,
+        '--top-k', 12, '--evidence-chars', 48000, '--embedding-backend', 'gemini',
+        '--embedding-model', 'google/gemini-embedding-2', '--embedding-base-url', 'https://openrouter.ai/api/v1',
+        '--embedding-cache-dir', args.runtime/'embedding_cache_e11', '--model', 'gpt-6-astra',
+        '--base-url', MATRIX, '--thinking', 'default', '--timeout', 240, '--tries', 5,
+        '--credential-file', args.credential_file, '--audio-model', 'gemini-3.8-flash',
+        '--audio-base-url', BLACKAI, '--max-tokens', 8192]
+    # A resume can reuse successful answers; known rejected requests are not replayed.
+    if not recorded_video_block(folder, out/'memory'/vid):
+        invoke(folder, 'graph', 'methods.longemo', command, env)
+    subset = [q for q in questions if q['video_id'] == vid]
+    item = scoring_inventory(out, subset)[vid]
+    if item['pending']:
+        qpath = folder/'pending_judgments.json'; write_json(qpath, item['pending'])
+        invoke(folder, 'score', 'evaluation.eval', ['--data-path', qpath, '--predictions', graph/'predictions.jsonl',
+            '-g', 'episode', '--model', 'gpt-6-astra', '--base-url', MATRIX, '--output-dir', folder/'scores',
+            '--workers', 2, '--tries', 1, '--timeout', 180, '--max-tokens', 8192], env)
+    item = scoring_inventory(out, subset)[vid]
+    write_records(folder/'accepted_scores.jsonl', [item['scored'][q['question_id']] for q in subset if q['question_id'] in item['scored']])
+    block = recorded_video_block(folder, out/'memory'/vid)
+    return {'video_id': vid, 'status': 'complete' if len(item['scored']) == len(subset) else
+            block['status'] if block else 'answer_or_judge_failed', 'n_scored': len(item['scored'])}
+
+
 def backend(args, out, questions):
     credentials = read(args.credential_file)
     env = dict(os.environ, MODEL_API_KEY=credentials['MODEL_API_KEY'], MODEL_BASE_URL=MATRIX,
@@ -189,33 +219,7 @@ def backend(args, out, questions):
     path = out/'backend_status.json'; status = read(path) if path.exists() else {'videos': {}}
 
     def work(vid):
-        folder = out/'videos'/vid
-        graph = folder/'graph'
-        command = ['answer', '--data-path', folder/'questions.json', '--memory-dir', out/'memory',
-            '--output-dir', graph, '--plans-dir', folder/'plans', '--retrieval', 'graph',
-            '--videos-dir', args.runtime/'data/episode/videos', '--subtitles-dir', args.runtime/'data/prepared_subtitles',
-            '--with-audio', '--max-inspections', 0, '--inspection-seconds', 60, '--workers', 2,
-            '--top-k', 12, '--evidence-chars', 48000, '--embedding-backend', 'gemini',
-            '--embedding-model', 'google/gemini-embedding-2', '--embedding-base-url', 'https://openrouter.ai/api/v1',
-            '--embedding-cache-dir', args.runtime/'embedding_cache_e11', '--model', 'gpt-6-astra',
-            '--base-url', MATRIX, '--thinking', 'default', '--timeout', 240, '--tries', 5,
-            '--credential-file', args.credential_file, '--audio-model', 'gemini-3.8-flash',
-            '--audio-base-url', BLACKAI, '--max-tokens', 8192]
-        # A resume can reuse successful answers; known rejected requests are not replayed.
-        if not recorded_video_block(folder, out/'memory'/vid):
-            invoke(folder, 'graph', 'methods.longemo', command, env)
-        subset = [q for q in questions if q['video_id'] == vid]
-        item = scoring_inventory(out, subset)[vid]
-        if item['pending']:
-            qpath = folder/'pending_judgments.json'; write_json(qpath, item['pending'])
-            invoke(folder, 'score', 'evaluation.eval', ['--data-path', qpath, '--predictions', graph/'predictions.jsonl',
-                '-g', 'episode', '--model', 'gpt-6-astra', '--base-url', MATRIX, '--output-dir', folder/'scores',
-                '--workers', 2, '--tries', 1, '--timeout', 180, '--max-tokens', 8192], env)
-        item = scoring_inventory(out, subset)[vid]
-        write_records(folder/'accepted_scores.jsonl', [item['scored'][q['question_id']] for q in subset if q['question_id'] in item['scored']])
-        block = recorded_video_block(folder, out/'memory'/vid)
-        return {'video_id': vid, 'status': 'complete' if len(item['scored']) == len(subset) else
-                block['status'] if block else 'answer_or_judge_failed', 'n_scored': len(item['scored'])}
+        return evaluate_video(args, out, questions, vid, env)
 
     active = {}
     with ThreadPoolExecutor(max_workers=args.workers) as pool:

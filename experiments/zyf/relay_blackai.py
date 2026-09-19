@@ -17,13 +17,14 @@ def main():
     p.add_argument('--known-hosts', type=Path, required=True)
     p.add_argument('--destination', required=True)
     p.add_argument('--expected', type=int, required=True)
+    p.add_argument('--producer-done', action='store_true', help='Use producer_done.json for a dynamically sized recovery pass')
     a = p.parse_args()
     a.local.mkdir(parents=True, exist_ok=True)
     path = a.local/'relay_status.json'
     status = json.loads(path.read_text()) if path.exists() else {'sent': {}}
     inbox = a.local/'outbox'; inbox.mkdir(exist_ok=True)
     failures = 0
-    while len(status['sent']) < a.expected:
+    while a.producer_done or len(status['sent']) < a.expected:
         r = subprocess.run(['rsync', '-a', '--exclude=*.tmp', '-e',
             'ssh -o BatchMode=yes -o ConnectTimeout=15 -o ControlPath=none -o ServerAliveInterval=15 -o ServerAliveCountMax=3',
             a.source, str(inbox)+'/'], timeout=180, stdout=subprocess.DEVNULL)
@@ -55,6 +56,15 @@ def main():
             tmp = path.with_suffix('.tmp'); tmp.write_text(json.dumps(status, indent=2)+'\n'); tmp.replace(path)
             upload.unlink(); ready.unlink()
             print(json.dumps({'sent': vid, 'count': len(status['sent']), 'expected': a.expected}), flush=True)
+        done = inbox/'producer_done.json'
+        if a.producer_done and done.exists() and set(json.loads(done.read_text())['video_ids']) <= set(status['sent']):
+            unique = a.local/('producer_done_'+uuid.uuid4().hex+'.json')
+            unique.write_bytes(done.read_bytes())
+            command = ['scp', '-q', '-P', str(a.port), '-o', 'ConnectTimeout=20', '-o', 'ControlMaster=no',
+                       '-o', 'ControlPath=none', '-o', 'StrictHostKeyChecking=yes',
+                       '-o', 'UserKnownHostsFile='+str(a.known_hosts), str(unique), '127.0.0.1:'+a.destination+'/']
+            if scp_once(command, a.local/'scp.log', timeout=90) == 0:
+                unique.unlink(); return
         time.sleep(15)
 
 
