@@ -1,0 +1,124 @@
+{
+  "now": 1789752137.6941621,
+  "status": "running",
+  "status_updated_unix": 1789752134.9502072,
+  "active": [
+    "G2_V000094",
+    "G2_V000108",
+    "G2_V000110",
+    "G2_V000111",
+    "G2_V000118",
+    "G2_V000119",
+    "G2_V000120",
+    "G2_V000121",
+    "G2_V000122",
+    "G2_V000123",
+    "G2_V000127",
+    "G2_V000128",
+    "G2_V000130",
+    "G2_V000131",
+    "G2_V000136"
+  ],
+  "paused": false,
+  "queued": 14,
+  "video_status_counts": {
+    "complete": 71,
+    "blocked_request_precondition": 8,
+    "blocked_input_policy": 33
+  },
+  "metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 265,
+      "coverage": 0.47491039426523296,
+      "statuses": {
+        "ok": 265,
+        "pending": 293
+      },
+      "normalized_mean": 0.5893081761006289,
+      "percent_score": 58.93081761006289
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 112,
+        "coverage": 0.4765957446808511,
+        "statuses": {
+          "ok": 112,
+          "pending": 123
+        },
+        "normalized_mean": 0.5401785714285714,
+        "percent_score": 54.01785714285714,
+        "raw_mean": 2.1607142857142856,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 85,
+        "coverage": 0.4381443298969072,
+        "statuses": {
+          "ok": 85,
+          "pending": 109
+        },
+        "normalized_mean": 0.5529411764705883,
+        "percent_score": 55.294117647058826,
+        "raw_mean": 0.5529411764705883,
+        "max_score": 1,
+        "acc": 0.5529411764705883
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 68,
+        "coverage": 0.5271317829457365,
+        "statuses": {
+          "ok": 68,
+          "pending": 61
+        },
+        "normalized_mean": 0.7156862745098039,
+        "percent_score": 71.56862745098039
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 24,
+        "coverage": 0.5853658536585366,
+        "statuses": {
+          "ok": 24,
+          "pending": 17
+        },
+        "normalized_mean": 0.5,
+        "percent_score": 50.0,
+        "raw_mean": 0.5,
+        "max_score": 1,
+        "acc": 0.5
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 44,
+        "coverage": 0.5,
+        "statuses": {
+          "ok": 44,
+          "pending": 44
+        },
+        "normalized_mean": 0.8333333333333335,
+        "percent_score": 83.33333333333334,
+        "raw_mean": 2.5,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.7156862745098039,
+      "unweighted_percent": 71.56862745098039,
+      "weighted": 0.6333333333333334,
+      "weighted_percent": 63.33333333333334
+    }
+  },
+  "verified_videos": 129,
+  "verified_bytes": 59219167603,
+  "windows": 5329,
+  "report_directory": "/root/longemo/runtime/reports/series_1789752137"
+}
