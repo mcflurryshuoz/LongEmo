@@ -1,0 +1,313 @@
+{
+  "time_unix": 1789786217.1059182,
+  "scope": "E11 missing-question subset; combined coverage uses mixed perception providers and is not a homogeneous benchmark result.",
+  "e11_metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 192,
+      "n_scored": 11,
+      "coverage": 0.057291666666666664,
+      "statuses": {
+        "pending": 181,
+        "ok": 11
+      },
+      "normalized_mean": 0.7045454545454546,
+      "percent_score": 70.45454545454545
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 78,
+        "n_scored": 6,
+        "coverage": 0.07692307692307693,
+        "statuses": {
+          "ok": 6,
+          "pending": 72
+        },
+        "normalized_mean": 0.625,
+        "percent_score": 62.5,
+        "raw_mean": 2.5,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 74,
+        "n_scored": 4,
+        "coverage": 0.05405405405405406,
+        "statuses": {
+          "pending": 70,
+          "ok": 4
+        },
+        "normalized_mean": 0.75,
+        "percent_score": 75.0,
+        "raw_mean": 0.75,
+        "max_score": 1,
+        "acc": 0.75
+      },
+      "emotional reasoning": {
+        "n_total": 40,
+        "n_scored": 1,
+        "coverage": 0.025,
+        "statuses": {
+          "pending": 39,
+          "ok": 1
+        },
+        "normalized_mean": 1.0,
+        "percent_score": 100.0,
+        "raw_mean": 3.0,
+        "max_score": 3
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 8,
+        "n_scored": 0,
+        "coverage": 0.0,
+        "statuses": {
+          "pending": 8
+        },
+        "normalized_mean": null,
+        "percent_score": null
+      },
+      "explanation": {
+        "n_total": 32,
+        "n_scored": 1,
+        "coverage": 0.03125,
+        "statuses": {
+          "ok": 1,
+          "pending": 31
+        },
+        "normalized_mean": 1.0,
+        "percent_score": 100.0,
+        "raw_mean": 3.0,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 1.0,
+      "unweighted_percent": 100.0,
+      "weighted": 1.0,
+      "weighted_percent": 100.0
+    }
+  },
+  "e10_scored": 366,
+  "combined_scored": 377,
+  "full_questions": 558,
+  "combined_coverage": 0.6756272401433692,
+  "e10_score_file_sha256": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09",
+  "backend": {
+    "videos": {
+      "G2_V000058": {
+        "video_id": "G2_V000058",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000020": {
+        "video_id": "G2_V000020",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000038": {
+        "video_id": "G2_V000038",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000022": {
+        "video_id": "G2_V000022",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000007": {
+        "video_id": "G2_V000007",
+        "status": "complete",
+        "n_scored": 2
+      },
+      "G2_V000067": {
+        "video_id": "G2_V000067",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000014": {
+        "video_id": "G2_V000014",
+        "status": "complete",
+        "n_scored": 4
+      },
+      "G2_V000071": {
+        "video_id": "G2_V000071",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000011": {
+        "video_id": "G2_V000011",
+        "status": "complete",
+        "n_scored": 1
+      },
+      "G2_V000061": {
+        "video_id": "G2_V000061",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000056": {
+        "video_id": "G2_V000056",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000048": {
+        "video_id": "G2_V000048",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000009": {
+        "video_id": "G2_V000009",
+        "status": "complete",
+        "n_scored": 3
+      },
+      "G2_V000084": {
+        "video_id": "G2_V000084",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000086": {
+        "video_id": "G2_V000086",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000087": {
+        "video_id": "G2_V000087",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000003": {
+        "video_id": "G2_V000003",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000105": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000060": {
+        "video_id": "G2_V000060",
+        "status": "complete",
+        "n_scored": 1
+      },
+      "G2_V000043": {
+        "video_id": "G2_V000043",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000106": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000102": {
+        "video_id": "G2_V000102",
+        "status": "frontend_failed",
+        "returncode": 1
+      }
+    },
+    "status": "waiting_memory",
+    "active_videos": [],
+    "updated_unix": 1789786211.9888427,
+    "question_count": 192,
+    "n_scored": 11
+  },
+  "recovery_backend": {
+    "videos": {},
+    "status": "waiting_recovery_memory",
+    "active_video": null,
+    "updated_unix": 1789786210.7972772
+  },
+  "new_question_scores": [
+    {
+      "question_id": "G2_Q000014",
+      "video_id": "G2_V000007",
+      "type": "emotion trajectory",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1.0
+    },
+    {
+      "question_id": "G2_Q000015",
+      "video_id": "G2_V000007",
+      "type": "emotional intensity comparison",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0
+    },
+    {
+      "question_id": "G2_Q000017",
+      "video_id": "G2_V000009",
+      "type": "emotional reasoning",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1.0
+    },
+    {
+      "question_id": "G2_Q000018",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000019",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000023",
+      "video_id": "G2_V000011",
+      "type": "emotion trajectory",
+      "score": 3,
+      "max_score": 4,
+      "normalized_score": 0.75
+    },
+    {
+      "question_id": "G2_Q000032",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0
+    },
+    {
+      "question_id": "G2_Q000033",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000034",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000035",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0
+    },
+    {
+      "question_id": "G2_Q000195",
+      "video_id": "G2_V000060",
+      "type": "emotional intensity comparison",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    }
+  ]
+}
