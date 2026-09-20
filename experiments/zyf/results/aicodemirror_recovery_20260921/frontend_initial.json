@@ -1,0 +1,20 @@
+{
+  "videos": {
+    "G2_V000108": {
+      "video_id": "G2_V000108",
+      "returncode": 1,
+      "status": "blocked_input_policy",
+      "rejection": {
+        "source": "/mnt/data1/zyf/LongEmo-runtime/runs/aicodemirror_gemini37_recovery_20260921/memory/G2_V000108/calls.jsonl",
+        "purpose": "perception:G2_V000108:W00045",
+        "service_error_code": "content_filter"
+      }
+    }
+  },
+  "status": "running",
+  "active_videos": [
+    "G2_V000067",
+    "G2_V000115"
+  ],
+  "updated_unix": 1789927430.8152184
+}

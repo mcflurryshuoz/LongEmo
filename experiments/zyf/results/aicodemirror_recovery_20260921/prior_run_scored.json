@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-09-21T02:02:46.855013+08:00",
+  "runs": [
+    {
+      "run": "matrix_gemini38_gpt6_full_v1",
+      "n_scored": 366,
+      "mean_100": 58.37887067395264,
+      "scores_sha256": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09"
+    },
+    {
+      "run": "blackai_gemini38_matrix_gpt6_remaining_v1",
+      "n_scored": 94,
+      "mean_100": 54.25531914893617,
+      "scores_sha256": "c6981f0882008259bde2e35c67689b4e64b69d1cb157f7aa3f8575563628653c"
+    },
+    {
+      "run": "blackai_gemini37_matrix_gpt6_compact_20260920",
+      "n_scored": 10,
+      "mean_100": 63.33333333333333,
+      "scores_sha256": "020c62e05af0f74b887c2eff6cf1093f458632064ff780b5da76ffc749674488"
+    }
+  ],
+  "combined": {
+    "n_scored": 470,
+    "total": 558,
+    "mean_100": 57.659574468085104,
+    "scope": "mixed provider/model continuation; missing scores excluded from mean"
+  },
+  "by_task": {
+    "emotion trajectory": {
+      "n_scored": 202,
+      "mean_100": 54.45544554455446
+    },
+    "emotional intensity comparison": {
+      "n_scored": 157,
+      "mean_100": 50.955414012738856
+    },
+    "emotional reasoning": {
+      "n_scored": 111,
+      "mean_100": 72.97297297297297
+    }
+  },
+  "new_scores": [
+    {
+      "question_id": "G2_Q000051",
+      "video_id": "G2_V000022",
+      "type": "emotional intensity comparison",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000052",
+      "video_id": "G2_V000022",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000053",
+      "video_id": "G2_V000022",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000054",
+      "video_id": "G2_V000022",
+      "type": "emotional reasoning",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1.0,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000055",
+      "video_id": "G2_V000022",
+      "type": "emotional reasoning",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1.0,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000411",
+      "video_id": "G2_V000109",
+      "type": "emotional intensity comparison",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000412",
+      "video_id": "G2_V000109",
+      "type": "emotional intensity comparison",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000413",
+      "video_id": "G2_V000109",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000414",
+      "video_id": "G2_V000109",
+      "type": "emotion trajectory",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "status": "ok"
+    },
+    {
+      "question_id": "G2_Q000415",
+      "video_id": "G2_V000109",
+      "type": "emotional reasoning",
+      "score": 1,
+      "max_score": 3,
+      "normalized_score": 0.3333333333333333,
+      "status": "ok"
+    }
+  ]
+}

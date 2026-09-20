@@ -6,6 +6,10 @@ E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62
 
 ## BlackAI 续评：E11
 
+### Gemini 3.7 与 AICodeMirror 接续
+
+2026-09-21 02:02 CST：BlackAI Gemini 3.7 紧凑采样补全 V22/V109 两个图谱，已在 AIStudio 新增 **10 道评分、63.33 分**；累计 **470/558（84.23%）、57.66 分**，原 E10/E11 评分哈希未改变。针对其余 16 个视频，用户指定的 AICodeMirror Gemini 3.7 单窗口验证得到 2 个 schema 通过、1 个内容返回但证据字段不合格、13 个明确内容过滤。仅前三个视频的 16 题进入独立续跑，图谱尚未全部完成；不会把窗口验证当作整集评分。[实验配置、逐题分数与接口验证](results/aicodemirror_recovery_20260921/progress.md)。
+
 用户要求改用 BlackAI 继续完成后，已针对 E10 缺失的 **192 题、47 个视频**启动独立续评。BlackAI 在 g450 的真实音视频窗口验证通过；AIStudio 到 BlackAI 连接超时，因此感知在 g450 以 16 视频并发进行，完整图谱经 SHA-256 校验后传给 AIStudio 的 GPT-6 问答与官方评分。向量仍用 OpenRouter Gemini Embedding 2，原 366 条评分保持不变。
 
 启动快照已有 **117** 个有效窗口、16 个视频活跃；V58 的一次 HTTP 524 保留检查点，等待按临时错误补跑；新评分仍待完整图谱。已设置每 20 分钟自动跟进。[续评协议与状态](results/blackai_continuation_v1/startup.md) · [选择名单](results/blackai_continuation_v1/selection.json) · [BlackAI 实测](results/blackai_recheck_20260919/validation.md)。E11 与 E10 分开统计，合并覆盖率必须标注混合提供方。
