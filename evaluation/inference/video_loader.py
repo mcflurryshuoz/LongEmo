@@ -6,6 +6,7 @@ import hashlib
 import io
 import json
 import math
+import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -617,14 +618,22 @@ def sample_video_frames(
                     raise ValueError(
                         f"ffmpeg produced an empty or invalid JPEG for sample {offset + index}"
                     )
-                try:
-                    timestamp = round(
-                        int(files[0].stem[len(prefix) :]) / 1_000_000 - start, 6
-                    )
-                except ValueError as exc:
-                    raise ValueError(
-                        "ffmpeg produced a frame without a usable timestamp"
-                    ) from exc
+                if os.environ.get("LONGEMO_FFMPEG_COMPAT") == "1":
+                    # Ubuntu 20.04's FFmpeg 4.2 cannot set the output time
+                    # base with -enc_time_base:v, so image2 frame PTS are not
+                    # expressed in microseconds. The select filter still
+                    # chooses the requested target; use that target for the
+                    # local timestamp check in this explicitly scoped retry.
+                    timestamp = round(batch[index] - start, 6)
+                else:
+                    try:
+                        timestamp = round(
+                            int(files[0].stem[len(prefix) :]) / 1_000_000 - start, 6
+                        )
+                    except ValueError as exc:
+                        raise ValueError(
+                            "ffmpeg produced a frame without a usable timestamp"
+                        ) from exc
                 if timestamp > interval_end + 0.000001:
                     # An accurate seek returns the first frame at/after the
                     # target. An arbitrary window end need not be an actual

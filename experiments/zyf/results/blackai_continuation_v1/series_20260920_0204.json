@@ -1,0 +1,1558 @@
+{
+  "as_of": "2026-09-20T02:04:55+08:00",
+  "e10_sha256": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09",
+  "e11_sha256": "acdbc2078e6cd3bd6b543006ed9dfb2b2e014d80ec1295e5b9cf08a02dee2d80",
+  "aggregation": "Equal question weights; only successful first scores, missing scores excluded. Mixed E10 Matrix perception and E11 BlackAI perception; both use Matrix GPT-6 answering and judging.",
+  "e10": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 366,
+      "coverage": 0.6559139784946236,
+      "statuses": {
+        "ok": 366,
+        "pending": 192
+      },
+      "normalized_mean": 0.5837887067395264,
+      "percent_score": 58.37887067395264
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 157,
+        "coverage": 0.6680851063829787,
+        "statuses": {
+          "ok": 157,
+          "pending": 78
+        },
+        "normalized_mean": 0.5414012738853503,
+        "percent_score": 54.14012738853503,
+        "raw_mean": 2.1656050955414012,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 120,
+        "coverage": 0.6185567010309279,
+        "statuses": {
+          "ok": 120,
+          "pending": 74
+        },
+        "normalized_mean": 0.5416666666666666,
+        "percent_score": 54.166666666666664,
+        "raw_mean": 0.5416666666666666,
+        "max_score": 1,
+        "acc": 0.5416666666666666
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 89,
+        "coverage": 0.689922480620155,
+        "statuses": {
+          "ok": 89,
+          "pending": 40
+        },
+        "normalized_mean": 0.7153558052434456,
+        "percent_score": 71.53558052434455
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 33,
+        "coverage": 0.8048780487804879,
+        "statuses": {
+          "ok": 33,
+          "pending": 8
+        },
+        "normalized_mean": 0.5757575757575758,
+        "percent_score": 57.57575757575758,
+        "raw_mean": 0.5757575757575758,
+        "max_score": 1,
+        "acc": 0.5757575757575758
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 56,
+        "coverage": 0.6363636363636364,
+        "statuses": {
+          "ok": 56,
+          "pending": 32
+        },
+        "normalized_mean": 0.7976190476190476,
+        "percent_score": 79.76190476190476,
+        "raw_mean": 2.392857142857143,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.7153558052434456,
+      "unweighted_percent": 71.53558052434455,
+      "weighted": 0.6645021645021645,
+      "weighted_percent": 66.45021645021644
+    }
+  },
+  "e11": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 192,
+      "n_scored": 59,
+      "coverage": 0.3072916666666667,
+      "statuses": {
+        "ok": 59,
+        "pending": 133
+      },
+      "normalized_mean": 0.5649717514124294,
+      "percent_score": 56.49717514124294
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 78,
+        "n_scored": 26,
+        "coverage": 0.3333333333333333,
+        "statuses": {
+          "ok": 26,
+          "pending": 52
+        },
+        "normalized_mean": 0.5769230769230769,
+        "percent_score": 57.692307692307686,
+        "raw_mean": 2.3076923076923075,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 74,
+        "n_scored": 22,
+        "coverage": 0.2972972972972973,
+        "statuses": {
+          "ok": 22,
+          "pending": 52
+        },
+        "normalized_mean": 0.45454545454545453,
+        "percent_score": 45.45454545454545,
+        "raw_mean": 0.45454545454545453,
+        "max_score": 1,
+        "acc": 0.45454545454545453
+      },
+      "emotional reasoning": {
+        "n_total": 40,
+        "n_scored": 11,
+        "coverage": 0.275,
+        "statuses": {
+          "ok": 11,
+          "pending": 29
+        },
+        "normalized_mean": 0.7575757575757575,
+        "percent_score": 75.75757575757575
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 8,
+        "n_scored": 4,
+        "coverage": 0.5,
+        "statuses": {
+          "ok": 4,
+          "pending": 4
+        },
+        "normalized_mean": 0.5,
+        "percent_score": 50,
+        "raw_mean": 0.5,
+        "max_score": 1,
+        "acc": 0.5
+      },
+      "explanation": {
+        "n_total": 32,
+        "n_scored": 7,
+        "coverage": 0.21875,
+        "statuses": {
+          "ok": 7,
+          "pending": 25
+        },
+        "normalized_mean": 0.9047619047619048,
+        "percent_score": 90.47619047619048,
+        "raw_mean": 2.7142857142857144,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.7575757575757575,
+      "unweighted_percent": 75.75757575757575,
+      "weighted": 0.661904761904762,
+      "weighted_percent": 66.1904761904762
+    }
+  },
+  "combined": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 425,
+      "coverage": 0.7616487455197133,
+      "statuses": {
+        "ok": 425,
+        "pending": 133
+      },
+      "normalized_mean": 0.5811764705882352,
+      "percent_score": 58.11764705882352
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 183,
+        "coverage": 0.7787234042553192,
+        "statuses": {
+          "ok": 183,
+          "pending": 52
+        },
+        "normalized_mean": 0.546448087431694,
+        "percent_score": 54.644808743169406,
+        "raw_mean": 2.185792349726776,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 142,
+        "coverage": 0.7319587628865979,
+        "statuses": {
+          "ok": 142,
+          "pending": 52
+        },
+        "normalized_mean": 0.528169014084507,
+        "percent_score": 52.816901408450704,
+        "raw_mean": 0.528169014084507,
+        "max_score": 1,
+        "acc": 0.528169014084507
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 100,
+        "coverage": 0.7751937984496124,
+        "statuses": {
+          "ok": 100,
+          "pending": 29
+        },
+        "normalized_mean": 0.7199999999999998,
+        "percent_score": 71.99999999999997
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 37,
+        "coverage": 0.9024390243902439,
+        "statuses": {
+          "ok": 37,
+          "pending": 4
+        },
+        "normalized_mean": 0.5675675675675675,
+        "percent_score": 56.75675675675676,
+        "raw_mean": 0.5675675675675675,
+        "max_score": 1,
+        "acc": 0.5675675675675675
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 63,
+        "coverage": 0.7159090909090909,
+        "statuses": {
+          "ok": 63,
+          "pending": 25
+        },
+        "normalized_mean": 0.8095238095238093,
+        "percent_score": 80.95238095238093,
+        "raw_mean": 2.4285714285714284,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.7199999999999998,
+      "unweighted_percent": 71.99999999999997,
+      "weighted": 0.6643500643500643,
+      "weighted_percent": 66.43500643500643
+    }
+  },
+  "series": {
+    "Frasier": {
+      "granularity": "episode",
+      "overall_unweighted": {
+        "n_total": 88,
+        "n_scored": 72,
+        "coverage": 0.8181818181818182,
+        "statuses": {
+          "ok": 72,
+          "pending": 16
+        },
+        "normalized_mean": 0.6076388888888888,
+        "percent_score": 60.763888888888886
+      },
+      "tasks": {
+        "emotion trajectory": {
+          "n_total": 37,
+          "n_scored": 29,
+          "coverage": 0.7837837837837838,
+          "statuses": {
+            "ok": 29,
+            "pending": 8
+          },
+          "normalized_mean": 0.5431034482758621,
+          "percent_score": 54.310344827586206,
+          "raw_mean": 2.1724137931034484,
+          "max_score": 4
+        },
+        "emotional intensity comparison": {
+          "n_total": 33,
+          "n_scored": 28,
+          "coverage": 0.8484848484848485,
+          "statuses": {
+            "ok": 28,
+            "pending": 5
+          },
+          "normalized_mean": 0.5357142857142857,
+          "percent_score": 53.57142857142857,
+          "raw_mean": 0.5357142857142857,
+          "max_score": 1,
+          "acc": 0.5357142857142857
+        },
+        "emotional reasoning": {
+          "n_total": 18,
+          "n_scored": 15,
+          "coverage": 0.8333333333333334,
+          "statuses": {
+            "ok": 15,
+            "pending": 3
+          },
+          "normalized_mean": 0.8666666666666666,
+          "percent_score": 86.66666666666666
+        }
+      },
+      "emotional_reasoning": {
+        "result": {
+          "n_total": 6,
+          "n_scored": 6,
+          "coverage": 1,
+          "statuses": {
+            "ok": 6
+          },
+          "normalized_mean": 0.8333333333333334,
+          "percent_score": 83.33333333333334,
+          "raw_mean": 0.8333333333333334,
+          "max_score": 1,
+          "acc": 0.8333333333333334
+        },
+        "explanation": {
+          "n_total": 12,
+          "n_scored": 9,
+          "coverage": 0.75,
+          "statuses": {
+            "ok": 9,
+            "pending": 3
+          },
+          "normalized_mean": 0.8888888888888888,
+          "percent_score": 88.88888888888889,
+          "raw_mean": 2.6666666666666665,
+          "max_score": 3
+        },
+        "weights": {
+          "result": 0.6,
+          "explanation": 0.4
+        },
+        "unweighted": 0.8666666666666666,
+        "unweighted_percent": 86.66666666666666,
+        "weighted": 0.8555555555555556,
+        "weighted_percent": 85.55555555555556
+      }
+    },
+    "Friends": {
+      "granularity": "episode",
+      "overall_unweighted": {
+        "n_total": 104,
+        "n_scored": 90,
+        "coverage": 0.8653846153846154,
+        "statuses": {
+          "ok": 90,
+          "pending": 14
+        },
+        "normalized_mean": 0.5935185185185184,
+        "percent_score": 59.35185185185185
+      },
+      "tasks": {
+        "emotion trajectory": {
+          "n_total": 54,
+          "n_scored": 48,
+          "coverage": 0.8888888888888888,
+          "statuses": {
+            "ok": 48,
+            "pending": 6
+          },
+          "normalized_mean": 0.515625,
+          "percent_score": 51.5625,
+          "raw_mean": 2.0625,
+          "max_score": 4
+        },
+        "emotional intensity comparison": {
+          "n_total": 26,
+          "n_scored": 22,
+          "coverage": 0.8461538461538461,
+          "statuses": {
+            "ok": 22,
+            "pending": 4
+          },
+          "normalized_mean": 0.5454545454545454,
+          "percent_score": 54.54545454545454,
+          "raw_mean": 0.5454545454545454,
+          "max_score": 1,
+          "acc": 0.5454545454545454
+        },
+        "emotional reasoning": {
+          "n_total": 24,
+          "n_scored": 20,
+          "coverage": 0.8333333333333334,
+          "statuses": {
+            "ok": 20,
+            "pending": 4
+          },
+          "normalized_mean": 0.8333333333333333,
+          "percent_score": 83.33333333333333
+        }
+      },
+      "emotional_reasoning": {
+        "result": {
+          "n_total": 2,
+          "n_scored": 2,
+          "coverage": 1,
+          "statuses": {
+            "ok": 2
+          },
+          "normalized_mean": 0.5,
+          "percent_score": 50,
+          "raw_mean": 0.5,
+          "max_score": 1,
+          "acc": 0.5
+        },
+        "explanation": {
+          "n_total": 22,
+          "n_scored": 18,
+          "coverage": 0.8181818181818182,
+          "statuses": {
+            "ok": 18,
+            "pending": 4
+          },
+          "normalized_mean": 0.8703703703703702,
+          "percent_score": 87.03703703703702,
+          "raw_mean": 2.611111111111111,
+          "max_score": 3
+        },
+        "weights": {
+          "result": 0.6,
+          "explanation": 0.4
+        },
+        "unweighted": 0.8333333333333333,
+        "unweighted_percent": 83.33333333333333,
+        "weighted": 0.6481481481481481,
+        "weighted_percent": 64.81481481481481
+      }
+    },
+    "Home with Kids": {
+      "granularity": "episode",
+      "overall_unweighted": {
+        "n_total": 11,
+        "n_scored": 11,
+        "coverage": 1,
+        "statuses": {
+          "ok": 11
+        },
+        "normalized_mean": 0.41666666666666663,
+        "percent_score": 41.666666666666664
+      },
+      "tasks": {
+        "emotion trajectory": {
+          "n_total": 5,
+          "n_scored": 5,
+          "coverage": 1,
+          "statuses": {
+            "ok": 5
+          },
+          "normalized_mean": 0.45,
+          "percent_score": 45,
+          "raw_mean": 1.8,
+          "max_score": 4
+        },
+        "emotional intensity comparison": {
+          "n_total": 2,
+          "n_scored": 2,
+          "coverage": 1,
+          "statuses": {
+            "ok": 2
+          },
+          "normalized_mean": 0.5,
+          "percent_score": 50,
+          "raw_mean": 0.5,
+          "max_score": 1,
+          "acc": 0.5
+        },
+        "emotional reasoning": {
+          "n_total": 4,
+          "n_scored": 4,
+          "coverage": 1,
+          "statuses": {
+            "ok": 4
+          },
+          "normalized_mean": 0.3333333333333333,
+          "percent_score": 33.33333333333333
+        }
+      },
+      "emotional_reasoning": {
+        "result": {
+          "n_total": 2,
+          "n_scored": 2,
+          "coverage": 1,
+          "statuses": {
+            "ok": 2
+          },
+          "normalized_mean": 0,
+          "percent_score": 0,
+          "raw_mean": 0,
+          "max_score": 1,
+          "acc": 0
+        },
+        "explanation": {
+          "n_total": 2,
+          "n_scored": 2,
+          "coverage": 1,
+          "statuses": {
+            "ok": 2
+          },
+          "normalized_mean": 0.6666666666666666,
+          "percent_score": 66.66666666666666,
+          "raw_mean": 2,
+          "max_score": 3
+        },
+        "weights": {
+          "result": 0.6,
+          "explanation": 0.4
+        },
+        "unweighted": 0.3333333333333333,
+        "unweighted_percent": 33.33333333333333,
+        "weighted": 0.26666666666666666,
+        "weighted_percent": 26.666666666666668
+      }
+    },
+    "Malcolm in the Middle": {
+      "granularity": "episode",
+      "overall_unweighted": {
+        "n_total": 90,
+        "n_scored": 24,
+        "coverage": 0.26666666666666666,
+        "statuses": {
+          "pending": 66,
+          "ok": 24
+        },
+        "normalized_mean": 0.5347222222222222,
+        "percent_score": 53.47222222222222
+      },
+      "tasks": {
+        "emotion trajectory": {
+          "n_total": 34,
+          "n_scored": 8,
+          "coverage": 0.23529411764705882,
+          "statuses": {
+            "pending": 26,
+            "ok": 8
+          },
+          "normalized_mean": 0.5625,
+          "percent_score": 56.25,
+          "raw_mean": 2.25,
+          "max_score": 4
+        },
+        "emotional intensity comparison": {
+          "n_total": 41,
+          "n_scored": 12,
+          "coverage": 0.2926829268292683,
+          "statuses": {
+            "pending": 29,
+            "ok": 12
+          },
+          "normalized_mean": 0.4166666666666667,
+          "percent_score": 41.66666666666667,
+          "raw_mean": 0.4166666666666667,
+          "max_score": 1,
+          "acc": 0.4166666666666667
+        },
+        "emotional reasoning": {
+          "n_total": 15,
+          "n_scored": 4,
+          "coverage": 0.26666666666666666,
+          "statuses": {
+            "pending": 11,
+            "ok": 4
+          },
+          "normalized_mean": 0.8333333333333334,
+          "percent_score": 83.33333333333334
+        }
+      },
+      "emotional_reasoning": {
+        "result": {
+          "n_total": 5,
+          "n_scored": 2,
+          "coverage": 0.4,
+          "statuses": {
+            "ok": 2,
+            "pending": 3
+          },
+          "normalized_mean": 1,
+          "percent_score": 100,
+          "raw_mean": 1,
+          "max_score": 1,
+          "acc": 1
+        },
+        "explanation": {
+          "n_total": 10,
+          "n_scored": 2,
+          "coverage": 0.2,
+          "statuses": {
+            "pending": 8,
+            "ok": 2
+          },
+          "normalized_mean": 0.6666666666666666,
+          "percent_score": 66.66666666666666,
+          "raw_mean": 2,
+          "max_score": 3
+        },
+        "weights": {
+          "result": 0.6,
+          "explanation": 0.4
+        },
+        "unweighted": 0.8333333333333334,
+        "unweighted_percent": 83.33333333333334,
+        "weighted": 0.8666666666666667,
+        "weighted_percent": 86.66666666666667
+      }
+    },
+    "Modern Family": {
+      "granularity": "episode",
+      "overall_unweighted": {
+        "n_total": 93,
+        "n_scored": 80,
+        "coverage": 0.8602150537634409,
+        "statuses": {
+          "ok": 80,
+          "pending": 13
+        },
+        "normalized_mean": 0.5781249999999999,
+        "percent_score": 57.812499999999986
+      },
+      "tasks": {
+        "emotion trajectory": {
+          "n_total": 39,
+          "n_scored": 35,
+          "coverage": 0.8974358974358975,
+          "statuses": {
+            "ok": 35,
+            "pending": 4
+          },
+          "normalized_mean": 0.55,
+          "percent_score": 55.00000000000001,
+          "raw_mean": 2.2,
+          "max_score": 4
+        },
+        "emotional intensity comparison": {
+          "n_total": 37,
+          "n_scored": 29,
+          "coverage": 0.7837837837837838,
+          "statuses": {
+            "ok": 29,
+            "pending": 8
+          },
+          "normalized_mean": 0.5172413793103449,
+          "percent_score": 51.724137931034484,
+          "raw_mean": 0.5172413793103449,
+          "max_score": 1,
+          "acc": 0.5172413793103449
+        },
+        "emotional reasoning": {
+          "n_total": 17,
+          "n_scored": 16,
+          "coverage": 0.9411764705882353,
+          "statuses": {
+            "ok": 16,
+            "pending": 1
+          },
+          "normalized_mean": 0.75,
+          "percent_score": 75
+        }
+      },
+      "emotional_reasoning": {
+        "result": {
+          "n_total": 7,
+          "n_scored": 7,
+          "coverage": 1,
+          "statuses": {
+            "ok": 7
+          },
+          "normalized_mean": 0.8571428571428571,
+          "percent_score": 85.71428571428571,
+          "raw_mean": 0.8571428571428571,
+          "max_score": 1,
+          "acc": 0.8571428571428571
+        },
+        "explanation": {
+          "n_total": 10,
+          "n_scored": 9,
+          "coverage": 0.9,
+          "statuses": {
+            "ok": 9,
+            "pending": 1
+          },
+          "normalized_mean": 0.6666666666666666,
+          "percent_score": 66.66666666666666,
+          "raw_mean": 2,
+          "max_score": 3
+        },
+        "weights": {
+          "result": 0.6,
+          "explanation": 0.4
+        },
+        "unweighted": 0.75,
+        "unweighted_percent": 75,
+        "weighted": 0.7809523809523808,
+        "weighted_percent": 78.09523809523809
+      }
+    },
+    "Unclassified": {
+      "granularity": "episode",
+      "overall_unweighted": {
+        "n_total": 172,
+        "n_scored": 148,
+        "coverage": 0.8604651162790697,
+        "statuses": {
+          "ok": 148,
+          "pending": 24
+        },
+        "normalized_mean": 0.5822072072072072,
+        "percent_score": 58.22072072072072
+      },
+      "tasks": {
+        "emotion trajectory": {
+          "n_total": 66,
+          "n_scored": 58,
+          "coverage": 0.8787878787878788,
+          "statuses": {
+            "ok": 58,
+            "pending": 8
+          },
+          "normalized_mean": 0.5775862068965517,
+          "percent_score": 57.758620689655174,
+          "raw_mean": 2.310344827586207,
+          "max_score": 4
+        },
+        "emotional intensity comparison": {
+          "n_total": 55,
+          "n_scored": 49,
+          "coverage": 0.8909090909090909,
+          "statuses": {
+            "ok": 49,
+            "pending": 6
+          },
+          "normalized_mean": 0.5510204081632653,
+          "percent_score": 55.10204081632652,
+          "raw_mean": 0.5510204081632653,
+          "max_score": 1,
+          "acc": 0.5510204081632653
+        },
+        "emotional reasoning": {
+          "n_total": 51,
+          "n_scored": 41,
+          "coverage": 0.803921568627451,
+          "statuses": {
+            "ok": 41,
+            "pending": 10
+          },
+          "normalized_mean": 0.6260162601626017,
+          "percent_score": 62.60162601626017
+        }
+      },
+      "emotional_reasoning": {
+        "result": {
+          "n_total": 19,
+          "n_scored": 18,
+          "coverage": 0.9473684210526315,
+          "statuses": {
+            "ok": 18,
+            "pending": 1
+          },
+          "normalized_mean": 0.3888888888888889,
+          "percent_score": 38.88888888888889,
+          "raw_mean": 0.3888888888888889,
+          "max_score": 1,
+          "acc": 0.3888888888888889
+        },
+        "explanation": {
+          "n_total": 32,
+          "n_scored": 23,
+          "coverage": 0.71875,
+          "statuses": {
+            "ok": 23,
+            "pending": 9
+          },
+          "normalized_mean": 0.8115942028985507,
+          "percent_score": 81.15942028985506,
+          "raw_mean": 2.4347826086956523,
+          "max_score": 3
+        },
+        "weights": {
+          "result": 0.6,
+          "explanation": 0.4
+        },
+        "unweighted": 0.6260162601626017,
+        "unweighted_percent": 62.60162601626017,
+        "weighted": 0.5579710144927537,
+        "weighted_percent": 55.79710144927537
+      }
+    }
+  },
+  "backend": {
+    "videos": {
+      "G2_V000058": {
+        "video_id": "G2_V000058",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000020": {
+        "video_id": "G2_V000020",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000038": {
+        "video_id": "G2_V000038",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000022": {
+        "video_id": "G2_V000022",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000007": {
+        "video_id": "G2_V000007",
+        "status": "complete",
+        "n_scored": 2
+      },
+      "G2_V000067": {
+        "video_id": "G2_V000067",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000014": {
+        "video_id": "G2_V000014",
+        "status": "complete",
+        "n_scored": 4
+      },
+      "G2_V000071": {
+        "video_id": "G2_V000071",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000011": {
+        "video_id": "G2_V000011",
+        "status": "complete",
+        "n_scored": 1
+      },
+      "G2_V000061": {
+        "video_id": "G2_V000061",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000056": {
+        "video_id": "G2_V000056",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000048": {
+        "video_id": "G2_V000048",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000009": {
+        "video_id": "G2_V000009",
+        "status": "complete",
+        "n_scored": 3
+      },
+      "G2_V000084": {
+        "video_id": "G2_V000084",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000086": {
+        "video_id": "G2_V000086",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000087": {
+        "video_id": "G2_V000087",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000003": {
+        "video_id": "G2_V000003",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000105": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000060": {
+        "video_id": "G2_V000060",
+        "status": "complete",
+        "n_scored": 1
+      },
+      "G2_V000043": {
+        "video_id": "G2_V000043",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000106": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000102": {
+        "video_id": "G2_V000102",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000109": {
+        "video_id": "G2_V000109",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000035": {
+        "video_id": "G2_V000035",
+        "status": "complete",
+        "n_scored": 5
+      },
+      "G2_V000049": {
+        "video_id": "G2_V000049",
+        "status": "complete",
+        "n_scored": 4
+      },
+      "G2_V000112": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000025": {
+        "video_id": "G2_V000025",
+        "status": "complete",
+        "n_scored": 5
+      },
+      "G2_V000095": {
+        "video_id": "G2_V000095",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000129": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000062": {
+        "video_id": "G2_V000062",
+        "status": "complete",
+        "n_scored": 1
+      },
+      "G2_V000074": {
+        "video_id": "G2_V000074",
+        "status": "complete",
+        "n_scored": 3
+      },
+      "G2_V000113": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000072": {
+        "video_id": "G2_V000072",
+        "status": "blocked_input_policy",
+        "n_scored": 0
+      },
+      "G2_V000117": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000108": {
+        "video_id": "G2_V000108",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000116": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000110": {
+        "video_id": "G2_V000110",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000082": {
+        "video_id": "G2_V000082",
+        "status": "complete",
+        "n_scored": 4
+      },
+      "G2_V000063": {
+        "video_id": "G2_V000063",
+        "status": "complete",
+        "n_scored": 3
+      },
+      "G2_V000107": {
+        "video_id": "G2_V000107",
+        "status": "complete",
+        "n_scored": 6
+      },
+      "G2_V000100": {
+        "video_id": "G2_V000100",
+        "status": "complete",
+        "n_scored": 2
+      },
+      "G2_V000131": {
+        "video_id": "G2_V000131",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000137": {
+        "video_id": "G2_V000137",
+        "status": "frontend_failed",
+        "returncode": 1
+      },
+      "G2_V000096": {
+        "video_id": "G2_V000096",
+        "status": "complete",
+        "n_scored": 2
+      },
+      "G2_V000122": {
+        "video_id": "G2_V000122",
+        "status": "complete",
+        "n_scored": 5
+      }
+    },
+    "status": "finished",
+    "active_videos": [],
+    "updated_unix": 1789830348.9676292,
+    "question_count": 192,
+    "n_scored": 54
+  },
+  "recovery_backend": {
+    "videos": {
+      "G2_V000003": {
+        "video_id": "G2_V000003",
+        "status": "complete",
+        "n_scored": 3
+      },
+      "G2_V000038": {
+        "video_id": "G2_V000038",
+        "status": "complete",
+        "n_scored": 5
+      }
+    },
+    "status": "running",
+    "active_video": "G2_V000020",
+    "updated_unix": 1789841086.6827836
+  },
+  "inbox_counts": {
+    "main": 47,
+    "recovery": 15,
+    "recovery_done_marker": 1
+  },
+  "e11_first_scores": [
+    {
+      "question_id": "G2_Q000005",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000006",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000007",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000014",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000015",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000017",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000018",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000019",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000023",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 3,
+      "max_score": 4,
+      "normalized_score": 0.75
+    },
+    {
+      "question_id": "G2_Q000032",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000033",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000034",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000035",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000066",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000067",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000068",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000069",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000070",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000102",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000103",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000104",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000105",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000106",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000112",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000113",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000114",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000115",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000116",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000155",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000156",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000157",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000158",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000195",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000203",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000206",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000207",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 3,
+      "max_score": 4,
+      "normalized_score": 0.75
+    },
+    {
+      "question_id": "G2_Q000208",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666
+    },
+    {
+      "question_id": "G2_Q000265",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000266",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 3,
+      "max_score": 4,
+      "normalized_score": 0.75
+    },
+    {
+      "question_id": "G2_Q000267",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000289",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000290",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000291",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000292",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000354",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000355",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 1,
+      "max_score": 4,
+      "normalized_score": 0.25
+    },
+    {
+      "question_id": "G2_Q000366",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000367",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666
+    },
+    {
+      "question_id": "G2_Q000400",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000401",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000402",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000403",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000404",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000405",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000478",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000479",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0
+    },
+    {
+      "question_id": "G2_Q000480",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    },
+    {
+      "question_id": "G2_Q000481",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000482",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1
+    }
+  ]
+}
