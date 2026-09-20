@@ -18,6 +18,19 @@ from evaluation.io_utils import load_records
 NAME = "aicodemirror_gemini37_recovery_20260921"
 
 
+def prepare_question_files(out, questions):
+    """Backend deployments need the same per-video question subsets as producers."""
+    targets = {out/'videos'/vid/'questions.json': [q for q in questions if q['video_id'] == vid]
+               for vid in {q['video_id'] for q in questions}}
+    for path, subset in targets.items():
+        assert not path.is_symlink(), 'question path is a symlink'
+        if path.exists():
+            assert read(path) == subset, 'existing question subset differs from frozen selection'
+    for path, subset in targets.items():
+        if not path.exists():
+            atomic(path, subset)
+
+
 def setup(args):
     parent = args.runtime / "runs" / PARENT
     out = args.runtime / "runs" / NAME
@@ -57,7 +70,9 @@ def setup(args):
                     dest=archive/name;dest.parent.mkdir(parents=True,exist_ok=True);p.rename(dest)
             atomic(stage/'checkpoint_source.json',{'parent_run':PARENT,'files':files,'inherited_windows':old['completed_windows']})
             stage.rename(target)
-    return out,read(out/'questions.json')
+    questions = read(out/'questions.json')
+    prepare_question_files(out, questions)
+    return out, questions
 
 
 def frontend(args,out,questions):

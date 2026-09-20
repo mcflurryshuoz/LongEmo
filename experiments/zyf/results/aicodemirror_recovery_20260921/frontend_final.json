@@ -1,0 +1,63 @@
+{
+  "as_of": "2026-09-20T18:41:58.125681+00:00",
+  "frontend": {
+    "videos": {
+      "G2_V000108": {
+        "video_id": "G2_V000108",
+        "returncode": 1,
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/aicodemirror_gemini37_recovery_20260921/memory/G2_V000108/calls.jsonl",
+          "purpose": "perception:G2_V000108:W00045",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "returncode": 1,
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/aicodemirror_gemini37_recovery_20260921/memory/G2_V000115/audio/calls.jsonl",
+          "purpose": "audio_observer:W00024",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000067": {
+        "video_id": "G2_V000067",
+        "returncode": 1,
+        "status": "frontend_failed"
+      }
+    },
+    "status": "finished",
+    "active_videos": [],
+    "updated_unix": 1789927582.428285
+  },
+  "recovery_frontend": {
+    "videos": {
+      "G2_V000067": {
+        "video_id": "G2_V000067",
+        "status": "memory_complete",
+        "recovery_attempts": 1,
+        "transient_remaining": false
+      }
+    },
+    "attempts": {
+      "G2_V000067": 1
+    },
+    "status": "finished",
+    "active_video": null,
+    "updated_unix": 1789928603.1475134
+  },
+  "recovery_bundle": {
+    "video_id": "G2_V000067",
+    "archive": "G2_V000067.tar.gz",
+    "bytes": 76918,
+    "sha256": "050b8a551b2853c1e870bed7981192bf1012b505bd2d349e89ec17f6e90c580c",
+    "recovery": true
+  },
+  "V67": {
+    "completed_windows": 26,
+    "total_windows": 26,
+    "complete": true
+  }
+}

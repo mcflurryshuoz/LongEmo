@@ -7,11 +7,25 @@ from unittest.mock import patch
 from evaluation.clients import Client
 from experiments.zyf.aicodemirror_probe import BASE, mirror_headers
 from experiments.zyf.aicodemirror_worker import verified_inherited_audio
+from experiments.zyf.aicodemirror_continue import prepare_question_files
 from methods.longemo.audio import AUDIO_PROMPT
 from methods.longemo.common import fingerprint
 
 
 class MirrorTests(unittest.TestCase):
+    def test_backend_question_subsets_are_created_and_never_silently_changed(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            questions = [{'question_id':'Q1','video_id':'V1'}, {'question_id':'Q2','video_id':'V2'}]
+            prepare_question_files(root, questions)
+            first = root/'videos/V1/questions.json'
+            self.assertEqual(json.loads(first.read_text()), questions[:1])
+            prepare_question_files(root, questions)
+            first.write_text('[]')
+            with self.assertRaises(AssertionError):
+                prepare_question_files(root, questions)
+            self.assertEqual(first.read_text(), '[]')
+
     def test_bearer_auth_is_provider_scoped(self):
         c=Client('gemini-3.7-flash',BASE,'gemini','secret')
         self.assertEqual(mirror_headers(c)['Authorization'],'Bearer secret')

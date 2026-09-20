@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import time
 
-from experiments.zyf.aicodemirror_continue import NAME
+from experiments.zyf.aicodemirror_continue import NAME, prepare_question_files
 from experiments.zyf.blackai_continuation import atomic, read
 from experiments.zyf.recover_blackai import frontend, backend
 from methods.longemo.common import code_hash
@@ -36,6 +36,7 @@ def main():
                 os.environ['PATH'] = str(args.runtime / 'tmp') + os.pathsep + os.environ.get('PATH', '')
                 frontend(args.runtime, run, 3, worker_module='experiments.zyf.aicodemirror_worker')
         else:
+            prepare_question_files(run, read(run / 'questions.json'))
             backend(args.runtime, run, args.credential_file)
 
 
