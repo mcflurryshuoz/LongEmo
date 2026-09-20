@@ -134,7 +134,7 @@ def run_frontend(args, out, questions):
                 result = future.result()
             except Exception as exc:
                 result = {"video_id": vid, "status": "orchestration_error",
-                          "error_type": type(exc).__name__}
+                          "error_type": type(exc).__name__, "error": repr(exc)}
             state["videos"][vid] = result
             state.update(queued_videos=[v for v in todo if v not in state["videos"]],
                         updated_unix=time.time())
