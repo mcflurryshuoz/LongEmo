@@ -112,7 +112,7 @@ def run_frontend(args, out, questions):
         write_json(folder / "build_command.json", {"command": list(map(str, command)),
                                                      "time_unix": time.time()})
         with (folder / "build.log").open("a") as log:
-            rc = subprocess.run(command, env=env, stdout=log,
+            rc = subprocess.run(list(map(str, command)), env=env, stdout=log,
                                 stderr=subprocess.STDOUT).returncode
         complete = (memory / "memory.json").exists() and read(memory / "memory.json").get("complete")
         block = recorded_video_block(folder, memory)
