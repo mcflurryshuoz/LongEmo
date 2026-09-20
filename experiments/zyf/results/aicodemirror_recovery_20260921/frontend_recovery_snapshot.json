@@ -1,0 +1,286 @@
+{
+  "as_of": "2026-09-20T18:15:39.161463+00:00",
+  "frontend": {
+    "videos": {
+      "G2_V000108": {
+        "video_id": "G2_V000108",
+        "returncode": 1,
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/aicodemirror_gemini37_recovery_20260921/memory/G2_V000108/calls.jsonl",
+          "purpose": "perception:G2_V000108:W00045",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "returncode": 1,
+        "status": "blocked_input_policy",
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/aicodemirror_gemini37_recovery_20260921/memory/G2_V000115/audio/calls.jsonl",
+          "purpose": "audio_observer:W00024",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000067": {
+        "video_id": "G2_V000067",
+        "returncode": 1,
+        "status": "frontend_failed"
+      }
+    },
+    "status": "finished",
+    "active_videos": [],
+    "updated_unix": 1789927582.428285
+  },
+  "recovery_frontend": {
+    "videos": {},
+    "attempts": {
+      "G2_V000067": 1
+    },
+    "status": "running",
+    "active_video": "G2_V000067",
+    "updated_unix": 1789927910.9118297
+  },
+  "videos": {
+    "G2_V000108": {
+      "inherited_windows": 44,
+      "completed_windows": 44,
+      "total_windows": 65,
+      "complete": false,
+      "calls": [
+        {
+          "purpose": "perception:G2_V000108:W00045",
+          "status": "error",
+          "http_status": 200,
+          "service_error_code": "content_filter",
+          "response_model": null,
+          "time_unix": 1789927370.3445826
+        }
+      ]
+    },
+    "G2_V000115": {
+      "inherited_windows": 23,
+      "completed_windows": 23,
+      "total_windows": 65,
+      "complete": false,
+      "calls": [
+        {
+          "purpose": "audio_observer:W00024",
+          "status": "error",
+          "http_status": 200,
+          "service_error_code": "content_filter",
+          "response_model": null,
+          "time_unix": 1789927435.3437107
+        }
+      ]
+    },
+    "G2_V000067": {
+      "inherited_windows": 2,
+      "completed_windows": 11,
+      "total_windows": 26,
+      "complete": false,
+      "calls": [
+        {
+          "purpose": "perception:G2_V000067:W00003",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927369.9772358
+        },
+        {
+          "purpose": "perception:G2_V000067:W00004",
+          "status": "error",
+          "http_status": 524,
+          "service_error_code": null,
+          "response_model": null,
+          "time_unix": 1789927456.9883664
+        },
+        {
+          "purpose": "perception:G2_V000067:W00004",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927914.1891012
+        },
+        {
+          "purpose": "perception:G2_V000067:W00005",
+          "status": "error",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927932.8777397
+        },
+        {
+          "purpose": "perception:G2_V000067:W00005",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927946.8415253
+        },
+        {
+          "purpose": "perception:G2_V000067:W00006",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927960.6338859
+        },
+        {
+          "purpose": "perception:G2_V000067:W00007",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927993.738025
+        },
+        {
+          "purpose": "perception:G2_V000067:W00008",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash-exp-b",
+          "time_unix": 1789928023.5170062
+        },
+        {
+          "purpose": "perception:G2_V000067:W00009",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash-exp-b",
+          "time_unix": 1789928042.0438514
+        },
+        {
+          "purpose": "perception:G2_V000067:W00010",
+          "status": "error",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928080.065593
+        },
+        {
+          "purpose": "perception:G2_V000067:W00010",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928094.441262
+        },
+        {
+          "purpose": "perception:G2_V000067:W00011",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928112.265302
+        },
+        {
+          "purpose": "audio_observer:W00004",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927408.7537098
+        },
+        {
+          "purpose": "audio_observer:W00005",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927928.8130188
+        },
+        {
+          "purpose": "audio_observer:W00006",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927957.4764132
+        },
+        {
+          "purpose": "audio_observer:W00007",
+          "status": "error",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927976.573202
+        },
+        {
+          "purpose": "audio_observer:W00007",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789927985.854087
+        },
+        {
+          "purpose": "audio_observer:W00008",
+          "status": "error",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash-exp-b",
+          "time_unix": 1789928012.6932514
+        },
+        {
+          "purpose": "audio_observer:W00008",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928019.1361225
+        },
+        {
+          "purpose": "audio_observer:W00009",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928038.1254308
+        },
+        {
+          "purpose": "audio_observer:W00010",
+          "status": "error",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928057.3773434
+        },
+        {
+          "purpose": "audio_observer:W00010",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash-exp-b",
+          "time_unix": 1789928064.1304538
+        },
+        {
+          "purpose": "audio_observer:W00011",
+          "status": "error",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928103.2416172
+        },
+        {
+          "purpose": "audio_observer:W00011",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928108.9963756
+        },
+        {
+          "purpose": "audio_observer:W00012",
+          "status": "ok",
+          "http_status": null,
+          "service_error_code": null,
+          "response_model": "gemini-3.7-flash",
+          "time_unix": 1789928126.1463501
+        }
+      ]
+    }
+  }
+}

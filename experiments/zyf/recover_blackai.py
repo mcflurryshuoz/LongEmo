@@ -48,7 +48,7 @@ def publish(run, vid, state, predecessor):
                                     'sha256': file_hash(archive), 'recovery': True})
 
 
-def frontend(runtime, run, max_attempts):
+def frontend(runtime, run, max_attempts, worker_module='experiments.zyf.native_worker'):
     recovery = run/'recovery'; outbox = recovery/'outbox'; outbox.mkdir(parents=True, exist_ok=True)
     path = recovery/'frontend_status.json'; state = read(path) if path.exists() else {'videos': {}, 'attempts': {}}
     env = dict(os.environ, OMP_NUM_THREADS='1', OPENBLAS_NUM_THREADS='1')
@@ -67,7 +67,7 @@ def frontend(runtime, run, max_attempts):
         predecessor = read(run/'outbox'/(vid+'.receipt.json'))
         assert predecessor['outcome']['status'] == 'frontend_failed'
         command = read(run/'videos'/vid/'build_command.json')['command']
-        assert command[2:4] == ['-m', 'experiments.zyf.native_worker']
+        assert command[2:4] == ['-m', worker_module]
         assert '--output-dir' in command and '--credential-file' in command
         count = state['attempts'].get(vid, 0)
         complete = recovered_before_interruption(vid)

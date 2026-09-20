@@ -2,14 +2,37 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from evaluation.io_utils import write_json, write_records
 from experiments.zyf.blackai_continuation import export_video, import_video
-from experiments.zyf.recover_blackai import transient_failure, publish, install_recovery
+from experiments.zyf.recover_blackai import transient_failure, publish, install_recovery, frontend
 from methods.longemo.common import manifest
 
 
 class RecoveryTest(unittest.TestCase):
+    def test_alternate_worker_retries_524_then_stops_on_policy_rejection(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            manifest(root/'experiment_manifest.json', {'protocol': 'test'})
+            write_json(root/'memory/V1/memory.json', {'complete': False})
+            ledger = root/'memory/V1/calls.jsonl'
+            transient = {'purpose': 'perception:V1:W1', 'status': 'error', 'http_status': 524}
+            write_records(ledger, [transient])
+            export_video(root, 'V1', {'status': 'frontend_failed'})
+            write_json(root/'frontend_status.json', {'status': 'finished', 'videos': {'V1': {'status': 'frontend_failed'}}})
+            write_json(root/'videos/V1/build_command.json', {'command': ['python', '-u', '-m', 'experiments.zyf.aicodemirror_worker', '--output-dir', str(root), '--credential-file', '/private/test.json']})
+            def rejected(*args, **kwargs):
+                write_records(ledger, [transient, {**transient, 'http_status': 400, 'service_error_code': 'content_filter'}])
+                return type('Result', (), {'returncode': 1})()
+            with patch('experiments.zyf.recover_blackai.subprocess.run', side_effect=rejected) as run:
+                frontend(root, root, 3, worker_module='experiments.zyf.aicodemirror_worker')
+                self.assertEqual(run.call_count, 1)
+            state = json.loads((root/'recovery/frontend_status.json').read_text())
+            self.assertEqual(state['attempts'], {'V1': 1})
+            self.assertFalse(state['videos']['V1']['transient_remaining'])
+            self.assertTrue((root/'recovery/outbox/V1.ready.json').exists())
+
     def test_only_explicit_transients_can_retry(self):
         with tempfile.TemporaryDirectory() as d:
             root = Path(d); p = root/'memory/V1/calls.jsonl'
