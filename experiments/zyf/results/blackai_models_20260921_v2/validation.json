@@ -1,0 +1,406 @@
+{
+  "checked_at": "2026-09-21T07:26:30.150684+00:00",
+  "provider": "BlackAI",
+  "scope": "Availability probes on one real unfinished window (V71/W50), not a completed graph or evaluation run. No benchmark answers/reference rubrics supplied to perception.",
+  "media": {
+    "video_id": "G2_V000071",
+    "window": "W00050",
+    "core_seconds": [
+      980,
+      1000
+    ],
+    "media_seconds": [
+      978,
+      1002
+    ],
+    "max_frames": 8,
+    "max_pixels": 150528
+  },
+  "text_checks": [
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "BlackAI",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-2.5-flash:generateContent",
+      "request_sha256": "29c382f4c16ee947d459dce16706f370e95884694b03f97398a46ae7d3c98e73",
+      "request_bytes": 123,
+      "started_unix": 1789975306.739891,
+      "attempts": 1,
+      "http_status": 404,
+      "content_type": "application/json; charset=utf-8",
+      "response_bytes": 139,
+      "response_sha256": "3081f58198bb86f44d3006ef5b34070b9a34eb30a02a83562781eb76b27e1299",
+      "wire_format": "json",
+      "response_keys": [
+        "error"
+      ],
+      "status": "provider_error",
+      "service_code": 404,
+      "provider_message": "Model \"gemini-2.5-flash\" is not supported by any configured account in this group",
+      "elapsed_seconds": 0.35
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "provider": "BlackAI",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+      "request_sha256": "29c382f4c16ee947d459dce16706f370e95884694b03f97398a46ae7d3c98e73",
+      "request_bytes": 123,
+      "started_unix": 1789975306.7409477,
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "response_bytes": 1171,
+      "response_sha256": "eded1abf68c83851ca03213100a241e837cfc0768aef34c19d2ffb18ff071df8",
+      "wire_format": "json",
+      "response_keys": [
+        "candidates",
+        "modelVersion",
+        "responseId",
+        "usageMetadata"
+      ],
+      "candidate_count": 1,
+      "block_reason": null,
+      "finish_reasons": [
+        "STOP"
+      ],
+      "response_model": "gemini-pro-default",
+      "text_characters": 3,
+      "status": "text_ok",
+      "text_sha256": "b814aabdde112d89d45105c3205482949a86d7bbc33040034db21f7a85c84c4a",
+      "answer_preview": "OK.",
+      "elapsed_seconds": 4.76
+    },
+    {
+      "model": "gemini-3.6-flash",
+      "provider": "BlackAI",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.6-flash:generateContent",
+      "request_sha256": "29c382f4c16ee947d459dce16706f370e95884694b03f97398a46ae7d3c98e73",
+      "request_bytes": 123,
+      "started_unix": 1789975307.0891385,
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json",
+      "response_bytes": 603,
+      "response_sha256": "6924de2b4c025429e9398d807c2208872a33637927bd58f0d687ee0e20106ffd",
+      "wire_format": "json",
+      "response_keys": [
+        "candidates",
+        "modelVersion",
+        "responseId",
+        "usageMetadata"
+      ],
+      "candidate_count": 1,
+      "block_reason": null,
+      "finish_reasons": [
+        "STOP"
+      ],
+      "response_model": "gemini-3.6-flash",
+      "text_characters": 2,
+      "status": "text_ok",
+      "text_sha256": "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3",
+      "answer_preview": "OK",
+      "elapsed_seconds": 32.81
+    },
+    {
+      "model": "gemini-3.1-flash-lite",
+      "provider": "BlackAI",
+      "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.1-flash-lite:generateContent",
+      "request_sha256": "29c382f4c16ee947d459dce16706f370e95884694b03f97398a46ae7d3c98e73",
+      "request_bytes": 123,
+      "started_unix": 1789975311.4968972,
+      "attempts": 1,
+      "http_status": 200,
+      "content_type": "application/json",
+      "response_bytes": 629,
+      "response_sha256": "517c5a4b15c15ded0734ee056e1f02f505389b7b28e95bd6cf347321b905c655",
+      "wire_format": "json",
+      "response_keys": [
+        "candidates",
+        "modelVersion",
+        "responseId",
+        "usageMetadata"
+      ],
+      "candidate_count": 1,
+      "block_reason": null,
+      "finish_reasons": [
+        "STOP"
+      ],
+      "response_model": "gemini-3.1-flash-lite",
+      "text_characters": 3,
+      "status": "text_ok",
+      "text_sha256": "b814aabdde112d89d45105c3205482949a86d7bbc33040034db21f7a85c84c4a",
+      "answer_preview": "OK.",
+      "elapsed_seconds": 0.73
+    }
+  ],
+  "initial_media_checks": [
+    {
+      "provider": "BlackAI",
+      "model": "gemini-3.1-pro-preview",
+      "video_id": "G2_V000071",
+      "window": "W00050",
+      "max_frames": 8,
+      "max_pixels": 150528,
+      "audio_enabled": true,
+      "question_independent": true,
+      "scores_added": 0,
+      "stage": "complete",
+      "audio": {
+        "model": "gemini-3.1-pro-preview",
+        "provider": "BlackAI",
+        "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+        "request_sha256": "f96bff38084b6678b4099af6aa7e008d3f6f5a8f228b4b4c65fb903288261ef5",
+        "request_bytes": 1025328,
+        "started_unix": 1789975387.3147671,
+        "attempts": 1,
+        "http_status": 200,
+        "content_type": "application/json",
+        "response_bytes": 8253,
+        "response_sha256": "f9e0423f22e18ee775421ae2377c09474d36f65a22da70a0877ab17d7748216e",
+        "wire_format": "json",
+        "response_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ],
+        "candidate_count": 1,
+        "block_reason": null,
+        "finish_reasons": [
+          "STOP"
+        ],
+        "response_model": "gemini-pro-default",
+        "text_characters": 1924,
+        "status": "text_ok",
+        "text_sha256": "b876c1e4a640bcb90a2163f2019adbb3ed8184a1cb874a5f29b38b855bfec7d9",
+        "elapsed_seconds": 16.33
+      },
+      "audio_schema_valid": true,
+      "visual": {
+        "model": "gemini-3.1-pro-preview",
+        "provider": "BlackAI",
+        "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+        "request_sha256": "2c4000638c8f8838252152415d7ddd458b2387864043a2cc4921c44b32062464",
+        "request_bytes": 194793,
+        "started_unix": 1789975403.651113,
+        "attempts": 1,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "response_bytes": 35172,
+        "response_sha256": "63cbbce21f2677f51f7f4909711d4c08c7910f64fb2dd8a2823bb671c0c94037",
+        "wire_format": "json",
+        "response_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ],
+        "candidate_count": 1,
+        "block_reason": null,
+        "finish_reasons": [
+          "STOP"
+        ],
+        "response_model": "gemini-pro-default",
+        "text_characters": 4508,
+        "status": "text_ok",
+        "text_sha256": "d5c69f6ba039e54526bb0614d3d0dc2f8147c3fb33af422fd8e364e685d1b7d7",
+        "elapsed_seconds": 121.19
+      },
+      "status": "schema_passed",
+      "observations": 6,
+      "events": 2
+    },
+    {
+      "provider": "BlackAI",
+      "model": "gemini-3.1-flash-lite",
+      "video_id": "G2_V000071",
+      "window": "W00050",
+      "max_frames": 8,
+      "max_pixels": 150528,
+      "audio_enabled": true,
+      "question_independent": true,
+      "scores_added": 0,
+      "stage": "visual",
+      "audio": {
+        "model": "gemini-3.1-flash-lite",
+        "provider": "BlackAI",
+        "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.1-flash-lite:generateContent",
+        "request_sha256": "f96bff38084b6678b4099af6aa7e008d3f6f5a8f228b4b4c65fb903288261ef5",
+        "request_bytes": 1025328,
+        "started_unix": 1789975387.310483,
+        "attempts": 1,
+        "http_status": 200,
+        "content_type": "application/json",
+        "response_bytes": 2001,
+        "response_sha256": "14598f3dd492aadb57dc43550c6e2be1c7e6fb2670756d0dc0343af51855758e",
+        "wire_format": "json",
+        "response_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ],
+        "candidate_count": 1,
+        "block_reason": null,
+        "finish_reasons": [
+          "STOP"
+        ],
+        "response_model": "gemini-3.1-flash-lite",
+        "text_characters": 1254,
+        "status": "text_ok",
+        "text_sha256": "e8646f7cd08ea92c2df648329ad4968317a7b21f7420d16fbf5d624b7954ff0c",
+        "elapsed_seconds": 2.86
+      },
+      "audio_schema_valid": true,
+      "visual": {
+        "model": "gemini-3.1-flash-lite",
+        "provider": "BlackAI",
+        "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.1-flash-lite:generateContent",
+        "request_sha256": "fb2facb6b897e4876551a435132f773ef028c8d740db8c46e9a20be15dde8727",
+        "request_bytes": 194575,
+        "started_unix": 1789975390.1793892,
+        "attempts": 1,
+        "http_status": 200,
+        "content_type": "application/json",
+        "response_bytes": 4690,
+        "response_sha256": "fa8cc7ff0cab0bb5a176ab8c464f576310e20cfcaef5c536ccfbaaabe33a4b4f",
+        "wire_format": "json",
+        "response_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ],
+        "candidate_count": 1,
+        "block_reason": null,
+        "finish_reasons": [
+          "STOP"
+        ],
+        "response_model": "gemini-3.1-flash-lite",
+        "text_characters": 3616,
+        "status": "text_ok",
+        "text_sha256": "cf0dda047000fe4c5f42d22aae493d358b232b86f7cef5b91f0bb0676b81c200",
+        "elapsed_seconds": 4.8
+      },
+      "status": "failed",
+      "error_type": "ValueError",
+      "error": "relation.evidence_ids needs supporting observation IDs"
+    },
+    {
+      "provider": "BlackAI",
+      "model": "gemini-3.6-flash",
+      "video_id": "G2_V000071",
+      "window": "W00050",
+      "max_frames": 8,
+      "max_pixels": 150528,
+      "audio_enabled": true,
+      "question_independent": true,
+      "scores_added": 0,
+      "stage": "complete",
+      "audio": {
+        "model": "gemini-3.6-flash",
+        "provider": "BlackAI",
+        "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.6-flash:generateContent",
+        "request_sha256": "f96bff38084b6678b4099af6aa7e008d3f6f5a8f228b4b4c65fb903288261ef5",
+        "request_bytes": 1025328,
+        "started_unix": 1789975394.994625,
+        "attempts": 1,
+        "http_status": 200,
+        "content_type": "application/json",
+        "response_bytes": 1895,
+        "response_sha256": "2f015f52fef119e176c2191c4a957884d022f1a079d822becb0d33b446b367d0",
+        "wire_format": "json",
+        "response_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ],
+        "candidate_count": 1,
+        "block_reason": null,
+        "finish_reasons": [
+          "STOP"
+        ],
+        "response_model": "gemini-3.6-flash",
+        "text_characters": 1142,
+        "status": "text_ok",
+        "text_sha256": "7971fb8548383c9705873a7f4addf71648a3ffacb5e24406f6a83262bfa2bbb1",
+        "elapsed_seconds": 17.17
+      },
+      "audio_schema_valid": true,
+      "visual": {
+        "model": "gemini-3.6-flash",
+        "provider": "BlackAI",
+        "endpoint": "https://www.blackaicoding.com/v1beta/models/gemini-3.6-flash:generateContent",
+        "request_sha256": "515c401adaa06af3b3fd8309b20755a83bf101129c2c9572e8e82b70f175ff6c",
+        "request_bytes": 194067,
+        "started_unix": 1789975412.1645386,
+        "attempts": 1,
+        "http_status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "response_bytes": 26940,
+        "response_sha256": "0156255a47c32f19582b690239f6fb52a6e24ee6f8e4d54e0ae459f6cb17e50e",
+        "wire_format": "json",
+        "response_keys": [
+          "candidates",
+          "modelVersion",
+          "responseId",
+          "usageMetadata"
+        ],
+        "candidate_count": 1,
+        "block_reason": null,
+        "finish_reasons": [
+          "STOP"
+        ],
+        "response_model": "gemini-3.6-flash-tiered",
+        "text_characters": 4827,
+        "status": "text_ok",
+        "text_sha256": "fb73329eb4dfe58d463e009d244cc8daea4eae9c38899583199043459de40957",
+        "elapsed_seconds": 32.36
+      },
+      "status": "schema_passed",
+      "observations": 3,
+      "events": 3
+    }
+  ],
+  "flash_lite_additional_check": {
+    "result": {
+      "model": "gemini-3.1-flash-lite",
+      "video_id": "G2_V000071",
+      "window": "W00050",
+      "audio_reused": true,
+      "max_visual_attempts": 2,
+      "scores_added": 0,
+      "status": "schema_passed",
+      "events": 1,
+      "observations": 3
+    },
+    "ledger": [
+      {
+        "purpose": "schema_probe:G2_V000071:W00050",
+        "request_hash": "6d6b12163919860f335f975b0c25ae60efac8e5b678b19c4549ccf74a5edb80f",
+        "attempt": 1,
+        "model": "gemini-3.1-flash-lite",
+        "time_unix": 1789975529.4208245,
+        "usage": {
+          "prompt_tokens": 14489,
+          "completion_tokens": 860,
+          "total_tokens": 15349,
+          "thought_tokens": null,
+          "raw": {
+            "promptTokenCount": 14489,
+            "candidatesTokenCount": 860,
+            "totalTokenCount": 15349
+          }
+        },
+        "response_model": "gemini-3.1-flash-lite",
+        "status": "ok",
+        "elapsed_seconds": 3.9121777936816216
+      }
+    ]
+  },
+  "excluded_diagnostic": "lite_schema_repair v1 mistakenly marked inherited audio cues with sampling.audio=False. Its local validation feedback and resulting repair are excluded. v2 restores audio=True and passes on its first visual request, reusing validated audio.",
+  "scores_added": 0,
+  "old_scores_modified": false,
+  "interpretation": "Gemini 3.6 Flash and Gemini 3.1 Pro Preview passed audio and graph schema on the first attempt each. Flash Lite also responds and passes, but initial graph references failed validation. A listed model is not proof of account access: Gemini 2.5 Flash returned 404. Returned modelVersion values are recorded; requested labels are provider aliases, not proof of upstream identity.",
+  "preferred_for_next_small_batch": "gemini-3.6-flash"
+}

@@ -3,8 +3,9 @@
   "baseline": {
     "scored": 486,
     "total": 558,
-    "mean_scored": 57.65056,
-    "new_scores_this_round": 0
+    "mean_scored": null,
+    "new_scores_this_round": 0,
+    "mean_scored_note": "Earlier 57.65056 belongs to the 476-question snapshot. A 486-question mean has not been recomputed in this provider diagnostic."
   },
   "runs": [
     {
