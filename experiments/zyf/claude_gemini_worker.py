@@ -13,8 +13,8 @@ from experiments.zyf.blackai_continuation import read
 from experiments.zyf.native_worker import main
 from methods.longemo import runner
 
-VISUAL_MODEL = 'claude-opus-5'
-AUDIO_MODEL = 'gemini-2.5-pro'
+VISUAL_MODEL = os.environ.get('CLAUDE_GEMINI_VISUAL_MODEL', 'claude-opus-5')
+AUDIO_MODEL = os.environ.get('CLAUDE_GEMINI_AUDIO_MODEL', 'gemini-2.5-pro')
 
 
 def visual_client(args):

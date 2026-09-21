@@ -17,9 +17,11 @@ from experiments.zyf.claude_gemini_continuation import (
 )
 from methods.longemo.common import code_hash, file_hash, manifest
 
-NAME = 'aicodemirror_claude5_gemini25_retry_20260921'
+NAME = os.environ.get('CLAUDE_GEMINI_RETRY_NAME', 'aicodemirror_claude5_gemini25_retry_20260921')
 DEFAULT_VIDEO = 'G2_V000071'
-MAX_FRAMES = 8
+VISUAL_MODEL = os.environ.get('CLAUDE_GEMINI_VISUAL_MODEL', 'claude-opus-5')
+AUDIO_MODEL = os.environ.get('CLAUDE_GEMINI_AUDIO_MODEL', 'gemini-2.5-pro')
+MAX_FRAMES = int(os.environ.get('CLAUDE_GEMINI_MAX_FRAMES', '8'))
 AUDIO_PROMPT = """Observe only the supplied audio. Return JSON {observations:[{span:[start,end],voice:string,cue:string,uncertainty:string}]}.
 Use absolute video seconds. Cover the whole clip and transcribe audible words and tone.
 The voice field is REQUIRED and MUST be nonempty text; when identity is unclear use exactly \"unknown speaker\".
@@ -71,7 +73,14 @@ def setup(args):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--runtime',type=Path,required=True)
     p.add_argument('--credential-file',type=Path,required=True);p.add_argument('--video-id',default=DEFAULT_VIDEO)
-    args=p.parse_args();out,questions=setup(args);vid=args.video_id
+    p.add_argument('--run-name',default=None);p.add_argument('--visual-model',default=None);p.add_argument('--audio-model',default=None);p.add_argument('--max-frames',type=int,default=None)
+    args=p.parse_args()
+    global NAME, VISUAL_MODEL, AUDIO_MODEL, MAX_FRAMES
+    if args.run_name: NAME=args.run_name
+    if args.visual_model: VISUAL_MODEL=args.visual_model
+    if args.audio_model: AUDIO_MODEL=args.audio_model
+    if args.max_frames: MAX_FRAMES=args.max_frames
+    out,questions=setup(args);vid=args.video_id
     with (out/'frontend.lock').open('a') as lock:
         fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
         folder=out/'videos'/vid;root=folder/'build_memory';root.mkdir(exist_ok=True);memory=out/'memory'/vid
