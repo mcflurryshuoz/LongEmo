@@ -1,6 +1,4 @@
 {
-  "as_of": "2026-09-21T09:33:01+00:00",
-  "report_as_of": "2026-09-21T09:29:53+00:00",
   "code_revision": "78005f3",
   "test_results": {
     "g450": 29,
@@ -71,899 +69,6 @@
       "benchmark_mutated": false
     }
   },
-  "runs": {
-    "aicodemirror_stream_remaining_20260921": {
-      "frontend": {
-        "videos": {
-          "G2_V000106": {
-            "video_id": "G2_V000106",
-            "status": "frontend_failed",
-            "attempts": 1,
-            "outer_recovery_allowed": false,
-            "transient_remaining": false
-          },
-          "G2_V000104": {
-            "video_id": "G2_V000104",
-            "status": "frontend_failed",
-            "attempts": 1,
-            "outer_recovery_allowed": false,
-            "transient_remaining": false
-          }
-        },
-        "status": "running",
-        "active_videos": [
-          "G2_V000105",
-          "G2_V000112",
-          "G2_V000113",
-          "G2_V000115",
-          "G2_V000116",
-          "G2_V000117"
-        ],
-        "queued_videos": [],
-        "question_count": 45,
-        "updated_unix": 1789983176.031826
-      },
-      "frontend_process": {
-        "pid": 3452601,
-        "workers": 7,
-        "started_unix": 1789982199.89837
-      },
-      "windows": {
-        "G2_V000104": {
-          "completed": 59,
-          "total": 63,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000104:W00060",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 91.08705710433424,
-                "validation_error": "stream ended without message_stop"
-              },
-              {
-                "purpose": "perception:G2_V000104:W00060",
-                "attempt": 2,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 108.25842605531216,
-                "validation_error": "event must overlap core, not only padding"
-              },
-              {
-                "purpose": "perception:G2_V000104:W00060",
-                "attempt": 3,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "JSONDecodeError",
-                "elapsed_seconds": 78.35843566432595,
-                "validation_error": "Expecting value: line 1 column 1 (char 0)"
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00059",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 26.918829241767526
-              },
-              {
-                "purpose": "audio_observer:W00060",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 13.947536956518888
-              }
-            ]
-          }
-        },
-        "G2_V000105": {
-          "completed": 14,
-          "total": 65,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000105:W00012",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 114.90134994313121
-              },
-              {
-                "purpose": "perception:G2_V000105:W00013",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 169.59297776967287
-              },
-              {
-                "purpose": "perception:G2_V000105:W00014",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 128.4398813918233
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00013",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 13.46671237424016
-              },
-              {
-                "purpose": "audio_observer:W00014",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 16.480702504515648
-              },
-              {
-                "purpose": "audio_observer:W00015",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 19.702597504481673
-              }
-            ]
-          }
-        },
-        "G2_V000106": {
-          "completed": 36,
-          "total": 64,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000106:W00037",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 57.26983284391463,
-                "validation_error": "observation subject must reference a declared entity"
-              },
-              {
-                "purpose": "perception:G2_V000106:W00037",
-                "attempt": 2,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "JSONDecodeError",
-                "elapsed_seconds": 45.64323407970369,
-                "validation_error": "Expecting value: line 1 column 1 (char 0)"
-              },
-              {
-                "purpose": "perception:G2_V000106:W00037",
-                "attempt": 3,
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 75.32188418135047,
-                "validation_error": "stream ended without message_stop"
-              }
-            ]
-          }
-        },
-        "G2_V000112": {
-          "completed": 18,
-          "total": 65,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000112:W00017",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 88.45660211145878
-              },
-              {
-                "purpose": "perception:G2_V000112:W00018",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 108.27900154702365
-              },
-              {
-                "purpose": "perception:G2_V000112:W00019",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 104.26303429156542,
-                "validation_error": "event must overlap core, not only padding"
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00017",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 15.227087946608663
-              },
-              {
-                "purpose": "audio_observer:W00018",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 11.984404016286135
-              },
-              {
-                "purpose": "audio_observer:W00019",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 17.889338159933686
-              }
-            ]
-          }
-        },
-        "G2_V000113": {
-          "completed": 52,
-          "total": 65,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000113:W00052",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 90.69948077574372,
-                "validation_error": "event must overlap core, not only padding"
-              },
-              {
-                "purpose": "perception:G2_V000113:W00052",
-                "attempt": 2,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "JSONDecodeError",
-                "elapsed_seconds": 58.87232103198767,
-                "validation_error": "Expecting value: line 1 column 1 (char 0)"
-              },
-              {
-                "purpose": "perception:G2_V000113:W00052",
-                "attempt": 3,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 199.33967405371368
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00052",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 11.535600764676929,
-                "validation_error": "voice must be nonempty text"
-              },
-              {
-                "purpose": "audio_observer:W00052",
-                "attempt": 2,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 6.515509283170104
-              },
-              {
-                "purpose": "audio_observer:W00053",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 14.907721906900406
-              }
-            ]
-          }
-        },
-        "G2_V000115": {
-          "completed": 44,
-          "total": 65,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000115:W00042",
-                "attempt": 2,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 42.65756547637284
-              },
-              {
-                "purpose": "perception:G2_V000115:W00043",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 86.69907079264522
-              },
-              {
-                "purpose": "perception:G2_V000115:W00044",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 74.45069408044219
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00042",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 13.1777323205024
-              },
-              {
-                "purpose": "audio_observer:W00043",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 15.670560296624899
-              },
-              {
-                "purpose": "audio_observer:W00044",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 18.180034251883626
-              }
-            ]
-          }
-        },
-        "G2_V000116": {
-          "completed": 41,
-          "total": 64,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000116:W00040",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "JSONDecodeError",
-                "elapsed_seconds": 173.5064469370991,
-                "validation_error": "Expecting value: line 1 column 1 (char 0)"
-              },
-              {
-                "purpose": "perception:G2_V000116:W00040",
-                "attempt": 2,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 58.924265176057816
-              },
-              {
-                "purpose": "perception:G2_V000116:W00041",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 226.65391008928418
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00039",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 18.610150430351496
-              },
-              {
-                "purpose": "audio_observer:W00040",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 15.688659574836493
-              },
-              {
-                "purpose": "audio_observer:W00041",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 21.21264463290572
-              }
-            ]
-          }
-        },
-        "G2_V000117": {
-          "completed": 59,
-          "total": 64,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000117:W00059",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "JSONDecodeError",
-                "elapsed_seconds": 108.4100458920002,
-                "validation_error": "Expecting ',' delimiter: line 100 column 32 (char 3930)"
-              },
-              {
-                "purpose": "perception:G2_V000117:W00059",
-                "attempt": 2,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 97.56308962404728
-              },
-              {
-                "purpose": "perception:G2_V000117:W00060",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "error",
-                "error_type": "ValueError",
-                "elapsed_seconds": 105.09203055687249,
-                "validation_error": "event must overlap core, not only padding"
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00058",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 13.328747719526291
-              },
-              {
-                "purpose": "audio_observer:W00059",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 16.853901593014598
-              },
-              {
-                "purpose": "audio_observer:W00060",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 16.81036821566522
-              }
-            ]
-          }
-        }
-      },
-      "backend": {
-        "videos": {
-          "G2_V000106": {
-            "video_id": "G2_V000106",
-            "status": "frontend_failed",
-            "attempts": 1,
-            "outer_recovery_allowed": false,
-            "transient_remaining": false
-          },
-          "G2_V000104": {
-            "video_id": "G2_V000104",
-            "status": "frontend_failed",
-            "attempts": 1,
-            "outer_recovery_allowed": false,
-            "transient_remaining": false
-          }
-        },
-        "status": "waiting_memory",
-        "active_videos": [],
-        "updated_unix": 1789982986.5665555,
-        "question_count": 45,
-        "n_scored": 0
-      },
-      "manifest_sha256": "959fff653f0b25828f19d963d9f962870e7d2044603c0d090941f349a1031a51"
-    },
-    "aicodemirror_recharge_parallel_20260921": {
-      "frontend": {
-        "videos": {
-          "G2_V000112": {
-            "video_id": "G2_V000112",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000117": {
-            "video_id": "G2_V000117",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000104": {
-            "video_id": "G2_V000104",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000105": {
-            "video_id": "G2_V000105",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000129": {
-            "video_id": "G2_V000129",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          }
-        },
-        "status": "finished",
-        "active_videos": [],
-        "queued_videos": [],
-        "updated_unix": 1789981467.8340874,
-        "question_count": 27
-      },
-      "frontend_process": {
-        "pid": 3153264,
-        "workers": 8,
-        "started_unix": 1789978131.6221821
-      },
-      "windows": {
-        "G2_V000104": {
-          "completed": 57,
-          "total": 63,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000104:W00057",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 63.54917097277939
-              },
-              {
-                "purpose": "perception:G2_V000104:W00058",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.10761034861207,
-                "http_status": 524,
-                "service_error_code": null
-              },
-              {
-                "purpose": "perception:G2_V000104:W00058",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.08750139176846,
-                "http_status": 524,
-                "service_error_code": null
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00056",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 23.386255148798227
-              },
-              {
-                "purpose": "audio_observer:W00057",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 39.77178366854787
-              },
-              {
-                "purpose": "audio_observer:W00058",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 28.16152374818921
-              }
-            ]
-          }
-        },
-        "G2_V000105": {
-          "completed": 10,
-          "total": 65,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000105:W00009",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 50.90580778196454
-              },
-              {
-                "purpose": "perception:G2_V000105:W00010",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 120.46844358742237
-              },
-              {
-                "purpose": "perception:G2_V000105:W00011",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.04744637571275,
-                "http_status": 524,
-                "service_error_code": null
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00009",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 27.761040216311812
-              },
-              {
-                "purpose": "audio_observer:W00010",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 21.915834026411176
-              },
-              {
-                "purpose": "audio_observer:W00011",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 18.776807703077793
-              }
-            ]
-          }
-        },
-        "G2_V000112": {
-          "completed": 13,
-          "total": 65,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000112:W00014",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.04575068689883,
-                "http_status": 524,
-                "service_error_code": null
-              },
-              {
-                "purpose": "perception:G2_V000112:W00014",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.05086869932711,
-                "http_status": 524,
-                "service_error_code": null
-              },
-              {
-                "purpose": "perception:G2_V000112:W00014",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.07286285236478,
-                "http_status": 524,
-                "service_error_code": null
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00014",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 35.838116796687245
-              }
-            ]
-          }
-        },
-        "G2_V000117": {
-          "completed": 54,
-          "total": 64,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000117:W00054",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 118.8874469678849
-              },
-              {
-                "purpose": "perception:G2_V000117:W00055",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.0609908271581,
-                "http_status": 524,
-                "service_error_code": null
-              },
-              {
-                "purpose": "perception:G2_V000117:W00055",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.06773908622563,
-                "http_status": 524,
-                "service_error_code": null
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00053",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 34.88294529542327
-              },
-              {
-                "purpose": "audio_observer:W00054",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 26.365555979311466
-              },
-              {
-                "purpose": "audio_observer:W00055",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 19.94731368497014
-              }
-            ]
-          }
-        },
-        "G2_V000129": {
-          "completed": 29,
-          "total": 64,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000129:W00028",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 63.26779764331877
-              },
-              {
-                "purpose": "perception:G2_V000129:W00029",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 64.55933119542897
-              },
-              {
-                "purpose": "perception:G2_V000129:W00030",
-                "attempt": 1,
-                "status": "error",
-                "error_type": "ServiceError",
-                "elapsed_seconds": 125.05368352495134,
-                "http_status": 524,
-                "service_error_code": null
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00028",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 41.64520172961056
-              },
-              {
-                "purpose": "audio_observer:W00029",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 18.812611408531666
-              },
-              {
-                "purpose": "audio_observer:W00030",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 27.326625768095255
-              }
-            ]
-          }
-        }
-      },
-      "backend": {
-        "videos": {
-          "G2_V000112": {
-            "video_id": "G2_V000112",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000117": {
-            "video_id": "G2_V000117",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000104": {
-            "video_id": "G2_V000104",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000105": {
-            "video_id": "G2_V000105",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          },
-          "G2_V000129": {
-            "video_id": "G2_V000129",
-            "status": "frontend_failed",
-            "attempts": 4,
-            "transient_remaining": true
-          }
-        },
-        "status": "finished",
-        "active_videos": [],
-        "updated_unix": 1789981487.666485,
-        "question_count": 27,
-        "n_scored": 0
-      },
-      "manifest_sha256": "7f7095fe6840f62038b8b37b68b33013ad91909edbc90300df31c663560252b4"
-    },
-    "aicodemirror_stream_v129_20260921": {
-      "frontend": {
-        "videos": {},
-        "status": "running",
-        "active_videos": [
-          "G2_V000129"
-        ],
-        "queued_videos": [],
-        "question_count": 4,
-        "updated_unix": 1789982853.0258842
-      },
-      "frontend_process": {
-        "pid": 3526447,
-        "workers": 1,
-        "started_unix": 1789982853.0255287
-      },
-      "windows": {
-        "G2_V000129": {
-          "completed": 30,
-          "total": 64,
-          "complete": false,
-          "recent_calls": {
-            "calls.jsonl": [
-              {
-                "purpose": "perception:G2_V000129:W00030",
-                "attempt": 1,
-                "response_model": "claude-opus-5",
-                "status": "ok",
-                "elapsed_seconds": 176.84433324448764
-              }
-            ],
-            "audio/calls.jsonl": [
-              {
-                "purpose": "audio_observer:W00031",
-                "attempt": 1,
-                "response_model": "gemini-2.5-pro",
-                "status": "ok",
-                "elapsed_seconds": 17.07514718361199
-              }
-            ]
-          }
-        }
-      },
-      "backend": {
-        "status": "not_started",
-        "videos": {}
-      },
-      "manifest_sha256": "973d77341aacc9e3e75f87c94e4233ab7ac8e7765c5686d134940a18f0d7754e"
-    }
-  },
-  "stream_backend_pid": 352422,
-  "stream_relay_pid": 47745,
-  "stream_expected_packages": 8,
-  "source_score_audit_snapshot_sha256": "ddba4ca1d6bca57850d4db7d82131dbdf3de99d2c8e543aaf0c9fd6b8bc516c5",
   "stream_configuration": {
     "protocol": "aicodemirror_stream_remaining_20260921",
     "method_hash": "f18c436a4d2272f32a938df8f13882b1062e121f6d1b6d6efb067a97aadf8797",
@@ -1067,9 +172,6 @@
       "G2_V000116": "blackai_gemini36_matrix_gpt6_remaining_20260921"
     }
   },
-  "v129_backend_pid": 357779,
-  "v129_relay_pid": 55728,
-  "v129_expected_packages": 1,
   "v129_configuration": {
     "protocol": "aicodemirror_stream_v129_20260921",
     "method_hash": "f18c436a4d2272f32a938df8f13882b1062e121f6d1b6d6efb067a97aadf8797",
@@ -1126,5 +228,1791 @@
       "G2_V000129": "aicodemirror_recharge_parallel_20260921"
     }
   },
-  "correction": "V129 original nonstream run actually finished at 2026-09-21 17:04 CST; prior prose describing it as still running was stale. Both original frontend/backend and five-package relay finished. Now its four questions have an independent SSE continuation, leaving the existing 45-question run frozen."
+  "correction": "V129 original nonstream run actually finished at 2026-09-21 17:04 CST; prior prose describing it as still running was stale. Both original frontend/backend and five-package relay finished. Now its four questions have an independent SSE continuation, leaving the existing 45-question run frozen.",
+  "as_of": "2026-09-21T10:14:00+00:00",
+  "report_as_of": "2026-09-21T10:13:59+00:00",
+  "final_status": "finished_with_unscored_questions",
+  "final_audit_path": "final_stream_audit.json",
+  "all_declared_frontends_backends_and_transfers_finished": true,
+  "benchmark_fully_scored": false,
+  "scored": 506,
+  "total": 558,
+  "new_stream_scores": 0,
+  "new_valid_windows": 60,
+  "failure_question_counts": {
+    "old_matrix_policy": 3,
+    "schema_or_stream_incomplete": 16,
+    "local_media_timeout": 6,
+    "provider_http": 27
+  },
+  "runs": {
+    "aicodemirror_stream_remaining_20260921": {
+      "backend": {
+        "videos": {
+          "G2_V000106": {
+            "video_id": "G2_V000106",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": false
+          },
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": false
+          },
+          "G2_V000113": {
+            "video_id": "G2_V000113",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": true
+          },
+          "G2_V000115": {
+            "video_id": "G2_V000115",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": true
+          },
+          "G2_V000112": {
+            "video_id": "G2_V000112",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": true
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": true
+          },
+          "G2_V000116": {
+            "video_id": "G2_V000116",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": true
+          },
+          "G2_V000105": {
+            "video_id": "G2_V000105",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": false
+          }
+        },
+        "status": "finished",
+        "active_videos": [],
+        "updated_unix": 1789985469.5444374,
+        "question_count": 45,
+        "n_scored": 0
+      },
+      "backend_pid_exited": 352422,
+      "imported_packages": 8,
+      "producer_done_imported": true,
+      "manifest_sha256": "959fff653f0b25828f19d963d9f962870e7d2044603c0d090941f349a1031a51",
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e"
+    },
+    "aicodemirror_stream_v129_20260921": {
+      "backend": {
+        "videos": {
+          "G2_V000129": {
+            "video_id": "G2_V000129",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "outer_recovery_allowed": false,
+            "transient_remaining": false
+          }
+        },
+        "status": "finished",
+        "active_videos": [],
+        "updated_unix": 1789983684.0219877,
+        "question_count": 4,
+        "n_scored": 0
+      },
+      "backend_pid_exited": 357779,
+      "imported_packages": 1,
+      "producer_done_imported": true,
+      "manifest_sha256": "973d77341aacc9e3e75f87c94e4233ab7ac8e7765c5686d134940a18f0d7754e",
+      "experiment_fingerprint": "267bf41ffc4225d5c0120f5695dd58a4d965a168feb0b495524dc8557aa12305"
+    }
+  },
+  "videos": {
+    "G2_V000104": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 59,
+      "total_windows": 63,
+      "inherited_windows": 57,
+      "new_valid_windows": 2,
+      "complete": false,
+      "category": "schema_or_stream_incomplete",
+      "stage": "vision",
+      "http_status": null,
+      "detail": "W00060: missing message_stop; event outside core interval; JSON parse failure",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000104:W00060",
+            "attempt": 1,
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 91.08705710433424,
+            "validation_error": "stream ended without message_stop"
+          },
+          {
+            "purpose": "perception:G2_V000104:W00060",
+            "attempt": 2,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 108.25842605531216,
+            "validation_error": "event must overlap core, not only padding"
+          },
+          {
+            "purpose": "perception:G2_V000104:W00060",
+            "attempt": 3,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "JSONDecodeError",
+            "elapsed_seconds": 78.35843566432595,
+            "validation_error": "Expecting value: line 1 column 1 (char 0)"
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00059",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 26.918829241767526
+          },
+          {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 13.947536956518888
+          }
+        ]
+      }
+    },
+    "G2_V000105": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 21,
+      "total_windows": 65,
+      "inherited_windows": 10,
+      "new_valid_windows": 11,
+      "complete": false,
+      "category": "local_media_timeout",
+      "stage": "media",
+      "http_status": null,
+      "detail": "W00022: RuntimeError video media extraction timed out; no model call for that window",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000105:W00020",
+            "attempt": 2,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "JSONDecodeError",
+            "elapsed_seconds": 81.51794403605163,
+            "validation_error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "purpose": "perception:G2_V000105:W00020",
+            "attempt": 3,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 48.02953096292913
+          },
+          {
+            "purpose": "perception:G2_V000105:W00021",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 87.45990664698184
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00019",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 40.64520055986941
+          },
+          {
+            "purpose": "audio_observer:W00020",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 47.666730074211955
+          },
+          {
+            "purpose": "audio_observer:W00021",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 21.425747636705637
+          }
+        ]
+      }
+    },
+    "G2_V000106": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 36,
+      "total_windows": 64,
+      "inherited_windows": 36,
+      "new_valid_windows": 0,
+      "complete": false,
+      "category": "schema_or_stream_incomplete",
+      "stage": "vision",
+      "http_status": null,
+      "detail": "W00037: undeclared observation subject; JSON parse failure; missing message_stop",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000106:W00037",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 57.26983284391463,
+            "validation_error": "observation subject must reference a declared entity"
+          },
+          {
+            "purpose": "perception:G2_V000106:W00037",
+            "attempt": 2,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "JSONDecodeError",
+            "elapsed_seconds": 45.64323407970369,
+            "validation_error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "purpose": "perception:G2_V000106:W00037",
+            "attempt": 3,
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 75.32188418135047,
+            "validation_error": "stream ended without message_stop"
+          }
+        ]
+      }
+    },
+    "G2_V000112": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 20,
+      "total_windows": 65,
+      "inherited_windows": 13,
+      "new_valid_windows": 7,
+      "complete": false,
+      "category": "provider_http",
+      "stage": "vision",
+      "http_status": 520,
+      "detail": "W00021: HTTP520",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000112:W00019",
+            "attempt": 3,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 30.265463534742594
+          },
+          {
+            "purpose": "perception:G2_V000112:W00020",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 202.58279281295836
+          },
+          {
+            "purpose": "perception:G2_V000112:W00021",
+            "attempt": 1,
+            "status": "error",
+            "error_type": "ServiceError",
+            "elapsed_seconds": 34.91357502900064,
+            "http_status": 520,
+            "service_error_code": null
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00019",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 17.889338159933686
+          },
+          {
+            "purpose": "audio_observer:W00020",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 18.16548411361873
+          },
+          {
+            "purpose": "audio_observer:W00021",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 13.852474972605705
+          }
+        ]
+      }
+    },
+    "G2_V000113": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 54,
+      "total_windows": 65,
+      "inherited_windows": 45,
+      "new_valid_windows": 9,
+      "complete": false,
+      "category": "provider_http",
+      "stage": "vision",
+      "http_status": 520,
+      "detail": "W00055: core-interval validation failure, then HTTP520",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000113:W00054",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 75.16882256790996
+          },
+          {
+            "purpose": "perception:G2_V000113:W00055",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 43.470428166911006,
+            "validation_error": "event must overlap core, not only padding"
+          },
+          {
+            "purpose": "perception:G2_V000113:W00055",
+            "attempt": 2,
+            "status": "error",
+            "error_type": "ServiceError",
+            "elapsed_seconds": 40.4107369761914,
+            "http_status": 520,
+            "service_error_code": null
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00053",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 14.907721906900406
+          },
+          {
+            "purpose": "audio_observer:W00054",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 12.691679138690233
+          },
+          {
+            "purpose": "audio_observer:W00055",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 12.237412007525563
+          }
+        ]
+      }
+    },
+    "G2_V000115": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 46,
+      "total_windows": 65,
+      "inherited_windows": 37,
+      "new_valid_windows": 9,
+      "complete": false,
+      "category": "provider_http",
+      "stage": "audio",
+      "http_status": 520,
+      "detail": "W00047: empty voice validation failure, then HTTP520",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000115:W00044",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 74.45069408044219
+          },
+          {
+            "purpose": "perception:G2_V000115:W00045",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 105.41706754639745
+          },
+          {
+            "purpose": "perception:G2_V000115:W00046",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 99.75538381934166
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00046",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 13.568024219945073
+          },
+          {
+            "purpose": "audio_observer:W00047",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 27.779340606182814,
+            "validation_error": "voice must be nonempty text"
+          },
+          {
+            "purpose": "audio_observer:W00047",
+            "attempt": 2,
+            "status": "error",
+            "error_type": "ServiceError",
+            "elapsed_seconds": 40.05358660034835,
+            "http_status": 520,
+            "service_error_code": null
+          }
+        ]
+      }
+    },
+    "G2_V000116": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 47,
+      "total_windows": 64,
+      "inherited_windows": 37,
+      "new_valid_windows": 10,
+      "complete": false,
+      "category": "provider_http",
+      "stage": "vision",
+      "http_status": 520,
+      "detail": "W00048: HTTP520",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000116:W00046",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 131.13592311739922
+          },
+          {
+            "purpose": "perception:G2_V000116:W00047",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 92.74511493183672
+          },
+          {
+            "purpose": "perception:G2_V000116:W00048",
+            "attempt": 1,
+            "status": "error",
+            "error_type": "ServiceError",
+            "elapsed_seconds": 45.09252108447254,
+            "http_status": 520,
+            "service_error_code": null
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00046",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 17.229941487312317
+          },
+          {
+            "purpose": "audio_observer:W00047",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 15.720971006900072
+          },
+          {
+            "purpose": "audio_observer:W00048",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 15.76468227058649
+          }
+        ]
+      }
+    },
+    "G2_V000117": {
+      "run": "aicodemirror_stream_remaining_20260921",
+      "completed_windows": 63,
+      "total_windows": 64,
+      "inherited_windows": 54,
+      "new_valid_windows": 9,
+      "complete": false,
+      "category": "provider_http",
+      "stage": "audio",
+      "http_status": 522,
+      "detail": "W00064: HTTP522",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000117:W00061",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 92.40711294300854
+          },
+          {
+            "purpose": "perception:G2_V000117:W00062",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 65.59724445641041
+          },
+          {
+            "purpose": "perception:G2_V000117:W00063",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "ok",
+            "elapsed_seconds": 40.11324863508344
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00062",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 28.115323312580585
+          },
+          {
+            "purpose": "audio_observer:W00063",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 13.575900297611952
+          },
+          {
+            "purpose": "audio_observer:W00064",
+            "attempt": 1,
+            "status": "error",
+            "error_type": "ServiceError",
+            "elapsed_seconds": 19.388591423630714,
+            "http_status": 522,
+            "service_error_code": null
+          }
+        ]
+      }
+    },
+    "G2_V000129": {
+      "run": "aicodemirror_stream_v129_20260921",
+      "completed_windows": 32,
+      "total_windows": 64,
+      "inherited_windows": 29,
+      "new_valid_windows": 3,
+      "complete": false,
+      "category": "schema_or_stream_incomplete",
+      "stage": "vision",
+      "http_status": null,
+      "detail": "W00033: core-interval validation failure; JSON parse failure; missing message_stop",
+      "last_calls": {
+        "calls.jsonl": [
+          {
+            "purpose": "perception:G2_V000129:W00033",
+            "attempt": 1,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 147.56443953327835,
+            "validation_error": "event must overlap core, not only padding"
+          },
+          {
+            "purpose": "perception:G2_V000129:W00033",
+            "attempt": 2,
+            "response_model": "claude-opus-5",
+            "status": "error",
+            "error_type": "JSONDecodeError",
+            "elapsed_seconds": 41.819486159831285,
+            "validation_error": "Expecting value: line 1 column 1 (char 0)"
+          },
+          {
+            "purpose": "perception:G2_V000129:W00033",
+            "attempt": 3,
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 75.56493159197271,
+            "validation_error": "stream ended without message_stop"
+          }
+        ],
+        "audio/calls.jsonl": [
+          {
+            "purpose": "audio_observer:W00031",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 17.07514718361199
+          },
+          {
+            "purpose": "audio_observer:W00032",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 14.81011326611042
+          },
+          {
+            "purpose": "audio_observer:W00033",
+            "attempt": 1,
+            "response_model": "gemini-2.5-pro",
+            "status": "ok",
+            "elapsed_seconds": 16.036688780412078
+          }
+        ]
+      }
+    }
+  },
+  "historical_snapshot_before_completion": {
+    "as_of": "2026-09-21T09:33:01+00:00",
+    "report_as_of": "2026-09-21T09:29:53+00:00",
+    "code_revision": "78005f3",
+    "test_results": {
+      "g450": 29,
+      "AIStudio": 29
+    },
+    "first_506_scores_unchanged": true,
+    "probe": {
+      "result.json": {
+        "video_id": "G2_V000104",
+        "window_id": "W00058",
+        "attempt_limit": 1,
+        "scope": "Transport-only fixed failed visual window, no benchmark scores",
+        "time_unix": 1789981618.14961,
+        "request_hash": "c63ffa057013236f066f83378ec38615308e3edf34554490463bc2f5e73befe1",
+        "status": "ok",
+        "finish_reason": "end_turn",
+        "usage": {
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 0,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "inference_geo": "not_available",
+          "input_tokens": 6889,
+          "iterations": [
+            {
+              "cache_creation": {
+                "ephemeral_1h_input_tokens": 0,
+                "ephemeral_5m_input_tokens": 0
+              },
+              "cache_creation_input_tokens": 0,
+              "cache_read_input_tokens": 0,
+              "input_tokens": 6889,
+              "output_tokens": 2548,
+              "type": "message"
+            }
+          ],
+          "output_tokens": 2548,
+          "output_tokens_details": {
+            "thinking_tokens": 0
+          },
+          "service_tier": "standard"
+        },
+        "response_model": "claude-opus-5",
+        "elapsed_seconds": 55.464
+      },
+      "transport.json": {
+        "http_status": 200,
+        "message_stop_seen": true,
+        "headers_seconds": 4.086,
+        "content_type": "text/event-stream",
+        "event_count": 711,
+        "first_text_seconds": 16.765,
+        "elapsed_seconds": 50.784
+      },
+      "request_started.json": {
+        "request_hash": "c63ffa057013236f066f83378ec38615308e3edf34554490463bc2f5e73befe1",
+        "nonstream_payload_hash": "0b3ffb5671c1fba9636394b2746a6902c3e162e29bc0d92e8be7b68239cca382",
+        "time_unix": 1789981622.819812,
+        "changed_payload_fields": [
+          "stream"
+        ],
+        "attempt_limit": 1
+      },
+      "audit.json": {
+        "parent_files_unchanged": true,
+        "benchmark_mutated": false
+      }
+    },
+    "runs": {
+      "aicodemirror_stream_remaining_20260921": {
+        "frontend": {
+          "videos": {
+            "G2_V000106": {
+              "video_id": "G2_V000106",
+              "status": "frontend_failed",
+              "attempts": 1,
+              "outer_recovery_allowed": false,
+              "transient_remaining": false
+            },
+            "G2_V000104": {
+              "video_id": "G2_V000104",
+              "status": "frontend_failed",
+              "attempts": 1,
+              "outer_recovery_allowed": false,
+              "transient_remaining": false
+            }
+          },
+          "status": "running",
+          "active_videos": [
+            "G2_V000105",
+            "G2_V000112",
+            "G2_V000113",
+            "G2_V000115",
+            "G2_V000116",
+            "G2_V000117"
+          ],
+          "queued_videos": [],
+          "question_count": 45,
+          "updated_unix": 1789983176.031826
+        },
+        "frontend_process": {
+          "pid": 3452601,
+          "workers": 7,
+          "started_unix": 1789982199.89837
+        },
+        "windows": {
+          "G2_V000104": {
+            "completed": 59,
+            "total": 63,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000104:W00060",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 91.08705710433424,
+                  "validation_error": "stream ended without message_stop"
+                },
+                {
+                  "purpose": "perception:G2_V000104:W00060",
+                  "attempt": 2,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 108.25842605531216,
+                  "validation_error": "event must overlap core, not only padding"
+                },
+                {
+                  "purpose": "perception:G2_V000104:W00060",
+                  "attempt": 3,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "JSONDecodeError",
+                  "elapsed_seconds": 78.35843566432595,
+                  "validation_error": "Expecting value: line 1 column 1 (char 0)"
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00059",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 26.918829241767526
+                },
+                {
+                  "purpose": "audio_observer:W00060",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 13.947536956518888
+                }
+              ]
+            }
+          },
+          "G2_V000105": {
+            "completed": 14,
+            "total": 65,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000105:W00012",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 114.90134994313121
+                },
+                {
+                  "purpose": "perception:G2_V000105:W00013",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 169.59297776967287
+                },
+                {
+                  "purpose": "perception:G2_V000105:W00014",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 128.4398813918233
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00013",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 13.46671237424016
+                },
+                {
+                  "purpose": "audio_observer:W00014",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 16.480702504515648
+                },
+                {
+                  "purpose": "audio_observer:W00015",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 19.702597504481673
+                }
+              ]
+            }
+          },
+          "G2_V000106": {
+            "completed": 36,
+            "total": 64,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000106:W00037",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 57.26983284391463,
+                  "validation_error": "observation subject must reference a declared entity"
+                },
+                {
+                  "purpose": "perception:G2_V000106:W00037",
+                  "attempt": 2,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "JSONDecodeError",
+                  "elapsed_seconds": 45.64323407970369,
+                  "validation_error": "Expecting value: line 1 column 1 (char 0)"
+                },
+                {
+                  "purpose": "perception:G2_V000106:W00037",
+                  "attempt": 3,
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 75.32188418135047,
+                  "validation_error": "stream ended without message_stop"
+                }
+              ]
+            }
+          },
+          "G2_V000112": {
+            "completed": 18,
+            "total": 65,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000112:W00017",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 88.45660211145878
+                },
+                {
+                  "purpose": "perception:G2_V000112:W00018",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 108.27900154702365
+                },
+                {
+                  "purpose": "perception:G2_V000112:W00019",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 104.26303429156542,
+                  "validation_error": "event must overlap core, not only padding"
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00017",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 15.227087946608663
+                },
+                {
+                  "purpose": "audio_observer:W00018",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 11.984404016286135
+                },
+                {
+                  "purpose": "audio_observer:W00019",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 17.889338159933686
+                }
+              ]
+            }
+          },
+          "G2_V000113": {
+            "completed": 52,
+            "total": 65,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000113:W00052",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 90.69948077574372,
+                  "validation_error": "event must overlap core, not only padding"
+                },
+                {
+                  "purpose": "perception:G2_V000113:W00052",
+                  "attempt": 2,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "JSONDecodeError",
+                  "elapsed_seconds": 58.87232103198767,
+                  "validation_error": "Expecting value: line 1 column 1 (char 0)"
+                },
+                {
+                  "purpose": "perception:G2_V000113:W00052",
+                  "attempt": 3,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 199.33967405371368
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00052",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 11.535600764676929,
+                  "validation_error": "voice must be nonempty text"
+                },
+                {
+                  "purpose": "audio_observer:W00052",
+                  "attempt": 2,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 6.515509283170104
+                },
+                {
+                  "purpose": "audio_observer:W00053",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 14.907721906900406
+                }
+              ]
+            }
+          },
+          "G2_V000115": {
+            "completed": 44,
+            "total": 65,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000115:W00042",
+                  "attempt": 2,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 42.65756547637284
+                },
+                {
+                  "purpose": "perception:G2_V000115:W00043",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 86.69907079264522
+                },
+                {
+                  "purpose": "perception:G2_V000115:W00044",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 74.45069408044219
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00042",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 13.1777323205024
+                },
+                {
+                  "purpose": "audio_observer:W00043",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 15.670560296624899
+                },
+                {
+                  "purpose": "audio_observer:W00044",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 18.180034251883626
+                }
+              ]
+            }
+          },
+          "G2_V000116": {
+            "completed": 41,
+            "total": 64,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000116:W00040",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "JSONDecodeError",
+                  "elapsed_seconds": 173.5064469370991,
+                  "validation_error": "Expecting value: line 1 column 1 (char 0)"
+                },
+                {
+                  "purpose": "perception:G2_V000116:W00040",
+                  "attempt": 2,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 58.924265176057816
+                },
+                {
+                  "purpose": "perception:G2_V000116:W00041",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 226.65391008928418
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00039",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 18.610150430351496
+                },
+                {
+                  "purpose": "audio_observer:W00040",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 15.688659574836493
+                },
+                {
+                  "purpose": "audio_observer:W00041",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 21.21264463290572
+                }
+              ]
+            }
+          },
+          "G2_V000117": {
+            "completed": 59,
+            "total": 64,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000117:W00059",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "JSONDecodeError",
+                  "elapsed_seconds": 108.4100458920002,
+                  "validation_error": "Expecting ',' delimiter: line 100 column 32 (char 3930)"
+                },
+                {
+                  "purpose": "perception:G2_V000117:W00059",
+                  "attempt": 2,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 97.56308962404728
+                },
+                {
+                  "purpose": "perception:G2_V000117:W00060",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "error",
+                  "error_type": "ValueError",
+                  "elapsed_seconds": 105.09203055687249,
+                  "validation_error": "event must overlap core, not only padding"
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00058",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 13.328747719526291
+                },
+                {
+                  "purpose": "audio_observer:W00059",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 16.853901593014598
+                },
+                {
+                  "purpose": "audio_observer:W00060",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 16.81036821566522
+                }
+              ]
+            }
+          }
+        },
+        "backend": {
+          "videos": {
+            "G2_V000106": {
+              "video_id": "G2_V000106",
+              "status": "frontend_failed",
+              "attempts": 1,
+              "outer_recovery_allowed": false,
+              "transient_remaining": false
+            },
+            "G2_V000104": {
+              "video_id": "G2_V000104",
+              "status": "frontend_failed",
+              "attempts": 1,
+              "outer_recovery_allowed": false,
+              "transient_remaining": false
+            }
+          },
+          "status": "waiting_memory",
+          "active_videos": [],
+          "updated_unix": 1789982986.5665555,
+          "question_count": 45,
+          "n_scored": 0
+        },
+        "manifest_sha256": "959fff653f0b25828f19d963d9f962870e7d2044603c0d090941f349a1031a51"
+      },
+      "aicodemirror_recharge_parallel_20260921": {
+        "frontend": {
+          "videos": {
+            "G2_V000112": {
+              "video_id": "G2_V000112",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000117": {
+              "video_id": "G2_V000117",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000104": {
+              "video_id": "G2_V000104",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000105": {
+              "video_id": "G2_V000105",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000129": {
+              "video_id": "G2_V000129",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            }
+          },
+          "status": "finished",
+          "active_videos": [],
+          "queued_videos": [],
+          "updated_unix": 1789981467.8340874,
+          "question_count": 27
+        },
+        "frontend_process": {
+          "pid": 3153264,
+          "workers": 8,
+          "started_unix": 1789978131.6221821
+        },
+        "windows": {
+          "G2_V000104": {
+            "completed": 57,
+            "total": 63,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000104:W00057",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 63.54917097277939
+                },
+                {
+                  "purpose": "perception:G2_V000104:W00058",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.10761034861207,
+                  "http_status": 524,
+                  "service_error_code": null
+                },
+                {
+                  "purpose": "perception:G2_V000104:W00058",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.08750139176846,
+                  "http_status": 524,
+                  "service_error_code": null
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00056",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 23.386255148798227
+                },
+                {
+                  "purpose": "audio_observer:W00057",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 39.77178366854787
+                },
+                {
+                  "purpose": "audio_observer:W00058",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 28.16152374818921
+                }
+              ]
+            }
+          },
+          "G2_V000105": {
+            "completed": 10,
+            "total": 65,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000105:W00009",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 50.90580778196454
+                },
+                {
+                  "purpose": "perception:G2_V000105:W00010",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 120.46844358742237
+                },
+                {
+                  "purpose": "perception:G2_V000105:W00011",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.04744637571275,
+                  "http_status": 524,
+                  "service_error_code": null
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00009",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 27.761040216311812
+                },
+                {
+                  "purpose": "audio_observer:W00010",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 21.915834026411176
+                },
+                {
+                  "purpose": "audio_observer:W00011",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 18.776807703077793
+                }
+              ]
+            }
+          },
+          "G2_V000112": {
+            "completed": 13,
+            "total": 65,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000112:W00014",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.04575068689883,
+                  "http_status": 524,
+                  "service_error_code": null
+                },
+                {
+                  "purpose": "perception:G2_V000112:W00014",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.05086869932711,
+                  "http_status": 524,
+                  "service_error_code": null
+                },
+                {
+                  "purpose": "perception:G2_V000112:W00014",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.07286285236478,
+                  "http_status": 524,
+                  "service_error_code": null
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00014",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 35.838116796687245
+                }
+              ]
+            }
+          },
+          "G2_V000117": {
+            "completed": 54,
+            "total": 64,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000117:W00054",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 118.8874469678849
+                },
+                {
+                  "purpose": "perception:G2_V000117:W00055",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.0609908271581,
+                  "http_status": 524,
+                  "service_error_code": null
+                },
+                {
+                  "purpose": "perception:G2_V000117:W00055",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.06773908622563,
+                  "http_status": 524,
+                  "service_error_code": null
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00053",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 34.88294529542327
+                },
+                {
+                  "purpose": "audio_observer:W00054",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 26.365555979311466
+                },
+                {
+                  "purpose": "audio_observer:W00055",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 19.94731368497014
+                }
+              ]
+            }
+          },
+          "G2_V000129": {
+            "completed": 29,
+            "total": 64,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000129:W00028",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 63.26779764331877
+                },
+                {
+                  "purpose": "perception:G2_V000129:W00029",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 64.55933119542897
+                },
+                {
+                  "purpose": "perception:G2_V000129:W00030",
+                  "attempt": 1,
+                  "status": "error",
+                  "error_type": "ServiceError",
+                  "elapsed_seconds": 125.05368352495134,
+                  "http_status": 524,
+                  "service_error_code": null
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00028",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 41.64520172961056
+                },
+                {
+                  "purpose": "audio_observer:W00029",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 18.812611408531666
+                },
+                {
+                  "purpose": "audio_observer:W00030",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 27.326625768095255
+                }
+              ]
+            }
+          }
+        },
+        "backend": {
+          "videos": {
+            "G2_V000112": {
+              "video_id": "G2_V000112",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000117": {
+              "video_id": "G2_V000117",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000104": {
+              "video_id": "G2_V000104",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000105": {
+              "video_id": "G2_V000105",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            },
+            "G2_V000129": {
+              "video_id": "G2_V000129",
+              "status": "frontend_failed",
+              "attempts": 4,
+              "transient_remaining": true
+            }
+          },
+          "status": "finished",
+          "active_videos": [],
+          "updated_unix": 1789981487.666485,
+          "question_count": 27,
+          "n_scored": 0
+        },
+        "manifest_sha256": "7f7095fe6840f62038b8b37b68b33013ad91909edbc90300df31c663560252b4"
+      },
+      "aicodemirror_stream_v129_20260921": {
+        "frontend": {
+          "videos": {},
+          "status": "running",
+          "active_videos": [
+            "G2_V000129"
+          ],
+          "queued_videos": [],
+          "question_count": 4,
+          "updated_unix": 1789982853.0258842
+        },
+        "frontend_process": {
+          "pid": 3526447,
+          "workers": 1,
+          "started_unix": 1789982853.0255287
+        },
+        "windows": {
+          "G2_V000129": {
+            "completed": 30,
+            "total": 64,
+            "complete": false,
+            "recent_calls": {
+              "calls.jsonl": [
+                {
+                  "purpose": "perception:G2_V000129:W00030",
+                  "attempt": 1,
+                  "response_model": "claude-opus-5",
+                  "status": "ok",
+                  "elapsed_seconds": 176.84433324448764
+                }
+              ],
+              "audio/calls.jsonl": [
+                {
+                  "purpose": "audio_observer:W00031",
+                  "attempt": 1,
+                  "response_model": "gemini-2.5-pro",
+                  "status": "ok",
+                  "elapsed_seconds": 17.07514718361199
+                }
+              ]
+            }
+          }
+        },
+        "backend": {
+          "status": "not_started",
+          "videos": {}
+        },
+        "manifest_sha256": "973d77341aacc9e3e75f87c94e4233ab7ac8e7765c5686d134940a18f0d7754e"
+      }
+    },
+    "stream_backend_pid": 352422,
+    "stream_relay_pid": 47745,
+    "stream_expected_packages": 8,
+    "source_score_audit_snapshot_sha256": "ddba4ca1d6bca57850d4db7d82131dbdf3de99d2c8e543aaf0c9fd6b8bc516c5",
+    "stream_configuration": {
+      "protocol": "aicodemirror_stream_remaining_20260921",
+      "method_hash": "f18c436a4d2272f32a938df8f13882b1062e121f6d1b6d6efb067a97aadf8797",
+      "worker_hashes": {
+        "aicodemirror_recharge.py": "bc416d1e382535f77139a3cfa927e8ac5f7fe107e5fe16cc5f86bfd034c4b25e",
+        "claude_gemini_continuation.py": "107dbefd2ad905819930d76dcc9239138113a5f8bbf21ff9fa7f5c15f1eda5fc",
+        "claude_gemini_worker.py": "fdf8e760f70ad0c8c6fb071526eae7f81bd3f6aef2f0e602b8a7e6f4c6717ba2",
+        "aicodemirror_worker.py": "cdf332bb22830d25c6f5136e5f671a6ba42cef065e789a27dc9ddd4a66ac5d4c",
+        "native_worker.py": "139295e752ea00052d2d848d11eea8ae81dfa48c2a00f91976d0fec958611e56",
+        "aicodemirror_probe.py": "c4764d6a7bbf60877055772d1973f3ad508319e8c2e61677078cc79a07b8dd1e",
+        "alternative_model_probe.py": "c58d9f606099df7f060005ad9a39d361ebcf2cbebfceb8e03bd4c9339e8ea37a",
+        "aicodemirror_v106.py": "9fe75c442e419d67d174de0af9b001bb091773185ed3798b7e24d0c3ef48f3d7",
+        "mirror_stream_probe.py": "153d92a06dc021008609a342e298977c362e968ece85d0ac9c6e588c87a619fc",
+        "mirror_stream_client.py": "f0a0506f1dad3f585756aed61aa09359f34cdba09d9f5d836031e6fd88a7f931",
+        "mirror_stream_worker.py": "1b53f9fcc9716741b7136155f00ced04a2a4d2ff968ff0674374559ffa3f01b8",
+        "mirror_stream_continuation.py": "7f3ddc6d6fb6d01e6d11f12e79a6fdb10d957de0183c4ccfef0da51a1f9a4589",
+        "blackai_continuation.py": "99fe33381c5673ab30eb1fd31c342c187438638452077d7d59012a3a6f091b67"
+      },
+      "question_ids": [
+        "G2_Q000382",
+        "G2_Q000383",
+        "G2_Q000384",
+        "G2_Q000385",
+        "G2_Q000386",
+        "G2_Q000387",
+        "G2_Q000388",
+        "G2_Q000389",
+        "G2_Q000390",
+        "G2_Q000391",
+        "G2_Q000392",
+        "G2_Q000393",
+        "G2_Q000394",
+        "G2_Q000395",
+        "G2_Q000396",
+        "G2_Q000397",
+        "G2_Q000398",
+        "G2_Q000399",
+        "G2_Q000427",
+        "G2_Q000428",
+        "G2_Q000429",
+        "G2_Q000430",
+        "G2_Q000431",
+        "G2_Q000432",
+        "G2_Q000433",
+        "G2_Q000434",
+        "G2_Q000435",
+        "G2_Q000436",
+        "G2_Q000437",
+        "G2_Q000445",
+        "G2_Q000446",
+        "G2_Q000447",
+        "G2_Q000448",
+        "G2_Q000449",
+        "G2_Q000450",
+        "G2_Q000451",
+        "G2_Q000452",
+        "G2_Q000453",
+        "G2_Q000454",
+        "G2_Q000455",
+        "G2_Q000456",
+        "G2_Q000457",
+        "G2_Q000458",
+        "G2_Q000459",
+        "G2_Q000460"
+      ],
+      "visual": {
+        "model": "claude-opus-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {
+          "stream": true
+        },
+        "transport": "Anthropic SSE; final message_stop required"
+      },
+      "audio": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "max_tokens": 4096,
+        "thinkingBudget": 1024
+      },
+      "media": {
+        "window_seconds": 20,
+        "padding": 2,
+        "fps": 1,
+        "max_frames": 16,
+        "max_pixels": 150528
+      },
+      "retry": "One checkpoint attempt per video in this new protocol; no automatic outer recovery. Existing three schema attempts unchanged.",
+      "answer_judge": "Unchanged Matrix GPT-6 official pipeline",
+      "embedding": "OpenRouter Gemini Embedding 2",
+      "scope": "45 unscored questions, 8 stopped videos. SSE transport for five AICodeMirror HTTP failures; alternate provider for three BlackAI structure failures. V129 remains in the prior running experiment. Preserve all first scores and inherited windows.",
+      "parent_runs": {
+        "G2_V000104": "aicodemirror_recharge_parallel_20260921",
+        "G2_V000105": "aicodemirror_recharge_parallel_20260921",
+        "G2_V000112": "aicodemirror_recharge_parallel_20260921",
+        "G2_V000117": "aicodemirror_recharge_parallel_20260921",
+        "G2_V000106": "aicodemirror_v106_recovery_20260921",
+        "G2_V000113": "blackai_gemini36_matrix_gpt6_remaining_20260921",
+        "G2_V000115": "blackai_gemini36_matrix_gpt6_remaining_20260921",
+        "G2_V000116": "blackai_gemini36_matrix_gpt6_remaining_20260921"
+      }
+    },
+    "v129_backend_pid": 357779,
+    "v129_relay_pid": 55728,
+    "v129_expected_packages": 1,
+    "v129_configuration": {
+      "protocol": "aicodemirror_stream_v129_20260921",
+      "method_hash": "f18c436a4d2272f32a938df8f13882b1062e121f6d1b6d6efb067a97aadf8797",
+      "worker_hashes": {
+        "aicodemirror_recharge.py": "bc416d1e382535f77139a3cfa927e8ac5f7fe107e5fe16cc5f86bfd034c4b25e",
+        "claude_gemini_continuation.py": "107dbefd2ad905819930d76dcc9239138113a5f8bbf21ff9fa7f5c15f1eda5fc",
+        "claude_gemini_worker.py": "fdf8e760f70ad0c8c6fb071526eae7f81bd3f6aef2f0e602b8a7e6f4c6717ba2",
+        "aicodemirror_worker.py": "cdf332bb22830d25c6f5136e5f671a6ba42cef065e789a27dc9ddd4a66ac5d4c",
+        "native_worker.py": "139295e752ea00052d2d848d11eea8ae81dfa48c2a00f91976d0fec958611e56",
+        "aicodemirror_probe.py": "c4764d6a7bbf60877055772d1973f3ad508319e8c2e61677078cc79a07b8dd1e",
+        "alternative_model_probe.py": "c58d9f606099df7f060005ad9a39d361ebcf2cbebfceb8e03bd4c9339e8ea37a",
+        "aicodemirror_v106.py": "9fe75c442e419d67d174de0af9b001bb091773185ed3798b7e24d0c3ef48f3d7",
+        "mirror_stream_probe.py": "153d92a06dc021008609a342e298977c362e968ece85d0ac9c6e588c87a619fc",
+        "mirror_stream_client.py": "f0a0506f1dad3f585756aed61aa09359f34cdba09d9f5d836031e6fd88a7f931",
+        "mirror_stream_worker.py": "1b53f9fcc9716741b7136155f00ced04a2a4d2ff968ff0674374559ffa3f01b8",
+        "mirror_stream_continuation.py": "7f3ddc6d6fb6d01e6d11f12e79a6fdb10d957de0183c4ccfef0da51a1f9a4589",
+        "blackai_continuation.py": "99fe33381c5673ab30eb1fd31c342c187438638452077d7d59012a3a6f091b67",
+        "mirror_stream_v129.py": "5cd6579f167ce5f40fde67d4fe4ca5cd4568f82374be61bbc9897f5d2aa44fda"
+      },
+      "question_ids": [
+        "G2_Q000510",
+        "G2_Q000511",
+        "G2_Q000512",
+        "G2_Q000513"
+      ],
+      "visual": {
+        "model": "claude-opus-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {
+          "stream": true
+        },
+        "transport": "Anthropic SSE; final message_stop required"
+      },
+      "audio": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "max_tokens": 4096,
+        "thinkingBudget": 1024
+      },
+      "media": {
+        "window_seconds": 20,
+        "padding": 2,
+        "fps": 1,
+        "max_frames": 16,
+        "max_pixels": 150528
+      },
+      "retry": "One checkpoint attempt per video in this new protocol; no automatic outer recovery. Existing three schema attempts unchanged.",
+      "answer_judge": "Unchanged Matrix GPT-6 official pipeline",
+      "embedding": "OpenRouter Gemini Embedding 2",
+      "scope": "Four disjoint V129 questions after original nonstream worker finished at 29/64 with HTTP524. Preserve frozen 45-question stream run and all first scores. One checkpoint attempt only.",
+      "parent_runs": {
+        "G2_V000129": "aicodemirror_recharge_parallel_20260921"
+      }
+    },
+    "correction": "V129 original nonstream run actually finished at 2026-09-21 17:04 CST; prior prose describing it as still running was stale. Both original frontend/backend and five-package relay finished. Now its four questions have an independent SSE continuation, leaving the existing 45-question run frozen."
+  }
 }

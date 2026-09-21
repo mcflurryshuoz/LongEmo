@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-21T09:29:53+00:00",
+  "as_of": "2026-09-21T10:13:59+00:00",
   "aggregation": "First valid scores; equal question weights; missing excluded. Mixed models/providers and inherited windows, not a homogeneous complete benchmark.",
   "runs": [
     {
@@ -796,6 +796,71 @@
           "weighted_percent": null
         }
       }
+    },
+    {
+      "run": "aicodemirror_stream_v129_20260921",
+      "scores_sha256": "272d3f5e6513682ff681ee9f73686dc77938673c12692d5bcd102782a614cc45",
+      "metrics": {
+        "granularity": "episode",
+        "overall_unweighted": {
+          "n_total": 4,
+          "n_scored": 0,
+          "coverage": 0.0,
+          "statuses": {
+            "pending": 4
+          },
+          "normalized_mean": null,
+          "percent_score": null
+        },
+        "tasks": {
+          "emotion trajectory": {
+            "n_total": 1,
+            "n_scored": 0,
+            "coverage": 0.0,
+            "statuses": {
+              "pending": 1
+            },
+            "normalized_mean": null,
+            "percent_score": null
+          },
+          "emotional intensity comparison": {
+            "n_total": 3,
+            "n_scored": 0,
+            "coverage": 0.0,
+            "statuses": {
+              "pending": 3
+            },
+            "normalized_mean": null,
+            "percent_score": null
+          }
+        },
+        "emotional_reasoning": {
+          "result": {
+            "n_total": 0,
+            "n_scored": 0,
+            "coverage": null,
+            "statuses": {},
+            "normalized_mean": null,
+            "percent_score": null
+          },
+          "explanation": {
+            "n_total": 0,
+            "n_scored": 0,
+            "coverage": null,
+            "statuses": {},
+            "normalized_mean": null,
+            "percent_score": null
+          },
+          "weights": {
+            "result": 0.6,
+            "explanation": 0.4
+          },
+          "unweighted": null,
+          "unweighted_percent": null,
+          "weighted": null,
+          "weighted_percent": null
+        }
+      }
     }
   ],
   "combined": {
@@ -1418,8 +1483,7 @@
     "scored": 506,
     "blocked_question_policy": 2,
     "blocked_judge_policy": 1,
-    "frontend_failed": 12,
-    "pending_memory_or_score": 37
+    "frontend_failed": 49
   },
   "questions": [
     {
@@ -5720,8 +5784,17 @@
       "video_id": "G2_V000105",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -5729,8 +5802,17 @@
       "video_id": "G2_V000105",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -5738,8 +5820,17 @@
       "video_id": "G2_V000105",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -5747,8 +5838,17 @@
       "video_id": "G2_V000105",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -5756,8 +5856,17 @@
       "video_id": "G2_V000105",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -5765,8 +5874,17 @@
       "video_id": "G2_V000105",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -6179,8 +6297,17 @@
       "video_id": "G2_V000112",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -6188,8 +6315,17 @@
       "video_id": "G2_V000112",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -6197,8 +6333,17 @@
       "video_id": "G2_V000112",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -6206,8 +6351,17 @@
       "video_id": "G2_V000112",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -6215,8 +6369,17 @@
       "video_id": "G2_V000112",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -6224,8 +6387,17 @@
       "video_id": "G2_V000113",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6233,8 +6405,17 @@
       "video_id": "G2_V000113",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6242,8 +6423,17 @@
       "video_id": "G2_V000113",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6251,8 +6441,17 @@
       "video_id": "G2_V000113",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6260,8 +6459,17 @@
       "video_id": "G2_V000113",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6269,8 +6477,17 @@
       "video_id": "G2_V000113",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6355,8 +6572,17 @@
       "video_id": "G2_V000115",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6364,8 +6590,17 @@
       "video_id": "G2_V000115",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6373,8 +6608,17 @@
       "video_id": "G2_V000115",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6382,8 +6626,17 @@
       "video_id": "G2_V000115",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6391,8 +6644,17 @@
       "video_id": "G2_V000115",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6400,8 +6662,17 @@
       "video_id": "G2_V000116",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6409,8 +6680,17 @@
       "video_id": "G2_V000116",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6418,8 +6698,17 @@
       "video_id": "G2_V000116",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6427,8 +6716,17 @@
       "video_id": "G2_V000116",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6436,8 +6734,17 @@
       "video_id": "G2_V000116",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6445,8 +6752,17 @@
       "video_id": "G2_V000117",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6454,8 +6770,17 @@
       "video_id": "G2_V000117",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6463,8 +6788,17 @@
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6472,8 +6806,17 @@
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6481,8 +6824,17 @@
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -6490,8 +6842,17 @@
       "video_id": "G2_V000117",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_remaining_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": true
+      },
+      "experiment_fingerprint": "8184148fb4dc3dc5b44711921b580ee5d0313937f5348a8b450acdac1bdf914e",
+      "graph_complete": false,
       "previous_blackai_status": "frontend_failed"
     },
     {
@@ -7038,8 +7399,17 @@
       "video_id": "G2_V000129",
       "type": "emotional intensity comparison",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_v129_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "267bf41ffc4225d5c0120f5695dd58a4d965a168feb0b495524dc8557aa12305",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -7047,8 +7417,17 @@
       "video_id": "G2_V000129",
       "type": "emotional intensity comparison",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_v129_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "267bf41ffc4225d5c0120f5695dd58a4d965a168feb0b495524dc8557aa12305",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -7056,8 +7435,17 @@
       "video_id": "G2_V000129",
       "type": "emotional intensity comparison",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_v129_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "267bf41ffc4225d5c0120f5695dd58a4d965a168feb0b495524dc8557aa12305",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -7065,8 +7453,17 @@
       "video_id": "G2_V000129",
       "type": "emotion trajectory",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
+      "status": "frontend_failed",
       "source_run": "aicodemirror_stream_v129_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "attempts": 1,
+        "outer_recovery_allowed": false,
+        "transient_remaining": false
+      },
+      "experiment_fingerprint": "267bf41ffc4225d5c0120f5695dd58a4d965a168feb0b495524dc8557aa12305",
+      "graph_complete": false,
       "previous_blackai_status": "delegated_provider"
     },
     {
@@ -7805,17 +8202,71 @@
           "attempts": 1,
           "outer_recovery_allowed": false,
           "transient_remaining": false
+        },
+        "G2_V000113": {
+          "video_id": "G2_V000113",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": true
+        },
+        "G2_V000115": {
+          "video_id": "G2_V000115",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": true
+        },
+        "G2_V000112": {
+          "video_id": "G2_V000112",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": true
+        },
+        "G2_V000117": {
+          "video_id": "G2_V000117",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": true
+        },
+        "G2_V000116": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": true
+        },
+        "G2_V000105": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": false
         }
       },
-      "status": "waiting_memory",
+      "status": "finished",
       "active_videos": [],
-      "updated_unix": 1789982986.5665555,
+      "updated_unix": 1789985469.5444374,
       "question_count": 45,
       "n_scored": 0
     },
     "aicodemirror_stream_v129_20260921": {
-      "status": "not_started",
-      "videos": {}
+      "videos": {
+        "G2_V000129": {
+          "video_id": "G2_V000129",
+          "status": "frontend_failed",
+          "attempts": 1,
+          "outer_recovery_allowed": false,
+          "transient_remaining": false
+        }
+      },
+      "status": "finished",
+      "active_videos": [],
+      "updated_unix": 1789983684.0219877,
+      "question_count": 4,
+      "n_scored": 0
     }
   },
   "successful_answers_awaiting_first_judge": 0,
@@ -7912,5 +8363,18 @@
   "execution_split": {
     "BlackAI Gemini 3.6": 20,
     "AICodeMirror Claude Opus 5 + Gemini 2.5 Pro": 49
+  },
+  "final_audit": {
+    "as_of": "2026-09-21T10:14:00+00:00",
+    "all_declared_frontends_backends_and_transfers_finished": true,
+    "benchmark_fully_scored": false,
+    "new_stream_scores": 0,
+    "failure_question_counts": {
+      "old_matrix_policy": 3,
+      "schema_or_stream_incomplete": 16,
+      "local_media_timeout": 6,
+      "provider_http": 27
+    },
+    "new_valid_windows": 60
   }
 }
