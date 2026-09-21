@@ -17,7 +17,7 @@ from experiments.zyf.blackai31_continuation import SCORE_HASHES as OLD_HASHES, N
 from experiments.zyf.remaining47_worker import MODEL, AUDIO_MODEL, VISUAL_BASE, AUDIO_BASE
 from methods.longemo.common import code_hash, file_hash, manifest
 
-NAME = 'mirror_sonnet5_remaining_20260921'
+NAME = 'mirror_sonnet5_remaining_v2_20260921'
 PARENTS = {f'G2_V{x:06d}': OLD_NAME for x in [104,105,106,112,113,116,117,129]}
 SCORE_HASHES = {**OLD_HASHES, OLD_NAME:'7a36580b1b4729265cd6cdca5314a13e74cb8a5265daba7722d2003f5b4ea59b'}
 WORKERS = ['remaining47_continuation.py','remaining47_worker.py','blackai31_worker.py',

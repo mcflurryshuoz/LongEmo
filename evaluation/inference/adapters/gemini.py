@@ -65,8 +65,8 @@ def endpoint(client):
     base = client.base_url.rstrip("/")
     if base.endswith(":generateContent"):
         model_path = parse.urlparse(base).path.rsplit("/models/", 1)[-1]
-        endpoint_model = parse.unquote(model_path.removesuffix(":generateContent"))
-        if endpoint_model != client.model.removeprefix("models/"):
+        endpoint_model = parse.unquote(model_path[:-len(":generateContent")] if model_path.endswith(":generateContent") else model_path)
+        if endpoint_model != client.model[len("models/"):] if client.model.startswith("models/") else client.model:
             raise ValueError("Gemini endpoint model must match --model")
         return base
     if not base.endswith(("/v1beta", "/v1")):
@@ -74,7 +74,7 @@ def endpoint(client):
     return (
         base
         + "/models/"
-        + parse.quote(client.model.removeprefix("models/"), safe="")
+        + parse.quote(client.model[len("models/"):] if client.model.startswith("models/") else client.model, safe="")
         + ":generateContent"
     )
 

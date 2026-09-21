@@ -5,7 +5,7 @@ def inline_image(url, adapter):
     """Split the canonical image data URL for native multimodal APIs."""
     if isinstance(url, str):
         prefix, separator, data = url.partition(";base64,")
-        media_type = prefix.removeprefix("data:")
+        media_type = prefix[len("data:"):] if prefix.startswith("data:") else prefix
         if (
             prefix.startswith("data:")
             and separator
