@@ -1,6 +1,6 @@
 # LongEmo：情感记忆图谱与证据驱动问答计划
 
-[进度汇总](progress.md) · [方法整体流程](../../README.md#zyf-分支当前方法整体流程) · [完整实验记录](README.md)
+[进度汇总](progress.md) · [方法整体流程](../../README.md#method-分支完整事件流检索方法) · [完整实验记录](README.md)
 
 方法已实现 **情感事件记忆图谱 + 结构化语义／Embedding 双路检索 + GPT-6 回答与官方评分**。当前方法的总体、三类任务和分剧成绩统一维护在[方法评测结果](results/current_method/report.md)，覆盖率与逐题来源一并报告。提供方切换、运行批次和接口诊断归入[历史实验记录](progress_history.md)。
 
@@ -20,7 +20,7 @@
 - 3 视频总长约 49 分 12 秒，pilot 共 2 道强度、5 道轨迹、2 道推理解释题，没有推理结果子类；不能代表全量覆盖。
 - `key.md` 的既有资源已获用户授权使用。OpenRouter `openai/gpt-6-astra` 与 `google/gemini-embedding-2` 已通过真实调用；后者输出 3072 维向量。模型别名未提供不可变权重快照，保存实际返回型号和向量缓存。
 - GPT-6 不直接接收音频；独立 Gemini 3.8 Flash 音频观察器提取有时间戳的话语、语气、停顿、笑声等，再结合视频帧和字幕输入 GPT-6。观察器不接收题目；不能把其输出当作人工真值。
-- g450 使用 `/mnt/data1/zyf`，初始可用内存约 515 GiB、磁盘约 571 GiB；系统盘空间紧张。API 主流程不占 GPU。代码在 `/mnt/data1/zyf/LongEmo-zyf` 的 `zyf` 分支，数据/私密配置/实验产物独立放在 `/mnt/data1/zyf/LongEmo-runtime`。
+- g450 使用 `/mnt/data1/zyf`，初始可用内存约 515 GiB、磁盘约 571 GiB；系统盘空间紧张。API 主流程不占 GPU。稳定基线在 `/mnt/data1/zyf/LongEmo-zyf` 的 `base` 分支，完整事件流方法在 `method` 分支；数据/私密配置/实验产物独立放在 `/mnt/data1/zyf/LongEmo-runtime`。
 - `methods/longemo` 已实现事件所属情绪状态、来源与修订协议、双路召回、图扩展、时间覆盖和可选补看。首个提交 `1c87407` 已推送，后续实现与记录继续增量提交。
 - 正式 evaluator 的 rubric、judge prompt 和得分公式保持原样：总体为已评分题的归一化等权均值，60/40 只用于 emotional reasoning 结果/解释子项；必须同时看 coverage。新增了重复预测拒绝与配置记录。Agentic 的入口和累计 token 问题已修复。
 
@@ -57,7 +57,7 @@
 
 用户进一步要求跑完整 benchmark。第一轮全量沿用已验证的 graph-only 配置，保持 GPT-6、双路事件图检索和评分协议不变，覆盖全部 141 视频/558 题；9 道开发 pilot 的重叠单独披露。新增逐视频断点续跑，评分仅重试失败项，558/558 成功后才报告全量成绩。实施命令、费用测算与当前失分线索见 [full_benchmark.md](full_benchmark.md)。
 
-实验记录保存在代码仓库 `experiments/zyf/README.md` 与 runtime run manifests/ledgers，代码及时推送 `origin/zyf`。下面章节中的进一步研究候选不等于首版都已实现。
+实验记录保存在代码仓库 `experiments/zyf/README.md` 与 runtime run manifests/ledgers，稳定基线推送到 `origin/base`，完整事件流方法推送到 `origin/method`。下面章节中的进一步研究候选不等于首版都已实现。
 
 ## 2. P0：先把 benchmark 和当前失分摸清
 
@@ -306,6 +306,55 @@ flowchart TD
 4. **按题型做覆盖。** 轨迹题读取目标范围内的完整有序流；最大值／比较题枚举所有候选发生后再比较；计数题先合并同一事件跨窗口的重复观察再计数。不能用 Top-k 片段直接声称“全片最强”或“只发生了几次”。
 5. **组织证据包。** 先给轻量时间线，再给命中的完整事件和底层观察；保留 `candidate_events`、`stream_events`、`returned_events`、`omitted_event_ids`、覆盖范围和冲突。超出预算时明确报告遗漏，不静默退化为相邻窗口上下文。
 6. **独立消融验证。** 新增 `retrieval=graph_stream`，先在固定 pilot 上与当前 `graph` 基线和 `flat` 诊断比较必要证据召回、覆盖率、token 成本和分数，再决定是否在未评分题上使用。已有 517 条首分不重算、不覆盖；新配置的成绩单独记录来源。
+
+### 6.2.2 完整时间图检索的具体设计
+
+`graph_stream` 不是把所有事件一次性塞进 GPT-6，而是在完整图上做“先定位、再沿时间流取证”。它需要把事件的时间顺序、事情候选和证据关系显式化，同时保留整集范围的覆盖统计。
+
+#### 图与时间流索引
+
+基础图冻结后，为每个视频生成以下派生索引；派生索引可以重建，不能成为第二份事实来源：
+
+| 索引 | 内容 | 用途 |
+|---|---|---|
+| `event_index` | `event_id`、时间区间、人物、目标、情绪状态、观察引用、版本和来源窗口 | 整图结构化／向量召回 |
+| `temporal_edges` | `precedes`、`overlaps`、`continues` 及其证据和时间差 | 重建事件先后与持续关系 |
+| `stream_candidates` | 人物、目标、事情候选、起止时间、成员事件和置信来源 | 把 seed 组织成有序事件流 |
+| `evidence_index` | 事件到观察、字幕、音频和视觉来源的反向索引 | 读取底层证据和冲突 |
+| `coverage_index` | 时间桶、完成窗口、事件密度、缺失模态和未决状态 | 评估检索是否覆盖题目范围 |
+
+`stream_key` 由主体、情感对象和有证据的事情候选组成；相同人物不能自动合并成一条流。事情无法确定时保留多个候选流并延迟合并。时间相邻边只表示导航，只有有证据的 `causal` 或 `changes_to` 边才能进入因果解释。
+
+#### 问题到事件流的检索
+
+对每道题执行以下固定流程：
+
+```text
+question + cast
+    -> planner(mode, people, targets, scope, time_range)
+    -> BM25(all event records) + Embedding(all event evidence chunks)
+    -> RRF seed events
+    -> candidate stream selection
+    -> chronological stream expansion with pagination
+    -> evidence/coverage/conflict check
+    -> GPT-6 answer
+```
+
+1. **规划范围。** 规划器输出人物候选、目标／事情词、题型、明确时间范围和所需操作。范围不明确时不把某个 seed 的时间当成题目范围；全片题的范围默认为 `[0, duration]`。
+2. **整图召回。** BM25 和 Embedding 都在完整 `event_index` 上计算；每个事件保留最高证据块分数。两路取 seed 后用 RRF 融合，记录每个 seed 的分数、来源和被范围过滤的事件数。
+3. **候选流选择。** 从 seed 映射到 `stream_candidates`，根据人物、目标、事情候选和显式关系排序。若多个流不能消歧，保留并行流，不能用单个错误的人物 ID 硬过滤。
+4. **时间流展开。** 对每个候选流按时间分页读取前后事件，沿 `precedes`／`overlaps`／`continues` 连接和最多 1–2 跳有证据关系扩展；直到流边界、题目范围或证据预算。跨窗口重复观察只保留一个事件实例，并把所有来源窗口挂在该实例上。
+5. **按题型覆盖。** 轨迹题必须覆盖范围内的阶段和转折；比较题先枚举候选发生再比较；计数题先做事件同一性合并再计数；局部题可以停止在充分证据，但仍记录未读取的同流事件数量。
+6. **证据组织。** 先放有序轻量时间线，再放与答案相关的完整事件、状态和底层观察；冲突、修订版本和缺失模态单独列出。证据超预算时返回遗漏 ID 和原因，不能静默退回相邻窗口或只保留 Top-k。
+
+检索返回值固定为：`seed_events`、`stream_ids`、`stream_events`、`relations`、`evidence`、`coverage`、`conflicts`。其中 `coverage` 至少包含题目范围、候选事件总数、候选流数、已读取事件数、遗漏事件数、完成窗口范围和模态缺口；这些字段写入 `trace`，用于判断“图中没有证据”和“检索没有取到证据”。
+
+#### 工程交付与验证顺序
+
+1. 在 `methods/longemo/` 增加 `stream_index.py`、`stream_retrieval.py` 和 `graph_stream` CLI；先用内存 JSON 实现，再按需要落 SQLite，不引入图数据库依赖。
+2. 为事件延续、跨窗口重复、并行目标、关系冲突、时间范围和分页边界添加单元测试；用合成图验证 `stream_events` 的顺序、去重和覆盖计数。
+3. 在固定 9 题 pilot 上比较 `graph`、`graph_stream` 和 `flat`：必要证据召回、流覆盖率、遗漏原因、输入字符／token、时延和正式分数都单独记录。
+4. 只有当 `graph_stream` 在 pilot 上没有明显增加泄漏、重复计数或无依据因果，且覆盖指标改善后，才在未评分题上运行。原 517 条首分保留，新的 41 题结果按 `method_graph_stream_*` 独立来源记录。
 
 ### 6.3 回看由具体缺口触发
 
