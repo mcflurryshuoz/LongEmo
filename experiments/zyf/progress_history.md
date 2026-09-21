@@ -1,5 +1,13 @@
 # LongEmo 历史实验记录
 
+## 2026-09-21 21:12 CST 当前方法成绩审计
+
+BlackAI Gemini 3.6 的独立运行已完成前端、后端和 8 个图谱包传输。V117 完整 64/64 个窗口，新增 6 道首次有效官方评分；其余 7 个视频没有可评分的完整图谱：V112、V113 在 BlackAI 明确返回 `content_filter`，V104/V105/V116/V129 因结构校验、HTTP 520 或音频 JSON／接口错误停止，V106 的视觉窗口也未通过结构解析。没有重试已成功评分，也没有覆盖旧成绩。
+
+当前方法统一成绩更新为 **517/558（92.65%）、57.62 分**，比上一快照新增 6 题；剩余 41 题均保留逐题失败类别，缺失不计零分。原 511 条首次有效评分逐项核验不变，BlackAI 3.6 运行的 accepted scores SHA-256 为 `779f95fda0ced4ecfc68e0f77698c58bf693651f116e62d76e8e9f2cecb2e8d4`。当前方法报告、README 成绩表和进度页已同步；运行原始审计保存在 [BlackAI 3.6 运行目录](results/blackai36_after_sonnet_20260921/final_audit.json)。
+
+[统一当前方法成绩](results/current_method/report.md) · [逐题来源与覆盖率](results/current_method/report.json)。
+
 ## 2026-09-21 19:31 CST 执行审计
 
 当前方法成绩更新为 **511/558（91.58%）、57.71 分**。V115 完成 65/65 窗口并新增 5 道首次官方评分，该视频五题均分 53.33；旧 506 条评分逐项不变。当前已启动的前后端和传输均结束，9/9 包、完成标记及 1133 个文件哈希核验通过，没有成功答案漏评。剩余 47 题为结构校验 27、BlackAI HTTP 520 六题、BlackAI 音频超时六题、BlackAI 明确拒绝五题、旧 Matrix 明确拒绝三题。本次新增 59 个有效窗口，未重置任何尝试预算；记录推送后结束自动跟进。[统一方法成绩](results/current_method/report.md) · [逐题缺失原因与最终审计](results/blackai31_after_mirror_20260921/final_audit.md)。

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-21T11:29:02+00:00",
+  "as_of": "2026-09-21T13:12:39+00:00",
   "aggregation": "First valid scores, equal question weights, missing excluded. Mixed providers/models/inherited windows; not a homogeneous full benchmark.",
   "protected_first_506_unchanged": true,
   "runs": [
@@ -655,75 +655,168 @@
           "weighted_percent": 66.66666666666666
         }
       }
+    },
+    {
+      "run": "blackai36_after_sonnet_20260921",
+      "scores_sha256": "779f95fda0ced4ecfc68e0f77698c58bf693651f116e62d76e8e9f2cecb2e8d4",
+      "metrics": {
+        "granularity": "episode",
+        "overall_unweighted": {
+          "n_total": 6,
+          "n_scored": 6,
+          "coverage": 1.0,
+          "statuses": {
+            "ok": 6
+          },
+          "normalized_mean": 0.5,
+          "percent_score": 50.0
+        },
+        "tasks": {
+          "emotion trajectory": {
+            "n_total": 3,
+            "n_scored": 3,
+            "coverage": 1.0,
+            "statuses": {
+              "ok": 3
+            },
+            "normalized_mean": 0.6666666666666666,
+            "percent_score": 66.66666666666666,
+            "raw_mean": 2.6666666666666665,
+            "max_score": 4
+          },
+          "emotional intensity comparison": {
+            "n_total": 2,
+            "n_scored": 2,
+            "coverage": 1.0,
+            "statuses": {
+              "ok": 2
+            },
+            "normalized_mean": 0.5,
+            "percent_score": 50.0,
+            "raw_mean": 0.5,
+            "max_score": 1,
+            "acc": 0.5
+          },
+          "emotional reasoning": {
+            "n_total": 1,
+            "n_scored": 1,
+            "coverage": 1.0,
+            "statuses": {
+              "ok": 1
+            },
+            "normalized_mean": 0.0,
+            "percent_score": 0.0,
+            "raw_mean": 0.0,
+            "max_score": 1,
+            "acc": 0.0
+          }
+        },
+        "emotional_reasoning": {
+          "result": {
+            "n_total": 1,
+            "n_scored": 1,
+            "coverage": 1.0,
+            "statuses": {
+              "ok": 1
+            },
+            "normalized_mean": 0.0,
+            "percent_score": 0.0,
+            "raw_mean": 0.0,
+            "max_score": 1,
+            "acc": 0.0
+          },
+          "explanation": {
+            "n_total": 0,
+            "n_scored": 0,
+            "coverage": null,
+            "statuses": {},
+            "normalized_mean": null,
+            "percent_score": null
+          },
+          "weights": {
+            "result": 0.6,
+            "explanation": 0.4
+          },
+          "unweighted": 0.0,
+          "unweighted_percent": 0.0,
+          "weighted": 0.0,
+          "weighted_percent": 0.0
+        }
+      },
+      "scope_questions": 44,
+      "videos": 8,
+      "perception": "BlackAI gemini-3.6-flash visual+audio",
+      "answer_judge": "Matrix gpt-6-astra",
+      "embedding": "OpenRouter google/gemini-embedding-2"
     }
   ],
   "combined": {
     "granularity": "episode",
     "overall_unweighted": {
       "n_total": 558,
-      "n_scored": 511,
-      "coverage": 0.9157706093189965,
+      "n_scored": 517,
+      "coverage": 0.9265232974910395,
       "statuses": {
-        "ok": 511,
-        "pending": 47
+        "ok": 517,
+        "pending": 41
       },
-      "normalized_mean": 0.5771363339856488,
-      "percent_score": 57.71363339856488
+      "normalized_mean": 0.5762411347517731,
+      "percent_score": 57.62411347517731
     },
     "tasks": {
       "emotion trajectory": {
         "n_total": 235,
-        "n_scored": 218,
-        "coverage": 0.9276595744680851,
+        "n_scored": 221,
+        "coverage": 0.9404255319148936,
         "statuses": {
-          "ok": 218,
-          "pending": 17
+          "ok": 221,
+          "pending": 14
         },
-        "normalized_mean": 0.5424311926605505,
-        "percent_score": 54.243119266055054,
-        "raw_mean": 2.169724770642202,
+        "normalized_mean": 0.5441176470588235,
+        "percent_score": 54.41176470588235,
+        "raw_mean": 2.176470588235294,
         "max_score": 4
       },
       "emotional intensity comparison": {
         "n_total": 194,
-        "n_scored": 172,
-        "coverage": 0.8865979381443299,
+        "n_scored": 174,
+        "coverage": 0.8969072164948454,
         "statuses": {
-          "ok": 172,
-          "pending": 22
+          "ok": 174,
+          "pending": 20
         },
-        "normalized_mean": 0.5116279069767442,
-        "percent_score": 51.162790697674424,
-        "raw_mean": 0.5116279069767442,
+        "normalized_mean": 0.5114942528735632,
+        "percent_score": 51.14942528735632,
+        "raw_mean": 0.5114942528735632,
         "max_score": 1,
-        "acc": 0.5116279069767442
+        "acc": 0.5114942528735632
       },
       "emotional reasoning": {
         "n_total": 129,
-        "n_scored": 121,
-        "coverage": 0.937984496124031,
+        "n_scored": 122,
+        "coverage": 0.9457364341085271,
         "statuses": {
-          "ok": 121,
-          "pending": 8
+          "ok": 122,
+          "pending": 7
         },
-        "normalized_mean": 0.7327823691460056,
-        "percent_score": 73.27823691460055
+        "normalized_mean": 0.726775956284153,
+        "percent_score": 72.6775956284153
       }
     },
     "emotional_reasoning": {
       "result": {
         "n_total": 41,
-        "n_scored": 38,
-        "coverage": 0.926829268292683,
+        "n_scored": 39,
+        "coverage": 0.9512195121951219,
         "statuses": {
-          "ok": 38,
-          "pending": 3
+          "ok": 39,
+          "pending": 2
         },
-        "normalized_mean": 0.5789473684210527,
-        "percent_score": 57.89473684210527,
-        "raw_mean": 0.5789473684210527,
+        "normalized_mean": 0.5641025641025641,
+        "percent_score": 56.41025641025641,
+        "raw_mean": 0.5641025641025641,
         "max_score": 1,
-        "acc": 0.5789473684210527
+        "acc": 0.5641025641025641
       },
       "explanation": {
         "n_total": 88,
@@ -733,8 +826,8 @@
           "ok": 83,
           "pending": 5
         },
-        "normalized_mean": 0.8032128514056222,
-        "percent_score": 80.32128514056221,
+        "normalized_mean": 0.8032128514056226,
+        "percent_score": 80.32128514056225,
         "raw_mean": 2.4096385542168677,
         "max_score": 3
       },
@@ -742,10 +835,10 @@
         "result": 0.6,
         "explanation": 0.4
       },
-      "unweighted": 0.7327823691460056,
-      "unweighted_percent": 73.27823691460055,
-      "weighted": 0.6686535616148805,
-      "weighted_percent": 66.86535616148805
+      "unweighted": 0.726775956284153,
+      "unweighted_percent": 72.6775956284153,
+      "weighted": 0.6597466790237875,
+      "weighted_percent": 65.97466790237874
     }
   },
   "series": {
@@ -794,8 +887,8 @@
           "statuses": {
             "ok": 18
           },
-          "normalized_mean": 0.8333333333333333,
-          "percent_score": 83.33333333333333
+          "normalized_mean": 0.8333333333333334,
+          "percent_score": 83.33333333333334
         }
       },
       "emotional_reasoning": {
@@ -828,8 +921,8 @@
           "result": 0.6,
           "explanation": 0.4
         },
-        "unweighted": 0.8333333333333333,
-        "unweighted_percent": 83.33333333333333,
+        "unweighted": 0.8333333333333334,
+        "unweighted_percent": 83.33333333333334,
         "weighted": 0.8333333333333334,
         "weighted_percent": 83.33333333333334
       }
@@ -844,8 +937,8 @@
           "ok": 101,
           "pending": 3
         },
-        "normalized_mean": 0.5924092409240923,
-        "percent_score": 59.24092409240923
+        "normalized_mean": 0.5924092409240924,
+        "percent_score": 59.240924092409244
       },
       "tasks": {
         "emotion trajectory": {
@@ -1012,69 +1105,69 @@
       "granularity": "episode",
       "overall_unweighted": {
         "n_total": 90,
-        "n_scored": 50,
-        "coverage": 0.5555555555555556,
+        "n_scored": 56,
+        "coverage": 0.6222222222222222,
         "statuses": {
-          "ok": 50,
-          "pending": 40
+          "ok": 56,
+          "pending": 34
         },
-        "normalized_mean": 0.515,
-        "percent_score": 51.5
+        "normalized_mean": 0.5133928571428571,
+        "percent_score": 51.33928571428571
       },
       "tasks": {
         "emotion trajectory": {
           "n_total": 34,
-          "n_scored": 19,
-          "coverage": 0.5588235294117647,
+          "n_scored": 22,
+          "coverage": 0.6470588235294118,
           "statuses": {
-            "ok": 19,
-            "pending": 15
+            "ok": 22,
+            "pending": 12
           },
-          "normalized_mean": 0.5131578947368421,
-          "percent_score": 51.31578947368421,
-          "raw_mean": 2.0526315789473686,
+          "normalized_mean": 0.5340909090909091,
+          "percent_score": 53.40909090909091,
+          "raw_mean": 2.1363636363636362,
           "max_score": 4
         },
         "emotional intensity comparison": {
           "n_total": 41,
-          "n_scored": 22,
-          "coverage": 0.5365853658536586,
+          "n_scored": 24,
+          "coverage": 0.5853658536585366,
           "statuses": {
-            "ok": 22,
-            "pending": 19
+            "ok": 24,
+            "pending": 17
           },
-          "normalized_mean": 0.4090909090909091,
-          "percent_score": 40.909090909090914,
-          "raw_mean": 0.4090909090909091,
+          "normalized_mean": 0.4166666666666667,
+          "percent_score": 41.66666666666667,
+          "raw_mean": 0.4166666666666667,
           "max_score": 1,
-          "acc": 0.4090909090909091
+          "acc": 0.4166666666666667
         },
         "emotional reasoning": {
           "n_total": 15,
-          "n_scored": 9,
-          "coverage": 0.6,
+          "n_scored": 10,
+          "coverage": 0.6666666666666666,
           "statuses": {
-            "ok": 9,
-            "pending": 6
+            "ok": 10,
+            "pending": 5
           },
-          "normalized_mean": 0.7777777777777778,
-          "percent_score": 77.77777777777779
+          "normalized_mean": 0.7,
+          "percent_score": 70.0
         }
       },
       "emotional_reasoning": {
         "result": {
           "n_total": 5,
-          "n_scored": 2,
-          "coverage": 0.4,
+          "n_scored": 3,
+          "coverage": 0.6,
           "statuses": {
-            "ok": 2,
-            "pending": 3
+            "ok": 3,
+            "pending": 2
           },
-          "normalized_mean": 1.0,
-          "percent_score": 100.0,
-          "raw_mean": 1.0,
+          "normalized_mean": 0.6666666666666666,
+          "percent_score": 66.66666666666666,
+          "raw_mean": 0.6666666666666666,
           "max_score": 1,
-          "acc": 1.0
+          "acc": 0.6666666666666666
         },
         "explanation": {
           "n_total": 10,
@@ -1093,10 +1186,10 @@
           "result": 0.6,
           "explanation": 0.4
         },
-        "unweighted": 0.7777777777777778,
-        "unweighted_percent": 77.77777777777779,
-        "weighted": 0.8857142857142857,
-        "weighted_percent": 88.57142857142857
+        "unweighted": 0.7,
+        "unweighted_percent": 70.0,
+        "weighted": 0.6857142857142857,
+        "weighted_percent": 68.57142857142857
       }
     },
     "Modern Family": {
@@ -1109,8 +1202,8 @@
           "ok": 89,
           "pending": 4
         },
-        "normalized_mean": 0.5599250936329587,
-        "percent_score": 55.99250936329587
+        "normalized_mean": 0.5599250936329588,
+        "percent_score": 55.99250936329588
       },
       "tasks": {
         "emotion trajectory": {
@@ -1196,8 +1289,8 @@
         "statuses": {
           "ok": 172
         },
-        "normalized_mean": 0.6012596899224808,
-        "percent_score": 60.12596899224808
+        "normalized_mean": 0.6012596899224807,
+        "percent_score": 60.12596899224807
       },
       "tasks": {
         "emotion trajectory": {
@@ -1232,8 +1325,8 @@
           "statuses": {
             "ok": 51
           },
-          "normalized_mean": 0.6797385620915034,
-          "percent_score": 67.97385620915034
+          "normalized_mean": 0.6797385620915032,
+          "percent_score": 67.97385620915031
         }
       },
       "emotional_reasoning": {
@@ -1257,8 +1350,8 @@
           "statuses": {
             "ok": 32
           },
-          "normalized_mean": 0.8333333333333335,
-          "percent_score": 83.33333333333334,
+          "normalized_mean": 0.8333333333333333,
+          "percent_score": 83.33333333333333,
           "raw_mean": 2.5,
           "max_score": 3
         },
@@ -1266,10 +1359,10 @@
           "result": 0.6,
           "explanation": 0.4
         },
-        "unweighted": 0.6797385620915034,
-        "unweighted_percent": 67.97385620915034,
-        "weighted": 0.5859649122807018,
-        "weighted_percent": 58.59649122807018
+        "unweighted": 0.6797385620915032,
+        "unweighted_percent": 67.97385620915031,
+        "weighted": 0.5859649122807017,
+        "weighted_percent": 58.59649122807017
       }
     }
   },
@@ -6607,120 +6700,66 @@
       "video_id": "G2_V000117",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "frontend_failed",
-      "source_run": "blackai_gemini31_after_mirror_20260921",
-      "graph_outcome": {
-        "video_id": "G2_V000117",
-        "status": "frontend_failed",
-        "returncode": 1,
-        "gate_passed": false,
-        "outer_recovery_allowed": false
-      },
-      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
-      "graph_complete": false,
-      "failure_category": "schema_validation",
-      "failure_stage": "visual",
-      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "source_run": "blackai36_after_sonnet_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000456",
       "video_id": "G2_V000117",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "frontend_failed",
-      "source_run": "blackai_gemini31_after_mirror_20260921",
-      "graph_outcome": {
-        "video_id": "G2_V000117",
-        "status": "frontend_failed",
-        "returncode": 1,
-        "gate_passed": false,
-        "outer_recovery_allowed": false
-      },
-      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
-      "graph_complete": false,
-      "failure_category": "schema_validation",
-      "failure_stage": "visual",
-      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "source_run": "blackai36_after_sonnet_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000457",
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "frontend_failed",
-      "source_run": "blackai_gemini31_after_mirror_20260921",
-      "graph_outcome": {
-        "video_id": "G2_V000117",
-        "status": "frontend_failed",
-        "returncode": 1,
-        "gate_passed": false,
-        "outer_recovery_allowed": false
-      },
-      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
-      "graph_complete": false,
-      "failure_category": "schema_validation",
-      "failure_stage": "visual",
-      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "source_run": "blackai36_after_sonnet_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000458",
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "frontend_failed",
-      "source_run": "blackai_gemini31_after_mirror_20260921",
-      "graph_outcome": {
-        "video_id": "G2_V000117",
-        "status": "frontend_failed",
-        "returncode": 1,
-        "gate_passed": false,
-        "outer_recovery_allowed": false
-      },
-      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
-      "graph_complete": false,
-      "failure_category": "schema_validation",
-      "failure_stage": "visual",
-      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "source_run": "blackai36_after_sonnet_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000459",
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "frontend_failed",
-      "source_run": "blackai_gemini31_after_mirror_20260921",
-      "graph_outcome": {
-        "video_id": "G2_V000117",
-        "status": "frontend_failed",
-        "returncode": 1,
-        "gate_passed": false,
-        "outer_recovery_allowed": false
-      },
-      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
-      "graph_complete": false,
-      "failure_category": "schema_validation",
-      "failure_stage": "visual",
-      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1.0,
+      "source_run": "blackai36_after_sonnet_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000460",
       "video_id": "G2_V000117",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "frontend_failed",
-      "source_run": "blackai_gemini31_after_mirror_20260921",
-      "graph_outcome": {
-        "video_id": "G2_V000117",
-        "status": "frontend_failed",
-        "returncode": 1,
-        "gate_passed": false,
-        "outer_recovery_allowed": false
-      },
-      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
-      "graph_complete": false,
-      "failure_category": "schema_validation",
-      "failure_stage": "visual",
-      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "source_run": "blackai36_after_sonnet_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000461",
@@ -7838,46 +7877,43 @@
     }
   ],
   "question_disposition_counts": {
-    "scored": 511,
+    "scored": 517,
     "blocked_question_policy": 2,
     "blocked_judge_policy": 1,
-    "frontend_failed": 39,
+    "frontend_failed": 33,
     "blocked_input_policy": 5
   },
-  "new_run": "blackai_gemini31_after_mirror_20260921",
+  "new_run": "blackai36_after_sonnet_20260921",
   "new_run_metrics": {
     "granularity": "episode",
     "overall_unweighted": {
-      "n_total": 49,
-      "n_scored": 5,
-      "coverage": 0.10204081632653061,
+      "n_total": 6,
+      "n_scored": 6,
+      "coverage": 1.0,
       "statuses": {
-        "pending": 44,
-        "ok": 5
+        "ok": 6
       },
-      "normalized_mean": 0.5333333333333333,
-      "percent_score": 53.333333333333336
+      "normalized_mean": 0.5,
+      "percent_score": 50.0
     },
     "tasks": {
       "emotion trajectory": {
-        "n_total": 18,
-        "n_scored": 2,
-        "coverage": 0.1111111111111111,
+        "n_total": 3,
+        "n_scored": 3,
+        "coverage": 1.0,
         "statuses": {
-          "pending": 16,
-          "ok": 2
+          "ok": 3
         },
-        "normalized_mean": 0.5,
-        "percent_score": 50.0,
-        "raw_mean": 2.0,
+        "normalized_mean": 0.6666666666666666,
+        "percent_score": 66.66666666666666,
+        "raw_mean": 2.6666666666666665,
         "max_score": 4
       },
       "emotional intensity comparison": {
-        "n_total": 24,
+        "n_total": 2,
         "n_scored": 2,
-        "coverage": 0.08333333333333333,
+        "coverage": 1.0,
         "statuses": {
-          "pending": 22,
           "ok": 2
         },
         "normalized_mean": 0.5,
@@ -7887,51 +7923,49 @@
         "acc": 0.5
       },
       "emotional reasoning": {
-        "n_total": 7,
+        "n_total": 1,
         "n_scored": 1,
-        "coverage": 0.14285714285714285,
+        "coverage": 1.0,
         "statuses": {
-          "pending": 6,
           "ok": 1
         },
-        "normalized_mean": 0.6666666666666666,
-        "percent_score": 66.66666666666666,
-        "raw_mean": 2.0,
-        "max_score": 3
+        "normalized_mean": 0.0,
+        "percent_score": 0.0,
+        "raw_mean": 0.0,
+        "max_score": 1,
+        "acc": 0.0
       }
     },
     "emotional_reasoning": {
       "result": {
-        "n_total": 3,
-        "n_scored": 0,
-        "coverage": 0.0,
-        "statuses": {
-          "pending": 3
-        },
-        "normalized_mean": null,
-        "percent_score": null
-      },
-      "explanation": {
-        "n_total": 4,
+        "n_total": 1,
         "n_scored": 1,
-        "coverage": 0.25,
+        "coverage": 1.0,
         "statuses": {
-          "pending": 3,
           "ok": 1
         },
-        "normalized_mean": 0.6666666666666666,
-        "percent_score": 66.66666666666666,
-        "raw_mean": 2.0,
-        "max_score": 3
+        "normalized_mean": 0.0,
+        "percent_score": 0.0,
+        "raw_mean": 0.0,
+        "max_score": 1,
+        "acc": 0.0
+      },
+      "explanation": {
+        "n_total": 0,
+        "n_scored": 0,
+        "coverage": null,
+        "statuses": {},
+        "normalized_mean": null,
+        "percent_score": null
       },
       "weights": {
         "result": 0.6,
         "explanation": 0.4
       },
-      "unweighted": 0.6666666666666666,
-      "unweighted_percent": 66.66666666666666,
-      "weighted": 0.6666666666666666,
-      "weighted_percent": 66.66666666666666
+      "unweighted": 0.0,
+      "unweighted_percent": 0.0,
+      "weighted": 0.0,
+      "weighted_percent": 0.0
     }
   },
   "backend": {
@@ -8007,21 +8041,100 @@
     "active_videos": [],
     "updated_unix": 1789989613.205085,
     "question_count": 49,
-    "n_scored": 5
+    "n_scored": 5,
+    "latest_run": "blackai36_after_sonnet_20260921",
+    "latest_run_status": {
+      "videos": {
+        "G2_V000104": {
+          "video_id": "G2_V000104",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000112": {
+          "video_id": "G2_V000112",
+          "status": "blocked_input_policy",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false,
+          "rejection": {
+            "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai36_after_sonnet_20260921/memory/G2_V000112/calls.jsonl",
+            "purpose": "perception:G2_V000112:W00040",
+            "service_error_code": "content_filter"
+          }
+        },
+        "G2_V000129": {
+          "video_id": "G2_V000129",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000106": {
+          "video_id": "G2_V000106",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000113": {
+          "video_id": "G2_V000113",
+          "status": "blocked_input_policy",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false,
+          "rejection": {
+            "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai36_after_sonnet_20260921/memory/G2_V000113/calls.jsonl",
+            "purpose": "perception:G2_V000113:W00058",
+            "service_error_code": "content_filter"
+          }
+        },
+        "G2_V000117": {
+          "video_id": "G2_V000117",
+          "status": "complete",
+          "n_scored": 6
+        },
+        "G2_V000116": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000105": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        }
+      },
+      "status": "finished",
+      "active_videos": [],
+      "updated_unix": 1789995553.603405,
+      "question_count": 44,
+      "n_scored": 6
+    }
   },
   "successful_answers_awaiting_first_judge": 0,
   "execution_audit": {
-    "as_of": "2026-09-21T11:31:22+00:00",
+    "as_of": "2026-09-21T13:12:39+00:00",
     "all_declared_frontends_backends_transfers_finished": true,
     "benchmark_fully_scored": false,
     "pending_first_judgments": 0,
     "remaining_question_counts": {
       "old_matrix_content_filter": 3,
       "provider_timeout": 6,
-      "schema_validation": 27,
+      "schema_validation": 21,
       "provider_http": 6,
       "perception_content_filter": 5
     },
-    "path": "../blackai31_after_mirror_20260921/final_audit.json"
+    "path": "../blackai31_after_mirror_20260921/final_audit.json",
+    "latest_run": "blackai36_after_sonnet_20260921",
+    "latest_run_scores_sha256": "779f95fda0ced4ecfc68e0f77698c58bf693651f116e62d76e8e9f2cecb2e8d4",
+    "latest_run_scored": 6,
+    "latest_run_backend_status": "finished",
+    "note": "BlackAI 3.6 fallback completed V117; other target videos remained unscored with recorded provider/schema failures."
   }
 }

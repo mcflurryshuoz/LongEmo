@@ -1,0 +1,73 @@
+{
+  "videos": {
+    "G2_V000104": {
+      "video_id": "G2_V000104",
+      "status": "frontend_failed",
+      "returncode": 1,
+      "gate_passed": false,
+      "outer_recovery_allowed": false
+    },
+    "G2_V000112": {
+      "video_id": "G2_V000112",
+      "status": "blocked_input_policy",
+      "returncode": 1,
+      "gate_passed": false,
+      "outer_recovery_allowed": false,
+      "rejection": {
+        "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai36_after_sonnet_20260921/memory/G2_V000112/calls.jsonl",
+        "purpose": "perception:G2_V000112:W00040",
+        "service_error_code": "content_filter"
+      }
+    },
+    "G2_V000129": {
+      "video_id": "G2_V000129",
+      "status": "frontend_failed",
+      "returncode": 1,
+      "gate_passed": false,
+      "outer_recovery_allowed": false
+    },
+    "G2_V000106": {
+      "video_id": "G2_V000106",
+      "status": "frontend_failed",
+      "returncode": 1,
+      "gate_passed": true,
+      "outer_recovery_allowed": false
+    },
+    "G2_V000113": {
+      "video_id": "G2_V000113",
+      "status": "blocked_input_policy",
+      "returncode": 1,
+      "gate_passed": true,
+      "outer_recovery_allowed": false,
+      "rejection": {
+        "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai36_after_sonnet_20260921/memory/G2_V000113/calls.jsonl",
+        "purpose": "perception:G2_V000113:W00058",
+        "service_error_code": "content_filter"
+      }
+    },
+    "G2_V000117": {
+      "video_id": "G2_V000117",
+      "status": "complete",
+      "n_scored": 6
+    },
+    "G2_V000116": {
+      "video_id": "G2_V000116",
+      "status": "frontend_failed",
+      "returncode": 1,
+      "gate_passed": true,
+      "outer_recovery_allowed": false
+    },
+    "G2_V000105": {
+      "video_id": "G2_V000105",
+      "status": "frontend_failed",
+      "returncode": 1,
+      "gate_passed": true,
+      "outer_recovery_allowed": false
+    }
+  },
+  "status": "finished",
+  "active_videos": [],
+  "updated_unix": 1789995553.603405,
+  "question_count": 44,
+  "n_scored": 6
+}

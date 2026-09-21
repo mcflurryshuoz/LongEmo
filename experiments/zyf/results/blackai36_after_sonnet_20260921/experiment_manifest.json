@@ -1,0 +1,113 @@
+{
+  "fingerprint": "808b458947de181213d8574d01039a347e02d7e581b6045b0c5ed4dbc86e8c68",
+  "configuration": {
+    "protocol": "blackai36_after_sonnet_20260921",
+    "method_hash": "f4aa714505f8460783334931374a5de2a34265cb79245791132b759be44fb027",
+    "parent_runs": {
+      "G2_V000104": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000105": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000106": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000112": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000113": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000116": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000117": "mirror_sonnet5_remaining_v2_20260921",
+      "G2_V000129": "mirror_sonnet5_remaining_v2_20260921"
+    },
+    "worker_hashes": {
+      "blackai36_after_sonnet_continuation.py": "9c368fcb4b631f5362841a09a8b7d6f6600eef527329f996b8848c4a316bbebe",
+      "blackai36_after_sonnet_worker.py": "fccd96dd84bf34172c3beecdb8b0675f74d5a51743e8b5ce205f811db5aafb90",
+      "blackai31_worker.py": "23bf4fb7c9988a79f2cf98cc9349aaff76de1b3b4ebbd8bdf009b2762b4ab529",
+      "native_worker.py": "139295e752ea00052d2d848d11eea8ae81dfa48c2a00f91976d0fec958611e56",
+      "blackai_continuation.py": "99fe33381c5673ab30eb1fd31c342c187438638452077d7d59012a3a6f091b67"
+    },
+    "question_ids": [
+      "G2_Q000382",
+      "G2_Q000383",
+      "G2_Q000384",
+      "G2_Q000385",
+      "G2_Q000386",
+      "G2_Q000387",
+      "G2_Q000388",
+      "G2_Q000389",
+      "G2_Q000390",
+      "G2_Q000391",
+      "G2_Q000392",
+      "G2_Q000393",
+      "G2_Q000394",
+      "G2_Q000395",
+      "G2_Q000396",
+      "G2_Q000397",
+      "G2_Q000398",
+      "G2_Q000399",
+      "G2_Q000427",
+      "G2_Q000428",
+      "G2_Q000429",
+      "G2_Q000430",
+      "G2_Q000431",
+      "G2_Q000432",
+      "G2_Q000433",
+      "G2_Q000434",
+      "G2_Q000435",
+      "G2_Q000436",
+      "G2_Q000437",
+      "G2_Q000450",
+      "G2_Q000451",
+      "G2_Q000452",
+      "G2_Q000453",
+      "G2_Q000454",
+      "G2_Q000455",
+      "G2_Q000456",
+      "G2_Q000457",
+      "G2_Q000458",
+      "G2_Q000459",
+      "G2_Q000460",
+      "G2_Q000510",
+      "G2_Q000511",
+      "G2_Q000512",
+      "G2_Q000513"
+    ],
+    "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+    "protected_score_hashes": {
+      "matrix_gemini38_gpt6_full_v1": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09",
+      "blackai_gemini38_matrix_gpt6_remaining_v1": "c6981f0882008259bde2e35c67689b4e64b69d1cb157f7aa3f8575563628653c",
+      "blackai_gemini37_matrix_gpt6_compact_20260920": "020c62e05af0f74b887c2eff6cf1093f458632064ff780b5da76ffc749674488",
+      "aicodemirror_gemini37_recovery_20260921": "b8fd9c04a20cc92e794c58f6ebfc129a9ef8df93d47bf33336f2b92c25a54ad4",
+      "aicodemirror_claude5_gemini25_remaining_20260921": "1b730ca9450627a67be3d5f962dc8cfa4bcba3547f3c13cefdc13bbd919d1bb3",
+      "blackai_gemini36_matrix_gpt6_remaining_20260921": "f21d6abc25f46cd3e78bf3b31cf6660ee860ea61675ee8c56657569aaf1fb238",
+      "blackai_gemini31_after_mirror_20260921": "7a36580b1b4729265cd6cdca5314a13e74cb8a5265daba7722d2003f5b4ea59b"
+    },
+    "protected_first_scores": 511,
+    "visual": {
+      "model": "gemini-3.6-flash",
+      "base_url": "https://www.blackaicoding.com/v1beta",
+      "max_tokens": 8192,
+      "temperature": null,
+      "timeout": 240,
+      "options": {}
+    },
+    "audio": {
+      "model": "gemini-3.6-flash",
+      "base_url": "https://www.blackaicoding.com/v1beta",
+      "max_tokens": 4096,
+      "temperature": null,
+      "timeout": 180,
+      "options": {}
+    },
+    "media": {
+      "window_seconds": 20,
+      "padding": 2,
+      "fps": 1,
+      "max_frames": 16,
+      "max_pixels": 150528
+    },
+    "scheduling": {
+      "max_video_workers": 6,
+      "max_media_decoders": 2
+    },
+    "gate": "Each video: one first unfinished-window attempt per stage. Only a fully validated new window allows continuation; reuse its saved graph/audio without another request.",
+    "retry": "Gate: one attempt. Remaining windows: existing three schema attempts. No outer restart in this protocol.",
+    "answer_judge": "Matrix gpt-6-astra; official scorer unchanged",
+    "embedding": "OpenRouter google/gemini-embedding-2",
+    "scope": "44 unscored questions/8 videos after user authorized BlackAI model switch; preserve all 511 first valid scores and inherited perception sources."
+  }
+}

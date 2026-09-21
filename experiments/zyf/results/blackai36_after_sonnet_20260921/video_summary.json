@@ -1,0 +1,225 @@
+[
+  {
+    "video_id": "G2_V000104",
+    "attempts": null,
+    "completed_windows": 60,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "perception:G2_V000104:W00061",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "event must overlap core, not only padding"
+      }
+    ]
+  },
+  {
+    "video_id": "G2_V000105",
+    "attempts": null,
+    "completed_windows": 51,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "perception:G2_V000105:W00023",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "invalid relation type"
+      },
+      {
+        "purpose": "perception:G2_V000105:W00033",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "event must overlap core, not only padding"
+      },
+      {
+        "purpose": "perception:G2_V000105:W00041",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "unsupported observation modality"
+      },
+      {
+        "purpose": "perception:G2_V000105:W00042",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "continues_event must refer to an existing event"
+      },
+      {
+        "purpose": "perception:G2_V000105:W00050",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "invalid relation type"
+      },
+      {
+        "purpose": "perception:G2_V000105:W00052",
+        "status": "error",
+        "error_type": "ServiceError",
+        "http_status": 520,
+        "service_error_code": null,
+        "validation_error": null
+      }
+    ]
+  },
+  {
+    "video_id": "G2_V000106",
+    "attempts": null,
+    "completed_windows": 37,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "perception:G2_V000106:W00038",
+        "status": "error",
+        "error_type": "JSONDecodeError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "Expecting property name enclosed in double quotes: line 35 column 7 (char 1102)"
+      },
+      {
+        "purpose": "perception:G2_V000106:W00038",
+        "status": "error",
+        "error_type": "JSONDecodeError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "Expecting property name enclosed in double quotes: line 35 column 7 (char 1102)"
+      },
+      {
+        "purpose": "perception:G2_V000106:W00038",
+        "status": "error",
+        "error_type": "JSONDecodeError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "Expecting property name enclosed in double quotes: line 35 column 7 (char 1102)"
+      },
+      {
+        "purpose": "audio_observer:W00038",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "voice must be nonempty text"
+      }
+    ]
+  },
+  {
+    "video_id": "G2_V000112",
+    "attempts": null,
+    "completed_windows": 39,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "perception:G2_V000112:W00040",
+        "status": "error",
+        "error_type": "ServiceError",
+        "http_status": 200,
+        "service_error_code": "content_filter",
+        "validation_error": null
+      }
+    ]
+  },
+  {
+    "video_id": "G2_V000113",
+    "attempts": null,
+    "completed_windows": 57,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "perception:G2_V000113:W00057",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "invalid relation type"
+      },
+      {
+        "purpose": "perception:G2_V000113:W00058",
+        "status": "error",
+        "error_type": "ServiceError",
+        "http_status": 200,
+        "service_error_code": "content_filter",
+        "validation_error": null
+      },
+      {
+        "purpose": "audio_observer:W00056",
+        "status": "error",
+        "error_type": "JSONDecodeError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "Extra data: line 1 column 15 (char 14)"
+      }
+    ]
+  },
+  {
+    "video_id": "G2_V000116",
+    "attempts": null,
+    "completed_windows": 50,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "perception:G2_V000116:W00050",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "event must overlap core, not only padding"
+      },
+      {
+        "purpose": "perception:G2_V000116:W00051",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "event must overlap core, not only padding"
+      },
+      {
+        "purpose": "perception:G2_V000116:W00051",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "event must overlap core, not only padding"
+      },
+      {
+        "purpose": "perception:G2_V000116:W00051",
+        "status": "error",
+        "error_type": "ValueError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "event must overlap core, not only padding"
+      }
+    ]
+  },
+  {
+    "video_id": "G2_V000117",
+    "attempts": null,
+    "completed_windows": 64,
+    "memory_complete": true,
+    "errors": []
+  },
+  {
+    "video_id": "G2_V000129",
+    "attempts": null,
+    "completed_windows": 55,
+    "memory_complete": false,
+    "errors": [
+      {
+        "purpose": "audio_observer:W00056",
+        "status": "error",
+        "error_type": "JSONDecodeError",
+        "http_status": null,
+        "service_error_code": null,
+        "validation_error": "Expecting ',' delimiter: line 61 column 7 (char 1142)"
+      }
+    ]
+  }
+]
