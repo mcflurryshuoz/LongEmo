@@ -6,6 +6,10 @@ E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62
 
 ## BlackAI 续评：E11
 
+### Claude 视觉 + Gemini 2.5 音频补评
+
+2026-09-21 12:04 CST：独立混合感知运行已完成首批调度。V48、V137 的完整图谱成功，AIStudio GPT-6 新增 **10/79** 道评分；累计 **486/558（87.10%）**，旧 476 道首次评分不变。V104 和另外 12 个视频在最多 3 次额外断点尝试后未完成：最后失败窗口为 **9 个 HTTP 524、2 个 HTTP 520、2 个音频 schema（voice 为空）**，本批没有新的 content_filter。当前可执行队列结束；若另开低并发或降低媒体预算恢复，预计至少 2--4 小时且不保证完成。[状态报告](results/claude_gemini_remaining_20260921/status.md)。
+
 ### 替代模型的小规模实测
 
 2026-09-21：针对 6 个仍失败的视频窗口，完成 18 次有限模型对照请求。AICodeMirror Claude Opus 5 在 V105 视觉窗口通过原图谱校验，V71 两次 HTTP 524；Gemini 2.5 Pro 在 V48/V115/V129 音频窗口通过，V137 因 voice 字段为空未通过。Gemini Pro 在两个视觉窗口仍被过滤，BlackAI 的 2.5 Pro 生成端点返回 404。候选组合是 Claude 视觉 + Gemini Pro 音频，但尚未验证全部 15 个视频的完整图谱；这轮没有新增评分。[配置、逐请求结果及下一批建议](results/alternative_models_20260921/validation.md)。

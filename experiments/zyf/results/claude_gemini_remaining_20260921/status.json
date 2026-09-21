@@ -1,0 +1,179 @@
+{
+  "as_of": "2026-09-21T04:03:55.348451+00:00",
+  "run": "aicodemirror_claude5_gemini25_remaining_20260921",
+  "scope": "Hybrid perception recovery for 79 questions from 15 incomplete videos; GPT-6 answer/judge and Gemini Embedding 2 backend",
+  "backend": {
+    "videos": {
+      "G2_V000071": {
+        "video_id": "G2_V000071",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000105": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000106": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000113": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000112": {
+        "video_id": "G2_V000112",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000108": {
+        "video_id": "G2_V000108",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000110": {
+        "video_id": "G2_V000110",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000116": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000129": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000117": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000131": {
+        "video_id": "G2_V000131",
+        "status": "frontend_failed",
+        "attempts": 4,
+        "transient_remaining": true
+      },
+      "G2_V000048": {
+        "video_id": "G2_V000048",
+        "status": "complete",
+        "n_scored": 4
+      },
+      "G2_V000137": {
+        "video_id": "G2_V000137",
+        "status": "complete",
+        "n_scored": 6
+      }
+    },
+    "status": "finished",
+    "active_videos": [],
+    "updated_unix": 1789962583.122288,
+    "question_count": 79,
+    "n_scored": 10
+  },
+  "scores_added": 10,
+  "base_scored": 476,
+  "combined_scored": 486,
+  "error_groups": {
+    "(524, None, 'ServiceError')": [
+      {
+        "video_id": "G2_V000071",
+        "purpose": "perception:G2_V000071:W00005",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000104",
+        "purpose": "perception:G2_V000104:W00055",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000105",
+        "purpose": "perception:G2_V000105:W00002",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000108",
+        "purpose": "perception:G2_V000108:W00054",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000110",
+        "purpose": "perception:G2_V000110:W00051",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000116",
+        "purpose": "audio_observer:W00027",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000129",
+        "purpose": "perception:G2_V000129:W00006",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000117",
+        "purpose": "perception:G2_V000117:W00043",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000131",
+        "purpose": "perception:G2_V000131:W00049",
+        "validation_error": null
+      }
+    ],
+    "(None, None, 'ValueError')": [
+      {
+        "video_id": "G2_V000106",
+        "purpose": "audio_observer:W00027",
+        "validation_error": "voice must be nonempty text"
+      },
+      {
+        "video_id": "G2_V000112",
+        "purpose": "audio_observer:W00011",
+        "validation_error": "voice must be nonempty text"
+      }
+    ],
+    "(520, None, 'ServiceError')": [
+      {
+        "video_id": "G2_V000113",
+        "purpose": "perception:G2_V000113:W00033",
+        "validation_error": null
+      },
+      {
+        "video_id": "G2_V000115",
+        "purpose": "perception:G2_V000115:W00029",
+        "validation_error": null
+      }
+    ]
+  },
+  "estimate": "The two complete videos are scored; 13 videos remain blocked. A fresh lower-concurrency/model-budget recovery would take at least 2-4 hours for the remaining windows and has no completion guarantee. No further automatic retry is scheduled beyond the bounded attempts recorded here."
+}

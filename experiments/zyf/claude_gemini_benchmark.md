@@ -15,3 +15,10 @@
 实验配置保存方法源码哈希、感知适配器哈希、题号、媒体参数与来源文件哈希。完整图谱自动进入独立 GPT-6 评分队列；新评分与旧四批分开报告。累计成绩仍属于混合模型／提供方与部分覆盖结果，不能视作同一配置的全量分数。
 
 运行位置：g450 `/mnt/data1/zyf/LongEmo-runtime/runs/aicodemirror_claude5_gemini25_remaining_20260921`；AIStudio `/root/longemo/runtime/runs/aicodemirror_claude5_gemini25_remaining_20260921`。状态以各端 frontend_status.json、backend_status.json、逐视频 attempts.json／worker_process.json、accepted_scores.jsonl 和 scores.jsonl 为准。
+
+
+## 首批实际结果（2026-09-21）
+
+首批 3 个视频完成后，V48 和 V137 的图谱完整并在 AIStudio 完成 10 道题评分；V104 以及其余 12 个视频在最多 3 次额外断点尝试后仍失败。当前新增评分均分、分剧明细和逐题状态由 AIStudio report 保存；本轮总覆盖从 476/558 变为 **486/558**。
+
+失败原因按最后失败窗口归类：9 个 HTTP 524、2 个 HTTP 520、2 个音频观察 schema 错误（`voice` 为空）。这批请求没有新的 content_filter。由于视觉网关错误和音频结构错误仍未解决，剩余 13 个视频不能按当前配置估计为必然完成；若降低并发或媒体预算另开恢复，预计至少 2--4 小时，且需要重新验证图谱一致性。
