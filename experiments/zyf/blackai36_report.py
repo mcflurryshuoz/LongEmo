@@ -10,8 +10,9 @@ from evaluation.io_utils import load_records
 from experiments.zyf.blackai36_continuation import NAME,SCORE_HASHES,score_guard
 from experiments.zyf.blackai_continuation import read,atomic
 from experiments.zyf.finish_scoring import scoring_inventory
-from experiments.zyf.series_scores import source_series,LABELS
+from experiments.zyf.series_scores import source_series
 from methods.longemo.common import file_hash
+from experiments.zyf.method_report import render_method_report
 
 ADDITIONAL='aicodemirror_recharge_parallel_20260921'
 RECOVERY='aicodemirror_v106_recovery_20260921'
@@ -84,23 +85,7 @@ def make_report(runtime,output):
         'execution_split':{'BlackAI Gemini 3.6':len(target_ids)-len(assigned),
                            'AICodeMirror Claude Opus 5 + Gemini 2.5 Pro':len(assigned)}}
     output.mkdir(parents=True,exist_ok=True);atomic(output/'report.json',data)
-    pct=lambda x:'—' if x.get('percent_score') is None else f"{x['percent_score']:.2f} ({x['n_scored']}/{x['n_total']})"
-    combined=data['combined']['overall_unweighted'];new=data['continuation_combined']['overall_unweighted']
-    lines=['# BlackAI Gemini 3.6 补评','',f"核验时间：{data['as_of']}；后端状态：{state['status']}。",'',
-        f"新实验：{pct(new)}；累计混合来源：{pct(combined)}。原 486 道首次评分文件哈希保持不变。",'',
-        '本轮共同覆盖原先缺失的 69 题、13 视频。BlackAI Gemini 3.6 与 AICodeMirror Claude Opus 5 视觉＋Gemini 2.5 Pro 音频按视频分工，保留父图谱观察来源；两家产生的首次有效评分不重叠。Matrix GPT-6 规划/答题/官方评分、OpenRouter Gemini Embedding 2 不变。缺失题不计零分，不能作为同一配置的全量成绩。','',
-        '执行分配（题数）：`'+json.dumps(data['execution_split'],ensure_ascii=False)+'`。','',
-        '| 任务 | 分数 /100（已评分/总题数） |','|---|---:|']
-    for task,m in data['combined']['tasks'].items():lines.append(f'| {task} | {pct(m)} |')
-    lines+=['','| 剧名 | 强度比较 | 情感轨迹 | 情感推理（等题权） |','|---|---:|---:|---:|']
-    for s,m in data['series'].items():
-        cells=[pct(m['tasks'].get(task,{})) for task in ['emotional intensity comparison','emotion trajectory','emotional reasoning']]
-        lines.append('| '+('剧名未标注' if s=='unclassified' else LABELS.get(s,s))+' | '+' | '.join(cells)+' |')
-    lines+=['',f"未评分 {558-combined['n_scored']} 题；已有成功答案待首次评分 {pending} 题。",'',
-        '逐题状态：`'+json.dumps(data['question_disposition_counts'],ensure_ascii=False)+'`。',
-        '旧有 2 道回答过滤与 1 道评分过滤保留。续跑状态按最后分配的运行读取；原 27 题、V106 六题与流式 45 题是有明确父运行的接替范围，不能相加。流式实验继承五个 AICodeMirror 网关失败检查点，并为三个 BlackAI 结构失败视频切换提供方。成功的同输入流式窗口探针直接复用；V129 原运行随后也因 HTTP524 停止，其四题接入独立流式运行。逐题首分互不重叠。',
-        '', '[逐题分数、来源、哈希和状态](report.json)。']
-    (output/'report.md').write_text('\n'.join(lines)+'\n')
+    (output/'report.md').write_text(render_method_report(data))
     return {'path':str(output),'new':new,'combined':combined,'pending_judgments':pending,'backend_status':state['status']}
 
 if __name__=='__main__':

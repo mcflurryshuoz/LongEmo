@@ -1,5 +1,7 @@
 # LongEmoBench
 
+zyf 分支的方法与结果：[整体流程](README.md#zyf-分支当前方法整体流程) · [当前方法评测结果](experiments/zyf/results/current_method/report.md)。
+
 [English](README.md) · [Hugging Face 数据集](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main)
 
 LongEmoBench 在 **clip（片段）** 和 **episode（长视频）** 两个粒度上评估情绪理解能力，覆盖情绪识别、前后变化、情绪轨迹、原因解释、强度比较和跨片段推理。所有任务采用开放问答，答案可以是情绪标签、明确的短答案或自然语言解释。

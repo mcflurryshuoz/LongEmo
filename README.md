@@ -14,7 +14,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 flowchart TD
     V[视频、音轨、带时间戳字幕] --> W[20 秒窗口 + 两侧 2 秒上下文]
     W --> A[Gemini 音频观察：台词、语气、停顿等]
-    W --> P[Gemini 视觉感知：采样帧 + 字幕]
+    W --> P[视觉感知模型：采样帧 + 字幕]
     A --> P
     P --> M[校验并写入情感事件图谱]
     M --> D[完整事件证据分块、Embedding 索引]
@@ -38,7 +38,7 @@ flowchart TD
 
 ### 第一步：感知并构建情感事件记忆
 
-1. **按时间切窗。** 每个核心窗口 20 秒，两侧各补 2 秒上下文；按 1 fps 抽帧，每窗最多 24 帧、每帧最多 200704 像素，保留实际帧时间戳、字幕和源音频的对应关系。
+1. **按时间切窗。** 每个核心窗口 20 秒，两侧各补 2 秒上下文；按 1 fps 抽帧，保留实际帧时间戳、字幕和源音频的对应关系。新增窗口使用每窗最多 16 帧、每帧最多 150528 像素；已完成窗口保留各自的采样配置与来源。
 2. **融合视觉与音频线索。** 独立 Gemini 音频观察器先提取带时间戳的言语、语气、笑声、停顿等；视觉感知模型读取采样帧、字幕、音频观察、已知人物信息及最近 3 个事件，输出人物、可观察线索、事件、情感状态和事件关系。
 3. **以事件组织图谱。** 事件关联观察证据，并拥有自己的情感状态。状态区分主体、情感指向对象、情绪、可观察的强度表现、认知解释与不确定性；情感对象与诱因分别表达。关系包括时间关系、因果、状态变化和共存，均保留证据引用。
 4. **校验后增量保存。** 新事件归属核心窗口，补充时间段只作上下文；仅在明确为同一持续事件时合并。每个窗口校验时间范围、ID、引用和模态来源，完整通过后原子提交；失败不会写入半个窗口，可以从已验证检查点续跑。
@@ -51,7 +51,7 @@ flowchart TD
 | 状态 `S…` | 主体、情感对象、情绪、强度表现、解释、不确定性、证据及版本 |
 | 关系与溯源 | 事件关系及证据、媒体来源、已完成窗口和修订历史 |
 
-代码支持历史状态修订和问题内局部回看；**当前全量配置关闭修订，`--max-inspections 0`，答题期间不修改共享图谱**。本轮研究的是从固定事件记忆检索和推理的效果。
+代码支持历史状态修订和问题内局部回看；**当前评测配置关闭修订，`--max-inspections 0`，答题期间不修改共享图谱**。本轮研究的是从固定事件记忆检索和推理的效果。
 
 ### 第二步：双路检索、图扩展与回答
 
@@ -63,32 +63,36 @@ flowchart TD
 
 `--retrieval graph` 必须取得有效向量；Embedding 不可用时显式失败或由实验调度器延后答题，不会悄悄退化为纯关键词检索。`flat` 是语义检索诊断模式，`direct` 是直接视频输入基线，均与主图方法分开记录。
 
-### 当前模型分工与评测口径
+### 当前方法成绩
 
-**E11 已启动 BlackAI 续评**：针对尚未评分的 192 题、47 个视频，g450 负责 BlackAI Gemini 3.8 音视频感知，AIStudio 负责 GPT-6 问答和评分。已有 366 条成绩保留；E11 独立记录，见[续评协议与进度](experiments/zyf/results/blackai_continuation_v1/startup.md)。
+<!-- LONGEMO_METHOD_RESULTS:START -->
 
-下表对应在 AIStudio 62910175 运行的独立实验 **E10**。历史 E06／E08／E09 的服务和配置另见实验记录。
+| 指标 | 分数 /100 | 已评分 / 总题数 |
+|---|---:|---:|
+| 总体 | 57.76 | 506/558 |
+| 情感强度比较 | 51.18 | 170/194 |
+| 情感轨迹 | 54.28 | 216/235 |
+| 情感推理 | 73.33 | 120/129 |
 
-| 环节 | 当前配置 | 验证状态 |
-|---|---|---|
-| 音频观察 | Matrix Gemini 3.8 Flash；low reasoning，输出上限 4096 tokens | 真实视频音频调用成功 |
-| 视频感知／构图 | Matrix Gemini 3.8 Flash；medium reasoning，输出上限 32768 tokens | 正在逐窗构图，已保存有效检查点 |
-| 事件／问题向量 | OpenRouter `google/gemini-embedding-2`；3072 维 | 真实向量预检成功 |
-| 检索规划／答题 | Matrix GPT-6 Astra；medium reasoning，输出上限 8192 tokens | V16 两题已实际完成回答 |
-| 官方评分 | Matrix GPT-6 Astra；原有 judge 提示词、rubric 和计分公式 | 已评分 366/558，部分样本归一化均分 58.38% |
+[完整分剧成绩、覆盖率与计分口径](experiments/zyf/results/current_method/report.md)。
 
-评测目标为固定版本的 **episode 全量 141 个视频、558 道题、8342 个窗口**。评分器只读取预测与标注，不读取视频；每题按 `得分 / 该题最高分` 归一化，再等权平均。失败或缺失题不进入均分，但必须报告 `n_scored / 558`；不能用部分样本均分代表全量结果。保留首次成功评分，失败项才重试。
+<!-- LONGEMO_METHOD_RESULTS:END -->
 
-E10 已校验全部 141 个视频并完成首轮可执行任务，感知保存 6641/8342 个窗口。366/558 题取得首次官方评分；其余 192 题保留明确阻断状态（157 题受内容过滤影响，35 题受 HTTP 428 影响）。某题失败不再遗漏同视频其他成功答案的首次评分；本次补评 8 题，原有 358 条成绩与预测均保持不变。当前没有活跃评测任务，尚不能称为全量 benchmark 完成。详见[运行协议](experiments/zyf/aistudio_benchmark.md)、[首轮结果与阻断清单](experiments/zyf/results/aistudio_62910175/first_sweep_20260919/summary.md)和[按剧／逐集分数](experiments/zyf/results/aistudio_62910175/first_sweep_20260919/series_scores.md)。
+评测范围为 LongEmoBench episode 的 **141 个视频、558 道题**。每题按得分上限归一化后，对已评分题等权平均；缺失题不计零分，保留每题首次有效评分。方法成绩统一汇总，感知模型、提供方与采样预算的差异保留在逐窗口和逐题来源中；当前结果尚未覆盖全部 558 题。
 
-旧实验暂停时 E09 v2 已保存 **995/8342 个窗口、21/141 个完整视频记忆，评分覆盖 0/558**；这里的 0 表示尚未评分。现有结果尚不能证明图方法优于直接视频输入：
+### 模型分工
 
-| 已有同题比较 | 样本 | 归一化均分 | 解释范围 |
-|---|---|---|---|
-| E06 GPT-6 感知图方法 vs E08 Gemini 感知图方法 | 共同 4 题、2 个视频 | 75.00% vs 75.00% | 比较感知配置；两者都使用图检索 |
-| Direct Gemini 2.5 Flash vs GPT-6 图方法 | Friends S01E08，Q271／Q272 | 58.33% vs 58.33% | 生成模型和媒体预算不同，只有两题，不是严格的图检索消融 |
+| 环节 | 配置 |
+|---|---|
+| 音频观察 | Gemini 独立提取带时间戳的音频证据 |
+| 视觉感知／构图 | Gemini／Claude 感知模型，逐窗口记录实际模型、服务与采样预算 |
+| 事件／问题向量 | OpenRouter Gemini Embedding 2，3072 维 |
+| 检索规划／答题 | Matrix GPT-6 Astra；双路召回、RRF 融合与图扩展 |
+| 官方评分 | Matrix GPT-6 Astra；保持原 judge 提示词、rubric 与计分公式 |
 
-初步核验发现 Q42 的结尾情绪已被 E06 图谱存下，却未进入答题上下文，提示需要优先验证全时段覆盖和证据压缩；这些改进尚未实现。详细证据见[初步结果核验](experiments/zyf/results/preliminary_review_20260917/review.md)与[直接视频对照](experiments/zyf/results/legacy_direct_friends_s01e08_v1/comparison.md)。
+完整图谱被固定后再检索作答；感知不接收问题或参考答案。具体调用配置与继承窗口来源随实验保存，见[逐题成绩与来源](experiments/zyf/results/current_method/report.json)。
+
+已有 direct 视频对照仅覆盖很小的题集，且部分生成模型和媒体预算不同，尚不能证明图方法优于 direct。详细记录见[初步结果核验](experiments/zyf/results/preliminary_review_20260917/review.md)、[直接视频对照](experiments/zyf/results/legacy_direct_friends_s01e08_v1/comparison.md)和[历史实验记录](experiments/zyf/progress_history.md)。
 
 ### 代码入口与实验记录
 
@@ -109,7 +113,7 @@ python -m methods.longemo answer --help
 python -m experiments.zyf.launch_blackai --help
 ```
 
-实际 E10 参数和启动方式以[当前实验协议](experiments/zyf/aistudio_benchmark.md)为准，旧 E09 见[原生 Gemini 协议](experiments/zyf/blackai_benchmark.md)；通用 CLI 默认值及旧例不等于本轮配置。每次运行记录数据／代码／模型配置、逐窗图谱和音频观察、向量缓存、逐题检索证据与预测、官方评分及 API 尝试和用量。改变感知模型或语义配置时使用新实验目录，避免混用旧缓存。
+具体参数以各运行的冻结配置为准；[首轮运行协议](experiments/zyf/aistudio_benchmark.md)和[早期原生 Gemini 协议](experiments/zyf/blackai_benchmark.md)保留为历史记录，通用 CLI 默认值不代表所有已评分样本的配置。每次运行记录数据／代码／模型配置、逐窗图谱和音频观察、向量缓存、逐题检索证据与预测、官方评分及 API 尝试和用量。改变感知模型或语义配置时使用新实验目录，避免混用旧缓存。
 
 更多说明：[方法文档](methods/longemo/README.md) · [实验记录](experiments/zyf/README.md) · [研究计划](experiments/zyf/plan.md)。下文保留原 benchmark 的数据、预测与评测使用说明。
 

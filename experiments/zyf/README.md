@@ -1,6 +1,8 @@
 # zyf experiment log
 
-[Research plan](plan.md) · [Progress summary](progress.md) · [Method overview](../../README.md#zyf-分支当前方法整体流程)
+[Current method results](results/current_method/report.md) · [Research plan](plan.md) · [Progress summary](progress.md) · [Method overview](../../README.md#zyf-分支当前方法整体流程) · [Run history](progress_history.md)
+
+This file preserves experiment history. Use the current method results for the consolidated score, task and series breakdowns, coverage, and question-level provenance.
 
 Date: 2026-09-16. Host: `g450` (`t2vg-a100-G4-50`). Original repository base: `b29b70a361bf6d7b08d4907167720f288fdbc2fe`.
 
