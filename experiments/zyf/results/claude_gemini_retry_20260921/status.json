@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-21",
+  "baseline": {
+    "scored": 486,
+    "total": 558,
+    "mean_scored": 57.65056,
+    "new_scores_this_round": 0
+  },
+  "runs": [
+    {
+      "run": "aicodemirror_claude5_gemini25_retry_20260921",
+      "video_id": "G2_V000071",
+      "model": "claude-opus-5",
+      "audio_model": "gemini-2.5-pro",
+      "result": "failed",
+      "completed_windows": 4,
+      "total_windows": 61,
+      "failure_window": "W00005",
+      "failure_chain": [
+        524,
+        520,
+        524
+      ],
+      "scores_added": 0
+    },
+    {
+      "run": "aicodemirror_claude48_gemini25_retry_20260921",
+      "video_id": "G2_V000071",
+      "model": "claude-opus-4-8",
+      "audio_model": "gemini-2.5-pro",
+      "result": "blocked_provider",
+      "completed_windows": 49,
+      "total_windows": 61,
+      "failure_window": "W00050",
+      "failure": {
+        "http_status": 402,
+        "service_error_code": "BALANCE_INSUFFICIENT",
+        "provider": "AICodeMirror Gemini audio"
+      },
+      "scores_added": 0
+    },
+    {
+      "run": "aicodemirror_claude48_visualonly_v71_20260921",
+      "video_id": "G2_V000071",
+      "model": "claude-opus-4-8",
+      "audio": "disabled_after_quota",
+      "result": "blocked_provider",
+      "inherited_windows": 49,
+      "new_visual_windows": 0,
+      "failure_window": "W00050",
+      "failure": {
+        "http_status": 402,
+        "service_error_code": "BALANCE_INSUFFICIENT",
+        "provider": "AICodeMirror Claude visual"
+      },
+      "scores_added": 0
+    }
+  ],
+  "remaining": {
+    "questions": 72,
+    "reason": "No complete new graph was produced; both AICodeMirror routes returned explicit account balance exhaustion."
+  },
+  "eta": {
+    "after_quota_or_new_provider": "V71 remaining 12 windows about 8-15 minutes plus 10-30 minutes AIStudio scoring; remaining 12 failed videos about 3-5 hours serially, not guaranteed",
+    "current": "blocked until AICodeMirror balance replenishes or a new usable vision/audio credential is supplied"
+  },
+  "repository": {
+    "branch": "zyf",
+    "latest_commit": "f969b0b",
+    "pushed": true
+  },
+  "safety": "Failed packages and partial memories are retained for audit and are not sent to scoring; old 486 scores are unchanged."
+}
