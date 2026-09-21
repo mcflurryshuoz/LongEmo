@@ -1,11 +1,14 @@
 """Provider configuration for Claude visual graphs and Gemini 2.5 audio cues."""
 from pathlib import Path
+import os
 
 from evaluation.clients import Client, ServiceError
 from evaluation.inference.adapters import anthropic, gemini
 from experiments.zyf.aicodemirror_probe import BASE, mirror_headers
 from experiments.zyf.alternative_model_probe import CLAUDE_BASE, claude_headers
+from experiments.zyf import aicodemirror_worker as audio_worker
 from experiments.zyf.aicodemirror_worker import verified_inherited_audio
+from methods.longemo import audio as audio_module
 from experiments.zyf.blackai_continuation import read
 from experiments.zyf.native_worker import main
 from methods.longemo import runner
