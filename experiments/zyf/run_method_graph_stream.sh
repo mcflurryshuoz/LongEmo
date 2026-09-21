@@ -11,6 +11,8 @@ RUN_ROOT="${LONGEMO_RUN_ROOT:-$REPO_ROOT/runtime/runs/method_graph_stream_202609
 PYTHON_BIN="${LONGEMO_PYTHON:-python3}"
 CREDENTIAL_FILE="${LONGEMO_CREDENTIAL_FILE:-$REPO_ROOT/runtime/private/answer.json}"
 WORKERS="${LONGEMO_WORKERS:-16}"
+SCORE_WORKERS="${LONGEMO_SCORE_WORKERS:-$WORKERS}"
+SKIP_SCORE="${LONGEMO_SKIP_SCORE:-0}"
 QUESTIONS="$RUN_ROOT/questions.json"
 MEMORY_DIR="$RUN_ROOT/memory"
 OUTPUT_DIR="${LONGEMO_OUTPUT_DIR:-$RUN_ROOT/answers_full}"
@@ -46,7 +48,7 @@ nohup bash -c '
   set -euo pipefail
   exec 9>"$1/answer.lock"
   flock -n 9 || { echo "another method answer worker holds the lock" >&2; exit 0; }
-  exec "$2" -m methods.longemo answer \
+  "$2" -m methods.longemo answer \
     --data-path "$1/questions.json" \
     --output-dir "$1/answers_full" \
     --credential-file "$3" \
@@ -63,14 +65,33 @@ nohup bash -c '
     --evidence-chars 48000 \
     --top-k 12 \
     --stream-page-size 64
-' _ "$RUN_ROOT" "$PYTHON_BIN" "$CREDENTIAL_FILE" "$WORKERS" \
+  if [[ "$5" != "1" ]]; then
+    export MODEL_API_KEY="$($2 - "$3" <<'PY'
+import json,sys
+cfg=json.load(open(sys.argv[1]))
+print(cfg.get("MODEL_API_KEY", ""), end="")
+PY
+)"
+    "$2" -m evaluation.eval \
+      --data-path "$1/questions.json" \
+      --predictions "$1/answers_full/predictions.jsonl" \
+      --granularity episode \
+      --output-dir "$1/scores" \
+      --model gpt-6-astra \
+      --base-url https://matrixllm.alipay.com/v1 \
+      --max-tokens 8192 \
+      --timeout 1800 \
+      --workers "$6" \
+      --tries 3
+  fi
+' _ "$RUN_ROOT" "$PYTHON_BIN" "$CREDENTIAL_FILE" "$WORKERS" "$SKIP_SCORE" "$SCORE_WORKERS" \
   >"$LOG_FILE" 2>&1 &
 pid=$!
 
-$PYTHON_BIN - "$PROCESS_FILE" "$pid" "$WORKERS" "$RUN_ROOT" <<'PY'
+$PYTHON_BIN - "$PROCESS_FILE" "$pid" "$WORKERS" "$SCORE_WORKERS" "$RUN_ROOT" <<'PY'
 import json,sys,time
-path,pid,workers,run=sys.argv[1:]
-json.dump({"pid":int(pid),"started_unix":time.time(),"workers":int(workers),"run":run},open(path,"w"),indent=2)
+path,pid,workers,score_workers,run=sys.argv[1:]
+json.dump({"pid":int(pid),"started_unix":time.time(),"workers":int(workers),"score_workers":int(score_workers),"run":run},open(path,"w"),indent=2)
 open(path,"a").write("\n")
 PY
 echo "started method graph-stream answer worker pid=$pid workers=$WORKERS run=$RUN_ROOT"
