@@ -76,7 +76,7 @@ def setup(args):
         for vid,parent in PARENTS.items():
             source=args.runtime/'runs'/parent
             state=read(source/'frontend_status.json');assert state['status']=='finished'
-            assert state['videos'][vid]['status']=='frontend_failed' and vid not in state.get('active_videos',[])
+            assert state['videos'][vid]['status'] in {'frontend_failed','blocked_input_policy'} and vid not in state.get('active_videos',[])
             worker=read(source/'videos'/vid/'worker_process.json')
             assert not Path('/proc',str(worker['pid'])).exists(), 'source worker still exists; audit PID before clone'
         config={'protocol':NAME,'method_hash':code_hash(),'parent_runs':PARENTS,
