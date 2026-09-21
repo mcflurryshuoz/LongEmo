@@ -25,6 +25,8 @@ def visual_client(args):
 
 
 def audio_client(args):
+    if not args.with_audio:
+        return None
     assert args.audio_model == AUDIO_MODEL and args.audio_base_url == BASE
     key = read(Path(args.credential_file))['GEMINI_API_KEY']
     return Client(AUDIO_MODEL, BASE, 'gemini', key, 180, 4096, None,
