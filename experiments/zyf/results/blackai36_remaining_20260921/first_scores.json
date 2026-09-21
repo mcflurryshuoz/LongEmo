@@ -1,0 +1,137 @@
+{
+  "as_of": "2026-09-21T07:55:53+00:00",
+  "report_as_of": "2026-09-21T07:54:50+00:00",
+  "frontend": {
+    "videos": {
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "status": "blocked_input_policy",
+        "attempts": 1,
+        "transient_remaining": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+          "purpose": "perception:G2_V000104:W00055",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000071": {
+        "video_id": "G2_V000071",
+        "status": "memory_complete",
+        "attempts": 1,
+        "transient_remaining": false
+      }
+    },
+    "status": "running",
+    "active_videos": [
+      "G2_V000108",
+      "G2_V000110",
+      "G2_V000117",
+      "G2_V000131"
+    ],
+    "queued_videos": [
+      "G2_V000113",
+      "G2_V000106",
+      "G2_V000115",
+      "G2_V000116",
+      "G2_V000112",
+      "G2_V000129",
+      "G2_V000105"
+    ],
+    "question_count": 69,
+    "updated_unix": 1789977347.857336
+  },
+  "windows": {
+    "G2_V000071": {
+      "completed": 61,
+      "total": 61,
+      "complete": true
+    },
+    "G2_V000104": {
+      "completed": 54,
+      "total": 63,
+      "complete": false
+    },
+    "G2_V000105": {
+      "completed": 1,
+      "total": 65,
+      "complete": false
+    },
+    "G2_V000106": {
+      "completed": 27,
+      "total": 64,
+      "complete": false
+    },
+    "G2_V000108": {
+      "completed": 60,
+      "total": 65,
+      "complete": false
+    },
+    "G2_V000110": {
+      "completed": 56,
+      "total": 65,
+      "complete": false
+    },
+    "G2_V000112": {
+      "completed": 13,
+      "total": 65,
+      "complete": false
+    },
+    "G2_V000113": {
+      "completed": 32,
+      "total": 65,
+      "complete": false
+    },
+    "G2_V000115": {
+      "completed": 28,
+      "total": 65,
+      "complete": false
+    },
+    "G2_V000116": {
+      "completed": 27,
+      "total": 64,
+      "complete": false
+    },
+    "G2_V000117": {
+      "completed": 49,
+      "total": 64,
+      "complete": false
+    },
+    "G2_V000129": {
+      "completed": 5,
+      "total": 64,
+      "complete": false
+    },
+    "G2_V000131": {
+      "completed": 53,
+      "total": 65,
+      "complete": false
+    }
+  },
+  "backend": {
+    "videos": {
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "status": "blocked_input_policy",
+        "attempts": 1,
+        "transient_remaining": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+          "purpose": "perception:G2_V000104:W00055",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000071": {
+        "video_id": "G2_V000071",
+        "status": "complete",
+        "n_scored": 6
+      }
+    },
+    "status": "waiting_memory",
+    "active_videos": [],
+    "updated_unix": 1789977284.4276834,
+    "question_count": 69,
+    "n_scored": 6
+  },
+  "score_report_archive_sha256": "ace68ae1f61b910ebbe775ff1984fabff445efe81f97b6a5258e0f81cb4dd6eb",
+  "transfer_recovery": "Old tunnel retained its existing SSH shell but new connections timed out during banner exchange. Relay stopped after three failures. One new skill-compliant tunnel and native SSH identity verification restored transfer; immutable V71 package imported and scored."
+}

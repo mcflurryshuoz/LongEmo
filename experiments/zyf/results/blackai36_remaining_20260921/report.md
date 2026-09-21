@@ -1,16 +1,16 @@
 # BlackAI Gemini 3.6 补评
 
-核验时间：2026-09-21T07:39:20+00:00；后端状态：waiting_memory。
+核验时间：2026-09-21T07:54:50+00:00；后端状态：waiting_memory。
 
-新实验：—；累计混合来源：57.54 (486/558)。原 486 道首次评分文件哈希保持不变。
+新实验：81.94 (6/69)；累计混合来源：57.84 (492/558)。原 486 道首次评分文件哈希保持不变。
 
 本轮范围为 69 题、13 视频，音视频新窗口使用 BlackAI Gemini 3.6，父图谱观察保留来源。Matrix GPT-6 规划/答题/官方评分，OpenRouter Gemini Embedding 2。缺失题不计零分，不能作为同一配置的全量成绩。
 
 | 任务 | 分数 /100（已评分/总题数） |
 |---|---:|
-| emotion trajectory | 54.33 (208/235) |
-| emotional intensity comparison | 50.62 (162/194) |
-| emotional reasoning | 72.99 (116/129) |
+| emotion trajectory | 54.40 (210/235) |
+| emotional intensity comparison | 51.22 (164/194) |
+| emotional reasoning | 73.16 (118/129) |
 
 | 剧名 | 强度比较 | 情感轨迹 | 情感推理（等题权） |
 |---|---:|---:|---:|
@@ -19,11 +19,11 @@
 | 家有儿女 | 50.00 (2/2) | 45.00 (5/5) | 33.33 (4/4) |
 | Malcolm in the Middle | 35.29 (17/41) | 52.27 (11/34) | 77.78 (6/15) |
 | 摩登家庭 | 51.61 (31/37) | 53.95 (38/39) | 72.55 (17/17) |
-| 剧名未标注 | 52.83 (53/55) | 58.59 (64/66) | 67.35 (49/51) |
+| 剧名未标注 | 54.55 (55/55) | 58.71 (66/66) | 67.97 (51/51) |
 
-未评分 72 题；已有成功答案待首次评分 0 题。
+未评分 66 题；已有成功答案待首次评分 0 题。
 
-逐题状态：`{"scored": 486, "pending_memory_or_score": 63, "blocked_question_policy": 2, "blocked_judge_policy": 1, "blocked_input_policy": 6}`。
+逐题状态：`{"scored": 492, "blocked_question_policy": 2, "blocked_judge_policy": 1, "blocked_input_policy": 6, "pending_memory_or_score": 57}`。
 旧有 2 道回答过滤与 1 道评分过滤保留；新感知拒绝、暂时故障和待执行状态按逐题来源区分。
 
 [逐题分数、来源、哈希和状态](report.json)。
