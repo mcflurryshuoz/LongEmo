@@ -18,8 +18,8 @@ AUDIO_MODEL = os.environ.get('CLAUDE_GEMINI_AUDIO_MODEL', 'gemini-2.5-pro')
 
 
 def visual_client(args):
-    assert args.model == VISUAL_MODEL and args.base_url == CLAUDE_BASE
-    assert args.max_tokens == 8192 and args.thinking == 'default'
+    assert args.model == VISUAL_MODEL and args.base_url == CLAUDE_BASE, (args.model, VISUAL_MODEL, args.base_url, CLAUDE_BASE)
+    assert args.max_tokens == 8192 and args.thinking == 'default', (args.max_tokens, args.thinking)
     key = read(Path(args.credential_file))['GEMINI_API_KEY']
     return Client(VISUAL_MODEL, CLAUDE_BASE, 'anthropic', key, args.timeout, 8192, None, {})
 
