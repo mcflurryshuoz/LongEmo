@@ -85,6 +85,8 @@ def make_report(runtime,output):
         'execution_split':{'BlackAI Gemini 3.6':len(target_ids)-len(assigned),
                            'AICodeMirror Claude Opus 5 + Gemini 2.5 Pro':len(assigned)}}
     output.mkdir(parents=True,exist_ok=True);atomic(output/'report.json',data)
+    combined=data['combined']['overall_unweighted']
+    new=data['continuation_combined']['overall_unweighted']
     (output/'report.md').write_text(render_method_report(data))
     return {'path':str(output),'new':new,'combined':combined,'pending_judgments':pending,'backend_status':state['status']}
 
