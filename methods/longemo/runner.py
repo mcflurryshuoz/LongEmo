@@ -16,6 +16,8 @@ from .memory import apply_window, empty_memory
 from .prompts import ANSWER, PERCEPTION, PLANNER
 from .audio import audio_client_for, bridge_audio
 from .retrieval import retrieve, validate_plan
+from .stream_index import attach_events, build_stream_index, public_metadata
+from .stream_retrieval import retrieve_stream
 
 
 def client_for(args):
@@ -174,7 +176,7 @@ def _direct_one(q, memory, args, client, output):
             "method":"direct_shared_audio_frontend","usage":usage_summary(api.ledger)}
 
 
-def _answer_one(q, memory, args, client, output, dense_index=None):
+def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=None):
     if args.retrieval == "direct":
         return _direct_one(q, memory, args, client, output)
     qid = q["question_id"]
@@ -200,8 +202,14 @@ def _answer_one(q, memory, args, client, output, dense_index=None):
         plan = api.call(planner_messages, purpose=f"plan:{qid}", validate=validate_plan)
     retrieval_trace = {}
     dense_scores = dense_index.rank(public["question"]) if dense_index is not None else None
-    evidence = retrieve(memory, public["question"], plan, mode=args.retrieval, budget_chars=args.evidence_chars,
-                        top_k=args.top_k, dense_scores=dense_scores, trace=retrieval_trace)
+    if args.retrieval == "graph_stream":
+        evidence = retrieve_stream(memory, public["question"], plan, budget_chars=args.evidence_chars,
+                                   top_k=args.top_k, dense_scores=dense_scores,
+                                   stream_index=stream_index, page_size=args.stream_page_size,
+                                   trace=retrieval_trace)
+    else:
+        evidence = retrieve(memory, public["question"], plan, mode=args.retrieval, budget_chars=args.evidence_chars,
+                            top_k=args.top_k, dense_scores=dense_scores, trace=retrieval_trace)
     payload = {"question": public["question"], "evidence": evidence,
                "inspection_budget": {"requests_remaining": args.max_inspections, "seconds_remaining": args.inspection_seconds}}
     messages = [{"role": "system", "content": ANSWER}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
@@ -262,8 +270,9 @@ def answer(args):
                 raise ValueError("inspection video does not match memory source")
         memories[video_id], hashes[video_id] = memory, file_hash(path)
     indexes = {}
+    stream_indexes = {}
     encoder = None
-    if args.retrieval == "graph":
+    if args.retrieval in ("graph", "graph_stream"):
         from .embeddings import Encoder, APIEncoder, EventIndex
         if args.embedding_backend in ("gemini", "gemini-native"):
             import os
@@ -280,11 +289,16 @@ def answer(args):
             encoder = Encoder(model=args.embedding_model, revision=args.embedding_revision)
         for video_id, memory in memories.items():
             indexes[video_id] = EventIndex(memory, encoder, args.embedding_cache_dir)
+            if args.retrieval == "graph_stream":
+                stream_indexes[video_id] = attach_events(build_stream_index(memory), memory)
         write_json(output/"embedding_indexes.json", {v:i.metadata for v,i in indexes.items()})
+        if args.retrieval == "graph_stream":
+            write_json(output/"stream_indexes.json", {v:public_metadata(i) for v,i in stream_indexes.items()})
     configuration = {"embedding": encoder.config if encoder else None, "model": client.configuration(), "question_inputs": [
         {k: q[k] for k in ("question_id", "video_id", "question", "type")} for q in questions],
         "memories": hashes, "retrieval": args.retrieval, "evidence_chars": args.evidence_chars,
-        "top_k": args.top_k, "max_inspections": args.max_inspections, "inspection_seconds": args.inspection_seconds,
+        "top_k": args.top_k, "stream_page_size": args.stream_page_size,
+        "max_inspections": args.max_inspections, "inspection_seconds": args.inspection_seconds,
         "direct_frames": args.direct_frames, "audio_model": args.audio_model,
         "inspection_media": _media_options(args), "inspection_subtitle_hashes": {
             v: file_hash(Path(args.subtitles_dir)/(v+".json")) for v in memories} if args.subtitles_dir else {},
@@ -297,7 +311,8 @@ def answer(args):
         raise ValueError("duplicate IDs in existing prediction file")
     records = {r["question_id"]: r for r in old if r.get("status") == "ok"}
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(_answer_one, q, memories[q["video_id"]], args, client, output, indexes.get(q["video_id"])): q
+        futures = {pool.submit(_answer_one, q, memories[q["video_id"]], args, client, output,
+                               indexes.get(q["video_id"]), stream_indexes.get(q["video_id"])): q
                    for q in questions if q["question_id"] not in records}
         for future in as_completed(futures):
             q = futures[future]
@@ -343,7 +358,7 @@ def parser():
         else:
             command.add_argument("--memory-dir", required=True)
             command.add_argument("--plans-dir", help="Optional shared frozen plans for fair retrieval comparisons")
-            command.add_argument("--retrieval", choices=("graph", "flat", "direct"), default="graph")
+            command.add_argument("--retrieval", choices=("graph", "graph_stream", "flat", "direct"), default="graph")
             command.add_argument("--direct-frames", type=int, default=128)
             command.add_argument("--embedding-backend", choices=("gemini", "gemini-native", "local"), default="gemini")
             command.add_argument("--embedding-base-url", help="Explicit embedding service URL; native Gemini uses /v1beta")
@@ -352,6 +367,8 @@ def parser():
             command.add_argument("--embedding-cache-dir", default=".cache/longemo-embeddings")
             command.add_argument("--evidence-chars", type=int, default=48000)
             command.add_argument("--top-k", type=int, default=12)
+            command.add_argument("--stream-page-size", type=int, default=64,
+                                 help="Chronological event-stream page size for graph_stream retrieval")
             command.add_argument("--max-inspections", type=int, default=0)
             command.add_argument("--inspection-seconds", type=float, default=120)
             command.add_argument("--qid", action="append")
@@ -362,7 +379,7 @@ def parser():
 def main(argv=None):
     p = parser()
     args = p.parse_args(argv)
-    if args.fps <= 0 or args.max_frames < 1 or args.workers < 1 or args.tries < 1:
+    if args.fps <= 0 or args.max_frames < 1 or args.workers < 1 or args.tries < 1 or getattr(args, "stream_page_size", 1) < 1:
         p.error("sampling and execution parameters must be positive")
     if args.command == "build" and (args.window_seconds <= 0 or args.padding < 0):
         p.error("invalid window configuration")
