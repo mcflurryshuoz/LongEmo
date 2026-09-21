@@ -69,5 +69,28 @@
     "latest_commit": "f969b0b",
     "pushed": true
   },
-  "safety": "Failed packages and partial memories are retained for audit and are not sent to scoring; old 486 scores are unchanged."
+  "safety": "Failed packages and partial memories are retained for audit and are not sent to scoring; old 486 scores are unchanged.",
+  "alternative_probes": [
+    {
+      "provider": "BlackAI",
+      "model": "gemini-3.5-flash",
+      "video_id": "G2_V000071",
+      "window": "W00050",
+      "result": "failed",
+      "error_type": "JSONDecodeError",
+      "http_status": null,
+      "scores_added": 0,
+      "note": "Response was not JSON on one real media window."
+    },
+    {
+      "provider": "BlackAI",
+      "models_available": [
+        "gemini-3.5-flash",
+        "gemini-3.6-flash",
+        "gemini-3.7-flash",
+        "gemini-3.8-flash"
+      ],
+      "prior_evidence": "3.7/3.8 had empty candidates or content filtering on unresolved media; 2.5 Pro endpoint previously returned 404."
+    }
+  ]
 }
