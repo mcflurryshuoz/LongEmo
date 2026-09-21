@@ -25,6 +25,25 @@ def score_table(data):
     return '\n'.join(rows)
 
 
+def series_score_table(data):
+    rows = [
+        '#### 分剧成绩',
+        '',
+        '单元格为“分数 /100（已评分 / 该剧该类总题数）”。',
+        '',
+        '| 剧名 | 情感强度比较 | 情感轨迹 | 情感推理 |',
+        '|---|---:|---:|---:|',
+    ]
+    for name, metrics in data['series'].items():
+        label = '剧名未标注' if name == 'unclassified' else LABELS.get(name, name)
+        cells = []
+        for task, _ in TASKS:
+            metric = metrics['tasks'].get(task, {})
+            cells.append(pct(metric))
+        rows.append('| ' + label + ' | ' + ' | '.join(cells) + ' |')
+    return '\n'.join(rows)
+
+
 def render_method_report(data, *, json_link='report.json', current_link=None):
     overall=data['combined']['overall_unweighted'];missing=overall['n_total']-overall['n_scored']
     lines=['# 当前方法评测结果','',
@@ -60,7 +79,7 @@ def publish(source, repo):
         assert target.is_file() and not target.is_symlink()
         target.write_text(render_method_report(data,json_link='../current_method/report.json',current_link='../current_method/report.md'))
     readme=root/'README.md';text=readme.read_text();assert text.count(START)==text.count(END)==1
-    summary=(START+'\n\n'+score_table(data)+'\n\n'
+    summary=(START+'\n\n'+score_table(data)+'\n\n'+series_score_table(data)+'\n\n'
         '[完整分剧成绩、覆盖率与计分口径](experiments/zyf/results/current_method/report.md)。\n\n'+END)
     before,rest=text.split(START);_,after=rest.split(END);readme.write_text(before+summary+after)
     missing=overall['n_total']-overall['n_scored']
