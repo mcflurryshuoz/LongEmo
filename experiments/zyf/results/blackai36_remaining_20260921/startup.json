@@ -1,0 +1,270 @@
+{
+  "as_of": "2026-09-21T07:43:29.874552+00:00",
+  "run": "blackai_gemini36_matrix_gpt6_remaining_20260921",
+  "configuration": {
+    "fingerprint": "8f6c221f357e283727565b30ee356bef3a0f9b4ccf2ac6d28dbd9d2beaf1d372",
+    "configuration": {
+      "protocol": "blackai_gemini36_matrix_gpt6_remaining_20260921",
+      "method_hash": "f18c436a4d2272f32a938df8f13882b1062e121f6d1b6d6efb067a97aadf8797",
+      "worker_hashes": {
+        "blackai36_worker.py": "2ae03ce79e4fb2f1216dfa11c1ca75ef6ecd8e4ffa56a551b7774ee52ae5217b",
+        "blackai36_continuation.py": "f347da6545980ff2cc5b9f6fb97e2a3e0b6c8fc91bd59089fcd5a271b7602a7e",
+        "native_worker.py": "139295e752ea00052d2d848d11eea8ae81dfa48c2a00f91976d0fec958611e56"
+      },
+      "question_ids": [
+        "G2_Q000248",
+        "G2_Q000249",
+        "G2_Q000250",
+        "G2_Q000251",
+        "G2_Q000252",
+        "G2_Q000253",
+        "G2_Q000382",
+        "G2_Q000383",
+        "G2_Q000384",
+        "G2_Q000385",
+        "G2_Q000386",
+        "G2_Q000387",
+        "G2_Q000388",
+        "G2_Q000389",
+        "G2_Q000390",
+        "G2_Q000391",
+        "G2_Q000392",
+        "G2_Q000393",
+        "G2_Q000394",
+        "G2_Q000395",
+        "G2_Q000396",
+        "G2_Q000397",
+        "G2_Q000398",
+        "G2_Q000399",
+        "G2_Q000406",
+        "G2_Q000407",
+        "G2_Q000408",
+        "G2_Q000409",
+        "G2_Q000410",
+        "G2_Q000416",
+        "G2_Q000417",
+        "G2_Q000418",
+        "G2_Q000419",
+        "G2_Q000420",
+        "G2_Q000421",
+        "G2_Q000427",
+        "G2_Q000428",
+        "G2_Q000429",
+        "G2_Q000430",
+        "G2_Q000431",
+        "G2_Q000432",
+        "G2_Q000433",
+        "G2_Q000434",
+        "G2_Q000435",
+        "G2_Q000436",
+        "G2_Q000437",
+        "G2_Q000445",
+        "G2_Q000446",
+        "G2_Q000447",
+        "G2_Q000448",
+        "G2_Q000449",
+        "G2_Q000450",
+        "G2_Q000451",
+        "G2_Q000452",
+        "G2_Q000453",
+        "G2_Q000454",
+        "G2_Q000455",
+        "G2_Q000456",
+        "G2_Q000457",
+        "G2_Q000458",
+        "G2_Q000459",
+        "G2_Q000460",
+        "G2_Q000510",
+        "G2_Q000511",
+        "G2_Q000512",
+        "G2_Q000513",
+        "G2_Q000518",
+        "G2_Q000519",
+        "G2_Q000520"
+      ],
+      "parent_runs": {
+        "G2_V000071": "aicodemirror_claude48_gemini25_retry_20260921",
+        "G2_V000104": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000105": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000106": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000108": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000110": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000112": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000113": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000115": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000116": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000117": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000129": "aicodemirror_claude5_gemini25_remaining_20260921",
+        "G2_V000131": "aicodemirror_claude5_gemini25_remaining_20260921"
+      },
+      "protected_score_hashes": {
+        "matrix_gemini38_gpt6_full_v1": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09",
+        "blackai_gemini38_matrix_gpt6_remaining_v1": "c6981f0882008259bde2e35c67689b4e64b69d1cb157f7aa3f8575563628653c",
+        "blackai_gemini37_matrix_gpt6_compact_20260920": "020c62e05af0f74b887c2eff6cf1093f458632064ff780b5da76ffc749674488",
+        "aicodemirror_gemini37_recovery_20260921": "b8fd9c04a20cc92e794c58f6ebfc129a9ef8df93d47bf33336f2b92c25a54ad4",
+        "aicodemirror_claude5_gemini25_remaining_20260921": "1b730ca9450627a67be3d5f962dc8cfa4bcba3547f3c13cefdc13bbd919d1bb3"
+      },
+      "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+      "visual": {
+        "model": "gemini-3.6-flash",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {},
+        "timeout": 180
+      },
+      "audio": {
+        "model": "gemini-3.6-flash",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {},
+        "timeout": 180
+      },
+      "media": {
+        "window_seconds": 20,
+        "padding": 2,
+        "fps": 1,
+        "max_frames": 8,
+        "max_pixels": 150528
+      },
+      "answer_judge": "Matrix gpt-6-astra; official scorer unchanged",
+      "embedding": "OpenRouter google/gemini-embedding-2",
+      "retry": "3 schema attempts per window; at most 3 extra checkpoint attempts per video, only for explicit transient HTTP errors",
+      "scope": "69 upstream-unscored questions / 13 videos; mixed inherited and new models; preserve 486 prior first scores. Three earlier Matrix policy-blocked questions excluded.",
+      "gate": "Two near-complete canaries, at least one complete before the other 11 videos"
+    }
+  },
+  "frontend_status": {
+    "videos": {
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "status": "blocked_input_policy",
+        "attempts": 1,
+        "transient_remaining": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+          "purpose": "perception:G2_V000104:W00055",
+          "service_error_code": "content_filter"
+        }
+      }
+    },
+    "status": "canary",
+    "active_videos": [
+      "G2_V000071"
+    ],
+    "queued_videos": [],
+    "question_count": 69,
+    "updated_unix": 1789976605.0553987
+  },
+  "windows": {
+    "G2_V000071": {
+      "inherited": 49,
+      "completed": 57,
+      "total": 61,
+      "complete": false,
+      "parent": "aicodemirror_claude48_gemini25_retry_20260921"
+    },
+    "G2_V000104": {
+      "inherited": 54,
+      "completed": 54,
+      "total": 63,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000105": {
+      "inherited": 1,
+      "completed": 1,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000106": {
+      "inherited": 27,
+      "completed": 27,
+      "total": 64,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000108": {
+      "inherited": 53,
+      "completed": 53,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000110": {
+      "inherited": 50,
+      "completed": 50,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000112": {
+      "inherited": 13,
+      "completed": 13,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000113": {
+      "inherited": 32,
+      "completed": 32,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000115": {
+      "inherited": 28,
+      "completed": 28,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000116": {
+      "inherited": 27,
+      "completed": 27,
+      "total": 64,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000117": {
+      "inherited": 42,
+      "completed": 42,
+      "total": 64,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000129": {
+      "inherited": 5,
+      "completed": 5,
+      "total": 64,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    },
+    "G2_V000131": {
+      "inherited": 48,
+      "completed": 48,
+      "total": 65,
+      "complete": false,
+      "parent": "aicodemirror_claude5_gemini25_remaining_20260921"
+    }
+  },
+  "frontend_pid": 3028487,
+  "backend_pid": 306305,
+  "relay_pid_at_start": 14720,
+  "deployment_revision": "60be6cd",
+  "report_revision": "1070a18",
+  "tests": {
+    "g450": 6,
+    "aistudio": 6
+  },
+  "baseline_scored": 486,
+  "selected_questions": 69,
+  "excluded_old_gpt6_policy_rejections": 3,
+  "baseline_current_mean": 57.54458161865568,
+  "method": "mixed inherited perception plus new BlackAI Gemini 3.6; Matrix GPT-6 answer/judge; OpenRouter Gemini Embedding 2",
+  "estimated_duration": "2–3 hours if service remains available; explicit rejections remain unscored",
+  "automation": "longemo-blackai-3-6",
+  "new_successful_scores_at_start": 0
+}

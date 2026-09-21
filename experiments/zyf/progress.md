@@ -6,6 +6,10 @@ E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62
 
 ## BlackAI 续评：E11
 
+### BlackAI Gemini 3.6 新一轮补评已启动
+
+2026-09-21：对仍缺图谱的 **13 视频、69 题**启用 BlackAI Gemini 3.6 续跑，尚缺 406 个窗口。g450 先跑 V104/V71，两者任一完整后自动扩到 4 路视频并发；AIStudio GPT-6 问答和官方评分、OpenRouter Gemini Embedding 2 不变，中转已接通。旧 **486/558** 评分哈希复验不变，累计均分重新计算为 **57.54**（此前 57.65 是 476 题快照）。V104 首个新视觉窗口被明确过滤后保存失败，V71 继续推进。两端各 6 项保护性检查通过，已启用自动跟进。[配置及启动状态](results/blackai36_remaining_20260921/startup.md) · [三任务和分剧报告](results/blackai36_remaining_20260921/report.md)。
+
 ### BlackAI 新模型可用性验证
 
 2026-09-21：对 V71/W50 真实音视频窗口验证，`gemini-3.6-flash`、`gemini-3.1-pro-preview` 均首次通过音频和图谱结构校验，音频＋视觉耗时分别约 50 秒和 138 秒。Flash Lite 初始关系证据 ID 不完整，后续独立校验通过；2.5 Flash 返回账号组不支持的 HTTP 404。新增评分 0，未修改旧评分。建议下一小批优先使用 3.6 Flash；仅单窗口可用性验证，不能宣称剩余全量已恢复。[详细实测](results/blackai_models_20260921_v2/validation.md)。
