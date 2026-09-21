@@ -17,6 +17,8 @@ def main():
     p.add_argument('--known-hosts', type=Path, required=True)
     p.add_argument('--destination', required=True)
     p.add_argument('--expected', type=int, required=True)
+    p.add_argument('--source-ssh', default='ssh -o BatchMode=yes -o ConnectTimeout=15 -o ControlPath=none -o ServerAliveInterval=15 -o ServerAliveCountMax=3',
+                   help='SSH command used only for the authorized source rsync; target SCP stays unchanged')
     p.add_argument('--producer-done', action='store_true', help='Use producer_done.json for a dynamically sized recovery pass')
     a = p.parse_args()
     a.local.mkdir(parents=True, exist_ok=True)
@@ -26,7 +28,7 @@ def main():
     failures = 0
     while a.producer_done or len(status['sent']) < a.expected:
         r = subprocess.run(['rsync', '-a', '--exclude=*.tmp', '-e',
-            'ssh -o BatchMode=yes -o ConnectTimeout=15 -o ControlPath=none -o ServerAliveInterval=15 -o ServerAliveCountMax=3',
+            a.source_ssh,
             a.source, str(inbox)+'/'], timeout=180, stdout=subprocess.DEVNULL)
         if r.returncode:
             failures += 1
@@ -64,7 +66,10 @@ def main():
                        '-o', 'ControlPath=none', '-o', 'StrictHostKeyChecking=yes',
                        '-o', 'UserKnownHostsFile='+str(a.known_hosts), str(unique), '127.0.0.1:'+a.destination+'/']
             if scp_once(command, a.local/'scp.log', timeout=90) == 0:
-                unique.unlink(); return
+                unique.unlink()
+                status.update(status='finished', producer_done_uploaded=True, updated_unix=time.time())
+                tmp = path.with_suffix('.tmp'); tmp.write_text(json.dumps(status, indent=2)+'\n'); tmp.replace(path)
+                return
         time.sleep(15)
 
 
