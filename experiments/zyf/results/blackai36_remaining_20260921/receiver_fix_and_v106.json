@@ -1,0 +1,2266 @@
+{
+  "as_of": "2026-09-21T09:00:47+00:00",
+  "report_as_of": "2026-09-21T08:59:08+00:00",
+  "code_revision": "c08a9e0",
+  "validation": "20 protection checks passed on both g450 and AIStudio.",
+  "first_506_scores_unchanged": true,
+  "runs": {
+    "blackai_gemini36_matrix_gpt6_remaining_20260921": {
+      "frontend": {
+        "videos": {
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "blocked_input_policy",
+            "attempts": 1,
+            "transient_remaining": false,
+            "rejection": {
+              "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+              "purpose": "perception:G2_V000104:W00055",
+              "service_error_code": "content_filter"
+            }
+          },
+          "G2_V000071": {
+            "video_id": "G2_V000071",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000108": {
+            "video_id": "G2_V000108",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000110": {
+            "video_id": "G2_V000110",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000105": {
+            "video_id": "G2_V000105",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000112": {
+            "video_id": "G2_V000112",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000129": {
+            "video_id": "G2_V000129",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000131": {
+            "video_id": "G2_V000131",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000106": {
+            "video_id": "G2_V000106",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000115": {
+            "video_id": "G2_V000115",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000113": {
+            "video_id": "G2_V000113",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000116": {
+            "video_id": "G2_V000116",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          }
+        },
+        "status": "finished",
+        "active_videos": [],
+        "queued_videos": [],
+        "question_count": 69,
+        "updated_unix": 1789978937.5880773
+      },
+      "frontend_process": {
+        "pid": 3149667,
+        "started_unix": 1789978066.4725652,
+        "workers": 12,
+        "handoff_file": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/concurrency/frontend_handoff.json",
+        "launcher_sha256": "6e9af3a37e72c96b61f54047a197dcf3702c9e9660118f230cddca3dccfdc6dc"
+      },
+      "windows": {
+        "G2_V000071": {
+          "completed": 61,
+          "total": 61,
+          "complete": true,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000071:W00060",
+                "usage": {
+                  "prompt_tokens": 15032,
+                  "completion_tokens": 39,
+                  "total_tokens": 15673,
+                  "thought_tokens": 602,
+                  "raw": {
+                    "promptTokenCount": 15032,
+                    "candidatesTokenCount": 39,
+                    "totalTokenCount": 15673,
+                    "thoughtsTokenCount": 602
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000071:W00061",
+                "usage": {
+                  "prompt_tokens": 11663,
+                  "completion_tokens": 347,
+                  "total_tokens": 13106,
+                  "thought_tokens": 1096,
+                  "raw": {
+                    "promptTokenCount": 11663,
+                    "candidatesTokenCount": 347,
+                    "totalTokenCount": 13106,
+                    "thoughtsTokenCount": 1096
+                  }
+                },
+                "response_model": "gemini-3.6-flash",
+                "status": "error",
+                "error_type": "ValueError",
+                "validation_error": "observation subject must reference a declared entity"
+              },
+              {
+                "purpose": "perception:G2_V000071:W00061",
+                "usage": {
+                  "prompt_tokens": 12283,
+                  "completion_tokens": 331,
+                  "total_tokens": 13686,
+                  "thought_tokens": 1072,
+                  "raw": {
+                    "promptTokenCount": 12283,
+                    "candidatesTokenCount": 331,
+                    "totalTokenCount": 13686,
+                    "thoughtsTokenCount": 1072
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00059",
+                "usage": {
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 14,
+                  "total_tokens": 1390,
+                  "thought_tokens": 345,
+                  "raw": {
+                    "promptTokenCount": 1031,
+                    "candidatesTokenCount": 14,
+                    "totalTokenCount": 1390,
+                    "thoughtsTokenCount": 345
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00060",
+                "usage": {
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 14,
+                  "total_tokens": 1497,
+                  "thought_tokens": 452,
+                  "raw": {
+                    "promptTokenCount": 1031,
+                    "candidatesTokenCount": 14,
+                    "totalTokenCount": 1497,
+                    "thoughtsTokenCount": 452
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00061",
+                "usage": {
+                  "prompt_tokens": 568,
+                  "completion_tokens": 154,
+                  "total_tokens": 1515,
+                  "thought_tokens": 793,
+                  "raw": {
+                    "promptTokenCount": 568,
+                    "candidatesTokenCount": 154,
+                    "totalTokenCount": 1515,
+                    "thoughtsTokenCount": 793
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000104": {
+          "completed": 54,
+          "total": 63,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000104:W00055",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {}
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Expecting value: line 1 column 1 (char 0)"
+              },
+              {
+                "purpose": "perception:G2_V000104:W00055",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 200,
+                "service_error_code": "content_filter"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00055",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 285,
+                  "total_tokens": 1876,
+                  "thought_tokens": 813,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 285,
+                    "totalTokenCount": 1876,
+                    "thoughtsTokenCount": 813
+                  }
+                },
+                "response_model": "gemini-3.6-flash",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000105": {
+          "completed": 1,
+          "total": 65,
+          "complete": false,
+          "recent_calls": {}
+        },
+        "G2_V000106": {
+          "completed": 36,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000106:W00034",
+                "usage": {
+                  "prompt_tokens": 13426,
+                  "completion_tokens": 953,
+                  "total_tokens": 17090,
+                  "thought_tokens": 2711,
+                  "raw": {
+                    "promptTokenCount": 13426,
+                    "candidatesTokenCount": 953,
+                    "totalTokenCount": 17090,
+                    "thoughtsTokenCount": 2711
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000106:W00035",
+                "usage": {
+                  "prompt_tokens": 13428,
+                  "completion_tokens": 621,
+                  "total_tokens": 16173,
+                  "thought_tokens": 2124,
+                  "raw": {
+                    "promptTokenCount": 13428,
+                    "candidatesTokenCount": 621,
+                    "totalTokenCount": 16173,
+                    "thoughtsTokenCount": 2124
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000106:W00036",
+                "usage": {
+                  "prompt_tokens": 13466,
+                  "completion_tokens": 1144,
+                  "total_tokens": 14610,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 13466,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 1144,
+                    "totalTokenCount": 14610,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 284,
+                  "total_tokens": 1060,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 284,
+                    "totalTokenCount": 1060,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "ValueError",
+                "validation_error": "voice must be nonempty text"
+              },
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 1331,
+                  "completion_tokens": 824,
+                  "total_tokens": 2155,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 1331,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 824,
+                    "totalTokenCount": 2155,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 11 column 48 (char 172)"
+              },
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 1669,
+                  "completion_tokens": 599,
+                  "total_tokens": 2268,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 1669,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 599,
+                    "totalTokenCount": 2268,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 9 column 28 (char 110)"
+              }
+            ]
+          }
+        },
+        "G2_V000108": {
+          "completed": 65,
+          "total": 65,
+          "complete": true,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000108:W00063",
+                "usage": {
+                  "prompt_tokens": 13455,
+                  "completion_tokens": 1376,
+                  "total_tokens": 16878,
+                  "thought_tokens": 2047,
+                  "raw": {
+                    "promptTokenCount": 13455,
+                    "candidatesTokenCount": 1376,
+                    "totalTokenCount": 16878,
+                    "cachedContentTokenCount": 8159,
+                    "thoughtsTokenCount": 2047
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000108:W00064",
+                "usage": {
+                  "prompt_tokens": 5332,
+                  "completion_tokens": 1211,
+                  "total_tokens": 6543,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 5332,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 1211,
+                    "totalTokenCount": 6543,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000108:W00065",
+                "usage": {
+                  "prompt_tokens": 8784,
+                  "completion_tokens": 310,
+                  "total_tokens": 11502,
+                  "thought_tokens": 2408,
+                  "raw": {
+                    "promptTokenCount": 8784,
+                    "candidatesTokenCount": 310,
+                    "totalTokenCount": 11502,
+                    "thoughtsTokenCount": 2408
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00063",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 323,
+                  "total_tokens": 1101,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 323,
+                    "totalTokenCount": 1101,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00064",
+                "usage": {
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 382,
+                  "total_tokens": 2364,
+                  "thought_tokens": 951,
+                  "raw": {
+                    "promptTokenCount": 1031,
+                    "candidatesTokenCount": 382,
+                    "totalTokenCount": 2364,
+                    "thoughtsTokenCount": 951
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00065",
+                "usage": {
+                  "prompt_tokens": 283,
+                  "completion_tokens": 10,
+                  "total_tokens": 293,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 283,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 10,
+                    "totalTokenCount": 293,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000110": {
+          "completed": 65,
+          "total": 65,
+          "complete": true,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000110:W00063",
+                "usage": {
+                  "prompt_tokens": 14275,
+                  "completion_tokens": 1627,
+                  "total_tokens": 19876,
+                  "thought_tokens": 3974,
+                  "raw": {
+                    "promptTokenCount": 14275,
+                    "candidatesTokenCount": 1627,
+                    "totalTokenCount": 19876,
+                    "thoughtsTokenCount": 3974
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000110:W00064",
+                "usage": {
+                  "prompt_tokens": 14094,
+                  "completion_tokens": 1463,
+                  "total_tokens": 15557,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 14094,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 1463,
+                    "totalTokenCount": 15557,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000110:W00065",
+                "usage": {
+                  "prompt_tokens": 11244,
+                  "completion_tokens": 609,
+                  "total_tokens": 11853,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 11244,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 609,
+                    "totalTokenCount": 11853,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00063",
+                "usage": {
+                  "prompt_tokens": 1031,
+                  "completion_tokens": 216,
+                  "total_tokens": 2227,
+                  "thought_tokens": 980,
+                  "raw": {
+                    "promptTokenCount": 1031,
+                    "candidatesTokenCount": 216,
+                    "totalTokenCount": 2227,
+                    "thoughtsTokenCount": 980
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00064",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 402,
+                  "total_tokens": 1180,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 402,
+                    "totalTokenCount": 1180,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00065",
+                "usage": {
+                  "prompt_tokens": 333,
+                  "completion_tokens": 90,
+                  "total_tokens": 423,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 333,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 90,
+                    "totalTokenCount": 423,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000112": {
+          "completed": 13,
+          "total": 65,
+          "complete": false,
+          "recent_calls": {}
+        },
+        "G2_V000113": {
+          "completed": 45,
+          "total": 65,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000113:W00045",
+                "usage": {
+                  "prompt_tokens": 13304,
+                  "completion_tokens": 3474,
+                  "total_tokens": 16778,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 13304,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 3474,
+                    "totalTokenCount": 16778,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 13 column 68 (char 320)"
+              },
+              {
+                "purpose": "perception:G2_V000113:W00045",
+                "usage": {
+                  "prompt_tokens": 14661,
+                  "completion_tokens": 1983,
+                  "total_tokens": 16644,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 14661,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 1983,
+                    "totalTokenCount": 16644,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 12 column 23 (char 274)"
+              },
+              {
+                "purpose": "perception:G2_V000113:W00045",
+                "usage": {
+                  "prompt_tokens": 16013,
+                  "completion_tokens": 1135,
+                  "total_tokens": 17210,
+                  "thought_tokens": 62,
+                  "raw": {
+                    "promptTokenCount": 16013,
+                    "candidatesTokenCount": 1135,
+                    "totalTokenCount": 17210,
+                    "thoughtsTokenCount": 62
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00046",
+                "usage": {
+                  "prompt_tokens": 1029,
+                  "completion_tokens": 1971,
+                  "total_tokens": 3000,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 1029,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 1971,
+                    "totalTokenCount": 3000,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 7 column 16 (char 117)"
+              },
+              {
+                "purpose": "audio_observer:W00046",
+                "usage": {
+                  "prompt_tokens": 1561,
+                  "completion_tokens": 835,
+                  "total_tokens": 2396,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 1561,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 835,
+                    "totalTokenCount": 2396,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 16 column 44 (char 311)"
+              },
+              {
+                "purpose": "audio_observer:W00046",
+                "usage": {
+                  "prompt_tokens": 2092,
+                  "completion_tokens": 625,
+                  "total_tokens": 2717,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 2092,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 625,
+                    "totalTokenCount": 2717,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 6 column 22 (char 80)"
+              }
+            ]
+          }
+        },
+        "G2_V000115": {
+          "completed": 37,
+          "total": 65,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000115:W00038",
+                "usage": {
+                  "prompt_tokens": 13955,
+                  "completion_tokens": 1453,
+                  "total_tokens": 18176,
+                  "thought_tokens": 2768,
+                  "raw": {
+                    "promptTokenCount": 13955,
+                    "candidatesTokenCount": 1453,
+                    "totalTokenCount": 18176,
+                    "thoughtsTokenCount": 2768
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "error",
+                "error_type": "ValueError",
+                "validation_error": "unsupported observation modality"
+              },
+              {
+                "purpose": "perception:G2_V000115:W00038",
+                "usage": {
+                  "prompt_tokens": 15602,
+                  "completion_tokens": 2793,
+                  "total_tokens": 18395,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 15602,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 2793,
+                    "totalTokenCount": 18395,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 12 column 69 (char 289)"
+              },
+              {
+                "purpose": "perception:G2_V000115:W00038",
+                "usage": {
+                  "prompt_tokens": 17392,
+                  "completion_tokens": 1809,
+                  "total_tokens": 19201,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 17392,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 1809,
+                    "totalTokenCount": 19201,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 12 column 69 (char 289)"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 1417,
+                  "completion_tokens": 548,
+                  "total_tokens": 1965,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 1417,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 548,
+                    "totalTokenCount": 1965,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 10 column 26 (char 145)"
+              },
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 1809,
+                  "completion_tokens": 321,
+                  "total_tokens": 2549,
+                  "thought_tokens": 419,
+                  "raw": {
+                    "promptTokenCount": 1809,
+                    "candidatesTokenCount": 321,
+                    "totalTokenCount": 2549,
+                    "thoughtsTokenCount": 419
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00038",
+                "usage": {
+                  "prompt_tokens": 1029,
+                  "completion_tokens": 310,
+                  "total_tokens": 2210,
+                  "thought_tokens": 871,
+                  "raw": {
+                    "promptTokenCount": 1029,
+                    "candidatesTokenCount": 310,
+                    "totalTokenCount": 2210,
+                    "thoughtsTokenCount": 871
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000116": {
+          "completed": 37,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000116:W00038",
+                "usage": {
+                  "prompt_tokens": 14088,
+                  "completion_tokens": 3249,
+                  "total_tokens": 17337,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 14088,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 3249,
+                    "totalTokenCount": 17337,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 12 column 42 (char 250)"
+              },
+              {
+                "purpose": "perception:G2_V000116:W00038",
+                "usage": {
+                  "prompt_tokens": 15850,
+                  "completion_tokens": 2381,
+                  "total_tokens": 18231,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 15850,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 2381,
+                    "totalTokenCount": 18231,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 12 column 38 (char 246)"
+              },
+              {
+                "purpose": "perception:G2_V000116:W00038",
+                "usage": {
+                  "prompt_tokens": 17618,
+                  "completion_tokens": 1510,
+                  "total_tokens": 19509,
+                  "thought_tokens": 381,
+                  "raw": {
+                    "promptTokenCount": 17618,
+                    "candidatesTokenCount": 1510,
+                    "totalTokenCount": 19509,
+                    "thoughtsTokenCount": 381
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "error",
+                "error_type": "ValueError",
+                "validation_error": "state.evidence_ids needs supporting observation IDs"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 1029,
+                  "completion_tokens": 3189,
+                  "total_tokens": 4218,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 1029,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 3189,
+                    "totalTokenCount": 4218,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Invalid control character at: line 6 column 13 (char 71)"
+              },
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 1664,
+                  "completion_tokens": 584,
+                  "total_tokens": 2992,
+                  "thought_tokens": 744,
+                  "raw": {
+                    "promptTokenCount": 1664,
+                    "candidatesTokenCount": 584,
+                    "totalTokenCount": 2992,
+                    "thoughtsTokenCount": 744
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00038",
+                "usage": {
+                  "prompt_tokens": 1029,
+                  "completion_tokens": 401,
+                  "total_tokens": 2380,
+                  "thought_tokens": 950,
+                  "raw": {
+                    "promptTokenCount": 1029,
+                    "candidatesTokenCount": 401,
+                    "totalTokenCount": 2380,
+                    "thoughtsTokenCount": 950
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000117": {
+          "completed": 52,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000117:W00053",
+                "usage": {
+                  "prompt_tokens": 8369,
+                  "completion_tokens": 78,
+                  "total_tokens": 8447,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 8369,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 78,
+                    "totalTokenCount": 8447,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Expecting value: line 1 column 1 (char 0)"
+              },
+              {
+                "purpose": "perception:G2_V000117:W00053",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {}
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Expecting value: line 1 column 1 (char 0)"
+              },
+              {
+                "purpose": "perception:G2_V000117:W00053",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {}
+                },
+                "response_model": null,
+                "status": "error",
+                "error_type": "JSONDecodeError",
+                "validation_error": "Expecting value: line 1 column 1 (char 0)"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00051",
+                "usage": {
+                  "prompt_tokens": 777,
+                  "completion_tokens": 92,
+                  "total_tokens": 869,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 777,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 92,
+                    "totalTokenCount": 869,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00052",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 220,
+                  "total_tokens": 998,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 220,
+                    "totalTokenCount": 998,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00053",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 197,
+                  "total_tokens": 975,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 197,
+                    "totalTokenCount": 975,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000129": {
+          "completed": 5,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {}
+        },
+        "G2_V000131": {
+          "completed": 65,
+          "total": 65,
+          "complete": true,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000131:W00063",
+                "usage": {
+                  "prompt_tokens": 14172,
+                  "completion_tokens": 551,
+                  "total_tokens": 15913,
+                  "thought_tokens": 1190,
+                  "raw": {
+                    "promptTokenCount": 14172,
+                    "candidatesTokenCount": 551,
+                    "totalTokenCount": 15913,
+                    "thoughtsTokenCount": 1190
+                  }
+                },
+                "response_model": "gemini-3.6-flash-tiered",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000131:W00064",
+                "usage": {
+                  "prompt_tokens": 13891,
+                  "completion_tokens": 670,
+                  "total_tokens": 14561,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 13891,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 670,
+                    "totalTokenCount": 14561,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000131:W00065",
+                "usage": {
+                  "prompt_tokens": 7290,
+                  "completion_tokens": 384,
+                  "total_tokens": 7674,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 7290,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 384,
+                    "totalTokenCount": 7674,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00063",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 334,
+                  "total_tokens": 1112,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 334,
+                    "totalTokenCount": 1112,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00064",
+                "usage": {
+                  "prompt_tokens": 735,
+                  "completion_tokens": 528,
+                  "total_tokens": 1263,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 735,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 528,
+                    "totalTokenCount": 1263,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00065",
+                "usage": {
+                  "prompt_tokens": 235,
+                  "completion_tokens": 94,
+                  "total_tokens": 329,
+                  "thought_tokens": 0,
+                  "raw": {
+                    "promptTokenCount": 235,
+                    "toolUsePromptTokenCount": 0,
+                    "candidatesTokenCount": 94,
+                    "totalTokenCount": 329,
+                    "thoughtsTokenCount": 0,
+                    "cachedContentTokenCount": 0,
+                    "promptTokensDetails": null,
+                    "toolUsePromptTokensDetails": null,
+                    "candidatesTokensDetails": null
+                  }
+                },
+                "response_model": null,
+                "status": "ok"
+              }
+            ]
+          }
+        }
+      },
+      "manifest_sha256": "cafe9515bcad034e7a4202814bf931259c9ac3213d0c772b5424d4100ee95414",
+      "backend": {
+        "videos": {
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "blocked_input_policy",
+            "attempts": 1,
+            "transient_remaining": false,
+            "rejection": {
+              "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+              "purpose": "perception:G2_V000104:W00055",
+              "service_error_code": "content_filter"
+            }
+          },
+          "G2_V000071": {
+            "video_id": "G2_V000071",
+            "status": "complete",
+            "n_scored": 6
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000108": {
+            "video_id": "G2_V000108",
+            "status": "complete",
+            "n_scored": 5
+          },
+          "G2_V000110": {
+            "video_id": "G2_V000110",
+            "status": "complete",
+            "n_scored": 6
+          },
+          "G2_V000129": {
+            "video_id": "G2_V000129",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000105": {
+            "video_id": "G2_V000105",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000112": {
+            "video_id": "G2_V000112",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000131": {
+            "video_id": "G2_V000131",
+            "status": "complete",
+            "n_scored": 3
+          },
+          "G2_V000106": {
+            "video_id": "G2_V000106",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000113": {
+            "video_id": "G2_V000113",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000116": {
+            "video_id": "G2_V000116",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000115": {
+            "video_id": "G2_V000115",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          }
+        },
+        "status": "finished",
+        "active_videos": [],
+        "updated_unix": 1789980896.9894996,
+        "question_count": 69,
+        "n_scored": 20
+      }
+    },
+    "aicodemirror_recharge_parallel_20260921": {
+      "frontend": {
+        "videos": {
+          "G2_V000112": {
+            "video_id": "G2_V000112",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          },
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          },
+          "G2_V000105": {
+            "video_id": "G2_V000105",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          }
+        },
+        "status": "running",
+        "active_videos": [
+          "G2_V000129"
+        ],
+        "queued_videos": [],
+        "updated_unix": 1789981242.6147516,
+        "question_count": 27
+      },
+      "frontend_process": {
+        "pid": 3153264,
+        "workers": 8,
+        "started_unix": 1789978131.6221821
+      },
+      "windows": {
+        "G2_V000104": {
+          "completed": 57,
+          "total": 63,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000104:W00057",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "inference_geo": "not_available",
+                    "input_tokens": 6886,
+                    "iterations": [
+                      {
+                        "cache_creation": {
+                          "ephemeral_1h_input_tokens": 0,
+                          "ephemeral_5m_input_tokens": 0
+                        },
+                        "cache_creation_input_tokens": 0,
+                        "cache_read_input_tokens": 0,
+                        "input_tokens": 6886,
+                        "output_tokens": 2777,
+                        "type": "message"
+                      }
+                    ],
+                    "output_tokens": 2777,
+                    "output_tokens_details": {
+                      "thinking_tokens": 0
+                    },
+                    "service_tier": "standard"
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000104:W00058",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              },
+              {
+                "purpose": "perception:G2_V000104:W00058",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00056",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 517,
+                  "total_tokens": 2400,
+                  "thought_tokens": 1105,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 517,
+                    "totalTokenCount": 2400,
+                    "thoughtsTokenCount": 1105
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00057",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 836,
+                  "total_tokens": 3519,
+                  "thought_tokens": 1905,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 836,
+                    "totalTokenCount": 3519,
+                    "thoughtsTokenCount": 1905
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00058",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 478,
+                  "total_tokens": 2319,
+                  "thought_tokens": 1063,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 478,
+                    "totalTokenCount": 2319,
+                    "thoughtsTokenCount": 1063
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000105": {
+          "completed": 10,
+          "total": 65,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000105:W00009",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "inference_geo": "not_available",
+                    "input_tokens": 6989,
+                    "iterations": [
+                      {
+                        "cache_creation": {
+                          "ephemeral_1h_input_tokens": 0,
+                          "ephemeral_5m_input_tokens": 0
+                        },
+                        "cache_creation_input_tokens": 0,
+                        "cache_read_input_tokens": 0,
+                        "input_tokens": 6989,
+                        "output_tokens": 2276,
+                        "type": "message"
+                      }
+                    ],
+                    "output_tokens": 2276,
+                    "output_tokens_details": {
+                      "thinking_tokens": 0
+                    },
+                    "service_tier": "standard"
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000105:W00010",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 7685
+                    },
+                    "cache_creation_input_tokens": 7685,
+                    "cache_read_input_tokens": 19210,
+                    "input_tokens": 1,
+                    "output_tokens": 3244
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000105:W00011",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00009",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 448,
+                  "total_tokens": 2347,
+                  "thought_tokens": 1123,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 448,
+                    "totalTokenCount": 2347,
+                    "thoughtsTokenCount": 1123
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00010",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 428,
+                  "total_tokens": 2377,
+                  "thought_tokens": 1173,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 428,
+                    "totalTokenCount": 2377,
+                    "thoughtsTokenCount": 1173
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00011",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 497,
+                  "total_tokens": 2041,
+                  "thought_tokens": 768,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 497,
+                    "totalTokenCount": 2041,
+                    "thoughtsTokenCount": 768
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000112": {
+          "completed": 13,
+          "total": 65,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000112:W00014",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              },
+              {
+                "purpose": "perception:G2_V000112:W00014",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              },
+              {
+                "purpose": "perception:G2_V000112:W00014",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00014",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 680,
+                  "total_tokens": 2575,
+                  "thought_tokens": 1119,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 680,
+                    "totalTokenCount": 2575,
+                    "thoughtsTokenCount": 1119
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000117": {
+          "completed": 54,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000117:W00054",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 7277
+                    },
+                    "cache_creation_input_tokens": 7277,
+                    "cache_read_input_tokens": 18190,
+                    "input_tokens": 1,
+                    "output_tokens": 3057
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000117:W00055",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              },
+              {
+                "purpose": "perception:G2_V000117:W00055",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00053",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 439,
+                  "total_tokens": 1953,
+                  "thought_tokens": 736,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 439,
+                    "totalTokenCount": 1953,
+                    "thoughtsTokenCount": 736
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00054",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 481,
+                  "total_tokens": 2192,
+                  "thought_tokens": 933,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 481,
+                    "totalTokenCount": 2192,
+                    "thoughtsTokenCount": 933
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00055",
+                "usage": {
+                  "prompt_tokens": 778,
+                  "completion_tokens": 504,
+                  "total_tokens": 2274,
+                  "thought_tokens": 992,
+                  "raw": {
+                    "promptTokenCount": 778,
+                    "candidatesTokenCount": 504,
+                    "totalTokenCount": 2274,
+                    "thoughtsTokenCount": 992
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              }
+            ]
+          }
+        },
+        "G2_V000129": {
+          "completed": 28,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000129:W00026",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 6723
+                    },
+                    "cache_creation_input_tokens": 6723,
+                    "cache_read_input_tokens": 16805,
+                    "input_tokens": 1,
+                    "output_tokens": 3665
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000129:W00027",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 6593
+                    },
+                    "cache_creation_input_tokens": 6593,
+                    "cache_read_input_tokens": 16480,
+                    "input_tokens": 1,
+                    "output_tokens": 3481
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              },
+              {
+                "purpose": "perception:G2_V000129:W00028",
+                "usage": {
+                  "prompt_tokens": null,
+                  "completion_tokens": null,
+                  "total_tokens": null,
+                  "thought_tokens": null,
+                  "raw": {
+                    "cache_creation": {
+                      "ephemeral_1h_input_tokens": 0,
+                      "ephemeral_5m_input_tokens": 6069
+                    },
+                    "cache_creation_input_tokens": 6069,
+                    "cache_read_input_tokens": 15170,
+                    "input_tokens": 1,
+                    "output_tokens": 2713
+                  }
+                },
+                "response_model": "claude-opus-5",
+                "status": "ok"
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00028",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 520,
+                "service_error_code": null
+              },
+              {
+                "purpose": "audio_observer:W00028",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 449,
+                  "total_tokens": 2575,
+                  "thought_tokens": 1350,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 449,
+                    "totalTokenCount": 2575,
+                    "thoughtsTokenCount": 1350
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              },
+              {
+                "purpose": "audio_observer:W00029",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 340,
+                  "total_tokens": 2298,
+                  "thought_tokens": 1182,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 340,
+                    "totalTokenCount": 2298,
+                    "thoughtsTokenCount": 1182
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              }
+            ]
+          }
+        }
+      },
+      "manifest_sha256": "7f7095fe6840f62038b8b37b68b33013ad91909edbc90300df31c663560252b4",
+      "backend": {
+        "videos": {
+          "G2_V000112": {
+            "video_id": "G2_V000112",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          },
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          },
+          "G2_V000105": {
+            "video_id": "G2_V000105",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          }
+        },
+        "status": "waiting_memory",
+        "active_videos": [],
+        "updated_unix": 1789981147.2714295,
+        "question_count": 27,
+        "n_scored": 0
+      }
+    },
+    "aicodemirror_v106_recovery_20260921": {
+      "frontend": {
+        "videos": {
+          "G2_V000106": {
+            "video_id": "G2_V000106",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          }
+        },
+        "status": "finished",
+        "active_videos": [],
+        "queued_videos": [],
+        "question_count": 6,
+        "updated_unix": 1789981044.6601365
+      },
+      "frontend_process": {
+        "pid": 3312191,
+        "workers": 1,
+        "started_unix": 1789980508.0208566
+      },
+      "windows": {
+        "G2_V000106": {
+          "completed": 36,
+          "total": 64,
+          "complete": false,
+          "recent_calls": {
+            "calls.jsonl": [
+              {
+                "purpose": "perception:G2_V000106:W00037",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              },
+              {
+                "purpose": "perception:G2_V000106:W00037",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              },
+              {
+                "purpose": "perception:G2_V000106:W00037",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 524,
+                "service_error_code": null
+              }
+            ],
+            "audio/calls.jsonl": [
+              {
+                "purpose": "audio_observer:W00037",
+                "status": "error",
+                "error_type": "ServiceError",
+                "http_status": 520,
+                "service_error_code": null
+              },
+              {
+                "purpose": "audio_observer:W00037",
+                "usage": {
+                  "prompt_tokens": 776,
+                  "completion_tokens": 305,
+                  "total_tokens": 1878,
+                  "thought_tokens": 797,
+                  "raw": {
+                    "promptTokenCount": 776,
+                    "candidatesTokenCount": 305,
+                    "totalTokenCount": 1878,
+                    "thoughtsTokenCount": 797
+                  }
+                },
+                "response_model": "gemini-2.5-pro",
+                "status": "ok"
+              }
+            ]
+          }
+        }
+      },
+      "manifest_sha256": "657ac300282be38ba777d40d9396e85f1e10e705c238c42ba993a4263ff241f6",
+      "backend": {
+        "videos": {
+          "G2_V000106": {
+            "video_id": "G2_V000106",
+            "status": "frontend_failed",
+            "attempts": 4,
+            "transient_remaining": true
+          }
+        },
+        "status": "finished",
+        "active_videos": [],
+        "updated_unix": 1789981077.2174551,
+        "question_count": 6,
+        "n_scored": 0
+      }
+    }
+  },
+  "receiver_fix": {
+    "cause": "JSONDecodeError while reading a partially uploaded ready marker",
+    "behavior": "Wait for fresh incomplete markers and archives; stale malformed markers fail closed. Verify archive/member SHA before import.",
+    "blackai_backend_pid": 339943,
+    "blackai_backend_finished": true,
+    "blackai_imported_packages": 13,
+    "blackai_scores_sha256_before_and_after": "f21d6abc25f46cd3e78bf3b31cf6660ee860ea61675ee8c56657569aaf1fb238",
+    "mirror_backend_pid": 339944,
+    "v106_backend_pid": 339945,
+    "mirror_handoff": "Old PID 321089 stopped only after no children and no active videos; no API request cancelled."
+  },
+  "transfer": {
+    "blackai": {
+      "sent": 13,
+      "expected": 13,
+      "producer_done": true,
+      "finished": true
+    },
+    "aicodemirror": {
+      "pid": 26424,
+      "expected": 5
+    },
+    "v106": {
+      "pid": 40755,
+      "sent": 1,
+      "expected": 1,
+      "producer_done": true,
+      "finished": true
+    }
+  },
+  "new_v106_scope": {
+    "questions": 6,
+    "inherited_windows": 36,
+    "reason": "Independent provider continuation after BlackAI W37 audio JSON/schema failure; no content-filter inference.",
+    "first_audio_window_passed": true,
+    "same_parent_windows_and_first_scores": true
+  },
+  "missing_question_groups": {
+    "active_videos": {
+      "videos": [
+        "G2_V000129"
+      ],
+      "question_ids": [
+        "G2_Q000510",
+        "G2_Q000511",
+        "G2_Q000512",
+        "G2_Q000513"
+      ]
+    },
+    "blackai_structure_stopped": {
+      "videos": [
+        "G2_V000113",
+        "G2_V000115",
+        "G2_V000116"
+      ],
+      "question_ids": [
+        "G2_Q000432",
+        "G2_Q000433",
+        "G2_Q000434",
+        "G2_Q000435",
+        "G2_Q000436",
+        "G2_Q000437",
+        "G2_Q000445",
+        "G2_Q000446",
+        "G2_Q000447",
+        "G2_Q000448",
+        "G2_Q000449",
+        "G2_Q000450",
+        "G2_Q000451",
+        "G2_Q000452",
+        "G2_Q000453",
+        "G2_Q000454"
+      ]
+    },
+    "mirror_http524_exhausted": {
+      "videos": [
+        "G2_V000104",
+        "G2_V000105",
+        "G2_V000106",
+        "G2_V000112",
+        "G2_V000117"
+      ],
+      "question_ids": [
+        "G2_Q000382",
+        "G2_Q000383",
+        "G2_Q000384",
+        "G2_Q000385",
+        "G2_Q000386",
+        "G2_Q000387",
+        "G2_Q000388",
+        "G2_Q000389",
+        "G2_Q000390",
+        "G2_Q000391",
+        "G2_Q000392",
+        "G2_Q000393",
+        "G2_Q000394",
+        "G2_Q000395",
+        "G2_Q000396",
+        "G2_Q000397",
+        "G2_Q000398",
+        "G2_Q000399",
+        "G2_Q000427",
+        "G2_Q000428",
+        "G2_Q000429",
+        "G2_Q000430",
+        "G2_Q000431",
+        "G2_Q000455",
+        "G2_Q000456",
+        "G2_Q000457",
+        "G2_Q000458",
+        "G2_Q000459",
+        "G2_Q000460"
+      ]
+    },
+    "old_matrix_policy": {
+      "question_ids": [
+        "G2_Q000259",
+        "G2_Q000260",
+        "G2_Q000350"
+      ]
+    }
+  }
+}
