@@ -6,6 +6,10 @@ E09 v2 保留暂停检查点。用户于 2026-09-18 授权在 AIStudio 实验 62
 
 ## BlackAI 续评：E11
 
+### 替代模型的小规模实测
+
+2026-09-21：针对 6 个仍失败的视频窗口，完成 18 次有限模型对照请求。AICodeMirror Claude Opus 5 在 V105 视觉窗口通过原图谱校验，V71 两次 HTTP 524；Gemini 2.5 Pro 在 V48/V115/V129 音频窗口通过，V137 因 voice 字段为空未通过。Gemini Pro 在两个视觉窗口仍被过滤，BlackAI 的 2.5 Pro 生成端点返回 404。候选组合是 Claude 视觉 + Gemini Pro 音频，但尚未验证全部 15 个视频的完整图谱；这轮没有新增评分。[配置、逐请求结果及下一批建议](results/alternative_models_20260921/validation.md)。
+
 ### Gemini 3.7 与 AICodeMirror 接续
 
 2026-09-21 02:42 CST：AICodeMirror 已补全 V67 的 **26/26 窗口与 6/6 评分**，本批均分 **56.94**；累计 **476/558（85.30%）、57.65 分**。旧三批评分哈希不变。HTTP 524 经一次额外断点恢复通过；AIStudio 缺少分视频题单导致的本地启动故障已修复并保留审计记录，g450/AIStudio 各 7 项相关测试通过。可执行队列全部结束；余下 82 题中，79 题因 15 视频的 AICodeMirror 音视频内容过滤无法完成，2 题在 Matrix GPT-6 回答阶段、1 题在其评分阶段被过滤。未达到全量成功；结果保存推送后停止自动轮询。[最终三个任务、分剧和逐题来源](results/aicodemirror_recovery_20260921/final_report.md)。

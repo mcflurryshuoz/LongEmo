@@ -29,7 +29,10 @@ def mirror_headers(client):
     return {"Content-Type": "application/json", "Authorization": "Bearer " + client.api_key}
 
 
-def probe_video(runtime, directory, key, vid):
+def probe_video(runtime, directory, key, vid, profile=None):
+    profile = profile or {"provider": "AICodeMirror", "model": MODEL, "base_url": BASE,
+                          "api_format": "gemini", "audio_options": {"generationConfig": {"thinkingConfig": {"thinkingLevel": "low"}}},
+                          "visual_options": {"generationConfig": {"thinkingConfig": {"thinkingLevel": "medium"}}}}
     parent = runtime / "runs" / PARENT
     source = parent / "memory" / vid
     folder = directory / vid
@@ -47,10 +50,14 @@ def probe_video(runtime, directory, key, vid):
     cached_audio = source / "audio" / (wid + ".json")
     stage = "visual" if cached_audio.exists() else "audio"
     result = {"video_id": vid, "window_id": wid, "stage": stage,
-        "core_interval": core, "media_interval": interval, "provider": "AICodeMirror",
-        "model": MODEL, "base_url": BASE, "attempts": 1, "time_unix": time.time(),
+        "core_interval": core, "media_interval": interval, "provider": profile["provider"],
+        "model": profile["model"], "base_url": profile["base_url"], "attempts": 1, "time_unix": time.time(),
         "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores"}
     try:
+        if stage == "audio" and profile["api_format"] == "anthropic":
+            result.update(status="unsupported_modality", attempts=0)
+            atomic(folder / "result.json", result)
+            return result
         content, metadata = window_input(video, *interval, fps=1, max_frames=16,
             max_pixels=150528, with_audio=(stage == "audio"),
             subtitle_rows=subtitles(runtime / "data/prepared_subtitles" / (vid + ".json")))
@@ -58,8 +65,8 @@ def probe_video(runtime, directory, key, vid):
             audio = [part for part in content if part["type"] == "input_audio"]
             messages = [{"role": "system", "content": AUDIO_PROMPT}, {"role": "user", "content": [
                 {"type": "text", "text": json.dumps({"clip_start": interval[0], "clip_end": interval[1]})}] + audio}]
-            client = Client(MODEL, BASE, "gemini", key, 180, 4096, None,
-                {"generationConfig": {"thinkingConfig": {"thinkingLevel": "low"}}})
+            client = Client(profile["model"], profile["base_url"], profile["api_format"], key, 180, 4096, None,
+                profile.get("audio_options", {}))
             def validate(payload):
                 if not isinstance(payload, dict) or not isinstance(payload.get("observations"), list):
                     raise ValueError("audio observations must be a list")
@@ -78,17 +85,20 @@ def probe_video(runtime, directory, key, vid):
                 "corrections_enabled": False, "cast": memory["entities"], "preceding_events": memory["events"][-3:]}
             messages = [{"role": "system", "content": PERCEPTION}, {"role": "user", "content": [
                 {"type": "text", "text": json.dumps(context, ensure_ascii=False)}] + content}]
-            client = Client(MODEL, BASE, "gemini", key, 240, 8192, 1,
-                {"generationConfig": {"thinkingConfig": {"thinkingLevel": "medium"}}})
+            client = Client(profile["model"], profile["base_url"], profile["api_format"], key, 240, 8192,
+                None if profile["api_format"] == "anthropic" else 1, profile.get("visual_options", {}))
             def validate(payload):
                 apply_window(memory, payload, window_id=wid, core=core, media=interval,
                              metadata=metadata, allow_revisions=False)
         result["request_hash"] = fingerprint(messages)
+        result["client_configuration"] = client.configuration()
         # Retain exact validation error class and safe response metadata; no key/payload in stdout.
         response = client.generate(messages)
         raw = response.get("raw_response") or {}
-        result.update(response_model=raw.get("modelVersion"), finish_reason=response.get("finish_reason"),
+        result.update(response_model=raw.get("modelVersion", raw.get("model")), finish_reason=response.get("finish_reason"),
                       usage=response.get("usage"), text_characters=len(response["content"]))
+        if response.get("finish_reason") == "refusal":
+            raise ServiceError(200, "content_filter")
         from evaluation.inference.prompts import json_object
         payload = json_object(response["content"])
         write_json(folder / "payload.json", payload)

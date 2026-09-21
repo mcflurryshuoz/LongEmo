@@ -1,0 +1,942 @@
+{
+  "as_of": "2026-09-21T02:34:14.322662+00:00",
+  "scope": "Diagnostic comparison on first failed windows, not complete graph construction or benchmark scoring",
+  "baseline": {
+    "n_scored": 476,
+    "n_total": 558,
+    "score_percent": 57.65056022408962
+  },
+  "attempt_count": 18,
+  "video_count": 6,
+  "same_messages_per_video": {
+    "G2_V000048": "99ac5e9a2dc29b6cbdd5df93d2997ba26a4d8e50d5a46c5c7437c7a5c02858ec",
+    "G2_V000071": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+    "G2_V000105": "d6184a2652b3ff3cec042ea80ecf2ce76e6b6a6ec5ea6afc2fa6941b95cd99a4",
+    "G2_V000115": "498ceef0b64e6cdc226d193941a8b3e5063d27f320dc3aa377f60856377270e9",
+    "G2_V000129": "7faa2e6c173b4a5522a16e30a799e4a7fe39f0c9c297fbbd8deb9bd4f572c9fe",
+    "G2_V000137": "f3297c01b465b6059a12d33c126ef702e3c040ce96dd746c0ae35519cdc5a649"
+  },
+  "media": {
+    "window_seconds": 20,
+    "padding_seconds": 2,
+    "fps": 1,
+    "max_frames": 16,
+    "max_pixels": 150528
+  },
+  "schema": "Existing apply_window and audio span/voice/cue validators unchanged",
+  "profiles": {
+    "mirror_gemini25_pro": {
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "api_format": "gemini",
+      "audio_options": {
+        "generationConfig": {
+          "thinkingConfig": {
+            "thinkingBudget": 1024
+          }
+        }
+      },
+      "visual_options": {
+        "generationConfig": {
+          "thinkingConfig": {
+            "thinkingBudget": 1024
+          }
+        }
+      },
+      "provider": "AICodeMirror"
+    },
+    "mirror_gemini31_pro": {
+      "model": "gemini-3.1-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "api_format": "gemini",
+      "audio_options": {
+        "generationConfig": {
+          "thinkingConfig": {
+            "thinkingLevel": "low"
+          }
+        }
+      },
+      "visual_options": {
+        "generationConfig": {
+          "thinkingConfig": {
+            "thinkingLevel": "low"
+          }
+        }
+      },
+      "provider": "AICodeMirror"
+    },
+    "mirror_claude_opus5": {
+      "model": "claude-opus-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "api_format": "anthropic",
+      "provider": "AICodeMirror"
+    },
+    "blackai_gemini25_pro": {
+      "provider": "BlackAI",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://www.blackaicoding.com/v1beta",
+      "api_format": "gemini",
+      "audio_options": {
+        "generationConfig": {
+          "thinkingConfig": {
+            "thinkingBudget": 1024
+          }
+        }
+      },
+      "visual_options": {
+        "generationConfig": {
+          "thinkingConfig": {
+            "thinkingBudget": 1024
+          }
+        }
+      }
+    },
+    "mirror_claude_sonnet5": {
+      "provider": "AICodeMirror",
+      "model": "claude-sonnet-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "api_format": "anthropic"
+    },
+    "mirror_claude_opus5_retry1": {
+      "provider": "AICodeMirror",
+      "model": "claude-opus-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "api_format": "anthropic"
+    }
+  },
+  "results": [
+    {
+      "video_id": "G2_V000048",
+      "window_id": "W00061",
+      "stage": "audio",
+      "core_interval": [
+        1200,
+        1220
+      ],
+      "media_interval": [
+        1198,
+        1222
+      ],
+      "provider": "BlackAI",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://www.blackaicoding.com/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957701.5807576,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "99ac5e9a2dc29b6cbdd5df93d2997ba26a4d8e50d5a46c5c7437c7a5c02858ec",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 404,
+      "service_error_code": "404",
+      "elapsed_seconds": 3.468,
+      "profile": "blackai_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000071",
+      "window_id": "W00004",
+      "stage": "visual",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "BlackAI",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://www.blackaicoding.com/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957701.5749128,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "8a67e37be090d650e20d59402256b9d39b34866bd6f72ed7bbc00a43cc8f619d",
+      "request_hash": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 8192,
+        "temperature": 1,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 404,
+      "service_error_code": "404",
+      "elapsed_seconds": 3.097,
+      "profile": "blackai_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000105",
+      "window_id": "W00001",
+      "stage": "visual",
+      "core_interval": [
+        0,
+        20
+      ],
+      "media_interval": [
+        0,
+        22
+      ],
+      "provider": "BlackAI",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://www.blackaicoding.com/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957702.0750082,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "6c6c9a9fe98c6241381056a5dace8b3ecbf199b39b1b50f94e200e09986c1e64",
+      "request_hash": "d6184a2652b3ff3cec042ea80ecf2ce76e6b6a6ec5ea6afc2fa6941b95cd99a4",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 8192,
+        "temperature": 1,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 404,
+      "service_error_code": "404",
+      "elapsed_seconds": 2.272,
+      "profile": "blackai_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000048",
+      "window_id": "W00061",
+      "stage": "audio",
+      "core_interval": [
+        1200,
+        1220
+      ],
+      "media_interval": [
+        1198,
+        1222
+      ],
+      "provider": "AICodeMirror",
+      "model": "claude-opus-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "attempts": 0,
+      "time_unix": 1789957647.8104086,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "status": "unsupported_modality",
+      "profile": "mirror_claude_opus5"
+    },
+    {
+      "video_id": "G2_V000071",
+      "window_id": "W00004",
+      "stage": "visual",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "AICodeMirror",
+      "model": "claude-opus-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "attempts": 1,
+      "time_unix": 1789957630.8466275,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "8a67e37be090d650e20d59402256b9d39b34866bd6f72ed7bbc00a43cc8f619d",
+      "request_hash": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+      "client_configuration": {
+        "model": "claude-opus-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "api_format": "anthropic",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {},
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 524,
+      "service_error_code": null,
+      "elapsed_seconds": 127.644,
+      "profile": "mirror_claude_opus5"
+    },
+    {
+      "video_id": "G2_V000105",
+      "window_id": "W00001",
+      "stage": "visual",
+      "core_interval": [
+        0,
+        20
+      ],
+      "media_interval": [
+        0,
+        22
+      ],
+      "provider": "AICodeMirror",
+      "model": "claude-opus-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "attempts": 1,
+      "time_unix": 1789957643.2231874,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "6c6c9a9fe98c6241381056a5dace8b3ecbf199b39b1b50f94e200e09986c1e64",
+      "request_hash": "d6184a2652b3ff3cec042ea80ecf2ce76e6b6a6ec5ea6afc2fa6941b95cd99a4",
+      "client_configuration": {
+        "model": "claude-opus-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "api_format": "anthropic",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {},
+        "timeout": 240
+      },
+      "response_model": "claude-opus-5",
+      "finish_reason": "end_turn",
+      "usage": {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 5801
+        },
+        "cache_creation_input_tokens": 5801,
+        "cache_read_input_tokens": 8832,
+        "input_tokens": 1,
+        "output_tokens": 5672
+      },
+      "text_characters": 12936,
+      "status": "ok",
+      "observations": 14,
+      "events": 5,
+      "elapsed_seconds": 91.045,
+      "profile": "mirror_claude_opus5"
+    },
+    {
+      "video_id": "G2_V000071",
+      "window_id": "W00004",
+      "stage": "visual",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "AICodeMirror",
+      "model": "claude-opus-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "attempts": 1,
+      "time_unix": 1789957854.1745822,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "8a67e37be090d650e20d59402256b9d39b34866bd6f72ed7bbc00a43cc8f619d",
+      "request_hash": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+      "client_configuration": {
+        "model": "claude-opus-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "api_format": "anthropic",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {},
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 524,
+      "service_error_code": null,
+      "elapsed_seconds": 127.783,
+      "profile": "mirror_claude_opus5_retry1"
+    },
+    {
+      "video_id": "G2_V000071",
+      "window_id": "W00004",
+      "stage": "visual",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "AICodeMirror",
+      "model": "claude-sonnet-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "attempts": 1,
+      "time_unix": 1789957851.937049,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "8a67e37be090d650e20d59402256b9d39b34866bd6f72ed7bbc00a43cc8f619d",
+      "request_hash": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+      "client_configuration": {
+        "model": "claude-sonnet-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "api_format": "anthropic",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {},
+        "timeout": 240
+      },
+      "response_model": "claude-sonnet-5",
+      "finish_reason": "end_turn",
+      "usage": {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 599
+        },
+        "cache_creation_input_tokens": 599,
+        "cache_read_input_tokens": 1806,
+        "input_tokens": 1,
+        "output_tokens": 2513
+      },
+      "text_characters": 10052,
+      "status": "error",
+      "error_type": "JSONDecodeError",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "elapsed_seconds": 47.149,
+      "profile": "mirror_claude_sonnet5"
+    },
+    {
+      "video_id": "G2_V000105",
+      "window_id": "W00001",
+      "stage": "visual",
+      "core_interval": [
+        0,
+        20
+      ],
+      "media_interval": [
+        0,
+        22
+      ],
+      "provider": "AICodeMirror",
+      "model": "claude-sonnet-5",
+      "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+      "attempts": 1,
+      "time_unix": 1789957852.4001095,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "6c6c9a9fe98c6241381056a5dace8b3ecbf199b39b1b50f94e200e09986c1e64",
+      "request_hash": "d6184a2652b3ff3cec042ea80ecf2ce76e6b6a6ec5ea6afc2fa6941b95cd99a4",
+      "client_configuration": {
+        "model": "claude-sonnet-5",
+        "base_url": "https://api.aicodemirror.ai/api/claudecode/v1",
+        "api_format": "anthropic",
+        "max_tokens": 8192,
+        "temperature": null,
+        "options": {},
+        "timeout": 240
+      },
+      "response_model": "claude-sonnet-5",
+      "finish_reason": "end_turn",
+      "usage": {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 357
+        },
+        "cache_creation_input_tokens": 357,
+        "cache_read_input_tokens": 1076,
+        "input_tokens": 1,
+        "output_tokens": 1653
+      },
+      "text_characters": 6610,
+      "status": "error",
+      "error_type": "ValueError",
+      "error": "observation subject must reference a declared entity",
+      "elapsed_seconds": 30.366,
+      "profile": "mirror_claude_sonnet5"
+    },
+    {
+      "video_id": "G2_V000048",
+      "window_id": "W00061",
+      "stage": "audio",
+      "core_interval": [
+        1200,
+        1220
+      ],
+      "media_interval": [
+        1198,
+        1222
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957619.6587763,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "99ac5e9a2dc29b6cbdd5df93d2997ba26a4d8e50d5a46c5c7437c7a5c02858ec",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "response_model": "gemini-2.5-pro",
+      "finish_reason": "STOP",
+      "usage": {
+        "promptTokenCount": 774,
+        "candidatesTokenCount": 572,
+        "totalTokenCount": 2537,
+        "thoughtsTokenCount": 1191
+      },
+      "text_characters": 1650,
+      "status": "ok",
+      "observations": 8,
+      "events": 0,
+      "elapsed_seconds": 23.034,
+      "profile": "mirror_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000071",
+      "window_id": "W00004",
+      "stage": "visual",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957619.6533358,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "8a67e37be090d650e20d59402256b9d39b34866bd6f72ed7bbc00a43cc8f619d",
+      "request_hash": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 8192,
+        "temperature": 1,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 200,
+      "service_error_code": "content_filter",
+      "elapsed_seconds": 5.319,
+      "profile": "mirror_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000105",
+      "window_id": "W00001",
+      "stage": "visual",
+      "core_interval": [
+        0,
+        20
+      ],
+      "media_interval": [
+        0,
+        22
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957620.6380196,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "6c6c9a9fe98c6241381056a5dace8b3ecbf199b39b1b50f94e200e09986c1e64",
+      "request_hash": "d6184a2652b3ff3cec042ea80ecf2ce76e6b6a6ec5ea6afc2fa6941b95cd99a4",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 8192,
+        "temperature": 1,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 200,
+      "service_error_code": "content_filter",
+      "elapsed_seconds": 4.296,
+      "profile": "mirror_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000115",
+      "window_id": "W00024",
+      "stage": "audio",
+      "core_interval": [
+        460,
+        480
+      ],
+      "media_interval": [
+        458,
+        482
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957787.7952502,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "498ceef0b64e6cdc226d193941a8b3e5063d27f320dc3aa377f60856377270e9",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "response_model": "gemini-2.5-pro",
+      "finish_reason": "STOP",
+      "usage": {
+        "promptTokenCount": 772,
+        "candidatesTokenCount": 454,
+        "totalTokenCount": 2118,
+        "thoughtsTokenCount": 892
+      },
+      "text_characters": 1423,
+      "status": "ok",
+      "observations": 5,
+      "events": 0,
+      "elapsed_seconds": 19.368,
+      "profile": "mirror_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000129",
+      "window_id": "W00004",
+      "stage": "audio",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957787.797444,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "7faa2e6c173b4a5522a16e30a799e4a7fe39f0c9c297fbbd8deb9bd4f572c9fe",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "response_model": "gemini-2.5-pro",
+      "finish_reason": "STOP",
+      "usage": {
+        "promptTokenCount": 770,
+        "candidatesTokenCount": 678,
+        "totalTokenCount": 2463,
+        "thoughtsTokenCount": 1015
+      },
+      "text_characters": 2134,
+      "status": "ok",
+      "observations": 9,
+      "events": 0,
+      "elapsed_seconds": 24.43,
+      "profile": "mirror_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000137",
+      "window_id": "W00060",
+      "stage": "audio",
+      "core_interval": [
+        1180,
+        1200
+      ],
+      "media_interval": [
+        1178,
+        1202
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-2.5-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957787.8034804,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "f3297c01b465b6059a12d33c126ef702e3c040ce96dd746c0ae35519cdc5a649",
+      "client_configuration": {
+        "model": "gemini-2.5-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingBudget": 1024
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "response_model": "gemini-2.5-pro",
+      "finish_reason": "STOP",
+      "usage": {
+        "promptTokenCount": 774,
+        "candidatesTokenCount": 465,
+        "totalTokenCount": 2127,
+        "thoughtsTokenCount": 888
+      },
+      "text_characters": 1403,
+      "status": "error",
+      "error_type": "ValueError",
+      "error": "voice must be nonempty text",
+      "elapsed_seconds": 26.994,
+      "profile": "mirror_gemini25_pro"
+    },
+    {
+      "video_id": "G2_V000048",
+      "window_id": "W00061",
+      "stage": "audio",
+      "core_interval": [
+        1200,
+        1220
+      ],
+      "media_interval": [
+        1198,
+        1222
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-3.1-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957630.4194,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "99ac5e9a2dc29b6cbdd5df93d2997ba26a4d8e50d5a46c5c7437c7a5c02858ec",
+      "client_configuration": {
+        "model": "gemini-3.1-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingLevel": "low"
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "response_model": "gemini-3.1-pro-high",
+      "finish_reason": "STOP",
+      "usage": {
+        "promptTokenCount": 774,
+        "candidatesTokenCount": 523,
+        "totalTokenCount": 1942,
+        "thoughtsTokenCount": 645,
+        "cachedContentTokenCount": 0
+      },
+      "text_characters": 1499,
+      "status": "ok",
+      "observations": 7,
+      "events": 0,
+      "elapsed_seconds": 17.323,
+      "profile": "mirror_gemini31_pro"
+    },
+    {
+      "video_id": "G2_V000071",
+      "window_id": "W00004",
+      "stage": "visual",
+      "core_interval": [
+        60,
+        80
+      ],
+      "media_interval": [
+        58,
+        82
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-3.1-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957624.9984717,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "8a67e37be090d650e20d59402256b9d39b34866bd6f72ed7bbc00a43cc8f619d",
+      "request_hash": "e850247a31e5f138885a7b00bce7ddc31519903d22e9ac6b95220432e2fe0044",
+      "client_configuration": {
+        "model": "gemini-3.1-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 8192,
+        "temperature": 1,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingLevel": "low"
+            }
+          }
+        },
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 200,
+      "service_error_code": "content_filter",
+      "elapsed_seconds": 5.781,
+      "profile": "mirror_gemini31_pro"
+    },
+    {
+      "video_id": "G2_V000105",
+      "window_id": "W00001",
+      "stage": "visual",
+      "core_interval": [
+        0,
+        20
+      ],
+      "media_interval": [
+        0,
+        22
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-3.1-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957625.5237942,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "audio_cache_sha256": "6c6c9a9fe98c6241381056a5dace8b3ecbf199b39b1b50f94e200e09986c1e64",
+      "request_hash": "d6184a2652b3ff3cec042ea80ecf2ce76e6b6a6ec5ea6afc2fa6941b95cd99a4",
+      "client_configuration": {
+        "model": "gemini-3.1-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 8192,
+        "temperature": 1,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingLevel": "low"
+            }
+          }
+        },
+        "timeout": 240
+      },
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 200,
+      "service_error_code": "content_filter",
+      "elapsed_seconds": 4.826,
+      "profile": "mirror_gemini31_pro"
+    },
+    {
+      "video_id": "G2_V000137",
+      "window_id": "W00060",
+      "stage": "audio",
+      "core_interval": [
+        1180,
+        1200
+      ],
+      "media_interval": [
+        1178,
+        1202
+      ],
+      "provider": "AICodeMirror",
+      "model": "gemini-3.1-pro",
+      "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+      "attempts": 1,
+      "time_unix": 1789957886.4086833,
+      "scope": "Independent diagnostic of first unfinished window; does not complete a video or add scores",
+      "request_hash": "f3297c01b465b6059a12d33c126ef702e3c040ce96dd746c0ae35519cdc5a649",
+      "client_configuration": {
+        "model": "gemini-3.1-pro",
+        "base_url": "https://api.aicodemirror.ai/api/gemini/v1beta",
+        "api_format": "gemini",
+        "max_tokens": 4096,
+        "temperature": null,
+        "options": {
+          "generationConfig": {
+            "thinkingConfig": {
+              "thinkingLevel": "low"
+            }
+          }
+        },
+        "timeout": 180
+      },
+      "response_model": "gemini-3.1-pro-high",
+      "finish_reason": "STOP",
+      "usage": {
+        "promptTokenCount": 774,
+        "candidatesTokenCount": 466,
+        "totalTokenCount": 1868,
+        "thoughtsTokenCount": 628,
+        "cachedContentTokenCount": 0
+      },
+      "text_characters": 1382,
+      "status": "error",
+      "error_type": "ValueError",
+      "error": "voice must be nonempty text",
+      "elapsed_seconds": 21.582,
+      "profile": "mirror_gemini31_pro"
+    }
+  ],
+  "retry": {
+    "model": "claude-opus-5",
+    "video_id": "G2_V000071",
+    "reason": "explicit HTTP 524 only",
+    "extra_attempts": 1,
+    "outcome": "HTTP 524 again; stop"
+  }
+}

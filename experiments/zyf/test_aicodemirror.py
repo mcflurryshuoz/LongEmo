@@ -8,11 +8,22 @@ from evaluation.clients import Client
 from experiments.zyf.aicodemirror_probe import BASE, mirror_headers
 from experiments.zyf.aicodemirror_worker import verified_inherited_audio
 from experiments.zyf.aicodemirror_continue import prepare_question_files
+from experiments.zyf.alternative_model_probe import claude_headers
 from methods.longemo.audio import AUDIO_PROMPT
 from methods.longemo.common import fingerprint
 
 
 class MirrorTests(unittest.TestCase):
+    def test_claude_bearer_auth_does_not_change_other_providers(self):
+        client = Client('claude-opus-5', 'https://api.aicodemirror.ai/api/claudecode/v1', 'anthropic', 'secret')
+        headers = claude_headers(client)
+        self.assertEqual(headers['Authorization'], 'Bearer secret')
+        self.assertEqual(headers['anthropic-version'], '2023-06-01')
+        self.assertNotIn('x-api-key', headers)
+        client.base_url = 'https://api.anthropic.com/v1'
+        self.assertNotIn('Authorization', claude_headers(client))
+        self.assertEqual(claude_headers(client)['x-api-key'], 'secret')
+
     def test_backend_question_subsets_are_created_and_never_silently_changed(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
