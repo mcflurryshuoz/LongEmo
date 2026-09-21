@@ -1,6 +1,6 @@
 # LongEmo 方法进度
 
-[当前方法评测结果](results/current_method/report.md) · [方法整体流程](../../README.md#zyf-分支当前方法整体流程) · [研究方案](plan.md) · [历史实验记录](progress_history.md)
+[当前方法评测结果](results/current_method/report.md) · [方法整体流程](../../README.md#method-分支完整事件流检索方法) · [研究方案](plan.md) · [历史实验记录](progress_history.md)
 
 已实现情感事件记忆图谱、结构化语义与 Embedding 双路检索、图关系扩展，以及 GPT-6 证据驱动回答和官方评分。
 
