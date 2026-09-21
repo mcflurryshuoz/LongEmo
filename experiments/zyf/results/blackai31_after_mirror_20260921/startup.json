@@ -1,0 +1,732 @@
+{
+  "as_of": "2026-09-21T10:57:04+00:00",
+  "configuration": {
+    "fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+    "configuration": {
+      "protocol": "blackai_gemini31_after_mirror_20260921",
+      "method_hash": "f18c436a4d2272f32a938df8f13882b1062e121f6d1b6d6efb067a97aadf8797",
+      "parent_runs": {
+        "G2_V000104": "aicodemirror_stream_remaining_20260921",
+        "G2_V000105": "aicodemirror_stream_remaining_20260921",
+        "G2_V000106": "aicodemirror_stream_remaining_20260921",
+        "G2_V000112": "aicodemirror_stream_remaining_20260921",
+        "G2_V000113": "aicodemirror_stream_remaining_20260921",
+        "G2_V000115": "aicodemirror_stream_remaining_20260921",
+        "G2_V000116": "aicodemirror_stream_remaining_20260921",
+        "G2_V000117": "aicodemirror_stream_remaining_20260921",
+        "G2_V000129": "aicodemirror_stream_v129_20260921"
+      },
+      "worker_hashes": {
+        "blackai31_continuation.py": "7834867503891143bce86f18b78626009d220cfbc8026b3ae9a81ce25a997311",
+        "blackai31_worker.py": "23bf4fb7c9988a79f2cf98cc9349aaff76de1b3b4ebbd8bdf009b2762b4ab529",
+        "native_worker.py": "139295e752ea00052d2d848d11eea8ae81dfa48c2a00f91976d0fec958611e56",
+        "blackai_continuation.py": "99fe33381c5673ab30eb1fd31c342c187438638452077d7d59012a3a6f091b67"
+      },
+      "question_ids": [
+        "G2_Q000382",
+        "G2_Q000383",
+        "G2_Q000384",
+        "G2_Q000385",
+        "G2_Q000386",
+        "G2_Q000387",
+        "G2_Q000388",
+        "G2_Q000389",
+        "G2_Q000390",
+        "G2_Q000391",
+        "G2_Q000392",
+        "G2_Q000393",
+        "G2_Q000394",
+        "G2_Q000395",
+        "G2_Q000396",
+        "G2_Q000397",
+        "G2_Q000398",
+        "G2_Q000399",
+        "G2_Q000427",
+        "G2_Q000428",
+        "G2_Q000429",
+        "G2_Q000430",
+        "G2_Q000431",
+        "G2_Q000432",
+        "G2_Q000433",
+        "G2_Q000434",
+        "G2_Q000435",
+        "G2_Q000436",
+        "G2_Q000437",
+        "G2_Q000445",
+        "G2_Q000446",
+        "G2_Q000447",
+        "G2_Q000448",
+        "G2_Q000449",
+        "G2_Q000450",
+        "G2_Q000451",
+        "G2_Q000452",
+        "G2_Q000453",
+        "G2_Q000454",
+        "G2_Q000455",
+        "G2_Q000456",
+        "G2_Q000457",
+        "G2_Q000458",
+        "G2_Q000459",
+        "G2_Q000460",
+        "G2_Q000510",
+        "G2_Q000511",
+        "G2_Q000512",
+        "G2_Q000513"
+      ],
+      "question_sha256": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+      "protected_score_hashes": {
+        "matrix_gemini38_gpt6_full_v1": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09",
+        "blackai_gemini38_matrix_gpt6_remaining_v1": "c6981f0882008259bde2e35c67689b4e64b69d1cb157f7aa3f8575563628653c",
+        "blackai_gemini37_matrix_gpt6_compact_20260920": "020c62e05af0f74b887c2eff6cf1093f458632064ff780b5da76ffc749674488",
+        "aicodemirror_gemini37_recovery_20260921": "b8fd9c04a20cc92e794c58f6ebfc129a9ef8df93d47bf33336f2b92c25a54ad4",
+        "aicodemirror_claude5_gemini25_remaining_20260921": "1b730ca9450627a67be3d5f962dc8cfa4bcba3547f3c13cefdc13bbd919d1bb3",
+        "blackai_gemini36_matrix_gpt6_remaining_20260921": "f21d6abc25f46cd3e78bf3b31cf6660ee860ea61675ee8c56657569aaf1fb238"
+      },
+      "protected_first_scores": 506,
+      "visual": {
+        "model": "gemini-3.1-pro-preview",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "max_tokens": 8192,
+        "temperature": null,
+        "timeout": 240,
+        "options": {}
+      },
+      "audio": {
+        "model": "gemini-3.1-pro-preview",
+        "base_url": "https://www.blackaicoding.com/v1beta",
+        "max_tokens": 4096,
+        "temperature": null,
+        "timeout": 180,
+        "options": {}
+      },
+      "media": {
+        "window_seconds": 20,
+        "padding": 2,
+        "fps": 1,
+        "max_frames": 16,
+        "max_pixels": 150528
+      },
+      "scheduling": {
+        "max_video_workers": 6,
+        "max_media_decoders": 2
+      },
+      "gate": "Each video: one first unfinished-window attempt per stage. Only a fully validated new window allows continuation; reuse its saved graph/audio without another request.",
+      "retry": "Gate: one attempt. Remaining windows: existing three schema attempts. No outer restart in this protocol.",
+      "answer_judge": "Matrix gpt-6-astra; official scorer unchanged",
+      "embedding": "OpenRouter google/gemini-embedding-2",
+      "scope": "49 upstream-unscored questions/9 videos after user authorized BlackAI switch; exclude three old Matrix refusals; mixed inherited and new perception sources."
+    }
+  },
+  "scope": "49 previously unscored questions, nine stopped AICodeMirror graphs; user authorized BlackAI provider switch.",
+  "code_revision": "00ea06c6431b0cf5f64c140bd39f9a0a7d74d5db",
+  "tests": {
+    "local_new_profile": 4,
+    "g450_new_profile": 4,
+    "AIStudio_new_profile": 4,
+    "local_profile_and_transfer": 12
+  },
+  "frontend_process": {
+    "pid": 3924732,
+    "host": "g450",
+    "max_video_workers": 6,
+    "max_media_decoders": 2
+  },
+  "backend_process": {
+    "pid": 393386,
+    "started_unix": 1789988046.1591485,
+    "workers": 6
+  },
+  "relay_process": {
+    "pid": 71052,
+    "started_unix": 1789988072.38547
+  },
+  "question_counts_by_video": {
+    "G2_V000104": 6,
+    "G2_V000105": 6,
+    "G2_V000106": 6,
+    "G2_V000112": 5,
+    "G2_V000113": 6,
+    "G2_V000115": 5,
+    "G2_V000116": 5,
+    "G2_V000117": 6,
+    "G2_V000129": 4
+  },
+  "frontend_snapshot": {
+    "frontend": {
+      "videos": {
+        "G2_V000117": {
+          "video_id": "G2_V000117",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000113": {
+          "video_id": "G2_V000113",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000106": {
+          "video_id": "G2_V000106",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000116": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000105": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000104": {
+          "video_id": "G2_V000104",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "status": "running",
+      "active_videos": [
+        "G2_V000112",
+        "G2_V000115",
+        "G2_V000129"
+      ],
+      "queued_videos": [],
+      "question_count": 49,
+      "updated_unix": 1789988094.734549
+    },
+    "videos": {
+      "G2_V000104": {
+        "windows": 59,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000104",
+          "window_id": "W00060",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987907.663215,
+          "stage": "audio",
+          "parent_memory_sha256": "81b525ed0935b49d7d87261b270743b608bbffe9bacaf05c0b6dd246321b2e9a"
+        },
+        "last_calls": [
+          {
+            "purpose": "audio_observer:W00060",
+            "request_hash": "2787767ad90b2aed329a7c65eee3a0db92cf5933427ae4bda1bafec43e193117",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987914.3236537,
+            "status": "error",
+            "error_type": "TimeoutError",
+            "elapsed_seconds": 180.2138238362968
+          }
+        ]
+      },
+      "G2_V000105": {
+        "windows": 21,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000105",
+          "window_id": "W00022",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987965.762174,
+          "stage": "visual",
+          "parent_memory_sha256": "55a2d804946328bddc8a8e464f7013d56535b3afed2870bcc07c0cc1c619b84f",
+          "request_hash": "367edd703641315b5794f6f4f8ce77338be42e1090d954f7a28a0cb351a2d0e1"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000105:W00022",
+            "request_hash": "367edd703641315b5794f6f4f8ce77338be42e1090d954f7a28a0cb351a2d0e1",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987982.0874217,
+            "usage": {
+              "prompt_tokens": 23957,
+              "completion_tokens": 1405,
+              "total_tokens": 26259,
+              "thought_tokens": 897,
+              "raw": {
+                "promptTokenCount": 23957,
+                "candidatesTokenCount": 1405,
+                "totalTokenCount": 26259,
+                "thoughtsTokenCount": 897
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 30.86436170898378,
+            "validation_error": "relation.evidence_ids needs supporting observation IDs"
+          },
+          {
+            "purpose": "audio_observer:W00022",
+            "request_hash": "75c615f2656a5f97371d3669fcbcfd914df7d9263fe13023370e2b2c6cb170d1",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987969.0917523,
+            "usage": {
+              "prompt_tokens": 776,
+              "completion_tokens": 415,
+              "total_tokens": 1826,
+              "thought_tokens": 635,
+              "raw": {
+                "promptTokenCount": 776,
+                "candidatesTokenCount": 415,
+                "totalTokenCount": 1826,
+                "thoughtsTokenCount": 635
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 12.984610196202993
+          }
+        ]
+      },
+      "G2_V000106": {
+        "windows": 36,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000106",
+          "window_id": "W00037",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987907.6603642,
+          "stage": "visual",
+          "parent_memory_sha256": "998c89199278249d7a6f27bd6650e7707894ab1dcda362ad4126afb873fae694",
+          "request_hash": "1362ef69c7f815b49977c7447b0c39f47d418c7b4de91adde6f76f9070ebd17e"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000106:W00037",
+            "request_hash": "1362ef69c7f815b49977c7447b0c39f47d418c7b4de91adde6f76f9070ebd17e",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987921.826651,
+            "status": "error",
+            "error_type": "ServiceError",
+            "elapsed_seconds": 46.80364793352783,
+            "http_status": 520,
+            "service_error_code": null
+          },
+          {
+            "purpose": "audio_observer:W00037",
+            "request_hash": "278791ba178d0062e216c1d3bca4a657a804bb27a82736ba24e11ad7756ae31c",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987912.523552,
+            "usage": {
+              "prompt_tokens": 776,
+              "completion_tokens": 274,
+              "total_tokens": 1454,
+              "thought_tokens": 404,
+              "raw": {
+                "promptTokenCount": 776,
+                "candidatesTokenCount": 274,
+                "totalTokenCount": 1454,
+                "thoughtsTokenCount": 404
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 9.296055812388659
+          }
+        ]
+      },
+      "G2_V000112": {
+        "windows": 22,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000112",
+          "window_id": "W00021",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987970.0476909,
+          "stage": "visual",
+          "parent_memory_sha256": "919a06b928b4a2d04a7926700d369d4e75710333e3a2e2c733f5721cd37109e6",
+          "request_hash": "0fa2e1a38390cb2d76a549cbd32602bacbd72e5f1bf0fe2442ffa5e36ef7c1e6",
+          "status": "ok",
+          "finished_unix": 1789988014.8862872,
+          "complete": false,
+          "window_sha256": "3fe2530ec1125e2202e53225d84b73a8049b68a3533ce3d2bdaba8ccf5df551f",
+          "memory_sha256": "d991cad2d4108eb2ae83023fda3bd5c07087156304533c3a3db6b65f1b68e0ce"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000112:W00022",
+            "request_hash": "96ee7a57e39bb88ba7ae6215d3437ca61a0f9e0d354ab3f0f1b0b3af1aaab29c",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789988031.5589852,
+            "usage": {
+              "prompt_tokens": 21908,
+              "completion_tokens": 2522,
+              "total_tokens": 26170,
+              "thought_tokens": 1740,
+              "raw": {
+                "promptTokenCount": 21908,
+                "candidatesTokenCount": 2522,
+                "totalTokenCount": 26170,
+                "thoughtsTokenCount": 1740
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 62.706177381798625
+          },
+          {
+            "purpose": "audio_observer:W00022",
+            "request_hash": "c4c7d7d8979f1186fa5259f0106b8d7ca67e1ecf4a95ec838c4841b8c8aba982",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789988017.6174543,
+            "usage": {
+              "prompt_tokens": 776,
+              "completion_tokens": 479,
+              "total_tokens": 2023,
+              "thought_tokens": 768,
+              "raw": {
+                "promptTokenCount": 776,
+                "candidatesTokenCount": 479,
+                "totalTokenCount": 2023,
+                "thoughtsTokenCount": 768
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 13.93787263520062
+          }
+        ]
+      },
+      "G2_V000113": {
+        "windows": 54,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000113",
+          "window_id": "W00055",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987907.6618338,
+          "stage": "visual",
+          "parent_memory_sha256": "4e37dfee3c016f6f5d3b7bea65de6745c518406d198c578af20767083b58cdba",
+          "request_hash": "8ed7d5341fe8a568179b33864efd3b288c061245cd105a3544b6362ec7987ade"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000113:W00055",
+            "request_hash": "8ed7d5341fe8a568179b33864efd3b288c061245cd105a3544b6362ec7987ade",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987928.1229763,
+            "usage": {
+              "prompt_tokens": 22727,
+              "completion_tokens": 1681,
+              "total_tokens": 25523,
+              "thought_tokens": 1115,
+              "raw": {
+                "promptTokenCount": 22727,
+                "candidatesTokenCount": 1681,
+                "totalTokenCount": 25523,
+                "thoughtsTokenCount": 1115
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 36.334752809256315,
+            "validation_error": "relation.evidence_ids needs supporting observation IDs"
+          },
+          {
+            "purpose": "audio_observer:W00055",
+            "request_hash": "b0a6514f31a3932a3bab1a12895af71d09dff1cf388936bce822a6bc78d9c752",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987918.5761898,
+            "usage": {
+              "prompt_tokens": 778,
+              "completion_tokens": 276,
+              "total_tokens": 1569,
+              "thought_tokens": 515,
+              "raw": {
+                "promptTokenCount": 778,
+                "candidatesTokenCount": 276,
+                "totalTokenCount": 1569,
+                "thoughtsTokenCount": 515
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 9.538633806630969
+          }
+        ]
+      },
+      "G2_V000115": {
+        "windows": 49,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000115",
+          "window_id": "W00047",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987907.6581817,
+          "stage": "visual",
+          "parent_memory_sha256": "86639c59e708cc7b9dda6ebd00ef85c7d06a63570828acf956fab3e0ea61bd04",
+          "request_hash": "a961c8b283318ce69e297fa5e1d3b3451d8eead4ecdc4dc5f6813fc7d77d520d",
+          "status": "ok",
+          "finished_unix": 1789987958.4874525,
+          "complete": false,
+          "window_sha256": "9f24d50f34c560b7217665e937dfe82a4a0e56e6bf1d3777fe7cf15fb7f1b082",
+          "memory_sha256": "c991a4ddd5e8f1e9ff83620b7393799016f212e97bc61e8cacfc25e9dd01280a"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000115:W00049",
+            "request_hash": "8aeb735df121612615189a07913b39042346ec1c7e49d98467f9594f1123f7c0",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789988047.980089,
+            "usage": {
+              "prompt_tokens": 22802,
+              "completion_tokens": 1731,
+              "total_tokens": 25498,
+              "thought_tokens": 965,
+              "raw": {
+                "promptTokenCount": 22802,
+                "candidatesTokenCount": 1731,
+                "totalTokenCount": 25498,
+                "thoughtsTokenCount": 965
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 34.65643792413175
+          },
+          {
+            "purpose": "audio_observer:W00049",
+            "request_hash": "64ada36a4a3b3ec28bc80a88ee1adc34c9dc2ea24631dddbaef8076468f44593",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789988032.2470136,
+            "usage": {
+              "prompt_tokens": 776,
+              "completion_tokens": 532,
+              "total_tokens": 1794,
+              "thought_tokens": 486,
+              "raw": {
+                "promptTokenCount": 776,
+                "candidatesTokenCount": 532,
+                "totalTokenCount": 1794,
+                "thoughtsTokenCount": 486
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 15.72855988331139
+          }
+        ]
+      },
+      "G2_V000116": {
+        "windows": 47,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000116",
+          "window_id": "W00048",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987907.6592894,
+          "stage": "visual",
+          "parent_memory_sha256": "1cf818453fb3a05a5761b5ef9c901406f244e7d1dd586adeaf8a4a9597bfc13c",
+          "request_hash": "cd55ce8d226076b925bf57f4a669c699e631542166e01ba2e4e8539a92986449"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000116:W00048",
+            "request_hash": "cd55ce8d226076b925bf57f4a669c699e631542166e01ba2e4e8539a92986449",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987933.713364,
+            "usage": {
+              "prompt_tokens": 22644,
+              "completion_tokens": 1435,
+              "total_tokens": 25467,
+              "thought_tokens": 1388,
+              "raw": {
+                "promptTokenCount": 22644,
+                "candidatesTokenCount": 1435,
+                "totalTokenCount": 25467,
+                "thoughtsTokenCount": 1388
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 38.478887712582946,
+            "validation_error": "relation.evidence_ids needs supporting observation IDs"
+          },
+          {
+            "purpose": "audio_observer:W00048",
+            "request_hash": "55fde31a575e0811f593318d3d29e8125c0ced52ef7c27e51c36e682bc6a3024",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987910.1711147,
+            "usage": {
+              "prompt_tokens": 776,
+              "completion_tokens": 556,
+              "total_tokens": 2301,
+              "thought_tokens": 969,
+              "raw": {
+                "promptTokenCount": 776,
+                "candidatesTokenCount": 556,
+                "totalTokenCount": 2301,
+                "thoughtsTokenCount": 969
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 23.534657822921872
+          }
+        ]
+      },
+      "G2_V000117": {
+        "windows": 63,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000117",
+          "window_id": "W00064",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987907.6630237,
+          "stage": "visual",
+          "parent_memory_sha256": "9cccfb5ac8866e1f3e95713bf10e140a8e2fea101c7b15f40e012e80a2e04a6a",
+          "request_hash": "532a9e96154725201ce46b06f428c0d91e80b1da7bfbfba2cff6d318d6a2f460"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000117:W00064",
+            "request_hash": "532a9e96154725201ce46b06f428c0d91e80b1da7bfbfba2cff6d318d6a2f460",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987926.1407628,
+            "usage": {
+              "prompt_tokens": 22602,
+              "completion_tokens": 629,
+              "total_tokens": 24252,
+              "thought_tokens": 1021,
+              "raw": {
+                "promptTokenCount": 22602,
+                "candidatesTokenCount": 629,
+                "totalTokenCount": 24252,
+                "thoughtsTokenCount": 1021
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "error",
+            "error_type": "ValueError",
+            "elapsed_seconds": 34.50516605004668,
+            "validation_error": "relation.evidence_ids needs supporting observation IDs"
+          },
+          {
+            "purpose": "audio_observer:W00064",
+            "request_hash": "07f1d89e57faeb5c5eae92b52802003d002af043626415a68ea229ad94f2cdd2",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789987917.3431277,
+            "usage": {
+              "prompt_tokens": 658,
+              "completion_tokens": 191,
+              "total_tokens": 1127,
+              "thought_tokens": 278,
+              "raw": {
+                "promptTokenCount": 658,
+                "candidatesTokenCount": 191,
+                "totalTokenCount": 1127,
+                "thoughtsTokenCount": 278
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 8.786574885249138
+          }
+        ]
+      },
+      "G2_V000129": {
+        "windows": 34,
+        "complete": false,
+        "gate": {
+          "video_id": "G2_V000129",
+          "window_id": "W00033",
+          "attempts_per_stage": 1,
+          "started_unix": 1789987963.1097136,
+          "stage": "visual",
+          "parent_memory_sha256": "ad11269455de1059b8247af3941f3275880e713b5cea312f1504e22419bb88e0",
+          "request_hash": "48e74af0740430f93a778954b36d1872a6b2a41947134e3e0c85e25645f27486",
+          "status": "ok",
+          "finished_unix": 1789988019.0543556,
+          "complete": false,
+          "window_sha256": "860c9ceb4a716902439e3bc9d76bed7ecfba0c8370a93110920c8df390868098",
+          "memory_sha256": "078b3448653acaeb847c2f309d9f56a9bd9649106f4a8a7079e8039e6931ef68"
+        },
+        "last_calls": [
+          {
+            "purpose": "perception:G2_V000129:W00034",
+            "request_hash": "58d328ec03778269a000429182f7ec3265e9dc7082dd92ea74b7f00479edf38e",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789988039.5789561,
+            "usage": {
+              "prompt_tokens": 21084,
+              "completion_tokens": 1497,
+              "total_tokens": 24279,
+              "thought_tokens": 1698,
+              "raw": {
+                "promptTokenCount": 21084,
+                "candidatesTokenCount": 1497,
+                "totalTokenCount": 24279,
+                "thoughtsTokenCount": 1698
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 32.47259262576699
+          },
+          {
+            "purpose": "audio_observer:W00034",
+            "request_hash": "f10e14d695735081bee1d4eac9670359998422ad9124ae5032598f746c3f96f4",
+            "attempt": 1,
+            "model": "gemini-3.1-pro-preview",
+            "time_unix": 1789988025.9626741,
+            "usage": {
+              "prompt_tokens": 776,
+              "completion_tokens": 444,
+              "total_tokens": 1906,
+              "thought_tokens": 686,
+              "raw": {
+                "promptTokenCount": 776,
+                "candidatesTokenCount": 444,
+                "totalTokenCount": 1906,
+                "thoughtsTokenCount": 686
+              }
+            },
+            "response_model": "gemini-pro-default",
+            "status": "ok",
+            "elapsed_seconds": 13.612641341984272
+          }
+        ]
+      }
+    }
+  },
+  "backend_snapshot": {
+    "videos": {},
+    "status": "waiting_memory",
+    "active_videos": [],
+    "updated_unix": 1789988146.2703779,
+    "question_count": 49,
+    "n_scored": 0
+  },
+  "first_506_scores_unchanged": true,
+  "new_scores_at_snapshot": 0
+}
