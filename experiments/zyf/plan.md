@@ -1,6 +1,6 @@
 # LongEmo：情感记忆图谱与证据驱动问答计划
 
-[进度汇总](progress.md) · [方法整体流程](../../README.md#zyf-分支当前方法整体流程) · [完整实验记录](README.md)
+[进度汇总](progress.md) · [方法整体流程](../../README.md#base-分支当前方法整体流程) · [完整实验记录](README.md)
 
 方法已实现 **情感事件记忆图谱 + 结构化语义／Embedding 双路检索 + GPT-6 回答与官方评分**。当前方法的总体、三类任务和分剧成绩统一维护在[方法评测结果](results/current_method/report.md)，覆盖率与逐题来源一并报告。提供方切换、运行批次和接口诊断归入[历史实验记录](progress_history.md)。
 
@@ -20,7 +20,7 @@
 - 3 视频总长约 49 分 12 秒，pilot 共 2 道强度、5 道轨迹、2 道推理解释题，没有推理结果子类；不能代表全量覆盖。
 - `key.md` 的既有资源已获用户授权使用。OpenRouter `openai/gpt-6-astra` 与 `google/gemini-embedding-2` 已通过真实调用；后者输出 3072 维向量。模型别名未提供不可变权重快照，保存实际返回型号和向量缓存。
 - GPT-6 不直接接收音频；独立 Gemini 3.8 Flash 音频观察器提取有时间戳的话语、语气、停顿、笑声等，再结合视频帧和字幕输入 GPT-6。观察器不接收题目；不能把其输出当作人工真值。
-- g450 使用 `/mnt/data1/zyf`，初始可用内存约 515 GiB、磁盘约 571 GiB；系统盘空间紧张。API 主流程不占 GPU。代码在 `/mnt/data1/zyf/LongEmo-zyf` 的 `zyf` 分支，数据/私密配置/实验产物独立放在 `/mnt/data1/zyf/LongEmo-runtime`。
+- g450 使用 `/mnt/data1/zyf`，初始可用内存约 515 GiB、磁盘约 571 GiB；系统盘空间紧张。API 主流程不占 GPU。代码在 `/mnt/data1/zyf/LongEmo-zyf` 的 `base` 分支，数据/私密配置/实验产物独立放在 `/mnt/data1/zyf/LongEmo-runtime`。
 - `methods/longemo` 已实现事件所属情绪状态、来源与修订协议、双路召回、图扩展、时间覆盖和可选补看。首个提交 `1c87407` 已推送，后续实现与记录继续增量提交。
 - 正式 evaluator 的 rubric、judge prompt 和得分公式保持原样：总体为已评分题的归一化等权均值，60/40 只用于 emotional reasoning 结果/解释子项；必须同时看 coverage。新增了重复预测拒绝与配置记录。Agentic 的入口和累计 token 问题已修复。
 
@@ -57,7 +57,7 @@
 
 用户进一步要求跑完整 benchmark。第一轮全量沿用已验证的 graph-only 配置，保持 GPT-6、双路事件图检索和评分协议不变，覆盖全部 141 视频/558 题；9 道开发 pilot 的重叠单独披露。新增逐视频断点续跑，评分仅重试失败项，558/558 成功后才报告全量成绩。实施命令、费用测算与当前失分线索见 [full_benchmark.md](full_benchmark.md)。
 
-实验记录保存在代码仓库 `experiments/zyf/README.md` 与 runtime run manifests/ledgers，代码及时推送 `origin/zyf`。下面章节中的进一步研究候选不等于首版都已实现。
+实验记录保存在代码仓库 `experiments/zyf/README.md` 与 runtime run manifests/ledgers，代码及时推送 `origin/base`。下面章节中的进一步研究候选不等于首版都已实现。
 
 ## 2. P0：先把 benchmark 和当前失分摸清
 
