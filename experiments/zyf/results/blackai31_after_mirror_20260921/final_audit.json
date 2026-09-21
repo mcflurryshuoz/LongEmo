@@ -1,0 +1,3356 @@
+{
+  "as_of": "2026-09-21T11:31:22+00:00",
+  "all_declared_frontends_backends_transfers_finished": true,
+  "benchmark_fully_scored": false,
+  "current_method_metrics": {
+    "granularity": "episode",
+    "overall_unweighted": {
+      "n_total": 558,
+      "n_scored": 511,
+      "coverage": 0.9157706093189965,
+      "statuses": {
+        "ok": 511,
+        "pending": 47
+      },
+      "normalized_mean": 0.5771363339856488,
+      "percent_score": 57.71363339856488
+    },
+    "tasks": {
+      "emotion trajectory": {
+        "n_total": 235,
+        "n_scored": 218,
+        "coverage": 0.9276595744680851,
+        "statuses": {
+          "ok": 218,
+          "pending": 17
+        },
+        "normalized_mean": 0.5424311926605505,
+        "percent_score": 54.243119266055054,
+        "raw_mean": 2.169724770642202,
+        "max_score": 4
+      },
+      "emotional intensity comparison": {
+        "n_total": 194,
+        "n_scored": 172,
+        "coverage": 0.8865979381443299,
+        "statuses": {
+          "ok": 172,
+          "pending": 22
+        },
+        "normalized_mean": 0.5116279069767442,
+        "percent_score": 51.162790697674424,
+        "raw_mean": 0.5116279069767442,
+        "max_score": 1,
+        "acc": 0.5116279069767442
+      },
+      "emotional reasoning": {
+        "n_total": 129,
+        "n_scored": 121,
+        "coverage": 0.937984496124031,
+        "statuses": {
+          "ok": 121,
+          "pending": 8
+        },
+        "normalized_mean": 0.7327823691460056,
+        "percent_score": 73.27823691460055
+      }
+    },
+    "emotional_reasoning": {
+      "result": {
+        "n_total": 41,
+        "n_scored": 38,
+        "coverage": 0.926829268292683,
+        "statuses": {
+          "ok": 38,
+          "pending": 3
+        },
+        "normalized_mean": 0.5789473684210527,
+        "percent_score": 57.89473684210527,
+        "raw_mean": 0.5789473684210527,
+        "max_score": 1,
+        "acc": 0.5789473684210527
+      },
+      "explanation": {
+        "n_total": 88,
+        "n_scored": 83,
+        "coverage": 0.9431818181818182,
+        "statuses": {
+          "ok": 83,
+          "pending": 5
+        },
+        "normalized_mean": 0.8032128514056222,
+        "percent_score": 80.32128514056221,
+        "raw_mean": 2.4096385542168677,
+        "max_score": 3
+      },
+      "weights": {
+        "result": 0.6,
+        "explanation": 0.4
+      },
+      "unweighted": 0.7327823691460056,
+      "unweighted_percent": 73.27823691460055,
+      "weighted": 0.6686535616148805,
+      "weighted_percent": 66.86535616148805
+    }
+  },
+  "first_506_scores_unchanged": true,
+  "new_first_scores": 5,
+  "new_video": "G2_V000115",
+  "new_video_score_mean": 53.333333333333336,
+  "new_valid_windows": 59,
+  "remaining_question_counts": {
+    "old_matrix_content_filter": 3,
+    "provider_timeout": 6,
+    "schema_validation": 27,
+    "provider_http": 6,
+    "perception_content_filter": 5
+  },
+  "missing_questions": [
+    {
+      "question_id": "G2_Q000259",
+      "video_id": "G2_V000072",
+      "series": "Friends",
+      "type": "emotion trajectory",
+      "status": "blocked_question_policy",
+      "failure_category": "old_matrix_content_filter",
+      "failure_stage": "answer",
+      "failure_detail": "Matrix 既有明确拒绝，保留未完成"
+    },
+    {
+      "question_id": "G2_Q000260",
+      "video_id": "G2_V000072",
+      "series": "Friends",
+      "type": "emotional reasoning",
+      "status": "blocked_question_policy",
+      "failure_category": "old_matrix_content_filter",
+      "failure_stage": "answer",
+      "failure_detail": "Matrix 既有明确拒绝，保留未完成"
+    },
+    {
+      "question_id": "G2_Q000350",
+      "video_id": "G2_V000095",
+      "series": "Friends",
+      "type": "emotional reasoning",
+      "status": "blocked_judge_policy",
+      "failure_category": "old_matrix_content_filter",
+      "failure_stage": "judge",
+      "failure_detail": "Matrix 既有明确拒绝，保留未完成"
+    },
+    {
+      "question_id": "G2_Q000382",
+      "video_id": "G2_V000104",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
+    },
+    {
+      "question_id": "G2_Q000383",
+      "video_id": "G2_V000104",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
+    },
+    {
+      "question_id": "G2_Q000384",
+      "video_id": "G2_V000104",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
+    },
+    {
+      "question_id": "G2_Q000385",
+      "video_id": "G2_V000104",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
+    },
+    {
+      "question_id": "G2_Q000386",
+      "video_id": "G2_V000104",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
+    },
+    {
+      "question_id": "G2_Q000387",
+      "video_id": "G2_V000104",
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "status": "frontend_failed",
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
+    },
+    {
+      "question_id": "G2_Q000388",
+      "video_id": "G2_V000105",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000389",
+      "video_id": "G2_V000105",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000390",
+      "video_id": "G2_V000105",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000391",
+      "video_id": "G2_V000105",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000392",
+      "video_id": "G2_V000105",
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000393",
+      "video_id": "G2_V000105",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000394",
+      "video_id": "G2_V000106",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
+    },
+    {
+      "question_id": "G2_Q000395",
+      "video_id": "G2_V000106",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
+    },
+    {
+      "question_id": "G2_Q000396",
+      "video_id": "G2_V000106",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
+    },
+    {
+      "question_id": "G2_Q000397",
+      "video_id": "G2_V000106",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
+    },
+    {
+      "question_id": "G2_Q000398",
+      "video_id": "G2_V000106",
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "status": "frontend_failed",
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
+    },
+    {
+      "question_id": "G2_Q000399",
+      "video_id": "G2_V000106",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
+    },
+    {
+      "question_id": "G2_Q000427",
+      "video_id": "G2_V000112",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "blocked_input_policy",
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
+    },
+    {
+      "question_id": "G2_Q000428",
+      "video_id": "G2_V000112",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "blocked_input_policy",
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
+    },
+    {
+      "question_id": "G2_Q000429",
+      "video_id": "G2_V000112",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "blocked_input_policy",
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
+    },
+    {
+      "question_id": "G2_Q000430",
+      "video_id": "G2_V000112",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "blocked_input_policy",
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
+    },
+    {
+      "question_id": "G2_Q000431",
+      "video_id": "G2_V000112",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "blocked_input_policy",
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
+    },
+    {
+      "question_id": "G2_Q000432",
+      "video_id": "G2_V000113",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000433",
+      "video_id": "G2_V000113",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000434",
+      "video_id": "G2_V000113",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000435",
+      "video_id": "G2_V000113",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000436",
+      "video_id": "G2_V000113",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000437",
+      "video_id": "G2_V000113",
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000450",
+      "video_id": "G2_V000116",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000451",
+      "video_id": "G2_V000116",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000452",
+      "video_id": "G2_V000116",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000453",
+      "video_id": "G2_V000116",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000454",
+      "video_id": "G2_V000116",
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000455",
+      "video_id": "G2_V000117",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000456",
+      "video_id": "G2_V000117",
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000457",
+      "video_id": "G2_V000117",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000458",
+      "video_id": "G2_V000117",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000459",
+      "video_id": "G2_V000117",
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000460",
+      "video_id": "G2_V000117",
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000510",
+      "video_id": "G2_V000129",
+      "series": "Modern Family",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000511",
+      "video_id": "G2_V000129",
+      "series": "Modern Family",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000512",
+      "video_id": "G2_V000129",
+      "series": "Modern Family",
+      "type": "emotional intensity comparison",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    },
+    {
+      "question_id": "G2_Q000513",
+      "video_id": "G2_V000129",
+      "series": "Modern Family",
+      "type": "emotion trajectory",
+      "status": "frontend_failed",
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
+    }
+  ],
+  "frontend_audit": {
+    "time_unix": 1789990210.7706964,
+    "git_revision": "8f52c04342517aae667500ffa4e3efbcb6617dc5",
+    "frontend": {
+      "videos": {
+        "G2_V000117": {
+          "video_id": "G2_V000117",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000113": {
+          "video_id": "G2_V000113",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000106": {
+          "video_id": "G2_V000106",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000116": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000105": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000104": {
+          "video_id": "G2_V000104",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000112": {
+          "video_id": "G2_V000112",
+          "status": "blocked_input_policy",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false,
+          "rejection": {
+            "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+            "purpose": "perception:G2_V000112:W00040",
+            "service_error_code": "content_filter"
+          }
+        },
+        "G2_V000115": {
+          "video_id": "G2_V000115",
+          "status": "memory_complete",
+          "returncode": 0,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000129": {
+          "video_id": "G2_V000129",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        }
+      },
+      "status": "finished",
+      "active_videos": [],
+      "queued_videos": [],
+      "question_count": 49,
+      "updated_unix": 1789989548.317989
+    },
+    "frontend_process": {
+      "pid": 3924732,
+      "started_unix": 1789987903.1510196,
+      "workers": 6
+    },
+    "frontend_exited": true,
+    "frontend_lock_free": true,
+    "frozen_worker_hashes_unchanged": true,
+    "videos": {
+      "G2_V000104": {
+        "worker": {
+          "pid": 3924978,
+          "start_ticks": 1193545867,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.219562
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2167742,
+          "returncode": 1,
+          "finished_unix": 1789988094.557883
+        },
+        "completed_windows": 59,
+        "total_windows": 63,
+        "complete": false,
+        "inherited_windows": 59,
+        "new_valid_windows": 0,
+        "memory_sha256": "81b525ed0935b49d7d87261b270743b608bbffe9bacaf05c0b6dd246321b2e9a",
+        "last_calls": {
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00060",
+              "request_hash": "2787767ad90b2aed329a7c65eee3a0db92cf5933427ae4bda1bafec43e193117",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987914.3236537,
+              "status": "error",
+              "error_type": "TimeoutError",
+              "elapsed_seconds": 180.2138238362968
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000104",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000105": {
+        "worker": {
+          "pid": 3932515,
+          "start_ticks": 1193552009,
+          "phase": "first_window_gate",
+          "started_unix": 1789987964.644439
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "first_window_gate",
+          "started_unix": 1789987964.6434855,
+          "returncode": 1,
+          "finished_unix": 1789988012.9672596
+        },
+        "completed_windows": 21,
+        "total_windows": 65,
+        "complete": false,
+        "inherited_windows": 21,
+        "new_valid_windows": 0,
+        "memory_sha256": "55a2d804946328bddc8a8e464f7013d56535b3afed2870bcc07c0cc1c619b84f",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000105:W00022",
+              "request_hash": "367edd703641315b5794f6f4f8ce77338be42e1090d954f7a28a0cb351a2d0e1",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987982.0874217,
+              "usage": {
+                "prompt_tokens": 23957,
+                "completion_tokens": 1405,
+                "total_tokens": 26259,
+                "thought_tokens": 897,
+                "raw": {
+                  "promptTokenCount": 23957,
+                  "candidatesTokenCount": 1405,
+                  "totalTokenCount": 26259,
+                  "thoughtsTokenCount": 897
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 30.86436170898378,
+              "validation_error": "relation.evidence_ids needs supporting observation IDs"
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00022",
+              "request_hash": "75c615f2656a5f97371d3669fcbcfd914df7d9263fe13023370e2b2c6cb170d1",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987969.0917523,
+              "usage": {
+                "prompt_tokens": 776,
+                "completion_tokens": 415,
+                "total_tokens": 1826,
+                "thought_tokens": 635,
+                "raw": {
+                  "promptTokenCount": 776,
+                  "candidatesTokenCount": 415,
+                  "totalTokenCount": 1826,
+                  "thoughtsTokenCount": 635
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 12.984610196202993
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000106": {
+        "worker": {
+          "pid": 3924977,
+          "start_ticks": 1193545867,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2192018
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2151158,
+          "returncode": 1,
+          "finished_unix": 1789987968.649246
+        },
+        "completed_windows": 36,
+        "total_windows": 64,
+        "complete": false,
+        "inherited_windows": 36,
+        "new_valid_windows": 0,
+        "memory_sha256": "998c89199278249d7a6f27bd6650e7707894ab1dcda362ad4126afb873fae694",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000106:W00037",
+              "request_hash": "1362ef69c7f815b49977c7447b0c39f47d418c7b4de91adde6f76f9070ebd17e",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987921.826651,
+              "status": "error",
+              "error_type": "ServiceError",
+              "elapsed_seconds": 46.80364793352783,
+              "http_status": 520,
+              "service_error_code": null
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00037",
+              "request_hash": "278791ba178d0062e216c1d3bca4a657a804bb27a82736ba24e11ad7756ae31c",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987912.523552,
+              "usage": {
+                "prompt_tokens": 776,
+                "completion_tokens": 274,
+                "total_tokens": 1454,
+                "thought_tokens": 404,
+                "raw": {
+                  "promptTokenCount": 776,
+                  "candidatesTokenCount": 274,
+                  "totalTokenCount": 1454,
+                  "thoughtsTokenCount": 404
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 9.296055812388659
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000106",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000112": {
+        "worker": {
+          "pid": 3934622,
+          "start_ticks": 1193557036,
+          "phase": "remaining_windows",
+          "started_unix": 1789988014.9082217
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "remaining_windows",
+          "started_unix": 1789988014.9071765,
+          "returncode": 1,
+          "finished_unix": 1789989131.0021386
+        },
+        "completed_windows": 39,
+        "total_windows": 65,
+        "complete": false,
+        "inherited_windows": 20,
+        "new_valid_windows": 19,
+        "memory_sha256": "48d78660394da239508b52dd36e31757e054595305576102f70966e45ff31dc6",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000112:W00038",
+              "request_hash": "0ccc1cdf0aa0652c9cb2c0ebc4ee526689b281954d843397c24346bd1d51be67",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989014.5132372,
+              "usage": {
+                "prompt_tokens": 21885,
+                "completion_tokens": 1088,
+                "total_tokens": 23942,
+                "thought_tokens": 969,
+                "raw": {
+                  "promptTokenCount": 21885,
+                  "candidatesTokenCount": 1088,
+                  "totalTokenCount": 23942,
+                  "thoughtsTokenCount": 969
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 46.232875218614936
+            },
+            {
+              "purpose": "perception:G2_V000112:W00039",
+              "request_hash": "01e916ea2cea2e960817f2013bf3ca1d664fa66e610c5a049349638b4d0f1a2e",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989077.3657584,
+              "usage": {
+                "prompt_tokens": 21725,
+                "completion_tokens": 1767,
+                "total_tokens": 25090,
+                "thought_tokens": 1598,
+                "raw": {
+                  "promptTokenCount": 21725,
+                  "candidatesTokenCount": 1767,
+                  "totalTokenCount": 25090,
+                  "thoughtsTokenCount": 1598
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 33.99907759949565
+            },
+            {
+              "purpose": "perception:G2_V000112:W00040",
+              "request_hash": "f9f2fa839344fd15297e8f8748e0d0c8ac2a511f582fd4de858facbad78388eb",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989129.330195,
+              "status": "error",
+              "error_type": "ServiceError",
+              "elapsed_seconds": 1.6527478210628033,
+              "http_status": 200,
+              "service_error_code": "content_filter"
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00038",
+              "request_hash": "46a8bf88b968598bd069df2db9739649772e5805e58b29f62fef1a38e41b303a",
+              "attempt": 2,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989008.4024684,
+              "usage": {
+                "prompt_tokens": 1129,
+                "completion_tokens": 343,
+                "total_tokens": 1569,
+                "thought_tokens": 97,
+                "raw": {
+                  "promptTokenCount": 1129,
+                  "candidatesTokenCount": 343,
+                  "totalTokenCount": 1569,
+                  "thoughtsTokenCount": 97
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 6.107069551944733
+            },
+            {
+              "purpose": "audio_observer:W00039",
+              "request_hash": "8291cc26d326c62a69065cb6f36cc7c03d75ea46674f3b8bf634c23552ddf869",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989063.0631661,
+              "usage": {
+                "prompt_tokens": 776,
+                "completion_tokens": 413,
+                "total_tokens": 1738,
+                "thought_tokens": 549,
+                "raw": {
+                  "promptTokenCount": 776,
+                  "candidatesTokenCount": 413,
+                  "totalTokenCount": 1738,
+                  "thoughtsTokenCount": 549
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 14.298644088208675
+            },
+            {
+              "purpose": "audio_observer:W00040",
+              "request_hash": "5db10887b7ba42975d921ab65ea7e9e82bb1d9a38d55e99ee3c94f93d5dd5db5",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989113.7446904,
+              "usage": {
+                "prompt_tokens": 776,
+                "completion_tokens": 598,
+                "total_tokens": 2247,
+                "thought_tokens": 873,
+                "raw": {
+                  "promptTokenCount": 776,
+                  "candidatesTokenCount": 598,
+                  "totalTokenCount": 2247,
+                  "thoughtsTokenCount": 873
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 15.582112159579992
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000112",
+          "status": "blocked_input_policy",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false,
+          "rejection": {
+            "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+            "purpose": "perception:G2_V000112:W00040",
+            "service_error_code": "content_filter"
+          }
+        }
+      },
+      "G2_V000113": {
+        "worker": {
+          "pid": 3924972,
+          "start_ticks": 1193545867,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2177413
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2135942,
+          "returncode": 1,
+          "finished_unix": 1789987964.4794312
+        },
+        "completed_windows": 54,
+        "total_windows": 65,
+        "complete": false,
+        "inherited_windows": 54,
+        "new_valid_windows": 0,
+        "memory_sha256": "4e37dfee3c016f6f5d3b7bea65de6745c518406d198c578af20767083b58cdba",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000113:W00055",
+              "request_hash": "8ed7d5341fe8a568179b33864efd3b288c061245cd105a3544b6362ec7987ade",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987928.1229763,
+              "usage": {
+                "prompt_tokens": 22727,
+                "completion_tokens": 1681,
+                "total_tokens": 25523,
+                "thought_tokens": 1115,
+                "raw": {
+                  "promptTokenCount": 22727,
+                  "candidatesTokenCount": 1681,
+                  "totalTokenCount": 25523,
+                  "thoughtsTokenCount": 1115
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 36.334752809256315,
+              "validation_error": "relation.evidence_ids needs supporting observation IDs"
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00055",
+              "request_hash": "b0a6514f31a3932a3bab1a12895af71d09dff1cf388936bce822a6bc78d9c752",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987918.5761898,
+              "usage": {
+                "prompt_tokens": 778,
+                "completion_tokens": 276,
+                "total_tokens": 1569,
+                "thought_tokens": 515,
+                "raw": {
+                  "promptTokenCount": 778,
+                  "candidatesTokenCount": 276,
+                  "totalTokenCount": 1569,
+                  "thoughtsTokenCount": 515
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 9.538633806630969
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000113",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000115": {
+        "worker": {
+          "pid": 3932241,
+          "start_ticks": 1193551396,
+          "phase": "remaining_windows",
+          "started_unix": 1789987958.5109031
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "remaining_windows",
+          "started_unix": 1789987958.5099728,
+          "returncode": 0,
+          "finished_unix": 1789989425.9077885
+        },
+        "completed_windows": 65,
+        "total_windows": 65,
+        "complete": true,
+        "inherited_windows": 46,
+        "new_valid_windows": 19,
+        "memory_sha256": "1966a6e68a3f3d8eb9841061f811cdb5004243d9d8df327efa8f4ad899bfb73a",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000115:W00063",
+              "request_hash": "dc90d7c61497627567b558ad5e30ab81ebdc2df91be6c327d11602f7aa9836b7",
+              "attempt": 2,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989321.2275925,
+              "usage": {
+                "prompt_tokens": 25241,
+                "completion_tokens": 986,
+                "total_tokens": 26901,
+                "thought_tokens": 674,
+                "raw": {
+                  "promptTokenCount": 25241,
+                  "candidatesTokenCount": 986,
+                  "totalTokenCount": 26901,
+                  "thoughtsTokenCount": 674
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 15.924964832141995
+            },
+            {
+              "purpose": "perception:G2_V000115:W00064",
+              "request_hash": "8cd42b0a43942c34aaaf20241ddfc368f2ead886af254d2c16929194fd05221a",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989358.5227172,
+              "usage": {
+                "prompt_tokens": 23531,
+                "completion_tokens": 1132,
+                "total_tokens": 25995,
+                "thought_tokens": 1332,
+                "raw": {
+                  "promptTokenCount": 23531,
+                  "candidatesTokenCount": 1132,
+                  "totalTokenCount": 25995,
+                  "thoughtsTokenCount": 1332
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 25.63615214638412
+            },
+            {
+              "purpose": "perception:G2_V000115:W00065",
+              "request_hash": "99b134f0d0664e18213f2baa18368b6093be8e9c751e3cb58caa51c981733919",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989406.4335933,
+              "usage": {
+                "prompt_tokens": 8493,
+                "completion_tokens": 649,
+                "total_tokens": 10187,
+                "thought_tokens": 1045,
+                "raw": {
+                  "promptTokenCount": 8493,
+                  "candidatesTokenCount": 649,
+                  "totalTokenCount": 10187,
+                  "thoughtsTokenCount": 1045
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 19.39137887582183
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00064",
+              "request_hash": "57533f3ed038c3aca30be6669a44826d0efa39c192de85345d90a90bd9e4cc8c",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989342.5959368,
+              "usage": {
+                "prompt_tokens": 760,
+                "completion_tokens": 435,
+                "total_tokens": 1769,
+                "thought_tokens": 574,
+                "raw": {
+                  "promptTokenCount": 760,
+                  "candidatesTokenCount": 435,
+                  "totalTokenCount": 1769,
+                  "thoughtsTokenCount": 574
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 15.920795725658536
+            },
+            {
+              "purpose": "audio_observer:W00065",
+              "request_hash": "243d40fdc1b7e82dced1e3778a42e3dc625aa0783289e9d0ccd8836c3706e33b",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989387.0929768,
+              "usage": {
+                "prompt_tokens": 260,
+                "completion_tokens": 83,
+                "total_tokens": 424,
+                "thought_tokens": 81,
+                "raw": {
+                  "promptTokenCount": 260,
+                  "candidatesTokenCount": 83,
+                  "totalTokenCount": 424,
+                  "thoughtsTokenCount": 81
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 7.937706146389246,
+              "validation_error": "voice must be nonempty text"
+            },
+            {
+              "purpose": "audio_observer:W00065",
+              "request_hash": "243d40fdc1b7e82dced1e3778a42e3dc625aa0783289e9d0ccd8836c3706e33b",
+              "attempt": 2,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989396.0309038,
+              "usage": {
+                "prompt_tokens": 361,
+                "completion_tokens": 85,
+                "total_tokens": 691,
+                "thought_tokens": 245,
+                "raw": {
+                  "promptTokenCount": 361,
+                  "candidatesTokenCount": 85,
+                  "totalTokenCount": 691,
+                  "thoughtsTokenCount": 245
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 10.400989471003413
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000115",
+          "status": "memory_complete",
+          "returncode": 0,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000116": {
+        "worker": {
+          "pid": 3924974,
+          "start_ticks": 1193545867,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2187207
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.213758,
+          "returncode": 1,
+          "finished_unix": 1789987972.2138746
+        },
+        "completed_windows": 47,
+        "total_windows": 64,
+        "complete": false,
+        "inherited_windows": 47,
+        "new_valid_windows": 0,
+        "memory_sha256": "1cf818453fb3a05a5761b5ef9c901406f244e7d1dd586adeaf8a4a9597bfc13c",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000116:W00048",
+              "request_hash": "cd55ce8d226076b925bf57f4a669c699e631542166e01ba2e4e8539a92986449",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987933.713364,
+              "usage": {
+                "prompt_tokens": 22644,
+                "completion_tokens": 1435,
+                "total_tokens": 25467,
+                "thought_tokens": 1388,
+                "raw": {
+                  "promptTokenCount": 22644,
+                  "candidatesTokenCount": 1435,
+                  "totalTokenCount": 25467,
+                  "thoughtsTokenCount": 1388
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 38.478887712582946,
+              "validation_error": "relation.evidence_ids needs supporting observation IDs"
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00048",
+              "request_hash": "55fde31a575e0811f593318d3d29e8125c0ced52ef7c27e51c36e682bc6a3024",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987910.1711147,
+              "usage": {
+                "prompt_tokens": 776,
+                "completion_tokens": 556,
+                "total_tokens": 2301,
+                "thought_tokens": 969,
+                "raw": {
+                  "promptTokenCount": 776,
+                  "candidatesTokenCount": 556,
+                  "totalTokenCount": 2301,
+                  "thoughtsTokenCount": 969
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 23.534657822921872
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000117": {
+        "worker": {
+          "pid": 3924968,
+          "start_ticks": 1193545866,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.214847
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "first_window_gate",
+          "started_unix": 1789987903.2105494,
+          "returncode": 1,
+          "finished_unix": 1789987960.6637068
+        },
+        "completed_windows": 63,
+        "total_windows": 64,
+        "complete": false,
+        "inherited_windows": 63,
+        "new_valid_windows": 0,
+        "memory_sha256": "9cccfb5ac8866e1f3e95713bf10e140a8e2fea101c7b15f40e012e80a2e04a6a",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000117:W00064",
+              "request_hash": "532a9e96154725201ce46b06f428c0d91e80b1da7bfbfba2cff6d318d6a2f460",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987926.1407628,
+              "usage": {
+                "prompt_tokens": 22602,
+                "completion_tokens": 629,
+                "total_tokens": 24252,
+                "thought_tokens": 1021,
+                "raw": {
+                  "promptTokenCount": 22602,
+                  "candidatesTokenCount": 629,
+                  "totalTokenCount": 24252,
+                  "thoughtsTokenCount": 1021
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 34.50516605004668,
+              "validation_error": "relation.evidence_ids needs supporting observation IDs"
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00064",
+              "request_hash": "07f1d89e57faeb5c5eae92b52802003d002af043626415a68ea229ad94f2cdd2",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789987917.3431277,
+              "usage": {
+                "prompt_tokens": 658,
+                "completion_tokens": 191,
+                "total_tokens": 1127,
+                "thought_tokens": 278,
+                "raw": {
+                  "promptTokenCount": 658,
+                  "candidatesTokenCount": 191,
+                  "totalTokenCount": 1127,
+                  "thoughtsTokenCount": 278
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 8.786574885249138
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000117",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        }
+      },
+      "G2_V000129": {
+        "worker": {
+          "pid": 3934772,
+          "start_ticks": 1193557453,
+          "phase": "remaining_windows",
+          "started_unix": 1789988019.0799427
+        },
+        "worker_exited": true,
+        "attempt": {
+          "attempts": 1,
+          "in_flight": false,
+          "phase": "remaining_windows",
+          "started_unix": 1789988019.0789723,
+          "returncode": 1,
+          "finished_unix": 1789989548.0991986
+        },
+        "completed_windows": 53,
+        "total_windows": 64,
+        "complete": false,
+        "inherited_windows": 32,
+        "new_valid_windows": 21,
+        "memory_sha256": "6fa6954132dc08324a578caa5bcdd6bb4529262b6d2d84ea30d790bb4e41075d",
+        "last_calls": {
+          "calls.jsonl": [
+            {
+              "purpose": "perception:G2_V000129:W00054",
+              "request_hash": "f04a39bcd3a8286d146ad6a26834d238fd2717d2db171f37dd69e543a9608194",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989460.04327,
+              "usage": {
+                "prompt_tokens": 22504,
+                "completion_tokens": 2180,
+                "total_tokens": 25773,
+                "thought_tokens": 1089,
+                "raw": {
+                  "promptTokenCount": 22504,
+                  "candidatesTokenCount": 2180,
+                  "totalTokenCount": 25773,
+                  "thoughtsTokenCount": 1089
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 29.492088176310062,
+              "validation_error": "observation subject must reference a declared entity"
+            },
+            {
+              "purpose": "perception:G2_V000129:W00054",
+              "request_hash": "f04a39bcd3a8286d146ad6a26834d238fd2717d2db171f37dd69e543a9608194",
+              "attempt": 2,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989490.5363078,
+              "usage": {
+                "prompt_tokens": 24704,
+                "completion_tokens": 2181,
+                "total_tokens": 27323,
+                "thought_tokens": 438,
+                "raw": {
+                  "promptTokenCount": 24704,
+                  "candidatesTokenCount": 2181,
+                  "totalTokenCount": 27323,
+                  "thoughtsTokenCount": 438
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 22.655155090615153,
+              "validation_error": "event must overlap core, not only padding"
+            },
+            {
+              "purpose": "perception:G2_V000129:W00054",
+              "request_hash": "f04a39bcd3a8286d146ad6a26834d238fd2717d2db171f37dd69e543a9608194",
+              "attempt": 3,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989515.1922941,
+              "usage": {
+                "prompt_tokens": 26906,
+                "completion_tokens": 2014,
+                "total_tokens": 29804,
+                "thought_tokens": 884,
+                "raw": {
+                  "promptTokenCount": 26906,
+                  "candidatesTokenCount": 2014,
+                  "totalTokenCount": 29804,
+                  "cachedContentTokenCount": 8166,
+                  "thoughtsTokenCount": 884
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "error",
+              "error_type": "ValueError",
+              "elapsed_seconds": 32.88687412813306,
+              "validation_error": "relation.evidence_ids needs supporting observation IDs"
+            }
+          ],
+          "audio/calls.jsonl": [
+            {
+              "purpose": "audio_observer:W00052",
+              "request_hash": "8b489ae3930ec3350dbbc67200b37a1844a0f9870d6674f4881901e499ea6ed0",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989320.6576452,
+              "usage": {
+                "prompt_tokens": 778,
+                "completion_tokens": 584,
+                "total_tokens": 1793,
+                "thought_tokens": 431,
+                "raw": {
+                  "promptTokenCount": 778,
+                  "candidatesTokenCount": 584,
+                  "totalTokenCount": 1793,
+                  "thoughtsTokenCount": 431
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 11.280837183818221
+            },
+            {
+              "purpose": "audio_observer:W00053",
+              "request_hash": "b11cc113031e9542b016d96dd2c9641090f17b3839cdb942d18f76423d8105cf",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989385.925853,
+              "usage": {
+                "prompt_tokens": 778,
+                "completion_tokens": 495,
+                "total_tokens": 2318,
+                "thought_tokens": 1045,
+                "raw": {
+                  "promptTokenCount": 778,
+                  "candidatesTokenCount": 495,
+                  "totalTokenCount": 2318,
+                  "thoughtsTokenCount": 1045
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 16.819399597123265
+            },
+            {
+              "purpose": "audio_observer:W00054",
+              "request_hash": "2b9985559c648df7ada1464545dde2a61ac9f2ab46652d5ad2a05a4b725f1dac",
+              "attempt": 1,
+              "model": "gemini-3.1-pro-preview",
+              "time_unix": 1789989442.1826649,
+              "usage": {
+                "prompt_tokens": 778,
+                "completion_tokens": 836,
+                "total_tokens": 2772,
+                "thought_tokens": 1158,
+                "raw": {
+                  "promptTokenCount": 778,
+                  "candidatesTokenCount": 836,
+                  "totalTokenCount": 2772,
+                  "thoughtsTokenCount": 1158
+                }
+              },
+              "response_model": "gemini-pro-default",
+              "status": "ok",
+              "elapsed_seconds": 17.85658536851406
+            }
+          ]
+        },
+        "outcome": {
+          "video_id": "G2_V000129",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        }
+      }
+    },
+    "outbox_markers": {
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "archive": "G2_V000104.tar.gz",
+        "sha256": "b62b8ec0102276729dbbfca0b61789211f79883ae40600eac7c357c326f6e1f2",
+        "bytes": 298913
+      },
+      "G2_V000105": {
+        "video_id": "G2_V000105",
+        "archive": "G2_V000105.tar.gz",
+        "sha256": "fa879847c96c1c02bea89efa292bba11a34705f317fd18916d58de27fa4c5e5d",
+        "bytes": 227876
+      },
+      "G2_V000106": {
+        "video_id": "G2_V000106",
+        "archive": "G2_V000106.tar.gz",
+        "sha256": "7251fd3c4aebc3a42a525f9cae6cbfab96c193d590c001c6c24dcbe7e6fdf29d",
+        "bytes": 175550
+      },
+      "G2_V000112": {
+        "video_id": "G2_V000112",
+        "archive": "G2_V000112.tar.gz",
+        "sha256": "431358bbadb19bcd5ac4ae98ecb0a1224e820d77bf28e995758cdcbe5f6ed326",
+        "bytes": 214410
+      },
+      "G2_V000113": {
+        "video_id": "G2_V000113",
+        "archive": "G2_V000113.tar.gz",
+        "sha256": "85bcd07b87cd898caef3f02246f7c33744fd416fa5eaea573d05978f595294a9",
+        "bytes": 290974
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "archive": "G2_V000115.tar.gz",
+        "sha256": "8453ee00173f72ebf4ead5506ded9e7e1bddba9aae02148239e4a694af6804ef",
+        "bytes": 326284
+      },
+      "G2_V000116": {
+        "video_id": "G2_V000116",
+        "archive": "G2_V000116.tar.gz",
+        "sha256": "90baa8b0a6e5c7165d8605121ec8d0b4bcf0c6662e0ceaa388b67689c6debf76",
+        "bytes": 264521
+      },
+      "G2_V000117": {
+        "video_id": "G2_V000117",
+        "archive": "G2_V000117.tar.gz",
+        "sha256": "fe1a3641358d2bf1678b4ac4e3b7b6ef236b044469b00b410142ffb9c99b5087",
+        "bytes": 346400
+      },
+      "G2_V000129": {
+        "video_id": "G2_V000129",
+        "archive": "G2_V000129.tar.gz",
+        "sha256": "7fc49bc7048b0bf8ffa2fb31fe3f7eb43de82c3d6971c8c78bb70c284dea7f22",
+        "bytes": 321154
+      }
+    },
+    "producer_done": {
+      "video_ids": [
+        "G2_V000104",
+        "G2_V000105",
+        "G2_V000106",
+        "G2_V000112",
+        "G2_V000113",
+        "G2_V000115",
+        "G2_V000116",
+        "G2_V000117",
+        "G2_V000129"
+      ],
+      "time_unix": 1789989548.318507
+    }
+  },
+  "backend_audit": {
+    "as_of": "2026-09-21T11:31:22+00:00",
+    "backend_status": {
+      "videos": {
+        "G2_V000106": {
+          "video_id": "G2_V000106",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000105": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000117": {
+          "video_id": "G2_V000117",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000113": {
+          "video_id": "G2_V000113",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000116": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000104": {
+          "video_id": "G2_V000104",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "G2_V000112": {
+          "video_id": "G2_V000112",
+          "status": "blocked_input_policy",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false,
+          "rejection": {
+            "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+            "purpose": "perception:G2_V000112:W00040",
+            "service_error_code": "content_filter"
+          }
+        },
+        "G2_V000115": {
+          "video_id": "G2_V000115",
+          "status": "complete",
+          "n_scored": 5
+        },
+        "G2_V000129": {
+          "video_id": "G2_V000129",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        }
+      },
+      "status": "finished",
+      "active_videos": [],
+      "updated_unix": 1789989613.205085,
+      "question_count": 49,
+      "n_scored": 5
+    },
+    "backend_process": {
+      "pid": 393386,
+      "started_unix": 1789988046.1591485,
+      "workers": 6
+    },
+    "backend_exited": true,
+    "backend_lock_free": true,
+    "method_hash_unchanged": true,
+    "protected_score_files": {
+      "matrix_gemini38_gpt6_full_v1": "de3b5a7b21180cd403536e89506678c3bcd4e52287a92c9bca89a7d267482f09",
+      "blackai_gemini38_matrix_gpt6_remaining_v1": "c6981f0882008259bde2e35c67689b4e64b69d1cb157f7aa3f8575563628653c",
+      "blackai_gemini37_matrix_gpt6_compact_20260920": "020c62e05af0f74b887c2eff6cf1093f458632064ff780b5da76ffc749674488",
+      "aicodemirror_gemini37_recovery_20260921": "b8fd9c04a20cc92e794c58f6ebfc129a9ef8df93d47bf33336f2b92c25a54ad4",
+      "aicodemirror_claude5_gemini25_remaining_20260921": "1b730ca9450627a67be3d5f962dc8cfa4bcba3547f3c13cefdc13bbd919d1bb3",
+      "blackai_gemini36_matrix_gpt6_remaining_20260921": "f21d6abc25f46cd3e78bf3b31cf6660ee860ea61675ee8c56657569aaf1fb238"
+    },
+    "protected_first_506_unchanged": true,
+    "imports": {
+      "G2_V000104": {
+        "receipt_sha256": "9915d1b398aa47d100564e9b3739aed8189bd6e958c599f55c3cbccecf102e55",
+        "memory_sha256": "81b525ed0935b49d7d87261b270743b608bbffe9bacaf05c0b6dd246321b2e9a",
+        "outcome": {
+          "video_id": "G2_V000104",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 148
+      },
+      "G2_V000105": {
+        "receipt_sha256": "ea698f3a148008f05a6dd3fc2a026ccd27d51db0071f2eb95006e61f40ebbaa7",
+        "memory_sha256": "55a2d804946328bddc8a8e464f7013d56535b3afed2870bcc07c0cc1c619b84f",
+        "outcome": {
+          "video_id": "G2_V000105",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 69
+      },
+      "G2_V000106": {
+        "receipt_sha256": "b77b0f6b457d3e4d6f7587496db2a733ed93460062969591e2042ec5d8ae6576",
+        "memory_sha256": "998c89199278249d7a6f27bd6650e7707894ab1dcda362ad4126afb873fae694",
+        "outcome": {
+          "video_id": "G2_V000106",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 102
+      },
+      "G2_V000112": {
+        "receipt_sha256": "e03376678d2537a2dd14349f310a671a7caa854043eb99a5aad1cecad35b4eb4",
+        "memory_sha256": "48d78660394da239508b52dd36e31757e054595305576102f70966e45ff31dc6",
+        "outcome": {
+          "video_id": "G2_V000112",
+          "status": "blocked_input_policy",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false,
+          "rejection": {
+            "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+            "purpose": "perception:G2_V000112:W00040",
+            "service_error_code": "content_filter"
+          }
+        },
+        "file_count": 107
+      },
+      "G2_V000113": {
+        "receipt_sha256": "9371d97799590eb75cc3669e4b1b698091a3ce2cb0167bc438b7916b3032c45a",
+        "memory_sha256": "4e37dfee3c016f6f5d3b7bea65de6745c518406d198c578af20767083b58cdba",
+        "outcome": {
+          "video_id": "G2_V000113",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 135
+      },
+      "G2_V000115": {
+        "receipt_sha256": "62bac237a0c2185a05b4d2b0f7111af3cf5cfee1b01b7914dec438757e0823ee",
+        "memory_sha256": "1966a6e68a3f3d8eb9841061f811cdb5004243d9d8df327efa8f4ad899bfb73a",
+        "outcome": {
+          "video_id": "G2_V000115",
+          "status": "memory_complete",
+          "returncode": 0,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 158
+      },
+      "G2_V000116": {
+        "receipt_sha256": "9641be6bd6e63856ecd4fd44d3b24640b1a460daa84be00687d48d6cd600be18",
+        "memory_sha256": "1cf818453fb3a05a5761b5ef9c901406f244e7d1dd586adeaf8a4a9597bfc13c",
+        "outcome": {
+          "video_id": "G2_V000116",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 122
+      },
+      "G2_V000117": {
+        "receipt_sha256": "87e31464fbd5bdd147d691818a0581547c79e9d33d247c40d5589b374f11b62c",
+        "memory_sha256": "9cccfb5ac8866e1f3e95713bf10e140a8e2fea101c7b15f40e012e80a2e04a6a",
+        "outcome": {
+          "video_id": "G2_V000117",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": false,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 157
+      },
+      "G2_V000129": {
+        "receipt_sha256": "843a696c683ca1d15f2024e584a412148f5d842bd20822395ea511f131f1fa31",
+        "memory_sha256": "6fa6954132dc08324a578caa5bcdd6bb4529262b6d2d84ea30d790bb4e41075d",
+        "outcome": {
+          "video_id": "G2_V000129",
+          "status": "frontend_failed",
+          "returncode": 1,
+          "gate_passed": true,
+          "outer_recovery_allowed": false
+        },
+        "file_count": 135
+      }
+    },
+    "inbox_markers": {
+      "G2_V000105": {
+        "video_id": "G2_V000105",
+        "archive": "e6dd9d983269419a8eed4f9328794f33.tar.gz",
+        "sha256": "fa879847c96c1c02bea89efa292bba11a34705f317fd18916d58de27fa4c5e5d",
+        "bytes": 227876
+      },
+      "G2_V000129": {
+        "video_id": "G2_V000129",
+        "archive": "5a8110fb1e01466dbddd9449e57aaa2a.tar.gz",
+        "sha256": "7fc49bc7048b0bf8ffa2fb31fe3f7eb43de82c3d6971c8c78bb70c284dea7f22",
+        "bytes": 321154
+      },
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "archive": "ed732d41d71e46229dc6990b5a494b05.tar.gz",
+        "sha256": "b62b8ec0102276729dbbfca0b61789211f79883ae40600eac7c357c326f6e1f2",
+        "bytes": 298913
+      },
+      "G2_V000113": {
+        "video_id": "G2_V000113",
+        "archive": "72c09b16a13940d6a87a9f51cf291a5c.tar.gz",
+        "sha256": "85bcd07b87cd898caef3f02246f7c33744fd416fa5eaea573d05978f595294a9",
+        "bytes": 290974
+      },
+      "G2_V000112": {
+        "video_id": "G2_V000112",
+        "archive": "1aa7e8733ff74fb39c236ede05ae0b11.tar.gz",
+        "sha256": "431358bbadb19bcd5ac4ae98ecb0a1224e820d77bf28e995758cdcbe5f6ed326",
+        "bytes": 214410
+      },
+      "G2_V000116": {
+        "video_id": "G2_V000116",
+        "archive": "fc492646b9c2427baf55bd14283a22a8.tar.gz",
+        "sha256": "90baa8b0a6e5c7165d8605121ec8d0b4bcf0c6662e0ceaa388b67689c6debf76",
+        "bytes": 264521
+      },
+      "G2_V000117": {
+        "video_id": "G2_V000117",
+        "archive": "1c718407fb814b56b53542fbe406b33f.tar.gz",
+        "sha256": "fe1a3641358d2bf1678b4ac4e3b7b6ef236b044469b00b410142ffb9c99b5087",
+        "bytes": 346400
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "archive": "b80422b34e594cee968628ef1af2fc83.tar.gz",
+        "sha256": "8453ee00173f72ebf4ead5506ded9e7e1bddba9aae02148239e4a694af6804ef",
+        "bytes": 326284
+      },
+      "G2_V000106": {
+        "video_id": "G2_V000106",
+        "archive": "0ae77b5d84f943cea6c22a236aae4a90.tar.gz",
+        "sha256": "7251fd3c4aebc3a42a525f9cae6cbfab96c193d590c001c6c24dcbe7e6fdf29d",
+        "bytes": 175550
+      }
+    },
+    "imported_files_verified": 1133,
+    "producer_done_verified": true,
+    "pending_first_judgments": [],
+    "new_scores": [
+      {
+        "question_id": "G2_Q000445",
+        "video_id": "G2_V000115",
+        "granularity": "episode",
+        "type": "emotional intensity comparison",
+        "max_score": 1,
+        "status": "ok",
+        "score": 0,
+        "reason": "The answer identifies the confrontation after Spangler’s “crying wolf” remark, rather than the required moment at Francis’s hospital bed when Lois angrily confronts Spangler for demanding homework and orders him out.",
+        "normalized_score": 0.0,
+        "prediction": "Her anger appears strongest when she marches up to Commandant Spangler after his “crying wolf” remark (about 6:18–6:32). With narrowed eyes and a clenched jaw, she leans inches from his face and shouts, “You listen to me, you idiot! My child is sick.”",
+        "evaluation_input": {
+          "question": "During Lois's visit to the academy, when does her anger appear most intense in her facial expression and posture? Answer with a brief description of the moment.",
+          "answer": "When she confronts Spangler at Francis's hospital bed for demanding homework from her recovering son, leaning toward him with a hard glare and ordering him out.",
+          "answer_details": null,
+          "prediction": "Her anger appears strongest when she marches up to Commandant Spangler after his “crying wolf” remark (about 6:18–6:32). With narrowed eyes and a clenched jaw, she leans inches from his face and shouts, “You listen to me, you idiot! My child is sick.”",
+          "rubric": {
+            "criterion": "Determine whether the model response answers the question correctly, accepting semantically equivalent wording. When answer_details is provided, use its description to determine which items the response must satisfy.",
+            "scores": {
+              "0": "The response is incorrect, empty, omits information required by the question, or gives contradictory answers.",
+              "1": "The response is correct and complete, with no errors that affect its correctness. Follow the requirements of the question and answer_details.description: if the items are alternative acceptable answers, any one item is sufficient; if the items are all required parts of the answer, every item must be answered correctly. Accept semantically equivalent expressions; the wording need not match the reference answer."
+            }
+          }
+        },
+        "judge_response": {
+          "id": "2609211919XHVAGQ31064979",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"score\":0,\"reason\":\"The answer identifies the confrontation after Spangler’s “crying wolf” remark, rather than the required moment at Francis’s hospital bed when Lois angrily confronts Spangler for demanding homework and orders him out.\"}",
+                "refusal": null,
+                "role": "assistant",
+                "annotations": []
+              },
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "created": 1789989570,
+          "model": "gpt-6-astra",
+          "object": "chat.completion",
+          "service_tier": "default",
+          "system_fingerprint": null,
+          "usage": {
+            "completion_tokens": 102,
+            "prompt_tokens": 2434,
+            "total_tokens": 2536,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 43,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 2431
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 19,
+              "engine_ttft_ms": 454,
+              "engine_ttlt_ms": 2425,
+              "pre_inference_ms": 73,
+              "service_tbt_ms": 19,
+              "service_ttft_ms": 1505,
+              "service_ttlt_ms": 3465,
+              "user_visible_ttft_ms": 1432
+            }
+          },
+          "routing": {
+            "serving_pipereplica": "d20260920141551-fa07e00f-prefill-r3-dp0-prefill"
+          },
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "low"
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ]
+        },
+        "judge_responses": [
+          {
+            "id": "2609211919XHVAGQ31064979",
+            "choices": [
+              {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                  "content": "{\"score\":0,\"reason\":\"The answer identifies the confrontation after Spangler’s “crying wolf” remark, rather than the required moment at Francis’s hospital bed when Lois angrily confronts Spangler for demanding homework and orders him out.\"}",
+                  "refusal": null,
+                  "role": "assistant",
+                  "annotations": []
+                },
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ],
+            "created": 1789989570,
+            "model": "gpt-6-astra",
+            "object": "chat.completion",
+            "service_tier": "default",
+            "system_fingerprint": null,
+            "usage": {
+              "completion_tokens": 102,
+              "prompt_tokens": 2434,
+              "total_tokens": 2536,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 43,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0,
+                "cache_write_tokens": 2431
+              },
+              "latency_checkpoint": {
+                "engine_tbt_ms": 19,
+                "engine_ttft_ms": 454,
+                "engine_ttlt_ms": 2425,
+                "pre_inference_ms": 73,
+                "service_tbt_ms": 19,
+                "service_ttft_ms": 1505,
+                "service_ttlt_ms": 3465,
+                "user_visible_ttft_ms": 1432
+              }
+            },
+            "routing": {
+              "serving_pipereplica": "d20260920141551-fa07e00f-prefill-r3-dp0-prefill"
+            },
+            "prompt_filter_results": [
+              {
+                "prompt_index": 0,
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "low"
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "completion_tokens": 102,
+          "prompt_tokens": 2434,
+          "total_tokens": 2536,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 43,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens": 2431
+          },
+          "latency_checkpoint": {
+            "engine_tbt_ms": 19,
+            "engine_ttft_ms": 454,
+            "engine_ttlt_ms": 2425,
+            "pre_inference_ms": 73,
+            "service_tbt_ms": 19,
+            "service_ttft_ms": 1505,
+            "service_ttlt_ms": 3465,
+            "user_visible_ttft_ms": 1432
+          }
+        },
+        "error": null,
+        "key": "G2_Q000445",
+        "score_source": "/root/longemo/runtime/runs/blackai_gemini31_after_mirror_20260921/videos/G2_V000115/scores/run_20260921_1919/scores.jsonl"
+      },
+      {
+        "question_id": "G2_Q000446",
+        "video_id": "G2_V000115",
+        "granularity": "episode",
+        "type": "emotion trajectory",
+        "max_score": 4,
+        "status": "ok",
+        "score": 2,
+        "reason": "The answer reconstructs Francis’s self-satisfied anticipation and subsequent resentment as Lois retains the upper hand, but substitutes anxiety and humiliation for much of his irritation and defensive protest. It also explicitly omits the recreation-room argument, missing the required shift from confrontational anger to wounded frustration. Thus, it captures only part of the emotional trajectory.",
+        "normalized_score": 0.5,
+        "prediction": "Francis starts with gleeful confidence that he can finally turn Lois’s guilt tactics against her. Despite severe postoperative pain, he grins, calls his near-death experience “perfect” and “beautiful,” and anticipates her visit as a victory: she sent him away, and he thinks she cannot dismiss what happened or make it his fault.\n\nAs her arrival approaches, that confidence becomes more anxious and obsessive. He even suggests having his catheter reinserted so she can witness the painful procedure, and defensively insists that his roommate will see how bad she is. When Lois arrives, his response shifts to sullen resentment and then embarrassment as she asks about his bowel movements in front of his roommate. Her confrontation with Spangler does not produce the straightforward vindication he expected: another cadet praises her, while Francis looks subdued and bewildered.\n\nLater, as the cadets enjoy Lois’s company, his hoped-for upper hand has become agitated suspicion. He first rejects their praise in a clipped, flat voice—“This isn’t my mom. It’s an act”—then grows louder and more pressured, calling her friendliness a “freaky mind game” aimed at him. His companion sides with Lois, and Francis falls silent and looks down rather than winning support. Thus, the supported progression is from triumphant anticipation, through anxious fixation and humiliation, to frustrated distrust—not a sustained victory. The supplied evidence does not include the direct recreation-room argument itself, so I cannot reliably describe any further emotional reversal during that exchange.",
+        "evaluation_input": {
+          "question": "How does Francis's emotional response to trying to get the upper hand with Lois develop from anticipating her visit through their argument in the recreation room?",
+          "answer": "Before Lois arrives, Francis is calculating and self-satisfied, treating his painful surgery as a chance to make her feel guilty. That confidence gives way to irritation when she remains briskly in charge of his care and turns aside his complaints. By the recreation-room encounter, he is openly resentful and confrontational about her popularity with the cadets; during their argument, his anger gives way to visibly wounded frustration as he feels that she is winning again.",
+          "answer_details": {
+            "description": "The required stages of the emotional trajectory, listed in chronological order. Assess the emotions at each stage and how they develop across stages.",
+            "items": [
+              {
+                "id": "S1",
+                "description": "Despite his physical discomfort, Francis is calculating and self-satisfied as he anticipates using the operation to make Lois feel guilty.",
+                "anchor": "While explaining his plan to Finley before Lois arrives",
+                "emotion": "self-satisfaction, anticipatory confidence",
+                "intensity": null
+              },
+              {
+                "id": "S2",
+                "description": "His confident expectation turns into irritation and defensive protest when Lois takes charge of his care without accepting his attempt to make her feel guilty.",
+                "anchor": "During Lois's arrival and her insistence on giving him a sponge bath",
+                "emotion": "irritation, frustration",
+                "intensity": null
+              },
+              {
+                "id": "S3",
+                "description": "Seeing the cadets enjoy Lois's company brings out resentful anger; as he confronts her, that anger becomes wounded frustration rather than the triumph he had expected.",
+                "anchor": "At the foosball table and in their ensuing recreation-room argument",
+                "emotion": "resentment, anger, hurt frustration",
+                "intensity": null
+              }
+            ]
+          },
+          "prediction": "Francis starts with gleeful confidence that he can finally turn Lois’s guilt tactics against her. Despite severe postoperative pain, he grins, calls his near-death experience “perfect” and “beautiful,” and anticipates her visit as a victory: she sent him away, and he thinks she cannot dismiss what happened or make it his fault.\n\nAs her arrival approaches, that confidence becomes more anxious and obsessive. He even suggests having his catheter reinserted so she can witness the painful procedure, and defensively insists that his roommate will see how bad she is. When Lois arrives, his response shifts to sullen resentment and then embarrassment as she asks about his bowel movements in front of his roommate. Her confrontation with Spangler does not produce the straightforward vindication he expected: another cadet praises her, while Francis looks subdued and bewildered.\n\nLater, as the cadets enjoy Lois’s company, his hoped-for upper hand has become agitated suspicion. He first rejects their praise in a clipped, flat voice—“This isn’t my mom. It’s an act”—then grows louder and more pressured, calling her friendliness a “freaky mind game” aimed at him. His companion sides with Lois, and Francis falls silent and looks down rather than winning support. Thus, the supported progression is from triumphant anticipation, through anxious fixation and humiliation, to frustrated distrust—not a sustained victory. The supplied evidence does not include the direct recreation-room argument itself, so I cannot reliably describe any further emotional reversal during that exchange.",
+          "rubric": {
+            "criterion": "Evaluate whether the required emotional stages and their relationships are reconstructed accurately and completely, including any requested changes in intensity and recurring patterns. Assign one holistic score from 0 to 4 using the reference answer and stage details. Anchors are used only to align stages; they are not scored separately and need not be repeated.",
+            "scores": {
+              "0": "The response does not correctly reconstruct any relevant stage content or relationship.",
+              "1": "The response provides only isolated correct stage information and does not reconstruct a coherent part of the requested trajectory.",
+              "2": "The response reconstructs part of the emotional trajectory but omits or misplaces required stages or misidentifies their core emotions.",
+              "3": "The response covers all required stages in the correct order and captures their core emotional content and changes, with minor omissions or inaccuracies within stages.",
+              "4": "The response accurately and completely reconstructs the required emotional stages and their relationships."
+            }
+          }
+        },
+        "judge_response": {
+          "id": "2609211919OYZSKU31086436",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"score\":2,\"reason\":\"The answer reconstructs Francis’s self-satisfied anticipation and subsequent resentment as Lois retains the upper hand, but substitutes anxiety and humiliation for much of his irritation and defensive protest. It also explicitly omits the recreation-room argument, missing the required shift from confrontational anger to wounded frustration. Thus, it captures only part of the emotional trajectory.\"}",
+                "refusal": null,
+                "role": "assistant",
+                "annotations": []
+              },
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "protected_material_code": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "protected_material_text": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "created": 1789989571,
+          "model": "gpt-6-astra",
+          "object": "chat.completion",
+          "service_tier": "default",
+          "system_fingerprint": null,
+          "usage": {
+            "completion_tokens": 78,
+            "prompt_tokens": 3072,
+            "total_tokens": 3150,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 0,
+              "cache_write_tokens": 3069
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 17,
+              "engine_ttft_ms": 383,
+              "engine_ttlt_ms": 1743,
+              "pre_inference_ms": 86,
+              "service_tbt_ms": 17,
+              "service_ttft_ms": 652,
+              "service_ttlt_ms": 1997,
+              "user_visible_ttft_ms": 566
+            }
+          },
+          "routing": {
+            "serving_pipereplica": "d20260919005428-6f6ab03d-prefill-r14-dp0-prefill"
+          },
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ]
+        },
+        "judge_responses": [
+          {
+            "id": "2609211919OYZSKU31086436",
+            "choices": [
+              {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                  "content": "{\"score\":2,\"reason\":\"The answer reconstructs Francis’s self-satisfied anticipation and subsequent resentment as Lois retains the upper hand, but substitutes anxiety and humiliation for much of his irritation and defensive protest. It also explicitly omits the recreation-room argument, missing the required shift from confrontational anger to wounded frustration. Thus, it captures only part of the emotional trajectory.\"}",
+                  "refusal": null,
+                  "role": "assistant",
+                  "annotations": []
+                },
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ],
+            "created": 1789989571,
+            "model": "gpt-6-astra",
+            "object": "chat.completion",
+            "service_tier": "default",
+            "system_fingerprint": null,
+            "usage": {
+              "completion_tokens": 78,
+              "prompt_tokens": 3072,
+              "total_tokens": 3150,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 0,
+                "cache_write_tokens": 3069
+              },
+              "latency_checkpoint": {
+                "engine_tbt_ms": 17,
+                "engine_ttft_ms": 383,
+                "engine_ttlt_ms": 1743,
+                "pre_inference_ms": 86,
+                "service_tbt_ms": 17,
+                "service_ttft_ms": 652,
+                "service_ttlt_ms": 1997,
+                "user_visible_ttft_ms": 566
+              }
+            },
+            "routing": {
+              "serving_pipereplica": "d20260919005428-6f6ab03d-prefill-r14-dp0-prefill"
+            },
+            "prompt_filter_results": [
+              {
+                "prompt_index": 0,
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "jailbreak": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "completion_tokens": 78,
+          "prompt_tokens": 3072,
+          "total_tokens": 3150,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens": 3069
+          },
+          "latency_checkpoint": {
+            "engine_tbt_ms": 17,
+            "engine_ttft_ms": 383,
+            "engine_ttlt_ms": 1743,
+            "pre_inference_ms": 86,
+            "service_tbt_ms": 17,
+            "service_ttft_ms": 652,
+            "service_ttlt_ms": 1997,
+            "user_visible_ttft_ms": 566
+          }
+        },
+        "error": null,
+        "key": "G2_Q000446",
+        "score_source": "/root/longemo/runtime/runs/blackai_gemini31_after_mirror_20260921/videos/G2_V000115/scores/run_20260921_1919/scores.jsonl"
+      },
+      {
+        "question_id": "G2_Q000447",
+        "video_id": "G2_V000115",
+        "granularity": "episode",
+        "type": "emotional intensity comparison",
+        "max_score": 1,
+        "status": "ok",
+        "score": 1,
+        "reason": "The response correctly identifies Hal presenting his laser-guided bee cannon to the boys and describes his eager leaning, beaming expression, and gestures acting out its operation, matching the reference moment.",
+        "normalized_score": 1.0,
+        "prediction": "Hal is most visibly excited while pitching his “laser-guided bee cannon” to the boys (about 13:46–14:09), especially when he laughs and shouts “Buzz, zap!” He beams with wide eyes and raised eyebrows, leans toward them, and makes big presenting gestures before miming the cannon firing.",
+        "evaluation_input": {
+          "question": "In the robot-building storyline while Lois is away, when does Hal show the most intense excitement about his inventions in his expression and gestures? Answer with a brief description of the moment.",
+          "answer": "When he first presents his laser-guided bee cannon to Malcolm and the other boys in the backyard, eagerly leaning toward them, grinning, and acting out how it will work.",
+          "answer_details": null,
+          "prediction": "Hal is most visibly excited while pitching his “laser-guided bee cannon” to the boys (about 13:46–14:09), especially when he laughs and shouts “Buzz, zap!” He beams with wide eyes and raised eyebrows, leans toward them, and makes big presenting gestures before miming the cannon firing.",
+          "rubric": {
+            "criterion": "Determine whether the model response answers the question correctly, accepting semantically equivalent wording. When answer_details is provided, use its description to determine which items the response must satisfy.",
+            "scores": {
+              "0": "The response is incorrect, empty, omits information required by the question, or gives contradictory answers.",
+              "1": "The response is correct and complete, with no errors that affect its correctness. Follow the requirements of the question and answer_details.description: if the items are alternative acceptable answers, any one item is sufficient; if the items are all required parts of the answer, every item must be answered correctly. Accept semantically equivalent expressions; the wording need not match the reference answer."
+            }
+          }
+        },
+        "judge_response": {
+          "id": "2609211919QCRBSW31018244",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"score\":1,\"reason\":\"The response correctly identifies Hal presenting his laser-guided bee cannon to the boys and describes his eager leaning, beaming expression, and gestures acting out its operation, matching the reference moment.\"}",
+                "refusal": null,
+                "role": "assistant",
+                "annotations": []
+              },
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "protected_material_code": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "protected_material_text": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "created": 1789989575,
+          "model": "gpt-6-astra",
+          "object": "chat.completion",
+          "service_tier": "default",
+          "system_fingerprint": null,
+          "usage": {
+            "completion_tokens": 48,
+            "prompt_tokens": 2443,
+            "total_tokens": 2491,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 2114,
+              "cache_write_tokens": 326
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 15,
+              "engine_ttft_ms": 917,
+              "engine_ttlt_ms": 1659,
+              "pre_inference_ms": 107,
+              "service_tbt_ms": 15,
+              "service_ttft_ms": 1208,
+              "service_ttlt_ms": 1947,
+              "user_visible_ttft_ms": 1102
+            }
+          },
+          "routing": {
+            "serving_pipereplica": "d20260919005428-6f6ab03d-prefill-r14-dp0-prefill"
+          },
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ]
+        },
+        "judge_responses": [
+          {
+            "id": "2609211919QCRBSW31018244",
+            "choices": [
+              {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                  "content": "{\"score\":1,\"reason\":\"The response correctly identifies Hal presenting his laser-guided bee cannon to the boys and describes his eager leaning, beaming expression, and gestures acting out its operation, matching the reference moment.\"}",
+                  "refusal": null,
+                  "role": "assistant",
+                  "annotations": []
+                },
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ],
+            "created": 1789989575,
+            "model": "gpt-6-astra",
+            "object": "chat.completion",
+            "service_tier": "default",
+            "system_fingerprint": null,
+            "usage": {
+              "completion_tokens": 48,
+              "prompt_tokens": 2443,
+              "total_tokens": 2491,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 2114,
+                "cache_write_tokens": 326
+              },
+              "latency_checkpoint": {
+                "engine_tbt_ms": 15,
+                "engine_ttft_ms": 917,
+                "engine_ttlt_ms": 1659,
+                "pre_inference_ms": 107,
+                "service_tbt_ms": 15,
+                "service_ttft_ms": 1208,
+                "service_ttlt_ms": 1947,
+                "user_visible_ttft_ms": 1102
+              }
+            },
+            "routing": {
+              "serving_pipereplica": "d20260919005428-6f6ab03d-prefill-r14-dp0-prefill"
+            },
+            "prompt_filter_results": [
+              {
+                "prompt_index": 0,
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "jailbreak": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "completion_tokens": 48,
+          "prompt_tokens": 2443,
+          "total_tokens": 2491,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 2114,
+            "cache_write_tokens": 326
+          },
+          "latency_checkpoint": {
+            "engine_tbt_ms": 15,
+            "engine_ttft_ms": 917,
+            "engine_ttlt_ms": 1659,
+            "pre_inference_ms": 107,
+            "service_tbt_ms": 15,
+            "service_ttft_ms": 1208,
+            "service_ttlt_ms": 1947,
+            "user_visible_ttft_ms": 1102
+          }
+        },
+        "error": null,
+        "key": "G2_Q000447",
+        "score_source": "/root/longemo/runtime/runs/blackai_gemini31_after_mirror_20260921/videos/G2_V000115/scores/run_20260921_1919/scores.jsonl"
+      },
+      {
+        "question_id": "G2_Q000448",
+        "video_id": "G2_V000115",
+        "granularity": "episode",
+        "type": "emotion trajectory",
+        "max_score": 4,
+        "status": "ok",
+        "score": 2,
+        "reason": "The answer reconstructs the early progression from anticipating extra privileges to indulgence and excitement, especially Dewey’s overstimulation. However, it omits the required shift to uneasy surprise as Hal turns on Craig and the final fear and huddling at the doorway during the machine’s failure. It therefore captures only part of the emotional trajectory.",
+        "normalized_score": 0.5,
+        "prediction": "Initially, Reese is cheekily confident about exploiting Lois’s absence: he wants a scope for his BB gun and, when Malcolm points out that he has no BB gun, smirks and replies, “Not yet.” Dewey is more innocent and earnest—his wish is simply to wear pajamas to school. Both listen as Malcolm plans to make their requests seem reasonable by asking for a killer robot first.\n\nLater, Dewey shifts from that quiet earnestness to visibly wired excitement: asked how many sodas he has had, he breathlessly repeats “I don’t know” and eagerly demonstrates that he can write on his tongue. As Hal’s behavior becomes uninhibited—dancing wildly through the kitchen in his underwear—both boys are still participating in the household’s loosened routines, eating from large tubs, with Reese wearing a shirt around his head. These observations show continued indulgence rather than a clear alarmed reaction to Hal at that point.\n\nThe supplied evidence does not show Reese’s or Dewey’s reactions during the machine’s failure, so it cannot establish how their attitudes change in that final stage.",
+        "evaluation_input": {
+          "question": "How do Reese and Dewey’s reactions change from planning what to ask Hal for while Lois is away through Hal’s loss of control and the machine’s failure?",
+          "answer": "At first they are mischievously eager to take advantage of Lois’s absence. They become excited and absorbed in unrestricted entertainment, with Dewey especially overstimulated. Their enjoyment gives way to uneasy surprise as Hal’s behavior becomes alarming; they watch tensely when he turns on Craig. When the machine goes wrong, they are frightened and cluster with the others by the doorway under Craig’s arm.",
+          "answer_details": {
+            "description": "The required stages of the emotional trajectory, listed in chronological order. Assess the emotions at each stage and how they develop across stages.",
+            "items": [
+              {
+                "id": "S1",
+                "description": "Reese and Dewey look forward mischievously to the extra freedom and privileges.",
+                "anchor": "Planning requests while Lois is away",
+                "emotion": "anticipation; mischievous delight",
+                "intensity": null
+              },
+              {
+                "id": "S2",
+                "description": "They become absorbed and excited by unrestricted entertainment; Dewey appears particularly overstimulated.",
+                "anchor": "The prolonged movie watching and drinks",
+                "emotion": "excitement",
+                "intensity": null
+              },
+              {
+                "id": "S3",
+                "description": "Their earlier enjoyment turns to uneasy surprise as Hal becomes alarming, including when he turns on Craig.",
+                "anchor": "Watching Hal lose control in the yard",
+                "emotion": "unease; surprise",
+                "intensity": null
+              },
+              {
+                "id": "S4",
+                "description": "They become frightened and huddle with the others at the doorway as the machine goes wrong.",
+                "anchor": "The machine failure and retreat to the doorway",
+                "emotion": "fear",
+                "intensity": null
+              }
+            ]
+          },
+          "prediction": "Initially, Reese is cheekily confident about exploiting Lois’s absence: he wants a scope for his BB gun and, when Malcolm points out that he has no BB gun, smirks and replies, “Not yet.” Dewey is more innocent and earnest—his wish is simply to wear pajamas to school. Both listen as Malcolm plans to make their requests seem reasonable by asking for a killer robot first.\n\nLater, Dewey shifts from that quiet earnestness to visibly wired excitement: asked how many sodas he has had, he breathlessly repeats “I don’t know” and eagerly demonstrates that he can write on his tongue. As Hal’s behavior becomes uninhibited—dancing wildly through the kitchen in his underwear—both boys are still participating in the household’s loosened routines, eating from large tubs, with Reese wearing a shirt around his head. These observations show continued indulgence rather than a clear alarmed reaction to Hal at that point.\n\nThe supplied evidence does not show Reese’s or Dewey’s reactions during the machine’s failure, so it cannot establish how their attitudes change in that final stage.",
+          "rubric": {
+            "criterion": "Evaluate whether the required emotional stages and their relationships are reconstructed accurately and completely, including any requested changes in intensity and recurring patterns. Assign one holistic score from 0 to 4 using the reference answer and stage details. Anchors are used only to align stages; they are not scored separately and need not be repeated.",
+            "scores": {
+              "0": "The response does not correctly reconstruct any relevant stage content or relationship.",
+              "1": "The response provides only isolated correct stage information and does not reconstruct a coherent part of the requested trajectory.",
+              "2": "The response reconstructs part of the emotional trajectory but omits or misplaces required stages or misidentifies their core emotions.",
+              "3": "The response covers all required stages in the correct order and captures their core emotional content and changes, with minor omissions or inaccuracies within stages.",
+              "4": "The response accurately and completely reconstructs the required emotional stages and their relationships."
+            }
+          }
+        },
+        "judge_response": {
+          "id": "2609211919OUYDKJ31097594",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"score\":2,\"reason\":\"The answer reconstructs the early progression from anticipating extra privileges to indulgence and excitement, especially Dewey’s overstimulation. However, it omits the required shift to uneasy surprise as Hal turns on Craig and the final fear and huddling at the doorway during the machine’s failure. It therefore captures only part of the emotional trajectory.\"}",
+                "refusal": null,
+                "role": "assistant",
+                "annotations": []
+              },
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "created": 1789989575,
+          "model": "gpt-6-astra",
+          "object": "chat.completion",
+          "service_tier": "default",
+          "system_fingerprint": null,
+          "usage": {
+            "completion_tokens": 78,
+            "prompt_tokens": 2989,
+            "total_tokens": 3067,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 0,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 2114,
+              "cache_write_tokens": 872
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 16,
+              "engine_ttft_ms": 347,
+              "engine_ttlt_ms": 1581,
+              "pre_inference_ms": 75,
+              "service_tbt_ms": 16,
+              "service_ttft_ms": 1623,
+              "service_ttlt_ms": 2854,
+              "user_visible_ttft_ms": 1548
+            }
+          },
+          "routing": {
+            "serving_pipereplica": "d20260920141551-fa07e00f-prefill-r3-dp0-prefill"
+          },
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ]
+        },
+        "judge_responses": [
+          {
+            "id": "2609211919OUYDKJ31097594",
+            "choices": [
+              {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                  "content": "{\"score\":2,\"reason\":\"The answer reconstructs the early progression from anticipating extra privileges to indulgence and excitement, especially Dewey’s overstimulation. However, it omits the required shift to uneasy surprise as Hal turns on Craig and the final fear and huddling at the doorway during the machine’s failure. It therefore captures only part of the emotional trajectory.\"}",
+                  "refusal": null,
+                  "role": "assistant",
+                  "annotations": []
+                },
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ],
+            "created": 1789989575,
+            "model": "gpt-6-astra",
+            "object": "chat.completion",
+            "service_tier": "default",
+            "system_fingerprint": null,
+            "usage": {
+              "completion_tokens": 78,
+              "prompt_tokens": 2989,
+              "total_tokens": 3067,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 0,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 2114,
+                "cache_write_tokens": 872
+              },
+              "latency_checkpoint": {
+                "engine_tbt_ms": 16,
+                "engine_ttft_ms": 347,
+                "engine_ttlt_ms": 1581,
+                "pre_inference_ms": 75,
+                "service_tbt_ms": 16,
+                "service_ttft_ms": 1623,
+                "service_ttlt_ms": 2854,
+                "user_visible_ttft_ms": 1548
+              }
+            },
+            "routing": {
+              "serving_pipereplica": "d20260920141551-fa07e00f-prefill-r3-dp0-prefill"
+            },
+            "prompt_filter_results": [
+              {
+                "prompt_index": 0,
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "completion_tokens": 78,
+          "prompt_tokens": 2989,
+          "total_tokens": 3067,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 2114,
+            "cache_write_tokens": 872
+          },
+          "latency_checkpoint": {
+            "engine_tbt_ms": 16,
+            "engine_ttft_ms": 347,
+            "engine_ttlt_ms": 1581,
+            "pre_inference_ms": 75,
+            "service_tbt_ms": 16,
+            "service_ttft_ms": 1623,
+            "service_ttlt_ms": 2854,
+            "user_visible_ttft_ms": 1548
+          }
+        },
+        "error": null,
+        "key": "G2_Q000448",
+        "score_source": "/root/longemo/runtime/runs/blackai_gemini31_after_mirror_20260921/videos/G2_V000115/scores/run_20260921_1919/scores.jsonl"
+      },
+      {
+        "question_id": "G2_Q000449",
+        "video_id": "G2_V000115",
+        "granularity": "episode",
+        "type": "emotional reasoning",
+        "max_score": 3,
+        "status": "ok",
+        "score": 2,
+        "reason": "The answer correctly explains Francis’s attempt to use his illness as guilt leverage and his frustration when Lois wins over the cadets and turns the guilt back on him. It also recognizes that he still wants connection, but explicitly leaves the rodeo unexplained, omitting how their shared enjoyment there qualifies his resentment. This is an incomplete explanation without substantive causal errors.",
+        "normalized_score": 0.6666666666666666,
+        "prediction": "Francis’s frustration appears to involve wanting Lois to acknowledge his suffering and validate his grievances—not simply wanting her absent.\n\nIn the infirmary, he initially treats his near-fatal illness as leverage that should make her feel guilty, despite his real postoperative pain. Before she arrives, he bitterly jokes about having his catheter reinserted for her to witness. When she kisses him, he asks whether that will “appease your guilt”; her “What guilt?” refuses the acknowledgment he is seeking. Her blunt questions about his bowel movements then visibly embarrass him in front of his roommate. Her care and protectiveness therefore coexist with behavior he experiences as intrusive and dismissive.\n\nAround the foosball game, her cheerful manner with the cadets undermines his account of her harshness. His companion even says he does not know why she puts up with Francis. Francis first quietly demands that she leave, then responds “Exactly!” when she says she has been pleasant: the contrast itself seems to be part of his grievance. When she argues that nothing satisfies him, he protests that she is turning his pain into her guilt trip. That shows his feeling of being invalidated, but does not establish that Lois is deliberately manipulating him.\n\nLater, he reverses his rejection enough to help with her suitcase and tentatively suggest spending their remaining time together, indicating a continuing desire for connection. However, the supplied evidence does not include his actual responses at the rodeo, so that part of the explanation cannot be established.",
+        "evaluation_input": {
+          "question": "How can Francis’s frustration with Lois during her visit be explained by his responses in the infirmary, around the foosball game, and later at the rodeo?",
+          "answer": "Francis treats the visit as a chance to reverse their usual guilt contest: after his operation, he expects Lois to feel responsible and let him have the upper hand. He becomes frustrated when she wins over the cadets and still makes him feel guilty, because the visit is not giving him the victory he expected. His later willingness to sit with her and join in the fun at the rodeo shows that this resentment does not amount to simply wanting no contact with her; it is tied to losing that contest.",
+          "answer_details": {
+            "description": "The necessary causal factors that jointly form the reference explanation. Consider the items together when assessing whether the explanation is complete.",
+            "items": [
+              {
+                "id": "R1",
+                "description": "Francis expects his operation to give him the upper hand by making Lois feel guilty, reversing their usual relationship."
+              },
+              {
+                "id": "R2",
+                "description": "His frustration grows when Lois gets along with the cadets and he feels that she is still winning and making him feel guilty, undermining that expectation."
+              },
+              {
+                "id": "R3",
+                "description": "His later shared enjoyment with Lois at the rodeo limits the interpretation of his anger: the conflict is not an unqualified rejection of her company."
+              }
+            ]
+          },
+          "prediction": "Francis’s frustration appears to involve wanting Lois to acknowledge his suffering and validate his grievances—not simply wanting her absent.\n\nIn the infirmary, he initially treats his near-fatal illness as leverage that should make her feel guilty, despite his real postoperative pain. Before she arrives, he bitterly jokes about having his catheter reinserted for her to witness. When she kisses him, he asks whether that will “appease your guilt”; her “What guilt?” refuses the acknowledgment he is seeking. Her blunt questions about his bowel movements then visibly embarrass him in front of his roommate. Her care and protectiveness therefore coexist with behavior he experiences as intrusive and dismissive.\n\nAround the foosball game, her cheerful manner with the cadets undermines his account of her harshness. His companion even says he does not know why she puts up with Francis. Francis first quietly demands that she leave, then responds “Exactly!” when she says she has been pleasant: the contrast itself seems to be part of his grievance. When she argues that nothing satisfies him, he protests that she is turning his pain into her guilt trip. That shows his feeling of being invalidated, but does not establish that Lois is deliberately manipulating him.\n\nLater, he reverses his rejection enough to help with her suitcase and tentatively suggest spending their remaining time together, indicating a continuing desire for connection. However, the supplied evidence does not include his actual responses at the rodeo, so that part of the explanation cannot be established.",
+          "rubric": {
+            "criterion": "Evaluate whether the response accurately and sufficiently explains the emotional cause, motive, or intention asked about. Assess only the meaning required by this question; do not require a list of actions or a retelling of the complete causal chain.",
+            "scores": {
+              "0": "The response does not explain the requested cause, motive, or intention, or the explanation is entirely incorrect.",
+              "1": "The response contains a valid part of the explanation alongside substantive causal errors.",
+              "2": "The response provides a valid, correct explanation but omits required causes or meaning, with no substantive causal errors.",
+              "3": "The response correctly and sufficiently explains the requested cause, motive, or intention, with no substantive causal errors."
+            }
+          }
+        },
+        "judge_response": {
+          "id": "2609211919BFPKAF31038673",
+          "choices": [
+            {
+              "finish_reason": "stop",
+              "index": 0,
+              "logprobs": null,
+              "message": {
+                "content": "{\"score\":2,\"reason\":\"The answer correctly explains Francis’s attempt to use his illness as guilt leverage and his frustration when Lois wins over the cadets and turns the guilt back on him. It also recognizes that he still wants connection, but explicitly leaves the rodeo unexplained, omitting how their shared enjoyment there qualifies his resentment. This is an incomplete explanation without substantive causal errors.\"}",
+                "refusal": null,
+                "role": "assistant",
+                "annotations": []
+              },
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "protected_material_code": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "protected_material_text": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ],
+          "created": 1789989579,
+          "model": "gpt-6-astra",
+          "object": "chat.completion",
+          "service_tier": "default",
+          "system_fingerprint": null,
+          "usage": {
+            "completion_tokens": 149,
+            "prompt_tokens": 2921,
+            "total_tokens": 3070,
+            "completion_tokens_details": {
+              "accepted_prediction_tokens": 0,
+              "audio_tokens": 0,
+              "reasoning_tokens": 61,
+              "rejected_prediction_tokens": 0
+            },
+            "prompt_tokens_details": {
+              "audio_tokens": 0,
+              "cached_tokens": 2114,
+              "cache_write_tokens": 804
+            },
+            "latency_checkpoint": {
+              "engine_tbt_ms": 19,
+              "engine_ttft_ms": 309,
+              "engine_ttlt_ms": 3196,
+              "pre_inference_ms": 141,
+              "service_tbt_ms": 19,
+              "service_ttft_ms": 628,
+              "service_ttlt_ms": 3481,
+              "user_visible_ttft_ms": 487
+            }
+          },
+          "routing": {
+            "serving_pipereplica": "d20260919005428-6f6ab03d-prefill-r14-dp0-prefill"
+          },
+          "prompt_filter_results": [
+            {
+              "prompt_index": 0,
+              "content_filter_results": {
+                "hate": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "jailbreak": {
+                  "detected": false,
+                  "filtered": false
+                },
+                "self_harm": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "sexual": {
+                  "filtered": false,
+                  "severity": "safe"
+                },
+                "violence": {
+                  "filtered": false,
+                  "severity": "safe"
+                }
+              }
+            }
+          ]
+        },
+        "judge_responses": [
+          {
+            "id": "2609211919BFPKAF31038673",
+            "choices": [
+              {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                  "content": "{\"score\":2,\"reason\":\"The answer correctly explains Francis’s attempt to use his illness as guilt leverage and his frustration when Lois wins over the cadets and turns the guilt back on him. It also recognizes that he still wants connection, but explicitly leaves the rodeo unexplained, omitting how their shared enjoyment there qualifies his resentment. This is an incomplete explanation without substantive causal errors.\"}",
+                  "refusal": null,
+                  "role": "assistant",
+                  "annotations": []
+                },
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "protected_material_code": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "protected_material_text": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ],
+            "created": 1789989579,
+            "model": "gpt-6-astra",
+            "object": "chat.completion",
+            "service_tier": "default",
+            "system_fingerprint": null,
+            "usage": {
+              "completion_tokens": 149,
+              "prompt_tokens": 2921,
+              "total_tokens": 3070,
+              "completion_tokens_details": {
+                "accepted_prediction_tokens": 0,
+                "audio_tokens": 0,
+                "reasoning_tokens": 61,
+                "rejected_prediction_tokens": 0
+              },
+              "prompt_tokens_details": {
+                "audio_tokens": 0,
+                "cached_tokens": 2114,
+                "cache_write_tokens": 804
+              },
+              "latency_checkpoint": {
+                "engine_tbt_ms": 19,
+                "engine_ttft_ms": 309,
+                "engine_ttlt_ms": 3196,
+                "pre_inference_ms": 141,
+                "service_tbt_ms": 19,
+                "service_ttft_ms": 628,
+                "service_ttlt_ms": 3481,
+                "user_visible_ttft_ms": 487
+              }
+            },
+            "routing": {
+              "serving_pipereplica": "d20260919005428-6f6ab03d-prefill-r14-dp0-prefill"
+            },
+            "prompt_filter_results": [
+              {
+                "prompt_index": 0,
+                "content_filter_results": {
+                  "hate": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "jailbreak": {
+                    "detected": false,
+                    "filtered": false
+                  },
+                  "self_harm": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "sexual": {
+                    "filtered": false,
+                    "severity": "safe"
+                  },
+                  "violence": {
+                    "filtered": false,
+                    "severity": "safe"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "usage": {
+          "completion_tokens": 149,
+          "prompt_tokens": 2921,
+          "total_tokens": 3070,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 61,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 2114,
+            "cache_write_tokens": 804
+          },
+          "latency_checkpoint": {
+            "engine_tbt_ms": 19,
+            "engine_ttft_ms": 309,
+            "engine_ttlt_ms": 3196,
+            "pre_inference_ms": 141,
+            "service_tbt_ms": 19,
+            "service_ttft_ms": 628,
+            "service_ttlt_ms": 3481,
+            "user_visible_ttft_ms": 487
+          }
+        },
+        "error": null,
+        "key": "G2_Q000449",
+        "score_source": "/root/longemo/runtime/runs/blackai_gemini31_after_mirror_20260921/videos/G2_V000115/scores/run_20260921_1919/scores.jsonl"
+      }
+    ],
+    "scores_sha256": "7a36580b1b4729265cd6cdca5314a13e74cb8a5265daba7722d2003f5b4ea59b",
+    "accepted_scores_sha256": "16f229dde9c2e58ddcc04bf14226b866aaaf75db551f85e0e9fc127f49d37aaa"
+  },
+  "relay": {
+    "process_exited": true,
+    "status": {
+      "sent": {
+        "G2_V000105": {
+          "sha256": "fa879847c96c1c02bea89efa292bba11a34705f317fd18916d58de27fa4c5e5d",
+          "time_unix": 1789988212.464243
+        },
+        "G2_V000106": {
+          "sha256": "7251fd3c4aebc3a42a525f9cae6cbfab96c193d590c001c6c24dcbe7e6fdf29d",
+          "time_unix": 1789988215.3603919
+        },
+        "G2_V000113": {
+          "sha256": "85bcd07b87cd898caef3f02246f7c33744fd416fa5eaea573d05978f595294a9",
+          "time_unix": 1789988218.235138
+        },
+        "G2_V000116": {
+          "sha256": "90baa8b0a6e5c7165d8605121ec8d0b4bcf0c6662e0ceaa388b67689c6debf76",
+          "time_unix": 1789988221.125549
+        },
+        "G2_V000117": {
+          "sha256": "fe1a3641358d2bf1678b4ac4e3b7b6ef236b044469b00b410142ffb9c99b5087",
+          "time_unix": 1789988223.943734
+        },
+        "G2_V000104": {
+          "sha256": "b62b8ec0102276729dbbfca0b61789211f79883ae40600eac7c357c326f6e1f2",
+          "time_unix": 1789988279.918818
+        },
+        "G2_V000112": {
+          "sha256": "431358bbadb19bcd5ac4ae98ecb0a1224e820d77bf28e995758cdcbe5f6ed326",
+          "time_unix": 1789989182.71276
+        },
+        "G2_V000115": {
+          "sha256": "8453ee00173f72ebf4ead5506ded9e7e1bddba9aae02148239e4a694af6804ef",
+          "time_unix": 1789989484.5477738
+        },
+        "G2_V000129": {
+          "sha256": "7fc49bc7048b0bf8ffa2fb31fe3f7eb43de82c3d6971c8c78bb70c284dea7f22",
+          "time_unix": 1789989604.923288
+        }
+      },
+      "updated_unix": 1789989607.330642,
+      "expected": 9,
+      "port": 52425,
+      "status": "finished",
+      "producer_done_uploaded": true
+    }
+  },
+  "pending_first_judgments": 0
+}

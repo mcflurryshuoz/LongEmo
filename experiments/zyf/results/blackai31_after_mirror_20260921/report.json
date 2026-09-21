@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-21T10:54:47+00:00",
+  "as_of": "2026-09-21T11:29:02+00:00",
   "aggregation": "First valid scores, equal question weights, missing excluded. Mixed providers/models/inherited windows; not a homogeneous full benchmark.",
   "protected_first_506_unchanged": true,
   "runs": [
@@ -565,49 +565,60 @@
     },
     {
       "run": "blackai_gemini31_after_mirror_20260921",
-      "scores_sha256": "ef6c35424263a8a8a49b629de0e6ee6bef6e177c0c89165abd230635ffb23d5c",
+      "scores_sha256": "7a36580b1b4729265cd6cdca5314a13e74cb8a5265daba7722d2003f5b4ea59b",
       "metrics": {
         "granularity": "episode",
         "overall_unweighted": {
           "n_total": 49,
-          "n_scored": 0,
-          "coverage": 0.0,
+          "n_scored": 5,
+          "coverage": 0.10204081632653061,
           "statuses": {
-            "pending": 49
+            "pending": 44,
+            "ok": 5
           },
-          "normalized_mean": null,
-          "percent_score": null
+          "normalized_mean": 0.5333333333333333,
+          "percent_score": 53.333333333333336
         },
         "tasks": {
           "emotion trajectory": {
             "n_total": 18,
-            "n_scored": 0,
-            "coverage": 0.0,
+            "n_scored": 2,
+            "coverage": 0.1111111111111111,
             "statuses": {
-              "pending": 18
+              "pending": 16,
+              "ok": 2
             },
-            "normalized_mean": null,
-            "percent_score": null
+            "normalized_mean": 0.5,
+            "percent_score": 50.0,
+            "raw_mean": 2.0,
+            "max_score": 4
           },
           "emotional intensity comparison": {
             "n_total": 24,
-            "n_scored": 0,
-            "coverage": 0.0,
+            "n_scored": 2,
+            "coverage": 0.08333333333333333,
             "statuses": {
-              "pending": 24
+              "pending": 22,
+              "ok": 2
             },
-            "normalized_mean": null,
-            "percent_score": null
+            "normalized_mean": 0.5,
+            "percent_score": 50.0,
+            "raw_mean": 0.5,
+            "max_score": 1,
+            "acc": 0.5
           },
           "emotional reasoning": {
             "n_total": 7,
-            "n_scored": 0,
-            "coverage": 0.0,
+            "n_scored": 1,
+            "coverage": 0.14285714285714285,
             "statuses": {
-              "pending": 7
+              "pending": 6,
+              "ok": 1
             },
-            "normalized_mean": null,
-            "percent_score": null
+            "normalized_mean": 0.6666666666666666,
+            "percent_score": 66.66666666666666,
+            "raw_mean": 2.0,
+            "max_score": 3
           }
         },
         "emotional_reasoning": {
@@ -623,22 +634,25 @@
           },
           "explanation": {
             "n_total": 4,
-            "n_scored": 0,
-            "coverage": 0.0,
+            "n_scored": 1,
+            "coverage": 0.25,
             "statuses": {
-              "pending": 4
+              "pending": 3,
+              "ok": 1
             },
-            "normalized_mean": null,
-            "percent_score": null
+            "normalized_mean": 0.6666666666666666,
+            "percent_score": 66.66666666666666,
+            "raw_mean": 2.0,
+            "max_score": 3
           },
           "weights": {
             "result": 0.6,
             "explanation": 0.4
           },
-          "unweighted": null,
-          "unweighted_percent": null,
-          "weighted": null,
-          "weighted_percent": null
+          "unweighted": 0.6666666666666666,
+          "unweighted_percent": 66.66666666666666,
+          "weighted": 0.6666666666666666,
+          "weighted_percent": 66.66666666666666
         }
       }
     }
@@ -647,53 +661,53 @@
     "granularity": "episode",
     "overall_unweighted": {
       "n_total": 558,
-      "n_scored": 506,
-      "coverage": 0.9068100358422939,
+      "n_scored": 511,
+      "coverage": 0.9157706093189965,
       "statuses": {
-        "ok": 506,
-        "pending": 52
+        "ok": 511,
+        "pending": 47
       },
-      "normalized_mean": 0.5775691699604739,
-      "percent_score": 57.756916996047394
+      "normalized_mean": 0.5771363339856488,
+      "percent_score": 57.71363339856488
     },
     "tasks": {
       "emotion trajectory": {
         "n_total": 235,
-        "n_scored": 216,
-        "coverage": 0.9191489361702128,
+        "n_scored": 218,
+        "coverage": 0.9276595744680851,
         "statuses": {
-          "ok": 216,
-          "pending": 19
+          "ok": 218,
+          "pending": 17
         },
-        "normalized_mean": 0.5428240740740741,
-        "percent_score": 54.282407407407405,
-        "raw_mean": 2.1712962962962963,
+        "normalized_mean": 0.5424311926605505,
+        "percent_score": 54.243119266055054,
+        "raw_mean": 2.169724770642202,
         "max_score": 4
       },
       "emotional intensity comparison": {
         "n_total": 194,
-        "n_scored": 170,
-        "coverage": 0.8762886597938144,
+        "n_scored": 172,
+        "coverage": 0.8865979381443299,
         "statuses": {
-          "ok": 170,
-          "pending": 24
+          "ok": 172,
+          "pending": 22
         },
-        "normalized_mean": 0.5117647058823529,
-        "percent_score": 51.17647058823529,
-        "raw_mean": 0.5117647058823529,
+        "normalized_mean": 0.5116279069767442,
+        "percent_score": 51.162790697674424,
+        "raw_mean": 0.5116279069767442,
         "max_score": 1,
-        "acc": 0.5117647058823529
+        "acc": 0.5116279069767442
       },
       "emotional reasoning": {
         "n_total": 129,
-        "n_scored": 120,
-        "coverage": 0.9302325581395349,
+        "n_scored": 121,
+        "coverage": 0.937984496124031,
         "statuses": {
-          "ok": 120,
-          "pending": 9
+          "ok": 121,
+          "pending": 8
         },
-        "normalized_mean": 0.7333333333333333,
-        "percent_score": 73.33333333333333
+        "normalized_mean": 0.7327823691460056,
+        "percent_score": 73.27823691460055
       }
     },
     "emotional_reasoning": {
@@ -713,25 +727,25 @@
       },
       "explanation": {
         "n_total": 88,
-        "n_scored": 82,
-        "coverage": 0.9318181818181818,
+        "n_scored": 83,
+        "coverage": 0.9431818181818182,
         "statuses": {
-          "ok": 82,
-          "pending": 6
+          "ok": 83,
+          "pending": 5
         },
-        "normalized_mean": 0.8048780487804874,
-        "percent_score": 80.48780487804873,
-        "raw_mean": 2.4146341463414633,
+        "normalized_mean": 0.8032128514056222,
+        "percent_score": 80.32128514056221,
+        "raw_mean": 2.4096385542168677,
         "max_score": 3
       },
       "weights": {
         "result": 0.6,
         "explanation": 0.4
       },
-      "unweighted": 0.7333333333333333,
-      "unweighted_percent": 73.33333333333333,
-      "weighted": 0.6693196405648265,
-      "weighted_percent": 66.93196405648266
+      "unweighted": 0.7327823691460056,
+      "unweighted_percent": 73.27823691460055,
+      "weighted": 0.6686535616148805,
+      "weighted_percent": 66.86535616148805
     }
   },
   "series": {
@@ -998,53 +1012,53 @@
       "granularity": "episode",
       "overall_unweighted": {
         "n_total": 90,
-        "n_scored": 45,
-        "coverage": 0.5,
+        "n_scored": 50,
+        "coverage": 0.5555555555555556,
         "statuses": {
-          "ok": 45,
-          "pending": 45
+          "ok": 50,
+          "pending": 40
         },
-        "normalized_mean": 0.512962962962963,
-        "percent_score": 51.2962962962963
+        "normalized_mean": 0.515,
+        "percent_score": 51.5
       },
       "tasks": {
         "emotion trajectory": {
           "n_total": 34,
-          "n_scored": 17,
-          "coverage": 0.5,
+          "n_scored": 19,
+          "coverage": 0.5588235294117647,
           "statuses": {
-            "ok": 17,
-            "pending": 17
+            "ok": 19,
+            "pending": 15
           },
-          "normalized_mean": 0.5147058823529411,
-          "percent_score": 51.470588235294116,
-          "raw_mean": 2.0588235294117645,
+          "normalized_mean": 0.5131578947368421,
+          "percent_score": 51.31578947368421,
+          "raw_mean": 2.0526315789473686,
           "max_score": 4
         },
         "emotional intensity comparison": {
           "n_total": 41,
-          "n_scored": 20,
-          "coverage": 0.4878048780487805,
+          "n_scored": 22,
+          "coverage": 0.5365853658536586,
           "statuses": {
-            "ok": 20,
-            "pending": 21
+            "ok": 22,
+            "pending": 19
           },
-          "normalized_mean": 0.4,
-          "percent_score": 40.0,
-          "raw_mean": 0.4,
+          "normalized_mean": 0.4090909090909091,
+          "percent_score": 40.909090909090914,
+          "raw_mean": 0.4090909090909091,
           "max_score": 1,
-          "acc": 0.4
+          "acc": 0.4090909090909091
         },
         "emotional reasoning": {
           "n_total": 15,
-          "n_scored": 8,
-          "coverage": 0.5333333333333333,
+          "n_scored": 9,
+          "coverage": 0.6,
           "statuses": {
-            "ok": 8,
-            "pending": 7
+            "ok": 9,
+            "pending": 6
           },
-          "normalized_mean": 0.7916666666666666,
-          "percent_score": 79.16666666666666
+          "normalized_mean": 0.7777777777777778,
+          "percent_score": 77.77777777777779
         }
       },
       "emotional_reasoning": {
@@ -1064,25 +1078,25 @@
         },
         "explanation": {
           "n_total": 10,
-          "n_scored": 6,
-          "coverage": 0.6,
+          "n_scored": 7,
+          "coverage": 0.7,
           "statuses": {
-            "ok": 6,
-            "pending": 4
+            "ok": 7,
+            "pending": 3
           },
-          "normalized_mean": 0.7222222222222222,
-          "percent_score": 72.22222222222221,
-          "raw_mean": 2.1666666666666665,
+          "normalized_mean": 0.7142857142857143,
+          "percent_score": 71.42857142857143,
+          "raw_mean": 2.142857142857143,
           "max_score": 3
         },
         "weights": {
           "result": 0.6,
           "explanation": 0.4
         },
-        "unweighted": 0.7916666666666666,
-        "unweighted_percent": 79.16666666666666,
-        "weighted": 0.8888888888888888,
-        "weighted_percent": 88.88888888888889
+        "unweighted": 0.7777777777777778,
+        "unweighted_percent": 77.77777777777779,
+        "weighted": 0.8857142857142857,
+        "weighted_percent": 88.57142857142857
       }
     },
     "Modern Family": {
@@ -4105,7 +4119,10 @@
       "series": "Friends",
       "status": "blocked_question_policy",
       "stage": "answer",
-      "provider": "Matrix GPT-6"
+      "provider": "Matrix GPT-6",
+      "failure_category": "old_matrix_content_filter",
+      "failure_stage": "answer",
+      "failure_detail": "Matrix 既有明确拒绝，保留未完成"
     },
     {
       "question_id": "G2_Q000260",
@@ -4114,7 +4131,10 @@
       "series": "Friends",
       "status": "blocked_question_policy",
       "stage": "answer",
-      "provider": "Matrix GPT-6"
+      "provider": "Matrix GPT-6",
+      "failure_category": "old_matrix_content_filter",
+      "failure_stage": "answer",
+      "failure_detail": "Matrix 既有明确拒绝，保留未完成"
     },
     {
       "question_id": "G2_Q000261",
@@ -5102,7 +5122,10 @@
       "series": "Friends",
       "status": "blocked_judge_policy",
       "stage": "judge",
-      "provider": "Matrix GPT-6"
+      "provider": "Matrix GPT-6",
+      "failure_category": "old_matrix_content_filter",
+      "failure_stage": "judge",
+      "failure_detail": "Matrix 既有明确拒绝，保留未完成"
     },
     {
       "question_id": "G2_Q000351",
@@ -5450,144 +5473,360 @@
       "video_id": "G2_V000104",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
     },
     {
       "question_id": "G2_Q000383",
       "video_id": "G2_V000104",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
     },
     {
       "question_id": "G2_Q000384",
       "video_id": "G2_V000104",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
     },
     {
       "question_id": "G2_Q000385",
       "video_id": "G2_V000104",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
     },
     {
       "question_id": "G2_Q000386",
       "video_id": "G2_V000104",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
     },
     {
       "question_id": "G2_Q000387",
       "video_id": "G2_V000104",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_timeout",
+      "failure_stage": "audio",
+      "failure_detail": "BlackAI 音频请求在 180 秒超时"
     },
     {
       "question_id": "G2_Q000388",
       "video_id": "G2_V000105",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000389",
       "video_id": "G2_V000105",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000390",
       "video_id": "G2_V000105",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000391",
       "video_id": "G2_V000105",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000392",
       "video_id": "G2_V000105",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000393",
       "video_id": "G2_V000105",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000394",
       "video_id": "G2_V000106",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
     },
     {
       "question_id": "G2_Q000395",
       "video_id": "G2_V000106",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
     },
     {
       "question_id": "G2_Q000396",
       "video_id": "G2_V000106",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
     },
     {
       "question_id": "G2_Q000397",
       "video_id": "G2_V000106",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
     },
     {
       "question_id": "G2_Q000398",
       "video_id": "G2_V000106",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
     },
     {
       "question_id": "G2_Q000399",
       "video_id": "G2_V000106",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "provider_http",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 视觉请求 HTTP 520"
     },
     {
       "question_id": "G2_Q000400",
@@ -5891,88 +6130,245 @@
       "video_id": "G2_V000112",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "blocked_input_policy",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "blocked_input_policy",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+          "purpose": "perception:G2_V000112:W00040",
+          "service_error_code": "content_filter"
+        }
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
     },
     {
       "question_id": "G2_Q000428",
       "video_id": "G2_V000112",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "blocked_input_policy",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "blocked_input_policy",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+          "purpose": "perception:G2_V000112:W00040",
+          "service_error_code": "content_filter"
+        }
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
     },
     {
       "question_id": "G2_Q000429",
       "video_id": "G2_V000112",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "blocked_input_policy",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "blocked_input_policy",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+          "purpose": "perception:G2_V000112:W00040",
+          "service_error_code": "content_filter"
+        }
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
     },
     {
       "question_id": "G2_Q000430",
       "video_id": "G2_V000112",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "blocked_input_policy",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "blocked_input_policy",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+          "purpose": "perception:G2_V000112:W00040",
+          "service_error_code": "content_filter"
+        }
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
     },
     {
       "question_id": "G2_Q000431",
       "video_id": "G2_V000112",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "blocked_input_policy",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000112",
+        "status": "blocked_input_policy",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+          "purpose": "perception:G2_V000112:W00040",
+          "service_error_code": "content_filter"
+        }
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "perception_content_filter",
+      "failure_stage": "visual",
+      "failure_detail": "BlackAI 第 40 窗口明确 content_filter"
     },
     {
       "question_id": "G2_Q000432",
       "video_id": "G2_V000113",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000433",
       "video_id": "G2_V000113",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000434",
       "video_id": "G2_V000113",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000435",
       "video_id": "G2_V000113",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000436",
       "video_id": "G2_V000113",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000437",
       "video_id": "G2_V000113",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000438",
@@ -6056,128 +6452,275 @@
       "video_id": "G2_V000115",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000446",
       "video_id": "G2_V000115",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000447",
       "video_id": "G2_V000115",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000448",
       "video_id": "G2_V000115",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000449",
       "video_id": "G2_V000115",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666,
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "status": "scored"
     },
     {
       "question_id": "G2_Q000450",
       "video_id": "G2_V000116",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000451",
       "video_id": "G2_V000116",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000452",
       "video_id": "G2_V000116",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000453",
       "video_id": "G2_V000116",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000454",
       "video_id": "G2_V000116",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000455",
       "video_id": "G2_V000117",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000456",
       "video_id": "G2_V000117",
       "type": "emotional intensity comparison",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000457",
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000458",
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000459",
       "video_id": "G2_V000117",
       "type": "emotion trajectory",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000460",
       "video_id": "G2_V000117",
       "type": "emotional reasoning",
       "series": "Malcolm in the Middle",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000461",
@@ -6723,32 +7266,80 @@
       "video_id": "G2_V000129",
       "type": "emotional intensity comparison",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000511",
       "video_id": "G2_V000129",
       "type": "emotional intensity comparison",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000512",
       "video_id": "G2_V000129",
       "type": "emotional intensity comparison",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000513",
       "video_id": "G2_V000129",
       "type": "emotion trajectory",
       "series": "Modern Family",
-      "status": "pending_memory_or_score",
-      "source_run": "blackai_gemini31_after_mirror_20260921"
+      "status": "frontend_failed",
+      "source_run": "blackai_gemini31_after_mirror_20260921",
+      "graph_outcome": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false
+      },
+      "experiment_fingerprint": "ccfbfb47c20abf4d4e5453aa671d2bcbf54d72950ea9ca0ee67742a8b8f39e55",
+      "graph_complete": false,
+      "failure_category": "schema_validation",
+      "failure_stage": "visual",
+      "failure_detail": "关系缺少支持观察 ID；原图谱校验未通过"
     },
     {
       "question_id": "G2_Q000514",
@@ -7247,54 +7838,66 @@
     }
   ],
   "question_disposition_counts": {
-    "scored": 506,
+    "scored": 511,
     "blocked_question_policy": 2,
     "blocked_judge_policy": 1,
-    "pending_memory_or_score": 49
+    "frontend_failed": 39,
+    "blocked_input_policy": 5
   },
   "new_run": "blackai_gemini31_after_mirror_20260921",
   "new_run_metrics": {
     "granularity": "episode",
     "overall_unweighted": {
       "n_total": 49,
-      "n_scored": 0,
-      "coverage": 0.0,
+      "n_scored": 5,
+      "coverage": 0.10204081632653061,
       "statuses": {
-        "pending": 49
+        "pending": 44,
+        "ok": 5
       },
-      "normalized_mean": null,
-      "percent_score": null
+      "normalized_mean": 0.5333333333333333,
+      "percent_score": 53.333333333333336
     },
     "tasks": {
       "emotion trajectory": {
         "n_total": 18,
-        "n_scored": 0,
-        "coverage": 0.0,
+        "n_scored": 2,
+        "coverage": 0.1111111111111111,
         "statuses": {
-          "pending": 18
+          "pending": 16,
+          "ok": 2
         },
-        "normalized_mean": null,
-        "percent_score": null
+        "normalized_mean": 0.5,
+        "percent_score": 50.0,
+        "raw_mean": 2.0,
+        "max_score": 4
       },
       "emotional intensity comparison": {
         "n_total": 24,
-        "n_scored": 0,
-        "coverage": 0.0,
+        "n_scored": 2,
+        "coverage": 0.08333333333333333,
         "statuses": {
-          "pending": 24
+          "pending": 22,
+          "ok": 2
         },
-        "normalized_mean": null,
-        "percent_score": null
+        "normalized_mean": 0.5,
+        "percent_score": 50.0,
+        "raw_mean": 0.5,
+        "max_score": 1,
+        "acc": 0.5
       },
       "emotional reasoning": {
         "n_total": 7,
-        "n_scored": 0,
-        "coverage": 0.0,
+        "n_scored": 1,
+        "coverage": 0.14285714285714285,
         "statuses": {
-          "pending": 7
+          "pending": 6,
+          "ok": 1
         },
-        "normalized_mean": null,
-        "percent_score": null
+        "normalized_mean": 0.6666666666666666,
+        "percent_score": 66.66666666666666,
+        "raw_mean": 2.0,
+        "max_score": 3
       }
     },
     "emotional_reasoning": {
@@ -7310,31 +7913,115 @@
       },
       "explanation": {
         "n_total": 4,
-        "n_scored": 0,
-        "coverage": 0.0,
+        "n_scored": 1,
+        "coverage": 0.25,
         "statuses": {
-          "pending": 4
+          "pending": 3,
+          "ok": 1
         },
-        "normalized_mean": null,
-        "percent_score": null
+        "normalized_mean": 0.6666666666666666,
+        "percent_score": 66.66666666666666,
+        "raw_mean": 2.0,
+        "max_score": 3
       },
       "weights": {
         "result": 0.6,
         "explanation": 0.4
       },
-      "unweighted": null,
-      "unweighted_percent": null,
-      "weighted": null,
-      "weighted_percent": null
+      "unweighted": 0.6666666666666666,
+      "unweighted_percent": 66.66666666666666,
+      "weighted": 0.6666666666666666,
+      "weighted_percent": 66.66666666666666
     }
   },
   "backend": {
-    "videos": {},
-    "status": "waiting_memory",
+    "videos": {
+      "G2_V000106": {
+        "video_id": "G2_V000106",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "G2_V000105": {
+        "video_id": "G2_V000105",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "G2_V000117": {
+        "video_id": "G2_V000117",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "G2_V000113": {
+        "video_id": "G2_V000113",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "G2_V000116": {
+        "video_id": "G2_V000116",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "G2_V000104": {
+        "video_id": "G2_V000104",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": false,
+        "outer_recovery_allowed": false
+      },
+      "G2_V000112": {
+        "video_id": "G2_V000112",
+        "status": "blocked_input_policy",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false,
+        "rejection": {
+          "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini31_after_mirror_20260921/memory/G2_V000112/calls.jsonl",
+          "purpose": "perception:G2_V000112:W00040",
+          "service_error_code": "content_filter"
+        }
+      },
+      "G2_V000115": {
+        "video_id": "G2_V000115",
+        "status": "complete",
+        "n_scored": 5
+      },
+      "G2_V000129": {
+        "video_id": "G2_V000129",
+        "status": "frontend_failed",
+        "returncode": 1,
+        "gate_passed": true,
+        "outer_recovery_allowed": false
+      }
+    },
+    "status": "finished",
     "active_videos": [],
-    "updated_unix": 1789988086.2069666,
+    "updated_unix": 1789989613.205085,
     "question_count": 49,
-    "n_scored": 0
+    "n_scored": 5
   },
-  "successful_answers_awaiting_first_judge": 0
+  "successful_answers_awaiting_first_judge": 0,
+  "execution_audit": {
+    "as_of": "2026-09-21T11:31:22+00:00",
+    "all_declared_frontends_backends_transfers_finished": true,
+    "benchmark_fully_scored": false,
+    "pending_first_judgments": 0,
+    "remaining_question_counts": {
+      "old_matrix_content_filter": 3,
+      "provider_timeout": 6,
+      "schema_validation": 27,
+      "provider_http": 6,
+      "perception_content_filter": 5
+    },
+    "path": "../blackai31_after_mirror_20260921/final_audit.json"
+  }
 }
