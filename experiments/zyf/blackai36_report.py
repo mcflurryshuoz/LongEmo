@@ -16,6 +16,7 @@ from methods.longemo.common import file_hash
 ADDITIONAL='aicodemirror_recharge_parallel_20260921'
 RECOVERY='aicodemirror_v106_recovery_20260921'
 STREAM='aicodemirror_stream_remaining_20260921'
+STREAM129='aicodemirror_stream_v129_20260921'
 
 
 def make_report(runtime,output):
@@ -24,18 +25,18 @@ def make_report(runtime,output):
     target_ids={q['question_id'] for q in target};accepted={};runs=[];baseline={}
     route={q['question_id']:NAME for q in target};new_targets={NAME:target};states={}
     assigned=set()
-    for extra_name in [ADDITIONAL,RECOVERY,STREAM]:
+    for extra_name in [ADDITIONAL,RECOVERY,STREAM,STREAM129]:
         additional=runtime/'runs'/extra_name/'questions.json'
         if additional.exists():
             extra=read(additional);ids={q['question_id'] for q in extra}
             assert ids<=target_ids
-            if extra_name!=STREAM:assert not ids.intersection(assigned)
+            if extra_name not in [STREAM,STREAM129]:assert not ids.intersection(assigned)
             else:
                 cfg=read(additional.parent/'experiment_manifest.json')['configuration']
-                assert len(extra)==45 and all(cfg['parent_runs'][q['video_id']]==route[q['question_id']] for q in extra)
+                assert len(extra)=={STREAM:45,STREAM129:4}[extra_name] and all(cfg['parent_runs'][q['video_id']]==route[q['question_id']] for q in extra)
             assigned.update(ids);new_targets[extra_name]=extra
             route.update({q['question_id']:extra_name for q in extra})
-    for index,name in enumerate([*SCORE_HASHES,NAME,ADDITIONAL,RECOVERY,STREAM]):
+    for index,name in enumerate([*SCORE_HASHES,NAME,ADDITIONAL,RECOVERY,STREAM,STREAM129]):
         p=runtime/'runs'/name/'scores.jsonl'
         if not p.exists():continue
         raw=p.read_bytes();rows=[json.loads(x) for x in raw.splitlines() if x.strip()]
@@ -97,7 +98,7 @@ def make_report(runtime,output):
         lines.append('| '+('剧名未标注' if s=='unclassified' else LABELS.get(s,s))+' | '+' | '.join(cells)+' |')
     lines+=['',f"未评分 {558-combined['n_scored']} 题；已有成功答案待首次评分 {pending} 题。",'',
         '逐题状态：`'+json.dumps(data['question_disposition_counts'],ensure_ascii=False)+'`。',
-        '旧有 2 道回答过滤与 1 道评分过滤保留。续跑状态按最后分配的运行读取；原 27 题、V106 六题与流式 45 题是有明确父运行的接替范围，不能相加。流式实验继承五个 AICodeMirror 网关失败检查点，并为三个 BlackAI 结构失败视频切换提供方。成功的同输入流式窗口探针直接复用；V129 保持原运行。逐题首分互不重叠。',
+        '旧有 2 道回答过滤与 1 道评分过滤保留。续跑状态按最后分配的运行读取；原 27 题、V106 六题与流式 45 题是有明确父运行的接替范围，不能相加。流式实验继承五个 AICodeMirror 网关失败检查点，并为三个 BlackAI 结构失败视频切换提供方。成功的同输入流式窗口探针直接复用；V129 原运行随后也因 HTTP524 停止，其四题接入独立流式运行。逐题首分互不重叠。',
         '', '[逐题分数、来源、哈希和状态](report.json)。']
     (output/'report.md').write_text('\n'.join(lines)+'\n')
     return {'path':str(output),'new':new,'combined':combined,'pending_judgments':pending,'backend_status':state['status']}
