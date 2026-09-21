@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-09-21T08:19:52+00:00",
+  "video_id": "G2_V000106",
+  "questions": 6,
+  "completed_windows": 36,
+  "total_windows": 64,
+  "failed_purpose": "audio_observer:W00037",
+  "last_calls": [
+    {
+      "purpose": "audio_observer:W00037",
+      "attempt": 1,
+      "status": "error",
+      "error_type": "ValueError",
+      "elapsed_seconds": 29.78845901787281
+    },
+    {
+      "purpose": "audio_observer:W00037",
+      "attempt": 2,
+      "status": "error",
+      "error_type": "JSONDecodeError",
+      "elapsed_seconds": 21.179756285622716
+    },
+    {
+      "purpose": "audio_observer:W00037",
+      "attempt": 3,
+      "status": "error",
+      "error_type": "JSONDecodeError",
+      "elapsed_seconds": 26.341485479846597
+    }
+  ],
+  "classification": "audio response structure/JSON validation failure; no explicit content_filter evidence",
+  "next_action": "Preserve checkpoint; do not automatically retry BlackAI. User-authorized AICodeMirror follow-up must be an independent, non-overlapping run and retain first scores."
+}
