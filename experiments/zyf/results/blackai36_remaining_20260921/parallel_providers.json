@@ -1,0 +1,558 @@
+{
+  "as_of": "2026-09-21T08:16:39+00:00",
+  "report_as_of": "2026-09-21T08:13:58+00:00",
+  "runs": {
+    "blackai_gemini36_matrix_gpt6_remaining_20260921": {
+      "frontend": {
+        "videos": {
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "blocked_input_policy",
+            "attempts": 1,
+            "transient_remaining": false,
+            "rejection": {
+              "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+              "purpose": "perception:G2_V000104:W00055",
+              "service_error_code": "content_filter"
+            }
+          },
+          "G2_V000071": {
+            "video_id": "G2_V000071",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000108": {
+            "video_id": "G2_V000108",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000110": {
+            "video_id": "G2_V000110",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000105": {
+            "video_id": "G2_V000105",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000112": {
+            "video_id": "G2_V000112",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000129": {
+            "video_id": "G2_V000129",
+            "status": "delegated_provider",
+            "destination_run": "aicodemirror_recharge_parallel_20260921"
+          },
+          "G2_V000131": {
+            "video_id": "G2_V000131",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000106": {
+            "video_id": "G2_V000106",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          }
+        },
+        "status": "running",
+        "active_videos": [
+          "G2_V000113",
+          "G2_V000115",
+          "G2_V000116"
+        ],
+        "queued_videos": [],
+        "question_count": 69,
+        "updated_unix": 1789978596.9218187
+      },
+      "frontend_process": {
+        "pid": 3149667,
+        "started_unix": 1789978066.4725652,
+        "workers": 12,
+        "handoff_file": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/concurrency/frontend_handoff.json",
+        "launcher_sha256": "6e9af3a37e72c96b61f54047a197dcf3702c9e9660118f230cddca3dccfdc6dc"
+      },
+      "windows": {
+        "G2_V000071": {
+          "completed": 61,
+          "total": 61,
+          "complete": true
+        },
+        "G2_V000104": {
+          "completed": 54,
+          "total": 63,
+          "complete": false
+        },
+        "G2_V000105": {
+          "completed": 1,
+          "total": 65,
+          "complete": false
+        },
+        "G2_V000106": {
+          "completed": 36,
+          "total": 64,
+          "complete": false
+        },
+        "G2_V000108": {
+          "completed": 65,
+          "total": 65,
+          "complete": true
+        },
+        "G2_V000110": {
+          "completed": 65,
+          "total": 65,
+          "complete": true
+        },
+        "G2_V000112": {
+          "completed": 13,
+          "total": 65,
+          "complete": false
+        },
+        "G2_V000113": {
+          "completed": 44,
+          "total": 65,
+          "complete": false
+        },
+        "G2_V000115": {
+          "completed": 37,
+          "total": 65,
+          "complete": false
+        },
+        "G2_V000116": {
+          "completed": 33,
+          "total": 64,
+          "complete": false
+        },
+        "G2_V000117": {
+          "completed": 52,
+          "total": 64,
+          "complete": false
+        },
+        "G2_V000129": {
+          "completed": 5,
+          "total": 64,
+          "complete": false
+        },
+        "G2_V000131": {
+          "completed": 65,
+          "total": 65,
+          "complete": true
+        }
+      },
+      "manifest_sha256": "cafe9515bcad034e7a4202814bf931259c9ac3213d0c772b5424d4100ee95414"
+    },
+    "aicodemirror_recharge_parallel_20260921": {
+      "frontend": {
+        "videos": {},
+        "status": "running",
+        "active_videos": [
+          "G2_V000104",
+          "G2_V000105",
+          "G2_V000112",
+          "G2_V000117",
+          "G2_V000129"
+        ],
+        "queued_videos": [],
+        "updated_unix": 1789978591.6618373,
+        "question_count": 27
+      },
+      "frontend_process": {
+        "pid": 3153264,
+        "workers": 8,
+        "started_unix": 1789978131.6221821
+      },
+      "windows": {
+        "G2_V000104": {
+          "completed": 56,
+          "total": 63,
+          "complete": false
+        },
+        "G2_V000105": {
+          "completed": 5,
+          "total": 65,
+          "complete": false
+        },
+        "G2_V000112": {
+          "completed": 13,
+          "total": 65,
+          "complete": false
+        },
+        "G2_V000117": {
+          "completed": 53,
+          "total": 64,
+          "complete": false
+        },
+        "G2_V000129": {
+          "completed": 9,
+          "total": 64,
+          "complete": false
+        }
+      },
+      "manifest_sha256": "7f7095fe6840f62038b8b37b68b33013ad91909edbc90300df31c663560252b4"
+    }
+  },
+  "code_revision": "96b9a34",
+  "validation": "16 protection tests passed independently on g450 and AIStudio",
+  "report_archive_sha256": "ac078eb588865d63b695bb05dd13ca60fac124f10d01d4e3b829d7448bc0af49",
+  "aicodemirror_quota_probe": {
+    "checked_unix": 1789977886.7295973,
+    "scope": "text-only authentication/quota probe; media validation remains required",
+    "rows": [
+      {
+        "model": "claude-opus-5",
+        "status": "ok",
+        "nonempty": true,
+        "seconds": 2.15
+      },
+      {
+        "model": "gemini-2.5-pro",
+        "status": "ok",
+        "nonempty": true,
+        "seconds": 3.24
+      }
+    ]
+  },
+  "handoff": {
+    "old_scheduler": {
+      "pid": 3028487,
+      "state": "S",
+      "ppid": 1,
+      "start_ticks": 1192364505,
+      "exit_status": 0,
+      "command": [
+        "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+        "-u",
+        "-m",
+        "experiments.zyf.blackai36_continuation",
+        "frontend",
+        "--runtime",
+        "/mnt/data1/zyf/LongEmo-runtime",
+        "--credential-file",
+        "/mnt/data1/zyf/LongEmo-runtime/private/blackai_gemini37_matrix_gpt6_compact_20260920_perception.json",
+        "--workers",
+        "4"
+      ]
+    },
+    "stage": "frontend",
+    "snapshot": {
+      "state": {
+        "videos": {
+          "G2_V000104": {
+            "video_id": "G2_V000104",
+            "status": "blocked_input_policy",
+            "attempts": 1,
+            "transient_remaining": false,
+            "rejection": {
+              "source": "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/memory/G2_V000104/calls.jsonl",
+              "purpose": "perception:G2_V000104:W00055",
+              "service_error_code": "content_filter"
+            }
+          },
+          "G2_V000071": {
+            "video_id": "G2_V000071",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000108": {
+            "video_id": "G2_V000108",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000117": {
+            "video_id": "G2_V000117",
+            "status": "frontend_failed",
+            "attempts": 1,
+            "transient_remaining": false
+          },
+          "G2_V000110": {
+            "video_id": "G2_V000110",
+            "status": "memory_complete",
+            "attempts": 1,
+            "transient_remaining": false
+          }
+        },
+        "status": "running",
+        "active_videos": [
+          "G2_V000106",
+          "G2_V000113",
+          "G2_V000115",
+          "G2_V000131"
+        ],
+        "queued_videos": [
+          "G2_V000116",
+          "G2_V000112",
+          "G2_V000129",
+          "G2_V000105"
+        ],
+        "question_count": 69,
+        "updated_unix": 1789978060.6821659
+      },
+      "workers": {
+        "G2_V000131": {
+          "process": {
+            "pid": 3079899,
+            "state": "S",
+            "ppid": 3028487,
+            "start_ticks": 1192449328,
+            "exit_status": 0,
+            "command": [
+              "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+              "-u",
+              "-m",
+              "experiments.zyf.blackai36_worker",
+              "build",
+              "--data-path",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000131/questions.json",
+              "--videos-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/episode/videos",
+              "--subtitles-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/prepared_subtitles",
+              "--output-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000131/build_memory",
+              "--window-seconds",
+              "20",
+              "--padding",
+              "2",
+              "--fps",
+              "1",
+              "--max-frames",
+              "8",
+              "--max-pixels",
+              "150528",
+              "--with-audio",
+              "--workers",
+              "1",
+              "--model",
+              "gemini-3.6-flash",
+              "--base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--audio-model",
+              "gemini-3.6-flash",
+              "--audio-base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--credential-file",
+              "/mnt/data1/zyf/LongEmo-runtime/private/blackai_gemini37_matrix_gpt6_compact_20260920_perception.json",
+              "--thinking",
+              "default",
+              "--timeout",
+              "180",
+              "--tries",
+              "3",
+              "--max-tokens",
+              "8192"
+            ]
+          },
+          "attempt": 1
+        },
+        "G2_V000113": {
+          "process": {
+            "pid": 3121612,
+            "state": "S",
+            "ppid": 3028487,
+            "start_ticks": 1192520328,
+            "exit_status": 0,
+            "command": [
+              "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+              "-u",
+              "-m",
+              "experiments.zyf.blackai36_worker",
+              "build",
+              "--data-path",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000113/questions.json",
+              "--videos-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/episode/videos",
+              "--subtitles-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/prepared_subtitles",
+              "--output-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000113/build_memory",
+              "--window-seconds",
+              "20",
+              "--padding",
+              "2",
+              "--fps",
+              "1",
+              "--max-frames",
+              "8",
+              "--max-pixels",
+              "150528",
+              "--with-audio",
+              "--workers",
+              "1",
+              "--model",
+              "gemini-3.6-flash",
+              "--base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--audio-model",
+              "gemini-3.6-flash",
+              "--audio-base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--credential-file",
+              "/mnt/data1/zyf/LongEmo-runtime/private/blackai_gemini37_matrix_gpt6_compact_20260920_perception.json",
+              "--thinking",
+              "default",
+              "--timeout",
+              "180",
+              "--tries",
+              "3",
+              "--max-tokens",
+              "8192"
+            ]
+          },
+          "attempt": 1
+        },
+        "G2_V000106": {
+          "process": {
+            "pid": 3123044,
+            "state": "S",
+            "ppid": 3028487,
+            "start_ticks": 1192522244,
+            "exit_status": 0,
+            "command": [
+              "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+              "-u",
+              "-m",
+              "experiments.zyf.blackai36_worker",
+              "build",
+              "--data-path",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000106/questions.json",
+              "--videos-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/episode/videos",
+              "--subtitles-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/prepared_subtitles",
+              "--output-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000106/build_memory",
+              "--window-seconds",
+              "20",
+              "--padding",
+              "2",
+              "--fps",
+              "1",
+              "--max-frames",
+              "8",
+              "--max-pixels",
+              "150528",
+              "--with-audio",
+              "--workers",
+              "1",
+              "--model",
+              "gemini-3.6-flash",
+              "--base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--audio-model",
+              "gemini-3.6-flash",
+              "--audio-base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--credential-file",
+              "/mnt/data1/zyf/LongEmo-runtime/private/blackai_gemini37_matrix_gpt6_compact_20260920_perception.json",
+              "--thinking",
+              "default",
+              "--timeout",
+              "180",
+              "--tries",
+              "3",
+              "--max-tokens",
+              "8192"
+            ]
+          },
+          "attempt": 1
+        },
+        "G2_V000115": {
+          "process": {
+            "pid": 3143450,
+            "state": "S",
+            "ppid": 3028487,
+            "start_ticks": 1192551613,
+            "exit_status": 0,
+            "command": [
+              "/mnt/data1/zyf/LongEmo-runtime/embedding-venv/bin/python",
+              "-u",
+              "-m",
+              "experiments.zyf.blackai36_worker",
+              "build",
+              "--data-path",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000115/questions.json",
+              "--videos-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/episode/videos",
+              "--subtitles-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/data/prepared_subtitles",
+              "--output-dir",
+              "/mnt/data1/zyf/LongEmo-runtime/runs/blackai_gemini36_matrix_gpt6_remaining_20260921/videos/G2_V000115/build_memory",
+              "--window-seconds",
+              "20",
+              "--padding",
+              "2",
+              "--fps",
+              "1",
+              "--max-frames",
+              "8",
+              "--max-pixels",
+              "150528",
+              "--with-audio",
+              "--workers",
+              "1",
+              "--model",
+              "gemini-3.6-flash",
+              "--base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--audio-model",
+              "gemini-3.6-flash",
+              "--audio-base-url",
+              "https://www.blackaicoding.com/v1beta",
+              "--credential-file",
+              "/mnt/data1/zyf/LongEmo-runtime/private/blackai_gemini37_matrix_gpt6_compact_20260920_perception.json",
+              "--thinking",
+              "default",
+              "--timeout",
+              "180",
+              "--tries",
+              "3",
+              "--max-tokens",
+              "8192"
+            ]
+          },
+          "attempt": 1
+        }
+      }
+    },
+    "created_unix": 1789978066.3961208,
+    "operation": "adopt_live_children_no_request_cancellation",
+    "delegation": {
+      "destination_run": "aicodemirror_recharge_parallel_20260921",
+      "video_ids": [
+        "G2_V000105",
+        "G2_V000112",
+        "G2_V000129"
+      ]
+    }
+  },
+  "backend_capacity": {
+    "blackai_gemini36_matrix_gpt6_remaining_20260921": {
+      "pid": 321088,
+      "video_workers": 6
+    },
+    "aicodemirror_recharge_parallel_20260921": {
+      "pid": 321089,
+      "video_workers": 4
+    }
+  },
+  "score_baseline": {
+    "protected_count": 486,
+    "current_count": 506,
+    "current_mean": 57.756916996047394
+  }
+}
