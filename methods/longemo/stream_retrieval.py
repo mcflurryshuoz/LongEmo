@@ -19,12 +19,17 @@ def _records(memory, events):
             record.pop("updates", None)
         refs = set(event.get("observation_refs", []))
         refs.update(ref for state in event.get("states", []) for ref in state.get("evidence_refs", []))
-        record["observations"] = [observations[ref] for ref in sorted(refs) if ref in observations]
+        raw_observations = [observations[ref] for ref in sorted(refs) if ref in observations]
+        record["observations"] = [{k: observation[k] for k in
+                                    ("id", "subject", "span", "cue", "modality", "source_ref")
+                                    if k in observation} for observation in raw_observations]
         subjects = {state.get("subject") for state in event.get("states", [])}
         subjects.update(observation.get("subject") for observation in record["observations"])
-        record["people"] = [people[person] for person in sorted(subjects) if person in people]
-        record["relations"] = [relation for relation in memory.get("relations", [])
-                                if event["id"] in (relation.get("source"), relation.get("target"))]
+        record["people"] = [{k: people[person][k] for k in ("id", "name", "description")
+                             if k in people[person]} for person in sorted(subjects) if person in people]
+        record["relations"] = [{k: relation[k] for k in ("source", "target", "type", "evidence_refs")
+                                if k in relation} for relation in memory.get("relations", [])
+                               if event["id"] in (relation.get("source"), relation.get("target"))]
         result.append(record)
     return result
 
@@ -101,14 +106,27 @@ def retrieve_stream(memory, question, plan, *, budget_chars=48000, top_k=12,
         if len(ids) < page_size:
             break
     selected_ids = stream_event_ids_all | relation_ids | set(seed_ids)
+    # Global questions need coverage across the full episode in addition to
+    # exact stream matches. Add one representative event per coarse time
+    # bucket; these are navigation context, never new causal claims.
+    if plan["mode"] in ("trajectory", "comparison", "count", "causal") and events:
+        low, high = bounds
+        buckets = {}
+        for event in events:
+            relative = (event_bounds(event)[0] - low) / max(1.0, high - low)
+            bucket = min(15, max(0, int(relative * 16)))
+            buckets.setdefault(bucket, event["id"])
+        selected_ids.update(buckets.values())
     selected_ids.intersection_update(by_id)
     ordered_ids = sorted(selected_ids, key=lambda event_id: (event_bounds(by_id[event_id]), event_id))
     ordered_records = [next(record for record in records if record["id"] == event_id) for event_id in ordered_ids]
-    timeline = [_timeline_entry(by_id[event_id]) for event_id in ordered_ids]
+    timeline_ids = [event["id"] for event in sorted(events, key=lambda event: (event_bounds(event), event["id"]))]
+    timeline = [_timeline_entry(by_id[event_id]) for event_id in timeline_ids]
     result = {"events": [], "timeline": [], "coverage": {
         "scope": bounds, "candidate_events": len(events), "seed_events": len(seed_ids),
         "stream_ids": stream_ids, "stream_events": len(stream_event_ids_all),
         "relation_events": len(relation_ids), "stream_pages": pages,
+        "global_timeline_events": len(timeline_ids),
     }}
     # Timeline entries are compact but still budgeted.  Keep the chronological
     # stream visible to the answerer before adding full evidence records.
@@ -142,4 +160,3 @@ def retrieve_stream(memory, question, plan, *, budget_chars=48000, top_k=12,
                      stream_pages=pages, stream_event_ids=sorted(stream_event_ids_all),
                      relation_event_ids=sorted(relation_ids), selected_event_ids=included)
     return result
-
