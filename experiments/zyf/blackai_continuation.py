@@ -35,6 +35,28 @@ def atomic(p, value):
     tmp.replace(p)
 
 
+def ready_marker(path, grace_seconds=300):
+    """SCP creates a marker before its last byte arrives; wait, then fail closed."""
+    def pending_or_error(reason):
+        if time.time() - path.stat().st_mtime <= grace_seconds:
+            return None
+        raise ValueError('stale incomplete transfer marker: ' + path.name + ': ' + reason)
+    try:
+        marker = read(path)
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        return pending_or_error('JSON not complete')
+    assert isinstance(marker, dict) and {'video_id', 'archive', 'sha256', 'bytes'} <= set(marker)
+    name = marker['archive']
+    assert isinstance(name, str) and PurePosixPath(name).name == name and name.endswith('.tar.gz')
+    assert isinstance(marker['bytes'], int) and marker['bytes'] > 0
+    archive = path.parent / name
+    assert not archive.is_symlink()
+    if not archive.is_file() or archive.stat().st_size != marker['bytes']:
+        return pending_or_error('archive not complete')
+    # import_video still verifies the archive and every member's SHA-256.
+    return marker
+
+
 def setup(runtime, selection):
     assert code_hash() == SOURCE_HASH, 'frozen method/evaluator changed'
     source = read(selection)
@@ -225,7 +247,9 @@ def backend(args, out, questions):
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         while len(status['videos']) < len(vids) or active:
             for marker_path in sorted(inbox.glob('*.ready.json')):
-                marker = read(marker_path); vid = marker['video_id']
+                marker = ready_marker(marker_path)
+                if marker is None: continue
+                vid = marker['video_id']
                 if vid in status['videos'] or vid in active.values(): continue
                 if len(active) >= args.workers: break
                 receipt = import_video(inbox/marker['archive'], marker, out, vids)

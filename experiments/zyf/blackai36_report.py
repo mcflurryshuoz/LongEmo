@@ -14,6 +14,7 @@ from experiments.zyf.series_scores import source_series,LABELS
 from methods.longemo.common import file_hash
 
 ADDITIONAL='aicodemirror_recharge_parallel_20260921'
+RECOVERY='aicodemirror_v106_recovery_20260921'
 
 
 def make_report(runtime,output):
@@ -21,12 +22,15 @@ def make_report(runtime,output):
     questions=read(runtime/'data/questions.json');assert len(questions)==558
     target_ids={q['question_id'] for q in target};accepted={};runs=[];baseline={}
     route={q['question_id']:NAME for q in target};new_targets={NAME:target};states={}
-    additional=runtime/'runs'/ADDITIONAL/'questions.json'
-    if additional.exists():
-        extra=read(additional);assert {q['question_id'] for q in extra}<=target_ids
-        new_targets[ADDITIONAL]=extra
-        route.update({q['question_id']:ADDITIONAL for q in extra})
-    for index,name in enumerate([*SCORE_HASHES,NAME,ADDITIONAL]):
+    assigned=set()
+    for extra_name in [ADDITIONAL,RECOVERY]:
+        additional=runtime/'runs'/extra_name/'questions.json'
+        if additional.exists():
+            extra=read(additional);ids={q['question_id'] for q in extra}
+            assert ids<=target_ids and not ids.intersection(assigned)
+            assigned.update(ids);new_targets[extra_name]=extra
+            route.update({q['question_id']:extra_name for q in extra})
+    for index,name in enumerate([*SCORE_HASHES,NAME,ADDITIONAL,RECOVERY]):
         p=runtime/'runs'/name/'scores.jsonl'
         if not p.exists():continue
         raw=p.read_bytes();rows=[json.loads(x) for x in raw.splitlines() if x.strip()]
@@ -71,8 +75,8 @@ def make_report(runtime,output):
         'question_disposition_counts':dict(Counter(x['status'] for x in dispositions)),
         'questions':dispositions,'backend':state,'backends':states,'successful_answers_awaiting_first_judge':pending,'protected_score_files_unchanged':True,
         'continuation_combined':summarize([r for r in flat if r['question_id'] in target_ids]),
-        'execution_split':{'BlackAI Gemini 3.6':len(target_ids)-len(new_targets.get(ADDITIONAL,[])),
-                           'AICodeMirror Claude Opus 5 + Gemini 2.5 Pro':len(new_targets.get(ADDITIONAL,[]))}}
+        'execution_split':{'BlackAI Gemini 3.6':len(target_ids)-len(assigned),
+                           'AICodeMirror Claude Opus 5 + Gemini 2.5 Pro':len(assigned)}}
     output.mkdir(parents=True,exist_ok=True);atomic(output/'report.json',data)
     pct=lambda x:'—' if x.get('percent_score') is None else f"{x['percent_score']:.2f} ({x['n_scored']}/{x['n_total']})"
     combined=data['combined']['overall_unweighted'];new=data['continuation_combined']['overall_unweighted']
