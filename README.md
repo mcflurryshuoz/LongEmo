@@ -14,13 +14,29 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 下方保留事件图方法和历史成绩供对照；历史 60.24／57.62 **不是本次 noevent 或三层消融成绩**。
 
+<!-- LONGEMO_FULL558_RESULTS:START -->
+### 当前三层消融进度
+
+2026-09-22 21:52 CST 快照：全集 **558题／141视频**，已完成试跑首分继承，正在优先跑 noevent，之后自动跑 base／method。
+
+| 条件 | 已评分／558题 | 已评分均分／100 |
+|---|---:|---:|
+| noevent | 56/558 | 39.14 |
+| base | 13/558 | 63.46 |
+| method | 13/558 | 69.23 |
+
+base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
+
+[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md)。缺失不计零分，历史路由版60.24分单独保留。
+<!-- LONGEMO_FULL558_RESULTS:END -->
+
 ## method 分支：完整事件流检索方法
 
 本分支在原有 benchmark 和评测器上实现了**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法概括为：先将视频按时间窗口切分，由音频和视觉模型提取带时间戳的人物、事件、情绪状态及证据；再把这些信息写入经过校验的事件图谱，并建立 Embedding 索引。回答问题时，由 GPT-6 规划检索，结合 BM25／人物与情感对象匹配、Gemini Embedding 2 向量召回和 RRF 融合，再沿事件关系扩展上下文，最后由 GPT-6 基于证据作答并按官方 rubric 评分。图谱与问题解耦，可复用已完成窗口和检索缓存。
 
 ## noevent 分支：时间窗口消融
 
-本分支用于隔离事件图贡献。已实现窗口级感知记录、窗口级 BM25／Embedding 双路检索和独立 answer CLI；输出不包含事件、状态、关系或跨窗口连续性字段。待同步 pilot 完成后，与 `method` 使用同一感知模型、采样、题单、GPT-6、Embedding 和评分器进行独立评测，方案与公平性约束见[消融方案](experiments/zyf/noevent_plan.md)。
+本分支用于隔离事件图贡献。已实现窗口级感知记录、窗口级 BM25／Embedding 双路检索和独立 answer CLI；输出不包含事件、状态、关系或跨窗口连续性字段。当前与 `method` 使用同一感知模型、采样、题单、GPT-6、Embedding 和评分器进行全集独立评测，方案与公平性约束见[消融方案](experiments/zyf/noevent_plan.md)。
 
 ```mermaid
 flowchart TD
@@ -163,7 +179,7 @@ python -m experiments.zyf.launch_blackai --help
 
 更多说明：[方法文档](methods/longemo/README.md) · [实验记录](experiments/zyf/README.md) · [研究计划](experiments/zyf/plan.md)。下文保留原 benchmark 的数据、预测与评测使用说明。
 
-全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，等待现有试跑结束后自动接续，视频正在后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
+全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，已接续 noevent 全集，视频继续后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
 
 ## Benchmark setup
 
