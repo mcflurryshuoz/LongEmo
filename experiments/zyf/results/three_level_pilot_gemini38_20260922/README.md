@@ -14,4 +14,6 @@ AIStudio 实验 62910175，运行 `three_level_pilot50_gemini38_perception_20260
 
 实现：method `3a6c0af`，noevent `d2a3a42`。共享核心与媒体测试92项、最新协调器测试22项，均已在AIStudio通过。模型、端点、超时独立冻结；改变感知配置会拒绝继承旧缓存。证据参数仍为48000字符，实际输入与累计token另行统计。
 
-2026-09-22 19:27:59 CST：V1事件图3/13窗口、noevent 4/13窗口，均仍在运行；尚未进入回答／评分。noevent已通过原先被GPT-6拒绝的W4（一次时间范围修正后通过）。最新快照见 [progress.json](progress.json)，启动方式见 [matched_pilot.md](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/matched_pilot.md)。当前还没有这套新配置的可报告分数；README 的60.24属于此前题型路由实验。
+完整视频验证已通过，后续12并发感知正在执行。2026-09-22 19:57 CST，三路均完成同一视频的2题，均分75.00（各2/50题）；推理题尚未评分。事件图已完成1视频、187个窗口；noevent已完成2视频、237个窗口。后续评分等待本批感知阶段结束，部分构建故障已按证据分类停止。
+
+最新结果见 [report.md](report.md) 和 [逐题状态与来源校验](report.json)。此前 [progress.json](progress.json) 保留为19:27的启动历史快照。启动方式见 [matched_pilot.md](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/matched_pilot.md)。README 的60.24属于此前题型路由实验，不能与当前两题结果直接比较。

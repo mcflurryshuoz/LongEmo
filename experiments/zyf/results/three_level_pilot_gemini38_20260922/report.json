@@ -1,0 +1,1936 @@
+{
+  "as_of": "2026-09-22T11:57:17.123378+00:00",
+  "run": "three_level_pilot50_gemini38_perception_20260922",
+  "configuration": {
+    "mode": "pilot",
+    "gate_video": "G2_V000001",
+    "questions_sha256": "14fd9c0be2c315a3adb6aeff7dc53034ce061afa5188920f44bee04a0d82c138",
+    "question_count": 50,
+    "video_count": 21,
+    "media": {
+      "G2_V000001": {
+        "video_sha256": "59027d1dce672c4ec2e5f49f0183fa24aacbacf3ab9d5934e6b71c2a9da4a1b8",
+        "subtitles_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "G2_V000002": {
+        "video_sha256": "a86a0f9c5de6507f9a844d7a2565a52ecf858f8942d355c4decb0a32294e48f1",
+        "subtitles_sha256": "3091a745feae5bca796fbe5f46ba3cb125bd58ae92af094cd0d2211454043198"
+      },
+      "G2_V000003": {
+        "video_sha256": "3b0e39966efe378f13069d8177474492c6f92e8b19e5d1c03902db31a7c5c969",
+        "subtitles_sha256": "e176240eddfdd4b231aa31640d1158f0e81d78df2c164ee375ce505b750ecafb"
+      },
+      "G2_V000004": {
+        "video_sha256": "61111859015990435f8227bab31bcce34d4fe1901d6ba67e11a7ab880e0038a9",
+        "subtitles_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "G2_V000005": {
+        "video_sha256": "85277f713499dade130e9f6be5e915c0a2a5bc399c07ff8f43e9d1ceceb426f0",
+        "subtitles_sha256": "2e87253508c7ba73b751b71f2a0089fe925fbf8847b473a5f4d27d279de59b4c"
+      },
+      "G2_V000006": {
+        "video_sha256": "8287e532e269f517bab2b4ac7b476b1e41b8330b4fc762165c8e88ace3f2b6db",
+        "subtitles_sha256": "6f23e9ee2d0b9d20148ff62f8926ce22acd9f6d9784eb4f6fa84a585141fe789"
+      },
+      "G2_V000007": {
+        "video_sha256": "54be385724f75f631f433b7dc3d5ca26d3075e74ed6f0f36ef086e826e525e04",
+        "subtitles_sha256": "61a05ca2d5f78240cba7e21ededf1dbf4666b92581501197f7c32b53accd0a80"
+      },
+      "G2_V000008": {
+        "video_sha256": "6010fbdfdbe127c77eb0c029bd9e514694f2e050290814d041bb3c79570f975b",
+        "subtitles_sha256": "7d1647da045f422f1d5836211c0dc491779d7304885194ca5d18c4e22059ec16"
+      },
+      "G2_V000009": {
+        "video_sha256": "2588b2fdd62d7477a3f55e88a20bed420f878e530154adee3a06eb2801ae03ad",
+        "subtitles_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "G2_V000010": {
+        "video_sha256": "1ac39050a66add0c3cc5f7d4d7fb52beae57f6cb13ce064afdb9c93b4f1b2a11",
+        "subtitles_sha256": "85c169371757b48e7463ac5ad3cf610493c26bff206c7404a7447fb305ea71da"
+      },
+      "G2_V000011": {
+        "video_sha256": "f5d73152ef7185100c92ffca683a8c5986827c5a630e7c9621bde5be4831fbd1",
+        "subtitles_sha256": "4b68c29a15b6be9955daaa1c99af527c784ab38ae4fa776fc9343901f02fddd4"
+      },
+      "G2_V000012": {
+        "video_sha256": "b89b2d33df4b1027ee27d4a0f5ae96c6b0c13082fb221cb000f55ecc4703e77f",
+        "subtitles_sha256": "5274b61969c3c94ba6ad7a0a958c2e85793252ae24e8287180e9a1a1090643ce"
+      },
+      "G2_V000013": {
+        "video_sha256": "f7ba0fe365297f1dccb9e04c74f508b3fc4919bab773858b77f1c46fef3ed2a8",
+        "subtitles_sha256": "e7c5251a1abfa80f7afc273c75e48dce00601358392ff013833cc15a8fe2663c"
+      },
+      "G2_V000014": {
+        "video_sha256": "a1764e8b2f04ad777813dfee7e3caa8fc4ccc765489c2552257e49b6e1107864",
+        "subtitles_sha256": "d33ab87c60f12964d118913b25127eba1210c4d8d207e5e7f15452c972e4e793"
+      },
+      "G2_V000015": {
+        "video_sha256": "a97ee930ff5e5aba09845a80040d9b32499d63c8b51c02ab171a4b69030b2141",
+        "subtitles_sha256": "01ba001332e8de64c6da1bfc99f78c15bc62bd9644898a1cbca748d6a1ba9065"
+      },
+      "G2_V000016": {
+        "video_sha256": "6480d2896cbce4773e6f3be125e03268d0d994a251ede24941d9b28a9045ab88",
+        "subtitles_sha256": "c93ab21d921a24655fbf0b0ae9ff0572a30a4f715348bd2ab750093915caf4bb"
+      },
+      "G2_V000017": {
+        "video_sha256": "0d2ab6bd4d4d48d82e698bab10babd8c339a7ddead9a576aa6bdbc3968873223",
+        "subtitles_sha256": "d3b4d760cadea1246ee9f4f5e75c61a341b9ca7925ca597cad0408cf198ce295"
+      },
+      "G2_V000018": {
+        "video_sha256": "b454cad08d904dcda6265d16505d15362f63d6f503c695334b4bfe423b9b2a85",
+        "subtitles_sha256": "6fcf5e6ca54176e6835c6c572f393b132b19e20179f61ac24f688d34fc3d87e0"
+      },
+      "G2_V000019": {
+        "video_sha256": "d355be5167a35791d8fb60951f0c6470cdbd62234b574cd6bc68d037cb722755",
+        "subtitles_sha256": "4d7cd2415e1e631b70c8af917d4f29c9b6617fc844d8c1576ceae8ef00fc8658"
+      },
+      "G2_V000020": {
+        "video_sha256": "6862215ad93ab66757cde58884f52dd34e0e0045de426abb332735e2414e2ff2",
+        "subtitles_sha256": "5b5dc7812a07a3d5bc5cbd5b2dd9cb783fe29a1cfca95241f5cbbdbda33da81a"
+      },
+      "G2_V000021": {
+        "video_sha256": "cfcdad48a83a1fc9b6bc72fd28258fa5f6776fb2ebcc56bb35ff39d3ff914736",
+        "subtitles_sha256": "23295ec2d76ab3c0889ed3c6cea1f9734e0ee86a9d0e21b002ed00f83c187bd4"
+      }
+    },
+    "videos_dir": "/root/longemo/runtime/data/episode/videos",
+    "subtitles_dir": "/root/longemo/runtime/data/prepared_subtitles",
+    "repos": {
+      "event": "/root/longemo/LongEmo-method-3a6c0af",
+      "noevent": "/root/longemo/LongEmo-noevent-d2a3a42"
+    },
+    "source_hashes": {
+      "event": "4c3e1ca68e594accd968f34c2c6fd0c627ca75be32d4f055cd1f9b14fdbff5f4",
+      "noevent": "8273376a201df682505cb3e5f0ac1ef9e3849862de34f16676efdb9741babcf9"
+    },
+    "coordinator_sha256": "693b18b1bd85943be49dfc16d9c74239dae3ce2b9dc9ef6f574d70365aba4f3b",
+    "python": "/opt/conda/bin/python",
+    "model": "gpt-6-astra",
+    "base_url": "https://matrixllm.alipay.com/v1",
+    "audio_model": "gemini-3.8-flash",
+    "perception_model": "gemini-3.8-flash",
+    "perception_base_url": "https://matrixllm.alipay.com/v1",
+    "perception_timeout": 240.0,
+    "audio_base_url": "https://matrixllm.alipay.com/v1",
+    "embedding_model": "google/gemini-embedding-2",
+    "embedding_base_url": "https://openrouter.ai/api/v1",
+    "evidence_chars": 48000,
+    "window_seconds": 20,
+    "padding": 2,
+    "fps": 1,
+    "max_frames": 24,
+    "max_pixels": 200704,
+    "stage_tries": {
+      "build": 3,
+      "plan": 3,
+      "answer": 3,
+      "score": 1
+    },
+    "max_tokens": 8192,
+    "timeout": 1800,
+    "parent_run": null,
+    "progressive_routing": "none",
+    "progressive_rounds": 3,
+    "progressive_anchor_k": 4
+  },
+  "execution": {
+    "build_workers": 12,
+    "video_workers": 6,
+    "question_workers": 2
+  },
+  "gate": {
+    "video_id": "G2_V000001",
+    "passed": true,
+    "required": "full video memory and first official scores in all three conditions",
+    "updated_unix": 1790076899.4363687
+  },
+  "coordinator": {
+    "pid": 278223,
+    "start_ticks": "1641756",
+    "alive": true,
+    "lock_held": true
+  },
+  "conditions": {
+    "base": {
+      "scored": 2,
+      "total": 50,
+      "mean_scored": 75.0,
+      "by_type": {
+        "emotion trajectory": {
+          "scored": 1,
+          "total": 14,
+          "mean_scored": 50.0
+        },
+        "emotional intensity comparison": {
+          "scored": 1,
+          "total": 19,
+          "mean_scored": 100.0
+        },
+        "emotional reasoning": {
+          "scored": 0,
+          "total": 17,
+          "mean_scored": null
+        }
+      }
+    },
+    "method": {
+      "scored": 2,
+      "total": 50,
+      "mean_scored": 75.0,
+      "by_type": {
+        "emotion trajectory": {
+          "scored": 1,
+          "total": 14,
+          "mean_scored": 50.0
+        },
+        "emotional intensity comparison": {
+          "scored": 1,
+          "total": 19,
+          "mean_scored": 100.0
+        },
+        "emotional reasoning": {
+          "scored": 0,
+          "total": 17,
+          "mean_scored": null
+        }
+      }
+    },
+    "noevent": {
+      "scored": 2,
+      "total": 50,
+      "mean_scored": 75.0,
+      "by_type": {
+        "emotion trajectory": {
+          "scored": 1,
+          "total": 14,
+          "mean_scored": 50.0
+        },
+        "emotional intensity comparison": {
+          "scored": 1,
+          "total": 19,
+          "mean_scored": 100.0
+        },
+        "emotional reasoning": {
+          "scored": 0,
+          "total": 17,
+          "mean_scored": null
+        }
+      }
+    }
+  },
+  "paired": {
+    "count": 2,
+    "question_ids": [
+      "G2_Q000001",
+      "G2_Q000002"
+    ],
+    "means": {
+      "base": 75.0,
+      "method": 75.0,
+      "noevent": 75.0
+    },
+    "method_minus_base": 0.0,
+    "base_minus_noevent": 0.0
+  },
+  "branches": {
+    "event": {
+      "complete": 1,
+      "running": 5,
+      "failed": 7,
+      "pending": 8,
+      "completed_windows": 187,
+      "videos": [
+        {
+          "video_id": "G2_V000001",
+          "status": "complete",
+          "completed_windows": 13,
+          "total_windows": 13,
+          "complete": true,
+          "final_failure": null,
+          "process": {
+            "pid": 278339,
+            "start_ticks": "1641922",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000002",
+          "status": "running",
+          "completed_windows": 30,
+          "total_windows": 68,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 331862,
+            "start_ticks": "1698534",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000003",
+          "status": "failed",
+          "completed_windows": 21,
+          "total_windows": 59,
+          "complete": false,
+          "final_failure": {
+            "purpose": "perception:G2_V000003:W00022",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790077906.3230944,
+            "request_hash": "b8c765d317c4718cf7fbebad70773a6b50788259c9fbb72097b5927199bbfae4",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 331873,
+            "start_ticks": "1698535",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000004",
+          "status": "failed",
+          "completed_windows": 7,
+          "total_windows": 15,
+          "complete": false,
+          "final_failure": {
+            "purpose": "perception:G2_V000004:W00008",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790077199.9342866,
+            "request_hash": "0bc443d80f2f36cd594b6f7fa69e6db2b3c1a89641c02339dc598cea4bd458cc",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 331865,
+            "start_ticks": "1698534",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000005",
+          "status": "failed",
+          "completed_windows": 17,
+          "total_windows": 34,
+          "complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "retry_reason": "permanent_http_error",
+            "will_retry": false,
+            "time_unix": 1790077496.2952938,
+            "request_hash": "e8cca5de9c199a9c1bb91d922a3f9b18af95bf592a511266ac91f706927c1efc",
+            "category": "http_428_unclassified"
+          },
+          "process": {
+            "pid": 331872,
+            "start_ticks": "1698534",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000006",
+          "status": "failed",
+          "completed_windows": 4,
+          "total_windows": 57,
+          "complete": false,
+          "final_failure": {
+            "purpose": "perception:G2_V000006:W00005",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790077055.656739,
+            "request_hash": "5adde1f7d0c9aad3fa2fcb1edaaebacfa75d6a07e00c255a095e302bf40a2560",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 331874,
+            "start_ticks": "1698535",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000007",
+          "status": "failed",
+          "completed_windows": 6,
+          "total_windows": 28,
+          "complete": false,
+          "final_failure": {
+            "purpose": "perception:G2_V000007:W00007",
+            "attempt": 2,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790077137.9474392,
+            "request_hash": "c196869253e892eb199e0ba7319f64bd2e3b5f9d4c1759b1ce75e630ab53a385",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 331877,
+            "start_ticks": "1698535",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000008",
+          "status": "running",
+          "completed_windows": 27,
+          "total_windows": 36,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 346946,
+            "start_ticks": "1719836",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000009",
+          "status": "failed",
+          "completed_windows": 5,
+          "total_windows": 32,
+          "complete": false,
+          "final_failure": {
+            "purpose": "perception:G2_V000009:W00006",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790077431.9020839,
+            "request_hash": "be6f2b6c26b49076297e2a974737b5b9b0f883f499a658d676f2e683027ff6fa",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 353583,
+            "start_ticks": "1730472",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000010",
+          "status": "running",
+          "completed_windows": 21,
+          "total_windows": 25,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 357855,
+            "start_ticks": "1737238",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000011",
+          "status": "failed",
+          "completed_windows": 15,
+          "total_windows": 35,
+          "complete": false,
+          "final_failure": {
+            "purpose": "perception:G2_V000011:W00016",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790078117.0311444,
+            "request_hash": "2c33730272ce3b061b8abc36b6b967a98d2a8f817015006e01f5adaaec3ec49b",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 371649,
+            "start_ticks": "1756985",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000012",
+          "status": "running",
+          "completed_windows": 15,
+          "total_windows": 67,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 373210,
+            "start_ticks": "1759104",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000013",
+          "status": "running",
+          "completed_windows": 6,
+          "total_windows": 33,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 407627,
+            "start_ticks": "1804152",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000014",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000015",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000016",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000017",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000018",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000019",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000020",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000021",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        }
+      ]
+    },
+    "noevent": {
+      "complete": 2,
+      "running": 7,
+      "failed": 4,
+      "pending": 8,
+      "completed_windows": 237,
+      "videos": [
+        {
+          "video_id": "G2_V000001",
+          "status": "complete",
+          "completed_windows": 13,
+          "total_windows": 13,
+          "complete": true,
+          "final_failure": null,
+          "process": {
+            "pid": 278338,
+            "start_ticks": "1641922",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000002",
+          "status": "running",
+          "completed_windows": 35,
+          "total_windows": 68,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 331863,
+            "start_ticks": "1698534",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000003",
+          "status": "running",
+          "completed_windows": 27,
+          "total_windows": 59,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 331868,
+            "start_ticks": "1698534",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000004",
+          "status": "complete",
+          "completed_windows": 15,
+          "total_windows": 15,
+          "complete": true,
+          "final_failure": null,
+          "process": {
+            "pid": 331871,
+            "start_ticks": "1698534",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000005",
+          "status": "failed",
+          "completed_windows": 17,
+          "total_windows": 34,
+          "complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "retry_reason": "permanent_http_error",
+            "will_retry": false,
+            "time_unix": 1790077285.7726855,
+            "request_hash": "e8cca5de9c199a9c1bb91d922a3f9b18af95bf592a511266ac91f706927c1efc",
+            "category": "http_428_unclassified"
+          },
+          "process": {
+            "pid": 331870,
+            "start_ticks": "1698534",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000006",
+          "status": "running",
+          "completed_windows": 39,
+          "total_windows": 57,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 331876,
+            "start_ticks": "1698535",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000007",
+          "status": "failed",
+          "completed_windows": 12,
+          "total_windows": 28,
+          "complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00013",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "retry_reason": "permanent_http_error",
+            "will_retry": false,
+            "time_unix": 1790077217.9870722,
+            "request_hash": "339209adea74ee5f7dd77ef55f4dc0ab62edce1b7675ad72bb2e942e36ba98b9",
+            "category": "http_428_unclassified"
+          },
+          "process": {
+            "pid": 331875,
+            "start_ticks": "1698535",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000008",
+          "status": "running",
+          "completed_windows": 32,
+          "total_windows": 36,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 351605,
+            "start_ticks": "1727450",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000009",
+          "status": "failed",
+          "completed_windows": 9,
+          "total_windows": 32,
+          "complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000009:W00010",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "retry_reason": "unclassified_error",
+            "will_retry": false,
+            "time_unix": 1790077538.7151783,
+            "request_hash": "b7ebb1c10431869c7dee0bc6c7391115752cae2c1631379a3975bc7c0fb7c420",
+            "category": "generate_runtime_error_unknown"
+          },
+          "process": {
+            "pid": 355486,
+            "start_ticks": "1734223",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000010",
+          "status": "running",
+          "completed_windows": 21,
+          "total_windows": 25,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 360536,
+            "start_ticks": "1740953",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000011",
+          "status": "failed",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00001",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "retry_reason": "policy_authentication_or_credit_refusal",
+            "will_retry": false,
+            "time_unix": 1790077498.453563,
+            "request_hash": "7400ea96667112aab87d8c6b936e17c85a45dd9477b7cee911582de946e32d41",
+            "category": "content_filter"
+          },
+          "process": {
+            "pid": 372851,
+            "start_ticks": "1758306",
+            "alive": false
+          }
+        },
+        {
+          "video_id": "G2_V000012",
+          "status": "running",
+          "completed_windows": 15,
+          "total_windows": 67,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 384874,
+            "start_ticks": "1768704",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000013",
+          "status": "running",
+          "completed_windows": 2,
+          "total_windows": 33,
+          "complete": false,
+          "final_failure": null,
+          "process": {
+            "pid": 419509,
+            "start_ticks": "1826159",
+            "alive": true
+          }
+        },
+        {
+          "video_id": "G2_V000014",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000015",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000016",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000017",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000018",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000019",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000020",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        },
+        {
+          "video_id": "G2_V000021",
+          "status": "pending",
+          "completed_windows": 0,
+          "total_windows": null,
+          "complete": false,
+          "final_failure": null
+        }
+      ]
+    }
+  },
+  "questions": [
+    {
+      "question_id": "G2_Q000001",
+      "video_id": "G2_V000001",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "scored",
+          "score": 1,
+          "max_score": 1,
+          "normalized_score_100": 100.0,
+          "source": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922/scores/base/G2_V000001/run_20260922_1934/scores.jsonl",
+          "source_sha256": "99839adf80339c4824433722e4d2049c6df34d00366a60eaf7ff71a7786a4780",
+          "accepted_sha256": "998850b8a90c0501e338d38d3b90a433665294dac4234819347b1e885715ca9b",
+          "prediction_sha256": "9671e76c2aa5b5cbe83acc08e1a9065a7fd976fcbb55d56e36c69f6544f9ca1e",
+          "memory_sha256": "fced3d123b9847891eb09acd0a1f72811a3e280e864c91d3f57eb68124f25884",
+          "plan_sha256": "52687c019a3b830b80cde7f119db11c53da4c208279eecd4165e5304d15cfee0",
+          "embedding_signature": "1532a49a066a9c8d359bf7fd4373bc5a8eef07f4ed679d5a1e7ff6727d163e1c",
+          "trace_sha256": "8d6b0cd2c369885046df0fa9c700ddf509831b228e98eea665adeb9fe84370f9",
+          "routing": {
+            "progressive_routing": "none",
+            "hybrid_graph_tasks": [],
+            "requested_retrieval": "graph",
+            "effective_retrieval": "graph"
+          }
+        },
+        "method": {
+          "status": "scored",
+          "score": 1,
+          "max_score": 1,
+          "normalized_score_100": 100.0,
+          "source": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922/scores/method/G2_V000001/run_20260922_1934/scores.jsonl",
+          "source_sha256": "fd6cd63cdf08bcb290c95cdd934395de43d429bfc5c5459543a558dfe8deaca6",
+          "accepted_sha256": "fedc6da77fdb6da337e1af8c313e5b24097aa8a2d44638d4afd0434ae9c93141",
+          "prediction_sha256": "6a7a7e39240026963dbc37444d6e7eddd67f4447478e60c625ab7b333388513b",
+          "memory_sha256": "fced3d123b9847891eb09acd0a1f72811a3e280e864c91d3f57eb68124f25884",
+          "plan_sha256": "52687c019a3b830b80cde7f119db11c53da4c208279eecd4165e5304d15cfee0",
+          "embedding_signature": "1532a49a066a9c8d359bf7fd4373bc5a8eef07f4ed679d5a1e7ff6727d163e1c",
+          "trace_sha256": "cb385f466ee1b3e03f07fbb9e942aef1f44009644a2be17d25ad89dcb4c404ba",
+          "routing": {
+            "progressive_routing": "none",
+            "hybrid_graph_tasks": [],
+            "requested_retrieval": "progressive",
+            "effective_retrieval": "progressive"
+          }
+        },
+        "noevent": {
+          "status": "scored",
+          "score": 1,
+          "max_score": 1,
+          "normalized_score_100": 100.0,
+          "source": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922/scores/noevent/G2_V000001/run_20260922_1934/scores.jsonl",
+          "source_sha256": "2effda7137ca60ad7192e6857a97110f296d23dbcf659ced54fef5037a22ec38",
+          "accepted_sha256": "6ca2c84a281a643e3bd432866b4d429b2887145535cdffb9d709e0cd72778e47",
+          "prediction_sha256": "2bd09b371c99cf45d8a9f561dc7835f7e01223b22338f062591f0e7921ab6b9d",
+          "memory_sha256": "5284ef73a9e3190df25a9c398396a548bfc3d308272803b9b58070cdd791a78b",
+          "plan_sha256": "2d91be2d9440b3c069c020da2f8aca20a77f597311ae7fa939549e650cbc02ba",
+          "embedding_signature": "47d8ccff49278448aa7fada854850fc06535d3f1f8c269c645501e8462c338a7",
+          "trace_sha256": "26c01673aec608f295e2d16bee83e393124adf0db5f930d19a05aa6531cfaff0",
+          "routing": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000002",
+      "video_id": "G2_V000001",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "scored",
+          "score": 2,
+          "max_score": 4,
+          "normalized_score_100": 50.0,
+          "source": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922/scores/base/G2_V000001/run_20260922_1934/scores.jsonl",
+          "source_sha256": "99839adf80339c4824433722e4d2049c6df34d00366a60eaf7ff71a7786a4780",
+          "accepted_sha256": "a3469c23351f21c04bd0a1226402b7752a5d01477c87e96d61d9d7127e87d0d2",
+          "prediction_sha256": "a5ec03785e860c80e7adb7161e94d8fa0e7852fd9010a00ccc9359e319b5f596",
+          "memory_sha256": "fced3d123b9847891eb09acd0a1f72811a3e280e864c91d3f57eb68124f25884",
+          "plan_sha256": "aec37fa35051ea6fe6a1738a810580ec69cb4505a3993c50e4d8aa83a16033aa",
+          "embedding_signature": "1532a49a066a9c8d359bf7fd4373bc5a8eef07f4ed679d5a1e7ff6727d163e1c",
+          "trace_sha256": "8830daedb5869bf95483c5c2bcec7dbec640e04d22d5e9d6cec7df4a4091819c",
+          "routing": {
+            "progressive_routing": "none",
+            "hybrid_graph_tasks": [],
+            "requested_retrieval": "graph",
+            "effective_retrieval": "graph"
+          }
+        },
+        "method": {
+          "status": "scored",
+          "score": 2,
+          "max_score": 4,
+          "normalized_score_100": 50.0,
+          "source": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922/scores/method/G2_V000001/run_20260922_1934/scores.jsonl",
+          "source_sha256": "fd6cd63cdf08bcb290c95cdd934395de43d429bfc5c5459543a558dfe8deaca6",
+          "accepted_sha256": "1f274df26781dce828477d7797fafd3c11152e50a6b5cd79aac4eb934fe9aaaf",
+          "prediction_sha256": "5716f11048f0fd007ad36f091c711b3fde3dcac1dcde6ae790eb9fc3796a3a92",
+          "memory_sha256": "fced3d123b9847891eb09acd0a1f72811a3e280e864c91d3f57eb68124f25884",
+          "plan_sha256": "aec37fa35051ea6fe6a1738a810580ec69cb4505a3993c50e4d8aa83a16033aa",
+          "embedding_signature": "1532a49a066a9c8d359bf7fd4373bc5a8eef07f4ed679d5a1e7ff6727d163e1c",
+          "trace_sha256": "6dd7513f4961d2fa161700dd540ad1b52369da46b7586b7229a1000e0a18a64a",
+          "routing": {
+            "progressive_routing": "none",
+            "hybrid_graph_tasks": [],
+            "requested_retrieval": "progressive",
+            "effective_retrieval": "progressive"
+          }
+        },
+        "noevent": {
+          "status": "scored",
+          "score": 2,
+          "max_score": 4,
+          "normalized_score_100": 50.0,
+          "source": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922/scores/noevent/G2_V000001/run_20260922_1934/scores.jsonl",
+          "source_sha256": "2effda7137ca60ad7192e6857a97110f296d23dbcf659ced54fef5037a22ec38",
+          "accepted_sha256": "594499b0c9296980ea1155220f01c162765eefaee0ee4b4c87b5ce03bcf4059a",
+          "prediction_sha256": "52e618e1fd307731c2d185e673c1fa7089a76e9d8cd194eba2b1bc6531f1244d",
+          "memory_sha256": "5284ef73a9e3190df25a9c398396a548bfc3d308272803b9b58070cdd791a78b",
+          "plan_sha256": "36cb2fc04aff0a5ff7e7b91352a9fb9955dd6e3721610c129e10020e85832801",
+          "embedding_signature": "47d8ccff49278448aa7fada854850fc06535d3f1f8c269c645501e8462c338a7",
+          "trace_sha256": "145772e3d99fe77a0d70a5dd39d2197740b0f55274faa39ac47caefcaf17b06d",
+          "routing": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000003",
+      "video_id": "G2_V000002",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000004",
+      "video_id": "G2_V000002",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000005",
+      "video_id": "G2_V000003",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000006",
+      "video_id": "G2_V000003",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000007",
+      "video_id": "G2_V000003",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000008",
+      "video_id": "G2_V000004",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "waiting_for_planning",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000009",
+      "video_id": "G2_V000004",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "waiting_for_planning",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000010",
+      "video_id": "G2_V000005",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000011",
+      "video_id": "G2_V000005",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000012",
+      "video_id": "G2_V000006",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000013",
+      "video_id": "G2_V000006",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000014",
+      "video_id": "G2_V000007",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000015",
+      "video_id": "G2_V000007",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "http_428_unclassified"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000016",
+      "video_id": "G2_V000008",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000017",
+      "video_id": "G2_V000009",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000018",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000019",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000020",
+      "video_id": "G2_V000010",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000021",
+      "video_id": "G2_V000010",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000022",
+      "video_id": "G2_V000010",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000023",
+      "video_id": "G2_V000011",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "method": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "generate_runtime_error_unknown"
+        },
+        "noevent": {
+          "status": "perception_failed",
+          "normalized_score_100": null,
+          "reason": "content_filter"
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000024",
+      "video_id": "G2_V000012",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000025",
+      "video_id": "G2_V000012",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000026",
+      "video_id": "G2_V000012",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000027",
+      "video_id": "G2_V000012",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000028",
+      "video_id": "G2_V000013",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000029",
+      "video_id": "G2_V000013",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000030",
+      "video_id": "G2_V000013",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000031",
+      "video_id": "G2_V000013",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "perception_running",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000032",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000033",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000034",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000035",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000036",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000037",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000038",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000039",
+      "video_id": "G2_V000015",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000040",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000041",
+      "video_id": "G2_V000016",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000042",
+      "video_id": "G2_V000016",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000043",
+      "video_id": "G2_V000017",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000044",
+      "video_id": "G2_V000017",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000045",
+      "video_id": "G2_V000018",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000046",
+      "video_id": "G2_V000019",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000047",
+      "video_id": "G2_V000019",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000048",
+      "video_id": "G2_V000020",
+      "type": "emotional reasoning",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000049",
+      "video_id": "G2_V000021",
+      "type": "emotional intensity comparison",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    },
+    {
+      "question_id": "G2_Q000050",
+      "video_id": "G2_V000021",
+      "type": "emotion trajectory",
+      "conditions": {
+        "base": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "method": {
+          "status": "not_started",
+          "normalized_score_100": null
+        },
+        "noevent": {
+          "status": "not_started",
+          "normalized_score_100": null
+        }
+      }
+    }
+  ],
+  "integrity": {
+    "questions_sha256": "d6388ceb2f8096dc726b94ada8c4b8949072c7ba604438263210572f68de18b6",
+    "configuration_sha256": "3c89240aeae5a5938ebbd9cac62abdabb15334beb7f517be7a4d02b0b74cf970",
+    "source_files_verified": {
+      "event": 814,
+      "noevent": 820
+    },
+    "source_commits": {
+      "event": "3a6c0af16764a3de79b57ecf503ee2fef1c3ae5f",
+      "noevent": "d2a3a42993e500f307c2f5d159cac46c1d655463"
+    },
+    "accepted_scores_verified": true,
+    "paired_event_resources_and_pure_routing_verified": true
+  },
+  "notes": [
+    "每题首次有效评分归一化后等权平均，缺失不计零分。",
+    "三路同题比较仅使用首分交集；一视频两题不足以判断方法优劣，不与历史511题结果直接比较。",
+    "完整视频验证之后存在阶段屏障：其他视频感知任务全部结束，才进入规划、回答和评分。",
+    "generate阶段RuntimeError尚无法区分响应结构异常、输出截断或非文本内容；不等同于内容过滤。",
+    "HTTP 428的服务方语义尚未确认；未按临时网络故障或内容过滤自动重试。"
+  ]
+}

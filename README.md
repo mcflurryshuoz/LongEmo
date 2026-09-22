@@ -53,7 +53,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 三路固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。base 与 method 共用图、索引和规划。纯渐进式结果进入三路主表，题型路由版单列。先验证 50 题 pilot，再扩展到 520／558 题。
 
-感知格式和人物引用已修复。GPT-6 视觉遇到服务过滤后，已在 AIStudio 新开 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 的独立实验；完整视频的三路首分验证通过后自动展开并发 pilot。[运行记录](experiments/zyf/results/three_level_pilot_gemini38_20260922/README.md)。本次尚无可报告的新成绩。
+新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，正以总计12个感知任务并发推进。2026-09-22 19:57 CST，三路在首个视频的相同2题上均为 **75.00（各2/50题）**；样本不足以判断优劣，与上方历史60.24分不混合。[三层消融进度与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)。
 
 重点分析总体／题型／分剧成绩与覆盖率、同题差值及视频聚类置信区间、跨阶段证据覆盖、感知与检索错误，以及披露事件数、token、延迟和成本。论文突出两项可检验贡献：**事件图能否改善人物—对象—时间证据的一致性；渐进披露能否以更少上下文保留长时间依赖。** 强度比较当前下降，应作为待验证的改进点。
 
