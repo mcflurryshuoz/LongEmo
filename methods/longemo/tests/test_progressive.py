@@ -45,6 +45,14 @@ class ProgressiveRetrievalTests(unittest.TestCase):
         self.assertNotIn(more["events"][0]["id"], evidence["events"])
         self.assertEqual(len(state["revealed_ids"]), len(evidence["events"]) + 1)
 
+    def test_oversized_anchor_is_not_silently_dropped(self):
+        self.memory["events"][0]["summary"] = "x" * 100000
+        evidence, state = initial_disclosure(self.memory, "How does the woman feel?",
+            self.plan, dense_scores=self.dense, stream_index=self.index, anchor_k=1,
+            budget_chars=1000)
+        self.assertEqual(len(evidence["events"]), 1)
+        self.assertEqual(len(state["revealed_ids"]), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

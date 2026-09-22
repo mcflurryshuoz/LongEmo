@@ -122,13 +122,31 @@ def _timeline(records):
             for record in records]
 
 
+def _compact_record(record):
+    """Keep an event page small enough that one valid anchor cannot vanish."""
+    compact = {"id": record.get("id"), "spans": record.get("spans", []),
+               "summary": record.get("summary", ""), "states": record.get("states", []),
+               "observations": record.get("observations", []), "people": record.get("people", []),
+               "relations": record.get("relations", [])}
+    return compact
+
+
 def _fit_payload(events, budget_chars):
     selected = []
     for record in events:
-        candidate = {"events": selected + [record], "timeline": _timeline(selected + [record])}
+        compact = _compact_record(record)
+        candidate = {"events": selected + [compact], "timeline": _timeline(selected + [compact])}
         if len(json.dumps(candidate, ensure_ascii=False)) > budget_chars:
+            # A single oversized record is still more useful than an empty
+            # disclosure.  Preserve its identity and state while dropping
+            # verbose observations/relations for this page.
+            if not selected:
+                compact = {"id": record.get("id"), "spans": record.get("spans", []),
+                           "summary": str(record.get("summary", ""))[:2000],
+                           "states": record.get("states", [])}
+                selected.append(compact)
             break
-        selected.append(record)
+        selected.append(compact)
     return {"events": selected, "timeline": _timeline(selected)}
 
 
