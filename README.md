@@ -57,6 +57,8 @@ flowchart TD
 
 当前 `graph` 基线的两路 seed 都从**已经构建完成的整张事件图**上召回；同人物前后相邻事件只是 seed 之后的导航扩展。`graph_stream` 是一次性事件流上下文的诊断实现，不能保证在预算内保留最相关的后续事件。`progressive` 是本分支的新主候选：把完整事件图当作可查询数据库，先披露少量锚点，再由回答模型通过受控请求逐页展开相关的时间流或关系流，不在第一轮暴露整张图。
 
+为了避免渐进式披露在需要全局对照的题型上丢失证据，当前实现采用题型路由：`emotion trajectory` 使用渐进事件流；`emotional intensity comparison` 和 `emotional reasoning` 回退到与 base 相同的完整图检索，但保留 48000 字符证据预算。这样针对 base 的主要短板分别处理：轨迹题需要跨时间阶段补证据，而强度比较和推理题更依赖同时看到对照项、因果桥和例外，过早分页会把它们拆散。每题的 `method`、路由和证据仍写入 trace，便于与纯 progressive 和 base 做同题比较。
+
 1. **检索规划。** GPT-6 根据问题、视频时长和人物信息，生成任务模式（轨迹／比较／计数／因果／局部）、人物词、情感对象词、扩展查询词及可选时间范围。
 2. **结构化语义路。** 对包含人物、状态、观察和关系的事件记录做 BM25，并加入人物匹配与情感对象／情绪匹配：`semantic = BM25 + 3 × entity_match + 2 × target_match`。这里的语义路是规划后的结构化匹配，没有另外调用一个语义重排模型。
 3. **Embedding 路。** 将完整事件证据（人物、状态、观察与有效摘要）分为重叠文本块，使用 Gemini Embedding 2 的文档／查询前缀编码为 3072 维归一化向量；问题与文本块计算余弦相似度，每个事件取最高块分数。索引缓存绑定文本内容、模型、服务端点和编码配置。
@@ -65,7 +67,7 @@ flowchart TD
 
 渐进式披露的停止条件是：必需人物／情感对象／时间阶段均有证据、关键状态有直接观察或对白来源、冲突已经处理，或连续扩展没有新增相关事件。轨迹题优先沿同一人物—对象流前后翻页；比较题分别维护两条流；因果题优先沿显式关系边反向扩展；导航边只能寻找上下文，不能直接作为因果证据。每一步均保存初始锚点、请求、返回事件、已披露 ID 和剩余预算，便于逐题审计。
 
-当前实现入口为 `--retrieval progressive`，实现见 [`progressive_retrieval.py`](methods/longemo/progressive_retrieval.py)。它与旧 `graph`／`graph_stream` 使用独立运行目录和成绩，不覆盖稳定基线。正式比较先在相同冻结图谱和问题子集上进行：`base`、一次性 `graph_stream`、渐进式 `progressive` 三路使用相同 GPT-6、Embedding、评分器和题单；同时报告分数、证据覆盖、平均披露事件数、token、延迟和失败归因。小样本通过后才扩展到全集。
+当前实现入口为 `--retrieval progressive`，实现见 [`progressive_retrieval.py`](methods/longemo/progressive_retrieval.py)。它与旧 `graph`／`graph_stream` 使用独立运行目录和成绩，不覆盖稳定基线。正式比较先在相同冻结图谱和问题子集上进行：`base`、一次性 `graph_stream`、纯渐进式 `progressive` 和题型路由版 `progressive` 四路使用相同 GPT-6、Embedding、评分器和题单；同时报告分数、证据覆盖、平均披露事件数、token、延迟和失败归因。小样本通过后才扩展到全集。
 
 `--retrieval graph` 必须取得有效向量；Embedding 不可用时显式失败或由实验调度器延后答题，不会悄悄退化为纯关键词检索。`flat` 是语义检索诊断模式，`direct` 是直接视频输入基线，均与主图方法分开记录。
 

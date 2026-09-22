@@ -209,32 +209,42 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
     retrieval_trace = {}
     dense_scores = dense_index.rank(public["question"]) if dense_index is not None else None
     disclosure_state = None
-    if args.retrieval == "progressive":
+    # Progressive disclosure is most useful for trajectory questions, where
+    # the answer depends on following an event flow.  Intensity comparisons
+    # and reasoning questions are better served by the stable full graph
+    # packet used by base: their errors usually come from missing a contrast
+    # or a causal bridge rather than from missing a later temporal page.
+    hybrid_graph = args.retrieval == "progressive" and public["type"] in {
+        "emotional intensity comparison", "emotional reasoning"
+    }
+    effective_retrieval = "graph" if hybrid_graph else args.retrieval
+    if effective_retrieval == "progressive":
         evidence, disclosure_state = initial_disclosure(
             memory, public["question"], plan, dense_scores=dense_scores,
             stream_index=stream_index, budget_chars=args.evidence_chars,
             anchor_k=args.progressive_anchor_k, trace=retrieval_trace)
-    elif args.retrieval == "graph_stream":
+    elif effective_retrieval == "graph_stream":
         evidence = retrieve_stream(memory, public["question"], plan, budget_chars=args.evidence_chars,
                                    top_k=args.top_k, dense_scores=dense_scores,
                                    stream_index=stream_index, page_size=args.stream_page_size,
                                    trace=retrieval_trace)
     else:
-        evidence = retrieve(memory, public["question"], plan, mode=args.retrieval, budget_chars=args.evidence_chars,
+        graph_budget = args.hybrid_graph_evidence_chars if hybrid_graph else args.evidence_chars
+        evidence = retrieve(memory, public["question"], plan, mode=effective_retrieval, budget_chars=graph_budget,
                             top_k=args.top_k, dense_scores=dense_scores, trace=retrieval_trace)
     payload = {"question": public["question"], "evidence": evidence,
                "inspection_budget": {"requests_remaining": args.max_inspections, "seconds_remaining": args.inspection_seconds}}
-    answer_prompt = ANSWER_PROGRESSIVE if args.retrieval == "progressive" else ANSWER
+    answer_prompt = ANSWER_PROGRESSIVE if effective_retrieval == "progressive" else ANSWER
     messages = [{"role": "system", "content": answer_prompt}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
     inspections, seconds_used = [], 0.0
     seen = set()
     result = None
     # progressive_rounds counts evidence expansions; reserve one additional
     # model call to synthesize the final answer after the last page arrives.
-    max_rounds = (args.progressive_rounds + 1) if args.retrieval == "progressive" else args.max_inspections + 1
+    max_rounds = (args.progressive_rounds + 1) if effective_retrieval == "progressive" else args.max_inspections + 1
     for round_index in range(max_rounds):
         result = api.call(messages, purpose=f"answer:{qid}:round{round_index}", validate=validate_answer)
-        if args.retrieval == "progressive":
+        if effective_retrieval == "progressive":
             requests = result.get("retrieve_more", [])
             if not requests or round_index + 1 >= max_rounds:
                 break
@@ -279,7 +289,8 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
              "answer": result, "invalid_evidence_ids": [i for i in result["evidence_ids"] if i not in valid_ids],
              "evidence_characters": len(json.dumps(evidence, ensure_ascii=False)), "usage": usage_summary(api.ledger)}
     write_json(output / "traces" / (qid + ".json"), trace)
-    return {**public, "status": "ok", "prediction": result["answer"].strip(), "method": "longemo-"+args.retrieval,
+    method_name = "longemo-" + args.retrieval + ("-graph-routed" if hybrid_graph else "")
+    return {**public, "status": "ok", "prediction": result["answer"].strip(), "method": method_name,
             "memory_fingerprint": memory["build_fingerprint"], "memory_sha256": fingerprint(memory),
             "inspection_seconds": seconds_used, "usage": trace["usage"]}
 
@@ -328,6 +339,8 @@ def answer(args):
     configuration = {"embedding": encoder.config if encoder else None, "model": client.configuration(), "question_inputs": [
         {k: q[k] for k in ("question_id", "video_id", "question", "type")} for q in questions],
         "memories": hashes, "retrieval": args.retrieval, "evidence_chars": args.evidence_chars,
+        "hybrid_graph_evidence_chars": args.hybrid_graph_evidence_chars,
+        "hybrid_graph_tasks": ["emotional intensity comparison", "emotional reasoning"],
         "top_k": args.top_k, "stream_page_size": args.stream_page_size,
         "progressive_anchor_k": args.progressive_anchor_k,
         "progressive_rounds": args.progressive_rounds,
@@ -399,6 +412,8 @@ def parser():
             command.add_argument("--embedding-revision", default="d128750597153bb5987e10b1c3493a34e5a4502a")
             command.add_argument("--embedding-cache-dir", default=".cache/longemo-embeddings")
             command.add_argument("--evidence-chars", type=int, default=48000)
+            command.add_argument("--hybrid-graph-evidence-chars", type=int, default=48000,
+                                 help="Evidence budget for intensity/reasoning questions routed to the full graph")
             command.add_argument("--top-k", type=int, default=12)
             command.add_argument("--stream-page-size", type=int, default=64,
                                  help="Chronological event-stream page size for graph_stream retrieval")
@@ -418,7 +433,8 @@ def main(argv=None):
     args = p.parse_args(argv)
     if (args.fps <= 0 or args.max_frames < 1 or args.workers < 1 or args.tries < 1 or
             getattr(args, "stream_page_size", 1) < 1 or getattr(args, "progressive_anchor_k", 1) < 1 or
-            getattr(args, "progressive_rounds", 1) < 1):
+            getattr(args, "progressive_rounds", 1) < 1 or
+            getattr(args, "hybrid_graph_evidence_chars", 1) < 1):
         p.error("sampling and execution parameters must be positive")
     if args.command == "build" and (args.window_seconds <= 0 or args.padding < 0):
         p.error("invalid window configuration")
