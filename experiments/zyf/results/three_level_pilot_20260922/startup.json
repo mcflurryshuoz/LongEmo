@@ -1,0 +1,22 @@
+{
+  "as_of": "2026-09-22T17:54:32+08:00",
+  "experiment_id": "62910175",
+  "run_name": "three_level_pilot50_matched_20260922",
+  "runtime": "/root/longemo/runtime",
+  "coordinator_pid": 183365,
+  "coordinator_start_ticks": "1083942",
+  "questions": 50,
+  "videos": 21,
+  "windows_per_representation": 799,
+  "media": {"files": 42, "bytes": 1856623225, "all_sha256_verified": true, "source": "existing local cache", "huggingface_direct_error": "Network is unreachable before authentication"},
+  "method_commit": "cac3a34fa01093d254778ac6b48850a584f8c0d0",
+  "noevent_commit": "c62ab9edf5a529eb07cba867e1e7b095f1feecd4",
+  "configuration": {"vision": "Matrix gpt-6-astra", "audio": "Matrix gemini-3.8-flash", "embedding": "OpenRouter google/gemini-embedding-2", "window_seconds": 20, "padding_seconds": 2, "fps": 1, "max_frames": 24, "max_pixels": 200704, "evidence_budget_parameter": 48000, "build_workers_total": 12, "video_workers": 6, "question_workers": 2, "tries": 1, "progressive_routing": "none"},
+  "preflight": {"real_audio_seconds": 4.35, "real_frame_seconds": 4.16, "embedding_seconds": 1.85, "embedding_dimension": 3072},
+  "build_snapshot": {
+    "event": {"running": 10, "error": 11, "completed_windows": 6, "errors": {"voice must be nonempty text": 6, "content_policy_violation": 1, "RemoteDisconnected": 1, "event.observation_ids needs supporting observation IDs": 3}},
+    "noevent": {"running": 2, "error": 18, "not_started": 1, "completed_windows": 0, "errors": {"observation subject must reference a declared entity": 9, "voice must be nonempty text": 9}}
+  },
+  "scores": {"base": 0, "method": 0, "noevent": 0},
+  "complete": false
+}
