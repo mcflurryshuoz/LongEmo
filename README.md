@@ -10,25 +10,26 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 本分支仅感知**时间窗口记录**，不生成事件、情感状态节点或关系边；在窗口记录上用 BM25＋Gemini Embedding 2 检索，由 GPT-6 回答并按官方标准评分。
 
-本次固定 **558 题／141 视频**，统一使用 Gemini 3.8 Flash 音视频感知。全集脚本先等待当前 50 题试跑结束并核验继承，随后以最多 **12 视频并发、每视频 2 题并发** 优先运行 noevent，再运行共享事件图的 base／method。逐视频接收媒体、完成感知后立即答题评分；保留首次有效成绩和失败记录。[启动命令与评测协议](experiments/zyf/full_suite.md)。
+本次固定 **558 题／141 视频**，统一使用 Gemini 3.8 Flash 音视频感知。50题试跑已结束并核验继承；全集以最多 **12 视频并发、每视频 2 题并发** 优先运行 noevent，再构建事件图运行 method。base 仅保留已有成绩。逐视频接收媒体、完成感知后立即答题评分；保留首次有效成绩和失败记录。[启动命令与评测协议](experiments/zyf/full_suite.md)。
 
 下方保留事件图方法和历史成绩供对照；历史 60.24／57.62 **不是本次 noevent 或三层消融成绩**。
 
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融进度
 
-2026-09-23 01:11 CST 快照：全集 **558题／141视频**，已完成试跑首分继承；按最新安排，后续只评 noevent 与 method，base 已有成绩保留参考。
+2026-09-23 02:49 CST 快照：全集 **558题／141视频**。02:48 已在 AIStudio 完成调度切换，本轮只按 **noevent → method** 执行；base 保留已有成绩，不再回答或评分。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 131/558 | 29.96 |
-| base | 13/558 | 63.46 |
+| noevent | 138/558 | 28.62 |
+| base（已有参考） | 13/558 | 63.46 |
 | method | 13/558 | 69.23 |
 
 base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
 
-[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md)。缺失不计零分，历史路由版60.24分单独保留。
-2026-09-23 调度范围已改为 noevent／method；服务器执行切换待 SSH 恢复后核验。表中 base 为试跑保留分数，完整历史 base 结果仍在 base 分支，均不重评。
+该快照媒体已就绪 **118/141**，其余继续上传；noevent 完成可执行队列后进入 method。base 未评分题不计入待执行范围，完整历史 base 结果保留在 base 分支。
+
+[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [范围切换核验](experiments/zyf/results/three_level_full558_gemini38_20260922/scope_change.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ## method 分支：完整事件流检索方法

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "deployed_and_verified",
+  "verified_at": "2026-09-23T02:50:44.021939+08:00",
+  "execution_scope": {
+    "schema_version": 1,
+    "conditions": [
+      "noevent",
+      "method"
+    ],
+    "previous_configuration_sha256": "55f0c2b0bfa8c6046a203e789f516698a5a8e77b21dc081f0174e80113e61b77",
+    "coordinator_file": "/root/longemo/runtime/staging/scope_noevent_method_20260923_0245/scheduler/experiments/zyf/full_suite.py",
+    "coordinator_sha256": "a8b93c69b89e179e764d90501b05bb8343f0b0e9c12a3864e5724d310ce0d175",
+    "reason": "user_requested_no_new_base",
+    "created_at": "2026-09-23T02:48:03.877371+08:00",
+    "previous_coordinator": {
+      "pid": 512357,
+      "start_ticks": "2006414"
+    }
+  },
+  "execution_scope_sha256": "e56bb4a32c455fdca14b4fee1e163c924fc3d7a6b5ecf644587b06869b597e5d",
+  "previous_coordinator": {
+    "pid": 512357,
+    "start_ticks": "2006414"
+  },
+  "new_coordinator": {
+    "pid": 151750,
+    "host": "gpulingjun033180161150.et15",
+    "start_ticks": "4296984",
+    "started_unix": 1790102883.9933274
+  },
+  "signal": {
+    "sent_at": "2026-09-23T02:44:36.547459+08:00",
+    "pid": 512357,
+    "start_ticks": "2006414",
+    "signal": "SIGINT",
+    "reason": "user_requested_no_new_base",
+    "signal_scope": "coordinator_pid_only",
+    "active_tasks_before_signal": 0
+  },
+  "after_stop": {
+    "recorded_at": "2026-09-23T02:44:48.945109+08:00",
+    "old_coordinator_stopped": true,
+    "all_task_children_stopped": true,
+    "lock_free": true,
+    "protected_first_scores": 164,
+    "event_tasks_started": 0
+  },
+  "protected_first_score_count": 164,
+  "protected_first_score_inventory_sha256": "9ccdb5398ac9d7f80819a2ea518757d3b204a7d2b45d346724851e6bda99ac9a",
+  "first_scores_unchanged": true,
+  "new_base_answer_tasks": 0,
+  "new_base_score_tasks": 0,
+  "validation": {
+    "results": [
+      {
+        "component": "scheduler",
+        "returncode": 0,
+        "output": "----------------------------------------------------------------------\nRan 32 tests in 0.765s\n\nOK\n"
+      },
+      {
+        "component": "reporter",
+        "returncode": 0,
+        "output": "----------------------------------------------------------------------\nRan 13 tests in 0.180s\n\nOK\n"
+      }
+    ],
+    "core_files_unchanged": 1053
+  },
+  "conditions": {
+    "noevent": {
+      "scored": 138,
+      "total": 558,
+      "mean_scored": 28.62318840579711
+    },
+    "base": {
+      "scored": 13,
+      "total": 558,
+      "mean_scored": 63.46153846153846
+    },
+    "method": {
+      "scored": 13,
+      "total": 558,
+      "mean_scored": 69.23076923076923
+    }
+  }
+}

@@ -1,17 +1,15 @@
 # LongEmo 三层消融进度
 
-2026-09-23 01:11 CST。全集固定558题／141视频，后续顺序改为 noevent → method（构建事件图），base 已有分数保留参考。试跑首分已核验继承。
+2026-09-23 02:49 CST。全集固定558题／141视频，02:48 已在 AIStudio 部署并核验 **noevent → method** 调度。base 仅保留已有评分参考，不新增回答或评分；未评分 base 题标为 `not_requested`。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 131/558 | 29.96 |
-| base | 13/558 | 63.46 |
+| noevent | 138/558 | 28.62 |
+| base（已有参考） | 13/558 | 63.46 |
 | method | 13/558 | 69.23 |
 
-base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
+base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同9题：noevent **62.96**、base **58.33**、method **77.78**，仍属早期小样本。
 
-[全集评测报告与558题状态](results/three_level_full558_gemini38_20260922/report.md) · [启动记录](results/three_level_full558_gemini38_20260922/startup.md) · [50题试跑最终快照](results/three_level_pilot_gemini38_20260922/report.md)
+该快照媒体已就绪 **118/141**，其余继续上传；noevent 完成可执行队列后进入 method。调度切换保留全部164条首次有效评分、冻结配置和原失败预算，不重抽评分。历史题型路由结果60.24分单独报告。
 
-当前均分按首次有效评分等题权计算，缺失不计零分。后续视频继续并发处理；已明确失败的请求保留原因和原尝试预算，不重抽评分。历史题型路由结果60.24分与本次纯渐进三层消融分开报告。
-
-2026-09-23 用户缩减执行范围：只继续 noevent 和 method，不新增 base 回答或评分。定时目标已更新；旧协调器尚未进入 event，SSH 超时使服务器调度交接待完成。不会把已有 base 分数宣称为本轮完整同配置结果。
+[全集报告与558题状态](results/three_level_full558_gemini38_20260922/report.md) · [范围切换核验](results/three_level_full558_gemini38_20260922/scope_change.md) · [50题试跑最终快照](results/three_level_pilot_gemini38_20260922/report.md)
