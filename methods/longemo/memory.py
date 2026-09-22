@@ -169,7 +169,9 @@ def apply_window(memory, payload, *, window_id, core, media, metadata, allow_rev
             event["signals"] = event.get("signals", []) + signals(item.get("signals"), "event.signals")
             current_confidence = confidence(item.get("confidence"), "event.confidence")
             if current_confidence is not None:
-                event["confidence"] = max(event.get("confidence", 0.0), current_confidence)
+                previous_confidence = event.get("confidence")
+                event["confidence"] = (current_confidence if previous_confidence is None
+                                       else max(previous_confidence, current_confidence))
         else:
             action = text(item.get("action"), "event.action", optional=True)
             event_type = text(item.get("event_type", "observation"), "event.event_type")
