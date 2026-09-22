@@ -6,6 +6,14 @@ LongEmoBench evaluates emotion understanding at two video granularities: **clip*
 
 This repository provides prediction generation and a shared evaluator. Predictions from your own model or agent can be evaluated directly. **Evaluation requires question annotations and predictions; it does not load videos or subtitles.**
 
+## 当前实验：noevent 全集
+
+本分支仅感知**时间窗口记录**，不生成事件、情感状态节点或关系边；在窗口记录上用 BM25＋Gemini Embedding 2 检索，由 GPT-6 回答并按官方标准评分。
+
+本次固定 **558 题／141 视频**，统一使用 Gemini 3.8 Flash 音视频感知。全集脚本先等待当前 50 题试跑结束并核验继承，随后以最多 **12 视频并发、每视频 2 题并发** 优先运行 noevent，再运行共享事件图的 base／method。逐视频接收媒体、完成感知后立即答题评分；保留首次有效成绩和失败记录。[启动命令与评测协议](experiments/zyf/full_suite.md)。
+
+下方保留事件图方法和历史成绩供对照；历史 60.24／57.62 **不是本次 noevent 或三层消融成绩**。
+
 ## method 分支：完整事件流检索方法
 
 本分支在原有 benchmark 和评测器上实现了**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法概括为：先将视频按时间窗口切分，由音频和视觉模型提取带时间戳的人物、事件、情绪状态及证据；再把这些信息写入经过校验的事件图谱，并建立 Embedding 索引。回答问题时，由 GPT-6 规划检索，结合 BM25／人物与情感对象匹配、Gemini Embedding 2 向量召回和 RRF 融合，再沿事件关系扩展上下文，最后由 GPT-6 基于证据作答并按官方 rubric 评分。图谱与问题解耦，可复用已完成窗口和检索缓存。
