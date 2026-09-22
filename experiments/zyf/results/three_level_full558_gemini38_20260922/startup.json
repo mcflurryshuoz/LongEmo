@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-09-22 20:27:16 CST",
+  "experiment_id": "62910175",
+  "run_name": "three_level_full558_gemini38_20260922",
+  "run_dir": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922",
+  "coordinator_commit": "f8f9392a43df3917c43a7e258b3bc222e407241d",
+  "coordinator_deployment": "/root/longemo/LongEmo-noevent-full-f8f9392",
+  "method_deployment": "/root/longemo/LongEmo-method-3a6c0af",
+  "process": {
+    "pid": 512357,
+    "host": "gpulingjun033180161150.et15",
+    "start_ticks": "2006414",
+    "started_unix": 1790079978.2819705
+  },
+  "parent_status": {
+    "status": "waiting",
+    "reason": "parent coordinator still owns its lock",
+    "time_unix": 1790080028.3957734
+  },
+  "questions": 558,
+  "videos": 141,
+  "configuration_sha256": "55f0c2b0bfa8c6046a203e789f516698a5a8e77b21dc081f0174e80113e61b77",
+  "questions_sha256": "02e3a0e0b71f348b8f744d022dcbfd18303c095fd2d36653055456765316840e",
+  "media_manifest_sha256": "ef1c3956623f68986249dec55487b6439492f2b6f5b966048fc2ee12eb53f689",
+  "source_hashes": {
+    "event": "4c3e1ca68e594accd968f34c2c6fd0c627ca75be32d4f055cd1f9b14fdbff5f4",
+    "noevent": "8273376a201df682505cb3e5f0ac1ef9e3849862de34f16676efdb9741babcf9"
+  },
+  "execution": {
+    "phase_order": [
+      "noevent",
+      "event"
+    ],
+    "workers": 12,
+    "question_workers": 2,
+    "poll_seconds": 10,
+    "parent_wait_timeout": 86400,
+    "media_wait_timeout": 86400,
+    "producer_done": "/root/longemo/runtime/transfers/full558_20260922/producer_done.json"
+  },
+  "parent_snapshot": {
+    "run": "three_level_pilot50_gemini38_perception_20260922",
+    "conditions": {
+      "base": {
+        "answers_ok": 2,
+        "scored": 2,
+        "total": 50,
+        "mean_scored": 75
+      },
+      "method": {
+        "answers_ok": 2,
+        "scored": 2,
+        "total": 50,
+        "mean_scored": 75
+      },
+      "noevent": {
+        "answers_ok": 2,
+        "scored": 2,
+        "total": 50,
+        "mean_scored": 75
+      }
+    },
+    "task_counts": {
+      "ok": 19,
+      "error": 27,
+      "running": 4
+    }
+  },
+  "tests": {
+    "local": 53,
+    "aistudio": 53,
+    "result": "passed"
+  },
+  "interpretation": "Full coordinator is waiting for stopped-parent audit; parent first scores not yet imported. New full-run metrics must remain separate from historical routed-method scores.",
+  "media_transfer": {
+    "local_verified_videos": 141,
+    "remote_verified_videos": 23,
+    "expected_videos": 141,
+    "total_video_bytes": 68375210073,
+    "initial_missing_video_bytes": 66519365157,
+    "producer_done": "/root/longemo/runtime/transfers/full558_20260922/producer_done.json",
+    "protocol": "unique staging file, SHA256 verification, atomic final publication; no overwrite"
+  }
+}
+

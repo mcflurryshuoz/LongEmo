@@ -163,6 +163,8 @@ python -m experiments.zyf.launch_blackai --help
 
 更多说明：[方法文档](methods/longemo/README.md) · [实验记录](experiments/zyf/README.md) · [研究计划](experiments/zyf/plan.md)。下文保留原 benchmark 的数据、预测与评测使用说明。
 
+全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，等待现有试跑结束后自动接续，视频正在后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
+
 ## Benchmark setup
 
 Use Python 3.10 or later. Clone the repository and run the following commands from its root directory:
