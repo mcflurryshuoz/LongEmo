@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from experiments.zyf.matched_pilot import accept_scores, execute, freeze, parser, read, run_command, run_lock, select_questions, sha, summary, write
+from experiments.zyf.matched_pilot import accept_scores, execute, freeze, memory_root, parser, read, run_command, run_lock, select_questions, sha, stage_exit_code, summary, video_tasks, write
 
 
 class MatchedPilotTests(unittest.TestCase):
@@ -56,6 +56,65 @@ class MatchedPilotTests(unittest.TestCase):
         state["status"] = "running"
         write(folder / "task.json", state)
         self.assertEqual(run_command(folder, command, self.root)["status"], "needs_audit")
+
+    def test_build_queue_interleaves_representations(self):
+        items = video_tasks([f"V{i}" for i in range(21)])
+        self.assertEqual(items[:4], [("event", "V0"), ("noevent", "V0"), ("event", "V1"), ("noevent", "V1")])
+        self.assertEqual(sum(branch == "event" for branch, _ in items[:12]), 6)
+        self.assertEqual(sum(branch == "noevent" for branch, _ in items[:12]), 6)
+
+    def test_zero_exit_with_incomplete_build_or_plans_is_error_without_stopping_peer(self):
+        for stage in ("build", "plan"):
+            with self.subTest(stage=stage):
+                run = self.root / stage
+                q = {"question_id": "Q1", "video_id": "V1", "granularity": "episode",
+                     "rubric": {"scores": {"0": "no", "4": "yes"}}}
+                write(run / "questions/V1.json", [q])
+                credentials = self.root / "credentials.json"
+                write(credentials, {"MODEL_API_KEY": "test-only-not-a-real-key"})
+                args = parser().parse_args([stage, "--method-repo", str(self.root), "--noevent-repo", str(self.root),
+                    "--runtime", str(self.root), "--run-name", stage, "--questions", str(run / "questions/V1.json"),
+                    "--credential-file", str(credentials), "--build-workers", "2", "--video-workers", "2"])
+                config = {"media": {"V1": {}}, "repos": {"event": str(self.root), "noevent": str(self.root)},
+                          "model": "test", "base_url": "https://example.invalid/v1", "timeout": 2,
+                          "videos_dir": str(self.root), "subtitles_dir": str(self.root), "audio_model": "test-audio",
+                          "audio_base_url": "https://example.invalid/v1beta"}
+                if stage == "plan":
+                    for branch in ("event", "noevent"):
+                        memory = memory_root(run, branch, "V1") / "V1/memory.json"
+                        write(memory, {"complete": True})
+                        freeze(run / branch / "frozen_memories/V1.json", {"memory_sha256": sha(memory)})
+                        write(run / "tasks/build" / (branch + "-V1") / "task.json", {"status": "ok"})
+
+                def fake_command(folder, command, cwd, env):
+                    value = lambda flag: command[command.index(flag) + 1]
+                    branch = "noevent" if folder.name.startswith("noevent") else "event"
+                    if stage == "build":
+                        write(Path(value("--output-dir")) / "V1/memory.json", {"complete": branch == "event"})
+                    elif branch == "event":
+                        path = run / branch / "plans/Q1.json"
+                        write(path, {"plan": "frozen"})
+                        freeze(run / branch / "plans/frozen/V1.json", {"Q1": sha(path)})
+                    state = {"status": "ok", "returncode": 0}
+                    write(folder / "task.json", state)
+                    return state
+
+                with patch("experiments.zyf.matched_pilot.run_command", side_effect=fake_command):
+                    execute(args, run, config, [q])
+                result = read(run / "status.json")
+                self.assertEqual(result["tasks"][stage + "/event-V1"], "ok")
+                self.assertEqual(result["tasks"][stage + "/noevent-V1"], "error")
+                self.assertEqual(stage_exit_code(stage, result), 1)
+                failed = read(run / "tasks" / stage / "noevent-V1/task.json")
+                self.assertEqual(failed["returncode"], 0)
+                self.assertIn("validation_error", failed)
+                self.assertIn("budget parameter=48000", result["score_semantics"])
+                self.assertNotIn("<=48000", result["score_semantics"])
+
+    def test_explicit_failed_stage_cannot_return_zero_even_if_scores_exist(self):
+        result = {"complete": True, "videos": 1,
+                  "tasks": {"plan/event-V1": "ok", "plan/noevent-V1": "error"}}
+        self.assertEqual(stage_exit_code("plan", result), 1)
 
     def test_first_zero_score_survives_later_higher_score(self):
         questions = [{"question_id": "Q1", "rubric": {"scores": {"0": "no", "4": "yes"}}}]

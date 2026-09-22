@@ -240,6 +240,9 @@ def verify_plans(run, branch, video):
     verify_memory(run, branch, video)
     folder = run / branch / "plans"
     frozen = read(folder / "frozen" / (video + ".json"))
+    expected_ids = {q["question_id"] for q in records(run / "questions" / (video + ".json"))}
+    if set(frozen) != expected_ids:
+        raise ValueError("frozen plans do not cover the complete video question subset")
     if any(sha(folder / (qid + ".json")) != expected for qid, expected in frozen.items()):
         raise ValueError("frozen shared plans were changed")
 
@@ -290,7 +293,7 @@ def summary(run, questions):
         (run / condition / "accepted_scores.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in scores))
     result["tasks"] = {str(p.parent.relative_to(run / "tasks")): read(p)["status"] for p in (run / "tasks").glob("*/*/task.json")}
     result["complete"] = all(value["scored"] == len(questions) for value in result["conditions"].values())
-    result["score_semantics"] = "first valid scores; unscored excluded; evidence JSON <=48000 chars per packet; cumulative tokens separately in call ledgers"
+    result["score_semantics"] = "first valid scores; unscored excluded; evidence budget parameter=48000; actual input characters and cumulative tokens separately logged"
     write(run / "status.json", result)
     return result
 
@@ -343,19 +346,30 @@ def execute(args, run, config, questions):
         else:
             predictions = run / "answers" / condition / video / "predictions.jsonl"
             answer_state = run / "tasks" / "answer" / key / "task.json"
-            if not predictions.exists() or not answer_state.exists() or read(answer_state)["status"] == "running":
+            if not predictions.exists() or not answer_state.exists():
+                return
+            answer_record = read(answer_state)
+            if answer_record["status"] in ("running", "needs_audit") or answer_record.get("validation_error"):
                 return
             command = [args.python, "-u", "-m", "evaluation.eval", "--data-path", question_path,
                 "--predictions", str(predictions), "--granularity", "episode", "--output-dir", str(run / "scores" / condition / video),
                 *common_args(config), "--workers", str(args.question_workers)]
         state = run_command(run / "tasks" / stage / key, command, repo, env)
-        if stage == "build" and state["status"] == "ok":
-            memory_path = memory / video / "memory.json"
-            if not read(memory_path).get("complete"):
-                raise ValueError("build returned success with incomplete memory")
-            freeze(run / branch / "frozen_memories" / (video + ".json"), {"memory_sha256": sha(memory_path)})
-        if stage == "answer":
-            verify_plans(run, branch, video)
+        if state["status"] == "ok":
+            try:
+                if stage == "build":
+                    memory_path = memory / video / "memory.json"
+                    if not read(memory_path).get("complete"):
+                        raise ValueError("build returned success with incomplete memory")
+                    freeze(run / branch / "frozen_memories" / (video + ".json"), {"memory_sha256": sha(memory_path)})
+                elif stage in ("plan", "answer"):
+                    verify_plans(run, branch, video)
+            except (OSError, ValueError, KeyError, TypeError) as exc:
+                # A zero process exit is insufficient evidence of completion.
+                # Persist this task's failure and let independent videos finish.
+                state = {**state, "status": "error", "validation_error": str(exc),
+                         "validation_error_type": type(exc).__name__}
+                write(run / "tasks" / stage / key / "task.json", state)
         print(f"{stage} {key}: {state['status']}", flush=True)
 
     stages = ("build", "plan", "answer", "score") if args.stage == "all" else (args.stage,)
@@ -374,8 +388,23 @@ def execute(args, run, config, questions):
             else:
                 task(stage, branch, video, "noevent")
         with ThreadPoolExecutor(max_workers=args.build_workers if stage == "build" else args.video_workers) as pool:
-            list(pool.map(video_pipeline, [(branch, video) for branch in ("event", "noevent") for video in videos]))
+            list(pool.map(video_pipeline, video_tasks(videos)))
         summary(run, questions)
+
+
+def video_tasks(videos):
+    """Interleave representations so both begin when a bounded pool starts."""
+    return [(branch, video) for video in videos for branch in ("event", "noevent")]
+
+
+def stage_exit_code(stage, result):
+    if stage in ("prepare", "status"):
+        return 0
+    if stage == "all":
+        return 0 if result["complete"] else 1
+    expected = result["videos"] * (2 if stage in ("build", "plan") else 3)
+    states = [state for key, state in result["tasks"].items() if key.startswith(stage + "/")]
+    return 0 if len(states) == expected and all(state == "ok" for state in states) else 1
 
 
 def parser():
@@ -399,7 +428,8 @@ def parser():
     p.add_argument("--embedding-model", default="google/gemini-embedding-2")
     p.add_argument("--embedding-base-url", default="https://openrouter.ai/api/v1")
     p.add_argument("--timeout", type=float, default=1800)
-    p.add_argument("--build-workers", type=int, default=6, help="total simultaneous video builds across both representations")
+    p.add_argument("--build-workers", type=int, default=12,
+                   help="total simultaneous builds across both representations; 12 targets about 6 per branch initially; respect combined provider limits")
     p.add_argument("--video-workers", type=int, default=6)
     p.add_argument("--question-workers", type=int, default=2)
     return p
@@ -428,13 +458,7 @@ def main(argv=None):
             execute(args, run, config, questions)
         result = summary(run, questions)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-    if args.stage in ("prepare", "status") or result["complete"]:
-        return 0
-    if args.stage != "all":
-        expected = result["videos"] * (2 if args.stage in ("build", "plan") else 3)
-        states = [state for key, state in result["tasks"].items() if key.startswith(args.stage + "/")]
-        return 0 if len(states) == expected and all(state == "ok" for state in states) else 1
-    return 1
+    return stage_exit_code(args.stage, result)
 
 
 if __name__ == "__main__":
