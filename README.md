@@ -17,17 +17,17 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融进度
 
-2026-09-23 02:49 CST 快照：全集 **558题／141视频**。02:48 已在 AIStudio 完成调度切换，本轮只按 **noevent → method** 执行；base 保留已有成绩，不再回答或评分。
+2026-09-23 04:09 CST 快照：全集 **558题／141视频**。02:48 已在 AIStudio 完成调度切换，本轮只按 **noevent → method** 执行；base 保留已有成绩，不再回答或评分。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 138/558 | 28.62 |
+| noevent | 154/558 | 28.41 |
 | base（已有参考） | 13/558 | 63.46 |
 | method | 13/558 | 69.23 |
 
 base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
 
-该快照媒体已就绪 **118/141**，其余继续上传；noevent 完成可执行队列后进入 method。base 未评分题不计入待执行范围，完整历史 base 结果保留在 base 分支。
+该快照媒体已就绪 **135/141**，其余继续上传；noevent 当前8个视频运行、6个等待媒体，完成可执行队列后进入 method。base 未评分题不计入待执行范围，完整历史 base 结果保留在 base 分支。
 
 [全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [范围切换核验](experiments/zyf/results/three_level_full558_gemini38_20260922/scope_change.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
