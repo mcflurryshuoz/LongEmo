@@ -150,6 +150,31 @@ def _fit_payload(events, budget_chars):
     return {"events": selected, "timeline": _timeline(selected)}
 
 
+def _coverage_map(events, scores, bounds, buckets=8):
+    """Expose navigation hints without disclosing full event records."""
+    low, high = bounds
+    groups = [[] for _ in range(buckets)]
+    for event in events:
+        start, _ = event_bounds(event)
+        bucket = min(buckets - 1, max(0, int((start - low) / max(1.0, high - low) * buckets)))
+        groups[bucket].append(event)
+    result = []
+    for index, group in enumerate(groups):
+        if not group:
+            continue
+        group.sort(key=lambda event: (-scores[event["id"]][0], event_bounds(event), event["id"]))
+        representatives = group[:2]
+        result.append({
+            "bucket": index,
+            "span": [round(low + (high - low) * index / buckets, 3),
+                     round(low + (high - low) * (index + 1) / buckets, 3)],
+            "event_hints": [{"id": event["id"], "span": list(event_bounds(event)),
+                             "hint": str(event.get("summary", ""))[:180]}
+                            for event in representatives],
+        })
+    return result
+
+
 def initial_disclosure(memory, question, plan, *, dense_scores, stream_index,
                        budget_chars=24000, anchor_k=4, neighbor_count=1, trace=None):
     """Return a small anchor packet and an auditable disclosure state."""
@@ -185,13 +210,16 @@ def initial_disclosure(memory, question, plan, *, dense_scores, stream_index,
     # whole-person timeline.
     ordered = ordered[:anchor_k + 4]
     payload = _fit_payload(ordered, budget_chars)
+    if plan["mode"] in ("trajectory", "comparison", "count", "causal"):
+        payload["coverage_map"] = _coverage_map(events, scores, bounds)
     state = {"anchor_ids": anchor_ids, "revealed_ids": [record["id"] for record in payload["events"]],
              "seen_pages": [], "bounds": bounds, "event_count": len(events),
              "scores": {key: list(value) for key, value in scores.items()},
              "plan": plan, "question": question}
     coverage = {"candidate_events": len(events), "anchor_events": len(anchor_ids),
                 "revealed_events": len(state["revealed_ids"]), "requested_expansions": 0,
-                "omitted_events": max(0, len(selected_ids) - len(state["revealed_ids"]))}
+                "omitted_events": max(0, len(selected_ids) - len(state["revealed_ids"])),
+                "coverage_buckets": len(payload.get("coverage_map", []))}
     payload["coverage"] = coverage
     if trace is not None:
         trace.update(algorithm="progressive_anchor_stream_v1", anchor_ids=anchor_ids,

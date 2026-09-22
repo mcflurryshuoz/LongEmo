@@ -32,6 +32,8 @@ class ProgressiveRetrievalTests(unittest.TestCase):
         self.assertEqual(len(state["anchor_ids"]), 1)
         self.assertEqual(trace["algorithm"], "progressive_anchor_stream_v1")
         self.assertEqual(state["revealed_ids"], [event["id"] for event in evidence["events"]])
+        self.assertTrue(evidence["coverage_map"])
+        self.assertTrue(all("event_hints" in bucket for bucket in evidence["coverage_map"]))
 
     def test_expansion_returns_new_page_only(self):
         evidence, state = initial_disclosure(self.memory, "How does the woman feel over time?",
