@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-22T18:49:57.632206+00:00",
-  "snapshot_started": "2026-09-22T18:49:57.043971+00:00",
+  "as_of": "2026-09-22T20:09:11.302301+00:00",
+  "snapshot_started": "2026-09-22T20:09:10.641668+00:00",
   "execution_conditions": [
     "noevent",
     "method"
@@ -64,36 +64,36 @@
   },
   "conditions": {
     "noevent": {
-      "scored": 138,
+      "scored": 154,
       "total": 558,
-      "coverage": 0.24731182795698925,
-      "mean_scored": 28.62318840579709,
+      "coverage": 0.27598566308243727,
+      "mean_scored": 28.409090909090896,
       "by_type": {
         "emotional intensity comparison": {
-          "scored": 42,
+          "scored": 47,
           "total": 194,
-          "coverage": 0.21649484536082475,
-          "mean_scored": 16.666666666666668
+          "coverage": 0.2422680412371134,
+          "mean_scored": 17.02127659574468
         },
         "emotion trajectory": {
-          "scored": 60,
+          "scored": 68,
           "total": 235,
-          "coverage": 0.2553191489361702,
-          "mean_scored": 27.5
+          "coverage": 0.28936170212765955,
+          "mean_scored": 27.573529411764707
         },
         "emotional reasoning": {
-          "scored": 36,
+          "scored": 39,
           "total": 129,
-          "coverage": 0.27906976744186046,
-          "mean_scored": 44.44444444444444
+          "coverage": 0.3023255813953488,
+          "mean_scored": 43.58974358974359
         }
       },
       "by_series": {
         "Frasier": {
-          "scored": 18,
+          "scored": 21,
           "total": 88,
-          "coverage": 0.20454545454545456,
-          "mean_scored": 12.5
+          "coverage": 0.23863636363636365,
+          "mean_scored": 13.095238095238095
         },
         "Friends": {
           "scored": 44,
@@ -108,16 +108,16 @@
           "mean_scored": null
         },
         "Malcolm in the Middle": {
-          "scored": 6,
+          "scored": 11,
           "total": 90,
-          "coverage": 0.06666666666666667,
-          "mean_scored": 0.0
+          "coverage": 0.12222222222222222,
+          "mean_scored": 18.181818181818183
         },
         "Modern Family": {
-          "scored": 13,
+          "scored": 21,
           "total": 93,
-          "coverage": 0.13978494623655913,
-          "mean_scored": 30.128205128205124
+          "coverage": 0.22580645161290322,
+          "mean_scored": 26.98412698412698
         },
         "unclassified": {
           "scored": 57,
@@ -555,14 +555,15 @@
   "branches": {
     "noevent": {
       "counts": {
-        "complete": 37,
+        "complete": 41,
         "blocked_parent_build": 13,
-        "build_failed": 65,
+        "build_failed": 70,
         "partial": 3,
-        "pending": 23
+        "pending": 6,
+        "running": 8
       },
-      "memory_complete": 40,
-      "completed_windows": 3696,
+      "memory_complete": 44,
+      "completed_windows": 4291,
       "videos": [
         {
           "video_id": "G2_V000001",
@@ -891,10 +892,10 @@
         },
         {
           "video_id": "G2_V000032",
-          "status": "pending",
-          "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "status": "complete",
+          "memory_complete": true,
+          "completed_windows": 70,
+          "total_windows": 70,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -930,12 +931,24 @@
         },
         {
           "video_id": "G2_V000035",
-          "status": "pending",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 59,
+          "total_windows": 67,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790105441.2377894,
+            "request_hash": "94034d81a899e623f67d126fe2c507fdd411f648fff8752723bf1ee033fcee34",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000035/memory/G2_V000035/audio/calls.jsonl",
+            "source_sha256": "3b3bde75665e43dc1b8984681a53b531f669428c2832418be6a7cb553410fe41"
+          }
         },
         {
           "video_id": "G2_V000036",
@@ -978,10 +991,10 @@
         },
         {
           "video_id": "G2_V000039",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 18,
+          "total_windows": 67,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -996,10 +1009,10 @@
         },
         {
           "video_id": "G2_V000041",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 25,
+          "total_windows": 65,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -1035,10 +1048,10 @@
         },
         {
           "video_id": "G2_V000044",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 26,
+          "total_windows": 65,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2138,10 +2151,10 @@
         },
         {
           "video_id": "G2_V000111",
-          "status": "pending",
-          "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "status": "complete",
+          "memory_complete": true,
+          "completed_windows": 65,
+          "total_windows": 65,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2267,19 +2280,19 @@
         },
         {
           "video_id": "G2_V000118",
-          "status": "pending",
-          "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "status": "complete",
+          "memory_complete": true,
+          "completed_windows": 69,
+          "total_windows": 69,
           "inherited_state": "unstarted",
           "final_failure": null
         },
         {
           "video_id": "G2_V000119",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 10,
+          "total_windows": 64,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2294,12 +2307,24 @@
         },
         {
           "video_id": "G2_V000121",
-          "status": "pending",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 10,
+          "total_windows": 64,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00011",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790106655.8057039,
+            "request_hash": "ab8c45bc84b3fc011a891e3e744f1060c901084b7c84f0593c961a50d1b3a3c0",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000121/memory/G2_V000121/audio/calls.jsonl",
+            "source_sha256": "a06980cf758e5cce53519931dd7a4e9433753f2e8d56682570bb4970b8f35952"
+          }
         },
         {
           "video_id": "G2_V000122",
@@ -2312,10 +2337,10 @@
         },
         {
           "video_id": "G2_V000123",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 32,
+          "total_windows": 62,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2340,12 +2365,24 @@
         },
         {
           "video_id": "G2_V000125",
-          "status": "pending",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 17,
+          "total_windows": 64,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790104615.3385453,
+            "request_hash": "dfcdd294bde5a78e9779b4eb5dd349203a2938ae09b904d31809bf1a9173cf25",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000125/memory/G2_V000125/audio/calls.jsonl",
+            "source_sha256": "b9e5920add29bc0c1a6ababe7a5680055fec0dda442467e7dfdc151c0d79f39e"
+          }
         },
         {
           "video_id": "G2_V000126",
@@ -2386,10 +2423,10 @@
         },
         {
           "video_id": "G2_V000129",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 5,
+          "total_windows": 64,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2414,10 +2451,10 @@
         },
         {
           "video_id": "G2_V000131",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 37,
+          "total_windows": 65,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2444,10 +2481,10 @@
         },
         {
           "video_id": "G2_V000133",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 47,
+          "total_windows": 63,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2462,10 +2499,10 @@
         },
         {
           "video_id": "G2_V000135",
-          "status": "pending",
-          "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "status": "complete",
+          "memory_complete": true,
+          "completed_windows": 64,
+          "total_windows": 64,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -2492,12 +2529,24 @@
         },
         {
           "video_id": "G2_V000137",
-          "status": "pending",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 29,
+          "total_windows": 63,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         {
           "video_id": "G2_V000138",
@@ -2520,12 +2569,24 @@
         },
         {
           "video_id": "G2_V000139",
-          "status": "pending",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 12,
+          "total_windows": 62,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00013",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790104626.2929525,
+            "request_hash": "d5af281fc650329c5535f1150eb5b8cdb7f5b23cf7b9d4e7e5afb5844a8cb3b8",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000139/memory/G2_V000139/audio/calls.jsonl",
+            "source_sha256": "0ee916ee433505bd50545e5bcd3ed780cfc10a0b8f59a5bb2e667524a654339f"
+          }
         },
         {
           "video_id": "G2_V000140",
@@ -6386,7 +6447,7 @@
               }
             ],
             "ledger": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/embeddings/api/calls.jsonl",
-            "ledger_sha256": "fc06fe5eb778346c4777b922de34ec91318695309a1528955817256f554d798a"
+            "ledger_sha256": "4caa6e788a804fc4047ba311c12134d7a3529d02e2f7ebfe158b1177a76ce8cd"
           }
         },
         "base": {
@@ -6424,7 +6485,7 @@
               }
             ],
             "ledger": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/embeddings/api/calls.jsonl",
-            "ledger_sha256": "fc06fe5eb778346c4777b922de34ec91318695309a1528955817256f554d798a"
+            "ledger_sha256": "4caa6e788a804fc4047ba311c12134d7a3529d02e2f7ebfe158b1177a76ce8cd"
           }
         },
         "base": {
@@ -7066,8 +7127,22 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 2,
+          "max_score": 4,
+          "normalized_score_100": 50.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000032/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000032/run_20260923_0339/scores.jsonl",
+          "source_sha256": "7a9da3c89e9b0f766e08674ff33d83b8e9571fd20d823b338e148d015cf268bd",
+          "accepted_sha256": "f6833bfdc6f3c2d393bba25013ceee9ba10eeb2ec317f1b356abc7ba621e36b4",
+          "prediction_sha256": "20ed57b3feba06287820f8ad79db150d0b47e0392ce16033fc18bd7d7942ecfa",
+          "prediction_artifact_sha256": "f7de8bb93cb9883946e1ad870de84a74bd5e9b804a9e850b0387c78a490a6784",
+          "memory_sha256": "c46825796fe9cfb58006c026c749450e0abe9b054ccface922c7bd6af28ae0ac",
+          "plan_sha256": "7b64252259580c5fa0208fa5449b61851fd0a2990ac4f93b6037a7472c931244",
+          "embedding_signature": "4ae190c795943771d3f97a4c68148a45a28375fe77260cdd2d6e0d79596e58af",
+          "trace_sha256": "6f80ef4c2d119c98210264d35e0385c9ffae973378950595839e4f105fd4592c",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -7087,8 +7162,22 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000032/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000032/run_20260923_0339/scores.jsonl",
+          "source_sha256": "7a9da3c89e9b0f766e08674ff33d83b8e9571fd20d823b338e148d015cf268bd",
+          "accepted_sha256": "2aafe2212dd374f7e3588afba05a7d3d6fc03ef1fcf3a7baedf9dd354b22ebde",
+          "prediction_sha256": "c1debbd880789609f7a7be665de98fe84175165e8a4bc3b0ee8d6844ada9a8df",
+          "prediction_artifact_sha256": "f7de8bb93cb9883946e1ad870de84a74bd5e9b804a9e850b0387c78a490a6784",
+          "memory_sha256": "c46825796fe9cfb58006c026c749450e0abe9b054ccface922c7bd6af28ae0ac",
+          "plan_sha256": "33600c9dbbca4aa081de65753822c81974d930bf7d85242a33a4dbbbd0567226",
+          "embedding_signature": "4ae190c795943771d3f97a4c68148a45a28375fe77260cdd2d6e0d79596e58af",
+          "trace_sha256": "bfdba6d43321355300efe8eed985944161466570e64c86087a59a75bf352b1b2",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -7108,8 +7197,22 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000032/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000032/run_20260923_0339/scores.jsonl",
+          "source_sha256": "7a9da3c89e9b0f766e08674ff33d83b8e9571fd20d823b338e148d015cf268bd",
+          "accepted_sha256": "01aebdb87903c3ebeea908b2b6ffaf95208d24ee8fa02791b82f858f79cd77dc",
+          "prediction_sha256": "f4565e352811e9f84e07a243cbdfd699decfd422cded85f5544d175a60354939",
+          "prediction_artifact_sha256": "f7de8bb93cb9883946e1ad870de84a74bd5e9b804a9e850b0387c78a490a6784",
+          "memory_sha256": "c46825796fe9cfb58006c026c749450e0abe9b054ccface922c7bd6af28ae0ac",
+          "plan_sha256": "cd8a9fa485ad32ad2e543a4a0d1f6bc27a9c480751d3f75ef5ad58cd47e7712d",
+          "embedding_signature": "4ae190c795943771d3f97a4c68148a45a28375fe77260cdd2d6e0d79596e58af",
+          "trace_sha256": "afcc396415161c25ebf2692482bcf47f2b99391cdca3f93f6a55ad138e0e38d5",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -7404,8 +7507,21 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790105441.2377894,
+            "request_hash": "94034d81a899e623f67d126fe2c507fdd411f648fff8752723bf1ee033fcee34",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000035/memory/G2_V000035/audio/calls.jsonl",
+            "source_sha256": "3b3bde75665e43dc1b8984681a53b531f669428c2832418be6a7cb553410fe41"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -7425,8 +7541,21 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790105441.2377894,
+            "request_hash": "94034d81a899e623f67d126fe2c507fdd411f648fff8752723bf1ee033fcee34",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000035/memory/G2_V000035/audio/calls.jsonl",
+            "source_sha256": "3b3bde75665e43dc1b8984681a53b531f669428c2832418be6a7cb553410fe41"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -7446,8 +7575,21 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790105441.2377894,
+            "request_hash": "94034d81a899e623f67d126fe2c507fdd411f648fff8752723bf1ee033fcee34",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000035/memory/G2_V000035/audio/calls.jsonl",
+            "source_sha256": "3b3bde75665e43dc1b8984681a53b531f669428c2832418be6a7cb553410fe41"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -7467,8 +7609,21 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790105441.2377894,
+            "request_hash": "94034d81a899e623f67d126fe2c507fdd411f648fff8752723bf1ee033fcee34",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000035/memory/G2_V000035/audio/calls.jsonl",
+            "source_sha256": "3b3bde75665e43dc1b8984681a53b531f669428c2832418be6a7cb553410fe41"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -7488,8 +7643,21 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00060",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790105441.2377894,
+            "request_hash": "94034d81a899e623f67d126fe2c507fdd411f648fff8752723bf1ee033fcee34",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000035/memory/G2_V000035/audio/calls.jsonl",
+            "source_sha256": "3b3bde75665e43dc1b8984681a53b531f669428c2832418be6a7cb553410fe41"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -7784,7 +7952,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7805,7 +7973,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7826,7 +7994,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7847,7 +8015,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7910,7 +8078,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7931,7 +8099,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7952,7 +8120,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7973,7 +8141,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -7994,7 +8162,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -8256,7 +8424,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -8277,7 +8445,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -8298,7 +8466,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -8319,7 +8487,7 @@
       "series": "Frasier",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -17822,8 +17990,22 @@
       "series": "Malcolm in the Middle",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 1,
+          "normalized_score_100": 100.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_sha256": "333424b0da845a3f3bc77ce3c93e91762c77a010786411fdb6c8eabd83ba6437",
+          "accepted_sha256": "5a9cd48623435d0b224042b0f132a007e3c31d9d44d3aa6a17c5d430a4e8ce18",
+          "prediction_sha256": "74cf1113e3a86cf0f5e97f644387a0511c02759f4da6da643f7f99a0925b11a8",
+          "prediction_artifact_sha256": "0409d8a3d1024a0b35948db6fe83af1f6c81602eb62bd171e0fedf176a273c2e",
+          "memory_sha256": "4e7dc838575af2cdd12fbff914198829ebfbc77c3c0b7a0211683d07df2b2cf3",
+          "plan_sha256": "acaa78e7babc5595fe80f014001874d810c9d65ed8589161472e3b1f4735d643",
+          "embedding_signature": "3b0802b4248f7ead3b9064dd550088599ac6107fed123f53edbe835e80217b7d",
+          "trace_sha256": "72c8a8e15c86c502126e2c3f729eab0ee3ba416280a995c073b23488ae916943",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -17843,8 +18025,22 @@
       "series": "Malcolm in the Middle",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_sha256": "333424b0da845a3f3bc77ce3c93e91762c77a010786411fdb6c8eabd83ba6437",
+          "accepted_sha256": "7737cf78663de3ff2c3f1a7bfd4673daf82b88d4b9e59b7620a0c56511bf113c",
+          "prediction_sha256": "4043ae00b3c4570de390a821dc4c5318bcb68357550a63c44dad7b5b185028be",
+          "prediction_artifact_sha256": "0409d8a3d1024a0b35948db6fe83af1f6c81602eb62bd171e0fedf176a273c2e",
+          "memory_sha256": "4e7dc838575af2cdd12fbff914198829ebfbc77c3c0b7a0211683d07df2b2cf3",
+          "plan_sha256": "4f8d952978fa03e63b496e55a3c969090fe661e6468106ee00357b93c4c1ddb8",
+          "embedding_signature": "3b0802b4248f7ead3b9064dd550088599ac6107fed123f53edbe835e80217b7d",
+          "trace_sha256": "3a82064f1d751d800c5976beba038f66bf30114966c0094399925535613727d2",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -17864,8 +18060,22 @@
       "series": "Malcolm in the Middle",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 4,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_sha256": "333424b0da845a3f3bc77ce3c93e91762c77a010786411fdb6c8eabd83ba6437",
+          "accepted_sha256": "da4b8d588d43b8a222c3f5e9b809468394afed26a151071eb574fe2f774db5ef",
+          "prediction_sha256": "cbed7990ebbc937c561dd810e28c7e6b1058a51452f7b9a62e4edb7ec3444228",
+          "prediction_artifact_sha256": "0409d8a3d1024a0b35948db6fe83af1f6c81602eb62bd171e0fedf176a273c2e",
+          "memory_sha256": "4e7dc838575af2cdd12fbff914198829ebfbc77c3c0b7a0211683d07df2b2cf3",
+          "plan_sha256": "ba25cd2eea369adfd56b5e10223a557eac98a4cb7795968498d731ffce875b29",
+          "embedding_signature": "3b0802b4248f7ead3b9064dd550088599ac6107fed123f53edbe835e80217b7d",
+          "trace_sha256": "503359186976d7515b3cd55152f0196f187baf959dfe416a3bb8d73490058c26",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -17885,8 +18095,22 @@
       "series": "Malcolm in the Middle",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 1,
+          "normalized_score_100": 100.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_sha256": "333424b0da845a3f3bc77ce3c93e91762c77a010786411fdb6c8eabd83ba6437",
+          "accepted_sha256": "0b0200f397925fe18498872f83be4c2ce5e3f1c7e8b5c5484e2423b8ecddc3bb",
+          "prediction_sha256": "14bee6914f4c069b0ab7330b3cdb088dd832615f178028f2500ba700f926581d",
+          "prediction_artifact_sha256": "0409d8a3d1024a0b35948db6fe83af1f6c81602eb62bd171e0fedf176a273c2e",
+          "memory_sha256": "4e7dc838575af2cdd12fbff914198829ebfbc77c3c0b7a0211683d07df2b2cf3",
+          "plan_sha256": "9957134edf5f99c40ca6cc0a7177e4a832e600d4cf9dc9a19e9016612af1fe0e",
+          "embedding_signature": "3b0802b4248f7ead3b9064dd550088599ac6107fed123f53edbe835e80217b7d",
+          "trace_sha256": "ea3e477f561332519eb4baf6199a397562c2f6647f56f81a6f85b4f74f8d766b",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -17906,8 +18130,22 @@
       "series": "Malcolm in the Middle",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 4,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000111/run_20260923_0343/scores.jsonl",
+          "source_sha256": "333424b0da845a3f3bc77ce3c93e91762c77a010786411fdb6c8eabd83ba6437",
+          "accepted_sha256": "d8118dd93186aa57ab1b2d3b7b46019b9539c297bf761c983e21b7c3fcbb2b46",
+          "prediction_sha256": "77eaedf72819efcd292544b3f6325689914198f03db8c3c2df48b19e0b2eae11",
+          "prediction_artifact_sha256": "0409d8a3d1024a0b35948db6fe83af1f6c81602eb62bd171e0fedf176a273c2e",
+          "memory_sha256": "4e7dc838575af2cdd12fbff914198829ebfbc77c3c0b7a0211683d07df2b2cf3",
+          "plan_sha256": "bc8ca11e539086d82a83877c6433a523cb70fbdaa01fd3a7666f9ac79a752f8e",
+          "embedding_signature": "3b0802b4248f7ead3b9064dd550088599ac6107fed123f53edbe835e80217b7d",
+          "trace_sha256": "8cfb95ff503c51a67a5564629ca04cca483c3c86ee70c2568f9719a2f6c542b4",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -19045,8 +19283,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_sha256": "9df1c3f7053cc2f171927bac7168d4b7c640778ef284d305842312297967570c",
+          "accepted_sha256": "2b45fe3e1244e1da716b2b04fc0c320d2da435028a409779992c3f8ed50cc34f",
+          "prediction_sha256": "8609fd677ecc1fefba1d457c0f7fe51dfa9c8bd44dadb676b6853eb64884ce50",
+          "prediction_artifact_sha256": "c9b1531188b11a61957c440937e92b18ff32d01808ea1bfee108bb389ad58677",
+          "memory_sha256": "df97be570365a4224b78da469dcde1f0a22658c0f3abaa65f61e1cbc420af3b4",
+          "plan_sha256": "372bac706279813a51d7ef5d41427bfeb1ecd65df18b695aa33fc6d4292a7049",
+          "embedding_signature": "a12a0fe6883ce0dc78294556a94ebc3e14e57e097c0358a532698977a766a819",
+          "trace_sha256": "f9e6123277bb3aefede6098a7c9305579fc2d5eceb6177f0d698a0b3a5189ac0",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -19066,8 +19318,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 4,
+          "normalized_score_100": 25.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_sha256": "9df1c3f7053cc2f171927bac7168d4b7c640778ef284d305842312297967570c",
+          "accepted_sha256": "e7a37fa3f923376973e8d9eeac85e46f79a74516a2ce18a8aa6aff8ff4025414",
+          "prediction_sha256": "52e7f5f3525015b91c99f472b853aea6ddbb640f3f3dd87b8dbc650c04df9bb9",
+          "prediction_artifact_sha256": "c9b1531188b11a61957c440937e92b18ff32d01808ea1bfee108bb389ad58677",
+          "memory_sha256": "df97be570365a4224b78da469dcde1f0a22658c0f3abaa65f61e1cbc420af3b4",
+          "plan_sha256": "42a4568f874018d7cbc454b5e850d31d913333a8eef3f61d7252ac2b937db316",
+          "embedding_signature": "a12a0fe6883ce0dc78294556a94ebc3e14e57e097c0358a532698977a766a819",
+          "trace_sha256": "f094e8b0fdbaaaf51e4ab1edca9c3d7c9630641470eed97a4ff7761577b76780",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -19087,8 +19353,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 4,
+          "normalized_score_100": 25.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_sha256": "9df1c3f7053cc2f171927bac7168d4b7c640778ef284d305842312297967570c",
+          "accepted_sha256": "b059cdda838aea068272c4429e5d9d8bff9c9679ad8965be5696975b6d8b39cc",
+          "prediction_sha256": "ee3ba220b130456bbcf949bc8639c6d56896055c851f17caf815fd36a5d0bbee",
+          "prediction_artifact_sha256": "c9b1531188b11a61957c440937e92b18ff32d01808ea1bfee108bb389ad58677",
+          "memory_sha256": "df97be570365a4224b78da469dcde1f0a22658c0f3abaa65f61e1cbc420af3b4",
+          "plan_sha256": "302ff33e4378154219e75932ca4922bbe1e75f4d7bc97d3b9228d9e187940982",
+          "embedding_signature": "a12a0fe6883ce0dc78294556a94ebc3e14e57e097c0358a532698977a766a819",
+          "trace_sha256": "d12f7f31fefe41725f653ab9f01b8b12784f918dae789d6c4b481ff2e086ce17",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -19108,8 +19388,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 2,
+          "max_score": 4,
+          "normalized_score_100": 50.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000118/run_20260923_0339/scores.jsonl",
+          "source_sha256": "9df1c3f7053cc2f171927bac7168d4b7c640778ef284d305842312297967570c",
+          "accepted_sha256": "8d5a617b436fce1d160a5827e92b4141e5801c26b1ce4b0849bcc1c69cc4b793",
+          "prediction_sha256": "737ff463f576b1b05a1887efe4a7d4729f4421f715cc5a4770fd1732547d3c00",
+          "prediction_artifact_sha256": "c9b1531188b11a61957c440937e92b18ff32d01808ea1bfee108bb389ad58677",
+          "memory_sha256": "df97be570365a4224b78da469dcde1f0a22658c0f3abaa65f61e1cbc420af3b4",
+          "plan_sha256": "193f4e35bdb9cea73069794afd9e68688b2168357d1e102b1a7634c2f6e328d8",
+          "embedding_signature": "a12a0fe6883ce0dc78294556a94ebc3e14e57e097c0358a532698977a766a819",
+          "trace_sha256": "0460531a892756f3c2775b6609b27c5fc91b61d5e96ae1be5571333d8b90a83c",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -19129,7 +19423,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19150,7 +19444,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19171,7 +19465,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19192,7 +19486,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19213,7 +19507,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19374,8 +19668,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00011",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790106655.8057039,
+            "request_hash": "ab8c45bc84b3fc011a891e3e744f1060c901084b7c84f0593c961a50d1b3a3c0",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000121/memory/G2_V000121/audio/calls.jsonl",
+            "source_sha256": "a06980cf758e5cce53519931dd7a4e9433753f2e8d56682570bb4970b8f35952"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19395,8 +19702,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00011",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790106655.8057039,
+            "request_hash": "ab8c45bc84b3fc011a891e3e744f1060c901084b7c84f0593c961a50d1b3a3c0",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000121/memory/G2_V000121/audio/calls.jsonl",
+            "source_sha256": "a06980cf758e5cce53519931dd7a4e9433753f2e8d56682570bb4970b8f35952"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19416,8 +19736,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00011",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790106655.8057039,
+            "request_hash": "ab8c45bc84b3fc011a891e3e744f1060c901084b7c84f0593c961a50d1b3a3c0",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000121/memory/G2_V000121/audio/calls.jsonl",
+            "source_sha256": "a06980cf758e5cce53519931dd7a4e9433753f2e8d56682570bb4970b8f35952"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19437,8 +19770,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00011",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790106655.8057039,
+            "request_hash": "ab8c45bc84b3fc011a891e3e744f1060c901084b7c84f0593c961a50d1b3a3c0",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000121/memory/G2_V000121/audio/calls.jsonl",
+            "source_sha256": "a06980cf758e5cce53519931dd7a4e9433753f2e8d56682570bb4970b8f35952"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19591,7 +19937,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19612,7 +19958,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19633,7 +19979,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19654,7 +20000,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -19835,8 +20181,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790104615.3385453,
+            "request_hash": "dfcdd294bde5a78e9779b4eb5dd349203a2938ae09b904d31809bf1a9173cf25",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000125/memory/G2_V000125/audio/calls.jsonl",
+            "source_sha256": "b9e5920add29bc0c1a6ababe7a5680055fec0dda442467e7dfdc151c0d79f39e"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19856,8 +20215,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790104615.3385453,
+            "request_hash": "dfcdd294bde5a78e9779b4eb5dd349203a2938ae09b904d31809bf1a9173cf25",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000125/memory/G2_V000125/audio/calls.jsonl",
+            "source_sha256": "b9e5920add29bc0c1a6ababe7a5680055fec0dda442467e7dfdc151c0d79f39e"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19877,8 +20249,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790104615.3385453,
+            "request_hash": "dfcdd294bde5a78e9779b4eb5dd349203a2938ae09b904d31809bf1a9173cf25",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000125/memory/G2_V000125/audio/calls.jsonl",
+            "source_sha256": "b9e5920add29bc0c1a6ababe7a5680055fec0dda442467e7dfdc151c0d79f39e"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19898,8 +20283,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790104615.3385453,
+            "request_hash": "dfcdd294bde5a78e9779b4eb5dd349203a2938ae09b904d31809bf1a9173cf25",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000125/memory/G2_V000125/audio/calls.jsonl",
+            "source_sha256": "b9e5920add29bc0c1a6ababe7a5680055fec0dda442467e7dfdc151c0d79f39e"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -19919,8 +20317,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00018",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter",
+            "failure_stage": "generate",
+            "time_unix": 1790104615.3385453,
+            "request_hash": "dfcdd294bde5a78e9779b4eb5dd349203a2938ae09b904d31809bf1a9173cf25",
+            "category": "content_filter",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000125/memory/G2_V000125/audio/calls.jsonl",
+            "source_sha256": "b9e5920add29bc0c1a6ababe7a5680055fec0dda442467e7dfdc151c0d79f39e"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -20313,7 +20724,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20334,7 +20745,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20355,7 +20766,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20376,7 +20787,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20525,7 +20936,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20546,7 +20957,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20567,7 +20978,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20724,7 +21135,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20745,7 +21156,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20766,7 +21177,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20787,7 +21198,7 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -20913,8 +21324,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_sha256": "d8fb1e3dbfdc8d3b9f6f5401a5f7159f138d870add43bf814a6d8803b8b10f1c",
+          "accepted_sha256": "55130911f69d71f57c3488d402e47b659edc92c3d074a48465d85292809d0a64",
+          "prediction_sha256": "505e91a2ae90300cbc3e92950e5d6e1fb984fca5762d59590d56b0a33758e0e4",
+          "prediction_artifact_sha256": "b98460f5f1a9dca4a5b5f437795cbac44ccae9292811591ad88e4311b8480157",
+          "memory_sha256": "0730e306115808c3345c7523510b3b6df87db460f644619e4e5598bba3872d34",
+          "plan_sha256": "2f6a864926cf19172699efeb1647a077832867219fc709d0e24d043c92451813",
+          "embedding_signature": "da752482b5215ebed548bc83feef2cdf0ae76892702352615a392e77e95958d5",
+          "trace_sha256": "b0ee0ece1c9dbc133033b6cffee8ab3367a1181ebab56341a5ef6a4d5b2168ec",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -20934,8 +21359,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_sha256": "d8fb1e3dbfdc8d3b9f6f5401a5f7159f138d870add43bf814a6d8803b8b10f1c",
+          "accepted_sha256": "aa957dc08d0b77af0fa71a541d201ec8e0557b83d4b2454e239e0d220d6495c8",
+          "prediction_sha256": "21d423dcaaaee4eda9eec4d2536dc120e4e4e12ed46957be7470527d60dc0884",
+          "prediction_artifact_sha256": "b98460f5f1a9dca4a5b5f437795cbac44ccae9292811591ad88e4311b8480157",
+          "memory_sha256": "0730e306115808c3345c7523510b3b6df87db460f644619e4e5598bba3872d34",
+          "plan_sha256": "0034e736ff8dd6a3e3aec55e6e6f5b2601fadf1155fab17a7a7611596616f22f",
+          "embedding_signature": "da752482b5215ebed548bc83feef2cdf0ae76892702352615a392e77e95958d5",
+          "trace_sha256": "9d5ba76c11cd0bf698454331b891a03750d1ec68152e1c36daf60eabd4003831",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -20955,8 +21394,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 4,
+          "normalized_score_100": 25.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_sha256": "d8fb1e3dbfdc8d3b9f6f5401a5f7159f138d870add43bf814a6d8803b8b10f1c",
+          "accepted_sha256": "5f4ae1928b813bdecfa55ac5eebfc87d4d17be097974fd65f0e623a4e86ce410",
+          "prediction_sha256": "9b74697d69c806354d8f04f2a9e190d76bed66da748fb7ef9cbafeafb573ca7e",
+          "prediction_artifact_sha256": "b98460f5f1a9dca4a5b5f437795cbac44ccae9292811591ad88e4311b8480157",
+          "memory_sha256": "0730e306115808c3345c7523510b3b6df87db460f644619e4e5598bba3872d34",
+          "plan_sha256": "e5c1689129fd434bf5c427999bf37331677c0db83cf50f330ee8caa422824fe4",
+          "embedding_signature": "da752482b5215ebed548bc83feef2cdf0ae76892702352615a392e77e95958d5",
+          "trace_sha256": "a8dd4e8f5a765c7d0d64def9a5b07f595709fed700ff9f82593eb8fac9dde58b",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -20976,8 +21429,22 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 2,
+          "max_score": 4,
+          "normalized_score_100": 50.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000135/run_20260923_0342/scores.jsonl",
+          "source_sha256": "d8fb1e3dbfdc8d3b9f6f5401a5f7159f138d870add43bf814a6d8803b8b10f1c",
+          "accepted_sha256": "61854b494ba23bb57037d5a61730ba618ea488bffba8c2fe40273c541a22ee5f",
+          "prediction_sha256": "c39a0c174974f2c884791e444c278dd91a0dd21fc994568705d0ff6952b6454f",
+          "prediction_artifact_sha256": "b98460f5f1a9dca4a5b5f437795cbac44ccae9292811591ad88e4311b8480157",
+          "memory_sha256": "0730e306115808c3345c7523510b3b6df87db460f644619e4e5598bba3872d34",
+          "plan_sha256": "406791e7e69264111063490c0017bbf47cb56d38df3dd41d94be94edd69543d1",
+          "embedding_signature": "da752482b5215ebed548bc83feef2cdf0ae76892702352615a392e77e95958d5",
+          "trace_sha256": "312db8dac82db9fd1a423da06f8d84fe01e69f44d96af610879f6df44e82e9b6",
+          "routing": null
         },
         "base": {
           "status": "not_requested",
@@ -21099,8 +21566,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21120,8 +21600,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21141,8 +21634,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21162,8 +21668,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21183,8 +21702,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21204,8 +21736,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00030",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790107062.2762878,
+            "request_hash": "4c8739eb59000f0e112347a8c598195cc3082a9705ba83971b9aae2c21675457",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000137/memory/G2_V000137/audio/calls.jsonl",
+            "source_sha256": "57d341c8493bed4016e86fae527ba2da588c576c4797cf212e845de8761d1dbb"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21385,8 +21930,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00013",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790104626.2929525,
+            "request_hash": "d5af281fc650329c5535f1150eb5b8cdb7f5b23cf7b9d4e7e5afb5844a8cb3b8",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000139/memory/G2_V000139/audio/calls.jsonl",
+            "source_sha256": "0ee916ee433505bd50545e5bcd3ed780cfc10a0b8f59a5bb2e667524a654339f"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21406,8 +21964,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00013",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790104626.2929525,
+            "request_hash": "d5af281fc650329c5535f1150eb5b8cdb7f5b23cf7b9d4e7e5afb5844a8cb3b8",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000139/memory/G2_V000139/audio/calls.jsonl",
+            "source_sha256": "0ee916ee433505bd50545e5bcd3ed780cfc10a0b8f59a5bb2e667524a654339f"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21427,8 +21998,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00013",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790104626.2929525,
+            "request_hash": "d5af281fc650329c5535f1150eb5b8cdb7f5b23cf7b9d4e7e5afb5844a8cb3b8",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000139/memory/G2_V000139/audio/calls.jsonl",
+            "source_sha256": "0ee916ee433505bd50545e5bcd3ed780cfc10a0b8f59a5bb2e667524a654339f"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21448,8 +22032,21 @@
       "series": "Modern Family",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00013",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790104626.2929525,
+            "request_hash": "d5af281fc650329c5535f1150eb5b8cdb7f5b23cf7b9d4e7e5afb5844a8cb3b8",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000139/memory/G2_V000139/audio/calls.jsonl",
+            "source_sha256": "0ee916ee433505bd50545e5bcd3ed780cfc10a0b8f59a5bb2e667524a654339f"
+          }
         },
         "base": {
           "status": "not_requested",
@@ -21652,9 +22249,10 @@
   "missing_counts": {
     "noevent": {
       "parent_build_blocked": 34,
-      "build_failed": 287,
+      "build_failed": 311,
       "embedding_failed": 2,
-      "waiting_for_media_or_phase": 93,
+      "waiting_for_media_or_phase": 20,
+      "perception_running": 33,
       "score_failed": 1,
       "plan_failed": 3
     },
