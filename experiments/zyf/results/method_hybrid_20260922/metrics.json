@@ -1,0 +1,93 @@
+{
+  "granularity": "episode",
+  "overall_unweighted": {
+    "n_total": 520,
+    "n_scored": 511,
+    "coverage": 0.9826923076923076,
+    "statuses": {
+      "ok": 511,
+      "missing_prediction": 8,
+      "error": 1
+    },
+    "normalized_mean": 0.6024135681669927,
+    "percent_score": 60.241356816699266
+  },
+  "tasks": {
+    "emotion trajectory": {
+      "n_total": 222,
+      "n_scored": 217,
+      "coverage": 0.9774774774774775,
+      "statuses": {
+        "ok": 217,
+        "missing_prediction": 4,
+        "error": 1
+      },
+      "normalized_mean": 0.6059907834101382,
+      "percent_score": 60.59907834101382,
+      "raw_mean": 2.423963133640553,
+      "max_score": 4
+    },
+    "emotional intensity comparison": {
+      "n_total": 174,
+      "n_scored": 173,
+      "coverage": 0.9942528735632183,
+      "statuses": {
+        "ok": 173,
+        "missing_prediction": 1
+      },
+      "normalized_mean": 0.4913294797687861,
+      "percent_score": 49.13294797687861,
+      "raw_mean": 0.4913294797687861,
+      "max_score": 1,
+      "acc": 0.4913294797687861
+    },
+    "emotional reasoning": {
+      "n_total": 124,
+      "n_scored": 121,
+      "coverage": 0.9758064516129032,
+      "statuses": {
+        "ok": 121,
+        "missing_prediction": 3
+      },
+      "normalized_mean": 0.7548209366391185,
+      "percent_score": 75.48209366391185
+    }
+  },
+  "emotional_reasoning": {
+    "result": {
+      "n_total": 39,
+      "n_scored": 38,
+      "coverage": 0.9743589743589743,
+      "statuses": {
+        "ok": 38,
+        "missing_prediction": 1
+      },
+      "normalized_mean": 0.6052631578947368,
+      "percent_score": 60.526315789473685,
+      "raw_mean": 0.6052631578947368,
+      "max_score": 1,
+      "acc": 0.6052631578947368
+    },
+    "explanation": {
+      "n_total": 85,
+      "n_scored": 83,
+      "coverage": 0.9764705882352941,
+      "statuses": {
+        "ok": 83,
+        "missing_prediction": 2
+      },
+      "normalized_mean": 0.8232931726907629,
+      "percent_score": 82.32931726907628,
+      "raw_mean": 2.4698795180722892,
+      "max_score": 3
+    },
+    "weights": {
+      "result": 0.6,
+      "explanation": 0.4
+    },
+    "unweighted": 0.7548209366391185,
+    "unweighted_percent": 75.48209366391185,
+    "weighted": 0.6924751638131472,
+    "weighted_percent": 69.24751638131472
+  }
+}

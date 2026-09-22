@@ -1,0 +1,90 @@
+{
+  "run": "method_hybrid_20260922",
+  "remote_run": "/root/longemo/runtime/runs/method_hybrid_20260922",
+  "questions_total": 520,
+  "scored": 511,
+  "base_report_scored": 517,
+  "same_question_overlap": 511,
+  "overall": 60.24135681669927,
+  "base_same_question": 57.76255707762557,
+  "delta_same_question": 2.4787997390737004,
+  "tasks": {
+    "emotion trajectory": {
+      "n_total": 222,
+      "n_scored": 217,
+      "score": 60.59907834101382,
+      "base_same_question": 54.60829493087558,
+      "delta_same_question": 5.990783410138242
+    },
+    "emotional intensity comparison": {
+      "n_total": 174,
+      "n_scored": 173,
+      "score": 49.13294797687861,
+      "base_same_question": 51.445086705202314,
+      "delta_same_question": -2.3121387283237027
+    },
+    "emotional reasoning": {
+      "n_total": 124,
+      "n_scored": 121,
+      "score": 75.48209366391184,
+      "base_same_question": 72.45179063360881,
+      "delta_same_question": 3.030303030303031
+    }
+  },
+  "missing_or_error": [
+    {
+      "question_id": "G2_Q000135",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000139",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000195",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000197",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000259",
+      "status": "error",
+      "error": "ServiceError: model service returned HTTP 400 (content_filter)"
+    },
+    {
+      "question_id": "G2_Q000260",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000313",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000350",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    },
+    {
+      "question_id": "G2_Q000552",
+      "status": "missing_prediction",
+      "error": "no submitted answer"
+    }
+  ],
+  "config": {
+    "retrieval": "progressive with task routing",
+    "trajectory": "progressive disclosure (3 expansions + final synthesis)",
+    "intensity_and_reasoning": "full graph retrieval, 48000-char evidence",
+    "embedding": "OpenRouter Gemini Embedding 2",
+    "planning_answer_scoring": "Matrix GPT-6 Astra",
+    "memory_videos": 134,
+    "question_set": 520
+  }
+}

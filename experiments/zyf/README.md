@@ -43,6 +43,11 @@ Record code commit and source hashes, exact HF revision and question IDs, provid
 
 Every run directory retains its own manifests and logs. Changes to model, prompts, retrieval or graph content require a new run or explicitly versioned stage; no mixing cached predictions from different configurations. Nine development questions cannot establish statistical superiority or a full LongEmoBench result.
 
+## Method branch progressive routing result (2026-09-22)
+
+- On the frozen 134-video memory set and 520-question subset, the `method_hybrid_20260922` run routes `emotion trajectory` through progressive event-stream disclosure and routes intensity comparison/reasoning through the full graph packet. It scored **60.24/100 on 511/520**; the same 511 questions score **57.76/100** under the current base report, a **+2.48 point** gain. Trajectory improved by 5.99 points and reasoning by 3.03 points; intensity comparison fell by 2.31 points and remains the next error-repair target.
+- The run had eight missing predictions and one explicit service content-filter error. They remain excluded from the mean and listed in [the run report](results/method_hybrid_20260922/report.md); this is a 520-question experiment, not a claim of full 558-question coverage. The raw remote run is `/root/longemo/runtime/runs/method_hybrid_20260922` on AIStudio 62910175.
+
 ## E02 outcome and model upgrade
 
 - First implementation commit `1c87407` was pushed to `origin/zyf`. Frozen source hash `01f6d4c952008d7109688cd66b1a5f6fa230676b1b758f80d614af27aedf619d` matches that code. Jobs started with uncommitted implementation on base `b29b70a`; their original manifests truthfully retain that base revision.

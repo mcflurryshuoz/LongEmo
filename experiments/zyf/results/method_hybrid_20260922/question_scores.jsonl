@@ -1,0 +1,520 @@
+{"question_id": "G2_Q000001", "video_id": "G2_V000001", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000002", "video_id": "G2_V000001", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000003", "video_id": "G2_V000002", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000004", "video_id": "G2_V000002", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000005", "video_id": "G2_V000003", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000006", "video_id": "G2_V000003", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000007", "video_id": "G2_V000003", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000008", "video_id": "G2_V000004", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000009", "video_id": "G2_V000004", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000010", "video_id": "G2_V000005", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000011", "video_id": "G2_V000005", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000012", "video_id": "G2_V000006", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000013", "video_id": "G2_V000006", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000014", "video_id": "G2_V000007", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000015", "video_id": "G2_V000007", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000016", "video_id": "G2_V000008", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000017", "video_id": "G2_V000009", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000018", "video_id": "G2_V000009", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000019", "video_id": "G2_V000009", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000020", "video_id": "G2_V000010", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000021", "video_id": "G2_V000010", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000022", "video_id": "G2_V000010", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000023", "video_id": "G2_V000011", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000024", "video_id": "G2_V000012", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000025", "video_id": "G2_V000012", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000026", "video_id": "G2_V000012", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000027", "video_id": "G2_V000012", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000028", "video_id": "G2_V000013", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000029", "video_id": "G2_V000013", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000030", "video_id": "G2_V000013", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000031", "video_id": "G2_V000013", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000032", "video_id": "G2_V000014", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000033", "video_id": "G2_V000014", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000034", "video_id": "G2_V000014", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000035", "video_id": "G2_V000014", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000036", "video_id": "G2_V000015", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000037", "video_id": "G2_V000015", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000038", "video_id": "G2_V000015", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000039", "video_id": "G2_V000015", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000040", "video_id": "G2_V000015", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000041", "video_id": "G2_V000016", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000042", "video_id": "G2_V000016", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000043", "video_id": "G2_V000017", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000044", "video_id": "G2_V000017", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000045", "video_id": "G2_V000018", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000046", "video_id": "G2_V000019", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000047", "video_id": "G2_V000019", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000048", "video_id": "G2_V000020", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000049", "video_id": "G2_V000021", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000050", "video_id": "G2_V000021", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000051", "video_id": "G2_V000022", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000052", "video_id": "G2_V000022", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000053", "video_id": "G2_V000022", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000054", "video_id": "G2_V000022", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000055", "video_id": "G2_V000022", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000056", "video_id": "G2_V000023", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000057", "video_id": "G2_V000023", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000058", "video_id": "G2_V000023", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000059", "video_id": "G2_V000023", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000060", "video_id": "G2_V000023", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000061", "video_id": "G2_V000024", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000062", "video_id": "G2_V000024", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000063", "video_id": "G2_V000024", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000064", "video_id": "G2_V000024", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000065", "video_id": "G2_V000024", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000066", "video_id": "G2_V000025", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000067", "video_id": "G2_V000025", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000068", "video_id": "G2_V000025", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000069", "video_id": "G2_V000025", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000070", "video_id": "G2_V000025", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000071", "video_id": "G2_V000026", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000072", "video_id": "G2_V000026", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000073", "video_id": "G2_V000027", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000074", "video_id": "G2_V000027", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000075", "video_id": "G2_V000027", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000076", "video_id": "G2_V000028", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000077", "video_id": "G2_V000028", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000078", "video_id": "G2_V000028", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000079", "video_id": "G2_V000028", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000080", "video_id": "G2_V000028", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 3, "normalized_score": 0.0}
+{"question_id": "G2_Q000081", "video_id": "G2_V000028", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000082", "video_id": "G2_V000029", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000083", "video_id": "G2_V000029", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000084", "video_id": "G2_V000029", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000085", "video_id": "G2_V000029", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000086", "video_id": "G2_V000030", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000087", "video_id": "G2_V000030", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000088", "video_id": "G2_V000031", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000089", "video_id": "G2_V000031", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000090", "video_id": "G2_V000031", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000091", "video_id": "G2_V000032", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000092", "video_id": "G2_V000032", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000093", "video_id": "G2_V000032", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000094", "video_id": "G2_V000033", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000095", "video_id": "G2_V000033", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000096", "video_id": "G2_V000033", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000097", "video_id": "G2_V000034", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000098", "video_id": "G2_V000034", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000099", "video_id": "G2_V000034", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000100", "video_id": "G2_V000034", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000101", "video_id": "G2_V000034", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000102", "video_id": "G2_V000035", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000103", "video_id": "G2_V000035", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000104", "video_id": "G2_V000035", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000105", "video_id": "G2_V000035", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000106", "video_id": "G2_V000035", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000107", "video_id": "G2_V000036", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000108", "video_id": "G2_V000036", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000109", "video_id": "G2_V000037", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000110", "video_id": "G2_V000037", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000111", "video_id": "G2_V000037", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000112", "video_id": "G2_V000038", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000113", "video_id": "G2_V000038", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000114", "video_id": "G2_V000038", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000115", "video_id": "G2_V000038", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000116", "video_id": "G2_V000038", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000117", "video_id": "G2_V000039", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000118", "video_id": "G2_V000039", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000119", "video_id": "G2_V000039", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000120", "video_id": "G2_V000039", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000121", "video_id": "G2_V000040", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000122", "video_id": "G2_V000040", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000123", "video_id": "G2_V000041", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000124", "video_id": "G2_V000041", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000125", "video_id": "G2_V000041", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000126", "video_id": "G2_V000041", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000127", "video_id": "G2_V000041", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 3, "normalized_score": 0.3333333333333333}
+{"question_id": "G2_Q000128", "video_id": "G2_V000042", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000129", "video_id": "G2_V000042", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000130", "video_id": "G2_V000042", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000131", "video_id": "G2_V000042", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000132", "video_id": "G2_V000043", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000133", "video_id": "G2_V000043", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000134", "video_id": "G2_V000043", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000135", "video_id": "G2_V000043", "type": "emotion trajectory", "status": "missing_prediction", "score": null, "max_score": 4, "normalized_score": null}
+{"question_id": "G2_Q000136", "video_id": "G2_V000043", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000137", "video_id": "G2_V000044", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000138", "video_id": "G2_V000044", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000139", "video_id": "G2_V000044", "type": "emotional reasoning", "status": "missing_prediction", "score": null, "max_score": 1, "normalized_score": null}
+{"question_id": "G2_Q000140", "video_id": "G2_V000044", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000141", "video_id": "G2_V000045", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000142", "video_id": "G2_V000045", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000143", "video_id": "G2_V000045", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000144", "video_id": "G2_V000046", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000145", "video_id": "G2_V000046", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000146", "video_id": "G2_V000046", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000147", "video_id": "G2_V000047", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000148", "video_id": "G2_V000047", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000149", "video_id": "G2_V000047", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000150", "video_id": "G2_V000047", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000151", "video_id": "G2_V000048", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000152", "video_id": "G2_V000048", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000153", "video_id": "G2_V000048", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000154", "video_id": "G2_V000048", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000155", "video_id": "G2_V000049", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000156", "video_id": "G2_V000049", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000157", "video_id": "G2_V000049", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000158", "video_id": "G2_V000049", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000159", "video_id": "G2_V000050", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000160", "video_id": "G2_V000050", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000161", "video_id": "G2_V000050", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000162", "video_id": "G2_V000050", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000163", "video_id": "G2_V000050", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000164", "video_id": "G2_V000050", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000165", "video_id": "G2_V000051", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000166", "video_id": "G2_V000051", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000167", "video_id": "G2_V000051", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000168", "video_id": "G2_V000051", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000169", "video_id": "G2_V000052", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000170", "video_id": "G2_V000052", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000171", "video_id": "G2_V000053", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000172", "video_id": "G2_V000053", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000173", "video_id": "G2_V000053", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000174", "video_id": "G2_V000053", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000175", "video_id": "G2_V000054", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000176", "video_id": "G2_V000054", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000177", "video_id": "G2_V000054", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000178", "video_id": "G2_V000055", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000179", "video_id": "G2_V000055", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000180", "video_id": "G2_V000055", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000181", "video_id": "G2_V000056", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000182", "video_id": "G2_V000056", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000183", "video_id": "G2_V000056", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000184", "video_id": "G2_V000057", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000185", "video_id": "G2_V000057", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000186", "video_id": "G2_V000057", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000187", "video_id": "G2_V000057", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000188", "video_id": "G2_V000058", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000189", "video_id": "G2_V000058", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000190", "video_id": "G2_V000058", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000191", "video_id": "G2_V000059", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000192", "video_id": "G2_V000059", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000193", "video_id": "G2_V000059", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000194", "video_id": "G2_V000059", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000195", "video_id": "G2_V000060", "type": "emotional intensity comparison", "status": "missing_prediction", "score": null, "max_score": 1, "normalized_score": null}
+{"question_id": "G2_Q000196", "video_id": "G2_V000060", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000197", "video_id": "G2_V000060", "type": "emotion trajectory", "status": "missing_prediction", "score": null, "max_score": 4, "normalized_score": null}
+{"question_id": "G2_Q000198", "video_id": "G2_V000060", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000199", "video_id": "G2_V000061", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000200", "video_id": "G2_V000061", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000201", "video_id": "G2_V000061", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000202", "video_id": "G2_V000061", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000203", "video_id": "G2_V000062", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000204", "video_id": "G2_V000062", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000205", "video_id": "G2_V000062", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000206", "video_id": "G2_V000063", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000207", "video_id": "G2_V000063", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000208", "video_id": "G2_V000063", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000209", "video_id": "G2_V000064", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000210", "video_id": "G2_V000064", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000211", "video_id": "G2_V000064", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 3, "normalized_score": 0.3333333333333333}
+{"question_id": "G2_Q000212", "video_id": "G2_V000064", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000213", "video_id": "G2_V000064", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000214", "video_id": "G2_V000064", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000215", "video_id": "G2_V000064", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000216", "video_id": "G2_V000065", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000217", "video_id": "G2_V000065", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000218", "video_id": "G2_V000065", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000219", "video_id": "G2_V000065", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000220", "video_id": "G2_V000065", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000221", "video_id": "G2_V000065", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000222", "video_id": "G2_V000066", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000223", "video_id": "G2_V000066", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000224", "video_id": "G2_V000066", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000225", "video_id": "G2_V000066", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000226", "video_id": "G2_V000067", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000227", "video_id": "G2_V000067", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000228", "video_id": "G2_V000067", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000229", "video_id": "G2_V000067", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000230", "video_id": "G2_V000067", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000231", "video_id": "G2_V000067", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000232", "video_id": "G2_V000068", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000233", "video_id": "G2_V000068", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000234", "video_id": "G2_V000068", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000235", "video_id": "G2_V000068", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000236", "video_id": "G2_V000069", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000237", "video_id": "G2_V000069", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000238", "video_id": "G2_V000069", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000239", "video_id": "G2_V000069", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000240", "video_id": "G2_V000069", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000241", "video_id": "G2_V000069", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000242", "video_id": "G2_V000070", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000243", "video_id": "G2_V000070", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000244", "video_id": "G2_V000070", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000245", "video_id": "G2_V000070", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000246", "video_id": "G2_V000070", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000247", "video_id": "G2_V000070", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000248", "video_id": "G2_V000071", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000249", "video_id": "G2_V000071", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000250", "video_id": "G2_V000071", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000251", "video_id": "G2_V000071", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000252", "video_id": "G2_V000071", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000253", "video_id": "G2_V000071", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000254", "video_id": "G2_V000072", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000255", "video_id": "G2_V000072", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000256", "video_id": "G2_V000072", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000257", "video_id": "G2_V000072", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000258", "video_id": "G2_V000072", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000259", "video_id": "G2_V000072", "type": "emotion trajectory", "status": "error", "score": null, "max_score": 4, "normalized_score": null}
+{"question_id": "G2_Q000260", "video_id": "G2_V000072", "type": "emotional reasoning", "status": "missing_prediction", "score": null, "max_score": 3, "normalized_score": null}
+{"question_id": "G2_Q000261", "video_id": "G2_V000073", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000262", "video_id": "G2_V000073", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000263", "video_id": "G2_V000073", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000264", "video_id": "G2_V000073", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000265", "video_id": "G2_V000074", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000266", "video_id": "G2_V000074", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000267", "video_id": "G2_V000074", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000268", "video_id": "G2_V000075", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000269", "video_id": "G2_V000075", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000270", "video_id": "G2_V000075", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000271", "video_id": "G2_V000076", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000272", "video_id": "G2_V000076", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000273", "video_id": "G2_V000077", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000274", "video_id": "G2_V000077", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000275", "video_id": "G2_V000077", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000276", "video_id": "G2_V000078", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000277", "video_id": "G2_V000078", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000278", "video_id": "G2_V000079", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000279", "video_id": "G2_V000079", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000280", "video_id": "G2_V000079", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000281", "video_id": "G2_V000079", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000282", "video_id": "G2_V000080", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000283", "video_id": "G2_V000080", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000284", "video_id": "G2_V000080", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000285", "video_id": "G2_V000080", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000286", "video_id": "G2_V000081", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000287", "video_id": "G2_V000081", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000288", "video_id": "G2_V000081", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000289", "video_id": "G2_V000082", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000290", "video_id": "G2_V000082", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000291", "video_id": "G2_V000082", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000292", "video_id": "G2_V000082", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000293", "video_id": "G2_V000083", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000294", "video_id": "G2_V000083", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000295", "video_id": "G2_V000083", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000296", "video_id": "G2_V000083", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000297", "video_id": "G2_V000083", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000298", "video_id": "G2_V000084", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000299", "video_id": "G2_V000084", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000300", "video_id": "G2_V000084", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000301", "video_id": "G2_V000084", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000302", "video_id": "G2_V000084", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000303", "video_id": "G2_V000084", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000304", "video_id": "G2_V000085", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000305", "video_id": "G2_V000085", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000306", "video_id": "G2_V000085", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000307", "video_id": "G2_V000085", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000308", "video_id": "G2_V000086", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000309", "video_id": "G2_V000086", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000310", "video_id": "G2_V000086", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000311", "video_id": "G2_V000086", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000312", "video_id": "G2_V000086", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000313", "video_id": "G2_V000086", "type": "emotion trajectory", "status": "missing_prediction", "score": null, "max_score": 4, "normalized_score": null}
+{"question_id": "G2_Q000314", "video_id": "G2_V000087", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000315", "video_id": "G2_V000087", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000316", "video_id": "G2_V000087", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000317", "video_id": "G2_V000087", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000318", "video_id": "G2_V000087", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000319", "video_id": "G2_V000088", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000320", "video_id": "G2_V000088", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000321", "video_id": "G2_V000088", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000322", "video_id": "G2_V000089", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000323", "video_id": "G2_V000089", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000324", "video_id": "G2_V000089", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000325", "video_id": "G2_V000089", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000326", "video_id": "G2_V000089", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000327", "video_id": "G2_V000090", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000328", "video_id": "G2_V000090", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000329", "video_id": "G2_V000090", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000330", "video_id": "G2_V000090", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000331", "video_id": "G2_V000091", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000332", "video_id": "G2_V000091", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000333", "video_id": "G2_V000091", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000334", "video_id": "G2_V000091", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000335", "video_id": "G2_V000091", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000336", "video_id": "G2_V000092", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000337", "video_id": "G2_V000092", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000338", "video_id": "G2_V000092", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000339", "video_id": "G2_V000092", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000340", "video_id": "G2_V000092", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000341", "video_id": "G2_V000093", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000342", "video_id": "G2_V000093", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000343", "video_id": "G2_V000093", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000344", "video_id": "G2_V000093", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000345", "video_id": "G2_V000093", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000346", "video_id": "G2_V000093", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000347", "video_id": "G2_V000094", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000348", "video_id": "G2_V000094", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000349", "video_id": "G2_V000095", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000350", "video_id": "G2_V000095", "type": "emotional reasoning", "status": "missing_prediction", "score": null, "max_score": 3, "normalized_score": null}
+{"question_id": "G2_Q000351", "video_id": "G2_V000095", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000352", "video_id": "G2_V000095", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000353", "video_id": "G2_V000095", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000354", "video_id": "G2_V000096", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000355", "video_id": "G2_V000096", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000356", "video_id": "G2_V000097", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000357", "video_id": "G2_V000097", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000358", "video_id": "G2_V000097", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000359", "video_id": "G2_V000097", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000360", "video_id": "G2_V000098", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000361", "video_id": "G2_V000098", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000362", "video_id": "G2_V000099", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000363", "video_id": "G2_V000099", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000364", "video_id": "G2_V000099", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000365", "video_id": "G2_V000099", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000366", "video_id": "G2_V000100", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000367", "video_id": "G2_V000100", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000368", "video_id": "G2_V000101", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000369", "video_id": "G2_V000101", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000370", "video_id": "G2_V000101", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000371", "video_id": "G2_V000102", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000372", "video_id": "G2_V000102", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000373", "video_id": "G2_V000102", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000374", "video_id": "G2_V000102", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000375", "video_id": "G2_V000102", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000376", "video_id": "G2_V000103", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000377", "video_id": "G2_V000103", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000378", "video_id": "G2_V000103", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000379", "video_id": "G2_V000103", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000380", "video_id": "G2_V000103", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000381", "video_id": "G2_V000103", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000400", "video_id": "G2_V000107", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000401", "video_id": "G2_V000107", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000402", "video_id": "G2_V000107", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000403", "video_id": "G2_V000107", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000404", "video_id": "G2_V000107", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000405", "video_id": "G2_V000107", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000406", "video_id": "G2_V000108", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000407", "video_id": "G2_V000108", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000408", "video_id": "G2_V000108", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000409", "video_id": "G2_V000108", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000410", "video_id": "G2_V000108", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000411", "video_id": "G2_V000109", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000412", "video_id": "G2_V000109", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000413", "video_id": "G2_V000109", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000414", "video_id": "G2_V000109", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000415", "video_id": "G2_V000109", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 3, "normalized_score": 0.3333333333333333}
+{"question_id": "G2_Q000416", "video_id": "G2_V000110", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000417", "video_id": "G2_V000110", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000418", "video_id": "G2_V000110", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000419", "video_id": "G2_V000110", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000420", "video_id": "G2_V000110", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000421", "video_id": "G2_V000110", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000422", "video_id": "G2_V000111", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000423", "video_id": "G2_V000111", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000424", "video_id": "G2_V000111", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000425", "video_id": "G2_V000111", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000426", "video_id": "G2_V000111", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000438", "video_id": "G2_V000114", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000439", "video_id": "G2_V000114", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000440", "video_id": "G2_V000114", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000441", "video_id": "G2_V000114", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000442", "video_id": "G2_V000114", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000443", "video_id": "G2_V000114", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000444", "video_id": "G2_V000114", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000445", "video_id": "G2_V000115", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000446", "video_id": "G2_V000115", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000447", "video_id": "G2_V000115", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000448", "video_id": "G2_V000115", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000449", "video_id": "G2_V000115", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000455", "video_id": "G2_V000117", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000456", "video_id": "G2_V000117", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000457", "video_id": "G2_V000117", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000458", "video_id": "G2_V000117", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000459", "video_id": "G2_V000117", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000460", "video_id": "G2_V000117", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000461", "video_id": "G2_V000118", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000462", "video_id": "G2_V000118", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000463", "video_id": "G2_V000118", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000464", "video_id": "G2_V000118", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000465", "video_id": "G2_V000119", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000466", "video_id": "G2_V000119", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 3, "normalized_score": 0.3333333333333333}
+{"question_id": "G2_Q000467", "video_id": "G2_V000119", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000468", "video_id": "G2_V000119", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000469", "video_id": "G2_V000119", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000470", "video_id": "G2_V000120", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000471", "video_id": "G2_V000120", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000472", "video_id": "G2_V000120", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000473", "video_id": "G2_V000120", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000474", "video_id": "G2_V000121", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000475", "video_id": "G2_V000121", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000476", "video_id": "G2_V000121", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000477", "video_id": "G2_V000121", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000478", "video_id": "G2_V000122", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000479", "video_id": "G2_V000122", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000480", "video_id": "G2_V000122", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000481", "video_id": "G2_V000122", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000482", "video_id": "G2_V000122", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000483", "video_id": "G2_V000123", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000484", "video_id": "G2_V000123", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000485", "video_id": "G2_V000123", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000486", "video_id": "G2_V000123", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000487", "video_id": "G2_V000124", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000488", "video_id": "G2_V000124", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000489", "video_id": "G2_V000124", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000490", "video_id": "G2_V000124", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000491", "video_id": "G2_V000124", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000492", "video_id": "G2_V000125", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000493", "video_id": "G2_V000125", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000494", "video_id": "G2_V000125", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000495", "video_id": "G2_V000125", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000496", "video_id": "G2_V000125", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000497", "video_id": "G2_V000126", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000498", "video_id": "G2_V000126", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000499", "video_id": "G2_V000126", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000500", "video_id": "G2_V000126", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000501", "video_id": "G2_V000127", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000502", "video_id": "G2_V000127", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000503", "video_id": "G2_V000127", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000504", "video_id": "G2_V000127", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000505", "video_id": "G2_V000127", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000506", "video_id": "G2_V000128", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000507", "video_id": "G2_V000128", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000508", "video_id": "G2_V000128", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000509", "video_id": "G2_V000128", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000514", "video_id": "G2_V000130", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000515", "video_id": "G2_V000130", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000516", "video_id": "G2_V000130", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000517", "video_id": "G2_V000130", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 3, "normalized_score": 0.3333333333333333}
+{"question_id": "G2_Q000518", "video_id": "G2_V000131", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000519", "video_id": "G2_V000131", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000520", "video_id": "G2_V000131", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000521", "video_id": "G2_V000132", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000522", "video_id": "G2_V000132", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000523", "video_id": "G2_V000132", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000524", "video_id": "G2_V000132", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000525", "video_id": "G2_V000133", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000526", "video_id": "G2_V000133", "type": "emotional reasoning", "status": "ok", "score": 3, "max_score": 3, "normalized_score": 1.0}
+{"question_id": "G2_Q000527", "video_id": "G2_V000133", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000528", "video_id": "G2_V000133", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000529", "video_id": "G2_V000134", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000530", "video_id": "G2_V000134", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000531", "video_id": "G2_V000134", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 3, "normalized_score": 0.0}
+{"question_id": "G2_Q000532", "video_id": "G2_V000135", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000533", "video_id": "G2_V000135", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000534", "video_id": "G2_V000135", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000535", "video_id": "G2_V000135", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000536", "video_id": "G2_V000136", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000537", "video_id": "G2_V000136", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000538", "video_id": "G2_V000136", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000539", "video_id": "G2_V000137", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000540", "video_id": "G2_V000137", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000541", "video_id": "G2_V000137", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000542", "video_id": "G2_V000137", "type": "emotion trajectory", "status": "ok", "score": 1, "max_score": 4, "normalized_score": 0.25}
+{"question_id": "G2_Q000543", "video_id": "G2_V000137", "type": "emotional reasoning", "status": "ok", "score": 2, "max_score": 3, "normalized_score": 0.6666666666666666}
+{"question_id": "G2_Q000544", "video_id": "G2_V000137", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000545", "video_id": "G2_V000138", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000546", "video_id": "G2_V000138", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000547", "video_id": "G2_V000138", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000548", "video_id": "G2_V000138", "type": "emotion trajectory", "status": "ok", "score": 3, "max_score": 4, "normalized_score": 0.75}
+{"question_id": "G2_Q000549", "video_id": "G2_V000138", "type": "emotion trajectory", "status": "ok", "score": 4, "max_score": 4, "normalized_score": 1.0}
+{"question_id": "G2_Q000550", "video_id": "G2_V000139", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000551", "video_id": "G2_V000139", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000552", "video_id": "G2_V000139", "type": "emotion trajectory", "status": "missing_prediction", "score": null, "max_score": 4, "normalized_score": null}
+{"question_id": "G2_Q000553", "video_id": "G2_V000139", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000554", "video_id": "G2_V000140", "type": "emotion trajectory", "status": "ok", "score": 2, "max_score": 4, "normalized_score": 0.5}
+{"question_id": "G2_Q000555", "video_id": "G2_V000140", "type": "emotional intensity comparison", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000556", "video_id": "G2_V000141", "type": "emotional intensity comparison", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
+{"question_id": "G2_Q000557", "video_id": "G2_V000141", "type": "emotional reasoning", "status": "ok", "score": 0, "max_score": 1, "normalized_score": 0.0}
+{"question_id": "G2_Q000558", "video_id": "G2_V000141", "type": "emotional reasoning", "status": "ok", "score": 1, "max_score": 1, "normalized_score": 1.0}
