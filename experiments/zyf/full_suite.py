@@ -13,6 +13,7 @@ import math
 import os
 from pathlib import Path
 import shutil
+import socket
 import sys
 import threading
 import time
@@ -37,7 +38,101 @@ def write_rows(path, rows):
     temporary.replace(path)
 
 
+def execution_conditions(config):
+    scope = config.get("_execution_scope")
+    return tuple(scope["manifest"]["conditions"]) if scope else CONDITIONS
+
+
+def original_coordinator(config):
+    return Path(config["repos"]["noevent"]) / "experiments/zyf/full_suite.py"
+
+
+def _scope_manifest(path):
+    value = read(path)
+    required = {"schema_version", "conditions", "previous_configuration_sha256", "coordinator_file",
+                "coordinator_sha256", "reason", "created_at", "previous_coordinator"}
+    if (not isinstance(value, dict) or set(value) != required or type(value.get("schema_version")) is not int or value.get("schema_version") != 1 or
+            value.get("conditions") != ["noevent", "method"] or
+            value.get("reason") != "user_requested_no_new_base"):
+        raise ValueError("execution scope must only disable new base work")
+    for name in ("previous_configuration_sha256", "coordinator_sha256"):
+        fingerprint = value[name]
+        if (not isinstance(fingerprint, str) or len(fingerprint) != 64 or
+                any(c not in "0123456789abcdef" for c in fingerprint)):
+            raise ValueError("execution scope has an invalid SHA256: " + name)
+    if not isinstance(value["created_at"], str) or not value["created_at"].strip():
+        raise ValueError("execution scope requires its creation time")
+    identity = value["previous_coordinator"]
+    if (not isinstance(identity, dict) or set(identity) != {"pid", "start_ticks"} or
+            type(identity.get("pid")) is not int or identity["pid"] <= 0 or
+            not str(identity.get("start_ticks", "")).isdigit()):
+        raise ValueError("execution scope requires an auditable previous coordinator identity")
+    coordinator = value["coordinator_file"]
+    if not isinstance(coordinator, str) or not Path(coordinator).is_absolute():
+        raise ValueError("execution scope coordinator path must be absolute")
+    return value
+
+
+def prepare_scoped_resume(args, run):
+    """Narrow scheduling without rewriting the frozen experiment or its budgets."""
+    if args.stage != "run":
+        raise ValueError("execution scope is only valid for a stopped-run continuation")
+    path = Path(args.execution_scope)
+    if (path.is_symlink() or path.resolve() != (run / "execution_scope.json").resolve() or
+            not path.is_file()):
+        raise ValueError("execution scope must be the run's regular execution_scope.json")
+    scope = _scope_manifest(path)
+    configuration_path = run / "configuration.json"
+    if sha(configuration_path) != scope["previous_configuration_sha256"]:
+        raise ValueError("frozen configuration changed before the scope continuation")
+    config, questions = read(configuration_path), read(run / "questions.json")
+    if config.get("mode") != "full" or "_execution_scope" in config:
+        raise ValueError("execution scope requires an unchanged frozen full configuration")
+    if (digest(questions) != config["questions_sha256"] or records(args.questions) != questions or
+            len(questions) != config["question_count"] or args.expected_questions != config["question_count"] or
+            len({q["video_id"] for q in questions}) != config["video_count"] or
+            args.expected_videos != config["video_count"]):
+        raise ValueError("scope continuation changed the frozen questions")
+    if (sha(args.media_manifest) != config["media_manifest_sha256"] or
+            read(run / "media_manifest.json") != read(args.media_manifest)):
+        raise ValueError("scope continuation changed the media manifest")
+    for name, expected in (("parent_run", config["parent_run"]), ("method_repo", config["repos"]["event"]),
+                           ("noevent_repo", config["repos"]["noevent"]), ("videos_dir", config["videos_dir"]),
+                           ("subtitles_dir", config["subtitles_dir"]), ("runtime", run.parent.parent)):
+        if Path(getattr(args, name)).resolve() != Path(expected).resolve():
+            raise ValueError("scope continuation changed the path: " + name)
+    if (Path(args.python).resolve() != Path(config["python"]).resolve() or
+            Path(args.run_name).name != run.name):
+        raise ValueError("scope continuation changed the interpreter or run")
+    for name in ("workers", "question_workers", "poll_seconds", "parent_wait_timeout", "media_wait_timeout"):
+        if getattr(args, name) != config["execution"][name]:
+            raise ValueError("scope continuation changed frozen execution settings: " + name)
+    actual_done, expected_done = args.producer_done, config["execution"]["producer_done"]
+    if (bool(actual_done) != bool(expected_done) or
+            actual_done and Path(actual_done).resolve() != Path(expected_done).resolve()):
+        raise ValueError("scope continuation changed the media completion marker")
+    credential_paths = set()
+    for task_path in (run / "tasks").glob("*/*/task.json"):
+        command = read(task_path).get("command", [])
+        if "--credential-file" in command:
+            credential_paths.add(str(Path(command[command.index("--credential-file") + 1]).resolve()))
+    if not credential_paths or credential_paths != {str(Path(args.credential_file).resolve())}:
+        raise ValueError("scope continuation changed or cannot verify the original credential path")
+    if config.get("stage_tries", {}).get("score") != 1:
+        raise ValueError("official scoring budget must remain one attempt")
+    assert_identity_stopped({**scope["previous_coordinator"], "host": socket.gethostname()},
+                            "previous full-run coordinator")
+    config = {**config, "_execution_scope": {"path": str(path.resolve()), "sha256": sha(path), "manifest": scope,
+                                            "configuration_path": str(configuration_path.resolve())}}
+    verify_runtime_sources(config)
+    return config, questions
+
+
 def prepare(args, run):
+    if getattr(args, "execution_scope", None):
+        return prepare_scoped_resume(args, run)
+    if (run / "execution_scope.json").exists():
+        raise ValueError("this run has a narrowed execution scope; pass --execution-scope")
     parent = Path(args.parent_run).resolve()
     if parent == run.resolve():
         raise ValueError("full evaluation needs a new run directory")
@@ -114,10 +209,26 @@ def parent_wait(args, run, config, questions):
 
 def verify_runtime_sources(config):
     """Recheck the actual new deployments after waiting and before each stage."""
-    if sha(__file__) != config["suite_sha256"]:
+    scope = config.get("_execution_scope")
+    coordinator = Path(__file__)
+    original = coordinator
+    if scope:
+        manifest = _scope_manifest(Path(scope["path"]))
+        if sha(scope["path"]) != scope["sha256"] or manifest != scope["manifest"]:
+            raise ValueError("execution scope changed after continuation preparation")
+        if sha(scope["configuration_path"]) != manifest["previous_configuration_sha256"]:
+            raise ValueError("frozen configuration changed during the scope continuation")
+        if (Path(manifest["coordinator_file"]).resolve() != coordinator.resolve() or
+                sha(coordinator) != manifest["coordinator_sha256"]):
+            raise ValueError("scope continuation coordinator changed")
+        original = original_coordinator(config)
+        if original.resolve() == coordinator.resolve():
+            raise ValueError("scope continuation requires a distinct coordinator deployment")
+    if sha(original) != config["suite_sha256"]:
         raise ValueError("full-suite coordinator changed after configuration freezing")
     for name, expected in config["suite_support_hashes"].items():
-        if sha(Path(__file__).with_name(name)) != expected:
+        if (sha(original.with_name(name)) != expected or
+                scope and sha(coordinator.with_name(name)) != expected):
             raise ValueError("full-suite support source changed: " + name)
     for branch, repo in config["repos"].items():
         if source_hash(Path(repo)) != config["source_hashes"][branch]:
@@ -335,7 +446,12 @@ def summarize(run, config):
                 "finished": sum(row["status"] != "running" for row in statuses.values()),
                 "running": sum(row["status"] == "running" for row in statuses.values()),
                 "pending": config["video_count"] - len(statuses)}
-        result["complete"] = all(value["scored"] == len(rows) for value in result["conditions"].values())
+        enabled = execution_conditions(config)
+        result["execution_conditions"] = list(enabled)
+        result["retained_reference_conditions"] = [condition for condition in CONDITIONS if condition not in enabled]
+        if config.get("_execution_scope"):
+            result["execution_scope_sha256"] = config["_execution_scope"]["sha256"]
+        result["complete"] = all(result["conditions"][condition]["scored"] == len(rows) for condition in enabled)
         result["semantics"] = "first valid official scores; missing excluded; parent successes preserved by question and condition"
         write(run / "status.json", result)
         return result
@@ -349,6 +465,8 @@ def stage_selection(run, stage, key, questions):
 
 def stage_run(args, run, config, stage, key, command, repo, env):
     verify_runtime_sources(config)
+    if stage in ("answer", "score") and key.startswith("base-") and "base" not in execution_conditions(config):
+        raise ValueError("new base answer/score work is disabled by the execution scope")
     state = run_command(run / "tasks" / stage / key, command, repo, env)
     if state["status"] in ("running", "needs_audit"):
         raise RuntimeError("previous stage outcome is ambiguous; no dependent requests are allowed")
@@ -390,7 +508,8 @@ def video_pipeline(args, run, config, index, branch, video):
         pending_plans = [q for q in questions if plan_states.get(q["question_id"], {}).get("state", "unstarted") == "unstarted"]
         plan_questions = stage_selection(run, "plan", key, pending_plans)
         if pending_plans:
-            command = [args.python, str(Path(__file__).resolve()), "_plan", "--repo", repo, "--run", str(run),
+            plan_coordinator = original_coordinator(config) if config.get("_execution_scope") else Path(__file__)
+            command = [args.python, str(plan_coordinator.resolve()), "_plan", "--repo", repo, "--run", str(run),
                 "--branch", branch, "--video", video, "--questions", str(plan_questions),
                 "--results", str(run / branch / "plans/results" / (video + ".jsonl")),
                 "--credential-file", args.credential_file, "--workers", str(args.question_workers)]
@@ -402,7 +521,8 @@ def video_pipeline(args, run, config, index, branch, video):
             if plan_states.get(qid, {}).get("state") != "blocked" and path.exists():
                 available_plans[qid] = sha(path)
         freeze(run / branch / "plans/frozen" / (video + ".json"), available_plans)
-        conditions = ("noevent",) if branch == "noevent" else ("base", "method")
+        conditions = tuple(condition for condition in (("noevent",) if branch == "noevent" else ("base", "method"))
+                           if condition in execution_conditions(config))
         embedding_guard = inherited.get("embedding_guard", {"state": "clear"})
         blocked_answers = {}
         for condition in conditions:
@@ -526,6 +646,7 @@ def parser():
     p.add_argument("stage", choices=("prepare", "run", "status"))
     for name in ("parent-run", "questions", "media-manifest", "method-repo", "noevent-repo", "runtime", "run-name", "credential-file"):
         p.add_argument("--" + name, required=True)
+    p.add_argument("--execution-scope", help="immutable run/execution_scope.json for an authorized narrower continuation")
     p.add_argument("--videos-dir")
     p.add_argument("--subtitles-dir")
     p.add_argument("--producer-done")
