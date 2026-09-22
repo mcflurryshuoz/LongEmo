@@ -1,0 +1,657 @@
+{
+  "as_of_utc": "2026-09-22T10:13:57.583563+00:00",
+  "run": "three_level_pilot50_matched_20260922",
+  "coordinator_alive": true,
+  "coordinator_pid": 183365,
+  "status_file": {
+    "questions": 50,
+    "videos": 21,
+    "conditions": {
+      "base": {
+        "answers_ok": 0,
+        "scored": 0,
+        "total": 50,
+        "mean_scored": null
+      },
+      "method": {
+        "answers_ok": 0,
+        "scored": 0,
+        "total": 50,
+        "mean_scored": null
+      },
+      "noevent": {
+        "answers_ok": 0,
+        "scored": 0,
+        "total": 50,
+        "mean_scored": null
+      }
+    },
+    "tasks": {},
+    "complete": false,
+    "score_semantics": "first valid scores; unscored excluded; evidence budget parameter=48000; actual input characters and cumulative tokens separately logged"
+  },
+  "branches": {
+    "event": {
+      "task_counts": {
+        "error": 20,
+        "running": 1
+      },
+      "completed_videos": 0,
+      "completed_windows": 49,
+      "calls": {
+        "error": 20,
+        "ok": 105
+      },
+      "errors": {
+        "428": 1,
+        "voice must be nonempty text": 13,
+        "RemoteDisconnected": 1,
+        "event.observation_ids needs supporting observation IDs": 4,
+        "content_policy_violation": 1
+      },
+      "videos": [
+        {
+          "video_id": "G2_V000001",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000002",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 3,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00004",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000003",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000004",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000005",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 12,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00013",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000006",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "perception:G2_V000006:W00001",
+              "error_type": "RemoteDisconnected"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000007",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "perception:G2_V000007:W00001",
+              "error_type": "ValueError",
+              "validation_error": "event.observation_ids needs supporting observation IDs"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000008",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "perception:G2_V000008:W00001",
+              "error_type": "ValueError",
+              "validation_error": "event.observation_ids needs supporting observation IDs"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000009",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000010",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "perception:G2_V000010:W00001",
+              "error_type": "ValueError",
+              "validation_error": "event.observation_ids needs supporting observation IDs"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000011",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 1,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00002",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000012",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000013",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 2,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00003",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000014",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 4,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00005",
+              "error_type": "ServiceError",
+              "http_status": 428,
+              "service_error_code": "428"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000015",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "perception:G2_V000015:W00001",
+              "error_type": "ServiceError",
+              "http_status": 400,
+              "service_error_code": "content_policy_violation"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000016",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 4,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00005",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000017",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 1,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00002",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000018",
+          "task": "running",
+          "child_alive": true,
+          "complete": false,
+          "completed_windows": 15,
+          "last_errors": []
+        },
+        {
+          "video_id": "G2_V000019",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 1,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00002",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000020",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "perception:G2_V000020:W00001",
+              "error_type": "ValueError",
+              "validation_error": "event.observation_ids needs supporting observation IDs"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000021",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 6,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00007",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        }
+      ]
+    },
+    "noevent": {
+      "task_counts": {
+        "error": 21
+      },
+      "completed_videos": 0,
+      "completed_windows": 0,
+      "calls": {
+        "error": 21,
+        "ok": 11
+      },
+      "errors": {
+        "voice must be nonempty text": 10,
+        "observation subject must reference a declared entity": 11
+      },
+      "videos": [
+        {
+          "video_id": "G2_V000001",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000002",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000002:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000003",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000004",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000005",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000006",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000006:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000007",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000007:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000008",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000008:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000009",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000010",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000011",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000011:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000012",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000012:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000013",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000014",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000014:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000015",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000016",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000016:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000017",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000017:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000018",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000018:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000019",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000020",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "window_perception:G2_V000020:W00001",
+              "error_type": "ValueError",
+              "validation_error": "observation subject must reference a declared entity"
+            }
+          ]
+        },
+        {
+          "video_id": "G2_V000021",
+          "task": "error",
+          "child_alive": false,
+          "complete": false,
+          "completed_windows": 0,
+          "last_errors": [
+            {
+              "purpose": "audio_observer:W00001",
+              "error_type": "ValueError",
+              "validation_error": "voice must be nonempty text"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "latest_coordinator_log": "build noevent-G2_V000004: error\nbuild event-G2_V000004: error\nbuild noevent-G2_V000001: error\nbuild noevent-G2_V000005: error\nbuild event-G2_V000001: error\nbuild noevent-G2_V000003: error\nbuild event-G2_V000003: error\nbuild noevent-G2_V000009: error\nbuild event-G2_V000009: error\nbuild noevent-G2_V000010: error\nbuild noevent-G2_V000007: error\nbuild noevent-G2_V000006: error\nbuild event-G2_V000012: error\nbuild event-G2_V000007: error\nbuild noevent-G2_V000008: error\nbuild noevent-G2_V000002: error\nbuild noevent-G2_V000013: error\nbuild noevent-G2_V000011: error\nbuild event-G2_V000008: error\nbuild event-G2_V000010: error\nbuild event-G2_V000015: error\nbuild noevent-G2_V000015: error\nbuild noevent-G2_V000014: error\nbuild event-G2_V000006: error\nbuild noevent-G2_V000012: error\nbuild event-G2_V000011: error\nbuild noevent-G2_V000019: error\nbuild noevent-G2_V000017: error\nbuild noevent-G2_V000016: error\nbuild event-G2_V000017: error\nbuild noevent-G2_V000020: error\nbuild noevent-G2_V000021: error\nbuild noevent-G2_V000018: error\nbuild event-G2_V000020: error\nbuild event-G2_V000019: error\nbuild event-G2_V000013: error\nbuild event-G2_V000002: error\nbuild event-G2_V000014: error\nbuild event-G2_V000016: error\nbuild event-G2_V000021: error\nbuild event-G2_V000005: error\n"
+}
