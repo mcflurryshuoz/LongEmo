@@ -13,18 +13,19 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融进度
 
-2026-09-23 01:11 CST 快照：全集 **558题／141视频**，已完成试跑首分继承；按最新安排，后续只评 noevent 与 method，base 已有成绩保留参考。
+2026-09-23 02:49 CST 快照：全集 **558题／141视频**。02:48 已在 AIStudio 完成调度切换，本轮只按 **noevent → method** 执行；base 保留已有成绩，不再回答或评分。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 131/558 | 29.96 |
-| base | 13/558 | 63.46 |
+| noevent | 138/558 | 28.62 |
+| base（已有参考） | 13/558 | 63.46 |
 | method | 13/558 | 69.23 |
 
 base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
 
-[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md)。缺失不计零分，历史路由版60.24分单独保留。
-2026-09-23 调度范围已改为 noevent／method；服务器执行切换待 SSH 恢复后核验。表中 base 为试跑保留分数，完整历史 base 结果仍在 base 分支，均不重评。
+该快照媒体已就绪 **118/141**，其余继续上传；noevent 完成可执行队列后进入 method。base 未评分题不计入待执行范围，完整历史 base 结果保留在 base 分支。
+
+[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [范围切换核验](experiments/zyf/results/three_level_full558_gemini38_20260922/scope_change.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ### 历史题型路由结果
@@ -66,11 +67,11 @@ base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 �
 |---|---|---|---|
 | `noevent` | 仅时间窗口记录，不生成事件、状态或关系 | 窗口上的语义＋Embedding 检索 | 窗口表示基线 |
 | `base` | 完整事件图 | 全图召回后一次性扩展相邻事件与关系 | 事件表示、跨窗归并与导航 |
-| `method` | 与 base 相同的冻结事件图 | 全图定位锚点，逐步披露相关事件流 | 按需检索的证据覆盖与效率 |
+| `method` | 完整冻结事件图 | 全图定位锚点，逐步披露相关事件流 | 按需检索的证据覆盖与效率 |
 
-三路固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。base 与 method 共用图、索引和规划。纯渐进式结果进入三路主表，题型路由版单列。全集固定为 **558 题／141 视频**，按 `noevent → base／method` 顺序执行；base 与 method 共用同一冻结事件图。
+本次 noevent 与 method 固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。已完成的13题 base／method 试跑共用冻结图、索引和规划。全集固定为 **558 题／141 视频**，后续只按 `noevent → method` 执行；已有 base 保留配置和逐题来源，不再运行。纯渐进式与历史题型路由版结果分开报告。
 
-新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，现扩展到全集。试跑首分已核验继承，正以最多 **12 视频并发、每视频 2 题并发** 跑 noevent，随后自动跑 base／method；媒体边传边处理，每视频完成记忆后即可答题评分。完整题单和媒体 SHA 固定，不重评低分、不重置失败预算。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
+新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，现扩展到全集。试跑首分已核验继承，正以最多 **12 视频并发、每视频 2 题并发** 跑 noevent，随后自动跑 method；媒体边传边处理，每视频完成记忆后即可答题评分。完整题单和媒体 SHA 固定，不重评低分、不重置失败预算。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
 
 50题试跑已结束并完成首分审计；[试跑报告与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)单独保留。
 
