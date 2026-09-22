@@ -13,11 +13,12 @@ from evaluation.io_utils import load_questions, write_json, write_records, load_
 from .common import LoggedClient, code_hash, file_hash, fingerprint, git_revision, manifest, usage_summary
 from .media import probe, subtitles, window_input
 from .memory import apply_window, empty_memory
-from .prompts import ANSWER, PERCEPTION, PLANNER
+from .prompts import ANSWER, ANSWER_PROGRESSIVE, PERCEPTION, PLANNER
 from .audio import audio_client_for, bridge_audio
 from .retrieval import retrieve, validate_plan
 from .stream_index import attach_events, build_stream_index, public_metadata
 from .stream_retrieval import retrieve_stream
+from .progressive_retrieval import expand_disclosure, initial_disclosure, validate_expand_request
 
 
 def client_for(args):
@@ -130,6 +131,11 @@ def validate_answer(value):
     for field in ("evidence_ids", "inspect"):
         if not isinstance(value.get(field), list):
             raise ValueError(f"{field} must be a list")
+    if "retrieve_more" in value:
+        if not isinstance(value["retrieve_more"], list):
+            raise ValueError("retrieve_more must be a list")
+        for request in value["retrieve_more"]:
+            validate_expand_request(request)
     if any(not isinstance(x, str) for x in value["evidence_ids"]):
         raise ValueError("evidence_ids must be strings")
     for item in value["inspect"]:
@@ -202,7 +208,13 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
         plan = api.call(planner_messages, purpose=f"plan:{qid}", validate=validate_plan)
     retrieval_trace = {}
     dense_scores = dense_index.rank(public["question"]) if dense_index is not None else None
-    if args.retrieval == "graph_stream":
+    disclosure_state = None
+    if args.retrieval == "progressive":
+        evidence, disclosure_state = initial_disclosure(
+            memory, public["question"], plan, dense_scores=dense_scores,
+            stream_index=stream_index, budget_chars=args.evidence_chars,
+            anchor_k=args.progressive_anchor_k, trace=retrieval_trace)
+    elif args.retrieval == "graph_stream":
         evidence = retrieve_stream(memory, public["question"], plan, budget_chars=args.evidence_chars,
                                    top_k=args.top_k, dense_scores=dense_scores,
                                    stream_index=stream_index, page_size=args.stream_page_size,
@@ -212,12 +224,28 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
                             top_k=args.top_k, dense_scores=dense_scores, trace=retrieval_trace)
     payload = {"question": public["question"], "evidence": evidence,
                "inspection_budget": {"requests_remaining": args.max_inspections, "seconds_remaining": args.inspection_seconds}}
-    messages = [{"role": "system", "content": ANSWER}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
+    answer_prompt = ANSWER_PROGRESSIVE if args.retrieval == "progressive" else ANSWER
+    messages = [{"role": "system", "content": answer_prompt}, {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
     inspections, seconds_used = [], 0.0
     seen = set()
     result = None
-    for round_index in range(args.max_inspections + 1):
+    max_rounds = args.progressive_rounds if args.retrieval == "progressive" else args.max_inspections + 1
+    for round_index in range(max_rounds):
         result = api.call(messages, purpose=f"answer:{qid}:round{round_index}", validate=validate_answer)
+        if args.retrieval == "progressive":
+            requests = result.get("retrieve_more", [])
+            if not requests or round_index + 1 >= max_rounds:
+                break
+            evidence, disclosure_state = expand_disclosure(
+                memory, disclosure_state, requests[0], stream_index=stream_index,
+                budget_chars=args.evidence_chars, trace=retrieval_trace)
+            messages.append({"role": "assistant", "content": json.dumps(result, ensure_ascii=False)})
+            messages.append({"role": "user", "content": json.dumps({
+                "question": public["question"], "evidence": evidence,
+                "disclosure": {"round": round_index + 1, "max_rounds": max_rounds,
+                                "revealed_event_ids": disclosure_state["revealed_ids"],
+                                "coverage": evidence.get("coverage", {})}}, ensure_ascii=False)})
+            continue
         if not result["inspect"] or round_index == args.max_inspections:
             break
         item = result["inspect"][0]
@@ -244,7 +272,8 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
                         "instruction": "Reassess only with evidence; the supplied source is read-only and does not alter the shared memory."}
         messages.append({"role": "user", "content": content + [{"type": "text", "text": json.dumps(instructions)}]})
     valid_ids = {e["id"] for e in memory["events"]} | {o["id"] for o in memory["observations"]}
-    trace = {"question": public, "plan": plan, "retrieval": evidence, "recall_trace": retrieval_trace, "inspection_trace": inspections,
+    trace = {"question": public, "plan": plan, "retrieval": evidence, "recall_trace": retrieval_trace,
+             "disclosure_state": disclosure_state, "inspection_trace": inspections,
              "answer": result, "invalid_evidence_ids": [i for i in result["evidence_ids"] if i not in valid_ids],
              "evidence_characters": len(json.dumps(evidence, ensure_ascii=False)), "usage": usage_summary(api.ledger)}
     write_json(output / "traces" / (qid + ".json"), trace)
@@ -272,7 +301,7 @@ def answer(args):
     indexes = {}
     stream_indexes = {}
     encoder = None
-    if args.retrieval in ("graph", "graph_stream"):
+    if args.retrieval in ("graph", "graph_stream", "progressive"):
         from .embeddings import Encoder, APIEncoder, EventIndex
         if args.embedding_backend in ("gemini", "gemini-native"):
             import os
@@ -289,15 +318,17 @@ def answer(args):
             encoder = Encoder(model=args.embedding_model, revision=args.embedding_revision)
         for video_id, memory in memories.items():
             indexes[video_id] = EventIndex(memory, encoder, args.embedding_cache_dir)
-            if args.retrieval == "graph_stream":
+            if args.retrieval in ("graph_stream", "progressive"):
                 stream_indexes[video_id] = attach_events(build_stream_index(memory), memory)
         write_json(output/"embedding_indexes.json", {v:i.metadata for v,i in indexes.items()})
-        if args.retrieval == "graph_stream":
+        if args.retrieval in ("graph_stream", "progressive"):
             write_json(output/"stream_indexes.json", {v:public_metadata(i) for v,i in stream_indexes.items()})
     configuration = {"embedding": encoder.config if encoder else None, "model": client.configuration(), "question_inputs": [
         {k: q[k] for k in ("question_id", "video_id", "question", "type")} for q in questions],
         "memories": hashes, "retrieval": args.retrieval, "evidence_chars": args.evidence_chars,
         "top_k": args.top_k, "stream_page_size": args.stream_page_size,
+        "progressive_anchor_k": args.progressive_anchor_k,
+        "progressive_rounds": args.progressive_rounds,
         "max_inspections": args.max_inspections, "inspection_seconds": args.inspection_seconds,
         "direct_frames": args.direct_frames, "audio_model": args.audio_model,
         "inspection_media": _media_options(args), "inspection_subtitle_hashes": {
@@ -358,7 +389,7 @@ def parser():
         else:
             command.add_argument("--memory-dir", required=True)
             command.add_argument("--plans-dir", help="Optional shared frozen plans for fair retrieval comparisons")
-            command.add_argument("--retrieval", choices=("graph", "graph_stream", "flat", "direct"), default="graph")
+            command.add_argument("--retrieval", choices=("graph", "graph_stream", "progressive", "flat", "direct"), default="graph")
             command.add_argument("--direct-frames", type=int, default=128)
             command.add_argument("--embedding-backend", choices=("gemini", "gemini-native", "local"), default="gemini")
             command.add_argument("--embedding-base-url", help="Explicit embedding service URL; native Gemini uses /v1beta")
@@ -369,6 +400,10 @@ def parser():
             command.add_argument("--top-k", type=int, default=12)
             command.add_argument("--stream-page-size", type=int, default=64,
                                  help="Chronological event-stream page size for graph_stream retrieval")
+            command.add_argument("--progressive-anchor-k", type=int, default=4,
+                                 help="Initial anchor event count for progressive retrieval")
+            command.add_argument("--progressive-rounds", type=int, default=3,
+                                 help="Maximum answer/retrieval disclosure rounds")
             command.add_argument("--max-inspections", type=int, default=0)
             command.add_argument("--inspection-seconds", type=float, default=120)
             command.add_argument("--qid", action="append")
@@ -379,7 +414,9 @@ def parser():
 def main(argv=None):
     p = parser()
     args = p.parse_args(argv)
-    if args.fps <= 0 or args.max_frames < 1 or args.workers < 1 or args.tries < 1 or getattr(args, "stream_page_size", 1) < 1:
+    if (args.fps <= 0 or args.max_frames < 1 or args.workers < 1 or args.tries < 1 or
+            getattr(args, "stream_page_size", 1) < 1 or getattr(args, "progressive_anchor_k", 1) < 1 or
+            getattr(args, "progressive_rounds", 1) < 1):
         p.error("sampling and execution parameters must be positive")
     if args.command == "build" and (args.window_seconds <= 0 or args.padding < 0):
         p.error("invalid window configuration")
