@@ -51,13 +51,17 @@ This repository provides prediction generation and a shared evaluator. Predictio
 | `base` | 完整事件图 | 全图召回后一次性扩展相邻事件与关系 | 事件表示、跨窗归并与导航 |
 | `method` | 与 base 相同的冻结事件图 | 全图定位锚点，逐步披露相关事件流 | 按需检索的证据覆盖与效率 |
 
-三路固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。base 与 method 共用图、索引和规划。纯渐进式结果进入三路主表，题型路由版单列。先验证 50 题 pilot，再扩展到 520／558 题。
+三路固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。base 与 method 共用图、索引和规划。纯渐进式结果进入三路主表，题型路由版单列。全集固定为 **558 题／141 视频**，按 `noevent → base／method` 顺序执行；base 与 method 共用同一冻结事件图。
 
-新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，正以总计12个感知任务并发推进。2026-09-22 19:57 CST，三路在首个视频的相同2题上均为 **75.00（各2/50题）**；样本不足以判断优劣，与上方历史60.24分不混合。[三层消融进度与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)。
+新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，现扩展到全集。先完成当前试跑并继承首个有效评分，再以最多 **12 视频并发、每视频 2 题并发** 跑 noevent，随后自动跑 base／method；媒体边传边处理，每视频完成记忆后即可答题评分。完整题单和媒体 SHA 固定，不重评低分、不重置失败预算。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
+
+试跑 2026-09-22 19:57 CST 快照：三路同 2 题均为 **75.00（各2/50题）**，尚不足以判断优劣；新全集与上方历史60.24分分开报告。[试跑报告与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)。
 
 重点分析总体／题型／分剧成绩与覆盖率、同题差值及视频聚类置信区间、跨阶段证据覆盖、感知与检索错误，以及披露事件数、token、延迟和成本。论文突出两项可检验贡献：**事件图能否改善人物—对象—时间证据的一致性；渐进披露能否以更少上下文保留长时间依赖。** 强度比较当前下降，应作为待验证的改进点。
 
 [完整消融与论文分析计划](experiments/zyf/three_level_ablation.md) · [noevent 方案](experiments/zyf/noevent_plan.md) · [方法文档](methods/longemo/README.md)
+
+全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，等待现有试跑结束后自动接续，视频正在后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
 
 ## Benchmark setup
 
