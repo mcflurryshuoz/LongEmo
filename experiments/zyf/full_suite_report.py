@@ -73,6 +73,44 @@ def source_hash(reader, repo):
     return digest({str(p.relative_to(repo)): reader.sha(p) for p in sorted(files) if "emollm" not in p.parts})
 
 
+def execution_scope(reader, run, config):
+    """Validate a separately frozen scope change without weakening original hashes."""
+    path = run / "execution_scope.json"
+    require(not path.is_symlink(), "execution scope must be a regular file")
+    if not path.exists():
+        return None
+    require(path.is_file(), "execution scope must be a regular file")
+    value = reader.json(path)
+    keys = {"schema_version", "conditions", "previous_configuration_sha256", "coordinator_file",
+            "coordinator_sha256", "reason", "created_at", "previous_coordinator"}
+    require(isinstance(value, dict) and set(value) == keys, "execution scope schema differs")
+    require(type(value["schema_version"]) is int and value["schema_version"] == 1
+            and value["conditions"] == ["noevent", "method"]
+            and value["reason"] == "user_requested_no_new_base", "unsupported execution scope")
+    require(value["previous_configuration_sha256"] == reader.sha(run / "configuration.json"),
+            "execution scope original configuration differs")
+    previous = value["previous_coordinator"]
+    require(isinstance(previous, dict) and set(previous) == {"pid", "start_ticks"}
+            and type(previous["pid"]) is int and previous["pid"] > 0,
+            "execution scope previous coordinator identity invalid")
+    ticks = previous["start_ticks"]
+    require((type(ticks) is int and ticks > 0)
+            or (isinstance(ticks, str) and re.fullmatch(r"[0-9]+", ticks) is not None and int(ticks) > 0),
+            "execution scope previous coordinator identity invalid")
+    require(isinstance(value["created_at"], str), "execution scope creation time invalid")
+    created = datetime.fromisoformat(value["created_at"])
+    require(created.tzinfo is not None, "execution scope creation time lacks timezone")
+    require(isinstance(value["coordinator_file"], str), "execution scope coordinator path invalid")
+    coordinator = Path(value["coordinator_file"])
+    original = Path(config["repos"]["noevent"]) / "experiments/zyf/full_suite.py"
+    require(coordinator.is_absolute() and coordinator.is_file()
+            and coordinator.resolve() != original.resolve(), "execution scope requires a distinct coordinator")
+    require(reader.sha(coordinator) == value["coordinator_sha256"], "execution scope coordinator source differs")
+    for name, expected in config["suite_support_hashes"].items():
+        require(reader.sha(coordinator.parent / name) == expected, "execution scope support source differs: " + name)
+    return {**value, "source": str(path), "source_sha256": reader.sha(path)}
+
+
 def classify_failure(row):
     if row.get("service_error_code") in ("content_filter", "content_policy_violation"):
         return "content_filter"
@@ -269,6 +307,8 @@ def snapshot(run):
     for name, expected in config["suite_support_hashes"].items():
         require(reader.sha(suite_folder / name) == expected, "frozen support source differs: " + name)
     integrity["suite_sha256"] = config["suite_sha256"]
+    scope = execution_scope(reader, run, config)
+    execution_conditions = scope["conditions"] if scope else CONDITIONS
     index_path = run / "inheritance/parent_index.json"
     index = reader.json(index_path, {})
     if index:
@@ -325,7 +365,10 @@ def snapshot(run):
         item["series"] = source_series(q.get("source", {}).get("from", "")); item["conditions"] = {}
         for c in CONDITIONS:
             b = "noevent" if c == "noevent" else "event"
-            item["conditions"][c] = accepted[c].get(q["question_id"]) or missing_status(reader, run, index, c, q, video_lookup[b][q["video_id"]], tasks)
+            item["conditions"][c] = accepted[c].get(q["question_id"]) or (
+                {"status": "not_requested", "normalized_score_100": None, "reason": scope["reason"]}
+                if c not in execution_conditions else
+                missing_status(reader, run, index, c, q, video_lookup[b][q["video_id"]], tasks))
         output_questions.append(item)
     process = reader.json(run / "process.json", {})
     stat = Path("/proc") / str(process.get("pid", -1)) / "stat"
@@ -335,6 +378,8 @@ def snapshot(run):
     except FileNotFoundError:
         alive = False
     return {"schema_version": 1, "as_of": datetime.now(timezone.utc).isoformat(), "snapshot_started": started,
+            **({"execution_conditions": list(execution_conditions), "retained_reference_conditions": ["base"],
+                "execution_scope": scope} if scope else {}),
             "run": run.name, "coordinator": {"pid": process.get("pid"), "alive": alive},
             "configuration": {k: config[k] for k in ("question_count", "video_count", "perception_model", "model", "audio_model", "embedding_model", "stage_tries", "execution") if k in config},
             "parent_status": reader.json(run / "parent_status.json", {}), "conditions": conditions, "paired": paired,
@@ -354,14 +399,20 @@ def number(value):
 def render(data):
     metric = lambda r: f"{number(r['mean_scored'])}（{r['scored']}/{r['total']}）"
     as_of = datetime.fromisoformat(data["as_of"]).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M CST")
-    lines = ["# 三层消融全集评测进度", "", f"快照：{as_of}；全集558题／141视频。按 noevent → event（base / method共图）执行。", "",
+    reference_only = data.get("retained_reference_conditions") == ["base"]
+    execution_text = ("本轮仅按 noevent → event（method）执行；base 保留已有评分作为参考，不再执行或评分。"
+                      if reference_only else "按 noevent → event（base / method共图）执行。")
+    lines = ["# 三层消融全集评测进度", "", f"快照：{as_of}；全集558题／141视频。{execution_text}", "",
              "**均分仅覆盖已评分题，不同题集不能直接比较；当前同题结果仍是早期小样本。**", "",
              "| 条件 | 已评分／总题数 | 已评分均分／100 |", "|---|---:|---:|"]
     for c in CONDITIONS:
-        row = data["conditions"][c]; lines.append(f"| {c} | {row['scored']}/{row['total']} | {number(row['mean_scored'])} |")
+        row = data["conditions"][c]; label = "base（已有参考）" if reference_only and c == "base" else c
+        lines.append(f"| {label} | {row['scored']}/{row['total']} | {number(row['mean_scored'])} |")
     origins = {c: Counter(q["conditions"][c].get("origin") for q in data["questions"] if q["conditions"][c]["status"] == "scored") for c in CONDITIONS}
     lines += ["", "首分来源（试跑继承＋全集新增）：" + "；".join(
         f"{c} {origins[c]['parent_pilot']}＋{origins[c]['full_suite']}" for c in CONDITIONS) + "。"]
+    if reference_only:
+        lines += ["", "base 未评分题标为 not_requested，不计入本轮待执行范围；本轮队列完成仅跟进 noevent 和 method。"]
     for name, title in (("base_method", "base与method同题"), ("all_three", "三路共同题")):
         p = data["paired"][name]
         means = "、".join(f"{c} {number(p['means'][c])}" for c in p["means"])
@@ -378,7 +429,8 @@ def render(data):
         known = ("complete", "running", "build_failed", "blocked_parent_build", "partial", "pending")
         other = sum(v for k, v in counts.items() if k not in known)
         vals = [counts.get(k, 0) for k in known[:-1]] + [other, counts.get("pending", 0)]
-        lines.append("| " + b + " | " + " | ".join(map(str, vals)) + " |")
+        label = "event（method）" if reference_only and b == "event" else b
+        lines.append("| " + label + " | " + " | ".join(map(str, vals)) + " |")
     failures = Counter(v["final_failure"]["category"] for b in data["branches"].values() for v in b["videos"] if v.get("final_failure"))
     if failures:
         labels = {"content_filter": "明确内容过滤", "http_428_unclassified": "HTTP428原因未明", "generate_runtime_error_unknown": "生成RuntimeError原因未明", "output_validation_failed": "输出结构校验失败", "other": "其他已停止失败"}

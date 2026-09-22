@@ -13,7 +13,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融进度
 
-2026-09-23 01:11 CST 快照：全集 **558题／141视频**，已完成试跑首分继承，正在优先跑 noevent，之后自动跑 base／method。
+2026-09-23 01:11 CST 快照：全集 **558题／141视频**，已完成试跑首分继承；按最新安排，后续只评 noevent 与 method，base 已有成绩保留参考。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
@@ -24,6 +24,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
 
 [全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md)。缺失不计零分，历史路由版60.24分单独保留。
+2026-09-23 调度范围已改为 noevent／method；服务器执行切换待 SSH 恢复后核验。表中 base 为试跑保留分数，完整历史 base 结果仍在 base 分支，均不重评。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ### 历史题型路由结果
