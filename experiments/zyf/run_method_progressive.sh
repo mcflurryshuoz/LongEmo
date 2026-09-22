@@ -46,6 +46,9 @@ nohup bash -c '
   set -u
   exec 9>"$1/progressive.lock"
   flock -n 9 || { echo "another progressive worker holds the lock" >&2; exit 0; }
+  # Bash nounset treats an empty array expansion as unset; the optional limit
+  # is safe to omit, so disable nounset for this local argument construction.
+  set +u
   extra=()
   if [[ -n "$7" ]]; then extra+=(--limit "$7"); fi
   set +e
