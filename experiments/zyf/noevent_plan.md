@@ -38,12 +38,27 @@
 
 两种方法使用不同的运行目录、记忆缓存和向量缓存。报告总体、三题型、分剧、覆盖率、窗口数、token、延迟和失败归因；只比较同题有效评分，不把未完成窗口或服务拒绝按零分计入。
 
-## 5. 实施顺序
+## 5. 当前实现与实施顺序
 
-1. 添加 `window_memory.py` 与 noevent 感知 schema，并为窗口输入指纹、时间范围、模态来源和原子提交增加测试。
-2. 添加仅窗口级的 Embedding 索引和检索器；禁止导入 `methods.longemo.memory` 的事件合并、关系扩展和 `continues_event`。
-3. 用与 `method` 相同的冻结媒体先跑 50 题 pilot，核验窗口覆盖、证据 ID 和无事件字段泄漏。
-4. pilot 协议通过后再跑同一 520 题子集，最后才考虑 558 题全集。
+1. `methods/longemo/noevent_memory.py` 已实现窗口记录 schema、绝对时间校验、模态证据校验和原子提交；输出不包含 `events`、`states`、`relations` 或 `continues_event`。
+2. `methods/longemo/noevent_retrieval.py` 已实现窗口摘要／观察的 BM25 与 Gemini Embedding 2 双路召回、RRF 合并及按时间排序的全局覆盖；`noevent_runner.py` 提供独立 build/answer CLI。
+3. `methods/longemo/tests/test_noevent.py` 覆盖无事件字段泄漏和失败原子性；与现有 memory 测试一起通过。
+4. 下一步用与 `method` 相同的冻结媒体、采样、模型、题单和 judge 同步启动 50 题 pilot，核验窗口覆盖、证据 ID、调用账本和公平性，再扩展到 520 题，最后才考虑 558 题全集。
+
+启动示例（凭证必须位于仓库外）：
+
+```bash
+python -m methods.longemo.noevent_runner build --data-path pilot_questions.json \
+  --videos-dir episode/videos --subtitles-dir prepared_subtitles --output-dir runs/noevent/memory \
+  --credential-file runtime/private/answer.json --model gpt-6-astra \
+  --base-url https://matrixllm.alipay.com/v1 --with-audio \
+  --audio-model google/gemini-3.8-flash --workers 4
+python -m methods.longemo.noevent_runner answer --data-path pilot_questions.json \
+  --memory-dir runs/noevent/memory --output-dir runs/noevent/answers \
+  --credential-file runtime/private/answer.json --model gpt-6-astra \
+  --base-url https://matrixllm.alipay.com/v1 --embedding-backend gemini \
+  --embedding-model google/gemini-embedding-2 --workers 16
+```
 
 ## 6. 预期解释
 
