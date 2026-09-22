@@ -162,6 +162,10 @@ def initial_disclosure(memory, question, plan, *, dense_scores, stream_index,
                         selected_ids.add(chain[pos + offset]["id"])
     ordered = sorted((by_record[event_id] for event_id in selected_ids),
                      key=lambda record: (-scores[record["id"]][0], event_bounds(record), record["id"]))
+    # Keep the first disclosure deliberately small.  Neighbor discovery is a
+    # navigation aid; it must not silently turn the initial packet into a
+    # whole-person timeline.
+    ordered = ordered[:anchor_k + 4]
     payload = _fit_payload(ordered, budget_chars)
     state = {"anchor_ids": anchor_ids, "revealed_ids": [record["id"] for record in payload["events"]],
              "seen_pages": [], "bounds": bounds, "event_count": len(events),
