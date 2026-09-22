@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-22T13:52:06.830273+00:00",
-  "snapshot_started": "2026-09-22T13:52:06.534820+00:00",
+  "as_of": "2026-09-22T14:17:39.411642+00:00",
+  "snapshot_started": "2026-09-22T14:17:39.088651+00:00",
   "run": "three_level_full558_gemini38_20260922",
   "coordinator": {
     "pid": 512357,
@@ -39,28 +39,28 @@
   },
   "conditions": {
     "noevent": {
-      "scored": 56,
+      "scored": 60,
       "total": 558,
-      "coverage": 0.1003584229390681,
-      "mean_scored": 39.13690476190476,
+      "coverage": 0.10752688172043011,
+      "mean_scored": 38.472222222222214,
       "by_type": {
         "emotional intensity comparison": {
-          "scored": 16,
+          "scored": 17,
           "total": 194,
-          "coverage": 0.08247422680412371,
-          "mean_scored": 25.0
+          "coverage": 0.08762886597938144,
+          "mean_scored": 23.529411764705884
         },
         "emotion trajectory": {
-          "scored": 22,
+          "scored": 24,
           "total": 235,
-          "coverage": 0.09361702127659574,
-          "mean_scored": 42.04545454545455
+          "coverage": 0.10212765957446808,
+          "mean_scored": 40.625
         },
         "emotional reasoning": {
-          "scored": 18,
+          "scored": 19,
           "total": 129,
-          "coverage": 0.13953488372093023,
-          "mean_scored": 48.14814814814813
+          "coverage": 0.14728682170542637,
+          "mean_scored": 49.12280701754384
         }
       },
       "by_series": {
@@ -95,10 +95,10 @@
           "mean_scored": null
         },
         "unclassified": {
-          "scored": 53,
+          "scored": 57,
           "total": 172,
-          "coverage": 0.3081395348837209,
-          "mean_scored": 40.40880503144654
+          "coverage": 0.3313953488372093,
+          "mean_scored": 39.61988304093567
         }
       }
     },
@@ -530,15 +530,15 @@
   "branches": {
     "noevent": {
       "counts": {
-        "complete": 18,
+        "complete": 19,
         "blocked_parent_build": 13,
-        "build_failed": 16,
-        "pending": 83,
+        "build_failed": 19,
+        "pending": 77,
         "partial": 1,
-        "running": 10
+        "running": 12
       },
-      "memory_complete": 19,
-      "completed_windows": 1076,
+      "memory_complete": 20,
+      "completed_windows": 1470,
       "videos": [
         {
           "video_id": "G2_V000001",
@@ -818,9 +818,9 @@
         },
         {
           "video_id": "G2_V000029",
-          "status": "running",
-          "memory_complete": false,
-          "completed_windows": 20,
+          "status": "complete",
+          "memory_complete": true,
+          "completed_windows": 48,
           "total_windows": 48,
           "inherited_state": "unstarted",
           "final_failure": null
@@ -909,12 +909,24 @@
         },
         {
           "video_id": "G2_V000038",
-          "status": "running",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 4,
+          "completed_windows": 8,
           "total_windows": 64,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00009",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790085283.7771618,
+            "request_hash": "f7d85bdc7b0c4bad9cda770d60ad1034e624951fe00915618463201b6e06dc6c",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000038/memory/G2_V000038/audio/calls.jsonl",
+            "source_sha256": "4dade8745d1566b8edfdeb2774a3b918cfe981c963559306c8aa44a7249f4e48"
+          }
         },
         {
           "video_id": "G2_V000039",
@@ -1203,10 +1215,10 @@
         },
         {
           "video_id": "G2_V000064",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 2,
+          "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -1223,7 +1235,7 @@
           "video_id": "G2_V000066",
           "status": "running",
           "memory_complete": false,
-          "completed_windows": 16,
+          "completed_windows": 50,
           "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
@@ -1251,10 +1263,10 @@
         },
         {
           "video_id": "G2_V000068",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 2,
+          "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -1337,17 +1349,17 @@
           "video_id": "G2_V000076",
           "status": "running",
           "memory_complete": false,
-          "completed_windows": 13,
+          "completed_windows": 46,
           "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
         {
           "video_id": "G2_V000077",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 16,
+          "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -1364,7 +1376,7 @@
           "video_id": "G2_V000079",
           "status": "running",
           "memory_complete": false,
-          "completed_windows": 7,
+          "completed_windows": 43,
           "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
@@ -1422,7 +1434,7 @@
           "video_id": "G2_V000083",
           "status": "running",
           "memory_complete": false,
-          "completed_windows": 18,
+          "completed_windows": 56,
           "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
@@ -1450,10 +1462,10 @@
         },
         {
           "video_id": "G2_V000085",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 32,
+          "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -1461,26 +1473,26 @@
           "video_id": "G2_V000086",
           "status": "running",
           "memory_complete": false,
-          "completed_windows": 12,
+          "completed_windows": 48,
           "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
         {
           "video_id": "G2_V000087",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 27,
+          "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
         },
         {
           "video_id": "G2_V000088",
-          "status": "pending",
+          "status": "running",
           "memory_complete": false,
-          "completed_windows": 0,
-          "total_windows": null,
+          "completed_windows": 28,
+          "total_windows": 68,
           "inherited_state": "unstarted",
           "final_failure": null
         },
@@ -1527,7 +1539,7 @@
           "video_id": "G2_V000092",
           "status": "running",
           "memory_complete": false,
-          "completed_windows": 5,
+          "completed_windows": 36,
           "total_windows": 66,
           "inherited_state": "unstarted",
           "final_failure": null
@@ -1570,12 +1582,24 @@
         },
         {
           "video_id": "G2_V000097",
-          "status": "running",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 9,
+          "completed_windows": 40,
           "total_windows": 66,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "audio_observer:W00041",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790086567.1094863,
+            "request_hash": "07f2e13f8a20b59bc4aded868f665a31e196990874ff3997795bc8a839bdab38",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000097/memory/G2_V000097/audio/calls.jsonl",
+            "source_sha256": "07d7880ad7623e778814d693f173ce385934c8eccaf4637473d785a6975cb077"
+          }
         },
         {
           "video_id": "G2_V000098",
@@ -1588,12 +1612,22 @@
         },
         {
           "video_id": "G2_V000099",
-          "status": "running",
+          "status": "build_failed",
           "memory_complete": false,
-          "completed_windows": 1,
+          "completed_windows": 17,
           "total_windows": 64,
           "inherited_state": "unstarted",
-          "final_failure": null
+          "final_failure": {
+            "purpose": "window_perception:G2_V000099:W00018",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "time_unix": 1790085921.1555288,
+            "request_hash": "3ac742d159d53d5ab7de6fd8dd45ba861cede162f250e3ea9cb9ceb6c3ca3072",
+            "category": "generate_runtime_error_unknown",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000099/memory/G2_V000099/calls.jsonl",
+            "source_sha256": "991ff6db109f1d41b4cf0baaabe9458e66041582ac90279378103895a3d4a32a"
+          }
         },
         {
           "video_id": "G2_V000100",
@@ -5729,7 +5763,7 @@
               }
             ],
             "ledger": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/embeddings/api/calls.jsonl",
-            "ledger_sha256": "0b0bc1aaa55c5d18bf16eb19df86786fb01b85404dc1f8e0c4acf20088de794f"
+            "ledger_sha256": "ceb96ba116bd0d24f8dbb5c41a43ac483fe6614317a2426f6f55ec49efcc474b"
           }
         },
         "base": {
@@ -5766,7 +5800,7 @@
               }
             ],
             "ledger": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/embeddings/api/calls.jsonl",
-            "ledger_sha256": "0b0bc1aaa55c5d18bf16eb19df86786fb01b85404dc1f8e0c4acf20088de794f"
+            "ledger_sha256": "ceb96ba116bd0d24f8dbb5c41a43ac483fe6614317a2426f6f55ec49efcc474b"
           }
         },
         "base": {
@@ -6092,8 +6126,22 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 0,
+          "max_score": 1,
+          "normalized_score_100": 0.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_sha256": "003cdc8bb2696f47b2236e0ad4145909037145cd3b6841f07e689701d96275eb",
+          "accepted_sha256": "7783fd8221e92b8f768b13f926d84303c87a34615ad7ea98c2687d6e314f50e7",
+          "prediction_sha256": "3d9a12fcaf592a5782c1be472eb2982598d7a3b30d713678242a79796ff85163",
+          "prediction_artifact_sha256": "7f9418723ce7099d1d15e98d0d8d508c208b78098bdea803a9517bc8379f6306",
+          "memory_sha256": "a045e529bfa5280cd48b2ab5c1c63561127818324ec4a7952405b67fdc64f38a",
+          "plan_sha256": "229c7e2500cfb1b598775bf821f120d78d01feea23c9bdb85e69a88ffdc8eadc",
+          "embedding_signature": "f267519ac10b5db0ebc3fb2acfd5a03fc39b541e6adf7117a11f7ee4773ce1c0",
+          "trace_sha256": "6e43a8ba9dc9fb03e398e866e2ee6f922a7855db8f4d84fc96eea0db14e41b3f",
+          "routing": null
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6112,8 +6160,22 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 4,
+          "normalized_score_100": 25.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_sha256": "003cdc8bb2696f47b2236e0ad4145909037145cd3b6841f07e689701d96275eb",
+          "accepted_sha256": "1fc699ac64d1c9dfaa1ac8d39d278309abe7e995e5dd5b82b6852c0d378f45fe",
+          "prediction_sha256": "c41d169a86decc2b8fd4086fa3dbe6d97d03227257c23aed6ef34c1fcf86c11e",
+          "prediction_artifact_sha256": "7f9418723ce7099d1d15e98d0d8d508c208b78098bdea803a9517bc8379f6306",
+          "memory_sha256": "a045e529bfa5280cd48b2ab5c1c63561127818324ec4a7952405b67fdc64f38a",
+          "plan_sha256": "81aaf0b7766b32321c1f0f85a7612bf2cacfa2cc24eb0d528b3620185431da55",
+          "embedding_signature": "f267519ac10b5db0ebc3fb2acfd5a03fc39b541e6adf7117a11f7ee4773ce1c0",
+          "trace_sha256": "5d0181e6cd44a85ac2e2388f8536c7232d30b15acfe3eafe454c0db5e017dbcf",
+          "routing": null
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6132,8 +6194,22 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 1,
+          "max_score": 4,
+          "normalized_score_100": 25.0,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_sha256": "003cdc8bb2696f47b2236e0ad4145909037145cd3b6841f07e689701d96275eb",
+          "accepted_sha256": "16ebe4cf0597f60fb881fae38d62f11503777d719395a78742773c2a0c843e80",
+          "prediction_sha256": "ee047e3786dd4a4b1725d2a597c699f1f7de18728780118068b5635b42714c69",
+          "prediction_artifact_sha256": "7f9418723ce7099d1d15e98d0d8d508c208b78098bdea803a9517bc8379f6306",
+          "memory_sha256": "a045e529bfa5280cd48b2ab5c1c63561127818324ec4a7952405b67fdc64f38a",
+          "plan_sha256": "ee0366844a85dc7d0c86d02cbfe672809a46b89a8fd8a8d7def434535fc68bff",
+          "embedding_signature": "f267519ac10b5db0ebc3fb2acfd5a03fc39b541e6adf7117a11f7ee4773ce1c0",
+          "trace_sha256": "f64eba8dfc93c7048a87fbffd5645d360994a7048c9aaa820c71617c549350bb",
+          "routing": null
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6152,8 +6228,22 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "scored",
+          "score": 2,
+          "max_score": 3,
+          "normalized_score_100": 66.66666666666666,
+          "origin": "full_suite",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_snapshot": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/scores/noevent/G2_V000029/run_20260922_2216/scores.jsonl",
+          "source_sha256": "003cdc8bb2696f47b2236e0ad4145909037145cd3b6841f07e689701d96275eb",
+          "accepted_sha256": "21472fa33e8abe8154180f9f494344e97da8906181db9a353077e8a4b07f902e",
+          "prediction_sha256": "e8378bfe37494eef8fe080caa438e2543192c684ef8b4379801c2134c44b32b0",
+          "prediction_artifact_sha256": "7f9418723ce7099d1d15e98d0d8d508c208b78098bdea803a9517bc8379f6306",
+          "memory_sha256": "a045e529bfa5280cd48b2ab5c1c63561127818324ec4a7952405b67fdc64f38a",
+          "plan_sha256": "4a304189aaf06236105536bdf91748fd79987a9540531536bf49c3e5c769b67d",
+          "embedding_signature": "f267519ac10b5db0ebc3fb2acfd5a03fc39b541e6adf7117a11f7ee4773ce1c0",
+          "trace_sha256": "3cf10a45e74a5b0988f9663f534b8800a3419ec2ddedecf52489b20f62578bba",
+          "routing": null
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6753,8 +6843,21 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00009",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790085283.7771618,
+            "request_hash": "f7d85bdc7b0c4bad9cda770d60ad1034e624951fe00915618463201b6e06dc6c",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000038/memory/G2_V000038/audio/calls.jsonl",
+            "source_sha256": "4dade8745d1566b8edfdeb2774a3b918cfe981c963559306c8aa44a7249f4e48"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6773,8 +6876,21 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00009",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790085283.7771618,
+            "request_hash": "f7d85bdc7b0c4bad9cda770d60ad1034e624951fe00915618463201b6e06dc6c",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000038/memory/G2_V000038/audio/calls.jsonl",
+            "source_sha256": "4dade8745d1566b8edfdeb2774a3b918cfe981c963559306c8aa44a7249f4e48"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6793,8 +6909,21 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00009",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790085283.7771618,
+            "request_hash": "f7d85bdc7b0c4bad9cda770d60ad1034e624951fe00915618463201b6e06dc6c",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000038/memory/G2_V000038/audio/calls.jsonl",
+            "source_sha256": "4dade8745d1566b8edfdeb2774a3b918cfe981c963559306c8aa44a7249f4e48"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6813,8 +6942,21 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00009",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790085283.7771618,
+            "request_hash": "f7d85bdc7b0c4bad9cda770d60ad1034e624951fe00915618463201b6e06dc6c",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000038/memory/G2_V000038/audio/calls.jsonl",
+            "source_sha256": "4dade8745d1566b8edfdeb2774a3b918cfe981c963559306c8aa44a7249f4e48"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -6833,8 +6975,21 @@
       "series": "unclassified",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00009",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790085283.7771618,
+            "request_hash": "f7d85bdc7b0c4bad9cda770d60ad1034e624951fe00915618463201b6e06dc6c",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000038/memory/G2_V000038/audio/calls.jsonl",
+            "source_sha256": "4dade8745d1566b8edfdeb2774a3b918cfe981c963559306c8aa44a7249f4e48"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -9023,7 +9178,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9043,7 +9198,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9063,7 +9218,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9083,7 +9238,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9103,7 +9258,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9123,7 +9278,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9143,7 +9298,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9645,7 +9800,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9665,7 +9820,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9685,7 +9840,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -9705,7 +9860,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -10725,7 +10880,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -10745,7 +10900,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -10765,7 +10920,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11519,7 +11674,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11539,7 +11694,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11559,7 +11714,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11579,7 +11734,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11719,7 +11874,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11739,7 +11894,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11759,7 +11914,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11779,7 +11934,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11799,7 +11954,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11819,7 +11974,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11839,7 +11994,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -11859,7 +12014,7 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "waiting_for_media_or_phase",
+          "status": "perception_running",
           "normalized_score_100": null
         },
         "base": {
@@ -12624,8 +12779,21 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00041",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790086567.1094863,
+            "request_hash": "07f2e13f8a20b59bc4aded868f665a31e196990874ff3997795bc8a839bdab38",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000097/memory/G2_V000097/audio/calls.jsonl",
+            "source_sha256": "07d7880ad7623e778814d693f173ce385934c8eccaf4637473d785a6975cb077"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12644,8 +12812,21 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00041",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790086567.1094863,
+            "request_hash": "07f2e13f8a20b59bc4aded868f665a31e196990874ff3997795bc8a839bdab38",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000097/memory/G2_V000097/audio/calls.jsonl",
+            "source_sha256": "07d7880ad7623e778814d693f173ce385934c8eccaf4637473d785a6975cb077"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12664,8 +12845,21 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00041",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790086567.1094863,
+            "request_hash": "07f2e13f8a20b59bc4aded868f665a31e196990874ff3997795bc8a839bdab38",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000097/memory/G2_V000097/audio/calls.jsonl",
+            "source_sha256": "07d7880ad7623e778814d693f173ce385934c8eccaf4637473d785a6975cb077"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12684,8 +12878,21 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "audio_observer:W00041",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428",
+            "failure_stage": "generate",
+            "time_unix": 1790086567.1094863,
+            "request_hash": "07f2e13f8a20b59bc4aded868f665a31e196990874ff3997795bc8a839bdab38",
+            "category": "http_428_unclassified",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000097/memory/G2_V000097/audio/calls.jsonl",
+            "source_sha256": "07d7880ad7623e778814d693f173ce385934c8eccaf4637473d785a6975cb077"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12744,8 +12951,19 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "window_perception:G2_V000099:W00018",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "time_unix": 1790085921.1555288,
+            "request_hash": "3ac742d159d53d5ab7de6fd8dd45ba861cede162f250e3ea9cb9ceb6c3ca3072",
+            "category": "generate_runtime_error_unknown",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000099/memory/G2_V000099/calls.jsonl",
+            "source_sha256": "991ff6db109f1d41b4cf0baaabe9458e66041582ac90279378103895a3d4a32a"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12764,8 +12982,19 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "window_perception:G2_V000099:W00018",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "time_unix": 1790085921.1555288,
+            "request_hash": "3ac742d159d53d5ab7de6fd8dd45ba861cede162f250e3ea9cb9ceb6c3ca3072",
+            "category": "generate_runtime_error_unknown",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000099/memory/G2_V000099/calls.jsonl",
+            "source_sha256": "991ff6db109f1d41b4cf0baaabe9458e66041582ac90279378103895a3d4a32a"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12784,8 +13013,19 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "window_perception:G2_V000099:W00018",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "time_unix": 1790085921.1555288,
+            "request_hash": "3ac742d159d53d5ab7de6fd8dd45ba861cede162f250e3ea9cb9ceb6c3ca3072",
+            "category": "generate_runtime_error_unknown",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000099/memory/G2_V000099/calls.jsonl",
+            "source_sha256": "991ff6db109f1d41b4cf0baaabe9458e66041582ac90279378103895a3d4a32a"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -12804,8 +13044,19 @@
       "series": "Friends",
       "conditions": {
         "noevent": {
-          "status": "perception_running",
-          "normalized_score_100": null
+          "status": "build_failed",
+          "normalized_score_100": null,
+          "failure": {
+            "purpose": "window_perception:G2_V000099:W00018",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "failure_stage": "generate",
+            "time_unix": 1790085921.1555288,
+            "request_hash": "3ac742d159d53d5ab7de6fd8dd45ba861cede162f250e3ea9cb9ceb6c3ca3072",
+            "category": "generate_runtime_error_unknown",
+            "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000099/memory/G2_V000099/calls.jsonl",
+            "source_sha256": "991ff6db109f1d41b4cf0baaabe9458e66041582ac90279378103895a3d4a32a"
+          }
         },
         "base": {
           "status": "waiting_for_media_or_phase",
@@ -16762,10 +17013,10 @@
   "missing_counts": {
     "noevent": {
       "parent_build_blocked": 34,
-      "build_failed": 69,
-      "waiting_for_media_or_phase": 354,
+      "build_failed": 82,
+      "waiting_for_media_or_phase": 328,
       "embedding_failed": 2,
-      "perception_running": 43
+      "perception_running": 52
     },
     "base": {
       "parent_build_blocked": 37,
