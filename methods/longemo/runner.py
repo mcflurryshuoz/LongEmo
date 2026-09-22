@@ -229,7 +229,9 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
     inspections, seconds_used = [], 0.0
     seen = set()
     result = None
-    max_rounds = args.progressive_rounds if args.retrieval == "progressive" else args.max_inspections + 1
+    # progressive_rounds counts evidence expansions; reserve one additional
+    # model call to synthesize the final answer after the last page arrives.
+    max_rounds = (args.progressive_rounds + 1) if args.retrieval == "progressive" else args.max_inspections + 1
     for round_index in range(max_rounds):
         result = api.call(messages, purpose=f"answer:{qid}:round{round_index}", validate=validate_answer)
         if args.retrieval == "progressive":
