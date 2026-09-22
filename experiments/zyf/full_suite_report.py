@@ -80,6 +80,8 @@ def classify_failure(row):
         return "http_428_unclassified"
     if row.get("error_type") == "RuntimeError" and row.get("failure_stage") == "generate":
         return "generate_runtime_error_unknown"
+    if row.get("failure_stage") == "validate" and row.get("error_type") in ("ValueError", "JSONDecodeError"):
+        return "output_validation_failed"
     return "other"
 
 
@@ -379,7 +381,7 @@ def render(data):
         lines.append("| " + b + " | " + " | ".join(map(str, vals)) + " |")
     failures = Counter(v["final_failure"]["category"] for b in data["branches"].values() for v in b["videos"] if v.get("final_failure"))
     if failures:
-        labels = {"content_filter": "明确内容过滤", "http_428_unclassified": "HTTP428原因未明", "generate_runtime_error_unknown": "生成RuntimeError原因未明", "other": "其他已停止失败"}
+        labels = {"content_filter": "明确内容过滤", "http_428_unclassified": "HTTP428原因未明", "generate_runtime_error_unknown": "生成RuntimeError原因未明", "output_validation_failed": "输出结构校验失败", "other": "其他已停止失败"}
         lines += ["", "本轮已停止构建失败：" + "；".join(f"{labels.get(k,k)} {v}视频" for k, v in sorted(failures.items())) + "。"]
     if any(q["conditions"][c]["status"] == "embedding_failed" for q in data["questions"] for c in CONDITIONS):
         lines += ["", "部分题在Embedding文档索引阶段失败，尚未进入GPT回答；不归为GPT内容过滤。"]

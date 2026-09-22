@@ -77,6 +77,16 @@ class FullSuiteReportTests(unittest.TestCase):
         self.assertEqual(classify_failure({"error_type": "RuntimeError", "failure_stage": "generate"}), "generate_runtime_error_unknown")
         self.assertEqual(classify_failure({"http_status": 400}), "other")
 
+    def test_output_validation_classification_requires_validate_stage_and_preserves_provider_errors(self):
+        for error_type in ("ValueError", "JSONDecodeError"):
+            row = {"error_type": error_type, "failure_stage": "validate"}
+            with self.subTest(error_type=error_type):
+                self.assertEqual(classify_failure(row), "output_validation_failed")
+                self.assertEqual(classify_failure({**row, "failure_stage": "generate"}), "other")
+                self.assertEqual(classify_failure({**row, "http_status": 428}), "http_428_unclassified")
+                self.assertEqual(classify_failure({**row, "service_error_code": "content_filter"}), "content_filter")
+        self.assertEqual(classify_failure({"error_type": "RuntimeError", "failure_stage": "validate"}), "other")
+
     def test_embedding_classification_requires_that_videos_terminal_stack(self):
         run = self.root / "run"; task = run / "tasks/answer/noevent-V1/task.json"
         output = task.parent / "output.log"; output.parent.mkdir(parents=True)
@@ -135,6 +145,8 @@ class FullSuiteReportTests(unittest.TestCase):
         self.assertNotIn(secret, json.dumps(result))
         self.assertIn("0/558", render(result))
         self.assertEqual(before, {str(p): Reader().sha(p) for p in run.rglob("*") if p.is_file()})
+        result["branches"]["noevent"]["videos"][0]["final_failure"] = {"category": "output_validation_failed"}
+        self.assertIn("输出结构校验失败 1视频", render(result))
 
 
 if __name__ == "__main__":
