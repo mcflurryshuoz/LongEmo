@@ -1,0 +1,58 @@
+{
+  "probe": {
+    "source_run": "three_level_pilot50_reliable_20260922",
+    "video_id": "G2_V000001",
+    "window_id": "W00004",
+    "request_hash": "7ba5d9304f9479c40e1c04d6ea45261a7df444c764a45bf84273d161642c8c86",
+    "original_request_hash": "c5d9e00a93fc02ace9d06bfbe20311b8c9db3abf5ddec8d43ba4a68634cf501d",
+    "model": {
+      "model": "gemini-3.8-flash",
+      "base_url": "https://matrixllm.alipay.com/v1",
+      "api_format": "chat",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "options": {},
+      "timeout": 240.0
+    },
+    "source_memory_sha256": "84cfb7b9367037000fb58f846aa66ce9ce9381e99aeb65cf7b5a5616f945986f",
+    "audio_sha256": "f56575b01330def62f8f2da2fa4326feefa7557a54aa0df0d406214e94c141d2",
+    "started_unix": 1790076191.322526,
+    "tries": 1,
+    "does_not_modify_source": true,
+    "schema_repair_followup": 1,
+    "total_requests_in_diagnosis": 2,
+    "parent_probe_ledger_sha256": "d63752e99c626d2fdd12fb3ce91492eb712fd10f725a925cf3f7eb066a00fa23",
+    "status": "ok",
+    "finished_unix": 1790076199.881462,
+    "perception_sha256": "302bd9deb5cc48a2516e79b4d2b5ea7d6404e6d5ee1e71fa121943153bb427ef"
+  },
+  "calls": [
+    {
+      "purpose": "diagnostic_visual:G2_V000001:W00004",
+      "request_hash": "7ba5d9304f9479c40e1c04d6ea45261a7df444c764a45bf84273d161642c8c86",
+      "initial_request_hash": "7ba5d9304f9479c40e1c04d6ea45261a7df444c764a45bf84273d161642c8c86",
+      "attempt": 1,
+      "model": "gemini-3.8-flash",
+      "time_unix": 1790076191.336677,
+      "usage": {
+        "prompt_tokens": 28892,
+        "completion_tokens": 546,
+        "total_tokens": 29438,
+        "thought_tokens": null,
+        "raw": {
+          "completion_tokens": 546,
+          "prompt_tokens": 28892,
+          "total_tokens": 29438,
+          "extra_properties": {
+            "google": {
+              "traffic_type": "ON_DEMAND"
+            }
+          }
+        }
+      },
+      "response_model": "gemini-3.8-flash",
+      "status": "ok",
+      "elapsed_seconds": 8.551495354622602
+    }
+  ]
+}

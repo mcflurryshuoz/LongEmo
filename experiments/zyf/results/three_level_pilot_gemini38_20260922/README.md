@@ -1,0 +1,17 @@
+# 三层消融：Gemini 感知与 GPT-6 推理
+
+AIStudio 实验 62910175，运行 `three_level_pilot50_gemini38_perception_20260922`。固定50题／21视频，重新从相同媒体构建两种记忆，不继承 GPT-6 感知的窗口，也不混合历史评分。
+
+- 感知：Matrix `gemini-3.8-flash` 视觉与音频；视觉8192输出token、240秒超时；音频4096输出token、180秒超时。
+- 规划、回答、官方评分：Matrix `gpt-6-astra`；Embedding：OpenRouter `google/gemini-embedding-2`。
+- 采样：20秒核心窗口＋2秒边界、1 fps、最多24帧、200704像素。
+- base 与 method 共用冻结事件图、索引和规划；method 采用纯渐进披露；noevent 独立构建与检索时间窗口。
+- 感知、规划、回答最多3次结构尝试；评分固定1次，保留首分。不自动重复拒绝或重抽低分。
+
+最短视频 V1 的完整13窗口及三路首分全部通过后，脚本自动启动其他20视频：感知总并发12、后端视频并发6、每视频题目并发2。任一完整视频验证失败，剩余队列保持未启动；不能把单窗口探针成功当作完整实验成功。
+
+切换依据：GPT-6 视觉在 V1 W4 的两种表示上均明确拒绝。将完全相同的窗口消息交给 Gemini 3.8 Flash，首次得到可解析结果但有两条观察只落在边界上下文；一次格式修正后通过原时间、人物和证据校验。诊断共2个 Gemini 请求，不修改安全配置、输入媒体或已有检查点；单窗结果只用于选择感知模型，不计入评分，也不导入正式图谱。
+
+实现：method `3a6c0af`，noevent `d2a3a42`。共享核心与媒体测试92项、最新协调器测试22项，均已在AIStudio通过。模型、端点、超时独立冻结；改变感知配置会拒绝继承旧缓存。证据参数仍为48000字符，实际输入与累计token另行统计。
+
+2026-09-22 19:27:59 CST：V1事件图3/13窗口、noevent 4/13窗口，均仍在运行；尚未进入回答／评分。noevent已通过原先被GPT-6拒绝的W4（一次时间范围修正后通过）。最新快照见 [progress.json](progress.json)，启动方式见 [matched_pilot.md](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/matched_pilot.md)。当前还没有这套新配置的可报告分数；README 的60.24属于此前题型路由实验。

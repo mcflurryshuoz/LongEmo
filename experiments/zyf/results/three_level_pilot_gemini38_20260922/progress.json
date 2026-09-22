@@ -1,0 +1,266 @@
+{
+  "as_of": "2026-09-22T19:27:59.668343+08:00",
+  "run": "three_level_pilot50_gemini38_perception_20260922",
+  "configuration": {
+    "mode": "pilot",
+    "gate_video": "G2_V000001",
+    "questions_sha256": "14fd9c0be2c315a3adb6aeff7dc53034ce061afa5188920f44bee04a0d82c138",
+    "question_count": 50,
+    "video_count": 21,
+    "media": {
+      "G2_V000001": {
+        "video_sha256": "59027d1dce672c4ec2e5f49f0183fa24aacbacf3ab9d5934e6b71c2a9da4a1b8",
+        "subtitles_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "G2_V000002": {
+        "video_sha256": "a86a0f9c5de6507f9a844d7a2565a52ecf858f8942d355c4decb0a32294e48f1",
+        "subtitles_sha256": "3091a745feae5bca796fbe5f46ba3cb125bd58ae92af094cd0d2211454043198"
+      },
+      "G2_V000003": {
+        "video_sha256": "3b0e39966efe378f13069d8177474492c6f92e8b19e5d1c03902db31a7c5c969",
+        "subtitles_sha256": "e176240eddfdd4b231aa31640d1158f0e81d78df2c164ee375ce505b750ecafb"
+      },
+      "G2_V000004": {
+        "video_sha256": "61111859015990435f8227bab31bcce34d4fe1901d6ba67e11a7ab880e0038a9",
+        "subtitles_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "G2_V000005": {
+        "video_sha256": "85277f713499dade130e9f6be5e915c0a2a5bc399c07ff8f43e9d1ceceb426f0",
+        "subtitles_sha256": "2e87253508c7ba73b751b71f2a0089fe925fbf8847b473a5f4d27d279de59b4c"
+      },
+      "G2_V000006": {
+        "video_sha256": "8287e532e269f517bab2b4ac7b476b1e41b8330b4fc762165c8e88ace3f2b6db",
+        "subtitles_sha256": "6f23e9ee2d0b9d20148ff62f8926ce22acd9f6d9784eb4f6fa84a585141fe789"
+      },
+      "G2_V000007": {
+        "video_sha256": "54be385724f75f631f433b7dc3d5ca26d3075e74ed6f0f36ef086e826e525e04",
+        "subtitles_sha256": "61a05ca2d5f78240cba7e21ededf1dbf4666b92581501197f7c32b53accd0a80"
+      },
+      "G2_V000008": {
+        "video_sha256": "6010fbdfdbe127c77eb0c029bd9e514694f2e050290814d041bb3c79570f975b",
+        "subtitles_sha256": "7d1647da045f422f1d5836211c0dc491779d7304885194ca5d18c4e22059ec16"
+      },
+      "G2_V000009": {
+        "video_sha256": "2588b2fdd62d7477a3f55e88a20bed420f878e530154adee3a06eb2801ae03ad",
+        "subtitles_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      "G2_V000010": {
+        "video_sha256": "1ac39050a66add0c3cc5f7d4d7fb52beae57f6cb13ce064afdb9c93b4f1b2a11",
+        "subtitles_sha256": "85c169371757b48e7463ac5ad3cf610493c26bff206c7404a7447fb305ea71da"
+      },
+      "G2_V000011": {
+        "video_sha256": "f5d73152ef7185100c92ffca683a8c5986827c5a630e7c9621bde5be4831fbd1",
+        "subtitles_sha256": "4b68c29a15b6be9955daaa1c99af527c784ab38ae4fa776fc9343901f02fddd4"
+      },
+      "G2_V000012": {
+        "video_sha256": "b89b2d33df4b1027ee27d4a0f5ae96c6b0c13082fb221cb000f55ecc4703e77f",
+        "subtitles_sha256": "5274b61969c3c94ba6ad7a0a958c2e85793252ae24e8287180e9a1a1090643ce"
+      },
+      "G2_V000013": {
+        "video_sha256": "f7ba0fe365297f1dccb9e04c74f508b3fc4919bab773858b77f1c46fef3ed2a8",
+        "subtitles_sha256": "e7c5251a1abfa80f7afc273c75e48dce00601358392ff013833cc15a8fe2663c"
+      },
+      "G2_V000014": {
+        "video_sha256": "a1764e8b2f04ad777813dfee7e3caa8fc4ccc765489c2552257e49b6e1107864",
+        "subtitles_sha256": "d33ab87c60f12964d118913b25127eba1210c4d8d207e5e7f15452c972e4e793"
+      },
+      "G2_V000015": {
+        "video_sha256": "a97ee930ff5e5aba09845a80040d9b32499d63c8b51c02ab171a4b69030b2141",
+        "subtitles_sha256": "01ba001332e8de64c6da1bfc99f78c15bc62bd9644898a1cbca748d6a1ba9065"
+      },
+      "G2_V000016": {
+        "video_sha256": "6480d2896cbce4773e6f3be125e03268d0d994a251ede24941d9b28a9045ab88",
+        "subtitles_sha256": "c93ab21d921a24655fbf0b0ae9ff0572a30a4f715348bd2ab750093915caf4bb"
+      },
+      "G2_V000017": {
+        "video_sha256": "0d2ab6bd4d4d48d82e698bab10babd8c339a7ddead9a576aa6bdbc3968873223",
+        "subtitles_sha256": "d3b4d760cadea1246ee9f4f5e75c61a341b9ca7925ca597cad0408cf198ce295"
+      },
+      "G2_V000018": {
+        "video_sha256": "b454cad08d904dcda6265d16505d15362f63d6f503c695334b4bfe423b9b2a85",
+        "subtitles_sha256": "6fcf5e6ca54176e6835c6c572f393b132b19e20179f61ac24f688d34fc3d87e0"
+      },
+      "G2_V000019": {
+        "video_sha256": "d355be5167a35791d8fb60951f0c6470cdbd62234b574cd6bc68d037cb722755",
+        "subtitles_sha256": "4d7cd2415e1e631b70c8af917d4f29c9b6617fc844d8c1576ceae8ef00fc8658"
+      },
+      "G2_V000020": {
+        "video_sha256": "6862215ad93ab66757cde58884f52dd34e0e0045de426abb332735e2414e2ff2",
+        "subtitles_sha256": "5b5dc7812a07a3d5bc5cbd5b2dd9cb783fe29a1cfca95241f5cbbdbda33da81a"
+      },
+      "G2_V000021": {
+        "video_sha256": "cfcdad48a83a1fc9b6bc72fd28258fa5f6776fb2ebcc56bb35ff39d3ff914736",
+        "subtitles_sha256": "23295ec2d76ab3c0889ed3c6cea1f9734e0ee86a9d0e21b002ed00f83c187bd4"
+      }
+    },
+    "videos_dir": "/root/longemo/runtime/data/episode/videos",
+    "subtitles_dir": "/root/longemo/runtime/data/prepared_subtitles",
+    "repos": {
+      "event": "/root/longemo/LongEmo-method-3a6c0af",
+      "noevent": "/root/longemo/LongEmo-noevent-d2a3a42"
+    },
+    "source_hashes": {
+      "event": "4c3e1ca68e594accd968f34c2c6fd0c627ca75be32d4f055cd1f9b14fdbff5f4",
+      "noevent": "8273376a201df682505cb3e5f0ac1ef9e3849862de34f16676efdb9741babcf9"
+    },
+    "coordinator_sha256": "693b18b1bd85943be49dfc16d9c74239dae3ce2b9dc9ef6f574d70365aba4f3b",
+    "python": "/opt/conda/bin/python",
+    "model": "gpt-6-astra",
+    "base_url": "https://matrixllm.alipay.com/v1",
+    "audio_model": "gemini-3.8-flash",
+    "perception_model": "gemini-3.8-flash",
+    "perception_base_url": "https://matrixllm.alipay.com/v1",
+    "perception_timeout": 240.0,
+    "audio_base_url": "https://matrixllm.alipay.com/v1",
+    "embedding_model": "google/gemini-embedding-2",
+    "embedding_base_url": "https://openrouter.ai/api/v1",
+    "evidence_chars": 48000,
+    "window_seconds": 20,
+    "padding": 2,
+    "fps": 1,
+    "max_frames": 24,
+    "max_pixels": 200704,
+    "stage_tries": {
+      "build": 3,
+      "plan": 3,
+      "answer": 3,
+      "score": 1
+    },
+    "max_tokens": 8192,
+    "timeout": 1800,
+    "parent_run": null,
+    "progressive_routing": "none",
+    "progressive_rounds": 3,
+    "progressive_anchor_k": 4
+  },
+  "configuration_sha256": "3c89240aeae5a5938ebbd9cac62abdabb15334beb7f517be7a4d02b0b74cf970",
+  "process": {
+    "pid": 278223,
+    "host": "gpulingjun033180161150.et15",
+    "start_ticks": "1641756",
+    "started_unix": 1790076331.6669142,
+    "run": "/root/longemo/runtime/runs/three_level_pilot50_gemini38_perception_20260922",
+    "command": [
+      "/opt/conda/bin/python",
+      "-u",
+      "-m",
+      "experiments.zyf.matched_pilot",
+      "all",
+      "--method-repo",
+      "/root/longemo/LongEmo-method-3a6c0af",
+      "--noevent-repo",
+      "/root/longemo/LongEmo-noevent-d2a3a42",
+      "--runtime",
+      "/root/longemo/runtime",
+      "--run-name",
+      "three_level_pilot50_gemini38_perception_20260922",
+      "--questions",
+      "/tmp/longemo_pilot_questions.json",
+      "--credential-file",
+      "/root/longemo/runtime/private/answer.json",
+      "--audio-base-url",
+      "https://matrixllm.alipay.com/v1",
+      "--gate-video",
+      "G2_V000001",
+      "--build-tries",
+      "3",
+      "--plan-tries",
+      "3",
+      "--answer-tries",
+      "3",
+      "--build-workers",
+      "12",
+      "--video-workers",
+      "6",
+      "--question-workers",
+      "2",
+      "--python",
+      "/opt/conda/bin/python",
+      "--perception-model",
+      "gemini-3.8-flash",
+      "--perception-base-url",
+      "https://matrixllm.alipay.com/v1",
+      "--perception-timeout",
+      "240"
+    ]
+  },
+  "gate": null,
+  "gate_question_count": 2,
+  "conditions": {
+    "base": {
+      "answers_ok": 0,
+      "scored": 0,
+      "total": 50,
+      "mean_scored": null
+    },
+    "method": {
+      "answers_ok": 0,
+      "scored": 0,
+      "total": 50,
+      "mean_scored": null
+    },
+    "noevent": {
+      "answers_ok": 0,
+      "scored": 0,
+      "total": 50,
+      "mean_scored": null
+    }
+  },
+  "branches": {
+    "event": {
+      "completed_windows": 3,
+      "total_windows": 13,
+      "complete": false,
+      "memory_sha256": "ae322128411338a85b6c9362ad1e07e357dc35f6aeaf6309157f65fb0a21ffc4",
+      "call_count": 7,
+      "success_count": 7,
+      "failures": [],
+      "response_models": {
+        "gemini-3.8-flash": 7
+      }
+    },
+    "noevent": {
+      "completed_windows": 4,
+      "total_windows": 13,
+      "complete": false,
+      "memory_sha256": "c02be199c1606527b9c70ed44f6b97537bd72ab9974925f6ad3b3646097201e7",
+      "call_count": 10,
+      "success_count": 9,
+      "failures": [
+        {
+          "purpose": "window_perception:G2_V000001:W00004",
+          "status": "error",
+          "attempt": 1,
+          "error_type": "ValueError",
+          "validation_error": "observation must overlap the owned core interval",
+          "retry_reason": "schema_repair",
+          "will_retry": true
+        }
+      ],
+      "response_models": {
+        "gemini-3.8-flash": 10
+      }
+    }
+  },
+  "tasks": {
+    "build/event-G2_V000001": {
+      "status": "running",
+      "started_unix": 1790076333.3222218,
+      "child": {
+        "pid": 278339,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "1641922"
+      }
+    },
+    "build/noevent-G2_V000001": {
+      "status": "running",
+      "started_unix": 1790076333.3221767,
+      "child": {
+        "pid": 278338,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "1641922"
+      }
+    }
+  },
+  "process_exists": true
+}

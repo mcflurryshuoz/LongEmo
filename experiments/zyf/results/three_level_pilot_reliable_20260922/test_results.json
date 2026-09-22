@@ -1,0 +1,62 @@
+{
+  "method": [
+    {
+      "command": [
+        "/opt/conda/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "methods/longemo/tests"
+      ],
+      "returncode": 0,
+      "output": "[q] ok\n.....sss...........................fatal: not a git repository (or any of the parent directories): .git\nfatal: not a git repository (or any of the parent directories): .git\n....\n----------------------------------------------------------------------\nRan 39 tests in 0.099s\n\nOK (skipped=3)\n"
+    },
+    {
+      "command": [
+        "/opt/conda/bin/python",
+        "-m",
+        "unittest",
+        "methods.longemo.tests.test_media"
+      ],
+      "returncode": 0,
+      "runtime_bin_in_path": true,
+      "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.336s\n\nOK\n"
+    }
+  ],
+  "noevent": [
+    {
+      "command": [
+        "/opt/conda/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "methods/longemo/tests"
+      ],
+      "returncode": 0,
+      "output": ".....sss.............................................\n----------------------------------------------------------------------\nRan 53 tests in 0.056s\n\nOK (skipped=3)\n"
+    },
+    {
+      "command": [
+        "/opt/conda/bin/python",
+        "-m",
+        "unittest",
+        "experiments.zyf.test_matched_pilot"
+      ],
+      "returncode": 0,
+      "output": "build noevent-V0: error\nbuild event-V0: error\nFull-video gate did not pass; remaining videos remain unstarted.\nbuild noevent-V1: ok\nbuild event-V1: ok\nplan noevent-V1: ok\nplan event-V1: ok\nanswer base-V1: ok\nanswer noevent-V1: ok\nanswer method-V1: ok\nscore base-V1: ok\nscore noevent-V1: ok\nscore method-V1: ok\nbuild noevent-V1: error\nbuild event-V1: ok\nplan noevent-V1: error\nplan event-V1: ok\n..................\n----------------------------------------------------------------------\nRan 18 tests in 0.135s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/opt/conda/bin/python",
+        "-m",
+        "unittest",
+        "methods.longemo.tests.test_media"
+      ],
+      "returncode": 0,
+      "runtime_bin_in_path": true,
+      "output": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.320s\n\nOK\n"
+    }
+  ]
+}

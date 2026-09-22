@@ -1,0 +1,64 @@
+{
+  "probe": {
+    "source_run": "three_level_pilot50_reliable_20260922",
+    "video_id": "G2_V000001",
+    "window_id": "W00004",
+    "request_hash": "c5d9e00a93fc02ace9d06bfbe20311b8c9db3abf5ddec8d43ba4a68634cf501d",
+    "original_request_hash": "c5d9e00a93fc02ace9d06bfbe20311b8c9db3abf5ddec8d43ba4a68634cf501d",
+    "model": {
+      "model": "gemini-3.8-flash",
+      "base_url": "https://matrixllm.alipay.com/v1",
+      "api_format": "chat",
+      "max_tokens": 8192,
+      "temperature": 0.0,
+      "options": {},
+      "timeout": 240.0
+    },
+    "source_memory_sha256": "84cfb7b9367037000fb58f846aa66ce9ce9381e99aeb65cf7b5a5616f945986f",
+    "audio_sha256": "f56575b01330def62f8f2da2fa4326feefa7557a54aa0df0d406214e94c141d2",
+    "started_unix": 1790076123.162449,
+    "tries": 1,
+    "does_not_modify_source": true,
+    "status": "error",
+    "error_type": "RuntimeError",
+    "finished_unix": 1790076132.4885824
+  },
+  "calls": [
+    {
+      "purpose": "diagnostic_visual:G2_V000001:W00004",
+      "request_hash": "c5d9e00a93fc02ace9d06bfbe20311b8c9db3abf5ddec8d43ba4a68634cf501d",
+      "initial_request_hash": "c5d9e00a93fc02ace9d06bfbe20311b8c9db3abf5ddec8d43ba4a68634cf501d",
+      "attempt": 1,
+      "model": "gemini-3.8-flash",
+      "time_unix": 1790076123.1763763,
+      "usage": {
+        "prompt_tokens": 28148,
+        "completion_tokens": 726,
+        "total_tokens": 28874,
+        "thought_tokens": null,
+        "raw": {
+          "completion_tokens": 726,
+          "prompt_tokens": 28148,
+          "total_tokens": 28874,
+          "extra_properties": {
+            "google": {
+              "traffic_type": "ON_DEMAND"
+            }
+          }
+        }
+      },
+      "response_model": "gemini-3.8-flash",
+      "status": "error",
+      "error_type": "ValueError",
+      "failure_stage": "validate",
+      "elapsed_seconds": 9.318476809188724,
+      "validation_error": "observation must overlap the owned core interval",
+      "retryable": true,
+      "retry_reason": "schema_repair",
+      "will_retry": false,
+      "diagnostic_path": "diagnostics/calls/c5d9e00a93fc02ac-1-0df32dfe61e648529f90b8547e0b854a.json",
+      "diagnostic_sha256": "2ac156f30843dd60ed74286416e5d7349493c1b08f5cc434a7afbbc508b5e4c3",
+      "response_sha256": "6e21b9f312eddd3d2ce96b7776b26cb2c7c1f60114fd019ff684ff3616454afb"
+    }
+  ]
+}
