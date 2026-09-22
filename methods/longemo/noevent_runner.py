@@ -12,7 +12,7 @@ from evaluation.io_utils import load_questions, load_records, write_json, write_
 from .audio import audio_client_for, bridge_audio
 from .common import LoggedClient, code_hash, file_hash, fingerprint, git_revision, manifest, usage_summary
 from .media import probe, subtitles, window_input
-from .noevent_memory import apply_window, empty_memory
+from .noevent_memory import apply_window, empty_memory, perception_context
 from .noevent_retrieval import WindowIndex, retrieve
 from .prompts import ANSWER_NOEVENT, PERCEPTION_NOEVENT, PLANNER
 from .retrieval import validate_plan
@@ -52,9 +52,11 @@ def _build_video(video_id, args, client):
             media, audio_trace = bridge_audio(media, interval, audio_client, folder / "audio" / (window_id + ".json"), args.tries)
             metadata["audio_representation"] = "derived_timestamped_cues"
             metadata["audio_observer"] = audio_trace
-        context = {"video_id": video_id, "window_id": window_id, "core_interval": core,
-                   "media_interval": interval, "cast": memory["entities"],
-                   "preceding_windows": memory["windows"][-3:]}
+        # Strict ablation: the perception model sees only the current media
+        # window and the accumulated person index.  It never receives prior
+        # window summaries, so cross-window continuity cannot leak into the
+        # window-only representation.
+        context = perception_context(memory, window_id=window_id, core=core, media=interval)
         messages = [{"role": "system", "content": PERCEPTION_NOEVENT},
                     {"role": "user", "content": [{"type": "text", "text": json.dumps(context, ensure_ascii=False)}] + media}]
 
@@ -121,11 +123,17 @@ def _answer_one(q, memory, args, client, output, index):
                         budget_chars=args.evidence_chars, top_k=args.top_k)
     payload = {"question": public["question"], "evidence": evidence,
                "inspection_budget": {"requests_remaining": 0, "seconds_remaining": 0}}
-    result = api.call([{"role": "system", "content": ANSWER_NOEVENT},
-                       {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+    messages = [{"role": "system", "content": ANSWER_NOEVENT},
+                {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
+    if len(json.dumps(evidence, ensure_ascii=False)) > args.evidence_chars:
+        raise RuntimeError("serialized window evidence exceeds the configured budget")
+    result = api.call(messages,
                       purpose=f"answer:{qid}", validate=validate_answer)
     valid_ids = set(evidence["evidence_ids"])
     trace.update({"question": public, "plan": plan, "retrieval": evidence, "answer": result,
+                  "answer_input_characters": {"user": len(messages[1]["content"]),
+                      "system": len(messages[0]["content"]),
+                      "serialized_messages": len(json.dumps(messages, ensure_ascii=False))},
                   "invalid_evidence_ids": [x for x in result["evidence_ids"] if x not in valid_ids],
                   "usage": usage_summary(api.ledger)})
     write_json(output / "traces" / (qid + ".json"), trace)
@@ -218,7 +226,7 @@ def parser():
             command.add_argument("--embedding-model", default="google/gemini-embedding-2")
             command.add_argument("--embedding-revision", default="d128750597153bb5987e10b1c3493a34e5a4502a")
             command.add_argument("--embedding-cache-dir", default=".cache/longemo-embeddings")
-            command.add_argument("--evidence-chars", type=int, default=24000)
+            command.add_argument("--evidence-chars", type=int, default=48000)
             command.add_argument("--top-k", type=int, default=12)
             command.add_argument("--qid", action="append")
             command.add_argument("--limit", type=int)

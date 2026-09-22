@@ -13,8 +13,10 @@ corrections: [] unless corrections are explicitly enabled. If later evidence cor
 
 PERCEPTION_NOEVENT = """Describe the supplied audiovisual window without constructing events or a graph.
 You do not receive any benchmark question or reference answer. Keep every claim tied to this fixed window;
-do not link it to earlier windows, infer continuity, or create states, relations, causes, or event IDs. Identify
-people only from the supplied frames, voice and grounded dialogue. Record concrete visual/audio/subtitle cues,
+do not link it to earlier windows, infer continuity, or create states, relations, causes, or event IDs. The supplied
+cast is an identity index only: reuse its IDs when supported; descriptions must contain stable appearance/voice
+identity cues, not earlier actions, emotions or narrative history. Identify people only from the supplied frames,
+voice and grounded dialogue. Record concrete visual/audio/subtitle cues,
 actions, objects, explicit counts/quotes/labels, and cautious emotion cues with their evidence observations.
 The window summary is a compact description of what is observable, not a narrative reconstruction. All spans are
 ABSOLUTE VIDEO SECONDS and must overlap the core interval. Return exactly one JSON object:
@@ -22,7 +24,9 @@ ABSOLUTE VIDEO SECONDS and must overlap the core interval. Return exactly one JS
  observations:[{id:string,subject:string,span:[number,number],cue:string,modality:visual|audio|subtitle|multimodal}],
  summary:string, actions:[string], objects:[string], signals:[string], participants:[entity IDs],
  emotion_cues:[{subject:entity ID,target:string,emotion:string,intensity:string,evidence_ids:[observation IDs]}]}.
-Do not output events, states, relations, continues_event, causes, or psychological motives. Empty lists are valid."""
+Emotion cues describe evidence in this window only, not persistent emotional states. A directly observed causal
+statement may be recorded as a quote or observation. Do not output events, states, relations, continues_event,
+causes, or unsupported psychological motives. Empty lists are valid."""
 
 PLANNER = """Plan evidence retrieval for an emotion question about a video. You receive only the question and a cast index, never reference annotations. Return JSON:
 {mode: trajectory|comparison|count|causal|local, entity_terms:[names/descriptions], target_terms:[events/topics/emotions], query_terms:[short lexical retrieval terms], time_range:[start,end]|null}.
@@ -33,10 +37,14 @@ Return JSON {answer: nonempty final answer in the question's language, evidence_
 If a missing audiovisual observation could materially change the answer, you may request a bounded inspect interval from the allowed budget. Do not request to confirm a preferred hypothesis. Always include your best current answer; if no more inspection budget remains, inspect must be empty. The final answer should directly satisfy the question, with enough concrete detail for completeness. Do not include internal node IDs, grading instructions or rubric guesses in answer."""
 
 ANSWER_NOEVENT = """Answer using only the supplied time-window records and any inspected media. This is a window-only
-ablation: there are no events, state nodes, relation edges, or continuity links. Do not invent them, and do not rely
-on knowledge of the show outside the evidence. For trajectory, comparison, count and causal questions, compare the
-relevant disclosed windows in chronological order and state uncertainty when a window record does not establish a
-claim. Return JSON {answer:nonempty string,evidence_ids:[window or observation IDs],uncertainty:string,inspect:[]}.
+ablation: the stored representation has no event nodes, state nodes, relation edges, or continuity links. Do not
+claim that such graph annotations were supplied, and do not rely on knowledge of the show outside the evidence.
+You may reason across the disclosed windows, including emotional changes, causes, comparisons, and whether
+observations refer to the same occurrence, when the observations support those conclusions. For trajectory,
+comparison, count and causal questions, compare relevant windows in chronological order, avoid counting padding
+observations twice, and state uncertainty when the evidence does not establish a claim. Answer in the question's
+language with enough concrete detail. Return JSON
+{answer:nonempty string,evidence_ids:[window or observation IDs],uncertainty:string,inspect:[]}.
 Do not include internal IDs in the answer text or grading instructions."""
 
 ANSWER_PROGRESSIVE = """Answer this video-emotion question using the currently disclosed evidence from a frozen event graph. The evidence is intentionally partial. Do not assume that an undisclosed event exists or does not exist, and do not rely on knowledge of the show outside the evidence. Distinguish observations from interpretations and ground claims in the correct person, emotional target and time.

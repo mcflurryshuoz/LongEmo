@@ -6,6 +6,7 @@ import math
 from pathlib import Path
 
 from .common import fingerprint
+from .noevent_memory import person_index
 from .retrieval import bm25, term_match
 
 
@@ -68,12 +69,52 @@ class WindowIndex:
         return scores
 
 
-def retrieve(memory, question, plan, *, dense_scores, budget_chars=24000, top_k=12):
+def _window_record(window, observations, people):
+    """Resolve every citation before budgeting the actual answer evidence."""
+    record = dict(window)
+    refs = list(dict.fromkeys(window["observation_ids"] +
+        [ref for cue in window.get("emotion_cues", []) for ref in cue["evidence_refs"]]))
+    if any(ref not in observations for ref in refs):
+        raise ValueError("window evidence contains an unknown observation reference")
+    record["observations"] = [observations[ref] for ref in refs]
+    subjects = set(window.get("participants", [])) | {
+        observation["subject"] for observation in record["observations"]} | {
+        cue["subject"] for cue in window.get("emotion_cues", [])}
+    if any(subject not in people for subject in subjects):
+        raise ValueError("window evidence contains an unknown person reference")
+    record["people"] = [people[subject] for subject in sorted(subjects)]
+    return record
+
+
+def _packet(records, *, available, global_scope, budget_chars, ranking):
+    evidence_ids = list(dict.fromkeys([record["id"] for record in records] +
+        [observation["id"] for record in records for observation in record["observations"]]))
+    packet = {"representation": "window_records", "windows": records,
+              "evidence_ids": evidence_ids,
+              "timeline": [{"window_id": record["id"], "core": record["core"],
+                            "summary": record["summary"]} for record in records],
+              "coverage": {"selected_windows": len(records), "available_windows": available,
+                           "global_scope": global_scope, "budget_characters": budget_chars,
+                           "used_characters": 0}, "ranking": ranking}
+    # Include all wrappers and the character counter itself, using the exact
+    # JSON serialization the answer client receives. Never truncate JSON text.
+    while True:
+        used = len(json.dumps(packet, ensure_ascii=False))
+        if packet["coverage"]["used_characters"] == used:
+            return packet
+        packet["coverage"]["used_characters"] = used
+
+
+def retrieve(memory, question, plan, *, dense_scores, budget_chars=48000, top_k=12):
+    if budget_chars < 1000 or top_k < 1:
+        raise ValueError("invalid window retrieval configuration")
     if not isinstance(dense_scores, dict):
         raise ValueError("window retrieval requires dense embedding scores")
     windows = list(memory["windows"])
     bounds = plan.get("time_range") or [0, memory["duration"]]
     windows = [w for w in windows if w["core"][1] >= bounds[0] and w["core"][0] <= bounds[1]]
+    if any(w["id"] not in dense_scores or not math.isfinite(dense_scores[w["id"]]) for w in windows):
+        raise ValueError("missing/nonfinite window embedding score")
     documents = [_document(memory, w) for w in windows]
     query = question + " " + " ".join(plan["entity_terms"] + plan["target_terms"] + plan["query_terms"])
     lexical = bm25(documents, query)
@@ -93,21 +134,23 @@ def retrieve(memory, question, plan, *, dense_scores, budget_chars=24000, top_k=
     else:
         selected = ranked[:max(top_k, 4)]
     selected = sorted(selected, key=lambda i: windows[i]["core"][0])
-    chosen, used = [], 0
+    observations = {observation["id"]: observation for observation in memory["observations"]}
+    people = {person["id"]: person for person in person_index(memory)}
+    ranking = {"semantic_top": [windows[i]["id"] for i in semantic_rank[:top_k]],
+               "dense_top": [windows[i]["id"] for i in dense_rank[:top_k]]}
+    metadata = {"available": len(windows), "global_scope": global_scope,
+                "budget_chars": budget_chars, "ranking": ranking}
+    chosen = []
+    packet = _packet(chosen, **metadata)
+    if packet["coverage"]["used_characters"] > budget_chars:
+        raise ValueError("window retrieval metadata exceeds the evidence budget")
     for i in selected:
-        record = windows[i]
-        payload = json.dumps(record, ensure_ascii=False)
-        if chosen and used + len(payload) > budget_chars:
+        record = _window_record(windows[i], observations, people)
+        candidate = _packet(chosen + [record], **metadata)
+        if candidate["coverage"]["used_characters"] > budget_chars:
             continue
-        if not chosen and len(payload) > budget_chars:
-            payload = payload[:budget_chars]
         chosen.append(record)
-        used += len(payload)
-    observations = {o["id"]: o for o in memory["observations"]}
-    evidence_ids = [w["id"] for w in chosen] + [o for w in chosen for o in w["observation_ids"] if o in observations]
-    return {"representation": "window_records", "windows": chosen, "evidence_ids": evidence_ids,
-            "timeline": [{"window_id": w["id"], "core": w["core"], "summary": w["summary"]} for w in chosen],
-            "coverage": {"selected_windows": len(chosen), "available_windows": len(windows),
-                         "global_scope": global_scope, "budget_characters": budget_chars, "used_characters": used},
-            "ranking": {"semantic_top": [windows[i]["id"] for i in semantic_rank[:top_k]],
-                        "dense_top": [windows[i]["id"] for i in dense_rank[:top_k]]}}
+        packet = candidate
+    if selected and not chosen:
+        raise ValueError("no complete window evidence fits the configured budget")
+    return packet

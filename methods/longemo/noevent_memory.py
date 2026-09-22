@@ -11,6 +11,33 @@ import copy
 import math
 
 
+_GRAPH_FIELDS = {"events", "states", "relations", "continues_event", "event_id", "state_id"}
+
+
+def _reject_graph_fields(value):
+    if isinstance(value, dict):
+        if _GRAPH_FIELDS.intersection(value):
+            raise ValueError("window-only perception must not contain graph fields")
+        for item in value.values():
+            _reject_graph_fields(item)
+    elif isinstance(value, list):
+        for item in value:
+            _reject_graph_fields(item)
+
+
+def person_index(memory):
+    """Identity hints only; do not disclose people-to-window history."""
+    return [{key: person[key] for key in ("id", "name", "description")}
+            for person in memory["entities"]]
+
+
+def perception_context(memory, *, window_id, core, media):
+    """Expose the current media interval and identity index, never prior records."""
+    return {"video_id": memory["video_id"], "window_id": window_id,
+            "core_interval": list(core), "media_interval": list(media),
+            "cast": person_index(memory)}
+
+
 def _text(value, field, optional=False):
     if optional and value is None:
         return None
@@ -47,6 +74,7 @@ def apply_window(memory, payload, *, window_id, core, media, metadata):
     """Validate an entire window on a copy and publish it atomically."""
     if not isinstance(payload, dict) or window_id in memory["completed_windows"]:
         raise ValueError("invalid perception payload or duplicate window")
+    _reject_graph_fields(payload)
     for field in ("entities", "observations"):
         if not isinstance(payload.get(field), list):
             raise ValueError(f"{field} must be a list")
@@ -108,12 +136,15 @@ def apply_window(memory, payload, *, window_id, core, media, metadata):
                      "emotion": _text(cue.get("emotion"), "emotion"),
                      "intensity": _text(cue.get("intensity"), "intensity"),
                      "evidence_refs": [observations[x] for x in dict.fromkeys(refs)]})
+    participants = _list(payload.get("participants"), "window.participants")
+    if any(subject not in entity_map for subject in participants):
+        raise ValueError("window participant must reference a declared entity")
     window = {"id": window_id, "core": list(core), "media": list(media),
               "summary": _text(payload.get("summary"), "window.summary"),
               "actions": _list(payload.get("actions"), "window.actions"),
               "objects": _list(payload.get("objects"), "window.objects"),
               "signals": _list(payload.get("signals"), "window.signals"),
-              "participants": list(dict.fromkeys(entity_map[x] for x in _list(payload.get("participants"), "window.participants") if x in entity_map)),
+              "participants": list(dict.fromkeys(entity_map[x] for x in participants)),
               "emotion_cues": cues,
               "observation_ids": list(observations.values())}
     result["windows"].append(window)
