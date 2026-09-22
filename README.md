@@ -10,6 +10,10 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 本分支在原有 benchmark 和评测器上实现了**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法概括为：先将视频按时间窗口切分，由音频和视觉模型提取带时间戳的人物、事件、情绪状态及证据；再把这些信息写入经过校验的事件图谱，并建立 Embedding 索引。回答问题时，由 GPT-6 规划检索，结合 BM25／人物与情感对象匹配、Gemini Embedding 2 向量召回和 RRF 融合，再沿事件关系扩展上下文，最后由 GPT-6 基于证据作答并按官方 rubric 评分。图谱与问题解耦，可复用已完成窗口和检索缓存。
 
+## noevent 分支：时间窗口消融（当前为实施计划）
+
+本分支用于隔离事件图贡献。当前提交先冻结了[消融方案](experiments/zyf/noevent_plan.md)，实现尚未开始；后续只允许窗口级记录、窗口排序和窗口级双路检索，不得生成事件、状态、关系或跨窗口连续性字段。完成后将与 `method` 使用同一感知模型、采样、题单、GPT-6、Embedding 和评分器进行独立评测。
+
 ```mermaid
 flowchart TD
     V[视频、音轨、带时间戳字幕] --> W[20 秒窗口 + 两侧 2 秒上下文]

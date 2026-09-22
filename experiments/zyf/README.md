@@ -1,6 +1,6 @@
 # zyf experiment log
 
-[Current method results](results/current_method/report.md) · [Research plan](plan.md) · [Progress summary](progress.md) · [Method overview](../../README.md#zyf-分支当前方法整体流程) · [Run history](progress_history.md)
+[Current method results](results/current_method/report.md) · [Research plan](plan.md) · [Progress summary](progress.md) · [Method overview](../../README.md#zyf-分支当前方法整体流程) · [Run history](progress_history.md) · [noevent ablation plan](noevent_plan.md)
 
 This file preserves experiment history. Use the current method results for the consolidated score, task and series breakdowns, coverage, and question-level provenance.
 
