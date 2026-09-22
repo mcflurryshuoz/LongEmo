@@ -85,6 +85,91 @@ class NoEventMemoryTests(unittest.TestCase):
         self.assertNotIn("earlier private observation", json.dumps(context))
         self.assertNotIn("source_refs", json.dumps(context))
 
+    def test_known_cast_id_can_be_referenced_without_redeclaration(self):
+        memory = add_window(empty_memory("V1", 40, "sha"), window_payload())
+        original = copy.deepcopy(memory)
+        payload = window_payload(subject="P1", span=(21, 24))
+        payload["entities"] = []
+        payload["observations"].append({"id": "o2", "subject": "P1", "span": [25, 26],
+                                        "cue": "looks down", "modality": "visual"})
+        result = add_window(memory, payload, index=2)
+        self.assertEqual(memory, original)
+        self.assertEqual(len(result["entities"]), 1)
+        self.assertEqual(result["entities"][0]["source_refs"], ["W00001", "W00002"])
+        self.assertEqual(result["windows"][1]["participants"], ["P1"])
+        self.assertEqual(result["windows"][1]["emotion_cues"][0]["subject"], "P1")
+        self.assertEqual([row["subject"] for row in result["observations"]], ["P1", "P1", "P1"])
+
+    def test_known_cast_id_may_also_be_declared_once(self):
+        memory = add_window(empty_memory("V1", 40, "sha"), window_payload())
+        result = add_window(memory, window_payload(subject="P1", span=(21, 24)), index=2)
+        self.assertEqual(len(result["entities"]), 1)
+        self.assertEqual(result["entities"][0]["source_refs"], ["W00001", "W00002"])
+
+    def test_same_window_local_ids_map_consistently(self):
+        memory = empty_memory("V1", 20, "sha")
+        payload = window_payload()
+        payload["entities"].append({"id": "new_2", "name": None, "description": "person in red"})
+        payload["observations"].append({"id": "o2", "subject": "new_2", "span": [6, 8],
+                                        "cue": "smiles while listening", "modality": "visual"})
+        payload["participants"].append("new_2")
+        payload["emotion_cues"].append({"subject": "new_2", "target": "the conversation", "emotion": "pleased",
+                                        "intensity": "small smile", "evidence_ids": ["o2"]})
+        result = add_window(memory, payload)
+        self.assertEqual([row["subject"] for row in result["observations"]], ["P1", "P2"])
+        self.assertEqual(result["windows"][0]["participants"], ["P1", "P2"])
+        self.assertEqual(result["windows"][0]["emotion_cues"][1]["subject"], "P2")
+        self.assertEqual(result["windows"][0]["emotion_cues"][1]["evidence_refs"], ["O2"])
+        self.assertEqual([person["source_refs"] for person in result["entities"]], [["W00001"], ["W00001"]])
+
+    def test_unknown_subject_and_guessed_canonical_id_are_still_rejected(self):
+        for subject in ("P1", "P999", "Taylor", "undeclared", None, {"id": "new_1"}):
+            with self.subTest(subject=subject):
+                memory = empty_memory("V1", 20, "sha")
+                payload = window_payload()
+                payload["observations"][0]["subject"] = subject
+                with self.assertRaisesRegex(ValueError, "observation subject"):
+                    add_window(memory, payload)
+                self.assertEqual(memory["entities"], [])
+                self.assertEqual(memory["completed_windows"], [])
+
+    def test_unknown_emotion_subject_is_still_rejected(self):
+        memory = add_window(empty_memory("V1", 40, "sha"), window_payload())
+        original = copy.deepcopy(memory)
+        payload = window_payload(subject="P1", span=(21, 24))
+        payload["entities"] = []
+        payload["emotion_cues"][0]["subject"] = "P999"
+        with self.assertRaisesRegex(ValueError, "emotion cue subject"):
+            add_window(memory, payload, index=2)
+        self.assertEqual(memory, original)
+
+    def test_duplicate_new_and_existing_declarations_are_rejected(self):
+        for existing in (False, True):
+            with self.subTest(existing=existing):
+                memory = empty_memory("V1", 40, "sha")
+                if existing:
+                    memory = add_window(memory, window_payload())
+                original = copy.deepcopy(memory)
+                payload = window_payload(subject="P1" if existing else "new_1", span=(21, 24) if existing else (1, 5))
+                payload["entities"].append(copy.deepcopy(payload["entities"][0]))
+                with self.assertRaisesRegex(ValueError, "duplicate local entity ID"):
+                    add_window(memory, payload, index=2 if existing else 1)
+                self.assertEqual(memory, original)
+
+    def test_environment_only_window_needs_no_fabricated_person(self):
+        memory = empty_memory("V1", 20, "sha")
+        payload = {"entities": [], "observations": [], "participants": [], "emotion_cues": [],
+                   "summary": "An empty room is visible while instrumental music plays.",
+                   "actions": ["Instrumental music plays."], "objects": ["empty room"], "signals": []}
+        result = add_window(memory, payload)
+        self.assertEqual(result["completed_windows"], ["W00001"])
+        self.assertEqual(result["entities"], [])
+        self.assertEqual(result["observations"], [])
+        self.assertEqual(result["windows"][0]["observation_ids"], [])
+        self.assertEqual(result["windows"][0]["summary"], payload["summary"])
+        self.assertEqual(result["windows"][0]["actions"], payload["actions"])
+        self.assertNotIn("events", result)
+
 
 class NoEventRetrievalTests(unittest.TestCase):
     def test_answer_evidence_resolves_observations_and_people(self):

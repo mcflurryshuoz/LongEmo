@@ -81,6 +81,29 @@ class MemoryTests(unittest.TestCase):
         self.assertTrue(updated["events"][0]["summary_stale"])
         with self.assertRaises(ValueError): commit(updated, payload, window_id="W3", core=[20, 40], media=[18, 42], allow_revisions=True)
 
+    def test_continuation_can_supply_previously_unknown_confidence(self):
+        memory = commit(self.memory)
+        self.assertIsNone(memory["events"][0]["confidence"])
+        payload = observation_payload()
+        payload["entities"] = []
+        payload["observations"][0].update(subject="P1", span=[21, 23])
+        payload["events"][0].update(span=[21, 23], continues_event="E1", confidence=0.8)
+        payload["events"][0]["states"][0]["subject"] = "P1"
+        updated = commit(memory, payload, window_id="W2", core=[20, 40], media=[18, 42])
+        self.assertEqual(updated["events"][0]["confidence"], 0.8)
+        self.assertIsNone(memory["events"][0]["confidence"])
+
+    def test_unsupported_event_is_rejected_but_empty_window_is_valid(self):
+        payload = observation_payload()
+        payload["events"][0]["observation_ids"] = []
+        with self.assertRaisesRegex(ValueError, "supporting observation IDs"):
+            commit(self.memory, payload)
+        empty = {key: [] for key in ("entities", "observations", "events", "relations", "corrections")}
+        updated = commit(self.memory, empty)
+        self.assertEqual(updated["completed_windows"], ["W1"])
+        self.assertEqual(updated["entities"], [])
+        self.assertEqual(updated["events"], [])
+
     def test_subtitle_timing_and_unknown_speaker(self):
         rows = parse_srt("1\n00:00:01,000 --> 00:00:02,500\n<i>Hello</i>\n\n2\n00:00:03.000 --> 00:00:04.000\nWorld")
         self.assertEqual(rows[0]["t"], [1, 2.5])

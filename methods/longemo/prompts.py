@@ -9,6 +9,8 @@ entities: [{id: local or existing P ID, name: string|null, description: visual/v
 observations: [{id: local O ID, subject: entity ID, span:[start,end], cue: concrete observed words/behavior/tone, modality: visual|audio|subtitle|multimodal}]
 events: [{id: local ID such as new_event_1 (distinct from existing E IDs), span:[start,end], event_type: observation|action|interaction|speech|reaction|transition|outcome|evaluation, summary: concrete occurrence, action: concrete observed action|null, objects:[concrete items or topics], participants:[entity IDs], signals:[{kind:explicit_score|count|ordinal|superlative|quote|label, value:string, text:verbatim or faithful evidence}], confidence:0..1|null, observation_ids:[local O IDs], continues_event: existing E ID|null, states:[{subject:entity ID, target: what this feeling concerns, emotion: open emotion description, intensity: observed manifestations, evidence_ids:[local O IDs], uncertainty: limitations, appraisal: evidence-grounded interpretation or null}]}]
 relations: [{source: local or existing event ID, target: local or existing event ID, type: temporal|causal|changes_to|coexists_with, evidence_ids:[local O IDs]}]
+Reference rules: declare new people with local IDs such as new_1 and use that EXACT ID in every subject and participants field in this response. An existing P ID may be used only if supplied in the cast; do not guess the P ID that the program will later assign. For example, entities:[{id:"new_1",name:null,description:"woman in blue"}], observations:[{id:"o1",subject:"new_1",span:[1,2],cue:"smiles",modality:"visual"}] permits observation_ids:["o1"], not the cue text or an invented O ID. Use timestamps from the actual supplied window, not this illustrative example.
+Every emitted event must have at least one supporting observation_id from THIS response's observations. The same rule applies to every state's and relation's evidence_ids. If no supporting observation can be given, omit that event/state/relation; do not emit an empty evidence list, invent evidence, or weaken this requirement. Empty top-level lists are valid when nothing person-grounded is observed. Do not invent a person to represent music, ambience, a title card, or scenery: these may contextualize a person-grounded observation but cannot themselves be a person's subject ID.
 corrections: [] unless corrections are explicitly enabled. If later evidence corrects the interpretation of an EARLIER same-time state, use {state_id:existing S ID, expected_version:integer, emotion:string, uncertainty:string, evidence_ids:[local O IDs], reason:string}. Do not use correction for a real later emotional change. Never silently erase an earlier state or invent psychological motives. Empty arrays are allowed when there is no evidence. Keep observations detailed enough to later answer questions about emotional developments, causes, intensity comparisons and distinct repeated occurrences."""
 
 PERCEPTION_NOEVENT = """Describe the supplied audiovisual window without constructing events or a graph.
@@ -18,10 +20,21 @@ cast is an identity index only: reuse its IDs when supported; descriptions must 
 identity cues, not earlier actions, emotions or narrative history. Identify people only from the supplied frames,
 voice and grounded dialogue. Record concrete visual/audio/subtitle cues,
 actions, objects, explicit counts/quotes/labels, and cautious emotion cues with their evidence observations.
+Every observations[].subject, emotion_cues[].subject and participants[] value must exactly match either a
+local person ID declared in this response's entities or an existing P ID supplied in cast. Existing cast IDs
+may be referenced directly without redeclaring them in entities. Give newly observed people distinct local IDs
+such as new_1 and new_2; do not guess the P IDs the program will assign. For example, declaring entities[0].id
+as "new_1" means its observation uses subject:"new_1", not the person's name or a guessed "P1". If that
+observation has id:"o1", a supporting emotion cue uses subject:"new_1" and evidence_ids:["o1"]. Declare each
+person ID at most once in entities; repeated observations can reuse it. Names remain null when unknown.
+All observations and emotion cues are person-bound. Put background music, ambience and other content that
+cannot be attributed to a person in the window summary or actions; never invent a person or use null as an
+observation subject. When no person is observable, entities, observations, participants and emotion_cues may
+all be empty while summary/actions describe the window. Do not infer a person's emotion from music alone.
 The window summary is a compact description of what is observable, not a narrative reconstruction. All spans are
 ABSOLUTE VIDEO SECONDS and must overlap the core interval. Return exactly one JSON object:
-{entities:[{id:string,name:string|null,description:string}],
- observations:[{id:string,subject:string,span:[number,number],cue:string,modality:visual|audio|subtitle|multimodal}],
+{entities:[{id:local person ID or supplied cast P ID,name:string|null,description:string}],
+ observations:[{id:local observation ID,subject:declared local person ID or supplied cast P ID,span:[number,number],cue:string,modality:visual|audio|subtitle|multimodal}],
  summary:string, actions:[string], objects:[string], signals:[string], participants:[entity IDs],
  emotion_cues:[{subject:entity ID,target:string,emotion:string,intensity:string,evidence_ids:[observation IDs]}]}.
 Emotion cues describe evidence in this window only, not persistent emotional states. A directly observed causal

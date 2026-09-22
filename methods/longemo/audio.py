@@ -15,9 +15,15 @@ Return JSON {observations:[{span:[start,end],voice:string,cue:string,uncertainty
 Use absolute video seconds: add the supplied clip_start to times within the audio.
 Transcribe relevant words faithfully and describe audible tone, volume, pace, laughter,
 hesitation, interruptions and changes. Distinguish speech from audience laughter or music.
-Voice is a local acoustic description, not an inferred actor/character identity.
+Every observation needs a nonempty voice field describing its audible source.
+For speech, use a local acoustic description such as "unknown speaker: low, quiet voice";
+never infer an actor/character identity from the voice. For music use "non-speech: music";
+for environmental/background sounds use "non-speech: ambience". Describe audience laughter
+as "non-speech: audience laughter" when that source is audible. Do not use an empty voice
+for non-speech sounds or an unidentified speaker. The cue must also be nonempty and factual.
 Do not invent visuals, motives or psychological conclusions. Mark uncertain words or timing.
-Cover the whole clip; an empty list is valid for silence. Observations are evidence hypotheses,
+Cover the whole clip; for genuine silence return observations:[] without inventing a source.
+An empty observations list is valid. Observations are evidence hypotheses,
 not reference annotations."""
 
 

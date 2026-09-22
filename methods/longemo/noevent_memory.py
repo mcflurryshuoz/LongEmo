@@ -80,16 +80,17 @@ def apply_window(memory, payload, *, window_id, core, media, metadata):
             raise ValueError(f"{field} must be a list")
     result = copy.deepcopy(memory)
     entities = {p["id"]: p for p in result["entities"]}
-    entity_map = {}
+    provided_ids = set(entities)
+    entity_map = {person_id: person_id for person_id in provided_ids}
+    local_ids, referenced_people = set(), set()
     for item in payload["entities"]:
         local = _text(item.get("id"), "entity.id")
-        if local in entity_map:
+        if local in local_ids:
             raise ValueError("duplicate local entity ID")
+        local_ids.add(local)
         name = _text(item.get("name"), "entity.name", optional=True)
         desc = _text(item.get("description"), "entity.description")
-        if local in entities:
-            entity_map[local] = local
-            entities[local]["source_refs"].append(window_id)
+        if local in provided_ids:
             if name and not entities[local].get("name"):
                 entities[local]["name"] = name
         else:
@@ -98,14 +99,16 @@ def apply_window(memory, payload, *, window_id, core, media, metadata):
             record = {"id": canonical, "name": name, "description": desc, "source_refs": [window_id]}
             result["entities"].append(record)
             entities[canonical] = record
+        referenced_people.add(entity_map[local])
     observations = {}
     for item in payload["observations"]:
         local = _text(item.get("id"), "observation.id")
         if local in observations:
             raise ValueError("duplicate local observation ID")
         subject = item.get("subject")
-        if subject not in entity_map:
+        if not isinstance(subject, str) or subject not in entity_map:
             raise ValueError("observation subject must reference a declared entity")
+        referenced_people.add(entity_map[subject])
         modality = item.get("modality")
         if modality not in ("visual", "audio", "subtitle", "multimodal"):
             raise ValueError("unsupported observation modality")
@@ -127,8 +130,9 @@ def apply_window(memory, payload, *, window_id, core, media, metadata):
         raise ValueError("emotion_cues must be a list")
     for cue in raw_cues:
         subject = cue.get("subject")
-        if subject not in entity_map:
+        if not isinstance(subject, str) or subject not in entity_map:
             raise ValueError("emotion cue subject must be declared")
+        referenced_people.add(entity_map[subject])
         refs = cue.get("evidence_ids")
         if not isinstance(refs, list) or not refs or any(x not in observations for x in refs):
             raise ValueError("emotion cue needs supporting observation IDs")
@@ -139,6 +143,11 @@ def apply_window(memory, payload, *, window_id, core, media, metadata):
     participants = _list(payload.get("participants"), "window.participants")
     if any(subject not in entity_map for subject in participants):
         raise ValueError("window participant must reference a declared entity")
+    referenced_people.update(entity_map[subject] for subject in participants)
+    for person_id in referenced_people:
+        source_refs = entities[person_id]["source_refs"]
+        if window_id not in source_refs:
+            source_refs.append(window_id)
     window = {"id": window_id, "core": list(core), "media": list(media),
               "summary": _text(payload.get("summary"), "window.summary"),
               "actions": _list(payload.get("actions"), "window.actions"),
