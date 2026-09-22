@@ -17,11 +17,11 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融进度
 
-2026-09-22 22:39 CST 快照：全集 **558题／141视频**，已完成试跑首分继承，正在优先跑 noevent，之后自动跑 base／method。
+2026-09-22 23:05 CST 快照：全集 **558题／141视频**，已完成试跑首分继承，正在优先跑 noevent，之后自动跑 base／method。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 82/558 | 35.26 |
+| noevent | 93/558 | 33.87 |
 | base | 13/558 | 63.46 |
 | method | 13/558 | 69.23 |
 
