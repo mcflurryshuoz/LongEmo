@@ -21,6 +21,18 @@ from .stream_retrieval import retrieve_stream
 from .progressive_retrieval import expand_disclosure, initial_disclosure, validate_expand_request
 
 
+HYBRID_GRAPH_TASKS = ("emotional intensity comparison", "emotional reasoning")
+
+
+def _routing_configuration(args):
+    """Keep the historical task route explicit and fingerprinted."""
+    policy = getattr(args, "progressive_routing", "task")
+    if policy not in ("task", "none"):
+        raise ValueError("unknown progressive routing policy")
+    tasks = list(HYBRID_GRAPH_TASKS) if args.retrieval == "progressive" and policy == "task" else []
+    return {"progressive_routing": policy, "hybrid_graph_tasks": tasks}
+
+
 def client_for(args):
     from evaluation.azure_transport import is_azure
     if args.base_url and is_azure(args.base_url):
@@ -209,15 +221,12 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
     retrieval_trace = {}
     dense_scores = dense_index.rank(public["question"]) if dense_index is not None else None
     disclosure_state = None
-    # Progressive disclosure is most useful for trajectory questions, where
-    # the answer depends on following an event flow.  Intensity comparisons
-    # and reasoning questions are better served by the stable full graph
-    # packet used by base: their errors usually come from missing a contrast
-    # or a causal bridge rather than from missing a later temporal page.
-    hybrid_graph = args.retrieval == "progressive" and public["type"] in {
-        "emotional intensity comparison", "emotional reasoning"
-    }
+    # Default to the historical task route; pure progressive experiments
+    # explicitly disable it so every question uses disclosure and expansion.
+    routing = _routing_configuration(args)
+    hybrid_graph = public["type"] in routing["hybrid_graph_tasks"]
     effective_retrieval = "graph" if hybrid_graph else args.retrieval
+    routing.update(requested_retrieval=args.retrieval, effective_retrieval=effective_retrieval)
     if effective_retrieval == "progressive":
         evidence, disclosure_state = initial_disclosure(
             memory, public["question"], plan, dense_scores=dense_scores,
@@ -284,13 +293,15 @@ def _answer_one(q, memory, args, client, output, dense_index=None, stream_index=
                         "instruction": "Reassess only with evidence; the supplied source is read-only and does not alter the shared memory."}
         messages.append({"role": "user", "content": content + [{"type": "text", "text": json.dumps(instructions)}]})
     valid_ids = {e["id"] for e in memory["events"]} | {o["id"] for o in memory["observations"]}
-    trace = {"question": public, "plan": plan, "retrieval": evidence, "recall_trace": retrieval_trace,
+    trace = {"question": public, "plan": plan, "retrieval": evidence, "routing": routing,
+             "recall_trace": retrieval_trace,
              "disclosure_state": disclosure_state, "inspection_trace": inspections,
              "answer": result, "invalid_evidence_ids": [i for i in result["evidence_ids"] if i not in valid_ids],
              "evidence_characters": len(json.dumps(evidence, ensure_ascii=False)), "usage": usage_summary(api.ledger)}
     write_json(output / "traces" / (qid + ".json"), trace)
     method_name = "longemo-" + args.retrieval + ("-graph-routed" if hybrid_graph else "")
     return {**public, "status": "ok", "prediction": result["answer"].strip(), "method": method_name,
+            "routing": routing,
             "memory_fingerprint": memory["build_fingerprint"], "memory_sha256": fingerprint(memory),
             "inspection_seconds": seconds_used, "usage": trace["usage"]}
 
@@ -340,7 +351,7 @@ def answer(args):
         {k: q[k] for k in ("question_id", "video_id", "question", "type")} for q in questions],
         "memories": hashes, "retrieval": args.retrieval, "evidence_chars": args.evidence_chars,
         "hybrid_graph_evidence_chars": args.hybrid_graph_evidence_chars,
-        "hybrid_graph_tasks": ["emotional intensity comparison", "emotional reasoning"],
+        **_routing_configuration(args),
         "top_k": args.top_k, "stream_page_size": args.stream_page_size,
         "progressive_anchor_k": args.progressive_anchor_k,
         "progressive_rounds": args.progressive_rounds,
@@ -405,6 +416,8 @@ def parser():
             command.add_argument("--memory-dir", required=True)
             command.add_argument("--plans-dir", help="Optional shared frozen plans for fair retrieval comparisons")
             command.add_argument("--retrieval", choices=("graph", "graph_stream", "progressive", "flat", "direct"), default="graph")
+            command.add_argument("--progressive-routing", choices=("task", "none"), default="task",
+                                 help="task preserves the historical intensity/reasoning graph fallback; none uses progressive disclosure for every question")
             command.add_argument("--direct-frames", type=int, default=128)
             command.add_argument("--embedding-backend", choices=("gemini", "gemini-native", "local"), default="gemini")
             command.add_argument("--embedding-base-url", help="Explicit embedding service URL; native Gemini uses /v1beta")

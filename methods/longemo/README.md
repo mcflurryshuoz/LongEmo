@@ -40,6 +40,27 @@ The experiment uses 20-second windows plus 2-second context, 1 fps, at most 24 f
 
 Individual stage commands are `python -m methods.longemo build ...` and `python -m methods.longemo answer ...`; see `--help`. For GPT-6 audio input, `--with-audio --audio-model google/gemini-3.8-flash` is required. `answer --retrieval graph` requires working dense embeddings and fails explicitly otherwise. `--retrieval direct` selects the shared-audio baseline. Legacy `flat` is only a semantic diagnostic. Shared `--plans-dir` freezes planning between graph and graph-plus-inspection. `--memory-dir` on the experiment command reuses a complete frozen graph.
 
+### Pure progressive and task-routed comparisons
+
+`--retrieval progressive --progressive-routing none` uses progressive disclosure for **every question type**. The default `--progressive-routing task` preserves the historical hybrid: trajectory uses progressive disclosure, while intensity comparison and emotional reasoning use graph retrieval. The selected policy, fallback tasks and actual per-question route are recorded in manifests, traces and predictions; the policy contributes to the configuration fingerprint. A policy or source change requires a new output directory.
+
+For the event-graph retrieval ablation, build the event memory once and freeze its hashes, embedding index and question plans. Run `--retrieval graph` for the base control and the following for pure method, using separate answer directories:
+
+```bash
+python -m methods.longemo answer \
+  --data-path /ABS/pilot_questions.json --memory-dir /ABS/event_memory \
+  --plans-dir /ABS/frozen_event_plans --output-dir /ABS/method_pure_answers \
+  --credential-file /ABS/private/answer.json \
+  --model gpt-6-astra --base-url https://matrixllm.alipay.com/v1 \
+  --retrieval progressive --progressive-routing none \
+  --embedding-backend gemini --embedding-model google/gemini-embedding-2 \
+  --embedding-cache-dir /ABS/frozen_event_embeddings \
+  --evidence-chars 48000 --top-k 12 --max-inspections 0 \
+  --progressive-anchor-k 4 --progressive-rounds 3 --workers 16 --tries 3
+```
+
+Precompute shared plans and embeddings before starting concurrent answer workers. The window-only `noevent` arm uses its own memories, plans and embeddings because its person index and representation differ. Schema v2 action/object/signal fields remain in progressive evidence, including a compact oversized anchor. The evidence character limit applies to each disclosure packet; report cumulative tokens and calls separately when comparing one-shot and multi-round retrieval.
+
 Put FFmpeg on PATH and temporary files/cache/downloads on a roomy volume; do not use a full system disk. `--embedding-backend local --embedding-model intfloat/multilingual-e5-base` explicitly selects the pinned CPU E5 backend and requires Torch/Transformers. Primary API embedding needs only NumPy.
 
 ## Artifacts and reproducibility

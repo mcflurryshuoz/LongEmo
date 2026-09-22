@@ -128,6 +128,9 @@ def _compact_record(record):
                "summary": record.get("summary", ""), "states": record.get("states", []),
                "observations": record.get("observations", []), "people": record.get("people", []),
                "relations": record.get("relations", [])}
+    compact.update({key: record[key] for key in
+                    ("event_type", "actions", "objects", "participants", "signals", "confidence")
+                    if key in record})
     return compact
 
 
@@ -141,9 +144,9 @@ def _fit_payload(events, budget_chars):
             # disclosure.  Preserve its identity and state while dropping
             # verbose observations/relations for this page.
             if not selected:
-                compact = {"id": record.get("id"), "spans": record.get("spans", []),
-                           "summary": str(record.get("summary", ""))[:2000],
-                           "states": record.get("states", [])}
+                compact = {key: value for key, value in compact.items()
+                           if key not in ("observations", "relations", "people")}
+                compact["summary"] = str(record.get("summary", ""))[:2000]
                 selected.append(compact)
             break
         selected.append(compact)

@@ -55,6 +55,24 @@ class ProgressiveRetrievalTests(unittest.TestCase):
         self.assertEqual(len(evidence["events"]), 1)
         self.assertEqual(len(state["revealed_ids"]), 1)
 
+    def test_schema_v2_fields_reach_normal_and_oversized_disclosure(self):
+        details = {"event_type": "evaluation", "actions": ["rates the dish"],
+                   "objects": ["dish"], "participants": ["P1"],
+                   "signals": [{"kind": "explicit_score", "value": "8.5", "text": "rates it 8.5"}],
+                   "confidence": 0.9}
+        self.memory["events"][0].update(details)
+        for oversized in (False, True):
+            with self.subTest(oversized=oversized):
+                if oversized:
+                    self.memory["events"][0]["summary"] = "x" * 100000
+                before = copy.deepcopy(self.memory)
+                evidence, _ = initial_disclosure(self.memory, "How does the woman rate the dish?",
+                    self.plan, dense_scores=self.dense, stream_index=self.index, anchor_k=1,
+                    budget_chars=1000 if oversized else 48000)
+                event = next(event for event in evidence["events"] if event["id"] == "E1")
+                self.assertEqual({key: event[key] for key in details}, details)
+                self.assertEqual(self.memory, before)
+
 
 if __name__ == "__main__":
     unittest.main()
