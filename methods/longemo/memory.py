@@ -6,7 +6,7 @@ import math
 
 
 def empty_memory(video_id, duration, video_sha):
-    return {"schema_version": 1, "video_id": video_id, "duration": duration, "video_sha256": video_sha,
+    return {"schema_version": 2, "video_id": video_id, "duration": duration, "video_sha256": video_sha,
             "entities": [], "observations": [], "events": [], "relations": [], "sources": [],
             "state_history": [], "completed_windows": []}
 
@@ -34,6 +34,42 @@ def references(values, mapping, field):
     if any(not isinstance(x, str) or x not in mapping for x in values):
         raise ValueError(f"unknown reference in {field}")
     return list(dict.fromkeys(mapping[x] for x in values))
+
+
+def text_list(value, field):
+    if value is None:
+        return []
+    if not isinstance(value, list) or any(not isinstance(item, str) or not item.strip() for item in value):
+        raise ValueError(f"{field} must contain text values")
+    return list(dict.fromkeys(item.strip() for item in value))
+
+
+def confidence(value, field):
+    if value is None:
+        return None
+    if type(value) not in (int, float) or not math.isfinite(value) or not 0 <= value <= 1:
+        raise ValueError(f"{field} must be between 0 and 1")
+    return float(value)
+
+
+SIGNAL_KINDS = {"explicit_score", "count", "ordinal", "superlative", "quote", "label"}
+EVENT_TYPES = {"observation", "action", "interaction", "speech", "reaction", "transition", "outcome", "evaluation"}
+
+
+def signals(value, field):
+    if value is None:
+        return []
+    if not isinstance(value, list):
+        raise ValueError(f"{field} must be a list")
+    result = []
+    for signal in value:
+        if not isinstance(signal, dict) or signal.get("kind") not in SIGNAL_KINDS:
+            raise ValueError(f"{field}.kind is invalid")
+        kind = signal["kind"]
+        value_text = text(signal.get("value"), f"{field}.value")
+        evidence_text = text(signal.get("text"), f"{field}.text")
+        result.append({"kind": kind, "value": value_text, "text": evidence_text})
+    return result
 
 
 def state_index(memory):
@@ -110,16 +146,51 @@ def apply_window(memory, payload, *, window_id, core, media, metadata, allow_rev
         if previous is not None:
             if previous not in existing:
                 raise ValueError("continues_event must refer to an existing event")
+            event_type = text(item.get("event_type", existing[previous].get("event_type", "observation")),
+                              "event.event_type")
+            if event_type not in EVENT_TYPES:
+                raise ValueError("event.event_type is invalid")
             event = existing[previous]
+            event["event_type"] = event_type
             event["version"] += 1
             event["spans"].append(interval)
             event["observation_refs"] = list(dict.fromkeys(event["observation_refs"] + refs))
             event["window_ids"].append(window_id)
             event["updates"].append({"window": window_id, "summary": text(item.get("summary"), "event.summary")})
+            action = text(item.get("action"), "event.action", optional=True)
+            if action:
+                event["actions"] = list(dict.fromkeys(event.get("actions", []) + [action]))
+            event["objects"] = list(dict.fromkeys(event.get("objects", []) + text_list(item.get("objects"), "event.objects")))
+            participant_locals = text_list(item.get("participants"), "event.participants")
+            if any(p not in entity_map for p in participant_locals):
+                raise ValueError("event.participants must reference declared entities")
+            event["participants"] = list(dict.fromkeys(event.get("participants", []) +
+                [entity_map[p] for p in participant_locals]))
+            event["signals"] = event.get("signals", []) + signals(item.get("signals"), "event.signals")
+            current_confidence = confidence(item.get("confidence"), "event.confidence")
+            if current_confidence is not None:
+                event["confidence"] = max(event.get("confidence", 0.0), current_confidence)
         else:
+            action = text(item.get("action"), "event.action", optional=True)
+            event_type = text(item.get("event_type", "observation"), "event.event_type")
+            if event_type not in EVENT_TYPES:
+                raise ValueError("event.event_type is invalid")
+            objects = text_list(item.get("objects"), "event.objects")
+            participant_locals = text_list(item.get("participants"), "event.participants")
+            if any(p not in entity_map for p in participant_locals):
+                raise ValueError("event.participants must reference declared entities")
+            participants = [entity_map[p] for p in participant_locals]
+            participants = list(dict.fromkeys(participants + [entity_map[s["subject"]] for s in item.get("states", [])
+                                                               if s.get("subject") in entity_map]))
+            event_signals = signals(item.get("signals"), "event.signals")
+            event_confidence = confidence(item.get("confidence"), "event.confidence")
             event = {"id": f"E{len(result['events'])+1}", "version": 1, "spans": [interval],
                      "summary": text(item.get("summary"), "event.summary"), "observation_refs": refs,
-                     "window_ids": [window_id], "states": [], "updates": []}
+                     "window_ids": [window_id], "states": [], "updates": [],
+                     "event_type": event_type,
+                     "actions": [action] if action else [], "objects": objects,
+                     "participants": participants, "signals": event_signals,
+                     "confidence": event_confidence}
             result["events"].append(event)
             existing[event["id"]] = event
         event_map[local] = event["id"]

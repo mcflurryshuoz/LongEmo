@@ -106,6 +106,24 @@ class MemoryTests(unittest.TestCase):
         plan["time_range"] = [0, float("inf")]
         with self.assertRaises(ValueError): validate_plan(plan)
 
+    def test_event_comparison_fields_are_validated_and_preserved(self):
+        payload = observation_payload()
+        payload["events"][0].update(event_type="evaluation", action="rates the dish",
+            objects=["dish"], participants=["new_1"],
+            signals=[{"kind": "explicit_score", "value": "8.5", "text": "rates it 8.5"}],
+            confidence=0.9)
+        updated = commit(self.memory, payload)
+        event = updated["events"][0]
+        self.assertEqual(updated["schema_version"], 2)
+        self.assertEqual(event["event_type"], "evaluation")
+        self.assertEqual(event["actions"], ["rates the dish"])
+        self.assertEqual(event["objects"], ["dish"])
+        self.assertEqual(event["signals"][0]["value"], "8.5")
+        self.assertEqual(event["confidence"], 0.9)
+        bad = observation_payload()
+        bad["events"][0]["signals"] = [{"kind": "made_up", "value": "1", "text": "x"}]
+        with self.assertRaises(ValueError): commit(self.memory, bad)
+
 
 class IntegrationTests(unittest.TestCase):
     def test_question_answering_excludes_gold_and_preserves_memory(self):

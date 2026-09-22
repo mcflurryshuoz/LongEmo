@@ -77,7 +77,10 @@ def retrieve(memory, question, plan, *, mode="graph", budget_chars=48000, top_k=
     query = question + " " + " ".join(plan["entity_terms"] + plan["target_terms"] + plan["query_terms"])
     lexical = bm25([json.dumps(record, ensure_ascii=False) for record in records], query)
     entity_hits = [term_match(plan["entity_terms"], json.dumps(r["people"], ensure_ascii=False)) for r in records]
-    target_hits = [term_match(plan["target_terms"], " ".join(s["target"]+" "+s["emotion"] for s in r["states"])) for r in records]
+    target_hits = [term_match(plan["target_terms"], " ".join(
+        [" ".join(r.get("actions", [])), " ".join(r.get("objects", [])),
+         " ".join(sig.get("value", "") + " " + sig.get("text", "") for sig in r.get("signals", []))] +
+        [s["target"] + " " + s["emotion"] for s in r["states"]])) for r in records]
     semantic = [score + 3*person + 2*target for score, person, target in zip(lexical, entity_hits, target_hits)]
     semantic_ranked = sorted(range(len(events)), key=lambda i: (-semantic[i], event_bounds(events[i])[0]))
     global_scope = plan["mode"] in ("trajectory", "comparison", "count", "causal")
