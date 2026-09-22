@@ -1,3 +1,5 @@
+import argparse
+import io
 import json
 from pathlib import Path
 import sys
@@ -6,8 +8,8 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
-from experiments.zyf.matched_pilot import (accept_scores, assert_identity_stopped, common_args, digest,
-    execute, freeze, inherit_parent, memory_root, parent_failure, parser, read, run_command, run_lock,
+from experiments.zyf.matched_pilot import (accept_scores, assert_identity_stopped, child_clients, common_args, digest,
+    execute, freeze, inherit_parent, memory_root, parent_failure, parser, perception_config, prepare, read, run_command, run_lock,
     select_questions, sha, stage_exit_code, summary, validate_parent_checkpoint, video_tasks, write)
 
 
@@ -72,6 +74,74 @@ class MatchedPilotTests(unittest.TestCase):
         for stage, expected in (("build", 3), ("plan", 2), ("answer", 4), ("score", 1)):
             command = common_args(config, stage)
             self.assertEqual(command[command.index("--tries") + 1], str(expected))
+
+    def test_perception_client_is_separate_and_legacy_defaults_remain_compatible(self):
+        legacy = {"model": "gpt-6-astra", "base_url": "https://reason.invalid/v1", "timeout": 1800}
+        explicit = {**legacy, "perception_model": "gemini-3.8-flash",
+                    "perception_base_url": "https://vision.invalid/v1", "perception_timeout": 240}
+        self.assertEqual(perception_config(legacy), legacy)
+        for stage in ("build", "plan", "answer", "score"):
+            command = common_args(explicit, stage)
+            self.assertEqual(command[command.index("--model") + 1], "gemini-3.8-flash" if stage == "build" else "gpt-6-astra")
+            self.assertEqual(command[command.index("--base-url") + 1],
+                             "https://vision.invalid/v1" if stage == "build" else "https://reason.invalid/v1")
+            self.assertEqual(command[command.index("--timeout") + 1], "240" if stage == "build" else "1800")
+
+    def test_prepare_freezes_effective_perception_defaults_and_overrides(self):
+        repo = self.root / "repo"
+        (repo / "methods/longemo").mkdir(parents=True)
+        (repo / "methods/longemo/runner.py").write_text("# --progressive-routing\n")
+        (repo / "evaluation").mkdir()
+        for name in ("eval.py", "judge_prompts.py", "metrics.py"):
+            (repo / "evaluation" / name).write_text("# fixture\n")
+        media = self.root / "media"
+        media.mkdir()
+        rows = [{"question_id": f"Q{i}", "video_id": f"V{i % 21}", "granularity": "episode"} for i in range(50)]
+        questions = self.root / "questions.json"
+        write(questions, rows)
+        for i in range(21):
+            (media / f"V{i}.mp4").write_bytes(b"fixture")
+            write(media / f"V{i}.json", [])
+        command = ["prepare", "--method-repo", str(repo), "--noevent-repo", str(repo), "--runtime", str(self.root),
+                   "--run-name", "test", "--questions", str(questions), "--credential-file", "unused",
+                   "--videos-dir", str(media), "--subtitles-dir", str(media)]
+        defaults, _ = prepare(parser().parse_args(command), self.root / "default")
+        self.assertEqual(defaults["perception_model"], defaults["model"])
+        self.assertEqual(defaults["perception_base_url"], defaults["base_url"])
+        self.assertEqual(defaults["perception_timeout"], defaults["timeout"])
+        changed, _ = prepare(parser().parse_args(command + ["--perception-model", "gemini-3.8-flash",
+            "--perception-base-url", "https://vision.invalid/v1", "--perception-timeout", "240"]), self.root / "changed")
+        self.assertEqual(changed["perception_model"], "gemini-3.8-flash")
+        self.assertEqual(changed["perception_base_url"], "https://vision.invalid/v1")
+        self.assertEqual(changed["perception_timeout"], 240)
+        self.assertEqual(changed["model"], defaults["model"])
+        self.assertEqual(changed["base_url"], defaults["base_url"])
+        self.assertEqual(changed["timeout"], defaults["timeout"])
+
+    def test_offline_client_inspection_uses_perception_settings(self):
+        def fake_parser():
+            p = argparse.ArgumentParser()
+            p.add_argument("command")
+            for name in ("data-path", "videos-dir", "output-dir", "credential-file", "model", "base-url",
+                         "max-tokens", "timeout", "tries", "audio-model", "audio-base-url"):
+                p.add_argument("--" + name)
+            p.add_argument("--with-audio", action="store_true")
+            return p
+
+        def visual_client(options):
+            return SimpleNamespace(configuration=lambda: {"model": options.model, "base_url": options.base_url,
+                                                           "timeout": options.timeout})
+
+        config = {"model": "answer", "base_url": "https://answer.invalid/v1", "timeout": 1800,
+                  "perception_model": "visual", "perception_base_url": "https://vision.invalid/v1",
+                  "perception_timeout": 240, "audio_model": "audio", "audio_base_url": "https://audio.invalid/v1"}
+        modules = {"methods.longemo.runner": SimpleNamespace(parser=fake_parser, client_for=visual_client),
+                   "methods.longemo.audio": SimpleNamespace(audio_client_for=lambda _: SimpleNamespace(configuration=lambda: {"model": "audio"}))}
+        output = io.StringIO()
+        with patch.dict(sys.modules, modules), patch("sys.stdin", io.StringIO(json.dumps(config))), patch("sys.stdout", output):
+            self.assertEqual(child_clients(SimpleNamespace(repo=str(self.root), credential_file="unused")), 0)
+        result = json.loads(output.getvalue())
+        self.assertEqual(result["model"], {"model": "visual", "base_url": "https://vision.invalid/v1", "timeout": "240"})
 
     def test_parent_live_or_unverifiable_identity_is_rejected(self):
         from experiments.zyf.matched_pilot import pid_identity
@@ -191,6 +261,24 @@ class MatchedPilotTests(unittest.TestCase):
             write(parent / "accepted/base/Q0.json", {"score": 0})
             with self.assertRaisesRegex(ValueError, "scoring attempts"):
                 inherit_parent(args, scored, config)
+
+    def test_parent_import_rejects_any_effective_perception_change(self):
+        parent, run, args, config, clients = self.parent_fixture()
+        for field, value in (("perception_model", "different-model"),
+                             ("perception_base_url", "https://different.invalid/v1"),
+                             ("perception_timeout", 240)):
+            with self.subTest(field=field), patch("experiments.zyf.matched_pilot.stopped_parent"), patch(
+                    "experiments.zyf.matched_pilot.inspect_client_configs", return_value=clients) as inspection:
+                with self.assertRaisesRegex(ValueError, "effective perception configuration differs"):
+                    inherit_parent(args, run, {**config, field: value})
+                inspection.assert_not_called()
+        # An explicit setting equivalent to the legacy fallback remains safe.
+        explicit = {**config, "perception_model": config["model"], "perception_base_url": config["base_url"],
+                    "perception_timeout": config["timeout"]}
+        with patch("experiments.zyf.matched_pilot.stopped_parent"), patch(
+                "experiments.zyf.matched_pilot.inspect_client_configs", return_value=clients):
+            inherit_parent(args, run, explicit)
+        self.assertTrue((run / "inheritance/manifest.json").exists())
 
     def test_zero_exit_with_incomplete_build_or_plans_is_error_without_stopping_peer(self):
         for stage in ("build", "plan"):

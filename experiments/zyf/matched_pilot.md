@@ -10,6 +10,8 @@
 
 默认感知配置为 Matrix GPT-6 视觉、BlackAI Gemini 3.8 Flash 音频、20 秒窗口＋2 秒边界、1 fps、24 帧、200704 像素；提供方和模型均可通过命令行覆盖并冻结到运行配置。规划、回答和 judge 为同一 GPT-6，Embedding 为 OpenRouter Gemini Embedding 2。三路使用相同的 `--evidence-chars 48000` 预算参数；method 的覆盖信息与超大记录可能使实际证据超出该参数，不能将其写成严格 JSON 上限。实际输入字符和累计 token 按 trace／调用账本另行统计，不声称总推理预算相同。
 
+视觉感知与后端模型分别配置：`--perception-model`、`--perception-base-url`、`--perception-timeout` 只影响 build 和离线 client 校验，缺省分别继承 `--model`、`--base-url`、`--timeout`。规划、回答、官方 judge 始终使用后者；音频继续独立使用 `--audio-model`／`--audio-base-url`，其180秒超时不变。实际生效的配置全部冻结。
+
 ## 启动
 
 在部署了脚本的 noevent checkout 执行，路径按部署填写，凭证放在仓库外：
@@ -38,6 +40,8 @@ nohup python -u -m experiments.zyf.matched_pilot all "${common[@]}" \
 
 `--gate-video` 保留完整50题清单，先只调度该视频的两种记忆构建、规划、三套回答和官方评分；三种条件均有该视频全部问题的首次有效评分才放行其余视频。`G2_V000001` 是这21视频中最短的一个，约245秒、13个窗口。任何一步失败都写 `gate.json` 并暂停尚未启动的队列；重新运行不会清除失败或重置预算。成功视频的记忆、答案及首分在同一运行内复用。未通过门槛时必须使用 `all`，不能通过单独阶段绕过门槛。
 
+例如，独立验证 Matrix Gemini 3.8 Flash 视觉时可在新运行增加 `--perception-model gemini-3.8-flash --perception-base-url https://matrixllm.alipay.com/v1 --perception-timeout 240`；GPT-6 规划／回答／评分及其1800秒超时保持原配置。配置示例不代表已通过完整视频门槛。
+
 若只需独立完整视频实验，可改为 `--mode smoke --video-id G2_V000001` 并使用另一个运行目录；它从固定50题集合裁剪该视频的问题。脚本不提供截短窗口的“完整视频”模式，单窗口服务成功不算贯通。
 
 `--build-workers` 是两路感知合计的视频并发，默认 **12**。队列按每个视频的 event／noevent 交错排列，使两路同步开始，初始目标约每路 6 个；任务时长不同会使实际分配变化。同一提供方的限制须按两路请求合计遵守。后续最多 `--video-workers × --question-workers` 个题目请求；每个 event 视频先跑 base，再跑 method，避免同时构建同一向量索引。base 与 method 使用感知完成后预先生成并校验 SHA 的共同 plans，noevent 独立规划。
@@ -48,7 +52,7 @@ nohup python -u -m experiments.zyf.matched_pilot all "${common[@]}" \
 
 本次修正后的独立协议可通过 `--parent-run /root/longemo/runtime/runs/three_level_pilot50_matched_20260922` 导入父运行已完成的窗口，同时必须使用新的 `--run-name`。父运行须是同一固定50题协议，协调器锁可取，协调器与所有已记录子进程的 PID／start ticks 均证明已退出；跨主机身份或缺失的活跃进程记录会阻止导入。父运行出现任何评分行或已接受首分时，本导入器拒绝执行，须另行审计首分来源；它不会重抽已评分题。
 
-导入核验视频／字幕 SHA、完整模型 client 配置、采样、连续完成窗口，以及逐窗口重放得到的记忆。仅复制已提交的 `memory.json`、窗口产物及这些窗口对应的已核验音频；新构建器生成自己的 manifest 和 build fingerprint。旧 manifest、调用账本和未提交窗口的音频进入 `inheritance/history`，不作为新配置缓存使用。每个文件的来源、SHA和处理决定保存在 `inheritance/manifest.json`；旧目录不修改，也不覆盖未知新文件。
+导入核验视频／字幕 SHA、完整模型 client 配置、采样、连续完成窗口，以及逐窗口重放得到的记忆。父运行没有独立感知字段时按其原 `model`／`base_url`／`timeout` 解析；任一有效视觉模型、端点或超时改变都拒绝窗口继承，须使用无父检查点的新运行。仅复制已提交的 `memory.json`、窗口产物及这些窗口对应的已核验音频；新构建器生成自己的 manifest 和 build fingerprint。旧 manifest、调用账本和未提交窗口的音频进入 `inheritance/history`，不作为新配置缓存使用。每个文件的来源、SHA和处理决定保存在 `inheritance/manifest.json`；旧目录不修改，也不覆盖未知新文件。
 
 同一提供方已明确拒绝的媒体，两种表示均继承 `blocked_content`，避免仅换表示后重复请求；未知 HTTP 428 仅阻断原失败表示，等待诊断。已记录的结构／JSON错误和 `RemoteDisconnected` 可以在新协议中获得一次断点任务，仍遵守冻结的请求次数。其他未知错误、认证或额度故障保留阻断，不增加外层重启循环。父运行已完成窗口及拒绝证据均保留，即使该视频继续阻断。
 

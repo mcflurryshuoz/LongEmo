@@ -169,6 +169,9 @@ def prepare(args, run):
               "source_hashes": {"event": source_hash(method), "noevent": source_hash(noevent)},
               "coordinator_sha256": sha(__file__), "python": args.python,
               "model": args.model, "base_url": args.base_url, "audio_model": args.audio_model,
+              "perception_model": args.perception_model or args.model,
+              "perception_base_url": args.perception_base_url or args.base_url,
+              "perception_timeout": args.perception_timeout if args.perception_timeout is not None else args.timeout,
               "audio_base_url": args.audio_base_url, "embedding_model": args.embedding_model,
               "embedding_base_url": args.embedding_base_url, "evidence_chars": 48000,
               "window_seconds": 20, "padding": 2, "fps": 1, "max_frames": 24, "max_pixels": 200704,
@@ -186,10 +189,18 @@ def prepare(args, run):
     return config, questions
 
 
+def perception_config(config):
+    """Resolve legacy runs that used one model for perception and reasoning."""
+    return {"model": config.get("perception_model") or config["model"],
+            "base_url": config.get("perception_base_url") or config["base_url"],
+            "timeout": config["timeout"] if config.get("perception_timeout") is None else config["perception_timeout"]}
+
+
 def common_args(config, stage="build"):
     tries = 1 if stage == "score" else config.get("stage_tries", {}).get(stage, config.get("tries", 3))
-    return ["--model", config["model"], "--base-url", config["base_url"], "--max-tokens", "8192",
-            "--timeout", str(config["timeout"]), "--tries", str(tries)]
+    model = perception_config(config) if stage == "build" else config
+    return ["--model", model["model"], "--base-url", model["base_url"], "--max-tokens", "8192",
+            "--timeout", str(model["timeout"]), "--tries", str(tries)]
 
 
 def memory_root(run, branch, video):
@@ -270,7 +281,8 @@ def child_clients(args):
     from methods.longemo.runner import parser as method_parser, client_for
     from methods.longemo.audio import audio_client_for
     config = json.load(sys.stdin)
-    if "azure" in config["base_url"] or "cognitiveservices" in config["base_url"]:
+    base_url = perception_config(config)["base_url"]
+    if "azure" in base_url or "cognitiveservices" in base_url:
         raise ValueError("offline inheritance inspection does not refresh Azure credentials")
     options = method_parser().parse_args(["build", "--data-path", "unused", "--videos-dir", "unused",
         "--output-dir", "unused", "--credential-file", args.credential_file, *common_args(config, "build"),
@@ -378,6 +390,8 @@ def inherit_parent(args, run, config):
         for key in ("model", "base_url", "audio_model", "audio_base_url", "window_seconds", "padding", "fps", "max_frames", "max_pixels", "max_tokens", "timeout"):
             if old.get(key) != config[key]:
                 raise ValueError(f"parent protocol differs: {key}")
+        if perception_config(old) != perception_config(config):
+            raise ValueError("parent effective perception configuration differs; use a fresh run without inherited windows")
         clients = {branch: inspect_client_configs(args, config, repo) for branch, repo in config["repos"].items()}
         decisions = {}
         for branch, video in video_tasks(sorted(config["media"])):
@@ -741,6 +755,9 @@ def parser():
     p.add_argument("--python", default=sys.executable)
     p.add_argument("--model", default="gpt-6-astra")
     p.add_argument("--base-url", default="https://matrixllm.alipay.com/v1")
+    p.add_argument("--perception-model", help="Visual perception model; defaults to --model")
+    p.add_argument("--perception-base-url", help="Visual perception endpoint; defaults to --base-url")
+    p.add_argument("--perception-timeout", type=float, help="Visual perception timeout; defaults to --timeout")
     p.add_argument("--audio-model", default="gemini-3.8-flash")
     p.add_argument("--audio-base-url", default="https://www.blackaicoding.com/v1beta")
     p.add_argument("--embedding-model", default="google/gemini-embedding-2")
@@ -772,6 +789,8 @@ def main(argv=None):
     if min(args.build_workers, args.video_workers, args.question_workers,
            args.build_tries, args.plan_tries, args.answer_tries) < 1:
         raise ValueError("concurrency and bounded tries must be positive")
+    if args.timeout <= 0 or (args.perception_timeout is not None and args.perception_timeout <= 0):
+        raise ValueError("model timeouts must be positive")
     if Path(args.run_name).name != args.run_name or args.run_name in (".", ".."):
         raise ValueError("run name must be one directory name")
     runtime = Path(args.runtime).resolve()
