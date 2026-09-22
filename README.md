@@ -10,7 +10,23 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 先从视频、音频和字幕构建带时间、人物、情感对象及证据引用的事件图；回答时用 **BM25＋Gemini Embedding 2** 定位相关事件，再按需披露时间流和关系流，由 GPT-6 基于证据作答。构图与问题无关，参考答案仅用于官方评分。
 
-### 最新评测结果
+<!-- LONGEMO_FULL558_RESULTS:START -->
+### 当前三层消融进度
+
+2026-09-22 21:52 CST 快照：全集 **558题／141视频**，已完成试跑首分继承，正在优先跑 noevent，之后自动跑 base／method。
+
+| 条件 | 已评分／558题 | 已评分均分／100 |
+|---|---:|---:|
+| noevent | 56/558 | 39.14 |
+| base | 13/558 | 63.46 |
+| method | 13/558 | 69.23 |
+
+base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
+
+[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md)。缺失不计零分，历史路由版60.24分单独保留。
+<!-- LONGEMO_FULL558_RESULTS:END -->
+
+### 历史题型路由结果
 
 **60.24/100，已评分 511/520 题（98.27%）。** 在相同 511 题上，base 为 57.76，提升 **2.48 个百分点**。本次采用题型路由：轨迹题渐进披露，强度比较与推理题使用完整图证据。
 
@@ -32,7 +48,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 | 摩登家庭 | 44.12 (34) | 63.51 (37) | 80.39 (17) |
 | 剧名未标注 | 55.56 (54) | 55.38 (65) | 69.28 (51) |
 
-每题归一化后等权平均；8 题缺少预测、1 题评分服务报错，缺失不计零分。这是 520 题子集的路由版结果；新的 schema v2 三层消融尚无结果。详见[实验报告](experiments/zyf/results/method_hybrid_20260922/report.md)、[同题对比](experiments/zyf/results/method_hybrid_20260922/comparison.json)和[逐题评分](experiments/zyf/results/method_hybrid_20260922/question_scores.jsonl)。
+每题归一化后等权平均；8 题缺少预测、1 题评分服务报错，缺失不计零分。这是 520 题子集的路由版结果；新的 schema v2 三层消融正在独立评测，结果不与本表混合。详见[实验报告](experiments/zyf/results/method_hybrid_20260922/report.md)、[同题对比](experiments/zyf/results/method_hybrid_20260922/comparison.json)和[逐题评分](experiments/zyf/results/method_hybrid_20260922/question_scores.jsonl)。
 
 ### 方法概括
 
@@ -53,15 +69,15 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 三路固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。base 与 method 共用图、索引和规划。纯渐进式结果进入三路主表，题型路由版单列。全集固定为 **558 题／141 视频**，按 `noevent → base／method` 顺序执行；base 与 method 共用同一冻结事件图。
 
-新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，现扩展到全集。先完成当前试跑并继承首个有效评分，再以最多 **12 视频并发、每视频 2 题并发** 跑 noevent，随后自动跑 base／method；媒体边传边处理，每视频完成记忆后即可答题评分。完整题单和媒体 SHA 固定，不重评低分、不重置失败预算。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
+新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，现扩展到全集。试跑首分已核验继承，正以最多 **12 视频并发、每视频 2 题并发** 跑 noevent，随后自动跑 base／method；媒体边传边处理，每视频完成记忆后即可答题评分。完整题单和媒体 SHA 固定，不重评低分、不重置失败预算。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
 
-试跑 2026-09-22 19:57 CST 快照：三路同 2 题均为 **75.00（各2/50题）**，尚不足以判断优劣；新全集与上方历史60.24分分开报告。[试跑报告与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)。
+50题试跑已结束并完成首分审计；[试跑报告与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)单独保留。
 
 重点分析总体／题型／分剧成绩与覆盖率、同题差值及视频聚类置信区间、跨阶段证据覆盖、感知与检索错误，以及披露事件数、token、延迟和成本。论文突出两项可检验贡献：**事件图能否改善人物—对象—时间证据的一致性；渐进披露能否以更少上下文保留长时间依赖。** 强度比较当前下降，应作为待验证的改进点。
 
 [完整消融与论文分析计划](experiments/zyf/three_level_ablation.md) · [noevent 方案](experiments/zyf/noevent_plan.md) · [方法文档](methods/longemo/README.md)
 
-全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，等待现有试跑结束后自动接续，视频正在后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
+全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，已接续 noevent 全集，视频继续后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
 
 ## Benchmark setup
 
