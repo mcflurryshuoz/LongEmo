@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T07:52:55.884075+00:00",
+  "as_of": "2026-09-23T08:03:45.535662+00:00",
   "condition": "noevent",
-  "status": "audio429_one_running_two_build_failures",
+  "status": "running_v114_seed_length_continuation",
   "coverage_complete": false,
   "current_execution_conditions": [
     "noevent"
@@ -169,6 +169,12 @@
     "audio429_G2_V000091": {
       "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000091_20260923",
       "configuration_sha256": "5d817a58508d9eedccd2724a0dfdbe170e849a7a0ea91ded8ad1fa0050746d5f",
+      "accepted_first_scores": 0,
+      "accepted_ids": []
+    },
+    "v114_seed_length": {
+      "run": "/root/longemo/runtime/runs/noevent_v114_seed_length_continuation_20260923",
+      "configuration_sha256": "c09b55bf860e6458112ec3566f3b5479b36425f04a578659dba599a6ab4b8930",
       "accepted_first_scores": 0,
       "accepted_ids": []
     }
@@ -441,8 +447,8 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T07:52:55.884075+00:00",
-    "current_snapshot_sha256": "5a0e70e8348b3aa333fb019762b771f9b024471d73dd4edd3d697fce1692017e",
+    "current_as_of": "2026-09-23T08:03:45.535662+00:00",
+    "current_snapshot_sha256": "fc439ad97c73438a559280ad9dfdca294d8c87c0d91d3c2cbfa01e93fc265c9e",
     "current_snapshot_name": "snapshot_1425/snapshot.json"
   },
   "notes": [
@@ -1333,10 +1339,11 @@
     "length2_running": 0,
     "v101_running": 0,
     "observed_running_videos": 1,
-    "audio429_recovery_status": "one_running_two_build_failed",
-    "audio429_running": 1,
+    "audio429_recovery_status": "all_three_ended",
+    "audio429_running": 0,
     "question_workers_per_video": 2,
-    "audio429_build_failed": 2
+    "audio429_build_failed": 3,
+    "v114_length_running": 1
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1489,8 +1496,8 @@
   },
   "completion_estimate": {
     "status": "not_estimated",
-    "scope": "V100 remains active; V114 has a proven output-length failure eligible for a separate finite recovery design; V91 stopped on explicit DLP",
-    "reason": "No new first score. Later failures are classified by exact request hash; do not promise completion of all 558 questions."
+    "scope": "V114 fixed seven questions only, 60/64 memory windows at this snapshot",
+    "reason": "Original W60 visual length failure passed with16384 output budget; no new answer or score yet. Cannot promise full558 completion."
   },
   "length2": {
     "schema_version": 1,
@@ -1638,12 +1645,12 @@
     "note": "The V26 run has no generic finished marker (false in the raw audit), but both successful answers have accepted official judgments; it is not treated as active from that marker alone."
   },
   "first_score_preservation": {
-    "previous_report_sha256": "5b4bafd2af47bd15345d1a5c38cd2f062f98cedd5aae27233d04d4d4fa98caf8",
+    "previous_report_sha256": "b23143e1a2d671499d19ebeaf8504dab8e1a04c40545202ee554719ea5d36d73",
     "previous_scored": 243,
     "unchanged_original_score_hashes": 195,
     "unchanged_later_score_records": 48,
-    "new_question_ids": [],
-    "new_count": 0
+    "new_count": 0,
+    "new_question_ids": []
   },
   "length2_end_audit": {
     "file": "length2_end_audit.json",
@@ -1704,7 +1711,7 @@
     "new_accepted_first_scores": 0,
     "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
   },
-  "execution_as_of": "2026-09-23T07:52:56.146106+00:00",
+  "execution_as_of": "2026-09-23T08:03:45.862067+00:00",
   "v101_continuation": {
     "as_of": "2026-09-23T14:25:23.393933+08:00",
     "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
@@ -1777,8 +1784,8 @@
     "successful_judgments_without_accepted": []
   },
   "audio429_recovery_assessment": {
-    "as_of": "2026-09-23T07:52:56.146106+00:00",
-    "status": "all_probes_imported_one_running_two_subsequent_failures",
+    "as_of": "2026-09-23T07:58:28.523083+00:00",
+    "status": "three_original429_windows_recovered_three_later_build_failures",
     "source_specs_sha256": "c213425b298bdda99edcce1aa8161fa05ad150dfaf1591994c2169f827e2018e",
     "videos": 3,
     "questions": 14,
@@ -1808,9 +1815,9 @@
         "additional_diagnostic_requests": 1,
         "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000100_20260923",
         "probe_summary_sha256": "b1cb0ccef9b0a2d0ea7749fc4acc1c1761e6f325f05daeedda39f36f73912784",
-        "current_status": "running",
-        "current_completed_windows": 44,
-        "followup": null
+        "current_status": "build_failed",
+        "current_completed_windows": 48,
+        "followup": "explicit_dlp_no_repeat"
       },
       {
         "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
@@ -1844,7 +1851,7 @@
         "probe_summary_sha256": "5d20fd2d9b127a7dfe4c293452eac9fde191b49fe0a29d4565a602b0a7ef745d",
         "current_status": "build_failed",
         "current_completed_windows": 59,
-        "followup": "independent_fixed_length_recovery_candidate"
+        "followup": "v114_independent_length_run_active"
       },
       {
         "source_run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
@@ -1876,7 +1883,7 @@
         "probe_summary_sha256": "05e1ffd8d0d9ec47b6b8393153a3d8ffc00d1f58705fd7358c01bc0c0e043b33",
         "current_status": "build_failed",
         "current_completed_windows": 27,
-        "followup": "explicit_policy_rejection_no_repeat"
+        "followup": "explicit_dlp_no_repeat"
       }
     ],
     "new_api_requests": 3,
@@ -3851,6 +3858,218 @@
         }
       }
     },
-    "snapshot_sha256": "5a0e70e8348b3aa333fb019762b771f9b024471d73dd4edd3d697fce1692017e"
+    "snapshot_sha256": "5a0e70e8348b3aa333fb019762b771f9b024471d73dd4edd3d697fce1692017e",
+    "historical_snapshot": true
+  },
+  "audio429_end_audit": {
+    "as_of": "2026-09-23T07:58:28.523083+00:00",
+    "videos": {
+      "G2_V000100": {
+        "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000100_20260923",
+        "status": "build_failed",
+        "completed_windows": 48,
+        "total_windows": 76,
+        "coordinator_alive": false,
+        "lock_held": false,
+        "accepted_first_scores": 0,
+        "seed_audio_requests_repeated": 0,
+        "configuration_sha256": "893d3ec1843ff5910ee59b154d087fcf5595a6008616cb3df5eb5a9013ddc072",
+        "finished": true,
+        "all_task_children_stopped": true,
+        "unjudged_successful_answers": [],
+        "unaccepted_successful_judgments": [],
+        "failure": {
+          "request_hash": "95ffc318d8a328a6675411247e0d092cb526e287a049ae9dc1b83e1657252a7b",
+          "purpose": "audio_observer:W00049",
+          "attempt": 1,
+          "category": "data_leak_protection_rejected",
+          "evidence": [
+            {
+              "diagnostic_sha256": "32c6d0d34814cb8f09e9c72086875770b015d46690cac4ce110d51a5535476a1",
+              "request_hash": "95ffc318d8a328a6675411247e0d092cb526e287a049ae9dc1b83e1657252a7b",
+              "responses": [
+                {
+                  "http_status": 428,
+                  "explicit_dlp_rejected": true,
+                  "body_sha256": "a4f16ab33cf68bf01c2151d9815e5bc1e90142214406c42c2a896496b8902be6"
+                }
+              ],
+              "model": {
+                "model": "gemini-3.8-flash",
+                "base_url": "https://matrixllm.alipay.com/v1",
+                "api_format": "chat",
+                "max_tokens": 4096,
+                "temperature": null,
+                "options": {
+                  "reasoning_effort": "low"
+                },
+                "timeout": 180
+              }
+            }
+          ],
+          "old_task_restarted": false,
+          "followup": "explicit_policy_rejection_no_repeat"
+        }
+      },
+      "G2_V000114": {
+        "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923",
+        "status": "build_failed",
+        "completed_windows": 59,
+        "total_windows": 64,
+        "coordinator_alive": false,
+        "lock_held": false,
+        "accepted_first_scores": 0,
+        "seed_audio_requests_repeated": 0,
+        "configuration_sha256": "3409aeceb46538f5e7169011dc6a35a3b2209b4c7a05123b454402f5dfa9ae0e",
+        "finished": true,
+        "all_task_children_stopped": true,
+        "unjudged_successful_answers": [],
+        "unaccepted_successful_judgments": [],
+        "failure": {
+          "request_hash": "158ee25b5dbe9712cb700fa5b0a41ac435eab1af1e1b44b623c746e2efa8c0f8",
+          "purpose": "window_perception:G2_V000114:W00060",
+          "attempt": 1,
+          "category": "output_length_exceeded",
+          "evidence": [
+            {
+              "diagnostic_sha256": "f5e5c85ff83f24a57da1d38b7c962a4cfef4d38e0e8f494ef54638da02734e8e",
+              "request_hash": "158ee25b5dbe9712cb700fa5b0a41ac435eab1af1e1b44b623c746e2efa8c0f8",
+              "responses": [
+                {
+                  "http_status": 200,
+                  "finish_reasons": [
+                    "length"
+                  ],
+                  "explicit_dlp_rejected": false,
+                  "body_sha256": "0d0258c231ca0839a9b925ad2e1514fb4a76308bbb2b5fa00b99ff6976cd1d45"
+                }
+              ],
+              "model": {
+                "model": "gemini-3.8-flash",
+                "base_url": "https://matrixllm.alipay.com/v1",
+                "api_format": "chat",
+                "max_tokens": 8192,
+                "temperature": 0.0,
+                "options": {},
+                "timeout": 240.0
+              }
+            }
+          ],
+          "old_task_restarted": false,
+          "followup": "independent_fixed_length_recovery_candidate"
+        }
+      },
+      "G2_V000091": {
+        "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000091_20260923",
+        "status": "build_failed",
+        "completed_windows": 27,
+        "total_windows": 66,
+        "coordinator_alive": false,
+        "lock_held": false,
+        "accepted_first_scores": 0,
+        "seed_audio_requests_repeated": 0,
+        "configuration_sha256": "5d817a58508d9eedccd2724a0dfdbe170e849a7a0ea91ded8ad1fa0050746d5f",
+        "finished": true,
+        "all_task_children_stopped": true,
+        "unjudged_successful_answers": [],
+        "unaccepted_successful_judgments": [],
+        "failure": {
+          "request_hash": "7bff19cc1b6bee95f8fd9a1f41c4931049cadd49d782707677a1362e29a38691",
+          "purpose": "audio_observer:W00028",
+          "attempt": 1,
+          "category": "data_leak_protection_rejected",
+          "evidence": [
+            {
+              "diagnostic_sha256": "2aaa25bd3ad5336b75303e38d029be92f0b2bf21df85db41d96b9263037bad97",
+              "request_hash": "7bff19cc1b6bee95f8fd9a1f41c4931049cadd49d782707677a1362e29a38691",
+              "responses": [
+                {
+                  "http_status": 428,
+                  "finish_reasons": [],
+                  "explicit_dlp_rejected": true,
+                  "body_sha256": "5d6e038e2360625184b2b16ae36dc81705732d0d23478987e927dffb239234ab"
+                }
+              ],
+              "model": {
+                "model": "gemini-3.8-flash",
+                "base_url": "https://matrixllm.alipay.com/v1",
+                "api_format": "chat",
+                "max_tokens": 4096,
+                "temperature": null,
+                "options": {
+                  "reasoning_effort": "low"
+                },
+                "timeout": 180
+              }
+            }
+          ],
+          "old_task_restarted": false,
+          "followup": "explicit_policy_rejection_no_repeat"
+        }
+      }
+    },
+    "snapshot_sha256": "e90856118363652578224671d955c7cd520026769ab343263678fbf806cac6e3",
+    "stage": "all_three_original_audio429_tasks_ended",
+    "next_step": "V114 fixed 7-question independent 16384 visual length continuation is eligible for implementation but not prepared, launched, or called. Preserve 59 completed windows, successful pending W60 audio, source audio-seed lineage and all first scores. V100 and V91 new explicit DLP requests must not repeat."
+  },
+  "v114_length_continuation": {
+    "as_of": "2026-09-23T08:03:45.862067+00:00",
+    "run": "/root/longemo/runtime/runs/noevent_v114_seed_length_continuation_20260923",
+    "source_run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923",
+    "configuration_sha256": "c09b55bf860e6458112ec3566f3b5479b36425f04a578659dba599a6ab4b8930",
+    "driver_sha256": "18967912719b6806142b7ebaf78bf176e420f7513b65c83e1dc34012a104e19b",
+    "selection": [
+      "G2_Q000438",
+      "G2_Q000439",
+      "G2_Q000440",
+      "G2_Q000441",
+      "G2_Q000442",
+      "G2_Q000443",
+      "G2_Q000444"
+    ],
+    "launch": {
+      "pid": 223570,
+      "start_ticks": "9067109",
+      "started_at": "2026-09-23T08:03:05.184873+00:00"
+    },
+    "source_finished": true,
+    "identity_alive": true,
+    "workers": 1,
+    "question_workers": 2,
+    "status": "running",
+    "inherited_windows": 59,
+    "observed_completed_windows": 60,
+    "total_windows": 64,
+    "visual_max_tokens": 16384,
+    "audio_max_tokens": 4096,
+    "pending_audio_W60_reissued": 0,
+    "protected_first_scores": 243,
+    "accepted_first_scores": 0,
+    "length_evidence": {
+      "video_id": "G2_V000114",
+      "window_id": "W00060",
+      "request_hash": "158ee25b5dbe9712cb700fa5b0a41ac435eab1af1e1b44b623c746e2efa8c0f8",
+      "diagnostic_path": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923/private_diagnostics/build/G2_V000114/158ee25b5dbe9712-c42654473e9e4678aa667ecdb0d71ee8.json",
+      "diagnostic_sha256": "f5e5c85ff83f24a57da1d38b7c962a4cfef4d38e0e8f494ef54638da02734e8e",
+      "response_sha256": "0d0258c231ca0839a9b925ad2e1514fb4a76308bbb2b5fa00b99ff6976cd1d45",
+      "http_status": 200,
+      "finish_reason": "length",
+      "original_visual_max_tokens": 8192,
+      "usage": {
+        "prompt_tokens": 28664,
+        "completion_tokens": 328,
+        "total_tokens": 36852,
+        "completion_tokens_details.reasoning_tokens": 7860
+      },
+      "ledger_path": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923/noevent/videos/G2_V000114/memory/G2_V000114/calls.jsonl",
+      "ledger_sha256": "524cba4099589aba63564c5519a9e3926ad7a87fd440355a38d7953a8cb28e1d"
+    },
+    "source_ancestry_files_protected": 554,
+    "tests": {
+      "local": 15,
+      "remote": 15,
+      "core_files_unchanged": 1053
+    },
+    "policy": "One fixed 7-question task, one new build, no outer retry. Only visual output budget changes from8192 to16384; audio, model, media, schema, retrieval and judge unchanged. Preserve all first scores and original/primary/audio429/length window lineage."
   }
 }

@@ -18,7 +18,8 @@ NAMES = ['noevent_embedding_recovery_20260923_v2',
          'noevent_v101_audio_seed_continuation_20260923',
          'noevent_audio429_G2_V000100_20260923',
          'noevent_audio429_G2_V000114_20260923',
-         'noevent_audio429_G2_V000091_20260923']
+         'noevent_audio429_G2_V000091_20260923',
+         'noevent_v114_seed_length_continuation_20260923']
 
 _RAW = {}
 
