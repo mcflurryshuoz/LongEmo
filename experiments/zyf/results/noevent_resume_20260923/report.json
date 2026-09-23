@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T08:58:32.871268+00:00",
+  "as_of": "2026-09-23T10:02:42.871823+00:00",
   "condition": "noevent",
   "status": "running_http428_seed5",
   "coverage_complete": false,
@@ -13,9 +13,9 @@
   ],
   "conditions": {
     "noevent": {
-      "scored": 262,
+      "scored": 264,
       "total": 558,
-      "mean_scored": 24.650127226463095
+      "mean_scored": 25.220959595959588
     },
     "method": {
       "scored": 97,
@@ -204,6 +204,15 @@
         "G2_Q000490",
         "G2_Q000491"
       ]
+    },
+    "http428_seed5": {
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+      "accepted_first_scores": 2,
+      "accepted_ids": [
+        "G2_Q000014",
+        "G2_Q000015"
+      ]
     }
   },
   "runtime24": {
@@ -386,7 +395,9 @@
     "confirmed_scope": "only the identified V34 W45 audio request; no repeat",
     "other_video_count": 23,
     "other_status": "deferred_unconfirmed",
-    "note": "the V34 policy message must not be generalized to the other original HTTP428 requests"
+    "note": "the V34 policy message must not be generalized to the other original HTTP428 requests",
+    "historical_snapshot": true,
+    "superseded_by": "http428_fixed_diagnostics / http428_diagnostic_end.json"
   },
   "initial_same_question_comparison": {
     "source": "../three_level_full558_gemini38_20260922/completion_audit.json",
@@ -474,22 +485,18 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T09:41:00.054357+00:00",
-    "current_snapshot_sha256": "a292da98d74741dca15f27d6dbe7609644050c8088be4e8153d0dda96e97b3c5",
-    "current_snapshot_name": "live_http428_seed5_1740.json"
+    "current_as_of": "2026-09-23T10:02:42.871823+00:00",
+    "current_snapshot_sha256": "4caf344b276af41c87f6a7099e23ab97ecb8a157466520886d7032f804e09ef7",
+    "current_snapshot_name": "live_http428_seed5_1802.json"
   },
   "notes": [
-    "All243 previously published first scores and provenance are unchanged. V114 adds seven first scores: Q443=1/4, the other six=0.",
-    "Current250 scores mix230 original8192-budget sources and20 inherited8192/resumed16384 sources; missing scores are excluded and genuine zeros retained.",
-    "The three original429 audio probes each succeeded once and were seeded without repeat. Later V100/V91 audio requests were explicitly DLP-rejected; V114 visual truncation was separately recovered at16384.",
-    "All launched queues have ended. V114 completed64/64 windows,7/7 answers and first judgments; no unjudged successful answers, unarchived successful judgments, or repeated seed audio.",
-    "The remaining308 questions require latest per-question attribution. The23 unresolved originalHTTP428 cases must not be generalized from the individually confirmed DLP cases.",
-    "Explicit rejections and prior failed judgments remain immutable; no low-score redraws.",
-    "The initial68 successful-question comparison is unchanged and is not a full-benchmark result.",
-    "No credentials, raw predictions or private response bodies are exported.",
-    "16:28启动固定3视频12题的独立边界恢复：各删除一条只在上下文或核心终点的观察以及依赖它的完整情绪记录，不移动时间戳；原校验器通过后离线导入。该预处理差异单独记录，后续窗口仍用冻结core。250首分未变。",
-    "16:37 V75完成65窗及3条官方首分；Q268=0/1、Q269=1/4、Q270=2/4。V51/V124仍运行，原250首分与来源不变。",
-    "边界批次于16:49全部完成12题；16:58核验262首分，原253条及来源不变。全部task子进程退出、锁释放、无漏评/漏归档/种子请求重发。"
+    "18:02核验264首分，原262条及来源逐字段不变；本批V7新增Q14=4/4、Q15=1/1。",
+    "当前混合232题8192且预处理不变、20题继承后16384、12题8192且单窗边界删除；所有题保留原窗口、种子及新窗口来源。缺失排除、真零分保留。",
+    "23个原HTTP428视频已逐个完成一次诊断：18个明确DLP停止，5个成功结果离线复用。当前V7完成，其余4视频15题运行；种子阶段重复API为0。",
+    "所有更早运行已结束，不恢复旧任务；本批尚在运行。旧startup/end审计是带时间的历史记录，不用于替代当前状态。",
+    "明确拒绝和首次官方评分失败不重交；不重抽低分、不重置旧预算。",
+    "初轮共同成功68题比较保持独立，不直接比较不同成功题集总体均分。",
+    "无凭据、原始预测或私有响应正文导出。"
   ],
   "protected_original_first_scores": {
     "G2_Q000311": "63083f2575234c11df4a5280618079588625d6823e7846dc23d48781ab900e08",
@@ -1626,6 +1633,34 @@
       "source_sha256": "7006d67f03d9f8746e17b0d3637803645babf30ecdc75083efac01295913c03d",
       "accepted_sha256": "1db920c55b587f7ffab7c9a270bb8bb5412683d4060c09c5287aec30aef9f132",
       "prediction_sha256": "009810be52609e5fdca86ae37b96cf4aa71398e96d08c91530a251a97898eb2b"
+    },
+    "G2_Q000014": {
+      "question_id": "G2_Q000014",
+      "video_id": "G2_V000007",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000007/run_20260923_1749/scores.jsonl",
+      "source_sha256": "335ba38be6ac27bb0dfd1a4eac0e8f68583ceb80092ed684fc7862bed36f6969",
+      "accepted_sha256": "bfd2b9ab65a0b83f0a4381e942a7e242d94b3029db229d8c4d0dab0e24c6e703",
+      "prediction_sha256": "00e52cfbff2c8c94e9d75332164f65ea7db0020895d9e05829f3f0bd1e4393dd"
+    },
+    "G2_Q000015": {
+      "question_id": "G2_Q000015",
+      "video_id": "G2_V000007",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000007/run_20260923_1749/scores.jsonl",
+      "source_sha256": "335ba38be6ac27bb0dfd1a4eac0e8f68583ceb80092ed684fc7862bed36f6969",
+      "accepted_sha256": "221f5869f45f9e09f86f545e3a5f95e6e3193b838fdf384abec32969cf692eaa",
+      "prediction_sha256": "42b8e72f79555b882c2a3c125bd28968512183a712094bdf36d37896670b945d"
     }
   },
   "execution_concurrency": {
@@ -1634,7 +1669,7 @@
     "length5_running": 0,
     "length2_running": 0,
     "v101_running": 0,
-    "observed_running_videos": 5,
+    "observed_running_videos": 4,
     "audio429_recovery_status": "all_three_ended",
     "audio429_running": 0,
     "question_workers_per_video": 2,
@@ -1642,7 +1677,8 @@
     "v114_length_running": 0,
     "core_boundary_running": 0,
     "core_boundary_complete": 3,
-    "http428_seed5_running": 5
+    "http428_seed5_running": 4,
+    "http428_seed5_complete": 1
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1650,7 +1686,7 @@
       16384
     ],
     "current_scored_is_mixed_visual_budget": true,
-    "original_budget_scored": 242,
+    "original_budget_scored": 244,
     "length5_scored": 8,
     "length2_scored": 5,
     "length5_inherited_visual_max_tokens": 8192,
@@ -1665,7 +1701,7 @@
       "G2_Q000516",
       "G2_Q000517"
     ],
-    "interpretation": "230 unchanged 8192-budget sources,20 sources continuing with16384,and12 sources with8192 plus a deletion-only core-ownership seed. Mixed budget and preprocessing; retain per-question provenance.",
+    "interpretation": "232 sources with8192 and unchanged preprocessing (including2 validated audio-seed sources),20 inherited/resumed16384 sources,and12 sources with8192 plus a deletion-only core-ownership seed. Retain all per-question provenance.",
     "length2_question_ids": [
       "G2_Q000545",
       "G2_Q000546",
@@ -1697,6 +1733,11 @@
       "G2_Q000489",
       "G2_Q000490",
       "G2_Q000491"
+    ],
+    "http428_seed5_scored": 2,
+    "http428_seed5_question_ids": [
+      "G2_Q000014",
+      "G2_Q000015"
     ]
   },
   "length5": {
@@ -1819,8 +1860,8 @@
     "historical_startup_record": "length5_startup.json"
   },
   "completion_estimate": {
-    "scope": "所有已启动队列",
-    "status": "已结束；剩余296题继续按具体阻断证据审计"
+    "scope": "当前HTTP428成功种子固定17题队列",
+    "status": "V7两题完成，4视频15题仍运行；不承诺558全部成功"
   },
   "length2": {
     "schema_version": 1,
@@ -1968,21 +2009,14 @@
     "note": "The V26 run has no generic finished marker (false in the raw audit), but both successful answers have accepted official judgments; it is not treated as active from that marker alone."
   },
   "first_score_preservation": {
-    "previous_report_sha256": "962a5478a9891d349cef5443c9631b5d35a5478783f3808461202e6bfc85e828",
-    "previous_scored": 253,
+    "previous_report_sha256": "9b0f1cb96e30d3342eedd8d32007cbf479d9a4e46b5a3a0057db05fe3a4b3aca",
+    "previous_scored": 262,
     "unchanged_original_score_hashes": 195,
-    "unchanged_later_score_records": 58,
-    "new_count": 9,
+    "unchanged_later_score_records": 67,
+    "new_count": 2,
     "new_question_ids": [
-      "G2_Q000165",
-      "G2_Q000166",
-      "G2_Q000167",
-      "G2_Q000168",
-      "G2_Q000487",
-      "G2_Q000488",
-      "G2_Q000489",
-      "G2_Q000490",
-      "G2_Q000491"
+      "G2_Q000014",
+      "G2_Q000015"
     ]
   },
   "length2_end_audit": {
@@ -2044,7 +2078,7 @@
     "new_accepted_first_scores": 0,
     "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
   },
-  "execution_as_of": "2026-09-23T09:41:01.038378+00:00",
+  "execution_as_of": "2026-09-23T10:02:43.251453+00:00",
   "v101_continuation": {
     "as_of": "2026-09-23T14:25:23.393933+08:00",
     "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
@@ -2224,7 +2258,7 @@
     "policy": "Assess an explicit finite independent recovery without resetting the exhausted original attempt budget. Do not infer purchased credit balance or content filtering from upstream RESOURCE_EXHAUSTED.",
     "new_api_requests_scope": "one diagnostic HTTP request per case; subsequent builder calls separately recorded"
   },
-  "remaining_unscored": 296,
+  "remaining_unscored": 294,
   "audio429_continuation": {
     "schema_version": 1,
     "as_of": "2026-09-23T07:48:46.612360+00:00",
@@ -5189,7 +5223,8 @@
     "tests_passed": 40,
     "core_files_unchanged": 1053,
     "snapshot_sha256": "a292da98d74741dca15f27d6dbe7609644050c8088be4e8153d0dda96e97b3c5",
-    "preparation_only_failure_audit_sha256": "496e7fe94a159d0a8515170146b3807a6edb4114c0ea9a04ef2df32bea92c572"
+    "preparation_only_failure_audit_sha256": "496e7fe94a159d0a8515170146b3807a6edb4114c0ea9a04ef2df32bea92c572",
+    "historical_startup_snapshot": true
   },
   "http428_fixed_diagnostics": {
     "as_of": "2026-09-23T09:41:01.035161+00:00",
@@ -5728,5 +5763,158 @@
       "validated_payload_not_yet_imported": 5
     },
     "selected_question_count": 17
+  },
+  "http428_seed5_progress": {
+    "as_of": "2026-09-23T10:02:43.251453+00:00",
+    "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+    "launch": {
+      "pid": 386531,
+      "start_ticks": "9649377",
+      "started_unix": 1790156407.9245987,
+      "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+      "argv": [
+        "/opt/conda/bin/python",
+        "-B",
+        "-u",
+        "-m",
+        "experiments.zyf.noevent_http428_continuation",
+        "run",
+        "--run",
+        "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923"
+      ]
+    },
+    "identity_alive": true,
+    "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+    "execution_sha256": "f83eafbc205ece5ddbd65995d8c124b4a77a62f5ec4f23550bcbbdfcdd4e6023",
+    "snapshot_sha256": "4caf344b276af41c87f6a7099e23ab97ecb8a157466520886d7032f804e09ef7",
+    "workers": 5,
+    "question_workers": 2,
+    "videos": {
+      "G2_V000007": {
+        "windows": 28,
+        "total_windows": 28,
+        "pipeline": {
+          "status": "complete",
+          "scored": 2,
+          "questions": 2,
+          "answer_task": "ok"
+        },
+        "tasks": {
+          "answer": "ok",
+          "score": "ok",
+          "build": "ok"
+        },
+        "active_children": [],
+        "accepted_first_scores": 2,
+        "seed_stage": "audio",
+        "seed_window": "W00013",
+        "seed_stage_reissued_calls": 0,
+        "successful_answers_without_judgment": 0,
+        "valid_judgments_without_accepted": 0
+      },
+      "G2_V000062": {
+        "windows": 56,
+        "total_windows": 67,
+        "pipeline": {
+          "status": "running",
+          "video_id": "G2_V000062"
+        },
+        "tasks": {
+          "build": "running"
+        },
+        "active_children": [
+          {
+            "stage": "build",
+            "pid": 386779,
+            "start_ticks": "9649675"
+          }
+        ],
+        "accepted_first_scores": 0,
+        "seed_stage": "audio",
+        "seed_window": "W00026",
+        "seed_stage_reissued_calls": 0
+      },
+      "G2_V000070": {
+        "windows": 58,
+        "total_windows": 66,
+        "pipeline": {
+          "status": "running",
+          "video_id": "G2_V000070"
+        },
+        "tasks": {
+          "build": "running"
+        },
+        "active_children": [
+          {
+            "stage": "build",
+            "pid": 386783,
+            "start_ticks": "9649686"
+          }
+        ],
+        "accepted_first_scores": 0,
+        "seed_stage": "audio",
+        "seed_window": "W00035",
+        "seed_stage_reissued_calls": 0
+      },
+      "G2_V000078": {
+        "windows": 43,
+        "total_windows": 66,
+        "pipeline": {
+          "status": "running",
+          "video_id": "G2_V000078"
+        },
+        "tasks": {
+          "build": "running"
+        },
+        "active_children": [
+          {
+            "stage": "build",
+            "pid": 386782,
+            "start_ticks": "9649685"
+          }
+        ],
+        "accepted_first_scores": 0,
+        "seed_stage": "audio",
+        "seed_window": "W00017",
+        "seed_stage_reissued_calls": 0
+      },
+      "G2_V000080": {
+        "windows": 41,
+        "total_windows": 61,
+        "pipeline": {
+          "status": "running",
+          "video_id": "G2_V000080"
+        },
+        "tasks": {
+          "build": "running"
+        },
+        "active_children": [
+          {
+            "stage": "build",
+            "pid": 386778,
+            "start_ticks": "9649666"
+          }
+        ],
+        "accepted_first_scores": 0,
+        "seed_stage": "visual",
+        "seed_window": "W00010",
+        "seed_stage_reissued_calls": 0
+      }
+    },
+    "first_scores": {
+      "G2_Q000015": {
+        "video_id": "G2_V000007",
+        "score": 1,
+        "max_score": 1,
+        "normalized_score": 1.0
+      },
+      "G2_Q000014": {
+        "video_id": "G2_V000007",
+        "score": 4,
+        "max_score": 4,
+        "normalized_score": 1.0
+      }
+    },
+    "coordinator_lock_held": true
   }
 }
