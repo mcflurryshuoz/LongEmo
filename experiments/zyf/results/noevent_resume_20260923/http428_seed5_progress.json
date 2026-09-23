@@ -1,0 +1,153 @@
+{
+  "as_of": "2026-09-23T10:02:43.251453+00:00",
+  "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+  "launch": {
+    "pid": 386531,
+    "start_ticks": "9649377",
+    "started_unix": 1790156407.9245987,
+    "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+    "argv": [
+      "/opt/conda/bin/python",
+      "-B",
+      "-u",
+      "-m",
+      "experiments.zyf.noevent_http428_continuation",
+      "run",
+      "--run",
+      "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923"
+    ]
+  },
+  "identity_alive": true,
+  "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+  "execution_sha256": "f83eafbc205ece5ddbd65995d8c124b4a77a62f5ec4f23550bcbbdfcdd4e6023",
+  "snapshot_sha256": "4caf344b276af41c87f6a7099e23ab97ecb8a157466520886d7032f804e09ef7",
+  "workers": 5,
+  "question_workers": 2,
+  "videos": {
+    "G2_V000007": {
+      "windows": 28,
+      "total_windows": 28,
+      "pipeline": {
+        "status": "complete",
+        "scored": 2,
+        "questions": 2,
+        "answer_task": "ok"
+      },
+      "tasks": {
+        "answer": "ok",
+        "score": "ok",
+        "build": "ok"
+      },
+      "active_children": [],
+      "accepted_first_scores": 2,
+      "seed_stage": "audio",
+      "seed_window": "W00013",
+      "seed_stage_reissued_calls": 0,
+      "successful_answers_without_judgment": 0,
+      "valid_judgments_without_accepted": 0
+    },
+    "G2_V000062": {
+      "windows": 56,
+      "total_windows": 67,
+      "pipeline": {
+        "status": "running",
+        "video_id": "G2_V000062"
+      },
+      "tasks": {
+        "build": "running"
+      },
+      "active_children": [
+        {
+          "stage": "build",
+          "pid": 386779,
+          "start_ticks": "9649675"
+        }
+      ],
+      "accepted_first_scores": 0,
+      "seed_stage": "audio",
+      "seed_window": "W00026",
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000070": {
+      "windows": 58,
+      "total_windows": 66,
+      "pipeline": {
+        "status": "running",
+        "video_id": "G2_V000070"
+      },
+      "tasks": {
+        "build": "running"
+      },
+      "active_children": [
+        {
+          "stage": "build",
+          "pid": 386783,
+          "start_ticks": "9649686"
+        }
+      ],
+      "accepted_first_scores": 0,
+      "seed_stage": "audio",
+      "seed_window": "W00035",
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000078": {
+      "windows": 43,
+      "total_windows": 66,
+      "pipeline": {
+        "status": "running",
+        "video_id": "G2_V000078"
+      },
+      "tasks": {
+        "build": "running"
+      },
+      "active_children": [
+        {
+          "stage": "build",
+          "pid": 386782,
+          "start_ticks": "9649685"
+        }
+      ],
+      "accepted_first_scores": 0,
+      "seed_stage": "audio",
+      "seed_window": "W00017",
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000080": {
+      "windows": 41,
+      "total_windows": 61,
+      "pipeline": {
+        "status": "running",
+        "video_id": "G2_V000080"
+      },
+      "tasks": {
+        "build": "running"
+      },
+      "active_children": [
+        {
+          "stage": "build",
+          "pid": 386778,
+          "start_ticks": "9649666"
+        }
+      ],
+      "accepted_first_scores": 0,
+      "seed_stage": "visual",
+      "seed_window": "W00010",
+      "seed_stage_reissued_calls": 0
+    }
+  },
+  "first_scores": {
+    "G2_Q000015": {
+      "video_id": "G2_V000007",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0
+    },
+    "G2_Q000014": {
+      "video_id": "G2_V000007",
+      "score": 4,
+      "max_score": 4,
+      "normalized_score": 1.0
+    }
+  },
+  "coordinator_lock_held": true
+}
