@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T04:29:54.137993+00:00",
+  "as_of": "2026-09-23T05:40:34.337747+00:00",
   "condition": "noevent",
   "status": "running",
   "coverage_complete": false,
@@ -13,9 +13,9 @@
   ],
   "conditions": {
     "noevent": {
-      "scored": 229,
+      "scored": 235,
       "total": 558,
-      "mean_scored": 25.7278020378457
+      "mean_scored": 25.92198581560283
     },
     "method": {
       "scored": 97,
@@ -77,7 +77,7 @@
     "runtime24": {
       "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
       "configuration_sha256": "498f1912586ecfe1bc453387f1a1eef42aa85107dad1cfa72ed7ed8e570c406f",
-      "accepted_first_scores": 28,
+      "accepted_first_scores": 30,
       "accepted_ids": [
         "G2_Q000003",
         "G2_Q000004",
@@ -103,6 +103,8 @@
         "G2_Q000305",
         "G2_Q000306",
         "G2_Q000307",
+        "G2_Q000360",
+        "G2_Q000361",
         "G2_Q000497",
         "G2_Q000498",
         "G2_Q000499",
@@ -118,13 +120,23 @@
     "length5": {
       "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
       "configuration_sha256": "58edcda4a824fdcb8c038181343d7fb47a5da58f93d60f53aec8436a4219e495",
-      "accepted_first_scores": 4,
+      "accepted_first_scores": 8,
       "accepted_ids": [
+        "G2_Q000036",
+        "G2_Q000037",
+        "G2_Q000038",
+        "G2_Q000039",
         "G2_Q000514",
         "G2_Q000515",
         "G2_Q000516",
         "G2_Q000517"
       ]
+    },
+    "length2": {
+      "run": "/root/longemo/runtime/runs/noevent_length2_continuation_20260923",
+      "configuration_sha256": "a1f8f80fc9b8bbfdb436d4ea3e6b065d626c2e0236dfaadcc7711375bb9ff47c",
+      "accepted_first_scores": 0,
+      "accepted_ids": []
     }
   },
   "runtime24": {
@@ -138,7 +150,7 @@
     "perception_profile": "unchanged Matrix Gemini3.8/8192/24frames/20s+2s",
     "video_concurrency_limit": 12,
     "questions_per_video": 2,
-    "status": "running",
+    "status": "finished",
     "launch": {
       "pid": 342335,
       "start_ticks": "7565795",
@@ -147,27 +159,25 @@
     },
     "remote_checks_passed": 23,
     "tasks": {
-      "answer:ok": 8,
-      "score:ok": 7,
+      "answer:ok": 9,
+      "score:ok": 8,
       "score:error": 1,
-      "build:error": 14,
-      "build:ok": 8,
-      "build:running": 2
+      "build:error": 15,
+      "build:ok": 9
     },
     "pipelines": {
-      "build_failed": 14,
-      "complete": 7,
-      "partial": 1,
-      "running": 2
+      "build_failed": 15,
+      "complete": 8,
+      "partial": 1
     },
-    "accepted_first_scores": 28,
+    "accepted_first_scores": 30,
     "api_requests_observed": true,
     "startup_observation": {
       "observed_at": "2026-09-23T11:54:19+08:00",
       "new_visual_call_records": 9,
       "private_response_records": 12
     },
-    "observed_at": "2026-09-23T04:29:54.137993+00:00",
+    "observed_at": "2026-09-23T05:40:34.337747+00:00",
     "profile": {
       "model": "gpt-6-astra",
       "audio_model": "gemini-3.8-flash",
@@ -397,16 +407,18 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T04:29:54.137993+00:00",
-    "current_snapshot_sha256": "6ae0f6e7de09ea94b5ed1c1f2f86ea5a3749d3f13e2b98f91f6e765898f6d582",
-    "current_snapshot_name": "live_length5_first4_1230_download.json"
+    "current_as_of": "2026-09-23T05:40:34.337747+00:00",
+    "current_snapshot_sha256": "34c7b869721f4c58330292d557561dd897b87099b7afaffb0f6a983065f2103a",
+    "current_snapshot_name": "live_length2_start_1341.json"
   },
   "notes": [
-    "All original 195 first-score SHA values and 8 later rows published at 11:58 remain unchanged; this snapshot adds 22 runtime24 and 4 length5 first scores.",
-    "Current 229 scored questions mix visual output budgets: 225 from original 8192-token runs and 4 V130 questions from the separate length5 run, retaining inherited 8192-token windows and new 16384-token windows.",
-    "All four V130 first scores are zero; they are preserved without redrawing.",
-    "Overall means cover different successful question sets and must not be directly compared.",
-    "The initial 68-question comparison is retained as history, without adding any later scores.",
+    "All 229 previously published first scores and provenance remain unchanged; this snapshot adds 2 runtime24 and 4 length5 first scores.",
+    "235 current scores mix visual output budgets: 227 from original 8192-token runs and 8 from length5 memory retaining inherited 8192-token windows and resumed 16384-token windows.",
+    "runtime24 and length5 queues have finished with no active workers, locks or child tasks; only the separate two-video length2 queue is active.",
+    "Q259, Q260 and Q40 each have an official judge content_filter failure, not an unattempted judgment; no rejudgment is scheduled.",
+    "No successful answer is missing its first judgment and no valid judgment is missing accepted archival in the audited completed runs.",
+    "Matched request evidence distinguishes output truncation, content filtering, provider DLP, output validation and upstream 429/500 errors; resource exhaustion does not establish low account balance.",
+    "Overall means cover different successful question sets; the initial 68-question comparison remains unchanged history.",
     "No private response bodies, credentials, raw predictions or question text are exported."
   ],
   "protected_original_first_scores": {
@@ -971,6 +983,34 @@
       "accepted_sha256": "ae8bc43a6cba2e066f1c31ae6e9804c576c7461806459c3bf9496b093172b73d",
       "prediction_sha256": "a75dc4754e24d12aa22696ea1e292ae6f0e97302619ae7d0cef98f4b5f714ec0"
     },
+    "G2_Q000360": {
+      "question_id": "G2_Q000360",
+      "video_id": "G2_V000098",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000098/run_20260923_1257/scores.jsonl",
+      "source_sha256": "aee4972f962c063221389574475bf4c999bd08adea7f210fe4e15f582064ac34",
+      "accepted_sha256": "34e1ecd5b04ff04f08d684cc5d347282f7889a0436c48be193585c1135658e33",
+      "prediction_sha256": "3b50f7ea759a8d2159052b349ac59187e719f4da1b545556fb10999534ff2dad"
+    },
+    "G2_Q000361": {
+      "question_id": "G2_Q000361",
+      "video_id": "G2_V000098",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000098/run_20260923_1257/scores.jsonl",
+      "source_sha256": "aee4972f962c063221389574475bf4c999bd08adea7f210fe4e15f582064ac34",
+      "accepted_sha256": "1313719ca85459bc85a851cbb9cfd994be14561cec8766d6e81409c3dcc46ddc",
+      "prediction_sha256": "5c36748a25a725e92253832c43a6680b511eedb11b4e3d0e96c582040db0cd21"
+    },
     "G2_Q000497": {
       "question_id": "G2_Q000497",
       "video_id": "G2_V000126",
@@ -1026,6 +1066,62 @@
       "source_sha256": "3c6ea37ed0eab16464f6e6846286cf0ad3d5dfc00e9552ad4e8e9ffaf0c7ba9c",
       "accepted_sha256": "21f36a215f9ab3b61a7fa3a1b178aaf257edacbf82b1c5abfed71c1a6c14aa47",
       "prediction_sha256": "7b20b1df2e99c217011fbbd5e55c650e494b1cd61e7cb629a431c77e5857b89d"
+    },
+    "G2_Q000036": {
+      "question_id": "G2_Q000036",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000015/run_20260923_1244/scores.jsonl",
+      "source_sha256": "244a8513dd6a5c080747d789933ba752e1db6e3d58e336ec2b16bd1cf23d4f73",
+      "accepted_sha256": "ef1d59bbcfd7967755c33fef8e6338cb8758d27c973b15a8c34a5f359effc389",
+      "prediction_sha256": "dfe579858c52c98b50b0f357cb3d94541416a984e34dfd1265063bc4055010b6"
+    },
+    "G2_Q000037": {
+      "question_id": "G2_Q000037",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000015/run_20260923_1244/scores.jsonl",
+      "source_sha256": "244a8513dd6a5c080747d789933ba752e1db6e3d58e336ec2b16bd1cf23d4f73",
+      "accepted_sha256": "5e7c437194bf214f2c3f0e682cb67717fab7af09f0f90aead4145024f114329e",
+      "prediction_sha256": "04a53b12ef4953503dd5e778e9a8f6653d2fc55a904103885aa50b32f7c149b9"
+    },
+    "G2_Q000038": {
+      "question_id": "G2_Q000038",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000015/run_20260923_1244/scores.jsonl",
+      "source_sha256": "244a8513dd6a5c080747d789933ba752e1db6e3d58e336ec2b16bd1cf23d4f73",
+      "accepted_sha256": "d6b8813289d95dd15cb7c6fc13ecacb82d5e0e65c9e662ce63e2a04ef1d75623",
+      "prediction_sha256": "f5b6409dff692b17ecb0308847802c4d5be58ece78c39ac537e8065850d6f743"
+    },
+    "G2_Q000039": {
+      "question_id": "G2_Q000039",
+      "video_id": "G2_V000015",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000015/run_20260923_1244/scores.jsonl",
+      "source_sha256": "244a8513dd6a5c080747d789933ba752e1db6e3d58e336ec2b16bd1cf23d4f73",
+      "accepted_sha256": "5a83c8cbfad15ffe508c979011d6d5ac92348e3307d21713cfdbb6216f414755",
+      "prediction_sha256": "ef967e48212d871cd7b57333e1c2c518aad95009aa882d82049766d6fe1cd9bd"
     },
     "G2_Q000514": {
       "question_id": "G2_Q000514",
@@ -1085,14 +1181,15 @@
     }
   },
   "execution_concurrency": {
-    "runtime24_limit": 12,
-    "runtime24_running": 2,
+    "runtime24_running": 0,
     "v31_seed_running": 0,
-    "length5_limit": 5,
-    "length5_running": 4,
-    "configured_maximum_total_videos": 17,
-    "observed_running_videos": 6,
-    "questions_per_video": 2
+    "length5_running": 0,
+    "length2_limit": 2,
+    "length2_running": 2,
+    "configured_maximum_total_videos": 2,
+    "observed_running_videos": 2,
+    "questions_per_video": 2,
+    "reason": "Three stopped audio tasks returned upstream 429 Resource exhausted; use two video pipelines for this independent batch without inferring account balance or content filtering."
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1100,32 +1197,28 @@
       16384
     ],
     "current_scored_is_mixed_visual_budget": true,
-    "original_budget_scored": 225,
-    "length5_scored": 4,
+    "original_budget_scored": 227,
+    "length5_scored": 8,
+    "length2_scored": 0,
     "length5_inherited_visual_max_tokens": 8192,
     "length5_new_visual_max_tokens": 16384,
     "length5_question_ids": [
+      "G2_Q000036",
+      "G2_Q000037",
+      "G2_Q000038",
+      "G2_Q000039",
       "G2_Q000514",
       "G2_Q000515",
       "G2_Q000516",
       "G2_Q000517"
     ],
-    "interpretation": "225 questions use the original 8192-token visual output budget; 4 V130 questions use a memory retaining inherited 8192-token windows and resuming remaining windows with a 16384-token limit. This aggregate is not a uniform-budget ablation result."
-  },
-  "estimated_current_queue_completion": {
-    "date": "2026-09-23",
-    "timezone": "Asia/Shanghai",
-    "earliest": "13:15",
-    "latest": "13:45",
-    "scope": "currently executable batches only, not all 558 questions",
-    "estimated_at": "2026-09-23T04:29:54.137993+00:00",
-    "conditional_on": "API throughput and no additional external blocking"
+    "interpretation": "227 questions use original 8192-token visual output runs; 8 length5 questions use memory retaining inherited 8192-token windows and resumed 16384-token windows. This aggregate is not a uniform-budget ablation result."
   },
   "length5": {
     "schema_version": 1,
-    "observed_at": "2026-09-23T04:29:54.137993+00:00",
+    "observed_at": "2026-09-23T05:40:34.337747+00:00",
     "started_at": "2026-09-23T12:27:16+08:00",
-    "status": "running",
+    "status": "finished",
     "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
     "staging": "/root/longemo/runtime/staging/length5_deploy_20260923_122602",
     "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081",
@@ -1203,9 +1296,10 @@
     "api_requests_observed": 5,
     "pipelines": {
       "complete": 1,
-      "running": 4
+      "partial": 1,
+      "build_failed": 3
     },
-    "accepted_first_scores": 4,
+    "accepted_first_scores": 8,
     "validation": {
       "local_tests_passed": 29,
       "remote_tests_passed": 29
@@ -1215,16 +1309,184 @@
       "previously_published_later_scores": 8,
       "all_preserved": true
     },
-    "comparison_scope": "229 current scores combine 225 original-budget questions with 4 V130 length5 questions. Preserve inherited 8192-token and new 16384-token windows and all per-question first-score sources.",
-    "snapshot_sha256": "6ae0f6e7de09ea94b5ed1c1f2f86ea5a3749d3f13e2b98f91f6e765898f6d582",
+    "comparison_scope": "8 accepted first scores retain inherited 8192-token windows and newly perceived 16384-token windows. The separate startup record remains an unchanged historical snapshot.",
+    "snapshot_sha256": "34c7b869721f4c58330292d557561dd897b87099b7afaffb0f6a983065f2103a",
     "startup_observed_at": "2026-09-23T04:27:31.676878+00:00",
     "accepted_question_ids": [
+      "G2_Q000036",
+      "G2_Q000037",
+      "G2_Q000038",
+      "G2_Q000039",
       "G2_Q000514",
       "G2_Q000515",
       "G2_Q000516",
       "G2_Q000517"
     ],
     "first_completed_video": "G2_V000130",
-    "first_scores_observed_at": "2026-09-23T04:29:54.137993+00:00"
+    "first_scores_observed_at": "2026-09-23T04:29:54.137993+00:00",
+    "tasks": {
+      "answer:ok": 2,
+      "score:ok": 1,
+      "score:error": 1,
+      "build:ok": 2,
+      "build:error": 3
+    },
+    "historical_startup_record": "length5_startup.json"
+  },
+  "completion_estimate": {
+    "status": "not_estimated",
+    "scope": "currently active length2 batch only",
+    "reason": "New two-video batch is active; upstream resource errors make a specific completion time uncertain. The former 13:15–13:45 estimate applied to the now-finished previous batch."
+  },
+  "length2": {
+    "schema_version": 1,
+    "started_at": "2026-09-23T13:40:12+08:00",
+    "observed_at": "2026-09-23T05:40:34.337747+00:00",
+    "status": "running",
+    "run": "/root/longemo/runtime/runs/noevent_length2_continuation_20260923",
+    "staging": "/root/longemo/runtime/staging/length5_deploy_20260923_122602",
+    "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081",
+    "configuration_sha256": "a1f8f80fc9b8bbfdb436d4ea3e6b065d626c2e0236dfaadcc7711375bb9ff47c",
+    "selection_sha256": "1af11f078cfa84d46005f6b58326b5d122a3c82ae8fab729fb3e38d08b3d1b7d",
+    "selection": {
+      "schema_version": 1,
+      "condition": "noevent",
+      "question_ids": [
+        "G2_Q000455",
+        "G2_Q000456",
+        "G2_Q000457",
+        "G2_Q000458",
+        "G2_Q000459",
+        "G2_Q000460",
+        "G2_Q000545",
+        "G2_Q000546",
+        "G2_Q000547",
+        "G2_Q000548",
+        "G2_Q000549"
+      ],
+      "reason": "User-authorized noevent continuation. Both latest stopped visual source requests returned HTTP200 finish_reason=length under 8192 tokens; one separately claimed 16384-token task per video, with concurrency 2 after unrelated audio requests reported upstream 429 resource exhaustion. All prior attempts and first scores remain immutable."
+    },
+    "launch": {
+      "pid": 44279,
+      "start_ticks": "8209837",
+      "started_unix": 1790142012.4752138,
+      "configuration_sha256": "a1f8f80fc9b8bbfdb436d4ea3e6b065d626c2e0236dfaadcc7711375bb9ff47c"
+    },
+    "selected_videos": [
+      "G2_V000117",
+      "G2_V000138"
+    ],
+    "selected_question_ids": [
+      "G2_Q000455",
+      "G2_Q000456",
+      "G2_Q000457",
+      "G2_Q000458",
+      "G2_Q000459",
+      "G2_Q000460",
+      "G2_Q000545",
+      "G2_Q000546",
+      "G2_Q000547",
+      "G2_Q000548",
+      "G2_Q000549"
+    ],
+    "videos": 2,
+    "questions": 11,
+    "completed_windows_preserved": 66,
+    "video_concurrency_limit": 2,
+    "questions_per_video": 2,
+    "visual_max_tokens": 16384,
+    "profile": {
+      "model": "gpt-6-astra",
+      "audio_model": "gemini-3.8-flash",
+      "embedding_model": "google/gemini-embedding-2",
+      "window_seconds": 20,
+      "padding": 2,
+      "fps": 1,
+      "max_frames": 24,
+      "max_pixels": 200704,
+      "evidence_chars": 48000,
+      "stage_tries": {
+        "build": 3,
+        "plan": 3,
+        "answer": 3,
+        "score": 1
+      },
+      "visual": {
+        "model": "gemini-3.8-flash",
+        "max_tokens": 16384
+      }
+    },
+    "source": {
+      "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source_configuration_sha256": "498f1912586ecfe1bc453387f1a1eef42aa85107dad1cfa72ed7ed8e570c406f",
+      "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081"
+    },
+    "pipelines": {
+      "running": 2
+    },
+    "accepted_first_scores": 0,
+    "snapshot_sha256": "34c7b869721f4c58330292d557561dd897b87099b7afaffb0f6a983065f2103a",
+    "progress_observation": {
+      "observed_at": "2026-09-23T13:41:23+08:00",
+      "api_requests_observed": 6,
+      "initial_truncated_windows_passed": 2,
+      "videos": {
+        "G2_V000117": {
+          "inherited_windows": 10,
+          "completed_windows": 11
+        },
+        "G2_V000138": {
+          "inherited_windows": 56,
+          "completed_windows": 57
+        }
+      },
+      "new_accepted_first_scores": 0
+    },
+    "concurrency_reason": "Three previous audio tasks returned HTTP429 upstream Resource exhausted; this batch uses two video pipelines. This is not evidence of insufficient purchased credits or content filtering.",
+    "first_score_protection": {
+      "previously_published_scored": 229,
+      "all_preserved": true,
+      "current_scored": 235
+    },
+    "completion_time_estimate": null
+  },
+  "batch_end_audit": {
+    "file": "batch_end_audit.json",
+    "sha256": "0c5bff75271b1ed6ee4ee4623c70f18451c9229b7e7878dc11ea904ce8f8e18b",
+    "as_of": "2026-09-23T13:41:07.397856+08:00",
+    "finished_runs": [
+      "noevent_runtime24_continuation_20260923",
+      "noevent_length5_continuation_20260923"
+    ],
+    "process_audit": {
+      "old_active_workers": 0,
+      "old_active_subtasks": 0,
+      "old_locks_held": 0,
+      "evidence_source": "Separate remote PID, lock and child-task audit; old launch PIDs are retained only as historical identity."
+    },
+    "successful_answers_without_judgment": [],
+    "valid_judgments_without_accepted": [],
+    "judge_content_filter_question_ids": [
+      "G2_Q000040",
+      "G2_Q000259",
+      "G2_Q000260"
+    ],
+    "retry_judge": false,
+    "note": "The V26 run has no generic finished marker (false in the raw audit), but both successful answers have accepted official judgments; it is not treated as active from that marker alone."
+  },
+  "first_score_preservation": {
+    "previous_report_sha256": "4aca49bac2bae3f15db5d3095eddbc6c721bcdd1af9fb790a0758a1b99f5b24b",
+    "previous_scored": 229,
+    "unchanged_original_score_hashes": 195,
+    "unchanged_later_score_records": 34,
+    "new_question_ids": [
+      "G2_Q000036",
+      "G2_Q000037",
+      "G2_Q000038",
+      "G2_Q000039",
+      "G2_Q000360",
+      "G2_Q000361"
+    ],
+    "new_count": 6
   }
 }

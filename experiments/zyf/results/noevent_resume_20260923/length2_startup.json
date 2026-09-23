@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "started_at": "2026-09-23T13:40:12+08:00",
+  "observed_at": "2026-09-23T05:40:34.337747+00:00",
+  "status": "running",
+  "run": "/root/longemo/runtime/runs/noevent_length2_continuation_20260923",
+  "staging": "/root/longemo/runtime/staging/length5_deploy_20260923_122602",
+  "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081",
+  "configuration_sha256": "a1f8f80fc9b8bbfdb436d4ea3e6b065d626c2e0236dfaadcc7711375bb9ff47c",
+  "selection_sha256": "1af11f078cfa84d46005f6b58326b5d122a3c82ae8fab729fb3e38d08b3d1b7d",
+  "selection": {
+    "schema_version": 1,
+    "condition": "noevent",
+    "question_ids": [
+      "G2_Q000455",
+      "G2_Q000456",
+      "G2_Q000457",
+      "G2_Q000458",
+      "G2_Q000459",
+      "G2_Q000460",
+      "G2_Q000545",
+      "G2_Q000546",
+      "G2_Q000547",
+      "G2_Q000548",
+      "G2_Q000549"
+    ],
+    "reason": "User-authorized noevent continuation. Both latest stopped visual source requests returned HTTP200 finish_reason=length under 8192 tokens; one separately claimed 16384-token task per video, with concurrency 2 after unrelated audio requests reported upstream 429 resource exhaustion. All prior attempts and first scores remain immutable."
+  },
+  "launch": {
+    "pid": 44279,
+    "start_ticks": "8209837",
+    "started_unix": 1790142012.4752138,
+    "configuration_sha256": "a1f8f80fc9b8bbfdb436d4ea3e6b065d626c2e0236dfaadcc7711375bb9ff47c"
+  },
+  "selected_videos": [
+    "G2_V000117",
+    "G2_V000138"
+  ],
+  "selected_question_ids": [
+    "G2_Q000455",
+    "G2_Q000456",
+    "G2_Q000457",
+    "G2_Q000458",
+    "G2_Q000459",
+    "G2_Q000460",
+    "G2_Q000545",
+    "G2_Q000546",
+    "G2_Q000547",
+    "G2_Q000548",
+    "G2_Q000549"
+  ],
+  "videos": 2,
+  "questions": 11,
+  "completed_windows_preserved": 66,
+  "video_concurrency_limit": 2,
+  "questions_per_video": 2,
+  "visual_max_tokens": 16384,
+  "profile": {
+    "model": "gpt-6-astra",
+    "audio_model": "gemini-3.8-flash",
+    "embedding_model": "google/gemini-embedding-2",
+    "window_seconds": 20,
+    "padding": 2,
+    "fps": 1,
+    "max_frames": 24,
+    "max_pixels": 200704,
+    "evidence_chars": 48000,
+    "stage_tries": {
+      "build": 3,
+      "plan": 3,
+      "answer": 3,
+      "score": 1
+    },
+    "visual": {
+      "model": "gemini-3.8-flash",
+      "max_tokens": 16384
+    }
+  },
+  "source": {
+    "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+    "source_configuration_sha256": "498f1912586ecfe1bc453387f1a1eef42aa85107dad1cfa72ed7ed8e570c406f",
+    "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081"
+  },
+  "pipelines": {
+    "running": 2
+  },
+  "accepted_first_scores": 0,
+  "snapshot_sha256": "34c7b869721f4c58330292d557561dd897b87099b7afaffb0f6a983065f2103a",
+  "progress_observation": {
+    "observed_at": "2026-09-23T13:41:23+08:00",
+    "api_requests_observed": 6,
+    "initial_truncated_windows_passed": 2,
+    "videos": {
+      "G2_V000117": {
+        "inherited_windows": 10,
+        "completed_windows": 11
+      },
+      "G2_V000138": {
+        "inherited_windows": 56,
+        "completed_windows": 57
+      }
+    },
+    "new_accepted_first_scores": 0
+  },
+  "concurrency_reason": "Three previous audio tasks returned HTTP429 upstream Resource exhausted; this batch uses two video pipelines. This is not evidence of insufficient purchased credits or content filtering.",
+  "first_score_protection": {
+    "previously_published_scored": 229,
+    "all_preserved": true,
+    "current_scored": 235
+  },
+  "completion_time_estimate": null
+}
