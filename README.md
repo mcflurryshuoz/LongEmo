@@ -25,7 +25,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 | method | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
 
-已启动队列均结束，无漏评或有效评分漏归档。V117在18/64窗后音频明确内容过滤，保留失败。V101的一次音频探针已通过，**独立续跑准备中，尚未启动**；探针不计评分，不承诺完成时间。
+执行状态更新至**14:00 CST**：V101独立3题队列已于13:59:54启动，1视频并发、每视频2题，继承63/75完整窗并复用W64音频，未重发该音频请求；visual W64在途，尚无新分数。此前队列均已结束，V117明确过滤保留失败，不承诺完成时间。
 
 当前混合预算：**227题来自8192视觉预算，13题来自继承原窗口并以16384续构建的记忆**。不同成功题集总体均分不能直接比较。初轮共同成功68题保持如下，未并入后续45题：
 
@@ -35,7 +35,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 这是非随机成功评分交集，不能推断全集提升。noevent尚缺318题，method尚缺461题；141个视频已全部传输核验。
 
-[当前评测与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [最新结束审计与音频诊断](experiments/zyf/results/noevent_resume_20260923/length2_end_audit.md) · [前一批审计](experiments/zyf/results/noevent_resume_20260923/batch_end_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
+[当前评测与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [V101启动记录](experiments/zyf/results/noevent_resume_20260923/v101_startup.md) · [此前结束审计](experiments/zyf/results/noevent_resume_20260923/length2_end_audit.md) · [前一批审计](experiments/zyf/results/noevent_resume_20260923/batch_end_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ## method 分支：完整事件流检索方法

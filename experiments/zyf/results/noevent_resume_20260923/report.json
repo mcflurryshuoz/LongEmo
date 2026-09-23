@@ -2,7 +2,7 @@
   "schema_version": 1,
   "as_of": "2026-09-23T05:51:26.335478+00:00",
   "condition": "noevent",
-  "status": "preparing_continuation",
+  "status": "running",
   "coverage_complete": false,
   "current_execution_conditions": [
     "noevent"
@@ -143,6 +143,12 @@
         "G2_Q000548",
         "G2_Q000549"
       ]
+    },
+    "v101": {
+      "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
+      "configuration_sha256": "146b954fa3a709df18e092d1b3dad3234e0d7ecd594f2206d0e6d8fc5441c32e",
+      "accepted_first_scores": 0,
+      "accepted_ids": []
     }
   },
   "runtime24": {
@@ -418,14 +424,13 @@
     "current_snapshot_name": "snapshot_1351/snapshot.json"
   },
   "notes": [
-    "All 235 previously published first scores and provenance remain unchanged; 5 new first scores come from V138 in the length2 run.",
+    "The 240-question score snapshot remains at 13:51:26; only execution status is updated to 14:00:26. No prior score or provenance is changed.",
     "The current 240 scores mix visual output budgets: 227 original 8192-token scores and 13 from memories retaining inherited 8192-token windows and resumed 16384-token windows.",
-    "All currently started runtime24, length5 and length2 queues have ended; V31 stopped earlier, and V26 has both official scores complete.",
-    "V117 audio W19 was explicitly content-filtered on its first attempt and is not resubmitted.",
-    "The V101 single-request audio probe validates with HTTP200 but yields no score and does not complete a window or video; its separate continuation is being prepared, not yet started.",
-    "Q259, Q260 and Q40 retain prior official judge content_filter failures without rejudgment.",
-    "No successful answer is missing its first judgment and no valid judgment is missing accepted archival in audited completed runs.",
-    "The initial 68-question comparison remains unchanged; incomplete, different successful question sets cannot establish a full benchmark improvement.",
+    "Prior runtime24, length5 and length2 queues have ended; V31 stopped earlier and V26 has both official scores complete.",
+    "V101 independent continuation started at 13:59:54 for Q368/Q369/Q370 with one video and two questions per video; it preserves 63 complete windows and imports validated audio W64 without reissuing that audio request.",
+    "V101 keeps visual8192/audio4096 output limits. At 14:00:26 visual W64 is in flight, memory remains at 63/75 complete windows, and accepted new scores remain zero.",
+    "V117 audio W19 remains an explicit first-attempt content filter; Q259, Q260 and Q40 retain prior judge content_filter failures without rejudgment.",
+    "The initial 68-question comparison remains unchanged; different successful question sets cannot establish a full-benchmark improvement.",
     "No credentials, raw predictions or private response bodies are exported."
   ],
   "protected_original_first_scores": {
@@ -1262,8 +1267,11 @@
     "v31_seed_running": 0,
     "length5_running": 0,
     "length2_running": 0,
-    "observed_running_videos": 0,
-    "v101_continuation_status": "preparing_not_started"
+    "v101_limit": 1,
+    "v101_running": 1,
+    "observed_running_videos": 1,
+    "v101_continuation_status": "running",
+    "questions_per_video": 2
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1416,8 +1424,8 @@
   },
   "completion_estimate": {
     "status": "not_estimated",
-    "scope": "future V101 continuation, not yet started",
-    "reason": "All currently started queues have ended; only an audio probe has passed and an independent continuation is being prepared. No full558 completion time is asserted."
+    "scope": "active V101 three-question continuation",
+    "reason": "One build is running; visual W64 is in flight and no new first scores are accepted. No full558 completion time is asserted."
   },
   "length2": {
     "schema_version": 1,
@@ -1633,7 +1641,62 @@
       "parent_files_unchanged": true
     },
     "interpretation": "Exactly one original failed audio request now validates. This is not a complete visual window or video memory, and has produced no score.",
-    "continuation_status": "preparing_not_started",
-    "new_accepted_first_scores": 0
+    "continuation_status": "running",
+    "new_accepted_first_scores": 0,
+    "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
+  },
+  "execution_as_of": "2026-09-23T14:00:26.106955+08:00",
+  "v101_continuation": {
+    "as_of": "2026-09-23T14:00:26.106955+08:00",
+    "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
+    "process": {
+      "pid": 55578,
+      "host": "gpulingjun033180161150.et15",
+      "start_ticks": "8328001",
+      "started_unix": 1790143194.6965249
+    },
+    "identity_alive": true,
+    "configuration_sha256": "146b954fa3a709df18e092d1b3dad3234e0d7ecd594f2206d0e6d8fc5441c32e",
+    "driver_sha256": "08612b6b48cca7efb10440c1ba248170ff63cace0949a505aace46e066cf3e82",
+    "selected_question_ids": [
+      "G2_Q000368",
+      "G2_Q000369",
+      "G2_Q000370"
+    ],
+    "workers": 1,
+    "question_workers": 2,
+    "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+    "completed_windows_inherited": 63,
+    "completed_windows_current": 63,
+    "total_windows": 75,
+    "visual_max_tokens": 8192,
+    "audio_max_tokens": 4096,
+    "probe_original_first_scores_protected": 235,
+    "all_first_scores_protected": 240,
+    "probe_request_hash": "c011c4308a00924f88b9e2159119b550b582de8b546c9715e2e95c97e0f4b543",
+    "audio_seed_receipt_sha256": "c02a838ecf5de96591d1331a78db2a112dabad6a4e6f3fdcf3f7e02fcc00bc2b",
+    "audio_seed_input_fingerprint": "f13d88d27f0ff5ba27809a8d4fea5361013457683999c6571fb8c263600dea38",
+    "audio_W64_reissued_calls": 0,
+    "accepted_first_scores": 0,
+    "tasks": [
+      {
+        "stage": "build",
+        "status": "running"
+      }
+    ],
+    "selection_sha256": "cebb978f08d23003180a704ad2b82e356b4dd090fa28704442dea1dba933917e",
+    "test_counts": {
+      "local_related": 41,
+      "independent_new": 5,
+      "remote_selected": 19
+    },
+    "status": "running",
+    "started_at": "2026-09-23T13:59:54+08:00",
+    "staging": "/root/longemo/runtime/staging/v101_seed_deploy_20260923_135813",
+    "startup_file": "v101_startup.json",
+    "startup_sha256": "5709bdddcfabf6b6b7550cd8f6379a1b40a1cf0b59325ca532f8b04718e34c8b",
+    "visual_window_in_flight": "W00064",
+    "score_snapshot_as_of": "2026-09-23T05:51:26.335478+00:00",
+    "score_snapshot_unchanged": true
   }
 }

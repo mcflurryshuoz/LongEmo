@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-09-23T14:00:26.106955+08:00",
+  "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
+  "process": {
+    "pid": 55578,
+    "host": "gpulingjun033180161150.et15",
+    "start_ticks": "8328001",
+    "started_unix": 1790143194.6965249
+  },
+  "identity_alive": true,
+  "configuration_sha256": "146b954fa3a709df18e092d1b3dad3234e0d7ecd594f2206d0e6d8fc5441c32e",
+  "driver_sha256": "08612b6b48cca7efb10440c1ba248170ff63cace0949a505aace46e066cf3e82",
+  "selected_question_ids": [
+    "G2_Q000368",
+    "G2_Q000369",
+    "G2_Q000370"
+  ],
+  "workers": 1,
+  "question_workers": 2,
+  "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+  "completed_windows_inherited": 63,
+  "completed_windows_current": 63,
+  "total_windows": 75,
+  "visual_max_tokens": 8192,
+  "audio_max_tokens": 4096,
+  "probe_original_first_scores_protected": 235,
+  "all_first_scores_protected": 240,
+  "probe_request_hash": "c011c4308a00924f88b9e2159119b550b582de8b546c9715e2e95c97e0f4b543",
+  "audio_seed_receipt_sha256": "c02a838ecf5de96591d1331a78db2a112dabad6a4e6f3fdcf3f7e02fcc00bc2b",
+  "audio_seed_input_fingerprint": "f13d88d27f0ff5ba27809a8d4fea5361013457683999c6571fb8c263600dea38",
+  "audio_W64_reissued_calls": 0,
+  "accepted_first_scores": 0,
+  "tasks": [
+    {
+      "stage": "build",
+      "status": "running"
+    }
+  ],
+  "selection_sha256": "cebb978f08d23003180a704ad2b82e356b4dd090fa28704442dea1dba933917e",
+  "test_counts": {
+    "local_related": 41,
+    "independent_new": 5,
+    "remote_selected": 19
+  }
+}
