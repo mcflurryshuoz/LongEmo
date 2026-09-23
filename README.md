@@ -13,23 +13,25 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融结果
 
-2026-09-23 11:07 CST 快照，11:12 完成审计。**noevent 与 method 的可执行队列均已结束，558题尚未全部评分。** base 只保留已有参考，不新增回答或评分。
+2026-09-23 11:58 CST固定快照：**按新指令继续 noevent**。初轮195条首分SHA逐题不变，V26新增2题、主24视频队列新增6题；method 与 base 本轮不新增任务。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 195/558 | 26.67 |
+| noevent | 203/558 | 26.48 |
 | method | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
 
-不同已评分题集的总体均分不能直接比较。**noevent／method 共同成功的68题**结果为：
+当前按**主队列12并发＋V31独立1视频**运行：主队列固定24视频／99题，继承793个窗口，12视频运行、2完成、3构建失败；V31独立3题已从audio W27继续。沿用 Gemini 3.8 Flash、8192输出预算及原采样。
 
-| 同题题数 | noevent／100 | method／100 | method − noevent |
+不同已评分题集的总体均分不能直接比较。下表保留**初轮共同成功68题**，尚未并入本次新增8题：
+
+| 初轮同题题数 | noevent／100 | method／100 | method − noevent |
 |---:|---:|---:|---:|
 | 68 | 32.60 | 62.13 | +29.53 |
 
-这是成功评分的交集，未经随机抽样，不能据此推断全集提升。noevent 尚缺363题，method 尚缺461题，原因保留在逐题报告。141个视频已全部传输并核验；当前无在途任务或待首次评分，已失败请求保留原预算。
+这是成功评分交集，未经随机抽样，不能推断全集提升。当前 noevent 尚缺355题，method 尚缺461题；141个视频已全部传输并核验。
 
-[全集报告与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [队列结束审计与68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
+[noevent 后续评测记录](experiments/zyf/results/noevent_resume_20260923/report.md) · [初轮报告与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ### 历史题型路由结果
@@ -75,7 +77,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 本次 noevent 与 method 固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。已完成的13题 base／method 试跑共用冻结图、索引和规划。全集固定为 **558 题／141 视频**，本轮按 `noevent → method` 执行；已有 base 保留配置和逐题来源，不再运行。纯渐进式与历史题型路由版结果分开报告。
 
-本轮 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验覆盖全集题单，可执行队列现已结束。试跑首分核验后继承，运行时最多 **12 视频并发、每视频 2 题并发**，依次执行 noevent 和 method；媒体边传边处理，每视频完成记忆后答题评分。完整题单和媒体 SHA 固定，失败预算与首次评分保留；未评分范围见上方审计。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
+本轮 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验覆盖全集题单，初轮可执行队列已结束；noevent 按新指令继续。试跑首分核验后继承，运行时最多 **12 视频并发、每视频 2 题并发**，依次执行 noevent 和 method；媒体边传边处理，每视频完成记忆后答题评分。完整题单和媒体 SHA 固定，失败预算与首次评分保留；未评分范围见上方审计。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
 
 50题试跑已结束并完成首分审计；[试跑报告与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)单独保留。
 
@@ -83,7 +85,7 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 [完整消融与论文分析计划](experiments/zyf/three_level_ablation.md) · [noevent 方案](experiments/zyf/noevent_plan.md) · [方法文档](methods/longemo/README.md)
 
-本轮全集范围的可执行队列与媒体传输均已结束，未评分题保留失败归因。[队列结束审计](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md) · [历史启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
+初轮可执行队列与媒体传输已结束；noevent 已按新指令继续，后续记录见上方链接。[队列结束审计](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md) · [历史启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
 
 ## Benchmark setup
 
