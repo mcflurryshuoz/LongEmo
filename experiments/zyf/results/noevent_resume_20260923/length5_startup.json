@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "observed_at": "2026-09-23T04:29:54.137993+00:00",
+  "started_at": "2026-09-23T12:27:16+08:00",
+  "status": "running",
+  "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+  "staging": "/root/longemo/runtime/staging/length5_deploy_20260923_122602",
+  "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081",
+  "configuration_sha256": "58edcda4a824fdcb8c038181343d7fb47a5da58f93d60f53aec8436a4219e495",
+  "launch": {
+    "pid": 470828,
+    "start_ticks": "7772239",
+    "started_unix": 1790137636.4900577,
+    "configuration_sha256": "58edcda4a824fdcb8c038181343d7fb47a5da58f93d60f53aec8436a4219e495"
+  },
+  "selected_videos": [
+    "G2_V000015",
+    "G2_V000091",
+    "G2_V000096",
+    "G2_V000113",
+    "G2_V000130"
+  ],
+  "selected_question_ids": [
+    "G2_Q000036",
+    "G2_Q000037",
+    "G2_Q000038",
+    "G2_Q000039",
+    "G2_Q000040",
+    "G2_Q000331",
+    "G2_Q000332",
+    "G2_Q000333",
+    "G2_Q000334",
+    "G2_Q000335",
+    "G2_Q000354",
+    "G2_Q000355",
+    "G2_Q000432",
+    "G2_Q000433",
+    "G2_Q000434",
+    "G2_Q000435",
+    "G2_Q000436",
+    "G2_Q000437",
+    "G2_Q000514",
+    "G2_Q000515",
+    "G2_Q000516",
+    "G2_Q000517"
+  ],
+  "videos": 5,
+  "questions": 22,
+  "completed_windows_preserved": 168,
+  "video_concurrency_limit": 5,
+  "questions_per_video": 2,
+  "visual_max_tokens_before": 8192,
+  "visual_max_tokens_after": 16384,
+  "profile": {
+    "model": "gpt-6-astra",
+    "audio_model": "gemini-3.8-flash",
+    "embedding_model": "google/gemini-embedding-2",
+    "window_seconds": 20,
+    "padding": 2,
+    "fps": 1,
+    "max_frames": 24,
+    "max_pixels": 200704,
+    "evidence_chars": 48000,
+    "stage_tries": {
+      "build": 3,
+      "plan": 3,
+      "answer": 3,
+      "score": 1
+    },
+    "visual": {
+      "model": "gemini-3.8-flash",
+      "max_tokens": 16384
+    }
+  },
+  "source": {
+    "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+    "source_configuration_sha256": "498f1912586ecfe1bc453387f1a1eef42aa85107dad1cfa72ed7ed8e570c406f",
+    "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081"
+  },
+  "api_requests_observed": 5,
+  "pipelines": {
+    "complete": 1,
+    "running": 4
+  },
+  "accepted_first_scores": 4,
+  "validation": {
+    "local_tests_passed": 29,
+    "remote_tests_passed": 29
+  },
+  "first_score_protection": {
+    "original_scores": 195,
+    "previously_published_later_scores": 8,
+    "all_preserved": true
+  },
+  "comparison_scope": "229 current scores combine 225 original-budget questions with 4 V130 length5 questions. Preserve inherited 8192-token and new 16384-token windows and all per-question first-score sources.",
+  "snapshot_sha256": "6ae0f6e7de09ea94b5ed1c1f2f86ea5a3749d3f13e2b98f91f6e765898f6d582",
+  "startup_observed_at": "2026-09-23T04:27:31.676878+00:00",
+  "accepted_question_ids": [
+    "G2_Q000514",
+    "G2_Q000515",
+    "G2_Q000516",
+    "G2_Q000517"
+  ],
+  "first_completed_video": "G2_V000130",
+  "first_scores_observed_at": "2026-09-23T04:29:54.137993+00:00",
+  "window_progress_observation": {
+    "observed_at": "2026-09-23T12:30:44+08:00",
+    "initial_failed_windows_passed": 5,
+    "videos": {
+      "G2_V000015": {
+        "inherited_windows": 10,
+        "completed_windows": 12
+      },
+      "G2_V000091": {
+        "inherited_windows": 21,
+        "completed_windows": 24
+      },
+      "G2_V000096": {
+        "inherited_windows": 19,
+        "completed_windows": 20
+      },
+      "G2_V000113": {
+        "inherited_windows": 54,
+        "completed_windows": 55
+      },
+      "G2_V000130": {
+        "inherited_windows": 64,
+        "completed_windows": 65,
+        "memory_complete": true,
+        "accepted_first_scores": 4
+      }
+    },
+    "score_snapshot_unchanged": true
+  }
+}
