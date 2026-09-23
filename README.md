@@ -17,25 +17,25 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前三层消融结果
 
-2026-09-23 **13:40 CST快照**：noevent新增6题至235题，之前229题的首分及来源不变；method与base本轮不新增任务。
+2026-09-23 **13:51 CST快照**：V138新增5题至240题，之前235题的首分和来源不变；method与base本轮不新增任务。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 235/558 | 25.92 |
+| noevent | 240/558 | 25.49 |
 | method | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
 
-主24视频和5视频队列已结束，无漏评、无有效评分漏归档。**当前仅V117／V138两视频、11题队列运行**，复用66窗、16384视觉输出预算，两处原截断均已通过，暂未新增分数。上游429资源错误后采用两路并发，当前不提供确定完成时间。
+已启动队列均结束，无漏评或有效评分漏归档。V117在18/64窗后音频明确内容过滤，保留失败。V101的一次音频探针已通过，**独立续跑准备中，尚未启动**；探针不计评分，不承诺完成时间。
 
-本表已混合输出预算：**227题来自8192预算，8题来自继承原窗口并以16384续构建的记忆**。不同成功题集的总体均分不能直接比较。初轮共同成功68题保留如下，未并入后续40题：
+当前混合预算：**227题来自8192视觉预算，13题来自继承原窗口并以16384续构建的记忆**。不同成功题集总体均分不能直接比较。初轮共同成功68题保持如下，未并入后续45题：
 
 | 初轮同题题数 | noevent／100 | method／100 | method − noevent |
 |---:|---:|---:|---:|
 | 68 | 32.60 | 62.13 | +29.53 |
 
-这是非随机的成功评分交集，不能推断全集提升。noevent尚缺323题，method尚缺461题；141个视频已全部传输并核验。
+这是非随机成功评分交集，不能推断全集提升。noevent尚缺318题，method尚缺461题；141个视频已全部传输核验。
 
-[当前评测与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [批次结束审计](experiments/zyf/results/noevent_resume_20260923/batch_end_audit.md) · [两视频启动记录](experiments/zyf/results/noevent_resume_20260923/length2_startup.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
+[当前评测与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [最新结束审计与音频诊断](experiments/zyf/results/noevent_resume_20260923/length2_end_audit.md) · [前一批审计](experiments/zyf/results/noevent_resume_20260923/batch_end_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ## method 分支：完整事件流检索方法

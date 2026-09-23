@@ -1,0 +1,65 @@
+{
+  "as_of": "2026-09-23T13:51:57.069792+08:00",
+  "run": "/root/longemo/runtime/runs/noevent_length2_continuation_20260923",
+  "configuration_sha256": "a1f8f80fc9b8bbfdb436d4ea3e6b065d626c2e0236dfaadcc7711375bb9ff47c",
+  "process": {
+    "pid": 44279,
+    "host": "gpulingjun033180161150.et15",
+    "start_ticks": "8209837",
+    "started_unix": 1790142012.6363428
+  },
+  "finished": true,
+  "accepted": 5,
+  "identity_alive": false,
+  "tasks": [
+    {
+      "stage": "answer",
+      "task": "noevent-G2_V000138",
+      "status": "ok"
+    },
+    {
+      "stage": "score",
+      "task": "noevent-G2_V000138",
+      "status": "ok"
+    },
+    {
+      "stage": "build",
+      "task": "noevent-G2_V000138",
+      "status": "ok"
+    },
+    {
+      "stage": "build",
+      "task": "noevent-G2_V000117",
+      "status": "error"
+    }
+  ],
+  "child_processes": [],
+  "coordinator_lock_free": true,
+  "successful_answers_without_judgment": [],
+  "successful_judgments_without_accepted": [],
+  "failure": {
+    "video": "G2_V000117",
+    "completed_windows": 18,
+    "window": "W00019",
+    "stage": "audio",
+    "request_hash": "8ce3a85412fcef5d9af48cf9f7b468cfb9135adf1baddbb4405de955e798a1bf",
+    "classification": "explicit_content_filter",
+    "attempt": 1,
+    "diagnostics": [
+      {
+        "path": "/root/longemo/runtime/runs/noevent_length2_continuation_20260923/private_diagnostics/build/G2_V000117/8ce3a85412fcef5d-e8ce63f9d1154a26a147edf284c448b9.json",
+        "diagnostic_sha256": "af43e5f499d7a32131a3dada657ca68a29b8a1417027e8c5b4140ef603556e84",
+        "http_status": 200,
+        "finish_reason": [
+          "content_filter"
+        ],
+        "response_sha256": "2dfd79a5ce903eb55d23a88b3c0b084b8ab8e17df1ffd64943f05ecc958f9123"
+      }
+    ]
+  },
+  "completed_video": {
+    "video": "G2_V000138",
+    "completed_windows": 65,
+    "accepted": 5
+  }
+}
