@@ -1,0 +1,153 @@
+{
+  "as_of": "2026-09-23T09:41:01.038378+00:00",
+  "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+  "staging": "/root/longemo/runtime/staging/http428_seed_deploy_1737_v2",
+  "driver_sha256": "a4632fbd3714c2c87611c5ce59886ffee25f94166d1712202acadc68f8bab7a8",
+  "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+  "execution_sha256": "f83eafbc205ece5ddbd65995d8c124b4a77a62f5ec4f23550bcbbdfcdd4e6023",
+  "launch": {
+    "pid": 386531,
+    "start_ticks": "9649377",
+    "started_unix": 1790156407.9245987,
+    "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+    "argv": [
+      "/opt/conda/bin/python",
+      "-B",
+      "-u",
+      "-m",
+      "experiments.zyf.noevent_http428_continuation",
+      "run",
+      "--run",
+      "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923"
+    ]
+  },
+  "identity_alive": true,
+  "workers": 5,
+  "question_workers": 2,
+  "protected_first_scores": 262,
+  "selection": {
+    "schema_version": 1,
+    "condition": "noevent",
+    "question_ids": [
+      "G2_Q000014",
+      "G2_Q000015",
+      "G2_Q000203",
+      "G2_Q000204",
+      "G2_Q000205",
+      "G2_Q000242",
+      "G2_Q000243",
+      "G2_Q000244",
+      "G2_Q000245",
+      "G2_Q000246",
+      "G2_Q000247",
+      "G2_Q000276",
+      "G2_Q000277",
+      "G2_Q000282",
+      "G2_Q000283",
+      "G2_Q000284",
+      "G2_Q000285"
+    ],
+    "reason": "Fixed five successful one-request HTTP428 diagnostics; reuse seeds, original budgets, first scores preserved."
+  },
+  "profile": {
+    "model": "gemini-3.8-flash",
+    "visual_max_tokens": 8192,
+    "audio_max_tokens": 4096
+  },
+  "videos": {
+    "G2_V000007": {
+      "inherited_windows": 12,
+      "current_windows": 13,
+      "total_windows": 28,
+      "seed_stage": "audio",
+      "seed_window": "W00013",
+      "seed_request_hash": "339209adea74ee5f7dd77ef55f4dc0ab62edce1b7675ad72bb2e942e36ba98b9",
+      "seed_receipt_sha256": "21adeb24638d73dfb83f44262716a8cb224f0301f8e6b1a36d3462edd03188c9",
+      "build_status": "running",
+      "child": {
+        "pid": 386780,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "9649682"
+      },
+      "first_scores": 0,
+      "successful_new_calls": 2,
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000062": {
+      "inherited_windows": 25,
+      "current_windows": 26,
+      "total_windows": 67,
+      "seed_stage": "audio",
+      "seed_window": "W00026",
+      "seed_request_hash": "8b90198fa8153431e7740a53ac5264e4494feb61ee1527d922f1c400f16978d3",
+      "seed_receipt_sha256": "bafe0df993f6f9e84d6885505b0d16ee5e4f86023a81563515010966dcdff2e1",
+      "build_status": "running",
+      "child": {
+        "pid": 386779,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "9649675"
+      },
+      "first_scores": 0,
+      "successful_new_calls": 2,
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000070": {
+      "inherited_windows": 34,
+      "current_windows": 35,
+      "total_windows": 66,
+      "seed_stage": "audio",
+      "seed_window": "W00035",
+      "seed_request_hash": "4608bd327f302c8bbc6acce0478c08c2fbfe2c588f342bdac2e96c6476a5a0aa",
+      "seed_receipt_sha256": "89b25b90b23b4f723cd05cbd1abc305b1a3e7d3b87dc7a8a5168814c2e272561",
+      "build_status": "running",
+      "child": {
+        "pid": 386783,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "9649686"
+      },
+      "first_scores": 0,
+      "successful_new_calls": 2,
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000078": {
+      "inherited_windows": 16,
+      "current_windows": 17,
+      "total_windows": 66,
+      "seed_stage": "audio",
+      "seed_window": "W00017",
+      "seed_request_hash": "78d37d37c5716cc93edde0ee4ee75bac5f35c34052e3d16ecf47b02180d9f156",
+      "seed_receipt_sha256": "12fe7e07f2f8f7866b2879b04302d76c27b5b0fbd2e03e1bbde11de4cdb2eb3d",
+      "build_status": "running",
+      "child": {
+        "pid": 386782,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "9649685"
+      },
+      "first_scores": 0,
+      "successful_new_calls": 2,
+      "seed_stage_reissued_calls": 0
+    },
+    "G2_V000080": {
+      "inherited_windows": 9,
+      "current_windows": 11,
+      "total_windows": 61,
+      "seed_stage": "visual",
+      "seed_window": "W00010",
+      "seed_request_hash": "1a7fe3c3c086559598050daf34b3b2e9b4067dbbb86636f1c251dc44ab4bf89a",
+      "seed_receipt_sha256": "0e677a09c1a1630933fa8cc71afd5233534c4938a0ccf4236adc249da668cf98",
+      "build_status": "running",
+      "child": {
+        "pid": 386778,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "9649666"
+      },
+      "first_scores": 0,
+      "successful_new_calls": 3,
+      "seed_stage_reissued_calls": 0
+    }
+  },
+  "tests_passed": 40,
+  "core_files_unchanged": 1053,
+  "snapshot_sha256": "a292da98d74741dca15f27d6dbe7609644050c8088be4e8153d0dda96e97b3c5",
+  "preparation_only_failure_audit_sha256": "496e7fe94a159d0a8515170146b3807a6edb4114c0ea9a04ef2df32bea92c572"
+}
