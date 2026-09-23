@@ -1,0 +1,5522 @@
+{
+  "as_of": "2026-09-23T21:53:23.242471+00:00",
+  "protocol": "noevent-raw-observation-full-bank-v1",
+  "overall": {
+    "total": 558,
+    "scored": 249,
+    "mean_scored": 61.24497991967873
+  },
+  "eligible_new": 357,
+  "by_type": {
+    "emotion trajectory": {
+      "total": 235,
+      "scored": 102,
+      "mean_scored": 62.254901960784316
+    },
+    "emotional intensity comparison": {
+      "total": 194,
+      "scored": 88,
+      "mean_scored": 52.27272727272727
+    },
+    "emotional reasoning": {
+      "total": 129,
+      "scored": 59,
+      "mean_scored": 72.88135593220338
+    }
+  },
+  "by_source": {
+    "current_method": {
+      "total": 101,
+      "scored": 88,
+      "mean_scored": 55.68181818181817
+    },
+    "historical_graph": {
+      "total": 267,
+      "scored": 125,
+      "mean_scored": 62.333333333333336
+    },
+    "independent_window": {
+      "total": 103,
+      "scored": 36,
+      "mean_scored": 71.06481481481481
+    }
+  },
+  "statuses": {
+    "scored": 249,
+    "error": 13,
+    "prior_failed_attempt": 4,
+    "prior_explicit_backend_refusal": 22,
+    "needs_missing_observations": 87,
+    "running": 16,
+    "pending": 167
+  },
+  "rows": [
+    {
+      "question_id": "G2_Q000001",
+      "video_id": "G2_V000001",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "8add062974e4eed0e680bad9389985ed5fbc756c67fd49dadbbc375cdcb9b28c",
+      "memory_sha256": "1f5aad824b1273a60276117579c60f50ac732f2f6218d406213aef2d27958786"
+    },
+    {
+      "question_id": "G2_Q000002",
+      "video_id": "G2_V000001",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "90fde9152c47a1f886cc319189e9c90f81df05ab6c3919e24718a1efe3290278",
+      "memory_sha256": "1f5aad824b1273a60276117579c60f50ac732f2f6218d406213aef2d27958786"
+    },
+    {
+      "question_id": "G2_Q000003",
+      "video_id": "G2_V000002",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "65dca9477f73a797890470ad58f24858dc87fd501bfe495f237d78d1716b44a7",
+      "memory_sha256": "c461dc19fcd43ec9aec9c3e3ba0237c17325a2970f65d4d5defe1b5acd6863f4"
+    },
+    {
+      "question_id": "G2_Q000004",
+      "video_id": "G2_V000002",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "f19b109d5fd5e37ded615154cf6a9644519b970c7b2744a6cb03945a60d06787",
+      "memory_sha256": "c461dc19fcd43ec9aec9c3e3ba0237c17325a2970f65d4d5defe1b5acd6863f4"
+    },
+    {
+      "question_id": "G2_Q000005",
+      "video_id": "G2_V000003",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "c0e3181e1b70e250161a12d56ccc5cc2220e5fec9495b0a055ead641bfd6e96c",
+      "memory_sha256": "3ec376eb88d9f5260e8041ed9a6316e69df3b923f8e221de63e195a98dd78abc"
+    },
+    {
+      "question_id": "G2_Q000006",
+      "video_id": "G2_V000003",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "c9b1c10ee62497870f6cc7cf37edde7172f91f186c971b5891664922c481efc3",
+      "memory_sha256": "3ec376eb88d9f5260e8041ed9a6316e69df3b923f8e221de63e195a98dd78abc"
+    },
+    {
+      "question_id": "G2_Q000007",
+      "video_id": "G2_V000003",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "b6910a8d717dd6796eb07eb2319ef771eaf429eabccfc84aaf74bedf47074084",
+      "memory_sha256": "3ec376eb88d9f5260e8041ed9a6316e69df3b923f8e221de63e195a98dd78abc"
+    },
+    {
+      "question_id": "G2_Q000008",
+      "video_id": "G2_V000004",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0f4dcee9b454d0a1bc7f6fd180115e1141e98088a85fa966ace8baa719694007",
+      "memory_sha256": "ec38278e9656b2ccdde7bd6172ec8062c2b0a74a30987189c61f7e50809d2bd1"
+    },
+    {
+      "question_id": "G2_Q000009",
+      "video_id": "G2_V000004",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "25e780d0ff2af5af79889442465ee817da3df080eb208ce40c8748c9bb1423e5",
+      "memory_sha256": "ec38278e9656b2ccdde7bd6172ec8062c2b0a74a30987189c61f7e50809d2bd1"
+    },
+    {
+      "question_id": "G2_Q000010",
+      "video_id": "G2_V000005",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3e05c95e8e59345f7a34fdc902b9bfc2dd1f24156e225938f118b078d0933601",
+      "memory_sha256": "cbd5e250f700846315afa1e93edad9142f67397cfe20b7994462b0ca8c4ebb04"
+    },
+    {
+      "question_id": "G2_Q000011",
+      "video_id": "G2_V000005",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "874951dfbb3375d096cf0202ceb4fe93308c395b6847dfd67b97ff5df3373fc6",
+      "memory_sha256": "cbd5e250f700846315afa1e93edad9142f67397cfe20b7994462b0ca8c4ebb04"
+    },
+    {
+      "question_id": "G2_Q000012",
+      "video_id": "G2_V000006",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d612febd3b256011c5e337f8f39fa38a7f510c38bc77ad7d31472c3a33733545",
+      "memory_sha256": "a7bbe4adaec2f5cd9c2c717abb33a255a36985b94a1ed894fceebab0b87b3b9c"
+    },
+    {
+      "question_id": "G2_Q000013",
+      "video_id": "G2_V000006",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e8bf122c1193cc4e81823159a163b47f3956fc490eef364f930ffdebec007fa1",
+      "memory_sha256": "a7bbe4adaec2f5cd9c2c717abb33a255a36985b94a1ed894fceebab0b87b3b9c"
+    },
+    {
+      "question_id": "G2_Q000014",
+      "video_id": "G2_V000007",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "83dac8330a2c1044b145c8653f5b17fd013ca01e3849407ad4129ce78b4d06a5",
+      "memory_sha256": "f4e94a852b8167666d6a896af7968700bf14a1bafd5fdd944df33ede4b7f622a"
+    },
+    {
+      "question_id": "G2_Q000015",
+      "video_id": "G2_V000007",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "09edb700708a68f1bceae489c7285f9903c2de823357520d651407576e9e9cf0",
+      "memory_sha256": "f4e94a852b8167666d6a896af7968700bf14a1bafd5fdd944df33ede4b7f622a"
+    },
+    {
+      "question_id": "G2_Q000016",
+      "video_id": "G2_V000008",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "88302217785749bb89697349679e8001b621801a4d93b12053525abf5d24c122",
+      "memory_sha256": "bbda6805125a02eb2ba82c3582e2853881a11ee49b77d0c9039d1ab23306b6b0"
+    },
+    {
+      "question_id": "G2_Q000017",
+      "video_id": "G2_V000009",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "c4e24707b0c12b1919a2f48057d912c25fe0da4d635ed837bba3d24158859aa8",
+      "memory_sha256": "7f73715c0cdd4542bd531dd91797e1332c1802f74e670eb47f6b8a7462c721b5"
+    },
+    {
+      "question_id": "G2_Q000018",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "54cdfd18b4d99c0e107852a9479b37b382b511a03080d325d5e26c8cdfb8d0d1",
+      "memory_sha256": "7f73715c0cdd4542bd531dd91797e1332c1802f74e670eb47f6b8a7462c721b5"
+    },
+    {
+      "question_id": "G2_Q000019",
+      "video_id": "G2_V000009",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d9df36fee2a79418d2b201b8ba7e7c340df02e788d73283dd02c25c86cfb496a",
+      "memory_sha256": "7f73715c0cdd4542bd531dd91797e1332c1802f74e670eb47f6b8a7462c721b5"
+    },
+    {
+      "question_id": "G2_Q000020",
+      "video_id": "G2_V000010",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "70384ee74fd67e88c63b4af472ddd254ebe54f22e126567fa61d01ac14648652",
+      "memory_sha256": "ef40d0fe209c5276253167a36c5de54c843fd82715d74f16ed4f4a6cd3329b0d"
+    },
+    {
+      "question_id": "G2_Q000021",
+      "video_id": "G2_V000010",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "387de6521563c1e3b7797813eb70d498826a510f2039824dcfee96454c2fa5bf",
+      "memory_sha256": "ef40d0fe209c5276253167a36c5de54c843fd82715d74f16ed4f4a6cd3329b0d"
+    },
+    {
+      "question_id": "G2_Q000022",
+      "video_id": "G2_V000010",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "d790aff63948a81ebd43565349b96129e7def20ab59afc9afbb689c7c9a4ddce",
+      "memory_sha256": "ef40d0fe209c5276253167a36c5de54c843fd82715d74f16ed4f4a6cd3329b0d"
+    },
+    {
+      "question_id": "G2_Q000023",
+      "video_id": "G2_V000011",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000024",
+      "video_id": "G2_V000012",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9fe86316d0fff7b530fdb2926028ad565107421977ea1b61e8a8c57cc1836b01",
+      "memory_sha256": "64e1eb1a391fe2e440a00e8638955497ed263d87ced597e30dd523ae3fa4a138"
+    },
+    {
+      "question_id": "G2_Q000025",
+      "video_id": "G2_V000012",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "07cb5ed097dc41a008f818788e2494193335f279857267a9dd426a472f8e9892",
+      "memory_sha256": "64e1eb1a391fe2e440a00e8638955497ed263d87ced597e30dd523ae3fa4a138"
+    },
+    {
+      "question_id": "G2_Q000026",
+      "video_id": "G2_V000012",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e0334f40ad431550ca49c7101a9fa280d42f1899cd15a95c403d6fabaaced320",
+      "memory_sha256": "64e1eb1a391fe2e440a00e8638955497ed263d87ced597e30dd523ae3fa4a138"
+    },
+    {
+      "question_id": "G2_Q000027",
+      "video_id": "G2_V000012",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "ce6e459d6847ddec1e62be606258f451f707852b76fcd3b963a6ecfd739b4e4a",
+      "memory_sha256": "64e1eb1a391fe2e440a00e8638955497ed263d87ced597e30dd523ae3fa4a138"
+    },
+    {
+      "question_id": "G2_Q000028",
+      "video_id": "G2_V000013",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "60f4b480f3d65cb0debf45230329689aa06b34d379facab7aaf780f3490242b7",
+      "memory_sha256": "e26ba77ec8024aef3a071f15db58797af66fe23445fa0c9505fdaaa9e25ccdb1"
+    },
+    {
+      "question_id": "G2_Q000029",
+      "video_id": "G2_V000013",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "675acbcec5cd99b02722d4742e41f992b21c0355bd8d79f91446ea9c6404064e",
+      "memory_sha256": "e26ba77ec8024aef3a071f15db58797af66fe23445fa0c9505fdaaa9e25ccdb1"
+    },
+    {
+      "question_id": "G2_Q000030",
+      "video_id": "G2_V000013",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "6357aa76b9eeb57d0839f85a9854c606291d6f2c268deb7fd0291352cec846f9",
+      "memory_sha256": "e26ba77ec8024aef3a071f15db58797af66fe23445fa0c9505fdaaa9e25ccdb1"
+    },
+    {
+      "question_id": "G2_Q000031",
+      "video_id": "G2_V000013",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "cbdd7d533bd27d68f8105df8752ac95621f68724f4cf39a4e7991a3bc5fc2ef5",
+      "memory_sha256": "e26ba77ec8024aef3a071f15db58797af66fe23445fa0c9505fdaaa9e25ccdb1"
+    },
+    {
+      "question_id": "G2_Q000032",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "4c6e00b7e693c5fc322fa9c22082a28c2a892c573fd1d9241da7fe313ff52848",
+      "memory_sha256": "5d474dd2872a0cb53d43e2f34b327229c120df5d493ef24c54dbf385dcd4a998"
+    },
+    {
+      "question_id": "G2_Q000033",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_failed_attempt",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000034",
+      "video_id": "G2_V000014",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "4eb857b98b9ac596a3d85143c756208f22d868d800ad4fcc1b86d3957a821de8",
+      "memory_sha256": "5d474dd2872a0cb53d43e2f34b327229c120df5d493ef24c54dbf385dcd4a998"
+    },
+    {
+      "question_id": "G2_Q000035",
+      "video_id": "G2_V000014",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "c52e29248a64a4fed4158b5d8ad603a407f694508a23dc02537ce8dc36819446",
+      "memory_sha256": "5d474dd2872a0cb53d43e2f34b327229c120df5d493ef24c54dbf385dcd4a998"
+    },
+    {
+      "question_id": "G2_Q000036",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "eaa0e8fb3ca41555529897ea867596c7e126411a342e542c284b995954fe0f3c",
+      "memory_sha256": "03c0b3addb09c40efd9a8fd92c093d7bb04813ae2ea307e3a7a532edcf54398a"
+    },
+    {
+      "question_id": "G2_Q000037",
+      "video_id": "G2_V000015",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "bd7269b224f3ee699d3e79f884f13d70ddde85027b923a6c52b96d9206fc87e0",
+      "memory_sha256": "03c0b3addb09c40efd9a8fd92c093d7bb04813ae2ea307e3a7a532edcf54398a"
+    },
+    {
+      "question_id": "G2_Q000038",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9c4aa7a060aff62b6c5b697e76c99bc1320245e9435a88e2ea30d1cf69254cb6",
+      "memory_sha256": "03c0b3addb09c40efd9a8fd92c093d7bb04813ae2ea307e3a7a532edcf54398a"
+    },
+    {
+      "question_id": "G2_Q000039",
+      "video_id": "G2_V000015",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3e96bffb344506c2ad9a2174c0486958617c4425d15e0a93798758e64b3003ab",
+      "memory_sha256": "03c0b3addb09c40efd9a8fd92c093d7bb04813ae2ea307e3a7a532edcf54398a"
+    },
+    {
+      "question_id": "G2_Q000040",
+      "video_id": "G2_V000015",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000041",
+      "video_id": "G2_V000016",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b7252754d2b52747da6e3ea816b1f747fbe033c1f0625ca4c247454d6ce03d54",
+      "memory_sha256": "ebf9bb9238b16afdb1b5093fca06be3f0414739bbb834eb1e5c03ec8bae9657c"
+    },
+    {
+      "question_id": "G2_Q000042",
+      "video_id": "G2_V000016",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "541a50a1046040098f44081b8fa786a6edece021f7b053aeda1ba4d19c0e3dea",
+      "memory_sha256": "ebf9bb9238b16afdb1b5093fca06be3f0414739bbb834eb1e5c03ec8bae9657c"
+    },
+    {
+      "question_id": "G2_Q000043",
+      "video_id": "G2_V000017",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "prior_failed_attempt",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000044",
+      "video_id": "G2_V000017",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "01683dfb147ea2fbe7f8806900f34071b8cf329c1d4606ca4b17befda0aa6290",
+      "memory_sha256": "f6a65a57ba5c1ad967bef6bb1e3ea8a161f6fa67bd84ca4a2790163ec90d9d21"
+    },
+    {
+      "question_id": "G2_Q000045",
+      "video_id": "G2_V000018",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "24a5cd46490c577164b183049cfe5190a56e6b5f8affa38a15f1bfa8fae25357",
+      "memory_sha256": "b61c3875329a96cbb33ec70524b9fe2dfb56f5ebd07ba3115bd0de00349eac75"
+    },
+    {
+      "question_id": "G2_Q000046",
+      "video_id": "G2_V000019",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "2fe160f26702b5d074620a48841922aa0ff062926ec47a4dacccd0a7c47edc4e",
+      "memory_sha256": "7eb6696c977efc969fd9826c2fa8ba1f5617dd2c737650e195a798795e98fb67"
+    },
+    {
+      "question_id": "G2_Q000047",
+      "video_id": "G2_V000019",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "70b9a3eb25f447ef7fd1a5f65b1b0f88f59406b2efec79bdb33ae3b8a72e78a0",
+      "memory_sha256": "7eb6696c977efc969fd9826c2fa8ba1f5617dd2c737650e195a798795e98fb67"
+    },
+    {
+      "question_id": "G2_Q000048",
+      "video_id": "G2_V000020",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "78c8f145dc86cd135acbb662d673237d42dd1bc0ed472c7b54e565008d1036b7",
+      "memory_sha256": "23e63c596883d842c94ccd7911ee99adfd1cd53ae0d4c310f5c9d69c1ad517ce"
+    },
+    {
+      "question_id": "G2_Q000049",
+      "video_id": "G2_V000021",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d42d10f4b412ad4d1156505eaa0d70c4ab0c6b07a897e07973fd6d37c1bd0e95",
+      "memory_sha256": "348c6baf9ec3bf12efa45ef0c68b6f1b91be2201aa4eaa3135be1efc7581ac56"
+    },
+    {
+      "question_id": "G2_Q000050",
+      "video_id": "G2_V000021",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0a3e5d532c36aeb1c322a8bba25314c02b5cb0aaf3b8b6466a6e28dba6c73dd8",
+      "memory_sha256": "348c6baf9ec3bf12efa45ef0c68b6f1b91be2201aa4eaa3135be1efc7581ac56"
+    },
+    {
+      "question_id": "G2_Q000051",
+      "video_id": "G2_V000022",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "275f6a32d22a294e809d05b39fcb56856525241e6e04e3f81b2b90631934c42e",
+      "memory_sha256": "5215a6044e43824cd4e15a26daaac0275d9bbc562fcf67ef00f5da00e2dc9911"
+    },
+    {
+      "question_id": "G2_Q000052",
+      "video_id": "G2_V000022",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "f95b4f5101000bc2e095f2987ec90b0d15b638fc0f3fdaa0fc28eec8bfddcc98",
+      "memory_sha256": "5215a6044e43824cd4e15a26daaac0275d9bbc562fcf67ef00f5da00e2dc9911"
+    },
+    {
+      "question_id": "G2_Q000053",
+      "video_id": "G2_V000022",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "afa6c71682f9dd4441f4fe0dc0b35c94a7b157a96851e148de3bf3a6eecbab3b",
+      "memory_sha256": "5215a6044e43824cd4e15a26daaac0275d9bbc562fcf67ef00f5da00e2dc9911"
+    },
+    {
+      "question_id": "G2_Q000054",
+      "video_id": "G2_V000022",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "35a8a4b55ca98c2a316e201267ac2aaebb403bb3d70051271c4c9f77e0048463",
+      "memory_sha256": "5215a6044e43824cd4e15a26daaac0275d9bbc562fcf67ef00f5da00e2dc9911"
+    },
+    {
+      "question_id": "G2_Q000055",
+      "video_id": "G2_V000022",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "baf37902e900a9ec0010c0153a21207605f5194aef91cc886ccff278babd9f51",
+      "memory_sha256": "5215a6044e43824cd4e15a26daaac0275d9bbc562fcf67ef00f5da00e2dc9911"
+    },
+    {
+      "question_id": "G2_Q000056",
+      "video_id": "G2_V000023",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "5dfbb8a9e471bda4bc0ee9275f68d1f9874e383807c9564c563248080e4bf2e8",
+      "memory_sha256": "e5addf329f430aa6d968bb9afbded6f18f03dd6df0f89e83fcfe619c100e1ef6"
+    },
+    {
+      "question_id": "G2_Q000057",
+      "video_id": "G2_V000023",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "7f5d7e84a47a3f58cf8fb4fc12f4bbc48eb48d2f7e72955580af3b7aaed793fe",
+      "memory_sha256": "e5addf329f430aa6d968bb9afbded6f18f03dd6df0f89e83fcfe619c100e1ef6"
+    },
+    {
+      "question_id": "G2_Q000058",
+      "video_id": "G2_V000023",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "a5e5a1d9d54de10489bd399d35de6f1b96a750940c4014a843c2b1fa80de3716",
+      "memory_sha256": "e5addf329f430aa6d968bb9afbded6f18f03dd6df0f89e83fcfe619c100e1ef6"
+    },
+    {
+      "question_id": "G2_Q000059",
+      "video_id": "G2_V000023",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9a8e34b6e35030730ce7e7710c71cac434b76569b154eb73e77de26c9f5e02f3",
+      "memory_sha256": "e5addf329f430aa6d968bb9afbded6f18f03dd6df0f89e83fcfe619c100e1ef6"
+    },
+    {
+      "question_id": "G2_Q000060",
+      "video_id": "G2_V000023",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "32da73ff1457156ee00669c905d8a27e2ffbe012f8997b4a332607980844d1de",
+      "memory_sha256": "e5addf329f430aa6d968bb9afbded6f18f03dd6df0f89e83fcfe619c100e1ef6"
+    },
+    {
+      "question_id": "G2_Q000061",
+      "video_id": "G2_V000024",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "bc091287db64a84b714e0236a63366caedffeff3ace7b40c095fc7c87fadb0b1",
+      "memory_sha256": "fca947787f55b6a67b4c263d056596a1facec181162a846d87e63c8dfd978331"
+    },
+    {
+      "question_id": "G2_Q000062",
+      "video_id": "G2_V000024",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "bf614ca48a23d0762ede55ac359b3b82bc6324eb96d10d81102420d005c54e62",
+      "memory_sha256": "fca947787f55b6a67b4c263d056596a1facec181162a846d87e63c8dfd978331"
+    },
+    {
+      "question_id": "G2_Q000063",
+      "video_id": "G2_V000024",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "7188a1eac405b9f940f7ae6ad18e829b762d1045cd342393ca0f9b3f3374b74e",
+      "memory_sha256": "fca947787f55b6a67b4c263d056596a1facec181162a846d87e63c8dfd978331"
+    },
+    {
+      "question_id": "G2_Q000064",
+      "video_id": "G2_V000024",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0becaacb9861ee69c2a595c1d96290834a426423739f8dec654f70669f3e5faf",
+      "memory_sha256": "fca947787f55b6a67b4c263d056596a1facec181162a846d87e63c8dfd978331"
+    },
+    {
+      "question_id": "G2_Q000065",
+      "video_id": "G2_V000024",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "ee3461986f05a8cfd60c53771ab0b0ff829cab84578421880d8bccbcfaa76849",
+      "memory_sha256": "fca947787f55b6a67b4c263d056596a1facec181162a846d87e63c8dfd978331"
+    },
+    {
+      "question_id": "G2_Q000066",
+      "video_id": "G2_V000025",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "6000430d06cffccf49fba89c4f7ee15a44ce2e628572ec6c07af2f70de36786a",
+      "memory_sha256": "a3fc9f6641e33706d43cf326ca5b3bcb28bf3db493a8788df8ad79c51746320f"
+    },
+    {
+      "question_id": "G2_Q000067",
+      "video_id": "G2_V000025",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "4307d56aede15407e7ce9ef65bbf1ccf99914fc3d339639a86a90936ffb8ba8e",
+      "memory_sha256": "a3fc9f6641e33706d43cf326ca5b3bcb28bf3db493a8788df8ad79c51746320f"
+    },
+    {
+      "question_id": "G2_Q000068",
+      "video_id": "G2_V000025",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "33e93fe6e1483c6d86f49cad5ee817d967875ff54f60941bb7e6af01fd4aae60",
+      "memory_sha256": "a3fc9f6641e33706d43cf326ca5b3bcb28bf3db493a8788df8ad79c51746320f"
+    },
+    {
+      "question_id": "G2_Q000069",
+      "video_id": "G2_V000025",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d4a50f0f95fb0ed386d55d635ec1035b4d196298548def3dd326f6152f3f2224",
+      "memory_sha256": "a3fc9f6641e33706d43cf326ca5b3bcb28bf3db493a8788df8ad79c51746320f"
+    },
+    {
+      "question_id": "G2_Q000070",
+      "video_id": "G2_V000025",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "65a0955408829306bb0f0ba09bebffbf15a9122922572e9261b86b44be40da28",
+      "memory_sha256": "a3fc9f6641e33706d43cf326ca5b3bcb28bf3db493a8788df8ad79c51746320f"
+    },
+    {
+      "question_id": "G2_Q000071",
+      "video_id": "G2_V000026",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "a4bb603066874686da44cb167bef24b0ef601018bd9a21935f766536d9bb75fd",
+      "memory_sha256": "9a38b8eb098c265dda721486e4ccc7aaa6e4fc075127aee1728dd18d753f0524"
+    },
+    {
+      "question_id": "G2_Q000072",
+      "video_id": "G2_V000026",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "dab705d5a0e9bf44c44e760b2e760543828baaf218dd473a93a523aab6cb17d4",
+      "memory_sha256": "9a38b8eb098c265dda721486e4ccc7aaa6e4fc075127aee1728dd18d753f0524"
+    },
+    {
+      "question_id": "G2_Q000073",
+      "video_id": "G2_V000027",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "dfe7666640564be790eb5196e1108a055d610820aa2cc4b03234846c322a86f6",
+      "memory_sha256": "2fcda7628768f7ca2cfdc140026ab6a6f399bccb72a56a6d793df0783bf59111"
+    },
+    {
+      "question_id": "G2_Q000074",
+      "video_id": "G2_V000027",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b5e8d6ca3472e3b76b3c3be231b0f467cb42fff97be569890528b69dbe6c5a58",
+      "memory_sha256": "2fcda7628768f7ca2cfdc140026ab6a6f399bccb72a56a6d793df0783bf59111"
+    },
+    {
+      "question_id": "G2_Q000075",
+      "video_id": "G2_V000027",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "6219108c45b843030f657d3c9cf8ba6a014cd8a2b91d2e7c4ec07422655e577e",
+      "memory_sha256": "2fcda7628768f7ca2cfdc140026ab6a6f399bccb72a56a6d793df0783bf59111"
+    },
+    {
+      "question_id": "G2_Q000076",
+      "video_id": "G2_V000028",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "887fcb4750e6f8b0bf7447a6eb0c5131b3442188de045a069a1eb05c25387452",
+      "memory_sha256": "d570efc1e9a4b10827bdbd5d9aa9bee073b4ab2091d433717e688873b1313c23"
+    },
+    {
+      "question_id": "G2_Q000077",
+      "video_id": "G2_V000028",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e61084acd6d983917ef19e59df62e324d5b405bc8ac48d3804b25ed2d34151fd",
+      "memory_sha256": "d570efc1e9a4b10827bdbd5d9aa9bee073b4ab2091d433717e688873b1313c23"
+    },
+    {
+      "question_id": "G2_Q000078",
+      "video_id": "G2_V000028",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "1380582b28fd3c0e6c5235508ce40a69f0e2fcb5f6234637d9de1064bd02c6b1",
+      "memory_sha256": "d570efc1e9a4b10827bdbd5d9aa9bee073b4ab2091d433717e688873b1313c23"
+    },
+    {
+      "question_id": "G2_Q000079",
+      "video_id": "G2_V000028",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "8625178e123f0b55a9aaaba2ca5394528a10018a09297221b91afeb9f57f9c97",
+      "memory_sha256": "d570efc1e9a4b10827bdbd5d9aa9bee073b4ab2091d433717e688873b1313c23"
+    },
+    {
+      "question_id": "G2_Q000080",
+      "video_id": "G2_V000028",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "ba35a960728dff493e53dc14ab5b793004819a4b38091a17b11454769b8ac376",
+      "memory_sha256": "d570efc1e9a4b10827bdbd5d9aa9bee073b4ab2091d433717e688873b1313c23"
+    },
+    {
+      "question_id": "G2_Q000081",
+      "video_id": "G2_V000028",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "48c8b4a90802594632d70d9f8ac6b3bde0fbcfcb72383aa5fdf87096a43461c9",
+      "memory_sha256": "d570efc1e9a4b10827bdbd5d9aa9bee073b4ab2091d433717e688873b1313c23"
+    },
+    {
+      "question_id": "G2_Q000082",
+      "video_id": "G2_V000029",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b0c656d547ef4364445c240d7a4134fda802b4da5213da03ff25b30846781cad",
+      "memory_sha256": "2af7cb240982469c44034d7c7a447147f4f1a5389458835553fb0cc9012092d7"
+    },
+    {
+      "question_id": "G2_Q000083",
+      "video_id": "G2_V000029",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "a8652ae78b0bf2c396b3482f685b01c6725a952651a800bf35df821179e7818e",
+      "memory_sha256": "2af7cb240982469c44034d7c7a447147f4f1a5389458835553fb0cc9012092d7"
+    },
+    {
+      "question_id": "G2_Q000084",
+      "video_id": "G2_V000029",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "e1d3febce01d2b0806aa33538773dee936d23c7b092fede155a42cbf436412f8",
+      "memory_sha256": "2af7cb240982469c44034d7c7a447147f4f1a5389458835553fb0cc9012092d7"
+    },
+    {
+      "question_id": "G2_Q000085",
+      "video_id": "G2_V000029",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "05e1e0df7c81bd9bd912692ae0d7d8d6ad671d2e39dbe8580d1ad3900fc1cbbd",
+      "memory_sha256": "2af7cb240982469c44034d7c7a447147f4f1a5389458835553fb0cc9012092d7"
+    },
+    {
+      "question_id": "G2_Q000086",
+      "video_id": "G2_V000030",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d8949cfd184af3c99bf23a3407130f54ecdf195ed018248a5f470cdc7a45297a",
+      "memory_sha256": "9d11fdee93709ab2e155a7a46cd1eff46b3f307cdd9abc3caef33af9515e63f6"
+    },
+    {
+      "question_id": "G2_Q000087",
+      "video_id": "G2_V000030",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "1e7a2ce112c1df2305e70454b2656804175179468ccf5db61304032ed2f6fd86",
+      "memory_sha256": "9d11fdee93709ab2e155a7a46cd1eff46b3f307cdd9abc3caef33af9515e63f6"
+    },
+    {
+      "question_id": "G2_Q000088",
+      "video_id": "G2_V000031",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "f52b544de06ad2562b7d68cdd0973fe553381875fdc27bcbcb07a0a11546e3f3",
+      "memory_sha256": "c2bd3cdbf2c4a4fd2cef9db499de895e06ce8bc2d1ef66e29891ca60befe914c"
+    },
+    {
+      "question_id": "G2_Q000089",
+      "video_id": "G2_V000031",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b9178724dd5d0d8c05e3faaa73c442259e770f1d4026530a45dfdb1c750fde35",
+      "memory_sha256": "c2bd3cdbf2c4a4fd2cef9db499de895e06ce8bc2d1ef66e29891ca60befe914c"
+    },
+    {
+      "question_id": "G2_Q000090",
+      "video_id": "G2_V000031",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "c152d0491e8c3cf0944522b4695fdf551e014584dbd17ce010939b246a05cc00",
+      "memory_sha256": "c2bd3cdbf2c4a4fd2cef9db499de895e06ce8bc2d1ef66e29891ca60befe914c"
+    },
+    {
+      "question_id": "G2_Q000091",
+      "video_id": "G2_V000032",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000092",
+      "video_id": "G2_V000032",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "8e8714b9e22d232e3f0c85add3064630515deec3292984c91ae68cd2f4428f35",
+      "memory_sha256": "af68fcb274b900cb880fec37a6dc3d6a48239b3c73775da7bc235eb1073e615c"
+    },
+    {
+      "question_id": "G2_Q000093",
+      "video_id": "G2_V000032",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000094",
+      "video_id": "G2_V000033",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "a039f3f283aeadd32dcc126539cdc1357321a1a07dde19217ae17f1996d54558",
+      "memory_sha256": "a14877ae562a9dba4550450e9ca197fef033e1cd1256d158a551afea106d0e19"
+    },
+    {
+      "question_id": "G2_Q000095",
+      "video_id": "G2_V000033",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "4b267983d2f2ecabccc605fb5d43fd226bffd03d2a7141dcc8128f00fcb2c5b5",
+      "memory_sha256": "a14877ae562a9dba4550450e9ca197fef033e1cd1256d158a551afea106d0e19"
+    },
+    {
+      "question_id": "G2_Q000096",
+      "video_id": "G2_V000033",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000097",
+      "video_id": "G2_V000034",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "a2fe8cbbe4eb0b9e9c75052bf32e0c8559e375cbbfe1332e7851459c51e60660",
+      "memory_sha256": "77e93227294ba34c92cbd957ed150c42f0fcf370cc9e0a61ffae7105ea197ff5"
+    },
+    {
+      "question_id": "G2_Q000098",
+      "video_id": "G2_V000034",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "58f238d544ea256b5db47d2d930caaca2db65dad84ce8bcc8bd3d32f095e1e0e",
+      "memory_sha256": "77e93227294ba34c92cbd957ed150c42f0fcf370cc9e0a61ffae7105ea197ff5"
+    },
+    {
+      "question_id": "G2_Q000099",
+      "video_id": "G2_V000034",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "6459578addcc42ac210bed49fd8d352c2071891d52679f3e1733e4a89c4259fa",
+      "memory_sha256": "77e93227294ba34c92cbd957ed150c42f0fcf370cc9e0a61ffae7105ea197ff5"
+    },
+    {
+      "question_id": "G2_Q000100",
+      "video_id": "G2_V000034",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0e7aa632cde414a9dca3c5217f286ebd0f555cc0927e7db2eef170d3757eb471",
+      "memory_sha256": "77e93227294ba34c92cbd957ed150c42f0fcf370cc9e0a61ffae7105ea197ff5"
+    },
+    {
+      "question_id": "G2_Q000101",
+      "video_id": "G2_V000034",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e71cf240ece63e179c569cc814670039e9cca6eeb00d174c09251fa112f0ec94",
+      "memory_sha256": "77e93227294ba34c92cbd957ed150c42f0fcf370cc9e0a61ffae7105ea197ff5"
+    },
+    {
+      "question_id": "G2_Q000102",
+      "video_id": "G2_V000035",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "57aea0e437db7fed97c28c5569a16ffaa879cdffd1606ada90997836aee66d70",
+      "memory_sha256": "b43a2246455ae23a4ee48fe249381fb014e95e3a7197370ccc5c7f40e4af6d55"
+    },
+    {
+      "question_id": "G2_Q000103",
+      "video_id": "G2_V000035",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "83dafc410c8f364e9e3ddc8181958e3f32e5ef82a037efa2fdda7bc32b2db8f8",
+      "memory_sha256": "b43a2246455ae23a4ee48fe249381fb014e95e3a7197370ccc5c7f40e4af6d55"
+    },
+    {
+      "question_id": "G2_Q000104",
+      "video_id": "G2_V000035",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "fae0f79ea89954441e76974824e2779e5b4b4812a9af05196c31b841fcb07569",
+      "memory_sha256": "b43a2246455ae23a4ee48fe249381fb014e95e3a7197370ccc5c7f40e4af6d55"
+    },
+    {
+      "question_id": "G2_Q000105",
+      "video_id": "G2_V000035",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "b6da2f32a16b90a97bfb99102a515c0e76a557c4dbc730f6557b8eb895b254a9",
+      "memory_sha256": "b43a2246455ae23a4ee48fe249381fb014e95e3a7197370ccc5c7f40e4af6d55"
+    },
+    {
+      "question_id": "G2_Q000106",
+      "video_id": "G2_V000035",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "7deb31f7b981d337adbfd99e21d2d35b672cbe3bd495789d5b6cca31c40a7f35",
+      "memory_sha256": "b43a2246455ae23a4ee48fe249381fb014e95e3a7197370ccc5c7f40e4af6d55"
+    },
+    {
+      "question_id": "G2_Q000107",
+      "video_id": "G2_V000036",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "801a8f1717b4e4e580b195632ad02db10ad5366a6c6f753747f821e133ef0896",
+      "memory_sha256": "585476ffc0d1c95bbd7f6a0a0b8bbb9a57260d17a37b6482febb8b93ebe14546"
+    },
+    {
+      "question_id": "G2_Q000108",
+      "video_id": "G2_V000036",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "60e450103afda0376b9de1c3f9465cccf369b404078fa22f66a5e9856c8716f4",
+      "memory_sha256": "585476ffc0d1c95bbd7f6a0a0b8bbb9a57260d17a37b6482febb8b93ebe14546"
+    },
+    {
+      "question_id": "G2_Q000109",
+      "video_id": "G2_V000037",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "290c693e6a210644f39cb786f11a58c2bb6e47eb332636a40c6b47c81c885ab5",
+      "memory_sha256": "5751319fa5e946bbb94425aa70b300509d2103707ff6394c328ebab5ba63f610"
+    },
+    {
+      "question_id": "G2_Q000110",
+      "video_id": "G2_V000037",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e721b2240ac5088271027d6d758a3c8e3935d47b6b440d39eb69e6119ba97daf",
+      "memory_sha256": "5751319fa5e946bbb94425aa70b300509d2103707ff6394c328ebab5ba63f610"
+    },
+    {
+      "question_id": "G2_Q000111",
+      "video_id": "G2_V000037",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9a3b47d3bebf99378d99447c969b14723f75023f5b821eaf8d2eacb35013bbec",
+      "memory_sha256": "5751319fa5e946bbb94425aa70b300509d2103707ff6394c328ebab5ba63f610"
+    },
+    {
+      "question_id": "G2_Q000112",
+      "video_id": "G2_V000038",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "051367d7778b25e64d3ec424a695576bebc5e6e4d9b36548bb2823b1b83f784c",
+      "memory_sha256": "527c1f9495b64e8381044e80b73aad1e4e29605f85d7eb1acf236d9b0abdb0ca"
+    },
+    {
+      "question_id": "G2_Q000113",
+      "video_id": "G2_V000038",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000114",
+      "video_id": "G2_V000038",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000115",
+      "video_id": "G2_V000038",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3c34169b82350de06325a4fae309ae382f94d1f8351090aaaad6d2219caa732a",
+      "memory_sha256": "527c1f9495b64e8381044e80b73aad1e4e29605f85d7eb1acf236d9b0abdb0ca"
+    },
+    {
+      "question_id": "G2_Q000116",
+      "video_id": "G2_V000038",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "c5de876a13a9277f17386a9a3c2f09e76238da16154672ca627a29f4f9a43985",
+      "memory_sha256": "527c1f9495b64e8381044e80b73aad1e4e29605f85d7eb1acf236d9b0abdb0ca"
+    },
+    {
+      "question_id": "G2_Q000117",
+      "video_id": "G2_V000039",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0cf2c14981e9c8d0ace6d401d8830079ffd59383928ce6bd2c72c4bb755cda1b",
+      "memory_sha256": "58aee85a2fb579e5a298937f71b6c7658cd0b36ca709cbe49d227611da7cc706"
+    },
+    {
+      "question_id": "G2_Q000118",
+      "video_id": "G2_V000039",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000119",
+      "video_id": "G2_V000039",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000120",
+      "video_id": "G2_V000039",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "1f57b9b8ef54c11ddb17d91b68f5c3cf8b96cd6156c8679ce1b0045393f76502",
+      "memory_sha256": "58aee85a2fb579e5a298937f71b6c7658cd0b36ca709cbe49d227611da7cc706"
+    },
+    {
+      "question_id": "G2_Q000121",
+      "video_id": "G2_V000040",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "2ff01b88ff7983ebbddfbd4f043a49f7d1cfbccd1a1a39c4000e406c54c40438",
+      "memory_sha256": "a0013034462224df961308cfdce9edee84193a2e45ad6769a354d46dd34a8227"
+    },
+    {
+      "question_id": "G2_Q000122",
+      "video_id": "G2_V000040",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_failed_attempt",
+      "stage": "plan",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000123",
+      "video_id": "G2_V000041",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "56f62a220afd40d4166ff3ffd0d562121811d2a79e4752411dacd857981f0969",
+      "memory_sha256": "a5afa966fb9d152aa5dae04f6631c5d3375fd14ace4c692bacfee374cd35a79b"
+    },
+    {
+      "question_id": "G2_Q000124",
+      "video_id": "G2_V000041",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "d5dbf321243ae64d467bb0515048badc95c00e7ae8caefc35b5208f489c308c5",
+      "memory_sha256": "a5afa966fb9d152aa5dae04f6631c5d3375fd14ace4c692bacfee374cd35a79b"
+    },
+    {
+      "question_id": "G2_Q000125",
+      "video_id": "G2_V000041",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "80cb2746ed964db8aeacabfa5d0979b249b887b113ef5aac7564dba5978ad5db",
+      "memory_sha256": "a5afa966fb9d152aa5dae04f6631c5d3375fd14ace4c692bacfee374cd35a79b"
+    },
+    {
+      "question_id": "G2_Q000126",
+      "video_id": "G2_V000041",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "db7d7e3fd33d2bec5912bec0d160f24d05bc0bbdb7db93b4325f921477bb884c",
+      "memory_sha256": "a5afa966fb9d152aa5dae04f6631c5d3375fd14ace4c692bacfee374cd35a79b"
+    },
+    {
+      "question_id": "G2_Q000127",
+      "video_id": "G2_V000041",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "e65ca50665a30052635ded32e62fac4828cca908e29fc8c139f8547f5de8a59e",
+      "memory_sha256": "a5afa966fb9d152aa5dae04f6631c5d3375fd14ace4c692bacfee374cd35a79b"
+    },
+    {
+      "question_id": "G2_Q000128",
+      "video_id": "G2_V000042",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000129",
+      "video_id": "G2_V000042",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000130",
+      "video_id": "G2_V000042",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000131",
+      "video_id": "G2_V000042",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000132",
+      "video_id": "G2_V000043",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "80ce8e5457623c865cc0085b3116874a390f9bb2e7f103bc63635e145f18e9bb",
+      "memory_sha256": "b532d1fdcc19a40d02e17aabdc8d9273957f459f4064ce3898adb8228a8c3c4f"
+    },
+    {
+      "question_id": "G2_Q000133",
+      "video_id": "G2_V000043",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b369cefc70b9c9b3663ee4bc4d2e60715d996a274581e7b10d7c2dda24e13e98",
+      "memory_sha256": "b532d1fdcc19a40d02e17aabdc8d9273957f459f4064ce3898adb8228a8c3c4f"
+    },
+    {
+      "question_id": "G2_Q000134",
+      "video_id": "G2_V000043",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000135",
+      "video_id": "G2_V000043",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "83323cc8b1637c8e4b878c121da496b169ce6aa2360e3085d2e9b4ddf04942e8",
+      "memory_sha256": "b532d1fdcc19a40d02e17aabdc8d9273957f459f4064ce3898adb8228a8c3c4f"
+    },
+    {
+      "question_id": "G2_Q000136",
+      "video_id": "G2_V000043",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "922991d1265baf02eed43f69fe518ad25e4b1ff88717185aa8302455347c5b8c",
+      "memory_sha256": "b532d1fdcc19a40d02e17aabdc8d9273957f459f4064ce3898adb8228a8c3c4f"
+    },
+    {
+      "question_id": "G2_Q000137",
+      "video_id": "G2_V000044",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "65ed404a1eedc5d1311b8103effc43b52a9e1cd0fa4016b0699fd6b9aeab2154",
+      "memory_sha256": "bd2f778184aa93d7e0cf9e5bd35d52bcd4055a64beb801b570a32325f4486843"
+    },
+    {
+      "question_id": "G2_Q000138",
+      "video_id": "G2_V000044",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "aa900ac907d2ab3ddbf363fd99180fc1e31d54ec341244ff025cf71dff5273bc",
+      "memory_sha256": "bd2f778184aa93d7e0cf9e5bd35d52bcd4055a64beb801b570a32325f4486843"
+    },
+    {
+      "question_id": "G2_Q000139",
+      "video_id": "G2_V000044",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "545d4c7e70e9d3cc71bb6f1e295d80040f90452b225d622f571d57784f9284e7",
+      "memory_sha256": "bd2f778184aa93d7e0cf9e5bd35d52bcd4055a64beb801b570a32325f4486843"
+    },
+    {
+      "question_id": "G2_Q000140",
+      "video_id": "G2_V000044",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "f6ad76e5c114f316945101a04af4792e5051c13ba6db41408edb3d7cddf9d250",
+      "memory_sha256": "bd2f778184aa93d7e0cf9e5bd35d52bcd4055a64beb801b570a32325f4486843"
+    },
+    {
+      "question_id": "G2_Q000141",
+      "video_id": "G2_V000045",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "ee5e6b59992bd410c673a810541e7ead9f5c217d8ad90a78c66ce3800cd85f68",
+      "memory_sha256": "5a1d048e25eccb69fbe0448dc7bf8c8747acdbbd748502faaf70ce9492ebc885"
+    },
+    {
+      "question_id": "G2_Q000142",
+      "video_id": "G2_V000045",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "07b11b350fcf2c961d66d5cf343d234687a9c58113e11e30a80d1c0e170283ac",
+      "memory_sha256": "5a1d048e25eccb69fbe0448dc7bf8c8747acdbbd748502faaf70ce9492ebc885"
+    },
+    {
+      "question_id": "G2_Q000143",
+      "video_id": "G2_V000045",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0680fee5cc52ab6b898c6c89e0138508bc1f4728cd0f8051c91e95be4c50b072",
+      "memory_sha256": "5a1d048e25eccb69fbe0448dc7bf8c8747acdbbd748502faaf70ce9492ebc885"
+    },
+    {
+      "question_id": "G2_Q000144",
+      "video_id": "G2_V000046",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "08f19ce0b8c032cbb247bb2de778297f6b428d5a4f413c56806397e3052bf895",
+      "memory_sha256": "0609fe7687749d6b999292d4ce1520965030cdc68ba7a925664087deb02731b5"
+    },
+    {
+      "question_id": "G2_Q000145",
+      "video_id": "G2_V000046",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "46f08bcef647db80e491224bdd0c3dc395777cb0ed67bfceaecbc96a0a99e7bc",
+      "memory_sha256": "0609fe7687749d6b999292d4ce1520965030cdc68ba7a925664087deb02731b5"
+    },
+    {
+      "question_id": "G2_Q000146",
+      "video_id": "G2_V000046",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "d7e51b3262ab4b078d009d4cc7283289f796520741d4057a2681e8cc33c394a4",
+      "memory_sha256": "0609fe7687749d6b999292d4ce1520965030cdc68ba7a925664087deb02731b5"
+    },
+    {
+      "question_id": "G2_Q000147",
+      "video_id": "G2_V000047",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "5774cb193e145dcc7575c4b781da369af2616419c15f143601dd2ff8560554e1",
+      "memory_sha256": "70ba129c0f606e1ba97337b6e1d7cdc3b092055ce6e6a0b8105cca5e92bcf6e2"
+    },
+    {
+      "question_id": "G2_Q000148",
+      "video_id": "G2_V000047",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "809575e8b2d8b5dfa3e64d9a2f47f53807b51a43142aaf39895ae6e55c060547",
+      "memory_sha256": "70ba129c0f606e1ba97337b6e1d7cdc3b092055ce6e6a0b8105cca5e92bcf6e2"
+    },
+    {
+      "question_id": "G2_Q000149",
+      "video_id": "G2_V000047",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000150",
+      "video_id": "G2_V000047",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000151",
+      "video_id": "G2_V000048",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "1ca37eb3cd72398da39e544095f2f35a9fec5d99b12677dd3f3072c9d0a0a43c",
+      "memory_sha256": "8162aa7201e4e18ccb516ede8df4771a470c8f7d24516bee21cf016f49b24059"
+    },
+    {
+      "question_id": "G2_Q000152",
+      "video_id": "G2_V000048",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "plan",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000153",
+      "video_id": "G2_V000048",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3b67360886b09456fde82b58700ccadc1c71364a04e559bed3a03d1dc0c9b155",
+      "memory_sha256": "8162aa7201e4e18ccb516ede8df4771a470c8f7d24516bee21cf016f49b24059"
+    },
+    {
+      "question_id": "G2_Q000154",
+      "video_id": "G2_V000048",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000155",
+      "video_id": "G2_V000049",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d30dddb2a6c52e5e679b45cbe59ba0975d1a94f1bda04207fcb19d0df941b750",
+      "memory_sha256": "03ef57cab4fa309054be8fc9ba4680f5d5c16b81b827586289cd5ab1d0549e29"
+    },
+    {
+      "question_id": "G2_Q000156",
+      "video_id": "G2_V000049",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000157",
+      "video_id": "G2_V000049",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e8c4ab00ecade55027fb7401dc7feeb64646f38b3b7bec0fc6cb750ebb3deabc",
+      "memory_sha256": "03ef57cab4fa309054be8fc9ba4680f5d5c16b81b827586289cd5ab1d0549e29"
+    },
+    {
+      "question_id": "G2_Q000158",
+      "video_id": "G2_V000049",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "35fae9df875bd675edb8c7df286b1cebb5a2bb3add0ae6288836fcf67f506c28",
+      "memory_sha256": "03ef57cab4fa309054be8fc9ba4680f5d5c16b81b827586289cd5ab1d0549e29"
+    },
+    {
+      "question_id": "G2_Q000159",
+      "video_id": "G2_V000050",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "fa21428c159e096400aa21e0d28a2c3efd95228fafb759e9e7af55ab2f50f3b1",
+      "memory_sha256": "0c9bbc52440473e1b09eb8cca682a025ced2e9f2023e47478e9289e37a1ba352"
+    },
+    {
+      "question_id": "G2_Q000160",
+      "video_id": "G2_V000050",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "a4f54b19e8a3dac08665bf16da058aa6146de9fa7e976632306346d97b2a84f7",
+      "memory_sha256": "0c9bbc52440473e1b09eb8cca682a025ced2e9f2023e47478e9289e37a1ba352"
+    },
+    {
+      "question_id": "G2_Q000161",
+      "video_id": "G2_V000050",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3667a648033ff641a1627a05c4f7c5d7d24f20e66a1550048ed91130cb32b022",
+      "memory_sha256": "0c9bbc52440473e1b09eb8cca682a025ced2e9f2023e47478e9289e37a1ba352"
+    },
+    {
+      "question_id": "G2_Q000162",
+      "video_id": "G2_V000050",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "2c6d25099d697d349081c52012282bc4cde306a5f6507311752538f58dbce5cb",
+      "memory_sha256": "0c9bbc52440473e1b09eb8cca682a025ced2e9f2023e47478e9289e37a1ba352"
+    },
+    {
+      "question_id": "G2_Q000163",
+      "video_id": "G2_V000050",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "6cf42333a2d6d9f8c5376fc11bd54163a525554d2868dc351e2f676b41fe1dbd",
+      "memory_sha256": "0c9bbc52440473e1b09eb8cca682a025ced2e9f2023e47478e9289e37a1ba352"
+    },
+    {
+      "question_id": "G2_Q000164",
+      "video_id": "G2_V000050",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "44ae6ca584924adbcfcb7f0ac5e6e0334f606330b6cae44a371add367f6ea3de",
+      "memory_sha256": "0c9bbc52440473e1b09eb8cca682a025ced2e9f2023e47478e9289e37a1ba352"
+    },
+    {
+      "question_id": "G2_Q000165",
+      "video_id": "G2_V000051",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "f3bc102d7916748b523be8051ae73bc0ecd7ec48092cd8ff626236a2f7046a04",
+      "memory_sha256": "4ee72149990af6dbef6e34945b3d37dfb427be0b86c0bae18c4eefeecc85ebeb"
+    },
+    {
+      "question_id": "G2_Q000166",
+      "video_id": "G2_V000051",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "0c6db7c56088fd033c6dd3be2881afcf1d4e6bc8a43bb32b14e1cc1439440a6c",
+      "memory_sha256": "4ee72149990af6dbef6e34945b3d37dfb427be0b86c0bae18c4eefeecc85ebeb"
+    },
+    {
+      "question_id": "G2_Q000167",
+      "video_id": "G2_V000051",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "461096c842617572d5203f3d56d96377a56270a559a02131cff7ea26473b9661",
+      "memory_sha256": "4ee72149990af6dbef6e34945b3d37dfb427be0b86c0bae18c4eefeecc85ebeb"
+    },
+    {
+      "question_id": "G2_Q000168",
+      "video_id": "G2_V000051",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "51e871fc1ee7c6cb75921e5c7792b909fd8de765600b36a254e5ed203467b2e8",
+      "memory_sha256": "4ee72149990af6dbef6e34945b3d37dfb427be0b86c0bae18c4eefeecc85ebeb"
+    },
+    {
+      "question_id": "G2_Q000169",
+      "video_id": "G2_V000052",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "c482b9a290a6caa61480d5af2374031a3b8fc66f7fe5ebcb2b2fee2049396511",
+      "memory_sha256": "c5f1b6284c6f0cf5b73e8b5e1b6f5b260b8f6d8c72a8f8e69977a514b4469a25"
+    },
+    {
+      "question_id": "G2_Q000170",
+      "video_id": "G2_V000052",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "a35643438cdc880feb706f40f77be20e4c5f002b70bcabc4c9550615a2df10db",
+      "memory_sha256": "c5f1b6284c6f0cf5b73e8b5e1b6f5b260b8f6d8c72a8f8e69977a514b4469a25"
+    },
+    {
+      "question_id": "G2_Q000171",
+      "video_id": "G2_V000053",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "800128a11b6bb22c4c54ec6a5544f97200162017f56cb336fec96b7eebc1b7c5",
+      "memory_sha256": "54289c05be7a50388efd160882ca520c988cf894cf4a3233893c31980f1285e3"
+    },
+    {
+      "question_id": "G2_Q000172",
+      "video_id": "G2_V000053",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9c5179b3f2af9c378824aa21ac9c94317308ee7b64d644dc2d49fd46ac75436d",
+      "memory_sha256": "54289c05be7a50388efd160882ca520c988cf894cf4a3233893c31980f1285e3"
+    },
+    {
+      "question_id": "G2_Q000173",
+      "video_id": "G2_V000053",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "57d2e9d2b0ba22c830274ed071ee66a3bd6c419e5eb545b039bfd4df66e5b058",
+      "memory_sha256": "54289c05be7a50388efd160882ca520c988cf894cf4a3233893c31980f1285e3"
+    },
+    {
+      "question_id": "G2_Q000174",
+      "video_id": "G2_V000053",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000175",
+      "video_id": "G2_V000054",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "fd4406c2e93e75ece933a6b52a38f8234477c610bb5ac2ebd87e0b58d95b8453",
+      "memory_sha256": "517ba05492421322c8ad3e5ba11480864152f7465929f936a8423da0b12a8a5e"
+    },
+    {
+      "question_id": "G2_Q000176",
+      "video_id": "G2_V000054",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "0736f93a179d5f946cb4bc002099445158eaf9e9376f6726aeadf0ef3c707801",
+      "memory_sha256": "517ba05492421322c8ad3e5ba11480864152f7465929f936a8423da0b12a8a5e"
+    },
+    {
+      "question_id": "G2_Q000177",
+      "video_id": "G2_V000054",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "45ac0afbb5a32ee3c14f930eebb161fef2fb331a8e56ce8c088e33681728d34d",
+      "memory_sha256": "517ba05492421322c8ad3e5ba11480864152f7465929f936a8423da0b12a8a5e"
+    },
+    {
+      "question_id": "G2_Q000178",
+      "video_id": "G2_V000055",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "bb6ee8fced44ac55f491c3f45b0e15f09238e740590b421434a49fb040c440cf",
+      "memory_sha256": "b7e2c2687479414742f63b503a0d162a02dfd2dfd79edcf4cbc161a872f6f208"
+    },
+    {
+      "question_id": "G2_Q000179",
+      "video_id": "G2_V000055",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "98312ab73bb1a09f2dac90a2289f523bfb1d554f2532d83420e51feed9d85894",
+      "memory_sha256": "b7e2c2687479414742f63b503a0d162a02dfd2dfd79edcf4cbc161a872f6f208"
+    },
+    {
+      "question_id": "G2_Q000180",
+      "video_id": "G2_V000055",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "6c94e60eab3a0a688525bbdbacb0d229f59257373d295c9733d6cc30fe970d3a",
+      "memory_sha256": "b7e2c2687479414742f63b503a0d162a02dfd2dfd79edcf4cbc161a872f6f208"
+    },
+    {
+      "question_id": "G2_Q000181",
+      "video_id": "G2_V000056",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "813060ac3586e46953ef7e8c2bb8314859aa9800df6f0e49fec598c99e12c098",
+      "memory_sha256": "8484fe915dd0a82bc17b57dcd76ff7c04aa5b2c54fafd28b74059e5a1ff9087c"
+    },
+    {
+      "question_id": "G2_Q000182",
+      "video_id": "G2_V000056",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "50bf3cce7f2e5984ea069d5b19e67f9ca6086d37cf2c0f9bb480f6afe2888433",
+      "memory_sha256": "8484fe915dd0a82bc17b57dcd76ff7c04aa5b2c54fafd28b74059e5a1ff9087c"
+    },
+    {
+      "question_id": "G2_Q000183",
+      "video_id": "G2_V000056",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "bba037f338aa7d705249e696d04cbf74775052e1f3ab62008693ed91a6f218a5",
+      "memory_sha256": "8484fe915dd0a82bc17b57dcd76ff7c04aa5b2c54fafd28b74059e5a1ff9087c"
+    },
+    {
+      "question_id": "G2_Q000184",
+      "video_id": "G2_V000057",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000185",
+      "video_id": "G2_V000057",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000186",
+      "video_id": "G2_V000057",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000187",
+      "video_id": "G2_V000057",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000188",
+      "video_id": "G2_V000058",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "caf7f5f2a13135e697457c4c31b1804383f0504959743f856264476880934cd4",
+      "memory_sha256": "1f9e3a6feb666fc0e1fdf737940e7dc43d6fd2d5d857300267efec32fec76823"
+    },
+    {
+      "question_id": "G2_Q000189",
+      "video_id": "G2_V000058",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "4f1865d05ec02754ffaedac81e183a856fbb1b6fa9bae295c1d6f4af4d8bf252",
+      "memory_sha256": "1f9e3a6feb666fc0e1fdf737940e7dc43d6fd2d5d857300267efec32fec76823"
+    },
+    {
+      "question_id": "G2_Q000190",
+      "video_id": "G2_V000058",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000191",
+      "video_id": "G2_V000059",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "f0f7b3e57233082af19b222a084b6745e86bf1bcd7127bcffd754656edeb1763",
+      "memory_sha256": "f01f0888cb7eccd6b7e765b8757cbd1a4e0a023325a88a642738a70ec0075135"
+    },
+    {
+      "question_id": "G2_Q000192",
+      "video_id": "G2_V000059",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000193",
+      "video_id": "G2_V000059",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000194",
+      "video_id": "G2_V000059",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000195",
+      "video_id": "G2_V000060",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "66754b3b8a52434a37e1cdee199ce1c89d28be931da6ff7459dfd98df4f117ec",
+      "memory_sha256": "9cc0e3a9255fc7aaaf4079dc7423ad63435a784b9187e527597a33ed59e9be8f"
+    },
+    {
+      "question_id": "G2_Q000196",
+      "video_id": "G2_V000060",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b21345e10e010817dd2f61e835db7066cbc006ead906688372723925c48626c6",
+      "memory_sha256": "9cc0e3a9255fc7aaaf4079dc7423ad63435a784b9187e527597a33ed59e9be8f"
+    },
+    {
+      "question_id": "G2_Q000197",
+      "video_id": "G2_V000060",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "d942f120e9f1777090206b8dd753c61fce3da7304e22936df48a118698a105e9",
+      "memory_sha256": "9cc0e3a9255fc7aaaf4079dc7423ad63435a784b9187e527597a33ed59e9be8f"
+    },
+    {
+      "question_id": "G2_Q000198",
+      "video_id": "G2_V000060",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "7f1daac4156eda39f2c5a92bacd34bd0cd41ec37609e88926513d4300ac3534a",
+      "memory_sha256": "9cc0e3a9255fc7aaaf4079dc7423ad63435a784b9187e527597a33ed59e9be8f"
+    },
+    {
+      "question_id": "G2_Q000199",
+      "video_id": "G2_V000061",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "7b4ff14aaca3b67528024f51feb5531caaa8a166bb1091d7b31b2238633b4123",
+      "memory_sha256": "390adfc2277b828323afb2da982dce10c7adcb2cf367eff01765f979eb49b1f5"
+    },
+    {
+      "question_id": "G2_Q000200",
+      "video_id": "G2_V000061",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "28c01f42e0cd0aaa3225a8876d4d57238865d303c089b674cc8c44ffb5fbaf38",
+      "memory_sha256": "390adfc2277b828323afb2da982dce10c7adcb2cf367eff01765f979eb49b1f5"
+    },
+    {
+      "question_id": "G2_Q000201",
+      "video_id": "G2_V000061",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "657341ec5c64d7e4db7d8543ba43f63391518fc54ad0a5c28146883167931667",
+      "memory_sha256": "390adfc2277b828323afb2da982dce10c7adcb2cf367eff01765f979eb49b1f5"
+    },
+    {
+      "question_id": "G2_Q000202",
+      "video_id": "G2_V000061",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 0.3333333333333333,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "85bdcf2570ea2bdf85af15e1b7649b0214f9a1ff01bcaa1b2af2d80bcbac1cc1",
+      "memory_sha256": "390adfc2277b828323afb2da982dce10c7adcb2cf367eff01765f979eb49b1f5"
+    },
+    {
+      "question_id": "G2_Q000203",
+      "video_id": "G2_V000062",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "08f714f2e4fff6ffdf862d3945bce2cb7ceb5919cf71148c0f767e2f33a2efc4",
+      "memory_sha256": "cf0233a5fceb0d7d1db490035421f475aa0a803ee7a622b64bbcc85c22d5d16d"
+    },
+    {
+      "question_id": "G2_Q000204",
+      "video_id": "G2_V000062",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "e8ea4efe8542e20a1fe32cea98f22960ce41c81e2134db4a123cff2fc976716d",
+      "memory_sha256": "cf0233a5fceb0d7d1db490035421f475aa0a803ee7a622b64bbcc85c22d5d16d"
+    },
+    {
+      "question_id": "G2_Q000205",
+      "video_id": "G2_V000062",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "640129af9d822a5ae6a613f6e1f05265b2e81d54746839649873cbf2052f3ac7",
+      "memory_sha256": "cf0233a5fceb0d7d1db490035421f475aa0a803ee7a622b64bbcc85c22d5d16d"
+    },
+    {
+      "question_id": "G2_Q000206",
+      "video_id": "G2_V000063",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "21d889cc59d1929fa7685cd808dbb730c2c4f2e3e7787a436b327d3e3297cf4c",
+      "memory_sha256": "a71dc8399a7ab297c4c9080191d24121ec2c237b9f77114c0790156c24c608c3"
+    },
+    {
+      "question_id": "G2_Q000207",
+      "video_id": "G2_V000063",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "6a8a8bfc4350250a5219edae8653de3511c376015e6ecb7d6dedec7626b6621e",
+      "memory_sha256": "a71dc8399a7ab297c4c9080191d24121ec2c237b9f77114c0790156c24c608c3"
+    },
+    {
+      "question_id": "G2_Q000208",
+      "video_id": "G2_V000063",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "6d4b7bbc7c9b71fc752d070f780cb90a92e85ccad9845e0841b6fe5df519816e",
+      "memory_sha256": "a71dc8399a7ab297c4c9080191d24121ec2c237b9f77114c0790156c24c608c3"
+    },
+    {
+      "question_id": "G2_Q000209",
+      "video_id": "G2_V000064",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "74e281d4062eedf9b847f87d80ebeea2f1807b1a358ed9675903d9b37cc2b61f",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000210",
+      "video_id": "G2_V000064",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "cec4398ca46447bed6e8d9283fc12be3b905ec726bed8091e2af538a67b1892b",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000211",
+      "video_id": "G2_V000064",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "1296687517273e6d89363295740a4ab4afe70de90af5420c005b5b31cd29d65b",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000212",
+      "video_id": "G2_V000064",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "8ad1f95c273bd1776a4f7346dfa29b131fe04f433f9a6fbbf45cc39aeb5548b5",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000213",
+      "video_id": "G2_V000064",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "4272139c3e530774a09824cac959ce044f9ac9f9a70a4babd191ffc095077445",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000214",
+      "video_id": "G2_V000064",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "ff60c79670348ed7a7af233bf2f07c25341f46fbae707ce800b41c538a096546",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000215",
+      "video_id": "G2_V000064",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "6f92964b937374d20ed8897c8ce9482e8d1b42d90ef658d45659974464372987",
+      "memory_sha256": "3404e5f9ab0dfb5a1f6928dd142229ec11dc32c7a602221d744247c960b168b2"
+    },
+    {
+      "question_id": "G2_Q000216",
+      "video_id": "G2_V000065",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000217",
+      "video_id": "G2_V000065",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "5857f74eb5067b9b8d182fd2a25a13698b355c60cc6f04c37bc3bfaf008a1d6a",
+      "memory_sha256": "9a19929edcd091a585b964d89db715519740cc9b13111dc39a7eb487989c1c02"
+    },
+    {
+      "question_id": "G2_Q000218",
+      "video_id": "G2_V000065",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3fcba4124273ed1d95ebcfeaeada075d62505eeb36c44c78c3f91e420286a7d3",
+      "memory_sha256": "9a19929edcd091a585b964d89db715519740cc9b13111dc39a7eb487989c1c02"
+    },
+    {
+      "question_id": "G2_Q000219",
+      "video_id": "G2_V000065",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "bf44fac087f2db587ee0e9185d23cb7fbeac30fd0856cce09978df8bede090f0",
+      "memory_sha256": "9a19929edcd091a585b964d89db715519740cc9b13111dc39a7eb487989c1c02"
+    },
+    {
+      "question_id": "G2_Q000220",
+      "video_id": "G2_V000065",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000221",
+      "video_id": "G2_V000065",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000222",
+      "video_id": "G2_V000066",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9c11e41ad5479c595b2ce220cabf399da27720f30074b6a45b644771c924beec",
+      "memory_sha256": "2033a61f4d0b237737fd9a16961268c309ed0158ece5cc486f9b33df341b794e"
+    },
+    {
+      "question_id": "G2_Q000223",
+      "video_id": "G2_V000066",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "f43a98d556079addf44662f55f47f08505d09d16840bf4547c0becec4966c519",
+      "memory_sha256": "2033a61f4d0b237737fd9a16961268c309ed0158ece5cc486f9b33df341b794e"
+    },
+    {
+      "question_id": "G2_Q000224",
+      "video_id": "G2_V000066",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "4c51734d17ff2d4ff84c98f11513d38bf03b5d910484d1b12eb56b0cf4f694f8",
+      "memory_sha256": "2033a61f4d0b237737fd9a16961268c309ed0158ece5cc486f9b33df341b794e"
+    },
+    {
+      "question_id": "G2_Q000225",
+      "video_id": "G2_V000066",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "beb2c91111cc8df2f256099547aaa905675bab10870db3416a7f337615e69255",
+      "memory_sha256": "2033a61f4d0b237737fd9a16961268c309ed0158ece5cc486f9b33df341b794e"
+    },
+    {
+      "question_id": "G2_Q000226",
+      "video_id": "G2_V000067",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "68045d4be640fb18ceb843ea942e2d4fbaba7f8a6c0544ebf80bed8e86d089a0",
+      "memory_sha256": "d6b45a7cfb36874e5c86c9bd0adb0854c223181d70b8e31c262779a9bff0cb69"
+    },
+    {
+      "question_id": "G2_Q000227",
+      "video_id": "G2_V000067",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3dfb8befe17065aa1b2b90aaa89396138d5bf7baca2c41a622c3485b0aaf710b",
+      "memory_sha256": "d6b45a7cfb36874e5c86c9bd0adb0854c223181d70b8e31c262779a9bff0cb69"
+    },
+    {
+      "question_id": "G2_Q000228",
+      "video_id": "G2_V000067",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "d2542450a45ec42ab8de5ac996cebd84b8c51deb8040fc9cb46a95fcc0ab5707",
+      "memory_sha256": "d6b45a7cfb36874e5c86c9bd0adb0854c223181d70b8e31c262779a9bff0cb69"
+    },
+    {
+      "question_id": "G2_Q000229",
+      "video_id": "G2_V000067",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "9dc1018548f38d79dddcc5dc7ff27ced58fc60762f025ec3e9457f47be1d8cfb",
+      "memory_sha256": "d6b45a7cfb36874e5c86c9bd0adb0854c223181d70b8e31c262779a9bff0cb69"
+    },
+    {
+      "question_id": "G2_Q000230",
+      "video_id": "G2_V000067",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3481e0a7932283fe19c9f88f801f87b87581f8b96f9388f700cc30ae77cbc026",
+      "memory_sha256": "d6b45a7cfb36874e5c86c9bd0adb0854c223181d70b8e31c262779a9bff0cb69"
+    },
+    {
+      "question_id": "G2_Q000231",
+      "video_id": "G2_V000067",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "b83189dc623df4220f4ac214b297676b741c329b02ae013b7472c0f664ce7fe4",
+      "memory_sha256": "d6b45a7cfb36874e5c86c9bd0adb0854c223181d70b8e31c262779a9bff0cb69"
+    },
+    {
+      "question_id": "G2_Q000232",
+      "video_id": "G2_V000068",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000233",
+      "video_id": "G2_V000068",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000234",
+      "video_id": "G2_V000068",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000235",
+      "video_id": "G2_V000068",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000236",
+      "video_id": "G2_V000069",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "ec7b1fc48e2d37199c8373fedb25a93e0f09abbec0d1e671aeb71ec533beb204",
+      "memory_sha256": "e35fe2283f577835e2b9c22be815c1ee053edb6164a913cc81d9041777dabf09"
+    },
+    {
+      "question_id": "G2_Q000237",
+      "video_id": "G2_V000069",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "8bdac08ae787f0cfdcc05371efd0f13661a424fbb4a6a0ffbccc4af387f7e7ee",
+      "memory_sha256": "e35fe2283f577835e2b9c22be815c1ee053edb6164a913cc81d9041777dabf09"
+    },
+    {
+      "question_id": "G2_Q000238",
+      "video_id": "G2_V000069",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "6228bed08dc6fef2703485df16213591bd83c6507f424bc06229b69b1b174550",
+      "memory_sha256": "e35fe2283f577835e2b9c22be815c1ee053edb6164a913cc81d9041777dabf09"
+    },
+    {
+      "question_id": "G2_Q000239",
+      "video_id": "G2_V000069",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "1937b5adecc6af9767843b05b51555956de77ad6ac1e9a80658637fd5141239a",
+      "memory_sha256": "e35fe2283f577835e2b9c22be815c1ee053edb6164a913cc81d9041777dabf09"
+    },
+    {
+      "question_id": "G2_Q000240",
+      "video_id": "G2_V000069",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "708d4e1cfd8aca709611102351e8b2bebef8ccb8423d9d3b6a1c5bf85851113f",
+      "memory_sha256": "e35fe2283f577835e2b9c22be815c1ee053edb6164a913cc81d9041777dabf09"
+    },
+    {
+      "question_id": "G2_Q000241",
+      "video_id": "G2_V000069",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "66a768c4410b3682b9e75d0c280d487d3505ddd5d6fb0543203dfc044bcf1fe4",
+      "memory_sha256": "e35fe2283f577835e2b9c22be815c1ee053edb6164a913cc81d9041777dabf09"
+    },
+    {
+      "question_id": "G2_Q000242",
+      "video_id": "G2_V000070",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "22bd51373d7b5e063f317984f913e45e9b80f51ae34bbc6bdf5fdc063f014f63",
+      "memory_sha256": "4640f51dc7ed32c89e9fe021374d1400f455a59ae00e9355a20d14dfdd95532a"
+    },
+    {
+      "question_id": "G2_Q000243",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "f2b708d50a2e8415ae4f7315a433f8ac936dbf3328236ba9bfbe04946b46111d",
+      "memory_sha256": "4640f51dc7ed32c89e9fe021374d1400f455a59ae00e9355a20d14dfdd95532a"
+    },
+    {
+      "question_id": "G2_Q000244",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "12f82cfd54d4396b0290e70fa9611a9713680fa1de552d35d8323570c4a154ce",
+      "memory_sha256": "4640f51dc7ed32c89e9fe021374d1400f455a59ae00e9355a20d14dfdd95532a"
+    },
+    {
+      "question_id": "G2_Q000245",
+      "video_id": "G2_V000070",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000246",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000247",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000248",
+      "video_id": "G2_V000071",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0f8e8936850bb9211e7ba3049f33c5e832b00ce65dd0172a1aac49bcff23adc7",
+      "memory_sha256": "12074987d824d48c250092686a0a60e0ca6a1c91f5670d97454af5cf010b6990"
+    },
+    {
+      "question_id": "G2_Q000249",
+      "video_id": "G2_V000071",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "7bbeca32235559110ede8ba5a45f5442a604341aa72ae802e6a2d415525c6897",
+      "memory_sha256": "12074987d824d48c250092686a0a60e0ca6a1c91f5670d97454af5cf010b6990"
+    },
+    {
+      "question_id": "G2_Q000250",
+      "video_id": "G2_V000071",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0885d660b14aaee4764b1ac3c288a4ea4c69f65a554715185b4517ce30900a82",
+      "memory_sha256": "12074987d824d48c250092686a0a60e0ca6a1c91f5670d97454af5cf010b6990"
+    },
+    {
+      "question_id": "G2_Q000251",
+      "video_id": "G2_V000071",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "a9761ea2a5126f5ae3ab20dd4dee10d848350ced8ce54d97c114e395d451a106",
+      "memory_sha256": "12074987d824d48c250092686a0a60e0ca6a1c91f5670d97454af5cf010b6990"
+    },
+    {
+      "question_id": "G2_Q000252",
+      "video_id": "G2_V000071",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000253",
+      "video_id": "G2_V000071",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000254",
+      "video_id": "G2_V000072",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "4634ca2f3ebeda2f9d5c09e1fd437dba37e3b4bba525547cab4d8782340bc4e5",
+      "memory_sha256": "36697bf8f4920bb79e13375cf31e5f981d5886572021689c6612015a653b7940"
+    },
+    {
+      "question_id": "G2_Q000255",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "05e0166e767826e962a1b52099f551901a74d80d0d86d31f70e447beea36373f",
+      "memory_sha256": "36697bf8f4920bb79e13375cf31e5f981d5886572021689c6612015a653b7940"
+    },
+    {
+      "question_id": "G2_Q000256",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "363622aac5803cbc2efe7dde227f73cb469b03cbdae2f5dd5e2380bd70b4bf5c",
+      "memory_sha256": "36697bf8f4920bb79e13375cf31e5f981d5886572021689c6612015a653b7940"
+    },
+    {
+      "question_id": "G2_Q000257",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "5174ce903a82f0dcbc4d412a847226d87bede5d7bdfbfe3fff82c9ff2569544b",
+      "memory_sha256": "36697bf8f4920bb79e13375cf31e5f981d5886572021689c6612015a653b7940"
+    },
+    {
+      "question_id": "G2_Q000258",
+      "video_id": "G2_V000072",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "219d76a4b219ed231cdce7cc1953020ff495f2f3065299a607af6591387653fd",
+      "memory_sha256": "36697bf8f4920bb79e13375cf31e5f981d5886572021689c6612015a653b7940"
+    },
+    {
+      "question_id": "G2_Q000259",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000260",
+      "video_id": "G2_V000072",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000261",
+      "video_id": "G2_V000073",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "7c273fffef1ad0031b475d734dfb8f17c34e174cb16b2779c5b36936cb95343b",
+      "memory_sha256": "e9991d2ddf004d3f005c5c2a760fff05635f22ef459dc4b89d74c97013bcebd4"
+    },
+    {
+      "question_id": "G2_Q000262",
+      "video_id": "G2_V000073",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "9ae3f603734f083956615ba1b89c965a66b86a59210d170b7e4411434661fb9b",
+      "memory_sha256": "e9991d2ddf004d3f005c5c2a760fff05635f22ef459dc4b89d74c97013bcebd4"
+    },
+    {
+      "question_id": "G2_Q000263",
+      "video_id": "G2_V000073",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "f33a9fe4fe3cd81697e7089b0caea2f83550434296715a901066783887461a69",
+      "memory_sha256": "e9991d2ddf004d3f005c5c2a760fff05635f22ef459dc4b89d74c97013bcebd4"
+    },
+    {
+      "question_id": "G2_Q000264",
+      "video_id": "G2_V000073",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "2a8eafe6abe34c2ce4b9dc99fc098f765cb792597a799b80ec28d7aba86d9524",
+      "memory_sha256": "e9991d2ddf004d3f005c5c2a760fff05635f22ef459dc4b89d74c97013bcebd4"
+    },
+    {
+      "question_id": "G2_Q000265",
+      "video_id": "G2_V000074",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "7cb5f6657431fc158a9d2c90c4f83bac41e791ddf1a6ae586e22c6c239d68acd",
+      "memory_sha256": "93d7da90203ccdbff2e11a683540c269c58c55b3644fb3b7566049f2207b11a8"
+    },
+    {
+      "question_id": "G2_Q000266",
+      "video_id": "G2_V000074",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "bd93bc6860186b6e476b47912e1e5ef826386c254758bafd8142017b1fedcbd3",
+      "memory_sha256": "93d7da90203ccdbff2e11a683540c269c58c55b3644fb3b7566049f2207b11a8"
+    },
+    {
+      "question_id": "G2_Q000267",
+      "video_id": "G2_V000074",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "0bbba10e2c61a761b915e4c5d69259f1298e8bd206a9d4ea2679de183c6de882",
+      "memory_sha256": "93d7da90203ccdbff2e11a683540c269c58c55b3644fb3b7566049f2207b11a8"
+    },
+    {
+      "question_id": "G2_Q000268",
+      "video_id": "G2_V000075",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "3a13e9529dcd1c229cf582423f8cb7c3a1e6461f349aabc2a54cd0a4fa5af1fa",
+      "memory_sha256": "ef7b2c24ed62966fd837f3bdb09d6aabeae4fba894e50e1b04d5f53f7bf17e30"
+    },
+    {
+      "question_id": "G2_Q000269",
+      "video_id": "G2_V000075",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "78f8177b741f7b3247e48bce2547cc0b7ed2a6dc574e4508c397f2ff85b3e23e",
+      "memory_sha256": "ef7b2c24ed62966fd837f3bdb09d6aabeae4fba894e50e1b04d5f53f7bf17e30"
+    },
+    {
+      "question_id": "G2_Q000270",
+      "video_id": "G2_V000075",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "df3226f3e3d07c2f46ff06360c97581e71977f3c2a168fed372a6583706d5cb6",
+      "memory_sha256": "ef7b2c24ed62966fd837f3bdb09d6aabeae4fba894e50e1b04d5f53f7bf17e30"
+    },
+    {
+      "question_id": "G2_Q000271",
+      "video_id": "G2_V000076",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "30c86876ca035e771ff511f751d514b24aa5c290d202b895b1bd57fefbd050d7",
+      "memory_sha256": "64a78c14d28fb42a9d1c0036e3a9c86ebfab22dcbd86ca84ba1c31df064a5637"
+    },
+    {
+      "question_id": "G2_Q000272",
+      "video_id": "G2_V000076",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "15400f857693e832edf300ed8229adc1266fc32978e4ac42b2728c01fbb933cc",
+      "memory_sha256": "64a78c14d28fb42a9d1c0036e3a9c86ebfab22dcbd86ca84ba1c31df064a5637"
+    },
+    {
+      "question_id": "G2_Q000273",
+      "video_id": "G2_V000077",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000274",
+      "video_id": "G2_V000077",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000275",
+      "video_id": "G2_V000077",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000276",
+      "video_id": "G2_V000078",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "error",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000277",
+      "video_id": "G2_V000078",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "af380be7c24f1861455ff3e1e4a20a5bccb8afddda3cd6ca329031e9142b3738",
+      "memory_sha256": "c32a57e449538a0aa993f44fc05e9127a1e742bf40a82370b9b3534fae8aaeee"
+    },
+    {
+      "question_id": "G2_Q000278",
+      "video_id": "G2_V000079",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "b4f2e97c6d73454adb50584dc1110520ebdc80b705da005d74ae5a47b4bf3e97",
+      "memory_sha256": "bb81b841245399ac1f303de0bc2ebed5ec5fed5a25a21c82c9075cbfbe74b707"
+    },
+    {
+      "question_id": "G2_Q000279",
+      "video_id": "G2_V000079",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_full_observation_bank_20260924",
+      "source_sha256": "18aa41ece071103889214b421810e19cf75174423d23d2472b695d57af7c8ee0",
+      "memory_sha256": "bb81b841245399ac1f303de0bc2ebed5ec5fed5a25a21c82c9075cbfbe74b707"
+    },
+    {
+      "question_id": "G2_Q000280",
+      "video_id": "G2_V000079",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000281",
+      "video_id": "G2_V000079",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "plan",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000282",
+      "video_id": "G2_V000080",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000283",
+      "video_id": "G2_V000080",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000284",
+      "video_id": "G2_V000080",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000285",
+      "video_id": "G2_V000080",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000286",
+      "video_id": "G2_V000081",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000287",
+      "video_id": "G2_V000081",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000288",
+      "video_id": "G2_V000081",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000289",
+      "video_id": "G2_V000082",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000290",
+      "video_id": "G2_V000082",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000291",
+      "video_id": "G2_V000082",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000292",
+      "video_id": "G2_V000082",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000293",
+      "video_id": "G2_V000083",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000294",
+      "video_id": "G2_V000083",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "running",
+      "stage": "answer",
+      "error_type": null
+    },
+    {
+      "question_id": "G2_Q000295",
+      "video_id": "G2_V000083",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000296",
+      "video_id": "G2_V000083",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000297",
+      "video_id": "G2_V000083",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000298",
+      "video_id": "G2_V000084",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000299",
+      "video_id": "G2_V000084",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000300",
+      "video_id": "G2_V000084",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000301",
+      "video_id": "G2_V000084",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000302",
+      "video_id": "G2_V000084",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000303",
+      "video_id": "G2_V000084",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000304",
+      "video_id": "G2_V000085",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000305",
+      "video_id": "G2_V000085",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000306",
+      "video_id": "G2_V000085",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000307",
+      "video_id": "G2_V000085",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000308",
+      "video_id": "G2_V000086",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "ee716f439a8807ef3b59f337def472b74dc3f585d3a785f89a7dfb6b41955920",
+      "memory_sha256": "71613bf07be41e30c3162da51b508549e884f3dc678c6f6045c24b345e11d378"
+    },
+    {
+      "question_id": "G2_Q000309",
+      "video_id": "G2_V000086",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "b11ddcd42887e33122ba7b5c1459dd97e1911e3945c8aed8cfcc91b6dbc33d66",
+      "memory_sha256": "71613bf07be41e30c3162da51b508549e884f3dc678c6f6045c24b345e11d378"
+    },
+    {
+      "question_id": "G2_Q000310",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "be538fa26250ddb3ec2dd1d63b65f932591e71cfa374423defdaa04768e155dc",
+      "memory_sha256": "71613bf07be41e30c3162da51b508549e884f3dc678c6f6045c24b345e11d378"
+    },
+    {
+      "question_id": "G2_Q000311",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "11c1edf102b24ff71679e3d32dbaa5b9dfe194a7753b487010155527175540de",
+      "memory_sha256": "71613bf07be41e30c3162da51b508549e884f3dc678c6f6045c24b345e11d378"
+    },
+    {
+      "question_id": "G2_Q000312",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 4,
+      "normalized_score": 1.0,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "337e7697d16b4dbc0c3abb421161d04a2f9bd67ffb04b24f8b229a37128316b1",
+      "memory_sha256": "71613bf07be41e30c3162da51b508549e884f3dc678c6f6045c24b345e11d378"
+    },
+    {
+      "question_id": "G2_Q000313",
+      "video_id": "G2_V000086",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "6032596719996e2397327c8f68df6388bab7c4a70be7f37d6a0c63ef024b0c41",
+      "memory_sha256": "71613bf07be41e30c3162da51b508549e884f3dc678c6f6045c24b345e11d378"
+    },
+    {
+      "question_id": "G2_Q000314",
+      "video_id": "G2_V000087",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000315",
+      "video_id": "G2_V000087",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000316",
+      "video_id": "G2_V000087",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000317",
+      "video_id": "G2_V000087",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000318",
+      "video_id": "G2_V000087",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000319",
+      "video_id": "G2_V000088",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000320",
+      "video_id": "G2_V000088",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000321",
+      "video_id": "G2_V000088",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000322",
+      "video_id": "G2_V000089",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000323",
+      "video_id": "G2_V000089",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000324",
+      "video_id": "G2_V000089",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000325",
+      "video_id": "G2_V000089",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000326",
+      "video_id": "G2_V000089",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000327",
+      "video_id": "G2_V000090",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "c10497010395526a47f89533cc2764034279ec73c1c076638e559f04050a2bcb",
+      "memory_sha256": "9a64204bf4884bfec5ed75e129ca4eff1d4f31c02f60beb9452f8d14bbafde20"
+    },
+    {
+      "question_id": "G2_Q000328",
+      "video_id": "G2_V000090",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "fd356600386d1091571bbdb636df991542af4845e2af0b136b68c9a7021b2e69",
+      "memory_sha256": "9a64204bf4884bfec5ed75e129ca4eff1d4f31c02f60beb9452f8d14bbafde20"
+    },
+    {
+      "question_id": "G2_Q000329",
+      "video_id": "G2_V000090",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.6666666666666666,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "f5ae78b56765cd4bebd2d27aded173b80e34e1f1ec847725480533e76a518e13",
+      "memory_sha256": "9a64204bf4884bfec5ed75e129ca4eff1d4f31c02f60beb9452f8d14bbafde20"
+    },
+    {
+      "question_id": "G2_Q000330",
+      "video_id": "G2_V000090",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "prior_failed_attempt",
+      "stage": "answer",
+      "error_type": "RuntimeError"
+    },
+    {
+      "question_id": "G2_Q000331",
+      "video_id": "G2_V000091",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000332",
+      "video_id": "G2_V000091",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000333",
+      "video_id": "G2_V000091",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000334",
+      "video_id": "G2_V000091",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000335",
+      "video_id": "G2_V000091",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000336",
+      "video_id": "G2_V000092",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "ada0abfc0923817628f63c85855bbaf457111157587321b3a2cc470a08d2f209",
+      "memory_sha256": "e3830d12d5d7e61ffae9c905e964f79b8ed8ecdd839e637c1e8e015f1b612e2f"
+    },
+    {
+      "question_id": "G2_Q000337",
+      "video_id": "G2_V000092",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "be7ded4b783ace3b39fbc6a636ebf38b00bb27035429c345030f410446112c6c",
+      "memory_sha256": "e3830d12d5d7e61ffae9c905e964f79b8ed8ecdd839e637c1e8e015f1b612e2f"
+    },
+    {
+      "question_id": "G2_Q000338",
+      "video_id": "G2_V000092",
+      "type": "emotional reasoning",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 1.0,
+      "max_score": 3,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "54f0810f5073b3de49805a129494394f46be5291537f7e36d250d8f125a5bf7c",
+      "memory_sha256": "e3830d12d5d7e61ffae9c905e964f79b8ed8ecdd839e637c1e8e015f1b612e2f"
+    },
+    {
+      "question_id": "G2_Q000339",
+      "video_id": "G2_V000092",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 3,
+      "normalized_score": 0.75,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "600963ccf1c48e120d235ef2b21675faedf71a20244a34af9a3ee55ac2a0597f",
+      "memory_sha256": "e3830d12d5d7e61ffae9c905e964f79b8ed8ecdd839e637c1e8e015f1b612e2f"
+    },
+    {
+      "question_id": "G2_Q000340",
+      "video_id": "G2_V000092",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "2ab8cf2495ddc31a98cb1250d7df680b6a4ea620ad6787ef1f83dd46dd2250fd",
+      "memory_sha256": "e3830d12d5d7e61ffae9c905e964f79b8ed8ecdd839e637c1e8e015f1b612e2f"
+    },
+    {
+      "question_id": "G2_Q000341",
+      "video_id": "G2_V000093",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000342",
+      "video_id": "G2_V000093",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000343",
+      "video_id": "G2_V000093",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000344",
+      "video_id": "G2_V000093",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000345",
+      "video_id": "G2_V000093",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000346",
+      "video_id": "G2_V000093",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000347",
+      "video_id": "G2_V000094",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000348",
+      "video_id": "G2_V000094",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000349",
+      "video_id": "G2_V000095",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000350",
+      "video_id": "G2_V000095",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000351",
+      "video_id": "G2_V000095",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000352",
+      "video_id": "G2_V000095",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000353",
+      "video_id": "G2_V000095",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000354",
+      "video_id": "G2_V000096",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000355",
+      "video_id": "G2_V000096",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000356",
+      "video_id": "G2_V000097",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000357",
+      "video_id": "G2_V000097",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000358",
+      "video_id": "G2_V000097",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000359",
+      "video_id": "G2_V000097",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000360",
+      "video_id": "G2_V000098",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000361",
+      "video_id": "G2_V000098",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000362",
+      "video_id": "G2_V000099",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000363",
+      "video_id": "G2_V000099",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000364",
+      "video_id": "G2_V000099",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000365",
+      "video_id": "G2_V000099",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000366",
+      "video_id": "G2_V000100",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000367",
+      "video_id": "G2_V000100",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000368",
+      "video_id": "G2_V000101",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000369",
+      "video_id": "G2_V000101",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000370",
+      "video_id": "G2_V000101",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000371",
+      "video_id": "G2_V000102",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000372",
+      "video_id": "G2_V000102",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000373",
+      "video_id": "G2_V000102",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000374",
+      "video_id": "G2_V000102",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000375",
+      "video_id": "G2_V000102",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000376",
+      "video_id": "G2_V000103",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000377",
+      "video_id": "G2_V000103",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000378",
+      "video_id": "G2_V000103",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000379",
+      "video_id": "G2_V000103",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000380",
+      "video_id": "G2_V000103",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000381",
+      "video_id": "G2_V000103",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000382",
+      "video_id": "G2_V000104",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000383",
+      "video_id": "G2_V000104",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000384",
+      "video_id": "G2_V000104",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000385",
+      "video_id": "G2_V000104",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000386",
+      "video_id": "G2_V000104",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000387",
+      "video_id": "G2_V000104",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000388",
+      "video_id": "G2_V000105",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000389",
+      "video_id": "G2_V000105",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000390",
+      "video_id": "G2_V000105",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000391",
+      "video_id": "G2_V000105",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000392",
+      "video_id": "G2_V000105",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000393",
+      "video_id": "G2_V000105",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000394",
+      "video_id": "G2_V000106",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000395",
+      "video_id": "G2_V000106",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000396",
+      "video_id": "G2_V000106",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000397",
+      "video_id": "G2_V000106",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000398",
+      "video_id": "G2_V000106",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000399",
+      "video_id": "G2_V000106",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000400",
+      "video_id": "G2_V000107",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000401",
+      "video_id": "G2_V000107",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000402",
+      "video_id": "G2_V000107",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000403",
+      "video_id": "G2_V000107",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000404",
+      "video_id": "G2_V000107",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000405",
+      "video_id": "G2_V000107",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000406",
+      "video_id": "G2_V000108",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000407",
+      "video_id": "G2_V000108",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000408",
+      "video_id": "G2_V000108",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000409",
+      "video_id": "G2_V000108",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000410",
+      "video_id": "G2_V000108",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000411",
+      "video_id": "G2_V000109",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000412",
+      "video_id": "G2_V000109",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000413",
+      "video_id": "G2_V000109",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000414",
+      "video_id": "G2_V000109",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000415",
+      "video_id": "G2_V000109",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000416",
+      "video_id": "G2_V000110",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000417",
+      "video_id": "G2_V000110",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000418",
+      "video_id": "G2_V000110",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000419",
+      "video_id": "G2_V000110",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000420",
+      "video_id": "G2_V000110",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000421",
+      "video_id": "G2_V000110",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000422",
+      "video_id": "G2_V000111",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000423",
+      "video_id": "G2_V000111",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000424",
+      "video_id": "G2_V000111",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000425",
+      "video_id": "G2_V000111",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000426",
+      "video_id": "G2_V000111",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000427",
+      "video_id": "G2_V000112",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000428",
+      "video_id": "G2_V000112",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000429",
+      "video_id": "G2_V000112",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000430",
+      "video_id": "G2_V000112",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000431",
+      "video_id": "G2_V000112",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000432",
+      "video_id": "G2_V000113",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000433",
+      "video_id": "G2_V000113",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000434",
+      "video_id": "G2_V000113",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000435",
+      "video_id": "G2_V000113",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000436",
+      "video_id": "G2_V000113",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000437",
+      "video_id": "G2_V000113",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000438",
+      "video_id": "G2_V000114",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000439",
+      "video_id": "G2_V000114",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000440",
+      "video_id": "G2_V000114",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000441",
+      "video_id": "G2_V000114",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000442",
+      "video_id": "G2_V000114",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000443",
+      "video_id": "G2_V000114",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000444",
+      "video_id": "G2_V000114",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000445",
+      "video_id": "G2_V000115",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000446",
+      "video_id": "G2_V000115",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000447",
+      "video_id": "G2_V000115",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000448",
+      "video_id": "G2_V000115",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000449",
+      "video_id": "G2_V000115",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000450",
+      "video_id": "G2_V000116",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000451",
+      "video_id": "G2_V000116",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000452",
+      "video_id": "G2_V000116",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000453",
+      "video_id": "G2_V000116",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000454",
+      "video_id": "G2_V000116",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000455",
+      "video_id": "G2_V000117",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000456",
+      "video_id": "G2_V000117",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000457",
+      "video_id": "G2_V000117",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000458",
+      "video_id": "G2_V000117",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000459",
+      "video_id": "G2_V000117",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000460",
+      "video_id": "G2_V000117",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000461",
+      "video_id": "G2_V000118",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000462",
+      "video_id": "G2_V000118",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000463",
+      "video_id": "G2_V000118",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000464",
+      "video_id": "G2_V000118",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000465",
+      "video_id": "G2_V000119",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000466",
+      "video_id": "G2_V000119",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000467",
+      "video_id": "G2_V000119",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000468",
+      "video_id": "G2_V000119",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000469",
+      "video_id": "G2_V000119",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000470",
+      "video_id": "G2_V000120",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000471",
+      "video_id": "G2_V000120",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000472",
+      "video_id": "G2_V000120",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000473",
+      "video_id": "G2_V000120",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000474",
+      "video_id": "G2_V000121",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000475",
+      "video_id": "G2_V000121",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000476",
+      "video_id": "G2_V000121",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000477",
+      "video_id": "G2_V000121",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000478",
+      "video_id": "G2_V000122",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000479",
+      "video_id": "G2_V000122",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000480",
+      "video_id": "G2_V000122",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000481",
+      "video_id": "G2_V000122",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000482",
+      "video_id": "G2_V000122",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000483",
+      "video_id": "G2_V000123",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000484",
+      "video_id": "G2_V000123",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000485",
+      "video_id": "G2_V000123",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000486",
+      "video_id": "G2_V000123",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000487",
+      "video_id": "G2_V000124",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000488",
+      "video_id": "G2_V000124",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000489",
+      "video_id": "G2_V000124",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000490",
+      "video_id": "G2_V000124",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000491",
+      "video_id": "G2_V000124",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000492",
+      "video_id": "G2_V000125",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000493",
+      "video_id": "G2_V000125",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000494",
+      "video_id": "G2_V000125",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000495",
+      "video_id": "G2_V000125",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000496",
+      "video_id": "G2_V000125",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000497",
+      "video_id": "G2_V000126",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000498",
+      "video_id": "G2_V000126",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000499",
+      "video_id": "G2_V000126",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000500",
+      "video_id": "G2_V000126",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000501",
+      "video_id": "G2_V000127",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000502",
+      "video_id": "G2_V000127",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000503",
+      "video_id": "G2_V000127",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000504",
+      "video_id": "G2_V000127",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000505",
+      "video_id": "G2_V000127",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000506",
+      "video_id": "G2_V000128",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000507",
+      "video_id": "G2_V000128",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000508",
+      "video_id": "G2_V000128",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000509",
+      "video_id": "G2_V000128",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000510",
+      "video_id": "G2_V000129",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000511",
+      "video_id": "G2_V000129",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000512",
+      "video_id": "G2_V000129",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000513",
+      "video_id": "G2_V000129",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000514",
+      "video_id": "G2_V000130",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000515",
+      "video_id": "G2_V000130",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000516",
+      "video_id": "G2_V000130",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000517",
+      "video_id": "G2_V000130",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000518",
+      "video_id": "G2_V000131",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000519",
+      "video_id": "G2_V000131",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000520",
+      "video_id": "G2_V000131",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000521",
+      "video_id": "G2_V000132",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000522",
+      "video_id": "G2_V000132",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000523",
+      "video_id": "G2_V000132",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000524",
+      "video_id": "G2_V000132",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000525",
+      "video_id": "G2_V000133",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000526",
+      "video_id": "G2_V000133",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000527",
+      "video_id": "G2_V000133",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000528",
+      "video_id": "G2_V000133",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000529",
+      "video_id": "G2_V000134",
+      "type": "emotional intensity comparison",
+      "source_group": "independent_window",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000530",
+      "video_id": "G2_V000134",
+      "type": "emotion trajectory",
+      "source_group": "independent_window",
+      "status": "prior_explicit_backend_refusal"
+    },
+    {
+      "question_id": "G2_Q000531",
+      "video_id": "G2_V000134",
+      "type": "emotional reasoning",
+      "source_group": "independent_window",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000532",
+      "video_id": "G2_V000135",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000533",
+      "video_id": "G2_V000135",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000534",
+      "video_id": "G2_V000135",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000535",
+      "video_id": "G2_V000135",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000536",
+      "video_id": "G2_V000136",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000537",
+      "video_id": "G2_V000136",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000538",
+      "video_id": "G2_V000136",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000539",
+      "video_id": "G2_V000137",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000540",
+      "video_id": "G2_V000137",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000541",
+      "video_id": "G2_V000137",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000542",
+      "video_id": "G2_V000137",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000543",
+      "video_id": "G2_V000137",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000544",
+      "video_id": "G2_V000137",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000545",
+      "video_id": "G2_V000138",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 0,
+      "normalized_score": 0.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "11ff3421b4888d1e1586ef3fde2a41793622f928e8c92bcba5e8bc15e44688f8",
+      "memory_sha256": "06f40a1e7ff9ad78c4d213c19a70845872cc428575ef50d9ad46bab1e8391282"
+    },
+    {
+      "question_id": "G2_Q000546",
+      "video_id": "G2_V000138",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "6895196e10804b0919f132b3a596394bab1411263d2d717ab682c9208f19c126",
+      "memory_sha256": "06f40a1e7ff9ad78c4d213c19a70845872cc428575ef50d9ad46bab1e8391282"
+    },
+    {
+      "question_id": "G2_Q000547",
+      "video_id": "G2_V000138",
+      "type": "emotional intensity comparison",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 1,
+      "normalized_score": 1.0,
+      "max_score": 1,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "16f3fe68959e55261db030d24c43c95ffde047482c0bb1b6e8726a6e2e36a99f",
+      "memory_sha256": "06f40a1e7ff9ad78c4d213c19a70845872cc428575ef50d9ad46bab1e8391282"
+    },
+    {
+      "question_id": "G2_Q000548",
+      "video_id": "G2_V000138",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "1eb6cfd29d7edfcfc97cc23023e155043a351a1ffe03d4ec833a16f28b5e0625",
+      "memory_sha256": "06f40a1e7ff9ad78c4d213c19a70845872cc428575ef50d9ad46bab1e8391282"
+    },
+    {
+      "question_id": "G2_Q000549",
+      "video_id": "G2_V000138",
+      "type": "emotion trajectory",
+      "source_group": "current_method",
+      "status": "scored",
+      "score": 2,
+      "normalized_score": 0.5,
+      "max_score": 4,
+      "source_run": "noevent_shared_method_observations_20260924",
+      "source_sha256": "618b99ff0b7a8457c1d9975aaa2395650eba6f59d4098d0e23543a401dba26da",
+      "memory_sha256": "06f40a1e7ff9ad78c4d213c19a70845872cc428575ef50d9ad46bab1e8391282"
+    },
+    {
+      "question_id": "G2_Q000550",
+      "video_id": "G2_V000139",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000551",
+      "video_id": "G2_V000139",
+      "type": "emotional intensity comparison",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000552",
+      "video_id": "G2_V000139",
+      "type": "emotion trajectory",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000553",
+      "video_id": "G2_V000139",
+      "type": "emotional reasoning",
+      "source_group": null,
+      "status": "needs_missing_observations"
+    },
+    {
+      "question_id": "G2_Q000554",
+      "video_id": "G2_V000140",
+      "type": "emotion trajectory",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000555",
+      "video_id": "G2_V000140",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000556",
+      "video_id": "G2_V000141",
+      "type": "emotional intensity comparison",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000557",
+      "video_id": "G2_V000141",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    },
+    {
+      "question_id": "G2_Q000558",
+      "video_id": "G2_V000141",
+      "type": "emotional reasoning",
+      "source_group": "historical_graph",
+      "status": "pending"
+    }
+  ],
+  "comparison": "Current-method subset shares raw inputs; historical and independent-perception groups are NOT same-source comparisons to current method. Future graph control must use this exact bank."
+}
