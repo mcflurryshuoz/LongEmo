@@ -10,26 +10,30 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 本分支仅感知**时间窗口记录**，不生成事件、情感状态节点或关系边；在窗口记录上用 BM25＋Gemini Embedding 2 检索，由 GPT-6 回答并按官方标准评分。
 
-本次固定 **558 题／141 视频**，统一使用 Gemini 3.8 Flash 音视频感知。50题试跑已结束并核验继承；全集以最多 **12 视频并发、每视频 2 题并发** 优先运行 noevent，再构建事件图运行 method。base 仅保留已有成绩。逐视频接收媒体、完成感知后立即答题评分；保留首次有效成绩和失败记录。[启动命令与评测协议](experiments/zyf/full_suite.md)。
+本次固定 **558 题／141 视频**，统一使用 Gemini 3.8 Flash 音视频感知。50题试跑核验继承后，全集以最多 **12 视频并发、每视频 2 题并发** 依次运行 noevent 和 method；本轮可执行队列现已结束，未实现全部题目成功评分。base 仅保留已有成绩。首次有效成绩和失败记录均保留。[启动命令与评测协议](experiments/zyf/full_suite.md)。
 
 下方保留事件图方法和历史成绩供对照；历史 60.24／57.62 **不是本次 noevent 或三层消融成绩**。
 
 <!-- LONGEMO_FULL558_RESULTS:START -->
-### 当前三层消融进度
+### 当前三层消融结果
 
-2026-09-23 04:09 CST 快照：全集 **558题／141视频**。02:48 已在 AIStudio 完成调度切换，本轮只按 **noevent → method** 执行；base 保留已有成绩，不再回答或评分。
+2026-09-23 11:07 CST 快照，11:12 完成审计。**noevent 与 method 的可执行队列均已结束，558题尚未全部评分。** base 只保留已有参考，不新增回答或评分。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 154/558 | 28.41 |
+| noevent | 195/558 | 26.67 |
+| method | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
-| method | 13/558 | 69.23 |
 
-base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
+不同已评分题集的总体均分不能直接比较。**noevent／method 共同成功的68题**结果为：
 
-该快照媒体已就绪 **135/141**，其余继续上传；noevent 当前8个视频运行、6个等待媒体，完成可执行队列后进入 method。base 未评分题不计入待执行范围，完整历史 base 结果保留在 base 分支。
+| 同题题数 | noevent／100 | method／100 | method − noevent |
+|---:|---:|---:|---:|
+| 68 | 32.60 | 62.13 | +29.53 |
 
-[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [范围切换核验](experiments/zyf/results/three_level_full558_gemini38_20260922/scope_change.md)。缺失不计零分，历史路由版60.24分单独保留。
+这是成功评分的交集，未经随机抽样，不能据此推断全集提升。noevent 尚缺363题，method 尚缺461题，原因保留在逐题报告。141个视频已全部传输并核验；当前无在途任务或待首次评分，已失败请求保留原预算。
+
+[全集报告与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [队列结束审计与68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ## method 分支：完整事件流检索方法
@@ -38,7 +42,7 @@ base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 �
 
 ## noevent 分支：时间窗口消融
 
-本分支用于隔离事件图贡献。已实现窗口级感知记录、窗口级 BM25／Embedding 双路检索和独立 answer CLI；输出不包含事件、状态、关系或跨窗口连续性字段。当前与 `method` 使用同一感知模型、采样、题单、GPT-6、Embedding 和评分器进行全集独立评测，方案与公平性约束见[消融方案](experiments/zyf/noevent_plan.md)。
+本分支用于隔离事件图贡献。已实现窗口级感知记录、窗口级 BM25／Embedding 双路检索和独立 answer CLI；输出不包含事件、状态、关系或跨窗口连续性字段。本轮与 `method` 使用同一感知模型、采样、题单、GPT-6、Embedding 和评分器进行独立评测，方案与公平性约束见[消融方案](experiments/zyf/noevent_plan.md)。
 
 ```mermaid
 flowchart TD
@@ -181,7 +185,7 @@ python -m experiments.zyf.launch_blackai --help
 
 更多说明：[方法文档](methods/longemo/README.md) · [实验记录](experiments/zyf/README.md) · [研究计划](experiments/zyf/plan.md)。下文保留原 benchmark 的数据、预测与评测使用说明。
 
-全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，已接续 noevent 全集，视频继续后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
+本轮全集范围的可执行队列与媒体传输均已结束，未评分题保留失败归因。[队列结束审计](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md) · [历史启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
 
 ## Benchmark setup
 
