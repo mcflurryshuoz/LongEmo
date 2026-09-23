@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T03:58:19.459694+00:00",
+  "as_of": "2026-09-23T04:29:54.137993+00:00",
   "condition": "noevent",
   "status": "running",
   "coverage_complete": false,
@@ -13,9 +13,9 @@
   ],
   "conditions": {
     "noevent": {
-      "scored": 203,
+      "scored": 229,
       "total": 558,
-      "mean_scored": 26.477832512315267
+      "mean_scored": 25.7278020378457
     },
     "method": {
       "scored": 97,
@@ -77,14 +77,53 @@
     "runtime24": {
       "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
       "configuration_sha256": "498f1912586ecfe1bc453387f1a1eef42aa85107dad1cfa72ed7ed8e570c406f",
-      "accepted_first_scores": 6,
+      "accepted_first_scores": 28,
       "accepted_ids": [
         "G2_Q000003",
         "G2_Q000004",
+        "G2_Q000121",
+        "G2_Q000122",
+        "G2_Q000254",
+        "G2_Q000255",
+        "G2_Q000256",
+        "G2_Q000257",
+        "G2_Q000258",
+        "G2_Q000278",
+        "G2_Q000279",
+        "G2_Q000280",
+        "G2_Q000281",
+        "G2_Q000286",
+        "G2_Q000287",
+        "G2_Q000288",
+        "G2_Q000289",
+        "G2_Q000290",
+        "G2_Q000291",
+        "G2_Q000292",
         "G2_Q000304",
         "G2_Q000305",
         "G2_Q000306",
-        "G2_Q000307"
+        "G2_Q000307",
+        "G2_Q000497",
+        "G2_Q000498",
+        "G2_Q000499",
+        "G2_Q000500"
+      ]
+    },
+    "v31_seed": {
+      "run": "/root/longemo/runtime/runs/noevent_v31_seed_continuation_20260923",
+      "configuration_sha256": "96a669e7182a51bc6b3a20a6e3e5d17fca2cd39d54e9f14cf9e2b9df756c0973",
+      "accepted_first_scores": 0,
+      "accepted_ids": []
+    },
+    "length5": {
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "configuration_sha256": "58edcda4a824fdcb8c038181343d7fb47a5da58f93d60f53aec8436a4219e495",
+      "accepted_first_scores": 4,
+      "accepted_ids": [
+        "G2_Q000514",
+        "G2_Q000515",
+        "G2_Q000516",
+        "G2_Q000517"
       ]
     }
   },
@@ -108,30 +147,77 @@
     },
     "remote_checks_passed": 23,
     "tasks": {
-      "answer:ok": 2,
-      "score:ok": 2,
-      "build:ok": 2,
-      "build:running": 12,
-      "build:error": 3
+      "answer:ok": 8,
+      "score:ok": 7,
+      "score:error": 1,
+      "build:error": 14,
+      "build:ok": 8,
+      "build:running": 2
     },
     "pipelines": {
-      "running": 12,
-      "complete": 2,
-      "build_failed": 3
+      "build_failed": 14,
+      "complete": 7,
+      "partial": 1,
+      "running": 2
     },
-    "accepted_first_scores": 6,
+    "accepted_first_scores": 28,
     "api_requests_observed": true,
     "startup_observation": {
       "observed_at": "2026-09-23T11:54:19+08:00",
       "new_visual_call_records": 9,
       "private_response_records": 12
     },
-    "observed_at": "2026-09-23T03:58:19.459694+00:00"
+    "observed_at": "2026-09-23T04:29:54.137993+00:00",
+    "profile": {
+      "model": "gpt-6-astra",
+      "audio_model": "gemini-3.8-flash",
+      "embedding_model": "google/gemini-embedding-2",
+      "window_seconds": 20,
+      "padding": 2,
+      "fps": 1,
+      "max_frames": 24,
+      "max_pixels": 200704,
+      "evidence_chars": 48000,
+      "stage_tries": {
+        "build": 3,
+        "plan": 3,
+        "answer": 3,
+        "score": 1
+      },
+      "visual": {
+        "model": "gemini-3.8-flash",
+        "max_tokens": 8192
+      }
+    },
+    "latest_failure_evidence": {
+      "G2_V000101": {
+        "completed_windows": 63,
+        "total_windows": 75,
+        "failed_stage": "audio",
+        "failed_window": "W00064",
+        "attempts": [
+          {
+            "attempt": 1,
+            "category": "output_validation_failed"
+          },
+          {
+            "attempt": 2,
+            "category": "output_validation_failed"
+          },
+          {
+            "attempt": 3,
+            "category": "http_error",
+            "http_status": 500
+          }
+        ],
+        "restarted": false
+      }
+    }
   },
   "v31_seed": {
     "video_id": "G2_V000031",
     "excluded_from_runtime24": true,
-    "status": "running",
+    "status": "build_failed",
     "diagnostic": {
       "summary": {
         "schema_version": 1,
@@ -158,28 +244,35 @@
       },
       "summary_sha256": "afcd3e7009855b6e31d3708c3b1fb3cf1654350dc5b87f7e128db8ee81eebe12"
     },
-    "note": "validated W26 imported once; actual ledger resumes at audio W27",
+    "note": "Validated W26 imported once; build continued through 45/60 windows and stopped at audio W46 on explicit content_filter. No restart.",
     "run": "/root/longemo/runtime/runs/noevent_v31_seed_continuation_20260923",
     "configuration_sha256": "96a669e7182a51bc6b3a20a6e3e5d17fca2cd39d54e9f14cf9e2b9df756c0973",
     "launch": {
       "pid": 366226,
       "start_ticks": "7591517",
-      "started_unix": 1790135829.2772467,
-      "log": "/root/longemo/runtime/diagnostics/noevent_resume_20260923/v31_seed_coordinator.log"
+      "started_unix": 1790135829.2772467
     },
     "questions": 3,
     "video_concurrency_limit": 1,
     "accepted_first_scores": 0,
     "pipelines": {
-      "running": 1
+      "build_failed": 1
     },
     "tasks": {
-      "build:running": 1
+      "build:error": 1
     },
     "seed_execution_sha256": "d00778d230636e712620285743f16b2fefcdf19b42086170a8f503275f7c7032",
     "seed_provenance_sha256": "4aff71ce73bfc69e22b9d9d254e6a09e3301e9ca60cae06ead8017e45cd1f497",
     "seeded_visual_window": "W00026",
-    "observed_next_request": "audio:W00027"
+    "observed_next_request": "audio:W00027",
+    "failure_evidence": {
+      "completed_windows": 45,
+      "total_windows": 60,
+      "failed_stage": "audio",
+      "failed_window": "W00046",
+      "category": "content_filter",
+      "restarted": false
+    }
   },
   "http_428_diagnosis": {
     "G2_V000034": {
@@ -303,13 +396,18 @@
     "as_of": "2026-09-23T03:53:14.827349+00:00",
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
-    "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c"
+    "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
+    "current_as_of": "2026-09-23T04:29:54.137993+00:00",
+    "current_snapshot_sha256": "6ae0f6e7de09ea94b5ed1c1f2f86ea5a3749d3f13e2b98f91f6e765898f6d582",
+    "current_snapshot_name": "live_length5_first4_1230_download.json"
   },
   "notes": [
-    "No original scores were redrawn; initial report remains unchanged.",
+    "All original 195 first-score SHA values and 8 later rows published at 11:58 remain unchanged; this snapshot adds 22 runtime24 and 4 length5 first scores.",
+    "Current 229 scored questions mix visual output budgets: 225 from original 8192-token runs and 4 V130 questions from the separate length5 run, retaining inherited 8192-token windows and new 16384-token windows.",
+    "All four V130 first scores are zero; they are preserved without redrawing.",
     "Overall means cover different successful question sets and must not be directly compared.",
-    "No private response bodies, credentials, raw predictions or question text are exported.",
-    "793 inherited windows and active request counts do not establish new completed video memories."
+    "The initial 68-question comparison is retained as history, without adding any later scores.",
+    "No private response bodies, credentials, raw predictions or question text are exported."
   ],
   "protected_original_first_scores": {
     "G2_Q000311": "63083f2575234c11df4a5280618079588625d6823e7846dc23d48781ab900e08",
@@ -565,6 +663,258 @@
       "accepted_sha256": "743afe1a3b25a1fde1ca4484c52860f88b535cf6035dc9bc65cfe26bea47facb",
       "prediction_sha256": "2bf175f9655e7bb7357b9f0a7c6051465a5ae701104ffe741b98e852c0e4d460"
     },
+    "G2_Q000121": {
+      "question_id": "G2_Q000121",
+      "video_id": "G2_V000040",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000040/run_20260923_1203/scores.jsonl",
+      "source_sha256": "0cc191866cc4b3a41c72b40116081b25e93888708cd3159fac17258656927981",
+      "accepted_sha256": "0f46e207eca74db061e8e4705970860b018478b840d30a605d3653501740bb88",
+      "prediction_sha256": "74d408dbca6b2d5736b4b0b04fad2fcfb6ecafd7344a6a4c329db1ed31ac9e08"
+    },
+    "G2_Q000122": {
+      "question_id": "G2_Q000122",
+      "video_id": "G2_V000040",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000040/run_20260923_1203/scores.jsonl",
+      "source_sha256": "0cc191866cc4b3a41c72b40116081b25e93888708cd3159fac17258656927981",
+      "accepted_sha256": "d1545a3efac0815aee221dbdd9319963c0106b5b86a0f6a8f4501498d34418f1",
+      "prediction_sha256": "9eb74e8df5df26ab81a2aa951b703935f87ae197a0cfd9be629951218e9faffd"
+    },
+    "G2_Q000254": {
+      "question_id": "G2_Q000254",
+      "video_id": "G2_V000072",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000072/run_20260923_1219/scores.jsonl",
+      "source_sha256": "afcf1cbcb90be519e972c9b8e347ef1cf02f737cc02252718309988336db1ed4",
+      "accepted_sha256": "8dd546651f008048a3bf00c84efc8a38a4cce107ea78812b32d2a85c883ad302",
+      "prediction_sha256": "18482baa04bea9cc49cd2fa874b8b98d6cc17d1d91da437da4c4cf91e6b79334"
+    },
+    "G2_Q000255": {
+      "question_id": "G2_Q000255",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 1,
+      "max_score": 4,
+      "normalized_score": 0.25,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000072/run_20260923_1219/scores.jsonl",
+      "source_sha256": "afcf1cbcb90be519e972c9b8e347ef1cf02f737cc02252718309988336db1ed4",
+      "accepted_sha256": "9773db318ae19e309e74437c466174bbe80d1af56318931a523fbc9f7d65c7b0",
+      "prediction_sha256": "aee08f6c110e0fb05493daf6e626052c4fd5be0212cad9f2428398f756a4a154"
+    },
+    "G2_Q000256": {
+      "question_id": "G2_Q000256",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000072/run_20260923_1219/scores.jsonl",
+      "source_sha256": "afcf1cbcb90be519e972c9b8e347ef1cf02f737cc02252718309988336db1ed4",
+      "accepted_sha256": "94ca0db8d9e3e8d83ddbaba24ea68712175f12af044fd363da72cac873803d1b",
+      "prediction_sha256": "e2d4990dc0ec3d56093f6a0bd5251978bcb527714d64047ee7bc69bb71138393"
+    },
+    "G2_Q000257": {
+      "question_id": "G2_Q000257",
+      "video_id": "G2_V000072",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000072/run_20260923_1219/scores.jsonl",
+      "source_sha256": "afcf1cbcb90be519e972c9b8e347ef1cf02f737cc02252718309988336db1ed4",
+      "accepted_sha256": "1d193c32489d62144db67d9f45beb381259f7282ed33fe162d887e98c31d6987",
+      "prediction_sha256": "cb981d41ceaa0188042b058985d12114ce8e093c0e8c46addf551d63b1945c82"
+    },
+    "G2_Q000258": {
+      "question_id": "G2_Q000258",
+      "video_id": "G2_V000072",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000072/run_20260923_1219/scores.jsonl",
+      "source_sha256": "afcf1cbcb90be519e972c9b8e347ef1cf02f737cc02252718309988336db1ed4",
+      "accepted_sha256": "c15d1b0349cb2f2f3f2837fa7f663aad500728d6282953d4c7da2031265dbec0",
+      "prediction_sha256": "dd237eea1d8bda54984afd9e8ed2ea06dcf53c6119362b70d033e739cdd7c65a"
+    },
+    "G2_Q000278": {
+      "question_id": "G2_Q000278",
+      "video_id": "G2_V000079",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000079/run_20260923_1200/scores.jsonl",
+      "source_sha256": "5fac5d28846b509c385f0fee13731e1861d35b06601585e887f87948e288e15a",
+      "accepted_sha256": "bf83c1b652fd167fd70099fdcb34b9ce15e7073cdd929ed35d40ceb16213aff9",
+      "prediction_sha256": "57bb373b835aaf809c919164fed6a2df5a0995932c11c4ee7f97f9dd740c1aa4"
+    },
+    "G2_Q000279": {
+      "question_id": "G2_Q000279",
+      "video_id": "G2_V000079",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000079/run_20260923_1200/scores.jsonl",
+      "source_sha256": "5fac5d28846b509c385f0fee13731e1861d35b06601585e887f87948e288e15a",
+      "accepted_sha256": "421bc1c4e2a3d0d66cf91f7a65923a5094a3487a20f341284ed31b9d42c70da2",
+      "prediction_sha256": "97d1b0d701cd58c39148d3ba0a89ae8cd13b2b2500a6160267e345f9a8cfd62e"
+    },
+    "G2_Q000280": {
+      "question_id": "G2_Q000280",
+      "video_id": "G2_V000079",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000079/run_20260923_1200/scores.jsonl",
+      "source_sha256": "5fac5d28846b509c385f0fee13731e1861d35b06601585e887f87948e288e15a",
+      "accepted_sha256": "386b1b8f5bcb216671af314a07577c7a87ff9d52babf9b9469bf1fd9d60ce2d5",
+      "prediction_sha256": "34377f67cbb12b57d43ee6c7ce7d45cf51de1dadc748d46ebf7ad219c07cd7fa"
+    },
+    "G2_Q000281": {
+      "question_id": "G2_Q000281",
+      "video_id": "G2_V000079",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000079/run_20260923_1200/scores.jsonl",
+      "source_sha256": "5fac5d28846b509c385f0fee13731e1861d35b06601585e887f87948e288e15a",
+      "accepted_sha256": "31dcb828765d5c073f3b12139b881af68860b799f0252c158018b08bcdbb0cf2",
+      "prediction_sha256": "0c9f0a0ff59f3abb6d2f26d2b6b7cec9c2ee38f062c3e050609929d0a92264e3"
+    },
+    "G2_Q000286": {
+      "question_id": "G2_Q000286",
+      "video_id": "G2_V000081",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000081/run_20260923_1203/scores.jsonl",
+      "source_sha256": "8da477b9aa7f059f78be6dff977d4bfb5532a6c50b13a130c023212d19637bf6",
+      "accepted_sha256": "a3547261927651d4e1574e8f4ff625d8508bbf19a46919c7bc1f0ff8d4f50816",
+      "prediction_sha256": "138152b5e88970fb7e43a1ebaffcf970f3bd3603e25f474e89885ec4d73641bf"
+    },
+    "G2_Q000287": {
+      "question_id": "G2_Q000287",
+      "video_id": "G2_V000081",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000081/run_20260923_1203/scores.jsonl",
+      "source_sha256": "8da477b9aa7f059f78be6dff977d4bfb5532a6c50b13a130c023212d19637bf6",
+      "accepted_sha256": "803ba2dffa1211a15bad892b3dbbcc55b3ac9ce3676d85bb138b0c30b659f53d",
+      "prediction_sha256": "d05838d19107f168432c5603d7415a50ba10935e5c0208554526f2915b12ae3f"
+    },
+    "G2_Q000288": {
+      "question_id": "G2_Q000288",
+      "video_id": "G2_V000081",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 1,
+      "max_score": 4,
+      "normalized_score": 0.25,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000081/run_20260923_1203/scores.jsonl",
+      "source_sha256": "8da477b9aa7f059f78be6dff977d4bfb5532a6c50b13a130c023212d19637bf6",
+      "accepted_sha256": "b2f556431fcc7b1ee47ae432fd2babf8982ab590a1ff6bae8b839ceb95854f60",
+      "prediction_sha256": "9d3b2fc59e66cf37bfdbcbae0c749b74388f68819112c8f844861d7d7110c265"
+    },
+    "G2_Q000289": {
+      "question_id": "G2_Q000289",
+      "video_id": "G2_V000082",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000082/run_20260923_1203/scores.jsonl",
+      "source_sha256": "b9db0a5f098ca829173190fdb0402a1cf3a21e33e6f54c33f3b549775b4da907",
+      "accepted_sha256": "1f73aed7b1591eb98be6048fd2fc512c268ffb9f93a830a0bfc90c29005d89f4",
+      "prediction_sha256": "016def64dcd5f2529f2c9ad989e2aa0b9a3dcceeee76fd5065f60f3c8eaf2c07"
+    },
+    "G2_Q000290": {
+      "question_id": "G2_Q000290",
+      "video_id": "G2_V000082",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000082/run_20260923_1203/scores.jsonl",
+      "source_sha256": "b9db0a5f098ca829173190fdb0402a1cf3a21e33e6f54c33f3b549775b4da907",
+      "accepted_sha256": "9f2df6dc4af34255b88c3936aa2da6f104bd3012c1bd168317982398a92629be",
+      "prediction_sha256": "b90ae2fcab5409a8f5430e9a02a184c03a112d3bf20f07ce6298d012ae0d313e"
+    },
+    "G2_Q000291": {
+      "question_id": "G2_Q000291",
+      "video_id": "G2_V000082",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000082/run_20260923_1203/scores.jsonl",
+      "source_sha256": "b9db0a5f098ca829173190fdb0402a1cf3a21e33e6f54c33f3b549775b4da907",
+      "accepted_sha256": "97dfc0237546e4711bf0d12b55b8465f455767ea0239f37495e7cfe04c404dda",
+      "prediction_sha256": "ca234806d6ffa5b4bb4ab17b56ef57319319068dbb4eb3b3cda3bf21fd1c6372"
+    },
+    "G2_Q000292": {
+      "question_id": "G2_Q000292",
+      "video_id": "G2_V000082",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000082/run_20260923_1203/scores.jsonl",
+      "source_sha256": "b9db0a5f098ca829173190fdb0402a1cf3a21e33e6f54c33f3b549775b4da907",
+      "accepted_sha256": "c07a06ac692e14facf6dfa897f5fe87a13e4b2cbc15b4f415c7b7c9f9f921261",
+      "prediction_sha256": "6e0533c5fdf2bad5437a7bf17c80a16eb8d477bf3b6dc7d3b0edfc0efab30889"
+    },
     "G2_Q000304": {
       "question_id": "G2_Q000304",
       "video_id": "G2_V000085",
@@ -620,11 +970,261 @@
       "source_sha256": "fc1e41168fd8e96da90cd1340b8d146ab30f8a5e08d9897b78fce5b70c03c442",
       "accepted_sha256": "ae8bc43a6cba2e066f1c31ae6e9804c576c7461806459c3bf9496b093172b73d",
       "prediction_sha256": "a75dc4754e24d12aa22696ea1e292ae6f0e97302619ae7d0cef98f4b5f714ec0"
+    },
+    "G2_Q000497": {
+      "question_id": "G2_Q000497",
+      "video_id": "G2_V000126",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000126/run_20260923_1221/scores.jsonl",
+      "source_sha256": "3c6ea37ed0eab16464f6e6846286cf0ad3d5dfc00e9552ad4e8e9ffaf0c7ba9c",
+      "accepted_sha256": "c1856d696f8c737235cd41ca7377ef396bcc8c18791331dacada2aec66265a21",
+      "prediction_sha256": "6620e4b1184dc7684ce7c537309724631676c0c512f7630ad3a695c21eb5dc76"
+    },
+    "G2_Q000498": {
+      "question_id": "G2_Q000498",
+      "video_id": "G2_V000126",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000126/run_20260923_1221/scores.jsonl",
+      "source_sha256": "3c6ea37ed0eab16464f6e6846286cf0ad3d5dfc00e9552ad4e8e9ffaf0c7ba9c",
+      "accepted_sha256": "a62e2629e0b8db1edba05fac06ec1c0b673f20292fbcb4195673bf26d298a69c",
+      "prediction_sha256": "976ac341bd2f81976d7edaf03ec900db7cd2962e59c58791edf487db769d20d1"
+    },
+    "G2_Q000499": {
+      "question_id": "G2_Q000499",
+      "video_id": "G2_V000126",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 3,
+      "max_score": 3,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000126/run_20260923_1221/scores.jsonl",
+      "source_sha256": "3c6ea37ed0eab16464f6e6846286cf0ad3d5dfc00e9552ad4e8e9ffaf0c7ba9c",
+      "accepted_sha256": "b7adc68e3b3a3f065893dc4b1c94dd81cf93a30007056d975704f94f5e879e02",
+      "prediction_sha256": "23303129fa131031d94a9e8c345c857eec30399aaae6e6b48d80569b565d2041"
+    },
+    "G2_Q000500": {
+      "question_id": "G2_Q000500",
+      "video_id": "G2_V000126",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/scores/noevent/G2_V000126/run_20260923_1221/scores.jsonl",
+      "source_sha256": "3c6ea37ed0eab16464f6e6846286cf0ad3d5dfc00e9552ad4e8e9ffaf0c7ba9c",
+      "accepted_sha256": "21f36a215f9ab3b61a7fa3a1b178aaf257edacbf82b1c5abfed71c1a6c14aa47",
+      "prediction_sha256": "7b20b1df2e99c217011fbbd5e55c650e494b1cd61e7cb629a431c77e5857b89d"
+    },
+    "G2_Q000514": {
+      "question_id": "G2_Q000514",
+      "video_id": "G2_V000130",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000130/run_20260923_1228/scores.jsonl",
+      "source_sha256": "5425d352d5729bfa1eec61ebe5f04346b6d0fd78d247787ed6fd0e28e47f8ea3",
+      "accepted_sha256": "57c1edbaaef485a4a6448ebc1dd02248b02134cd4b07deeb19e86f21ea35a875",
+      "prediction_sha256": "8ae430ec5367bdc8e341842be93a114a2f078424e732591fde1eb908d8cdb840"
+    },
+    "G2_Q000515": {
+      "question_id": "G2_Q000515",
+      "video_id": "G2_V000130",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000130/run_20260923_1228/scores.jsonl",
+      "source_sha256": "5425d352d5729bfa1eec61ebe5f04346b6d0fd78d247787ed6fd0e28e47f8ea3",
+      "accepted_sha256": "6d1dee7b83f9b3078dffa794498ca16aa4e3895fc6d4e302ffe7244e48e929b9",
+      "prediction_sha256": "1122c1831160f4dd6880d28630dec85fb5d4817c60b46d50264e0481098020c1"
+    },
+    "G2_Q000516": {
+      "question_id": "G2_Q000516",
+      "video_id": "G2_V000130",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000130/run_20260923_1228/scores.jsonl",
+      "source_sha256": "5425d352d5729bfa1eec61ebe5f04346b6d0fd78d247787ed6fd0e28e47f8ea3",
+      "accepted_sha256": "33684d7094d63aeb585ecba08ce8575c4bee8920e82f1ed5fcb8373450a54ffc",
+      "prediction_sha256": "e851c44cb20ed733a02e1e1222b463d66c39394bb7cfc3e5af58251596604b6d"
+    },
+    "G2_Q000517": {
+      "question_id": "G2_Q000517",
+      "video_id": "G2_V000130",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/scores/noevent/G2_V000130/run_20260923_1228/scores.jsonl",
+      "source_sha256": "5425d352d5729bfa1eec61ebe5f04346b6d0fd78d247787ed6fd0e28e47f8ea3",
+      "accepted_sha256": "90c2f4d35ade0cd434c6d10bffa922cbc3c5fb1b3eb1954a05cb101d4df7060e",
+      "prediction_sha256": "f9ac1a166b8fa8d49d699f976b3bb42431326b4fd5a9e3c116481a96803cbc9a"
     }
   },
   "execution_concurrency": {
-    "runtime24": 12,
-    "v31_seed": 1,
-    "maximum_total_videos": 13
+    "runtime24_limit": 12,
+    "runtime24_running": 2,
+    "v31_seed_running": 0,
+    "length5_limit": 5,
+    "length5_running": 4,
+    "configured_maximum_total_videos": 17,
+    "observed_running_videos": 6,
+    "questions_per_video": 2
+  },
+  "perception_budget_scope": {
+    "current_scored_visual_max_tokens": [
+      8192,
+      16384
+    ],
+    "current_scored_is_mixed_visual_budget": true,
+    "original_budget_scored": 225,
+    "length5_scored": 4,
+    "length5_inherited_visual_max_tokens": 8192,
+    "length5_new_visual_max_tokens": 16384,
+    "length5_question_ids": [
+      "G2_Q000514",
+      "G2_Q000515",
+      "G2_Q000516",
+      "G2_Q000517"
+    ],
+    "interpretation": "225 questions use the original 8192-token visual output budget; 4 V130 questions use a memory retaining inherited 8192-token windows and resuming remaining windows with a 16384-token limit. This aggregate is not a uniform-budget ablation result."
+  },
+  "estimated_current_queue_completion": {
+    "date": "2026-09-23",
+    "timezone": "Asia/Shanghai",
+    "earliest": "13:15",
+    "latest": "13:45",
+    "scope": "currently executable batches only, not all 558 questions",
+    "estimated_at": "2026-09-23T04:29:54.137993+00:00",
+    "conditional_on": "API throughput and no additional external blocking"
+  },
+  "length5": {
+    "schema_version": 1,
+    "observed_at": "2026-09-23T04:29:54.137993+00:00",
+    "started_at": "2026-09-23T12:27:16+08:00",
+    "status": "running",
+    "run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+    "staging": "/root/longemo/runtime/staging/length5_deploy_20260923_122602",
+    "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081",
+    "configuration_sha256": "58edcda4a824fdcb8c038181343d7fb47a5da58f93d60f53aec8436a4219e495",
+    "launch": {
+      "pid": 470828,
+      "start_ticks": "7772239",
+      "started_unix": 1790137636.4900577,
+      "configuration_sha256": "58edcda4a824fdcb8c038181343d7fb47a5da58f93d60f53aec8436a4219e495"
+    },
+    "selected_videos": [
+      "G2_V000015",
+      "G2_V000091",
+      "G2_V000096",
+      "G2_V000113",
+      "G2_V000130"
+    ],
+    "selected_question_ids": [
+      "G2_Q000036",
+      "G2_Q000037",
+      "G2_Q000038",
+      "G2_Q000039",
+      "G2_Q000040",
+      "G2_Q000331",
+      "G2_Q000332",
+      "G2_Q000333",
+      "G2_Q000334",
+      "G2_Q000335",
+      "G2_Q000354",
+      "G2_Q000355",
+      "G2_Q000432",
+      "G2_Q000433",
+      "G2_Q000434",
+      "G2_Q000435",
+      "G2_Q000436",
+      "G2_Q000437",
+      "G2_Q000514",
+      "G2_Q000515",
+      "G2_Q000516",
+      "G2_Q000517"
+    ],
+    "videos": 5,
+    "questions": 22,
+    "completed_windows_preserved": 168,
+    "video_concurrency_limit": 5,
+    "questions_per_video": 2,
+    "visual_max_tokens_before": 8192,
+    "visual_max_tokens_after": 16384,
+    "profile": {
+      "model": "gpt-6-astra",
+      "audio_model": "gemini-3.8-flash",
+      "embedding_model": "google/gemini-embedding-2",
+      "window_seconds": 20,
+      "padding": 2,
+      "fps": 1,
+      "max_frames": 24,
+      "max_pixels": 200704,
+      "evidence_chars": 48000,
+      "stage_tries": {
+        "build": 3,
+        "plan": 3,
+        "answer": 3,
+        "score": 1
+      },
+      "visual": {
+        "model": "gemini-3.8-flash",
+        "max_tokens": 16384
+      }
+    },
+    "source": {
+      "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "source_configuration_sha256": "498f1912586ecfe1bc453387f1a1eef42aa85107dad1cfa72ed7ed8e570c406f",
+      "driver_sha256": "0ff112b61676fc9341d520e1f0d5132bed26df163fa9651567eb16eca6138081"
+    },
+    "api_requests_observed": 5,
+    "pipelines": {
+      "complete": 1,
+      "running": 4
+    },
+    "accepted_first_scores": 4,
+    "validation": {
+      "local_tests_passed": 29,
+      "remote_tests_passed": 29
+    },
+    "first_score_protection": {
+      "original_scores": 195,
+      "previously_published_later_scores": 8,
+      "all_preserved": true
+    },
+    "comparison_scope": "229 current scores combine 225 original-budget questions with 4 V130 length5 questions. Preserve inherited 8192-token and new 16384-token windows and all per-question first-score sources.",
+    "snapshot_sha256": "6ae0f6e7de09ea94b5ed1c1f2f86ea5a3749d3f13e2b98f91f6e765898f6d582",
+    "startup_observed_at": "2026-09-23T04:27:31.676878+00:00",
+    "accepted_question_ids": [
+      "G2_Q000514",
+      "G2_Q000515",
+      "G2_Q000516",
+      "G2_Q000517"
+    ],
+    "first_completed_video": "G2_V000130",
+    "first_scores_observed_at": "2026-09-23T04:29:54.137993+00:00"
   }
 }
