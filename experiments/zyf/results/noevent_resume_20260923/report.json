@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T08:08:22.563382+00:00",
+  "as_of": "2026-09-23T08:37:45.096488+00:00",
   "condition": "noevent",
   "status": "running_fixed_core_boundary3",
   "coverage_complete": false,
@@ -13,9 +13,9 @@
   ],
   "conditions": {
     "noevent": {
-      "scored": 250,
+      "scored": 253,
       "total": 558,
-      "mean_scored": 25.033333333333324
+      "mean_scored": 25.03293807641633
     },
     "method": {
       "scored": 97,
@@ -184,6 +184,16 @@
         "G2_Q000442",
         "G2_Q000443",
         "G2_Q000444"
+      ]
+    },
+    "core_boundary3": {
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5",
+      "accepted_first_scores": 3,
+      "accepted_ids": [
+        "G2_Q000268",
+        "G2_Q000269",
+        "G2_Q000270"
       ]
     }
   },
@@ -455,9 +465,9 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T08:30:36.504752+00:00",
-    "current_snapshot_sha256": "075fb24b0b173478d6e290a93a40e33948c27ad6b2ba30509a125f2a3513224c",
-    "current_snapshot_name": "live_core_boundary_start_1630.json"
+    "current_as_of": "2026-09-23T08:37:45.096488+00:00",
+    "current_snapshot_sha256": "ba43b6a4cbc7dd1a02b4d1856808ab2eb9534f9c000aedcef66b9d1f800eae35",
+    "current_snapshot_name": "live_core_boundary_first3_1637.json"
   },
   "notes": [
     "All243 previously published first scores and provenance are unchanged. V114 adds seven first scores: Q443=1/4, the other six=0.",
@@ -468,7 +478,8 @@
     "Explicit rejections and prior failed judgments remain immutable; no low-score redraws.",
     "The initial68 successful-question comparison is unchanged and is not a full-benchmark result.",
     "No credentials, raw predictions or private response bodies are exported.",
-    "16:28启动固定3视频12题的独立边界恢复：各删除一条只在上下文或核心终点的观察以及依赖它的完整情绪记录，不移动时间戳；原校验器通过后离线导入。该预处理差异单独记录，后续窗口仍用冻结core。250首分未变。"
+    "16:28启动固定3视频12题的独立边界恢复：各删除一条只在上下文或核心终点的观察以及依赖它的完整情绪记录，不移动时间戳；原校验器通过后离线导入。该预处理差异单独记录，后续窗口仍用冻结core。250首分未变。",
+    "16:37 V75完成65窗及3条官方首分；Q268=0/1、Q269=1/4、Q270=2/4。V51/V124仍运行，原250首分与来源不变。"
   ],
   "protected_original_first_scores": {
     "G2_Q000311": "63083f2575234c11df4a5280618079588625d6823e7846dc23d48781ab900e08",
@@ -1437,6 +1448,48 @@
       "source_sha256": "1480142ba43422017aec781a476fd98b9b0b9bcf1ee18e58adba79474def7fb7",
       "accepted_sha256": "4ab4ef7ee655070e985c4d38701438f89733ebd1f7287f327d5e57ee274b126e",
       "prediction_sha256": "3a1ccae256ae088d0fd158a95f12463ca0d63cb1de5d3b5b41ffdae35e125fc6"
+    },
+    "G2_Q000268": {
+      "question_id": "G2_Q000268",
+      "video_id": "G2_V000075",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000075/run_20260923_1636/scores.jsonl",
+      "source_sha256": "b714760357f973e096120ec83a9823b4056e55ca8e076c9e477797c6ef4964ff",
+      "accepted_sha256": "d53daa10f0e6d062911f9e36178a3d84fdbc1c2a7c586f9d30caef9666ad3cfc",
+      "prediction_sha256": "5f4ce17e4831fe5e3c28f44176eb5b6bddc2ee6f9c5672138935f097a049bf2c"
+    },
+    "G2_Q000269": {
+      "question_id": "G2_Q000269",
+      "video_id": "G2_V000075",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 1,
+      "max_score": 4,
+      "normalized_score": 0.25,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000075/run_20260923_1636/scores.jsonl",
+      "source_sha256": "b714760357f973e096120ec83a9823b4056e55ca8e076c9e477797c6ef4964ff",
+      "accepted_sha256": "aefb8c21fba8d5e3874c8bc8c31726e7a0a4377748c743a9bdc546137d38f01c",
+      "prediction_sha256": "883bb59855b1f6849f814423d94bb5dd6e22db7309fa1102a60a7fd61b4beca3"
+    },
+    "G2_Q000270": {
+      "question_id": "G2_Q000270",
+      "video_id": "G2_V000075",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000075/run_20260923_1636/scores.jsonl",
+      "source_sha256": "b714760357f973e096120ec83a9823b4056e55ca8e076c9e477797c6ef4964ff",
+      "accepted_sha256": "9b50d8e38a8be6302d4677bf01aebd0aac66c7dbfd363f2d77b12273ad0fd0fe",
+      "prediction_sha256": "01f2afa4b53927e3e9caadd86171f934d989e80a8c7869bf6571ca4723c1f008"
     }
   },
   "execution_concurrency": {
@@ -1445,13 +1498,14 @@
     "length5_running": 0,
     "length2_running": 0,
     "v101_running": 0,
-    "observed_running_videos": 3,
+    "observed_running_videos": 2,
     "audio429_recovery_status": "all_three_ended",
     "audio429_running": 0,
     "question_workers_per_video": 2,
     "audio429_build_failed": 3,
     "v114_length_running": 0,
-    "core_boundary_running": 3
+    "core_boundary_running": 2,
+    "core_boundary_complete": 1
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1459,7 +1513,7 @@
       16384
     ],
     "current_scored_is_mixed_visual_budget": true,
-    "original_budget_scored": 230,
+    "original_budget_scored": 233,
     "length5_scored": 8,
     "length2_scored": 5,
     "length5_inherited_visual_max_tokens": 8192,
@@ -1474,7 +1528,7 @@
       "G2_Q000516",
       "G2_Q000517"
     ],
-    "interpretation": "230 questions from8192 visual-budget runs;20 questions inherit8192 windows then use16384. This is a mixed-budget aggregate.",
+    "interpretation": "230 unchanged 8192-budget sources, 20 sources continuing with16384, and3 sources with8192 plus a deletion-only core-ownership seed. Mixed budget and preprocessing; retain per-question provenance.",
     "length2_question_ids": [
       "G2_Q000545",
       "G2_Q000546",
@@ -1491,6 +1545,12 @@
       "G2_Q000442",
       "G2_Q000443",
       "G2_Q000444"
+    ],
+    "core_boundary_scored": 3,
+    "core_boundary_question_ids": [
+      "G2_Q000268",
+      "G2_Q000269",
+      "G2_Q000270"
     ]
   },
   "length5": {
@@ -1762,19 +1822,15 @@
     "note": "The V26 run has no generic finished marker (false in the raw audit), but both successful answers have accepted official judgments; it is not treated as active from that marker alone."
   },
   "first_score_preservation": {
-    "previous_report_sha256": "8af34a2bd7e74e7e150c9cbb9c9145dc6143bfbcd386211aa7ca64fcc0390933",
-    "previous_scored": 243,
+    "previous_report_sha256": "4a6b5db2677d7364518ed19202b0b327db34ca24e5e634051c272890a62301a3",
+    "previous_scored": 250,
     "unchanged_original_score_hashes": 195,
-    "unchanged_later_score_records": 48,
-    "new_count": 7,
+    "unchanged_later_score_records": 55,
+    "new_count": 3,
     "new_question_ids": [
-      "G2_Q000438",
-      "G2_Q000439",
-      "G2_Q000440",
-      "G2_Q000441",
-      "G2_Q000442",
-      "G2_Q000443",
-      "G2_Q000444"
+      "G2_Q000268",
+      "G2_Q000269",
+      "G2_Q000270"
     ]
   },
   "length2_end_audit": {
@@ -1836,7 +1892,7 @@
     "new_accepted_first_scores": 0,
     "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
   },
-  "execution_as_of": "2026-09-23T08:30:36.846125+00:00",
+  "execution_as_of": "2026-09-23T08:37:45.423328+00:00",
   "v101_continuation": {
     "as_of": "2026-09-23T14:25:23.393933+08:00",
     "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
@@ -2016,7 +2072,7 @@
     "policy": "Assess an explicit finite independent recovery without resetting the exhausted original attempt budget. Do not infer purchased credit balance or content filtering from upstream RESOURCE_EXHAUSTED.",
     "new_api_requests_scope": "one diagnostic HTTP request per case; subsequent builder calls separately recorded"
   },
-  "remaining_unscored": 308,
+  "remaining_unscored": 305,
   "audio429_continuation": {
     "schema_version": 1,
     "as_of": "2026-09-23T07:48:46.612360+00:00",
@@ -4350,7 +4406,7 @@
   },
   "core_boundary_continuation": {
     "schema_version": 1,
-    "as_of": "2026-09-23T08:30:36.846125+00:00",
+    "as_of": "2026-09-23T08:37:45.423328+00:00",
     "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
     "staging": "/root/longemo/runtime/staging/core_boundary_20260923_162640",
     "driver_sha256": "45a58717ede0d690aff1f579b777b05c85a42f7eb1af4b1a6b133c1ba5aaba5e",
@@ -4384,7 +4440,7 @@
     "workers": 3,
     "question_workers": 2,
     "protected_first_scores": 250,
-    "accepted_first_scores": 0,
+    "accepted_first_scores": 3,
     "videos": {
       "G2_V000051": {
         "window": "W00044",
@@ -4396,12 +4452,17 @@
           "retained_observations": 5
         },
         "seed_receipt_sha256": "b0a59dc8ea6b8e9ca68ae847cb43c8bdc387fb93318ea1c87d24c17d22caab18",
-        "completed_windows": 45,
+        "completed_windows": 57,
         "total_windows": 67,
         "build_task_status": "running",
         "child_identity_alive": true,
-        "recorded_new_calls": 4,
-        "seed_window_reissued_calls": 0
+        "recorded_new_calls": 30,
+        "seed_window_reissued_calls": 0,
+        "pipeline": {
+          "status": "running",
+          "video_id": "G2_V000051"
+        },
+        "first_scores": {}
       },
       "G2_V000075": {
         "window": "W00056",
@@ -4413,12 +4474,35 @@
           "retained_observations": 6
         },
         "seed_receipt_sha256": "1a7f3df2ce081a5fc947d2990bfe78bcda5ffcd6815d6227643ede8db46313f9",
-        "completed_windows": 57,
+        "completed_windows": 65,
         "total_windows": 65,
-        "build_task_status": "running",
-        "child_identity_alive": true,
-        "recorded_new_calls": 3,
-        "seed_window_reissued_calls": 0
+        "build_task_status": "ok",
+        "child_identity_alive": false,
+        "recorded_new_calls": 21,
+        "seed_window_reissued_calls": 0,
+        "pipeline": {
+          "status": "complete",
+          "scored": 3,
+          "questions": 3,
+          "answer_task": "ok"
+        },
+        "first_scores": {
+          "G2_Q000268": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000269": {
+            "score": 1,
+            "max_score": 4,
+            "normalized_score": 0.25
+          },
+          "G2_Q000270": {
+            "score": 2,
+            "max_score": 4,
+            "normalized_score": 0.5
+          }
+        }
       },
       "G2_V000124": {
         "window": "W00035",
@@ -4430,12 +4514,17 @@
           "retained_observations": 8
         },
         "seed_receipt_sha256": "e6ce389bf736b894f9d12d38c27381023b7693cf8ec5a74848bddf7d0ba35e78",
-        "completed_windows": 37,
+        "completed_windows": 47,
         "total_windows": 62,
         "build_task_status": "running",
         "child_identity_alive": true,
-        "recorded_new_calls": 4,
-        "seed_window_reissued_calls": 0
+        "recorded_new_calls": 29,
+        "seed_window_reissued_calls": 0,
+        "pipeline": {
+          "status": "running",
+          "video_id": "G2_V000124"
+        },
+        "first_scores": {}
       }
     },
     "tests": {
@@ -4444,6 +4533,6 @@
       "core_files_unchanged": 1053
     },
     "policy": "Only offline deletion of one context-only observation in each final response; drop entire dependent emotion cues. No timestamp edits, same original validator. These seed windows are not reissued; all later windows use unchanged frozen core and original 8192 visual budget. One build task per video; no outer retry.",
-    "snapshot_sha256": "075fb24b0b173478d6e290a93a40e33948c27ad6b2ba30509a125f2a3513224c"
+    "snapshot_sha256": "ba43b6a4cbc7dd1a02b4d1856808ab2eb9534f9c000aedcef66b9d1f800eae35"
   }
 }

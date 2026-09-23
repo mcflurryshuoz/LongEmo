@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-23T08:37:45.423328+00:00",
+  "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+  "staging": "/root/longemo/runtime/staging/core_boundary_20260923_162640",
+  "driver_sha256": "45a58717ede0d690aff1f579b777b05c85a42f7eb1af4b1a6b133c1ba5aaba5e",
+  "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5",
+  "boundary_execution_sha256": "8f4bd2ab051b373c614d84fe95616ad8ec37ef59b43a28b7fa691ba6fd203df4",
+  "selection": [
+    "G2_Q000165",
+    "G2_Q000166",
+    "G2_Q000167",
+    "G2_Q000168",
+    "G2_Q000268",
+    "G2_Q000269",
+    "G2_Q000270",
+    "G2_Q000487",
+    "G2_Q000488",
+    "G2_Q000489",
+    "G2_Q000490",
+    "G2_Q000491"
+  ],
+  "launch": {
+    "pid": 253085,
+    "start_ticks": "9222195",
+    "started_unix": 1790152136.1435924,
+    "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+    "workers": 3,
+    "question_workers": 2,
+    "selected_questions": 12,
+    "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5"
+  },
+  "identity_alive": true,
+  "workers": 3,
+  "question_workers": 2,
+  "protected_first_scores": 250,
+  "accepted_first_scores": 3,
+  "videos": {
+    "G2_V000051": {
+      "window": "W00044",
+      "seed": {
+        "removed_observation_ids": [
+          "o6"
+        ],
+        "removed_emotion_cues": 0,
+        "retained_observations": 5
+      },
+      "seed_receipt_sha256": "b0a59dc8ea6b8e9ca68ae847cb43c8bdc387fb93318ea1c87d24c17d22caab18",
+      "completed_windows": 57,
+      "total_windows": 67,
+      "build_task_status": "running",
+      "child_identity_alive": true,
+      "recorded_new_calls": 30,
+      "seed_window_reissued_calls": 0,
+      "pipeline": {
+        "status": "running",
+        "video_id": "G2_V000051"
+      },
+      "first_scores": {}
+    },
+    "G2_V000075": {
+      "window": "W00056",
+      "seed": {
+        "removed_observation_ids": [
+          "o7"
+        ],
+        "removed_emotion_cues": 1,
+        "retained_observations": 6
+      },
+      "seed_receipt_sha256": "1a7f3df2ce081a5fc947d2990bfe78bcda5ffcd6815d6227643ede8db46313f9",
+      "completed_windows": 65,
+      "total_windows": 65,
+      "build_task_status": "ok",
+      "child_identity_alive": false,
+      "recorded_new_calls": 21,
+      "seed_window_reissued_calls": 0,
+      "pipeline": {
+        "status": "complete",
+        "scored": 3,
+        "questions": 3,
+        "answer_task": "ok"
+      },
+      "first_scores": {
+        "G2_Q000268": {
+          "score": 0,
+          "max_score": 1,
+          "normalized_score": 0.0
+        },
+        "G2_Q000269": {
+          "score": 1,
+          "max_score": 4,
+          "normalized_score": 0.25
+        },
+        "G2_Q000270": {
+          "score": 2,
+          "max_score": 4,
+          "normalized_score": 0.5
+        }
+      }
+    },
+    "G2_V000124": {
+      "window": "W00035",
+      "seed": {
+        "removed_observation_ids": [
+          "o9"
+        ],
+        "removed_emotion_cues": 0,
+        "retained_observations": 8
+      },
+      "seed_receipt_sha256": "e6ce389bf736b894f9d12d38c27381023b7693cf8ec5a74848bddf7d0ba35e78",
+      "completed_windows": 47,
+      "total_windows": 62,
+      "build_task_status": "running",
+      "child_identity_alive": true,
+      "recorded_new_calls": 29,
+      "seed_window_reissued_calls": 0,
+      "pipeline": {
+        "status": "running",
+        "video_id": "G2_V000124"
+      },
+      "first_scores": {}
+    }
+  },
+  "tests": {
+    "local": 36,
+    "remote": 36,
+    "core_files_unchanged": 1053
+  },
+  "policy": "Only offline deletion of one context-only observation in each final response; drop entire dependent emotion cues. No timestamp edits, same original validator. These seed windows are not reissued; all later windows use unchanged frozen core and original 8192 visual budget. One build task per video; no outer retry.",
+  "snapshot_sha256": "ba43b6a4cbc7dd1a02b4d1856808ab2eb9534f9c000aedcef66b9d1f800eae35"
+}
