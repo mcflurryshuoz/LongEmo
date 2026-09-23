@@ -2,7 +2,7 @@
   "schema_version": 1,
   "as_of": "2026-09-23T08:08:22.563382+00:00",
   "condition": "noevent",
-  "status": "v114_complete_remaining_failures_require_audit",
+  "status": "running_fixed_core_boundary3",
   "coverage_complete": false,
   "current_execution_conditions": [
     "noevent"
@@ -455,9 +455,9 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T08:08:22.563382+00:00",
-    "current_snapshot_sha256": "4b2839bcf03ee87ab60be5cbfec413dfe3609018f7a3b0b534e1deb447b22054",
-    "current_snapshot_name": "snapshot_1425/snapshot.json"
+    "current_as_of": "2026-09-23T08:30:36.504752+00:00",
+    "current_snapshot_sha256": "075fb24b0b173478d6e290a93a40e33948c27ad6b2ba30509a125f2a3513224c",
+    "current_snapshot_name": "live_core_boundary_start_1630.json"
   },
   "notes": [
     "All243 previously published first scores and provenance are unchanged. V114 adds seven first scores: Q443=1/4, the other six=0.",
@@ -467,7 +467,8 @@
     "The remaining308 questions require latest per-question attribution. The23 unresolved originalHTTP428 cases must not be generalized from the individually confirmed DLP cases.",
     "Explicit rejections and prior failed judgments remain immutable; no low-score redraws.",
     "The initial68 successful-question comparison is unchanged and is not a full-benchmark result.",
-    "No credentials, raw predictions or private response bodies are exported."
+    "No credentials, raw predictions or private response bodies are exported.",
+    "16:28启动固定3视频12题的独立边界恢复：各删除一条只在上下文或核心终点的观察以及依赖它的完整情绪记录，不移动时间戳；原校验器通过后离线导入。该预处理差异单独记录，后续窗口仍用冻结core。250首分未变。"
   ],
   "protected_original_first_scores": {
     "G2_Q000311": "63083f2575234c11df4a5280618079588625d6823e7846dc23d48781ab900e08",
@@ -1444,12 +1445,13 @@
     "length5_running": 0,
     "length2_running": 0,
     "v101_running": 0,
-    "observed_running_videos": 0,
+    "observed_running_videos": 3,
     "audio429_recovery_status": "all_three_ended",
     "audio429_running": 0,
     "question_workers_per_video": 2,
     "audio429_build_failed": 3,
-    "v114_length_running": 0
+    "v114_length_running": 0,
+    "core_boundary_running": 3
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1611,9 +1613,8 @@
     "historical_startup_record": "length5_startup.json"
   },
   "completion_estimate": {
-    "status": "not_estimated",
-    "scope": "Remaining308 questions require latest per-question failure audit; all launched queues are ended",
-    "reason": "Do not treat the23 unresolved originalHTTP428 cases as confirmed DLP without their own evidence; keep explicit rejections and exhausted attempts unchanged."
+    "scope": "本批12题可执行队列",
+    "estimate": "尚无稳定速度估计；以新窗口和首次评分为准"
   },
   "length2": {
     "schema_version": 1,
@@ -1835,7 +1836,7 @@
     "new_accepted_first_scores": 0,
     "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
   },
-  "execution_as_of": "2026-09-23T08:08:22.865232+00:00",
+  "execution_as_of": "2026-09-23T08:30:36.846125+00:00",
   "v101_continuation": {
     "as_of": "2026-09-23T14:25:23.393933+08:00",
     "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
@@ -4346,5 +4347,103 @@
     },
     "lineage_sha256": "7a77c9f65685a1d62e46d803057a8b31c7732aedc7aacc73dc3c5b5b2597209d",
     "snapshot_sha256": "4b2839bcf03ee87ab60be5cbfec413dfe3609018f7a3b0b534e1deb447b22054"
+  },
+  "core_boundary_continuation": {
+    "schema_version": 1,
+    "as_of": "2026-09-23T08:30:36.846125+00:00",
+    "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+    "staging": "/root/longemo/runtime/staging/core_boundary_20260923_162640",
+    "driver_sha256": "45a58717ede0d690aff1f579b777b05c85a42f7eb1af4b1a6b133c1ba5aaba5e",
+    "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5",
+    "boundary_execution_sha256": "8f4bd2ab051b373c614d84fe95616ad8ec37ef59b43a28b7fa691ba6fd203df4",
+    "selection": [
+      "G2_Q000165",
+      "G2_Q000166",
+      "G2_Q000167",
+      "G2_Q000168",
+      "G2_Q000268",
+      "G2_Q000269",
+      "G2_Q000270",
+      "G2_Q000487",
+      "G2_Q000488",
+      "G2_Q000489",
+      "G2_Q000490",
+      "G2_Q000491"
+    ],
+    "launch": {
+      "pid": 253085,
+      "start_ticks": "9222195",
+      "started_unix": 1790152136.1435924,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "workers": 3,
+      "question_workers": 2,
+      "selected_questions": 12,
+      "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5"
+    },
+    "identity_alive": true,
+    "workers": 3,
+    "question_workers": 2,
+    "protected_first_scores": 250,
+    "accepted_first_scores": 0,
+    "videos": {
+      "G2_V000051": {
+        "window": "W00044",
+        "seed": {
+          "removed_observation_ids": [
+            "o6"
+          ],
+          "removed_emotion_cues": 0,
+          "retained_observations": 5
+        },
+        "seed_receipt_sha256": "b0a59dc8ea6b8e9ca68ae847cb43c8bdc387fb93318ea1c87d24c17d22caab18",
+        "completed_windows": 45,
+        "total_windows": 67,
+        "build_task_status": "running",
+        "child_identity_alive": true,
+        "recorded_new_calls": 4,
+        "seed_window_reissued_calls": 0
+      },
+      "G2_V000075": {
+        "window": "W00056",
+        "seed": {
+          "removed_observation_ids": [
+            "o7"
+          ],
+          "removed_emotion_cues": 1,
+          "retained_observations": 6
+        },
+        "seed_receipt_sha256": "1a7f3df2ce081a5fc947d2990bfe78bcda5ffcd6815d6227643ede8db46313f9",
+        "completed_windows": 57,
+        "total_windows": 65,
+        "build_task_status": "running",
+        "child_identity_alive": true,
+        "recorded_new_calls": 3,
+        "seed_window_reissued_calls": 0
+      },
+      "G2_V000124": {
+        "window": "W00035",
+        "seed": {
+          "removed_observation_ids": [
+            "o9"
+          ],
+          "removed_emotion_cues": 0,
+          "retained_observations": 8
+        },
+        "seed_receipt_sha256": "e6ce389bf736b894f9d12d38c27381023b7693cf8ec5a74848bddf7d0ba35e78",
+        "completed_windows": 37,
+        "total_windows": 62,
+        "build_task_status": "running",
+        "child_identity_alive": true,
+        "recorded_new_calls": 4,
+        "seed_window_reissued_calls": 0
+      }
+    },
+    "tests": {
+      "local": 36,
+      "remote": 36,
+      "core_files_unchanged": 1053
+    },
+    "policy": "Only offline deletion of one context-only observation in each final response; drop entire dependent emotion cues. No timestamp edits, same original validator. These seed windows are not reissued; all later windows use unchanged frozen core and original 8192 visual budget. One build task per video; no outer retry.",
+    "snapshot_sha256": "075fb24b0b173478d6e290a93a40e33948c27ad6b2ba30509a125f2a3513224c"
   }
 }
