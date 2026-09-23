@@ -1,0 +1,1848 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-23T07:48:46.612360+00:00",
+  "condition": "noevent",
+  "stage": "running",
+  "total_selected_questions": 14,
+  "video_concurrency": 3,
+  "question_workers_per_video": 2,
+  "maximum_build_tasks_per_case": 1,
+  "original_first_scores_preserved": 243,
+  "probe_protocol": "Each fixed original HTTP429 request was dispatched once in serial; validated audio imported with exact original input fingerprint and no duplicate call. Source attempts remain exhausted.",
+  "snapshot_sha256": "dec54dfbde10d30f196b52a09a75fb5ad277e5a46f6b58f25e441d84f6a7698d",
+  "driver_sha256": "48444347ca3f277a483335d1d455e6c8d15c8a90ddd00d505c1bc68438429967",
+  "probe_driver_sha256": "9b74b747e1ebb7bb2eb04b6592d63037864b05f51850315ecef4052ed366b20d",
+  "fixed_specs_sha256": "c213425b298bdda99edcce1aa8161fa05ad150dfaf1591994c2169f827e2018e",
+  "tests": {
+    "local": 39,
+    "remote": 39,
+    "original_core_files_unchanged": 1053
+  },
+  "videos": {
+    "G2_V000100": {
+      "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000100_20260923",
+      "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "configuration_sha256": "893d3ec1843ff5910ee59b154d087fcf5595a6008616cb3df5eb5a9013ddc072",
+      "selection": [
+        "G2_Q000366",
+        "G2_Q000367"
+      ],
+      "launch": {
+        "pid": 169449,
+        "start_ticks": "8971912",
+        "started_at": "2026-09-23T07:47:13.222765+00:00"
+      },
+      "identity_verified": true,
+      "lock_held": true,
+      "status": "running",
+      "inherited_completed_windows": 38,
+      "observed_completed_windows": 39,
+      "total_windows": 76,
+      "seeded_audio_window": "W00039",
+      "seed_audio_requests_repeated": 0,
+      "seed_receipt_sha256": "dfb9fca2e416e1efe7d972588dc1d0147e2a69ea7b2759b4cb20b36986e7d385",
+      "seed_input_fingerprint": "c5888e3a2a9edc33223f11b6289c57c15476da50f0169357dc1f3a94192f5abe",
+      "visual_max_tokens": 8192,
+      "audio_max_tokens": 4096,
+      "accepted_first_scores": 0,
+      "probe": {
+        "summary": {
+          "schema_version": 1,
+          "kind": "independent_one_request_diagnostic",
+          "official_result": false,
+          "video_id": "G2_V000100",
+          "window_id": "W00039",
+          "stage": "audio",
+          "model": "gemini-3.8-flash",
+          "request_hash": "70d528afcbf7121103f519c4c2dc2140d8fc433e355e65fe074885a0de742aa0",
+          "maximum_http_requests": 1,
+          "parse_status": "ok",
+          "validate_status": "ok",
+          "http_status": 200,
+          "safe_code": null,
+          "response_model": "gemini-3.8-flash",
+          "finish_reason": "stop",
+          "choices_count": 1,
+          "status": "validated",
+          "reusable": true,
+          "artifact_sha256": "941d0baf3a391bc7ea51e6773fd7b1592ac336d48e665715f0ea274bd7ab900f",
+          "elapsed_seconds": 7.255052503198385,
+          "parent_files_unchanged": true
+        },
+        "summary_sha256": "b1cb0ccef9b0a2d0ea7749fc4acc1c1761e6f325f05daeedda39f36f73912784"
+      },
+      "inherited_window_sources": {
+        "W00001": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a6e61ace8ab7a3d4f41cf18b253f2236a8b9384f65f77f2c3009040890c66348"
+        },
+        "W00002": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "df908ec69d53888ec3974fbdf1f26c3b89ea6e16e6f3c66bafd5ba8b2fa4a739"
+        },
+        "W00003": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "9e0d8812218ffa29d24d8acaabc4e5a2750d9e1cbaed5d40f74885b6cd906203"
+        },
+        "W00004": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "62ae44237679212a470f1a9ca692714c9186d51119f437cac1254dc754cce948"
+        },
+        "W00005": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "867f7705a757c519febe6bce3e1c979566d787ce1e3057057481e70bc799572b"
+        },
+        "W00006": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "1e455f3a664a2bcfc34e4bdea34404758b255c61efa468f6a6ff21110902a03e"
+        },
+        "W00007": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "30cfbcdc5ca30a0507595b372fdebdb1c61729c29b30710d43df7eea933d3f9e"
+        },
+        "W00008": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "31731a39a80ada8a292e84bdb87560c8bc733823810a2d27e76a6877211d531e"
+        },
+        "W00009": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "45efa1ef9c89209a8ff8440124b15ad145f74bec695fdcbbe5687fbb68a8c06b"
+        },
+        "W00010": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "b734b1daf9031a502f9ca80a8c53b56a545225428f6a5c48b6c79d57157cfc40"
+        },
+        "W00011": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "10e1c6ca8fff50419c8f77e31d94adccd2cfa53d21ed0cc43104d60814cae307"
+        },
+        "W00012": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "6bc3f846688fb943a603461e0269501e891ce431eba5d264fed60fffc7ff1b68"
+        },
+        "W00013": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "49ece866c2856cf522bd81ca66a30eef305305ff6d5a04da99b9c0bf19e8f6a2"
+        },
+        "W00014": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "4b20a2655b99804a76c47662fe0124535c45de19786c2a6a1ebe7d3cf31db879"
+        },
+        "W00015": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "de8355bd05dd269b6702a0f664a0b2670ad8ad4f7b9bcb1566028a5ec877e5ff"
+        },
+        "W00016": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "4c3dd247d646737f090d811b9c10ddb8351bfbe9a55ba67691cc97f26df25503"
+        },
+        "W00017": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "91b8586b1646d2e34d418ba176a488f61c49db7b1bb7aa32c55d419f23f01a9c"
+        },
+        "W00018": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "48b9b51cc0e208cd325223ad8e9954134b91734fbd86414d7a64fd13b459516b"
+        },
+        "W00019": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a70eacb0142ee9288ee37089ed1a569ebbfd30b5c10eb68a0ff8900146d61603"
+        },
+        "W00020": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ce60828b082d74084258a29c3b30181e7cf0d3dceb7139c61cb0f16f620b7038"
+        },
+        "W00021": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "03eb9f7f222cd9c8a6837a7f9255fb93f6684f97be09fa19ae1ef093eb93a140"
+        },
+        "W00022": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "aa1231c81867b78d6725fb5c58aa4f35958e311c515155333314ce065694a18e"
+        },
+        "W00023": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "05d52a2b65d7c267ea1f9025c59abf53224b9ca1317fe1127ea773fdfb25c530"
+        },
+        "W00024": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c95465fe591fc9079b23da433646bb478ceb163ce3f2765220c91609a193821d"
+        },
+        "W00025": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "e690b3ed8b74547595114d6778dd4b8d8a8edabc4da1676b5d09e53fe983206d"
+        },
+        "W00026": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "58db24293a71271fecba5843f4182eae402af5707fc9834998c6306cb879194e"
+        },
+        "W00027": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "636be1d7bc4148dbd45a0981305f8310bc8efb7ffeb1e36bc2c968c1b3148610"
+        },
+        "W00028": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "b4d482e23b8e14bf9e2a17dd3b824ea0cdf7708a392b2d2dfd38b679317fb67b"
+        },
+        "W00029": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "2ba875c2a052810cb9912aa77d6008aca5c13ec096858d389182f512560a8a8b"
+        },
+        "W00030": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "fbbfac9a60bc0c426fe9429b51fcb8eb39f9a880f8e4f570a8c4f53645005f81"
+        },
+        "W00031": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "14c4ce4ec0cf5ccdd7c3cd22c8ed2452af5ce048145843be5b57d87a5e640cc9"
+        },
+        "W00032": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "4c7affc5151039f78fcbd40fe7d81893da8f6601f4c0571b91565ad2b91e8e7d"
+        },
+        "W00033": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "599697c616db530945066e1fd16c5f635e58f95dee3a02adf13ec13f6a6f0b33"
+        },
+        "W00034": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "778508a80800888aa3d0813b9fa9afa5cd897e61ff9b56064f971ebd035080cd"
+        },
+        "W00035": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "f49b1e58dbf19d24137c9726622eacaca32953dbb0dfd36c4736d63ca6ffb97e"
+        },
+        "W00036": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "d4a4402729b1bcf6c9c214e68c186cbde551ae12be6d761dfb0ac5b5c7c89b75"
+        },
+        "W00037": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ee3d95af126d10530648d94ce662694821acc35d4a19570093cb6be794c49f5a"
+        },
+        "W00038": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000100/memory/G2_V000100",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "98c7851f0d4c7e8bfbf0bc99e11bf7c32fd7fdefefad741b7d14f93f5c2a68b9"
+        }
+      }
+    },
+    "G2_V000114": {
+      "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923",
+      "source_run": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923",
+      "configuration_sha256": "3409aeceb46538f5e7169011dc6a35a3b2209b4c7a05123b454402f5dfa9ae0e",
+      "selection": [
+        "G2_Q000438",
+        "G2_Q000439",
+        "G2_Q000440",
+        "G2_Q000441",
+        "G2_Q000442",
+        "G2_Q000443",
+        "G2_Q000444"
+      ],
+      "launch": {
+        "pid": 169448,
+        "start_ticks": "8971912",
+        "started_at": "2026-09-23T07:47:13.217251+00:00"
+      },
+      "identity_verified": true,
+      "lock_held": true,
+      "status": "running",
+      "inherited_completed_windows": 56,
+      "observed_completed_windows": 58,
+      "total_windows": 64,
+      "seeded_audio_window": "W00057",
+      "seed_audio_requests_repeated": 0,
+      "seed_receipt_sha256": "c30484703c1cab1e517d964db7f4b7364659bcbcc626c443e5909e9fc07a4e3f",
+      "seed_input_fingerprint": "c0302d46fadf51b1899b30ba34da87e066043d65d0b0d7fa0a54a2f4310c3cbd",
+      "visual_max_tokens": 8192,
+      "audio_max_tokens": 4096,
+      "accepted_first_scores": 0,
+      "probe": {
+        "summary": {
+          "schema_version": 1,
+          "kind": "independent_one_request_diagnostic",
+          "official_result": false,
+          "video_id": "G2_V000114",
+          "window_id": "W00057",
+          "stage": "audio",
+          "model": "gemini-3.8-flash",
+          "request_hash": "2c15830423e40c82d7c45a26705ac990a491221a5ef12b38e5a965d8dd329841",
+          "maximum_http_requests": 1,
+          "parse_status": "ok",
+          "validate_status": "ok",
+          "http_status": 200,
+          "safe_code": null,
+          "response_model": "gemini-3.8-flash",
+          "finish_reason": "stop",
+          "choices_count": 1,
+          "status": "validated",
+          "reusable": true,
+          "artifact_sha256": "79cef5ad1a94b9fca75dbb26e3031576bc6de0cd8e677c491adad3c5372e3eb4",
+          "elapsed_seconds": 7.412679608911276,
+          "parent_files_unchanged": true
+        },
+        "summary_sha256": "5d20fd2d9b127a7dfe4c293452eac9fde191b49fe0a29d4565a602b0a7ef745d"
+      },
+      "inherited_window_sources": {
+        "W00001": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c7d7f52ae6a0d2fbd01751067433320f34dc24060f77c58de1538929031663c3"
+        },
+        "W00002": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "fcad247b549717f26ceda42e2b3061ea55f1e4de0c7ede13df4652d32c796ff3"
+        },
+        "W00003": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "654da64caa70341c91b5823f66c6158eb46d4b7f86fa9b92505c6526ab436830"
+        },
+        "W00004": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a8929c18f4cbf740195170706e7c68d99e62d8c6abee5f7fc5a91d552d78c883"
+        },
+        "W00005": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "e7115807a64f000eeff567391861db9c4eecf00db96cf62d21f3bc41fb989588"
+        },
+        "W00006": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "83a3740cae887d30efa7fb907cfe83ab9a7893569d71bf528142b6c083b6cef9"
+        },
+        "W00007": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "e8b674faddcff13b6f3c03286f1221070639bddcadbe49dda649bac172c8656f"
+        },
+        "W00008": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "87402b38b49dbba954554735d7d31d83c4671076b544fc0e6e956ff629109a35"
+        },
+        "W00009": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "09422280561eaa5694fc46c7aab4e35a17ed43a11854b76bf2378b739b5d5ce9"
+        },
+        "W00010": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "bde94d9f3e8f274d2e758c3940ff710b2080a4dde0649b29761c6d0f52d89df9"
+        },
+        "W00011": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "cdcb82139cbd772e81458078d2ee85fb1d1338831faf6c36513d2496c1ade5b5"
+        },
+        "W00012": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a3bf043d879d719783405d0cb09927fd0679bdf19de51d26e60ab5cfa6af70f0"
+        },
+        "W00013": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "b717c807deae27fb412d71a9731dd7b9afff0b4d27592df946b3e0a81ebd12f9"
+        },
+        "W00014": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "9074468f09198eb419c01b558c83be6783b601698b4cd2892d9b02fd695b30eb"
+        },
+        "W00015": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "12e047e6e8858816b8535a130579ff9a0d950f2e6c53a810ecc8b1ba965ee322"
+        },
+        "W00016": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "8377455ad871608b419426f0c73034acb375c89cdbe5fd1c2a5c9453a56ac22f"
+        },
+        "W00017": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "3143fa3f6bff5bcdf6aba097d0acb723b214f0f62c1e2e87d549f7509f8d9b3b"
+        },
+        "W00018": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ce320acf6710579eaaeeac142cc81ca159e8947f78d44dc5245ba4142a172dfa"
+        },
+        "W00019": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "e63d6206aa06f9b1106500677651c099d740340412635281271b6c2cb0637d53"
+        },
+        "W00020": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "2aaeab425cb558edaf1c2b1f0b66525bf87689c494604211f3a229559e980700"
+        },
+        "W00021": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "34f17085b7bc1966729723eac8a4af7b06989c30e22b84a8342416b39965d8d1"
+        },
+        "W00022": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a10ece45565631224bb15a920f59ba56957d2f70218450980412744fd780944f"
+        },
+        "W00023": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a51145e5a0f5fdd0b4e40363ba1c7e76d2c9505ea5c56970b955f91d6de55bbd"
+        },
+        "W00024": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "202cc47cb666ce0a215e936eccae2e24bf95f4291ad0b969eaed256ecd3fa2d9"
+        },
+        "W00025": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "57916f898c5f019790dd9499e6bf0fafa4ca1d4e72c598a6ae3666a6b270748b"
+        },
+        "W00026": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "e9ee5c04259e90c2a2a506f5fc4acad680cb8d4acb72c22aff48368d4a11b133"
+        },
+        "W00027": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "db5a9d1de40bd04f475a34e285d571776a39ff5e886693d62659e92faf9c678d"
+        },
+        "W00028": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c18e75b8a0bdcee5fb76de391f1aeca4b62773b28ac98613c77eee7f78860093"
+        },
+        "W00029": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "6ce6c4021867f9385d1734a6279e58f4bbdaecb06b45c47b047577156d260d0c"
+        },
+        "W00030": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "69fac67fb0cf52df3446326e5acc3cdce72ea3a03b4e0c2294c701f2e59d93fd"
+        },
+        "W00031": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "35088804b50fe4fe1c440a0c0f1dfb8cb6ed966c60afcccab50d15a875257b7b"
+        },
+        "W00032": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "189cdd2b12664c19031afe1b85a415567110d746eb12efc4a8752a29d19fd32c"
+        },
+        "W00033": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "28a3d74cb086d30db42c013d2f918a612e25059812e480a94db1c32a85c4bda8"
+        },
+        "W00034": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "447787160fdedce81c9064809ab598ed8578924d6f8a4566f1a9d166866e58de"
+        },
+        "W00035": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "1baf078ecc03766b747d8085b979c65366c3c60bf29cd626a67542060970abcb"
+        },
+        "W00036": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "597166374fae9e6887a65a3cd8689520bbf0cd1c49ceee2650cab2c0affc7b4a"
+        },
+        "W00037": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "0dea8a6e4a6bd37066cd6dfa55c715e72bd00dbf2eb14f6fb8d9bb11105cb453"
+        },
+        "W00038": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c882dc81ed776e61f939aaa5ba26bcb5a4e41e68f8370ef3197578e46eb5bde0"
+        },
+        "W00039": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "f467b4768740470f51421b44d8a0ab7a2bbf4608e138dcd2852fd80e23f678fd"
+        },
+        "W00040": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "edf764d2e584c2accaf639ba40cc63c7213c8e8b2e3363dae9cb1ee8f7e3e0ba"
+        },
+        "W00041": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ac51d79ca302fb8730bebc1d43a4a6563fc8b7234c340bf397a95929e8a15a22"
+        },
+        "W00042": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ebda6a353ca441542d69eece82d766ad44ff5e31617ea57d9c454fb995dac86d"
+        },
+        "W00043": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ec35ded3003f137967544edfd113c9205ebaf762b0073f7c7c284d3ab87194b5"
+        },
+        "W00044": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "aac2433d7c9fe06adbb2f85595cdccd2c41666095a156b360ee7bbf929adb0be"
+        },
+        "W00045": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "3a3f571a3f77f2672498a919d4c2fbb4dd904705d09fa57028da3a231d96f693"
+        },
+        "W00046": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "429a4cca5c3b799005c7d2b4decad7554680114ae8d6abfc16559b359e348794"
+        },
+        "W00047": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "50339ddcdb05478c0119572b9889f4f2c0a55f74fc52a0fd0a5c3f88e17230b4"
+        },
+        "W00048": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c8b6fd65e66467da38167d794f62389566376304679c108576e3e5b864451699"
+        },
+        "W00049": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "2427dc5d979d107a9ffca42149a29d993c09cafab4467e4e92cc8293fce6309b"
+        },
+        "W00050": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "4e3b92968b61a1bf9c3fc4e4bf6b180480af5afe2135fee40d3815d5fb232b72"
+        },
+        "W00051": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "644af883fef77f35ddb016ddde76008b0db6621337313e6c28997d125e228057"
+        },
+        "W00052": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "79d98fc5d70dbc6c451c505363eb5f7018f46c42e93d7790e5a263518e75cd6e"
+        },
+        "W00053": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c461646f3c99f69fcd3b6356f08c34ed560fa75ec907dfe3bae48ca4e3b9274b"
+        },
+        "W00054": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "9dbd64e12ff66f688477546a48cc4d64d263afa95ab771c7a51848051559fd45"
+        },
+        "W00055": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a93f4e625ce6565cec9657df50df03418ed00bda53a4350460d88ba5bd513ac3"
+        },
+        "W00056": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000114/memory/G2_V000114",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a468e814803bd85a62e82706ec94cd202d02aea54dc004da0a293fe6d620e03e"
+        }
+      }
+    },
+    "G2_V000091": {
+      "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000091_20260923",
+      "source_run": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923",
+      "configuration_sha256": "5d817a58508d9eedccd2724a0dfdbe170e849a7a0ea91ded8ad1fa0050746d5f",
+      "selection": [
+        "G2_Q000331",
+        "G2_Q000332",
+        "G2_Q000333",
+        "G2_Q000334",
+        "G2_Q000335"
+      ],
+      "launch": {
+        "pid": 169450,
+        "start_ticks": "8971913",
+        "started_at": "2026-09-23T07:47:13.227830+00:00"
+      },
+      "identity_verified": true,
+      "lock_held": true,
+      "status": "running",
+      "inherited_completed_windows": 24,
+      "observed_completed_windows": 26,
+      "total_windows": 66,
+      "seeded_audio_window": "W00025",
+      "seed_audio_requests_repeated": 0,
+      "seed_receipt_sha256": "5cbff2f2322506da6d0d5a5660fab5b3de6e833b629435d0717e10e023c56ae5",
+      "seed_input_fingerprint": "92ec1579a5466f06d5f4a10b4f512656e410f86826461cb4490bfb1f70f36092",
+      "visual_max_tokens": 16384,
+      "audio_max_tokens": 4096,
+      "accepted_first_scores": 0,
+      "probe": {
+        "summary": {
+          "schema_version": 1,
+          "kind": "independent_one_request_diagnostic",
+          "official_result": false,
+          "video_id": "G2_V000091",
+          "window_id": "W00025",
+          "stage": "audio",
+          "model": "gemini-3.8-flash",
+          "request_hash": "a23e9d7a640f92e9900f67a4ae2a317201b4f959e1fd54ec9a82206e1ea9f24c",
+          "maximum_http_requests": 1,
+          "parse_status": "ok",
+          "validate_status": "ok",
+          "http_status": 200,
+          "safe_code": null,
+          "response_model": "gemini-3.8-flash",
+          "finish_reason": "stop",
+          "choices_count": 1,
+          "status": "validated",
+          "reusable": true,
+          "artifact_sha256": "8edfbee3ba8ec502f0afb364d38d6fb347ef573c84e4583a3730c0ed6d0824bc",
+          "elapsed_seconds": 7.706367963925004,
+          "parent_files_unchanged": true
+        },
+        "summary_sha256": "05e1ffd8d0d9ec47b6b8393153a3d8ffc00d1f58705fd7358c01bc0c0e043b33"
+      },
+      "inherited_window_sources": {
+        "W00001": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "25fe62a1fc5649a906477e32309dd14eaf31cd6c1ff1bd99a86d2c22831dcdb3"
+        },
+        "W00002": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "7d49cd54f89c2a85e7aafc833bc88cc611eeb52f5e1d614604765fe9cf7552fe"
+        },
+        "W00003": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "529569008a3ef9c203e963945ab9580aeb9f5c4032ae03276fcb56fa5b44745e"
+        },
+        "W00004": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "55bfb027b5f0adf5a2a06dd9ab709ced5f43774080ae54606b658bc30f964436"
+        },
+        "W00005": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "f6abfe870b4f98b8d1d8361137b84bb160c3eeaf2a3957456ee676a13775cc9d"
+        },
+        "W00006": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "3519d638419ff9721acef12150d4e043d71dc18d1de1964de594e761ff6cd064"
+        },
+        "W00007": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "84a4d0168e0609d776bf8ecb2f21da08c7d3f92a2e344f842d868503c1860570"
+        },
+        "W00008": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "d002b80e9d1eb8be16f592868c8e4ab26fc0bd040cf4b494f3fa6851312c0b07"
+        },
+        "W00009": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "347f51542a64222a90e2e87f41589a1db558c3902e5beb263fe9722fbb68d881"
+        },
+        "W00010": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "ee5ec08e2858eabc290bcdf05a170ec36c57c952f693c2fe80da60458fa87a5a"
+        },
+        "W00011": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "0d4f72d4e8eb0147a13d26f547cf6aacc5da26d34b383f11ef7ecfd12635a558"
+        },
+        "W00012": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "48f9a075c695ae23818aad6ca45db009ff8e0a49df8658534df4c1f46e61afb5"
+        },
+        "W00013": {
+          "origin": "original",
+          "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "aedd5ce3737f4153b5d6b32f0d917c398e63bc41b20fdaf06efe7a73e8499308"
+        },
+        "W00014": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "76b36d065474cee684353b1b50ba0d6d90cc53c6788f7c5ecc2ffe97d73fc8e8"
+        },
+        "W00015": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "1b0cb4e7817ab6229242c0e382d7f919ed04f1485abb007529b14e6220630b93"
+        },
+        "W00016": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "afb7816cda48bad8c9e82815faab6183e107840e940cb553d37353388255c9f7"
+        },
+        "W00017": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "7d33bd4851b4133bdc2dc58c56a097b502ae08948e75d3f61d9ac68d8fb6475f"
+        },
+        "W00018": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "62298fe76ddf40b1b3e79a2fe1325d2b235fed3f606e15c3e6fa1d5f4638c7a8"
+        },
+        "W00019": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "be5afb921f98c2b30df3b406f28601241a7502e28a13208fd5ef3d928c0ef605"
+        },
+        "W00020": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "a62e8cf1a6e8975b10135de200514cd34d9be434a559a3b143a652b30db9b958"
+        },
+        "W00021": {
+          "origin": "source_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_runtime24_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 8192,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "5f351fcdc8cd49f0e408524b708ebe0848bfbd874804c50a53a80db04b934e3e"
+        },
+        "W00022": {
+          "origin": "length_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 16384,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "c999b8fdd934880b677dcb74d3d1fdef03bf7b8210a53a919b9a1b6d6cca50d1"
+        },
+        "W00023": {
+          "origin": "length_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 16384,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "40f77793b78b913c99a2e6bd4ec584c7711ff4bbe946061f1b477e9fc9734db7"
+        },
+        "W00024": {
+          "origin": "length_continuation",
+          "source": "/root/longemo/runtime/runs/noevent_length5_continuation_20260923/noevent/videos/G2_V000091/memory/G2_V000091",
+          "model": {
+            "model": "gemini-3.8-flash",
+            "base_url": "https://matrixllm.alipay.com/v1",
+            "api_format": "chat",
+            "max_tokens": 16384,
+            "temperature": 0.0,
+            "options": {},
+            "timeout": 240.0
+          },
+          "window_sha256": "20b38413aa3a573c9f9d6f46b907409dd145ae3c5ff25532d88a987eb23dd1cc"
+        }
+      }
+    }
+  }
+}
