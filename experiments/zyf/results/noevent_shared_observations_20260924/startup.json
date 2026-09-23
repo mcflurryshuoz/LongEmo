@@ -1,0 +1,30 @@
+{
+  "run": "/root/longemo/runtime/runs/noevent_shared_method_observations_20260924",
+  "stage": "/root/longemo/runtime/staging/noevent_shared_obs_20260924_0516",
+  "process": {
+    "pid": 404031,
+    "start_ticks": "13848079",
+    "created_at": "2026-09-23T21:19:55.268227+00:00"
+  },
+  "configuration_sha256": "6219746af52f8dee5bb60718dcd9ab66affa986bb37bb209c67a57d40e899be9",
+  "driver_sha256": "accddee9abef1d3c5b461eb14f45fed1ee5e49cede0150150d95d8186aa6bf71",
+  "core_hash": "3d6a25163bf169c6c5d6a91abcd92da19df27c530d66fa92e6f58c1ca7efaa1e",
+  "question_count": 558,
+  "eligible": 92,
+  "complete_source_videos": 29,
+  "protected_first_scores": 675,
+  "tests_passed": 14,
+  "workers": 12,
+  "question_workers": 2,
+  "embedding_workers": 2,
+  "perception_requests": 0,
+  "projection": "original observation whitelist; original timestamps and ownership; no event fields or generated summaries",
+  "historical_scores_reused": 0,
+  "comparison": "same raw observations as current method; shared neutral controller differs from historical method controller, so not yet an isolated graph-only causal estimate",
+  "status": {
+    "status": "running",
+    "updated_at": "2026-09-23T21:19:55.275135+00:00",
+    "all_question_count": 558,
+    "eligible_count": 92
+  }
+}

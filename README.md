@@ -1,5 +1,12 @@
 # LongEmoBench
 
+<!-- LONGEMO_SHARED_OBS:START -->
+## noevent 同源观察消融（运行中）
+
+2026-09-24已启动：全题单558题，当前29个完整同源视频的92题进入并发评测；其他题的源缓存缺失或明确后端拒绝单独记录。复用method原始窗口观察，移除事件结构，无新感知请求；旧244题成绩不混入。见[启动与覆盖清单](experiments/zyf/results/noevent_shared_observations_20260924/README.md)。
+<!-- LONGEMO_SHARED_OBS:END -->
+
+
 [中文](README_zh.md) · [Dataset on Hugging Face](https://huggingface.co/datasets/mcflurryshuoz/LongEmoBench/tree/main)
 
 LongEmoBench evaluates emotion understanding at two video granularities: **clip** and **episode**. Questions cover emotion recognition, transitions, trajectories, causes, intensity comparisons, and reasoning across a longer video. All tasks use open-ended questions; the expected answer may be emotion labels, a short result, or a natural-language explanation.
