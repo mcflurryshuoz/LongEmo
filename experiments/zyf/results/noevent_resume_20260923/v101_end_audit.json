@@ -1,0 +1,73 @@
+{
+  "as_of": "2026-09-23T14:25:23.393933+08:00",
+  "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
+  "process": {
+    "pid": 55578,
+    "host": "gpulingjun033180161150.et15",
+    "start_ticks": "8328001",
+    "started_unix": 1790143194.6965249
+  },
+  "identity_alive": false,
+  "finished": true,
+  "configuration_sha256": "146b954fa3a709df18e092d1b3dad3234e0d7ecd594f2206d0e6d8fc5441c32e",
+  "tasks": [
+    {
+      "stage": "answer",
+      "status": "ok",
+      "child": {
+        "pid": 60798,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "8379598"
+      },
+      "source_sha256": "6a5bfc3eaf10e5cfc76ea25eb4f72cdfe9e7d220a481e6ed11e48d59ac7e3ab1"
+    },
+    {
+      "stage": "score",
+      "status": "ok",
+      "child": {
+        "pid": 61239,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "8384942"
+      },
+      "source_sha256": "0818121140af430391dca0cf4376ea9ea55d07c264ddf4722f7fcbce6669e0ce"
+    },
+    {
+      "stage": "build",
+      "status": "ok",
+      "child": {
+        "pid": 55606,
+        "host": "gpulingjun033180161150.et15",
+        "start_ticks": "8328153"
+      },
+      "source_sha256": "3eabf927ea33cc49b0698cdac0637cc6ba775d4e4570febedcffd0bf22fb8c45"
+    }
+  ],
+  "completed_windows": 75,
+  "total_windows": 75,
+  "audio_W64_reissued_calls": 0,
+  "accepted_first_scores": 3,
+  "first_scores": [
+    {
+      "question_id": "G2_Q000368",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666
+    },
+    {
+      "question_id": "G2_Q000369",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5
+    },
+    {
+      "question_id": "G2_Q000370",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    }
+  ],
+  "successful_answers_without_judgment": [],
+  "successful_judgments_without_accepted": [],
+  "lock_free": true,
+  "original_source_memory_sha256": "1f79b84f8ea3fe6b6c1e8444ce01bdbac9cd11c9acf49f88f4eeac1fbe866c53"
+}
