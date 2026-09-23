@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-09-23T07:52:56.146106+00:00",
+  "videos": {
+    "G2_V000100": {
+      "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000100_20260923",
+      "status": "running",
+      "completed_windows": 44,
+      "total_windows": 76,
+      "coordinator_alive": true,
+      "lock_held": true,
+      "accepted_first_scores": 0,
+      "seed_audio_requests_repeated": 0,
+      "configuration_sha256": "893d3ec1843ff5910ee59b154d087fcf5595a6008616cb3df5eb5a9013ddc072",
+      "finished": false
+    },
+    "G2_V000114": {
+      "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923",
+      "status": "build_failed",
+      "completed_windows": 59,
+      "total_windows": 64,
+      "coordinator_alive": false,
+      "lock_held": false,
+      "accepted_first_scores": 0,
+      "seed_audio_requests_repeated": 0,
+      "configuration_sha256": "3409aeceb46538f5e7169011dc6a35a3b2209b4c7a05123b454402f5dfa9ae0e",
+      "finished": true,
+      "all_task_children_stopped": true,
+      "unjudged_successful_answers": [],
+      "unaccepted_successful_judgments": [],
+      "failure": {
+        "request_hash": "158ee25b5dbe9712cb700fa5b0a41ac435eab1af1e1b44b623c746e2efa8c0f8",
+        "purpose": "window_perception:G2_V000114:W00060",
+        "attempt": 1,
+        "category": "output_length_exceeded",
+        "evidence": [
+          {
+            "diagnostic_sha256": "f5e5c85ff83f24a57da1d38b7c962a4cfef4d38e0e8f494ef54638da02734e8e",
+            "request_hash": "158ee25b5dbe9712cb700fa5b0a41ac435eab1af1e1b44b623c746e2efa8c0f8",
+            "responses": [
+              {
+                "http_status": 200,
+                "finish_reasons": [
+                  "length"
+                ],
+                "explicit_dlp_rejected": false,
+                "body_sha256": "0d0258c231ca0839a9b925ad2e1514fb4a76308bbb2b5fa00b99ff6976cd1d45"
+              }
+            ],
+            "model": {
+              "model": "gemini-3.8-flash",
+              "base_url": "https://matrixllm.alipay.com/v1",
+              "api_format": "chat",
+              "max_tokens": 8192,
+              "temperature": 0.0,
+              "options": {},
+              "timeout": 240.0
+            }
+          }
+        ],
+        "old_task_restarted": false,
+        "followup": "independent_fixed_length_recovery_candidate"
+      }
+    },
+    "G2_V000091": {
+      "run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000091_20260923",
+      "status": "build_failed",
+      "completed_windows": 27,
+      "total_windows": 66,
+      "coordinator_alive": false,
+      "lock_held": false,
+      "accepted_first_scores": 0,
+      "seed_audio_requests_repeated": 0,
+      "configuration_sha256": "5d817a58508d9eedccd2724a0dfdbe170e849a7a0ea91ded8ad1fa0050746d5f",
+      "finished": true,
+      "all_task_children_stopped": true,
+      "unjudged_successful_answers": [],
+      "unaccepted_successful_judgments": [],
+      "failure": {
+        "request_hash": "7bff19cc1b6bee95f8fd9a1f41c4931049cadd49d782707677a1362e29a38691",
+        "purpose": "audio_observer:W00028",
+        "attempt": 1,
+        "category": "data_leak_protection_rejected",
+        "evidence": [
+          {
+            "diagnostic_sha256": "2aaa25bd3ad5336b75303e38d029be92f0b2bf21df85db41d96b9263037bad97",
+            "request_hash": "7bff19cc1b6bee95f8fd9a1f41c4931049cadd49d782707677a1362e29a38691",
+            "responses": [
+              {
+                "http_status": 428,
+                "finish_reasons": [],
+                "explicit_dlp_rejected": true,
+                "body_sha256": "5d6e038e2360625184b2b16ae36dc81705732d0d23478987e927dffb239234ab"
+              }
+            ],
+            "model": {
+              "model": "gemini-3.8-flash",
+              "base_url": "https://matrixllm.alipay.com/v1",
+              "api_format": "chat",
+              "max_tokens": 4096,
+              "temperature": null,
+              "options": {
+                "reasoning_effort": "low"
+              },
+              "timeout": 180
+            }
+          }
+        ],
+        "old_task_restarted": false,
+        "followup": "explicit_policy_rejection_no_repeat"
+      }
+    }
+  },
+  "snapshot_sha256": "5a0e70e8348b3aa333fb019762b771f9b024471d73dd4edd3d697fce1692017e"
+}

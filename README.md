@@ -11,27 +11,21 @@ This repository provides prediction generation and a shared evaluator. Predictio
 先从视频、音频和字幕构建带时间、人物、情感对象及证据引用的事件图；回答时用 **BM25＋Gemini Embedding 2** 定位相关事件，再按需披露时间流和关系流，由 GPT-6 基于证据作答。构图与问题无关，参考答案仅用于官方评分。
 
 <!-- LONGEMO_FULL558_RESULTS:START -->
-### 当前三层消融结果
+### 当前评测结果
 
-2026-09-23 **14:25 CST快照**：V101完成75/75窗并新增3条首分，累计243题；原240题分数和来源不变，method与base不新增任务。
+2026-09-23 **15:52 CST**：noevent已有243条首分保持不变，V100继续运行，V114输出截断、V91明确DLP阻断；method和base不新增请求。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
 | noevent | 243/558 | 25.65 |
-| method | 97/558 | 59.45 |
+| method（保留成绩） | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
 
-已启动队列全部结束，无成功答案漏评或有效评分漏归档。正在评估三个音频429视频的有限恢复方案（14题），**尚未新发API或启动**；不将剩余315题全部归为不可修复，也不承诺完成时间。
+V100继续构建（44/76窗、2题）。V114停在59/64窗（7题），已确认新的视觉输出截断，后续长度恢复尚未启动；V91停在27/66窗（5题），新的音频明确DLP拒绝不重发。三个原429音频响应均直接复用，旧评分和尝试保留。
 
-这是混合预算汇总：**230题原8192视觉预算＋13题继承原窗口后以16384续构建**。不同成功题集总体均分不能直接比较。初轮共同成功68题保持如下，未并入后续48题：
+汇总包含**230题8192视觉预算＋13题继承原窗口后以16384继续构建**。初轮共同成功68题为noevent32.60、method62.13（差值+29.53）；这是非随机成功交集，不能据不同题集总体均分推断全集提升。缺失不计零分，历史路由版60.24独立保留。
 
-| 初轮同题题数 | noevent／100 | method／100 | method − noevent |
-|---:|---:|---:|---:|
-| 68 | 32.60 | 62.13 | +29.53 |
-
-这是非随机成功评分交集，不能推断全集提升。noevent尚缺315题，method尚缺461题；141视频已全部传输核验。
-
-[当前评测与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [V101结束审计及下一步](experiments/zyf/results/noevent_resume_20260923/v101_end_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
+[当前评测与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [最新三视频审计](experiments/zyf/results/noevent_resume_20260923/audio429_live_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ### 历史题型路由结果
