@@ -1,0 +1,709 @@
+{
+  "as_of": "2026-09-23T13:41:07.397856+08:00",
+  "runs": {
+    "noevent_runtime24_continuation_20260923": {
+      "accepted": 30,
+      "successful_answers": 32,
+      "judged_attempts": 32,
+      "judgment_failures": {
+        "G2_Q000259": {
+          "content_filter": true,
+          "status": "error"
+        },
+        "G2_Q000260": {
+          "content_filter": true,
+          "status": "error"
+        }
+      },
+      "videos": {
+        "G2_V000114": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 56,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00057",
+            "request_hash": "2c15830423e40c82d7c45a26705ac990a491221a5ef12b38e5a965d8dd329841",
+            "failure_stage": "generate",
+            "attempt": 3,
+            "error_type": "ServiceError",
+            "http_status": 429,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "ab71c094ec27bffdd6b0a53847f4f2c548ab20385ef70bf46eb835cac261efc9",
+              "response_sha256": "02153aa3ce4e37d47d91caa20f22a7cf1122b166b90b90abea571079cb3a12e6"
+            },
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "c7eeaabffd8a44b8de7dc554ae0b3dbe78a83510de0e89a6eb098c6d72de88e8",
+              "response_sha256": "67dafeef957390d7fcd22a8fd39338694bba03b41c2a91a95ea44805ddc1e62b"
+            },
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "1bfc800190a5720d32f7e15dc5fc651d6ddbada50230cae1142b31a9b8883512",
+              "response_sha256": "9bd66f62c8c084bd942b2556552a12509e9f31b5b25349f7c8c2f3763fa6f8cf"
+            }
+          ]
+        },
+        "G2_V000040": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 2,
+            "questions": 2,
+            "answer_task": "ok"
+          },
+          "completed_windows": 66,
+          "memory_complete": true
+        },
+        "G2_V000130": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 64,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000130:W00065",
+            "request_hash": "fb4eb33222c81c08a5ede17f5da1e2565161008cffc327a44bb65e74de38fc00",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "2158d4c726c54f50611bc0d396a7d192067720921fd16140af5c84fd40e9c885",
+              "response_sha256": "4e7108c2574fec92defb6c5732267aef0da82b17534ebe0790c33f6124397238"
+            }
+          ]
+        },
+        "G2_V000072": {
+          "pipeline": {
+            "status": "partial",
+            "scored": 5,
+            "questions": 7,
+            "answer_task": "ok"
+          },
+          "completed_windows": 66,
+          "memory_complete": true
+        },
+        "G2_V000085": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 4,
+            "questions": 4,
+            "answer_task": "ok"
+          },
+          "completed_windows": 66,
+          "memory_complete": true
+        },
+        "G2_V000015": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 10,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000015:W00011",
+            "request_hash": "de52e57d1e7900943e0d937ea5fbc7131688a2fd31b3f771ee86860029db77b2",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "e79051b0496e48743252ca59200297242292646afbd2eaa2ad69651b8f4061f7",
+              "response_sha256": "cecff46c006d967468c3b192b831f575cf8072f8d8775bc6ce6015398a7af450"
+            }
+          ]
+        },
+        "G2_V000098": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 2,
+            "questions": 2,
+            "answer_task": "ok"
+          },
+          "completed_windows": 76,
+          "memory_complete": true
+        },
+        "G2_V000126": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 4,
+            "questions": 4,
+            "answer_task": "ok"
+          },
+          "completed_windows": 62,
+          "memory_complete": true
+        },
+        "G2_V000082": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 4,
+            "questions": 4,
+            "answer_task": "ok"
+          },
+          "completed_windows": 73,
+          "memory_complete": true
+        },
+        "G2_V000091": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 21,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000091:W00022",
+            "request_hash": "24c0425c158f5d5bebb95bae23914f6d1ffb7fa939bdbed5b8ce112703ac8ffd",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "8d1ffc056df9d83db8b140341bd89d817c5b6e2dfe695d3a75d99e5874e012bb",
+              "response_sha256": "c645e33c9e43c5e4820e962edcba23eeb92ddf3a8da513926fd371884203504a"
+            }
+          ]
+        },
+        "G2_V000002": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 2,
+            "questions": 2,
+            "answer_task": "ok"
+          },
+          "completed_windows": 68,
+          "memory_complete": true
+        },
+        "G2_V000014": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 23,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00024",
+            "request_hash": "e670184292c9205e24ea57f97a3185aa6db63d153de1e834f774fb0b267c6905",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter"
+          },
+          "matched_evidence": [
+            {
+              "classification": "content_filter",
+              "http_status": 200,
+              "finish_reasons": [
+                "content_filter"
+              ],
+              "diagnostic_sha256": "b7353f08a9da5069e03645febc8a9480517f18a0110cc340336b3ec211614f62",
+              "response_sha256": "8240aaefe506bb0e4a6852a9c6c72094828d3a1be5c23124ed7d65b0d1b8fbde"
+            }
+          ]
+        },
+        "G2_V000009": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 17,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000009:W00018",
+            "request_hash": "b6ada6871b0d43a7d6b6c9eb9a94d7de61da3241c8cce931e96e7f89a863bb2c",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428"
+          },
+          "matched_evidence": [
+            {
+              "classification": "provider_dlp",
+              "http_status": 428,
+              "finish_reasons": [],
+              "diagnostic_sha256": "783336840260b24f135effef88afca8e3523cec2215b34d6863d7131c51787e3",
+              "response_sha256": "b1828c2c408ddc87ce6940725a84f9d13e66ac46979f20cb4af7bfa28dceb6c5"
+            }
+          ]
+        },
+        "G2_V000081": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 3,
+            "questions": 3,
+            "answer_task": "ok"
+          },
+          "completed_windows": 66,
+          "memory_complete": true
+        },
+        "G2_V000117": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 10,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000117:W00011",
+            "request_hash": "37bae620bf405a794dda23a4b9ff3a5fc440c5db2bca10101c8447a7f56cdee0",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "a62c64044baf1773f98d48c233f7edb3023aeea2218670438be45b1080f94bf1",
+              "response_sha256": "7b72ca2b5459f1f253b060865bd47064d9d6b114d0e53807093e28d1158c2266"
+            }
+          ]
+        },
+        "G2_V000138": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 56,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000138:W00057",
+            "request_hash": "dcf96cd3bc762548fd208bf4a6ccc5d2fa75d44739f68edc5c8428fcb1c58090",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "cd00f2b474d334efce02b35de5fa2ddf51ddb19a5e9087b5d2989275c89603ad",
+              "response_sha256": "99fe09d61f11e795742f6681bf779126efde1919c0d55b3f15e7f802f67c6b16"
+            }
+          ]
+        },
+        "G2_V000113": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 54,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000113:W00055",
+            "request_hash": "3bf6b05c621947d8e6deb4de955f6220466c786785b8f1b62e752b44ff7ad4c3",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "5cf32d90cf76f0f35f4ca0dac3cae50d0feaef2cab8b2dfe44b4d753356e1191",
+              "response_sha256": "99a4a35052a689695e60af407ea26c07fbc9ad07ede3564d3cc93a1fe9c5bfb1"
+            }
+          ]
+        },
+        "G2_V000099": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 28,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00029",
+            "request_hash": "12584af2419ff178dce68259c3f4509c6571d556ba4952730c35020e9897bacc",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 428,
+            "service_error_code": "428"
+          },
+          "matched_evidence": [
+            {
+              "classification": "provider_dlp",
+              "http_status": 428,
+              "finish_reasons": [],
+              "diagnostic_sha256": "3a6d4348f5794199e79045e0603ec4847712f0d511a1ef1c3347e8c5986fc6f0",
+              "response_sha256": "52ba78e4b8471f0572c84e4d1b6aac956004edc17ecc85dbfee8cbc54e5ef5a5"
+            }
+          ]
+        },
+        "G2_V000100": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 38,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00039",
+            "request_hash": "70d528afcbf7121103f519c4c2dc2140d8fc433e355e65fe074885a0de742aa0",
+            "failure_stage": "generate",
+            "attempt": 3,
+            "error_type": "ServiceError",
+            "http_status": 429,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "f0bed062c048013160970dc61b0603c31a4f87f0a8878441de5731f99604ae6e",
+              "response_sha256": "ac7e9bd03328d25798238490e76be0a64fccb84cf21b92e0a80d5ceb1e46d14a"
+            },
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "821f1537f2b29a279c5cfe4258496182227e5df0ba60b4955e501b4b4bf101ce",
+              "response_sha256": "7e9d44480c77ecd1901cfac1470d422e86479b2e0d8fa8172a9a2dd2e84906fb"
+            },
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "3ac7b02e85445732d1785881985aaa9bd644db3d0e36e11d75a8a329f94b246b",
+              "response_sha256": "693f872595179bd84a247b436c4d9588abf8f2dcc2de424d592a68fe2559e6d9"
+            }
+          ]
+        },
+        "G2_V000124": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 34,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000124:W00035",
+            "request_hash": "f9c2ded1242c34a5720ad1144af4141e9ae729bf85f33916e8edc7836ebf650b",
+            "failure_stage": "validate",
+            "attempt": 3,
+            "error_type": "ValueError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_validation_failed",
+              "http_status": 200,
+              "finish_reasons": [
+                "stop"
+              ],
+              "diagnostic_sha256": "d882daf34f8abe3748eeccdf9973f4efde8cd2371965ff86e3dba8907bb1af14",
+              "response_sha256": "4a658470e25c22dd2fae2f2ca9fd6e5b574cb8e97110f2dcee251ae658630999"
+            }
+          ]
+        },
+        "G2_V000103": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 62,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00063",
+            "request_hash": "40efaf229894b5bd9de4af6102966c589eee151773dd14565959f015048c9baa",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter"
+          },
+          "matched_evidence": [
+            {
+              "classification": "content_filter",
+              "http_status": 200,
+              "finish_reasons": [
+                "content_filter"
+              ],
+              "diagnostic_sha256": "e57961db7d6714bf5508b165690d5ab2e1af326e4babe3cf403af70c148e1c45",
+              "response_sha256": "56a877b50b09b775e3553bcd46e555df7758bf5fa34f456649a8d93ef34035f4"
+            }
+          ]
+        },
+        "G2_V000101": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 63,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00064",
+            "request_hash": "c011c4308a00924f88b9e2159119b550b582de8b546c9715e2e95c97e0f4b543",
+            "failure_stage": "generate",
+            "attempt": 3,
+            "error_type": "ServiceError",
+            "http_status": 500,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "upstream_internal_error",
+              "http_status": 500,
+              "finish_reasons": [],
+              "diagnostic_sha256": "4d5442664a2be385ab88ddef1f704485930a05d699359e697021e1568ebab748",
+              "response_sha256": "91d658495fafeb1ac803ff89dec895d188844ed4e717c5476f11b69456fcac71"
+            }
+          ]
+        },
+        "G2_V000096": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 19,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000096:W00020",
+            "request_hash": "36dc332b9c524157a849ec936560c7096748a1ec720a3909f7d71927b05e0ff0",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "RuntimeError",
+            "http_status": null,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "output_length",
+              "http_status": 200,
+              "finish_reasons": [
+                "length"
+              ],
+              "diagnostic_sha256": "6bfb6ffa2e42ba50cfda0a9185253a8fd01230dc56f3b228544e8c3012a4a857",
+              "response_sha256": "5a14eebcd356a1cf8ad5c99c51deca78b7b6e93fe634a04f18aa63aa7caa5ce2"
+            }
+          ]
+        },
+        "G2_V000079": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 4,
+            "questions": 4,
+            "answer_task": "ok"
+          },
+          "completed_windows": 66,
+          "memory_complete": true
+        }
+      },
+      "finished": true
+    },
+    "noevent_length5_continuation_20260923": {
+      "accepted": 8,
+      "successful_answers": 9,
+      "judged_attempts": 9,
+      "judgment_failures": {
+        "G2_Q000040": {
+          "content_filter": true,
+          "status": "error"
+        }
+      },
+      "videos": {
+        "G2_V000130": {
+          "pipeline": {
+            "status": "complete",
+            "scored": 4,
+            "questions": 4,
+            "answer_task": "ok"
+          },
+          "completed_windows": 65,
+          "memory_complete": true
+        },
+        "G2_V000015": {
+          "pipeline": {
+            "status": "partial",
+            "scored": 4,
+            "questions": 5,
+            "answer_task": "ok"
+          },
+          "completed_windows": 23,
+          "memory_complete": true
+        },
+        "G2_V000091": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 24,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00025",
+            "request_hash": "a23e9d7a640f92e9900f67a4ae2a317201b4f959e1fd54ec9a82206e1ea9f24c",
+            "failure_stage": "generate",
+            "attempt": 3,
+            "error_type": "ServiceError",
+            "http_status": 429,
+            "service_error_code": null
+          },
+          "matched_evidence": [
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "24c8add14fe99967524da50f19a2a48cb867321fdf35809eea4174015843b21e",
+              "response_sha256": "931a689ef16c305d55bc8ff27e67600e627865ea4fa21ddbb704e023322edd39"
+            },
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "437d8243a8ea59de7bd5090414d823097c729c4c344ad0e9342e4f0ed8778321",
+              "response_sha256": "33c69435dd0dae8aad1f25fad8a1853eb328a634ad7ce9a3b05eff3c7d1ac842"
+            },
+            {
+              "classification": "upstream_resource_exhausted",
+              "http_status": 429,
+              "finish_reasons": [],
+              "diagnostic_sha256": "ad4d03ef7036dd93e5cfb38f4920227851f57cfc414ce2cf84875a1585969197",
+              "response_sha256": "d0c7b4c6fcc4abefbb9be0b58d08cfaa58ec810bc7e60c5576ba8962c516ea4c"
+            }
+          ]
+        },
+        "G2_V000113": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 58,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "window_perception:G2_V000113:W00059",
+            "request_hash": "7ea303c9388f3365f1181dad65fa66b394ed8b1801153b5010f6a10f9d3bc189",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter"
+          },
+          "matched_evidence": [
+            {
+              "classification": "content_filter",
+              "http_status": 200,
+              "finish_reasons": [
+                "content_filter"
+              ],
+              "diagnostic_sha256": "1d81716596c2a3f4752fb87d2652bfdb622356bd63876a5a86756252750c5569",
+              "response_sha256": "4d467a61eb326c8abf33e3f88cb2e242207318fc39a4c909028910baa8604c15"
+            }
+          ]
+        },
+        "G2_V000096": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 31,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00032",
+            "request_hash": "c9bb3c72347fa1f64e3d0baad6b13d020b045cffe6c3c30eda1972dfe3b3114a",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter"
+          },
+          "matched_evidence": [
+            {
+              "classification": "content_filter",
+              "http_status": 200,
+              "finish_reasons": [
+                "content_filter"
+              ],
+              "diagnostic_sha256": "8b53ff8f82cc878009e0cb894588ede53008bdcf54be4bf6222490b02f09a6b1",
+              "response_sha256": "0c205c7247b3371429e552eaae948cdebf6c887996c849e79323b9f7783d10eb"
+            }
+          ]
+        }
+      },
+      "finished": true
+    },
+    "noevent_embedding_recovery_20260923_v2": {
+      "accepted": 2,
+      "successful_answers": 2,
+      "judged_attempts": 2,
+      "judgment_failures": {},
+      "videos": {},
+      "finished": false
+    },
+    "noevent_v31_seed_continuation_20260923": {
+      "accepted": 0,
+      "successful_answers": 0,
+      "judged_attempts": 0,
+      "judgment_failures": {},
+      "videos": {
+        "G2_V000031": {
+          "pipeline": {
+            "status": "build_failed"
+          },
+          "completed_windows": 45,
+          "memory_complete": false,
+          "final_failure": {
+            "purpose": "audio_observer:W00046",
+            "request_hash": "004b10ed27ef9221aafa7d2981152ad2a8c1e9ab112ff8ada40ad6429f3cd710",
+            "failure_stage": "generate",
+            "attempt": 1,
+            "error_type": "ServiceError",
+            "http_status": 200,
+            "service_error_code": "content_filter"
+          },
+          "matched_evidence": [
+            {
+              "classification": "content_filter",
+              "http_status": 200,
+              "finish_reasons": [
+                "content_filter"
+              ],
+              "diagnostic_sha256": "ebcefbfb7881fd563da23712fe49e1968c97691da945df64b5dea81ec43dd302",
+              "response_sha256": "9102d5327af97a9d5f9850d280419f535336bfa3d483f5892073fd390cfb7082"
+            }
+          ]
+        }
+      },
+      "finished": true
+    }
+  },
+  "successful_answers_without_judgment": [],
+  "valid_judgments_without_accepted": []
+}
