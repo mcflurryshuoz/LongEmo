@@ -1,0 +1,1185 @@
+{
+  "G2_V000001": {
+    "video_id": "G2_V000001",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000001/memory/G2_V000001/memory.json",
+    "status": "ready",
+    "source_sha256": "fced3d123b9847891eb09acd0a1f72811a3e280e864c91d3f57eb68124f25884",
+    "completed_windows": 13,
+    "observations": 78,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000001.json",
+    "receipt_sha256": "fcbde337767aaeb57a92718f8d6475786e465fa60568a34706ef3b7dc1cd50db"
+  },
+  "G2_V000002": {
+    "video_id": "G2_V000002",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000002/memory/G2_V000002/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "29f78d00875005b204f48d9b9066745cb481fb710e5a871f17af6462bf69b940",
+    "completed_windows": 32,
+    "observations": 216
+  },
+  "G2_V000003": {
+    "video_id": "G2_V000003",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000003/memory/G2_V000003/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "ea8b12c67c624017f0b83051ea471d181126ef93cee1d11ce3c82d50d918ca1c",
+    "completed_windows": 21,
+    "observations": 162
+  },
+  "G2_V000004": {
+    "video_id": "G2_V000004",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000004/memory/G2_V000004/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "94163f0d533e608d1653d8581d719fbd8015e265401e7529cc25bd9d362c86c9",
+    "completed_windows": 7,
+    "observations": 33
+  },
+  "G2_V000005": {
+    "video_id": "G2_V000005",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000005/memory/G2_V000005/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "8d6f3fed184903b1f0b90edc675dc7906ef4854d3060d001e6a7d53626b936da",
+    "completed_windows": 17,
+    "observations": 56
+  },
+  "G2_V000006": {
+    "video_id": "G2_V000006",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000006/memory/G2_V000006/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "22fa1a7b4c65e2211c3595da33df371a50e48641fb20f7a896353157a2c0d804",
+    "completed_windows": 4,
+    "observations": 27
+  },
+  "G2_V000007": {
+    "video_id": "G2_V000007",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000007/memory/G2_V000007/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "46ecbe68448337ec34f5ce5ab5a16bb65189dcc58e721b1a708100c8591bfc05",
+    "completed_windows": 6,
+    "observations": 17
+  },
+  "G2_V000008": {
+    "video_id": "G2_V000008",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000008/memory/G2_V000008/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f93edd5b3cc0e1da89e74618f7b2d644ba0f366474186f00e015b37b3c3cbe6b",
+    "completed_windows": 35,
+    "observations": 181
+  },
+  "G2_V000009": {
+    "video_id": "G2_V000009",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000009/memory/G2_V000009/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "641fdc9aacbf38c7956124ce5b065e8c0d659e4d7db1c78fb44127437ac8371e",
+    "completed_windows": 5,
+    "observations": 26
+  },
+  "G2_V000010": {
+    "video_id": "G2_V000010",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000010/memory/G2_V000010/memory.json",
+    "status": "ready",
+    "source_sha256": "802e0df018e3579f045be5aa5b19bd43db150e4ccd6d6daa447175498edd8527",
+    "completed_windows": 25,
+    "observations": 143,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000010.json",
+    "receipt_sha256": "9f6c038eb4b9f2b98123de3ece806a7b8f9e48baa2762e765913de098e9d1c18"
+  },
+  "G2_V000011": {
+    "video_id": "G2_V000011",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000011/memory/G2_V000011/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "d2ed4c6ad87e33d83a375ef2b750dcc5521572e9ed184005047c403a08ec2962",
+    "completed_windows": 15,
+    "observations": 67
+  },
+  "G2_V000012": {
+    "video_id": "G2_V000012",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000012/memory/G2_V000012/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f69819824a457453af4929d59073cd14eca50836b34852061f16efb0757d4961",
+    "completed_windows": 41,
+    "observations": 245
+  },
+  "G2_V000013": {
+    "video_id": "G2_V000013",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000013/memory/G2_V000013/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "63d1983be079de61300890cbdf268810c0569b8673d2cd791cf27bc8aac630de",
+    "completed_windows": 10,
+    "observations": 53
+  },
+  "G2_V000014": {
+    "video_id": "G2_V000014",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000014/memory/G2_V000014/memory.json",
+    "status": "ready",
+    "source_sha256": "b5529f3ae17b21219b9fd2d43ba7995a8941983e64522b170b5cd84f66af1426",
+    "completed_windows": 29,
+    "observations": 165,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000014.json",
+    "receipt_sha256": "76a7fea9ca81622f5097f2f1aa17c2a142763e027e0184cb54a0a944cf815b68"
+  },
+  "G2_V000015": {
+    "video_id": "G2_V000015",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000015/memory/G2_V000015/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "9690c8c1978d315330634207da0b5596259ee50d542766a8984180ea7456d72b",
+    "completed_windows": 6,
+    "observations": 41
+  },
+  "G2_V000016": {
+    "video_id": "G2_V000016",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000016/memory/G2_V000016/memory.json",
+    "status": "ready",
+    "source_sha256": "c196e0af8e9c1611b26347ecf9402a95cf3a458f2202c85fc2d2c8c7528e7cb5",
+    "completed_windows": 19,
+    "observations": 118,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000016.json",
+    "receipt_sha256": "a1a8430229e1227d8d80eea54d75ba6c8e54650ce9f85c9c8fb89212c528455d"
+  },
+  "G2_V000017": {
+    "video_id": "G2_V000017",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000017/memory/G2_V000017/memory.json",
+    "status": "ready",
+    "source_sha256": "716a56e961072aaf23854d496c5e59383f0f37d8141d37e3a68639db108046df",
+    "completed_windows": 26,
+    "observations": 106,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000017.json",
+    "receipt_sha256": "311ce0c84c036ac0c48388bd53b8553ca5820a6274422373bb1b96732b12132c"
+  },
+  "G2_V000018": {
+    "video_id": "G2_V000018",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000018/memory/G2_V000018/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "b40cc495824cfe120c7b304e128637967dcf5a7237468346a6c31b0fc5a16004",
+    "completed_windows": 4,
+    "observations": 21
+  },
+  "G2_V000019": {
+    "video_id": "G2_V000019",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000019/memory/G2_V000019/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "34d3b6ba4955088039cc15b79187eda2a2ccc4012abed9e9f22e70c39653451b",
+    "completed_windows": 20,
+    "observations": 57
+  },
+  "G2_V000020": {
+    "video_id": "G2_V000020",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000020/memory/G2_V000020/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "87da2042fa6dbc7e175c41bb8582474677bd4254e42793696f4469f683f99b05",
+    "completed_windows": 6,
+    "observations": 24
+  },
+  "G2_V000021": {
+    "video_id": "G2_V000021",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000021/memory/G2_V000021/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "2b08ac5e91435817272fae3e1e4386909bbb996e62dff565859d94c436f39ea1",
+    "completed_windows": 23,
+    "observations": 123
+  },
+  "G2_V000022": {
+    "video_id": "G2_V000022",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000022/memory/G2_V000022/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "5b38314e4d6de060ddc433e2a136d7fb954c7c69ee22d4db5eda1ad52656be79",
+    "completed_windows": 10,
+    "observations": 49
+  },
+  "G2_V000023": {
+    "video_id": "G2_V000023",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000023/memory/G2_V000023/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "34210628a8e2137e3a3d2667623abf6ed20db815a0c84c1342b4a15bdb6ab1a3",
+    "completed_windows": 4,
+    "observations": 27
+  },
+  "G2_V000024": {
+    "video_id": "G2_V000024",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000024/memory/G2_V000024/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "0063d851410202da1db8f22d632c9295a310437a64c5337425eac5c2485f33b2",
+    "completed_windows": 2,
+    "observations": 16
+  },
+  "G2_V000025": {
+    "video_id": "G2_V000025",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000025/memory/G2_V000025/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "86b0e38f2bac5c4ba9680be1038f4d15eca9a874c8fbd69594aa2f61afdcca18",
+    "completed_windows": 3,
+    "observations": 15
+  },
+  "G2_V000026": {
+    "video_id": "G2_V000026",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000026/memory/G2_V000026/memory.json",
+    "status": "ready",
+    "source_sha256": "4f944dd9f0d4efbf9554079c732450ead5ccaa9563c6d39543c4d99cd6d89456",
+    "completed_windows": 34,
+    "observations": 215,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000026.json",
+    "receipt_sha256": "9951e7d862cfe14c6bf82dc8a3ceb7671cbe3b0f5d399c90ec2c4357615d4f0f"
+  },
+  "G2_V000027": {
+    "video_id": "G2_V000027",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000027/memory/G2_V000027/memory.json",
+    "status": "ready",
+    "source_sha256": "a1929b60a6a8370b6884446a0ec4fb8805d1fe03fec125f8e9157dbf4abc893f",
+    "completed_windows": 34,
+    "observations": 191,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000027.json",
+    "receipt_sha256": "d12af1573c792c400a7204398969820b73eda99b5d9add61f9eb57a30bfbd044"
+  },
+  "G2_V000028": {
+    "video_id": "G2_V000028",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000028/memory/G2_V000028/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "637fe9185c679ecae9cd25b46cd25f47782292346cd14c7af9e3708b36faf542",
+    "completed_windows": 76,
+    "observations": 462
+  },
+  "G2_V000029": {
+    "video_id": "G2_V000029",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000029/memory/G2_V000029/memory.json",
+    "status": "ready",
+    "source_sha256": "f40efb98f3e60345e766973697e82b59369bb34947c3ce25d296683e6e5e0958",
+    "completed_windows": 48,
+    "observations": 301,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000029.json",
+    "receipt_sha256": "1725955b7a5e5b6fc45d9873191b45aa6c0eebfa81b38b5094849b3900553b1f"
+  },
+  "G2_V000030": {
+    "video_id": "G2_V000030",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000030/memory/G2_V000030/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "95e498f0ff40feaad68de52f708c75d39b8046f8a26679d6829b5334c409342d",
+    "completed_windows": 14,
+    "observations": 80
+  },
+  "G2_V000031": {
+    "video_id": "G2_V000031",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000031/memory/G2_V000031/memory.json",
+    "status": "ready",
+    "source_sha256": "8211c1dc0e8e2ba6fcdc36394715f89cce7bfa35ab033e27554990fc091dae2b",
+    "completed_windows": 60,
+    "observations": 422,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000031.json",
+    "receipt_sha256": "842f198de477ecf6eb83bcf63dc27317f97413f11ba0a4e29e1897b4bfffef93"
+  },
+  "G2_V000032": {
+    "video_id": "G2_V000032",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000032/memory/G2_V000032/memory.json",
+    "status": "ready",
+    "source_sha256": "5b32290b4fe46eebbff00c5a071d768f43d5cbbddb2736d4633040b535804b50",
+    "completed_windows": 70,
+    "observations": 405,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000032.json",
+    "receipt_sha256": "52b9d07ecd10703c51ce53dd86b62aeed13850404c8e24da16fcdd6b5b70e96e"
+  },
+  "G2_V000033": {
+    "video_id": "G2_V000033",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000033/memory/G2_V000033/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "44d607bcafe99d9269058a5d6e860cbd6a58e56ace85e6734a32d10588533575",
+    "completed_windows": 11,
+    "observations": 57
+  },
+  "G2_V000034": {
+    "video_id": "G2_V000034",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000034/memory/G2_V000034/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "5186983a0f0711428e977192ebb73756e4c13916861ea26f47d41277b8791bca",
+    "completed_windows": 39,
+    "observations": 246
+  },
+  "G2_V000035": {
+    "video_id": "G2_V000035",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000035/memory/G2_V000035/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f759e9e0c4fa6678dcbdf7b8495c1bd0c50a8fb90afea9ec4ed1780eada47144",
+    "completed_windows": 15,
+    "observations": 95
+  },
+  "G2_V000036": {
+    "video_id": "G2_V000036",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000036/memory/G2_V000036/memory.json",
+    "status": "ready",
+    "source_sha256": "85810de2b46095b9891fa173aa30b577f0187f07fd7a81e8facd8a1da8b431ad",
+    "completed_windows": 67,
+    "observations": 419,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000036.json",
+    "receipt_sha256": "cc0b6f713dc3b11542fb6ef195a41aecc2add64c192abda13e9e6e2acb2d51ad"
+  },
+  "G2_V000037": {
+    "video_id": "G2_V000037",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000037/memory/G2_V000037/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "9e2fe4dd8689e1e13ff80be9638946bf56295fae687f6cca29132bcb8b00f2aa",
+    "completed_windows": 9,
+    "observations": 45
+  },
+  "G2_V000038": {
+    "video_id": "G2_V000038",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000038/memory/G2_V000038/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "0792acc3e53ab68ceae7e15b86118a4768903fffea290fca8b588131eb03b312",
+    "completed_windows": 8,
+    "observations": 55
+  },
+  "G2_V000039": {
+    "video_id": "G2_V000039",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000039/memory/G2_V000039/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "e8ee03061aa6f65b88aab9b2a8b0b141e6f3430188ae17b6e0e22b342c83fc55",
+    "completed_windows": 3,
+    "observations": 20
+  },
+  "G2_V000040": {
+    "video_id": "G2_V000040",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000040/memory/G2_V000040/memory.json",
+    "status": "ready",
+    "source_sha256": "6e08e2aa8b6a3f99444614596a268cf9ac46126bc6064160e64309c2f670b66f",
+    "completed_windows": 66,
+    "observations": 410,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000040.json",
+    "receipt_sha256": "5d95af610b606673b3e3dc75a5947e1284cc7d02c4b8d35379504735430774a4"
+  },
+  "G2_V000041": {
+    "video_id": "G2_V000041",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000041/memory/G2_V000041/memory.json",
+    "status": "ready",
+    "source_sha256": "55002e35846cedb5c435a344d4839d9607f1e98b38fc5e533511faf356b621b5",
+    "completed_windows": 65,
+    "observations": 355,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000041.json",
+    "receipt_sha256": "1ffab600ef7eb1546543609ff1e2d7abf8ad719a64caa9e03fa73a3d9bffe1cc"
+  },
+  "G2_V000042": {
+    "video_id": "G2_V000042",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000042/memory/G2_V000042/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "d43b1c24b363e0bbe037811887f288f5238036d00c762476f6d5754e26bc0703",
+    "completed_windows": 10,
+    "observations": 90
+  },
+  "G2_V000043": {
+    "video_id": "G2_V000043",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000043/memory/G2_V000043/memory.json",
+    "status": "ready",
+    "source_sha256": "1d074059d4864a42ff0bfd76e9a60fd16f348136e5a6420bec0be31018aaf5bc",
+    "completed_windows": 67,
+    "observations": 379,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000043.json",
+    "receipt_sha256": "bc5e695721d06b7fd9c43eb01c7eb1a52f192be95070060f707e7447b9421466"
+  },
+  "G2_V000044": {
+    "video_id": "G2_V000044",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000044/memory/G2_V000044/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "04bd283c0d0ea6bb4cf5c16d63d601070d20d3f64ac6693e70d7ef58248c64ea",
+    "completed_windows": 36,
+    "observations": 190
+  },
+  "G2_V000045": {
+    "video_id": "G2_V000045",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000045/memory/G2_V000045/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "36eaf00a8ec66254c2259c216b872bdbf2c4c90909643d452a660a8beab29e9b",
+    "completed_windows": 4,
+    "observations": 27
+  },
+  "G2_V000046": {
+    "video_id": "G2_V000046",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000046/memory/G2_V000046/memory.json",
+    "status": "ready",
+    "source_sha256": "f6e12bb0ebc454287d73898b460bd6ad9a03a76e0004eaba383ea1df5941d15a",
+    "completed_windows": 59,
+    "observations": 407,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000046.json",
+    "receipt_sha256": "d4de096a5a4d5ba92803f45780c4df2804c61b5b14c298187e0d00c95976e956"
+  },
+  "G2_V000047": {
+    "video_id": "G2_V000047",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000047/memory/G2_V000047/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "e978c47620332c4fa09939e7f7aab7fa61dacf7567acf3d99e8c0d6fdf95220c",
+    "completed_windows": 1,
+    "observations": 4
+  },
+  "G2_V000048": {
+    "video_id": "G2_V000048",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000048/memory/G2_V000048/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "5e7c2e67c76d2d271a90da564d5944fc071101fc728d23e781d10f1141623a09",
+    "completed_windows": 11,
+    "observations": 72
+  },
+  "G2_V000049": {
+    "video_id": "G2_V000049",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000049/memory/G2_V000049/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f12b8e412751f1d6a0575e49eefae1dc00b95e66afd1f54437f3d962e914eb78",
+    "completed_windows": 9,
+    "observations": 62
+  },
+  "G2_V000050": {
+    "video_id": "G2_V000050",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000050/memory/G2_V000050/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "db53f6c9b06b3071791a8e8182e823b6c2ba32d8263eeb1d9fc27b0ec92d6858",
+    "completed_windows": 1,
+    "observations": 6
+  },
+  "G2_V000051": {
+    "video_id": "G2_V000051",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000051/memory/G2_V000051/memory.json",
+    "status": "ready",
+    "source_sha256": "b22fdc4b52642930dd109e45b5cbcbd44beaa5f95367aab67bff2125f5f6319f",
+    "completed_windows": 67,
+    "observations": 372,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000051.json",
+    "receipt_sha256": "e39af246ea09c632848d34114172d7527a9f9c1094ea90fa6f2d51f05e430d37"
+  },
+  "G2_V000052": {
+    "video_id": "G2_V000052",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000052/memory/G2_V000052/memory.json",
+    "status": "ready",
+    "source_sha256": "2fb53068f43364e982fa488712cb81fb7b9c685844c4dc03040d3535abd905de",
+    "completed_windows": 61,
+    "observations": 349,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000052.json",
+    "receipt_sha256": "bb7f3dce20f99c4c3ee4c47dda24cd3291e4c763e755ff10b3f3d7431b8c8d51"
+  },
+  "G2_V000053": {
+    "video_id": "G2_V000053",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000053/memory/G2_V000053/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "85869c8335004ec5b9b8bf5fb71871b62264646183917688f34c9f364dcd4b41",
+    "completed_windows": 12,
+    "observations": 73
+  },
+  "G2_V000054": {
+    "video_id": "G2_V000054",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000054/memory/G2_V000054/memory.json",
+    "status": "ready",
+    "source_sha256": "9d837d5c2b0774e24a13ff094b9927f9463c9f9978e8f04783a4437820a8fc24",
+    "completed_windows": 54,
+    "observations": 307,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000054.json",
+    "receipt_sha256": "a5d6519b2ffff8fb6b8158791b3a5c008ee6755b02914d4dd6d185119f2011c8"
+  },
+  "G2_V000055": {
+    "video_id": "G2_V000055",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000055/memory/G2_V000055/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "850f81fec7faa27b4d8b508e8cf5151de2fc2a97e8f0508c32b44cff6b2ffd68",
+    "completed_windows": 40,
+    "observations": 226
+  },
+  "G2_V000056": {
+    "video_id": "G2_V000056",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000056/memory/G2_V000056/memory.json",
+    "status": "ready",
+    "source_sha256": "d61add60a472e9f4d505bd6d21fed641b0ac6a94c9f1866b17b41c19c0d743f4",
+    "completed_windows": 65,
+    "observations": 356,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000056.json",
+    "receipt_sha256": "9b976b4ae468466651448266e24b595c82ec60415029841c647b2b5555d45ed5"
+  },
+  "G2_V000057": {
+    "video_id": "G2_V000057",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000057/memory/G2_V000057/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "0f439ceb3f3a3d588415ca7c06ca49b92513b252314c252b1f5ed3dd28b30821",
+    "completed_windows": 33,
+    "observations": 188
+  },
+  "G2_V000058": {
+    "video_id": "G2_V000058",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000058/memory/G2_V000058/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "e540aef8ec0839c264cdeb51b8318be5d1be9be073e638f0481ea3800224e4dd",
+    "completed_windows": 21,
+    "observations": 106
+  },
+  "G2_V000059": {
+    "video_id": "G2_V000059",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000059/memory/G2_V000059/memory.json",
+    "status": "ready",
+    "source_sha256": "f08eb55dda7902d8ba2bf5054080dfc22b55c248b16bf82b9f53a15b89f428a6",
+    "completed_windows": 67,
+    "observations": 433,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000059.json",
+    "receipt_sha256": "5fd49165ab6dd2f36ce594886b91a43871bccbdfd13dab6eea5b441766c7c021"
+  },
+  "G2_V000060": {
+    "video_id": "G2_V000060",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000060/memory/G2_V000060/memory.json",
+    "status": "ready",
+    "source_sha256": "f43b9f62d33af438de04f1cacd7cd7b929c5ea47b83e2aec16f2fa13d6fcbee6",
+    "completed_windows": 53,
+    "observations": 330,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000060.json",
+    "receipt_sha256": "0d47af10693c457f0ba6c2b90cd5ad8f4808ac7a94b3eaf01d0a96ea308d9e1d"
+  },
+  "G2_V000061": {
+    "video_id": "G2_V000061",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000061/memory/G2_V000061/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "8e530ce920c1af67443b7af2bc68a9214c9d9dd50fc122d1ea921b73cb9f11af",
+    "completed_windows": 47,
+    "observations": 256
+  },
+  "G2_V000062": {
+    "video_id": "G2_V000062",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000062/memory/G2_V000062/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "af60caa34e3fd7a93bd0567f4ae1d3823db4d0dcf47666db63b12cc3c79ad25d",
+    "completed_windows": 4,
+    "observations": 23
+  },
+  "G2_V000063": {
+    "video_id": "G2_V000063",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000063/memory/G2_V000063/memory.json",
+    "status": "ready",
+    "source_sha256": "c4c3416a07b0c9839076d8bc0d9790499bf7266822318bf82292c20748853f48",
+    "completed_windows": 77,
+    "observations": 328,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000063.json",
+    "receipt_sha256": "b9d87aaf9094a270274af47cde814771c8bd3deb0d9c522ff56497d245ec1eec"
+  },
+  "G2_V000064": {
+    "video_id": "G2_V000064",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000064/memory/G2_V000064/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "93d68f08dbad02f6c7c68a127db685173ce087a194c8166d436625a6f88e6a57",
+    "completed_windows": 36,
+    "observations": 218
+  },
+  "G2_V000065": {
+    "video_id": "G2_V000065",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000065/memory/G2_V000065/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "52d5500bc9d65330a599833580cf3fbf284c57dc45d52585f7e83a6a000dfb1a",
+    "completed_windows": 28,
+    "observations": 115
+  },
+  "G2_V000066": {
+    "video_id": "G2_V000066",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000066/memory/G2_V000066/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "33762a159bba4505fb82d5523647c9952dae8737b4b4c02a18600f8d1650e510",
+    "completed_windows": 17,
+    "observations": 95
+  },
+  "G2_V000067": {
+    "video_id": "G2_V000067",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000067/memory/G2_V000067/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "ddf5676b60e30e9fc14e8996ef4e0fe684fe738ba0db040cbdc8522600527eac",
+    "completed_windows": 2,
+    "observations": 8
+  },
+  "G2_V000068": {
+    "video_id": "G2_V000068",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000068/memory/G2_V000068/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "3e694c1ac62c8b4d21fdfe6e032bdafd6c78458291a08e2306dfde0008c3ce11",
+    "completed_windows": 13,
+    "observations": 86
+  },
+  "G2_V000069": {
+    "video_id": "G2_V000069",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000069/memory/G2_V000069/memory.json",
+    "status": "ready",
+    "source_sha256": "37ba98e1297b36b7192d35f2b2f9f60958a6e5d38c9addc92f7a32f043efab15",
+    "completed_windows": 21,
+    "observations": 139,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000069.json",
+    "receipt_sha256": "6e6709c20f5de12b52259fd2dbacb2271a91048a293dfe01325c90fb50289717"
+  },
+  "G2_V000070": {
+    "video_id": "G2_V000070",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000070/memory/G2_V000070/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "74645e79946d7ecc62039eeed5dd7f6d79d26ab19f1b0b673f05c6bab9daa658",
+    "completed_windows": 34,
+    "observations": 204
+  },
+  "G2_V000071": {
+    "video_id": "G2_V000071",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000071/memory/G2_V000071/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "4cfa964cd77b6c8c88a3be78fba7a43b308861fe16b6376258631672b81f2fe8",
+    "completed_windows": 3,
+    "observations": 3
+  },
+  "G2_V000072": {
+    "video_id": "G2_V000072",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000072/memory/G2_V000072/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f7dd18358ac187255ba25c47e5073bc29678b9aa9398ec0f0a3907ae583594d0",
+    "completed_windows": 16,
+    "observations": 94
+  },
+  "G2_V000073": {
+    "video_id": "G2_V000073",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000073/memory/G2_V000073/memory.json",
+    "status": "ready",
+    "source_sha256": "acb60978420d0988510192286112ebcd629eb30664ad8af84542b06bebac1324",
+    "completed_windows": 40,
+    "observations": 172,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000073.json",
+    "receipt_sha256": "a2a5d832eb515ba88e4d3ab73499f7ee5a0fbf9dac40918074ee459471a503cd"
+  },
+  "G2_V000074": {
+    "video_id": "G2_V000074",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000074/memory/G2_V000074/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "8c5a670c9a493aa98e3a16b26953105d5e8a4df9926326ed3182771f666bca86",
+    "completed_windows": 16,
+    "observations": 117
+  },
+  "G2_V000075": {
+    "video_id": "G2_V000075",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000075/memory/G2_V000075/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f999ed7530c475ab3782e3ea6dd7116f168d34e68c74ad3ee76a893476125627",
+    "completed_windows": 4,
+    "observations": 24
+  },
+  "G2_V000076": {
+    "video_id": "G2_V000076",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000076/memory/G2_V000076/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "1e85e76e77fc77e73d3d2533c9ee388cf58f9e9525b6f9f254baa9fd7f6d041d",
+    "completed_windows": 55,
+    "observations": 342
+  },
+  "G2_V000077": {
+    "video_id": "G2_V000077",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000077/memory/G2_V000077/memory.json",
+    "status": "ready",
+    "source_sha256": "184fc9a06e5aa20c69b82264ab6c5e29185302843a370a9efd166c9af5f4c2a6",
+    "completed_windows": 66,
+    "observations": 376,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000077.json",
+    "receipt_sha256": "c2caa5c4f1f0f272c4eeb4f9a05bcd25755d14d952efa2ab6aff8070555c81e3"
+  },
+  "G2_V000078": {
+    "video_id": "G2_V000078",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000078/memory/G2_V000078/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "46191b3953af2628ae209e7fe0f59eb9d5aafdfa656c6e0b8c27b26bff126226",
+    "completed_windows": 16,
+    "observations": 99
+  },
+  "G2_V000079": {
+    "video_id": "G2_V000079",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000079/memory/G2_V000079/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "735398c12149bd29cc9d5f378c9ebe7e8e941849e785ad3f0eba89b4f46ab207",
+    "completed_windows": 37,
+    "observations": 224
+  },
+  "G2_V000080": {
+    "video_id": "G2_V000080",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000080/memory/G2_V000080/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f379d3be33a1e81b46cfec280c5280fd64e7e9e7380395a0e214f96e9b108c54",
+    "completed_windows": 16,
+    "observations": 66
+  },
+  "G2_V000081": {
+    "video_id": "G2_V000081",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000081/memory/G2_V000081/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "4385fece38bc6c80fd6d4c1425850a866f20ab62c6c06f5ff7c23edd3dc287b3",
+    "completed_windows": 10,
+    "observations": 59
+  },
+  "G2_V000082": {
+    "video_id": "G2_V000082",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000082/memory/G2_V000082/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "6664ccc7bc574f7880cb00a33722a7a882b136dac10eca5c4fce3407f3e4d021",
+    "completed_windows": 33,
+    "observations": 112
+  },
+  "G2_V000083": {
+    "video_id": "G2_V000083",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000083/memory/G2_V000083/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "42f7fcb2f8915efcb50d740545bcff6a0a60a4e98c4d73d395c38e512f84a1cf",
+    "completed_windows": 64,
+    "observations": 385
+  },
+  "G2_V000084": {
+    "video_id": "G2_V000084",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000084/memory/G2_V000084/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "5f8ce54ca7d8774119f2c0f0e907d343ee50678fe90a7598bc4662d6e4d6459b",
+    "completed_windows": 13,
+    "observations": 58
+  },
+  "G2_V000085": {
+    "video_id": "G2_V000085",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000085/memory/G2_V000085/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f1d950c48b2d8c18a21858e3e92890cf1e68d34ad4c77354d5203d1acb21cbfb",
+    "completed_windows": 14,
+    "observations": 98
+  },
+  "G2_V000086": {
+    "video_id": "G2_V000086",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000086/memory/G2_V000086/memory.json",
+    "status": "ready",
+    "source_sha256": "ea6b0291d25ecb823ffc70918a5817ef47f9ab82166d8c9a00f1bdb91f21e3a7",
+    "completed_windows": 66,
+    "observations": 397,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000086.json",
+    "receipt_sha256": "8938743da1512432fbaa917f53d9873af9a6cfab316af2f0fa14606ae96eaa1f"
+  },
+  "G2_V000087": {
+    "video_id": "G2_V000087",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000087/memory/G2_V000087/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "815358cf91b1aad606400336ff01fd8d9a6064624859de13020a7b3ed2286995",
+    "completed_windows": 9,
+    "observations": 48
+  },
+  "G2_V000088": {
+    "video_id": "G2_V000088",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000088/memory/G2_V000088/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "7d6de130b6edd1945ad07cbc396d28a4b433f7e4318e850eb5aded5013c3f64a",
+    "completed_windows": 11,
+    "observations": 78
+  },
+  "G2_V000089": {
+    "video_id": "G2_V000089",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000089/memory/G2_V000089/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "6fa0ed0b18f984ef8c6a91d429fecab11bb3d1e97bc681d404b90d8bef9d7a2c",
+    "completed_windows": 4,
+    "observations": 17
+  },
+  "G2_V000090": {
+    "video_id": "G2_V000090",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000090/memory/G2_V000090/memory.json",
+    "status": "ready",
+    "source_sha256": "9051d4cbb9e356d450ddc601739f908ca769bd03fe09c31e47efb5c4cb206d4d",
+    "completed_windows": 66,
+    "observations": 408,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000090.json",
+    "receipt_sha256": "45fb339188371bec213d877af95382d17bef2c05437192bcd1705060283c7d08"
+  },
+  "G2_V000091": {
+    "video_id": "G2_V000091",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000091/memory/G2_V000091/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "70c860db52693f8738d0bcd2f4ba4ffa2f9b92b2ec71e5c2b90ee8e1f3e9817c",
+    "completed_windows": 27,
+    "observations": 145
+  },
+  "G2_V000092": {
+    "video_id": "G2_V000092",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000092/memory/G2_V000092/memory.json",
+    "status": "ready",
+    "source_sha256": "0de8c6028a1f3e30e8f0b130d15152ed5c9f5de50ec2bf0418d5be5f958271f4",
+    "completed_windows": 66,
+    "observations": 374,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000092.json",
+    "receipt_sha256": "ecca81bd3e2b4a458332fcc25bb26674d3542aa0c91730ec8237b1fd768f1819"
+  },
+  "G2_V000093": {
+    "video_id": "G2_V000093",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000093/memory/G2_V000093/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "2e60f834882a4ca26259c814da67ffb30992e9e3071b6bd9332b4c2f61b4cf36",
+    "completed_windows": 29,
+    "observations": 175
+  },
+  "G2_V000094": {
+    "video_id": "G2_V000094",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000094/memory/G2_V000094/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "c2ec2504e0501f19b9dc8a664c042526ef3c8e24bfcd571a4576d368fa998985",
+    "completed_windows": 49,
+    "observations": 282
+  },
+  "G2_V000095": {
+    "video_id": "G2_V000095",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000095/memory/G2_V000095/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "5aaa985ebc0d18eef95f479cd07744ec1add7577c878b2098eff3ea71f391ace",
+    "completed_windows": 32,
+    "observations": 206
+  },
+  "G2_V000096": {
+    "video_id": "G2_V000096",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000096/memory/G2_V000096/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "e74711e6a9f9b2577eb34a70f3a92b48a7631cef21160b4091bac531e99f08b2",
+    "completed_windows": 12,
+    "observations": 86
+  },
+  "G2_V000097": {
+    "video_id": "G2_V000097",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000097/memory/G2_V000097/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "4a2d92e6a02307e7d0ef10568bdf15d6a39bdc2a397d14b7ef45ebf1d7a33423",
+    "completed_windows": 17,
+    "observations": 118
+  },
+  "G2_V000098": {
+    "video_id": "G2_V000098",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000098/memory/G2_V000098/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "48aeacc9e759f502320a3345b1e1e272b8d6bd5e3b184d6342139df40b633543",
+    "completed_windows": 8,
+    "observations": 61
+  },
+  "G2_V000099": {
+    "video_id": "G2_V000099",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000099/memory/G2_V000099/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "06f41944dfb6d145e785bb688e2525eebd0d7d47d74bcce90b5bfcdbed359800",
+    "completed_windows": 2,
+    "observations": 11
+  },
+  "G2_V000100": {
+    "video_id": "G2_V000100",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000100/memory/G2_V000100/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "381383683cfb0443c4f925cb1451f1962fdb64c821cb02858c727d065c41f32b",
+    "completed_windows": 48,
+    "observations": 316
+  },
+  "G2_V000101": {
+    "video_id": "G2_V000101",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000101/memory/G2_V000101/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "af4af1ff7776ba4eb43e7b284c20cc0cd0b9b2cb643eb886ddb59a7607c0c709",
+    "completed_windows": 17,
+    "observations": 108
+  },
+  "G2_V000102": {
+    "video_id": "G2_V000102",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000102/memory/G2_V000102/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f1c9ceb357ba17eefcf985dd61375670f61fca581561c201d8efc705b8449af9",
+    "completed_windows": 42,
+    "observations": 251
+  },
+  "G2_V000103": {
+    "video_id": "G2_V000103",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000103/memory/G2_V000103/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "603234622e4b348d952c30e72520cbca58ff2f93b092352e9a51aee851aa67c3",
+    "completed_windows": 22,
+    "observations": 166
+  },
+  "G2_V000104": {
+    "video_id": "G2_V000104",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000104/memory/G2_V000104/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "e578386a5441c6779d06158c6d91d12f4916dfdd38893ed6dde50ddf382944bd",
+    "completed_windows": 19,
+    "observations": 123
+  },
+  "G2_V000105": {
+    "video_id": "G2_V000105",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/inheritance/parent/event/videos/G2_V000105/memory/G2_V000105/memory.json",
+    "status": "missing_source"
+  },
+  "G2_V000106": {
+    "video_id": "G2_V000106",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000106/memory/G2_V000106/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "c58949af903598cce2758580382cc88db87f8190537eacf9411852d78dccb5f3",
+    "completed_windows": 7,
+    "observations": 47
+  },
+  "G2_V000107": {
+    "video_id": "G2_V000107",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000107/memory/G2_V000107/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "64d6aa64f0a174b6a117f66e0e9f773a97025f268e0bdb5677aa99da038ded1c",
+    "completed_windows": 56,
+    "observations": 349
+  },
+  "G2_V000108": {
+    "video_id": "G2_V000108",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000108/memory/G2_V000108/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "2fadcd391c8ce18a7acc6cfa265658497c9a2cb9af7f43a8784bb32c031666d4",
+    "completed_windows": 44,
+    "observations": 273
+  },
+  "G2_V000109": {
+    "video_id": "G2_V000109",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000109/memory/G2_V000109/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "94441e9324ce2053e99431956e8757e0d041634052401f52fbe9ef8b6127e9a1",
+    "completed_windows": 11,
+    "observations": 64
+  },
+  "G2_V000110": {
+    "video_id": "G2_V000110",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000110/memory/G2_V000110/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "3a56d2003c29ce468a06af71abdfb1a819571580eb4f42075cbf13e814e7ae19",
+    "completed_windows": 17,
+    "observations": 97
+  },
+  "G2_V000111": {
+    "video_id": "G2_V000111",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000111/memory/G2_V000111/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "edb1f80c5506334579452882059a01b58cb8c06504e38928cba0a5a1f1655a11",
+    "completed_windows": 22,
+    "observations": 125
+  },
+  "G2_V000112": {
+    "video_id": "G2_V000112",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000112/memory/G2_V000112/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "b010bc7ca18ed9f1f053f4a0a988d37925510a3bbde304728703003eff4a2c5d",
+    "completed_windows": 8,
+    "observations": 46
+  },
+  "G2_V000113": {
+    "video_id": "G2_V000113",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000113/memory/G2_V000113/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "c68919dd7c8504e00942c158ba42431ac655d873d403cecbca5e6240af70f689",
+    "completed_windows": 1,
+    "observations": 6
+  },
+  "G2_V000114": {
+    "video_id": "G2_V000114",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000114/memory/G2_V000114/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "9669214765200f6e429d168ed92d2b4f3fe449d17fd33cd9eddafae987ff2e01",
+    "completed_windows": 58,
+    "observations": 341
+  },
+  "G2_V000115": {
+    "video_id": "G2_V000115",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000115/memory/G2_V000115/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "88be4b10a1f1490689466dddbb325ae76dfc3f8916c32c8b3bdd27eeae19214e",
+    "completed_windows": 11,
+    "observations": 72
+  },
+  "G2_V000116": {
+    "video_id": "G2_V000116",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000116/memory/G2_V000116/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "d6842c4cb5c9258cb77dd33df8a9a000d77e252fcd3e247a1efd129efef3a829",
+    "completed_windows": 1,
+    "observations": 6
+  },
+  "G2_V000117": {
+    "video_id": "G2_V000117",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000117/memory/G2_V000117/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "18811d9a1b9c79e53a8e056b1cc31d5d4153db84e4ff93b7be7a02b8f7b75f1a",
+    "completed_windows": 4,
+    "observations": 32
+  },
+  "G2_V000118": {
+    "video_id": "G2_V000118",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000118/memory/G2_V000118/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "8aaa1c34c5da369d698c7b1f6e36a37e813ace489cb87404d84a04a71d7e9d2d",
+    "completed_windows": 32,
+    "observations": 202
+  },
+  "G2_V000119": {
+    "video_id": "G2_V000119",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000119/memory/G2_V000119/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "4f9779dd534b44db6201237b78b394165ba5aa1c57739e44bd8a69a71117a7a2",
+    "completed_windows": 16,
+    "observations": 103
+  },
+  "G2_V000120": {
+    "video_id": "G2_V000120",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000120/memory/G2_V000120/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "4b57c6ace5215920a299cfaada78a8190fea0820cccd6d25a7a6505a883f88c5",
+    "completed_windows": 39,
+    "observations": 249
+  },
+  "G2_V000121": {
+    "video_id": "G2_V000121",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000121/memory/G2_V000121/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "c4897bd14126016ae771d4e85e6b0c4dc2b9aeda0add384b7bef7f320ffcd60f",
+    "completed_windows": 10,
+    "observations": 66
+  },
+  "G2_V000122": {
+    "video_id": "G2_V000122",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000122/memory/G2_V000122/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "6443e6ac8d748a8c32858ef1d67bbd7717c737cd7aa694308c7fdfe5c8c4ee27",
+    "completed_windows": 53,
+    "observations": 341
+  },
+  "G2_V000123": {
+    "video_id": "G2_V000123",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000123/memory/G2_V000123/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "a4cbc329d8705a37bb8999abecc0c2c5cf817e7e45b32c83a185345c0f0f9b1d",
+    "completed_windows": 25,
+    "observations": 155
+  },
+  "G2_V000124": {
+    "video_id": "G2_V000124",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000124/memory/G2_V000124/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "10de185e469090fbf32fbeda6eb496de007b1674decc54137c7fad83a5967552",
+    "completed_windows": 8,
+    "observations": 72
+  },
+  "G2_V000125": {
+    "video_id": "G2_V000125",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000125/memory/G2_V000125/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "bbff243e108e0704bc05e2b6632c4d53c8c5f3df1a4c9b3681675e73feafd66f",
+    "completed_windows": 27,
+    "observations": 187
+  },
+  "G2_V000126": {
+    "video_id": "G2_V000126",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000126/memory/G2_V000126/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "25410ffd0c18a77612f3601f4de22fbc08b320a4b1fa2402f808e6fa054f2074",
+    "completed_windows": 45,
+    "observations": 290
+  },
+  "G2_V000127": {
+    "video_id": "G2_V000127",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000127/memory/G2_V000127/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "3eeb08f8600f3ee3e5a4785118af624187caa6f9d3d1858bab8dbaaa7f6b96f1",
+    "completed_windows": 9,
+    "observations": 66
+  },
+  "G2_V000128": {
+    "video_id": "G2_V000128",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000128/memory/G2_V000128/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "76685b536e627ddb78f0bb150298c1a09d2fdf95b3f1418d51b9772bffb397d8",
+    "completed_windows": 10,
+    "observations": 78
+  },
+  "G2_V000129": {
+    "video_id": "G2_V000129",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000129/memory/G2_V000129/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "995b16028f6172a6d4a2c5cf828d6e16d2d605eff5de1d3cbf1df58a225dc8c8",
+    "completed_windows": 50,
+    "observations": 322
+  },
+  "G2_V000130": {
+    "video_id": "G2_V000130",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000130/memory/G2_V000130/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "6ebaada5463e22d531f26ca4f7fa14fbbb27d474762ab3e81fa47943c114857a",
+    "completed_windows": 5,
+    "observations": 34
+  },
+  "G2_V000131": {
+    "video_id": "G2_V000131",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000131/memory/G2_V000131/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "76b4ce152b056f11d3668433f3248a373c31b759e7518d085efa64b1844ba249",
+    "completed_windows": 17,
+    "observations": 102
+  },
+  "G2_V000132": {
+    "video_id": "G2_V000132",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000132/memory/G2_V000132/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "668198d0db02ecdf25a4bfb73d0f5b1e9bd12dd7faf05f4d16608bd16652af4e",
+    "completed_windows": 60,
+    "observations": 414
+  },
+  "G2_V000133": {
+    "video_id": "G2_V000133",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000133/memory/G2_V000133/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "767fe0d8f3c84645dd87d4dff6c4f0ccb876f288523e39e43b3aecb5dcd5d644",
+    "completed_windows": 16,
+    "observations": 106
+  },
+  "G2_V000134": {
+    "video_id": "G2_V000134",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000134/memory/G2_V000134/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "04ce97f8b17fbd9245992d2ee66fb0ed7380c754d274a47112c6f5a1895322c5",
+    "completed_windows": 21,
+    "observations": 127
+  },
+  "G2_V000135": {
+    "video_id": "G2_V000135",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000135/memory/G2_V000135/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "d8fa6a87a99bf020c668e107e999d837c9ca1161cbf65a7f8e637678de3fb5f5",
+    "completed_windows": 29,
+    "observations": 169
+  },
+  "G2_V000136": {
+    "video_id": "G2_V000136",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000136/memory/G2_V000136/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "f4f0542e9906b8942e8bd194d72309b487b17de79f5b8b445f39ef199babbabf",
+    "completed_windows": 5,
+    "observations": 32
+  },
+  "G2_V000137": {
+    "video_id": "G2_V000137",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000137/memory/G2_V000137/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "c0b497048d8972ef2c83af36afaffd8eae3c02b072e9b0d057c7ef1e9f21e3af",
+    "completed_windows": 16,
+    "observations": 107
+  },
+  "G2_V000138": {
+    "video_id": "G2_V000138",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000138/memory/G2_V000138/memory.json",
+    "status": "ready",
+    "source_sha256": "548867e86700d70f1d112b143ed2e34f05d9b11476295a1c944aeadd4fb170b6",
+    "completed_windows": 65,
+    "observations": 405,
+    "receipt": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/frozen_memories/G2_V000138.json",
+    "receipt_sha256": "01492c6bdcee9e1b184f98734e4bb3d0e467eded8aac3ca7f4c82361155b8310"
+  },
+  "G2_V000139": {
+    "video_id": "G2_V000139",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000139/memory/G2_V000139/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "c9285712f8d5cc7503c78cfd379f548ef25decd4e2be6cd8bb676a4fa8466209",
+    "completed_windows": 12,
+    "observations": 87
+  },
+  "G2_V000140": {
+    "video_id": "G2_V000140",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000140/memory/G2_V000140/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "81b3ff2428a8f3d380849acde7f225309ddf53d540ce079f1284a7dd1ae8a4e1",
+    "completed_windows": 9,
+    "observations": 57
+  },
+  "G2_V000141": {
+    "video_id": "G2_V000141",
+    "source": "/root/longemo/runtime/runs/three_level_full558_gemini38_20260922/event/videos/G2_V000141/memory/G2_V000141/memory.json",
+    "status": "incomplete_method_source",
+    "source_sha256": "b990c478e2265a6697f6cac869d9a286c0287309797293bea814b9ea26b8665b",
+    "completed_windows": 6,
+    "observations": 33
+  }
+}
