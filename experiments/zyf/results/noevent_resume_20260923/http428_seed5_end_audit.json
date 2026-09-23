@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-09-23T10:29:17.637140+00:00",
+  "frozen_source_guards_passed": true,
+  "driver_sha256": "a4632fbd3714c2c87611c5ce59886ffee25f94166d1712202acadc68f8bab7a8",
+  "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
+  "execution_sha256": "f83eafbc205ece5ddbd65995d8c124b4a77a62f5ec4f23550bcbbdfcdd4e6023",
+  "finished": {
+    "finished_at": "2026-09-23T10:22:36.301303+00:00",
+    "failures_needing_audit": [],
+    "queue_finished": true,
+    "not_all_questions_scored": true
+  },
+  "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+  "videos": {
+    "G2_V000007": {
+      "complete_windows": 28,
+      "memory_sha256": "4e95347dd40c540c633ec5f48c5139e1b9aed18be8a3f194528965f3e8247c32",
+      "pipeline": {
+        "status": "complete",
+        "scored": 2,
+        "questions": 2,
+        "answer_task": "ok"
+      },
+      "seed_receipt_sha256": "21adeb24638d73dfb83f44262716a8cb224f0301f8e6b1a36d3462edd03188c9"
+    },
+    "G2_V000062": {
+      "complete_windows": 67,
+      "memory_sha256": "6c1a2a1f4ce4477fb54c34360314a0c8b447bb0b5e63b71686c859a2105a7e84",
+      "pipeline": {
+        "status": "complete",
+        "scored": 3,
+        "questions": 3,
+        "answer_task": "ok"
+      },
+      "seed_receipt_sha256": "bafe0df993f6f9e84d6885505b0d16ee5e4f86023a81563515010966dcdff2e1"
+    },
+    "G2_V000070": {
+      "complete_windows": 66,
+      "memory_sha256": "2fb7f6d987220e00da09e10d9b9b646a90eab9b07b823fad76432374cd39db9d",
+      "pipeline": {
+        "status": "complete",
+        "scored": 6,
+        "questions": 6,
+        "answer_task": "ok"
+      },
+      "seed_receipt_sha256": "89b25b90b23b4f723cd05cbd1abc305b1a3e7d3b87dc7a8a5168814c2e272561"
+    },
+    "G2_V000078": {
+      "complete_windows": 66,
+      "memory_sha256": "3af78996601aecdbb5ad16a0235203b59b4c54c94d0af8a369cf3f17b5288815",
+      "pipeline": {
+        "status": "complete",
+        "scored": 2,
+        "questions": 2,
+        "answer_task": "ok"
+      },
+      "seed_receipt_sha256": "12fe7e07f2f8f7866b2879b04302d76c27b5b0fbd2e03e1bbde11de4cdb2eb3d"
+    },
+    "G2_V000080": {
+      "complete_windows": 61,
+      "memory_sha256": "0acaeb9bb27adbc1ab7ef9ef645e78c9abbe029bed5f35bea265c96ecc5e41f1",
+      "pipeline": {
+        "status": "complete",
+        "scored": 4,
+        "questions": 4,
+        "answer_task": "ok"
+      },
+      "seed_receipt_sha256": "0e677a09c1a1630933fa8cc71afd5233534c4938a0ccf4236adc249da668cf98"
+    }
+  }
+}

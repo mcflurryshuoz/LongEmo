@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T10:02:42.871823+00:00",
+  "as_of": "2026-09-23T10:28:03.933363+00:00",
   "condition": "noevent",
-  "status": "running_http428_seed5",
+  "status": "executable_queues_finished_with_external_blocks",
   "coverage_complete": false,
   "current_execution_conditions": [
     "noevent"
@@ -13,9 +13,9 @@
   ],
   "conditions": {
     "noevent": {
-      "scored": 264,
+      "scored": 279,
       "total": 558,
-      "mean_scored": 25.220959595959588
+      "mean_scored": 25.41816009557945
     },
     "method": {
       "scored": 97,
@@ -208,10 +208,25 @@
     "http428_seed5": {
       "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
       "configuration_sha256": "7735bc24ceadf674757e44e554200650c836346b5e01cc62f1b2b8c0d6a6c10b",
-      "accepted_first_scores": 2,
+      "accepted_first_scores": 17,
       "accepted_ids": [
         "G2_Q000014",
-        "G2_Q000015"
+        "G2_Q000015",
+        "G2_Q000203",
+        "G2_Q000204",
+        "G2_Q000205",
+        "G2_Q000242",
+        "G2_Q000243",
+        "G2_Q000244",
+        "G2_Q000245",
+        "G2_Q000246",
+        "G2_Q000247",
+        "G2_Q000276",
+        "G2_Q000277",
+        "G2_Q000282",
+        "G2_Q000283",
+        "G2_Q000284",
+        "G2_Q000285"
       ]
     }
   },
@@ -485,18 +500,18 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T10:02:42.871823+00:00",
-    "current_snapshot_sha256": "4caf344b276af41c87f6a7099e23ab97ecb8a157466520886d7032f804e09ef7",
-    "current_snapshot_name": "live_http428_seed5_1802.json"
+    "current_as_of": "2026-09-23T10:28:03.933363+00:00",
+    "current_snapshot_sha256": "6c1aadb1fa759e66eb92f1f36de2515c45526c3fe30fa8642cf5b02e2cf72ed9",
+    "current_snapshot_name": "snapshot.json (final_audit_1830, actual 18:28 CST)"
   },
   "notes": [
-    "18:02核验264首分，原262条及来源逐字段不变；本批V7新增Q14=4/4、Q15=1/1。",
-    "当前混合232题8192且预处理不变、20题继承后16384、12题8192且单窗边界删除；所有题保留原窗口、种子及新窗口来源。缺失排除、真零分保留。",
-    "23个原HTTP428视频已逐个完成一次诊断：18个明确DLP停止，5个成功结果离线复用。当前V7完成，其余4视频15题运行；种子阶段重复API为0。",
-    "所有更早运行已结束，不恢复旧任务；本批尚在运行。旧startup/end审计是带时间的历史记录，不用于替代当前状态。",
-    "明确拒绝和首次官方评分失败不重交；不重抽低分、不重置旧预算。",
-    "初轮共同成功68题比较保持独立，不直接比较不同成功题集总体均分。",
-    "无凭据、原始预测或私有响应正文导出。"
+    "18:28核验279首分，原264条与来源逐字段不变；最后新增15题。全部已授权可执行队列于18:22:36结束，18:29完成冻结来源与结束审计。",
+    "汇总包含247题8192且预处理不变、20题继承后16384、12题8192且固定单窗边界删除；保留窗口、种子、模型与输出预算来源。缺失排除、真零分保留。",
+    "全部558题已逐题核对。剩余279题：189感知content_filter、83感知明确DLP、3规划content_filter、4首次评分content_filter。已拒绝请求不重交。",
+    "没有活动评测进程、未决任务、成功答案漏评或有效judge漏归档；成功种子阶段重发0次。任务队列结束不代表558题均成功。",
+    "初轮共同成功68题比较保持独立；method和base只保留既有分数，不直接比较不同成功题集总体均分。",
+    "旧startup/progress及早期诊断保留为带时间的历史记录，当前状态以final_audit.json和http428_seed5_end_audit.json为准。",
+    "未导出凭据、原始预测或私有响应正文。"
   ],
   "protected_original_first_scores": {
     "G2_Q000311": "63083f2575234c11df4a5280618079588625d6823e7846dc23d48781ab900e08",
@@ -1661,6 +1676,216 @@
       "source_sha256": "335ba38be6ac27bb0dfd1a4eac0e8f68583ceb80092ed684fc7862bed36f6969",
       "accepted_sha256": "221f5869f45f9e09f86f545e3a5f95e6e3193b838fdf384abec32969cf692eaa",
       "prediction_sha256": "42b8e72f79555b882c2a3c125bd28968512183a712094bdf36d37896670b945d"
+    },
+    "G2_Q000203": {
+      "question_id": "G2_Q000203",
+      "video_id": "G2_V000062",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000062/run_20260923_1811/scores.jsonl",
+      "source_sha256": "89405aabad4e0d9be87ca9ace35ca7a1ed390dcbd60e6389b47b6ee1cdbfc6b7",
+      "accepted_sha256": "eaf5df1e1ed8f3eb7e6f5f763385d3b506f3d0f116112cb56e3c713a26aabde9",
+      "prediction_sha256": "407703a5d5ece468b78dbd398900e49b5ebea9d9e43de467d59f8dc481709d8b"
+    },
+    "G2_Q000204": {
+      "question_id": "G2_Q000204",
+      "video_id": "G2_V000062",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000062/run_20260923_1811/scores.jsonl",
+      "source_sha256": "89405aabad4e0d9be87ca9ace35ca7a1ed390dcbd60e6389b47b6ee1cdbfc6b7",
+      "accepted_sha256": "f905186d81bec0915f2d895d72e959a2b3320bfba400b495166333536ec5d10e",
+      "prediction_sha256": "72337a7667a43e480741f7361b9e0570b371e1af58334ae777314d5df178efad"
+    },
+    "G2_Q000205": {
+      "question_id": "G2_Q000205",
+      "video_id": "G2_V000062",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000062/run_20260923_1811/scores.jsonl",
+      "source_sha256": "89405aabad4e0d9be87ca9ace35ca7a1ed390dcbd60e6389b47b6ee1cdbfc6b7",
+      "accepted_sha256": "f4dd00510fb6b59e12535a936e920a038a89108ed3e2df3acc590aeec1fb4209",
+      "prediction_sha256": "7cdef4f2d445f74ef0b54becc587481ee8172c049f3278e5a2ac348c16098569"
+    },
+    "G2_Q000242": {
+      "question_id": "G2_Q000242",
+      "video_id": "G2_V000070",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000070/run_20260923_1809/scores.jsonl",
+      "source_sha256": "11341a74f22204b599234c31e1bcfb448784c8f50045b1b9a1734d524944565f",
+      "accepted_sha256": "48786d8d5fbd4a94b231f9b7d68de0ceaf460e825971f3d694fa73abd24528f9",
+      "prediction_sha256": "7c4970e0f1284fbeb3301466feb2ea30bab507fed870943e661fa9bbbd26122f"
+    },
+    "G2_Q000243": {
+      "question_id": "G2_Q000243",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000070/run_20260923_1809/scores.jsonl",
+      "source_sha256": "11341a74f22204b599234c31e1bcfb448784c8f50045b1b9a1734d524944565f",
+      "accepted_sha256": "767aedb03bbe7e12521c24474ffac24a24be3e275030a0eca584b8196bd8dfdc",
+      "prediction_sha256": "291d03c348ce2c8620da4fbbb6a51b7d9363f18b82ed8944619041a8a36626d6"
+    },
+    "G2_Q000244": {
+      "question_id": "G2_Q000244",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000070/run_20260923_1809/scores.jsonl",
+      "source_sha256": "11341a74f22204b599234c31e1bcfb448784c8f50045b1b9a1734d524944565f",
+      "accepted_sha256": "b50c22eb638a69d1cdc5fa6b440eacb8427c5e65bd807cdd4e6fc12ec26133e1",
+      "prediction_sha256": "ba8e015e8bbbeda3c82f7a1372a26def82e12761b3c0d729f5065011f29757f9"
+    },
+    "G2_Q000245": {
+      "question_id": "G2_Q000245",
+      "video_id": "G2_V000070",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000070/run_20260923_1809/scores.jsonl",
+      "source_sha256": "11341a74f22204b599234c31e1bcfb448784c8f50045b1b9a1734d524944565f",
+      "accepted_sha256": "c8ec8f581e3df8243eb4f01fbc3a921c7a59a59c7e8d24c4c63abd4419f31de5",
+      "prediction_sha256": "3518f08e7a5fd85e6656cb9e14e4e813a6d493b522245fe47dfc68301cb9b921"
+    },
+    "G2_Q000246": {
+      "question_id": "G2_Q000246",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000070/run_20260923_1809/scores.jsonl",
+      "source_sha256": "11341a74f22204b599234c31e1bcfb448784c8f50045b1b9a1734d524944565f",
+      "accepted_sha256": "0a5e1f34aacdfd351729abb8427e10aa3a104a09c10c897e452655bbad9f3d97",
+      "prediction_sha256": "f4927e99909e3f1acbfe523b5ed1e48736894894ac4fa3c44dba5f4a6969de22"
+    },
+    "G2_Q000247": {
+      "question_id": "G2_Q000247",
+      "video_id": "G2_V000070",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000070/run_20260923_1809/scores.jsonl",
+      "source_sha256": "11341a74f22204b599234c31e1bcfb448784c8f50045b1b9a1734d524944565f",
+      "accepted_sha256": "cb05d43a0cecc53e8c623e7d626273ea7af127ef0f99a6a4407adeaa60ce13e7",
+      "prediction_sha256": "2f17a080c71ed46f00abbe27465ce0ef0c97ac8caeb31af0018debfe7e0988b7"
+    },
+    "G2_Q000276": {
+      "question_id": "G2_Q000276",
+      "video_id": "G2_V000078",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 1,
+      "max_score": 3,
+      "normalized_score": 0.3333333333333333,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000078/run_20260923_1822/scores.jsonl",
+      "source_sha256": "db67b1f83e324df76cbd407a203aac3e4bd1b6cc812e6ba3f14c56e269c1b9a9",
+      "accepted_sha256": "1a6d7af4f7a4cf742f3e0a5c5292521823a97698dce3fec5232d456d4461be89",
+      "prediction_sha256": "b5bd7d5c0bbb7da1baead599e9b1ebdba6a969b8e344d4906c6bd3ba199bf98e"
+    },
+    "G2_Q000277": {
+      "question_id": "G2_Q000277",
+      "video_id": "G2_V000078",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000078/run_20260923_1822/scores.jsonl",
+      "source_sha256": "db67b1f83e324df76cbd407a203aac3e4bd1b6cc812e6ba3f14c56e269c1b9a9",
+      "accepted_sha256": "701d0ebe7d2436f817862df907bf7d18f2e2fbf4c458ecfe4c5aa313bb71085e",
+      "prediction_sha256": "36d179673511298488da8301a174be6f0a0f0ff22b064b5993ba7bf6759c28aa"
+    },
+    "G2_Q000282": {
+      "question_id": "G2_Q000282",
+      "video_id": "G2_V000080",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000080/run_20260923_1818/scores.jsonl",
+      "source_sha256": "c58a3edb89fb12f66c950e16ce6e7546d5414efb2ce942844c59b8f05580e11c",
+      "accepted_sha256": "950159fcd1e3e7469c21b706ba2c6e6741968497f2cb63b6b27a6fbcaee55067",
+      "prediction_sha256": "99fdf72ca53c493cc2faf9cd3dbea6e8f05e703db8f317b853f1f999e026222d"
+    },
+    "G2_Q000283": {
+      "question_id": "G2_Q000283",
+      "video_id": "G2_V000080",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 2,
+      "max_score": 4,
+      "normalized_score": 0.5,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000080/run_20260923_1818/scores.jsonl",
+      "source_sha256": "c58a3edb89fb12f66c950e16ce6e7546d5414efb2ce942844c59b8f05580e11c",
+      "accepted_sha256": "bc2e4c706b609f8947604f4858fe0d26f3abd9ab317b7715a0bd907b8a0febbb",
+      "prediction_sha256": "354fd084c1e5a789a3c4efa93ed815f47b6895833c176f45dac45a0dbfa55f0a"
+    },
+    "G2_Q000284": {
+      "question_id": "G2_Q000284",
+      "video_id": "G2_V000080",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000080/run_20260923_1818/scores.jsonl",
+      "source_sha256": "c58a3edb89fb12f66c950e16ce6e7546d5414efb2ce942844c59b8f05580e11c",
+      "accepted_sha256": "be52a3a80e64164276610c50da71303c3652129fb312131c4184e536ae70531a",
+      "prediction_sha256": "a62bf39aa17ef324a3f88d8d103cf860a7f36d65bb0a342d2669105ca7ee6a15"
+    },
+    "G2_Q000285": {
+      "question_id": "G2_Q000285",
+      "video_id": "G2_V000080",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 2,
+      "max_score": 3,
+      "normalized_score": 0.6666666666666666,
+      "run": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_http428_seed5_continuation_20260923/scores/noevent/G2_V000080/run_20260923_1818/scores.jsonl",
+      "source_sha256": "c58a3edb89fb12f66c950e16ce6e7546d5414efb2ce942844c59b8f05580e11c",
+      "accepted_sha256": "30581f71903614f7f783285d3096adddf678566c22537bf27459a5a6135e7082",
+      "prediction_sha256": "01e205166f92181ac2dac77548b9f4af32e0fbcf7ddaeaa87eb71e46fa584aae"
     }
   },
   "execution_concurrency": {
@@ -1669,7 +1894,7 @@
     "length5_running": 0,
     "length2_running": 0,
     "v101_running": 0,
-    "observed_running_videos": 4,
+    "observed_running_videos": 0,
     "audio429_recovery_status": "all_three_ended",
     "audio429_running": 0,
     "question_workers_per_video": 2,
@@ -1677,8 +1902,8 @@
     "v114_length_running": 0,
     "core_boundary_running": 0,
     "core_boundary_complete": 3,
-    "http428_seed5_running": 4,
-    "http428_seed5_complete": 1
+    "http428_seed5_running": 0,
+    "http428_seed5_complete": 5
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1686,7 +1911,7 @@
       16384
     ],
     "current_scored_is_mixed_visual_budget": true,
-    "original_budget_scored": 244,
+    "original_budget_scored": 259,
     "length5_scored": 8,
     "length2_scored": 5,
     "length5_inherited_visual_max_tokens": 8192,
@@ -1701,7 +1926,7 @@
       "G2_Q000516",
       "G2_Q000517"
     ],
-    "interpretation": "232 sources with8192 and unchanged preprocessing (including2 validated audio-seed sources),20 inherited/resumed16384 sources,and12 sources with8192 plus a deletion-only core-ownership seed. Retain all per-question provenance.",
+    "interpretation": "247 sources with 8192 and unchanged preprocessing (including 17 validated HTTP428 seed sources), 20 inherited/resumed 16384 sources, and 12 sources with 8192 plus a deletion-only core-ownership seed. Retain all per-question provenance.",
     "length2_question_ids": [
       "G2_Q000545",
       "G2_Q000546",
@@ -1734,11 +1959,27 @@
       "G2_Q000490",
       "G2_Q000491"
     ],
-    "http428_seed5_scored": 2,
+    "http428_seed5_scored": 17,
     "http428_seed5_question_ids": [
       "G2_Q000014",
-      "G2_Q000015"
-    ]
+      "G2_Q000015",
+      "G2_Q000203",
+      "G2_Q000204",
+      "G2_Q000205",
+      "G2_Q000242",
+      "G2_Q000243",
+      "G2_Q000244",
+      "G2_Q000245",
+      "G2_Q000246",
+      "G2_Q000247",
+      "G2_Q000276",
+      "G2_Q000277",
+      "G2_Q000282",
+      "G2_Q000283",
+      "G2_Q000284",
+      "G2_Q000285"
+    ],
+    "unchanged_preprocessing_8192_scored": 247
   },
   "length5": {
     "schema_version": 1,
@@ -1860,8 +2101,10 @@
     "historical_startup_record": "length5_startup.json"
   },
   "completion_estimate": {
-    "scope": "当前HTTP428成功种子固定17题队列",
-    "status": "V7两题完成，4视频15题仍运行；不承诺558全部成功"
+    "status": "all_executable_queues_finished",
+    "finished_at": "2026-09-23T10:22:36.301303+00:00",
+    "coverage_complete": false,
+    "remaining_external_blocks": 279
   },
   "length2": {
     "schema_version": 1,
@@ -2009,14 +2252,27 @@
     "note": "The V26 run has no generic finished marker (false in the raw audit), but both successful answers have accepted official judgments; it is not treated as active from that marker alone."
   },
   "first_score_preservation": {
-    "previous_report_sha256": "9b0f1cb96e30d3342eedd8d32007cbf479d9a4e46b5a3a0057db05fe3a4b3aca",
-    "previous_scored": 262,
+    "previous_report_sha256": "56d307b68dace4587a3b8c5fc41080abe788cf36e40235f11608398502437bb8",
+    "previous_scored": 264,
     "unchanged_original_score_hashes": 195,
-    "unchanged_later_score_records": 67,
-    "new_count": 2,
+    "unchanged_later_score_records": 69,
+    "new_count": 15,
     "new_question_ids": [
-      "G2_Q000014",
-      "G2_Q000015"
+      "G2_Q000203",
+      "G2_Q000204",
+      "G2_Q000205",
+      "G2_Q000242",
+      "G2_Q000243",
+      "G2_Q000244",
+      "G2_Q000245",
+      "G2_Q000246",
+      "G2_Q000247",
+      "G2_Q000276",
+      "G2_Q000277",
+      "G2_Q000282",
+      "G2_Q000283",
+      "G2_Q000284",
+      "G2_Q000285"
     ]
   },
   "length2_end_audit": {
@@ -2078,7 +2334,7 @@
     "new_accepted_first_scores": 0,
     "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
   },
-  "execution_as_of": "2026-09-23T10:02:43.251453+00:00",
+  "execution_as_of": "2026-09-23T10:29:17.637140+00:00",
   "v101_continuation": {
     "as_of": "2026-09-23T14:25:23.393933+08:00",
     "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
@@ -2256,9 +2512,11 @@
     "new_api_requests": 3,
     "worker_started": true,
     "policy": "Assess an explicit finite independent recovery without resetting the exhausted original attempt budget. Do not infer purchased credit balance or content filtering from upstream RESOURCE_EXHAUSTED.",
-    "new_api_requests_scope": "one diagnostic HTTP request per case; subsequent builder calls separately recorded"
+    "new_api_requests_scope": "one diagnostic HTTP request per case; subsequent builder calls separately recorded",
+    "historical_snapshot": true,
+    "current_state_source": "final_audit.json and http428_seed5_end_audit.json"
   },
-  "remaining_unscored": 294,
+  "remaining_unscored": 279,
   "audio429_continuation": {
     "schema_version": 1,
     "as_of": "2026-09-23T07:48:46.612360+00:00",
@@ -5224,7 +5482,9 @@
     "core_files_unchanged": 1053,
     "snapshot_sha256": "a292da98d74741dca15f27d6dbe7609644050c8088be4e8153d0dda96e97b3c5",
     "preparation_only_failure_audit_sha256": "496e7fe94a159d0a8515170146b3807a6edb4114c0ea9a04ef2df32bea92c572",
-    "historical_startup_snapshot": true
+    "historical_startup_snapshot": true,
+    "historical_snapshot": true,
+    "current_state_source": "final_audit.json and http428_seed5_end_audit.json"
   },
   "http428_fixed_diagnostics": {
     "as_of": "2026-09-23T09:41:01.035161+00:00",
@@ -5762,7 +6022,9 @@
       "explicit_dlp_rejection": 18,
       "validated_payload_not_yet_imported": 5
     },
-    "selected_question_count": 17
+    "selected_question_count": 17,
+    "historical_snapshot": true,
+    "current_state_source": "final_audit.json and http428_seed5_end_audit.json"
   },
   "http428_seed5_progress": {
     "as_of": "2026-09-23T10:02:43.251453+00:00",
@@ -5915,6 +6177,187 @@
         "normalized_score": 1.0
       }
     },
-    "coordinator_lock_held": true
+    "coordinator_lock_held": true,
+    "historical_snapshot": true,
+    "current_state_source": "final_audit.json and http428_seed5_end_audit.json"
+  },
+  "coverage": 0.5,
+  "by_type": {
+    "emotion trajectory": {
+      "scored": 117,
+      "total": 235,
+      "mean_scored": 25.854700854700855
+    },
+    "emotional intensity comparison": {
+      "scored": 93,
+      "total": 194,
+      "mean_scored": 12.903225806451612
+    },
+    "emotional reasoning": {
+      "scored": 69,
+      "total": 129,
+      "mean_scored": 41.54589371980678
+    }
+  },
+  "by_series": {
+    "Frasier": {
+      "scored": 53,
+      "total": 88,
+      "mean_scored": 15.251572327044023
+    },
+    "Friends": {
+      "scored": 71,
+      "total": 104,
+      "mean_scored": 21.126760563380277
+    },
+    "Home with Kids": {
+      "scored": 5,
+      "total": 11,
+      "mean_scored": 33.33333333333333
+    },
+    "Malcolm in the Middle": {
+      "scored": 18,
+      "total": 90,
+      "mean_scored": 12.5
+    },
+    "Modern Family": {
+      "scored": 57,
+      "total": 93,
+      "mean_scored": 22.076023391812864
+    },
+    "unclassified": {
+      "scored": 75,
+      "total": 172,
+      "mean_scored": 41.7777777777778
+    }
+  },
+  "missing_counts": {
+    "perception_content_filter": 189,
+    "perception_dlp_rejection": 83,
+    "judge_content_filter": 4,
+    "planner_content_filter": 3
+  },
+  "http428_seed5_end_audit": {
+    "path": "http428_seed5_end_audit.json",
+    "sha256": "b62adb118aa3a7a7d677037374af927b3065ad65325eb8f43286f47d9bfc2992",
+    "as_of": "2026-09-23T10:29:17.637140+00:00",
+    "accepted_first_scores": 17,
+    "videos_complete": 5
+  },
+  "final_audit": {
+    "path": "final_audit.json",
+    "sha256": "2b5d3ddb2f6ae6563243f9837bb2e8d41bbf7e88346c853deccccbf34d7c5a07",
+    "as_of": "2026-09-23T10:28:07.665077+00:00",
+    "questions": 558,
+    "scored": 279,
+    "blocked": 279,
+    "successful_answers_without_judgment": 0,
+    "valid_judgments_without_accepted": 0,
+    "active_workers": 0,
+    "seed_stage_reissued_calls": 0
+  },
+  "by_series_and_type": {
+    "Frasier": {
+      "emotion trajectory": {
+        "scored": 22,
+        "total": 37,
+        "mean_scored": 12.5
+      },
+      "emotional intensity comparison": {
+        "scored": 22,
+        "total": 33,
+        "mean_scored": 13.636363636363637
+      },
+      "emotional reasoning": {
+        "scored": 9,
+        "total": 18,
+        "mean_scored": 25.925925925925924
+      }
+    },
+    "Friends": {
+      "emotion trajectory": {
+        "scored": 35,
+        "total": 54,
+        "mean_scored": 22.857142857142858
+      },
+      "emotional intensity comparison": {
+        "scored": 18,
+        "total": 26,
+        "mean_scored": 11.11111111111111
+      },
+      "emotional reasoning": {
+        "scored": 18,
+        "total": 24,
+        "mean_scored": 27.77777777777778
+      }
+    },
+    "Home with Kids": {
+      "emotion trajectory": {
+        "scored": 2,
+        "total": 5,
+        "mean_scored": 50.0
+      },
+      "emotional intensity comparison": {
+        "scored": 1,
+        "total": 2,
+        "mean_scored": 0.0
+      },
+      "emotional reasoning": {
+        "scored": 2,
+        "total": 4,
+        "mean_scored": 33.33333333333333
+      }
+    },
+    "Malcolm in the Middle": {
+      "emotion trajectory": {
+        "scored": 6,
+        "total": 34,
+        "mean_scored": 4.166666666666667
+      },
+      "emotional intensity comparison": {
+        "scored": 10,
+        "total": 41,
+        "mean_scored": 10.0
+      },
+      "emotional reasoning": {
+        "scored": 2,
+        "total": 15,
+        "mean_scored": 50.0
+      }
+    },
+    "Modern Family": {
+      "emotion trajectory": {
+        "scored": 25,
+        "total": 39,
+        "mean_scored": 25.0
+      },
+      "emotional intensity comparison": {
+        "scored": 20,
+        "total": 37,
+        "mean_scored": 0.0
+      },
+      "emotional reasoning": {
+        "scored": 12,
+        "total": 17,
+        "mean_scored": 52.77777777777777
+      }
+    },
+    "unclassified": {
+      "emotion trajectory": {
+        "scored": 27,
+        "total": 66,
+        "mean_scored": 44.44444444444444
+      },
+      "emotional intensity comparison": {
+        "scored": 22,
+        "total": 55,
+        "mean_scored": 27.272727272727273
+      },
+      "emotional reasoning": {
+        "scored": 26,
+        "total": 51,
+        "mean_scored": 51.28205128205128
+      }
+    }
   }
 }
