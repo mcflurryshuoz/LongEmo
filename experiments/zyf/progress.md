@@ -1,3 +1,11 @@
+# LongEmo 当前进度
+
+noevent-v2本批已结束：244/558题，64.45分；候选279题中35题失败。无新感知、无漏评。原50题pilot的80%门槛未通过，后续229题为审计后独立未尝试题阶段，未改变推理协议或重抽低分。
+
+[最新结果](results/noevent_progressive_v2_20260924/report.md) · [逐题状态](results/noevent_progressive_v2_20260924/question_status.csv) · [结束审计](results/noevent_progressive_v2_20260924/final_audit.json)
+
+---
+
 # LongEmo 评测进度
 
 2026-09-23 **18:28 CST**：noevent **279/558，25.42分，覆盖率50%**。全部可执行队列已结束，最后新增15条首分，原264条及来源不变。method保留97/558、59.45分；base保留本次试跑13/558、63.46分，均无新增请求。

@@ -10,8 +10,20 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 先从视频、音频和字幕构建带时间、人物、情感对象及证据引用的事件图；回答时用 **BM25＋Gemini Embedding 2** 定位相关事件，再按需披露时间流和关系流，由 GPT-6 基于证据作答。构图与问题无关，参考答案仅用于官方评分。
 
+<!-- LONGEMO_NOEVENT_V2:START -->
+### noevent-v2：渐进式窗口检索
+
+2026-09-24：**244/558题，均分64.45**；完整缓存候选279题，其中35题未完成。复用已有窗口，不重新感知。三类分数：轨迹62.50、强度比较55.81、情感推理80.00。
+
+本批队列已结束，无成功答案漏评。剩余35题：15题内容过滤、5题参数错误、8题输出格式错误、7题Embedding HTTP429。缓存包含不同输出预算和边界处理来源，分层报告。原50题pilot成功率39/50，80%自动门槛未通过；另行审计启动未尝试的229题，原gate和所有失败记录均保留。
+
+这是新的多轮检索协议，不与下面旧单次检索或旧method不同题集均分直接比较；共享观察上的method-v2尚未评测。
+
+[总体、任务和分剧成绩](experiments/zyf/results/noevent_progressive_v2_20260924/report.md) · [558题状态](experiments/zyf/results/noevent_progressive_v2_20260924/question_status.csv) · [结束审计](experiments/zyf/results/noevent_progressive_v2_20260924/final_audit.json)
+<!-- LONGEMO_NOEVENT_V2:END -->
+
 <!-- LONGEMO_FULL558_RESULTS:START -->
-### 当前评测结果
+### 历史单次检索评测结果
 
 2026-09-23 **18:28 CST**：noevent已完成所有可执行队列，**279/558题、25.42分，覆盖率50%**。method与base保留已有成绩。
 
