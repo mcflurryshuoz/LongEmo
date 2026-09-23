@@ -1,0 +1,108 @@
+{
+  "as_of": "2026-09-23T08:08:22.865232+00:00",
+  "run": "/root/longemo/runtime/runs/noevent_v114_seed_length_continuation_20260923",
+  "source_run": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923",
+  "configuration_sha256": "c09b55bf860e6458112ec3566f3b5479b36425f04a578659dba599a6ab4b8930",
+  "driver_sha256": "18967912719b6806142b7ebaf78bf176e420f7513b65c83e1dc34012a104e19b",
+  "selection": [
+    "G2_Q000438",
+    "G2_Q000439",
+    "G2_Q000440",
+    "G2_Q000441",
+    "G2_Q000442",
+    "G2_Q000443",
+    "G2_Q000444"
+  ],
+  "launch": {
+    "pid": 223570,
+    "start_ticks": "9067109",
+    "started_at": "2026-09-23T08:03:05.184873+00:00"
+  },
+  "source_finished": true,
+  "identity_alive": false,
+  "workers": 1,
+  "question_workers": 2,
+  "status": "finished",
+  "inherited_windows": 59,
+  "observed_completed_windows": 64,
+  "total_windows": 64,
+  "visual_max_tokens": 16384,
+  "audio_max_tokens": 4096,
+  "pending_audio_W60_reissued": 0,
+  "protected_first_scores": 243,
+  "accepted_first_scores": 7,
+  "length_evidence": {
+    "video_id": "G2_V000114",
+    "window_id": "W00060",
+    "request_hash": "158ee25b5dbe9712cb700fa5b0a41ac435eab1af1e1b44b623c746e2efa8c0f8",
+    "diagnostic_path": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923/private_diagnostics/build/G2_V000114/158ee25b5dbe9712-c42654473e9e4678aa667ecdb0d71ee8.json",
+    "diagnostic_sha256": "f5e5c85ff83f24a57da1d38b7c962a4cfef4d38e0e8f494ef54638da02734e8e",
+    "response_sha256": "0d0258c231ca0839a9b925ad2e1514fb4a76308bbb2b5fa00b99ff6976cd1d45",
+    "http_status": 200,
+    "finish_reason": "length",
+    "original_visual_max_tokens": 8192,
+    "usage": {
+      "prompt_tokens": 28664,
+      "completion_tokens": 328,
+      "total_tokens": 36852,
+      "completion_tokens_details.reasoning_tokens": 7860
+    },
+    "ledger_path": "/root/longemo/runtime/runs/noevent_audio429_G2_V000114_20260923/noevent/videos/G2_V000114/memory/G2_V000114/calls.jsonl",
+    "ledger_sha256": "524cba4099589aba63564c5519a9e3926ad7a87fd440355a38d7953a8cb28e1d"
+  },
+  "source_ancestry_files_protected": 554,
+  "tests": {
+    "local": 15,
+    "remote": 15,
+    "core_files_unchanged": 1053
+  },
+  "policy": "One fixed 7-question task, one new build, no outer retry. Only visual output budget changes from8192 to16384; audio, model, media, schema, retrieval and judge unchanged. Preserve all first scores and original/primary/audio429/length window lineage.",
+  "lock_held": false,
+  "all_task_children_stopped": true,
+  "unjudged_successful_answers": [],
+  "unaccepted_successful_judgments": [],
+  "tasks": {
+    "answer": "ok",
+    "score": "ok",
+    "build": "ok"
+  },
+  "first_scores": {
+    "G2_Q000444": {
+      "score": 0,
+      "max_score": 3,
+      "normalized_score": 0.0
+    },
+    "G2_Q000438": {
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    },
+    "G2_Q000439": {
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    },
+    "G2_Q000442": {
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    },
+    "G2_Q000441": {
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    },
+    "G2_Q000443": {
+      "score": 1,
+      "max_score": 4,
+      "normalized_score": 0.25
+    },
+    "G2_Q000440": {
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0
+    }
+  },
+  "lineage_sha256": "7a77c9f65685a1d62e46d803057a8b31c7732aedc7aacc73dc3c5b5b2597209d",
+  "snapshot_sha256": "4b2839bcf03ee87ab60be5cbfec413dfe3609018f7a3b0b534e1deb447b22054"
+}
