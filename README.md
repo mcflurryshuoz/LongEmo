@@ -1,9 +1,9 @@
 # LongEmoBench
 
 <!-- LONGEMO_SHARED_OBS:START -->
-## noevent 同源观察消融（运行中）
+## noevent 全集评测（运行中）
 
-2026-09-24已启动：全题单558题，当前29个完整同源视频的92题进入并发评测；其他题的源缓存缺失或明确后端拒绝单独记录。复用method原始窗口观察，移除事件结构，无新感知请求；旧244题成绩不混入。见[启动与覆盖清单](experiments/zyf/results/noevent_shared_observations_20260924/README.md)。
+2026-09-24 05:53 CST：**249/558题，61.24分**。123个视频缓存正在并发评测，剩余18视频正在补缺失窗口。仅原始窗口观察＋渐进检索，移除事件结构；多来源单独标记，未混入旧版成绩。见[结果与558题来源](experiments/zyf/results/noevent_full_bank_20260924/report.md)。
 <!-- LONGEMO_SHARED_OBS:END -->
 
 
