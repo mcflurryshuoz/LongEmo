@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23T08:37:45.096488+00:00",
+  "as_of": "2026-09-23T08:58:32.871268+00:00",
   "condition": "noevent",
-  "status": "running_fixed_core_boundary3",
+  "status": "queues_finished_remaining_audit",
   "coverage_complete": false,
   "current_execution_conditions": [
     "noevent"
@@ -13,9 +13,9 @@
   ],
   "conditions": {
     "noevent": {
-      "scored": 253,
+      "scored": 262,
       "total": 558,
-      "mean_scored": 25.03293807641633
+      "mean_scored": 24.650127226463095
     },
     "method": {
       "scored": 97,
@@ -189,11 +189,20 @@
     "core_boundary3": {
       "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
       "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5",
-      "accepted_first_scores": 3,
+      "accepted_first_scores": 12,
       "accepted_ids": [
+        "G2_Q000165",
+        "G2_Q000166",
+        "G2_Q000167",
+        "G2_Q000168",
         "G2_Q000268",
         "G2_Q000269",
-        "G2_Q000270"
+        "G2_Q000270",
+        "G2_Q000487",
+        "G2_Q000488",
+        "G2_Q000489",
+        "G2_Q000490",
+        "G2_Q000491"
       ]
     }
   },
@@ -465,9 +474,9 @@
     "sha256": "60f1f837e276ab1b63bec642e45fc81f31a8c2727da77e58450289c46f018364",
     "live_progress_addendum_at": "2026-09-23T03:58:19.459694+00:00",
     "live_snapshot_sha256": "48304d1b906e41136fa353d96cbe38665809d19e0cf09ca3932edc5ab3227b0c",
-    "current_as_of": "2026-09-23T08:37:45.096488+00:00",
-    "current_snapshot_sha256": "ba43b6a4cbc7dd1a02b4d1856808ab2eb9534f9c000aedcef66b9d1f800eae35",
-    "current_snapshot_name": "live_core_boundary_first3_1637.json"
+    "current_as_of": "2026-09-23T08:58:32.871268+00:00",
+    "current_snapshot_sha256": "2d2e16821ba59a70f37532cf200cce6cc34a544e30898f39c757214cf005f936",
+    "current_snapshot_name": "live_core_boundary_end_1658.json"
   },
   "notes": [
     "All243 previously published first scores and provenance are unchanged. V114 adds seven first scores: Q443=1/4, the other six=0.",
@@ -479,7 +488,8 @@
     "The initial68 successful-question comparison is unchanged and is not a full-benchmark result.",
     "No credentials, raw predictions or private response bodies are exported.",
     "16:28启动固定3视频12题的独立边界恢复：各删除一条只在上下文或核心终点的观察以及依赖它的完整情绪记录，不移动时间戳；原校验器通过后离线导入。该预处理差异单独记录，后续窗口仍用冻结core。250首分未变。",
-    "16:37 V75完成65窗及3条官方首分；Q268=0/1、Q269=1/4、Q270=2/4。V51/V124仍运行，原250首分与来源不变。"
+    "16:37 V75完成65窗及3条官方首分；Q268=0/1、Q269=1/4、Q270=2/4。V51/V124仍运行，原250首分与来源不变。",
+    "边界批次于16:49全部完成12题；16:58核验262首分，原253条及来源不变。全部task子进程退出、锁释放、无漏评/漏归档/种子请求重发。"
   ],
   "protected_original_first_scores": {
     "G2_Q000311": "63083f2575234c11df4a5280618079588625d6823e7846dc23d48781ab900e08",
@@ -1449,6 +1459,62 @@
       "accepted_sha256": "4ab4ef7ee655070e985c4d38701438f89733ebd1f7287f327d5e57ee274b126e",
       "prediction_sha256": "3a1ccae256ae088d0fd158a95f12463ca0d63cb1de5d3b5b41ffdae35e125fc6"
     },
+    "G2_Q000165": {
+      "question_id": "G2_Q000165",
+      "video_id": "G2_V000051",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000051/run_20260923_1643/scores.jsonl",
+      "source_sha256": "74939b4b29a5741b36c6858d5bd19df451d33596d3ec4dbac1fdeb5ce06653e6",
+      "accepted_sha256": "86ec56f0deaa4c48e80a6afd07df18d5eff49973820ed806bff574cf14e83a7e",
+      "prediction_sha256": "00a4815cca2b71e94800d80e7a3c7a0b913c0e733d180ba8a57a80f076f35492"
+    },
+    "G2_Q000166": {
+      "question_id": "G2_Q000166",
+      "video_id": "G2_V000051",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 1,
+      "max_score": 1,
+      "normalized_score": 1.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000051/run_20260923_1643/scores.jsonl",
+      "source_sha256": "74939b4b29a5741b36c6858d5bd19df451d33596d3ec4dbac1fdeb5ce06653e6",
+      "accepted_sha256": "de8cdf44fd3b23a4ea55734730af26ff20ea43ada1c39a6bbfd1be6482f43671",
+      "prediction_sha256": "33a27a36d447365f0660520deab832129b4118f29f213393543ee19868166c13"
+    },
+    "G2_Q000167": {
+      "question_id": "G2_Q000167",
+      "video_id": "G2_V000051",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000051/run_20260923_1643/scores.jsonl",
+      "source_sha256": "74939b4b29a5741b36c6858d5bd19df451d33596d3ec4dbac1fdeb5ce06653e6",
+      "accepted_sha256": "34cbc7a5ee4fd068451b58dde11828751f50706d069b05b7cfb4e9c85b70c680",
+      "prediction_sha256": "d82647dcb0898d02bab9be8ee05e29b85c6a03800d858a346396a551a28c355c"
+    },
+    "G2_Q000168": {
+      "question_id": "G2_Q000168",
+      "video_id": "G2_V000051",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 0,
+      "max_score": 4,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000051/run_20260923_1643/scores.jsonl",
+      "source_sha256": "74939b4b29a5741b36c6858d5bd19df451d33596d3ec4dbac1fdeb5ce06653e6",
+      "accepted_sha256": "279bc48bc0b2d032deeaeedb3a225ab55ae8b8931dc967afc7daecc3af7ba17b",
+      "prediction_sha256": "c9556eaf21bdb4857ed969e6edc702fbad654ba9aa67c5f7239c0c1206fc78ef"
+    },
     "G2_Q000268": {
       "question_id": "G2_Q000268",
       "video_id": "G2_V000075",
@@ -1490,6 +1556,76 @@
       "source_sha256": "b714760357f973e096120ec83a9823b4056e55ca8e076c9e477797c6ef4964ff",
       "accepted_sha256": "9b50d8e38a8be6302d4677bf01aebd0aac66c7dbfd363f2d77b12273ad0fd0fe",
       "prediction_sha256": "01f2afa4b53927e3e9caadd86171f934d989e80a8c7869bf6571ca4723c1f008"
+    },
+    "G2_Q000487": {
+      "question_id": "G2_Q000487",
+      "video_id": "G2_V000124",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000124/run_20260923_1649/scores.jsonl",
+      "source_sha256": "7006d67f03d9f8746e17b0d3637803645babf30ecdc75083efac01295913c03d",
+      "accepted_sha256": "dc0937225f69752e78bd427f4cc110e8c1f950d50890ae7245496c4527501914",
+      "prediction_sha256": "700d6b0d1b0a1c94e8c48b25d5593672027ec5a5e2492145b530cff5a20100e8"
+    },
+    "G2_Q000488": {
+      "question_id": "G2_Q000488",
+      "video_id": "G2_V000124",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000124/run_20260923_1649/scores.jsonl",
+      "source_sha256": "7006d67f03d9f8746e17b0d3637803645babf30ecdc75083efac01295913c03d",
+      "accepted_sha256": "985c2296073ef0a3d21a4597e5cbcc3cbf35bc2c97cebd3eaca8af3ae536c42b",
+      "prediction_sha256": "adbd2351c0fa9e84fb753ea5eca69bfee78069728a7455177754007dccd590ae"
+    },
+    "G2_Q000489": {
+      "question_id": "G2_Q000489",
+      "video_id": "G2_V000124",
+      "type": "emotional intensity comparison",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000124/run_20260923_1649/scores.jsonl",
+      "source_sha256": "7006d67f03d9f8746e17b0d3637803645babf30ecdc75083efac01295913c03d",
+      "accepted_sha256": "c9d88eba138ee4f175bb0e2b3602172fb3bdbd24578cec4c2af9c74d401bbb7f",
+      "prediction_sha256": "654325850ea262927bbf43b27e1372a5dbf1559a9198a04e4223bdfcf0a55e0f"
+    },
+    "G2_Q000490": {
+      "question_id": "G2_Q000490",
+      "video_id": "G2_V000124",
+      "type": "emotional reasoning",
+      "status": "ok",
+      "score": 0,
+      "max_score": 1,
+      "normalized_score": 0.0,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000124/run_20260923_1649/scores.jsonl",
+      "source_sha256": "7006d67f03d9f8746e17b0d3637803645babf30ecdc75083efac01295913c03d",
+      "accepted_sha256": "cc861c120b20f0b905f412fc508dc2c2988b73e01ba2269d348d6c34eea2873a",
+      "prediction_sha256": "01bcf7987934d605a2d8d1aca90fdd2d12e4d4016bb4facd7868a8341dec7d8a"
+    },
+    "G2_Q000491": {
+      "question_id": "G2_Q000491",
+      "video_id": "G2_V000124",
+      "type": "emotion trajectory",
+      "status": "ok",
+      "score": 1,
+      "max_score": 4,
+      "normalized_score": 0.25,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "source": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923/scores/noevent/G2_V000124/run_20260923_1649/scores.jsonl",
+      "source_sha256": "7006d67f03d9f8746e17b0d3637803645babf30ecdc75083efac01295913c03d",
+      "accepted_sha256": "1db920c55b587f7ffab7c9a270bb8bb5412683d4060c09c5287aec30aef9f132",
+      "prediction_sha256": "009810be52609e5fdca86ae37b96cf4aa71398e96d08c91530a251a97898eb2b"
     }
   },
   "execution_concurrency": {
@@ -1498,14 +1634,14 @@
     "length5_running": 0,
     "length2_running": 0,
     "v101_running": 0,
-    "observed_running_videos": 2,
+    "observed_running_videos": 0,
     "audio429_recovery_status": "all_three_ended",
     "audio429_running": 0,
     "question_workers_per_video": 2,
     "audio429_build_failed": 3,
     "v114_length_running": 0,
-    "core_boundary_running": 2,
-    "core_boundary_complete": 1
+    "core_boundary_running": 0,
+    "core_boundary_complete": 3
   },
   "perception_budget_scope": {
     "current_scored_visual_max_tokens": [
@@ -1513,7 +1649,7 @@
       16384
     ],
     "current_scored_is_mixed_visual_budget": true,
-    "original_budget_scored": 233,
+    "original_budget_scored": 242,
     "length5_scored": 8,
     "length2_scored": 5,
     "length5_inherited_visual_max_tokens": 8192,
@@ -1528,7 +1664,7 @@
       "G2_Q000516",
       "G2_Q000517"
     ],
-    "interpretation": "230 unchanged 8192-budget sources, 20 sources continuing with16384, and3 sources with8192 plus a deletion-only core-ownership seed. Mixed budget and preprocessing; retain per-question provenance.",
+    "interpretation": "230 unchanged 8192-budget sources,20 sources continuing with16384,and12 sources with8192 plus a deletion-only core-ownership seed. Mixed budget and preprocessing; retain per-question provenance.",
     "length2_question_ids": [
       "G2_Q000545",
       "G2_Q000546",
@@ -1546,11 +1682,20 @@
       "G2_Q000443",
       "G2_Q000444"
     ],
-    "core_boundary_scored": 3,
+    "core_boundary_scored": 12,
     "core_boundary_question_ids": [
+      "G2_Q000165",
+      "G2_Q000166",
+      "G2_Q000167",
+      "G2_Q000168",
       "G2_Q000268",
       "G2_Q000269",
-      "G2_Q000270"
+      "G2_Q000270",
+      "G2_Q000487",
+      "G2_Q000488",
+      "G2_Q000489",
+      "G2_Q000490",
+      "G2_Q000491"
     ]
   },
   "length5": {
@@ -1673,8 +1818,8 @@
     "historical_startup_record": "length5_startup.json"
   },
   "completion_estimate": {
-    "scope": "本批12题可执行队列",
-    "estimate": "尚无稳定速度估计；以新窗口和首次评分为准"
+    "scope": "所有已启动队列",
+    "status": "已结束；剩余296题继续按具体阻断证据审计"
   },
   "length2": {
     "schema_version": 1,
@@ -1822,15 +1967,21 @@
     "note": "The V26 run has no generic finished marker (false in the raw audit), but both successful answers have accepted official judgments; it is not treated as active from that marker alone."
   },
   "first_score_preservation": {
-    "previous_report_sha256": "4a6b5db2677d7364518ed19202b0b327db34ca24e5e634051c272890a62301a3",
-    "previous_scored": 250,
+    "previous_report_sha256": "962a5478a9891d349cef5443c9631b5d35a5478783f3808461202e6bfc85e828",
+    "previous_scored": 253,
     "unchanged_original_score_hashes": 195,
-    "unchanged_later_score_records": 55,
-    "new_count": 3,
+    "unchanged_later_score_records": 58,
+    "new_count": 9,
     "new_question_ids": [
-      "G2_Q000268",
-      "G2_Q000269",
-      "G2_Q000270"
+      "G2_Q000165",
+      "G2_Q000166",
+      "G2_Q000167",
+      "G2_Q000168",
+      "G2_Q000487",
+      "G2_Q000488",
+      "G2_Q000489",
+      "G2_Q000490",
+      "G2_Q000491"
     ]
   },
   "length2_end_audit": {
@@ -1892,7 +2043,7 @@
     "new_accepted_first_scores": 0,
     "continuation_run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923"
   },
-  "execution_as_of": "2026-09-23T08:37:45.423328+00:00",
+  "execution_as_of": "2026-09-23T08:58:33.212133+00:00",
   "v101_continuation": {
     "as_of": "2026-09-23T14:25:23.393933+08:00",
     "run": "/root/longemo/runtime/runs/noevent_v101_audio_seed_continuation_20260923",
@@ -2072,7 +2223,7 @@
     "policy": "Assess an explicit finite independent recovery without resetting the exhausted original attempt budget. Do not infer purchased credit balance or content filtering from upstream RESOURCE_EXHAUSTED.",
     "new_api_requests_scope": "one diagnostic HTTP request per case; subsequent builder calls separately recorded"
   },
-  "remaining_unscored": 305,
+  "remaining_unscored": 296,
   "audio429_continuation": {
     "schema_version": 1,
     "as_of": "2026-09-23T07:48:46.612360+00:00",
@@ -4406,7 +4557,7 @@
   },
   "core_boundary_continuation": {
     "schema_version": 1,
-    "as_of": "2026-09-23T08:37:45.423328+00:00",
+    "as_of": "2026-09-23T08:58:33.212133+00:00",
     "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
     "staging": "/root/longemo/runtime/staging/core_boundary_20260923_162640",
     "driver_sha256": "45a58717ede0d690aff1f579b777b05c85a42f7eb1af4b1a6b133c1ba5aaba5e",
@@ -4436,11 +4587,11 @@
       "selected_questions": 12,
       "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5"
     },
-    "identity_alive": true,
+    "identity_alive": false,
     "workers": 3,
     "question_workers": 2,
     "protected_first_scores": 250,
-    "accepted_first_scores": 3,
+    "accepted_first_scores": 12,
     "videos": {
       "G2_V000051": {
         "window": "W00044",
@@ -4452,17 +4603,57 @@
           "retained_observations": 5
         },
         "seed_receipt_sha256": "b0a59dc8ea6b8e9ca68ae847cb43c8bdc387fb93318ea1c87d24c17d22caab18",
-        "completed_windows": 57,
+        "completed_windows": 67,
         "total_windows": 67,
-        "build_task_status": "running",
-        "child_identity_alive": true,
-        "recorded_new_calls": 30,
+        "build_task_status": "ok",
+        "child_identity_alive": false,
+        "recorded_new_calls": 51,
         "seed_window_reissued_calls": 0,
         "pipeline": {
-          "status": "running",
-          "video_id": "G2_V000051"
+          "status": "complete",
+          "scored": 4,
+          "questions": 4,
+          "answer_task": "ok"
         },
-        "first_scores": {}
+        "first_scores": {
+          "G2_Q000165": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000166": {
+            "score": 1,
+            "max_score": 1,
+            "normalized_score": 1.0
+          },
+          "G2_Q000167": {
+            "score": 0,
+            "max_score": 4,
+            "normalized_score": 0.0
+          },
+          "G2_Q000168": {
+            "score": 0,
+            "max_score": 4,
+            "normalized_score": 0.0
+          }
+        },
+        "tasks": {
+          "build": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "answer": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "score": {
+            "status": "ok",
+            "child_alive": false
+          }
+        },
+        "successful_answers_without_judgment": [],
+        "successful_judgments_without_accepted": [],
+        "lineage_sha256": "d21ca18b53e8db7b0916c7367b5ab319aa9e133a68d076d61389df69d940a234"
       },
       "G2_V000075": {
         "window": "W00056",
@@ -4502,7 +4693,24 @@
             "max_score": 4,
             "normalized_score": 0.5
           }
-        }
+        },
+        "tasks": {
+          "build": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "answer": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "score": {
+            "status": "ok",
+            "child_alive": false
+          }
+        },
+        "successful_answers_without_judgment": [],
+        "successful_judgments_without_accepted": [],
+        "lineage_sha256": "bbde3ec40754554558223ee2edb70a40709087b9c3a57d696ebf1d5fb43d50ca"
       },
       "G2_V000124": {
         "window": "W00035",
@@ -4514,17 +4722,62 @@
           "retained_observations": 8
         },
         "seed_receipt_sha256": "e6ce389bf736b894f9d12d38c27381023b7693cf8ec5a74848bddf7d0ba35e78",
-        "completed_windows": 47,
+        "completed_windows": 62,
         "total_windows": 62,
-        "build_task_status": "running",
-        "child_identity_alive": true,
-        "recorded_new_calls": 29,
+        "build_task_status": "ok",
+        "child_identity_alive": false,
+        "recorded_new_calls": 63,
         "seed_window_reissued_calls": 0,
         "pipeline": {
-          "status": "running",
-          "video_id": "G2_V000124"
+          "status": "complete",
+          "scored": 5,
+          "questions": 5,
+          "answer_task": "ok"
         },
-        "first_scores": {}
+        "first_scores": {
+          "G2_Q000487": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000488": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000489": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000490": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000491": {
+            "score": 1,
+            "max_score": 4,
+            "normalized_score": 0.25
+          }
+        },
+        "tasks": {
+          "build": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "answer": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "score": {
+            "status": "ok",
+            "child_alive": false
+          }
+        },
+        "successful_answers_without_judgment": [],
+        "successful_judgments_without_accepted": [],
+        "lineage_sha256": "8a3aa30b7949ec03c9279a5f5877a9bb40183ce4b9be9f1397783047afa6f642"
       }
     },
     "tests": {
@@ -4533,6 +4786,255 @@
       "core_files_unchanged": 1053
     },
     "policy": "Only offline deletion of one context-only observation in each final response; drop entire dependent emotion cues. No timestamp edits, same original validator. These seed windows are not reissued; all later windows use unchanged frozen core and original 8192 visual budget. One build task per video; no outer retry.",
-    "snapshot_sha256": "ba43b6a4cbc7dd1a02b4d1856808ab2eb9534f9c000aedcef66b9d1f800eae35"
+    "snapshot_sha256": "2d2e16821ba59a70f37532cf200cce6cc34a544e30898f39c757214cf005f936",
+    "finished": {
+      "finished_at": "2026-09-23T08:49:42.968769+00:00",
+      "failures_needing_audit": [],
+      "queue_finished": true,
+      "not_all_questions_scored": true
+    },
+    "lock_free": true,
+    "all_task_children_stopped": true
+  },
+  "core_boundary_end_audit": {
+    "schema_version": 1,
+    "as_of": "2026-09-23T08:58:33.212133+00:00",
+    "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+    "staging": "/root/longemo/runtime/staging/core_boundary_20260923_162640",
+    "driver_sha256": "45a58717ede0d690aff1f579b777b05c85a42f7eb1af4b1a6b133c1ba5aaba5e",
+    "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5",
+    "boundary_execution_sha256": "8f4bd2ab051b373c614d84fe95616ad8ec37ef59b43a28b7fa691ba6fd203df4",
+    "selection": [
+      "G2_Q000165",
+      "G2_Q000166",
+      "G2_Q000167",
+      "G2_Q000168",
+      "G2_Q000268",
+      "G2_Q000269",
+      "G2_Q000270",
+      "G2_Q000487",
+      "G2_Q000488",
+      "G2_Q000489",
+      "G2_Q000490",
+      "G2_Q000491"
+    ],
+    "launch": {
+      "pid": 253085,
+      "start_ticks": "9222195",
+      "started_unix": 1790152136.1435924,
+      "run": "/root/longemo/runtime/runs/noevent_core_boundary3_continuation_20260923",
+      "workers": 3,
+      "question_workers": 2,
+      "selected_questions": 12,
+      "configuration_sha256": "0c75700575db7a357bd478bf5cbeb57be5009e68ee6690922ff62383dc1072b5"
+    },
+    "identity_alive": false,
+    "workers": 3,
+    "question_workers": 2,
+    "protected_first_scores": 250,
+    "accepted_first_scores": 12,
+    "videos": {
+      "G2_V000051": {
+        "window": "W00044",
+        "seed": {
+          "removed_observation_ids": [
+            "o6"
+          ],
+          "removed_emotion_cues": 0,
+          "retained_observations": 5
+        },
+        "seed_receipt_sha256": "b0a59dc8ea6b8e9ca68ae847cb43c8bdc387fb93318ea1c87d24c17d22caab18",
+        "completed_windows": 67,
+        "total_windows": 67,
+        "build_task_status": "ok",
+        "child_identity_alive": false,
+        "recorded_new_calls": 51,
+        "seed_window_reissued_calls": 0,
+        "pipeline": {
+          "status": "complete",
+          "scored": 4,
+          "questions": 4,
+          "answer_task": "ok"
+        },
+        "first_scores": {
+          "G2_Q000165": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000166": {
+            "score": 1,
+            "max_score": 1,
+            "normalized_score": 1.0
+          },
+          "G2_Q000167": {
+            "score": 0,
+            "max_score": 4,
+            "normalized_score": 0.0
+          },
+          "G2_Q000168": {
+            "score": 0,
+            "max_score": 4,
+            "normalized_score": 0.0
+          }
+        },
+        "tasks": {
+          "build": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "answer": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "score": {
+            "status": "ok",
+            "child_alive": false
+          }
+        },
+        "successful_answers_without_judgment": [],
+        "successful_judgments_without_accepted": [],
+        "lineage_sha256": "d21ca18b53e8db7b0916c7367b5ab319aa9e133a68d076d61389df69d940a234"
+      },
+      "G2_V000075": {
+        "window": "W00056",
+        "seed": {
+          "removed_observation_ids": [
+            "o7"
+          ],
+          "removed_emotion_cues": 1,
+          "retained_observations": 6
+        },
+        "seed_receipt_sha256": "1a7f3df2ce081a5fc947d2990bfe78bcda5ffcd6815d6227643ede8db46313f9",
+        "completed_windows": 65,
+        "total_windows": 65,
+        "build_task_status": "ok",
+        "child_identity_alive": false,
+        "recorded_new_calls": 21,
+        "seed_window_reissued_calls": 0,
+        "pipeline": {
+          "status": "complete",
+          "scored": 3,
+          "questions": 3,
+          "answer_task": "ok"
+        },
+        "first_scores": {
+          "G2_Q000268": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000269": {
+            "score": 1,
+            "max_score": 4,
+            "normalized_score": 0.25
+          },
+          "G2_Q000270": {
+            "score": 2,
+            "max_score": 4,
+            "normalized_score": 0.5
+          }
+        },
+        "tasks": {
+          "build": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "answer": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "score": {
+            "status": "ok",
+            "child_alive": false
+          }
+        },
+        "successful_answers_without_judgment": [],
+        "successful_judgments_without_accepted": [],
+        "lineage_sha256": "bbde3ec40754554558223ee2edb70a40709087b9c3a57d696ebf1d5fb43d50ca"
+      },
+      "G2_V000124": {
+        "window": "W00035",
+        "seed": {
+          "removed_observation_ids": [
+            "o9"
+          ],
+          "removed_emotion_cues": 0,
+          "retained_observations": 8
+        },
+        "seed_receipt_sha256": "e6ce389bf736b894f9d12d38c27381023b7693cf8ec5a74848bddf7d0ba35e78",
+        "completed_windows": 62,
+        "total_windows": 62,
+        "build_task_status": "ok",
+        "child_identity_alive": false,
+        "recorded_new_calls": 63,
+        "seed_window_reissued_calls": 0,
+        "pipeline": {
+          "status": "complete",
+          "scored": 5,
+          "questions": 5,
+          "answer_task": "ok"
+        },
+        "first_scores": {
+          "G2_Q000487": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000488": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000489": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000490": {
+            "score": 0,
+            "max_score": 1,
+            "normalized_score": 0.0
+          },
+          "G2_Q000491": {
+            "score": 1,
+            "max_score": 4,
+            "normalized_score": 0.25
+          }
+        },
+        "tasks": {
+          "build": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "answer": {
+            "status": "ok",
+            "child_alive": false
+          },
+          "score": {
+            "status": "ok",
+            "child_alive": false
+          }
+        },
+        "successful_answers_without_judgment": [],
+        "successful_judgments_without_accepted": [],
+        "lineage_sha256": "8a3aa30b7949ec03c9279a5f5877a9bb40183ce4b9be9f1397783047afa6f642"
+      }
+    },
+    "tests": {
+      "local": 36,
+      "remote": 36,
+      "core_files_unchanged": 1053
+    },
+    "policy": "Only offline deletion of one context-only observation in each final response; drop entire dependent emotion cues. No timestamp edits, same original validator. These seed windows are not reissued; all later windows use unchanged frozen core and original 8192 visual budget. One build task per video; no outer retry.",
+    "snapshot_sha256": "2d2e16821ba59a70f37532cf200cce6cc34a544e30898f39c757214cf005f936",
+    "finished": {
+      "finished_at": "2026-09-23T08:49:42.968769+00:00",
+      "failures_needing_audit": [],
+      "queue_finished": true,
+      "not_all_questions_scored": true
+    },
+    "lock_free": true,
+    "all_task_children_stopped": true
   }
 }

@@ -13,19 +13,19 @@ This repository provides prediction generation and a shared evaluator. Predictio
 <!-- LONGEMO_FULL558_RESULTS:START -->
 ### 当前评测结果
 
-2026-09-23 **16:37 CST**：noevent新增V75的3条首分，原250题结果保持不变；method与base不新增请求。
+2026-09-23 **16:58 CST**：noevent新增9条首分，原253题结果保持不变；method与base不新增请求。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 253/558 | 25.03 |
+| noevent | 262/558 | 24.65 |
 | method（保留成绩） | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
 
-**V75已完成65窗和3题评分，V51/V124仍并发运行，57/67、47/62窗口。** 每视频最多2题并行。原失败窗口经离线删除越界观察并通过原校验器后复用，该预处理差异单独记录。[协议与启动](experiments/zyf/results/noevent_resume_20260923/core_boundary_startup.md)。
+V51/V75/V124已全部完成，共12题首次评分；无漏评或重复种子窗口调用。当前已启动队列结束，剩余296题继续按具体阻断证据审计。
 
-汇总包含**230题原8192预算＋20题改16384＋3题8192并离线删除越界观察**，保留每题来源。初轮共同成功68题为noevent32.60、method62.13（+29.53）；这是非随机成功交集，不能直接比较不同题集的总体均分。缺失不计零分，历史路由版60.24独立保留。
+汇总含**230题原8192预算＋20题改16384＋12题8192并离线删除越界观察**，保留每题来源。初轮共同成功68题为noevent32.60、method62.13（+29.53）；这是非随机交集，不能直接比较不同题集的总体均分。缺失不计零分，历史路由版60.24独立保留。
 
-[当前结果与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [V114结束审计](experiments/zyf/results/noevent_resume_20260923/v114_length_end_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。
+[当前结果与逐题来源](experiments/zyf/results/noevent_resume_20260923/report.md) · [本批结束审计](experiments/zyf/results/noevent_resume_20260923/core_boundary_end_audit.md) · [初轮68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ### 历史题型路由结果
