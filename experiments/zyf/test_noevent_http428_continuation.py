@@ -37,3 +37,19 @@ class Tests(unittest.TestCase):
             for state in ({'status':'running','results':{}},{'status':'finished','results':{v:{'classification':'explicit_dlp_rejection'} for v in c.diagnosis.CASES}}):
                 (tmp/'finished.json').write_text(json.dumps(state))
                 with self.assertRaises(ValueError):c.successful_cases(tmp/'spec.json',tmp)
+
+    def test_credential_comes_from_frozen_task_command(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp).resolve();credential=root/'private.json';credential.write_text('{}')
+            task=root/'task.json';task.write_text(json.dumps({'command':['python','--credential-file',str(credential)]}))
+            self.assertEqual(c.original_credential({'V':{'task_path':str(task)}}),str(credential))
+            task.write_text(json.dumps({'command':[]}))
+            with self.assertRaises(ValueError):c.original_credential({'V':{'task_path':str(task)}})
+
+    def test_resume_cannot_delete_or_reset_any_task(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp).resolve();run=root/'run';run.mkdir();selection=run/'selection.json';selection.write_text('{}')
+            audit=root/'audit.json';audit.write_text(json.dumps({'run':str(run),'reason':'local_prepare_KeyError_credential_file_before_any_API','run_files':{str(selection):probe.sha(selection)},'claims':{}}))
+            c.empty_preparation(run,audit)
+            (run/'task.json').write_text('{}')
+            with self.assertRaises(ValueError):c.empty_preparation(run,audit)

@@ -77,10 +77,36 @@ def implementation():
     return {str(p):base.sha(base.regular(p)) for p in root.glob('*.py')}
 
 
+def original_credential(cases):
+    paths=set()
+    for case in cases.values():
+        command=base.read(base.regular(case['task_path']))['command']
+        if command.count('--credential-file')!=1:raise ValueError('missing original credential argument')
+        path=Path(command[command.index('--credential-file')+1]).absolute()
+        base.regular(path);paths.add(str(path))
+    if len(paths)!=1:raise ValueError('source credential paths differ')
+    return paths.pop()
+
+
+def empty_preparation(run,audit_path):
+    audit=base.read(base.regular(audit_path))
+    if audit.get('run')!=str(run) or audit.get('reason')!='local_prepare_KeyError_credential_file_before_any_API':
+        raise ValueError('unstarted preparation audit differs')
+    current={str(p):base.sha(base.regular(p)) for p in run.rglob('*') if p.is_file()}
+    if set(current)!={str(run/'selection.json')} or current!=audit['run_files']:
+        raise ValueError('cannot resume preparation after any task or unknown file')
+    diagnosis.verify_files(audit['claims'])
+    return audit
+
+
 def prepare(args):
     run=Path(args.run).absolute()
-    if run.exists():raise ValueError('new fixed run already exists; audit without preparing again')
+    resume=None
+    if run.exists():
+        if not args.resume_preparation_audit:raise ValueError('existing run requires a no-API preparation audit')
+        resume=empty_preparation(run,args.resume_preparation_audit)
     spec,cases=successful_cases(args.specs,args.batch)
+    credential=original_credential(cases)
     parent=Path(args.parent_run);core=Path(args.core_repo)
     if parent.name!='three_level_full558_gemini38_20260922':raise ValueError('full558 parent required')
     for other in parent.parent.glob('noevent*'):
@@ -96,13 +122,22 @@ def prepare(args):
         p=parent.parents[1]/'recovery_claims/noevent_http428_seed'/f'{vid}.json'
         value={'video_id':vid,'source_run':case['source_run'],'owner_run':str(run),'question_ids':case['question_ids'],
                'request_hash':case['failed']['request_hash'],'driver_sha256':base.sha(__file__)}
-        seed.exclusive_json(p,value);claims[str(p)]=base.sha(p)
+        if resume:
+            if str(p) not in resume['claims']:raise ValueError('missing existing ownership claim')
+            oldclaim=base.read(p)
+            if any(oldclaim.get(k)!=v for k,v in value.items() if k!='driver_sha256'):raise ValueError('existing claim ownership differs')
+        else:seed.exclusive_json(p,value)
+        claims[str(p)]=base.sha(p)
     selected=sorted(q for c in cases.values() for q in c['question_ids'])
-    run.mkdir(mode=0o700)
-    selection=run/'selection.json';seed.exclusive_json(selection,{'schema_version':1,'condition':'noevent','question_ids':selected,
-        'reason':'Fixed five successful one-request HTTP428 diagnostics; reuse seeds, original budgets, first scores preserved.'})
+    run.mkdir(mode=0o700,exist_ok=bool(resume))
+    selection=run/'selection.json';chosen={'schema_version':1,'condition':'noevent','question_ids':selected,
+        'reason':'Fixed five successful one-request HTTP428 diagnostics; reuse seeds, original budgets, first scores preserved.'}
+    if resume:
+        if base.read(selection)!=chosen:raise ValueError('original prepared selection differs')
+        protected[str(Path(args.resume_preparation_audit).absolute())]=base.sha(args.resume_preparation_audit)
+    else:seed.exclusive_json(selection,chosen)
     old=base.read(parent/'configuration.json')
-    original=SimpleNamespace(run=str(run),parent_run=str(parent),core_repo=str(core),selection=str(selection),credential_file=old['credential_file'],
+    original=SimpleNamespace(run=str(run),parent_run=str(parent),core_repo=str(core),selection=str(selection),credential_file=credential,
         visual_max_tokens=8192,protected_count=195,workers=5,question_workers=2,python=args.python)
     _,cfg=base.prepare(original)
     for vid,case in cases.items():
@@ -156,7 +191,7 @@ def guards(run,cfg):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('stage',choices=['prepare','seed','run','report']);p.add_argument('--run',required=True)
-    for n in ('specs','batch','parent-run','core-repo','video-id'):p.add_argument('--'+n)
+    for n in ('specs','batch','parent-run','core-repo','video-id','resume-preparation-audit'):p.add_argument('--'+n)
     p.add_argument('--python',default=sys.executable);a=p.parse_args();run=Path(a.run).absolute()
     if a.stage=='prepare':result=prepare(a)
     elif a.stage=='seed':result=import_one(run,a.specs,a.batch,a.video_id)
