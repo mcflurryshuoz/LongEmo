@@ -10,10 +10,10 @@
 
 来源：初轮195＋V26 2＋主24视频30＋5视频8＋2视频5。当前227题为8192视觉预算，13题为继承8192窗口并以16384续构建，属于混合预算汇总。
 
-已启动的三个感知队列均结束，V26评分完成、V31此前停止。V138完整65窗并新增5题；V117在18/64窗后，audio W19首个请求明确HTTP200 content_filter，不重发。最新协调器已退出、无子进程、锁释放；无成功答案漏评或有效评分漏归档。Q259、Q260、Q40保留之前judge拒绝，不重判。
+此前三个感知队列均结束，V26评分完成、V31此前停止。V138完整65窗并新增5题；V117在18/64窗后，audio W19首个请求明确HTTP200 content_filter，不重发。最新协调器已退出、无子进程、锁释放；无成功答案漏评或有效评分漏归档。Q259、Q260、Q40保留之前judge拒绝，不重判。
 
-V101原失败音频请求的一次独立探针已HTTP200并校验通过，只有音频观察成功，没有完成完整窗口或视频，也无新分数；独立续跑准备中，尚未启动。不提供确定完成时间。429上游资源错误、500、输出截断、结构校验、DLP及内容过滤分别归因。
+**14:00 CST执行状态**：V101独立3题队列已于13:59:54启动，1视频、每视频2题。继承63/75完整窗，导入成功W64音频缓存且重发0次；visual W64在途，尚无新评分，视觉8192／音频4096预算未改。prepare无API；本地41项相关检查＋5项独立review、远端19项通过。不提供确定完成时间，240题评分仍为13:51固定快照。
 
 初轮68题比较保持noevent32.60、method62.13、差值+29.53，未并入后续45题，不能外推全集。noevent尚缺318题，method尚缺461题；141视频已传输核验，初轮报告与历史路由60.24分独立保留。
 
-[当前报告](results/noevent_resume_20260923/report.md) · [最新结束审计与音频诊断](results/noevent_resume_20260923/length2_end_audit.md) · [前一批审计](results/noevent_resume_20260923/batch_end_audit.md) · [两视频历史启动](results/noevent_resume_20260923/length2_startup.md) · [初轮68题比较](results/three_level_full558_gemini38_20260922/completion_audit.md)
+[当前报告](results/noevent_resume_20260923/report.md) · [V101启动记录](results/noevent_resume_20260923/v101_startup.md) · [此前结束审计](results/noevent_resume_20260923/length2_end_audit.md) · [前一批审计](results/noevent_resume_20260923/batch_end_audit.md) · [两视频历史启动](results/noevent_resume_20260923/length2_startup.md) · [初轮68题比较](results/three_level_full558_gemini38_20260922/completion_audit.md)
