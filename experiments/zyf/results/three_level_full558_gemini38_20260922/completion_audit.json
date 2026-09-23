@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "audited_at": "2026-09-23T11:12:00+08:00",
+  "run": "three_level_full558_gemini38_20260922",
+  "report_as_of": "2026-09-23T03:07:51.009556+00:00",
+  "report_sha256": "2e42f21b011cfdbf2bc9152837ebfd607d83c38c4cf306be2db15ae8b1f5ac88",
+  "execution_conditions": [
+    "noevent",
+    "method"
+  ],
+  "queue_finished": true,
+  "all_questions_scored": false,
+  "phase_finished": {
+    "noevent": "2026-09-23T05:17:28.200585+08:00",
+    "method": "2026-09-23T09:27:01.965448+08:00"
+  },
+  "coordinator": {
+    "recorded_pid": 151750,
+    "recorded_start_ticks": "4296984",
+    "identity_alive": false,
+    "observed_pid_start_ticks": "6987964",
+    "pid_reused_by_unrelated_process": true,
+    "action": "no signal sent; unrelated process untouched"
+  },
+  "tasks": {
+    "ok": 274,
+    "error": 174,
+    "running": 0,
+    "needs_audit": 0,
+    "matching_live_child_identities": [],
+    "coordinator_lock_free": true,
+    "new_base_answer_or_score_tasks": []
+  },
+  "first_score_inventory": {
+    "pending_first_score": 0,
+    "awaiting_acceptance": 0,
+    "failed_first_score": [
+      {
+        "condition": "noevent",
+        "question_id": "G2_Q000350",
+        "reason": "previous official judge content_filter; not retried"
+      }
+    ]
+  },
+  "media": {
+    "complete": true,
+    "verified_count": 141,
+    "verified_bytes": 68375210073,
+    "completed_at": "2026-09-23T04:30:11.890707+08:00",
+    "manifest_sha256": "ef1c3956623f68986249dec55487b6439492f2b6f5b966048fc2ee12eb53f689",
+    "relay_pid": 12524,
+    "relay_running": false,
+    "local_producer_done_sha256": "37d65bdd9da0dca2a0db3fd03cdfdf7b1cff875b013a4071e1f10e1d2714230b",
+    "remote_producer_done_sha256": "a47b5f96c15cc72f56181b6d2e169d43dd133a50bf49463847d21502fa9b59fa"
+  },
+  "conditions": {
+    "noevent": {
+      "scored": 195,
+      "total": 558,
+      "coverage": 0.34946236559139787,
+      "mean_scored": 26.66666666666666
+    },
+    "method": {
+      "scored": 97,
+      "total": 558,
+      "coverage": 0.17383512544802868,
+      "mean_scored": 59.450171821305844
+    }
+  },
+  "missing_counts": {
+    "noevent": {
+      "parent_build_blocked": 34,
+      "build_failed": 323,
+      "embedding_failed": 2,
+      "score_failed": 1,
+      "plan_failed": 3
+    },
+    "base": {
+      "not_requested": 545
+    },
+    "method": {
+      "parent_build_blocked": 37,
+      "build_failed": 420,
+      "embedding_failed": 4
+    }
+  },
+  "perception_failure_categories": {
+    "noevent": {
+      "content_filter": 33,
+      "generate_runtime_error_unknown": 21,
+      "http_428_unclassified": 18,
+      "output_validation_failed": 2
+    },
+    "event": {
+      "generate_runtime_error_unknown": 69,
+      "content_filter": 14,
+      "http_428_unclassified": 11,
+      "other": 2
+    }
+  },
+  "additional_failure_evidence": {
+    "G2_V000095": {
+      "condition": "event",
+      "stage": "generate",
+      "http_status": 429,
+      "attempt": 3,
+      "request_hash": "2db48f8595a8fea0135c3619cf4116461b3c7c7c7e58ca27c11739e5e09dc70e",
+      "category_in_original_report": "other"
+    },
+    "G2_V000120": {
+      "condition": "event",
+      "stage": "validate",
+      "error_type": "AttributeError",
+      "attempt": 1,
+      "request_hash": "72e69cadd36cb4662b84607f09fd6fc9364523bc3052b716763915e75c02ab84",
+      "category_in_original_report": "other",
+      "matching_diagnostic_found": false
+    }
+  },
+  "paired_noevent_method": {
+    "count": 68,
+    "means": {
+      "noevent": 32.59803921568627,
+      "method": 62.13235294117647
+    },
+    "method_minus_noevent": 29.5343137254902,
+    "question_ids": [
+      "G2_Q000001",
+      "G2_Q000002",
+      "G2_Q000020",
+      "G2_Q000021",
+      "G2_Q000022",
+      "G2_Q000041",
+      "G2_Q000042",
+      "G2_Q000043",
+      "G2_Q000044",
+      "G2_Q000073",
+      "G2_Q000074",
+      "G2_Q000075",
+      "G2_Q000082",
+      "G2_Q000083",
+      "G2_Q000084",
+      "G2_Q000085",
+      "G2_Q000091",
+      "G2_Q000092",
+      "G2_Q000093",
+      "G2_Q000107",
+      "G2_Q000108",
+      "G2_Q000123",
+      "G2_Q000124",
+      "G2_Q000125",
+      "G2_Q000126",
+      "G2_Q000127",
+      "G2_Q000132",
+      "G2_Q000133",
+      "G2_Q000134",
+      "G2_Q000135",
+      "G2_Q000136",
+      "G2_Q000169",
+      "G2_Q000170",
+      "G2_Q000175",
+      "G2_Q000176",
+      "G2_Q000177",
+      "G2_Q000191",
+      "G2_Q000192",
+      "G2_Q000193",
+      "G2_Q000194",
+      "G2_Q000236",
+      "G2_Q000237",
+      "G2_Q000238",
+      "G2_Q000239",
+      "G2_Q000240",
+      "G2_Q000241",
+      "G2_Q000261",
+      "G2_Q000262",
+      "G2_Q000263",
+      "G2_Q000264",
+      "G2_Q000273",
+      "G2_Q000274",
+      "G2_Q000275",
+      "G2_Q000308",
+      "G2_Q000309",
+      "G2_Q000310",
+      "G2_Q000311",
+      "G2_Q000312",
+      "G2_Q000313",
+      "G2_Q000327",
+      "G2_Q000328",
+      "G2_Q000329",
+      "G2_Q000330",
+      "G2_Q000336",
+      "G2_Q000337",
+      "G2_Q000338",
+      "G2_Q000339",
+      "G2_Q000340"
+    ],
+    "interpretation": "intersection of successful first scores, not a randomized subset or full558 result"
+  },
+  "completion_semantics": "Executable queues ended; unresolved failed tasks retain original budgets and sources. No scores were redrawn; dataset coverage is incomplete."
+}

@@ -11,21 +11,25 @@ This repository provides prediction generation and a shared evaluator. Predictio
 先从视频、音频和字幕构建带时间、人物、情感对象及证据引用的事件图；回答时用 **BM25＋Gemini Embedding 2** 定位相关事件，再按需披露时间流和关系流，由 GPT-6 基于证据作答。构图与问题无关，参考答案仅用于官方评分。
 
 <!-- LONGEMO_FULL558_RESULTS:START -->
-### 当前三层消融进度
+### 当前三层消融结果
 
-2026-09-23 04:09 CST 快照：全集 **558题／141视频**。02:48 已在 AIStudio 完成调度切换，本轮只按 **noevent → method** 执行；base 保留已有成绩，不再回答或评分。
+2026-09-23 11:07 CST 快照，11:12 完成审计。**noevent 与 method 的可执行队列均已结束，558题尚未全部评分。** base 只保留已有参考，不新增回答或评分。
 
 | 条件 | 已评分／558题 | 已评分均分／100 |
 |---|---:|---:|
-| noevent | 154/558 | 28.41 |
+| noevent | 195/558 | 26.67 |
+| method | 97/558 | 59.45 |
 | base（已有参考） | 13/558 | 63.46 |
-| method | 13/558 | 69.23 |
 
-base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 分**。noevent 的已评分题集不同，不能直接比较上表均分。三路共同 9 题为 noevent **62.96**、base **58.33**、method **77.78**；仍属早期小样本。
+不同已评分题集的总体均分不能直接比较。**noevent／method 共同成功的68题**结果为：
 
-该快照媒体已就绪 **135/141**，其余继续上传；noevent 当前8个视频运行、6个等待媒体，完成可执行队列后进入 method。base 未评分题不计入待执行范围，完整历史 base 结果保留在 base 分支。
+| 同题题数 | noevent／100 | method／100 | method − noevent |
+|---:|---:|---:|---:|
+| 68 | 32.60 | 62.13 | +29.53 |
 
-[全集报告：题型、分剧、同题比较与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [范围切换核验](experiments/zyf/results/three_level_full558_gemini38_20260922/scope_change.md)。缺失不计零分，历史路由版60.24分单独保留。
+这是成功评分的交集，未经随机抽样，不能据此推断全集提升。noevent 尚缺363题，method 尚缺461题，原因保留在逐题报告。141个视频已全部传输并核验；当前无在途任务或待首次评分，已失败请求保留原预算。
+
+[全集报告与逐题来源](experiments/zyf/results/three_level_full558_gemini38_20260922/report.md) · [队列结束审计与68题比较](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md)。缺失不计零分，历史路由版60.24分单独保留。
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
 ### 历史题型路由结果
@@ -50,7 +54,7 @@ base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 �
 | 摩登家庭 | 44.12 (34) | 63.51 (37) | 80.39 (17) |
 | 剧名未标注 | 55.56 (54) | 55.38 (65) | 69.28 (51) |
 
-每题归一化后等权平均；8 题缺少预测、1 题评分服务报错，缺失不计零分。这是 520 题子集的路由版结果；新的 schema v2 三层消融正在独立评测，结果不与本表混合。详见[实验报告](experiments/zyf/results/method_hybrid_20260922/report.md)、[同题对比](experiments/zyf/results/method_hybrid_20260922/comparison.json)和[逐题评分](experiments/zyf/results/method_hybrid_20260922/question_scores.jsonl)。
+每题归一化后等权平均；8 题缺少预测、1 题评分服务报错，缺失不计零分。这是 520 题子集的路由版结果；schema v2 三层消融独立评测，结果不与本表混合。详见[实验报告](experiments/zyf/results/method_hybrid_20260922/report.md)、[同题对比](experiments/zyf/results/method_hybrid_20260922/comparison.json)和[逐题评分](experiments/zyf/results/method_hybrid_20260922/question_scores.jsonl)。
 
 ### 方法概括
 
@@ -69,9 +73,9 @@ base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 �
 | `base` | 完整事件图 | 全图召回后一次性扩展相邻事件与关系 | 事件表示、跨窗归并与导航 |
 | `method` | 完整冻结事件图 | 全图定位锚点，逐步披露相关事件流 | 按需检索的证据覆盖与效率 |
 
-本次 noevent 与 method 固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。已完成的13题 base／method 试跑共用冻结图、索引和规划。全集固定为 **558 题／141 视频**，后续只按 `noevent → method` 执行；已有 base 保留配置和逐题来源，不再运行。纯渐进式与历史题型路由版结果分开报告。
+本次 noevent 与 method 固定媒体、采样、模型、题单、评分器及 48000 字符证据预算参数；实际输入和累计 token 另行统计。已完成的13题 base／method 试跑共用冻结图、索引和规划。全集固定为 **558 题／141 视频**，本轮按 `noevent → method` 执行；已有 base 保留配置和逐题来源，不再运行。纯渐进式与历史题型路由版结果分开报告。
 
-新的 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验已通过完整视频验证，现扩展到全集。试跑首分已核验继承，正以最多 **12 视频并发、每视频 2 题并发** 跑 noevent，随后自动跑 method；媒体边传边处理，每视频完成记忆后即可答题评分。完整题单和媒体 SHA 固定，不重评低分、不重置失败预算。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
+本轮 **Gemini 3.8 Flash 感知＋GPT-6 规划／回答／评分** 实验覆盖全集题单，可执行队列现已结束。试跑首分核验后继承，运行时最多 **12 视频并发、每视频 2 题并发**，依次执行 noevent 和 method；媒体边传边处理，每视频完成记忆后答题评分。完整题单和媒体 SHA 固定，失败预算与首次评分保留；未评分范围见上方审计。启动方式见 [全集脚本](https://github.com/mcflurryshuoz/LongEmo/blob/noevent/experiments/zyf/full_suite.md)。
 
 50题试跑已结束并完成首分审计；[试跑报告与逐题来源](experiments/zyf/results/three_level_pilot_gemini38_20260922/report.md)单独保留。
 
@@ -79,7 +83,7 @@ base／method 当前均为试跑继承的同 **13 题**，method 暂高 **5.77 �
 
 [完整消融与论文分析计划](experiments/zyf/three_level_ablation.md) · [noevent 方案](experiments/zyf/noevent_plan.md) · [方法文档](methods/longemo/README.md)
 
-全集协调器已于2026-09-22 20:26 CST在 AIStudio 启动，已接续 noevent 全集，视频继续后台补传。[全集启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
+本轮全集范围的可执行队列与媒体传输均已结束，未评分题保留失败归因。[队列结束审计](experiments/zyf/results/three_level_full558_gemini38_20260922/completion_audit.md) · [历史启动记录](experiments/zyf/results/three_level_full558_gemini38_20260922/startup.md)。
 
 ## Benchmark setup
 
