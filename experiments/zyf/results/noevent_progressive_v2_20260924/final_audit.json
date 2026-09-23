@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-09-23T19:50:54.484527+00:00",
+  "all_workers_stopped": true,
+  "all_locks_released": true,
+  "runs": [
+    {
+      "run": "noevent_progressive_cached_v2_20260924",
+      "pid_stopped": true,
+      "lock_released": true,
+      "first_scores": 30,
+      "successful_answers_without_judge": 0,
+      "valid_judges_without_accepted": 0
+    },
+    {
+      "run": "noevent_progressive_cached_v2_transport_20260924",
+      "pid_stopped": true,
+      "lock_released": true,
+      "first_scores": 9,
+      "successful_answers_without_judge": 0,
+      "valid_judges_without_accepted": 0
+    },
+    {
+      "run": "noevent_progressive_cached_v2_unattempted_20260924",
+      "pid_stopped": true,
+      "lock_released": true,
+      "first_scores": 205,
+      "successful_answers_without_judge": 0,
+      "valid_judges_without_accepted": 0
+    }
+  ],
+  "protected_old_first_scores_verified": 428,
+  "all_244_score_prediction_rubric_trace_and_budget_checks_passed": true,
+  "no_new_perception_requests": true,
+  "missing_status_counts": {
+    "scored": 244,
+    "no_complete_observation_cache": 272,
+    "answer_output_json_error": 8,
+    "excluded_prior_backend_refusal": 7,
+    "plan_content_filter": 14,
+    "plan_invalid_parameter": 5,
+    "embedding_http429": 7,
+    "answer_content_filter": 1
+  }
+}
