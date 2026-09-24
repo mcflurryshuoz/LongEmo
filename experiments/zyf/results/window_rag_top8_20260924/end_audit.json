@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-09-24T05:09:06.531233+00:00",
+  "finished": {
+    "status": "finished_available_queue",
+    "finished_at": "2026-09-24T04:06:09.645086+00:00"
+  },
+  "process": {
+    "pid": 220824,
+    "start_ticks": "16197023"
+  },
+  "lock_free": true,
+  "frozen_verified": true,
+  "predictions_without_scores": [],
+  "scores_without_accepted": [],
+  "pipelines_failed": [
+    {
+      "video_id": "G2_V000042",
+      "status": "error",
+      "error_type": "RuntimeError",
+      "finished_at": "2026-09-24T03:54:05.706785+00:00"
+    },
+    {
+      "video_id": "G2_V000043",
+      "status": "error",
+      "error_type": "RuntimeError",
+      "finished_at": "2026-09-24T03:54:05.620858+00:00"
+    }
+  ],
+  "model_errors": [
+    {
+      "purpose": "window_rag_answer:G2_Q000031",
+      "request_hash": "e7e4f5c4471aa47ae80cfcd9e344596928c405ddda1b977fc48b25d63494624a",
+      "attempt": 1,
+      "status": "error",
+      "error_type": "ServiceError",
+      "http_status": 400,
+      "retryable": false
+    }
+  ],
+  "embedding_errors": [
+    {
+      "purpose": "embedding_documents",
+      "request_hash": "1f4a049be91ac4ec13a3ec718f7dff2c6e5275830508c2d6811270b37ff771e4",
+      "attempt": 1,
+      "status": "error",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "purpose": "embedding_documents",
+      "request_hash": "97a9446e8cb4a9e16560c5797b21db99a1afe21a0f1c9e73b1c640ca42dfeba6",
+      "attempt": 1,
+      "status": "error",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "purpose": "embedding_documents",
+      "request_hash": "1f4a049be91ac4ec13a3ec718f7dff2c6e5275830508c2d6811270b37ff771e4",
+      "attempt": 2,
+      "status": "error",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "purpose": "embedding_documents",
+      "request_hash": "97a9446e8cb4a9e16560c5797b21db99a1afe21a0f1c9e73b1c640ca42dfeba6",
+      "attempt": 2,
+      "status": "error",
+      "error_type": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "purpose": "embedding_documents",
+      "request_hash": "515285b098dbcb6f85e47ac177bee8fc815c168d37ad9e1872eb0b13f55d6954",
+      "attempt": 1,
+      "status": "error",
+      "error_type": "URLError"
+    },
+    {
+      "purpose": "embedding_documents",
+      "request_hash": "5031eefee7c0bb9023f8a72cc24cbee4b6b426d9fd9c10f2b3009cfd129c7b7e",
+      "attempt": 1,
+      "status": "error",
+      "error_type": "HTTPError",
+      "http_status": 429
+    }
+  ],
+  "configuration_sha256": "2cd1356bd55b82505ee2235e61ab5667537805d30550935dd69593478f437a27",
+  "overall": {
+    "total": 558,
+    "scored": 502,
+    "mean_scored": 51.64342629482069
+  },
+  "statuses": {
+    "scored": 502,
+    "error": 1,
+    "prior_explicit_backend_refusal": 22,
+    "index_failed": 8,
+    "missing_complete_observations": 25
+  }
+}
