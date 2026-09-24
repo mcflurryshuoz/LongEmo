@@ -1,16 +1,29 @@
 # LongEmoBench
 
 <!-- WINDOW_RAG_TOP8:START -->
-## Window-RAG 单次窗口检索基线
+## noevent 结果：Window-RAG
 
-2026-09-24 12:06 CST队列结束：**502/558题，51.64分，覆盖率89.96%**。Top-8单次检索＋一次回答，无事件结构、无规划或渐进检索。剩余25题缓存缺失、22题既定后端拒绝、8题Embedding429、1题回答HTTP400；无漏评。[结果与审计](experiments/zyf/results/window_rag_top8_20260924/report.md)。
+**502/558 题，均分 51.64，覆盖率 89.96%。** 本次可执行队列已结束，缺失题不计零分，保留首次有效评分。
+
+| 任务 | 已评分／总题数 | 分数／100 |
+|---|---:|---:|
+| 情感轨迹 | 211/235 | 53.67 |
+| 情感强度比较 | 174/194 | 39.66 |
+| 情感推理 | 117/129 | 65.81 |
+| **总体** | **502/558** | **51.64** |
+
+**方法：**复用已有带时间戳的原始窗口观察，移除事件节点、关系、派生情感状态和摘要。问题直接通过 BM25＋Embedding 检索 Top-8 窗口，按时间排列，由 GPT-6 一次回答并按官方标准评分；不做检索规划、多轮追加检索或媒体回看。
+
+剩余 56 题：25 题缺完整缓存、22 题既定后端拒绝、8 题 Embedding HTTP 429、1 题回答 HTTP 400；无漏评分或漏归档。
+
+缓存包含不同感知来源，逐题保留来源。与渐进事件图方法相比，此基线同时改变表示与检索流程；事件图贡献须在同源、同题和受控检索设置下比较，不能直接比较不同已评分题集的总体均分。
+
+[完整结果与 558 题状态](experiments/zyf/results/window_rag_top8_20260924/report.md) · [结束审计](experiments/zyf/results/window_rag_top8_20260924/end_audit.json)
 <!-- WINDOW_RAG_TOP8:END -->
 
 
 <!-- LONGEMO_SHARED_OBS:START -->
-## noevent 全集评测（运行中）
-
-2026-09-24 06:01:56 CST：**355/558题，61.41分**。123个视频缓存正在并发评测，剩余18视频正在补缺失窗口。仅原始窗口观察＋渐进检索，移除事件结构；多来源单独标记，未混入旧版成绩。见[结果与558题来源](experiments/zyf/results/noevent_full_bank_20260924/report.md)。
+历史渐进窗口实验独立保留，未混入上述 Window-RAG 成绩：[历史观察库实验记录](experiments/zyf/results/noevent_full_bank_20260924/report.md)。
 <!-- LONGEMO_SHARED_OBS:END -->
 
 
@@ -20,13 +33,11 @@ LongEmoBench evaluates emotion understanding at two video granularities: **clip*
 
 This repository provides prediction generation and a shared evaluator. Predictions from your own model or agent can be evaluated directly. **Evaluation requires question annotations and predictions; it does not load videos or subtitles.**
 
-## 当前实验：noevent 全集
+## 当前实验协议
 
-本分支仅感知**时间窗口记录**，不生成事件、情感状态节点或关系边；在窗口记录上用 BM25＋Gemini Embedding 2 检索，由 GPT-6 回答并按官方标准评分。
+当前结果对应上方 **Window-RAG 单次 Top-8 检索**，固定题单为 558 题／141 个视频，复用其中 136 个视频的完整观察缓存，不重新感知。运行采用 24 个视频流水线、每视频 2 题并发；Embedding 并发为 2。协议和输入在运行前冻结，不按成绩调整配置或重抽答案。
 
-本次固定 **558 题／141 视频**，统一使用 Gemini 3.8 Flash 音视频感知。50题试跑核验继承后，全集以最多 **12 视频并发、每视频 2 题并发** 依次运行 noevent 和 method；初轮可执行队列已结束，未实现全部题目成功评分；noevent 已按新指令继续。base 仅保留已有成绩。首次有效成绩和失败记录均保留。[启动命令与评测协议](experiments/zyf/full_suite.md)。
-
-下方保留事件图方法和历史成绩供对照；历史 60.24／57.62 **不是本次 noevent 或三层消融成绩**。
+下方保留旧窗口协议与事件图实现供追溯，均不代表当前 Window-RAG 的成绩。
 
 <!-- LONGEMO_NOEVENT_V2:START -->
 ### noevent-v2：渐进式窗口检索
@@ -58,13 +69,13 @@ This repository provides prediction generation and a shared evaluator. Predictio
 [三类任务与分剧结果](experiments/zyf/results/noevent_resume_20260923/report.md) · [558题状态](experiments/zyf/results/noevent_resume_20260923/question_status.csv) · [最终审计](experiments/zyf/results/noevent_resume_20260923/final_audit.json)
 <!-- LONGEMO_FULL558_RESULTS:END -->
 
-## method 分支：完整事件流检索方法
+## 历史事件图实现（method 对照）
 
-本分支在原有 benchmark 和评测器上实现了**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法概括为：先将视频按时间窗口切分，由音频和视觉模型提取带时间戳的人物、事件、情绪状态及证据；再把这些信息写入经过校验的事件图谱，并建立 Embedding 索引。回答问题时，由 GPT-6 规划检索，结合 BM25／人物与情感对象匹配、Gemini Embedding 2 向量召回和 RRF 融合，再沿事件关系扩展上下文，最后由 GPT-6 基于证据作答并按官方 rubric 评分。图谱与问题解耦，可复用已完成窗口和检索缓存。
+历史实现基于原有 benchmark 和评测器，采用**情感事件记忆图谱 + 结构化语义／Embedding 双路检索**。方法概括为：先将视频按时间窗口切分，由音频和视觉模型提取带时间戳的人物、事件、情绪状态及证据；再把这些信息写入经过校验的事件图谱，并建立 Embedding 索引。回答问题时，由 GPT-6 规划检索，结合 BM25／人物与情感对象匹配、Gemini Embedding 2 向量召回和 RRF 融合，再沿事件关系扩展上下文，最后由 GPT-6 基于证据作答并按官方 rubric 评分。图谱与问题解耦，可复用已完成窗口和检索缓存。
 
-## noevent 分支：时间窗口消融
+## noevent 分支：时间窗口基线
 
-本分支用于隔离事件图贡献。已实现窗口级感知记录、窗口级 BM25／Embedding 双路检索和独立 answer CLI；输出不包含事件、状态、关系或跨窗口连续性字段。本轮与 `method` 使用同一感知模型、采样、题单、GPT-6、Embedding 和评分器进行独立评测，方案与公平性约束见[消融方案](experiments/zyf/noevent_plan.md)。
+当前 Window-RAG 使用上方的无事件窗口表示与单次检索协议。下图及后续构图步骤描述历史事件图方法，不是当前 noevent 的执行流程。原始方案见[消融方案](experiments/zyf/noevent_plan.md)。
 
 ```mermaid
 flowchart TD
