@@ -1,9 +1,9 @@
 # LongEmoBench
 
 <!-- WINDOW_RAG_TOP8:START -->
-## Window-RAG 单次窗口检索基线（运行中）
+## Window-RAG 单次窗口检索基线
 
-136个缓存视频、511道可执行题；Top-8单次检索＋一次回答，无事件结构、无规划或渐进检索。24视频×每视频2题并发。启动快照43/558、52.71分，尚不能判断优劣。[结果与协议](experiments/zyf/results/window_rag_top8_20260924/report.md)。
+2026-09-24 12:06 CST队列结束：**502/558题，51.64分，覆盖率89.96%**。Top-8单次检索＋一次回答，无事件结构、无规划或渐进检索。剩余25题缓存缺失、22题既定后端拒绝、8题Embedding429、1题回答HTTP400；无漏评。[结果与审计](experiments/zyf/results/window_rag_top8_20260924/report.md)。
 <!-- WINDOW_RAG_TOP8:END -->
 
 
