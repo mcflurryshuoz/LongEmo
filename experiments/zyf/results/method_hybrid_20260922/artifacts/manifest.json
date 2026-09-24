@@ -1,0 +1,50 @@
+{
+  "run": "method_hybrid_20260922",
+  "score_percent": 60.24135681669927,
+  "run_questions": 520,
+  "benchmark_questions": 558,
+  "scored": 511,
+  "prediction_statuses": {
+    "ok": 512,
+    "error": 8
+  },
+  "score_statuses": {
+    "ok": 511,
+    "missing_prediction": 8,
+    "error": 1
+  },
+  "recovered_trace_count": 1,
+  "trace_not_recovered_count": 519,
+  "trace_qids": [
+    "G2_Q000013"
+  ],
+  "trace_case_score": {
+    "score": 0,
+    "max_score": 1
+  },
+  "trace_limitations": [
+    "Only Q13 original trace was recovered from the contemporaneous local download; this is a failed intensity-comparison case, not a successful progressive event-flow example.",
+    "Other traces, event-graph snapshots and per-call ledgers are not bundled and have not been reconstructed.",
+    "The recorded remote run directory was not found in the previously checked current AIStudio/g450 locations; original local exports were recovered via this task historical download records.",
+    "Raw API reasoning/thought content, gold references and judge prompts/responses are not released. Trace contains stored plans, retrieved evidence, structured answer and usage only."
+  ],
+  "verification": {
+    "all_520_predictions_equal_score_predictions": true,
+    "all_available_evaluation_inputs_match_predictions": true,
+    "evaluation_inputs_checked": 512,
+    "all_520_scores_equal_published_fields": true,
+    "Q13_question_answer_usage_equal_original_prediction": true,
+    "reference_and_credential_field_audit_passed": true
+  },
+  "original_export_sha256": {
+    "hybrid_preds.jsonl": "ef4aac1119659612d45225b99419fada49982b9358153d7b867dc77e7ebe4649",
+    "hybrid_scores.jsonl": "87e2a40beef0b4a11a43f30456a412fff38cc36dc3b984e467dcdedfe2ed275a",
+    "q13_trace.json": "e0531ba70b361c5f5993e2b122de119399652a721b1c4c3aaf2138ffbde6fd70",
+    "published_question_scores.jsonl": "9fcdd09949924ee1440ec84170271cfa6b2e3e6fa274c789846ca6074262f35c"
+  },
+  "released_file_sha256": {
+    "responses.jsonl": "f6cc1d8aa94667fb1be01a00c9631bd9c7931e428154cd422c3063c46dcebc82",
+    "provenance.jsonl": "bc9ef3f9b3449ded88866a3765ceb273e881f0d1a2dfc92dfaab82ab649e339d",
+    "traces/G2_Q000013.json": "e0531ba70b361c5f5993e2b122de119399652a721b1c4c3aaf2138ffbde6fd70"
+  }
+}

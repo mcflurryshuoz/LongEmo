@@ -122,6 +122,8 @@ This repository provides prediction generation and a shared evaluator. Predictio
 
 ### 历史题型路由结果
 
+[原始回答与数据溯源](experiments/zyf/results/method_hybrid_20260922/artifacts/README.md)：520条记录均与原评分记录核验一致；目前仅恢复1条原始检索轨迹（Q13，0/1失败例），另外519条未找回，未重建或冒充完整轨迹。
+
 **60.24/100，已评分 511/520 题（98.27%）。** 在相同 511 题上，base 为 57.76，提升 **2.48 个百分点**。本次采用题型路由：轨迹题渐进披露，强度比较与推理题使用完整图证据。
 
 | 指标 | method /100 | base 同题 /100 | 差值 | 已评分 / 总题数 |

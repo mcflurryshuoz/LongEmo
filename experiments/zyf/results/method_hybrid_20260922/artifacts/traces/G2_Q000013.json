@@ -1,0 +1,3229 @@
+{
+  "question": {
+    "question_id": "G2_Q000013",
+    "video_id": "G2_V000006",
+    "granularity": "episode",
+    "type": "emotional intensity comparison",
+    "question": "Which food does the person in pink show the most enjoyment eating? Answer with the name of the food."
+  },
+  "plan": {
+    "mode": "comparison",
+    "entity_terms": [
+      "Speed",
+      "person in pink",
+      "pink Manchester United hoodie"
+    ],
+    "target_terms": [
+      "all foods eaten",
+      "food names",
+      "enjoyment eating each food",
+      "most enjoyment",
+      "food preferences"
+    ],
+    "query_terms": [
+      "Speed eating",
+      "Speed tasting food",
+      "food name",
+      "enjoyment",
+      "delicious",
+      "favorite food",
+      "smiling while eating",
+      "food reactions",
+      "food ratings"
+    ],
+    "time_range": null
+  },
+  "retrieval": {
+    "events": [
+      {
+        "id": "E11",
+        "version": 1,
+        "spans": [
+          [
+            132.5,
+            142.0
+          ]
+        ],
+        "summary": "P3 serves a Brazilian dish, leading P1 to claim familiarity and accuse the show of stealing food while P2 debates him.",
+        "observation_refs": [
+          "O33",
+          "O34",
+          "O35"
+        ],
+        "window_ids": [
+          "W00007"
+        ],
+        "states": [
+          {
+            "id": "S26",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              132.5,
+              142.0
+            ],
+            "target": "the new food item",
+            "emotion": "energetic recognition and playful suspicion",
+            "intensity": "moderate vocal inflection and pointing",
+            "uncertainty": null,
+            "appraisal": "Recognizes the dish from Brazil and playfully questions its presentation.",
+            "evidence_refs": [
+              "O34"
+            ],
+            "known_at_window": "W00007"
+          },
+          {
+            "id": "S27",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              132.5,
+              142.0
+            ],
+            "target": "P1's claims about the dish",
+            "emotion": "skeptical amusement",
+            "intensity": "moderate conversational pushback",
+            "uncertainty": null,
+            "appraisal": "Doubts P1's claims regarding the food's composition.",
+            "evidence_refs": [
+              "O35"
+            ],
+            "known_at_window": "W00007"
+          }
+        ],
+        "updates": [],
+        "observations": [
+          {
+            "id": "O33",
+            "subject": "P3",
+            "span": [
+              133.0,
+              136.0
+            ],
+            "cue": "Places a new dish with a small Brazilian flag onto the coffee table.",
+            "modality": "visual",
+            "source_ref": "W00007"
+          },
+          {
+            "id": "O34",
+            "subject": "P1",
+            "span": [
+              132.5,
+              141.0
+            ],
+            "cue": "Points at the new dish, loudly asserting it is Brazilian and accusing them of stealing food.",
+            "modality": "multimodal",
+            "source_ref": "W00007"
+          },
+          {
+            "id": "O35",
+            "subject": "P2",
+            "span": [
+              136.5,
+              142.0
+            ],
+            "cue": "Questions P1's accusation and denies that the dish has cheese inside.",
+            "modality": "multimodal",
+            "source_ref": "W00007"
+          }
+        ],
+        "people": [
+          {
+            "id": "P1",
+            "name": "Speed",
+            "description": "Young Black male with dark tapered dreads, wearing a pink Manchester United hoodie.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          },
+          {
+            "id": "P2",
+            "name": "Toby",
+            "description": "Young Black male wearing a black baseball cap and a green tracksuit, speaking with a British accent.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          },
+          {
+            "id": "P3",
+            "name": null,
+            "description": "Black male wearing a black short-sleeved t-shirt and dark cargo pants, serving food to the hosts.",
+            "source_refs": [
+              "W00003",
+              "W00004",
+              "W00007",
+              "W00010",
+              "W00016",
+              "W00018",
+              "W00019",
+              "W00030",
+              "W00048",
+              "W00049",
+              "W00056",
+              "W00057"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "E10",
+            "target": "E11",
+            "type": "temporal",
+            "evidence_refs": [
+              "O31",
+              "O33",
+              "O34"
+            ]
+          },
+          {
+            "source": "E11",
+            "target": "E12",
+            "type": "temporal",
+            "evidence_refs": [
+              "O36",
+              "O37"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E12",
+        "version": 2,
+        "spans": [
+          [
+            142.0,
+            162.0
+          ],
+          [
+            160.0,
+            166.0
+          ]
+        ],
+        "summary": "P1 inquires about and bites into the Scotch egg, discovering he genuinely enjoys it, which delights and amuses P2.",
+        "observation_refs": [
+          "O36",
+          "O37",
+          "O38",
+          "O39",
+          "O40",
+          "O41"
+        ],
+        "window_ids": [
+          "W00008",
+          "W00009"
+        ],
+        "states": [
+          {
+            "id": "S28",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              142.0,
+              162.0
+            ],
+            "target": "the Scotch egg",
+            "emotion": "curious skepticism",
+            "intensity": "moderate questioning and inspection",
+            "uncertainty": null,
+            "appraisal": "Questions the concept of a Scotch egg before tasting it.",
+            "evidence_refs": [
+              "O36"
+            ],
+            "known_at_window": "W00008"
+          },
+          {
+            "id": "S29",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              142.0,
+              162.0
+            ],
+            "target": "the taste of the Scotch egg",
+            "emotion": "pleasant surprise and genuine enjoyment",
+            "intensity": "moderate nodding, continuous chewing, and appreciative vocalizations",
+            "uncertainty": null,
+            "appraisal": "Finds the Scotch egg surprisingly appetizing and satisfying.",
+            "evidence_refs": [
+              "O38"
+            ],
+            "known_at_window": "W00008"
+          },
+          {
+            "id": "S30",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              142.0,
+              162.0
+            ],
+            "target": "P1's positive reaction to the Scotch egg",
+            "emotion": "amused satisfaction and delight",
+            "intensity": "moderate laughter, wide smile, and enthusiastic declaration",
+            "uncertainty": null,
+            "appraisal": "Pleased and amused that P1 genuinely enjoys a British food item.",
+            "evidence_refs": [
+              "O39"
+            ],
+            "known_at_window": "W00008"
+          },
+          {
+            "id": "S31",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              160.0,
+              166.0
+            ],
+            "target": "the Scotch egg",
+            "emotion": "sustained enjoyment and appreciation",
+            "intensity": "moderate nodding, continuous chewing, and appreciative humming",
+            "uncertainty": null,
+            "appraisal": "Finds the Scotch egg pleasant and enjoyable to eat.",
+            "evidence_refs": [
+              "O40"
+            ],
+            "known_at_window": "W00009"
+          },
+          {
+            "id": "S32",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              160.0,
+              166.0
+            ],
+            "target": "P1's enjoyment of the Scotch egg",
+            "emotion": "amused satisfaction and eager anticipation",
+            "intensity": "broad smile, energetic hand gestures, and upbeat questioning",
+            "uncertainty": null,
+            "appraisal": "Delighted that P1 likes the British snack and eager to hear his review.",
+            "evidence_refs": [
+              "O41"
+            ],
+            "known_at_window": "W00009"
+          }
+        ],
+        "updates": [
+          {
+            "window": "W00009",
+            "summary": "P1 savors the Scotch egg with continuous chewing and humming, while P2 observes happily and asks for his verdict."
+          }
+        ],
+        "observations": [
+          {
+            "id": "O36",
+            "subject": "P1",
+            "span": [
+              142.0,
+              148.0
+            ],
+            "cue": "inspects the food in his hand and asks inquisitively, 'So you tell me it's a fried egg?'",
+            "modality": "multimodal",
+            "source_ref": "W00008"
+          },
+          {
+            "id": "O37",
+            "subject": "P2",
+            "span": [
+              143.0,
+              149.0
+            ],
+            "cue": "informs P1 calmly, 'It's called a Scotch egg... it's not fried egg... it's boiled'",
+            "modality": "multimodal",
+            "source_ref": "W00008"
+          },
+          {
+            "id": "O38",
+            "subject": "P1",
+            "span": [
+              148.0,
+              162.0
+            ],
+            "cue": "takes a large bite, chews attentively, nods his head, gestures with his hands, and hums approvingly with repeated 'Mmh' vocalizations",
+            "modality": "multimodal",
+            "source_ref": "W00008"
+          },
+          {
+            "id": "O39",
+            "subject": "P2",
+            "span": [
+              151.0,
+              162.0
+            ],
+            "cue": "watches P1 chew with a broad smile and chuckles, explaining the ingredients before exclaiming brightly, 'Oh, he likes this one!'",
+            "modality": "multimodal",
+            "source_ref": "W00008"
+          },
+          {
+            "id": "O40",
+            "subject": "P1",
+            "span": [
+              160.0,
+              165.5
+            ],
+            "cue": "Chews with full cheeks, nodding repeatedly and humming appreciatively ('mm mm mm')",
+            "modality": "multimodal",
+            "source_ref": "W00009"
+          },
+          {
+            "id": "O41",
+            "subject": "P2",
+            "span": [
+              160.0,
+              166.4
+            ],
+            "cue": "Grins widely, gestures with his hands, and remarks cheerfully, 'Oh, he likes this one. What are we saying?'",
+            "modality": "multimodal",
+            "source_ref": "W00009"
+          }
+        ],
+        "people": [
+          {
+            "id": "P1",
+            "name": "Speed",
+            "description": "Young Black male with dark tapered dreads, wearing a pink Manchester United hoodie.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          },
+          {
+            "id": "P2",
+            "name": "Toby",
+            "description": "Young Black male wearing a black baseball cap and a green tracksuit, speaking with a British accent.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "E11",
+            "target": "E12",
+            "type": "temporal",
+            "evidence_refs": [
+              "O36",
+              "O37"
+            ]
+          },
+          {
+            "source": "E12",
+            "target": "E13",
+            "type": "causal",
+            "evidence_refs": [
+              "O40",
+              "O42"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E24",
+        "version": 1,
+        "spans": [
+          [
+            263.5,
+            271.0
+          ]
+        ],
+        "summary": "P2 jokingly intervenes as P1 keeps reaching into the bag, prompting P1 to laughingly concede and take a final bite.",
+        "observation_refs": [
+          "O65",
+          "O66"
+        ],
+        "window_ids": [
+          "W00014"
+        ],
+        "states": [
+          {
+            "id": "S56",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              263.5,
+              271.0
+            ],
+            "target": "P1 eating multiple crisps rapidly",
+            "emotion": "playful amusement",
+            "intensity": "reaching out with a chuckle to stop P1 from polishing off the bag",
+            "uncertainty": null,
+            "appraisal": "Amused that P1 seems intent on finishing the entire packet during a tasting.",
+            "evidence_refs": [
+              "O65"
+            ],
+            "known_at_window": "W00014"
+          },
+          {
+            "id": "S57",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              263.5,
+              271.0
+            ],
+            "target": "the cheese crisps and P2's intervention",
+            "emotion": "amused indulgence and satisfaction",
+            "intensity": "wide grin, chuckling concession, and taking one more crisp",
+            "uncertainty": null,
+            "appraisal": "Thoroughly enjoying the snack while humorously agreeing to stop after one last bite.",
+            "evidence_refs": [
+              "O66"
+            ],
+            "known_at_window": "W00014"
+          }
+        ],
+        "updates": [],
+        "observations": [
+          {
+            "id": "O65",
+            "subject": "P2",
+            "span": [
+              263.8,
+              268.0
+            ],
+            "cue": "reaching an outstretched hand toward P1 and chuckling as he says, 'You don't have to eat the whole pack, just...'",
+            "modality": "multimodal",
+            "source_ref": "W00014"
+          },
+          {
+            "id": "O66",
+            "subject": "P1",
+            "span": [
+              264.0,
+              271.0
+            ],
+            "cue": "smiling broadly, laughing, and agreeing, 'All right, yeah, all right, you're right, okay, last bite,' while popping another crisp into his mouth",
+            "modality": "multimodal",
+            "source_ref": "W00014"
+          }
+        ],
+        "people": [
+          {
+            "id": "P1",
+            "name": "Speed",
+            "description": "Young Black male with dark tapered dreads, wearing a pink Manchester United hoodie.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          },
+          {
+            "id": "P2",
+            "name": "Toby",
+            "description": "Young Black male wearing a black baseball cap and a green tracksuit, speaking with a British accent.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "E23",
+            "target": "E24",
+            "type": "temporal",
+            "evidence_refs": [
+              "O65",
+              "O66"
+            ]
+          },
+          {
+            "source": "E24",
+            "target": "E25",
+            "type": "causal",
+            "evidence_refs": [
+              "O66",
+              "O67"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E40",
+        "version": 1,
+        "spans": [
+          [
+            429.5,
+            440.0
+          ]
+        ],
+        "summary": "P1 bites into the scone, celebrates it enthusiastically as the best dish so far, and prepares his rating while P2 reacts with pleased amusement.",
+        "observation_refs": [
+          "O112",
+          "O113",
+          "O114"
+        ],
+        "window_ids": [
+          "W00022"
+        ],
+        "states": [
+          {
+            "id": "S93",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              429.5,
+              440.0
+            ],
+            "target": "taste and texture of the scone",
+            "emotion": "delighted satisfaction and excitement",
+            "intensity": "wide smile, loud verbal exclamation ('that's the best one yet!'), and energetic clapping",
+            "uncertainty": null,
+            "appraisal": "Considers the scone genuinely appetizing and by far the most enjoyable item tested.",
+            "evidence_refs": [
+              "O112",
+              "O114"
+            ],
+            "known_at_window": "W00022"
+          },
+          {
+            "id": "S94",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              429.5,
+              440.0
+            ],
+            "target": "P1's enthusiastic approval of the scone",
+            "emotion": "pleased satisfaction and amusement",
+            "intensity": "broad grin, affirmative pointing, and eager questioning for a numerical score",
+            "uncertainty": null,
+            "appraisal": "Pleased that P1 finally likes a traditional British food item after rejecting the earlier courses.",
+            "evidence_refs": [
+              "O113"
+            ],
+            "known_at_window": "W00022"
+          }
+        ],
+        "updates": [],
+        "observations": [
+          {
+            "id": "O112",
+            "subject": "P1",
+            "span": [
+              429.5,
+              439.0
+            ],
+            "cue": "Taking a large bite of the assembled scone, chewing thoughtfully, then eyes widening as his face lights up, shouting 'Come on, here we go! Yeah, there we go, that's the best one yet!' while clapping his hands together repeatedly.",
+            "modality": "multimodal",
+            "source_ref": "W00022"
+          },
+          {
+            "id": "O113",
+            "subject": "P2",
+            "span": [
+              434.5,
+              440.0
+            ],
+            "cue": "Grinning broadly, pointing towards P1, and prompting him with an amused tone: 'Yeah? What's... so give me a number, give me a number.'",
+            "modality": "multimodal",
+            "source_ref": "W00022"
+          },
+          {
+            "id": "O114",
+            "subject": "P1",
+            "span": [
+              439.5,
+              442.0
+            ],
+            "cue": "Stopping his applause, leaning forward, and stating decisively: '7.5 out of 10. Like solid, it's solid.'",
+            "modality": "multimodal",
+            "source_ref": "W00022"
+          }
+        ],
+        "people": [
+          {
+            "id": "P1",
+            "name": "Speed",
+            "description": "Young Black male with dark tapered dreads, wearing a pink Manchester United hoodie.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          },
+          {
+            "id": "P2",
+            "name": "Toby",
+            "description": "Young Black male wearing a black baseball cap and a green tracksuit, speaking with a British accent.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "E39",
+            "target": "E40",
+            "type": "causal",
+            "evidence_refs": [
+              "O110",
+              "O112"
+            ]
+          },
+          {
+            "source": "E40",
+            "target": "E41",
+            "type": "temporal",
+            "evidence_refs": [
+              "O115"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "E56",
+        "version": 7,
+        "spans": [
+          [
+            839.0,
+            842.0
+          ],
+          [
+            839.0,
+            862.0
+          ],
+          [
+            860.0,
+            882.0
+          ],
+          [
+            880.0,
+            900.0
+          ],
+          [
+            900.0,
+            922.0
+          ],
+          [
+            919.5,
+            942.0
+          ],
+          [
+            938.0,
+            947.0
+          ]
+        ],
+        "summary": "P1 and P2 shift their focus to several packs of British biscuits set on the table, with P1 excitedly identifying Party Rings.",
+        "observation_refs": [
+          "O207",
+          "O208",
+          "O209",
+          "O210",
+          "O211",
+          "O212",
+          "O213",
+          "O214",
+          "O215",
+          "O216",
+          "O217",
+          "O222",
+          "O223",
+          "O224",
+          "O225",
+          "O226",
+          "O227",
+          "O228",
+          "O229",
+          "O230",
+          "O231",
+          "O232",
+          "O233",
+          "O234",
+          "O235",
+          "O236"
+        ],
+        "window_ids": [
+          "W00042",
+          "W00043",
+          "W00044",
+          "W00045",
+          "W00046",
+          "W00047",
+          "W00048"
+        ],
+        "states": [
+          {
+            "id": "S164",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              839.0,
+              842.0
+            ],
+            "target": "Party Rings biscuits on the table",
+            "emotion": "enthusiastic recognition and fond praise",
+            "intensity": "leaning forward eagerly and emphatically declaring the biscuits legendary",
+            "uncertainty": null,
+            "appraisal": "Recognizes Party Rings as an iconic, high-tier snack and looks forward to them.",
+            "evidence_refs": [
+              "O207"
+            ],
+            "known_at_window": "W00042"
+          },
+          {
+            "id": "S165",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              839.0,
+              842.0
+            ],
+            "target": "introducing the biscuits to P1",
+            "emotion": "relaxed attentiveness",
+            "intensity": "leaning back and calmly watching P1 inspect the items",
+            "uncertainty": "limited duration at end of media window",
+            "appraisal": null,
+            "evidence_refs": [
+              "O207"
+            ],
+            "known_at_window": "W00042"
+          },
+          {
+            "id": "S166",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              839.0,
+              862.0
+            ],
+            "target": "introducing classic British biscuits to P1",
+            "emotion": "fond nostalgia and casual pride",
+            "intensity": "warm vocal enthusiasm calling the snacks legendary and classics",
+            "uncertainty": null,
+            "appraisal": "Values these British treats as beloved childhood staples and eagerly introduces them.",
+            "evidence_refs": [
+              "O208"
+            ],
+            "known_at_window": "W00043"
+          },
+          {
+            "id": "S167",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              839.0,
+              862.0
+            ],
+            "target": "P2 calling Jaffa Cakes 'like a cheesecake'",
+            "emotion": "perplexed incredulity",
+            "intensity": "wrinkled brow and sharp, repetitive verbal questioning",
+            "uncertainty": null,
+            "appraisal": "Baffled by the association of cheese with the sweet biscuit.",
+            "evidence_refs": [
+              "O209"
+            ],
+            "known_at_window": "W00043"
+          },
+          {
+            "id": "S168",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              839.0,
+              862.0
+            ],
+            "target": "the color of the Jaffa Cakes box versus the bag on the floor",
+            "emotion": "assertive stubbornness",
+            "intensity": "emphatic verbal declarations and pointing from the box to the bag",
+            "uncertainty": null,
+            "appraisal": "Convinced the color is undeniably yellow rather than orange.",
+            "evidence_refs": [
+              "O210",
+              "O211"
+            ],
+            "known_at_window": "W00043"
+          },
+          {
+            "id": "S169",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              839.0,
+              862.0
+            ],
+            "target": "P1's color comparison and insistence that the box is yellow",
+            "emotion": "flustered confusion and bemused exasperation",
+            "intensity": "open-handed gesturing, stammering hesitation, and bewildered questioning",
+            "uncertainty": null,
+            "appraisal": "Caught off guard and second-guessing himself during P1's rapid debate.",
+            "evidence_refs": [
+              "O210",
+              "O211"
+            ],
+            "known_at_window": "W00043"
+          },
+          {
+            "id": "S170",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              860.0,
+              882.0
+            ],
+            "target": "the appearance and smell of the Jaffa Cake",
+            "emotion": "pleasant curiosity and optimistic anticipation",
+            "intensity": "smiling slightly, sniffing the biscuit, and comparing it favorably to a chocolate Oreo",
+            "uncertainty": null,
+            "appraisal": "Finds the biscuit appetizing based on its chocolate coating and familiar look.",
+            "evidence_refs": [
+              "O214"
+            ],
+            "known_at_window": "W00044"
+          },
+          {
+            "id": "S171",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              860.0,
+              882.0
+            ],
+            "target": "tasting the Jaffa Cake",
+            "emotion": "pleasant surprise and mild approval",
+            "intensity": "chewing thoughtfully with furrowed brows, followed by the spontaneous confession that it is not nasty",
+            "uncertainty": null,
+            "appraisal": "Expected to dislike the snack given prior unpalatable treats, but finds it genuinely palatable.",
+            "evidence_refs": [
+              "O215"
+            ],
+            "known_at_window": "W00044"
+          },
+          {
+            "id": "S172",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              860.0,
+              882.0
+            ],
+            "target": "P1's verdict on the Jaffa Cake",
+            "emotion": "expectant attentiveness",
+            "intensity": "calmly holding the box while focusing his gaze intently on P1's chewing and reaction",
+            "uncertainty": null,
+            "appraisal": "Curious to see if P1 will appreciate a classic British biscuit staple.",
+            "evidence_refs": [
+              "O216"
+            ],
+            "known_at_window": "W00044"
+          },
+          {
+            "id": "S173",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              880.0,
+              900.0
+            ],
+            "target": "the taste of the Jaffa Cake",
+            "emotion": "mild satisfaction and approval",
+            "intensity": "deliberate chewing and giving a solid 7/10 score",
+            "uncertainty": null,
+            "appraisal": "Considers the Jaffa Cake palatable and decent despite earlier skepticism.",
+            "evidence_refs": [
+              "O217",
+              "O222"
+            ],
+            "known_at_window": "W00045"
+          },
+          {
+            "id": "S174",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              880.0,
+              900.0
+            ],
+            "target": "introducing Rich Tea biscuits to P1",
+            "emotion": "calm anticipation",
+            "intensity": "steadily opening the packet and prompting P1 to try it",
+            "uncertainty": null,
+            "appraisal": "Curious how P1 will respond to a quintessential plain British biscuit.",
+            "evidence_refs": [
+              "O223"
+            ],
+            "known_at_window": "W00045"
+          },
+          {
+            "id": "S175",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              880.0,
+              900.0
+            ],
+            "target": "the Rich Tea biscuit",
+            "emotion": "indignant perplexity and disappointment",
+            "intensity": "incredulous vocal outburst and calling it a cracker",
+            "uncertainty": null,
+            "appraisal": "Baffled and let down that a plain, unflavored biscuit is being presented as a sweet snack.",
+            "evidence_refs": [
+              "O224"
+            ],
+            "known_at_window": "W00045"
+          },
+          {
+            "id": "S179",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              900.0,
+              922.0
+            ],
+            "target": "the Rich Tea biscuit",
+            "emotion": "bored indifference and amused derision",
+            "intensity": "emphatic verbal complaints that it is a plain cracker and rating it 'regular out of 10'",
+            "uncertainty": null,
+            "appraisal": "Considers the Rich Tea biscuit completely unexciting and too plain to be called a proper sweet biscuit.",
+            "evidence_refs": [
+              "O225",
+              "O226"
+            ],
+            "known_at_window": "W00046"
+          },
+          {
+            "id": "S180",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              900.0,
+              922.0
+            ],
+            "target": "P1's confusion over biscuit vs cracker terminology",
+            "emotion": "playful persistence and mild amusement",
+            "intensity": "smiling and repeatedly countering P1's protests with firm verbal corrections",
+            "uncertainty": null,
+            "appraisal": "Amused by P1's American framing of British biscuits as crackers.",
+            "evidence_refs": [
+              "O227"
+            ],
+            "known_at_window": "W00046"
+          },
+          {
+            "id": "S181",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              900.0,
+              922.0
+            ],
+            "target": "sharing Party Rings with P1",
+            "emotion": "cheerful nostalgia and playful guidance",
+            "intensity": "enthusiastic vocal pitch and gesturing to show how to eat the biscuit on a finger",
+            "uncertainty": null,
+            "appraisal": "Enjoys sharing a fun, colorful childhood snack and its cultural eating ritual.",
+            "evidence_refs": [
+              "O228"
+            ],
+            "known_at_window": "W00046"
+          },
+          {
+            "id": "S182",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              900.0,
+              922.0
+            ],
+            "target": "Party Rings biscuits",
+            "emotion": "playful excitement and delighted engagement",
+            "intensity": "grinning and placing the biscuit onto his finger before remarking that it was fire",
+            "uncertainty": null,
+            "appraisal": "Excited to sample the colorful biscuits and amused by wearing them on his finger.",
+            "evidence_refs": [
+              "O229"
+            ],
+            "known_at_window": "W00046"
+          },
+          {
+            "id": "S183",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              919.5,
+              942.0
+            ],
+            "target": "Party Rings biscuit taste and eating ritual",
+            "emotion": "delighted enjoyment and enthusiastic approval",
+            "intensity": "emphatic repeated affirmations ('that's fire'), squinted facial relish, and giving a high 9/10 score",
+            "uncertainty": null,
+            "appraisal": "Finds Party Rings genuinely delicious and superior to previous biscuits sampled.",
+            "evidence_refs": [
+              "O231",
+              "O232",
+              "O234"
+            ],
+            "known_at_window": "W00047"
+          },
+          {
+            "id": "S184",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              919.5,
+              942.0
+            ],
+            "target": "P1 continuing to label British biscuits as crackers",
+            "emotion": "playful exasperation and teasing amusement",
+            "intensity": "loud vocal outburst correcting P1 ('Biscuit! God damn it!') and smirking while waving a hand",
+            "uncertainty": null,
+            "appraisal": "Feigns frustration that P1 refuses to adopt the British term 'biscuit' despite loving the snack.",
+            "evidence_refs": [
+              "O233",
+              "O235"
+            ],
+            "known_at_window": "W00047"
+          },
+          {
+            "id": "S185",
+            "version": 1,
+            "subject": "P1",
+            "span": [
+              938.0,
+              947.0
+            ],
+            "target": "Party Rings biscuit",
+            "emotion": "enthusiastic satisfaction and high approval",
+            "intensity": "animated verbal praise, claiming it is the best snack yet, and awarding a 9/10",
+            "uncertainty": null,
+            "appraisal": "Considers Party Rings clearly superior to all previous biscuits sampled.",
+            "evidence_refs": [
+              "O236"
+            ],
+            "known_at_window": "W00048"
+          },
+          {
+            "id": "S186",
+            "version": 1,
+            "subject": "P2",
+            "span": [
+              938.0,
+              947.0
+            ],
+            "target": "Party Rings biscuit reception",
+            "emotion": "pleased validation",
+            "intensity": "nodding and concurring that the biscuit is genuinely good",
+            "uncertainty": null,
+            "appraisal": "Happy that P1 enjoyed a classic British sweet biscuit.",
+            "evidence_refs": [
+              "O236"
+            ],
+            "known_at_window": "W00048"
+          }
+        ],
+        "updates": [
+          {
+            "window": "W00043",
+            "summary": "P2 introduces traditional British biscuits, likening Jaffa Cakes to cheesecake, which prompts P1 to question the mention of cheese and start an animated debate over whether the packaging is orange or yellow."
+          },
+          {
+            "window": "W00044",
+            "summary": "After concluding their debate over the packaging color, P1 inspects and smells a Jaffa Cake, comparing it to an Oreo before taking a bite and admitting with pleasant surprise that it is not nasty."
+          },
+          {
+            "window": "W00045",
+            "summary": "P1 finishes evaluating the Jaffa Cake with a 7/10 rating before Toby introduces Rich Tea biscuits, which P1 incredulously derides as a cracker."
+          },
+          {
+            "window": "W00046",
+            "summary": "P1 argues that the Rich Tea biscuit is merely a cracker before rating it 'regular out of 10', after which P2 introduces Party Rings and shows P1 how people traditionally eat them off their fingers."
+          },
+          {
+            "window": "W00047",
+            "summary": "P1 samples the Party Ring biscuit from his finger, enthusiastically calling it 'fire' and rating it 9/10 as the best one yet, while repeatedly calling it a cracker, prompting P2's playful exasperation."
+          },
+          {
+            "window": "W00048",
+            "summary": "P1 concludes his evaluation of the Party Rings biscuit, giving it a strong 9/10 score and praising it as the best snack, with P2 agreeing warmly."
+          }
+        ],
+        "observations": [
+          {
+            "id": "O207",
+            "subject": "P1",
+            "span": [
+              839.5,
+              842.0
+            ],
+            "cue": "P1 leans forward toward the coffee table where packets of biscuits are arranged, spotting a blue packet and exclaiming 'Party Rings, Party Rings, legendary!'.",
+            "modality": "multimodal",
+            "source_ref": "W00042"
+          },
+          {
+            "id": "O208",
+            "subject": "P2",
+            "span": [
+              840.0,
+              847.0
+            ],
+            "cue": "P2 points along the biscuit packs on the table, describing Party Rings as 'legendary as a child', Rich Tea as 'a classic', and picking up Jaffa Cakes, calling them 'like a cheesecake'.",
+            "modality": "multimodal",
+            "source_ref": "W00043"
+          },
+          {
+            "id": "O209",
+            "subject": "P1",
+            "span": [
+              846.0,
+              849.5
+            ],
+            "cue": "P1 scrunches his brow in bewilderment and repeatedly questions P2, demanding 'Cheese? Where, where do you see the cheese?'.",
+            "modality": "multimodal",
+            "source_ref": "W00043"
+          },
+          {
+            "id": "O210",
+            "subject": "P2",
+            "span": [
+              848.5,
+              854.0
+            ],
+            "cue": "P2 counters that it is orange, while P1 talks over him insisting 'That's yellow bro, it's yellow!'.",
+            "modality": "audio",
+            "source_ref": "W00043"
+          },
+          {
+            "id": "O211",
+            "subject": "P1",
+            "span": [
+              853.5,
+              862.0
+            ],
+            "cue": "P1 takes the Jaffa Cakes box and points toward a yellow carrier bag on the floor, arguing they are the exact same color, causing P2 to point at the bag and stammer in flustered confusion ('That yellow bag? No, kind of... wait what? Yellow?').",
+            "modality": "multimodal",
+            "source_ref": "W00043"
+          },
+          {
+            "id": "O212",
+            "subject": "P1",
+            "span": [
+              860.0,
+              866.0
+            ],
+            "cue": "insisting 'that's yellow, it's like a yellow oranges bro' before setting the box aside and sliding out a sleeve of biscuits",
+            "modality": "multimodal",
+            "source_ref": "W00044"
+          },
+          {
+            "id": "O213",
+            "subject": "P2",
+            "span": [
+              860.0,
+              866.5
+            ],
+            "cue": "gesturing with open hands in mild perplexity over the color argument, then leaning back to watch P1 open the pack",
+            "modality": "multimodal",
+            "source_ref": "W00044"
+          },
+          {
+            "id": "O214",
+            "subject": "P1",
+            "span": [
+              866.0,
+              871.5
+            ],
+            "cue": "closely inspecting the circular biscuit, holding it to his nose to smell it, and remarking 'this looks good, it's like a chocolate Oreo'",
+            "modality": "multimodal",
+            "source_ref": "W00044"
+          },
+          {
+            "id": "O215",
+            "subject": "P1",
+            "span": [
+              871.5,
+              882.0
+            ],
+            "cue": "taking a bite of the Jaffa Cake, chewing slowly with a thoughtful, squinting frown before observing 'what the... wait, it isn't nasty'",
+            "modality": "multimodal",
+            "source_ref": "W00044"
+          },
+          {
+            "id": "O216",
+            "subject": "P2",
+            "span": [
+              871.5,
+              882.0
+            ],
+            "cue": "holding the packaging and watching P1's face closely while P1 chews and evaluates the biscuit",
+            "modality": "multimodal",
+            "source_ref": "W00044"
+          },
+          {
+            "id": "O217",
+            "subject": "P1",
+            "span": [
+              878.5,
+              883.5
+            ],
+            "cue": "chewing the Jaffa Cake thoughtfully while murmuring 'Wait, it isn't nasty... but...'",
+            "modality": "multimodal",
+            "source_ref": "W00045"
+          },
+          {
+            "id": "O222",
+            "subject": "P1",
+            "span": [
+              892.5,
+              897.5
+            ],
+            "cue": "returning to his seat, finishing his bite of Jaffa Cake, and stating 'Well no, this is like 7 out of 10' as a 7/10 graphic appears",
+            "modality": "multimodal",
+            "source_ref": "W00045"
+          },
+          {
+            "id": "O223",
+            "subject": "P2",
+            "span": [
+              895.0,
+              898.5
+            ],
+            "cue": "unwrapping a cylindrical pack of Rich Tea biscuits and telling P1 'All right, try Rich Tea biscuit'",
+            "modality": "multimodal",
+            "source_ref": "W00045"
+          },
+          {
+            "id": "O224",
+            "subject": "P1",
+            "span": [
+              898.5,
+              902.0
+            ],
+            "cue": "looking at the plain round biscuit and exclaiming incredulously, 'It's a cracker, Toby, what the... it's a fucking cracker!'",
+            "modality": "multimodal",
+            "source_ref": "W00045"
+          },
+          {
+            "id": "O225",
+            "subject": "P1",
+            "span": [
+              900.6,
+              912.8
+            ],
+            "cue": "P1 holds the Rich Tea biscuit, gestures animatedly, and vocally argues that it is just a cracker, comparing British biscuits to scones while P2 insists it is a biscuit.",
+            "modality": "multimodal",
+            "source_ref": "W00046"
+          },
+          {
+            "id": "O226",
+            "subject": "P1",
+            "span": [
+              912.0,
+              915.8
+            ],
+            "cue": "P1 takes a bite of the Rich Tea biscuit, chews impassively, places his hand over his forehead in amused exasperation, and rates it 'regular out of 10'.",
+            "modality": "multimodal",
+            "source_ref": "W00046"
+          },
+          {
+            "id": "O227",
+            "subject": "P2",
+            "span": [
+              902.5,
+              914.0
+            ],
+            "cue": "P2 leans back on the couch, laughing lightly while persistently correcting P1 that the snack is a biscuit, not a cracker.",
+            "modality": "multimodal",
+            "source_ref": "W00046"
+          },
+          {
+            "id": "O228",
+            "subject": "P2",
+            "span": [
+              915.0,
+              922.0
+            ],
+            "cue": "P2 offers the Party Rings pack to P1, pointing out the colorful icing and explaining that everyone eats them off their fingers.",
+            "modality": "multimodal",
+            "source_ref": "W00046"
+          },
+          {
+            "id": "O229",
+            "subject": "P1",
+            "span": [
+              916.5,
+              922.0
+            ],
+            "cue": "P1 leans forward, selects a Party Ring from the tray, places it onto his finger, smiles broadly, and comments approvingly.",
+            "modality": "multimodal",
+            "source_ref": "W00046"
+          },
+          {
+            "id": "O230",
+            "subject": "P2",
+            "span": [
+              919.5,
+              924.0
+            ],
+            "cue": "gesturing with his hand towards his mouth and explaining in a clear, upbeat voice that this is how everyone traditionally eats them",
+            "modality": "multimodal",
+            "source_ref": "W00047"
+          },
+          {
+            "id": "O231",
+            "subject": "P1",
+            "span": [
+              923.0,
+              928.0
+            ],
+            "cue": "holding the Party Ring biscuit perched on his pinky finger, looking at the camera, and emphatically repeating 'that's fire, that's fire!'",
+            "modality": "multimodal",
+            "source_ref": "W00047"
+          },
+          {
+            "id": "O232",
+            "subject": "P1",
+            "span": [
+              928.5,
+              934.5
+            ],
+            "cue": "nibbling the biscuit, squinting intently with furrowed brows, and declaring 'Wait, this is like... y'all like cracker stuff is good'",
+            "modality": "multimodal",
+            "source_ref": "W00047"
+          },
+          {
+            "id": "O233",
+            "subject": "P2",
+            "span": [
+              932.0,
+              935.5
+            ],
+            "cue": "shouting 'Biscuit! God damn it!' in a sharp, playful tone to correct P1's terminology",
+            "modality": "audio",
+            "source_ref": "W00047"
+          },
+          {
+            "id": "O234",
+            "subject": "P1",
+            "span": [
+              934.5,
+              941.5
+            ],
+            "cue": "nodding and eating more pieces, declaring emphatically that this is 'actually the best cracker one' and awarding it '9 out of 10'",
+            "modality": "multimodal",
+            "source_ref": "W00047"
+          },
+          {
+            "id": "O235",
+            "subject": "P2",
+            "span": [
+              936.0,
+              942.0
+            ],
+            "cue": "holding his can, looking at P1 with a wry smirk and waving a dismissive hand at P1 continuing to say 'cracker'",
+            "modality": "multimodal",
+            "source_ref": "W00047"
+          },
+          {
+            "id": "O236",
+            "subject": "P1",
+            "span": [
+              938.0,
+              947.0
+            ],
+            "cue": "P1 holds a Party Ring biscuit, repeatedly stating it is the best cracker and awarding it a '9 out of 10' while chewing, to which P2 nods and verbally confirms 'Yeah, 9 out of 10, this actually good'.",
+            "modality": "multimodal",
+            "source_ref": "W00048"
+          }
+        ],
+        "people": [
+          {
+            "id": "P1",
+            "name": "Speed",
+            "description": "Young Black male with dark tapered dreads, wearing a pink Manchester United hoodie.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          },
+          {
+            "id": "P2",
+            "name": "Toby",
+            "description": "Young Black male wearing a black baseball cap and a green tracksuit, speaking with a British accent.",
+            "source_refs": [
+              "W00001",
+              "W00002",
+              "W00003",
+              "W00004",
+              "W00005",
+              "W00006",
+              "W00007",
+              "W00008",
+              "W00009",
+              "W00010",
+              "W00011",
+              "W00012",
+              "W00013",
+              "W00014",
+              "W00015",
+              "W00016",
+              "W00017",
+              "W00018",
+              "W00019",
+              "W00020",
+              "W00021",
+              "W00022",
+              "W00023",
+              "W00024",
+              "W00025",
+              "W00026",
+              "W00027",
+              "W00028",
+              "W00029",
+              "W00030",
+              "W00031",
+              "W00032",
+              "W00033",
+              "W00034",
+              "W00035",
+              "W00036",
+              "W00037",
+              "W00038",
+              "W00039",
+              "W00040",
+              "W00041",
+              "W00042",
+              "W00043",
+              "W00044",
+              "W00045",
+              "W00046",
+              "W00047",
+              "W00048",
+              "W00049",
+              "W00050",
+              "W00051",
+              "W00052",
+              "W00053",
+              "W00054",
+              "W00055",
+              "W00056",
+              "W00057"
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "source": "E55",
+            "target": "E56",
+            "type": "temporal",
+            "evidence_refs": [
+              "O206",
+              "O207"
+            ]
+          },
+          {
+            "source": "E57",
+            "target": "E56",
+            "type": "coexists_with",
+            "evidence_refs": [
+              "O218",
+              "O221"
+            ]
+          },
+          {
+            "source": "E56",
+            "target": "E58",
+            "type": "temporal",
+            "evidence_refs": [
+              "O236",
+              "O237"
+            ]
+          }
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "id": "E1",
+        "span": [
+          0,
+          13.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "tasted food item",
+            "emotion": "disgust and shock"
+          },
+          {
+            "subject": "P2",
+            "target": "new_1's reaction",
+            "emotion": "amusement"
+          }
+        ]
+      },
+      {
+        "id": "E2",
+        "span": [
+          14.0,
+          20.0
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "audience and video intro",
+            "emotion": "enthusiastic and welcoming"
+          },
+          {
+            "subject": "P1",
+            "target": "introduction and topic",
+            "emotion": "friendly and receptive"
+          }
+        ]
+      },
+      {
+        "id": "E3",
+        "span": [
+          20.0,
+          36.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "Portuguese-speaking audience",
+            "emotion": "earnest and enthusiastic"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's Portuguese speech",
+            "emotion": "amused and entertained"
+          }
+        ]
+      },
+      {
+        "id": "E4",
+        "span": [
+          36.5,
+          41.5
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "P1",
+            "emotion": "playful aggression and amusement"
+          },
+          {
+            "subject": "P1",
+            "target": "P2's playful attack",
+            "emotion": "amusement and lighthearted surprise"
+          }
+        ]
+      },
+      {
+        "id": "E5",
+        "span": [
+          41.5,
+          56.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "British food",
+            "emotion": "vehement dislike and frank aversion"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's thoughts on British food",
+            "emotion": "calm curiosity and engaged attentiveness"
+          }
+        ]
+      },
+      {
+        "id": "E6",
+        "span": [
+          56.0,
+          63.2
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "the untoasted bread served as beans on toast",
+            "emotion": "humorous disbelief and indignity"
+          },
+          {
+            "subject": "P1",
+            "target": "the food served on the table",
+            "emotion": "amused curiosity and skepticism"
+          },
+          {
+            "subject": "P2",
+            "target": "serving plain bread as beans on toast",
+            "emotion": "humorous disbelief and indignant protest"
+          }
+        ]
+      },
+      {
+        "id": "E7",
+        "span": [
+          63.2,
+          74.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "his flatulence and teasing P2",
+            "emotion": "mischievous amusement and playful shamelessness"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's flatulence and posture",
+            "emotion": "theatrical horror and aversion"
+          }
+        ]
+      },
+      {
+        "id": "E8",
+        "span": [
+          74.5,
+          87.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the Cornish pasty",
+            "emotion": "curiosity and cautious intrigue"
+          },
+          {
+            "subject": "P2",
+            "target": "introducing the food to P1",
+            "emotion": "calm attentiveness and mild encouragement"
+          },
+          {
+            "subject": "P1",
+            "target": "the Cornish pasty and British food",
+            "emotion": "comical exasperation and skepticism"
+          },
+          {
+            "subject": "P2",
+            "target": "P1 hesitating to eat",
+            "emotion": "mild impatience and encouragement"
+          }
+        ]
+      },
+      {
+        "id": "E9",
+        "span": [
+          87.5,
+          102.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the taste of the Cornish pasty",
+            "emotion": "strong disgust"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's rejection of the pasty",
+            "emotion": "amused disbelief and reassurance"
+          }
+        ]
+      },
+      {
+        "id": "E10",
+        "span": [
+          101.5,
+          132.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the Cornish pasty and its ingredients",
+            "emotion": "intense disgust, incredulity, and firm rejection"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's rejection of the pasty",
+            "emotion": "calm amusement and mild defensiveness"
+          },
+          {
+            "subject": "P1",
+            "target": "the Cornish pasty",
+            "emotion": "distaste and negative evaluation"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's low rating",
+            "emotion": "mild indignation and disagreement"
+          }
+        ]
+      },
+      {
+        "id": "E11",
+        "span": [
+          132.5,
+          142.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the new food item",
+            "emotion": "energetic recognition and playful suspicion"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's claims about the dish",
+            "emotion": "skeptical amusement"
+          }
+        ]
+      },
+      {
+        "id": "E12",
+        "span": [
+          142.0,
+          166.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the Scotch egg",
+            "emotion": "curious skepticism"
+          },
+          {
+            "subject": "P1",
+            "target": "the taste of the Scotch egg",
+            "emotion": "pleasant surprise and genuine enjoyment"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's positive reaction to the Scotch egg",
+            "emotion": "amused satisfaction and delight"
+          },
+          {
+            "subject": "P1",
+            "target": "the Scotch egg",
+            "emotion": "sustained enjoyment and appreciation"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's enjoyment of the Scotch egg",
+            "emotion": "amused satisfaction and eager anticipation"
+          }
+        ]
+      },
+      {
+        "id": "E13",
+        "span": [
+          166.0,
+          175.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the Scotch egg",
+            "emotion": "moderate, balanced appreciation"
+          }
+        ]
+      },
+      {
+        "id": "E14",
+        "span": [
+          175.0,
+          184.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the idea that the King invented Scotch eggs",
+            "emotion": "incredulous bemusement and lively amusement"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's reaction to the King inventing Scotch eggs",
+            "emotion": "deadpan amusement and playful affirmation"
+          },
+          {
+            "subject": "P2",
+            "target": "the King inventing Scotch eggs",
+            "emotion": "playful amusement"
+          }
+        ]
+      },
+      {
+        "id": "E15",
+        "span": [
+          184.5,
+          199.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "P3's appearance",
+            "emotion": "lively amusement and teasing joy"
+          },
+          {
+            "subject": "P3",
+            "target": "P1's comparison",
+            "emotion": "amused good humor"
+          },
+          {
+            "subject": "P2",
+            "target": "P1 teasing P3",
+            "emotion": "shared amusement"
+          }
+        ]
+      },
+      {
+        "id": "E16",
+        "span": [
+          199.0,
+          202.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the covered dish",
+            "emotion": "curious anticipation"
+          },
+          {
+            "subject": "P2",
+            "target": "introducing the food",
+            "emotion": "composed engagement"
+          }
+        ]
+      },
+      {
+        "id": "E17",
+        "span": [
+          202.0,
+          209.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the saveloy sausage",
+            "emotion": "curious inquiry and mild skepticism"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's questions about the saveloy",
+            "emotion": "calm informative engagement"
+          }
+        ]
+      },
+      {
+        "id": "E18",
+        "span": [
+          209.5,
+          217.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "eating the saveloy",
+            "emotion": "deadpan mischief and casual nonchalance"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's manner of holding and eating the saveloy",
+            "emotion": "embarrassed amusement and cringing disbelief"
+          }
+        ]
+      },
+      {
+        "id": "E19",
+        "span": [
+          217.0,
+          222.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the taste and texture of the saveloy",
+            "emotion": "focused culinary appraisal"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's tasting reaction",
+            "emotion": "amused anticipation"
+          }
+        ]
+      },
+      {
+        "id": "E20",
+        "span": [
+          222.0,
+          231.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the saveloy sausage",
+            "emotion": "mild satisfaction and moderate approval"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's positive rating of the saveloy",
+            "emotion": "pleasantly surprised satisfaction and amused encouragement"
+          }
+        ]
+      },
+      {
+        "id": "E21",
+        "span": [
+          231.5,
+          242.0
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "introducing British crisps",
+            "emotion": "casual enthusiasm and hospitable anticipation"
+          },
+          {
+            "subject": "P1",
+            "target": "the crisp selection and the name 'Space Raiders'",
+            "emotion": "lively anticipation shifting to amused bewilderment"
+          }
+        ]
+      },
+      {
+        "id": "E22",
+        "span": [
+          242.0,
+          250.5
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "the smell of the cheese crisps",
+            "emotion": "sensory aversion and mild disgust"
+          },
+          {
+            "subject": "P1",
+            "target": "the cheese crisps",
+            "emotion": "curious inspection"
+          }
+        ]
+      },
+      {
+        "id": "E23",
+        "span": [
+          250.5,
+          260.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "evaluating the crisp flavor and P2's teasing",
+            "emotion": "concentrated sensory appraisal shifting to playful defensiveness"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's unusual crunching technique",
+            "emotion": "amused bewilderment and teasing skepticism"
+          }
+        ]
+      },
+      {
+        "id": "E24",
+        "span": [
+          263.5,
+          271.0
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "P1 eating multiple crisps rapidly",
+            "emotion": "playful amusement"
+          },
+          {
+            "subject": "P1",
+            "target": "the cheese crisps and P2's intervention",
+            "emotion": "amused indulgence and satisfaction"
+          }
+        ]
+      },
+      {
+        "id": "E25",
+        "span": [
+          271.0,
+          285.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the crisps and relaxing while eating them",
+            "emotion": "hearty approval and outrageous, uninhibited humor"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's outrageous phrasing",
+            "emotion": "incredulous amusement and shock"
+          },
+          {
+            "subject": "P1",
+            "target": "the snack and his humorous explanation",
+            "emotion": "casual satisfaction and lighthearted amusement"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's outrageous scenario and phrasing",
+            "emotion": "amused exasperation and disbelief"
+          }
+        ]
+      },
+      {
+        "id": "E26",
+        "span": [
+          286.0,
+          301.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "discovering the similarity between Wotsits and Cheeto puffs and teasing P2",
+            "emotion": "amused realization shifting to smug, playful provocation"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's claim that British snacks copy American ones",
+            "emotion": "matter-of-fact indifference shifting to incredulous mock indignation"
+          }
+        ]
+      },
+      {
+        "id": "E27",
+        "span": [
+          298.5,
+          302.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the pickled onion flavored Space Raiders",
+            "emotion": "skepticism and mild disgust"
+          }
+        ]
+      },
+      {
+        "id": "E28",
+        "span": [
+          302.5,
+          316.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the pickled onion Space Raider",
+            "emotion": "acute disgust and physical aversion"
+          },
+          {
+            "subject": "P2",
+            "target": "pickled onion Space Raiders",
+            "emotion": "disgust and aversion"
+          }
+        ]
+      },
+      {
+        "id": "E29",
+        "span": [
+          317.0,
+          321.5
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "the object found behind the cushions",
+            "emotion": "baffled amusement"
+          }
+        ]
+      },
+      {
+        "id": "E30",
+        "span": [
+          321.5,
+          329.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "the lingering aftertaste of the pickled onion Space Raider crisp",
+            "emotion": "residual disgust and distaste"
+          }
+        ]
+      },
+      {
+        "id": "E31",
+        "span": [
+          330.0,
+          350.5
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "P1's snack ratings",
+            "emotion": "attentive engagement"
+          },
+          {
+            "subject": "P1",
+            "target": "evaluating the previously tasted snacks",
+            "emotion": "thoughtful composure and objective appraisal"
+          },
+          {
+            "subject": "P1",
+            "target": "scoring the pickled onion snack accurately",
+            "emotion": "deliberative assessment and prompt reconsideration"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's rating of the pickled onion crisps",
+            "emotion": "skeptical scrutiny"
+          }
+        ]
+      },
+      {
+        "id": "E32",
+        "span": [
+          350.5,
+          357.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "anticipation of the Cornish pasty and impersonating DaBaby",
+            "emotion": "playful excitement and humorous exuberance"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's sudden energetic comedic performance",
+            "emotion": "amused merriment"
+          }
+        ]
+      },
+      {
+        "id": "E33",
+        "span": [
+          357.5,
+          367.0
+        ],
+        "states": [
+          {
+            "subject": "P2",
+            "target": "P1's recurring comedic habit",
+            "emotion": "playful teasing and lingering amusement"
+          },
+          {
+            "subject": "P1",
+            "target": "P2's teasing commentary",
+            "emotion": "lighthearted banter"
+          },
+          {
+            "subject": "P1",
+            "target": "guessing the footballer reference",
+            "emotion": "playful amusement"
+          },
+          {
+            "subject": "P2",
+            "target": "teasing P1",
+            "emotion": "lighthearted mirth"
+          }
+        ]
+      },
+      {
+        "id": "E34",
+        "span": [
+          367.0,
+          388.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "appearance of the pie and mash",
+            "emotion": "disgust and skepticism"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's reaction and eating method",
+            "emotion": "mild deadpan amusement"
+          },
+          {
+            "subject": "P1",
+            "target": "appearance of the pie and mash",
+            "emotion": "repulsion and disgust"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's graphic comparison",
+            "emotion": "lighthearted amusement"
+          }
+        ]
+      },
+      {
+        "id": "E35",
+        "span": [
+          388.0,
+          396.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "hyping himself up to consume the British dish",
+            "emotion": "comedic excitement and mock patriotism"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's theatrical rally",
+            "emotion": "amused entertainment"
+          }
+        ]
+      },
+      {
+        "id": "E36",
+        "span": [
+          396.5,
+          402.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "taking the first mouthful",
+            "emotion": "squeamish reluctance and aversion"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's dramatic stalling",
+            "emotion": "amused exasperation"
+          }
+        ]
+      },
+      {
+        "id": "E37",
+        "span": [
+          401.5,
+          411.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "taste and texture of pie and mash",
+            "emotion": "acute disgust and revulsion"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's dramatic reaction",
+            "emotion": "amused skepticism"
+          }
+        ]
+      },
+      {
+        "id": "E38",
+        "span": [
+          412.0,
+          420.0
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "scone dish",
+            "emotion": "optimism and relief"
+          },
+          {
+            "subject": "P2",
+            "target": "P1's mistaken assumption",
+            "emotion": "mild deadpan amusement"
+          }
+        ]
+      },
+      {
+        "id": "E39",
+        "span": [
+          420.0,
+          429.5
+        ],
+        "states": [
+          {
+            "subject": "P1",
+            "target": "eating the scone",
+            "emotion": "eager anticipation and confidence"
+          },
+          {
+            "subject": "P2",
+            "target": "explaining the dish and its pronunciation",
+            "emotion": "relaxed engagement"
+          }
+        ]
+      }
+    ],
+    "coverage": {
+      "scope": [
+        0,
+        1128.56
+      ],
+      "candidate_events": 65,
+      "returned_events": 5,
+      "timeline_events": 39,
+      "omitted_event_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32",
+        "E33",
+        "E34",
+        "E35",
+        "E36",
+        "E37",
+        "E38",
+        "E39",
+        "E41",
+        "E42",
+        "E43",
+        "E44",
+        "E45",
+        "E46",
+        "E47",
+        "E48",
+        "E49",
+        "E50",
+        "E51",
+        "E52",
+        "E53",
+        "E54",
+        "E55",
+        "E57",
+        "E58",
+        "E59",
+        "E60",
+        "E61",
+        "E62",
+        "E63",
+        "E64",
+        "E65"
+      ],
+      "memory_source_windows": 57
+    }
+  },
+  "recall_trace": {
+    "algorithm": "semantic_dense_rrf_graph_v1",
+    "rrf_constant": 60,
+    "recall_k": 12,
+    "semantic": [
+      {
+        "id": "E56",
+        "score": 20.458797037090303,
+        "bm25": 11.458797037090305,
+        "entity_match": 2.333333333333333,
+        "target_match": 1.0
+      },
+      {
+        "id": "E53",
+        "score": 20.359338105049986,
+        "bm25": 11.859338105049986,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.75
+      },
+      {
+        "id": "E31",
+        "score": 19.802679865270434,
+        "bm25": 12.802679865270434,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.0
+      },
+      {
+        "id": "E5",
+        "score": 17.819401219495525,
+        "bm25": 8.319401219495525,
+        "entity_match": 2.333333333333333,
+        "target_match": 1.25
+      },
+      {
+        "id": "E12",
+        "score": 17.37257445513117,
+        "bm25": 8.872574455131168,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.75
+      },
+      {
+        "id": "E63",
+        "score": 17.0643701204135,
+        "bm25": 8.564370120413502,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.75
+      },
+      {
+        "id": "E8",
+        "score": 15.95784918746487,
+        "bm25": 6.45784918746487,
+        "entity_match": 2.333333333333333,
+        "target_match": 1.25
+      },
+      {
+        "id": "E64",
+        "score": 15.392794616952791,
+        "bm25": 5.892794616952792,
+        "entity_match": 2.333333333333333,
+        "target_match": 1.25
+      },
+      {
+        "id": "E24",
+        "score": 15.378321073021779,
+        "bm25": 7.878321073021779,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.25
+      },
+      {
+        "id": "E48",
+        "score": 15.291528277927814,
+        "bm25": 7.791528277927815,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.25
+      },
+      {
+        "id": "E55",
+        "score": 15.269167108350448,
+        "bm25": 7.76916710835045,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.25
+      },
+      {
+        "id": "E59",
+        "score": 15.255949338244204,
+        "bm25": 8.255949338244204,
+        "entity_match": 2.333333333333333,
+        "target_match": 0.0
+      }
+    ],
+    "dense": [
+      {
+        "id": "E40",
+        "cosine": 0.7232640385627747
+      },
+      {
+        "id": "E12",
+        "cosine": 0.7191203236579895
+      },
+      {
+        "id": "E19",
+        "cosine": 0.7122151851654053
+      },
+      {
+        "id": "E39",
+        "cosine": 0.7027594447135925
+      },
+      {
+        "id": "E38",
+        "cosine": 0.6950032711029053
+      },
+      {
+        "id": "E61",
+        "cosine": 0.6939836740493774
+      },
+      {
+        "id": "E20",
+        "cosine": 0.6929873824119568
+      },
+      {
+        "id": "E18",
+        "cosine": 0.6926108002662659
+      },
+      {
+        "id": "E32",
+        "cosine": 0.6917331218719482
+      },
+      {
+        "id": "E24",
+        "cosine": 0.6901602745056152
+      },
+      {
+        "id": "E34",
+        "cosine": 0.687653660774231
+      },
+      {
+        "id": "E56",
+        "cosine": 0.6875627040863037
+      }
+    ],
+    "fused": [
+      {
+        "id": "E12",
+        "rrf": 0.0315136476426799
+      },
+      {
+        "id": "E56",
+        "rrf": 0.03028233151183971
+      },
+      {
+        "id": "E24",
+        "rrf": 0.02877846790890269
+      },
+      {
+        "id": "E40",
+        "rrf": 0.01639344262295082
+      },
+      {
+        "id": "E53",
+        "rrf": 0.016129032258064516
+      },
+      {
+        "id": "E31",
+        "rrf": 0.015873015873015872
+      },
+      {
+        "id": "E19",
+        "rrf": 0.015873015873015872
+      },
+      {
+        "id": "E5",
+        "rrf": 0.015625
+      },
+      {
+        "id": "E39",
+        "rrf": 0.015625
+      },
+      {
+        "id": "E38",
+        "rrf": 0.015384615384615385
+      },
+      {
+        "id": "E63",
+        "rrf": 0.015151515151515152
+      },
+      {
+        "id": "E61",
+        "rrf": 0.015151515151515152
+      },
+      {
+        "id": "E8",
+        "rrf": 0.014925373134328358
+      },
+      {
+        "id": "E20",
+        "rrf": 0.014925373134328358
+      },
+      {
+        "id": "E64",
+        "rrf": 0.014705882352941176
+      },
+      {
+        "id": "E18",
+        "rrf": 0.014705882352941176
+      },
+      {
+        "id": "E32",
+        "rrf": 0.014492753623188406
+      },
+      {
+        "id": "E48",
+        "rrf": 0.014285714285714285
+      },
+      {
+        "id": "E55",
+        "rrf": 0.014084507042253521
+      },
+      {
+        "id": "E34",
+        "rrf": 0.014084507042253521
+      },
+      {
+        "id": "E59",
+        "rrf": 0.013888888888888888
+      }
+    ],
+    "graph_neighbor_ids": [
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E17",
+      "E18",
+      "E19",
+      "E20",
+      "E21",
+      "E23",
+      "E24",
+      "E25",
+      "E29",
+      "E30",
+      "E31",
+      "E32",
+      "E33",
+      "E34",
+      "E35",
+      "E37",
+      "E38",
+      "E39",
+      "E4",
+      "E40",
+      "E41",
+      "E47",
+      "E48",
+      "E49",
+      "E5",
+      "E52",
+      "E53",
+      "E54",
+      "E55",
+      "E56",
+      "E57",
+      "E58",
+      "E59",
+      "E6",
+      "E60",
+      "E61",
+      "E62",
+      "E63",
+      "E64",
+      "E65",
+      "E7",
+      "E8",
+      "E9"
+    ],
+    "selected_event_ids": [
+      "E11",
+      "E12",
+      "E24",
+      "E40",
+      "E56"
+    ]
+  },
+  "disclosure_state": null,
+  "inspection_trace": [],
+  "answer": {
+    "answer": "Party Rings biscuits.",
+    "evidence_ids": [
+      "O231",
+      "O232",
+      "O234",
+      "O236"
+    ],
+    "uncertainty": "Based on the supplied tasting reactions and ratings.",
+    "inspect": []
+  },
+  "invalid_evidence_ids": [],
+  "evidence_characters": 47252,
+  "usage": {
+    "attempts": 2,
+    "successful_calls": 2,
+    "missing_usage_attempts": 0,
+    "elapsed_api_seconds": 10.410547859966755,
+    "prompt_tokens": 16917,
+    "completion_tokens": 183,
+    "total_tokens": 17100,
+    "thought_tokens": 0,
+    "provider_reported_cost_usd": 0,
+    "missing_cost_attempts": 2
+  }
+}
