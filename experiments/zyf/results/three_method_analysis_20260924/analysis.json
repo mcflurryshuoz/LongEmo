@@ -1,0 +1,1711 @@
+{
+  "scope": "post-hoc descriptive analysis; no inference/answer/judge API calls",
+  "source_sha256": {
+    "questions": "be4da2e3381aef54d81d79e599549da311923ef2177d03e149ef994a81ca5a8f",
+    "window": "43d24fb99ae77532c03b5f90eb11b61b789b79b1cca6948adf71a5807d04e202",
+    "base": "6885a6b820b6bc22956f951b8480533b29a42dfc538b7ac9c262aba9bddac7f9",
+    "our": "9fcdd09949924ee1440ec84170271cfa6b2e3e6fa274c789846ca6074262f35c",
+    "temporal": "9d1b5362f582f0e914390af59d29d3121283d9ee2d3a1cfd9520ba01fd042805"
+  },
+  "common": {
+    "n": 476,
+    "videos": 129,
+    "scores": {
+      "Window-RAG": 51.575630252100844,
+      "Base": 57.89565826330532,
+      "Our Method": 59.97899159663866
+    }
+  },
+  "pairwise_cluster_bootstrap": [
+    {
+      "n": 476,
+      "a": "Our Method",
+      "b": "Base",
+      "delta": 2.0833333333333335,
+      "win": 62,
+      "tie": 381,
+      "loss": 33,
+      "gross_positive_points": 2550.0,
+      "gross_negative_points": -1558.3333333333333,
+      "median_delta": 0.0,
+      "delta_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.0,
+        "0.75": 0.0,
+        "0.9": 25.0
+      },
+      "video_clusters": 129,
+      "cluster_bootstrap_95ci": [
+        -0.034160061870568525,
+        4.2009264232008565
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "n": 476,
+      "a": "Our Method",
+      "b": "Window-RAG",
+      "delta": 8.403361344537815,
+      "win": 122,
+      "tie": 307,
+      "loss": 47,
+      "gross_positive_points": 6958.333333333334,
+      "gross_negative_points": -2958.3333333333335,
+      "median_delta": 0.0,
+      "delta_quantiles": {
+        "0.1": 0.0,
+        "0.25": 0.0,
+        "0.75": 25.0,
+        "0.9": 50.0
+      },
+      "video_clusters": 129,
+      "cluster_bootstrap_95ci": [
+        5.262206607832644,
+        11.528213420558906
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "n": 476,
+      "a": "Base",
+      "b": "Window-RAG",
+      "delta": 6.320028011204482,
+      "win": 104,
+      "tie": 310,
+      "loss": 62,
+      "gross_positive_points": 6566.666666666667,
+      "gross_negative_points": -3558.3333333333335,
+      "median_delta": 0.0,
+      "delta_quantiles": {
+        "0.1": -25.0,
+        "0.25": 0.0,
+        "0.75": 0.0,
+        "0.9": 83.33333333333334
+      },
+      "video_clusters": 129,
+      "cluster_bootstrap_95ci": [
+        2.9430474782118834,
+        9.68759300595238
+      ],
+      "bootstrap_replicates": 5000
+    }
+  ],
+  "by_task": [
+    {
+      "type": "emotion trajectory",
+      "n": 202,
+      "videos": 110,
+      "scores": {
+        "Window-RAG": 53.71287128712871,
+        "Base": 55.07425742574257,
+        "Our Method": 60.64356435643565
+      },
+      "our_vs_base": {
+        "n": 202,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 5.569306930693069,
+        "win": 45,
+        "tie": 138,
+        "loss": 19,
+        "gross_positive_points": 1650.0,
+        "gross_negative_points": -525.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 110,
+        "cluster_bootstrap_95ci": [
+          2.6879320276497696,
+          8.525482123746912
+        ],
+        "bootstrap_replicates": 5000
+      }
+    },
+    {
+      "type": "emotional intensity comparison",
+      "n": 161,
+      "videos": 102,
+      "scores": {
+        "Window-RAG": 39.130434782608695,
+        "Base": 51.5527950310559,
+        "Our Method": 49.06832298136646
+      },
+      "our_vs_base": {
+        "n": 161,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": -2.484472049689441,
+        "win": 4,
+        "tie": 149,
+        "loss": 8,
+        "gross_positive_points": 400.0,
+        "gross_negative_points": -800.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 0.0
+        },
+        "video_clusters": 102,
+        "cluster_bootstrap_95ci": [
+          -6.666666666666667,
+          1.8404907975460123
+        ],
+        "bootstrap_replicates": 5000
+      }
+    },
+    {
+      "type": "emotional reasoning",
+      "n": 113,
+      "videos": 79,
+      "scores": {
+        "Window-RAG": 65.48672566371681,
+        "Base": 71.976401179941,
+        "Our Method": 74.33628318584071
+      },
+      "our_vs_base": {
+        "n": 113,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 2.359882005899706,
+        "win": 13,
+        "tie": 94,
+        "loss": 6,
+        "gross_positive_points": 500.00000000000006,
+        "gross_negative_points": -233.33333333333334,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 33.33333333333333
+        },
+        "video_clusters": 79,
+        "cluster_bootstrap_95ci": [
+          -0.617283950617283,
+          5.510789715335155
+        ],
+        "bootstrap_replicates": 5000
+      }
+    }
+  ],
+  "by_series": [
+    {
+      "series": "Frasier",
+      "n": 75,
+      "videos": 23,
+      "scores": {
+        "Window-RAG": 45.111111111111114,
+        "Base": 57.44444444444444,
+        "Our Method": 61.55555555555556
+      },
+      "our_vs_base": {
+        "n": 75,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 4.111111111111112,
+        "win": 13,
+        "tie": 59,
+        "loss": 3,
+        "gross_positive_points": 541.6666666666666,
+        "gross_negative_points": -233.33333333333331,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 23,
+        "cluster_bootstrap_95ci": [
+          -2.6674019607843134,
+          11.531911662617143
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "series": "Friends",
+      "n": 92,
+      "videos": 22,
+      "scores": {
+        "Window-RAG": 57.2463768115942,
+        "Base": 59.42028985507247,
+        "Our Method": 63.13405797101449
+      },
+      "our_vs_base": {
+        "n": 92,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 3.7137681159420293,
+        "win": 16,
+        "tie": 71,
+        "loss": 5,
+        "gross_positive_points": 566.6666666666667,
+        "gross_negative_points": -225.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 22,
+        "cluster_bootstrap_95ci": [
+          -0.5380824372759856,
+          7.950406819062379
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "series": "Home with Kids",
+      "n": 11,
+      "videos": 5,
+      "scores": {
+        "Window-RAG": 43.93939393939394,
+        "Base": 41.666666666666664,
+        "Our Method": 43.93939393939394
+      },
+      "our_vs_base": {
+        "n": 11,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 2.272727272727273,
+        "win": 1,
+        "tie": 10,
+        "loss": 0,
+        "gross_positive_points": 25.0,
+        "gross_negative_points": 0.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 0.0
+        },
+        "video_clusters": 5,
+        "cluster_bootstrap_95ci": [
+          0.0,
+          7.5
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "series": "Malcolm in the Middle",
+      "n": 56,
+      "videos": 10,
+      "scores": {
+        "Window-RAG": 46.13095238095239,
+        "Base": 51.339285714285715,
+        "Our Method": 57.44047619047619
+      },
+      "our_vs_base": {
+        "n": 56,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 6.101190476190476,
+        "win": 8,
+        "tie": 47,
+        "loss": 1,
+        "gross_positive_points": 366.6666666666667,
+        "gross_negative_points": -25.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 33.333333333333336
+        },
+        "video_clusters": 10,
+        "cluster_bootstrap_95ci": [
+          2.2981974921630095,
+          10.063724600870824
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "series": "Modern Family",
+      "n": 78,
+      "videos": 20,
+      "scores": {
+        "Window-RAG": 49.25213675213675,
+        "Base": 57.47863247863248,
+        "Our Method": 59.82905982905983
+      },
+      "our_vs_base": {
+        "n": 78,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 2.3504273504273505,
+        "win": 14,
+        "tie": 59,
+        "loss": 5,
+        "gross_positive_points": 541.6666666666666,
+        "gross_negative_points": -358.3333333333333,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 20,
+        "cluster_bootstrap_95ci": [
+          -3.009548611111111,
+          7.329616083381143
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "series": "unclassified",
+      "n": 164,
+      "videos": 49,
+      "scores": {
+        "Window-RAG": 54.82723577235772,
+        "Base": 60.77235772357723,
+        "Our Method": 59.50203252032521
+      },
+      "our_vs_base": {
+        "n": 164,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": -1.2703252032520325,
+        "win": 10,
+        "tie": 135,
+        "loss": 19,
+        "gross_positive_points": 508.33333333333337,
+        "gross_negative_points": -716.6666666666667,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": -25.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 0.0
+        },
+        "video_clusters": 49,
+        "cluster_bootstrap_95ci": [
+          -4.399963336783989,
+          1.9231859410430836
+        ],
+        "bootstrap_replicates": 2000
+      }
+    }
+  ],
+  "series_by_task": [
+    {
+      "series": "Frasier",
+      "type": "emotion trajectory",
+      "n": 30,
+      "videos": 20,
+      "scores": {
+        "Window-RAG": 55.0,
+        "Base": 52.5,
+        "Our Method": 65.0
+      }
+    },
+    {
+      "series": "Frasier",
+      "type": "emotional intensity comparison",
+      "n": 31,
+      "videos": 22,
+      "scores": {
+        "Window-RAG": 22.580645161290324,
+        "Base": 51.61290322580645,
+        "Our Method": 48.38709677419355
+      }
+    },
+    {
+      "series": "Frasier",
+      "type": "emotional reasoning",
+      "n": 14,
+      "videos": 12,
+      "scores": {
+        "Window-RAG": 73.80952380952381,
+        "Base": 80.95238095238095,
+        "Our Method": 83.33333333333334
+      }
+    },
+    {
+      "series": "Friends",
+      "type": "emotion trajectory",
+      "n": 46,
+      "videos": 21,
+      "scores": {
+        "Window-RAG": 56.52173913043478,
+        "Base": 52.17391304347826,
+        "Our Method": 60.32608695652174
+      }
+    },
+    {
+      "series": "Friends",
+      "type": "emotional intensity comparison",
+      "n": 26,
+      "videos": 16,
+      "scores": {
+        "Window-RAG": 42.30769230769231,
+        "Base": 53.84615384615385,
+        "Our Method": 50.0
+      }
+    },
+    {
+      "series": "Friends",
+      "type": "emotional reasoning",
+      "n": 20,
+      "videos": 12,
+      "scores": {
+        "Window-RAG": 78.33333333333333,
+        "Base": 83.33333333333333,
+        "Our Method": 86.66666666666666
+      }
+    },
+    {
+      "series": "Home with Kids",
+      "type": "emotion trajectory",
+      "n": 5,
+      "videos": 5,
+      "scores": {
+        "Window-RAG": 50.0,
+        "Base": 45.0,
+        "Our Method": 50.0
+      }
+    },
+    {
+      "series": "Home with Kids",
+      "type": "emotional intensity comparison",
+      "n": 2,
+      "videos": 2,
+      "scores": {
+        "Window-RAG": 50.0,
+        "Base": 50.0,
+        "Our Method": 50.0
+      }
+    },
+    {
+      "series": "Home with Kids",
+      "type": "emotional reasoning",
+      "n": 4,
+      "videos": 4,
+      "scores": {
+        "Window-RAG": 33.33333333333333,
+        "Base": 33.33333333333333,
+        "Our Method": 33.33333333333333
+      }
+    },
+    {
+      "series": "Malcolm in the Middle",
+      "type": "emotion trajectory",
+      "n": 22,
+      "videos": 10,
+      "scores": {
+        "Window-RAG": 56.81818181818182,
+        "Base": 53.40909090909091,
+        "Our Method": 65.9090909090909
+      }
+    },
+    {
+      "series": "Malcolm in the Middle",
+      "type": "emotional intensity comparison",
+      "n": 24,
+      "videos": 10,
+      "scores": {
+        "Window-RAG": 29.166666666666668,
+        "Base": 41.666666666666664,
+        "Our Method": 41.666666666666664
+      }
+    },
+    {
+      "series": "Malcolm in the Middle",
+      "type": "emotional reasoning",
+      "n": 10,
+      "videos": 9,
+      "scores": {
+        "Window-RAG": 63.33333333333333,
+        "Base": 70.0,
+        "Our Method": 76.66666666666666
+      }
+    },
+    {
+      "series": "Modern Family",
+      "type": "emotion trajectory",
+      "n": 36,
+      "videos": 18,
+      "scores": {
+        "Window-RAG": 52.083333333333336,
+        "Base": 54.166666666666664,
+        "Our Method": 63.888888888888886
+      }
+    },
+    {
+      "series": "Modern Family",
+      "type": "emotional intensity comparison",
+      "n": 27,
+      "videos": 15,
+      "scores": {
+        "Window-RAG": 37.03703703703704,
+        "Base": 51.851851851851855,
+        "Our Method": 44.44444444444444
+      }
+    },
+    {
+      "series": "Modern Family",
+      "type": "emotional reasoning",
+      "n": 15,
+      "videos": 13,
+      "scores": {
+        "Window-RAG": 64.44444444444444,
+        "Base": 75.55555555555556,
+        "Our Method": 77.77777777777777
+      }
+    },
+    {
+      "series": "unclassified",
+      "type": "emotion trajectory",
+      "n": 63,
+      "videos": 36,
+      "scores": {
+        "Window-RAG": 51.19047619047619,
+        "Base": 60.317460317460316,
+        "Our Method": 55.95238095238095
+      }
+    },
+    {
+      "series": "unclassified",
+      "type": "emotional intensity comparison",
+      "n": 51,
+      "videos": 37,
+      "scores": {
+        "Window-RAG": 52.94117647058823,
+        "Base": 54.90196078431372,
+        "Our Method": 54.90196078431372
+      }
+    },
+    {
+      "series": "unclassified",
+      "type": "emotional reasoning",
+      "n": 50,
+      "videos": 29,
+      "scores": {
+        "Window-RAG": 61.33333333333333,
+        "Base": 67.33333333333333,
+        "Our Method": 68.66666666666666
+      }
+    }
+  ],
+  "coverage": {
+    "Window-RAG": {
+      "scored": 502,
+      "total": 558,
+      "coverage_percent": 89.96415770609319,
+      "scored_mean": 51.64342629482072,
+      "status_counts": {
+        "scored": 502,
+        "error": 1,
+        "prior_explicit_backend_refusal": 22,
+        "index_failed": 8,
+        "missing_complete_observations": 25
+      },
+      "all558_bound_if_missing_0": 46.46057347670251,
+      "all558_bound_if_missing_100": 56.49641577060932
+    },
+    "Base": {
+      "scored": 517,
+      "total": 558,
+      "coverage_percent": 92.65232974910394,
+      "scored_mean": 57.62411347517731,
+      "status_counts": {
+        "scored": 517,
+        "blocked_question_policy": 2,
+        "blocked_judge_policy": 1,
+        "frontend_failed": 33,
+        "blocked_input_policy": 5
+      },
+      "all558_bound_if_missing_0": 53.39008363201912,
+      "all558_bound_if_missing_100": 60.73775388291518
+    },
+    "Our Method": {
+      "scored": 511,
+      "total": 558,
+      "coverage_percent": 91.57706093189964,
+      "scored_mean": 60.24135681669928,
+      "status_counts": {
+        "ok": 511,
+        "missing_prediction": 8,
+        "error": 1,
+        "outside_run_selection": 38
+      },
+      "all558_bound_if_missing_0": 55.16726403823178,
+      "all558_bound_if_missing_100": 63.59020310633213
+    }
+  },
+  "coverage_by_group": [
+    {
+      "dimension": "type",
+      "group": "emotion trajectory",
+      "total": 235,
+      "methods": {
+        "Window-RAG": {
+          "scored": 211,
+          "coverage_percent": 89.7872340425532,
+          "status_counts": {
+            "scored": 211,
+            "prior_explicit_backend_refusal": 10,
+            "index_failed": 3,
+            "missing_complete_observations": 11
+          }
+        },
+        "Base": {
+          "scored": 221,
+          "coverage_percent": 94.04255319148936,
+          "status_counts": {
+            "scored": 221,
+            "blocked_question_policy": 1,
+            "frontend_failed": 11,
+            "blocked_input_policy": 2
+          }
+        },
+        "Our Method": {
+          "scored": 217,
+          "coverage_percent": 92.34042553191489,
+          "status_counts": {
+            "ok": 217,
+            "missing_prediction": 4,
+            "error": 1,
+            "outside_run_selection": 13
+          }
+        }
+      }
+    },
+    {
+      "dimension": "type",
+      "group": "emotional intensity comparison",
+      "total": 194,
+      "methods": {
+        "Window-RAG": {
+          "scored": 174,
+          "coverage_percent": 89.69072164948453,
+          "status_counts": {
+            "scored": 174,
+            "prior_explicit_backend_refusal": 6,
+            "index_failed": 4,
+            "missing_complete_observations": 10
+          }
+        },
+        "Base": {
+          "scored": 174,
+          "coverage_percent": 89.69072164948453,
+          "status_counts": {
+            "scored": 174,
+            "frontend_failed": 17,
+            "blocked_input_policy": 3
+          }
+        },
+        "Our Method": {
+          "scored": 173,
+          "coverage_percent": 89.17525773195877,
+          "status_counts": {
+            "ok": 173,
+            "missing_prediction": 1,
+            "outside_run_selection": 20
+          }
+        }
+      }
+    },
+    {
+      "dimension": "type",
+      "group": "emotional reasoning",
+      "total": 129,
+      "methods": {
+        "Window-RAG": {
+          "scored": 117,
+          "coverage_percent": 90.69767441860465,
+          "status_counts": {
+            "scored": 117,
+            "error": 1,
+            "prior_explicit_backend_refusal": 6,
+            "index_failed": 1,
+            "missing_complete_observations": 4
+          }
+        },
+        "Base": {
+          "scored": 122,
+          "coverage_percent": 94.57364341085271,
+          "status_counts": {
+            "scored": 122,
+            "blocked_question_policy": 1,
+            "blocked_judge_policy": 1,
+            "frontend_failed": 5
+          }
+        },
+        "Our Method": {
+          "scored": 121,
+          "coverage_percent": 93.7984496124031,
+          "status_counts": {
+            "ok": 121,
+            "missing_prediction": 3,
+            "outside_run_selection": 5
+          }
+        }
+      }
+    },
+    {
+      "dimension": "series",
+      "group": "Frasier",
+      "total": 88,
+      "methods": {
+        "Window-RAG": {
+          "scored": 76,
+          "coverage_percent": 86.36363636363636,
+          "status_counts": {
+            "prior_explicit_backend_refusal": 8,
+            "scored": 76,
+            "index_failed": 4
+          }
+        },
+        "Base": {
+          "scored": 88,
+          "coverage_percent": 100.0,
+          "status_counts": {
+            "scored": 88
+          }
+        },
+        "Our Method": {
+          "scored": 86,
+          "coverage_percent": 97.72727272727273,
+          "status_counts": {
+            "ok": 86,
+            "missing_prediction": 2
+          }
+        }
+      }
+    },
+    {
+      "dimension": "series",
+      "group": "Friends",
+      "total": 104,
+      "methods": {
+        "Window-RAG": {
+          "scored": 93,
+          "coverage_percent": 89.42307692307692,
+          "status_counts": {
+            "scored": 93,
+            "prior_explicit_backend_refusal": 6,
+            "missing_complete_observations": 5
+          }
+        },
+        "Base": {
+          "scored": 101,
+          "coverage_percent": 97.11538461538461,
+          "status_counts": {
+            "scored": 101,
+            "blocked_question_policy": 2,
+            "blocked_judge_policy": 1
+          }
+        },
+        "Our Method": {
+          "scored": 100,
+          "coverage_percent": 96.15384615384616,
+          "status_counts": {
+            "ok": 100,
+            "error": 1,
+            "missing_prediction": 3
+          }
+        }
+      }
+    },
+    {
+      "dimension": "series",
+      "group": "Home with Kids",
+      "total": 11,
+      "methods": {
+        "Window-RAG": {
+          "scored": 11,
+          "coverage_percent": 100.0,
+          "status_counts": {
+            "scored": 11
+          }
+        },
+        "Base": {
+          "scored": 11,
+          "coverage_percent": 100.0,
+          "status_counts": {
+            "scored": 11
+          }
+        },
+        "Our Method": {
+          "scored": 11,
+          "coverage_percent": 100.0,
+          "status_counts": {
+            "ok": 11
+          }
+        }
+      }
+    },
+    {
+      "dimension": "series",
+      "group": "Malcolm in the Middle",
+      "total": 90,
+      "methods": {
+        "Window-RAG": {
+          "scored": 74,
+          "coverage_percent": 82.22222222222223,
+          "status_counts": {
+            "scored": 74,
+            "missing_complete_observations": 16
+          }
+        },
+        "Base": {
+          "scored": 56,
+          "coverage_percent": 62.22222222222222,
+          "status_counts": {
+            "scored": 56,
+            "frontend_failed": 29,
+            "blocked_input_policy": 5
+          }
+        },
+        "Our Method": {
+          "scored": 56,
+          "coverage_percent": 62.22222222222222,
+          "status_counts": {
+            "ok": 56,
+            "outside_run_selection": 34
+          }
+        }
+      }
+    },
+    {
+      "dimension": "series",
+      "group": "Modern Family",
+      "total": 93,
+      "methods": {
+        "Window-RAG": {
+          "scored": 82,
+          "coverage_percent": 88.17204301075269,
+          "status_counts": {
+            "scored": 82,
+            "prior_explicit_backend_refusal": 7,
+            "missing_complete_observations": 4
+          }
+        },
+        "Base": {
+          "scored": 89,
+          "coverage_percent": 95.6989247311828,
+          "status_counts": {
+            "scored": 89,
+            "frontend_failed": 4
+          }
+        },
+        "Our Method": {
+          "scored": 88,
+          "coverage_percent": 94.6236559139785,
+          "status_counts": {
+            "ok": 88,
+            "outside_run_selection": 4,
+            "missing_prediction": 1
+          }
+        }
+      }
+    },
+    {
+      "dimension": "series",
+      "group": "unclassified",
+      "total": 172,
+      "methods": {
+        "Window-RAG": {
+          "scored": 166,
+          "coverage_percent": 96.51162790697674,
+          "status_counts": {
+            "scored": 166,
+            "error": 1,
+            "prior_explicit_backend_refusal": 1,
+            "index_failed": 4
+          }
+        },
+        "Base": {
+          "scored": 172,
+          "coverage_percent": 100.0,
+          "status_counts": {
+            "scored": 172
+          }
+        },
+        "Our Method": {
+          "scored": 170,
+          "coverage_percent": 98.83720930232558,
+          "status_counts": {
+            "ok": 170,
+            "missing_prediction": 2
+          }
+        }
+      }
+    }
+  ],
+  "score_distribution": {
+    "Window-RAG": {
+      "zero": 121,
+      "partial": 237,
+      "full": 118
+    },
+    "Base": {
+      "zero": 95,
+      "partial": 225,
+      "full": 156
+    },
+    "Our Method": {
+      "zero": 99,
+      "partial": 209,
+      "full": 168
+    }
+  },
+  "base_to_our_transitions": [
+    {
+      "base": "zero",
+      "our": "zero",
+      "n": 90
+    },
+    {
+      "base": "zero",
+      "our": "partial",
+      "n": 0
+    },
+    {
+      "base": "zero",
+      "our": "full",
+      "n": 5
+    },
+    {
+      "base": "partial",
+      "our": "zero",
+      "n": 1
+    },
+    {
+      "base": "partial",
+      "our": "partial",
+      "n": 199
+    },
+    {
+      "base": "partial",
+      "our": "full",
+      "n": 25
+    },
+    {
+      "base": "full",
+      "our": "zero",
+      "n": 8
+    },
+    {
+      "base": "full",
+      "our": "partial",
+      "n": 10
+    },
+    {
+      "base": "full",
+      "our": "full",
+      "n": 138
+    }
+  ],
+  "macro_averages": {
+    "Window-RAG": {
+      "task_macro": 52.776677244484745,
+      "series_macro": 49.41786779459102,
+      "video_macro": 50.122431401501174
+    },
+    "Base": {
+      "task_macro": 59.53448454557983,
+      "series_macro": 54.68694614711317,
+      "video_macro": 58.12276977974652
+    },
+    "Our Method": {
+      "task_macro": 61.34939017454761,
+      "series_macro": 57.56676266763753,
+      "video_macro": 59.65593084779131
+    }
+  },
+  "leave_one_series_out": [
+    {
+      "excluded_series": "Frasier",
+      "n": 401,
+      "videos": 106,
+      "scores": {
+        "Window-RAG": 52.78470490440566,
+        "Base": 57.98004987531172,
+        "Our Method": 59.684123025768905
+      },
+      "delta_our_base": 1.7040731504571904
+    },
+    {
+      "excluded_series": "Friends",
+      "n": 384,
+      "videos": 107,
+      "scores": {
+        "Window-RAG": 50.217013888888886,
+        "Base": 57.53038194444445,
+        "Our Method": 59.22309027777778
+      },
+      "delta_our_base": 1.6927083333333333
+    },
+    {
+      "excluded_series": "Home with Kids",
+      "n": 465,
+      "videos": 124,
+      "scores": {
+        "Window-RAG": 51.7562724014337,
+        "Base": 58.27956989247312,
+        "Our Method": 60.358422939068106
+      },
+      "delta_our_base": 2.078853046594982
+    },
+    {
+      "excluded_series": "Malcolm in the Middle",
+      "n": 420,
+      "videos": 119,
+      "scores": {
+        "Window-RAG": 52.301587301587304,
+        "Base": 58.769841269841265,
+        "Our Method": 60.317460317460316
+      },
+      "delta_our_base": 1.5476190476190477
+    },
+    {
+      "excluded_series": "Modern Family",
+      "n": 398,
+      "videos": 109,
+      "scores": {
+        "Window-RAG": 52.030988274706864,
+        "Base": 57.97738693467337,
+        "Our Method": 60.00837520938023
+      },
+      "delta_our_base": 2.0309882747068677
+    },
+    {
+      "excluded_series": "unclassified",
+      "n": 312,
+      "videos": 80,
+      "scores": {
+        "Window-RAG": 49.866452991452995,
+        "Base": 56.38354700854701,
+        "Our Method": 60.22970085470086
+      },
+      "delta_our_base": 3.8461538461538463
+    }
+  ],
+  "window_source_strata": [
+    {
+      "window_rag_source_group": "current_method",
+      "n": 85,
+      "videos": 27,
+      "scores": {
+        "Window-RAG": 49.705882352941174,
+        "Base": 64.41176470588235,
+        "Our Method": 62.45098039215686
+      },
+      "our_vs_base": {
+        "n": 85,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": -1.9607843137254897,
+        "win": 8,
+        "tie": 65,
+        "loss": 12,
+        "gross_positive_points": 316.6666666666667,
+        "gross_negative_points": -483.3333333333333,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": -25.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 0.0
+        },
+        "video_clusters": 27,
+        "cluster_bootstrap_95ci": [
+          -5.802227898937522,
+          1.81992337164751
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "window_rag_source_group": "historical_graph",
+      "n": 250,
+      "videos": 66,
+      "scores": {
+        "Window-RAG": 54.733333333333334,
+        "Base": 57.53333333333334,
+        "Our Method": 59.93333333333334
+      },
+      "our_vs_base": {
+        "n": 250,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 2.4,
+        "win": 33,
+        "tie": 201,
+        "loss": 16,
+        "gross_positive_points": 1425.0,
+        "gross_negative_points": -825.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 66,
+        "cluster_bootstrap_95ci": [
+          -0.7040834956183057,
+          5.545257710181663
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "window_rag_source_group": "independent_window",
+      "n": 101,
+      "videos": 27,
+      "scores": {
+        "Window-RAG": 46.12211221122112,
+        "Base": 58.25082508250825,
+        "Our Method": 61.386138613861384
+      },
+      "our_vs_base": {
+        "n": 101,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 3.1353135313531353,
+        "win": 15,
+        "tie": 83,
+        "loss": 3,
+        "gross_positive_points": 508.33333333333337,
+        "gross_negative_points": -191.66666666666666,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 27,
+        "cluster_bootstrap_95ci": [
+          -0.4435033148319455,
+          6.156418918918918
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "window_rag_source_group": "new_provider_missing_windows",
+      "n": 40,
+      "videos": 9,
+      "scores": {
+        "Window-RAG": 49.58333333333333,
+        "Base": 45.41666666666667,
+        "Our Method": 51.458333333333336
+      },
+      "our_vs_base": {
+        "n": 40,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 6.041666666666666,
+        "win": 6,
+        "tie": 32,
+        "loss": 2,
+        "gross_positive_points": 300.0,
+        "gross_negative_points": -58.33333333333334,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 9,
+        "cluster_bootstrap_95ci": [
+          -1.6666666666666672,
+          14.914473684210513
+        ],
+        "bootstrap_replicates": 2000
+      }
+    }
+  ],
+  "trajectory_reference_complexity": [
+    {
+      "reference_stage_count": "1–3",
+      "n": 41,
+      "videos": 31,
+      "scores": {
+        "Window-RAG": 64.02439024390245,
+        "Base": 64.63414634146342,
+        "Our Method": 70.73170731707317
+      },
+      "our_vs_base": {
+        "n": 41,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 6.097560975609756,
+        "win": 9,
+        "tie": 25,
+        "loss": 7,
+        "gross_positive_points": 450.0,
+        "gross_negative_points": -200.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": -25.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 50.0
+        },
+        "video_clusters": 31,
+        "cluster_bootstrap_95ci": [
+          -1.1904761904761905,
+          15.131578947368421
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "reference_stage_count": "4–6",
+      "n": 147,
+      "videos": 89,
+      "scores": {
+        "Window-RAG": 51.19047619047619,
+        "Base": 52.89115646258504,
+        "Our Method": 58.673469387755105
+      },
+      "our_vs_base": {
+        "n": 147,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 5.782312925170068,
+        "win": 35,
+        "tie": 100,
+        "loss": 12,
+        "gross_positive_points": 1175.0,
+        "gross_negative_points": -325.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 25.0
+        },
+        "video_clusters": 89,
+        "cluster_bootstrap_95ci": [
+          2.7582035595105676,
+          8.916396103896103
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "reference_stage_count": "7+",
+      "n": 14,
+      "videos": 11,
+      "scores": {
+        "Window-RAG": 50.0,
+        "Base": 50.0,
+        "Our Method": 51.785714285714285
+      },
+      "our_vs_base": {
+        "n": 14,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 1.7857142857142858,
+        "win": 1,
+        "tie": 13,
+        "loss": 0,
+        "gross_positive_points": 25.0,
+        "gross_negative_points": 0.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 0.0
+        },
+        "video_clusters": 11,
+        "cluster_bootstrap_95ci": [
+          0.0,
+          6.25
+        ],
+        "bootstrap_replicates": 2000
+      }
+    }
+  ],
+  "reasoning_rubric_groups": [
+    {
+      "rubric_max_score": 1,
+      "n": 35,
+      "videos": 27,
+      "scores": {
+        "Window-RAG": 37.142857142857146,
+        "Base": 54.285714285714285,
+        "Our Method": 57.142857142857146
+      },
+      "our_vs_base": {
+        "n": 35,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 2.857142857142857,
+        "win": 1,
+        "tie": 34,
+        "loss": 0,
+        "gross_positive_points": 100.0,
+        "gross_negative_points": 0.0,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 0.0
+        },
+        "video_clusters": 27,
+        "cluster_bootstrap_95ci": [
+          0.0,
+          9.090909090909092
+        ],
+        "bootstrap_replicates": 2000
+      }
+    },
+    {
+      "rubric_max_score": 3,
+      "n": 78,
+      "videos": 58,
+      "scores": {
+        "Window-RAG": 78.2051282051282,
+        "Base": 79.91452991452991,
+        "Our Method": 82.05128205128206
+      },
+      "our_vs_base": {
+        "n": 78,
+        "a": "Our Method",
+        "b": "Base",
+        "delta": 2.1367521367521376,
+        "win": 12,
+        "tie": 60,
+        "loss": 6,
+        "gross_positive_points": 400.00000000000006,
+        "gross_negative_points": -233.33333333333334,
+        "median_delta": 0.0,
+        "delta_quantiles": {
+          "0.1": 0.0,
+          "0.25": 0.0,
+          "0.75": 0.0,
+          "0.9": 33.33333333333334
+        },
+        "video_clusters": 58,
+        "cluster_bootstrap_95ci": [
+          -1.8030530530530524,
+          5.88297344254157
+        ],
+        "bootstrap_replicates": 2000
+      }
+    }
+  ],
+  "case_candidates": [
+    {
+      "selection": "our_improves_base",
+      "total": 62,
+      "rule": "extreme paired delta, then QID; all-zero by QID; candidates only, no causal diagnosis",
+      "examples": [
+        {
+          "question_id": "G2_Q000010",
+          "video_id": "G2_V000005",
+          "type": "emotional reasoning",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 100.0,
+            "Base": 0.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000026",
+          "video_id": "G2_V000012",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 100.0,
+            "Base": 0.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000203",
+          "video_id": "G2_V000062",
+          "type": "emotional intensity comparison",
+          "series": "Frasier",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000298",
+          "video_id": "G2_V000084",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000537",
+          "video_id": "G2_V000136",
+          "type": "emotional intensity comparison",
+          "series": "Modern Family",
+          "scores": {
+            "Window-RAG": 100.0,
+            "Base": 0.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000205",
+          "video_id": "G2_V000062",
+          "type": "emotion trajectory",
+          "series": "Frasier",
+          "scores": {
+            "Window-RAG": 50.0,
+            "Base": 25.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000339",
+          "video_id": "G2_V000092",
+          "type": "emotion trajectory",
+          "series": "Friends",
+          "scores": {
+            "Window-RAG": 50.0,
+            "Base": 25.0,
+            "Our Method": 100.0
+          }
+        },
+        {
+          "question_id": "G2_Q000345",
+          "video_id": "G2_V000093",
+          "type": "emotion trajectory",
+          "series": "Friends",
+          "scores": {
+            "Window-RAG": 75.0,
+            "Base": 25.0,
+            "Our Method": 100.0
+          }
+        }
+      ]
+    },
+    {
+      "selection": "our_regresses_base",
+      "total": 33,
+      "rule": "extreme paired delta, then QID; all-zero by QID; candidates only, no causal diagnosis",
+      "examples": [
+        {
+          "question_id": "G2_Q000012",
+          "video_id": "G2_V000006",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 100.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000098",
+          "video_id": "G2_V000034",
+          "type": "emotional intensity comparison",
+          "series": "Frasier",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000148",
+          "video_id": "G2_V000047",
+          "type": "emotional intensity comparison",
+          "series": "Frasier",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000261",
+          "video_id": "G2_V000073",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 100.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000305",
+          "video_id": "G2_V000085",
+          "type": "emotional intensity comparison",
+          "series": "Friends",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000507",
+          "video_id": "G2_V000128",
+          "type": "emotional intensity comparison",
+          "series": "Modern Family",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000532",
+          "video_id": "G2_V000135",
+          "type": "emotional intensity comparison",
+          "series": "Modern Family",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000545",
+          "video_id": "G2_V000138",
+          "type": "emotional intensity comparison",
+          "series": "Modern Family",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 100.0,
+            "Our Method": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "selection": "all_zero",
+      "total": 70,
+      "rule": "extreme paired delta, then QID; all-zero by QID; candidates only, no causal diagnosis",
+      "examples": [
+        {
+          "question_id": "G2_Q000003",
+          "video_id": "G2_V000002",
+          "type": "emotional reasoning",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000006",
+          "video_id": "G2_V000003",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000007",
+          "video_id": "G2_V000003",
+          "type": "emotional reasoning",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000011",
+          "video_id": "G2_V000005",
+          "type": "emotional reasoning",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000013",
+          "video_id": "G2_V000006",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000028",
+          "video_id": "G2_V000013",
+          "type": "emotional reasoning",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000037",
+          "video_id": "G2_V000015",
+          "type": "emotional reasoning",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        },
+        {
+          "question_id": "G2_Q000038",
+          "video_id": "G2_V000015",
+          "type": "emotional intensity comparison",
+          "series": "unclassified",
+          "scores": {
+            "Window-RAG": 0.0,
+            "Base": 0.0,
+            "Our Method": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "complementarity": {
+    "per_question_oracle_mean": 68.46988795518207,
+    "our_below_base": 33,
+    "our_below_window": 47,
+    "all_zero": 70
+  },
+  "limitations": [
+    "Same QIDs do not ensure identical perception/provider/budget. Window source strata describe only Window-RAG lineage, not matched caches.",
+    "Cluster bootstrap samples videos with replacement and retains all questions within each sampled video; descriptive 95% percentile intervals, no multiple-testing adjustment, no judge-randomness estimate.",
+    "Video duration is not necessary evidence span; stage count is not temporal distance.",
+    "No comparable raw predictions/retrieval traces/usage ledgers loaded for all three methods: retrieval recall, error causality, token cost and per-question latency not estimated.",
+    "Missing values are not zero. Full558 bounds are sensitivity bounds only, not reported benchmark scores."
+  ]
+}
