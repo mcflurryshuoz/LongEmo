@@ -1,5 +1,12 @@
 # LongEmoBench
 
+<!-- WINDOW_RAG_TOP8:START -->
+## Window-RAG 单次窗口检索基线（运行中）
+
+136个缓存视频、511道可执行题；Top-8单次检索＋一次回答，无事件结构、无规划或渐进检索。24视频×每视频2题并发。启动快照43/558、52.71分，尚不能判断优劣。[结果与协议](experiments/zyf/results/window_rag_top8_20260924/report.md)。
+<!-- WINDOW_RAG_TOP8:END -->
+
+
 <!-- LONGEMO_SHARED_OBS:START -->
 ## noevent 全集评测（运行中）
 

@@ -1,0 +1,37 @@
+{
+  "process": {
+    "pid": 220824,
+    "start_ticks": "16197023"
+  },
+  "configuration_sha256": "2cd1356bd55b82505ee2235e61ab5667537805d30550935dd69593478f437a27",
+  "driver_sha256": "4bfa60a611c1044a7a3aa0bf2f5916dcd7a91510650a98c2e93cb29f4b11f1c3",
+  "core_hash": "3d6a25163bf169c6c5d6a91abcd92da19df27c530d66fa92e6f58c1ca7efaa1e",
+  "videos": 136,
+  "eligible": 511,
+  "total": 558,
+  "source_groups": {
+    "current_method": 29,
+    "independent_window": 27,
+    "historical_graph": 67,
+    "new_provider_missing_windows": 13
+  },
+  "workers": 24,
+  "question_workers": 2,
+  "embedding_workers": 2,
+  "top_k": 8,
+  "retrieval_rounds": 1,
+  "planner_calls": 0,
+  "answer_tries": 1,
+  "judge_tries": 1,
+  "evidence_chars": 48000,
+  "input_tokens": 24000,
+  "old_scores_protected": 1089,
+  "tests_passed": 8,
+  "as_of": "2026-09-24T03:52:39.830685+00:00",
+  "score_snapshot": {
+    "total": 558,
+    "scored": 43,
+    "mean_scored": 52.71317829457365
+  },
+  "scope": "Simple one-shot baseline. Versus progressive method, both event organization and retrieval protocol differ; not sole proof of event contribution. No score-targeted tuning."
+}
